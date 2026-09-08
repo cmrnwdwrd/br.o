@@ -1,13 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="BottleRag">
-<meta name="theme-color" content="#111111">
-<link rel="manifest" href="manifest.webmanifest">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="BottleRag" name="apple-mobile-web-app-title"/>
+<meta content="#111111" name="theme-color"/>
+<link href="manifest.webmanifest" rel="manifest"/>
 <title>BottleRag Radio — Live Metadata Player</title>
 <style>
 :root{
@@ -430,80 +431,333 @@ body{
   padding-right:env(safe-area-inset-right);
   padding-bottom:env(safe-area-inset-bottom);
   -webkit-text-size-adjust:100%;
-  touch-action:manipulation;
 }
-button,select,audio{
-  min-height:44px;
+.page-header{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:12px;flex-wrap:wrap;margin-bottom:10px;
 }
-.spotify-btn,.info-btn,.collapse-btn,.history-toggle{
-  min-height:0;
+.page-header h1{margin:0}
+.header-actions{display:flex;gap:8px;align-items:center}
+.gear-btn,.icon-btn{
+  width:36px;height:36px;min-height:0;padding:0;
+  display:inline-flex;align-items:center;justify-content:center;
+  border-radius:9px;font-size:20px;line-height:1
 }
-@media(max-width:600px){
+.gear-btn{font-size:21px}
+.icon-btn.spinning span{animation:refresh-spin .7s linear infinite}
+@keyframes refresh-spin{to{transform:rotate(360deg)}}
+
+.category{margin-top:16px}
+.category-head{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:10px;padding:3px 2px 8px;border-bottom:1px solid var(--border);
+  margin-bottom:12px
+}
+.category-head h2{font-size:1.25rem;margin:0}
+.category-toggle{
+  width:34px;height:34px;padding:0;display:inline-flex;
+  align-items:center;justify-content:center
+}
+.category-toggle .arrow{transition:transform .16s ease}
+.category-toggle[aria-expanded="false"] .arrow{transform:rotate(-90deg)}
+.category-body[hidden]{display:none}
+
+.now-controls-layout{
+  display:grid;
+  grid-template-columns:42px minmax(0,1fr);
+  gap:12px;
+  min-width:0
+}
+.audio-rail{
+  display:flex;flex-direction:column;align-items:center;
+  gap:7px;padding-top:2px
+}
+.transport-btn,.speaker-btn{
+  width:38px;height:38px;padding:0;min-height:0;
+  display:inline-flex;align-items:center;justify-content:center;
+  border-radius:9px;font-size:18px
+}
+.volume-wrap{
+  height:92px;width:38px;
+  display:flex;align-items:center;justify-content:center
+}
+.volume-slider{
+  width:86px;height:28px;
+  transform:rotate(-90deg);
+  transform-origin:center;
+  accent-color:currentColor
+}
+.now-meta{min-width:0}
+#player{display:none}
+
+.stats-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(135px,1fr));
+  gap:9px;margin-bottom:12px
+}
+.stat-tile{
+  background:var(--panel2);border:1px solid var(--border);
+  border-radius:10px;padding:10px;min-width:0
+}
+.stat-tile .stat-value{font-size:1.2rem;font-weight:700;overflow-wrap:anywhere}
+.subheading{font-size:1rem;margin:14px 0 8px}
+.compact-history{
+  display:flex;flex-direction:column;gap:7px;
+  max-height:420px;overflow:auto
+}
+.compact-row{
+  display:grid;grid-template-columns:minmax(0,1fr) auto;
+  gap:10px;padding:8px 9px;background:var(--panel2);
+  border-radius:9px
+}
+.compact-main{min-width:0;overflow-wrap:anywhere}
+.compact-time{color:var(--muted);font-size:.8rem;white-space:nowrap;text-align:right}
+.history-top{margin:6px 0 12px;color:#ccc}
+.history-wide{grid-column:1/-1}
+
+.settings-dialog{
+  width:min(760px,100%);
+  max-height:min(88vh,820px);
+  overflow:auto;background:var(--panel);border:1px solid #444;
+  border-radius:14px;padding:18px;
+  box-shadow:0 18px 60px rgba(0,0,0,.45)
+}
+.settings-section{
+  padding:12px 0;border-top:1px solid var(--border)
+}
+.settings-section:first-of-type{border-top:none}
+.settings-section h3{margin:0 0 10px}
+.settings-label{display:flex;align-items:center;gap:8px}
+.settings-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:9px}
+.file-button{
+  display:inline-flex;align-items:center;
+  background:#2a2a2a;color:var(--text);border:1px solid #444;
+  border-radius:9px;padding:7px 10px;cursor:pointer
+}
+.spotify-menu{z-index:90}
+
+
+.like-btn{
+  width:34px;height:34px;min-height:0;padding:0;
+  display:inline-flex;align-items:center;justify-content:center;
+  border-radius:9px;font-size:22px;line-height:1;flex:0 0 auto
+}
+.like-btn.liked{font-weight:800}
+.favorite-tabs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
+.favorite-tab.active{outline:2px solid #777}
+.ranking-details{
+  border:1px solid var(--border);border-radius:10px;
+  background:var(--panel2);margin:9px 0;overflow:hidden
+}
+.ranking-details>summary{
+  cursor:pointer;padding:11px 12px;font-weight:700;
+  list-style:none;display:flex;justify-content:space-between;gap:10px
+}
+.ranking-details>summary::-webkit-details-marker{display:none}
+.ranking-details>summary::after{content:"▼";font-size:.8rem;transition:transform .15s}
+.ranking-details:not([open])>summary::after{transform:rotate(-90deg)}
+.ranking-list{padding:0 9px 9px}
+.rank-row,.artist-song-row{
+  display:grid;grid-template-columns:minmax(0,1fr) auto auto;
+  gap:8px;align-items:center;padding:8px;
+  border-top:1px solid var(--border)
+}
+
+.favorite-row{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto auto;
+  gap:8px;
+  align-items:center;
+  padding:8px;
+  border-top:1px solid var(--border);
+}
+
+.rank-row:first-child{border-top:none}
+.rank-number{display:inline-block;min-width:2.2em;color:var(--muted)}
+.rank-count{color:var(--muted);font-size:.85rem;white-space:nowrap}
+.artist-rank{
+  border-top:1px solid var(--border);padding:7px 0
+}
+.artist-rank:first-child{border-top:none}
+.artist-rank summary{
+  cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto;
+  gap:8px;padding:5px 8px;font-weight:650
+}
+.artist-song-list{padding:2px 8px 5px 18px}
+.mini-spotify{
+  width:28px;height:28px;min-height:0;padding:3px;border:0;
+  background:transparent;display:inline-flex;align-items:center;justify-content:center;
+  color:#f3f3f3;border-radius:50%
+}
+.mini-spotify svg{width:22px;height:22px}
+.favorite-group{
+  border:1px solid var(--border);border-radius:10px;
+  margin:8px 0;overflow:hidden;background:var(--panel2)
+}
+.favorite-group>summary{cursor:pointer;padding:9px 11px;font-weight:700}
+.clickable-art{cursor:zoom-in}
+.art-overlay{
+  position:fixed;inset:0;z-index:1200;background:rgba(0,0,0,.9);
+  display:flex;align-items:center;justify-content:center;padding:24px;cursor:zoom-out
+}
+.art-overlay[hidden]{display:none}
+.art-overlay img{
+  max-width:min(92vw,900px);max-height:90vh;width:auto;height:auto;
+  object-fit:contain;border-radius:12px;box-shadow:0 20px 70px rgba(0,0,0,.65)
+}
+.station-wide{grid-column:1/-1}
+.listener-plot{
+  display:block;width:100%;height:auto;min-height:220px;
+  background:#111;border:1px solid var(--border);border-radius:10px
+}
+.history-list-details .compact-history{
+  max-height:420px;overflow-y:auto;padding:0 9px 9px
+}
+.history-list-details>summary{position:sticky;top:0;z-index:2;background:var(--panel2)}
+.compact-row.spotify-history-row{
+  grid-template-columns:minmax(0,1fr) auto auto;
+}
+.compact-row.spotify-history-row .compact-time{align-self:center}
+@media(max-width:560px){
+  .compact-row.spotify-history-row{grid-template-columns:minmax(0,1fr) auto}
+  .compact-row.spotify-history-row .compact-time{grid-column:1/2;text-align:left}
+}
+
+
+/* v17 category startup preferences and scrolling */
+.category-defaults{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:8px;
+  margin-top:10px;
+}
+.category-defaults label{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 10px;
+  border:1px solid var(--border);
+  border-radius:9px;
+  background:var(--panel2);
+}
+.category-defaults.is-disabled{
+  opacity:.45;
+}
+.category-defaults.is-disabled label{
+  cursor:not-allowed;
+}
+#sessionHistoryList,
+#observedTopSongs,
+#observedTopArtists{
+  max-height:420px;
+  overflow-y:auto;
+}
+.settings-subgroup{
+  margin-top:14px;
+  padding-top:10px;
+  border-top:1px solid var(--border);
+}
+.settings-subgroup h4{margin:0 0 8px}
+
+
+/* v19 Listening layout */
+#listeningCategory .grid{
+  grid-template-columns:1fr;
+}
+#listeningCategory .card{
+  grid-column:1/-1;
+  width:100%;
+}
+
+
+/* v20: Liked Songs is a top-level section, not a card/subcategory */
+#likedCategory .category-body{
+  padding-top:0;
+}
+#likedCategory .liked-content{
+  width:100%;
+  padding:16px 0 4px;
+}
+#likedCategory .favorite-tabs{
+  margin-top:0;
+}
+
+
+/* v21 simplified mode */
+.simple-recent{
+  display:none;
+  margin:14px 0 0;
+  border-top:1px solid var(--border);
+  padding-top:10px;
+}
+.simple-recent>summary{
+  cursor:pointer;
+  font-weight:700;
+  padding:7px 0;
+  list-style:none;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+}
+.simple-recent>summary::-webkit-details-marker{display:none}
+.simple-recent>summary::after{
+  content:"▼";
+  font-size:.8rem;
+  transition:transform .15s;
+}
+.simple-recent:not([open])>summary::after{transform:rotate(-90deg)}
+body.simple-mode #historyCard,
+body.simple-mode .category{
+  display:none !important;
+}
+body.simple-mode #toggleAllCategories{
+  display:none !important;
+}
+body.simple-mode #simpleRecent{
+  display:block;
+}
+body.simple-mode .wrap{max-width:760px}
+body.simple-mode #simpleModeBtn{background:#3a3a3a}
+.mini-like{
+  width:28px;height:28px;min-height:0;padding:0;
+  display:inline-flex;align-items:center;justify-content:center;
+  border-radius:9px;font-size:20px;line-height:1;
+}
+.mini-like.liked{font-weight:800}
+.track{
+  grid-template-columns:54px minmax(0,1fr) 30px 30px auto;
+}
+@media(max-width:520px){
+  .track{grid-template-columns:48px minmax(0,1fr) 28px 28px}
+  .track-time{grid-column:2 / 5}
+}
+
+@media(max-width:700px){
   .wrap{padding:12px}
   .page-header{
-    position:sticky;
-    top:env(safe-area-inset-top);
-    z-index:30;
+    position:sticky;top:env(safe-area-inset-top);z-index:35;
     background:rgba(17,17,17,.96);
-    backdrop-filter:blur(12px);
-    -webkit-backdrop-filter:blur(12px);
-    padding:8px 0;
+    -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+    padding:8px 0
   }
   .page-header h1{font-size:1.45rem}
-  #toggleAllBoxes{font-size:.9rem}
-  .card{border-radius:16px}
-  .hero{gap:12px}
-  .art{
-    max-width:none;
-    width:100%;
-    aspect-ratio:1/1;
-  }
-  .title{font-size:1.35rem}
-  audio{height:46px}
   .grid{grid-template-columns:1fr}
-  #availableCard .kv,
-  .kv{grid-template-columns:1fr}
-  .kv .key{
-    margin-top:8px;
-    font-size:.82rem;
+  .hero{grid-template-columns:1fr}
+  .art{max-width:none;width:100%}
+  .now-controls-layout{grid-template-columns:42px minmax(0,1fr)}
+  .settings-dialog{
+    width:100%;max-height:84vh;border-radius:18px 18px 0 0;
+    padding-bottom:calc(18px + env(safe-area-inset-bottom))
   }
-  .kv .value{font-size:1rem}
-  .track{
-    grid-template-columns:46px minmax(0,1fr) 28px;
-    align-items:center;
-  }
-  .track-time{
-    grid-column:2 / 4;
-    text-align:left;
-    padding-top:3px;
-  }
-  .thumb{width:46px;height:46px}
-  .data-grid{grid-template-columns:1fr 1fr}
-  .data-value{font-size:1.1rem}
+  #settingsModal.info-modal{align-items:flex-end;padding:0}
   .spotify-menu{
-    position:fixed;
-    left:12px;
-    right:12px;
-    top:auto;
+    position:fixed;left:12px;right:12px;top:auto;
     bottom:calc(12px + env(safe-area-inset-bottom));
-    min-width:0;
-    padding:10px;
-    border-radius:14px;
+    min-width:0
   }
-  .spotify-menu button{
-    min-height:48px;
-    font-size:1rem;
-  }
-  .info-modal{
-    align-items:flex-end;
-    padding:0;
-  }
-  .info-dialog{
-    width:100%;
-    max-height:78vh;
-    border-radius:18px 18px 0 0;
-    padding:18px 16px calc(18px + env(safe-area-inset-bottom));
-  }
+  button,select,.file-button{min-height:44px}
+  .collapse-btn,.history-toggle,.info-btn,.icon-btn,.gear-btn,.transport-btn,.speaker-btn,.category-toggle{min-height:0}
 }
 
 @media(max-width:700px){
@@ -525,299 +779,429 @@ button,select,audio{
 </head>
 <body>
 <div class="wrap">
-  <div class="page-header">
-    <h1>BottleRag Radio</h1>
-    <button id="toggleAllBoxes" type="button">Show all boxes</button>
-  </div>
-
-  <section class="card" id="nowCard">
-    <div class="card-head">
-      <h2>Now Playing</h2>
-      <div class="card-tools">
-        <span class="live-badge">updates automatically</span>
-        <button class="collapse-btn" data-target="body-now" aria-expanded="true" type="button" title="Hide/show Now Playing">
-          <span class="arrow">▼</span>
-        </button>
-      </div>
-    </div>
-    <div class="card-body" id="body-now">
-      <div class="hero">
-        <img id="artwork" class="art" alt="Album art">
-        <div style="min-width:0">
-          <div id="stationStatus"><span class="status-dot"></span>Loading…</div>
-          
+<div class="page-header">
+<h1>BottleRag Radio</h1>
+<div class="header-actions">
+<button id="toggleAllCategories" type="button">Collapse all</button>
+<button aria-label="Switch to simplified iPhone player" class="gear-btn" id="simpleModeBtn" title="Simplified iPhone player" type="button">📱</button><button aria-label="Settings" class="gear-btn" id="settingsBtn" title="Settings" type="button">⚙</button>
+</div>
+</div>
+<section class="card" id="nowCard">
+<div class="card-head">
+<h2>Now Playing</h2>
+<div class="card-tools">
+<span class="live-badge">updates automatically</span>
+<button aria-label="Resync live stream" class="icon-btn" id="resyncStream" title="Refresh metadata and reconnect to the live stream" type="button"><span aria-hidden="true">↻</span></button>
+<button aria-expanded="true" class="collapse-btn" data-target="body-now" title="Hide/show Now Playing" type="button">
+<span class="arrow">▼</span>
+</button>
+</div>
+</div>
+<div class="card-body" id="body-now">
+<div class="hero">
+<img alt="Album art" class="art clickable-art" id="artwork" title="Click to enlarge"/>
+<div class="now-controls-layout">
+<div class="audio-rail">
+<button aria-label="Play live stream" class="transport-btn" id="playStopBtn" title="Play" type="button">
+<span aria-hidden="true" id="transportIcon">▶</span>
+</button>
+<div class="volume-wrap">
+<input aria-label="Volume" class="volume-slider" id="volumeSlider" max="1" min="0" step="0.02" type="range" value="1"/>
+</div>
+<button aria-label="Mute" class="speaker-btn" id="muteBtn" title="Mute" type="button">
+<span aria-hidden="true" id="speakerIcon">🔊</span>
+</button>
+</div>
+<div class="now-meta">
+<div id="stationStatus"><span class="status-dot"></span>Loading…</div>
 <div class="song-title-row">
-  <div id="songTitle" class="title">Loading…</div>
-  <div class="spotify-wrap">
-    <button id="nowSpotifyBtn" class="spotify-btn" type="button" aria-label="Open current song on Spotify" title="Open on Spotify">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <circle cx="12" cy="12" r="11" fill="currentColor"></circle>
-        <path d="M6.3 9.2c3.7-1.1 8.2-.8 11.4.8" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
-        <path d="M7 12.1c3.2-.8 7-.6 9.8.7" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/>
-        <path d="M7.6 14.9c2.6-.6 5.8-.4 8.2.6" fill="none" stroke="#111" stroke-width="1.4" stroke-linecap="round"/>
-      </svg>
-    </button>
-    <div id="nowSpotifyMenu" class="spotify-menu" hidden>
-      <button type="button" data-open-spotify="browser">Open in browser</button>
-      <button type="button" data-open-spotify="app">Open in Spotify app</button>
-    </div>
-  </div>
+<div class="title" id="songTitle">Loading…</div>
+<button aria-label="Like current song" class="like-btn" id="nowLikeBtn" title="Like this song" type="button"><span aria-hidden="true">♡</span></button>
+<div class="spotify-wrap">
+<button aria-label="Open current song on Spotify" class="spotify-btn" id="nowSpotifyBtn" title="Open on Spotify" type="button">
+<svg aria-hidden="true" viewbox="0 0 24 24">
+<circle cx="12" cy="12" fill="currentColor" r="11"></circle>
+<path d="M6.3 9.2c3.7-1.1 8.2-.8 11.4.8" fill="none" stroke="#111" stroke-linecap="round" stroke-width="1.8"></path>
+<path d="M7 12.1c3.2-.8 7-.6 9.8.7" fill="none" stroke="#111" stroke-linecap="round" stroke-width="1.6"></path>
+<path d="M7.6 14.9c2.6-.6 5.8-.4 8.2.6" fill="none" stroke="#111" stroke-linecap="round" stroke-width="1.4"></path>
+</svg>
+</button>
+<div class="spotify-menu" hidden="" id="nowSpotifyMenu">
+<button data-open-spotify="browser" type="button">Open in browser</button>
+<button data-open-spotify="app" type="button">Open in Spotify app</button>
 </div>
-
-          <div id="songArtist" class="artist"></div>
-          <div id="songAlbum" class="album muted"></div>
-          <div style="margin-top:12px">
-            <progress id="songProgress" max="1" value="0"></progress>
-            <div class="tiny muted">
-              <span id="elapsed">0:00</span> /
-              <span id="duration">0:00</span> ·
-              <span id="remaining">0:00 remaining</span>
-            </div>
-          </div>
-          <audio id="player" controls preload="none"
-            src="https://studio18.radiolize.com/radio/8140/radio.mp3"></audio>
-        </div>
-      </div>
-      <div class="status-footer"><div class="refresh-status" id="status-now"></div><button class="info-btn" data-info="now" type="button" aria-label="Explain Now Playing information" title="What does this information mean?">i</button></div>
-    </div>
-  </section>
-
-  <section class="card" id="historyCard">
-    <div class="card-head">
-      <h2>Recently Played</h2>
-      <div class="card-tools">
-        <span class="live-badge">updates automatically</span>
-        <button class="collapse-btn" data-target="body-history" aria-expanded="true" type="button" title="Hide/show Recently Played">
-          <span class="arrow">▼</span>
-        </button>
-      </div>
-    </div>
-    <div class="card-body" id="body-history">
-      <div id="recentTracks" class="history-list"><div class="muted">Loading…</div></div>
-      <div class="history-more">
-        <button id="historyToggle" class="history-toggle" type="button" aria-expanded="false" title="Show more recently played songs">
-          <span class="arrow">▼</span>
-        </button>
-      </div>
-      <div class="status-footer"><div class="refresh-status" id="status-history"></div><button class="info-btn" data-info="history" type="button" aria-label="Explain Recently Played information" title="What does this information mean?">i</button></div>
-    </div>
-  </section>
-  
-
-
-
-  
-
-  
-
-  <div class="grid" style="margin-top:14px">
-    <section class="card" id="stationCard">
-      <div class="card-head">
-        <h2>Station</h2>
-        <div class="card-tools">
-          <label class="auto-label"><input class="auto-box" data-section="station" type="checkbox"> Auto</label>
-          <button class="refresh-btn" data-section="station" type="button">Refresh</button>
-          <button class="collapse-btn" data-target="body-station" aria-expanded="false" type="button" title="Hide/show Station"><span class="arrow">▼</span></button>
-        </div>
-      </div>
-      <div class="card-body" id="body-station" hidden>
-        <div id="stationInfo" class="kv"></div>
-        <div class="status-footer"><div class="refresh-status" id="status-station"></div><button class="info-btn" data-info="station" type="button" aria-label="Explain Station information" title="What does this information mean?">i</button></div>
-      </div>
-    </section>
-
-    <section class="card" id="listenersCard">
-      <div class="card-head">
-        <h2>Listeners</h2>
-        <div class="card-tools">
-          <label class="auto-label"><input class="auto-box" data-section="listeners" type="checkbox"> Auto</label>
-          <button class="refresh-btn" data-section="listeners" type="button">Refresh</button>
-          <button class="collapse-btn" data-target="body-listeners" aria-expanded="false" type="button" title="Hide/show Listeners"><span class="arrow">▼</span></button>
-        </div>
-      </div>
-      <div class="card-body" id="body-listeners" hidden>
-        <div id="listenerInfo" class="kv"></div>
-        <div class="status-footer"><div class="refresh-status" id="status-listeners"></div><button class="info-btn" data-info="listeners" type="button" aria-label="Explain listener information" title="What do these listener counts mean?">i</button></div>
-      </div>
-    </section>
-
-    <section class="card" id="liveCard">
-      <div class="card-head">
-        <h2>Live / Automation</h2>
-        <div class="card-tools">
-          <label class="auto-label"><input class="auto-box" data-section="live" type="checkbox"> Auto</label>
-          <button class="refresh-btn" data-section="live" type="button">Refresh</button>
-          <button class="collapse-btn" data-target="body-live" aria-expanded="false" type="button" title="Hide/show Live / Automation"><span class="arrow">▼</span></button>
-        </div>
-      </div>
-      <div class="card-body" id="body-live" hidden>
-        <div id="liveInfo" class="kv"></div>
-        <div class="status-footer"><div class="refresh-status" id="status-live"></div><button class="info-btn" data-info="live" type="button" aria-label="Explain Live and Automation information" title="What does this information mean?">i</button></div>
-      </div>
-    </section>
-
-    <section class="card" id="streamCard">
-      <div class="card-head">
-        <h2>Stream</h2>
-        <div class="card-tools">
-          <label class="auto-label"><input class="auto-box" data-section="stream" type="checkbox"> Auto</label>
-          <button class="refresh-btn" data-section="stream" type="button">Refresh</button>
-          <button class="collapse-btn" data-target="body-stream" aria-expanded="false" type="button" title="Hide/show Stream"><span class="arrow">▼</span></button>
-        </div>
-      </div>
-      <div class="card-body" id="body-stream" hidden>
-        <div id="streamInfo" class="kv"></div>
-        <div class="status-footer"><div class="refresh-status" id="status-stream"></div><button class="info-btn" data-info="stream" type="button" aria-label="Explain Stream information" title="What does this information mean?">i</button></div>
-      </div>
-    </section>
-  
-    <section class="card" id="dataCard">
-  <div class="card-head">
-    <h2>Listening Data</h2>
-    <button class="collapse-btn" data-target="body-data" aria-expanded="false" type="button" title="Hide/show Listening Data">
-      <span class="arrow">▼</span>
-    </button>
-  </div>
-  <div class="card-body" id="body-data" hidden>
-    <div class="data-grid">
-      <div class="data-stat">
-        <div class="muted tiny">Audio payload rate</div>
-        <div id="dataRate" class="data-value">0 KB/s</div>
-      </div>
-      <div class="data-stat">
-        <div class="muted tiny">Estimated audio payload</div>
-        <div id="dataTotal" class="data-value">0 MB</div>
-      </div>
-      <div class="data-stat">
-        <div class="muted tiny">Listening time</div>
-        <div id="listenTime" class="data-value">0:00:00</div>
-      </div>
-      <div class="data-stat">
-        <div class="muted tiny">Metadata payload this session</div>
-        <div id="metadataTotal" class="data-value">0 KB</div>
-      </div>
-      <div class="data-stat">
-        <div class="muted tiny">Stream bitrate</div>
-        <div class="data-value">128 kbps MP3</div>
-      </div>
-    </div>
-    <div class="data-actions">
-      <span class="muted tiny">Audio is estimated from the confirmed 128 kbps stream. Metadata payload is measured directly by this page.</span>
-      <button id="resetData" type="button">Reset session counter</button>
-    </div>
-    <div class="status-footer">
-      <div class="refresh-status" id="status-data">Waiting for playback</div>
-      <button class="info-btn" data-info="data" type="button" aria-label="Explain Listening Data" title="What do these data numbers mean?">i</button>
-    </div>
-  </div>
+</div>
+</div>
+<div class="artist" id="songArtist"></div>
+<div class="album muted" id="songAlbum"></div>
+<div style="margin-top:12px">
+<progress id="songProgress" max="1" value="0"></progress>
+<div class="tiny muted">
+<span id="elapsed">0:00</span> /
+                <span id="duration">0:00</span> ·
+                <span id="remaining">0:00 remaining</span>
+</div>
+</div>
+<audio id="player" playsinline="" preload="none" src="https://studio18.radiolize.com/radio/8140/radio.mp3"></audio>
+</div>
+</div></div>
+</div>
+<details class="simple-recent" id="simpleRecent">
+<summary>Recently Played <span class="muted tiny">last 5</span></summary>
+<div class="history-list" id="simpleRecentTracks"></div>
+</details><div class="status-footer"><div class="refresh-status" id="status-now"></div><button aria-label="Explain Now Playing information" class="info-btn" data-info="now" title="What does this information mean?" type="button">i</button></div>
+</section></div>
+<section class="card" id="historyCard">
+<div class="card-head">
+<h2>Recently Played</h2>
+<div class="card-tools">
+<span class="live-badge">updates automatically</span>
+<button aria-expanded="true" class="collapse-btn" data-target="body-history" title="Hide/show Recently Played" type="button">
+<span class="arrow">▼</span>
+</button>
+</div>
+</div>
+<div class="card-body" id="body-history">
+<div class="history-list" id="recentTracks"><div class="muted">Loading…</div></div>
+<div class="history-more">
+<button aria-expanded="false" class="history-toggle" id="historyToggle" title="Show more recently played songs" type="button">
+<span class="arrow">▼</span>
+</button>
+</div>
+<div class="status-footer"><div class="refresh-status" id="status-history"></div><button aria-label="Explain Recently Played information" class="info-btn" data-info="history" title="What does this information mean?" type="button">i</button></div>
+</div>
+</section><section class="category" id="likedCategory"><div class="category-head"><h2>Liked Songs</h2><button aria-expanded="true" class="category-toggle" data-category="likedCategory" title="Show/hide Liked Songs" type="button"><span class="arrow">▼</span></button></div><div class="category-body" id="likedCategory-body"><div class="liked-content">
+<div aria-label="Organize liked songs" class="favorite-tabs" role="tablist">
+<button class="favorite-tab active" data-fav-view="recent" type="button">Recent</button>
+<button class="favorite-tab" data-fav-view="artist" type="button">Artist</button>
+<button class="favorite-tab" data-fav-view="album" type="button">Album</button>
+</div>
+<div class="stats-grid" id="favoritesSummary"></div>
+<div class="compact-history" id="favoritesList"></div>
+<div class="status-footer">
+<div class="refresh-status" id="status-favorites">Stored on this device</div>
+<button aria-label="Explain Liked Songs" class="info-btn" data-info="favorites" type="button">i</button>
+</div>
+</div></div></section><section class="category" id="listeningCategory">
+<div class="category-head">
+<h2>Listening</h2>
+<button aria-expanded="true" class="category-toggle" data-category="listeningCategory" title="Show/hide Listening" type="button">
+<span class="arrow">▼</span>
+</button>
+</div>
+<div class="category-body" id="listeningCategory-body">
+<div class="grid">
+<section class="card" id="dataCard">
+<div class="card-head">
+<h2>Listening Data</h2>
+<button aria-expanded="true" class="collapse-btn" data-target="body-data" title="Hide/show Listening Data" type="button">
+<span class="arrow">▼</span>
+</button>
+</div>
+<div class="card-body" id="body-data">
+<div class="data-grid">
+<div class="data-stat">
+<div class="muted tiny">Audio payload rate</div>
+<div class="data-value" id="dataRate">0 KB/s</div>
+</div>
+<div class="data-stat">
+<div class="muted tiny">Estimated audio payload</div>
+<div class="data-value" id="dataTotal">0 MB</div>
+</div>
+<div class="data-stat">
+<div class="muted tiny">Listening time</div>
+<div class="data-value" id="listenTime">0:00:00</div>
+</div>
+<div class="data-stat">
+<div class="muted tiny">Metadata payload this session</div>
+<div class="data-value" id="metadataTotal">0 KB</div>
+</div>
+<div class="data-stat">
+<div class="muted tiny">Stream bitrate</div>
+<div class="data-value">128 kbps MP3</div>
+</div>
+</div>
+<div class="data-actions">
+<span class="muted tiny">Audio is estimated from the confirmed 128 kbps stream. Metadata payload is measured directly by this page.</span>
+<button id="resetData" type="button">Reset session counter</button>
+</div>
+<div class="status-footer">
+<div class="refresh-status" id="status-data">Waiting for playback</div>
+<button aria-label="Explain Listening Data" class="info-btn" data-info="data" title="What do these data numbers mean?" type="button">i</button>
+</div>
+</div>
 </section>
-  
-
-    
-
-  </div>
-
-  <section class="card auto-panel" id="autoCard">
-    <div class="card-head">
-      <h2>Auto-update Settings</h2>
-      <button class="collapse-btn" data-target="body-auto" aria-expanded="false" type="button" title="Hide/show Auto-update Settings">
-        <span class="arrow">▼</span>
-      </button>
-    </div>
-    <div class="card-body" id="body-auto" hidden>
-      <div class="auto-controls">
-        <div class="control-group">
-          <label class="auto-label" style="font-size:.95rem;color:var(--text)">
-            <input id="autoAll" type="checkbox"> Auto-update all info boxes
-          </label>
-        </div>
-        <div class="control-group">
-          <span class="muted tiny">Interval</span>
-          <select id="intervalSelect">
-            <option value="5">5 sec</option>
-            <option value="10">10 sec</option>
-            <option value="15" selected>15 sec</option>
-            <option value="30">30 sec</option>
-            <option value="60">60 sec</option>
-          </select>
-        </div>
-        <button id="refreshAll" type="button">Refresh all info boxes</button>
-      </div>
-      <p class="muted tiny" style="margin-bottom:0">
-        Now Playing and Recently Played always update in the background regardless of these settings, using the current track timing so the page usually waits until the song is about to change instead of polling every few seconds.
-        Metadata updates do not reload the page or interrupt audio playback.
-      </p>
-      <div class="info-row"><button class="info-btn" data-info="auto" type="button" aria-label="Explain Auto-update settings" title="What do these settings mean?">i</button></div>
-    </div>
-  </section>
-
-  <section class="card" id="availableCard">
-      <div class="card-head">
-        <h2>Available Stream Data</h2>
-        <div class="card-tools">
-          <button id="probeStreamData" type="button">Probe</button>
-          <button class="collapse-btn" data-target="body-available" aria-expanded="false" type="button" title="Hide/show Available Stream Data">
-            <span class="arrow">▼</span>
-          </button>
-        </div>
-      </div>
-      <div class="card-body" id="body-available" hidden>
-        <div id="probeSummary" class="probe-summary"></div>
-
-        <h3 class="probe-heading">Realtime metadata</h3>
-        <div id="realtimeInfo" class="kv"></div>
-
-        <h3 class="probe-heading">Public endpoint discoveries</h3>
-        <div id="discoveredInfo" class="kv"></div>
-
-        <h3 class="probe-heading">Public stream/server fields</h3>
-        <div id="serverInfo" class="kv"></div>
-
-        <details class="probe-details">
-          <summary>Show safe raw discovered data</summary>
-          <pre id="probeRaw">No probe data yet.</pre>
-        </details>
-
-        <div class="status-footer">
-          <div class="refresh-status" id="status-available">Not probed yet</div>
-          <button class="info-btn" data-info="available" type="button" aria-label="Explain Available Stream Data" title="What does this information mean?">i</button>
-        </div>
-      </div>
-    </section>
-
-  <section class="card" id="rawCard" style="margin-top:14px">
-    <div class="card-head">
-      <h2>Raw Metadata</h2>
-      <div class="card-tools">
-        <label class="auto-label"><input class="auto-box" data-section="raw" type="checkbox"> Auto</label>
-        <button class="refresh-btn" data-section="raw" type="button">Refresh</button>
-        <button class="collapse-btn" data-target="body-raw" aria-expanded="false" type="button" title="Hide/show Raw Metadata"><span class="arrow">▼</span></button>
-      </div>
-    </div>
-    <div class="card-body" id="body-raw" hidden>
-      <p class="muted tiny">Complete JSON returned by the public now-playing API.</p>
-      <pre id="rawMetadata">Loading…</pre>
-      <div class="status-footer"><div class="refresh-status" id="status-raw"></div><button class="info-btn" data-info="raw" type="button" aria-label="Explain Raw Metadata" title="What does this information mean?">i</button></div>
-    </div>
-  </section>
-
-  
-
-  
-
-  
+<section class="card" id="sessionCard">
+<div class="card-head">
+<h2>Current Session</h2>
+<button aria-expanded="true" class="collapse-btn" data-target="body-session" title="Hide/show Current Session" type="button"><span class="arrow">▼</span></button>
 </div>
-
-<div id="infoModal" class="info-modal" hidden role="dialog" aria-modal="true" aria-labelledby="infoTitle">
-  <div class="info-dialog">
-    <div class="info-dialog-head">
-      <h2 id="infoTitle">Information</h2>
-      <button id="infoClose" class="info-close" type="button" aria-label="Close information">×</button>
-    </div>
-    <div id="infoContent"></div>
-  </div>
+<div class="card-body" id="body-session">
+<div class="stats-grid" id="sessionStats"></div>
+<details class="ranking-details history-list-details">
+<summary>Songs Heard This Session <span class="muted tiny" id="sessionListCount"></span></summary>
+<div class="compact-history" id="sessionHistoryList"></div>
+</details>
+<div class="status-footer">
+<div class="refresh-status" id="status-session"></div>
+<button aria-label="Explain Current Session" class="info-btn" data-info="session" type="button">i</button>
 </div>
-
+</div>
+</section>
+</div>
+</div>
+</section><section class="category" id="historyCategory">
+<div class="category-head">
+<h2>History &amp; Statistics</h2>
+<button aria-expanded="false" class="category-toggle" data-category="historyCategory" title="Show/hide History &amp; Statistics" type="button">
+<span class="arrow">▼</span>
+</button>
+</div>
+<div class="category-body" hidden="" id="historyCategory-body">
+<div class="grid">
+<section class="card history-wide" id="myHistoryCard">
+<div class="card-head">
+<h2>My Listening History</h2>
+<button aria-expanded="true" class="collapse-btn" data-target="body-myhistory" title="Hide/show My Listening History" type="button"><span class="arrow">▼</span></button>
+</div>
+<div class="card-body" id="body-myhistory">
+<div class="stats-grid" id="myHistoryStats"></div>
+<div class="history-top" id="myHistoryTop"></div>
+<details class="ranking-details history-list-details">
+<summary>Recent Listened Tracks <span class="muted tiny" id="myHistoryListCount"></span></summary>
+<div class="compact-history" id="myHistoryList"></div>
+</details>
+<div class="status-footer">
+<div class="refresh-status" id="status-myhistory"></div>
+<button aria-label="Explain My Listening History" class="info-btn" data-info="myhistory" type="button">i</button>
+</div>
+</div>
+</section>
+<section class="card history-wide" id="observedCard">
+<div class="card-head">
+<h2>Observed BottleRag History</h2>
+<button aria-expanded="true" class="collapse-btn" data-target="body-observed" title="Hide/show Observed BottleRag History" type="button"><span class="arrow">▼</span></button>
+</div>
+<div class="card-body" id="body-observed">
+<div class="stats-grid" id="observedStats"></div>
+<div class="history-top" id="observedTop"></div>
+<details class="ranking-details">
+<summary>Most Played Songs <span class="muted tiny" id="observedSongCount"></span></summary>
+<div class="ranking-list" id="observedTopSongs"></div>
+</details>
+<details class="ranking-details">
+<summary>Most Played Artists <span class="muted tiny" id="observedArtistCount"></span></summary>
+<div class="ranking-list" id="observedTopArtists"></div>
+</details>
+<details class="ranking-details history-list-details">
+<summary>Recently Observed Tracks <span class="muted tiny" id="observedHistoryListCount"></span></summary>
+<div class="compact-history" id="observedHistoryList"></div>
+</details>
+<div class="status-footer">
+<div class="refresh-status" id="status-observed"></div>
+<button aria-label="Explain Observed BottleRag History" class="info-btn" data-info="observed" type="button">i</button>
+</div>
+</div>
+</section>
+<section class="card station-wide" id="listenerTrendCard">
+<div class="card-head">
+<h2>Listener History — 90 Days</h2>
+<div class="card-tools">
+<button aria-label="Refresh listener history plot" class="icon-btn" id="refreshListenerPlot" title="Refresh plot" type="button"><span aria-hidden="true">↻</span></button>
+<button aria-expanded="true" class="collapse-btn" data-target="body-listenertrend" title="Hide/show listener history" type="button"><span class="arrow">▼</span></button>
+</div>
+</div>
+<div class="card-body" id="body-listenertrend">
+<img alt="BottleRag total listeners over the last 90 days" class="listener-plot" id="listenerPlot" src="data/listeners_90d.svg"/>
+<div class="muted tiny" id="listenerPlotStatus">Collected by GitHub Actions. The graph updates as new samples are committed.</div>
+<div class="status-footer">
+<div class="refresh-status">90-day rolling history</div>
+<button aria-label="Explain listener history" class="info-btn" data-info="listenertrend" type="button">i</button>
+</div>
+</div>
+</section></div>
+</div>
+</section><section class="category" id="stationCategory">
+<div class="category-head">
+<h2>Station</h2>
+<button aria-expanded="true" class="category-toggle" data-category="stationCategory" title="Show/hide Station" type="button">
+<span class="arrow">▼</span>
+</button>
+</div>
+<div class="category-body" id="stationCategory-body">
+<div class="grid">
+<section class="card" id="stationCard">
+<div class="card-head">
+<h2>Station</h2>
+<div class="card-tools">
+<label class="auto-label"><input class="auto-box" data-section="station" type="checkbox"/> Auto</label>
+<button aria-label="Refresh" class="refresh-btn icon-btn" data-section="station" title="Refresh" type="button"><span aria-hidden="true">↻</span></button>
+<button aria-expanded="true" class="collapse-btn" data-target="body-station" title="Hide/show Station" type="button"><span class="arrow">▼</span></button>
+</div>
+</div>
+<div class="card-body" id="body-station">
+<div class="kv" id="stationInfo"></div>
+<div class="status-footer"><div class="refresh-status" id="status-station"></div><button aria-label="Explain Station information" class="info-btn" data-info="station" title="What does this information mean?" type="button">i</button></div>
+</div>
+</section>
+<section class="card" id="listenersCard">
+<div class="card-head">
+<h2>Listeners</h2>
+<div class="card-tools">
+<label class="auto-label"><input class="auto-box" data-section="listeners" type="checkbox"/> Auto</label>
+<button aria-label="Refresh" class="refresh-btn icon-btn" data-section="listeners" title="Refresh" type="button"><span aria-hidden="true">↻</span></button>
+<button aria-expanded="true" class="collapse-btn" data-target="body-listeners" title="Hide/show Listeners" type="button"><span class="arrow">▼</span></button>
+</div>
+</div>
+<div class="card-body" id="body-listeners">
+<div class="kv" id="listenerInfo"></div>
+<div class="status-footer"><div class="refresh-status" id="status-listeners"></div><button aria-label="Explain listener information" class="info-btn" data-info="listeners" title="What do these listener counts mean?" type="button">i</button></div>
+</div>
+</section>
+<section class="card" id="liveCard">
+<div class="card-head">
+<h2>Live / Automation</h2>
+<div class="card-tools">
+<label class="auto-label"><input class="auto-box" data-section="live" type="checkbox"/> Auto</label>
+<button aria-label="Refresh" class="refresh-btn icon-btn" data-section="live" title="Refresh" type="button"><span aria-hidden="true">↻</span></button>
+<button aria-expanded="true" class="collapse-btn" data-target="body-live" title="Hide/show Live / Automation" type="button"><span class="arrow">▼</span></button>
+</div>
+</div>
+<div class="card-body" id="body-live">
+<div class="kv" id="liveInfo"></div>
+<div class="status-footer"><div class="refresh-status" id="status-live"></div><button aria-label="Explain Live and Automation information" class="info-btn" data-info="live" title="What does this information mean?" type="button">i</button></div>
+</div>
+</section>
+<section class="card" id="streamCard">
+<div class="card-head">
+<h2>Stream</h2>
+<div class="card-tools">
+<label class="auto-label"><input class="auto-box" data-section="stream" type="checkbox"/> Auto</label>
+<button aria-label="Refresh" class="refresh-btn icon-btn" data-section="stream" title="Refresh" type="button"><span aria-hidden="true">↻</span></button>
+<button aria-expanded="true" class="collapse-btn" data-target="body-stream" title="Hide/show Stream" type="button"><span class="arrow">▼</span></button>
+</div>
+</div>
+<div class="card-body" id="body-stream">
+<div class="kv" id="streamInfo"></div>
+<div class="status-footer"><div class="refresh-status" id="status-stream"></div><button aria-label="Explain Stream information" class="info-btn" data-info="stream" title="What does this information mean?" type="button">i</button></div>
+</div>
+</section>
+</div>
+</div>
+</section><section class="category" id="technicalCategory">
+<div class="category-head">
+<h2>Technical</h2>
+<button aria-expanded="false" class="category-toggle" data-category="technicalCategory" title="Show/hide Technical" type="button">
+<span class="arrow">▼</span>
+</button>
+</div>
+<div class="category-body" hidden="" id="technicalCategory-body">
+<div class="grid">
+<section class="card" id="availableCard">
+<div class="card-head">
+<h2>Available Stream Data</h2>
+<div class="card-tools">
+<button id="probeStreamData" type="button">Probe</button>
+<button aria-expanded="true" class="collapse-btn" data-target="body-available" title="Hide/show Available Stream Data" type="button">
+<span class="arrow">▼</span>
+</button>
+</div>
+</div>
+<div class="card-body" id="body-available">
+<div class="probe-summary" id="probeSummary"></div>
+<h3 class="probe-heading">Realtime metadata</h3>
+<div class="kv" id="realtimeInfo"></div>
+<h3 class="probe-heading">Public endpoint discoveries</h3>
+<div class="kv" id="discoveredInfo"></div>
+<h3 class="probe-heading">Public stream/server fields</h3>
+<div class="kv" id="serverInfo"></div>
+<details class="probe-details">
+<summary>Show safe raw discovered data</summary>
+<pre id="probeRaw">No probe data yet.</pre>
+</details>
+<div class="status-footer">
+<div class="refresh-status" id="status-available">Not probed yet</div>
+<button aria-label="Explain Available Stream Data" class="info-btn" data-info="available" title="What does this information mean?" type="button">i</button>
+</div>
+</div>
+</section>
+<section class="card" id="rawCard" style="margin-top:14px">
+<div class="card-head">
+<h2>Raw Metadata</h2>
+<div class="card-tools">
+<label class="auto-label"><input class="auto-box" data-section="raw" type="checkbox"/> Auto</label>
+<button aria-label="Refresh" class="refresh-btn icon-btn" data-section="raw" title="Refresh" type="button"><span aria-hidden="true">↻</span></button>
+<button aria-expanded="true" class="collapse-btn" data-target="body-raw" title="Hide/show Raw Metadata" type="button"><span class="arrow">▼</span></button>
+</div>
+</div>
+<div class="card-body" id="body-raw">
+<p class="muted tiny">Complete JSON returned by the public now-playing API.</p>
+<pre id="rawMetadata">Loading…</pre>
+<div class="status-footer"><div class="refresh-status" id="status-raw"></div><button aria-label="Explain Raw Metadata" class="info-btn" data-info="raw" title="What does this information mean?" type="button">i</button></div>
+</div>
+</section>
+</div>
+</div>
+</section>
+<div aria-labelledby="infoTitle" aria-modal="true" class="info-modal" hidden="" id="infoModal" role="dialog">
+<div class="info-dialog">
+<div class="info-dialog-head">
+<h2 id="infoTitle">Information</h2>
+<button aria-label="Close information" class="info-close" id="infoClose" type="button">×</button>
+</div>
+<div id="infoContent"></div>
+</div>
+</div>
+<div aria-label="Album artwork preview" aria-modal="true" class="art-overlay" hidden="" id="artOverlay" role="dialog">
+<img alt="Enlarged album artwork" id="artOverlayImage"/>
+</div>
+<div aria-labelledby="settingsTitle" aria-modal="true" class="info-modal" hidden="" id="settingsModal" role="dialog">
+<div class="settings-dialog">
+<div class="info-dialog-head">
+<h2 id="settingsTitle">Settings</h2>
+<button aria-label="Close settings" class="info-close" id="settingsClose" type="button">×</button>
+</div>
+<section class="settings-section">
+<h3>Auto Update</h3>
+<div class="auto-controls">
+<div class="control-group">
+<label class="auto-label settings-label"><input id="autoAll" type="checkbox"/> Auto-update all info boxes</label>
+</div>
+<div class="control-group">
+<span class="muted tiny">Interval</span>
+<select id="intervalSelect">
+<option value="5">5 sec</option>
+<option value="10">10 sec</option>
+<option selected="" value="15">15 sec</option>
+<option value="30">30 sec</option>
+<option value="60">60 sec</option>
+</select>
+</div>
+<button aria-label="Refresh all info boxes" class="icon-btn" id="refreshAll" title="Refresh all info boxes" type="button"><span aria-hidden="true">↻</span></button>
+</div>
+<p class="muted tiny">Now Playing and Recently Played update independently using the lowest-data method available. Realtime push is preferred when the server supports it.</p>
+</section>
+<section class="settings-section"><h3>Display</h3><p class="muted tiny">All optional categories start collapsed whenever the player opens. Now Playing and Recently Played stay open.</p><div class="settings-actions"><button id="expandCategories" type="button">Expand categories</button><button id="collapseCategories" type="button">Collapse categories</button></div></section>
+<section class="settings-section">
+<h3>History &amp; Storage</h3>
+<p class="muted tiny">My Listening History and Observed BottleRag History are stored locally in this browser using IndexedDB.</p>
+<div class="settings-actions">
+<button id="exportHistoryBtn" type="button">Export history</button>
+<label class="file-button">Import history<input accept="application/json,.json" hidden="" id="importHistoryInput" type="file"/></label>
+<button id="clearListeningBtn" type="button">Clear listening history</button>
+<button id="clearObservedBtn" type="button">Clear observed history</button>
+</div>
+<div class="muted tiny" id="storageStatus"></div>
+<div class="settings-subgroup"><h4>Liked Songs</h4><div class="settings-actions"><button id="exportFavoritesBtn" type="button">Export liked songs</button><label class="file-button">Import liked songs<input accept="application/json,.json" hidden="" id="importFavoritesInput" type="file"/></label><button id="clearFavoritesBtn" type="button">Clear liked songs</button></div></div></section>
+<section class="settings-section">
+<h3>Session</h3>
+<div class="settings-actions">
+<button id="resetSessionBtn" type="button">Reset current session</button>
+<button id="resetDataSettingsBtn" type="button">Reset data counter</button>
+</div>
+</section>
+</div>
+</div>
 <script>
 const API = "https://studio18.radiolize.com/api/nowplaying/109";
 const LIVE_FALLBACK_MS = 60000;
@@ -897,7 +1281,7 @@ function renderNow(data){
   const live=data.live||{};
   document.getElementById("songTitle").textContent=display(song.title);
   document.getElementById("songArtist").textContent=display(song.artist);
-  document.getElementById("songAlbum").textContent=song.album ? "Album: "+song.album : "";
+  document.getElementById("songAlbum").textContent=song.album ? song.album : "";
   const art=document.getElementById("artwork");
   if(song.art){ art.src=song.art; art.style.display=""; }
   else { art.removeAttribute("src"); art.style.display="none"; }
@@ -951,96 +1335,127 @@ function renderStream(data){
     ["Station URL",st.listen_url,true]
   ]);
 }
-function renderHistory(data){
-  currentHistory=data.song_history||[];
-  const items=historyExpanded ? currentHistory : currentHistory.slice(0,5);
-  const list=document.getElementById("recentTracks");
-  list.replaceChildren();
-
+function makeRecentSpotifyControl(s){
+  const spot=document.createElement("div");
+  spot.className="track-spotify";
+  const spotWrap=document.createElement("div");
+  spotWrap.className="spotify-wrap";
+  const spotBtn=document.createElement("button");
+  spotBtn.className="spotify-btn";
+  spotBtn.type="button";
+  spotBtn.title="Open on Spotify";
+  spotBtn.setAttribute("aria-label","Open "+display(s.title)+" on Spotify");
+  spotBtn.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"></circle><path d="M6.3 9.2c3.7-1.1 8.2-.8 11.4.8" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/><path d="M7 12.1c3.2-.8 7-.6 9.8.7" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/><path d="M7.6 14.9c2.6-.6 5.8-.4 8.2.6" fill="none" stroke="#111" stroke-width="1.4" stroke-linecap="round"/></svg>';
+  const spotMenu=document.createElement("div");
+  spotMenu.className="spotify-menu"; spotMenu.hidden=true;
+  const browserBtn=document.createElement("button");
+  browserBtn.type="button"; browserBtn.textContent="Open in browser";
+  const appBtn=document.createElement("button");
+  appBtn.type="button"; appBtn.textContent="Open in Spotify app";
+  const query=[s.artist,s.title].filter(Boolean).join(" ");
+  browserBtn.addEventListener("click",()=>openSpotify(query,"browser"));
+  appBtn.addEventListener("click",()=>openSpotify(query,"app"));
+  spotBtn.addEventListener("click",(e)=>{
+    e.stopPropagation();
+    closeAllSpotifyMenus(spotMenu);
+    spotMenu.hidden=!spotMenu.hidden;
+  });
+  spotMenu.append(browserBtn,appBtn);
+  spotWrap.append(spotBtn,spotMenu); spot.appendChild(spotWrap);
+  return spot;
+}
+function makeRecentLikeButton(s){
+  const b=document.createElement("button");
+  b.className="mini-like"; b.type="button"; b.textContent="♡";
+  const refresh=async()=>{
+    try{
+      const key=trackKeyFor(s);
+      const all=await getAllRecords("favorites");
+      const liked=all.some(x=>x.trackKey===key);
+      b.classList.toggle("liked",liked);
+      b.textContent=liked?"♥":"♡";
+      b.title=liked?"Unlike this song":"Like this song";
+      b.setAttribute("aria-label",(liked?"Unlike ":"Like ")+display(s.title));
+    }catch(e){}
+  };
+  b.addEventListener("click",async()=>{
+    try{
+      const key=trackKeyFor(s);
+      const all=await getAllRecords("favorites");
+      const existing=all.find(x=>x.trackKey===key);
+      const db=await openHistoryDB();
+      if(existing){
+        await new Promise((resolve,reject)=>{
+          const tx=db.transaction("favorites","readwrite");
+          tx.objectStore("favorites").delete(key);
+          tx.oncomplete=resolve; tx.onerror=()=>reject(tx.error);
+        });
+      }else{
+        await putRecord("favorites",{
+          trackKey:key,artist:s.artist||"",title:s.title||"Unknown",
+          album:s.album||"",art:s.art||"",likedAt:Date.now()
+        });
+      }
+      await renderFavorites();
+      await updateNowLikeUI();
+      if(latestData) renderHistory(latestData);
+    }catch(e){}
+  });
+  refresh();
+  return b;
+}
+function buildRecentTrackRow(item){
+  const s=item.song||{};
+  const row=document.createElement("div"); row.className="track";
+  const img=document.createElement("img");
+  img.className="thumb"; img.alt=""; if(s.art)img.src=s.art;
+  const main=document.createElement("div"); main.className="track-main";
+  const titleRow=document.createElement("div"); titleRow.className="song-title-row";
+  const title=document.createElement("div");
+  title.className="track-title"; title.style.fontWeight="650"; title.textContent=display(s.title);
+  titleRow.appendChild(title);
+  const sub=document.createElement("div"); sub.className="track-sub muted tiny";
+  const parts=[];
+  if(s.artist)parts.push(s.artist);
+  if(s.album)parts.push(s.album);
+  if(item.playlist)parts.push("playlist: "+item.playlist);
+  if(item.streamer)parts.push("streamer: "+item.streamer);
+  if(item.is_request)parts.push("requested");
+  sub.textContent=parts.join(" · ");
+  main.append(titleRow,sub);
+  const like=makeRecentLikeButton(s);
+  const spot=makeRecentSpotifyControl(s);
+  const right=document.createElement("div"); right.className="track-time muted tiny";
+  const when=item.played_at?new Date(item.played_at*1000):null;
+  right.textContent=fmt(item.duration)+(when&&!isNaN(when)?"\n"+when.toLocaleTimeString():"");
+  row.append(img,main,like,spot,right);
+  return row;
+}
+function fillRecentList(container,items){
+  container.replaceChildren();
   if(!items.length){
     const e=document.createElement("div");
     e.className="muted"; e.textContent="No song history returned.";
-    list.appendChild(e);
-  }else{
-    for(const item of items){
-      const s=item.song||{};
-      const row=document.createElement("div"); row.className="track";
-      const img=document.createElement("img");
-      img.className="thumb"; img.alt="";
-      if(s.art) img.src=s.art;
-
-      const main=document.createElement("div"); main.className="track-main";
-      const titleRow=document.createElement("div");
-      titleRow.className="song-title-row";
-
-      const title=document.createElement("div");
-      title.className="track-title"; title.style.fontWeight="650";
-      title.textContent=display(s.title);
-
-      titleRow.appendChild(title);
-
-      const sub=document.createElement("div");
-      sub.className="track-sub muted tiny";
-      const parts=[];
-      if(s.artist) parts.push(s.artist);
-      if(s.album) parts.push(s.album);
-      if(item.playlist) parts.push("playlist: "+item.playlist);
-      if(item.streamer) parts.push("streamer: "+item.streamer);
-      if(item.is_request) parts.push("requested");
-      sub.textContent=parts.join(" · ");
-      main.append(titleRow,sub);
-
-      const spot=document.createElement("div");
-      spot.className="track-spotify";
-      const spotWrap=document.createElement("div");
-      spotWrap.className="spotify-wrap";
-      const spotBtn=document.createElement("button");
-      spotBtn.className="spotify-btn";
-      spotBtn.type="button";
-      spotBtn.title="Open on Spotify";
-      spotBtn.setAttribute("aria-label","Open "+display(s.title)+" on Spotify");
-      spotBtn.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"></circle><path d="M6.3 9.2c3.7-1.1 8.2-.8 11.4.8" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/><path d="M7 12.1c3.2-.8 7-.6 9.8.7" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/><path d="M7.6 14.9c2.6-.6 5.8-.4 8.2.6" fill="none" stroke="#111" stroke-width="1.4" stroke-linecap="round"/></svg>';
-      const spotMenu=document.createElement("div");
-      spotMenu.className="spotify-menu";
-      spotMenu.hidden=true;
-      const browserBtn=document.createElement("button");
-      browserBtn.type="button"; browserBtn.textContent="Open in browser";
-      const appBtn=document.createElement("button");
-      appBtn.type="button"; appBtn.textContent="Open in Spotify app";
-      const query=[s.artist,s.title].filter(Boolean).join(" ");
-      browserBtn.addEventListener("click",()=>openSpotify(query,"browser"));
-      appBtn.addEventListener("click",()=>openSpotify(query,"app"));
-      spotBtn.addEventListener("click",(e)=>{
-        e.stopPropagation();
-        closeAllSpotifyMenus(spotMenu);
-        spotMenu.hidden=!spotMenu.hidden;
-      });
-      spotMenu.append(browserBtn,appBtn);
-      spotWrap.append(spotBtn,spotMenu);
-      spot.appendChild(spotWrap);
-
-      const right=document.createElement("div");
-      right.className="track-time muted tiny";
-      const when=item.played_at?new Date(item.played_at*1000):null;
-      right.textContent=fmt(item.duration)+(when&&!isNaN(when)?"\n"+when.toLocaleTimeString():"");
-
-      row.append(img,main,spot,right);
-      list.appendChild(row);
-    }
+    container.appendChild(e); return;
   }
+  items.forEach(item=>container.appendChild(buildRecentTrackRow(item)));
+}
+function renderHistory(data){
+  currentHistory=data.song_history||[];
+  fillRecentList(document.getElementById("recentTracks"),
+    historyExpanded?currentHistory:currentHistory.slice(0,5));
+  const simple=document.getElementById("simpleRecentTracks");
+  if(simple)fillRecentList(simple,currentHistory.slice(0,5));
 
   const toggle=document.getElementById("historyToggle");
-  if(currentHistory.length <= 5){
+  if(currentHistory.length<=5){
     toggle.style.display="none";
   }else{
     toggle.style.display="";
-    toggle.setAttribute("aria-expanded",historyExpanded ? "true" : "false");
-    toggle.title = historyExpanded
-      ? "Show only the last five songs"
-      : "Show all recently played songs";
+    toggle.setAttribute("aria-expanded",historyExpanded?"true":"false");
+    toggle.title=historyExpanded?"Show only the last five songs":"Show all recently played songs";
   }
-  document.getElementById("status-history").textContent =
-    "Updated "+new Date().toLocaleTimeString();
+  document.getElementById("status-history").textContent="Updated "+new Date().toLocaleTimeString();
 }
 function renderRaw(data){
   document.getElementById("rawMetadata").textContent=JSON.stringify(data,null,2);
@@ -1440,37 +1855,6 @@ document.getElementById("infoModal").addEventListener("click",e=>{
 document.addEventListener("keydown",e=>{
   if(e.key === "Escape") closeInfo();
 });
-
-
-const AUX_BODY_IDS = [
-  "body-data","body-station","body-listeners","body-live",
-  "body-stream","body-available","body-auto","body-raw"
-];
-
-function setAuxBoxesVisible(show){
-  for(const id of AUX_BODY_IDS){
-    const body=document.getElementById(id);
-    if(!body) continue;
-    body.hidden=!show;
-    const btn=document.querySelector('.collapse-btn[data-target="'+id+'"]');
-    if(btn) btn.setAttribute("aria-expanded", show ? "true" : "false");
-  }
-  const globalBtn=document.getElementById("toggleAllBoxes");
-  if(globalBtn) globalBtn.textContent=show ? "Hide all boxes" : "Show all boxes";
-}
-
-function allAuxBoxesVisible(){
-  return AUX_BODY_IDS.every(id=>{
-    const body=document.getElementById(id);
-    return body && !body.hidden;
-  });
-}
-
-document.getElementById("toggleAllBoxes").addEventListener("click",()=>{
-  setAuxBoxesVisible(!allAuxBoxesVisible());
-});
-
-setAuxBoxesVisible(false);
 
 
 const STREAM_PROBES = {
@@ -1933,41 +2317,836 @@ document.getElementById("probeStreamData").addEventListener("click",probePublicS
 setTimeout(probePublicStreamData,1200);
 
 
-// iPhone/iOS Media Session support where Safari exposes the API.
-function updateMediaSessionFromNowPlaying(data){
+/* ---------- Custom audio transport / stream recovery ---------- */
+const LIVE_STREAM_BASE = "https://studio18.radiolize.com/radio/8140/radio.mp3";
+let streamResyncing=false;
+let playerPausedAt=null;
+const livePlayer=document.getElementById("player");
+const playStopBtn=document.getElementById("playStopBtn");
+const transportIcon=document.getElementById("transportIcon");
+const volumeSlider=document.getElementById("volumeSlider");
+const muteBtn=document.getElementById("muteBtn");
+const speakerIcon=document.getElementById("speakerIcon");
+
+function updateTransportUI(){
+  const playing=!livePlayer.paused && !livePlayer.ended;
+  transportIcon.textContent=playing ? "■" : "▶";
+  playStopBtn.setAttribute("aria-label",playing ? "Stop live stream" : "Play live stream");
+  playStopBtn.title=playing ? "Stop" : "Play";
+}
+function updateSpeakerUI(){
+  const muted=livePlayer.muted || livePlayer.volume===0;
+  speakerIcon.textContent=muted ? "🔇" : (livePlayer.volume<0.5 ? "🔉" : "🔊");
+  muteBtn.title=muted ? "Unmute" : "Mute";
+  muteBtn.setAttribute("aria-label",muted ? "Unmute" : "Mute");
+}
+async function reconnectLiveStream(autoplay=true){
+  if(streamResyncing) return;
+  streamResyncing=true;
+  const btn=document.getElementById("resyncStream");
+  if(btn) btn.classList.add("spinning");
+  const rememberedVolume=livePlayer.volume;
+  const rememberedMuted=livePlayer.muted;
   try{
-    if(!("mediaSession" in navigator)) return;
-    const song=((data||{}).now_playing||{}).song||{};
-    navigator.mediaSession.metadata = new MediaMetadata({
-      title: song.title || "BottleRag Radio",
-      artist: song.artist || "BottleRag Radio",
-      album: song.album || "",
-      artwork: song.art ? [
-        {src:song.art, sizes:"512x512"},
-        {src:song.art, sizes:"256x256"},
-        {src:song.art, sizes:"128x128"}
-      ] : []
+    livePlayer.pause();
+    livePlayer.removeAttribute("src");
+    livePlayer.load();
+    livePlayer.src=LIVE_STREAM_BASE+"?live="+Date.now();
+    livePlayer.volume=rememberedVolume;
+    livePlayer.muted=rememberedMuted;
+    livePlayer.load();
+    if(autoplay){
+      try{await livePlayer.play()}catch(e){}
+    }
+    try{
+      const data=await fetchData();
+      latestData=data; renderNow(data); renderHistory(data);
+    }catch(e){}
+    document.getElementById("status-now").textContent="Live stream resynced "+new Date().toLocaleTimeString();
+  }finally{
+    streamResyncing=false;
+    if(btn) btn.classList.remove("spinning");
+    updateTransportUI();
+  }
+}
+playStopBtn.addEventListener("click",async()=>{
+  if(livePlayer.paused){
+    // Always establish a fresh connection after a stop/pause. This prevents stale
+    // buffered live audio from fighting with the current stream.
+    await reconnectLiveStream(true);
+  }else{
+    livePlayer.pause();
+    livePlayer.removeAttribute("src");
+    livePlayer.load();
+    playerPausedAt=Date.now();
+    updateTransportUI();
+  }
+});
+document.getElementById("resyncStream").addEventListener("click",()=>reconnectLiveStream(!livePlayer.paused));
+volumeSlider.addEventListener("input",()=>{
+  livePlayer.volume=Number(volumeSlider.value);
+  if(livePlayer.volume>0) livePlayer.muted=false;
+  updateSpeakerUI();
+});
+muteBtn.addEventListener("click",()=>{
+  livePlayer.muted=!livePlayer.muted;
+  updateSpeakerUI();
+});
+livePlayer.addEventListener("play",()=>{playerPausedAt=null;updateTransportUI()});
+livePlayer.addEventListener("pause",()=>{if(!streamResyncing)playerPausedAt=Date.now();updateTransportUI()});
+livePlayer.addEventListener("volumechange",updateSpeakerUI);
+updateTransportUI(); updateSpeakerUI();
+
+/* ---------- Settings modal ---------- */
+const settingsModal=document.getElementById("settingsModal");
+document.getElementById("settingsBtn").addEventListener("click",()=>settingsModal.hidden=false);
+document.getElementById("settingsClose").addEventListener("click",()=>settingsModal.hidden=true);
+settingsModal.addEventListener("click",e=>{if(e.target===settingsModal)settingsModal.hidden=true});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")settingsModal.hidden=true});
+
+/* ---------- Categories ---------- */
+const CATEGORY_IDS=["likedCategory","listeningCategory","historyCategory","stationCategory","technicalCategory"];
+function setCategory(id,show){
+  const body=document.getElementById(id+"-body");
+  const btn=document.querySelector('.category-toggle[data-category="'+id+'"]');
+  if(!body||!btn)return;
+  body.hidden=!show;
+  btn.setAttribute("aria-expanded",show?"true":"false");
+}
+document.querySelectorAll(".category-toggle").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    setCategory(btn.dataset.category,btn.getAttribute("aria-expanded")!=="true");
+    updateGlobalCategoryButton();
+  });
+});
+function updateGlobalCategoryButton(){
+  const allOpen=CATEGORY_IDS.every(id=>!document.getElementById(id+"-body").hidden);
+  document.getElementById("toggleAllCategories").textContent=allOpen?"Collapse all":"Expand all";
+}
+document.getElementById("toggleAllCategories").addEventListener("click",()=>{
+  const allOpen=CATEGORY_IDS.every(id=>!document.getElementById(id+"-body").hidden);
+  CATEGORY_IDS.forEach(id=>setCategory(id,!allOpen));
+  updateGlobalCategoryButton();
+});
+document.getElementById("expandCategories").addEventListener("click",()=>{
+  CATEGORY_IDS.forEach(id=>setCategory(id,true)); updateGlobalCategoryButton();
+});
+document.getElementById("collapseCategories").addEventListener("click",()=>{
+  CATEGORY_IDS.forEach(id=>setCategory(id,false)); updateGlobalCategoryButton();
+});
+CATEGORY_IDS.forEach(id=>setCategory(id,false));
+updateGlobalCategoryButton();
+
+/* ---------- IndexedDB history ---------- */
+const DB_NAME="BottleRagHistory";
+const DB_VERSION=2;
+let dbPromise=null;
+function openHistoryDB(){
+  if(dbPromise)return dbPromise;
+  dbPromise=new Promise((resolve,reject)=>{
+    const req=indexedDB.open(DB_NAME,DB_VERSION);
+    req.onupgradeneeded=()=>{
+      const db=req.result;
+      if(!db.objectStoreNames.contains("observed")){
+        const s=db.createObjectStore("observed",{keyPath:"playKey"});
+        s.createIndex("playedAt","playedAt");
+      }
+      if(!db.objectStoreNames.contains("listening")){
+        const s=db.createObjectStore("listening",{keyPath:"playKey"});
+        s.createIndex("playedAt","playedAt");
+      }
+      if(!db.objectStoreNames.contains("favorites")){
+        const s=db.createObjectStore("favorites",{keyPath:"trackKey"});
+        s.createIndex("likedAt","likedAt");
+      }
+    };
+    req.onsuccess=()=>resolve(req.result);
+    req.onerror=()=>reject(req.error);
+  });
+  return dbPromise;
+}
+async function putRecord(store,record){
+  const db=await openHistoryDB();
+  return new Promise((resolve,reject)=>{
+    const tx=db.transaction(store,"readwrite");
+    tx.objectStore(store).put(record);
+    tx.oncomplete=()=>resolve();
+    tx.onerror=()=>reject(tx.error);
+  });
+}
+async function getAllRecords(store){
+  const db=await openHistoryDB();
+  return new Promise((resolve,reject)=>{
+    const tx=db.transaction(store,"readonly");
+    const req=tx.objectStore(store).getAll();
+    req.onsuccess=()=>resolve(req.result||[]);
+    req.onerror=()=>reject(req.error);
+  });
+}
+async function clearStore(store){
+  const db=await openHistoryDB();
+  return new Promise((resolve,reject)=>{
+    const tx=db.transaction(store,"readwrite");
+    tx.objectStore(store).clear();
+    tx.oncomplete=()=>resolve();
+    tx.onerror=()=>reject(tx.error);
+  });
+}
+function itemToRecord(item,source="observed"){
+  const song=item?.song||{};
+  const playedAt=Number(item?.played_at||0);
+  const sh=item?.sh_id;
+  const fallback=[playedAt,song.artist||"",song.title||"",item?.duration||0].join("|");
+  return {
+    playKey: sh ? "sh:"+sh : "fallback:"+fallback,
+    shId:sh||null,
+    songId:song.id||null,
+    artist:song.artist||"",
+    title:song.title||"Unknown",
+    album:song.album||"",
+    art:song.art||"",
+    duration:Number(item?.duration||0),
+    playedAt,
+    playlist:item?.playlist||"",
+    streamer:item?.streamer||"",
+    isRequest:!!item?.is_request,
+    source,
+    firstSeenAt:Date.now(),
+    listenedSeconds:0
+  };
+}
+function nowPlayingToItem(data){
+  const np=data?.now_playing||{};
+  return {
+    sh_id:np.sh_id,played_at:np.played_at,duration:np.duration,
+    playlist:np.playlist,streamer:np.streamer,is_request:np.is_request,
+    song:np.song||{}
+  };
+}
+
+let session={
+  startedAt:Date.now(),
+  listeningSeconds:0,
+  playKeys:new Set(),
+  records:new Map(),
+  listenerSamples:[],
+  metadataStartBytes: typeof metadataSessionBytes!=="undefined" ? metadataSessionBytes : 0
+};
+let lastObservedKey=null;
+let activeListeningKey=null;
+let listeningWriteCounter=0;
+
+async function ingestMetadata(data){
+  if(!data)return;
+  const observedItems=[nowPlayingToItem(data),...(data.song_history||[])];
+  for(const item of observedItems){
+    const rec=itemToRecord(item,"observed");
+    if(rec.playedAt||rec.shId) await putRecord("observed",rec);
+  }
+  const current=itemToRecord(nowPlayingToItem(data),"observed");
+  lastObservedKey=current.playKey;
+
+  const listeners=Number(data.listeners?.current);
+  if(Number.isFinite(listeners))session.listenerSamples.push(listeners);
+
+  if(!livePlayer.paused){
+    await registerListeningCurrent(data);
+  }
+  renderSessionStats();
+  scheduleHistoryRenders();
+}
+async function registerListeningCurrent(data){
+  if(!data)return;
+  const rec=itemToRecord(nowPlayingToItem(data),"listening");
+  if(!(rec.playedAt||rec.shId))return;
+  activeListeningKey=rec.playKey;
+  session.playKeys.add(rec.playKey);
+  if(!session.records.has(rec.playKey))session.records.set(rec.playKey,rec);
+  const existing=(await getAllRecords("listening")).find(x=>x.playKey===rec.playKey);
+  if(existing) rec.listenedSeconds=existing.listenedSeconds||0;
+  await putRecord("listening",rec);
+}
+
+/* Hook all metadata rendering so observed history gets populated without extra requests. */
+const _renderNowBase=renderNow;
+renderNow=function(data){
+  _renderNowBase(data);
+  ingestMetadata(data).catch(()=>{});
+  updateMediaSessionSafe(data);
+};
+
+/* ---------- Session/listening timers ---------- */
+setInterval(async()=>{
+  if(!livePlayer.paused){
+    session.listeningSeconds++;
+    const np=latestData?itemToRecord(nowPlayingToItem(latestData),"listening"):null;
+    if(np && (np.playedAt||np.shId)){
+      activeListeningKey=np.playKey;
+      session.playKeys.add(np.playKey);
+      let sr=session.records.get(np.playKey);
+      if(!sr){sr=np;session.records.set(np.playKey,sr)}
+      sr.listenedSeconds=(sr.listenedSeconds||0)+1;
+      listeningWriteCounter++;
+      if(listeningWriteCounter>=10){
+        listeningWriteCounter=0;
+        try{
+          const all=await getAllRecords("listening");
+          const existing=all.find(x=>x.playKey===np.playKey);
+          np.listenedSeconds=(existing?.listenedSeconds||0)+10;
+          await putRecord("listening",np);
+        }catch(e){}
+      }
+    }
+  }
+  renderSessionStats();
+},1000);
+
+function statTile(label,value){
+  return '<div class="stat-tile"><div class="muted tiny">'+escapeHtml(label)+'</div><div class="stat-value">'+escapeHtml(String(value))+'</div></div>';
+}
+function escapeHtml(s){
+  const d=document.createElement("div");
+  d.textContent=String(s);
+  return d.innerHTML;
+}
+function uniqueCount(records,key){
+  return new Set(records.map(r=>(r[key]||"").trim()).filter(Boolean)).size;
+}
+function fmtDate(ts){
+  if(!ts)return "—";
+  return new Date(ts>1e12?ts:ts*1000).toLocaleString();
+}
+function isUnknownRecord(r){
+  const title=(r?.title||"").trim().toLowerCase();
+  const artist=(r?.artist||"").trim().toLowerCase();
+  return title==="unknown" || (!artist && (!title || title==="unknown"));
+}
+function spotifyHistoryButton(artist,title){
+  if(typeof spotifyMiniButton==="function") return spotifyMiniButton(artist,title);
+  const b=document.createElement("button");
+  b.className="mini-spotify";b.type="button";b.title="Open on Spotify";
+  b.textContent="♪";
+  b.addEventListener("click",()=>window.open("https://open.spotify.com/search/"+encodeURIComponent(((artist||"")+" "+(title||"")).trim()),"_blank","noopener"));
+  return b;
+}
+function renderCompactHistory(id,records,limit=25,options={}){
+  const el=document.getElementById(id);if(!el)return;
+  el.replaceChildren();
+  let rows=[...records].sort((a,b)=>(b.playedAt||0)-(a.playedAt||0));
+  if(options.hideUnknown)rows=rows.filter(r=>!isUnknownRecord(r));
+  if(Number.isFinite(limit))rows=rows.slice(0,limit);
+  if(!rows.length){el.innerHTML='<div class="muted tiny">No records yet.</div>';return}
+  for(const r of rows){
+    const row=document.createElement("div");row.className="compact-row spotify-history-row";
+    const main=document.createElement("div");main.className="compact-main";
+    main.innerHTML='<strong>'+escapeHtml(r.title||"Unknown")+'</strong><div class="muted tiny">'+escapeHtml(r.artist||"")+(r.album?' · '+escapeHtml(r.album):'')+'</div>';
+    const time=document.createElement("div");time.className="compact-time";time.textContent=fmtDate(r.playedAt);
+    const spot=spotifyHistoryButton(r.artist||"",r.title||"");
+    row.append(main,time,spot);el.appendChild(row);
+  }
+}
+function renderSessionStats(){
+  const recs=[...session.records.values()];
+  const samples=session.listenerSamples;
+  const min=samples.length?Math.min(...samples):"—";
+  const max=samples.length?Math.max(...samples):"—";
+  const avg=samples.length?(samples.reduce((a,b)=>a+b,0)/samples.length).toFixed(1):"—";
+  const estBytes=session.listeningSeconds*16000;
+  document.getElementById("sessionStats").innerHTML=[
+    statTile("Session length",formatHMS((Date.now()-session.startedAt)/1000)),
+    statTile("Listening time",formatHMS(session.listeningSeconds)),
+    statTile("Songs heard",session.playKeys.size),
+    statTile("Unique artists",uniqueCount(recs,"artist")),
+    statTile("Estimated audio",formatBytes(estBytes)),
+    statTile("Listeners min / avg / max",min+" / "+avg+" / "+max)
+  ].join("");
+  document.getElementById("sessionListCount").textContent=recs.length+" plays";
+  renderCompactHistory("sessionHistoryList",recs,Infinity);
+  document.getElementById("status-session").textContent="Session started "+new Date(session.startedAt).toLocaleTimeString();
+}
+let historyRenderTimer=null;
+function scheduleHistoryRenders(){
+  if(historyRenderTimer)return;
+  historyRenderTimer=setTimeout(async()=>{
+    historyRenderTimer=null;
+    await renderPersistentHistories();
+  },800);
+}
+function topCounts(records,key,limit=5){
+  const m=new Map();
+  for(const r of records){
+    const v=(r[key]||"").trim();if(!v)continue;
+    m.set(v,(m.get(v)||0)+1);
+  }
+  return [...m.entries()].sort((a,b)=>b[1]-a[1]).slice(0,limit);
+}
+async function renderPersistentHistories(){
+  let listening=[],observed=[];
+  try{[listening,observed]=await Promise.all([getAllRecords("listening"),getAllRecords("observed")])}catch(e){return}
+  const firstL=listening.length?Math.min(...listening.map(r=>r.playedAt||Infinity)):"";
+  const lastL=listening.length?Math.max(...listening.map(r=>r.playedAt||0)):"";
+  const listenSeconds=listening.reduce((a,r)=>a+(r.listenedSeconds||0),0);
+  document.getElementById("myHistoryStats").innerHTML=[
+    statTile("Recorded plays",listening.length),
+    statTile("Unique artists",uniqueCount(listening,"artist")),
+    statTile("Unique tracks",new Set(listening.map(r=>(r.artist||"")+"|"+(r.title||""))).size),
+    statTile("Tracked listening",formatHMS(listenSeconds)),
+    statTile("First recorded",firstL?fmtDate(firstL):"—"),
+    statTile("Most recent",lastL?fmtDate(lastL):"—"),
+    statTile("Ads played",listening.filter(isUnknownRecord).length),
+    statTile("Avg ad time / listening hr",(()=>{const ads=listening.filter(isUnknownRecord);const adSec=ads.reduce((a,r)=>a+(Number(r.listenedSeconds)||0),0);return listenSeconds>0?fmt(adSec/(listenSeconds/3600))+" / hr":"—"})())
+  ].join("");
+  document.getElementById("myHistoryTop").innerHTML='<strong>Top artists:</strong> '+(topCounts(listening,"artist").map(([n,c])=>escapeHtml(n)+" ("+c+")").join(" · ")||"—");
+  document.getElementById("myHistoryListCount").textContent=listening.length+" plays";
+  renderCompactHistory("myHistoryList",listening,Infinity);
+
+  const firstO=observed.length?Math.min(...observed.map(r=>r.playedAt||Infinity)):"";
+  const lastO=observed.length?Math.max(...observed.map(r=>r.playedAt||0)):"";
+  document.getElementById("observedStats").innerHTML=[
+    statTile("Observed plays",observed.length),
+    statTile("Unique artists",uniqueCount(observed,"artist")),
+    statTile("Unique tracks",new Set(observed.map(r=>(r.artist||"")+"|"+(r.title||""))).size),
+    statTile("First observed",firstO?fmtDate(firstO):"—"),
+    statTile("Most recent",lastO?fmtDate(lastO):"—"),
+    statTile("Coverage",observed.length?(new Date(firstO*1000).toLocaleDateString()+" → "+new Date(lastO*1000).toLocaleDateString()):"—")
+  ].join("");
+  document.getElementById("observedTop").innerHTML='<strong>Top observed artists:</strong> '+(topCounts(observed,"artist").map(([n,c])=>escapeHtml(n)+" ("+c+")").join(" · ")||"—");
+  document.getElementById("observedHistoryListCount").textContent=observed.filter(r=>!isUnknownRecord(r)).length+" tracks";
+  renderCompactHistory("observedHistoryList",observed,Infinity,{hideUnknown:true});
+  document.getElementById("status-myhistory").textContent="Stored on this device";
+  document.getElementById("status-observed").textContent="Stored on this device";
+}
+
+/* ---------- Export / import / resets ---------- */
+document.getElementById("exportHistoryBtn").addEventListener("click",async()=>{
+  const payload={
+    exportedAt:new Date().toISOString(),
+    observed:await getAllRecords("observed"),
+    listening:await getAllRecords("listening"),
+    favorites:await getAllRecords("favorites")
+  };
+  const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="bottlerag-history-"+new Date().toISOString().slice(0,10)+".json";
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+});
+document.getElementById("importHistoryInput").addEventListener("change",async e=>{
+  const file=e.target.files?.[0];if(!file)return;
+  try{
+    const data=JSON.parse(await file.text());
+    for(const r of (data.observed||[]))await putRecord("observed",r);
+    for(const r of (data.listening||[]))await putRecord("listening",r);
+    for(const r of (data.favorites||[]))await putRecord("favorites",r);
+    document.getElementById("storageStatus").textContent="History imported successfully.";
+    renderPersistentHistories();
+  }catch(err){
+    document.getElementById("storageStatus").textContent="Import failed: "+err;
+  }
+  e.target.value="";
+});
+document.getElementById("clearListeningBtn").addEventListener("click",async()=>{
+  if(confirm("Clear My Listening History on this device?")){await clearStore("listening");renderPersistentHistories()}
+});
+document.getElementById("clearObservedBtn").addEventListener("click",async()=>{
+  if(confirm("Clear Observed BottleRag History on this device?")){await clearStore("observed");renderPersistentHistories()}
+});
+function resetCurrentSession(){
+  session={startedAt:Date.now(),listeningSeconds:0,playKeys:new Set(),records:new Map(),listenerSamples:[],metadataStartBytes:metadataSessionBytes||0};
+  renderSessionStats();
+}
+document.getElementById("resetSessionBtn").addEventListener("click",resetCurrentSession);
+document.getElementById("resetDataSettingsBtn").addEventListener("click",()=>document.getElementById("resetData").click());
+
+/* ---------- Media Session for iPhone lock screen ---------- */
+function updateMediaSessionSafe(data){
+  try{
+    if(!("mediaSession" in navigator) || !("MediaMetadata" in window))return;
+    const s=data?.now_playing?.song||{};
+    navigator.mediaSession.metadata=new MediaMetadata({
+      title:s.title||"BottleRag Radio",
+      artist:s.artist||"BottleRag Radio",
+      album:s.album||"",
+      artwork:s.art?[{src:s.art,sizes:"512x512"}]:[]
     });
   }catch(e){}
 }
-const originalRenderNow = renderNow;
-renderNow = function(data){
-  originalRenderNow(data);
-  updateMediaSessionFromNowPlaying(data);
-};
-
 try{
   if("mediaSession" in navigator){
-    const p=document.getElementById("player");
-    navigator.mediaSession.setActionHandler("play",()=>p.play());
-    navigator.mediaSession.setActionHandler("pause",()=>p.pause());
+    navigator.mediaSession.setActionHandler("play",()=>reconnectLiveStream(true));
+    navigator.mediaSession.setActionHandler("pause",()=>{livePlayer.pause();livePlayer.removeAttribute("src");livePlayer.load();updateTransportUI()});
   }
 }catch(e){}
 
-if("serviceWorker" in navigator && location.protocol.startsWith("http")){
-  window.addEventListener("load",()=>{
-    navigator.serviceWorker.register("sw.js").catch(()=>{});
+/* ---------- Extend info help ---------- */
+Object.assign(infoHelp,{
+  session:{title:"Current Session",items:[
+    ["Session","Starts when this page loads or when you reset the session."],
+    ["Songs heard","Counts distinct BottleRag play events encountered while the audio was actually playing."],
+    ["Listener statistics","Minimum, average, and maximum current-listener values observed during this session."],
+    ["Persistence","Current Session resets when the page reloads; long-term listening records are stored separately."]
+  ]},
+  myhistory:{title:"My Listening History",items:[
+    ["Recorded when","Only while this player's audio is actually playing."],
+    ["Storage","Saved locally in IndexedDB on this browser/device and survives closing the page."],
+    ["Device-specific","The same GitHub Pages URL on another browser/device has its own database unless you export/import it."]
+  ]},
+  observed:{title:"Observed BottleRag History",items:[
+    ["Recorded when","Whenever this page receives BottleRag metadata, even if the audio is paused."],
+    ["Recent-history backfill","Each API response's song_history entries are also saved, filling in some plays from immediately before the page was opened."],
+    ["24/7 shared history","The included GitHub Actions workflow now collects public BottleRag history in the repository even while your browser is closed. Local observations are merged with it."],
+  ]}
+});
+
+/* ---------- Refresh icons ---------- */
+document.querySelectorAll(".refresh-btn").forEach(btn=>{
+  btn.innerHTML='<span aria-hidden="true">↻</span>';
+  btn.classList.add("icon-btn");
+  btn.title="Refresh";
+});
+
+/* ---------- Initialize histories ---------- */
+openHistoryDB().then(()=>renderPersistentHistories()).catch(e=>{
+  document.getElementById("storageStatus").textContent="Local history storage unavailable: "+e;
+});
+renderSessionStats();
+
+
+/* ---------- Spotify helpers used by history/favorites ---------- */
+function spotifySearchUrl(artist,title){
+  return "https://open.spotify.com/search/"+encodeURIComponent(((artist||"")+" "+(title||"")).trim());
+}
+function spotifyMiniButton(artist,title){
+  const b=document.createElement("button");
+  b.className="mini-spotify"; b.type="button";
+  b.title="Open on Spotify"; b.setAttribute("aria-label","Open "+title+" on Spotify");
+  b.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"></circle><path d="M6.3 9.2c3.7-1.1 8.2-.8 11.4.8" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/><path d="M7 12.1c3.2-.8 7-.6 9.8.7" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/><path d="M7.6 14.9c2.6-.6 5.8-.4 8.2.6" fill="none" stroke="#111" stroke-width="1.4" stroke-linecap="round"/></svg>';
+  b.addEventListener("click",()=>window.open(spotifySearchUrl(artist,title),"_blank","noopener"));
+  return b;
+}
+
+/* ---------- Liked songs ---------- */
+let favoriteView="recent";
+function trackKeyFor(song){
+  return ((song?.artist||"").trim().toLowerCase()+"|"+(song?.title||"").trim().toLowerCase());
+}
+async function currentFavoriteRecord(){
+  const s=latestData?.now_playing?.song||{};
+  if(!s.title)return null;
+  const all=await getAllRecords("favorites");
+  return all.find(x=>x.trackKey===trackKeyFor(s))||null;
+}
+async function updateNowLikeUI(){
+  const btn=document.getElementById("nowLikeBtn");if(!btn)return;
+  const fav=await currentFavoriteRecord();
+  btn.classList.toggle("liked",!!fav);
+  btn.querySelector("span").textContent=fav?"♥":"♡";
+  btn.title=fav?"Unlike this song":"Like this song";
+}
+document.getElementById("nowLikeBtn").addEventListener("click",async()=>{
+  const s=latestData?.now_playing?.song||{};
+  if(!s.title)return;
+  const key=trackKeyFor(s);
+  const all=await getAllRecords("favorites");
+  const existing=all.find(x=>x.trackKey===key);
+  const db=await openHistoryDB();
+  if(existing){
+    await new Promise((resolve,reject)=>{
+      const tx=db.transaction("favorites","readwrite");
+      tx.objectStore("favorites").delete(key);
+      tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);
+    });
+  }else{
+    await putRecord("favorites",{
+      trackKey:key,artist:s.artist||"",title:s.title||"Unknown",album:s.album||"",
+      genre:s.genre||"",art:s.art||"",likedAt:Date.now()
+    });
+  }
+  await updateNowLikeUI();await renderFavorites();
+});
+document.querySelectorAll(".favorite-tab").forEach(b=>b.addEventListener("click",()=>{
+  favoriteView=b.dataset.favView;
+  document.querySelectorAll(".favorite-tab").forEach(x=>x.classList.toggle("active",x===b));
+  renderFavorites();
+}));
+function favoriteRow(r){
+  const row=document.createElement("div");row.className="favorite-row";
+  const main=document.createElement("div");
+  main.innerHTML='<strong>'+escapeHtml(r.title)+'</strong><div class="muted tiny">'+escapeHtml(r.artist||"")+(r.album?' · '+escapeHtml(r.album):'')+'</div>';
+
+  const like=document.createElement("button");
+  like.className="mini-like liked";
+  like.type="button";
+  like.textContent="♥";
+  like.title="Unlike this song";
+  like.setAttribute("aria-label","Unlike "+(r.title||"this song"));
+  like.addEventListener("click",async()=>{
+    const db=await openHistoryDB();
+    await new Promise((resolve,reject)=>{
+      const tx=db.transaction("favorites","readwrite");
+      tx.objectStore("favorites").delete(r.trackKey);
+      tx.oncomplete=resolve;
+      tx.onerror=()=>reject(tx.error);
+    });
+    await renderFavorites();
+    await updateNowLikeUI();
+    if(latestData) renderHistory(latestData);
   });
+
+  row.append(main,like,spotifyMiniButton(r.artist,r.title));
+  return row;
+}
+async function renderFavorites(){
+  const all=(await getAllRecords("favorites")).sort((a,b)=>b.likedAt-a.likedAt);
+  document.getElementById("favoritesSummary").innerHTML=[
+    statTile("Liked songs",all.length),
+    statTile("Artists",uniqueCount(all,"artist")),
+    statTile("Albums",uniqueCount(all,"album"))
+  ].join("");
+  const root=document.getElementById("favoritesList");root.replaceChildren();
+  if(!all.length){root.innerHTML='<div class="muted tiny">Like a song with the ♡ beside Now Playing. It will be saved here.</div>';return}
+  if(favoriteView==="recent"){
+    all.forEach(r=>root.appendChild(favoriteRow(r)));return;
+  }
+  const key=favoriteView==="artist"?"artist":"album";
+  const groups=new Map();
+  for(const r of all){
+    const name=(r[key]||"").trim() || (key==="album"?"Unknown album":"Unknown artist");
+    if(!groups.has(name))groups.set(name,[]);
+    groups.get(name).push(r);
+  }
+  [...groups.entries()].sort((a,b)=>a[0].localeCompare(b[0])).forEach(([name,recs])=>{
+    const d=document.createElement("details");d.className="favorite-group";
+    const s=document.createElement("summary");s.textContent=name+" ("+recs.length+")";d.appendChild(s);
+    recs.forEach(r=>d.appendChild(favoriteRow(r)));root.appendChild(d);
+  });
+}
+
+/* ---------- Expanded Observed BottleRag rankings ---------- */
+function aggregateObservedSongs(records){
+  const m=new Map();
+  for(const r of records){
+    const key=((r.artist||"")+"|"+(r.title||"")).toLowerCase();
+    if(!m.has(key))m.set(key,{artist:r.artist||"",title:r.title||"Unknown",album:r.album||"",count:0,last:0});
+    const x=m.get(key);x.count++;x.last=Math.max(x.last,r.playedAt||0);
+  }
+  return [...m.values()].sort((a,b)=>b.count-a.count || b.last-a.last);
+}
+function aggregateObservedArtists(records){
+  const m=new Map();
+  for(const r of records){
+    const artist=(r.artist||"Unknown artist").trim()||"Unknown artist";
+    if(!m.has(artist))m.set(artist,[]);
+    m.get(artist).push(r);
+  }
+  return [...m.entries()].sort((a,b)=>b[1].length-a[1].length);
+}
+function renderObservedRankings(records){
+  records=records.filter(r=>!isUnknownRecord(r));
+  const songs=aggregateObservedSongs(records);
+  document.getElementById("observedSongCount").textContent=songs.length+" tracks";
+  const sr=document.getElementById("observedTopSongs");sr.replaceChildren();
+  songs.forEach((s,i)=>{
+    const row=document.createElement("div");row.className="rank-row";
+    const main=document.createElement("div");main.innerHTML='<span class="rank-number">#'+(i+1)+'</span><strong>'+escapeHtml(s.title)+'</strong><div class="muted tiny">'+escapeHtml(s.artist)+'</div>';
+    const count=document.createElement("div");count.className="rank-count";count.textContent=s.count+" play"+(s.count===1?"":"s");
+    row.append(main,count,spotifyMiniButton(s.artist,s.title));sr.appendChild(row);
+  });
+
+  const artists=aggregateObservedArtists(records);
+  document.getElementById("observedArtistCount").textContent=artists.length+" artists";
+  const ar=document.getElementById("observedTopArtists");ar.replaceChildren();
+  artists.forEach(([artist,recs],i)=>{
+    const d=document.createElement("details");d.className="artist-rank";
+    const sum=document.createElement("summary");
+    const name=document.createElement("span");name.textContent="#"+(i+1)+" "+artist;
+    const count=document.createElement("span");count.className="rank-count";count.textContent=recs.length+" plays";
+    sum.append(name,count);d.appendChild(sum);
+    const songsWrap=document.createElement("div");songsWrap.className="artist-song-list";
+    aggregateObservedSongs(recs).forEach(s=>{
+      const row=document.createElement("div");row.className="artist-song-row";
+      const main=document.createElement("div");main.innerHTML='<strong>'+escapeHtml(s.title)+'</strong>'+(s.album?'<div class="muted tiny">'+escapeHtml(s.album)+'</div>':'');
+      const c=document.createElement("div");c.className="rank-count";c.textContent=s.count+" play"+(s.count===1?"":"s");
+      row.append(main,c,spotifyMiniButton(s.artist,s.title));songsWrap.appendChild(row);
+    });
+    d.appendChild(songsWrap);ar.appendChild(d);
+  });
+}
+
+/* Extend persistent history rendering with rankings and favorites. */
+const _renderPersistentHistoriesV13=renderPersistentHistories;
+renderPersistentHistories=async function(){
+  await _renderPersistentHistoriesV13();
+  try{
+    const observed=await getAllRecords("observed");
+    renderObservedRankings(observed);
+    await renderFavorites();
+    await updateNowLikeUI();
+  }catch(e){}
+};
+
+/* Extend Now Playing refresh so heart follows the current song. */
+const _updateMediaSessionSafeV13=updateMediaSessionSafe;
+updateMediaSessionSafe=function(data){
+  _updateMediaSessionSafeV13(data);
+  setTimeout(updateNowLikeUI,0);
+};
+
+setTimeout(()=>renderPersistentHistories(),100);
+
+Object.assign(infoHelp,{
+  favorites:{title:"Liked Songs",items:[
+    ["Like","Tap ♡ next to the current song. A filled ♥ means it is saved."],
+    ["Recent / Artist / Album","Switch how your saved songs are organized. Artist and Album views expand into groups."],
+        ["Spotify","The Spotify icon opens a search for that exact artist and song."],
+    ["Storage","Likes are stored locally in this browser/device and are included in history export/import."]
+  ]}
+});
+
+
+/* ---------- Album art overlay ---------- */
+const artOverlay=document.getElementById("artOverlay");
+const artOverlayImage=document.getElementById("artOverlayImage");
+document.getElementById("artwork").addEventListener("click",()=>{
+  const src=document.getElementById("artwork").src;if(!src)return;
+  artOverlayImage.src=src;artOverlay.hidden=false;
+});
+artOverlay.addEventListener("click",()=>{artOverlay.hidden=true;artOverlayImage.removeAttribute("src")});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!artOverlay.hidden){artOverlay.hidden=true;artOverlayImage.removeAttribute("src")}});
+
+/* ---------- GitHub Actions shared observed history ---------- */
+let sharedObservedRecords=[];
+const SHARED_OBSERVED_URL="data/observed_history.json";
+async function loadSharedObservedHistory(){
+  try{
+    const r=await fetch(SHARED_OBSERVED_URL+"?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error(r.status+" "+r.statusText);
+    const data=await r.json();
+    const plays=Array.isArray(data)?data:(data.plays||[]);
+    sharedObservedRecords=plays.map(p=>({
+      playKey:p.playKey || (p.shId?"sh:"+p.shId:"fallback:"+[p.playedAt,p.artist||"",p.title||"",p.duration||0].join("|")),
+      shId:p.shId||null,songId:p.songId||null,artist:p.artist||"",title:p.title||"Unknown",
+      album:p.album||"",art:p.art||"",duration:Number(p.duration||0),playedAt:Number(p.playedAt||0),
+      playlist:p.playlist||"",streamer:p.streamer||"",isRequest:!!p.isRequest,source:"github-actions"
+    }));
+    document.getElementById("status-observed").textContent="Shared 24/7 history loaded · "+sharedObservedRecords.length+" records";
+    renderPersistentHistories();
+  }catch(e){
+    document.getElementById("status-observed").textContent="Shared history unavailable; showing this device's observations";
+  }
+}
+function mergeObserved(local,shared){
+  const m=new Map();
+  for(const r of [...shared,...local])m.set(r.playKey,r);
+  return [...m.values()];
+}
+
+/* Override persistent history rendering so Observed uses shared GitHub Actions + local records. */
+const _renderPersistentHistoriesV15=renderPersistentHistories;
+renderPersistentHistories=async function(){
+  await _renderPersistentHistoriesV15();
+  try{
+    const local=await getAllRecords("observed");
+    const observed=mergeObserved(local,sharedObservedRecords);
+    const visible=observed.filter(r=>!isUnknownRecord(r));
+    const firstO=visible.length?Math.min(...visible.map(r=>r.playedAt||Infinity)):"";
+    const lastO=visible.length?Math.max(...visible.map(r=>r.playedAt||0)):"";
+    document.getElementById("observedStats").innerHTML=[
+      statTile("Observed plays",visible.length),
+      statTile("Unique artists",uniqueCount(visible,"artist")),
+      statTile("Unique tracks",new Set(visible.map(r=>(r.artist||"")+"|"+(r.title||""))).size),
+      statTile("First observed",firstO?fmtDate(firstO):"—"),
+      statTile("Most recent",lastO?fmtDate(lastO):"—"),
+      statTile("Coverage",visible.length?(new Date(firstO*1000).toLocaleDateString()+" → "+new Date(lastO*1000).toLocaleDateString()):"—")
+    ].join("");
+    document.getElementById("observedTop").innerHTML='<strong>Source:</strong> GitHub Actions 24/7 collector + this browser';
+    renderObservedRankings(visible);
+    document.getElementById("observedHistoryListCount").textContent=visible.length+" tracks";
+    renderCompactHistory("observedHistoryList",visible,Infinity,{hideUnknown:true});
+  }catch(e){}
+};
+
+/* Listener plot generated by GitHub Actions. */
+function refreshListenerPlot(){
+  const img=document.getElementById("listenerPlot");
+  img.src="data/listeners_90d.svg?t="+Date.now();
+  document.getElementById("listenerPlotStatus").textContent="Plot refreshed "+new Date().toLocaleTimeString();
+}
+document.getElementById("refreshListenerPlot").addEventListener("click",refreshListenerPlot);
+
+Object.assign(infoHelp,{
+  listenertrend:{title:"Listener History — 90 Days",items:[
+    ["Collection","A scheduled GitHub Action samples BottleRag's public current-listener count and stores a rolling 90-day series in the repository."],
+    ["Plot","The SVG graph is regenerated by the same GitHub Action, so every device using this GitHub Pages URL sees the same listener history."],
+    ["Sampling","The included workflow runs every 30 minutes. GitHub may occasionally delay scheduled jobs."]
+  ]}
+});
+
+setTimeout(loadSharedObservedHistory,500);
+
+
+/* ---------- Liked-songs-only backup controls ---------- */
+document.getElementById("exportFavoritesBtn").addEventListener("click",async()=>{
+  try{
+    const favorites=await getAllRecords("favorites");
+    const payload={type:"BottleRagLikedSongs",exportedAt:new Date().toISOString(),favorites};
+    const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(blob);
+    a.download="bottlerag-liked-songs-"+new Date().toISOString().slice(0,10)+".json";
+    a.click();
+    setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+  }catch(e){
+    document.getElementById("storageStatus").textContent="Liked songs export failed: "+e;
+  }
+});
+document.getElementById("importFavoritesInput").addEventListener("change",async e=>{
+  const file=e.target.files?.[0]; if(!file)return;
+  try{
+    const data=JSON.parse(await file.text());
+    const favorites=Array.isArray(data)?data:(data.favorites||[]);
+    for(const r of favorites){
+      if(r && r.trackKey)await putRecord("favorites",r);
+    }
+    document.getElementById("storageStatus").textContent="Liked songs imported.";
+    await renderFavorites();
+    await updateNowLikeUI();
+  }catch(err){
+    document.getElementById("storageStatus").textContent="Liked songs import failed: "+err;
+  }
+  e.target.value="";
+});
+document.getElementById("clearFavoritesBtn").addEventListener("click",async()=>{
+  if(confirm("Clear all liked songs on this device?")){
+    await clearStore("favorites");
+    await renderFavorites();
+    await updateNowLikeUI();
+    document.getElementById("storageStatus").textContent="Liked songs cleared.";
+  }
+});
+
+
+/* ---------- Simplified iPhone player ---------- */
+const simpleModeBtn=document.getElementById("simpleModeBtn");
+let simpleMode=false;
+function setSimpleMode(enabled){
+  simpleMode=enabled;
+  document.body.classList.toggle("simple-mode",enabled);
+  simpleModeBtn.textContent=enabled?"↩":"📱";
+  simpleModeBtn.title=enabled?"Return to full player":"Simplified iPhone player";
+  simpleModeBtn.setAttribute("aria-label",enabled?"Return to full player":"Switch to simplified iPhone player");
+  if(enabled){
+    const d=document.getElementById("simpleRecent");
+    if(d)d.open=false;
+    window.scrollTo({top:0,behavior:"smooth"});
+  }
+}
+simpleModeBtn.addEventListener("click",()=>setSimpleMode(!simpleMode));
+
+/* ---------- PWA service worker ---------- */
+if("serviceWorker" in navigator && location.protocol.startsWith("http")){
+  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
 }
 
 </script>
