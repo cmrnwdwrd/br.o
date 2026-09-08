@@ -1,0 +1,1975 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="BottleRag">
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="manifest.webmanifest">
+<title>BottleRag Radio — Live Metadata Player</title>
+<style>
+:root{
+  color-scheme: dark;
+  --bg:#111;
+  --panel:#191919;
+  --panel2:#222;
+  --text:#f3f3f3;
+  --muted:#aaa;
+  --border:#333;
+}
+*{box-sizing:border-box}
+html,body{max-width:100%;overflow-x:hidden}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.45
+}
+.wrap{max-width:1150px;margin:auto;padding:18px}
+h1,h2{margin:.2rem 0 .7rem}
+.muted{color:var(--muted)}
+.tiny{font-size:.88rem}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(290px,1fr));
+  gap:14px;
+  align-items:start;
+}
+.card{
+  min-width:0;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:16px;
+  overflow:hidden;
+}
+.card-head{
+  display:flex;justify-content:space-between;align-items:center;
+  gap:10px;margin-bottom:10px
+}
+.card-head h2{margin:0}
+.card-tools{
+  display:flex;gap:7px;align-items:center;flex-wrap:wrap;
+  justify-content:flex-end
+}
+.card-body[hidden]{display:none}
+.collapse-btn,
+.history-toggle{
+  width:34px;height:34px;padding:0;
+  display:inline-flex;align-items:center;justify-content:center;
+  font-size:1rem;font-weight:700
+}
+.collapse-btn .arrow,
+.history-toggle .arrow{
+  display:inline-block;transition:transform .16s ease
+}
+.collapse-btn[aria-expanded="false"] .arrow{
+  transform:rotate(-90deg)
+}
+.history-toggle[aria-expanded="true"] .arrow{
+  transform:rotate(180deg)
+}
+
+.auto-label{
+  display:flex;align-items:center;gap:5px;
+  color:var(--muted);font-size:.85rem;white-space:nowrap
+}
+.refresh-status{
+  color:var(--muted);font-size:.78rem
+}
+.status-footer{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  margin-top:8px;
+  min-height:22px;
+}
+.live-badge{
+  color:var(--muted);font-size:.8rem;white-space:nowrap
+}
+.flash{animation:flash .5s ease}
+@keyframes flash{
+  0%{box-shadow:0 0 0 0 rgba(255,255,255,.15)}
+  50%{box-shadow:0 0 0 3px rgba(255,255,255,.08)}
+  100%{box-shadow:none}
+}
+
+.hero{
+  display:grid;
+  grid-template-columns:minmax(0,180px) minmax(0,1fr);
+  gap:18px;align-items:center
+}
+.art{
+  width:100%;aspect-ratio:1/1;object-fit:cover;
+  border-radius:12px;background:#2a2a2a
+}
+.title{
+  font-size:1.55rem;font-weight:700;
+  overflow-wrap:anywhere;word-break:break-word
+}
+.artist,.album{overflow-wrap:anywhere;word-break:break-word}
+.artist{font-size:1.15rem}
+
+.kv{
+  display:grid;
+  grid-template-columns:minmax(110px,140px) minmax(0,1fr);
+  gap:7px 12px;
+  width:100%
+}
+.kv .key{color:var(--muted)}
+.kv .value{
+  min-width:0;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+.kv .value a{
+  color:inherit;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+
+progress{width:100%;height:14px}
+audio{width:100%;margin-top:12px}
+
+.history-list{display:flex;flex-direction:column;gap:10px}
+.track{
+  min-width:0;
+  display:grid;
+  grid-template-columns:54px minmax(0,1fr) auto;
+  gap:10px;align-items:center;
+  padding:8px;border-radius:10px;background:var(--panel2)
+}
+.thumb{width:54px;height:54px;object-fit:cover;border-radius:8px;background:#333}
+.track-main{min-width:0}
+.track-title,.track-sub{overflow-wrap:anywhere;word-break:break-word}
+.track-time{text-align:right;white-space:pre-line}
+.history-more{
+  margin-top:10px;
+  display:flex;justify-content:center
+}
+
+.status-dot{
+  display:inline-block;width:10px;height:10px;border-radius:50%;
+  background:#6c6;margin-right:7px
+}
+.status-dot.off{background:#c66}
+
+button,select{
+  background:#2a2a2a;color:var(--text);border:1px solid #444;
+  border-radius:9px;padding:7px 10px
+}
+button{cursor:pointer}
+button:hover{background:#333}
+input[type="checkbox"]{transform:scale(1.15)}
+
+.auto-panel{
+  margin-top:14px;
+}
+.auto-controls{
+  display:flex;flex-wrap:wrap;gap:10px;align-items:center
+}
+.control-group{
+  display:flex;gap:8px;align-items:center;
+  background:var(--panel2);border:1px solid var(--border);
+  border-radius:10px;padding:8px 10px
+}
+
+pre{
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+  background:#0d0d0d;
+  padding:12px;border-radius:10px;border:1px solid #2b2b2b;
+  max-height:430px;overflow:auto
+}
+
+
+.info-row{
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+.info-btn{
+  width:20px;
+  height:20px;
+  padding:0;
+  flex:0 0 20px;
+  border-radius:50%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:13px;
+  font-weight:700;
+  line-height:1;
+  color:var(--muted);
+  background:transparent;
+  border:1px solid #555;
+}
+.info-btn:hover{
+  color:var(--text);
+  background:#2a2a2a;
+}
+.info-modal{
+  position:fixed;
+  inset:0;
+  z-index:1000;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:18px;
+  background:rgba(0,0,0,.72);
+}
+.info-modal[hidden]{display:none}
+.info-dialog{
+  width:min(720px,100%);
+  max-height:min(82vh,760px);
+  overflow:auto;
+  background:var(--panel);
+  border:1px solid #444;
+  border-radius:14px;
+  padding:18px;
+  box-shadow:0 18px 60px rgba(0,0,0,.45);
+}
+.info-dialog-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:12px;
+}
+.info-dialog-head h2{margin:0}
+.info-close{
+  width:34px;
+  height:34px;
+  padding:0;
+  font-size:20px;
+}
+.info-list{
+  display:grid;
+  grid-template-columns:minmax(120px,180px) minmax(0,1fr);
+  gap:9px 14px;
+}
+.info-term{font-weight:650}
+.info-desc{color:#ccc;overflow-wrap:anywhere}
+@media(max-width:560px){
+  .info-list{grid-template-columns:1fr;gap:3px}
+  .info-desc{margin-bottom:9px}
+}
+
+
+.data-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  gap:12px
+}
+.data-stat{
+  background:var(--panel2);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:12px;
+  min-width:0
+}
+.data-value{
+  font-size:1.35rem;
+  font-weight:700;
+  margin-top:3px;
+  overflow-wrap:anywhere
+}
+.data-actions{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:12px
+}
+.song-title-row{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  min-width:0
+}
+.song-title-row .title,
+.song-title-row .track-title{
+  min-width:0;
+  flex:1 1 auto
+}
+.spotify-wrap{
+  position:relative;
+  flex:0 0 auto
+}
+.spotify-btn{
+  width:26px;
+  height:26px;
+  padding:0;
+  border:none;
+  background:transparent;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%
+}
+.spotify-btn:hover{background:#2b2b2b}
+.spotify-btn svg{width:22px;height:22px;display:block}
+.spotify-menu{
+  position:absolute;
+  z-index:80;
+  top:32px;
+  right:0;
+  min-width:170px;
+  background:#202020;
+  border:1px solid #444;
+  border-radius:10px;
+  padding:6px;
+  box-shadow:0 10px 30px rgba(0,0,0,.45)
+}
+.spotify-menu[hidden]{display:none}
+.spotify-menu button{
+  display:block;
+  width:100%;
+  text-align:left;
+  margin:0;
+  border:none;
+  background:transparent;
+  padding:8px 9px
+}
+.spotify-menu button:hover{background:#303030}
+.track{
+  grid-template-columns:54px minmax(0,1fr) 30px auto;
+}
+.track-spotify{
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+
+
+.page-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-bottom:10px;
+}
+.page-header h1{margin:0}
+#toggleAllBoxes{white-space:nowrap}
+#historyCard{margin-top:14px}
+
+
+.probe-summary{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:10px
+}
+.probe-chip{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  border:1px solid #444;
+  background:var(--panel2);
+  border-radius:999px;
+  padding:5px 9px;
+  font-size:.8rem
+}
+.probe-dot{
+  width:8px;height:8px;border-radius:50%;background:#777
+}
+.probe-dot.ok{background:#6c6}
+.probe-dot.bad{background:#c66}
+.probe-dot.wait{background:#cc6}
+.probe-heading{
+  font-size:1rem;
+  margin:14px 0 8px
+}
+.probe-details{margin-top:14px}
+.probe-details summary{cursor:pointer;color:var(--muted)}
+
+
+#availableCard{
+  width:100%;
+  margin-top:14px;
+}
+#availableCard .kv{
+  grid-template-columns:minmax(220px, 38%) minmax(0,1fr);
+  gap:8px 16px;
+}
+#availableCard .kv .key,
+#availableCard .kv .value{
+  min-width:0;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+  white-space:normal;
+}
+#availableCard .probe-heading{
+  clear:both;
+}
+@media(max-width:720px){
+  #availableCard .kv{
+    grid-template-columns:1fr;
+    gap:2px;
+  }
+  #availableCard .kv .key{
+    margin-top:9px;
+    font-weight:650;
+  }
+  #availableCard .kv .value{
+    padding-bottom:4px;
+  }
+}
+
+
+body{
+  padding-top:env(safe-area-inset-top);
+  padding-left:env(safe-area-inset-left);
+  padding-right:env(safe-area-inset-right);
+  padding-bottom:env(safe-area-inset-bottom);
+  -webkit-text-size-adjust:100%;
+  touch-action:manipulation;
+}
+button,select,audio{
+  min-height:44px;
+}
+.spotify-btn,.info-btn,.collapse-btn,.history-toggle{
+  min-height:0;
+}
+@media(max-width:600px){
+  .wrap{padding:12px}
+  .page-header{
+    position:sticky;
+    top:env(safe-area-inset-top);
+    z-index:30;
+    background:rgba(17,17,17,.96);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    padding:8px 0;
+  }
+  .page-header h1{font-size:1.45rem}
+  #toggleAllBoxes{font-size:.9rem}
+  .card{border-radius:16px}
+  .hero{gap:12px}
+  .art{
+    max-width:none;
+    width:100%;
+    aspect-ratio:1/1;
+  }
+  .title{font-size:1.35rem}
+  audio{height:46px}
+  .grid{grid-template-columns:1fr}
+  #availableCard .kv,
+  .kv{grid-template-columns:1fr}
+  .kv .key{
+    margin-top:8px;
+    font-size:.82rem;
+  }
+  .kv .value{font-size:1rem}
+  .track{
+    grid-template-columns:46px minmax(0,1fr) 28px;
+    align-items:center;
+  }
+  .track-time{
+    grid-column:2 / 4;
+    text-align:left;
+    padding-top:3px;
+  }
+  .thumb{width:46px;height:46px}
+  .data-grid{grid-template-columns:1fr 1fr}
+  .data-value{font-size:1.1rem}
+  .spotify-menu{
+    position:fixed;
+    left:12px;
+    right:12px;
+    top:auto;
+    bottom:calc(12px + env(safe-area-inset-bottom));
+    min-width:0;
+    padding:10px;
+    border-radius:14px;
+  }
+  .spotify-menu button{
+    min-height:48px;
+    font-size:1rem;
+  }
+  .info-modal{
+    align-items:flex-end;
+    padding:0;
+  }
+  .info-dialog{
+    width:100%;
+    max-height:78vh;
+    border-radius:18px 18px 0 0;
+    padding:18px 16px calc(18px + env(safe-area-inset-bottom));
+  }
+}
+
+@media(max-width:700px){
+  .hero{grid-template-columns:1fr}
+  .art{max-width:260px}
+}
+@media(max-width:520px){
+  .wrap{padding:10px}
+  .card{padding:13px}
+  .kv{grid-template-columns:1fr}
+  .kv .key{margin-top:6px}
+  .track{grid-template-columns:48px minmax(0,1fr) 28px}
+  .thumb{width:48px;height:48px}
+  .track-time{grid-column:2 / 4;text-align:left}
+  .card-head{align-items:flex-start}
+  .card-tools{justify-content:flex-end}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="page-header">
+    <h1>BottleRag Radio</h1>
+    <button id="toggleAllBoxes" type="button">Show all boxes</button>
+  </div>
+
+  <section class="card" id="nowCard">
+    <div class="card-head">
+      <h2>Now Playing</h2>
+      <div class="card-tools">
+        <span class="live-badge">updates automatically</span>
+        <button class="collapse-btn" data-target="body-now" aria-expanded="true" type="button" title="Hide/show Now Playing">
+          <span class="arrow">▼</span>
+        </button>
+      </div>
+    </div>
+    <div class="card-body" id="body-now">
+      <div class="hero">
+        <img id="artwork" class="art" alt="Album art">
+        <div style="min-width:0">
+          <div id="stationStatus"><span class="status-dot"></span>Loading…</div>
+          
+<div class="song-title-row">
+  <div id="songTitle" class="title">Loading…</div>
+  <div class="spotify-wrap">
+    <button id="nowSpotifyBtn" class="spotify-btn" type="button" aria-label="Open current song on Spotify" title="Open on Spotify">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="11" fill="currentColor"></circle>
+        <path d="M6.3 9.2c3.7-1.1 8.2-.8 11.4.8" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+        <path d="M7 12.1c3.2-.8 7-.6 9.8.7" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M7.6 14.9c2.6-.6 5.8-.4 8.2.6" fill="none" stroke="#111" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <div id="nowSpotifyMenu" class="spotify-menu" hidden>
+      <button type="button" data-open-spotify="browser">Open in browser</button>
+      <button type="button" data-open-spotify="app">Open in Spotify app</button>
+    </div>
+  </div>
+</div>
+
+          <div id="songArtist" class="artist"></div>
+          <div id="songAlbum" class="album muted"></div>
+          <div style="margin-top:12px">
+            <progress id="songProgress" max="1" value="0"></progress>
+            <div class="tiny muted">
+              <span id="elapsed">0:00</span> /
+              <span id="duration">0:00</span> ·
+              <span id="remaining">0:00 remaining</span>
+            </div>
+          </div>
+          <audio id="player" controls preload="none"
+            src="https://studio18.radiolize.com/radio/8140/radio.mp3"></audio>
+        </div>
+      </div>
+      <div class="status-footer"><div class="refresh-status" id="status-now"></div><button class="info-btn" data-info="now" type="button" aria-label="Explain Now Playing information" title="What does this information mean?">i</button></div>
+    </div>
+  </section>
+
+  <section class="card" id="historyCard">
+    <div class="card-head">
+      <h2>Recently Played</h2>
+      <div class="card-tools">
+        <span class="live-badge">updates automatically</span>
+        <button class="collapse-btn" data-target="body-history" aria-expanded="true" type="button" title="Hide/show Recently Played">
+          <span class="arrow">▼</span>
+        </button>
+      </div>
+    </div>
+    <div class="card-body" id="body-history">
+      <div id="recentTracks" class="history-list"><div class="muted">Loading…</div></div>
+      <div class="history-more">
+        <button id="historyToggle" class="history-toggle" type="button" aria-expanded="false" title="Show more recently played songs">
+          <span class="arrow">▼</span>
+        </button>
+      </div>
+      <div class="status-footer"><div class="refresh-status" id="status-history"></div><button class="info-btn" data-info="history" type="button" aria-label="Explain Recently Played information" title="What does this information mean?">i</button></div>
+    </div>
+  </section>
+  
+
+
+
+  
+
+  
+
+  <div class="grid" style="margin-top:14px">
+    <section class="card" id="stationCard">
+      <div class="card-head">
+        <h2>Station</h2>
+        <div class="card-tools">
+          <label class="auto-label"><input class="auto-box" data-section="station" type="checkbox"> Auto</label>
+          <button class="refresh-btn" data-section="station" type="button">Refresh</button>
+          <button class="collapse-btn" data-target="body-station" aria-expanded="false" type="button" title="Hide/show Station"><span class="arrow">▼</span></button>
+        </div>
+      </div>
+      <div class="card-body" id="body-station" hidden>
+        <div id="stationInfo" class="kv"></div>
+        <div class="status-footer"><div class="refresh-status" id="status-station"></div><button class="info-btn" data-info="station" type="button" aria-label="Explain Station information" title="What does this information mean?">i</button></div>
+      </div>
+    </section>
+
+    <section class="card" id="listenersCard">
+      <div class="card-head">
+        <h2>Listeners</h2>
+        <div class="card-tools">
+          <label class="auto-label"><input class="auto-box" data-section="listeners" type="checkbox"> Auto</label>
+          <button class="refresh-btn" data-section="listeners" type="button">Refresh</button>
+          <button class="collapse-btn" data-target="body-listeners" aria-expanded="false" type="button" title="Hide/show Listeners"><span class="arrow">▼</span></button>
+        </div>
+      </div>
+      <div class="card-body" id="body-listeners" hidden>
+        <div id="listenerInfo" class="kv"></div>
+        <div class="status-footer"><div class="refresh-status" id="status-listeners"></div><button class="info-btn" data-info="listeners" type="button" aria-label="Explain listener information" title="What do these listener counts mean?">i</button></div>
+      </div>
+    </section>
+
+    <section class="card" id="liveCard">
+      <div class="card-head">
+        <h2>Live / Automation</h2>
+        <div class="card-tools">
+          <label class="auto-label"><input class="auto-box" data-section="live" type="checkbox"> Auto</label>
+          <button class="refresh-btn" data-section="live" type="button">Refresh</button>
+          <button class="collapse-btn" data-target="body-live" aria-expanded="false" type="button" title="Hide/show Live / Automation"><span class="arrow">▼</span></button>
+        </div>
+      </div>
+      <div class="card-body" id="body-live" hidden>
+        <div id="liveInfo" class="kv"></div>
+        <div class="status-footer"><div class="refresh-status" id="status-live"></div><button class="info-btn" data-info="live" type="button" aria-label="Explain Live and Automation information" title="What does this information mean?">i</button></div>
+      </div>
+    </section>
+
+    <section class="card" id="streamCard">
+      <div class="card-head">
+        <h2>Stream</h2>
+        <div class="card-tools">
+          <label class="auto-label"><input class="auto-box" data-section="stream" type="checkbox"> Auto</label>
+          <button class="refresh-btn" data-section="stream" type="button">Refresh</button>
+          <button class="collapse-btn" data-target="body-stream" aria-expanded="false" type="button" title="Hide/show Stream"><span class="arrow">▼</span></button>
+        </div>
+      </div>
+      <div class="card-body" id="body-stream" hidden>
+        <div id="streamInfo" class="kv"></div>
+        <div class="status-footer"><div class="refresh-status" id="status-stream"></div><button class="info-btn" data-info="stream" type="button" aria-label="Explain Stream information" title="What does this information mean?">i</button></div>
+      </div>
+    </section>
+  
+    <section class="card" id="dataCard">
+  <div class="card-head">
+    <h2>Listening Data</h2>
+    <button class="collapse-btn" data-target="body-data" aria-expanded="false" type="button" title="Hide/show Listening Data">
+      <span class="arrow">▼</span>
+    </button>
+  </div>
+  <div class="card-body" id="body-data" hidden>
+    <div class="data-grid">
+      <div class="data-stat">
+        <div class="muted tiny">Audio payload rate</div>
+        <div id="dataRate" class="data-value">0 KB/s</div>
+      </div>
+      <div class="data-stat">
+        <div class="muted tiny">Estimated audio payload</div>
+        <div id="dataTotal" class="data-value">0 MB</div>
+      </div>
+      <div class="data-stat">
+        <div class="muted tiny">Listening time</div>
+        <div id="listenTime" class="data-value">0:00:00</div>
+      </div>
+      <div class="data-stat">
+        <div class="muted tiny">Metadata payload this session</div>
+        <div id="metadataTotal" class="data-value">0 KB</div>
+      </div>
+      <div class="data-stat">
+        <div class="muted tiny">Stream bitrate</div>
+        <div class="data-value">128 kbps MP3</div>
+      </div>
+    </div>
+    <div class="data-actions">
+      <span class="muted tiny">Audio is estimated from the confirmed 128 kbps stream. Metadata payload is measured directly by this page.</span>
+      <button id="resetData" type="button">Reset session counter</button>
+    </div>
+    <div class="status-footer">
+      <div class="refresh-status" id="status-data">Waiting for playback</div>
+      <button class="info-btn" data-info="data" type="button" aria-label="Explain Listening Data" title="What do these data numbers mean?">i</button>
+    </div>
+  </div>
+</section>
+  
+
+    
+
+  </div>
+
+  <section class="card auto-panel" id="autoCard">
+    <div class="card-head">
+      <h2>Auto-update Settings</h2>
+      <button class="collapse-btn" data-target="body-auto" aria-expanded="false" type="button" title="Hide/show Auto-update Settings">
+        <span class="arrow">▼</span>
+      </button>
+    </div>
+    <div class="card-body" id="body-auto" hidden>
+      <div class="auto-controls">
+        <div class="control-group">
+          <label class="auto-label" style="font-size:.95rem;color:var(--text)">
+            <input id="autoAll" type="checkbox"> Auto-update all info boxes
+          </label>
+        </div>
+        <div class="control-group">
+          <span class="muted tiny">Interval</span>
+          <select id="intervalSelect">
+            <option value="5">5 sec</option>
+            <option value="10">10 sec</option>
+            <option value="15" selected>15 sec</option>
+            <option value="30">30 sec</option>
+            <option value="60">60 sec</option>
+          </select>
+        </div>
+        <button id="refreshAll" type="button">Refresh all info boxes</button>
+      </div>
+      <p class="muted tiny" style="margin-bottom:0">
+        Now Playing and Recently Played always update in the background regardless of these settings, using the current track timing so the page usually waits until the song is about to change instead of polling every few seconds.
+        Metadata updates do not reload the page or interrupt audio playback.
+      </p>
+      <div class="info-row"><button class="info-btn" data-info="auto" type="button" aria-label="Explain Auto-update settings" title="What do these settings mean?">i</button></div>
+    </div>
+  </section>
+
+  <section class="card" id="availableCard">
+      <div class="card-head">
+        <h2>Available Stream Data</h2>
+        <div class="card-tools">
+          <button id="probeStreamData" type="button">Probe</button>
+          <button class="collapse-btn" data-target="body-available" aria-expanded="false" type="button" title="Hide/show Available Stream Data">
+            <span class="arrow">▼</span>
+          </button>
+        </div>
+      </div>
+      <div class="card-body" id="body-available" hidden>
+        <div id="probeSummary" class="probe-summary"></div>
+
+        <h3 class="probe-heading">Realtime metadata</h3>
+        <div id="realtimeInfo" class="kv"></div>
+
+        <h3 class="probe-heading">Public endpoint discoveries</h3>
+        <div id="discoveredInfo" class="kv"></div>
+
+        <h3 class="probe-heading">Public stream/server fields</h3>
+        <div id="serverInfo" class="kv"></div>
+
+        <details class="probe-details">
+          <summary>Show safe raw discovered data</summary>
+          <pre id="probeRaw">No probe data yet.</pre>
+        </details>
+
+        <div class="status-footer">
+          <div class="refresh-status" id="status-available">Not probed yet</div>
+          <button class="info-btn" data-info="available" type="button" aria-label="Explain Available Stream Data" title="What does this information mean?">i</button>
+        </div>
+      </div>
+    </section>
+
+  <section class="card" id="rawCard" style="margin-top:14px">
+    <div class="card-head">
+      <h2>Raw Metadata</h2>
+      <div class="card-tools">
+        <label class="auto-label"><input class="auto-box" data-section="raw" type="checkbox"> Auto</label>
+        <button class="refresh-btn" data-section="raw" type="button">Refresh</button>
+        <button class="collapse-btn" data-target="body-raw" aria-expanded="false" type="button" title="Hide/show Raw Metadata"><span class="arrow">▼</span></button>
+      </div>
+    </div>
+    <div class="card-body" id="body-raw" hidden>
+      <p class="muted tiny">Complete JSON returned by the public now-playing API.</p>
+      <pre id="rawMetadata">Loading…</pre>
+      <div class="status-footer"><div class="refresh-status" id="status-raw"></div><button class="info-btn" data-info="raw" type="button" aria-label="Explain Raw Metadata" title="What does this information mean?">i</button></div>
+    </div>
+  </section>
+
+  
+
+  
+
+  
+</div>
+
+<div id="infoModal" class="info-modal" hidden role="dialog" aria-modal="true" aria-labelledby="infoTitle">
+  <div class="info-dialog">
+    <div class="info-dialog-head">
+      <h2 id="infoTitle">Information</h2>
+      <button id="infoClose" class="info-close" type="button" aria-label="Close information">×</button>
+    </div>
+    <div id="infoContent"></div>
+  </div>
+</div>
+
+<script>
+const API = "https://studio18.radiolize.com/api/nowplaying/109";
+const LIVE_FALLBACK_MS = 60000;
+
+let latestData = null;
+let localElapsed = 0;
+let autoTimer = null;
+let liveTimer = null;
+let lastNowPlayingId = null;
+let historyExpanded = false;
+let currentHistory = [];
+
+const sectionToCard = {
+  station:"stationCard",
+  listeners:"listenersCard",
+  live:"liveCard",
+  stream:"streamCard",
+  raw:"rawCard"
+};
+
+function fmt(sec){
+  sec = Math.max(0, Math.round(Number(sec) || 0));
+  return Math.floor(sec/60) + ":" + String(sec%60).padStart(2,"0");
+}
+function display(v){
+  return (v === null || v === undefined || v === "") ? "—" : String(v);
+}
+function addKV(container,key,value,link=false){
+  const k=document.createElement("div");
+  k.className="key"; k.textContent=key;
+  const v=document.createElement("div");
+  v.className="value";
+  if(link && value){
+    const a=document.createElement("a");
+    a.href=value; a.target="_blank"; a.rel="noopener"; a.textContent=value;
+    v.appendChild(a);
+  }else{
+    v.textContent=display(value);
+  }
+  container.append(k,v);
+}
+function setKV(id,rows){
+  const el=document.getElementById(id);
+  el.replaceChildren();
+  for(const row of rows) addKV(el,row[0],row[1],!!row[2]);
+}
+function markUpdated(section){
+  const el=document.getElementById("status-"+section);
+  if(el) el.textContent="Updated "+new Date().toLocaleTimeString();
+  const cardId = sectionToCard[section];
+  if(cardId){
+    const card=document.getElementById(cardId);
+    card.classList.remove("flash");
+    void card.offsetWidth;
+    card.classList.add("flash");
+  }
+}
+function markError(section,err){
+  const el=document.getElementById("status-"+section);
+  if(el) el.textContent="Update failed: "+err;
+}
+function updateProgress(){
+  if(!latestData) return;
+  const np=latestData.now_playing||{};
+  const dur=Number(np.duration)||0;
+  const elapsed=Math.min(localElapsed,dur||localElapsed);
+  const rem=Math.max(0,dur-elapsed);
+  const p=document.getElementById("songProgress");
+  p.max=Math.max(1,dur); p.value=elapsed;
+  document.getElementById("elapsed").textContent=fmt(elapsed);
+  document.getElementById("duration").textContent=fmt(dur);
+  document.getElementById("remaining").textContent=fmt(rem)+" remaining";
+}
+function renderNow(data){
+  const np=data.now_playing||{};
+  const song=np.song||{};
+  const live=data.live||{};
+  document.getElementById("songTitle").textContent=display(song.title);
+  document.getElementById("songArtist").textContent=display(song.artist);
+  document.getElementById("songAlbum").textContent=song.album ? "Album: "+song.album : "";
+  const art=document.getElementById("artwork");
+  if(song.art){ art.src=song.art; art.style.display=""; }
+  else { art.removeAttribute("src"); art.style.display="none"; }
+  document.getElementById("stationStatus").innerHTML =
+    '<span class="status-dot '+(data.is_online?'':'off')+'"></span>'+
+    (data.is_online?'Online':'Offline')+' · '+
+    (live.is_live?'LIVE DJ':'Automated programming');
+  localElapsed=Number(np.elapsed)||0;
+  updateProgress();
+  document.getElementById("status-now").textContent =
+    "Updated "+new Date().toLocaleTimeString();
+}
+function renderStation(data){
+  const st=data.station||{};
+  setKV("stationInfo",[
+    ["Name",st.name],["Station ID",st.id],["Shortcode",st.shortcode],
+    ["Website",st.url],["Public player",st.public_player_url,true],
+    ["Public",st.is_public],["Frontend",st.frontend],["Backend",st.backend],
+    ["Cache",data.cache]
+  ]);
+}
+function renderListeners(data){
+  const st=data.station||{};
+  const mount=(st.mounts&&st.mounts.length)?st.mounts[0]:{};
+  const listeners=data.listeners||{};
+  const ml=mount.listeners||{};
+  setKV("listenerInfo",[
+    ["Current",listeners.current],["Unique",listeners.unique],["Total",listeners.total],
+    ["Mount current",ml.current],["Mount unique",ml.unique],["Mount total",ml.total]
+  ]);
+}
+function renderLive(data){
+  const np=data.now_playing||{};
+  const live=data.live||{};
+  setKV("liveInfo",[
+    ["Live now",live.is_live],["Streamer",live.streamer_name],
+    ["Broadcast start",live.broadcast_start],["Playlist",np.playlist],
+    ["Streamer field",np.streamer],["Song request",np.is_request],
+    ["Playing next",data.playing_next?JSON.stringify(data.playing_next):"—"]
+  ]);
+}
+function renderStream(data){
+  const st=data.station||{};
+  const mount=(st.mounts&&st.mounts.length)?st.mounts[0]:{};
+  setKV("streamInfo",[
+    ["Mount name",mount.name],["Format",mount.format],
+    ["Bitrate",mount.bitrate?mount.bitrate+" kbps":"—"],["Mount path",mount.path],
+    ["Direct stream",mount.url||st.listen_url,true],
+    ["PLS playlist",st.playlist_pls_url,true],
+    ["M3U playlist",st.playlist_m3u_url,true],
+    ["Station URL",st.listen_url,true]
+  ]);
+}
+function renderHistory(data){
+  currentHistory=data.song_history||[];
+  const items=historyExpanded ? currentHistory : currentHistory.slice(0,5);
+  const list=document.getElementById("recentTracks");
+  list.replaceChildren();
+
+  if(!items.length){
+    const e=document.createElement("div");
+    e.className="muted"; e.textContent="No song history returned.";
+    list.appendChild(e);
+  }else{
+    for(const item of items){
+      const s=item.song||{};
+      const row=document.createElement("div"); row.className="track";
+      const img=document.createElement("img");
+      img.className="thumb"; img.alt="";
+      if(s.art) img.src=s.art;
+
+      const main=document.createElement("div"); main.className="track-main";
+      const titleRow=document.createElement("div");
+      titleRow.className="song-title-row";
+
+      const title=document.createElement("div");
+      title.className="track-title"; title.style.fontWeight="650";
+      title.textContent=display(s.title);
+
+      titleRow.appendChild(title);
+
+      const sub=document.createElement("div");
+      sub.className="track-sub muted tiny";
+      const parts=[];
+      if(s.artist) parts.push(s.artist);
+      if(s.album) parts.push(s.album);
+      if(item.playlist) parts.push("playlist: "+item.playlist);
+      if(item.streamer) parts.push("streamer: "+item.streamer);
+      if(item.is_request) parts.push("requested");
+      sub.textContent=parts.join(" · ");
+      main.append(titleRow,sub);
+
+      const spot=document.createElement("div");
+      spot.className="track-spotify";
+      const spotWrap=document.createElement("div");
+      spotWrap.className="spotify-wrap";
+      const spotBtn=document.createElement("button");
+      spotBtn.className="spotify-btn";
+      spotBtn.type="button";
+      spotBtn.title="Open on Spotify";
+      spotBtn.setAttribute("aria-label","Open "+display(s.title)+" on Spotify");
+      spotBtn.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"></circle><path d="M6.3 9.2c3.7-1.1 8.2-.8 11.4.8" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/><path d="M7 12.1c3.2-.8 7-.6 9.8.7" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/><path d="M7.6 14.9c2.6-.6 5.8-.4 8.2.6" fill="none" stroke="#111" stroke-width="1.4" stroke-linecap="round"/></svg>';
+      const spotMenu=document.createElement("div");
+      spotMenu.className="spotify-menu";
+      spotMenu.hidden=true;
+      const browserBtn=document.createElement("button");
+      browserBtn.type="button"; browserBtn.textContent="Open in browser";
+      const appBtn=document.createElement("button");
+      appBtn.type="button"; appBtn.textContent="Open in Spotify app";
+      const query=[s.artist,s.title].filter(Boolean).join(" ");
+      browserBtn.addEventListener("click",()=>openSpotify(query,"browser"));
+      appBtn.addEventListener("click",()=>openSpotify(query,"app"));
+      spotBtn.addEventListener("click",(e)=>{
+        e.stopPropagation();
+        closeAllSpotifyMenus(spotMenu);
+        spotMenu.hidden=!spotMenu.hidden;
+      });
+      spotMenu.append(browserBtn,appBtn);
+      spotWrap.append(spotBtn,spotMenu);
+      spot.appendChild(spotWrap);
+
+      const right=document.createElement("div");
+      right.className="track-time muted tiny";
+      const when=item.played_at?new Date(item.played_at*1000):null;
+      right.textContent=fmt(item.duration)+(when&&!isNaN(when)?"\n"+when.toLocaleTimeString():"");
+
+      row.append(img,main,spot,right);
+      list.appendChild(row);
+    }
+  }
+
+  const toggle=document.getElementById("historyToggle");
+  if(currentHistory.length <= 5){
+    toggle.style.display="none";
+  }else{
+    toggle.style.display="";
+    toggle.setAttribute("aria-expanded",historyExpanded ? "true" : "false");
+    toggle.title = historyExpanded
+      ? "Show only the last five songs"
+      : "Show all recently played songs";
+  }
+  document.getElementById("status-history").textContent =
+    "Updated "+new Date().toLocaleTimeString();
+}
+function renderRaw(data){
+  document.getElementById("rawMetadata").textContent=JSON.stringify(data,null,2);
+}
+
+const renderers = {
+  station:renderStation,
+  listeners:renderListeners,
+  live:renderLive,
+  stream:renderStream,
+  raw:renderRaw
+};
+
+async function fetchData(){
+  const r=await fetch(API,{cache:"no-store"});
+  if(!r.ok) throw new Error(r.status+" "+r.statusText);
+  const buf=await r.arrayBuffer();
+  metadataSessionBytes += buf.byteLength;
+  const text=new TextDecoder().decode(buf);
+  return JSON.parse(text);
+}
+
+async function refreshSection(section){
+  try{
+    const data=await fetchData();
+    latestData=data;
+    renderers[section](data);
+    markUpdated(section);
+  }catch(err){
+    markError(section,err);
+  }
+}
+
+async function refreshInfoBoxes(){
+  try{
+    const data=await fetchData();
+    latestData=data;
+    for(const section of Object.keys(renderers)){
+      renderers[section](data);
+      markUpdated(section);
+    }
+  }catch(err){
+    for(const section of Object.keys(renderers)) markError(section,err);
+  }
+}
+
+function scheduleNextLiveRefresh(data){
+  if(typeof realtimeState!=="undefined" && realtimeState.active!=="fallback polling") return;
+  if(liveTimer) clearTimeout(liveTimer);
+  const np=(data&&data.now_playing)||{};
+  let delay=LIVE_FALLBACK_MS;
+
+  // When duration/remaining are known, wait until just after the expected song change.
+  const remaining=Number(np.remaining);
+  if(Number.isFinite(remaining) && remaining>=0){
+    delay=Math.max(3000, Math.min(LIVE_FALLBACK_MS, (remaining+1.5)*1000));
+  }else if((data&&data.live&&data.live.is_live)){
+    // Live shows may not have reliable track timing, so check modestly more often.
+    delay=15000;
+  }
+
+  liveTimer=setTimeout(refreshAlwaysLive,delay);
+}
+
+async function refreshAlwaysLive(){
+  try{
+    const data=await fetchData();
+    latestData=data;
+    renderNow(data);
+    renderHistory(data);
+    lastNowPlayingId=(data.now_playing||{}).sh_id || null;
+    scheduleNextLiveRefresh(data);
+  }catch(err){
+    document.getElementById("status-now").textContent="Update failed: "+err;
+    document.getElementById("status-history").textContent="Update failed: "+err;
+    if(liveTimer) clearTimeout(liveTimer);
+    liveTimer=setTimeout(refreshAlwaysLive,15000);
+  }
+}
+
+function activeAutoSections(){
+  if(document.getElementById("autoAll").checked) return Object.keys(renderers);
+  return [...document.querySelectorAll(".auto-box:checked")]
+    .map(x=>x.dataset.section);
+}
+
+async function autoTick(){
+  const sections=activeAutoSections();
+  if(!sections.length) return;
+  try{
+    const data=await fetchData();
+    latestData=data;
+    for(const section of sections){
+      renderers[section](data);
+      markUpdated(section);
+    }
+  }catch(err){
+    for(const section of sections) markError(section,err);
+  }
+}
+
+function restartAutoTimer(){
+  if(autoTimer) clearInterval(autoTimer);
+  const sec=Number(document.getElementById("intervalSelect").value)||15;
+  autoTimer=setInterval(autoTick,sec*1000);
+}
+
+document.querySelectorAll(".refresh-btn").forEach(btn=>{
+  btn.addEventListener("click",()=>refreshSection(btn.dataset.section));
+});
+document.getElementById("refreshAll").addEventListener("click",refreshInfoBoxes);
+document.getElementById("intervalSelect").addEventListener("change",restartAutoTimer);
+document.getElementById("autoAll").addEventListener("change",()=>{
+  if(document.getElementById("autoAll").checked) autoTick();
+});
+document.querySelectorAll(".auto-box").forEach(cb=>{
+  cb.addEventListener("change",()=>{
+    if(cb.checked) refreshSection(cb.dataset.section);
+  });
+});
+
+document.querySelectorAll(".collapse-btn").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    const body=document.getElementById(btn.dataset.target);
+    const expanded=btn.getAttribute("aria-expanded")==="true";
+    btn.setAttribute("aria-expanded",expanded ? "false" : "true");
+    body.hidden=expanded;
+  });
+});
+
+document.getElementById("historyToggle").addEventListener("click",()=>{
+  historyExpanded=!historyExpanded;
+  if(latestData) renderHistory(latestData);
+});
+
+refreshAlwaysLive();
+refreshInfoBoxes();
+restartAutoTimer();
+
+
+setInterval(()=>{
+  localElapsed+=1;
+  updateProgress();
+},1000);
+
+
+const STREAM_BITRATE_KBPS = 128;
+const STREAM_BYTES_PER_SEC = STREAM_BITRATE_KBPS * 1000 / 8;
+let dataSessionBytes = 0;
+let metadataSessionBytes = 0;
+let dataSessionSeconds = 0;
+let dataLastTick = performance.now();
+
+function formatBytes(bytes){
+  if(bytes < 1024) return bytes.toFixed(0)+" B";
+  if(bytes < 1024*1024) return (bytes/1024).toFixed(1)+" KB";
+  if(bytes < 1024*1024*1024) return (bytes/(1024*1024)).toFixed(2)+" MB";
+  return (bytes/(1024*1024*1024)).toFixed(2)+" GB";
+}
+function formatHMS(seconds){
+  seconds=Math.max(0,Math.floor(seconds));
+  const h=Math.floor(seconds/3600);
+  const m=Math.floor((seconds%3600)/60);
+  const s=seconds%60;
+  return h+":"+String(m).padStart(2,"0")+":"+String(s).padStart(2,"0");
+}
+function updateDataUsage(){
+  const player=document.getElementById("player");
+  const now=performance.now();
+  const dt=(now-dataLastTick)/1000;
+  dataLastTick=now;
+
+  if(player && !player.paused && !player.ended && player.readyState>0){
+    dataSessionSeconds += dt;
+    dataSessionBytes += STREAM_BYTES_PER_SEC * dt;
+    document.getElementById("dataRate").textContent=(STREAM_BYTES_PER_SEC/1000).toFixed(1)+" KB/s";
+    document.getElementById("status-data").textContent="Estimating while audio is playing";
+  }else{
+    document.getElementById("dataRate").textContent="0 KB/s";
+    document.getElementById("status-data").textContent=player && player.paused ? "Paused" : "Waiting for playback";
+  }
+  document.getElementById("dataTotal").textContent=formatBytes(dataSessionBytes);
+  document.getElementById("metadataTotal").textContent=formatBytes(metadataSessionBytes);
+  document.getElementById("listenTime").textContent=formatHMS(dataSessionSeconds);
+}
+document.getElementById("resetData").addEventListener("click",()=>{
+  dataSessionBytes=0;
+  metadataSessionBytes=0;
+  dataSessionSeconds=0;
+  dataLastTick=performance.now();
+  updateDataUsage();
+});
+setInterval(updateDataUsage,1000);
+
+function spotifyQuery(){
+  if(!latestData) return "";
+  const song=(latestData.now_playing||{}).song||{};
+  return [song.artist,song.title].filter(Boolean).join(" ");
+}
+function openSpotify(query,mode){
+  if(!query) return;
+  if(mode==="app"){
+    window.location.href="spotify:search:"+encodeURIComponent(query);
+  }else{
+    window.open("https://open.spotify.com/search/"+encodeURIComponent(query),"_blank","noopener");
+  }
+}
+function closeAllSpotifyMenus(except=null){
+  document.querySelectorAll(".spotify-menu").forEach(menu=>{
+    if(menu!==except) menu.hidden=true;
+  });
+}
+const nowSpotifyBtn=document.getElementById("nowSpotifyBtn");
+const nowSpotifyMenu=document.getElementById("nowSpotifyMenu");
+nowSpotifyBtn.addEventListener("click",(e)=>{
+  e.stopPropagation();
+  closeAllSpotifyMenus(nowSpotifyMenu);
+  nowSpotifyMenu.hidden=!nowSpotifyMenu.hidden;
+});
+nowSpotifyMenu.querySelector('[data-open-spotify="browser"]').addEventListener("click",()=>{
+  openSpotify(spotifyQuery(),"browser");
+  nowSpotifyMenu.hidden=true;
+});
+nowSpotifyMenu.querySelector('[data-open-spotify="app"]').addEventListener("click",()=>{
+  openSpotify(spotifyQuery(),"app");
+  nowSpotifyMenu.hidden=true;
+});
+document.addEventListener("click",()=>closeAllSpotifyMenus());
+
+const infoHelp = {
+  available: {
+    title: "Available Stream Data — what this box does",
+    items: [
+      ["Probe", "Tests several public, read-only BottleRag/Radiolize/Icecast endpoints from your browser. It never uses an admin endpoint and never requests listener IP addresses."],
+      ["Realtime metadata", "Shows whether a live push connection can be established. If a usable realtime feed is available, the page can receive track changes without repeatedly polling the full now-playing API."],
+      ["Public endpoint discoveries", "Shows which lightweight/public endpoints responded, such as the static now-playing text endpoint, playlist files, or public Icecast status JSON."],
+      ["Public stream/server fields", "Displays extra non-sensitive fields found in those public responses, such as MIME type, stream start time, server description, genre, listener peak, sample rate, channels, or other fields if the server exposes them."],
+      ["Safe raw discovered data", "Shows the public data returned by successful probes after filtering out listener IP/address fields, user-agent fields, credentials, and administrative/sensitive fields."],
+      ["Why some fields may be missing", "Public Icecast/Radiolize installations can hide many statistics. The box only displays what this particular server exposes to an ordinary browser."],
+      ["Low-data behavior", "Probes run only at page load and when you press Probe. They are not continuously repeated. Realtime push, when available, is preferred for song changes; the existing low-data song-boundary refresh remains the fallback."]
+    ]
+  },
+  data: {
+    title: "Listening Data — what the numbers mean",
+    items: [
+      ["Audio payload rate", "The stream is 128 kbps, which equals about 16 KB per second of audio while playback is active. This is an estimate, not a direct reading from your cellular/Wi-Fi interface."],
+      ["Estimated audio payload", "The estimated amount of audio data consumed since this page was opened or since you last reset the session counter."],
+      ["Listening time", "How long the audio player has actually been in the playing state during the current counter session."],
+      ["Stream bitrate", "BottleRag broadcasts a 128 kbps MP3 stream."],
+      ["Metadata payload", "The page counts the actual bytes in the JSON metadata responses it downloads. HTTP/TLS headers and album-art downloads are not included in that number."],
+      ["Network overhead", "TCP/TLS/HTTP overhead, buffering, and artwork can make real network usage slightly higher than the displayed totals."],
+      ["Reset session counter", "Sets the estimated data total and listening-time counter back to zero without stopping the radio."]
+    ]
+  },
+  now: {
+    title: "Now Playing — what the information means",
+    items: [
+      ["Online / Offline", "Whether Radiolize currently reports the BottleRag stream as available."],
+      ["Automated programming", "The station is playing scheduled or playlist material rather than a live DJ/streamer."],
+      ["LIVE DJ", "Radiolize reports that a live streamer is currently connected."],
+      ["Title", "The title supplied in the current track's metadata."],
+      ["Artist", "The artist supplied in the current track's metadata."],
+      ["Album", "The album tag supplied for the current track, when available."],
+      ["Artwork", "Album or station artwork supplied by BottleRag/Radiolize for the current item."],
+      ["Elapsed", "How far Radiolize says the current item has progressed. The page advances this timer locally between metadata checks."],
+      ["Duration", "The total duration reported for the current item."],
+      ["Remaining", "An estimate of time left, calculated from duration minus elapsed time."],
+      ["Audio player", "Plays BottleRag's direct 128 kbps MP3 stream. Updating metadata does not reload or restart this player."]
+    ]
+  },
+  station: {
+    title: "Station — what the information means",
+    items: [
+      ["Name", "The station's display name in Radiolize."],
+      ["Station ID", "Radiolize's numeric internal identifier for this station. BottleRag is station 109."],
+      ["Shortcode", "A human-readable unique station identifier used in Radiolize public-player URLs and related endpoints."],
+      ["Website", "The website address the station owner entered for BottleRag."],
+      ["Public player", "Radiolize's hosted web player for the station."],
+      ["Public", "Whether the station is configured as publicly accessible in Radiolize."],
+      ["Frontend", "The streaming server exposed to listeners. Icecast handles delivery of the public audio stream."],
+      ["Backend", "The audio automation/processing system. Liquidsoap can schedule, mix, process, and hand audio to the streaming server."],
+      ["Cache", "The cache mechanism reported by the API. Redis is being used to cache/update now-playing data efficiently."]
+    ]
+  },
+  listeners: {
+    title: "Listeners — what the counts mean",
+    items: [
+      ["Current", "The number of listener connections Radiolize reports at the moment of the metadata request."],
+      ["Unique", "The number of distinct listeners represented in the current station listener statistics. The exact deduplication method is determined by Radiolize/AzuraCast-style server statistics."],
+      ["Total", "The station-level total listener count reported in this now-playing response."],
+      ["Mount current", "Current connections specifically to the /radio.mp3 mount point."],
+      ["Mount unique", "Unique listeners reported specifically for that mount point."],
+      ["Mount total", "Total listeners reported specifically for that mount point."],
+      ["Why they match", "BottleRag currently exposes only one audio mount, so the station-wide and mount-specific figures will usually be identical."],
+      ["Your connection", "If you are listening through this page, your player may be included as one listener once the server registers the connection."]
+    ]
+  },
+  live: {
+    title: "Live / Automation — what the information means",
+    items: [
+      ["Live now", "True means a live streamer/DJ is connected; false means the station is not presently flagged as live."],
+      ["Streamer", "The display name of the live broadcaster, if one is supplied."],
+      ["Broadcast start", "When the current live broadcast began, if the station is live."],
+      ["Playlist", "The automation playlist responsible for the current item. '1default' is BottleRag's default playlist identifier."],
+      ["Streamer field", "The streamer associated with the currently playing item. It is normally blank during automated playback."],
+      ["Song request", "True means the current song was inserted as a listener/requested track; false means it was not marked as a request."],
+      ["Playing next", "Metadata for the next scheduled item when the server exposes it. A dash means the API did not provide a next item."]
+    ]
+  },
+  stream: {
+    title: "Stream — what the information means",
+    items: [
+      ["Mount name", "BottleRag's label for this particular stream configuration: 128kbps MP3."],
+      ["Format", "The audio codec/container delivered to listeners. BottleRag uses MP3."],
+      ["Bitrate", "The target audio data rate. At 128 kbps, the audio itself is about 57.6 MB per hour before network overhead."],
+      ["Mount path", "The Icecast path identifying this stream, /radio.mp3."],
+      ["Direct stream", "The direct continuous audio URL used by the player. Opening it bypasses BottleRag's full website."],
+      ["PLS playlist", "A small .pls internet-radio playlist file that tells compatible players where the stream is."],
+      ["M3U playlist", "A small .m3u internet-radio playlist file serving the same general purpose for compatible players."],
+      ["Station URL", "The listen URL supplied by the station metadata; for BottleRag it currently points to the same direct MP3 stream."]
+    ]
+  },
+  history: {
+    title: "Recently Played — what the information means",
+    items: [
+      ["Default view", "Shows the five most recent completed items returned by Radiolize."],
+      ["Down arrow", "Expands the list to show the rest of the song history returned by the API. Click it again to return to five."],
+      ["Title / Artist / Album", "Track tags stored in the station's metadata."],
+      ["Playlist", "The automation playlist that supplied that track, when reported."],
+      ["Streamer", "The live streamer responsible for the item, if it came from a live broadcast and that field is supplied."],
+      ["Requested", "Appears when the server marks the item as a listener/song request."],
+      ["Duration", "The reported length of the item."],
+      ["Time", "Your browser converts the API's Unix played_at timestamp into your device's local time."],
+      ["Automatic updates", "This section updates automatically even if the optional auto-update controls are off. To save data, the page normally waits until the current song is expected to end, then checks again instead of polling every few seconds."]
+    ]
+  },
+  auto: {
+    title: "Auto-update Settings — what the controls mean",
+    items: [
+      ["Auto-update all info boxes", "Automatically refreshes Station, Listeners, Live / Automation, Stream, and Raw Metadata together."],
+      ["Interval", "How often the optional information boxes are refreshed when their Auto option, or Auto-update all, is enabled."],
+      ["Individual Auto", "Each optional box has its own Auto checkbox, so you can continuously update only the information you care about."],
+      ["Refresh", "Fetches fresh metadata for just that box without reloading the webpage."],
+      ["Refresh all info boxes", "Fetches one fresh metadata response and updates all optional information boxes from it."],
+      ["Now Playing / Recently Played", "These are intentionally independent of these controls. They refresh automatically near the expected end of each song, with a slower fallback check when timing is unavailable, which saves substantially more data than polling every few seconds."],
+      ["Audio playback", "None of these metadata refreshes reload the page or replace the audio element, so they should not interrupt the stream."]
+    ]
+  },
+  raw: {
+    title: "Raw Metadata — what the information means",
+    items: [
+      ["Purpose", "This is the complete JSON response returned by BottleRag's public Radiolize now-playing API."],
+      ["station", "Station configuration, stream mount information, URLs, codec/bitrate, and mount listener statistics."],
+      ["listeners", "Station-level listener statistics."],
+      ["live", "Whether a live broadcaster is connected and any live-streamer information."],
+      ["now_playing", "Current track, timing, playlist, request status, artwork, and related identifiers."],
+      ["song_history", "Recently completed tracks/items returned by the server."],
+      ["playing_next", "The next item when the server makes that information available."],
+      ["is_online", "Whether the station is currently reported online."],
+      ["cache", "The caching backend named by the API."],
+      ["Why keep it", "It lets you see fields that are not yet given their own display in this page and is useful when BottleRag/Radiolize adds or changes metadata."]
+    ]
+  }
+};
+
+function openInfo(section){
+  const data = infoHelp[section];
+  if(!data) return;
+  document.getElementById("infoTitle").textContent = data.title;
+  const content = document.getElementById("infoContent");
+  content.replaceChildren();
+
+  const list = document.createElement("div");
+  list.className = "info-list";
+  for(const [term, desc] of data.items){
+    const t = document.createElement("div");
+    t.className = "info-term";
+    t.textContent = term;
+    const d = document.createElement("div");
+    d.className = "info-desc";
+    d.textContent = desc;
+    list.append(t,d);
+  }
+  content.appendChild(list);
+  document.getElementById("infoModal").hidden = false;
+}
+function closeInfo(){
+  document.getElementById("infoModal").hidden = true;
+}
+document.querySelectorAll(".info-btn").forEach(btn=>{
+  btn.addEventListener("click",()=>openInfo(btn.dataset.info));
+});
+document.getElementById("infoClose").addEventListener("click",closeInfo);
+document.getElementById("infoModal").addEventListener("click",e=>{
+  if(e.target.id === "infoModal") closeInfo();
+});
+document.addEventListener("keydown",e=>{
+  if(e.key === "Escape") closeInfo();
+});
+
+
+const AUX_BODY_IDS = [
+  "body-data","body-station","body-listeners","body-live",
+  "body-stream","body-available","body-auto","body-raw"
+];
+
+function setAuxBoxesVisible(show){
+  for(const id of AUX_BODY_IDS){
+    const body=document.getElementById(id);
+    if(!body) continue;
+    body.hidden=!show;
+    const btn=document.querySelector('.collapse-btn[data-target="'+id+'"]');
+    if(btn) btn.setAttribute("aria-expanded", show ? "true" : "false");
+  }
+  const globalBtn=document.getElementById("toggleAllBoxes");
+  if(globalBtn) globalBtn.textContent=show ? "Hide all boxes" : "Show all boxes";
+}
+
+function allAuxBoxesVisible(){
+  return AUX_BODY_IDS.every(id=>{
+    const body=document.getElementById(id);
+    return body && !body.hidden;
+  });
+}
+
+document.getElementById("toggleAllBoxes").addEventListener("click",()=>{
+  setAuxBoxesVisible(!allAuxBoxesVisible());
+});
+
+setAuxBoxesVisible(false);
+
+
+const STREAM_PROBES = {
+  staticNowPlaying: "https://studio18.radiolize.com/api/nowplaying_static/bottlerag_radio_bukjmd.txt",
+  icecastRoot: "https://studio18.radiolize.com/status-json.xsl",
+  icecastRadioPath: "https://studio18.radiolize.com/radio/8140/status-json.xsl",
+  pls: "https://studio18.radiolize.com/public/bottlerag_radio_bukjmd/playlist.pls",
+  m3u: "https://studio18.radiolize.com/public/bottlerag_radio_bukjmd/playlist.m3u"
+};
+const REALTIME_WS = "wss://studio18.radiolize.com/api/live/nowplaying/websocket";
+const REALTIME_SSE = "https://studio18.radiolize.com/api/live/nowplaying/sse";
+const REALTIME_CHANNEL = "station:bottlerag_radio_bukjmd";
+
+let probeResults = {};
+let realtimeTransport = null;
+let realtimeState = {
+  websocket: "not tried",
+  sse: "not tried",
+  active: "fallback polling",
+  lastMessage: "—"
+};
+
+const blockedFieldPattern = /(ip|address|user.?agent|password|passwd|credential|authorization|admin|token|secret|client_list|listener_list|listeners_list)/i;
+
+function safeClone(value, seen=new WeakSet()){
+  if(value === null || typeof value !== "object") return value;
+  if(seen.has(value)) return "[circular]";
+  seen.add(value);
+  if(Array.isArray(value)){
+    return value.map(v=>safeClone(v,seen));
+  }
+  const out={};
+  for(const [k,v] of Object.entries(value)){
+    if(blockedFieldPattern.test(k)) continue;
+    // Do not expose per-listener objects even if a server happens to return them.
+    if(/^listener(s)?$/i.test(k) && Array.isArray(v)) continue;
+    out[k]=safeClone(v,seen);
+  }
+  return out;
+}
+
+function flattenSafe(obj, prefix="", out={}){
+  if(obj === null || obj === undefined) return out;
+  if(typeof obj !== "object"){
+    out[prefix || "value"] = obj;
+    return out;
+  }
+  if(Array.isArray(obj)){
+    obj.forEach((v,i)=>flattenSafe(v, prefix ? prefix+"["+i+"]" : "["+i+"]", out));
+    return out;
+  }
+  for(const [k,v] of Object.entries(obj)){
+    if(blockedFieldPattern.test(k)) continue;
+    const key=prefix ? prefix+"."+k : k;
+    if(v !== null && typeof v === "object") flattenSafe(v,key,out);
+    else out[key]=v;
+  }
+  return out;
+}
+
+function setProbeKV(id, rows){
+  const el=document.getElementById(id);
+  if(!el) return;
+  el.replaceChildren();
+  if(!rows.length){
+    const k=document.createElement("div");
+    k.className="key"; k.textContent="Status";
+    const v=document.createElement("div");
+    v.className="value"; v.textContent="No additional public fields discovered.";
+    el.append(k,v);
+    return;
+  }
+  for(const [k,v] of rows){
+    addKV(el,k,v,false);
+  }
+}
+
+function chip(label,state){
+  const wrap=document.createElement("span");
+  wrap.className="probe-chip";
+  const dot=document.createElement("span");
+  dot.className="probe-dot "+(state==="ok"?"ok":state==="bad"?"bad":"wait");
+  const txt=document.createElement("span");
+  txt.textContent=label;
+  wrap.append(dot,txt);
+  return wrap;
+}
+
+function updateProbeSummary(){
+  const el=document.getElementById("probeSummary");
+  if(!el) return;
+  el.replaceChildren();
+  const items=[
+    ["Static now-playing",probeResults.staticNowPlaying?.ok],
+    ["Icecast status",probeResults.icecast?.ok],
+    ["PLS",probeResults.pls?.ok],
+    ["M3U",probeResults.m3u?.ok],
+    ["Realtime",realtimeState.active!=="fallback polling"]
+  ];
+  for(const [label,state] of items){
+    el.appendChild(chip(label,state===true?"ok":state===false?"bad":"wait"));
+  }
+}
+
+async function fetchTextProbe(url, timeoutMs=6000){
+  const controller=new AbortController();
+  const timer=setTimeout(()=>controller.abort(),timeoutMs);
+  try{
+    const r=await fetch(url,{cache:"no-store",signal:controller.signal});
+    if(!r.ok) throw new Error(r.status+" "+r.statusText);
+    const text=await r.text();
+    return {ok:true,status:r.status,text,contentType:r.headers.get("content-type")||""};
+  }finally{
+    clearTimeout(timer);
+  }
+}
+
+async function fetchJsonProbe(url, timeoutMs=6000){
+  const t=await fetchTextProbe(url,timeoutMs);
+  let data;
+  try{ data=JSON.parse(t.text); }
+  catch(e){ throw new Error("Response was not JSON"); }
+  return {...t,data};
+}
+
+function friendlyIcecastKey(key){
+  const last=key.split(".").pop().replace(/\[(\d+)\]/g," $1");
+  const labels={
+    server_name:"Server name",
+    server_description:"Server description",
+    server_type:"Content type",
+    server_url:"Station website",
+    server_id:"Icecast server",
+    genre:"Genre",
+    stream_start:"Stream started",
+    stream_start_iso8601:"Stream started",
+    listener_peak:"Listener peak",
+    listeners:"Current listeners",
+    bitrate:"Bitrate",
+    samplerate:"Sample rate",
+    sample_rate:"Sample rate",
+    channels:"Channels",
+    audio_info:"Audio information",
+    quality:"Quality",
+    content_type:"Content type",
+    listenurl:"Listen URL",
+    title:"Current title",
+    artist:"Current artist",
+    yp_currently_playing:"Currently playing",
+    outgoing_kbitrate:"Outgoing bitrate",
+    incoming_bitrate:"Incoming bitrate"
+  };
+  return labels[last] || last.replace(/_/g," ").replace(/\b\w/g,c=>c.toUpperCase());
+}
+
+function summarizeIcecast(data){
+  const flat=flattenSafe(data);
+  const interestingKeys = Object.keys(flat).filter(k =>
+    /(server_name|server_description|server_type|server_url|genre|stream_start|stream_start_iso8601|listener_peak|listeners$|bitrate|samplerate|sample_rate|channels|audio_info|quality|content_type|server_id|listenurl|title|artist|yp_currently_playing)/i.test(k)
+  );
+  return interestingKeys.slice(0,80).map(k=>[friendlyIcecastKey(k),display(flat[k])]);
+}
+
+function renderRealtimeInfo(){
+  setProbeKV("realtimeInfo",[
+    ["Active method",realtimeState.active],
+    ["WebSocket",realtimeState.websocket],
+    ["Server-Sent Events",realtimeState.sse],
+    ["Last realtime message",realtimeState.lastMessage]
+  ]);
+}
+
+function findNowPlayingObject(obj, depth=0){
+  if(!obj || typeof obj!=="object" || depth>8) return null;
+  if(obj.now_playing && obj.station) return obj;
+  for(const v of Object.values(obj)){
+    if(v && typeof v==="object"){
+      const found=findNowPlayingObject(v,depth+1);
+      if(found) return found;
+    }
+  }
+  return null;
+}
+
+function applyRealtimePayload(payload, source){
+  let obj=payload;
+  if(typeof payload==="string"){
+    try{obj=JSON.parse(payload)}catch(e){return false}
+  }
+  const np=findNowPlayingObject(obj);
+  if(!np) return false;
+  latestData=np;
+  renderNow(np);
+  renderHistory(np);
+  realtimeState.active=source;
+  realtimeState.lastMessage=new Date().toLocaleTimeString();
+  renderRealtimeInfo();
+  updateProbeSummary();
+  return true;
+}
+
+function stopRealtime(){
+  try{
+    if(realtimeTransport && typeof realtimeTransport.close==="function") realtimeTransport.close();
+  }catch(e){}
+  realtimeTransport=null;
+}
+
+function tryRealtimeWebSocket(){
+  return new Promise(resolve=>{
+    let useful=false, settled=false;
+    let ws;
+    try{
+      ws=new WebSocket(REALTIME_WS);
+    }catch(e){
+      realtimeState.websocket="unsupported/blocked";
+      renderRealtimeInfo(); resolve(false); return;
+    }
+    realtimeTransport=ws;
+
+    const finish=(ok)=>{
+      if(settled) return;
+      settled=true;
+      clearTimeout(timer);
+      resolve(ok);
+    };
+
+    const timer=setTimeout(()=>{
+      if(!useful){
+        realtimeState.websocket="connected, no usable station update";
+        try{ws.close()}catch(e){}
+        renderRealtimeInfo();
+        finish(false);
+      }
+    },9000);
+
+    ws.onopen=()=>{
+      realtimeState.websocket="connected";
+      renderRealtimeInfo();
+      // Centrifugo-compatible anonymous connect + subscribe.
+      try{ws.send(JSON.stringify({connect:{},id:1}))}catch(e){}
+      setTimeout(()=>{
+        if(ws.readyState===1){
+          try{ws.send(JSON.stringify({subscribe:{channel:REALTIME_CHANNEL},id:2}))}catch(e){}
+        }
+      },350);
+    };
+    ws.onmessage=(ev)=>{
+      let parsed=ev.data;
+      try{parsed=JSON.parse(ev.data)}catch(e){}
+      // Some servers wrap JSON strings within publication data.
+      if(applyRealtimePayload(parsed,"WebSocket")){
+        useful=true;
+        realtimeState.websocket="active";
+        renderRealtimeInfo();
+        finish(true);
+      } else {
+        // Look for nested .push.pub.data / .result.data string/object.
+        try{
+          const candidates=[
+            parsed?.push?.pub?.data,
+            parsed?.result?.data,
+            parsed?.data
+          ].filter(v=>v!==undefined);
+          for(const c of candidates){
+            if(applyRealtimePayload(c,"WebSocket")){
+              useful=true;
+              realtimeState.websocket="active";
+              renderRealtimeInfo();
+              finish(true);
+              break;
+            }
+          }
+        }catch(e){}
+      }
+    };
+    ws.onerror=()=>{
+      realtimeState.websocket="failed";
+      renderRealtimeInfo();
+    };
+    ws.onclose=()=>{
+      if(!useful){
+        realtimeState.websocket=realtimeState.websocket==="failed"?"failed":"closed";
+        renderRealtimeInfo();
+        finish(false);
+      }
+    };
+  });
+}
+
+function tryRealtimeSSE(){
+  return new Promise(resolve=>{
+    if(!("EventSource" in window)){
+      realtimeState.sse="unsupported";
+      renderRealtimeInfo(); resolve(false); return;
+    }
+    let useful=false, settled=false;
+    let es;
+    try{
+      es=new EventSource(REALTIME_SSE);
+    }catch(e){
+      realtimeState.sse="blocked";
+      renderRealtimeInfo(); resolve(false); return;
+    }
+    realtimeTransport=es;
+    const finish=(ok)=>{
+      if(settled) return;
+      settled=true;
+      clearTimeout(timer);
+      resolve(ok);
+    };
+    const timer=setTimeout(()=>{
+      if(!useful){
+        realtimeState.sse="connected, no usable station update";
+        try{es.close()}catch(e){}
+        renderRealtimeInfo();
+        finish(false);
+      }
+    },9000);
+    es.onopen=()=>{
+      realtimeState.sse="connected";
+      renderRealtimeInfo();
+    };
+    es.onmessage=(ev)=>{
+      if(applyRealtimePayload(ev.data,"Server-Sent Events")){
+        useful=true;
+        realtimeState.sse="active";
+        renderRealtimeInfo();
+        finish(true);
+      }
+    };
+    es.onerror=()=>{
+      if(!useful){
+        realtimeState.sse="failed/closed";
+        renderRealtimeInfo();
+        try{es.close()}catch(e){}
+        finish(false);
+      }
+    };
+  });
+}
+
+async function probeRealtime(){
+  stopRealtime();
+  realtimeState={websocket:"trying",sse:"not tried",active:"fallback polling",lastMessage:"—"};
+  renderRealtimeInfo();
+  updateProbeSummary();
+
+  let ok=await tryRealtimeWebSocket();
+  if(ok){
+    // Realtime is active; stop the scheduled fallback timer to save requests.
+    if(liveTimer){ clearTimeout(liveTimer); liveTimer=null; }
+    return true;
+  }
+  realtimeState.sse="trying";
+  renderRealtimeInfo();
+  ok=await tryRealtimeSSE();
+  if(ok){
+    if(liveTimer){ clearTimeout(liveTimer); liveTimer=null; }
+    return true;
+  }
+
+  realtimeState.active="fallback polling";
+  renderRealtimeInfo();
+  updateProbeSummary();
+  // Ensure fallback song-boundary refresh continues.
+  if(latestData) scheduleNextLiveRefresh(latestData);
+  return false;
+}
+
+async function probePublicStreamData(){
+  const status=document.getElementById("status-available");
+  status.textContent="Probing public endpoints…";
+  probeResults={};
+  updateProbeSummary();
+
+  const discoveredRows=[];
+  let icecastData=null;
+
+  // Static now-playing
+  try{
+    const r=await fetchTextProbe(STREAM_PROBES.staticNowPlaying);
+    probeResults.staticNowPlaying=r;
+    discoveredRows.push(["Static now-playing",r.text.trim()||"(blank)"]);
+    discoveredRows.push(["Static content type",r.contentType||"—"]);
+  }catch(e){
+    probeResults.staticNowPlaying={ok:false,error:String(e)};
+  }
+
+  // PLS
+  try{
+    const r=await fetchTextProbe(STREAM_PROBES.pls);
+    probeResults.pls=r;
+    const firstUrl=(r.text.match(/https?:\/\/[^\s\r\n]+/i)||[])[0];
+    discoveredRows.push(["PLS public", "yes"]);
+    if(firstUrl) discoveredRows.push(["PLS stream entry",firstUrl]);
+  }catch(e){
+    probeResults.pls={ok:false,error:String(e)};
+  }
+
+  // M3U
+  try{
+    const r=await fetchTextProbe(STREAM_PROBES.m3u);
+    probeResults.m3u=r;
+    const firstUrl=(r.text.match(/https?:\/\/[^\s\r\n]+/i)||[])[0];
+    discoveredRows.push(["M3U public","yes"]);
+    if(firstUrl) discoveredRows.push(["M3U stream entry",firstUrl]);
+  }catch(e){
+    probeResults.m3u={ok:false,error:String(e)};
+  }
+
+  // Icecast status candidates; first successful one wins.
+  const icecastCandidates=[STREAM_PROBES.icecastRadioPath,STREAM_PROBES.icecastRoot];
+  let icecastError="";
+  for(const url of icecastCandidates){
+    try{
+      const r=await fetchJsonProbe(url);
+      probeResults.icecast={...r,url};
+      icecastData=r.data;
+      discoveredRows.push(["Icecast status endpoint",url]);
+      break;
+    }catch(e){
+      icecastError=String(e);
+    }
+  }
+  if(!icecastData) probeResults.icecast={ok:false,error:icecastError||"not available"};
+
+  setProbeKV("discoveredInfo",discoveredRows);
+  setProbeKV("serverInfo",icecastData ? summarizeIcecast(icecastData) : []);
+
+  const safeRaw = safeClone({
+    probes:{
+      staticNowPlaying:probeResults.staticNowPlaying,
+      pls:probeResults.pls,
+      m3u:probeResults.m3u,
+      icecast:probeResults.icecast
+    },
+    currentNowPlaying: latestData ? {
+      station: latestData.station,
+      live: latestData.live,
+      now_playing: latestData.now_playing,
+      playing_next: latestData.playing_next,
+      is_online: latestData.is_online,
+      cache: latestData.cache
+    } : null
+  });
+  document.getElementById("probeRaw").textContent=JSON.stringify(safeRaw,null,2);
+
+  updateProbeSummary();
+  status.textContent="Public endpoint probe finished "+new Date().toLocaleTimeString();
+
+  // Probe realtime separately after the one-shot public endpoint checks.
+  await probeRealtime();
+  status.textContent="Probe finished "+new Date().toLocaleTimeString();
+}
+
+document.getElementById("probeStreamData").addEventListener("click",probePublicStreamData);
+
+// Run one low-frequency probe on page load. It does not repeat automatically.
+setTimeout(probePublicStreamData,1200);
+
+
+// iPhone/iOS Media Session support where Safari exposes the API.
+function updateMediaSessionFromNowPlaying(data){
+  try{
+    if(!("mediaSession" in navigator)) return;
+    const song=((data||{}).now_playing||{}).song||{};
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: song.title || "BottleRag Radio",
+      artist: song.artist || "BottleRag Radio",
+      album: song.album || "",
+      artwork: song.art ? [
+        {src:song.art, sizes:"512x512"},
+        {src:song.art, sizes:"256x256"},
+        {src:song.art, sizes:"128x128"}
+      ] : []
+    });
+  }catch(e){}
+}
+const originalRenderNow = renderNow;
+renderNow = function(data){
+  originalRenderNow(data);
+  updateMediaSessionFromNowPlaying(data);
+};
+
+try{
+  if("mediaSession" in navigator){
+    const p=document.getElementById("player");
+    navigator.mediaSession.setActionHandler("play",()=>p.play());
+    navigator.mediaSession.setActionHandler("pause",()=>p.pause());
+  }
+}catch(e){}
+
+if("serviceWorker" in navigator && location.protocol.startsWith("http")){
+  window.addEventListener("load",()=>{
+    navigator.serviceWorker.register("sw.js").catch(()=>{});
+  });
+}
+
+</script>
+</body>
+</html>
