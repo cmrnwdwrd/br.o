@@ -848,6 +848,107 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
   .listener-latest{width:100%}
 }
 
+
+/* v26 dashboard, search and history UX */
+.history-search{
+  width:100%;
+  min-width:0;
+  padding:9px 11px;
+  margin:0 0 10px;
+}
+.history-filter-bar{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:8px;
+  margin-bottom:10px;
+}
+.milestone-panel{
+  padding:10px 12px;
+  margin:0 0 12px;
+  background:var(--panel2);
+  border:1px solid var(--border);
+  border-radius:10px;
+}
+.milestone-panel:empty{display:none}
+.aggregate-meta{
+  color:var(--muted);
+  font-size:.78rem;
+  margin-top:2px;
+}
+.listener-controls{margin:10px 0}
+.period-tabs{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+.period-tabs button.active{
+  outline:2px solid #777;
+  background:#303030;
+}
+.listener-canvas-wrap{
+  position:relative;
+  width:100%;
+  min-height:300px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:#111;
+  overflow:hidden;
+}
+#listenerCanvas,#listenerHourCanvas{
+  display:block;
+  width:100%;
+}
+.listener-tooltip{
+  position:absolute;
+  z-index:5;
+  min-width:190px;
+  max-width:min(280px,80vw);
+  padding:8px 10px;
+  border:1px solid #555;
+  background:rgba(24,24,24,.97);
+  border-radius:9px;
+  box-shadow:0 8px 24px rgba(0,0,0,.35);
+  pointer-events:none;
+  font-size:.82rem;
+}
+.listener-tooltip strong{display:block;margin-bottom:3px}
+.listener-tooltip .tip-row{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+}
+.listener-tooltip .tip-row span:first-child{color:var(--muted)}
+.listener-secondary-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.35fr) minmax(250px,.65fr);
+  gap:12px;
+  margin-top:12px;
+}
+.mini-panel{
+  min-width:0;
+  border:1px solid var(--border);
+  background:var(--panel2);
+  border-radius:10px;
+  padding:12px;
+}
+.mini-panel h3{margin:0 0 9px;font-size:1rem}
+.collector-health{
+  align-self:center;
+  padding:6px 9px;
+  border:1px solid var(--border);
+  border-radius:999px;
+  font-size:.78rem;
+  color:var(--muted);
+}
+.collector-health.ok{color:#b9e8b9}
+.collector-health.warn{color:#f0d58a}
+.collector-health.bad{color:#efaaaa}
+@media(max-width:700px){
+  .history-filter-bar{grid-template-columns:1fr}
+  .listener-secondary-grid{grid-template-columns:1fr}
+  .period-tabs button{flex:1 1 30%}
+}
+
 @media(max-width:700px){
   .wrap{padding:12px}
   .page-header{
@@ -990,7 +1091,7 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 <button class="favorite-tab active" data-fav-view="recent" type="button">Recent</button>
 <button class="favorite-tab" data-fav-view="artist" type="button">Artist</button>
 <button class="favorite-tab" data-fav-view="album" type="button">Album</button>
-</div>
+</div><input aria-label="Search liked songs" class="history-search" id="favoritesSearch" placeholder="Search liked songs, artists, or albums…" type="search"/>
 <div class="stats-grid" id="favoritesSummary"></div>
 <div class="favorites-list" id="favoritesList"></div>
 <div class="status-footer">
@@ -1080,7 +1181,7 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 <button aria-expanded="true" class="collapse-btn" data-target="body-myhistory" title="Hide/show My Listening History" type="button"><span class="arrow">▼</span></button>
 </div>
 <div class="card-body" id="body-myhistory">
-<div class="stats-grid" id="myHistoryStats"></div>
+<div class="stats-grid" id="myHistoryStats"></div><div class="milestone-panel" id="listeningMilestones"></div>
 <div class="history-top" id="myHistoryTop"></div>
 <details class="ranking-details history-list-details">
 <summary>Recent Listened Tracks <span class="muted tiny" id="myHistoryListCount"></span></summary>
@@ -1098,7 +1199,15 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 <button aria-expanded="true" class="collapse-btn" data-target="body-observed" title="Hide/show Observed BottleRag History" type="button"><span class="arrow">▼</span></button>
 </div>
 <div class="card-body" id="body-observed">
-<div class="stats-grid" id="observedStats"></div>
+<div class="history-filter-bar">
+<input aria-label="Search observed BottleRag history" class="history-search" id="observedSearch" placeholder="Search observed songs, artists, or albums…" type="search"/>
+<select aria-label="Observed history date range" id="observedRange">
+<option value="today">Today</option>
+<option value="7">Last 7 days</option>
+<option value="30">Last 30 days</option>
+<option selected="" value="all">All time</option>
+</select>
+</div><div class="stats-grid" id="observedStats"></div>
 <div class="history-top" id="observedTop"></div>
 <details class="ranking-details">
 <summary>Most Played Songs <span class="muted tiny" id="observedSongCount"></span></summary>
@@ -1107,6 +1216,9 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 <details class="ranking-details">
 <summary>Most Played Artists <span class="muted tiny" id="observedArtistCount"></span></summary>
 <div class="ranking-list" id="observedTopArtists"></div>
+</details><details class="ranking-details">
+<summary>Most Played Albums <span class="muted tiny" id="observedAlbumCount"></span></summary>
+<div class="ranking-list" id="observedTopAlbums"></div>
 </details>
 <details class="ranking-details history-list-details">
 <summary>Recently Observed Tracks <span class="muted tiny" id="observedHistoryListCount"></span></summary>
@@ -1120,7 +1232,7 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 </section>
 <section class="card station-wide" id="listenerTrendCard">
 <div class="card-head">
-<h2>Active Streams — 90 Days</h2>
+<h2>Active Streams</h2>
 <div class="card-tools">
 <button aria-label="Refresh listener history plot" class="icon-btn" id="refreshListenerPlot" title="Refresh plot" type="button"><span aria-hidden="true">↻</span></button>
 <button aria-expanded="true" class="collapse-btn" data-target="body-listenertrend" title="Hide/show listener history" type="button"><span class="arrow">▼</span></button>
@@ -1128,26 +1240,46 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 </div>
 <div class="card-body" id="body-listenertrend">
 <div class="listener-live-summary">
-  <div class="listener-head-stat">
-    <span class="listener-head-label">Live now</span>
-    <strong id="listenerLiveCurrent">—</strong>
-  </div>
-  <div class="listener-head-stat">
-    <span class="listener-head-label">All-time max</span>
-    <strong id="listenerAllTimeMax">—</strong>
-    <span class="muted tiny" id="listenerAllTimeMaxDate"></span>
-  </div>
-  <span class="muted tiny listener-latest" id="listenerLatestSample">Latest recorded sample: —</span>
+<div class="listener-head-stat">
+<span class="listener-head-label">Live now</span>
+<strong id="listenerLiveCurrent">—</strong>
 </div>
-<div class="listener-chart-wrap" id="listenerChartWrap">
-  <img alt="BottleRag active stream connections over the last 90 days" class="listener-plot" id="listenerPlot" src="data/listeners_90d.svg"/>
-  <div class="listener-chart-hit" id="listenerChartHit" tabindex="0" aria-label="Interactive active stream history. Move across or tap to inspect a day."></div>
-  <div class="listener-tooltip" id="listenerTooltip" hidden></div>
+<div class="listener-head-stat">
+<span class="listener-head-label">All-time max</span>
+<strong id="listenerAllTimeMax">—</strong>
+<span class="muted tiny" id="listenerAllTimeMaxDate"></span>
 </div>
-<div class="muted tiny" id="listenerPlotStatus">Active stream connections sampled by GitHub Actions every 5 minutes. Plot uses Mountain Time.</div>
+<div class="collector-health" id="collectorHealth">Collector: checking…</div>
+</div>
+<div class="listener-controls">
+<div class="period-tabs" id="listenerPeriodTabs">
+<button data-period="24h" type="button">24 hours</button>
+<button data-period="7d" type="button">7 days</button>
+<button data-period="30d" type="button">30 days</button>
+<button class="active" data-period="90d" type="button">90 days</button>
+<button data-period="all" type="button">All time</button>
+</div>
+</div>
+<div class="stats-grid" id="listenerPeriodStats"></div>
+<div class="listener-canvas-wrap" id="listenerCanvasWrap">
+<canvas aria-label="Interactive active stream history chart" height="330" id="listenerCanvas"></canvas>
+<div class="listener-tooltip" hidden="" id="listenerTooltip"></div>
+</div>
+<div class="listener-secondary-grid">
+<div class="mini-panel">
+<h3>Time of Day</h3>
+<div class="kv" id="listenerHourStats"></div>
+<canvas aria-label="Average active streams by hour of day" height="190" id="listenerHourCanvas"></canvas>
+</div>
+<div class="mini-panel">
+<h3>Records</h3>
+<div class="kv" id="listenerRecords"></div>
+</div>
+</div>
+<div class="muted tiny" id="listenerPlotStatus">Loading shared listener history…</div>
 <div class="status-footer">
-<div class="refresh-status">90-day min / avg / max · all-time max preserved separately</div>
-<button aria-label="Explain listener history" class="info-btn" data-info="listenertrend" type="button">i</button>
+<div class="refresh-status" id="listenerPeriodLabel">90-day active-stream history</div>
+<button aria-label="Explain active stream history" class="info-btn" data-info="listenertrend" type="button">i</button>
 </div>
 </div>
 </section></div>
@@ -3216,155 +3348,319 @@ renderPersistentHistories=async function(){
   }catch(e){}
 };
 
-/* Listener plot generated by GitHub Actions. */
-let listenerHistorySamples=[];
-let listenerDailyStats=[];
+/* ---------- v26 Active Streams dashboard ---------- */
+let listenerDoc=null;
+let listenerPeriod="90d";
+let listenerPlotPoints=[];
+let listenerCanvasHoverX=null;
 
-function buildListenerDailyStats(samples){
-  const byDay=new Map();
+function parseListenerTime(v){
+  const d=new Date(v);
+  return isNaN(d)?null:d;
+}
+function listenerPeriodMs(period){
+  return period==="24h"?86400000:
+         period==="7d"?7*86400000:
+         period==="30d"?30*86400000:
+         period==="90d"?90*86400000:null;
+}
+function currentListenerSamples(){
+  if(!listenerDoc)return[];
+  return listenerDoc.recentSamples||listenerDoc.samples||[];
+}
+function filterListenerSamples(period){
+  const samples=currentListenerSamples()
+    .map(s=>({timestamp:s.timestamp,time:parseListenerTime(s.timestamp),listeners:Number(s.listeners)}))
+    .filter(s=>s.time&&Number.isFinite(s.listeners))
+    .sort((a,b)=>a.time-b.time);
+  const ms=listenerPeriodMs(period);
+  if(!ms)return samples;
+  const cutoff=Date.now()-ms;
+  return samples.filter(s=>s.time.getTime()>=cutoff);
+}
+function dailyFromSamples(samples){
+  const map=new Map();
   for(const s of samples){
-    const when=new Date(s.timestamp);
-    if(isNaN(when)) continue;
-    const key=when.getFullYear()+"-"+String(when.getMonth()+1).padStart(2,"0")+"-"+String(when.getDate()).padStart(2,"0");
-    if(!byDay.has(key)){
-      byDay.set(key,{
-        key,
-        date:new Date(when.getFullYear(),when.getMonth(),when.getDate()),
-        values:[],
-        samples:[]
-      });
-    }
-    const n=Number(s.listeners);
-    if(Number.isFinite(n)){
-      byDay.get(key).values.push(n);
-      byDay.get(key).samples.push({time:when,value:n});
-    }
+    const d=s.time||parseListenerTime(s.timestamp);if(!d)continue;
+    const key=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+    if(!map.has(key))map.set(key,{date:key,time:new Date(d.getFullYear(),d.getMonth(),d.getDate()),sum:0,count:0,min:Infinity,max:-Infinity});
+    const x=map.get(key),v=Number(s.listeners);
+    x.sum+=v;x.count++;x.min=Math.min(x.min,v);x.max=Math.max(x.max,v);
   }
-  return [...byDay.values()]
-    .sort((a,b)=>a.date-b.date)
-    .map(d=>({
-      ...d,
-      min:Math.min(...d.values),
-      max:Math.max(...d.values),
-      avg:d.values.reduce((a,b)=>a+b,0)/d.values.length
-    }));
+  return [...map.values()].sort((a,b)=>a.time-b.time).map(x=>({...x,avg:x.sum/x.count}));
 }
+function allTimeDailyPoints(){
+  if(!listenerDoc)return[];
+  const old=(listenerDoc.dailySummaries||[]).map(d=>({
+    date:d.date,time:new Date(d.date+"T12:00:00"),sum:Number(d.sum||0),count:Number(d.count||0),
+    min:Number(d.min||0),max:Number(d.max||0),avg:Number(d.avg||0)
+  })).filter(d=>!isNaN(d.time));
+  const recent=dailyFromSamples(filterListenerSamples("all"));
+  const m=new Map();
+  old.forEach(d=>m.set(d.date,d));recent.forEach(d=>m.set(d.date,d));
+  return [...m.values()].sort((a,b)=>a.time-b.time);
+}
+function listenerStatsForPeriod(period){
+  if(period==="all"){
+    const days=allTimeDailyPoints();
+    if(!days.length)return null;
+    const totalCount=days.reduce((a,d)=>a+d.count,0);
+    const weighted=days.reduce((a,d)=>a+d.avg*d.count,0);
+    return {
+      min:Math.min(...days.map(d=>d.min)),
+      max:Math.max(...days.map(d=>d.max)),
+      avg:totalCount?weighted/totalCount:0,
+      count:totalCount,
+      days:days.length
+    };
+  }
+  const s=filterListenerSamples(period);
+  if(!s.length)return null;
+  return {
+    min:Math.min(...s.map(x=>x.listeners)),
+    max:Math.max(...s.map(x=>x.listeners)),
+    avg:s.reduce((a,x)=>a+x.listeners,0)/s.length,
+    count:s.length,
+    days:new Set(s.map(x=>x.time.toLocaleDateString())).size
+  };
+}
+function resizeCanvas(canvas,heightCss){
+  const ratio=window.devicePixelRatio||1;
+  const w=Math.max(320,canvas.clientWidth||canvas.parentElement.clientWidth||800);
+  const h=heightCss;
+  canvas.width=Math.round(w*ratio);
+  canvas.height=Math.round(h*ratio);
+  canvas.style.height=h+"px";
+  const ctx=canvas.getContext("2d");
+  ctx.setTransform(ratio,0,0,ratio,0,0);
+  return {ctx,w,h};
+}
+function drawListenerChart(){
+  const canvas=document.getElementById("listenerCanvas");if(!canvas||!listenerDoc)return;
+  const {ctx,w,h}=resizeCanvas(canvas,330);
+  ctx.clearRect(0,0,w,h);
+  const L=48,R=18,T=20,B=38, pw=w-L-R, ph=h-T-B;
 
-function showListenerTooltip(clientX){
-  const hit=document.getElementById("listenerChartHit");
-  const tip=document.getElementById("listenerTooltip");
-  if(!hit || !tip || !listenerDailyStats.length) return;
+  let points;
+  if(listenerPeriod==="all"){
+    points=allTimeDailyPoints().map(d=>({time:d.time,value:d.avg,day:d}));
+  }else{
+    points=filterListenerSamples(listenerPeriod).map(s=>({time:s.time,value:s.listeners,sample:s}));
+  }
+  listenerPlotPoints=points;
+  if(!points.length){
+    ctx.fillStyle="#aaa";ctx.font="14px system-ui";ctx.textAlign="center";
+    ctx.fillText("No active-stream samples for this period",w/2,h/2);return;
+  }
+  const x0=points[0].time.getTime(), x1=Math.max(x0+1,points[points.length-1].time.getTime());
+  const ymax=Math.max(1,Math.ceil(Math.max(...points.map(p=>p.value))));
+  const yTop=Math.max(1,ymax);
 
-  const rect=hit.getBoundingClientRect();
-  const x=Math.max(0,Math.min(rect.width,clientX-rect.left));
-  const frac=rect.width ? x/rect.width : 0;
-
-  const first=listenerDailyStats[0].date.getTime();
-  const last=listenerDailyStats[listenerDailyStats.length-1].date.getTime();
-  const target=first + (last-first)*frac;
-
-  let day=listenerDailyStats[0];
-  let best=Math.abs(day.date.getTime()-target);
-  for(const d of listenerDailyStats){
-    const dist=Math.abs(d.date.getTime()-target);
-    if(dist<best){best=dist;day=d;}
+  ctx.font="12px system-ui";
+  ctx.strokeStyle="#333";ctx.fillStyle="#aaa";ctx.lineWidth=1;
+  ctx.textAlign="right";
+  for(let i=0;i<=4;i++){
+    const y=T+ph*i/4;
+    const val=yTop*(4-i)/4;
+    ctx.beginPath();ctx.moveTo(L,y);ctx.lineTo(w-R,y);ctx.stroke();
+    ctx.fillText(val.toFixed(val%1?1:0),L-7,y+4);
+  }
+  ctx.textAlign="center";
+  for(const f of [0,.5,1]){
+    const ts=x0+(x1-x0)*f;
+    const d=new Date(ts);
+    const x=L+pw*f;
+    const label=listenerPeriod==="24h"
+      ?d.toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})
+      :d.toLocaleDateString([],{month:"short",day:"numeric"});
+    ctx.fillText(label,x,h-12);
   }
 
-  const nearest=day.samples.reduce((bestSample,s)=>{
-    if(!bestSample) return s;
-    return Math.abs(s.time.getTime()-target) < Math.abs(bestSample.time.getTime()-target) ? s : bestSample;
-  },null);
+  const xy=points.map(p=>({
+    ...p,
+    x:L+(p.time.getTime()-x0)/(x1-x0)*pw,
+    y:T+ph-(p.value/yTop)*ph
+  }));
+  listenerPlotPoints=xy;
 
-  tip.innerHTML=
-    "<strong>"+day.date.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"})+"</strong>"+
-    '<div class="tip-row"><span>Min</span><b>'+day.min+"</b></div>"+
-    '<div class="tip-row"><span>Average</span><b>'+day.avg.toFixed(1)+"</b></div>"+
-    '<div class="tip-row"><span>Max</span><b>'+day.max+"</b></div>"+
-    '<div class="tip-row"><span>Samples</span><b>'+day.values.length+"</b></div>"+
-    (nearest ? '<div class="tip-row"><span>Nearest sample</span><b>'+nearest.value+" · "+nearest.time.toLocaleTimeString([], {hour:"numeric",minute:"2-digit"})+"</b></div>" : "");
+  ctx.strokeStyle="#f3f3f3";ctx.lineWidth=2;ctx.lineJoin="round";
+  ctx.beginPath();
+  xy.forEach((p,i)=>{if(i===0)ctx.moveTo(p.x,p.y);else{ctx.lineTo(p.x,xy[i-1].y);ctx.lineTo(p.x,p.y)}});
+  ctx.stroke();
 
+  const stride=Math.max(1,Math.ceil(xy.length/250));
+  ctx.fillStyle="#111";ctx.strokeStyle="#f3f3f3";ctx.lineWidth=1.5;
+  xy.forEach((p,i)=>{if(i%stride)return;ctx.beginPath();ctx.arc(p.x,p.y,2.5,0,Math.PI*2);ctx.fill();ctx.stroke()});
+
+  if(listenerCanvasHoverX!==null){
+    const x=Math.max(L,Math.min(w-R,listenerCanvasHoverX));
+    ctx.strokeStyle="#888";ctx.lineWidth=1;
+    ctx.beginPath();ctx.moveTo(x,T);ctx.lineTo(x,T+ph);ctx.stroke();
+  }
+}
+function nearestPlotPoint(x){
+  if(!listenerPlotPoints.length)return null;
+  return listenerPlotPoints.reduce((best,p)=>!best||Math.abs(p.x-x)<Math.abs(best.x-x)?p:best,null);
+}
+function showListenerCanvasTooltip(clientX,clientY){
+  const canvas=document.getElementById("listenerCanvas"),tip=document.getElementById("listenerTooltip");
+  if(!canvas||!tip||!listenerPlotPoints.length)return;
+  const rect=canvas.getBoundingClientRect();
+  listenerCanvasHoverX=Math.max(0,Math.min(rect.width,clientX-rect.left));
+  const p=nearestPlotPoint(listenerCanvasHoverX);if(!p)return;
+
+  if(listenerPeriod==="all"&&p.day){
+    tip.innerHTML="<strong>"+p.day.time.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric",year:"numeric"})+"</strong>"+
+      '<div class="tip-row"><span>Min</span><b>'+p.day.min+"</b></div>"+
+      '<div class="tip-row"><span>Average</span><b>'+p.day.avg.toFixed(1)+"</b></div>"+
+      '<div class="tip-row"><span>Max</span><b>'+p.day.max+"</b></div>"+
+      '<div class="tip-row"><span>Samples</span><b>'+p.day.count+"</b></div>";
+  }else{
+    const d=p.time;
+    const sameDay=filterListenerSamples(listenerPeriod).filter(s=>s.time.toLocaleDateString()===d.toLocaleDateString());
+    const ds=dailyFromSamples(sameDay)[0];
+    tip.innerHTML="<strong>"+d.toLocaleString(undefined,{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+"</strong>"+
+      '<div class="tip-row"><span>Active streams</span><b>'+p.value+"</b></div>"+
+      (ds?'<div class="tip-row"><span>Day min / avg / max</span><b>'+ds.min+" / "+ds.avg.toFixed(1)+" / "+ds.max+"</b></div>":"");
+  }
   tip.hidden=false;
-  const tipWidth=tip.offsetWidth||210;
-  let left=x+10;
-  if(left+tipWidth>rect.width) left=Math.max(0,x-tipWidth-10);
-  tip.style.left=left+"px";
+  let left=listenerCanvasHoverX+10;
+  const tw=tip.offsetWidth||220;
+  if(left+tw>rect.width)left=Math.max(0,listenerCanvasHoverX-tw-10);
+  tip.style.left=left+"px";tip.style.top="12px";
+  drawListenerChart();
 }
-
-function setupListenerChartInteraction(){
-  const hit=document.getElementById("listenerChartHit");
-  const tip=document.getElementById("listenerTooltip");
-  if(!hit || !tip) return;
-
-  hit.addEventListener("mousemove",e=>showListenerTooltip(e.clientX));
-  hit.addEventListener("mouseleave",()=>tip.hidden=true);
-  hit.addEventListener("click",e=>showListenerTooltip(e.clientX));
-  hit.addEventListener("touchstart",e=>{
-    if(e.touches && e.touches[0]) showListenerTooltip(e.touches[0].clientX);
-  },{passive:true});
+function setupListenerCanvas(){
+  const canvas=document.getElementById("listenerCanvas"),tip=document.getElementById("listenerTooltip");
+  if(!canvas||!tip)return;
+  canvas.addEventListener("mousemove",e=>showListenerCanvasTooltip(e.clientX,e.clientY));
+  canvas.addEventListener("mouseleave",()=>{tip.hidden=true;listenerCanvasHoverX=null;drawListenerChart()});
+  canvas.addEventListener("click",e=>showListenerCanvasTooltip(e.clientX,e.clientY));
+  canvas.addEventListener("touchstart",e=>{if(e.touches?.[0])showListenerCanvasTooltip(e.touches[0].clientX,e.touches[0].clientY)},{passive:true});
+  window.addEventListener("resize",()=>{drawListenerChart();drawHourChart()});
+  if("ResizeObserver" in window){
+    const ro=new ResizeObserver(entries=>{
+      for(const entry of entries){
+        if(entry.contentRect.width>0){drawListenerChart();drawHourChart();}
+      }
+    });
+    ro.observe(document.getElementById("listenerCanvasWrap"));
+  }
 }
-setupListenerChartInteraction();
-
+function renderListenerPeriodStats(){
+  const s=listenerStatsForPeriod(listenerPeriod);
+  const el=document.getElementById("listenerPeriodStats");if(!el)return;
+  el.innerHTML=s?[
+    statTile("Minimum",s.min),
+    statTile("Average",s.avg.toFixed(2)),
+    statTile("Maximum",s.max),
+    statTile("Samples",s.count),
+    statTile("Days represented",s.days)
+  ].join(""):statTile("Period","No samples");
+  const labels={"24h":"Last 24 hours","7d":"Last 7 days","30d":"Last 30 days","90d":"Last 90 days","all":"All-time daily summaries"};
+  document.getElementById("listenerPeriodLabel").textContent=labels[listenerPeriod];
+}
+function allTimeHourBins(){
+  const bins=listenerDoc?.hourBins;
+  if(Array.isArray(bins)&&bins.length===24)return bins;
+  const out=Array.from({length:24},(_,hour)=>({hour,sum:0,count:0,min:null,max:null}));
+  for(const s of filterListenerSamples("all")){
+    const h=s.time.getHours(),b=out[h],v=s.listeners;
+    b.sum+=v;b.count++;b.min=b.min===null?v:Math.min(b.min,v);b.max=b.max===null?v:Math.max(b.max,v);
+  }
+  return out;
+}
+function drawHourChart(){
+  const canvas=document.getElementById("listenerHourCanvas");if(!canvas||!listenerDoc)return;
+  const {ctx,w,h}=resizeCanvas(canvas,190);
+  ctx.clearRect(0,0,w,h);
+  const bins=allTimeHourBins();
+  const avgs=bins.map(b=>b.count?b.sum/b.count:0), ymax=Math.max(1,...avgs);
+  const L=34,R=8,T=12,B=28,pw=w-L-R,ph=h-T-B;
+  ctx.strokeStyle="#333";ctx.fillStyle="#aaa";ctx.font="11px system-ui";
+  for(let i=0;i<=2;i++){const y=T+ph*i/2;ctx.beginPath();ctx.moveTo(L,y);ctx.lineTo(w-R,y);ctx.stroke()}
+  const bw=pw/24;
+  ctx.fillStyle="#ddd";
+  avgs.forEach((v,hour)=>{const barH=(v/ymax)*ph;ctx.fillRect(L+hour*bw+1,T+ph-barH,Math.max(1,bw-2),barH)});
+  ctx.fillStyle="#aaa";ctx.textAlign="center";
+  [0,6,12,18,23].forEach(hour=>ctx.fillText(hour===0?"12a":hour<12?hour+"a":hour===12?"12p":(hour-12)+"p",L+(hour+.5)*bw,h-8));
+  const best=avgs.reduce((bi,v,i)=>v>avgs[bi]?i:bi,0);
+  const info=document.getElementById("listenerHourStats");
+  setKV("listenerHourStats",[
+    ["Busiest hour",formatHourRange(best)],
+    ["Average then",avgs[best].toFixed(2)],
+    ["Samples then",bins[best].count]
+  ]);
+}
+function formatHourRange(h){
+  const fmtH=x=>x===0?"12 AM":x<12?x+" AM":x===12?"12 PM":(x-12)+" PM";
+  return fmtH(h)+"–"+fmtH((h+1)%24);
+}
+function renderListenerRecords(){
+  const records=listenerDoc?.records||{};
+  const atm=listenerDoc?.allTimeMax||records.allTimeMax;
+  if(atm){
+    document.getElementById("listenerAllTimeMax").textContent=String(atm.listeners);
+    document.getElementById("listenerAllTimeMaxDate").textContent=new Date(atm.timestamp).toLocaleString();
+  }
+  const rows=[];
+  if(records.highestDailyAverage)rows.push(["Highest daily average",Number(records.highestDailyAverage.avg).toFixed(2)+" · "+records.highestDailyAverage.date]);
+  if(records.highestDailyMax)rows.push(["Highest daily peak",records.highestDailyMax.max+" · "+records.highestDailyMax.date]);
+  rows.push(["Days recorded",records.daysRecorded??"—"]);
+  const bestHour=allTimeHourBins().map((b,i)=>({i,avg:b.count?b.sum/b.count:0,count:b.count})).sort((a,b)=>b.avg-a.avg)[0];
+  if(bestHour&&bestHour.count)rows.push(["Busiest hour",formatHourRange(bestHour.i)+" · "+bestHour.avg.toFixed(2)+" avg"]);
+  setKV("listenerRecords",rows);
+}
+function renderCollectorHealth(){
+  const el=document.getElementById("collectorHealth");if(!el||!listenerDoc)return;
+  const d=parseListenerTime(listenerDoc.updatedAt);
+  if(!d){el.textContent="Collector: unknown";el.className="collector-health warn";return}
+  const mins=(Date.now()-d.getTime())/60000;
+  el.className="collector-health "+(mins<=15?"ok":mins<=30?"warn":"bad");
+  el.textContent=mins<=15?"Collector: ✓ "+Math.max(0,Math.round(mins))+" min ago":
+    mins<=30?"Collector delayed · "+Math.round(mins)+" min":
+    "Collector stale · "+Math.round(mins)+" min";
+}
 async function refreshListenerHistoryInfo(){
   const live=Number(latestData?.listeners?.current);
-  document.getElementById("listenerLiveCurrent").textContent=
-    Number.isFinite(live)?String(live):"—";
-
+  document.getElementById("listenerLiveCurrent").textContent=Number.isFinite(live)?String(live):"—";
   try{
     const r=await fetch("data/listener_history.json?t="+Date.now(),{cache:"no-store"});
     if(!r.ok)throw new Error(r.status+" "+r.statusText);
-    const doc=await r.json();
-    const samples=Array.isArray(doc)?doc:(doc.samples||[]);
-    listenerHistorySamples=samples;
-    listenerDailyStats=buildListenerDailyStats(samples);
-
-    const last=samples.length?samples[samples.length-1]:null;
-    let allTimeMax=Array.isArray(doc)?null:doc.allTimeMax;
-    if(!allTimeMax && samples.length){
-      allTimeMax=samples.reduce((best,s)=>{
-        if(!best || Number(s.listeners)>Number(best.listeners)) return s;
-        return best;
-      },null);
-    }
-
-    if(allTimeMax){
-      const maxWhen=new Date(allTimeMax.timestamp);
-      document.getElementById("listenerAllTimeMax").textContent=
-        String(allTimeMax.listeners);
-      document.getElementById("listenerAllTimeMaxDate").textContent=
-        maxWhen.toLocaleString();
-    }else{
-      document.getElementById("listenerAllTimeMax").textContent="—";
-      document.getElementById("listenerAllTimeMaxDate").textContent="";
-    }
-
-    if(last){
-      const when=new Date(last.timestamp);
-      document.getElementById("listenerLatestSample").textContent=
-        "Latest recorded sample: "+last.listeners+" at "+when.toLocaleString();
-    }else{
-      document.getElementById("listenerLatestSample").textContent="Latest recorded sample: —";
-    }
+    listenerDoc=await r.json();
+    renderListenerRecords();renderListenerPeriodStats();drawListenerChart();drawHourChart();renderCollectorHealth();
+    const recent=currentListenerSamples(),last=recent.length?recent[recent.length-1]:null;
+    document.getElementById("listenerPlotStatus").textContent=last
+      ?"Latest detailed sample: "+last.listeners+" at "+new Date(last.timestamp).toLocaleString()
+      :"No detailed samples yet.";
   }catch(e){
-    document.getElementById("listenerAllTimeMax").textContent="—";
-    document.getElementById("listenerAllTimeMaxDate").textContent="Unavailable";
-    document.getElementById("listenerLatestSample").textContent="Latest recorded sample unavailable";
+    document.getElementById("collectorHealth").textContent="Collector data unavailable";
+    document.getElementById("collectorHealth").className="collector-health bad";
+    document.getElementById("listenerPlotStatus").textContent="Listener history unavailable: "+e;
   }
 }
 async function refreshListenerPlot(){
-  const img=document.getElementById("listenerPlot");
-  img.src="data/listeners_90d.svg?t="+Date.now();
   await refreshListenerHistoryInfo();
-  document.getElementById("listenerPlotStatus").textContent=
-    "Plot refreshed "+new Date().toLocaleTimeString();
+  document.getElementById("listenerPlotStatus").textContent+=" · refreshed "+new Date().toLocaleTimeString();
 }
 document.getElementById("refreshListenerPlot").addEventListener("click",refreshListenerPlot);
+document.querySelectorAll("#listenerPeriodTabs button").forEach(b=>b.addEventListener("click",()=>{
+  listenerPeriod=b.dataset.period;
+  document.querySelectorAll("#listenerPeriodTabs button").forEach(x=>x.classList.toggle("active",x===b));
+  listenerCanvasHoverX=null;
+  document.getElementById("listenerTooltip").hidden=true;
+  renderListenerPeriodStats();drawListenerChart();
+}));
+setupListenerCanvas();
 setTimeout(refreshListenerHistoryInfo,700);
 
 Object.assign(infoHelp,{
-  listenertrend:{title:"Active Streams — 90 Days",items:[
-    ["Collection","A scheduled GitHub Action samples BottleRag's public current-listener count and stores a rolling 90-day series in the repository."],
-    ["Plot","The SVG graph is regenerated by the same GitHub Action, so every device using this GitHub Pages URL sees the same listener history."],
-    ["Sampling","The included workflow requests BottleRag's current listener count every 5 minutes. GitHub may occasionally delay scheduled jobs."]
+  listenertrend:{title:"Active Streams",items:[
+    ["Periods","Switch between 24 hours, 7 days, 30 days, 90 days, and all time. Detailed 5-minute samples are retained for 90 days; older history is compressed into daily summaries."],
+    ["Interactive chart","Move the mouse or tap anywhere along the x-axis. You do not need to hit a data point; the nearest sample/day is selected and a vertical cursor appears."],
+    ["Time of day","The hourly chart uses cumulative aggregate samples to show when BottleRag tends to have the most simultaneous active streams."],
+    ["Records","All-time peak, highest daily average, highest daily peak, and busiest hour remain available even after old detailed samples are compressed."],
+    ["Collector health","Shows how recently GitHub Actions updated the shared data. More than about 15 minutes suggests the scheduled collector is delayed."]
   ]}
 });
 
@@ -3428,6 +3724,254 @@ function setSimpleMode(enabled){
   }
 }
 simpleModeBtn.addEventListener("click",()=>setSimpleMode(!simpleMode));
+
+
+/* ---------- v26 search, filters, rankings and milestones ---------- */
+let observedRangeValue="all";
+let observedSearchValue="";
+let favoritesSearchValue="";
+
+function recordTrackKey(r){
+  return ((r?.artist||"").trim().toLowerCase()+"|"+(r?.title||"").trim().toLowerCase());
+}
+function recordMatchesSearch(r,q){
+  if(!q)return true;
+  const hay=[r.artist,r.title,r.album].filter(Boolean).join(" ").toLowerCase();
+  return hay.includes(q.toLowerCase());
+}
+function filterObservedV26(records){
+  let out=records.filter(r=>!isUnknownRecord(r));
+  const now=Date.now();
+  if(observedRangeValue==="today"){
+    const today=new Date();
+    out=out.filter(r=>{
+      const d=new Date((r.playedAt||0)*1000);
+      return d.getFullYear()===today.getFullYear()&&d.getMonth()===today.getMonth()&&d.getDate()===today.getDate();
+    });
+  }else if(observedRangeValue!=="all"){
+    const days=Number(observedRangeValue);
+    const cutoff=now-days*86400000;
+    out=out.filter(r=>(r.playedAt||0)*1000>=cutoff);
+  }
+  if(observedSearchValue)out=out.filter(r=>recordMatchesSearch(r,observedSearchValue));
+  return out;
+}
+function aggregateSongsV26(records){
+  const m=new Map();
+  for(const r of records){
+    const key=recordTrackKey(r);
+    if(!m.has(key))m.set(key,{
+      artist:r.artist||"",title:r.title||"Unknown",album:r.album||"",
+      count:0,first:Infinity,last:0
+    });
+    const x=m.get(key),ts=Number(r.playedAt||0);
+    x.count++;if(ts){x.first=Math.min(x.first,ts);x.last=Math.max(x.last,ts)}
+  }
+  return [...m.values()].sort((a,b)=>b.count-a.count||b.last-a.last);
+}
+function aggregateArtistsV26(records){
+  const m=new Map();
+  for(const r of records){
+    const name=(r.artist||"Unknown artist").trim()||"Unknown artist";
+    if(!m.has(name))m.set(name,[]);
+    m.get(name).push(r);
+  }
+  return [...m.entries()].sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0]));
+}
+function aggregateAlbumsV26(records){
+  const m=new Map();
+  for(const r of records){
+    const album=(r.album||"Unknown album").trim()||"Unknown album";
+    const key=(r.artist||"").trim().toLowerCase()+"|"+album.toLowerCase();
+    if(!m.has(key))m.set(key,{album,artist:r.artist||"",records:[]});
+    m.get(key).records.push(r);
+  }
+  return [...m.values()].sort((a,b)=>b.records.length-a.records.length||a.album.localeCompare(b.album));
+}
+function heardMeta(first,last){
+  const f=Number.isFinite(first)&&first!==Infinity?fmtDate(first):"—";
+  const l=last?fmtDate(last):"—";
+  return "First: "+f+" · Last: "+l;
+}
+renderObservedRankings=function(records){
+  const songs=aggregateSongsV26(records);
+  const sr=document.getElementById("observedTopSongs");sr.replaceChildren();
+  document.getElementById("observedSongCount").textContent=songs.length+" tracks";
+  songs.forEach((s,i)=>{
+    const row=document.createElement("div");row.className="rank-row";
+    const main=document.createElement("div");
+    main.innerHTML='<span class="rank-number">#'+(i+1)+'</span><strong>'+escapeHtml(s.title)+'</strong>'+
+      '<div class="muted tiny">'+escapeHtml(s.artist)+(s.album?' · '+escapeHtml(s.album):'')+'</div>'+
+      '<div class="aggregate-meta">'+escapeHtml(heardMeta(s.first,s.last))+'</div>';
+    const count=document.createElement("div");count.className="rank-count";count.textContent=s.count+" play"+(s.count===1?"":"s");
+    row.append(main,count,spotifyMiniButton(s.artist,s.title));sr.appendChild(row);
+  });
+
+  const artists=aggregateArtistsV26(records);
+  const ar=document.getElementById("observedTopArtists");ar.replaceChildren();
+  document.getElementById("observedArtistCount").textContent=artists.length+" artists";
+  artists.forEach(([artist,recs],i)=>{
+    const times=recs.map(r=>Number(r.playedAt||0)).filter(Boolean);
+    const first=times.length?Math.min(...times):Infinity,last=times.length?Math.max(...times):0;
+    const d=document.createElement("details");d.className="artist-rank";
+    const sum=document.createElement("summary");
+    const name=document.createElement("span");
+    name.innerHTML="#"+(i+1)+" "+escapeHtml(artist)+'<div class="aggregate-meta">'+escapeHtml(heardMeta(first,last))+"</div>";
+    const count=document.createElement("span");count.className="rank-count";count.textContent=recs.length+" plays";
+    sum.append(name,count);d.appendChild(sum);
+    const songsWrap=document.createElement("div");songsWrap.className="artist-song-list";
+    aggregateSongsV26(recs).forEach(s=>{
+      const row=document.createElement("div");row.className="artist-song-row";
+      const main=document.createElement("div");
+      main.innerHTML='<strong>'+escapeHtml(s.title)+'</strong>'+
+        (s.album?'<div class="muted tiny">'+escapeHtml(s.album)+'</div>':'')+
+        '<div class="aggregate-meta">'+escapeHtml(heardMeta(s.first,s.last))+'</div>';
+      const c=document.createElement("div");c.className="rank-count";c.textContent=s.count+" play"+(s.count===1?"":"s");
+      row.append(main,c,spotifyMiniButton(s.artist,s.title));songsWrap.appendChild(row);
+    });
+    d.appendChild(songsWrap);ar.appendChild(d);
+  });
+
+  const albums=aggregateAlbumsV26(records);
+  const al=document.getElementById("observedTopAlbums");al.replaceChildren();
+  document.getElementById("observedAlbumCount").textContent=albums.length+" albums";
+  albums.forEach((a,i)=>{
+    const times=a.records.map(r=>Number(r.playedAt||0)).filter(Boolean);
+    const first=times.length?Math.min(...times):Infinity,last=times.length?Math.max(...times):0;
+    const d=document.createElement("details");d.className="artist-rank";
+    const sum=document.createElement("summary");
+    const name=document.createElement("span");
+    name.innerHTML="#"+(i+1)+" "+escapeHtml(a.album)+
+      '<div class="muted tiny">'+escapeHtml(a.artist||"Unknown artist")+'</div>'+
+      '<div class="aggregate-meta">'+escapeHtml(heardMeta(first,last))+"</div>";
+    const count=document.createElement("span");count.className="rank-count";count.textContent=a.records.length+" plays";
+    sum.append(name,count);d.appendChild(sum);
+    const songsWrap=document.createElement("div");songsWrap.className="artist-song-list";
+    aggregateSongsV26(a.records).forEach(s=>{
+      const row=document.createElement("div");row.className="artist-song-row";
+      const main=document.createElement("div");
+      main.innerHTML='<strong>'+escapeHtml(s.title)+'</strong>'+
+        '<div class="aggregate-meta">'+escapeHtml(heardMeta(s.first,s.last))+'</div>';
+      const c=document.createElement("div");c.className="rank-count";c.textContent=s.count+" play"+(s.count===1?"":"s");
+      row.append(main,c,spotifyMiniButton(s.artist,s.title));songsWrap.appendChild(row);
+    });
+    d.appendChild(songsWrap);al.appendChild(d);
+  });
+};
+
+const _renderFavoritesV26Base=renderFavorites;
+renderFavorites=async function(){
+  const all=(await getAllRecords("favorites"))
+    .sort((a,b)=>b.likedAt-a.likedAt)
+    .filter(r=>recordMatchesSearch(r,favoritesSearchValue));
+  document.getElementById("favoritesSummary").innerHTML=[
+    statTile("Liked songs",all.length),
+    statTile("Artists",uniqueCount(all,"artist")),
+    statTile("Albums",uniqueCount(all,"album"))
+  ].join("");
+  const root=document.getElementById("favoritesList");root.replaceChildren();
+  if(!all.length){
+    root.innerHTML='<div class="muted tiny">'+(favoritesSearchValue?"No liked songs match your search.":"Like a song with the ♡ beside Now Playing. It will be saved here.")+'</div>';
+    return;
+  }
+  if(favoriteView==="recent"){all.forEach(r=>root.appendChild(favoriteRow(r)));return}
+  const key=favoriteView==="artist"?"artist":"album";
+  const groups=new Map();
+  for(const r of all){
+    const name=(r[key]||"").trim()||(key==="album"?"Unknown album":"Unknown artist");
+    if(!groups.has(name))groups.set(name,[]);
+    groups.get(name).push(r);
+  }
+  [...groups.entries()].sort((a,b)=>a[0].localeCompare(b[0])).forEach(([name,recs])=>{
+    const d=document.createElement("details");d.className="favorite-group";
+    const s=document.createElement("summary");s.textContent=name+" ("+recs.length+")";d.appendChild(s);
+    const rows=document.createElement("div");rows.className="favorite-group-rows";
+    recs.slice().sort((a,b)=>(b.likedAt||0)-(a.likedAt||0)).forEach(r=>rows.appendChild(favoriteRow(r)));
+    d.appendChild(rows);root.appendChild(d);
+  });
+};
+
+async function renderListeningMilestones(listening,observed){
+  const visibleObserved=observed.filter(r=>!isUnknownRecord(r));
+  const heard=listening.filter(r=>!isUnknownRecord(r));
+  const obsTracks=new Set(visibleObserved.map(recordTrackKey));
+  const heardTracks=new Set(heard.map(recordTrackKey));
+  const obsArtists=new Set(visibleObserved.map(r=>(r.artist||"").trim().toLowerCase()).filter(Boolean));
+  const heardArtists=new Set(heard.map(r=>(r.artist||"").trim().toLowerCase()).filter(Boolean));
+  let likes=[];
+  try{likes=await getAllRecords("favorites")}catch(e){}
+  const pct=obsTracks.size?100*heardTracks.size/obsTracks.size:0;
+  const artistPct=obsArtists.size?100*heardArtists.size/obsArtists.size:0;
+  const panel=document.getElementById("listeningMilestones");
+  panel.innerHTML='<strong>Listening milestones</strong>'+
+    '<div class="stats-grid" style="margin-top:9px;margin-bottom:0">'+
+    statTile("Observed catalog heard",heardTracks.size+" / "+obsTracks.size+" ("+pct.toFixed(1)+"%)")+
+    statTile("Observed artists heard",heardArtists.size+" / "+obsArtists.size+" ("+artistPct.toFixed(1)+"%)")+
+    statTile("Liked from heard catalog",likes.length+" saved")+
+    '</div>';
+}
+
+async function renderObservedV26(){
+  const local=await getAllRecords("observed");
+  const merged=mergeObserved(local,sharedObservedRecords);
+  const filtered=filterObservedV26(merged);
+  const first=filtered.length?Math.min(...filtered.map(r=>r.playedAt||Infinity)):"";
+  const last=filtered.length?Math.max(...filtered.map(r=>r.playedAt||0)):"";
+  document.getElementById("observedStats").innerHTML=[
+    statTile("Plays in view",filtered.length),
+    statTile("Unique artists",uniqueCount(filtered,"artist")),
+    statTile("Unique tracks",new Set(filtered.map(recordTrackKey)).size),
+    statTile("Unique albums",uniqueCount(filtered,"album")),
+    statTile("First in view",first?fmtDate(first):"—"),
+    statTile("Most recent",last?fmtDate(last):"—")
+  ].join("");
+  document.getElementById("observedTop").innerHTML='<strong>Source:</strong> GitHub Actions 24/7 collector + this browser';
+  renderObservedRankings(filtered);
+  document.getElementById("observedHistoryListCount").textContent=filtered.length+" tracks";
+  renderCompactHistory("observedHistoryList",filtered,Infinity,{hideUnknown:true});
+}
+
+const _renderPersistentHistoriesV26Base=renderPersistentHistories;
+renderPersistentHistories=async function(){
+  await _renderPersistentHistoriesV26Base();
+  try{
+    const [listening,localObserved]=await Promise.all([getAllRecords("listening"),getAllRecords("observed")]);
+    const observed=mergeObserved(localObserved,sharedObservedRecords);
+    await renderListeningMilestones(listening,observed);
+    await renderObservedV26();
+    await renderFavorites();
+  }catch(e){}
+};
+
+document.getElementById("observedSearch").addEventListener("input",e=>{
+  observedSearchValue=e.target.value.trim();
+  renderObservedV26();
+});
+document.getElementById("observedRange").addEventListener("change",e=>{
+  observedRangeValue=e.target.value;
+  renderObservedV26();
+});
+document.getElementById("favoritesSearch").addEventListener("input",e=>{
+  favoritesSearchValue=e.target.value.trim();
+  renderFavorites();
+});
+
+Object.assign(infoHelp,{
+  observed:{title:"Observed BottleRag History",items:[
+    ["Date range","Filter the shared station history to Today, the last 7 days, last 30 days, or all time."],
+    ["Search","Search across song title, artist, and album without downloading anything extra."],
+    ["Rankings","Most Played Songs, Artists, and Albums use only the currently selected date range/search. Expanded entries show first and last observed times."],
+    ["Shared history","GitHub Actions supplies 24/7 observed history; local observations are merged and deduplicated."]
+  ]},
+  myhistory:{title:"My Listening History",items:[
+    ["Milestones","Compares songs and artists you have actually heard with the catalog your BottleRag collector has observed."],
+    ["Storage","Listening history remains local to this browser/device and can be exported/imported from Settings."],
+    ["Ads","Unknown tracks are excluded from music lists but retained for the ads-played and ad-time statistics."]
+  ]}
+});
+
+setTimeout(()=>renderPersistentHistories(),1000);
+
 
 /* ---------- PWA service worker ---------- */
 if("serviceWorker" in navigator && location.protocol.startsWith("http")){
