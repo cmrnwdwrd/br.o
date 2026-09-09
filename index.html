@@ -10,8 +10,7 @@
 <meta content="#111111" name="theme-color"/>
 <link href="manifest.webmanifest" rel="manifest"/>
 <title>BottleRag Radio — Live Metadata Player</title>
-<link rel="stylesheet" href="assets/styles.css">
-
+<link href="assets/styles.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="wrap">
@@ -220,13 +219,8 @@
 </div>
 <div class="card-body" id="body-observed">
 <div class="history-filter-bar">
-<input aria-label="Search observed BottleRag history" class="history-search" id="observedSearch" placeholder="Search observed songs, artists, or albums…" type="search"/>
-<select aria-label="Observed history date range" id="observedRange">
-<option value="today">Today</option>
-<option value="7">Last 7 days</option>
-<option value="30">Last 30 days</option>
-<option selected="" value="all">All time</option>
-</select>
+<input aria-label="Search observed BottleRag history" class="history-search" id="observedSearch" placeholder="Search the top 50 songs, artists, or albums…" type="search"/>
+
 </div><div class="stats-grid" id="observedStats"></div>
 <div class="history-top" id="observedTop"></div>
 <details class="ranking-details">
@@ -240,7 +234,7 @@
 <summary>Most Played Albums <span class="muted tiny" id="observedAlbumCount"></span></summary>
 <div class="ranking-list" id="observedTopAlbums"></div>
 </details>
-<details class="ranking-details history-list-details">
+<details class="history-list-details ranking-details legacy-observed-recent" hidden="">
 <summary>Recently Observed Tracks <span class="muted tiny" id="observedHistoryListCount"></span></summary>
 <div class="compact-history" id="observedHistoryList"></div>
 </details>

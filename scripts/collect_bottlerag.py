@@ -8,10 +8,16 @@ from zoneinfo import ZoneInfo
 API = "https://studio18.radiolize.com/api/nowplaying/109"
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-OBS = DATA / "observed_history.json"
+OBS_LEGACY = DATA / "observed_history.json"
+OBS_DIR = DATA / "observed"
+STATS_DIR = DATA / "stats"
+OBS_AGG = STATS_DIR / "observed_aggregates.json"
+OBS_TOP = STATS_DIR / "observed_top50.json"
 LIS = DATA / "listener_history.json"
 LOCAL_TZ = ZoneInfo("America/Denver")
 DATA.mkdir(parents=True, exist_ok=True)
+OBS_DIR.mkdir(parents=True, exist_ok=True)
+STATS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def load_json(path, default):
@@ -56,11 +62,212 @@ def normalize(item):
     }
 
 
+def is_unknown_record(rec):
+    title = (rec.get("title") or "").strip().lower()
+    artist = (rec.get("artist") or "").strip().lower()
+    return title == "unknown" or (not artist and (not title or title == "unknown"))
+
+
+def month_key_from_played_at(played_at):
+    try:
+        dt = datetime.fromtimestamp(int(played_at), timezone.utc).astimezone(LOCAL_TZ)
+    except Exception:
+        dt = datetime.now(LOCAL_TZ)
+    return dt.strftime("%Y-%m")
+
+
+def month_path(month_key):
+    return OBS_DIR / f"{month_key}.json"
+
+
+def blank_aggregates():
+    return {
+        "schemaVersion": 29,
+        "updatedAt": None,
+        "totalPlays": 0,
+        "unknownPlays": 0,
+        "firstObserved": None,
+        "lastObserved": None,
+        "songs": {},
+        "artists": {},
+        "albums": {},
+    }
+
+
+def bump_first_last(obj, ts):
+    if not ts:
+        return
+    obj["first"] = ts if not obj.get("first") else min(int(obj["first"]), ts)
+    obj["last"] = ts if not obj.get("last") else max(int(obj["last"]), ts)
+
+
+def bump_track_summary(container, key, rec):
+    ts = int(rec.get("playedAt") or 0)
+    if key not in container:
+        container[key] = {
+            "artist": rec.get("artist") or "",
+            "title": rec.get("title") or "Unknown",
+            "album": rec.get("album") or "",
+            "count": 0,
+            "first": None,
+            "last": None,
+        }
+    x = container[key]
+    x["count"] += 1
+    # Keep useful metadata if an earlier play lacked it.
+    if not x.get("artist") and rec.get("artist"):
+        x["artist"] = rec.get("artist")
+    if not x.get("album") and rec.get("album"):
+        x["album"] = rec.get("album")
+    bump_first_last(x, ts)
+
+
+def add_to_aggregates(agg, rec):
+    ts = int(rec.get("playedAt") or 0)
+    if is_unknown_record(rec):
+        agg["unknownPlays"] = int(agg.get("unknownPlays") or 0) + 1
+        return
+
+    agg["totalPlays"] = int(agg.get("totalPlays") or 0) + 1
+    if ts:
+        agg["firstObserved"] = ts if not agg.get("firstObserved") else min(int(agg["firstObserved"]), ts)
+        agg["lastObserved"] = ts if not agg.get("lastObserved") else max(int(agg["lastObserved"]), ts)
+
+    artist = (rec.get("artist") or "Unknown artist").strip() or "Unknown artist"
+    album = (rec.get("album") or "Unknown album").strip() or "Unknown album"
+    track_key = ((rec.get("artist") or "").strip().lower() + "|" + (rec.get("title") or "").strip().lower())
+    artist_key = artist.lower()
+    album_key = artist_key + "|" + album.lower()
+
+    bump_track_summary(agg["songs"], track_key, rec)
+
+    if artist_key not in agg["artists"]:
+        agg["artists"][artist_key] = {
+            "artist": artist,
+            "count": 0,
+            "first": None,
+            "last": None,
+            "songs": {},
+        }
+    ar = agg["artists"][artist_key]
+    ar["count"] += 1
+    bump_first_last(ar, ts)
+    bump_track_summary(ar["songs"], track_key, rec)
+
+    if album_key not in agg["albums"]:
+        agg["albums"][album_key] = {
+            "artist": artist,
+            "album": album,
+            "count": 0,
+            "first": None,
+            "last": None,
+            "songs": {},
+        }
+    al = agg["albums"][album_key]
+    al["count"] += 1
+    bump_first_last(al, ts)
+    bump_track_summary(al["songs"], track_key, rec)
+
+
+def sorted_track_items(mapping, limit=50):
+    items = list(mapping.values())
+    items.sort(key=lambda x: (-int(x.get("count") or 0), -int(x.get("last") or 0), (x.get("title") or "").lower()))
+    return items[:limit]
+
+
+def build_top50(agg):
+    artists = list(agg.get("artists", {}).values())
+    artists.sort(key=lambda x: (-int(x.get("count") or 0), -int(x.get("last") or 0), (x.get("artist") or "").lower()))
+    top_artists = []
+    for a in artists[:50]:
+        top_artists.append({
+            "artist": a.get("artist") or "Unknown artist",
+            "count": int(a.get("count") or 0),
+            "first": a.get("first"),
+            "last": a.get("last"),
+            "songs": sorted_track_items(a.get("songs", {}), 50),
+        })
+
+    albums = list(agg.get("albums", {}).values())
+    albums.sort(key=lambda x: (-int(x.get("count") or 0), -int(x.get("last") or 0), (x.get("album") or "").lower()))
+    top_albums = []
+    for a in albums[:50]:
+        top_albums.append({
+            "artist": a.get("artist") or "",
+            "album": a.get("album") or "Unknown album",
+            "count": int(a.get("count") or 0),
+            "first": a.get("first"),
+            "last": a.get("last"),
+            "songs": sorted_track_items(a.get("songs", {}), 50),
+        })
+
+    return {
+        "schemaVersion": 29,
+        "updatedAt": agg.get("updatedAt"),
+        "summary": {
+            "totalPlays": int(agg.get("totalPlays") or 0),
+            "unknownPlays": int(agg.get("unknownPlays") or 0),
+            "uniqueTracks": len(agg.get("songs", {})),
+            "uniqueArtists": len(agg.get("artists", {})),
+            "uniqueAlbums": len(agg.get("albums", {})),
+            "firstObserved": agg.get("firstObserved"),
+            "lastObserved": agg.get("lastObserved"),
+        },
+        "topSongs": sorted_track_items(agg.get("songs", {}), 50),
+        "topArtists": top_artists,
+        "topAlbums": top_albums,
+    }
+
+
+def migrate_legacy_if_needed(agg, force=False):
+    # One-time migration/rebuild from any existing monthly archives and the old
+    # ever-growing observed_history.json. This preserves accumulated history.
+    if OBS_AGG.exists() and not force:
+        return agg
+
+    # Rebuild from monthly files first, if any already exist.
+    archived_keys = set()
+    for path in sorted(OBS_DIR.glob("????-??.json")):
+        doc = load_json(path, {"plays": []})
+        plays = doc if isinstance(doc, list) else doc.get("plays", [])
+        for rec in plays:
+            key = rec.get("playKey")
+            if not key or key in archived_keys:
+                continue
+            archived_keys.add(key)
+            add_to_aggregates(agg, rec)
+
+    # Then import legacy plays that are not already in monthly files.
+    legacy = load_json(OBS_LEGACY, {"plays": []})
+    legacy_plays = legacy if isinstance(legacy, list) else legacy.get("plays", [])
+    month_maps = {}
+    for rec in legacy_plays:
+        key = rec.get("playKey")
+        if not key or key in archived_keys:
+            continue
+        month = month_key_from_played_at(rec.get("playedAt"))
+        if month not in month_maps:
+            existing = load_json(month_path(month), {"plays": []})
+            existing_plays = existing if isinstance(existing, list) else existing.get("plays", [])
+            month_maps[month] = {p.get("playKey"): p for p in existing_plays if p.get("playKey")}
+        if key not in month_maps[month]:
+            month_maps[month][key] = rec
+            archived_keys.add(key)
+            add_to_aggregates(agg, rec)
+
+    for month, mapping in month_maps.items():
+        plays_out = sorted(mapping.values(), key=lambda x: int(x.get("playedAt") or 0))
+        save_json(month_path(month), {"month": month, "plays": plays_out})
+
+    return agg
+
+
 def collect_observed(data):
-    existing = load_json(OBS, {"updatedAt": None, "plays": []})
-    if isinstance(existing, list):
-        existing = {"updatedAt": None, "plays": existing}
-    by_key = {p.get("playKey"): p for p in existing.get("plays", []) if p.get("playKey")}
+    raw_agg = load_json(OBS_AGG, None)
+    valid_agg = isinstance(raw_agg, dict) and raw_agg.get("schemaVersion") == 29
+    agg = raw_agg if valid_agg else blank_aggregates()
+    agg = migrate_legacy_if_needed(agg, force=not valid_agg)
+
     np = data.get("now_playing") or {}
     items = [{
         "sh_id": np.get("sh_id"),
@@ -72,12 +279,33 @@ def collect_observed(data):
         "song": np.get("song") or {},
     }]
     items.extend(data.get("song_history") or [])
+
+    changed_months = {}
     for item in items:
         rec = normalize(item)
-        if rec["playedAt"] or rec["shId"]:
-            by_key[rec["playKey"]] = rec
-    plays = sorted(by_key.values(), key=lambda x: x.get("playedAt", 0))
-    save_json(OBS, {"updatedAt": datetime.now(timezone.utc).isoformat(), "plays": plays})
+        if not (rec["playedAt"] or rec["shId"]):
+            continue
+        month = month_key_from_played_at(rec["playedAt"])
+        if month not in changed_months:
+            existing = load_json(month_path(month), {"plays": []})
+            existing_plays = existing if isinstance(existing, list) else existing.get("plays", [])
+            changed_months[month] = {p.get("playKey"): p for p in existing_plays if p.get("playKey")}
+        mapping = changed_months[month]
+        if rec["playKey"] not in mapping:
+            mapping[rec["playKey"]] = rec
+            add_to_aggregates(agg, rec)
+        else:
+            # Refresh metadata without double-counting the play.
+            mapping[rec["playKey"]] = rec
+
+    for month, mapping in changed_months.items():
+        plays_out = sorted(mapping.values(), key=lambda x: int(x.get("playedAt") or 0))
+        save_json(month_path(month), {"month": month, "plays": plays_out})
+
+    agg["schemaVersion"] = 29
+    agg["updatedAt"] = datetime.now(timezone.utc).isoformat()
+    save_json(OBS_AGG, agg)
+    save_json(OBS_TOP, build_top50(agg))
 
 
 def parse_ts(value):

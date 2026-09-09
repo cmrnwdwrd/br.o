@@ -998,3 +998,8 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
   .card-head{align-items:flex-start}
   .card-tools{justify-content:flex-end}
 }
+
+
+/* v29 compact shared observed-history summaries */
+.legacy-observed-recent{display:none !important}
+#observedCard .history-filter-bar{grid-template-columns:1fr}

@@ -57,8 +57,7 @@ function setSimpleMode(enabled){
 simpleModeBtn.addEventListener("click",()=>setSimpleMode(!simpleMode));
 
 
-/* ---------- v26 search, filters, rankings and milestones ---------- */
-let observedRangeValue="all";
+/* ---------- v29 compact observed-history UI + favorites search ---------- */
 let observedSearchValue="";
 let favoritesSearchValue="";
 
@@ -67,130 +66,117 @@ function recordTrackKey(r){
 }
 function recordMatchesSearch(r,q){
   if(!q)return true;
-  const hay=[r.artist,r.title,r.album].filter(Boolean).join(" ").toLowerCase();
+  const hay=[r?.artist,r?.title,r?.album].filter(Boolean).join(" ").toLowerCase();
   return hay.includes(q.toLowerCase());
 }
-function filterObservedV26(records){
-  let out=records.filter(r=>!isUnknownRecord(r));
-  const now=Date.now();
-  if(observedRangeValue==="today"){
-    const today=new Date();
-    out=out.filter(r=>{
-      const d=new Date((r.playedAt||0)*1000);
-      return d.getFullYear()===today.getFullYear()&&d.getMonth()===today.getMonth()&&d.getDate()===today.getDate();
-    });
-  }else if(observedRangeValue!=="all"){
-    const days=Number(observedRangeValue);
-    const cutoff=now-days*86400000;
-    out=out.filter(r=>(r.playedAt||0)*1000>=cutoff);
-  }
-  if(observedSearchValue)out=out.filter(r=>recordMatchesSearch(r,observedSearchValue));
-  return out;
-}
-function aggregateSongsV26(records){
-  const m=new Map();
-  for(const r of records){
-    const key=recordTrackKey(r);
-    if(!m.has(key))m.set(key,{
-      artist:r.artist||"",title:r.title||"Unknown",album:r.album||"",
-      count:0,first:Infinity,last:0
-    });
-    const x=m.get(key),ts=Number(r.playedAt||0);
-    x.count++;if(ts){x.first=Math.min(x.first,ts);x.last=Math.max(x.last,ts)}
-  }
-  return [...m.values()].sort((a,b)=>b.count-a.count||b.last-a.last);
-}
-function aggregateArtistsV26(records){
-  const m=new Map();
-  for(const r of records){
-    const name=(r.artist||"Unknown artist").trim()||"Unknown artist";
-    if(!m.has(name))m.set(name,[]);
-    m.get(name).push(r);
-  }
-  return [...m.entries()].sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0]));
-}
-function aggregateAlbumsV26(records){
-  const m=new Map();
-  for(const r of records){
-    const album=(r.album||"Unknown album").trim()||"Unknown album";
-    const key=(r.artist||"").trim().toLowerCase()+"|"+album.toLowerCase();
-    if(!m.has(key))m.set(key,{album,artist:r.artist||"",records:[]});
-    m.get(key).records.push(r);
-  }
-  return [...m.values()].sort((a,b)=>b.records.length-a.records.length||a.album.localeCompare(b.album));
-}
 function heardMeta(first,last){
-  const f=Number.isFinite(first)&&first!==Infinity?fmtDate(first):"—";
+  const f=first?fmtDate(first):"—";
   const l=last?fmtDate(last):"—";
   return "First: "+f+" · Last: "+l;
 }
-renderObservedRankings=function(records){
-  const songs=aggregateSongsV26(records);
-  const sr=document.getElementById("observedTopSongs");sr.replaceChildren();
-  document.getElementById("observedSongCount").textContent=songs.length+" tracks";
-  songs.forEach((s,i)=>{
-    const row=document.createElement("div");row.className="rank-row";
-    const main=document.createElement("div");
-    main.innerHTML='<span class="rank-number">#'+(i+1)+'</span><strong>'+escapeHtml(s.title)+'</strong>'+
-      '<div class="muted tiny">'+escapeHtml(s.artist)+(s.album?' · '+escapeHtml(s.album):'')+'</div>'+
-      '<div class="aggregate-meta">'+escapeHtml(heardMeta(s.first,s.last))+'</div>';
-    const count=document.createElement("div");count.className="rank-count";count.textContent=s.count+" play"+(s.count===1?"":"s");
-    row.append(main,count,spotifyMiniButton(s.artist,s.title));sr.appendChild(row);
-  });
+function top50Matches(item,q){
+  if(!q)return true;
+  if(recordMatchesSearch(item,q))return true;
+  return Array.isArray(item?.songs)&&item.songs.some(s=>recordMatchesSearch(s,q));
+}
+function filteredTop50(items){
+  const q=observedSearchValue.trim();
+  return (items||[]).filter(x=>top50Matches(x,q)).slice(0,50);
+}
+function makeTopSongRow(s,i){
+  const row=document.createElement("div");row.className="rank-row";
+  const main=document.createElement("div");
+  main.innerHTML='<span class="rank-number">#'+(i+1)+'</span><strong>'+escapeHtml(s.title||"Unknown")+'</strong>'+
+    '<div class="muted tiny">'+escapeHtml(s.artist||"")+(s.album?' · '+escapeHtml(s.album):'')+'</div>'+
+    '<div class="aggregate-meta">'+escapeHtml(heardMeta(s.first,s.last))+'</div>';
+  const count=document.createElement("div");count.className="rank-count";
+  count.textContent=(s.count||0)+" play"+(Number(s.count)===1?"":"s");
+  row.append(main,count,spotifyMiniButton(s.artist||"",s.title||""));
+  return row;
+}
+function renderCompactObservedTop50(){
+  const data=observedTop50Data;
+  const stats=document.getElementById("observedStats");
+  const source=document.getElementById("observedTop");
+  const sr=document.getElementById("observedTopSongs");
+  const ar=document.getElementById("observedTopArtists");
+  const al=document.getElementById("observedTopAlbums");
+  if(!data){
+    stats.innerHTML=[statTile("Shared history","Waiting for collector")].join("");
+    source.innerHTML="<strong>Source:</strong> Cloudflare-triggered GitHub collector";
+    [sr,ar,al].forEach(el=>el&&el.replaceChildren());
+    return;
+  }
 
-  const artists=aggregateArtistsV26(records);
-  const ar=document.getElementById("observedTopArtists");ar.replaceChildren();
-  document.getElementById("observedArtistCount").textContent=artists.length+" artists";
-  artists.forEach(([artist,recs],i)=>{
-    const times=recs.map(r=>Number(r.playedAt||0)).filter(Boolean);
-    const first=times.length?Math.min(...times):Infinity,last=times.length?Math.max(...times):0;
+  const s=data.summary||{};
+  stats.innerHTML=[
+    statTile("Observed plays",s.totalPlays??0),
+    statTile("Unique artists",s.uniqueArtists??0),
+    statTile("Unique tracks",s.uniqueTracks??0),
+    statTile("Unique albums",s.uniqueAlbums??0),
+    statTile("First observed",s.firstObserved?fmtDate(s.firstObserved):"—"),
+    statTile("Most recent",s.lastObserved?fmtDate(s.lastObserved):"—")
+  ].join("");
+  source.innerHTML='<strong>Shared all-time archive:</strong> monthly raw files · browser downloads only compact top-50 statistics';
+
+  const songs=filteredTop50(data.topSongs);
+  sr.replaceChildren();
+  document.getElementById("observedSongCount").textContent=songs.length+" of top 50";
+  songs.forEach((x,i)=>sr.appendChild(makeTopSongRow(x,i)));
+
+  const artists=filteredTop50(data.topArtists);
+  ar.replaceChildren();
+  document.getElementById("observedArtistCount").textContent=artists.length+" of top 50";
+  artists.forEach((a,i)=>{
     const d=document.createElement("details");d.className="artist-rank";
     const sum=document.createElement("summary");
     const name=document.createElement("span");
-    name.innerHTML="#"+(i+1)+" "+escapeHtml(artist)+'<div class="aggregate-meta">'+escapeHtml(heardMeta(first,last))+"</div>";
-    const count=document.createElement("span");count.className="rank-count";count.textContent=recs.length+" plays";
+    name.innerHTML="#"+(i+1)+" "+escapeHtml(a.artist||"Unknown artist")+
+      '<div class="aggregate-meta">'+escapeHtml(heardMeta(a.first,a.last))+"</div>";
+    const count=document.createElement("span");count.className="rank-count";
+    count.textContent=(a.count||0)+" plays";
     sum.append(name,count);d.appendChild(sum);
     const songsWrap=document.createElement("div");songsWrap.className="artist-song-list";
-    aggregateSongsV26(recs).forEach(s=>{
+    (a.songs||[]).filter(x=>recordMatchesSearch(x,observedSearchValue)||!observedSearchValue).slice(0,50).forEach(sg=>{
       const row=document.createElement("div");row.className="artist-song-row";
       const main=document.createElement("div");
-      main.innerHTML='<strong>'+escapeHtml(s.title)+'</strong>'+
-        (s.album?'<div class="muted tiny">'+escapeHtml(s.album)+'</div>':'')+
-        '<div class="aggregate-meta">'+escapeHtml(heardMeta(s.first,s.last))+'</div>';
-      const c=document.createElement("div");c.className="rank-count";c.textContent=s.count+" play"+(s.count===1?"":"s");
-      row.append(main,c,spotifyMiniButton(s.artist,s.title));songsWrap.appendChild(row);
+      main.innerHTML='<strong>'+escapeHtml(sg.title||"Unknown")+'</strong>'+
+        (sg.album?'<div class="muted tiny">'+escapeHtml(sg.album)+'</div>':'')+
+        '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
+      const c=document.createElement("div");c.className="rank-count";c.textContent=(sg.count||0)+" plays";
+      row.append(main,c,spotifyMiniButton(sg.artist||a.artist||"",sg.title||""));
+      songsWrap.appendChild(row);
     });
     d.appendChild(songsWrap);ar.appendChild(d);
   });
 
-  const albums=aggregateAlbumsV26(records);
-  const al=document.getElementById("observedTopAlbums");al.replaceChildren();
-  document.getElementById("observedAlbumCount").textContent=albums.length+" albums";
+  const albums=filteredTop50(data.topAlbums);
+  al.replaceChildren();
+  document.getElementById("observedAlbumCount").textContent=albums.length+" of top 50";
   albums.forEach((a,i)=>{
-    const times=a.records.map(r=>Number(r.playedAt||0)).filter(Boolean);
-    const first=times.length?Math.min(...times):Infinity,last=times.length?Math.max(...times):0;
     const d=document.createElement("details");d.className="artist-rank";
     const sum=document.createElement("summary");
     const name=document.createElement("span");
-    name.innerHTML="#"+(i+1)+" "+escapeHtml(a.album)+
+    name.innerHTML="#"+(i+1)+" "+escapeHtml(a.album||"Unknown album")+
       '<div class="muted tiny">'+escapeHtml(a.artist||"Unknown artist")+'</div>'+
-      '<div class="aggregate-meta">'+escapeHtml(heardMeta(first,last))+"</div>";
-    const count=document.createElement("span");count.className="rank-count";count.textContent=a.records.length+" plays";
+      '<div class="aggregate-meta">'+escapeHtml(heardMeta(a.first,a.last))+"</div>";
+    const count=document.createElement("span");count.className="rank-count";count.textContent=(a.count||0)+" plays";
     sum.append(name,count);d.appendChild(sum);
     const songsWrap=document.createElement("div");songsWrap.className="artist-song-list";
-    aggregateSongsV26(a.records).forEach(s=>{
+    (a.songs||[]).filter(x=>recordMatchesSearch(x,observedSearchValue)||!observedSearchValue).slice(0,50).forEach(sg=>{
       const row=document.createElement("div");row.className="artist-song-row";
       const main=document.createElement("div");
-      main.innerHTML='<strong>'+escapeHtml(s.title)+'</strong>'+
-        '<div class="aggregate-meta">'+escapeHtml(heardMeta(s.first,s.last))+'</div>';
-      const c=document.createElement("div");c.className="rank-count";c.textContent=s.count+" play"+(s.count===1?"":"s");
-      row.append(main,c,spotifyMiniButton(s.artist,s.title));songsWrap.appendChild(row);
+      main.innerHTML='<strong>'+escapeHtml(sg.title||"Unknown")+'</strong>'+
+        '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
+      const c=document.createElement("div");c.className="rank-count";c.textContent=(sg.count||0)+" plays";
+      row.append(main,c,spotifyMiniButton(sg.artist||a.artist||"",sg.title||""));
+      songsWrap.appendChild(row);
     });
     d.appendChild(songsWrap);al.appendChild(d);
   });
-};
+}
 
-const _renderFavoritesV26Base=renderFavorites;
+const _renderFavoritesV29Base=renderFavorites;
 renderFavorites=async function(){
   const all=(await getAllRecords("favorites"))
     .sort((a,b)=>b.likedAt-a.likedAt)
@@ -222,65 +208,40 @@ renderFavorites=async function(){
   });
 };
 
-async function renderListeningMilestones(listening,observed){
-  const visibleObserved=observed.filter(r=>!isUnknownRecord(r));
+async function renderListeningMilestonesV29(listening){
   const heard=listening.filter(r=>!isUnknownRecord(r));
-  const obsTracks=new Set(visibleObserved.map(recordTrackKey));
   const heardTracks=new Set(heard.map(recordTrackKey));
-  const obsArtists=new Set(visibleObserved.map(r=>(r.artist||"").trim().toLowerCase()).filter(Boolean));
   const heardArtists=new Set(heard.map(r=>(r.artist||"").trim().toLowerCase()).filter(Boolean));
-  let likes=[];
-  try{likes=await getAllRecords("favorites")}catch(e){}
-  const pct=obsTracks.size?100*heardTracks.size/obsTracks.size:0;
-  const artistPct=obsArtists.size?100*heardArtists.size/obsArtists.size:0;
+  const topSongs=observedTop50Data?.topSongs||[];
+  const topArtists=observedTop50Data?.topArtists||[];
+  const topSongKeys=new Set(topSongs.map(recordTrackKey));
+  const topArtistKeys=new Set(topArtists.map(r=>(r.artist||"").trim().toLowerCase()).filter(Boolean));
+  const songsHeard=[...topSongKeys].filter(k=>heardTracks.has(k)).length;
+  const artistsHeard=[...topArtistKeys].filter(k=>heardArtists.has(k)).length;
+  let likes=[];try{likes=await getAllRecords("favorites")}catch(e){}
   const panel=document.getElementById("listeningMilestones");
   panel.innerHTML='<strong>Listening milestones</strong>'+
     '<div class="stats-grid" style="margin-top:9px;margin-bottom:0">'+
-    statTile("Observed catalog heard",heardTracks.size+" / "+obsTracks.size+" ("+pct.toFixed(1)+"%)")+
-    statTile("Observed artists heard",heardArtists.size+" / "+obsArtists.size+" ("+artistPct.toFixed(1)+"%)")+
-    statTile("Liked from heard catalog",likes.length+" saved")+
+    statTile("Top-50 songs heard",songsHeard+" / "+topSongKeys.size)+
+    statTile("Top-50 artists heard",artistsHeard+" / "+topArtistKeys.size)+
+    statTile("Liked songs",likes.length+" saved")+
     '</div>';
 }
 
-async function renderObservedV26(){
-  const local=await getAllRecords("observed");
-  const merged=mergeObserved(local,sharedObservedRecords);
-  const filtered=filterObservedV26(merged);
-  const first=filtered.length?Math.min(...filtered.map(r=>r.playedAt||Infinity)):"";
-  const last=filtered.length?Math.max(...filtered.map(r=>r.playedAt||0)):"";
-  document.getElementById("observedStats").innerHTML=[
-    statTile("Plays in view",filtered.length),
-    statTile("Unique artists",uniqueCount(filtered,"artist")),
-    statTile("Unique tracks",new Set(filtered.map(recordTrackKey)).size),
-    statTile("Unique albums",uniqueCount(filtered,"album")),
-    statTile("First in view",first?fmtDate(first):"—"),
-    statTile("Most recent",last?fmtDate(last):"—")
-  ].join("");
-  document.getElementById("observedTop").innerHTML='<strong>Source:</strong> GitHub Actions 24/7 collector + this browser';
-  renderObservedRankings(filtered);
-  document.getElementById("observedHistoryListCount").textContent=filtered.length+" tracks";
-  renderCompactHistory("observedHistoryList",filtered,Infinity,{hideUnknown:true});
-}
-
-const _renderPersistentHistoriesV26Base=renderPersistentHistories;
+const _renderPersistentHistoriesV29Base=renderPersistentHistories;
 renderPersistentHistories=async function(){
-  await _renderPersistentHistoriesV26Base();
+  await _renderPersistentHistoriesV29Base();
   try{
-    const [listening,localObserved]=await Promise.all([getAllRecords("listening"),getAllRecords("observed")]);
-    const observed=mergeObserved(localObserved,sharedObservedRecords);
-    await renderListeningMilestones(listening,observed);
-    await renderObservedV26();
+    const listening=await getAllRecords("listening");
+    await renderListeningMilestonesV29(listening);
+    renderCompactObservedTop50();
     await renderFavorites();
   }catch(e){}
 };
 
 document.getElementById("observedSearch").addEventListener("input",e=>{
   observedSearchValue=e.target.value.trim();
-  renderObservedV26();
-});
-document.getElementById("observedRange").addEventListener("change",e=>{
-  observedRangeValue=e.target.value;
-  renderObservedV26();
+  renderCompactObservedTop50();
 });
 document.getElementById("favoritesSearch").addEventListener("input",e=>{
   favoritesSearchValue=e.target.value.trim();
@@ -289,13 +250,13 @@ document.getElementById("favoritesSearch").addEventListener("input",e=>{
 
 Object.assign(infoHelp,{
   observed:{title:"Observed BottleRag History",items:[
-    ["Date range","Filter the shared station history to Today, the last 7 days, last 30 days, or all time."],
-    ["Search","Search across song title, artist, and album without downloading anything extra."],
-    ["Rankings","Most Played Songs, Artists, and Albums use only the currently selected date range/search. Expanded entries show first and last observed times."],
-    ["Shared history","GitHub Actions supplies 24/7 observed history; local observations are merged and deduplicated."]
+    ["Top 50 only","The player downloads only compact all-time Top 50 Songs, Artists, and Albums. Recently Observed Tracks is no longer downloaded or shown."],
+    ["Monthly archive","The collector stores raw observed plays by month in the repository for long-term history. Those monthly files are not downloaded during normal player use."],
+    ["Search","Search filters the compact top-50 data already loaded on the device."],
+    ["Cross-device","Every device using the GitHub Pages player reads the same shared compact summary produced by the cloud collector."]
   ]},
   myhistory:{title:"My Listening History",items:[
-    ["Milestones","Compares songs and artists you have actually heard with the catalog your BottleRag collector has observed."],
+    ["Milestones","Shows how many of the station's current all-time top-50 songs and artists this device has recorded you hearing."],
     ["Storage","Listening history remains local to this browser/device and can be exported/imported from Settings."],
     ["Ads","Unknown tracks are excluded from music lists but retained for the ads-played and ad-time statistics."]
   ]}

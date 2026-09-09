@@ -1,54 +1,32 @@
-/* ---------- GitHub Actions shared observed history ---------- */
-let sharedObservedRecords=[];
-const SHARED_OBSERVED_URL="data/observed_history.json";
+/* ---------- GitHub Actions compact shared observed history ---------- */
+let sharedObservedRecords=[]; // compatibility with older local-history renderers
+let observedTop50Data=null;
+const OBSERVED_TOP50_URL="data/stats/observed_top50.json";
+
 async function loadSharedObservedHistory(){
   try{
-    const r=await fetch(SHARED_OBSERVED_URL+"?t="+Date.now(),{cache:"no-store"});
+    const r=await fetch(OBSERVED_TOP50_URL+"?t="+Date.now(),{cache:"no-store"});
     if(!r.ok)throw new Error(r.status+" "+r.statusText);
-    const data=await r.json();
-    const plays=Array.isArray(data)?data:(data.plays||[]);
-    sharedObservedRecords=plays.map(p=>({
-      playKey:p.playKey || (p.shId?"sh:"+p.shId:"fallback:"+[p.playedAt,p.artist||"",p.title||"",p.duration||0].join("|")),
-      shId:p.shId||null,songId:p.songId||null,artist:p.artist||"",title:p.title||"Unknown",
-      album:p.album||"",art:p.art||"",duration:Number(p.duration||0),playedAt:Number(p.playedAt||0),
-      playlist:p.playlist||"",streamer:p.streamer||"",isRequest:!!p.isRequest,source:"github-actions"
-    }));
-    document.getElementById("status-observed").textContent="Shared 24/7 history loaded · "+sharedObservedRecords.length+" records";
+    const text=await r.text();
+    observedTop50Data=JSON.parse(text);
+    const kb=(new TextEncoder().encode(text).length/1024).toFixed(1);
+    const updated=observedTop50Data?.updatedAt?new Date(observedTop50Data.updatedAt).toLocaleString():"—";
+    document.getElementById("status-observed").textContent=
+      "Shared top-50 summary loaded · "+kb+" KB · updated "+updated;
     renderPersistentHistories();
   }catch(e){
-    document.getElementById("status-observed").textContent="Shared history unavailable; showing this device's observations";
+    observedTop50Data=null;
+    document.getElementById("status-observed").textContent=
+      "Shared top-50 history unavailable; waiting for collector output";
   }
 }
+
+/* Kept for compatibility with earlier local-only history code. */
 function mergeObserved(local,shared){
   const m=new Map();
-  for(const r of [...shared,...local])m.set(r.playKey,r);
+  for(const r of [...(shared||[]),...(local||[])])m.set(r.playKey,r);
   return [...m.values()];
 }
-
-/* Override persistent history rendering so Observed uses shared GitHub Actions + local records. */
-const _renderPersistentHistoriesV15=renderPersistentHistories;
-renderPersistentHistories=async function(){
-  await _renderPersistentHistoriesV15();
-  try{
-    const local=await getAllRecords("observed");
-    const observed=mergeObserved(local,sharedObservedRecords);
-    const visible=observed.filter(r=>!isUnknownRecord(r));
-    const firstO=visible.length?Math.min(...visible.map(r=>r.playedAt||Infinity)):"";
-    const lastO=visible.length?Math.max(...visible.map(r=>r.playedAt||0)):"";
-    document.getElementById("observedStats").innerHTML=[
-      statTile("Observed plays",visible.length),
-      statTile("Unique artists",uniqueCount(visible,"artist")),
-      statTile("Unique tracks",new Set(visible.map(r=>(r.artist||"")+"|"+(r.title||""))).size),
-      statTile("First observed",firstO?fmtDate(firstO):"—"),
-      statTile("Most recent",lastO?fmtDate(lastO):"—"),
-      statTile("Coverage",visible.length?(new Date(firstO*1000).toLocaleDateString()+" → "+new Date(lastO*1000).toLocaleDateString()):"—")
-    ].join("");
-    document.getElementById("observedTop").innerHTML='<strong>Source:</strong> GitHub Actions 24/7 collector + this browser';
-    renderObservedRankings(visible);
-    document.getElementById("observedHistoryListCount").textContent=visible.length+" tracks";
-    renderCompactHistory("observedHistoryList",visible,Infinity,{hideUnknown:true});
-  }catch(e){}
-};
 
 /* ---------- v26 Active Streams dashboard ---------- */
 let listenerDoc=null;
@@ -315,9 +293,9 @@ function renderCollectorHealth(){
   const d=parseListenerTime(listenerDoc.updatedAt);
   if(!d){el.textContent="Collector: unknown";el.className="collector-health warn";return}
   const mins=(Date.now()-d.getTime())/60000;
-  el.className="collector-health "+(mins<=15?"ok":mins<=45?"warn":"bad");
+  el.className="collector-health "+(mins<=15?"ok":mins<=30?"warn":"bad");
   el.textContent=mins<=15?"Collector: ✓ "+Math.max(0,Math.round(mins))+" min ago":
-    mins<=45?"Collector delayed · "+Math.round(mins)+" min":
+    mins<=30?"Collector delayed · "+Math.round(mins)+" min":
     "Collector stale · "+Math.round(mins)+" min";
 }
 async function refreshListenerHistoryInfo(){
