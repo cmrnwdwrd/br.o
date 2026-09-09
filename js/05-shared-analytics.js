@@ -315,9 +315,9 @@ function renderCollectorHealth(){
   const d=parseListenerTime(listenerDoc.updatedAt);
   if(!d){el.textContent="Collector: unknown";el.className="collector-health warn";return}
   const mins=(Date.now()-d.getTime())/60000;
-  el.className="collector-health "+(mins<=15?"ok":mins<=30?"warn":"bad");
+  el.className="collector-health "+(mins<=15?"ok":mins<=45?"warn":"bad");
   el.textContent=mins<=15?"Collector: ✓ "+Math.max(0,Math.round(mins))+" min ago":
-    mins<=30?"Collector delayed · "+Math.round(mins)+" min":
+    mins<=45?"Collector delayed · "+Math.round(mins)+" min":
     "Collector stale · "+Math.round(mins)+" min";
 }
 async function refreshListenerHistoryInfo(){
