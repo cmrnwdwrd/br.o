@@ -4,24 +4,29 @@ let observedTop50Data=null;
 const OBSERVED_TOP50_URL="data/stats/observed_top50.json";
 
 async function loadSharedObservedHistory(){
+  const status=document.getElementById("status-observed");
+  if(status) status.textContent="Refreshing…";
   try{
     const r=await fetch(OBSERVED_TOP50_URL+"?t="+Date.now(),{cache:"no-store"});
     if(!r.ok)throw new Error(r.status+" "+r.statusText);
     const text=await r.text();
     observedTop50Data=JSON.parse(text);
-    const kb=(new TextEncoder().encode(text).length/1024).toFixed(1);
-    const updated=observedTop50Data?.updatedAt?new Date(observedTop50Data.updatedAt).toLocaleString():"—";
-    document.getElementById("status-observed").textContent=
-      "Shared top-50 summary loaded · "+kb+" KB · updated "+updated;
+    const updated=observedTop50Data?.updatedAt
+      ?new Date(observedTop50Data.updatedAt).toLocaleString()
+      :"—";
+    if(status) status.textContent="Last Updated: "+updated;
     renderPersistentHistories();
   }catch(e){
     observedTop50Data=null;
-    document.getElementById("status-observed").textContent=
-      "Shared top-50 history unavailable; waiting for collector output";
+    if(status) status.textContent="Last Updated: unavailable";
   }
 }
 
 /* Kept for compatibility with earlier local-only history code. */
+document.getElementById("refreshObservedHistory")?.addEventListener("click",async()=>{
+  await loadSharedObservedHistory();
+});
+
 function mergeObserved(local,shared){
   const m=new Map();
   for(const r of [...(shared||[]),...(local||[])])m.set(r.playKey,r);

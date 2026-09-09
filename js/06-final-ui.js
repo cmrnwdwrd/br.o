@@ -97,13 +97,11 @@ function makeTopSongRow(s,i){
 function renderCompactObservedTop50(){
   const data=observedTop50Data;
   const stats=document.getElementById("observedStats");
-  const source=document.getElementById("observedTop");
   const sr=document.getElementById("observedTopSongs");
   const ar=document.getElementById("observedTopArtists");
   const al=document.getElementById("observedTopAlbums");
   if(!data){
     stats.innerHTML=[statTile("Shared history","Waiting for collector")].join("");
-    source.innerHTML="<strong>Source:</strong> Cloudflare-triggered GitHub collector";
     [sr,ar,al].forEach(el=>el&&el.replaceChildren());
     return;
   }
@@ -117,7 +115,6 @@ function renderCompactObservedTop50(){
     statTile("First observed",s.firstObserved?fmtDate(s.firstObserved):"—"),
     statTile("Most recent",s.lastObserved?fmtDate(s.lastObserved):"—")
   ].join("");
-  source.innerHTML='<strong>Shared all-time archive:</strong> monthly raw files · browser downloads only compact top-50 statistics';
 
   const songs=filteredTop50(data.topSongs);
   sr.replaceChildren();

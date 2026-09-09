@@ -215,14 +215,13 @@
 <section class="card history-wide" id="observedCard">
 <div class="card-head">
 <h2>Observed BottleRag History</h2>
-<button aria-expanded="true" class="collapse-btn" data-target="body-observed" title="Hide/show Observed BottleRag History" type="button"><span class="arrow">▼</span></button>
-</div>
+
+<div class="card-tools"><button aria-label="Refresh observed BottleRag history" class="icon-btn" id="refreshObservedHistory" title="Refresh observed history" type="button"><span aria-hidden="true">↻</span></button><button aria-expanded="true" class="collapse-btn" data-target="body-observed" title="Hide/show Observed BottleRag History" type="button"><span class="arrow">▼</span></button></div></div>
 <div class="card-body" id="body-observed">
 <div class="history-filter-bar">
 <input aria-label="Search observed BottleRag history" class="history-search" id="observedSearch" placeholder="Search the top 50 songs, artists, or albums…" type="search"/>
-
 </div><div class="stats-grid" id="observedStats"></div>
-<div class="history-top" id="observedTop"></div>
+
 <details class="ranking-details">
 <summary>Most Played Songs <span class="muted tiny" id="observedSongCount"></span></summary>
 <div class="ranking-list" id="observedTopSongs"></div>
@@ -239,7 +238,7 @@
 <div class="compact-history" id="observedHistoryList"></div>
 </details>
 <div class="status-footer">
-<div class="refresh-status" id="status-observed"></div>
+<div class="refresh-status" id="status-observed">Last Updated: —</div>
 <button aria-label="Explain Observed BottleRag History" class="info-btn" data-info="observed" type="button">i</button>
 </div>
 </div>
