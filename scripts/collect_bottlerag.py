@@ -77,26 +77,57 @@ def collect_observed(data):
     save_json(OBS, {"updatedAt": datetime.now(timezone.utc).isoformat(), "plays": plays})
 
 def collect_listeners(data):
-    doc = load_json(LIS, {"updatedAt": None, "samples": []})
+    doc = load_json(LIS, {"updatedAt": None, "samples": [], "allTimeMax": None})
     if isinstance(doc, list):
-        doc = {"updatedAt": None, "samples": doc}
+        doc = {"updatedAt": None, "samples": doc, "allTimeMax": None}
+
     samples = doc.get("samples", [])
     now = datetime.now(timezone.utc)
-    # Plot simultaneous listeners right now.
+
+    # Record simultaneous active stream connections right now.
     count = data.get("listeners", {}).get("current")
     if isinstance(count, (int, float)):
-        samples.append({"timestamp": now.isoformat(), "listeners": int(count)})
+        sample = {"timestamp": now.isoformat(), "listeners": int(count)}
+        samples.append(sample)
+
+    # Preserve all samples indefinitely so the all-time maximum survives
+    # beyond the 90-day plot window.
+    all_time_max = doc.get("allTimeMax")
+    for s in samples:
+        try:
+            n = int(s["listeners"])
+            ts = s["timestamp"]
+            if (
+                not isinstance(all_time_max, dict)
+                or n > int(all_time_max.get("listeners", -1))
+                or (
+                    n == int(all_time_max.get("listeners", -1))
+                    and ts < str(all_time_max.get("timestamp", ts))
+                )
+            ):
+                all_time_max = {"listeners": n, "timestamp": ts}
+        except Exception:
+            pass
+
+    save_json(
+        LIS,
+        {
+            "updatedAt": now.isoformat(),
+            "samples": samples,
+            "allTimeMax": all_time_max,
+        },
+    )
+
     cutoff = now - timedelta(days=90)
-    kept = []
+    recent = []
     for s in samples:
         try:
             dt = datetime.fromisoformat(s["timestamp"].replace("Z", "+00:00"))
             if dt >= cutoff:
-                kept.append(s)
+                recent.append(s)
         except Exception:
             pass
-    save_json(LIS, {"updatedAt": now.isoformat(), "samples": kept})
-    return kept
+    return recent
 
 def nice_max(v):
     if v <= 1: return 1
@@ -115,7 +146,7 @@ def make_svg(samples):
             f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">'
             '<rect width="100%" height="100%" fill="#111"/>'
             '<text x="50%" y="50%" fill="#aaa" text-anchor="middle" font-family="system-ui">'
-            'No listener samples yet</text></svg>',
+            'No active-stream samples yet</text></svg>',
             encoding="utf-8",
         )
         return
