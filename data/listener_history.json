@@ -1,5 +1,24 @@
 {
-  "updatedAt": "2026-09-09T01:18:45.703135+00:00",
+  "schemaVersion": 26,
+  "updatedAt": "2026-09-09T02:01:45.592466+00:00",
+  "recentSamples": [
+    {
+      "timestamp": "2026-09-08T22:05:39.627769+00:00",
+      "listeners": 1
+    },
+    {
+      "timestamp": "2026-09-09T00:24:47.933468+00:00",
+      "listeners": 2
+    },
+    {
+      "timestamp": "2026-09-09T01:18:45.703135+00:00",
+      "listeners": 3
+    },
+    {
+      "timestamp": "2026-09-09T02:01:45.592466+00:00",
+      "listeners": 2
+    }
+  ],
   "samples": [
     {
       "timestamp": "2026-09-08T22:05:39.627769+00:00",
@@ -12,6 +31,208 @@
     {
       "timestamp": "2026-09-09T01:18:45.703135+00:00",
       "listeners": 3
+    },
+    {
+      "timestamp": "2026-09-09T02:01:45.592466+00:00",
+      "listeners": 2
     }
-  ]
+  ],
+  "dailySummaries": [],
+  "hourBins": [
+    {
+      "hour": 0,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 1,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 2,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 3,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 4,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 5,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 6,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 7,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 8,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 9,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 10,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 11,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 12,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 13,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 14,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 15,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 16,
+      "sum": 1,
+      "count": 1,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "hour": 17,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 18,
+      "sum": 2,
+      "count": 1,
+      "min": 2,
+      "max": 2
+    },
+    {
+      "hour": 19,
+      "sum": 3,
+      "count": 1,
+      "min": 3,
+      "max": 3
+    },
+    {
+      "hour": 20,
+      "sum": 2,
+      "count": 1,
+      "min": 2,
+      "max": 2
+    },
+    {
+      "hour": 21,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 22,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    },
+    {
+      "hour": 23,
+      "sum": 0,
+      "count": 0,
+      "min": null,
+      "max": null
+    }
+  ],
+  "allTimeMax": {
+    "listeners": 2,
+    "timestamp": "2026-09-09T02:01:45.592466+00:00"
+  },
+  "records": {
+    "allTimeMax": {
+      "listeners": 2,
+      "timestamp": "2026-09-09T02:01:45.592466+00:00"
+    },
+    "highestDailyAverage": {
+      "date": "2026-09-08",
+      "min": 1,
+      "max": 3,
+      "sum": 8,
+      "count": 4,
+      "avg": 2.0
+    },
+    "highestDailyMax": {
+      "date": "2026-09-08",
+      "min": 1,
+      "max": 3,
+      "sum": 8,
+      "count": 4,
+      "avg": 2.0
+    },
+    "daysRecorded": 1
+  }
 }
