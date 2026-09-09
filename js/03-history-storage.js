@@ -261,18 +261,6 @@ async function renderPersistentHistories(){
   document.getElementById("myHistoryListCount").textContent=listening.length+" plays";
   renderCompactHistory("myHistoryList",listening,Infinity);
 
-  const firstO=observed.length?Math.min(...observed.map(r=>r.playedAt||Infinity)):"";
-  const lastO=observed.length?Math.max(...observed.map(r=>r.playedAt||0)):"";
-  document.getElementById("observedStats").innerHTML=[
-    statTile("Observed plays",observed.length),
-    statTile("Unique artists",uniqueCount(observed,"artist")),
-    statTile("Unique tracks",new Set(observed.map(r=>(r.artist||"")+"|"+(r.title||""))).size),
-    statTile("First observed",firstO?fmtDate(firstO):"—"),
-    statTile("Most recent",lastO?fmtDate(lastO):"—"),
-    statTile("Coverage",observed.length?(new Date(firstO*1000).toLocaleDateString()+" → "+new Date(lastO*1000).toLocaleDateString()):"—")
-  ].join("");
-  document.getElementById("observedHistoryListCount").textContent=observed.filter(r=>!isUnknownRecord(r)).length+" tracks";
-  renderCompactHistory("observedHistoryList",observed,Infinity,{hideUnknown:true});
   document.getElementById("status-myhistory").textContent="Stored on this device";
 }
 
