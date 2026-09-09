@@ -1006,3 +1006,6 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 
 /* v30 observed history refresh/status cleanup */
 #observedCard .status-footer{margin-top:12px}
+
+/* v30.1 compatibility target for legacy render layers */
+.compat-hidden{display:none !important}
