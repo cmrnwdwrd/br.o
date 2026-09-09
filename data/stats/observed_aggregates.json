@@ -1,10 +1,10 @@
 {
   "schemaVersion": 29,
-  "updatedAt": "2026-09-09T21:25:59.244882+00:00",
-  "totalPlays": 360,
+  "updatedAt": "2026-09-09T21:30:58.975592+00:00",
+  "totalPlays": 361,
   "unknownPlays": 42,
   "firstObserved": 1788901564,
-  "lastObserved": 1788989164,
+  "lastObserved": 1788989320,
   "songs": {
     "n.e.r.d|run to the sun": {
       "artist": "N.E.R.D",
@@ -2853,6 +2853,14 @@
       "count": 1,
       "first": 1788989025,
       "last": 1788989025
+    },
+    "tennis|traveling": {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 1,
+      "first": 1788989320,
+      "last": 1788989320
     }
   },
   "artists": {
@@ -8117,6 +8125,22 @@
           "count": 1,
           "first": 1788989025,
           "last": 1788989025
+        }
+      }
+    },
+    "tennis": {
+      "artist": "Tennis",
+      "count": 1,
+      "first": 1788989320,
+      "last": 1788989320,
+      "songs": {
+        "tennis|traveling": {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 1,
+          "first": 1788989320,
+          "last": 1788989320
         }
       }
     }
@@ -13955,6 +13979,23 @@
           "count": 1,
           "first": 1788989025,
           "last": 1788989025
+        }
+      }
+    },
+    "tennis|young & old": {
+      "artist": "Tennis",
+      "album": "Young & Old",
+      "count": 1,
+      "first": 1788989320,
+      "last": 1788989320,
+      "songs": {
+        "tennis|traveling": {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 1,
+          "first": 1788989320,
+          "last": 1788989320
         }
       }
     }
