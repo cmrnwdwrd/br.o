@@ -1,6 +1,6 @@
 {
   "schemaVersion": 26,
-  "updatedAt": "2026-09-09T22:55:25.222828+00:00",
+  "updatedAt": "2026-09-09T23:00:29.058047+00:00",
   "recentSamples": [
     {
       "timestamp": "2026-09-08T22:05:39.627769+00:00",
@@ -897,6 +897,10 @@
     {
       "timestamp": "2026-09-09T22:55:25.222828+00:00",
       "listeners": 1
+    },
+    {
+      "timestamp": "2026-09-09T23:00:29.058047+00:00",
+      "listeners": 5
     }
   ],
   "samples": [
@@ -1795,6 +1799,10 @@
     {
       "timestamp": "2026-09-09T22:55:25.222828+00:00",
       "listeners": 1
+    },
+    {
+      "timestamp": "2026-09-09T23:00:29.058047+00:00",
+      "listeners": 5
     }
   ],
   "dailySummaries": [],
@@ -1920,10 +1928,10 @@
     },
     {
       "hour": 17,
-      "sum": 0,
-      "count": 0,
-      "min": null,
-      "max": null
+      "sum": 5,
+      "count": 1,
+      "min": 5,
+      "max": 5
     },
     {
       "hour": 18,
@@ -1969,13 +1977,13 @@
     }
   ],
   "allTimeMax": {
-    "listeners": 4,
-    "timestamp": "2026-09-09T05:20:37.508969+00:00"
+    "listeners": 5,
+    "timestamp": "2026-09-09T23:00:29.058047+00:00"
   },
   "records": {
     "allTimeMax": {
-      "listeners": 4,
-      "timestamp": "2026-09-09T05:20:37.508969+00:00"
+      "listeners": 5,
+      "timestamp": "2026-09-09T23:00:29.058047+00:00"
     },
     "highestDailyAverage": {
       "date": "2026-09-08",
@@ -1986,12 +1994,12 @@
       "avg": 2.0
     },
     "highestDailyMax": {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "min": 1,
-      "max": 4,
-      "sum": 44,
-      "count": 22,
-      "avg": 2.0
+      "max": 5,
+      "sum": 302,
+      "count": 203,
+      "avg": 1.4876847290640394
     },
     "daysRecorded": 2
   }
