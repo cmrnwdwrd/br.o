@@ -1,10 +1,10 @@
 {
   "schemaVersion": 29,
-  "updatedAt": "2026-09-09T20:41:01.569422+00:00",
-  "totalPlays": 347,
+  "updatedAt": "2026-09-09T20:46:02.058032+00:00",
+  "totalPlays": 349,
   "unknownPlays": 40,
   "firstObserved": 1788901564,
-  "lastObserved": 1788986267,
+  "lastObserved": 1788986736,
   "songs": {
     "n.e.r.d|run to the sun": {
       "artist": "N.E.R.D",
@@ -2749,6 +2749,22 @@
       "count": 1,
       "first": 1788986031,
       "last": 1788986031
+    },
+    "metric|dead disco": {
+      "artist": "Metric",
+      "title": "Dead Disco",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 1,
+      "first": 1788986736,
+      "last": 1788986736
+    },
+    "khruangbin, leon bridges|texas sun": {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 1,
+      "first": 1788986484,
+      "last": 1788986484
     }
   },
   "artists": {
@@ -7821,6 +7837,38 @@
           "count": 1,
           "first": 1788986031,
           "last": 1788986031
+        }
+      }
+    },
+    "metric": {
+      "artist": "Metric",
+      "count": 1,
+      "first": 1788986736,
+      "last": 1788986736,
+      "songs": {
+        "metric|dead disco": {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 1,
+          "first": 1788986736,
+          "last": 1788986736
+        }
+      }
+    },
+    "khruangbin, leon bridges": {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 1,
+      "first": 1788986484,
+      "last": 1788986484,
+      "songs": {
+        "khruangbin, leon bridges|texas sun": {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 1,
+          "first": 1788986484,
+          "last": 1788986484
         }
       }
     }
@@ -13447,6 +13495,40 @@
           "count": 1,
           "first": 1788986031,
           "last": 1788986031
+        }
+      }
+    },
+    "metric|old world underground, where are you now?": {
+      "artist": "Metric",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 1,
+      "first": 1788986736,
+      "last": 1788986736,
+      "songs": {
+        "metric|dead disco": {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 1,
+          "first": 1788986736,
+          "last": 1788986736
+        }
+      }
+    },
+    "khruangbin, leon bridges|texas sun": {
+      "artist": "Khruangbin, Leon Bridges",
+      "album": "Texas Sun",
+      "count": 1,
+      "first": 1788986484,
+      "last": 1788986484,
+      "songs": {
+        "khruangbin, leon bridges|texas sun": {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 1,
+          "first": 1788986484,
+          "last": 1788986484
         }
       }
     }
