@@ -1,14 +1,14 @@
 {
   "schemaVersion": 29,
-  "updatedAt": "2026-09-09T18:31:01.059284+00:00",
+  "updatedAt": "2026-09-09T18:36:00.587247+00:00",
   "summary": {
-    "totalPlays": 314,
+    "totalPlays": 316,
     "unknownPlays": 36,
-    "uniqueTracks": 311,
-    "uniqueArtists": 267,
-    "uniqueAlbums": 289,
+    "uniqueTracks": 313,
+    "uniqueArtists": 268,
+    "uniqueAlbums": 291,
     "firstObserved": 1788901564,
-    "lastObserved": 1788978589
+    "lastObserved": 1788978934
   },
   "topSongs": [
     {
@@ -34,6 +34,22 @@
       "count": 2,
       "first": 1788925926,
       "last": 1788930391
+    },
+    {
+      "artist": "Johnny Cash",
+      "title": "To Beat The Devil",
+      "album": "Hello, I'm Johnny Cash",
+      "count": 1,
+      "first": 1788978934,
+      "last": 1788978934
+    },
+    {
+      "artist": "Lefty Frizzell",
+      "title": "Saginaw, Michigan",
+      "album": "The Complete Columbia Recording Sessions, Vol. 6 - 1959-1963",
+      "count": 1,
+      "first": 1788978745,
+      "last": 1788978745
     },
     {
       "artist": "Loretta Lynn",
@@ -394,22 +410,6 @@
       "count": 1,
       "first": 1788969295,
       "last": 1788969295
-    },
-    {
-      "artist": "Hotel Ugly",
-      "title": "Shut up My Moms Calling",
-      "album": "Shut up My Moms Calling",
-      "count": 1,
-      "first": 1788969130,
-      "last": 1788969130
-    },
-    {
-      "artist": "Sugarloaf",
-      "title": "West Of Tomorrow",
-      "album": "Sugarloaf",
-      "count": 1,
-      "first": 1788968800,
-      "last": 1788968800
     }
   ],
   "topArtists": [
@@ -806,6 +806,30 @@
       ]
     },
     {
+      "artist": "Johnny Cash",
+      "count": 2,
+      "first": 1788976275,
+      "last": 1788978934,
+      "songs": [
+        {
+          "artist": "Johnny Cash",
+          "title": "To Beat The Devil",
+          "album": "Hello, I'm Johnny Cash",
+          "count": 1,
+          "first": 1788978934,
+          "last": 1788978934
+        },
+        {
+          "artist": "Johnny Cash",
+          "title": "Man in Black",
+          "album": "Man In Black",
+          "count": 1,
+          "first": 1788976275,
+          "last": 1788976275
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 2,
       "first": 1788919285,
@@ -1198,6 +1222,22 @@
       ]
     },
     {
+      "artist": "Lefty Frizzell",
+      "count": 1,
+      "first": 1788978745,
+      "last": 1788978745,
+      "songs": [
+        {
+          "artist": "Lefty Frizzell",
+          "title": "Saginaw, Michigan",
+          "album": "The Complete Columbia Recording Sessions, Vol. 6 - 1959-1963",
+          "count": 1,
+          "first": 1788978745,
+          "last": 1788978745
+        }
+      ]
+    },
+    {
       "artist": "Loretta Lynn",
       "count": 1,
       "first": 1788978589,
@@ -1390,22 +1430,6 @@
       ]
     },
     {
-      "artist": "Johnny Cash",
-      "count": 1,
-      "first": 1788976275,
-      "last": 1788976275,
-      "songs": [
-        {
-          "artist": "Johnny Cash",
-          "title": "Man in Black",
-          "album": "Man In Black",
-          "count": 1,
-          "first": 1788976275,
-          "last": 1788976275
-        }
-      ]
-    },
-    {
       "artist": "Corb Lund",
       "count": 1,
       "first": 1788976050,
@@ -1546,22 +1570,6 @@
           "count": 1,
           "first": 1788973776,
           "last": 1788973776
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 1,
-      "first": 1788973386,
-      "last": 1788973386,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 1,
-          "first": 1788973386,
-          "last": 1788973386
         }
       ]
     }
@@ -2029,6 +2037,40 @@
           "count": 1,
           "first": 1788917492,
           "last": 1788917492
+        }
+      ]
+    },
+    {
+      "artist": "Johnny Cash",
+      "album": "Hello, I'm Johnny Cash",
+      "count": 1,
+      "first": 1788978934,
+      "last": 1788978934,
+      "songs": [
+        {
+          "artist": "Johnny Cash",
+          "title": "To Beat The Devil",
+          "album": "Hello, I'm Johnny Cash",
+          "count": 1,
+          "first": 1788978934,
+          "last": 1788978934
+        }
+      ]
+    },
+    {
+      "artist": "Lefty Frizzell",
+      "album": "The Complete Columbia Recording Sessions, Vol. 6 - 1959-1963",
+      "count": 1,
+      "first": 1788978745,
+      "last": 1788978745,
+      "songs": [
+        {
+          "artist": "Lefty Frizzell",
+          "title": "Saginaw, Michigan",
+          "album": "The Complete Columbia Recording Sessions, Vol. 6 - 1959-1963",
+          "count": 1,
+          "first": 1788978745,
+          "last": 1788978745
         }
       ]
     },
@@ -2556,40 +2598,6 @@
           "count": 1,
           "first": 1788972025,
           "last": 1788972025
-        }
-      ]
-    },
-    {
-      "artist": "Nat & Alex Wolff",
-      "album": "Public Places",
-      "count": 1,
-      "first": 1788971807,
-      "last": 1788971807,
-      "songs": [
-        {
-          "artist": "Nat & Alex Wolff",
-          "title": "Rollin' Around",
-          "album": "Public Places",
-          "count": 1,
-          "first": 1788971807,
-          "last": 1788971807
-        }
-      ]
-    },
-    {
-      "artist": "N.W.A.",
-      "album": "Straight Outta Compton",
-      "count": 1,
-      "first": 1788971461,
-      "last": 1788971461,
-      "songs": [
-        {
-          "artist": "N.W.A.",
-          "title": "Fuck Tha Police",
-          "album": "Straight Outta Compton",
-          "count": 1,
-          "first": 1788971461,
-          "last": 1788971461
         }
       ]
     }
