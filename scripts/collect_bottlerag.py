@@ -5,6 +5,7 @@ import os
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from xml.sax.saxutils import escape
 
 API = "https://studio18.radiolize.com/api/nowplaying/109"
@@ -13,6 +14,7 @@ DATA = ROOT / "data"
 OBS = DATA / "observed_history.json"
 LIS = DATA / "listener_history.json"
 SVG = DATA / "listeners_90d.svg"
+LOCAL_TZ = ZoneInfo("America/Denver")
 
 DATA.mkdir(parents=True, exist_ok=True)
 
@@ -80,9 +82,8 @@ def collect_listeners(data):
         doc = {"updatedAt": None, "samples": doc}
     samples = doc.get("samples", [])
     now = datetime.now(timezone.utc)
-    count = data.get("listeners", {}).get("total")
-    if not isinstance(count, (int, float)):
-        count = data.get("listeners", {}).get("current")
+    # Plot simultaneous listeners right now.
+    count = data.get("listeners", {}).get("current")
     if isinstance(count, (int, float)):
         samples.append({"timestamp": now.isoformat(), "listeners": int(count)})
     cutoff = now - timedelta(days=90)
@@ -106,47 +107,100 @@ def nice_max(v):
 
 def make_svg(samples):
     W, H = 1100, 360
-    L, R, T, B = 58, 20, 24, 46
+    L, R, T, B = 58, 20, 28, 46
     plot_w, plot_h = W-L-R, H-T-B
+
     if not samples:
-        SVG.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><rect width="100%" height="100%" fill="#111"/><text x="50%" y="50%" fill="#aaa" text-anchor="middle" font-family="system-ui">No listener samples yet</text></svg>', encoding="utf-8")
+        SVG.write_text(
+            f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">'
+            '<rect width="100%" height="100%" fill="#111"/>'
+            '<text x="50%" y="50%" fill="#aaa" text-anchor="middle" font-family="system-ui">'
+            'No listener samples yet</text></svg>',
+            encoding="utf-8",
+        )
         return
-    parsed=[]
+
+    parsed = []
     for s in samples:
         try:
-            dt=datetime.fromisoformat(s["timestamp"].replace("Z","+00:00"))
+            dt = datetime.fromisoformat(s["timestamp"].replace("Z", "+00:00"))
             parsed.append((dt, int(s["listeners"])))
-        except Exception: pass
-    if not parsed: return
+        except Exception:
+            pass
+    if not parsed:
+        return
+
     parsed.sort()
-    x0,x1=parsed[0][0].timestamp(),parsed[-1][0].timestamp()
-    if x1<=x0: x1=x0+1
-    ymax=max(1,nice_max(max(v for _,v in parsed)))
-    pts=[]
-    for dt,v in parsed:
-        x=L+(dt.timestamp()-x0)/(x1-x0)*plot_w
-        y=T+plot_h-(v/ymax)*plot_h
-        pts.append(f"{x:.1f},{y:.1f}")
-    avg=sum(v for _,v in parsed)/len(parsed)
-    mn=min(v for _,v in parsed); mx=max(v for _,v in parsed)
-    # grid + labels
-    parts=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
-           '<rect width="100%" height="100%" fill="#111"/>',
-           '<g font-family="system-ui,-apple-system,Segoe UI,sans-serif" fill="#aaa" font-size="13">']
+    x0, x1 = parsed[0][0].timestamp(), parsed[-1][0].timestamp()
+    if x1 <= x0:
+        x1 = x0 + 1
+
+    ymax = max(1, nice_max(max(v for _, v in parsed)))
+    coords = []
+    for dt, v in parsed:
+        x = L + (dt.timestamp()-x0)/(x1-x0)*plot_w
+        y = T + plot_h - (v/ymax)*plot_h
+        coords.append((x, y, v))
+
+    avg = sum(v for _, v in parsed)/len(parsed)
+    mn = min(v for _, v in parsed)
+    mx = max(v for _, v in parsed)
+
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
+        '<rect width="100%" height="100%" fill="#111"/>',
+        '<g font-family="system-ui,-apple-system,Segoe UI,sans-serif" fill="#aaa" font-size="13">',
+    ]
+
     for i in range(5):
-        val=ymax*(4-i)/4
-        y=T+plot_h*i/4
-        parts.append(f'<line x1="{L}" y1="{y:.1f}" x2="{W-R}" y2="{y:.1f}" stroke="#333" stroke-width="1"/>')
-        parts.append(f'<text x="{L-9}" y="{y+4:.1f}" text-anchor="end">{val:g}</text>')
-    # date labels at 0, 1/2, 1
-    for frac in (0,.5,1):
-        ts=x0+(x1-x0)*frac
-        dt=datetime.fromtimestamp(ts,timezone.utc)
-        x=L+plot_w*frac
-        parts.append(f'<text x="{x:.1f}" y="{H-16}" text-anchor="middle">{escape(dt.strftime("%b %d"))}</text>')
+        val = ymax*(4-i)/4
+        y = T + plot_h*i/4
+        parts.append(
+            f'<line x1="{L}" y1="{y:.1f}" x2="{W-R}" y2="{y:.1f}" stroke="#333" stroke-width="1"/>'
+        )
+        parts.append(
+            f'<text x="{L-9}" y="{y+4:.1f}" text-anchor="end">{val:g}</text>'
+        )
+
+    for frac in (0, .5, 1):
+        ts = x0 + (x1-x0)*frac
+        dt = datetime.fromtimestamp(ts, timezone.utc).astimezone(LOCAL_TZ)
+        x = L + plot_w*frac
+        parts.append(
+            f'<text x="{x:.1f}" y="{H-16}" text-anchor="middle">{escape(dt.strftime("%b %d"))}</text>'
+        )
     parts.append('</g>')
-    parts.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="#f3f3f3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>')
-    parts.append(f'<text x="{L}" y="17" fill="#f3f3f3" font-family="system-ui" font-size="14">Samples: {len(parsed)} · Min {mn} · Avg {avg:.1f} · Max {mx}</text>')
+
+    if len(coords) == 1:
+        x, y, _ = coords[0]
+        step_path = f'M {x:.1f} {y:.1f}'
+    else:
+        x, y, _ = coords[0]
+        commands = [f'M {x:.1f} {y:.1f}']
+        for x, y, _ in coords[1:]:
+            commands.append(f'H {x:.1f}')
+            commands.append(f'V {y:.1f}')
+        step_path = " ".join(commands)
+
+    parts.append(
+        f'<path d="{step_path}" fill="none" stroke="#f3f3f3" stroke-width="2" '
+        'stroke-linejoin="round" stroke-linecap="round"/>'
+    )
+
+    for x, y, _ in coords:
+        parts.append(
+            f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.5" fill="#111" '
+            'stroke="#f3f3f3" stroke-width="2"/>'
+        )
+
+    latest_local = parsed[-1][0].astimezone(LOCAL_TZ)
+    latest_count = parsed[-1][1]
+    parts.append(
+        f'<text x="{L}" y="18" fill="#f3f3f3" font-family="system-ui" font-size="14">'
+        f'Samples: {len(parsed)} · Min {mn} · Avg {avg:.1f} · Max {mx} · '
+        f'Latest {latest_count} at {escape(latest_local.strftime("%b %d %I:%M %p"))}'
+        '</text>'
+    )
     parts.append('</svg>')
     SVG.write_text("".join(parts), encoding="utf-8")
 
