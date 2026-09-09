@@ -271,11 +271,9 @@ async function renderPersistentHistories(){
     statTile("Most recent",lastO?fmtDate(lastO):"—"),
     statTile("Coverage",observed.length?(new Date(firstO*1000).toLocaleDateString()+" → "+new Date(lastO*1000).toLocaleDateString()):"—")
   ].join("");
-  document.getElementById("observedTop").innerHTML='<strong>Top observed artists:</strong> '+(topCounts(observed,"artist").map(([n,c])=>escapeHtml(n)+" ("+c+")").join(" · ")||"—");
   document.getElementById("observedHistoryListCount").textContent=observed.filter(r=>!isUnknownRecord(r)).length+" tracks";
   renderCompactHistory("observedHistoryList",observed,Infinity,{hideUnknown:true});
   document.getElementById("status-myhistory").textContent="Stored on this device";
-  document.getElementById("status-observed").textContent="Stored on this device";
 }
 
 /* ---------- Export / import / resets ---------- */
