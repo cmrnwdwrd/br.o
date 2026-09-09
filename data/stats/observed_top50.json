@@ -1,14 +1,14 @@
 {
   "schemaVersion": 29,
-  "updatedAt": "2026-09-09T21:36:00.235675+00:00",
+  "updatedAt": "2026-09-09T21:41:00.068123+00:00",
   "summary": {
-    "totalPlays": 363,
+    "totalPlays": 364,
     "unknownPlays": 42,
-    "uniqueTracks": 359,
-    "uniqueArtists": 305,
-    "uniqueAlbums": 335,
+    "uniqueTracks": 360,
+    "uniqueArtists": 306,
+    "uniqueAlbums": 336,
     "firstObserved": 1788901564,
-    "lastObserved": 1788989714
+    "lastObserved": 1788989909
   },
   "topSongs": [
     {
@@ -42,6 +42,14 @@
       "count": 2,
       "first": 1788925926,
       "last": 1788930391
+    },
+    {
+      "artist": "Arcade Fire",
+      "title": "Wake Up",
+      "album": "Funeral",
+      "count": 1,
+      "first": 1788989909,
+      "last": 1788989909
     },
     {
       "artist": "Billie Eilish",
@@ -402,14 +410,6 @@
       "count": 1,
       "first": 1788979195,
       "last": 1788979195
-    },
-    {
-      "artist": "Johnny Cash",
-      "title": "To Beat The Devil",
-      "album": "Hello, I'm Johnny Cash",
-      "count": 1,
-      "first": 1788978934,
-      "last": 1788978934
     }
   ],
   "topArtists": [
@@ -1406,6 +1406,22 @@
       ]
     },
     {
+      "artist": "Arcade Fire",
+      "count": 1,
+      "first": 1788989909,
+      "last": 1788989909,
+      "songs": [
+        {
+          "artist": "Arcade Fire",
+          "title": "Wake Up",
+          "album": "Funeral",
+          "count": 1,
+          "first": 1788989909,
+          "last": 1788989909
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 1,
       "first": 1788989714,
@@ -1626,22 +1642,6 @@
           "count": 1,
           "first": 1788986484,
           "last": 1788986484
-        }
-      ]
-    },
-    {
-      "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
-      "count": 1,
-      "first": 1788986031,
-      "last": 1788986031,
-      "songs": [
-        {
-          "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
-          "title": "Not Strong Enough",
-          "album": "the record",
-          "count": 1,
-          "first": 1788986031,
-          "last": 1788986031
         }
       ]
     }
@@ -2180,6 +2180,23 @@
       ]
     },
     {
+      "artist": "Arcade Fire",
+      "album": "Funeral",
+      "count": 1,
+      "first": 1788989909,
+      "last": 1788989909,
+      "songs": [
+        {
+          "artist": "Arcade Fire",
+          "title": "Wake Up",
+          "album": "Funeral",
+          "count": 1,
+          "first": 1788989909,
+          "last": 1788989909
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "album": "Happier Than Ever",
       "count": 1,
@@ -2669,23 +2686,6 @@
           "count": 1,
           "first": 1788982397,
           "last": 1788982397
-        }
-      ]
-    },
-    {
-      "artist": "Johnny Cash",
-      "album": "The Essential Johnny Cash",
-      "count": 1,
-      "first": 1788982114,
-      "last": 1788982114,
-      "songs": [
-        {
-          "artist": "Johnny Cash",
-          "title": "One Piece at a Time",
-          "album": "The Essential Johnny Cash",
-          "count": 1,
-          "first": 1788982114,
-          "last": 1788982114
         }
       ]
     }
