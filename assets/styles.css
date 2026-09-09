@@ -1011,10 +1011,3 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 
 /* v30.1 compatibility target for legacy render layers */
 .compat-hidden{display:none !important}
-
-/* Prevent Now Playing from sliding under the header on phones */
-@media (max-width: 600px) {
-  #nowCard {
-    margin-top: 16px !important;
-  }
-}
