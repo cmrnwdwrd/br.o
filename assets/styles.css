@@ -1016,3 +1016,8 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
     margin-top: 16px !important;
   }
 }
+@media (max-width: 600px) {
+  .wrap {
+    padding-top: 8px !important;
+  }
+}
