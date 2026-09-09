@@ -1,10 +1,10 @@
 {
   "schemaVersion": 29,
-  "updatedAt": "2026-09-09T08:30:55.547943+00:00",
-  "totalPlays": 153,
+  "updatedAt": "2026-09-09T08:35:44.373972+00:00",
+  "totalPlays": 154,
   "unknownPlays": 16,
   "firstObserved": 1788901564,
-  "lastObserved": 1788942659,
+  "lastObserved": 1788942783,
   "songs": {
     "n.e.r.d|run to the sun": {
       "artist": "N.E.R.D",
@@ -1213,6 +1213,14 @@
       "count": 1,
       "first": 1788942445,
       "last": 1788942445
+    },
+    "machine girl|ghost": {
+      "artist": "Machine Girl",
+      "title": "Ghost",
+      "album": "Wlfgrl",
+      "count": 1,
+      "first": 1788942783,
+      "last": 1788942783
     }
   },
   "artists": {
@@ -3453,6 +3461,22 @@
           "count": 1,
           "first": 1788942175,
           "last": 1788942175
+        }
+      }
+    },
+    "machine girl": {
+      "artist": "Machine Girl",
+      "count": 1,
+      "first": 1788942783,
+      "last": 1788942783,
+      "songs": {
+        "machine girl|ghost": {
+          "artist": "Machine Girl",
+          "title": "Ghost",
+          "album": "Wlfgrl",
+          "count": 1,
+          "first": 1788942783,
+          "last": 1788942783
         }
       }
     }
@@ -5896,6 +5920,23 @@
           "count": 1,
           "first": 1788942445,
           "last": 1788942445
+        }
+      }
+    },
+    "machine girl|wlfgrl": {
+      "artist": "Machine Girl",
+      "album": "Wlfgrl",
+      "count": 1,
+      "first": 1788942783,
+      "last": 1788942783,
+      "songs": {
+        "machine girl|ghost": {
+          "artist": "Machine Girl",
+          "title": "Ghost",
+          "album": "Wlfgrl",
+          "count": 1,
+          "first": 1788942783,
+          "last": 1788942783
         }
       }
     }
