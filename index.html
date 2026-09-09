@@ -943,6 +943,26 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 .collector-health.ok{color:#b9e8b9}
 .collector-health.warn{color:#f0d58a}
 .collector-health.bad{color:#efaaaa}
+
+/* v27: simple Live now display; all-time max is in Records */
+.simple-live-summary{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-bottom:10px;
+}
+.live-now-inline{
+  display:flex;
+  align-items:baseline;
+  gap:10px;
+}
+.live-now-inline strong{
+  font-size:1.3rem;
+  line-height:1;
+}
+
 @media(max-width:700px){
   .history-filter-bar{grid-template-columns:1fr}
   .listener-secondary-grid{grid-template-columns:1fr}
@@ -1239,16 +1259,8 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 </div>
 </div>
 <div class="card-body" id="body-listenertrend">
-<div class="listener-live-summary">
-<div class="listener-head-stat">
-<span class="listener-head-label">Live now</span>
-<strong id="listenerLiveCurrent">—</strong>
-</div>
-<div class="listener-head-stat">
-<span class="listener-head-label">All-time max</span>
-<strong id="listenerAllTimeMax">—</strong>
-<span class="muted tiny" id="listenerAllTimeMaxDate"></span>
-</div>
+<div class="listener-live-summary simple-live-summary">
+<div class="live-now-inline"><strong>Live Now:</strong><strong id="listenerLiveCurrent">—</strong></div>
 <div class="collector-health" id="collectorHealth">Collector: checking…</div>
 </div>
 <div class="listener-controls">
@@ -3599,11 +3611,8 @@ function formatHourRange(h){
 function renderListenerRecords(){
   const records=listenerDoc?.records||{};
   const atm=listenerDoc?.allTimeMax||records.allTimeMax;
-  if(atm){
-    document.getElementById("listenerAllTimeMax").textContent=String(atm.listeners);
-    document.getElementById("listenerAllTimeMaxDate").textContent=new Date(atm.timestamp).toLocaleString();
-  }
   const rows=[];
+  if(atm)rows.push(["All-time max",atm.listeners+" · "+new Date(atm.timestamp).toLocaleString()]);
   if(records.highestDailyAverage)rows.push(["Highest daily average",Number(records.highestDailyAverage.avg).toFixed(2)+" · "+records.highestDailyAverage.date]);
   if(records.highestDailyMax)rows.push(["Highest daily peak",records.highestDailyMax.max+" · "+records.highestDailyMax.date]);
   rows.push(["Days recorded",records.daysRecorded??"—"]);
