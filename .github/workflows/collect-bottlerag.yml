@@ -24,14 +24,15 @@ jobs:
       - name: Check whether scheduled fallback is needed
         id: fallback
         run: |
-          # Cloudflare uses workflow_dispatch, so those runs should always collect.
+          # Cloudflare uses workflow_dispatch, so those runs always collect.
           if [ "${{ github.event_name }}" != "schedule" ]; then
             echo "run_collector=true" >> "$GITHUB_OUTPUT"
+            echo "collector_source=primary" >> "$GITHUB_OUTPUT"
             echo "Cloudflare/manual dispatch: collector will run."
             exit 0
           fi
 
-          # GitHub schedule is only a fallback.
+          # GitHub schedule is only the fallback watchdog.
           python - <<'PY'
           import json
           import os
@@ -39,7 +40,6 @@ jobs:
           from pathlib import Path
 
           path = Path("data/listener_history.json")
-
           run_collector = True
 
           try:
@@ -74,6 +74,11 @@ jobs:
                   + "\n"
               )
 
+              if run_collector:
+                  f.write("collector_source=github-fallback\n")
+              else:
+                  f.write("collector_source=none\n")
+
           if run_collector:
               print("Collector is stale: GitHub fallback will run.")
           else:
@@ -82,6 +87,8 @@ jobs:
 
       - name: Collect station history and listener sample
         if: steps.fallback.outputs.run_collector == 'true'
+        env:
+          BOTTLERAG_COLLECTOR_SOURCE: ${{ steps.fallback.outputs.collector_source }}
         run: python scripts/collect_bottlerag.py
 
       - name: Commit updated history
