@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T12:15:44.277375+00:00",
+  "updatedAt": "2026-09-10T12:20:44.706244+00:00",
   "summary": {
-    "totalPlays": 575,
-    "unknownPlays": 66,
-    "uniqueTracks": 509,
-    "uniqueArtists": 392,
-    "uniqueAlbums": 444,
+    "totalPlays": 576,
+    "unknownPlays": 67,
+    "uniqueTracks": 510,
+    "uniqueArtists": 393,
+    "uniqueAlbums": 445,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789042195
+    "lastObserved": 1789042680
   },
   "topSongs": [
     {
@@ -4356,10 +4356,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 33,
+      "count": 34,
       "first": 1788955289,
-      "last": 1789042195,
+      "last": 1789042680,
       "songs": [
+        {
+          "artist": "American Authors",
+          "title": "I'm Born To Run",
+          "album": "What We Live For",
+          "count": 1,
+          "first": 1789042680,
+          "last": 1789042680,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
         {
           "artist": "Bethel Music, Cory Asbury, Gable Price",
           "title": "Homecoming - Live",
@@ -4400,17 +4411,6 @@
           "count": 1,
           "first": 1788962266,
           "last": 1788962266,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Radical Face",
-          "title": "Welcome Home, Son",
-          "album": "Ghost",
-          "count": 1,
-          "first": 1788961979,
-          "last": 1788961979,
           "playlists": {
             "carhartts": 1
           }
