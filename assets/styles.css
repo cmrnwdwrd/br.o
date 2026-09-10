@@ -1240,3 +1240,96 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 .song-row-actions .mini-spotify{
   flex:0 0 auto;
 }
+
+
+/* v34 Playlist Schedule */
+.playlist-schedule-controls{
+  display:grid;
+  grid-template-columns:auto minmax(180px,320px) 1fr;
+  gap:10px;
+  align-items:center;
+  margin-bottom:12px;
+}
+.playlist-schedule-controls label{
+  font-weight:650;
+}
+.playlist-schedule-controls select{
+  width:100%;
+}
+.schedule-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.55fr) minmax(250px,.75fr);
+  gap:12px;
+  margin-top:12px;
+}
+.playlist-heatmap-scroll{
+  overflow-x:auto;
+  padding-bottom:4px;
+}
+.playlist-heatmap{
+  min-width:720px;
+  display:grid;
+  grid-template-columns:58px repeat(24,minmax(20px,1fr));
+  gap:3px;
+  align-items:center;
+}
+.heatmap-corner,
+.heatmap-hour{
+  color:var(--muted);
+  font-size:.68rem;
+  text-align:center;
+  min-height:18px;
+}
+.heatmap-day{
+  color:var(--muted);
+  font-size:.72rem;
+  text-align:right;
+  padding-right:5px;
+}
+.heatmap-cell{
+  height:22px;
+  border:1px solid #303030;
+  border-radius:4px;
+  background:rgba(255,255,255,var(--heat,.03));
+}
+.heatmap-cell:hover{
+  outline:1px solid #777;
+}
+.schedule-window-list{
+  display:flex;
+  flex-direction:column;
+  gap:7px;
+}
+.schedule-window-row{
+  display:grid;
+  grid-template-columns:42px minmax(0,1fr) auto;
+  gap:8px;
+  align-items:center;
+  padding:8px 0;
+  border-top:1px solid var(--border);
+}
+.schedule-window-row:first-child{
+  border-top:none;
+}
+.schedule-window-day{
+  font-weight:700;
+}
+.schedule-confidence{
+  color:var(--muted);
+  font-size:.72rem;
+}
+#playlistScheduleSessions{
+  max-height:360px;
+  overflow-y:auto;
+}
+.playlist-session-row{
+  grid-template-columns:minmax(0,1fr) auto;
+}
+@media(max-width:760px){
+  .playlist-schedule-controls{
+    grid-template-columns:1fr;
+  }
+  .schedule-grid{
+    grid-template-columns:1fr;
+  }
+}

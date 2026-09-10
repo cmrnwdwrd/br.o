@@ -261,6 +261,54 @@
 </div>
 </div>
 </section>
+
+<section class="card history-wide" id="playlistScheduleCard">
+<div class="card-head">
+<h2>Playlist Schedule</h2>
+<div class="card-tools">
+<button aria-label="Refresh inferred playlist schedule" class="icon-btn" id="refreshPlaylistSchedule" title="Refresh playlist schedule" type="button"><span aria-hidden="true">↻</span></button>
+<button aria-expanded="true" class="collapse-btn" data-target="body-playlistschedule" title="Hide/show Playlist Schedule" type="button"><span class="arrow">▼</span></button>
+</div>
+</div>
+<div class="card-body" id="body-playlistschedule">
+<div class="playlist-schedule-controls">
+<label for="playlistScheduleSelect">Playlist</label>
+<select id="playlistScheduleSelect" aria-label="Choose playlist to analyze">
+<option value="">Loading playlists…</option>
+</select>
+<span class="muted tiny">Inferred from the most recent 90 days of observed playlist sessions.</span>
+</div>
+<div class="stats-grid" id="playlistScheduleStats"></div>
+
+<div class="schedule-grid">
+<div class="mini-panel">
+<div class="mini-panel-head">
+<h3>Weekly Heatmap</h3>
+<div class="muted tiny">Darker = more often observed playing</div>
+</div>
+<div class="playlist-heatmap-scroll">
+<div class="playlist-heatmap" id="playlistScheduleHeatmap" aria-label="Weekly playlist schedule heatmap"></div>
+</div>
+</div>
+
+<div class="mini-panel">
+<h3>Likely Schedule</h3>
+<div class="schedule-window-list" id="playlistScheduleWindows"></div>
+</div>
+</div>
+
+<details class="ranking-details history-list-details">
+<summary>Recent Inferred Sessions <span class="muted tiny" id="playlistScheduleSessionCount"></span></summary>
+<div class="compact-history" id="playlistScheduleSessions"></div>
+</details>
+
+<div class="status-footer">
+<div class="refresh-status" id="status-playlistschedule">Last Updated: —</div>
+<button aria-label="Explain Playlist Schedule" class="info-btn" data-info="playlistschedule" type="button">i</button>
+</div>
+</div>
+</section>
+
 <section class="card station-wide" id="listenerTrendCard">
 <div class="card-head">
 <h2>Active Streams</h2>
@@ -304,7 +352,7 @@
 </div>
 <div class="muted tiny" id="listenerPlotStatus">Loading shared listener history…</div>
 <div class="status-footer">
-<div class="refresh-status" id="listenerPeriodLabel">90-day active-stream history</div>
+<div class="refresh-status" id="listenerPeriodLabel">24-hour active-stream history</div>
 <button aria-label="Explain active stream history" class="info-btn" data-info="listenertrend" type="button">i</button>
 </div>
 </div>

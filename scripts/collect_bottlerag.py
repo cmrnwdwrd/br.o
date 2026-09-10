@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 import json
+import math
+import statistics
 import os
 import urllib.request
 from datetime import datetime, timezone, timedelta
@@ -14,6 +16,7 @@ OBS_DIR = DATA / "observed"
 STATS_DIR = DATA / "stats"
 OBS_AGG = STATS_DIR / "observed_aggregates.json"
 OBS_TOP = STATS_DIR / "observed_top50.json"
+PLAYLIST_SCHEDULE = STATS_DIR / "playlist_schedule.json"
 LIS = DATA / "listener_history.json"
 LOCAL_TZ = ZoneInfo("America/Denver")
 DATA.mkdir(parents=True, exist_ok=True)
@@ -347,7 +350,225 @@ def collect_observed(data):
     agg["updatedAt"] = datetime.now(timezone.utc).isoformat()
     save_json(OBS_AGG, agg)
     save_json(OBS_TOP, build_top50(agg))
+    build_playlist_schedule()
 
+
+
+def normalize_playlist_name(value):
+    return " ".join(str(value or "").split())
+
+
+def circular_typical_minute(values):
+    """Typical minute-of-day, handling values around midnight."""
+    if not values:
+        return None
+    angles = [2 * math.pi * (v % 1440) / 1440 for v in values]
+    x = sum(math.cos(a) for a in angles) / len(angles)
+    y = sum(math.sin(a) for a in angles) / len(angles)
+    if abs(x) < 1e-9 and abs(y) < 1e-9:
+        return int(round(statistics.median(values))) % 1440
+    angle = math.atan2(y, x)
+    if angle < 0:
+        angle += 2 * math.pi
+    return int(round(angle * 1440 / (2 * math.pi))) % 1440
+
+
+def circular_distance_minutes(a, b):
+    d = abs((a % 1440) - (b % 1440))
+    return min(d, 1440 - d)
+
+
+def schedule_confidence(session_count, start_minutes):
+    if session_count <= 1 or not start_minutes:
+        return "Low"
+    typical = circular_typical_minute(start_minutes)
+    spread = sum(circular_distance_minutes(v, typical) for v in start_minutes) / len(start_minutes)
+    if session_count >= 6 and spread <= 35:
+        return "High"
+    if session_count >= 3 and spread <= 75:
+        return "Medium"
+    return "Low"
+
+
+def add_session_heat_minutes(heat, start_ts, end_ts):
+    """Add exact overlapping minutes to local weekday/hour bins."""
+    cursor = datetime.fromtimestamp(start_ts, timezone.utc)
+    end = datetime.fromtimestamp(end_ts, timezone.utc)
+    guard = 0
+    while cursor < end and guard < 200:
+        guard += 1
+        local = cursor.astimezone(LOCAL_TZ)
+        next_local_hour = (local.replace(minute=0, second=0, microsecond=0) + timedelta(hours=1))
+        boundary = next_local_hour.astimezone(timezone.utc)
+        if boundary <= cursor:
+            boundary = cursor + timedelta(hours=1)
+        segment_end = min(end, boundary)
+        minutes = max(0.0, (segment_end - cursor).total_seconds() / 60)
+        heat[local.weekday()][local.hour] += minutes
+        cursor = segment_end
+
+
+def build_playlist_schedule():
+    """
+    Infer playlist sessions from the rolling last 90 days of observed plays.
+    The raw monthly archives stay server-side; the browser receives only this
+    compact derived file.
+    """
+    now = datetime.now(timezone.utc)
+    cutoff_ts = int((now - timedelta(days=90)).timestamp())
+
+    records = []
+    for path in sorted(OBS_DIR.glob("????-??.json")):
+        doc = load_json(path, {"plays": []})
+        plays = doc if isinstance(doc, list) else doc.get("plays", [])
+        for rec in plays:
+            try:
+                ts = int(rec.get("playedAt") or 0)
+            except Exception:
+                continue
+            if ts < cutoff_ts:
+                continue
+            playlist = normalize_playlist_name(rec.get("playlist"))
+            if not playlist:
+                continue
+            duration = max(0, int(rec.get("duration") or 0))
+            records.append({
+                "playedAt": ts,
+                "duration": duration,
+                "playlist": playlist,
+                "playlistKey": playlist.lower(),
+            })
+
+    records.sort(key=lambda r: r["playedAt"])
+
+    sessions = []
+    current = None
+    max_same_playlist_gap = 45 * 60
+
+    for rec in records:
+        ts = rec["playedAt"]
+        track_end = ts + (rec["duration"] if rec["duration"] > 0 else 180)
+
+        if (
+            current
+            and rec["playlistKey"] == current["playlistKey"]
+            and ts - current["lastTrackStart"] <= max_same_playlist_gap
+        ):
+            current["lastTrackStart"] = ts
+            current["end"] = max(current["end"], track_end)
+            current["playCount"] += 1
+            continue
+
+        if current:
+            sessions.append(current)
+
+        current = {
+            "playlist": rec["playlist"],
+            "playlistKey": rec["playlistKey"],
+            "start": ts,
+            "end": track_end,
+            "lastTrackStart": ts,
+            "playCount": 1,
+        }
+
+    if current:
+        sessions.append(current)
+
+    # If a following playlist starts before the estimated final-track end,
+    # clamp the prior session so sessions never overlap.
+    sessions.sort(key=lambda s: s["start"])
+    for i in range(len(sessions) - 1):
+        sessions[i]["end"] = min(sessions[i]["end"], sessions[i + 1]["start"])
+        sessions[i]["end"] = max(sessions[i]["end"], sessions[i]["start"] + 60)
+
+    by_playlist = {}
+    for s in sessions:
+        p = by_playlist.setdefault(s["playlistKey"], {
+            "playlist": s["playlist"],
+            "sessions": [],
+            "playCount": 0,
+        })
+        p["sessions"].append(s)
+        p["playCount"] += s["playCount"]
+        # Prefer the latest capitalization/spelling seen.
+        p["playlist"] = s["playlist"]
+
+    playlist_rows = []
+    for p in by_playlist.values():
+        ss = sorted(p["sessions"], key=lambda s: s["start"])
+        heat = [[0.0 for _ in range(24)] for _ in range(7)]
+        start_heat = [[0 for _ in range(24)] for _ in range(7)]
+        day_groups = {d: [] for d in range(7)}
+        start_minutes_all = []
+        durations_all = []
+
+        for s in ss:
+            start_local = datetime.fromtimestamp(s["start"], timezone.utc).astimezone(LOCAL_TZ)
+            end_ts = max(s["end"], s["start"] + 60)
+            duration_min = max(1.0, (end_ts - s["start"]) / 60)
+            start_minute = start_local.hour * 60 + start_local.minute
+
+            start_minutes_all.append(start_minute)
+            durations_all.append(duration_min)
+            day_groups[start_local.weekday()].append((start_minute, duration_min, s))
+            start_heat[start_local.weekday()][start_local.hour] += 1
+            add_session_heat_minutes(heat, s["start"], end_ts)
+
+        likely_windows = []
+        for weekday in range(7):
+            group = day_groups[weekday]
+            if not group:
+                continue
+            starts = [x[0] for x in group]
+            durations = [x[1] for x in group]
+            likely_windows.append({
+                "weekday": weekday,
+                "sessions": len(group),
+                "typicalStartMinute": circular_typical_minute(starts),
+                "typicalDurationMinutes": int(round(statistics.median(durations))),
+                "confidence": schedule_confidence(len(group), starts),
+            })
+
+        recent_sessions = []
+        for s in reversed(ss[-20:]):
+            recent_sessions.append({
+                "start": s["start"],
+                "end": s["end"],
+                "durationMinutes": int(round(max(1, (s["end"] - s["start"]) / 60))),
+                "playCount": s["playCount"],
+            })
+
+        playlist_rows.append({
+            "playlist": p["playlist"],
+            "sessionCount": len(ss),
+            "playCount": p["playCount"],
+            "firstObserved": ss[0]["start"] if ss else None,
+            "lastObserved": ss[-1]["start"] if ss else None,
+            "typicalStartMinute": circular_typical_minute(start_minutes_all),
+            "typicalDurationMinutes": int(round(statistics.median(durations_all))) if durations_all else None,
+            "confidence": schedule_confidence(len(ss), start_minutes_all),
+            "heatmapMinutes": [[round(v, 1) for v in row] for row in heat],
+            "startHeatmap": start_heat,
+            "likelyWindows": likely_windows,
+            "recentSessions": recent_sessions,
+        })
+
+    playlist_rows.sort(key=lambda p: (-p["sessionCount"], -p["playCount"], p["playlist"].lower()))
+
+    doc = {
+        "schemaVersion": 1,
+        "updatedAt": now.isoformat(),
+        "timezone": "America/Denver",
+        "windowDays": 90,
+        "summary": {
+            "playlistCount": len(playlist_rows),
+            "sessionCount": sum(p["sessionCount"] for p in playlist_rows),
+            "firstObserved": min((p["firstObserved"] for p in playlist_rows if p["firstObserved"]), default=None),
+            "lastObserved": max((p["lastObserved"] for p in playlist_rows if p["lastObserved"]), default=None),
+        },
+        "playlists": playlist_rows,
+    }
+    save_json(PLAYLIST_SCHEDULE, doc)
 
 def parse_ts(value):
     return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
