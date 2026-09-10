@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T13:40:44.344405+00:00",
+  "updatedAt": "2026-09-10T13:45:50.512677+00:00",
   "summary": {
-    "totalPlays": 598,
+    "totalPlays": 599,
     "unknownPlays": 69,
-    "uniqueTracks": 532,
-    "uniqueArtists": 407,
-    "uniqueAlbums": 465,
+    "uniqueTracks": 533,
+    "uniqueArtists": 408,
+    "uniqueAlbums": 466,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789047490
+    "lastObserved": 1789047835
   },
   "topSongs": [
     {
@@ -4403,10 +4403,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 55,
+      "count": 56,
       "first": 1788955289,
-      "last": 1789047490,
+      "last": 1789047835,
       "songs": [
+        {
+          "artist": "The Brobecks",
+          "title": "Better Than Me",
+          "album": "Violent Things",
+          "count": 1,
+          "first": 1789047835,
+          "last": 1789047835,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
         {
           "artist": "Rayland Baxter",
           "title": "Without Me",
@@ -4447,17 +4458,6 @@
           "count": 1,
           "first": 1789046919,
           "last": 1789046919,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Lord Huron",
-          "title": "Long Lost",
-          "album": "Long Lost",
-          "count": 1,
-          "first": 1789046634,
-          "last": 1789046634,
           "playlists": {
             "carhartts": 1
           }
