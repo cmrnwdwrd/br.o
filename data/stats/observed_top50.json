@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T22:40:44.761810+00:00",
+  "updatedAt": "2026-09-10T22:45:44.632563+00:00",
   "summary": {
-    "totalPlays": 751,
+    "totalPlays": 753,
     "unknownPlays": 88,
     "uniqueTracks": 637,
     "uniqueArtists": 487,
     "uniqueAlbums": 563,
     "uniquePlaylists": 13,
     "firstObserved": 1788901564,
-    "lastObserved": 1789079938
+    "lastObserved": 1789080325
   },
   "topSongs": [
+    {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 3,
+      "first": 1788968149,
+      "last": 1789080325,
+      "playlists": {
+        "1default": 3
+      }
+    },
     {
       "artist": "Tele Novella",
       "title": "Funeral",
@@ -43,6 +54,17 @@
       "last": 1789065741,
       "playlists": {
         "1default": 3
+      }
+    },
+    {
+      "artist": "The Chats",
+      "title": "Smoko",
+      "album": "Get This In Ya",
+      "count": 2,
+      "first": 1789078009,
+      "last": 1789080145,
+      "playlists": {
+        "1default": 2
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 2,
       "first": 1788953213,
       "last": 1789041271,
-      "playlists": {
-        "freestyle beats to crash your car to": 2
-      }
-    },
-    {
-      "artist": "Takuya Kuroda, José James",
-      "title": "Everybody Loves The Sunshine",
-      "album": "Rising Son",
-      "count": 2,
-      "first": 1788949974,
-      "last": 1789040705,
-      "playlists": {
-        "freestyle beats to crash your car to": 2
-      }
-    },
-    {
-      "artist": "Ruff Sqwad",
-      "title": "Functions On the Low",
-      "album": "White Label Classics",
-      "count": 2,
-      "first": 1788949288,
-      "last": 1789040332,
       "playlists": {
         "freestyle beats to crash your car to": 2
       }
@@ -1837,6 +1837,25 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "count": 3,
+      "first": 1788968149,
+      "last": 1789080325,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 3,
+          "first": 1788968149,
+          "last": 1789080325,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Shakey Graves",
       "count": 3,
       "first": 1788993925,
@@ -2697,6 +2716,25 @@
       ]
     },
     {
+      "artist": "The Chats",
+      "count": 2,
+      "first": 1789078009,
+      "last": 1789080145,
+      "songs": [
+        {
+          "artist": "The Chats",
+          "title": "Smoko",
+          "album": "Get This In Ya",
+          "count": 2,
+          "first": 1789078009,
+          "last": 1789080145,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Everlast",
       "count": 2,
       "first": 1789077802,
@@ -2834,44 +2872,6 @@
           "count": 2,
           "first": 1789032729,
           "last": 1789076799,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Ms. Lauryn Hill",
-      "count": 2,
-      "first": 1788987126,
-      "last": 1789076450,
-      "songs": [
-        {
-          "artist": "Ms. Lauryn Hill",
-          "title": "Everything Is Everything",
-          "album": "The Miseducation of Lauryn Hill",
-          "count": 2,
-          "first": 1788987126,
-          "last": 1789076450,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Presidents Of The United States Of America",
-      "count": 2,
-      "first": 1789059997,
-      "last": 1789076316,
-      "songs": [
-        {
-          "artist": "The Presidents Of The United States Of America",
-          "title": "Lump",
-          "album": "The Presidents of The United States of America: Ten Year Super Bonus Special Anniversary Edition",
-          "count": 2,
-          "first": 1789059997,
-          "last": 1789076316,
           "playlists": {
             "1default": 2
           }
@@ -3565,6 +3565,26 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "album": "Good News For People Who Love Bad News",
+      "count": 3,
+      "first": 1788968149,
+      "last": 1789080325,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 3,
+          "first": 1788968149,
+          "last": 1789080325,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Tele Novella",
       "album": "Poet's Tooth",
       "count": 3,
@@ -4103,6 +4123,26 @@
       ]
     },
     {
+      "artist": "The Chats",
+      "album": "Get This In Ya",
+      "count": 2,
+      "first": 1789078009,
+      "last": 1789080145,
+      "songs": [
+        {
+          "artist": "The Chats",
+          "title": "Smoko",
+          "album": "Get This In Ya",
+          "count": 2,
+          "first": 1789078009,
+          "last": 1789080145,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Everlast",
       "album": "Love, War and the Ghost of Whitey Ford",
       "count": 2,
@@ -4521,55 +4561,26 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Hope Tala",
-      "album": "Blue",
-      "count": 2,
-      "first": 1788918444,
-      "last": 1789070136,
-      "songs": [
-        {
-          "artist": "Hope Tala",
-          "title": "Blue",
-          "album": "Blue",
-          "count": 2,
-          "first": 1788918444,
-          "last": 1789070136,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Daffo",
-      "album": "Good God (Porches Remix)",
-      "count": 2,
-      "first": 1788920320,
-      "last": 1789069660,
-      "songs": [
-        {
-          "artist": "Daffo",
-          "title": "Good God",
-          "album": "Good God (Porches Remix)",
-          "count": 2,
-          "first": 1788920320,
-          "last": 1789069660,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 334,
+      "count": 336,
       "first": 1788901564,
-      "last": 1789078914,
+      "last": 1789080325,
       "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 3,
+          "first": 1788968149,
+          "last": 1789080325,
+          "playlists": {
+            "1default": 3
+          }
+        },
         {
           "artist": "Tele Novella",
           "title": "Funeral",
@@ -4593,34 +4604,23 @@
           }
         },
         {
+          "artist": "The Chats",
+          "title": "Smoko",
+          "album": "Get This In Ya",
+          "count": 2,
+          "first": 1789078009,
+          "last": 1789080145,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
           "artist": "CAKE",
           "title": "Rock 'n' Roll Lifestyle",
           "album": "Motorcade of Generosity",
           "count": 2,
           "first": 1789014862,
           "last": 1789078914,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 2,
-          "first": 1788972349,
-          "last": 1789077527,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "We The Kings",
-          "title": "Check Yes, Juliet",
-          "album": "We The Kings",
-          "count": 2,
-          "first": 1788915906,
-          "last": 1789077307,
           "playlists": {
             "1default": 2
           }
