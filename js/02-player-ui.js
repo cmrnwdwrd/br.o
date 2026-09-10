@@ -8,6 +8,22 @@ const transportIcon=document.getElementById("transportIcon");
 const volumeSlider=document.getElementById("volumeSlider");
 const muteBtn=document.getElementById("muteBtn");
 const speakerIcon=document.getElementById("speakerIcon");
+const PLAYER_VOLUME_KEY="bottlerag-player-volume";
+
+function restorePlayerVolume(){
+  let value=Number(volumeSlider.value);
+  try{
+    const saved=localStorage.getItem(PLAYER_VOLUME_KEY);
+    if(saved!==null){
+      const parsed=Number(saved);
+      if(Number.isFinite(parsed))value=parsed;
+    }
+  }catch(e){}
+  if(!Number.isFinite(value))value=1;
+  value=Math.max(0,Math.min(1,value));
+  volumeSlider.value=String(value);
+  livePlayer.volume=value;
+}
 
 function updateTransportUI(){
   const playing=!livePlayer.paused && !livePlayer.ended;
@@ -67,6 +83,7 @@ document.getElementById("resyncStream").addEventListener("click",()=>reconnectLi
 volumeSlider.addEventListener("input",()=>{
   livePlayer.volume=Number(volumeSlider.value);
   if(livePlayer.volume>0) livePlayer.muted=false;
+  try{localStorage.setItem(PLAYER_VOLUME_KEY,String(livePlayer.volume))}catch(e){}
   updateSpeakerUI();
 });
 muteBtn.addEventListener("click",()=>{
@@ -76,6 +93,8 @@ muteBtn.addEventListener("click",()=>{
 livePlayer.addEventListener("play",()=>{playerPausedAt=null;updateTransportUI()});
 livePlayer.addEventListener("pause",()=>{if(!streamResyncing)playerPausedAt=Date.now();updateTransportUI()});
 livePlayer.addEventListener("volumechange",updateSpeakerUI);
+restorePlayerVolume();
+window.addEventListener("pageshow",()=>{restorePlayerVolume();updateSpeakerUI()});
 updateTransportUI(); updateSpeakerUI();
 
 /* ---------- Settings modal ---------- */
