@@ -29,7 +29,7 @@ jobs:
       - name: Check whether collector should run
         id: fallback
         run: |
-          # workflow_dispatch means Cloudflare/manual/page-open dispatch.
+          # workflow_dispatch means Cloudflare/manual/cron-job.org/page-open dispatch.
           if [ "${{ github.event_name }}" != "schedule" ]; then
             echo "run_collector=true" >> "$GITHUB_OUTPUT"
             SOURCE="${{ inputs.collector_source }}"
@@ -41,7 +41,7 @@ jobs:
             exit 0
           fi
 
-          # GitHub schedule is the first fallback watchdog.
+          # GitHub schedule is the 2nd fallback watchdog.
           python - <<'PY'
           import json
           import os
@@ -89,7 +89,7 @@ jobs:
               )
 
           if run_collector:
-              print("Collector is stale: GitHub fallback will run.")
+              print("Collector is stale: GitHub 2nd fallback will run.")
           else:
               print("Collector is healthy: fallback not needed.")
           PY
