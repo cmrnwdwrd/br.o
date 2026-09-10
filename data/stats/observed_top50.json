@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T23:45:43.155821+00:00",
+  "updatedAt": "2026-09-10T23:50:42.139696+00:00",
   "summary": {
-    "totalPlays": 769,
+    "totalPlays": 771,
     "unknownPlays": 91,
     "uniqueTracks": 643,
     "uniqueArtists": 492,
     "uniqueAlbums": 569,
     "uniquePlaylists": 13,
     "firstObserved": 1788901564,
-    "lastObserved": 1789083737
+    "lastObserved": 1789084200
   },
   "topSongs": [
     {
@@ -54,6 +54,28 @@
       "last": 1789078459,
       "playlists": {
         "MCR wednesday wind down": 3
+      }
+    },
+    {
+      "artist": "Massive Attack, Elizabeth Fraser",
+      "title": "Teardrop",
+      "album": "Mezzanine",
+      "count": 2,
+      "first": 1788983582,
+      "last": 1789084200,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
+      "artist": "Madness",
+      "title": "Our House",
+      "album": "Madness",
+      "count": 2,
+      "first": 1788904090,
+      "last": 1789084000,
+      "playlists": {
+        "1default": 2
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 2,
       "first": 1789048876,
       "last": 1789068820,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Gorillaz, Peter Hook, Georgia",
-      "title": "Aries (feat. Peter Hook and Georgia)",
-      "album": "Song Machine Episode 3",
-      "count": 2,
-      "first": 1788971208,
-      "last": 1789068385,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Pixies",
-      "title": "Here Comes Your Man",
-      "album": "Doolittle",
-      "count": 2,
-      "first": 1788972865,
-      "last": 1789067862,
       "playlists": {
         "1default": 2
       }
@@ -2746,6 +2746,44 @@
       ]
     },
     {
+      "artist": "Massive Attack, Elizabeth Fraser",
+      "count": 2,
+      "first": 1788983582,
+      "last": 1789084200,
+      "songs": [
+        {
+          "artist": "Massive Attack, Elizabeth Fraser",
+          "title": "Teardrop",
+          "album": "Mezzanine",
+          "count": 2,
+          "first": 1788983582,
+          "last": 1789084200,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Madness",
+      "count": 2,
+      "first": 1788904090,
+      "last": 1789084000,
+      "songs": [
+        {
+          "artist": "Madness",
+          "title": "Our House",
+          "album": "Madness",
+          "count": 2,
+          "first": 1788904090,
+          "last": 1789084000,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Isaiah Rashad",
       "count": 2,
       "first": 1788930667,
@@ -2836,55 +2874,6 @@
           "last": 1789082598,
           "playlists": {
             "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Built To Spill",
-      "count": 2,
-      "first": 1788993405,
-      "last": 1789082080,
-      "songs": [
-        {
-          "artist": "Built To Spill",
-          "title": "Broken Chairs",
-          "album": "Keep It like a Secret",
-          "count": 2,
-          "first": 1788993405,
-          "last": 1789082080,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "count": 2,
-      "first": 1789057000,
-      "last": 1789081344,
-      "songs": [
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "all-american bitch",
-          "album": "GUTS",
-          "count": 1,
-          "first": 1789081344,
-          "last": 1789081344,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 1
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "brutal",
-          "album": "SOUR",
-          "count": 1,
-          "first": 1789057000,
-          "last": 1789057000,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -4134,6 +4123,46 @@
       ]
     },
     {
+      "artist": "Massive Attack, Elizabeth Fraser",
+      "album": "Mezzanine",
+      "count": 2,
+      "first": 1788983582,
+      "last": 1789084200,
+      "songs": [
+        {
+          "artist": "Massive Attack, Elizabeth Fraser",
+          "title": "Teardrop",
+          "album": "Mezzanine",
+          "count": 2,
+          "first": 1788983582,
+          "last": 1789084200,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Madness",
+      "album": "Madness",
+      "count": 2,
+      "first": 1788904090,
+      "last": 1789084000,
+      "songs": [
+        {
+          "artist": "Madness",
+          "title": "Our House",
+          "album": "Madness",
+          "count": 2,
+          "first": 1788904090,
+          "last": 1789084000,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Isaiah Rashad",
       "album": "Cilvia Demo",
       "count": 2,
@@ -4532,54 +4561,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Smash Mouth",
-      "album": "Fush Yu Mang (20th Anniversary Edition)",
-      "count": 2,
-      "first": 1788967329,
-      "last": 1789075574,
-      "songs": [
-        {
-          "artist": "Smash Mouth",
-          "title": "Walkin' On The Sun",
-          "album": "Fush Yu Mang (20th Anniversary Edition)",
-          "count": 2,
-          "first": 1788967329,
-          "last": 1789075574,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "album": "Motorbike",
-      "count": 2,
-      "first": 1788975084,
-      "last": 1789075386,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 2,
-          "first": 1788975084,
-          "last": 1789075386,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 344,
+      "count": 346,
       "first": 1788901564,
-      "last": 1789083737,
+      "last": 1789084200,
       "songs": [
         {
           "artist": "Destructo Disk",
@@ -4615,23 +4604,23 @@
           }
         },
         {
-          "artist": "Isaiah Rashad",
-          "title": "Heavenly Father",
-          "album": "Cilvia Demo",
+          "artist": "Massive Attack, Elizabeth Fraser",
+          "title": "Teardrop",
+          "album": "Mezzanine",
           "count": 2,
-          "first": 1788930667,
-          "last": 1789083737,
+          "first": 1788983582,
+          "last": 1789084200,
           "playlists": {
             "1default": 2
           }
         },
         {
-          "artist": "hey, nothing",
-          "title": "The Sink",
-          "album": "The Sink",
+          "artist": "Madness",
+          "title": "Our House",
+          "album": "Madness",
           "count": 2,
-          "first": 1788974410,
-          "last": 1789083512,
+          "first": 1788904090,
+          "last": 1789084000,
           "playlists": {
             "1default": 2
           }
