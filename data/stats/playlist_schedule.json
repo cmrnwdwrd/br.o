@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T22:50:43.152701+00:00",
+  "updatedAt": "2026-09-10T22:55:42.786666+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 12,
-    "sessionCount": 30,
+    "sessionCount": 31,
     "firstObserved": 1788901564,
-    "lastObserved": 1789079167
+    "lastObserved": 1789080145
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 13,
-      "playCount": 334,
+      "sessionCount": 14,
+      "playCount": 338,
       "firstObserved": 1788901564,
-      "lastObserved": 1789054258,
-      "typicalStartMinute": 1384,
-      "typicalDurationMinutes": 33,
+      "lastObserved": 1789080145,
+      "typicalStartMinute": 1202,
+      "typicalDurationMinutes": 31,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -115,7 +115,7 @@
           60.0,
           60.0,
           60.0,
-          26.1,
+          39.5,
           0.0,
           0.0,
           0.0,
@@ -565,8 +565,8 @@
           15.0,
           15.0,
           11.1,
-          0.0,
-          0.0,
+          2.6,
+          10.8,
           0.0,
           0.0,
           0.0,
@@ -987,7 +987,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -1092,13 +1092,19 @@
         },
         {
           "weekday": 3,
-          "sessions": 3,
-          "typicalStartMinute": 428,
-          "typicalDurationMinutes": 33,
+          "sessions": 4,
+          "typicalStartMinute": 511,
+          "typicalDurationMinutes": 31,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1789080145,
+          "end": 1789080951,
+          "durationMinutes": 13,
+          "playCount": 4
+        },
         {
           "start": 1789054258,
           "end": 1789079167,
@@ -1182,11 +1188,11 @@
     {
       "playlist": "anti-capitalist weekday afternoon #1",
       "sessionCount": 3,
-      "playCount": 27,
+      "playCount": 24,
       "firstObserved": 1788991800,
       "lastObserved": 1789079167,
       "typicalStartMinute": 984,
-      "typicalDurationMinutes": 26,
+      "typicalDurationMinutes": 16,
       "confidence": "Medium",
       "heatmapMinutes": [
         [
@@ -1284,7 +1290,7 @@
           0.0,
           0.0,
           0.0,
-          26.3,
+          16.3,
           0.0,
           0.0,
           0.0,
@@ -1734,8 +1740,8 @@
           0.0,
           0.0,
           3.9,
-          15.0,
-          7.4,
+          12.4,
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -2256,16 +2262,16 @@
           "weekday": 3,
           "sessions": 1,
           "typicalStartMinute": 986,
-          "typicalDurationMinutes": 26,
+          "typicalDurationMinutes": 16,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
         {
           "start": 1789079167,
-          "end": 1789080746,
-          "durationMinutes": 26,
-          "playCount": 7
+          "end": 1789080145,
+          "durationMinutes": 16,
+          "playCount": 4
         },
         {
           "start": 1788993405,
