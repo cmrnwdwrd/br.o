@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T02:20:23.918343+00:00",
+  "updatedAt": "2026-09-10T02:25:24.074450+00:00",
   "summary": {
-    "totalPlays": 425,
+    "totalPlays": 427,
     "unknownPlays": 49,
-    "uniqueTracks": 413,
-    "uniqueArtists": 338,
-    "uniqueAlbums": 376,
+    "uniqueTracks": 414,
+    "uniqueArtists": 339,
+    "uniqueAlbums": 377,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789006557
+    "lastObserved": 1789007053
   },
   "topSongs": [
+    {
+      "artist": "My Chemical Romance",
+      "title": "Cemetery Drive",
+      "album": "Three Cheers for Sweet Revenge",
+      "count": 2,
+      "first": 1789003808,
+      "last": 1789007053,
+      "playlists": {
+        "MCR wednesday wind down": 2
+      }
+    },
     {
       "artist": "Taking Back Sunday",
       "title": "Liar (It Takes One To Know One)",
@@ -145,6 +156,17 @@
       }
     },
     {
+      "artist": "The Offspring",
+      "title": "You're Gonna Go Far, Kid",
+      "album": "Rise And Fall, Rage And Grace",
+      "count": 1,
+      "first": 1789006875,
+      "last": 1789006875,
+      "playlists": {
+        "MCR wednesday wind down": 1
+      }
+    },
+    {
       "artist": "Brand New",
       "title": "Jesus Christ",
       "album": "The Devil And God Are Raging Inside Me",
@@ -217,17 +239,6 @@
       "count": 1,
       "first": 1789003997,
       "last": 1789003997,
-      "playlists": {
-        "MCR wednesday wind down": 1
-      }
-    },
-    {
-      "artist": "My Chemical Romance",
-      "title": "Cemetery Drive",
-      "album": "Three Cheers for Sweet Revenge",
-      "count": 1,
-      "first": 1789003808,
-      "last": 1789003808,
       "playlists": {
         "MCR wednesday wind down": 1
       }
@@ -550,26 +561,26 @@
       "playlists": {
         "1default": 1
       }
-    },
-    {
-      "artist": "SZA, Phoebe Bridgers",
-      "title": "Ghost in the Machine (feat. Phoebe Bridgers)",
-      "album": "SOS",
-      "count": 1,
-      "first": 1788992568,
-      "last": 1788992568,
-      "playlists": {
-        "anti-capitalist weekday afternoon #1": 1
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "My Chemical Romance",
-      "count": 16,
+      "count": 17,
       "first": 1788965302,
-      "last": 1789006168,
+      "last": 1789007053,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Cemetery Drive",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789003808,
+          "last": 1789007053,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "Give 'Em Hell, Kid",
@@ -632,17 +643,6 @@
           "count": 1,
           "first": 1789003997,
           "last": 1789003997,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Cemetery Drive",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789003808,
-          "last": 1789003808,
           "playlists": {
             "MCR wednesday wind down": 1
           }
@@ -2245,6 +2245,25 @@
       ]
     },
     {
+      "artist": "The Offspring",
+      "count": 1,
+      "first": 1789006875,
+      "last": 1789006875,
+      "songs": [
+        {
+          "artist": "The Offspring",
+          "title": "You're Gonna Go Far, Kid",
+          "album": "Rise And Fall, Rage And Grace",
+          "count": 1,
+          "first": 1789006875,
+          "last": 1789006875,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Brand New",
       "count": 1,
       "first": 1789006557,
@@ -2319,35 +2338,27 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Cole Dille, Greeley CO",
-      "count": 1,
-      "first": 1788997541,
-      "last": 1788997541,
-      "songs": [
-        {
-          "artist": "Cole Dille, Greeley CO",
-          "title": "Looking Through The Light EP1 - The Vial",
-          "album": "Looking Through The Light",
-          "count": 1,
-          "first": 1788997541,
-          "last": 1788997541,
-          "playlists": {
-            "podcast": 1
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
     {
       "artist": "My Chemical Romance",
       "album": "Three Cheers for Sweet Revenge",
-      "count": 8,
+      "count": 9,
       "first": 1788995310,
-      "last": 1789006168,
+      "last": 1789007053,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Cemetery Drive",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789003808,
+          "last": 1789007053,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "Give 'Em Hell, Kid",
@@ -2379,17 +2390,6 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Cemetery Drive",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789003808,
-          "last": 1789003808,
-          "playlists": {
-            "MCR wednesday wind down": 1
           }
         },
         {
@@ -3389,6 +3389,26 @@
       ]
     },
     {
+      "artist": "The Offspring",
+      "album": "Rise And Fall, Rage And Grace",
+      "count": 1,
+      "first": 1789006875,
+      "last": 1789006875,
+      "songs": [
+        {
+          "artist": "The Offspring",
+          "title": "You're Gonna Go Far, Kid",
+          "album": "Rise And Fall, Rage And Grace",
+          "count": 1,
+          "first": 1789006875,
+          "last": 1789006875,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Brand New",
       "album": "The Devil And God Are Raging Inside Me",
       "count": 1,
@@ -3724,26 +3744,6 @@
           "last": 1788994893,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Car Seat Headrest",
-      "album": "Twin Fantasy",
-      "count": 1,
-      "first": 1788994486,
-      "last": 1788994486,
-      "songs": [
-        {
-          "artist": "Car Seat Headrest",
-          "title": "Bodys",
-          "album": "Twin Fantasy",
-          "count": 1,
-          "first": 1788994486,
-          "last": 1788994486,
-          "playlists": {
-            "d i n n e r": 1
           }
         }
       ]
@@ -4617,10 +4617,21 @@
     },
     {
       "playlist": "MCR wednesday wind down",
-      "count": 26,
+      "count": 28,
       "first": 1788995310,
-      "last": 1789006557,
+      "last": 1789007053,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Cemetery Drive",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789003808,
+          "last": 1789007053,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
         {
           "artist": "Taking Back Sunday",
           "title": "Liar (It Takes One To Know One)",
@@ -4674,6 +4685,17 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "The Offspring",
+          "title": "You're Gonna Go Far, Kid",
+          "album": "Rise And Fall, Rage And Grace",
+          "count": 1,
+          "first": 1789006875,
+          "last": 1789006875,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         },
         {
@@ -4754,34 +4776,12 @@
           }
         },
         {
-          "artist": "My Chemical Romance",
-          "title": "Cemetery Drive",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789003808,
-          "last": 1789003808,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
           "artist": "Paramore",
           "title": "crushcrushcrush",
           "album": "Riot!",
           "count": 1,
           "first": 1789003620,
           "last": 1789003620,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Teenagers",
-          "album": "The Black Parade",
-          "count": 1,
-          "first": 1789003457,
-          "last": 1789003457,
           "playlists": {
             "MCR wednesday wind down": 1
           }
