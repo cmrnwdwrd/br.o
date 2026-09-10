@@ -69,6 +69,7 @@
 </div>
 <div class="artist" id="songArtist"></div>
 <div class="album muted" id="songAlbum"></div>
+<div class="playlist muted tiny" id="songPlaylist"></div>
 <div style="margin-top:12px">
 <progress id="songProgress" max="1" value="0"></progress>
 <div class="tiny muted">
@@ -202,6 +203,10 @@
 <div class="card-body" id="body-myhistory">
 <div class="stats-grid" id="myHistoryStats"></div><div class="milestone-panel" id="listeningMilestones"></div>
 <div class="history-top" id="myHistoryTop"></div>
+<details class="ranking-details history-list-details" id="myPlaylistDetails">
+<summary>Recently Listened Playlists <span class="muted tiny" id="myPlaylistCount"></span></summary>
+<div class="playlist-history-list" id="myPlaylistList"></div>
+</details>
 <details class="ranking-details history-list-details">
 <summary>Recent Listened Tracks <span class="muted tiny" id="myHistoryListCount"></span></summary>
 <div class="compact-history" id="myHistoryList"></div>
@@ -219,7 +224,7 @@
 <div class="card-tools"><button aria-label="Refresh observed BottleRag history" class="icon-btn" id="refreshObservedHistory" title="Refresh observed history" type="button"><span aria-hidden="true">↻</span></button><button aria-expanded="true" class="collapse-btn" data-target="body-observed" title="Hide/show Observed BottleRag History" type="button"><span class="arrow">▼</span></button></div></div>
 <div class="card-body" id="body-observed">
 <div class="history-filter-bar">
-<input aria-label="Search observed BottleRag history" class="history-search" id="observedSearch" placeholder="Search the top 50 songs, artists, or albums…" type="search"/>
+<input aria-label="Search observed BottleRag history" class="history-search" id="observedSearch" placeholder="Search songs, artists, albums, or playlists…" type="search"/>
 </div><div class="stats-grid" id="observedStats"></div><div id="observedTop" class="compat-hidden" aria-hidden="true"></div>
 
 <details class="ranking-details">
@@ -232,6 +237,10 @@
 </details><details class="ranking-details">
 <summary>Most Played Albums <span class="muted tiny" id="observedAlbumCount"></span></summary>
 <div class="ranking-list" id="observedTopAlbums"></div>
+</details>
+<details class="ranking-details">
+<summary>Most Played Playlists <span class="muted tiny" id="observedPlaylistCount"></span></summary>
+<div class="ranking-list" id="observedTopPlaylists"></div>
 </details>
 <details class="history-list-details ranking-details legacy-observed-recent" hidden="">
 <summary>Recently Observed Tracks <span class="muted tiny" id="observedHistoryListCount"></span></summary>
@@ -453,12 +462,12 @@
 <section class="settings-section"><h3>Display</h3><p class="muted tiny">All optional categories start collapsed whenever the player opens. Now Playing and Recently Played stay open.</p><div class="settings-actions"><button id="expandCategories" type="button">Expand categories</button><button id="collapseCategories" type="button">Collapse categories</button></div></section>
 <section class="settings-section">
 <h3>History &amp; Storage</h3>
-<p class="muted tiny">My Listening History and Observed BottleRag History are stored locally in this browser using IndexedDB.</p>
+<p class="muted tiny">My Listening History is stored locally in this browser. Observed BottleRag History is shared from the cloud collector.</p>
 <div class="settings-actions">
 <button id="exportHistoryBtn" type="button">Export history</button>
 <label class="file-button">Import history<input accept="application/json,.json" hidden="" id="importHistoryInput" type="file"/></label>
 <button id="clearListeningBtn" type="button">Clear listening history</button>
-<button id="clearObservedBtn" type="button">Clear observed history</button>
+
 </div>
 <div class="muted tiny" id="storageStatus"></div>
 <div class="settings-subgroup"><h4>Liked Songs</h4><div class="settings-actions"><button id="exportFavoritesBtn" type="button">Export liked songs</button><label class="file-button">Import liked songs<input accept="application/json,.json" hidden="" id="importFavoritesInput" type="file"/></label><button id="clearFavoritesBtn" type="button">Clear liked songs</button></div></div></section>

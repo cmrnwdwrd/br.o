@@ -200,7 +200,9 @@ function renderCompactHistory(id,records,limit=25,options={}){
   for(const r of rows){
     const row=document.createElement("div");row.className="compact-row spotify-history-row";
     const main=document.createElement("div");main.className="compact-main";
-    main.innerHTML='<strong>'+escapeHtml(r.title||"Unknown")+'</strong><div class="muted tiny">'+escapeHtml(r.artist||"")+(r.album?' · '+escapeHtml(r.album):'')+'</div>';
+    main.innerHTML='<strong>'+escapeHtml(r.title||"Unknown")+'</strong><div class="muted tiny">'+
+      escapeHtml(r.artist||"")+(r.album?' · '+escapeHtml(r.album):'')+
+      (r.playlist?' · Playlist: '+escapeHtml(r.playlist):'')+'</div>';
     const time=document.createElement("div");time.className="compact-time";time.textContent=fmtDate(r.playedAt);
     const spot=spotifyHistoryButton(r.artist||"",r.title||"");
     row.append(main,time,spot);el.appendChild(row);
@@ -241,6 +243,74 @@ function topCounts(records,key,limit=5){
   }
   return [...m.entries()].sort((a,b)=>b[1]-a[1]).slice(0,limit);
 }
+
+function renderListeningPlaylists(records){
+  const root=document.getElementById("myPlaylistList");
+  const count=document.getElementById("myPlaylistCount");
+  if(!root||!count)return;
+
+  const groups=new Map();
+  for(const r of records){
+    const name=(r.playlist||"").trim();
+    if(!name)continue;
+    if(!groups.has(name))groups.set(name,[]);
+    groups.get(name).push(r);
+  }
+
+  const sorted=[...groups.entries()].sort((a,b)=>{
+    const al=Math.max(...a[1].map(r=>Number(r.playedAt||0)));
+    const bl=Math.max(...b[1].map(r=>Number(r.playedAt||0)));
+    return bl-al;
+  });
+  count.textContent=sorted.length+" playlists";
+  root.replaceChildren();
+
+  if(!sorted.length){
+    root.innerHTML='<div class="muted tiny">No playlist information recorded yet.</div>';
+    return;
+  }
+
+  for(const [playlist,recs] of sorted){
+    const d=document.createElement("details");
+    d.className="playlist-history-group";
+    const s=document.createElement("summary");
+    const main=document.createElement("span");
+    const mostRecent=Math.max(...recs.map(r=>Number(r.playedAt||0)));
+    main.innerHTML='<strong>'+escapeHtml(playlist)+'</strong>'+
+      '<div class="playlist-meta">Most recent: '+escapeHtml(fmtDate(mostRecent))+'</div>';
+    const c=document.createElement("span");
+    c.className="rank-count";
+    c.textContent=recs.length+" play"+(recs.length===1?"":"s");
+    s.append(main,c);
+    d.appendChild(s);
+
+    const list=document.createElement("div");
+    list.className="playlist-song-list compact-history";
+    d.appendChild(list);
+    root.appendChild(d);
+    renderCompactHistoryInto(list,recs);
+  }
+}
+function renderCompactHistoryInto(el,records){
+  el.replaceChildren();
+  const rows=[...records].sort((a,b)=>(b.playedAt||0)-(a.playedAt||0));
+  if(!rows.length){
+    el.innerHTML='<div class="muted tiny">No records yet.</div>';
+    return;
+  }
+  for(const r of rows){
+    const row=document.createElement("div");row.className="compact-row spotify-history-row";
+    const main=document.createElement("div");main.className="compact-main";
+    main.innerHTML='<strong>'+escapeHtml(r.title||"Unknown")+'</strong>'+
+      '<div class="muted tiny">'+escapeHtml(r.artist||"")+
+      (r.album?' · '+escapeHtml(r.album):'')+
+      (r.playlist?' · Playlist: '+escapeHtml(r.playlist):'')+'</div>';
+    const time=document.createElement("div");time.className="compact-time";time.textContent=fmtDate(r.playedAt);
+    row.append(main,time,spotifyHistoryButton(r.artist||"",r.title||""));
+    el.appendChild(row);
+  }
+}
+
 async function renderPersistentHistories(){
   let listening=[],observed=[];
   try{[listening,observed]=await Promise.all([getAllRecords("listening"),getAllRecords("observed")])}catch(e){return}
@@ -251,6 +321,7 @@ async function renderPersistentHistories(){
     statTile("Recorded plays",listening.length),
     statTile("Unique artists",uniqueCount(listening,"artist")),
     statTile("Unique tracks",new Set(listening.map(r=>(r.artist||"")+"|"+(r.title||""))).size),
+    statTile("Unique playlists",uniqueCount(listening,"playlist")),
     statTile("Tracked listening",formatHMS(listenSeconds)),
     statTile("First recorded",firstL?fmtDate(firstL):"—"),
     statTile("Most recent",lastL?fmtDate(lastL):"—"),
@@ -260,8 +331,10 @@ async function renderPersistentHistories(){
   document.getElementById("myHistoryTop").innerHTML='<strong>Top artists:</strong> '+(topCounts(listening,"artist").map(([n,c])=>escapeHtml(n)+" ("+c+")").join(" · ")||"—");
   document.getElementById("myHistoryListCount").textContent=listening.length+" plays";
   renderCompactHistory("myHistoryList",listening,Infinity);
+  renderListeningPlaylists(listening);
 
   document.getElementById("status-myhistory").textContent="Stored on this device";
+  document.getElementById("status-observed").textContent="Stored on this device";
 }
 
 /* ---------- Export / import / resets ---------- */

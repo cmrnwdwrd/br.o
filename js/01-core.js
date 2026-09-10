@@ -77,6 +77,8 @@ function renderNow(data){
   document.getElementById("songTitle").textContent=display(song.title);
   document.getElementById("songArtist").textContent=display(song.artist);
   document.getElementById("songAlbum").textContent=song.album ? song.album : "";
+  const playlistEl=document.getElementById("songPlaylist");
+  if(playlistEl)playlistEl.textContent=np.playlist ? "Playlist: "+np.playlist : "";
   const art=document.getElementById("artwork");
   if(song.art){ art.src=song.art; art.style.display=""; }
   else { art.removeAttribute("src"); art.style.display="none"; }
@@ -164,7 +166,7 @@ function makeRecentSpotifyControl(s){
   spotWrap.append(spotBtn,spotMenu); spot.appendChild(spotWrap);
   return spot;
 }
-function makeRecentLikeButton(s){
+function makeRecentLikeButton(s,item=null){
   const b=document.createElement("button");
   b.className="mini-like"; b.type="button"; b.textContent="♡";
   const refresh=async()=>{
@@ -193,7 +195,7 @@ function makeRecentLikeButton(s){
       }else{
         await putRecord("favorites",{
           trackKey:key,artist:s.artist||"",title:s.title||"Unknown",
-          album:s.album||"",art:s.art||"",likedAt:Date.now()
+          album:s.album||"",art:s.art||"",playlist:item?.playlist||"",likedAt:Date.now()
         });
       }
       await renderFavorites();
@@ -218,12 +220,12 @@ function buildRecentTrackRow(item){
   const parts=[];
   if(s.artist)parts.push(s.artist);
   if(s.album)parts.push(s.album);
-  if(item.playlist)parts.push("playlist: "+item.playlist);
+  if(item.playlist)parts.push("Playlist: "+item.playlist);
   if(item.streamer)parts.push("streamer: "+item.streamer);
   if(item.is_request)parts.push("requested");
   sub.textContent=parts.join(" · ");
   main.append(titleRow,sub);
-  const like=makeRecentLikeButton(s);
+  const like=makeRecentLikeButton(s,item);
   const spot=makeRecentSpotifyControl(s);
   const right=document.createElement("div"); right.className="track-time muted tiny";
   const when=item.played_at?new Date(item.played_at*1000):null;

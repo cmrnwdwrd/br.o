@@ -66,8 +66,14 @@ function recordTrackKey(r){
 }
 function recordMatchesSearch(r,q){
   if(!q)return true;
-  const hay=[r?.artist,r?.title,r?.album].filter(Boolean).join(" ").toLowerCase();
+  const hay=[r?.artist,r?.title,r?.album,r?.playlist,playlistSummaryText(r)].filter(Boolean).join(" ").toLowerCase();
   return hay.includes(q.toLowerCase());
+}
+function playlistSummaryText(item){
+  const m=item?.playlists||{};
+  const entries=Object.entries(m).sort((a,b)=>Number(b[1])-Number(a[1]));
+  if(!entries.length)return "";
+  return entries.map(([name,count])=>name+(entries.length>1?" ("+count+")":"")).join(", ");
 }
 function heardMeta(first,last){
   const f=first?fmtDate(first):"—";
@@ -87,7 +93,8 @@ function makeTopSongRow(s,i){
   const row=document.createElement("div");row.className="rank-row";
   const main=document.createElement("div");
   main.innerHTML='<span class="rank-number">#'+(i+1)+'</span><strong>'+escapeHtml(s.title||"Unknown")+'</strong>'+
-    '<div class="muted tiny">'+escapeHtml(s.artist||"")+(s.album?' · '+escapeHtml(s.album):'')+'</div>'+
+    '<div class="muted tiny">'+escapeHtml(s.artist||"")+(s.album?' · '+escapeHtml(s.album):'')+
+    (playlistSummaryText(s)?' · Playlist: '+escapeHtml(playlistSummaryText(s)):'')+'</div>'+
     '<div class="aggregate-meta">'+escapeHtml(heardMeta(s.first,s.last))+'</div>';
   const count=document.createElement("div");count.className="rank-count";
   count.textContent=(s.count||0)+" play"+(Number(s.count)===1?"":"s");
@@ -100,9 +107,10 @@ function renderCompactObservedTop50(){
   const sr=document.getElementById("observedTopSongs");
   const ar=document.getElementById("observedTopArtists");
   const al=document.getElementById("observedTopAlbums");
+  const pl=document.getElementById("observedTopPlaylists");
   if(!data){
     stats.innerHTML=[statTile("Shared history","Waiting for collector")].join("");
-    [sr,ar,al].forEach(el=>el&&el.replaceChildren());
+    [sr,ar,al,pl].forEach(el=>el&&el.replaceChildren());
     return;
   }
 
@@ -112,6 +120,7 @@ function renderCompactObservedTop50(){
     statTile("Unique artists",s.uniqueArtists??0),
     statTile("Unique tracks",s.uniqueTracks??0),
     statTile("Unique albums",s.uniqueAlbums??0),
+    statTile("Unique playlists",s.uniquePlaylists??0),
     statTile("First observed",s.firstObserved?fmtDate(s.firstObserved):"—"),
     statTile("Most recent",s.lastObserved?fmtDate(s.lastObserved):"—")
   ].join("");
@@ -138,7 +147,9 @@ function renderCompactObservedTop50(){
       const row=document.createElement("div");row.className="artist-song-row";
       const main=document.createElement("div");
       main.innerHTML='<strong>'+escapeHtml(sg.title||"Unknown")+'</strong>'+
-        (sg.album?'<div class="muted tiny">'+escapeHtml(sg.album)+'</div>':'')+
+        (sg.album?'<div class="muted tiny">'+escapeHtml(sg.album)+
+        (playlistSummaryText(sg)?' · Playlist: '+escapeHtml(playlistSummaryText(sg)):'')+'</div>':
+        (playlistSummaryText(sg)?'<div class="muted tiny">Playlist: '+escapeHtml(playlistSummaryText(sg))+'</div>':''))+
         '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
       const c=document.createElement("div");c.className="rank-count";c.textContent=(sg.count||0)+" plays";
       row.append(main,c,spotifyMiniButton(sg.artist||a.artist||"",sg.title||""));
@@ -164,6 +175,7 @@ function renderCompactObservedTop50(){
       const row=document.createElement("div");row.className="artist-song-row";
       const main=document.createElement("div");
       main.innerHTML='<strong>'+escapeHtml(sg.title||"Unknown")+'</strong>'+
+        (playlistSummaryText(sg)?'<div class="muted tiny">Playlist: '+escapeHtml(playlistSummaryText(sg))+'</div>':'')+
         '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
       const c=document.createElement("div");c.className="rank-count";c.textContent=(sg.count||0)+" plays";
       row.append(main,c,spotifyMiniButton(sg.artist||a.artist||"",sg.title||""));
@@ -171,6 +183,36 @@ function renderCompactObservedTop50(){
     });
     d.appendChild(songsWrap);al.appendChild(d);
   });
+  const playlists=(data.topPlaylists||[]).slice(0,10);
+  pl.replaceChildren();
+  document.getElementById("observedPlaylistCount").textContent=playlists.length+" playlists";
+  playlists.forEach((a,i)=>{
+    const d=document.createElement("details");d.className="artist-rank";
+    const sum=document.createElement("summary");
+    const name=document.createElement("span");
+    name.innerHTML="#"+(i+1)+" "+escapeHtml(a.playlist||"Unspecified")+
+      '<div class="aggregate-meta">'+escapeHtml(heardMeta(a.first,a.last))+"</div>";
+    const count=document.createElement("span");count.className="rank-count";
+    count.textContent=(a.count||0)+" plays";
+    sum.append(name,count);d.appendChild(sum);
+
+    const songsWrap=document.createElement("div");songsWrap.className="artist-song-list";
+    (a.songs||[]).slice(0,15).forEach(sg=>{
+      const row=document.createElement("div");row.className="artist-song-row";
+      const main=document.createElement("div");
+      main.innerHTML='<strong>'+escapeHtml(sg.title||"Unknown")+'</strong>'+
+        '<div class="muted tiny">'+escapeHtml(sg.artist||"")+
+        (sg.album?' · '+escapeHtml(sg.album):'')+
+        ' · Playlist: '+escapeHtml(a.playlist||"Unspecified")+'</div>'+
+        '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
+      const c=document.createElement("div");c.className="rank-count";
+      c.textContent=(sg.count||0)+" play"+(Number(sg.count)===1?"":"s");
+      row.append(main,c,spotifyMiniButton(sg.artist||"",sg.title||""));
+      songsWrap.appendChild(row);
+    });
+    d.appendChild(songsWrap);pl.appendChild(d);
+  });
+
 }
 
 const _renderFavoritesV29Base=renderFavorites;
@@ -247,9 +289,9 @@ document.getElementById("favoritesSearch").addEventListener("input",e=>{
 
 Object.assign(infoHelp,{
   observed:{title:"Observed BottleRag History",items:[
-    ["Top 50 only","The player downloads only compact all-time Top 50 Songs, Artists, and Albums. Recently Observed Tracks is no longer downloaded or shown."],
+    ["Compact rankings","The player downloads compact all-time Top 50 Songs, Artists, and Albums plus the Top 10 Playlists. Recently Observed Tracks is not downloaded or shown."],
     ["Monthly archive","The collector stores raw observed plays by month in the repository for long-term history. Those monthly files are not downloaded during normal player use."],
-    ["Search","Search filters the compact top-50 data already loaded on the device."],
+    ["Search","Search filters the compact song, artist, album, and playlist rankings already loaded on the device."],
     ["Cross-device","Every device using the GitHub Pages player reads the same shared compact summary produced by the cloud collector."]
   ]},
   myhistory:{title:"My Listening History",items:[

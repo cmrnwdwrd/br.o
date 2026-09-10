@@ -45,7 +45,7 @@ document.getElementById("nowLikeBtn").addEventListener("click",async()=>{
   }else{
     await putRecord("favorites",{
       trackKey:key,artist:s.artist||"",title:s.title||"Unknown",album:s.album||"",
-      genre:s.genre||"",art:s.art||"",likedAt:Date.now()
+      genre:s.genre||"",art:s.art||"",playlist:latestData?.now_playing?.playlist||"",likedAt:Date.now()
     });
   }
   await updateNowLikeUI();await renderFavorites();
@@ -58,7 +58,9 @@ document.querySelectorAll(".favorite-tab").forEach(b=>b.addEventListener("click"
 function favoriteRow(r){
   const row=document.createElement("div");row.className="favorite-row";
   const main=document.createElement("div");
-  main.innerHTML='<strong>'+escapeHtml(r.title)+'</strong><div class="muted tiny">'+escapeHtml(r.artist||"")+(r.album?' · '+escapeHtml(r.album):'')+'</div>';
+  main.innerHTML='<strong>'+escapeHtml(r.title)+'</strong><div class="muted tiny">'+escapeHtml(r.artist||"")+
+    (r.album?' · '+escapeHtml(r.album):'')+
+    (r.playlist?' · Playlist: '+escapeHtml(r.playlist):'')+'</div>';
 
   const like=document.createElement("button");
   like.className="mini-like liked";

@@ -81,8 +81,20 @@ def month_path(month_key):
 
 
 def blank_aggregates():
+    playlists = list(agg.get("playlists", {}).values())
+    playlists.sort(key=lambda x: (-int(x.get("count") or 0), -int(x.get("last") or 0), (x.get("playlist") or "").lower()))
+    top_playlists = []
+    for a in playlists[:10]:
+        top_playlists.append({
+            "playlist": a.get("playlist") or "Unspecified",
+            "count": int(a.get("count") or 0),
+            "first": a.get("first"),
+            "last": a.get("last"),
+            "songs": sorted_track_items(a.get("songs", {}), 15),
+        })
+
     return {
-        "schemaVersion": 29,
+        "schemaVersion": 31,
         "updatedAt": None,
         "totalPlays": 0,
         "unknownPlays": 0,
@@ -91,6 +103,7 @@ def blank_aggregates():
         "songs": {},
         "artists": {},
         "albums": {},
+        "playlists": {},
     }
 
 
@@ -111,6 +124,7 @@ def bump_track_summary(container, key, rec):
             "count": 0,
             "first": None,
             "last": None,
+            "playlists": {},
         }
     x = container[key]
     x["count"] += 1
@@ -119,6 +133,10 @@ def bump_track_summary(container, key, rec):
         x["artist"] = rec.get("artist")
     if not x.get("album") and rec.get("album"):
         x["album"] = rec.get("album")
+    playlist = (rec.get("playlist") or "").strip()
+    if playlist:
+        x.setdefault("playlists", {})
+        x["playlists"][playlist] = int(x["playlists"].get(playlist) or 0) + 1
     bump_first_last(x, ts)
 
 
@@ -168,6 +186,22 @@ def add_to_aggregates(agg, rec):
     bump_first_last(al, ts)
     bump_track_summary(al["songs"], track_key, rec)
 
+    playlist = (rec.get("playlist") or "").strip()
+    if playlist:
+        playlist_key = playlist.lower()
+        if playlist_key not in agg["playlists"]:
+            agg["playlists"][playlist_key] = {
+                "playlist": playlist,
+                "count": 0,
+                "first": None,
+                "last": None,
+                "songs": {},
+            }
+        pl = agg["playlists"][playlist_key]
+        pl["count"] += 1
+        bump_first_last(pl, ts)
+        bump_track_summary(pl["songs"], track_key, rec)
+
 
 def sorted_track_items(mapping, limit=50):
     items = list(mapping.values())
@@ -202,7 +236,7 @@ def build_top50(agg):
         })
 
     return {
-        "schemaVersion": 29,
+        "schemaVersion": 31,
         "updatedAt": agg.get("updatedAt"),
         "summary": {
             "totalPlays": int(agg.get("totalPlays") or 0),
@@ -210,12 +244,14 @@ def build_top50(agg):
             "uniqueTracks": len(agg.get("songs", {})),
             "uniqueArtists": len(agg.get("artists", {})),
             "uniqueAlbums": len(agg.get("albums", {})),
+            "uniquePlaylists": len(agg.get("playlists", {})),
             "firstObserved": agg.get("firstObserved"),
             "lastObserved": agg.get("lastObserved"),
         },
         "topSongs": sorted_track_items(agg.get("songs", {}), 50),
         "topArtists": top_artists,
         "topAlbums": top_albums,
+        "topPlaylists": top_playlists,
     }
 
 
@@ -264,7 +300,7 @@ def migrate_legacy_if_needed(agg, force=False):
 
 def collect_observed(data):
     raw_agg = load_json(OBS_AGG, None)
-    valid_agg = isinstance(raw_agg, dict) and raw_agg.get("schemaVersion") == 29
+    valid_agg = isinstance(raw_agg, dict) and raw_agg.get("schemaVersion") == 31
     agg = raw_agg if valid_agg else blank_aggregates()
     agg = migrate_legacy_if_needed(agg, force=not valid_agg)
 

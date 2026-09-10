@@ -221,7 +221,25 @@ function setupListenerCanvas(){
   canvas.addEventListener("mousemove",e=>showListenerCanvasTooltip(e.clientX,e.clientY));
   canvas.addEventListener("mouseleave",()=>{tip.hidden=true;listenerCanvasHoverX=null;drawListenerChart()});
   canvas.addEventListener("click",e=>showListenerCanvasTooltip(e.clientX,e.clientY));
-  canvas.addEventListener("touchstart",e=>{if(e.touches?.[0])showListenerCanvasTooltip(e.touches[0].clientX,e.touches[0].clientY)},{passive:true});
+
+  let touchStartX=0,touchStartY=0,touchScrubbing=false;
+  canvas.addEventListener("touchstart",e=>{
+    const t=e.touches?.[0];if(!t)return;
+    touchStartX=t.clientX;touchStartY=t.clientY;touchScrubbing=false;
+    showListenerCanvasTooltip(t.clientX,t.clientY);
+  },{passive:true});
+  canvas.addEventListener("touchmove",e=>{
+    const t=e.touches?.[0];if(!t)return;
+    const dx=t.clientX-touchStartX,dy=t.clientY-touchStartY;
+    if(!touchScrubbing && Math.abs(dx)>6 && Math.abs(dx)>=Math.abs(dy))touchScrubbing=true;
+    if(touchScrubbing){
+      e.preventDefault();
+      showListenerCanvasTooltip(t.clientX,t.clientY);
+    }
+  },{passive:false});
+  canvas.addEventListener("touchend",()=>{touchScrubbing=false},{passive:true});
+  canvas.addEventListener("touchcancel",()=>{touchScrubbing=false},{passive:true});
+
   window.addEventListener("resize",()=>{drawListenerChart();drawHourChart()});
   if("ResizeObserver" in window){
     const ro=new ResizeObserver(entries=>{
