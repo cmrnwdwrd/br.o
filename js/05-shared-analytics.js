@@ -348,14 +348,51 @@ function renderCollectorHealth(){
   const d=parseListenerTime(listenerDoc.updatedAt);
   if(!d){el.textContent="Collector: unknown";el.className="collector-health warn";return}
   const mins=(Date.now()-d.getTime())/60000;
-  const fallback=listenerDoc.lastSampleSource==="github-fallback";
+  const source=listenerDoc.lastSampleSource||"primary";
+  let sourceLabel="";
+  if(source==="github-fallback")sourceLabel=" · Fallback sample";
+  if(source==="page-fallback")sourceLabel=" · 2nd fallback sample";
+
   el.className="collector-health "+(mins<=15?"ok":mins<=30?"warn":"bad");
   el.textContent=mins<=15
-    ?"Collector: ✓ "+Math.max(0,Math.round(mins))+" min ago"+(fallback?" · Fallback sample":"")
+    ?"Collector: ✓ "+Math.max(0,Math.round(mins))+" min ago"+sourceLabel
     :mins<=30
       ?"Collector delayed · "+Math.round(mins)+" min"
       :"Collector stale · "+Math.round(mins)+" min";
 }
+const PAGE_FALLBACK_URL="https://bottlerag-collector-trigger.cmrnwdwrd.workers.dev/fallback";
+const PAGE_FALLBACK_STALE_MINUTES=14;
+const PAGE_FALLBACK_LOCAL_COOLDOWN_MS=5*60*1000;
+let pageFallbackInFlight=false;
+
+async function maybeTriggerPageFallback(){
+  if(pageFallbackInFlight || document.visibilityState!=="visible" || !listenerDoc)return;
+  const d=parseListenerTime(listenerDoc.updatedAt);
+  if(!d)return;
+
+  const ageMinutes=(Date.now()-d.getTime())/60000;
+  if(ageMinutes<PAGE_FALLBACK_STALE_MINUTES)return;
+
+  const last=Number(localStorage.getItem("bottleragPageFallbackAt")||0);
+  if(Date.now()-last<PAGE_FALLBACK_LOCAL_COOLDOWN_MS)return;
+
+  pageFallbackInFlight=true;
+  localStorage.setItem("bottleragPageFallbackAt",String(Date.now()));
+
+  try{
+    const r=await fetch(PAGE_FALLBACK_URL,{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({reason:"collector-stale"})
+    });
+    if(!r.ok)throw new Error("fallback endpoint returned "+r.status);
+  }catch(e){
+    console.warn("BottleRag page fallback request failed:",e);
+  }finally{
+    pageFallbackInFlight=false;
+  }
+}
+
 async function refreshListenerHistoryInfo(){
   const live=Number(latestData?.listeners?.current);
   document.getElementById("listenerLiveCurrent").textContent=Number.isFinite(live)?String(live):"—";
@@ -364,6 +401,7 @@ async function refreshListenerHistoryInfo(){
     if(!r.ok)throw new Error(r.status+" "+r.statusText);
     listenerDoc=await r.json();
     renderListenerRecords();renderListenerPeriodStats();drawListenerChart();drawHourChart();renderCollectorHealth();
+    maybeTriggerPageFallback();
     const recent=currentListenerSamples(),last=recent.length?recent[recent.length-1]:null;
     document.getElementById("listenerPlotStatus").textContent=last
       ?"Latest detailed sample: "+last.listeners+" at "+new Date(last.timestamp).toLocaleString()
@@ -404,3 +442,6 @@ Object.assign(infoHelp,{
 });
 
 setTimeout(loadSharedObservedHistory,500);
+
+
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")maybeTriggerPageFallback();});
