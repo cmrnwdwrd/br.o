@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import os
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -434,12 +435,13 @@ def collect_listeners(data):
 
     now = datetime.now(timezone.utc)
     count = data.get("listeners", {}).get("current")
+    source = os.environ.get("BOTTLERAG_COLLECTOR_SOURCE", "primary")
 
     # All-time max survives detailed-sample pruning.
     all_time_max = raw.get("allTimeMax")
     if isinstance(count, (int, float)):
         value = int(count)
-        sample = {"timestamp": now.isoformat(), "listeners": value}
+        sample = {"timestamp": now.isoformat(), "listeners": value, "source": source}
         recent_samples.append(sample)
         if (
             not isinstance(all_time_max, dict)
@@ -483,6 +485,7 @@ def collect_listeners(data):
     doc = {
         "schemaVersion": 26,
         "updatedAt": now.isoformat(),
+        "lastSampleSource": source,
         "recentSamples": keep,
         # Keep this alias for old clients while transitioning.
         "samples": keep,

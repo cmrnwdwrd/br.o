@@ -35,7 +35,7 @@ function mergeObserved(local,shared){
 
 /* ---------- v26 Active Streams dashboard ---------- */
 let listenerDoc=null;
-let listenerPeriod="24h";
+let listenerPeriod="90d";
 let listenerPlotPoints=[];
 let listenerCanvasHoverX=null;
 let listenerSelectedHour=null;
@@ -348,10 +348,13 @@ function renderCollectorHealth(){
   const d=parseListenerTime(listenerDoc.updatedAt);
   if(!d){el.textContent="Collector: unknown";el.className="collector-health warn";return}
   const mins=(Date.now()-d.getTime())/60000;
+  const fallback=listenerDoc.lastSampleSource==="github-fallback";
   el.className="collector-health "+(mins<=15?"ok":mins<=30?"warn":"bad");
-  el.textContent=mins<=15?"Collector: ✓ "+Math.max(0,Math.round(mins))+" min ago":
-    mins<=30?"Collector delayed · "+Math.round(mins)+" min":
-    "Collector stale · "+Math.round(mins)+" min";
+  el.textContent=mins<=15
+    ?"Collector: ✓ "+Math.max(0,Math.round(mins))+" min ago"+(fallback?" · Fallback sample":"")
+    :mins<=30
+      ?"Collector delayed · "+Math.round(mins)+" min"
+      :"Collector stale · "+Math.round(mins)+" min";
 }
 async function refreshListenerHistoryInfo(){
   const live=Number(latestData?.listeners?.current);
