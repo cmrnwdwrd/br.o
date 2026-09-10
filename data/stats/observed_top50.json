@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T23:35:43.148682+00:00",
+  "updatedAt": "2026-09-10T23:40:41.430056+00:00",
   "summary": {
-    "totalPlays": 767,
+    "totalPlays": 768,
     "unknownPlays": 90,
     "uniqueTracks": 643,
     "uniqueArtists": 492,
     "uniqueAlbums": 569,
     "uniquePlaylists": 13,
     "firstObserved": 1788901564,
-    "lastObserved": 1789083253
+    "lastObserved": 1789083512
   },
   "topSongs": [
     {
@@ -54,6 +54,17 @@
       "last": 1789078459,
       "playlists": {
         "MCR wednesday wind down": 3
+      }
+    },
+    {
+      "artist": "hey, nothing",
+      "title": "The Sink",
+      "album": "The Sink",
+      "count": 2,
+      "first": 1788974410,
+      "last": 1789083512,
+      "playlists": {
+        "1default": 2
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788966457,
       "last": 1789067677,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Yellowcard",
-      "title": "Ocean Avenue",
-      "album": "Ocean Avenue",
-      "count": 2,
-      "first": 1789060451,
-      "last": 1789067479,
       "playlists": {
         "1default": 2
       }
@@ -2746,6 +2746,25 @@
       ]
     },
     {
+      "artist": "hey, nothing",
+      "count": 2,
+      "first": 1788974410,
+      "last": 1789083512,
+      "songs": [
+        {
+          "artist": "hey, nothing",
+          "title": "The Sink",
+          "album": "The Sink",
+          "count": 2,
+          "first": 1788974410,
+          "last": 1789083512,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ichika Nito",
       "count": 2,
       "first": 1789064515,
@@ -2864,25 +2883,6 @@
           "count": 2,
           "first": 1788991593,
           "last": 1789080744,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Chats",
-      "count": 2,
-      "first": 1789078009,
-      "last": 1789080145,
-      "songs": [
-        {
-          "artist": "The Chats",
-          "title": "Smoko",
-          "album": "Get This In Ya",
-          "count": 2,
-          "first": 1789078009,
-          "last": 1789080145,
           "playlists": {
             "1default": 2
           }
@@ -4134,6 +4134,26 @@
       ]
     },
     {
+      "artist": "hey, nothing",
+      "album": "The Sink",
+      "count": 2,
+      "first": 1788974410,
+      "last": 1789083512,
+      "songs": [
+        {
+          "artist": "hey, nothing",
+          "title": "The Sink",
+          "album": "The Sink",
+          "count": 2,
+          "first": 1788974410,
+          "last": 1789083512,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ichika Nito",
       "album": "Journey",
       "count": 2,
@@ -4552,34 +4572,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Franz Schubert, Clara Rockmore, Nadia Reisenberg",
-      "album": "Dvořák, Ravel, Gershwin & Others: Chamber Works",
-      "count": 2,
-      "first": 1789064997,
-      "last": 1789074214,
-      "songs": [
-        {
-          "artist": "Franz Schubert, Clara Rockmore, Nadia Reisenberg",
-          "title": "Ave Maria, Op. 52 No. 6, D. 839 (Arr. for Theremin & Piano)",
-          "album": "Dvořák, Ravel, Gershwin & Others: Chamber Works",
-          "count": 2,
-          "first": 1789064997,
-          "last": 1789074214,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 342,
+      "count": 343,
       "first": 1788901564,
-      "last": 1789083253,
+      "last": 1789083512,
       "songs": [
         {
           "artist": "Destructo Disk",
@@ -4615,23 +4615,23 @@
           }
         },
         {
+          "artist": "hey, nothing",
+          "title": "The Sink",
+          "album": "The Sink",
+          "count": 2,
+          "first": 1788974410,
+          "last": 1789083512,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
           "artist": "Ichika Nito",
           "title": "Secret",
           "album": "Journey",
           "count": 2,
           "first": 1789064515,
           "last": 1789083123,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 2,
-          "first": 1789015368,
-          "last": 1789082930,
           "playlists": {
             "1default": 2
           }
