@@ -23,8 +23,8 @@ jobs:
 
       - name: Check whether scheduled fallback is needed
         id: fallback
-        run:
-          # Cloudflare uses workflow_dispatch, so those runs should always collect.background
+        run: |
+          # Cloudflare uses workflow_dispatch, so those runs should always collect.
           if [ "${{ github.event_name }}" != "schedule" ]; then
             echo "run_collector=true" >> "$GITHUB_OUTPUT"
             echo "Cloudflare/manual dispatch: collector will run."
@@ -80,18 +80,21 @@ jobs:
               print("Collector is healthy: fallback not needed.")
           PY
 
-
       - name: Collect station history and listener sample
+        if: steps.fallback.outputs.run_collector == 'true'
         run: python scripts/collect_bottlerag.py
 
       - name: Commit updated history
+        if: steps.fallback.outputs.run_collector == 'true'
         run: |
           if git diff --quiet -- data/; then
             echo "No data changes."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/
           git commit -m "Update BottleRag history"
           git push
