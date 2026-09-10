@@ -18,6 +18,7 @@ OBS_AGG = STATS_DIR / "observed_aggregates.json"
 OBS_TOP = STATS_DIR / "observed_top50.json"
 PLAYLIST_SCHEDULE = STATS_DIR / "playlist_schedule.json"
 LIS = DATA / "listener_history.json"
+LISTENER_MONTHLY = STATS_DIR / "listener_monthly.json"
 LOCAL_TZ = ZoneInfo("America/Denver")
 DATA.mkdir(parents=True, exist_ok=True)
 OBS_DIR.mkdir(parents=True, exist_ok=True)
@@ -711,6 +712,126 @@ def compute_records(old_daily, recent_samples, existing_all_max):
     }
 
 
+
+def _median_from_distribution(distribution):
+    pairs = []
+    total = 0
+    for key, count in distribution.items():
+        try:
+            value = int(key)
+            n = int(count)
+        except Exception:
+            continue
+        if n > 0:
+            pairs.append((value, n))
+            total += n
+    if not total:
+        return None
+    pairs.sort()
+
+    def value_at(position):
+        seen = 0
+        for value, n in pairs:
+            seen += n
+            if position < seen:
+                return value
+        return pairs[-1][0]
+
+    if total % 2:
+        return value_at(total // 2)
+    a = value_at(total // 2 - 1)
+    b = value_at(total // 2)
+    return (a + b) / 2
+
+
+def update_listener_monthly(samples, now):
+    """Persist compact monthly listener statistics without exposing any new UI."""
+    existing = load_json(LISTENER_MONTHLY, {})
+    if not isinstance(existing, dict):
+        existing = {}
+
+    months = {}
+    for item in existing.get("months") or []:
+        if isinstance(item, dict) and item.get("month"):
+            months[item["month"]] = dict(item)
+
+    last_processed = existing.get("lastProcessedTimestamp")
+    try:
+        last_dt = parse_ts(last_processed) if last_processed else None
+    except Exception:
+        last_dt = None
+
+    # On the first run, backfill every detailed sample still available (up to 90 days).
+    # After that, only append samples newer than the last one already summarized.
+    newest_dt = last_dt
+    for sample in sorted(samples, key=lambda s: str(s.get("timestamp") or "")):
+        try:
+            dt = parse_ts(sample["timestamp"])
+            value = int(sample["listeners"])
+        except Exception:
+            continue
+        if last_dt is not None and dt <= last_dt:
+            continue
+
+        local = dt.astimezone(LOCAL_TZ)
+        month_key = local.strftime("%Y-%m")
+        day_key = local.strftime("%Y-%m-%d")
+        source = str(sample.get("source") or "unknown")
+        m = months.get(month_key, {
+            "month": month_key,
+            "sampleCount": 0,
+            "sum": 0,
+            "min": None,
+            "max": None,
+            "firstSampleAt": None,
+            "lastSampleAt": None,
+            "listenerDistribution": {},
+            "sourceCounts": {},
+            "daysObserved": [],
+        })
+
+        m["sampleCount"] = int(m.get("sampleCount") or 0) + 1
+        m["sum"] = int(m.get("sum") or 0) + value
+        m["min"] = value if m.get("min") is None else min(int(m["min"]), value)
+        m["max"] = value if m.get("max") is None else max(int(m["max"]), value)
+        if not m.get("firstSampleAt") or dt < parse_ts(m["firstSampleAt"]):
+            m["firstSampleAt"] = dt.isoformat()
+        if not m.get("lastSampleAt") or dt > parse_ts(m["lastSampleAt"]):
+            m["lastSampleAt"] = dt.isoformat()
+
+        dist = dict(m.get("listenerDistribution") or {})
+        dist[str(value)] = int(dist.get(str(value)) or 0) + 1
+        m["listenerDistribution"] = dist
+
+        sources = dict(m.get("sourceCounts") or {})
+        sources[source] = int(sources.get(source) or 0) + 1
+        m["sourceCounts"] = sources
+
+        days = set(m.get("daysObserved") or [])
+        days.add(day_key)
+        m["daysObserved"] = sorted(days)
+        months[month_key] = m
+        if newest_dt is None or dt > newest_dt:
+            newest_dt = dt
+
+    output_months = []
+    for month_key in sorted(months):
+        m = months[month_key]
+        n = int(m.get("sampleCount") or 0)
+        total = int(m.get("sum") or 0)
+        dist = dict(m.get("listenerDistribution") or {})
+        m["average"] = total / n if n else None
+        m["median"] = _median_from_distribution(dist)
+        m["daysRepresented"] = len(m.get("daysObserved") or [])
+        output_months.append(m)
+
+    save_json(LISTENER_MONTHLY, {
+        "schemaVersion": 1,
+        "updatedAt": now.isoformat(),
+        "lastProcessedTimestamp": newest_dt.isoformat() if newest_dt else last_processed,
+        "months": output_months,
+    })
+
 def collect_listeners(data):
     raw = load_json(LIS, {})
     if isinstance(raw, list):
@@ -736,6 +857,9 @@ def collect_listeners(data):
             or value > int(all_time_max.get("listeners", -1))
         ):
             all_time_max = {"listeners": value, "timestamp": now.isoformat()}
+
+    # Keep permanent compact monthly audience statistics before 90-day pruning.
+    update_listener_monthly(recent_samples, now)
 
     # Initialize all-time hourly bins from any pre-v26 samples exactly once.
     bins = raw.get("hourBins")
