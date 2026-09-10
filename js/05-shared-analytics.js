@@ -473,8 +473,8 @@ function schedulePlaylistRows(){
 }
 function currentSchedulePlaylist(){
   const rows=schedulePlaylistRows();
-  if(!rows.length)return null;
-  return rows.find(p=>p.playlist===selectedPlaylistSchedule)||rows[0];
+  if(!selectedPlaylistSchedule)return null;
+  return rows.find(p=>p.playlist===selectedPlaylistSchedule)||null;
 }
 function mostCommonScheduleDay(p){
   const windows=p?.likelyWindows||[];
@@ -486,98 +486,110 @@ function renderPlaylistScheduleSelect(){
   const select=document.getElementById("playlistScheduleSelect");if(!select)return;
   const rows=schedulePlaylistRows();
   if(!rows.length){
-    select.innerHTML='<option value="">No playlist schedule data yet</option>';
+    select.innerHTML='<option value="">All Playlists</option>';
+    selectedPlaylistSchedule="";
     return;
   }
-  if(!selectedPlaylistSchedule || !rows.some(p=>p.playlist===selectedPlaylistSchedule)){
-    selectedPlaylistSchedule=rows[0].playlist;
-  }
-  select.innerHTML=rows.map(p=>
-    '<option value="'+escapeHtml(p.playlist)+'"'+(p.playlist===selectedPlaylistSchedule?' selected':'')+'>'+
-    escapeHtml(p.playlist)+' · '+Number(p.sessionCount||0)+' sessions</option>'
-  ).join("");
+  const valid=!selectedPlaylistSchedule || rows.some(p=>p.playlist===selectedPlaylistSchedule);
+  if(!valid)selectedPlaylistSchedule="";
+  select.innerHTML=
+    '<option value=""'+(!selectedPlaylistSchedule?' selected':'')+'>All Playlists</option>'+
+    rows.map(p=>
+      '<option value="'+escapeHtml(p.playlist)+'"'+(p.playlist===selectedPlaylistSchedule?' selected':'')+'>'+
+      escapeHtml(p.playlist)+' · '+Number(p.sessionCount||0)+' sessions</option>'
+    ).join("");
 }
 function renderPlaylistScheduleHeatmap(p){
   const root=document.getElementById("playlistScheduleHeatmap");if(!root)return;
-  if(!p){root.innerHTML='<div class="muted tiny">No schedule data yet.</div>';return}
-  const heat=Array.isArray(p.heatmapMinutes)?p.heatmapMinutes:[];
-  const vals=heat.flat().map(Number).filter(Number.isFinite);
-  const max=Math.max(1,...vals);
-  let out='<div class="heatmap-corner"></div>';
-  for(let h=0;h<24;h++){
-    out+='<div class="heatmap-hour">'+(h%3===0?(h===0?"12a":h<12?h+"a":h===12?"12p":(h-12)+"p"):"")+'</div>';
+  const rows=schedulePlaylistRows();
+  if(!rows.length){
+    root.innerHTML='<div class="muted tiny">No schedule data yet.</div>';
+    return;
   }
-  for(let d=0;d<7;d++){
-    out+='<div class="heatmap-day">'+PLAYLIST_WEEKDAYS[d]+'</div>';
+
+  let out='<div class="heatmap-corner">Hour</div>';
+  for(let d=0;d<7;d++)out+='<div class="heatmap-day-head">'+PLAYLIST_WEEKDAYS[d]+'</div>';
+
+  if(p){
+    const heat=Array.isArray(p.heatmapMinutes)?p.heatmapMinutes:[];
+    const vals=heat.flat().map(Number).filter(Number.isFinite);
+    const max=Math.max(1,...vals);
+
     for(let h=0;h<24;h++){
-      const minutes=Number(heat?.[d]?.[h]||0);
-      const normalized=minutes/max;
-      const alpha=minutes>0?(0.10+0.78*Math.sqrt(normalized)):0.025;
-      const start=new Date(2000,0,1,h,0).toLocaleTimeString([],{hour:"numeric"});
-      const end=new Date(2000,0,1,(h+1)%24,0).toLocaleTimeString([],{hour:"numeric"});
-      const title=PLAYLIST_WEEKDAYS[d]+" "+start+"–"+end+" · "+Math.round(minutes)+" observed min";
-      out+='<div class="heatmap-cell" style="--heat:'+alpha.toFixed(3)+'" title="'+escapeHtml(title)+'"></div>';
+      const hourLabel=new Date(2000,0,1,h,0).toLocaleTimeString([],{hour:"numeric"});
+      out+='<div class="heatmap-hour">'+hourLabel+'</div>';
+      for(let d=0;d<7;d++){
+        const minutes=Number(heat?.[d]?.[h]||0);
+        const normalized=minutes/max;
+        const alpha=minutes>0?(0.10+0.78*Math.sqrt(normalized)):0.025;
+        const endLabel=new Date(2000,0,1,(h+1)%24,0).toLocaleTimeString([],{hour:"numeric"});
+        const title=PLAYLIST_WEEKDAYS[d]+" "+hourLabel+"–"+endLabel+" · "+Math.round(minutes)+" observed min";
+        out+='<div class="heatmap-cell'+(minutes>0?' has-playlist':'')+'" style="--heat:'+alpha.toFixed(3)+'" title="'+escapeHtml(title)+'">'+
+          (minutes>0?escapeHtml(p.playlist):'')+
+        '</div>';
+      }
+    }
+  }else{
+    const candidates=rows.map(pl=>({
+      playlist:pl.playlist,
+      sessions:Number(pl.sessionCount||0),
+      heat:Array.isArray(pl.heatmapMinutes)?pl.heatmapMinutes:[]
+    }));
+
+    for(let h=0;h<24;h++){
+      const hourLabel=new Date(2000,0,1,h,0).toLocaleTimeString([],{hour:"numeric"});
+      out+='<div class="heatmap-hour">'+hourLabel+'</div>';
+      for(let d=0;d<7;d++){
+        const ranked=candidates.map(c=>({
+          playlist:c.playlist,
+          minutes:Number(c.heat?.[d]?.[h]||0),
+          sessions:c.sessions
+        })).filter(x=>x.minutes>0)
+          .sort((a,b)=>b.minutes-a.minutes || b.sessions-a.sessions || a.playlist.localeCompare(b.playlist));
+
+        const best=ranked[0];
+        const total=ranked.reduce((s,x)=>s+x.minutes,0);
+        const share=best&&total>0?best.minutes/total:0;
+        const alpha=best?(0.12+0.76*Math.sqrt(share)):0.025;
+        const endLabel=new Date(2000,0,1,(h+1)%24,0).toLocaleTimeString([],{hour:"numeric"});
+        const title=best
+          ? PLAYLIST_WEEKDAYS[d]+" "+hourLabel+"–"+endLabel+" · Most likely: "+best.playlist+
+            " ("+Math.round(share*100)+"% of observed playlist-minutes in this slot)"
+          : PLAYLIST_WEEKDAYS[d]+" "+hourLabel+"–"+endLabel+" · No observed playlist data";
+        out+='<div class="heatmap-cell'+(best?' has-playlist':'')+'" style="--heat:'+alpha.toFixed(3)+'" title="'+escapeHtml(title)+'">'+
+          (best?escapeHtml(best.playlist):'')+
+        '</div>';
+      }
     }
   }
   root.innerHTML=out;
 }
-function renderPlaylistScheduleWindows(p){
-  const root=document.getElementById("playlistScheduleWindows");if(!root)return;
-  const windows=(p?.likelyWindows||[]).slice().sort((a,b)=>a.weekday-b.weekday);
-  if(!windows.length){
-    root.innerHTML='<div class="muted tiny">Not enough observed sessions yet.</div>';
-    return;
-  }
-  root.innerHTML=windows.map(w=>{
-    const start=Number(w.typicalStartMinute);
-    const dur=Number(w.typicalDurationMinutes||0);
-    const end=(start+dur)%1440;
-    return '<div class="schedule-window-row">'+
-      '<div class="schedule-window-day">'+PLAYLIST_WEEKDAYS[w.weekday]+'</div>'+
-      '<div><strong>'+formatMinuteOfDay(start)+' – '+formatMinuteOfDay(end)+'</strong>'+
-      '<div class="muted tiny">'+Number(w.sessions||0)+' observed session'+(Number(w.sessions||0)===1?'':'s')+'</div></div>'+
-      '<div class="schedule-confidence">'+escapeHtml(w.confidence||"Low")+'</div>'+
-    '</div>';
-  }).join("");
-}
-function renderPlaylistScheduleSessions(p){
-  const root=document.getElementById("playlistScheduleSessions");
-  const count=document.getElementById("playlistScheduleSessionCount");
-  if(!root||!count)return;
-  const sessions=p?.recentSessions||[];
-  count.textContent=sessions.length?"("+sessions.length+" shown)":"";
-  if(!sessions.length){
-    root.innerHTML='<div class="muted tiny">No inferred sessions yet.</div>';
-    return;
-  }
-  root.innerHTML=sessions.map(s=>{
-    const start=new Date(Number(s.start)*1000);
-    const end=new Date(Number(s.end)*1000);
-    return '<div class="compact-row playlist-session-row">'+
-      '<div><strong>'+start.toLocaleString([],{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+'</strong>'+
-      '<div class="muted tiny">'+start.toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})+' – '+end.toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})+
-      ' · '+formatScheduleDuration(s.durationMinutes)+'</div></div>'+
-      '<div class="compact-time">'+Number(s.playCount||0)+' track'+(Number(s.playCount||0)===1?'':'s')+'</div>'+
-    '</div>';
-  }).join("");
-}
+
+
 function renderPlaylistSchedule(){
   renderPlaylistScheduleSelect();
   const p=currentSchedulePlaylist();
   const stats=document.getElementById("playlistScheduleStats");
   if(stats){
-    stats.innerHTML=p?[
-      statTile("Observed sessions",Number(p.sessionCount||0)),
-      statTile("Typical start",formatMinuteOfDay(p.typicalStartMinute)),
-      statTile("Typical duration",formatScheduleDuration(p.typicalDurationMinutes)),
-      statTile("Most common day",mostCommonScheduleDay(p)),
-      statTile("Confidence",p.confidence||"Low"),
-      statTile("Last observed",p.lastObserved?new Date(Number(p.lastObserved)*1000).toLocaleString():"—")
-    ].join(""):"";
+    if(p){
+      stats.innerHTML=[
+        statTile("Observed sessions",Number(p.sessionCount||0)),
+        statTile("Typical start",formatMinuteOfDay(p.typicalStartMinute)),
+        statTile("Typical duration",formatScheduleDuration(p.typicalDurationMinutes)),
+        statTile("Most common day",mostCommonScheduleDay(p)),
+        statTile("Confidence",p.confidence||"Low"),
+        statTile("Last observed",p.lastObserved?new Date(Number(p.lastObserved)*1000).toLocaleString():"—")
+      ].join("");
+    }else{
+      const rows=schedulePlaylistRows();
+      stats.innerHTML=[
+        statTile("Playlists",rows.length),
+        statTile("Observed sessions",Number(playlistScheduleDoc?.summary?.sessionCount||0)),
+        statTile("Window",Number(playlistScheduleDoc?.windowDays||90)+" days")
+      ].join("");
+    }
   }
   renderPlaylistScheduleHeatmap(p);
-  renderPlaylistScheduleWindows(p);
-  renderPlaylistScheduleSessions(p);
 }
 async function loadPlaylistSchedule(){
   const status=document.getElementById("status-playlistschedule");
