@@ -309,7 +309,7 @@ function drawHourChart(){
     }else{
       const hour=listenerSelectedHour;
       label.hidden=false;
-      label.textContent=formatHourRange(hour)+" · "+avgs[hour].toFixed(2)+" avg active streams";
+      label.textContent=formatHourRange(hour)+" · "+avgs[hour].toFixed(2)+" avg active streams · "+bins[hour].count+" samples";
     }
   }
 

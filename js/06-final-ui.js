@@ -75,6 +75,14 @@ function playlistSummaryText(item){
   if(!entries.length)return "";
   return entries.map(([name,count])=>name+(entries.length>1?" ("+count+")":"")).join(", ");
 }
+function observedLikeRecord(item,playlistOverride=""){
+  return {
+    artist:item?.artist||"",
+    title:item?.title||"Unknown",
+    album:item?.album||"",
+    playlist:normalizePlaylistName(playlistOverride||playlistSummaryText(item).split(" (")[0]||"")
+  };
+}
 function heardMeta(first,last){
   const f=first?fmtDate(first):"—";
   const l=last?fmtDate(last):"—";
@@ -98,7 +106,10 @@ function makeTopSongRow(s,i){
     '<div class="aggregate-meta">'+escapeHtml(heardMeta(s.first,s.last))+'</div>';
   const count=document.createElement("div");count.className="rank-count";
   count.textContent=(s.count||0)+" play"+(Number(s.count)===1?"":"s");
-  row.append(main,count,spotifyMiniButton(s.artist||"",s.title||""));
+  const like=historyLikeButton(observedLikeRecord(s));
+  row.append(main,count);
+  if(like)row.appendChild(like);
+  row.appendChild(spotifyMiniButton(s.artist||"",s.title||""));
   return row;
 }
 function renderCompactObservedTop50(){
@@ -152,7 +163,10 @@ function renderCompactObservedTop50(){
         (playlistSummaryText(sg)?'<div class="muted tiny">Playlist: '+escapeHtml(playlistSummaryText(sg))+'</div>':''))+
         '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
       const c=document.createElement("div");c.className="rank-count";c.textContent=(sg.count||0)+" plays";
-      row.append(main,c,spotifyMiniButton(sg.artist||a.artist||"",sg.title||""));
+      const like=historyLikeButton(observedLikeRecord({...sg,artist:sg.artist||a.artist||""}));
+      row.append(main,c);
+      if(like)row.appendChild(like);
+      row.appendChild(spotifyMiniButton(sg.artist||a.artist||"",sg.title||""));
       songsWrap.appendChild(row);
     });
     d.appendChild(songsWrap);ar.appendChild(d);
@@ -178,11 +192,17 @@ function renderCompactObservedTop50(){
         (playlistSummaryText(sg)?'<div class="muted tiny">Playlist: '+escapeHtml(playlistSummaryText(sg))+'</div>':'')+
         '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
       const c=document.createElement("div");c.className="rank-count";c.textContent=(sg.count||0)+" plays";
-      row.append(main,c,spotifyMiniButton(sg.artist||a.artist||"",sg.title||""));
+      const like=historyLikeButton(observedLikeRecord({...sg,artist:sg.artist||a.artist||""}));
+      row.append(main,c);
+      if(like)row.appendChild(like);
+      row.appendChild(spotifyMiniButton(sg.artist||a.artist||"",sg.title||""));
       songsWrap.appendChild(row);
     });
     d.appendChild(songsWrap);al.appendChild(d);
   });
+  const observedNo=document.getElementById("observedNoResults");
+  const anyObservedMatches=(songs.length||artists.length||albums.length||(data.topPlaylists||[]).some(x=>top50Matches(x,observedSearchValue)));
+  if(observedNo)observedNo.hidden=!(observedSearchValue&& !anyObservedMatches);
   const playlists=(data.topPlaylists||[]).slice(0,10);
   pl.replaceChildren();
   document.getElementById("observedPlaylistCount").textContent=playlists.length+" playlists";
@@ -197,7 +217,7 @@ function renderCompactObservedTop50(){
     sum.append(name,count);d.appendChild(sum);
 
     const songsWrap=document.createElement("div");songsWrap.className="artist-song-list";
-    (a.songs||[]).slice(0,15).forEach(sg=>{
+    (a.songs||[]).slice(0,5).forEach(sg=>{
       const row=document.createElement("div");row.className="artist-song-row";
       const main=document.createElement("div");
       main.innerHTML='<strong>'+escapeHtml(sg.title||"Unknown")+'</strong>'+
@@ -207,7 +227,10 @@ function renderCompactObservedTop50(){
         '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
       const c=document.createElement("div");c.className="rank-count";
       c.textContent=(sg.count||0)+" play"+(Number(sg.count)===1?"":"s");
-      row.append(main,c,spotifyMiniButton(sg.artist||"",sg.title||""));
+      const like=historyLikeButton(observedLikeRecord(sg,a.playlist||""));
+      row.append(main,c);
+      if(like)row.appendChild(like);
+      row.appendChild(spotifyMiniButton(sg.artist||"",sg.title||""));
       songsWrap.appendChild(row);
     });
     d.appendChild(songsWrap);pl.appendChild(d);
@@ -226,6 +249,8 @@ renderFavorites=async function(){
     statTile("Albums",uniqueCount(all,"album"))
   ].join("");
   const root=document.getElementById("favoritesList");root.replaceChildren();
+  const favNo=document.getElementById("favoritesNoResults");
+  if(favNo)favNo.hidden=!(favoritesSearchValue&&all.length===0);
   if(!all.length){
     root.innerHTML='<div class="muted tiny">'+(favoritesSearchValue?"No liked songs match your search.":"Like a song with the ♡ beside Now Playing. It will be saved here.")+'</div>';
     return;
@@ -287,9 +312,28 @@ document.getElementById("favoritesSearch").addEventListener("input",e=>{
   renderFavorites();
 });
 
+function syncSearchClearButton(input){
+  const b=document.querySelector('.search-clear[data-clear-for="'+input.id+'"]');
+  if(b)b.hidden=!input.value;
+}
+document.querySelectorAll(".search-wrap .history-search").forEach(input=>{
+  syncSearchClearButton(input);
+  input.addEventListener("input",()=>syncSearchClearButton(input));
+});
+document.querySelectorAll(".search-clear").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    const input=document.getElementById(btn.dataset.clearFor);
+    if(!input)return;
+    input.value="";
+    syncSearchClearButton(input);
+    input.dispatchEvent(new Event("input",{bubbles:true}));
+    input.focus();
+  });
+});
+
 Object.assign(infoHelp,{
   observed:{title:"Observed BottleRag History",items:[
-    ["Compact rankings","The player downloads compact all-time Top 50 Songs, Artists, and Albums plus the Top 10 Playlists. Recently Observed Tracks is not downloaded or shown."],
+    ["Compact rankings","The player downloads compact all-time Top 50 Songs, Artists, and Albums plus the Top 10 Playlists with five songs per playlist. Recently Observed Tracks is not downloaded or shown."],
     ["Monthly archive","The collector stores raw observed plays by month in the repository for long-term history. Those monthly files are not downloaded during normal player use."],
     ["Search","Search filters the compact song, artist, album, and playlist rankings already loaded on the device."],
     ["Cross-device","Every device using the GitHub Pages player reads the same shared compact summary produced by the cloud collector."]

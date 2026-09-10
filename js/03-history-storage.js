@@ -53,6 +53,71 @@ async function clearStore(store){
     tx.onerror=()=>reject(tx.error);
   });
 }
+function normalizePlaylistName(value){
+  return String(value||"").trim().replace(/\s+/g," ");
+}
+function normalizedUniqueCount(records,key){
+  const vals=new Set();
+  for(const r of records){
+    let v=(r[key]||"").trim();
+    if(key==="playlist")v=normalizePlaylistName(v).toLowerCase();
+    else v=v.toLowerCase();
+    if(v)vals.add(v);
+  }
+  return vals.size;
+}
+function historyTrackKey(record){
+  return ((record?.artist||"").trim().toLowerCase()+"|"+(record?.title||"").trim().toLowerCase());
+}
+async function isFavoriteRecord(record){
+  if(isUnknownRecord(record))return false;
+  const key=historyTrackKey(record);
+  const all=await getAllRecords("favorites");
+  return all.some(x=>x.trackKey===key);
+}
+function historyLikeButton(record){
+  if(isUnknownRecord(record))return null;
+  const b=document.createElement("button");
+  b.className="history-like-btn";
+  b.type="button";
+  const sync=async()=>{
+    const liked=await isFavoriteRecord(record);
+    b.classList.toggle("liked",liked);
+    b.textContent=liked?"♥":"♡";
+    b.title=liked?"Unlike this song":"Like this song";
+    b.setAttribute("aria-label",(liked?"Unlike ":"Like ")+(record.title||"this song"));
+  };
+  b.addEventListener("click",async()=>{
+    const key=historyTrackKey(record);
+    const all=await getAllRecords("favorites");
+    const existing=all.find(x=>x.trackKey===key);
+    const db=await openHistoryDB();
+    if(existing){
+      await new Promise((resolve,reject)=>{
+        const tx=db.transaction("favorites","readwrite");
+        tx.objectStore("favorites").delete(key);
+        tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);
+      });
+    }else{
+      await putRecord("favorites",{
+        trackKey:key,
+        artist:record.artist||"",
+        title:record.title||"Unknown",
+        album:record.album||"",
+        art:record.art||"",
+        playlist:normalizePlaylistName(record.playlist||""),
+        likedAt:Date.now()
+      });
+    }
+    await sync();
+    if(typeof renderFavorites==="function")await renderFavorites();
+    if(typeof updateNowLikeUI==="function")await updateNowLikeUI();
+    if(typeof renderCompactObservedTop50==="function")renderCompactObservedTop50();
+  });
+  sync().catch(()=>{});
+  return b;
+}
+
 function itemToRecord(item,source="observed"){
   const song=item?.song||{};
   const playedAt=Number(item?.played_at||0);
@@ -68,7 +133,7 @@ function itemToRecord(item,source="observed"){
     art:song.art||"",
     duration:Number(item?.duration||0),
     playedAt,
-    playlist:item?.playlist||"",
+    playlist:normalizePlaylistName(item?.playlist||""),
     streamer:item?.streamer||"",
     isRequest:!!item?.is_request,
     source,
@@ -198,14 +263,18 @@ function renderCompactHistory(id,records,limit=25,options={}){
   if(Number.isFinite(limit))rows=rows.slice(0,limit);
   if(!rows.length){el.innerHTML='<div class="muted tiny">No records yet.</div>';return}
   for(const r of rows){
-    const row=document.createElement("div");row.className="compact-row spotify-history-row";
+    const row=document.createElement("div");row.className="compact-row history-song-row";
     const main=document.createElement("div");main.className="compact-main";
     main.innerHTML='<strong>'+escapeHtml(r.title||"Unknown")+'</strong><div class="muted tiny">'+
       escapeHtml(r.artist||"")+(r.album?' · '+escapeHtml(r.album):'')+
-      (r.playlist?' · Playlist: '+escapeHtml(r.playlist):'')+'</div>';
+      (r.playlist?' · Playlist: '+escapeHtml(normalizePlaylistName(r.playlist)):'')+'</div>';
     const time=document.createElement("div");time.className="compact-time";time.textContent=fmtDate(r.playedAt);
-    const spot=spotifyHistoryButton(r.artist||"",r.title||"");
-    row.append(main,time,spot);el.appendChild(row);
+    const like=historyLikeButton(r);
+    const spot=isUnknownRecord(r)?null:spotifyHistoryButton(r.artist||"",r.title||"");
+    row.append(main,time);
+    if(like)row.appendChild(like);
+    if(spot)row.appendChild(spot);
+    el.appendChild(row);
   }
 }
 function renderSessionStats(){
@@ -248,27 +317,31 @@ function topCounts(records,key,limit=5){
 function listeningGroupName(record,key){
   if(key==="artist")return (record.artist||"").trim()||"Unknown artist";
   if(key==="album")return (record.album||"").trim()||"Unknown album";
-  if(key==="playlist")return (record.playlist||"").trim()||"Unknown playlist";
+  if(key==="playlist")return normalizePlaylistName(record.playlist||"")||"Unknown playlist";
   return "";
 }
 function latestPlayedAt(records){
   return records.length?Math.max(...records.map(r=>Number(r.playedAt||0))):0;
 }
-function renderListeningGroups(records,key,rootId,countId,labelPlural){
+function renderListeningGroups(records,key,rootId,countId,labelPlural,limitPerGroup=Infinity){
   const root=document.getElementById(rootId);
   const count=document.getElementById(countId);
   if(!root||!count)return;
 
   const groups=new Map();
   for(const r of records){
-    const name=listeningGroupName(r,key);
-    if(!name || name.startsWith("Unknown "))continue;
-    if(!groups.has(name))groups.set(name,[]);
-    groups.get(name).push(r);
+    const displayName=listeningGroupName(r,key);
+    if(!displayName || displayName.startsWith("Unknown "))continue;
+    const groupKey=(key==="playlist"?normalizePlaylistName(displayName):displayName).toLowerCase();
+    if(!groups.has(groupKey))groups.set(groupKey,{name:displayName,records:[]});
+    const g=groups.get(groupKey);
+    // Prefer the latest spelling/capitalization as display name.
+    if(Number(r.playedAt||0)>=latestPlayedAt(g.records))g.name=displayName;
+    g.records.push(r);
   }
 
-  const sorted=[...groups.entries()].sort((a,b)=>
-    latestPlayedAt(b[1])-latestPlayedAt(a[1]) || a[0].localeCompare(b[0])
+  const sorted=[...groups.values()].sort((a,b)=>
+    latestPlayedAt(b.records)-latestPlayedAt(a.records) || a.name.localeCompare(b.name)
   );
   count.textContent=sorted.length+" "+labelPlural;
   root.replaceChildren();
@@ -278,7 +351,8 @@ function renderListeningGroups(records,key,rootId,countId,labelPlural){
     return;
   }
 
-  for(const [name,recs] of sorted){
+  for(const group of sorted){
+    const {name,recs}= {name:group.name,recs:group.records};
     const d=document.createElement("details");
     d.className="playlist-history-group";
     const s=document.createElement("summary");
@@ -296,25 +370,30 @@ function renderListeningGroups(records,key,rootId,countId,labelPlural){
     list.className="playlist-song-list compact-history";
     d.appendChild(list);
     root.appendChild(d);
-    renderCompactHistoryInto(list,recs);
+    renderCompactHistoryInto(list,recs,limitPerGroup);
   }
 }
-function renderCompactHistoryInto(el,records){
+function renderCompactHistoryInto(el,records,limit=Infinity){
   el.replaceChildren();
-  const rows=[...records].sort((a,b)=>(b.playedAt||0)-(a.playedAt||0));
+  let rows=[...records].sort((a,b)=>(b.playedAt||0)-(a.playedAt||0));
+  if(Number.isFinite(limit))rows=rows.slice(0,limit);
   if(!rows.length){
     el.innerHTML='<div class="muted tiny">No records yet.</div>';
     return;
   }
   for(const r of rows){
-    const row=document.createElement("div");row.className="compact-row spotify-history-row";
+    const row=document.createElement("div");row.className="compact-row history-song-row";
     const main=document.createElement("div");main.className="compact-main";
     main.innerHTML='<strong>'+escapeHtml(r.title||"Unknown")+'</strong>'+
       '<div class="muted tiny">'+escapeHtml(r.artist||"")+
       (r.album?' · '+escapeHtml(r.album):'')+
-      (r.playlist?' · Playlist: '+escapeHtml(r.playlist):'')+'</div>';
+      (r.playlist?' · Playlist: '+escapeHtml(normalizePlaylistName(r.playlist)):'')+'</div>';
     const time=document.createElement("div");time.className="compact-time";time.textContent=fmtDate(r.playedAt);
-    row.append(main,time,spotifyHistoryButton(r.artist||"",r.title||""));
+    const like=historyLikeButton(r);
+    const spot=isUnknownRecord(r)?null:spotifyHistoryButton(r.artist||"",r.title||"");
+    row.append(main,time);
+    if(like)row.appendChild(like);
+    if(spot)row.appendChild(spot);
     el.appendChild(row);
   }
 }
@@ -331,7 +410,7 @@ async function renderPersistentHistories(){
     statTile("Unique artists",uniqueCount(listening,"artist")),
     statTile("Unique tracks",new Set(listening.map(r=>(r.artist||"")+"|"+(r.title||""))).size),
     statTile("Unique albums",uniqueCount(listening,"album")),
-    statTile("Unique playlists",uniqueCount(listening,"playlist")),
+    statTile("Unique playlists",normalizedUniqueCount(listening,"playlist")),
     statTile("Tracked listening",formatHMS(listenSeconds)),
     statTile("First recorded",firstL?fmtDate(firstL):"—"),
     statTile("Most recent",lastL?fmtDate(lastL):"—"),
@@ -341,10 +420,12 @@ async function renderPersistentHistories(){
 
   const q=myHistorySearchValue.trim().toLowerCase();
   const visible=q?listening.filter(r=>{
-    const hay=[r.title,r.artist,r.album,r.playlist].filter(Boolean).join(" ").toLowerCase();
+    const hay=[r.title,r.artist,r.album,normalizePlaylistName(r.playlist)].filter(Boolean).join(" ").toLowerCase();
     return hay.includes(q);
   }):listening;
 
+  const noResults=document.getElementById("myHistoryNoResults");
+  if(noResults)noResults.hidden=!(q&&visible.length===0);
   document.getElementById("myHistoryListCount").textContent=visible.length+" plays";
   renderCompactHistory("myHistoryList",visible,Infinity);
 

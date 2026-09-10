@@ -45,7 +45,7 @@ document.getElementById("nowLikeBtn").addEventListener("click",async()=>{
   }else{
     await putRecord("favorites",{
       trackKey:key,artist:s.artist||"",title:s.title||"Unknown",album:s.album||"",
-      genre:s.genre||"",art:s.art||"",playlist:latestData?.now_playing?.playlist||"",likedAt:Date.now()
+      genre:s.genre||"",art:s.art||"",playlist:normalizePlaylistName(latestData?.now_playing?.playlist||""),likedAt:Date.now()
     });
   }
   await updateNowLikeUI();await renderFavorites();

@@ -1099,3 +1099,122 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
   cursor:pointer;
   touch-action:manipulation;
 }
+
+
+/* v33 search-clear, like buttons, compact playlist lists */
+.search-wrap{
+  position:relative;
+  width:100%;
+}
+.search-wrap .history-search{
+  margin-bottom:10px;
+  padding-right:40px;
+}
+.search-clear{
+  position:absolute;
+  right:7px;
+  top:50%;
+  transform:translateY(calc(-50% - 5px));
+  width:28px;
+  height:28px;
+  min-height:0;
+  padding:0;
+  border:0;
+  border-radius:50%;
+  background:transparent;
+  color:var(--muted);
+  font-size:22px;
+  line-height:1;
+}
+.search-clear:hover{
+  background:#2a2a2a;
+  color:var(--text);
+}
+.search-clear[hidden],
+.search-no-results[hidden]{
+  display:none !important;
+}
+.search-no-results{
+  margin:-2px 0 10px;
+}
+.history-like-btn{
+  width:28px;
+  height:28px;
+  min-height:0;
+  padding:0;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:9px;
+  font-size:20px;
+  line-height:1;
+}
+.history-like-btn.liked{
+  font-weight:800;
+}
+.favorite-row{
+  grid-template-columns:minmax(0,1fr) auto !important;
+}
+.compact-row.history-song-row{
+  grid-template-columns:minmax(0,1fr) auto auto;
+}
+@media(max-width:560px){
+  .compact-row.history-song-row{
+    grid-template-columns:minmax(0,1fr) auto;
+  }
+  .compact-row.history-song-row .compact-time{
+    grid-column:1/2;
+    text-align:left;
+  }
+}
+
+/* v33 list layout after removing Spotify controls */
+.track{
+  grid-template-columns:54px minmax(0,1fr) 30px auto !important;
+}
+.track.no-like{
+  grid-template-columns:54px minmax(0,1fr) auto !important;
+}
+@media(max-width:520px){
+  .track{
+    grid-template-columns:48px minmax(0,1fr) 28px auto !important;
+  }
+  .track.no-like{
+    grid-template-columns:48px minmax(0,1fr) auto !important;
+  }
+  .track .track-time{
+    grid-column:auto;
+    text-align:right;
+  }
+  .track.no-like .track-time{
+    grid-column:auto;
+  }
+}
+
+/* v33.1: Spotify remains on known-song rows; Unknown gets neither heart nor Spotify */
+.compact-row.history-song-row{
+  grid-template-columns:minmax(0,1fr) auto auto auto;
+}
+.track{
+  grid-template-columns:54px minmax(0,1fr) 30px 30px auto !important;
+}
+.track.no-like{
+  grid-template-columns:54px minmax(0,1fr) auto !important;
+}
+@media(max-width:560px){
+  .compact-row.history-song-row{
+    grid-template-columns:minmax(0,1fr) auto auto;
+  }
+  .compact-row.history-song-row .compact-time{
+    grid-column:1/2;
+    text-align:left;
+  }
+}
+@media(max-width:520px){
+  .track{
+    grid-template-columns:48px minmax(0,1fr) 28px 28px auto !important;
+  }
+  .track.no-like{
+    grid-template-columns:48px minmax(0,1fr) auto !important;
+  }
+}

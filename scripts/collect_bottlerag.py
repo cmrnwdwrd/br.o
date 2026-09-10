@@ -56,7 +56,7 @@ def normalize(item):
         "art": song.get("art") or "",
         "duration": duration,
         "playedAt": played,
-        "playlist": item.get("playlist") or "",
+        "playlist": " ".join(str(item.get("playlist") or "").split()),
         "streamer": item.get("streamer") or "",
         "isRequest": bool(item.get("is_request")),
     }
@@ -121,7 +121,7 @@ def bump_track_summary(container, key, rec):
         x["artist"] = rec.get("artist")
     if not x.get("album") and rec.get("album"):
         x["album"] = rec.get("album")
-    playlist = (rec.get("playlist") or "").strip()
+    playlist = " ".join(str(rec.get("playlist") or "").split())
     if playlist:
         x.setdefault("playlists", {})
         x["playlists"][playlist] = int(x["playlists"].get(playlist) or 0) + 1
@@ -174,7 +174,7 @@ def add_to_aggregates(agg, rec):
     bump_first_last(al, ts)
     bump_track_summary(al["songs"], track_key, rec)
 
-    playlist = (rec.get("playlist") or "").strip()
+    playlist = " ".join(str(rec.get("playlist") or "").split())
     if playlist:
         playlist_key = playlist.lower()
         if playlist_key not in agg["playlists"]:
@@ -236,7 +236,7 @@ def build_top50(agg):
             "count": int(a.get("count") or 0),
             "first": a.get("first"),
             "last": a.get("last"),
-            "songs": sorted_track_items(a.get("songs", {}), 15),
+            "songs": sorted_track_items(a.get("songs", {}), 5),
         })
 
     return {

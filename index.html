@@ -111,8 +111,8 @@
 <button class="favorite-tab active" data-fav-view="recent" type="button">Recent</button>
 <button class="favorite-tab" data-fav-view="artist" type="button">Artist</button>
 <button class="favorite-tab" data-fav-view="album" type="button">Album</button>
-</div><input aria-label="Search liked songs" class="history-search" id="favoritesSearch" placeholder="Search liked songs, artists, or albums…" type="search"/>
-<div class="stats-grid" id="favoritesSummary"></div>
+</div><div class="search-wrap"><input aria-label="Search liked songs" class="history-search" id="favoritesSearch" placeholder="Search liked songs, artists, or albums…" type="search"/><button aria-label="Clear liked songs search" class="search-clear" data-clear-for="favoritesSearch" hidden="" title="Clear search" type="button">×</button></div>
+<div class="search-no-results muted tiny" hidden="" id="favoritesNoResults">No results.</div><div class="stats-grid" id="favoritesSummary"></div>
 <div class="favorites-list" id="favoritesList"></div>
 <div class="status-footer">
 <div class="refresh-status" id="status-favorites">Stored on this device</div>
@@ -201,8 +201,8 @@
 <button aria-expanded="true" class="collapse-btn" data-target="body-myhistory" title="Hide/show My Listening History" type="button"><span class="arrow">▼</span></button>
 </div>
 <div class="card-body" id="body-myhistory">
-<input aria-label="Search my listening history" class="history-search" id="myHistorySearch" placeholder="Search tracks, artists, albums, or playlists…" type="search"/>
-<div class="stats-grid" id="myHistoryStats"></div><div class="milestone-panel" id="listeningMilestones"></div>
+<div class="search-wrap"><input aria-label="Search my listening history" class="history-search" id="myHistorySearch" placeholder="Search tracks, artists, albums, or playlists…" type="search"/><button aria-label="Clear listening history search" class="search-clear" data-clear-for="myHistorySearch" hidden="" title="Clear search" type="button">×</button></div>
+<div class="search-no-results muted tiny" hidden="" id="myHistoryNoResults">No results.</div><div class="stats-grid" id="myHistoryStats"></div><div class="milestone-panel" id="listeningMilestones"></div>
 <div class="history-top compat-hidden" id="myHistoryTop" aria-hidden="true"></div>
 <details class="ranking-details history-list-details">
 <summary>Recently Listened Tracks <span class="muted tiny" id="myHistoryListCount"></span></summary>
@@ -233,8 +233,8 @@
 <div class="card-tools"><button aria-label="Refresh observed BottleRag history" class="icon-btn" id="refreshObservedHistory" title="Refresh observed history" type="button"><span aria-hidden="true">↻</span></button><button aria-expanded="true" class="collapse-btn" data-target="body-observed" title="Hide/show Observed BottleRag History" type="button"><span class="arrow">▼</span></button></div></div>
 <div class="card-body" id="body-observed">
 <div class="history-filter-bar">
-<input aria-label="Search observed BottleRag history" class="history-search" id="observedSearch" placeholder="Search songs, artists, albums, or playlists…" type="search"/>
-</div><div class="stats-grid" id="observedStats"></div><div id="observedTop" class="compat-hidden" aria-hidden="true"></div>
+<div class="search-wrap"><input aria-label="Search observed BottleRag history" class="history-search" id="observedSearch" placeholder="Search songs, artists, albums, or playlists…" type="search"/><button aria-label="Clear observed history search" class="search-clear" data-clear-for="observedSearch" hidden="" title="Clear search" type="button">×</button></div>
+</div><div class="search-no-results muted tiny" hidden="" id="observedNoResults">No results.</div><div class="stats-grid" id="observedStats"></div><div id="observedTop" class="compat-hidden" aria-hidden="true"></div>
 
 <details class="ranking-details">
 <summary>Most Played Songs <span class="muted tiny" id="observedSongCount"></span></summary>

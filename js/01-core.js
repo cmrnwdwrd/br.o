@@ -1,3 +1,6 @@
+function normalizePlaylistName(value){
+  return String(value||"").trim().replace(/\s+/g," ");
+}
 const API = "https://studio18.radiolize.com/api/nowplaying/109";
 const LIVE_FALLBACK_MS = 60000;
 
@@ -220,17 +223,22 @@ function buildRecentTrackRow(item){
   const parts=[];
   if(s.artist)parts.push(s.artist);
   if(s.album)parts.push(s.album);
-  if(item.playlist)parts.push("Playlist: "+item.playlist);
+  if(item.playlist)parts.push("Playlist: "+normalizePlaylistName(item.playlist));
   if(item.streamer)parts.push("streamer: "+item.streamer);
   if(item.is_request)parts.push("requested");
   sub.textContent=parts.join(" · ");
   main.append(titleRow,sub);
-  const like=makeRecentLikeButton(s,item);
-  const spot=makeRecentSpotifyControl(s);
+  const unknown=((s.title||"").trim().toLowerCase()==="unknown" && !(s.artist||"").trim());
+  if(unknown)row.classList.add("no-like");
+  const like=unknown?null:makeRecentLikeButton(s,item);
+  const spot=unknown?null:makeRecentSpotifyControl(s);
   const right=document.createElement("div"); right.className="track-time muted tiny";
   const when=item.played_at?new Date(item.played_at*1000):null;
   right.textContent=fmt(item.duration)+(when&&!isNaN(when)?"\n"+when.toLocaleTimeString():"");
-  row.append(img,main,like,spot,right);
+  row.append(img,main);
+  if(like)row.appendChild(like);
+  if(spot)row.appendChild(spot);
+  row.appendChild(right);
   return row;
 }
 function fillRecentList(container,items){
