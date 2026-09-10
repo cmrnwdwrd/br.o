@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T03:00:24.421918+00:00",
+  "updatedAt": "2026-09-10T03:05:24.900751+00:00",
   "summary": {
-    "totalPlays": 435,
+    "totalPlays": 437,
     "unknownPlays": 50,
-    "uniqueTracks": 420,
+    "uniqueTracks": 421,
     "uniqueArtists": 340,
-    "uniqueAlbums": 380,
+    "uniqueAlbums": 381,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789009039
+    "lastObserved": 1789009510
   },
   "topSongs": [
+    {
+      "artist": "blink-182",
+      "title": "Adam's Song",
+      "album": "Enema Of The State",
+      "count": 2,
+      "first": 1789003210,
+      "last": 1789009262,
+      "playlists": {
+        "MCR wednesday wind down": 2
+      }
+    },
     {
       "artist": "My Chemical Romance",
       "title": "Demolition Lovers",
@@ -179,6 +190,17 @@
     },
     {
       "artist": "My Chemical Romance",
+      "title": "Kill All Your Friends",
+      "album": "Famous Last Words",
+      "count": 1,
+      "first": 1789009510,
+      "last": 1789009510,
+      "playlists": {
+        "MCR wednesday wind down": 1
+      }
+    },
+    {
+      "artist": "My Chemical Romance",
       "title": "Make Room!!!!",
       "album": "Number Four",
       "count": 1,
@@ -338,17 +360,6 @@
       "count": 1,
       "first": 1789003457,
       "last": 1789003457,
-      "playlists": {
-        "MCR wednesday wind down": 1
-      }
-    },
-    {
-      "artist": "blink-182",
-      "title": "Adam's Song",
-      "album": "Enema Of The State",
-      "count": 1,
-      "first": 1789003210,
-      "last": 1789003210,
       "playlists": {
         "MCR wednesday wind down": 1
       }
@@ -550,25 +561,14 @@
       "playlists": {
         "anti-capitalist weekday afternoon #1": 1
       }
-    },
-    {
-      "artist": "Neutral Milk Hotel",
-      "title": "Communist Daughter",
-      "album": "In the Aeroplane Over the Sea",
-      "count": 1,
-      "first": 1788994893,
-      "last": 1788994893,
-      "playlists": {
-        "anti-capitalist weekday afternoon #1": 1
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "My Chemical Romance",
-      "count": 22,
+      "count": 23,
       "first": 1788965302,
-      "last": 1789009039,
+      "last": 1789009510,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -623,6 +623,17 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Kill All Your Friends",
+          "album": "Famous Last Words",
+          "count": 1,
+          "first": 1789009510,
+          "last": 1789009510,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         },
         {
@@ -1472,6 +1483,25 @@
           "last": 1788938278,
           "playlists": {
             "breakbeat": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "blink-182",
+      "count": 2,
+      "first": 1789003210,
+      "last": 1789009262,
+      "songs": [
+        {
+          "artist": "blink-182",
+          "title": "Adam's Song",
+          "album": "Enema Of The State",
+          "count": 2,
+          "first": 1789003210,
+          "last": 1789009262,
+          "playlists": {
+            "MCR wednesday wind down": 2
           }
         }
       ]
@@ -2374,25 +2404,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "blink-182",
-      "count": 1,
-      "first": 1789003210,
-      "last": 1789003210,
-      "songs": [
-        {
-          "artist": "blink-182",
-          "title": "Adam's Song",
-          "album": "Enema Of The State",
-          "count": 1,
-          "first": 1789003210,
-          "last": 1789003210,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
@@ -2898,6 +2909,26 @@
           "last": 1788929259,
           "playlists": {
             "more home alone": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "blink-182",
+      "album": "Enema Of The State",
+      "count": 2,
+      "first": 1789003210,
+      "last": 1789009262,
+      "songs": [
+        {
+          "artist": "blink-182",
+          "title": "Adam's Song",
+          "album": "Enema Of The State",
+          "count": 2,
+          "first": 1789003210,
+          "last": 1789009262,
+          "playlists": {
+            "MCR wednesday wind down": 2
           }
         }
       ]
@@ -3498,6 +3529,26 @@
     },
     {
       "artist": "My Chemical Romance",
+      "album": "Famous Last Words",
+      "count": 1,
+      "first": 1789009510,
+      "last": 1789009510,
+      "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Kill All Your Friends",
+          "album": "Famous Last Words",
+          "count": 1,
+          "first": 1789009510,
+          "last": 1789009510,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "My Chemical Romance",
       "album": "Number Four",
       "count": 1,
       "first": 1789009039,
@@ -3610,26 +3661,6 @@
           "count": 1,
           "first": 1789004837,
           "last": 1789004837,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "blink-182",
-      "album": "Enema Of The State",
-      "count": 1,
-      "first": 1789003210,
-      "last": 1789003210,
-      "songs": [
-        {
-          "artist": "blink-182",
-          "title": "Adam's Song",
-          "album": "Enema Of The State",
-          "count": 1,
-          "first": 1789003210,
-          "last": 1789003210,
           "playlists": {
             "MCR wednesday wind down": 1
           }
@@ -3815,26 +3846,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Girl and Girl",
-      "album": "Call A Doctor",
-      "count": 1,
-      "first": 1788995529,
-      "last": 1788995529,
-      "songs": [
-        {
-          "artist": "Girl and Girl",
-          "title": "Maple Jean and the Anthropocene",
-          "album": "Call A Doctor",
-          "count": 1,
-          "first": 1788995529,
-          "last": 1788995529,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
@@ -3966,10 +3977,21 @@
     },
     {
       "playlist": "MCR wednesday wind down",
-      "count": 36,
+      "count": 38,
       "first": 1788995310,
-      "last": 1789009039,
+      "last": 1789009510,
       "songs": [
+        {
+          "artist": "blink-182",
+          "title": "Adam's Song",
+          "album": "Enema Of The State",
+          "count": 2,
+          "first": 1789003210,
+          "last": 1789009262,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "Demolition Lovers",
@@ -4010,17 +4032,6 @@
           "count": 2,
           "first": 1789004353,
           "last": 1789006366,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Give 'Em Hell, Kid",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 2,
-          "first": 1789004215,
-          "last": 1789006168,
           "playlists": {
             "MCR wednesday wind down": 2
           }
