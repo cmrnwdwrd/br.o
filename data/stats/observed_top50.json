@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T10:50:42.903222+00:00",
+  "updatedAt": "2026-09-10T10:55:40.884531+00:00",
   "summary": {
-    "totalPlays": 553,
+    "totalPlays": 554,
     "unknownPlays": 64,
     "uniqueTracks": 501,
     "uniqueArtists": 385,
     "uniqueAlbums": 437,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789037387
+    "lastObserved": 1789037695
   },
   "topSongs": [
+    {
+      "artist": "Childish Gambino",
+      "title": "V. 3005 - Beach Picnic Version",
+      "album": "Kauai",
+      "count": 2,
+      "first": 1788954883,
+      "last": 1789037695,
+      "playlists": {
+        "freestyle beats to crash your car to": 2
+      }
+    },
     {
       "artist": "Hallucinogenius",
       "title": "Don't Assume My Genre",
@@ -549,17 +560,6 @@
       "last": 1788986267,
       "playlists": {
         "1default": 2
-      }
-    },
-    {
-      "artist": "hkmori",
-      "title": "lost",
-      "album": "unrequited love",
-      "count": 2,
-      "first": 1788938854,
-      "last": 1788946044,
-      "playlists": {
-        "breakbeat": 2
       }
     }
   ],
@@ -2011,6 +2011,25 @@
       ]
     },
     {
+      "artist": "Childish Gambino",
+      "count": 2,
+      "first": 1788954883,
+      "last": 1789037695,
+      "songs": [
+        {
+          "artist": "Childish Gambino",
+          "title": "V. 3005 - Beach Picnic Version",
+          "album": "Kauai",
+          "count": 2,
+          "first": 1788954883,
+          "last": 1789037695,
+          "playlists": {
+            "freestyle beats to crash your car to": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Hallucinogenius",
       "count": 2,
       "first": 1788950539,
@@ -2534,25 +2553,6 @@
           "count": 2,
           "first": 1788940409,
           "last": 1789021594,
-          "playlists": {
-            "breakbeat": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Goreshit",
-      "count": 2,
-      "first": 1788940813,
-      "last": 1789021080,
-      "songs": [
-        {
-          "artist": "Goreshit",
-          "title": "Black Is the New Black",
-          "album": "Copyright Infringement EP",
-          "count": 2,
-          "first": 1788940813,
-          "last": 1789021080,
           "playlists": {
             "breakbeat": 2
           }
@@ -3410,6 +3410,26 @@
       ]
     },
     {
+      "artist": "Childish Gambino",
+      "album": "Kauai",
+      "count": 2,
+      "first": 1788954883,
+      "last": 1789037695,
+      "songs": [
+        {
+          "artist": "Childish Gambino",
+          "title": "V. 3005 - Beach Picnic Version",
+          "album": "Kauai",
+          "count": 2,
+          "first": 1788954883,
+          "last": 1789037695,
+          "playlists": {
+            "freestyle beats to crash your car to": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Hallucinogenius",
       "album": "High-Wasted",
       "count": 2,
@@ -4090,26 +4110,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Joey Valence & Brae",
-      "album": "PUNK TACTICS",
-      "count": 2,
-      "first": 1788939624,
-      "last": 1789018315,
-      "songs": [
-        {
-          "artist": "Joey Valence & Brae",
-          "title": "STARTAFIGHT",
-          "album": "PUNK TACTICS",
-          "count": 2,
-          "first": 1788939624,
-          "last": 1789018315,
-          "playlists": {
-            "breakbeat": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
@@ -4241,10 +4241,21 @@
     },
     {
       "playlist": "freestyle beats to crash your car to",
-      "count": 46,
+      "count": 47,
       "first": 1788948264,
-      "last": 1789037387,
+      "last": 1789037695,
       "songs": [
+        {
+          "artist": "Childish Gambino",
+          "title": "V. 3005 - Beach Picnic Version",
+          "album": "Kauai",
+          "count": 2,
+          "first": 1788954883,
+          "last": 1789037695,
+          "playlists": {
+            "freestyle beats to crash your car to": 2
+          }
+        },
         {
           "artist": "Hallucinogenius",
           "title": "Don't Assume My Genre",
@@ -4287,17 +4298,6 @@
           "last": 1789036172,
           "playlists": {
             "freestyle beats to crash your car to": 2
-          }
-        },
-        {
-          "artist": "Verzache, Swell",
-          "title": "Waiting for You",
-          "album": "D97",
-          "count": 1,
-          "first": 1789036471,
-          "last": 1789036471,
-          "playlists": {
-            "freestyle beats to crash your car to": 1
           }
         }
       ]
