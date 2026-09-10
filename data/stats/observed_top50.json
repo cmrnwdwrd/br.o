@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T03:05:24.900751+00:00",
+  "updatedAt": "2026-09-10T03:10:24.957193+00:00",
   "summary": {
-    "totalPlays": 437,
+    "totalPlays": 438,
     "unknownPlays": 50,
-    "uniqueTracks": 421,
+    "uniqueTracks": 422,
     "uniqueArtists": 340,
-    "uniqueAlbums": 381,
+    "uniqueAlbums": 382,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789009510
+    "lastObserved": 1789009780
   },
   "topSongs": [
     {
@@ -186,6 +186,17 @@
       "last": 1788930391,
       "playlists": {
         "1default": 2
+      }
+    },
+    {
+      "artist": "My Chemical Romance",
+      "title": "The Foundations of Decay",
+      "album": "The Foundations of Decay",
+      "count": 1,
+      "first": 1789009780,
+      "last": 1789009780,
+      "playlists": {
+        "MCR wednesday wind down": 1
       }
     },
     {
@@ -550,25 +561,14 @@
       "playlists": {
         "anti-capitalist weekday afternoon #1": 1
       }
-    },
-    {
-      "artist": "They Might Be Giants",
-      "title": "The Communists Have the Music",
-      "album": "The Communists Have the Music",
-      "count": 1,
-      "first": 1788995009,
-      "last": 1788995009,
-      "playlists": {
-        "anti-capitalist weekday afternoon #1": 1
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "My Chemical Romance",
-      "count": 23,
+      "count": 24,
       "first": 1788965302,
-      "last": 1789009510,
+      "last": 1789009780,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -623,6 +623,17 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "The Foundations of Decay",
+          "album": "The Foundations of Decay",
+          "count": 1,
+          "first": 1789009780,
+          "last": 1789009780,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         },
         {
@@ -3529,6 +3540,26 @@
     },
     {
       "artist": "My Chemical Romance",
+      "album": "The Foundations of Decay",
+      "count": 1,
+      "first": 1789009780,
+      "last": 1789009780,
+      "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "The Foundations of Decay",
+          "album": "The Foundations of Decay",
+          "count": 1,
+          "first": 1789009780,
+          "last": 1789009780,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "My Chemical Romance",
       "album": "Famous Last Words",
       "count": 1,
       "first": 1789009510,
@@ -3826,26 +3857,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "I DONT KNOW HOW BUT THEY FOUND ME",
-      "album": "Choke",
-      "count": 1,
-      "first": 1788995868,
-      "last": 1788995868,
-      "songs": [
-        {
-          "artist": "I DONT KNOW HOW BUT THEY FOUND ME",
-          "title": "Choke",
-          "album": "Choke",
-          "count": 1,
-          "first": 1788995868,
-          "last": 1788995868,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
@@ -3913,6 +3924,69 @@
       ]
     },
     {
+      "playlist": "MCR wednesday wind down",
+      "count": 39,
+      "first": 1788995310,
+      "last": 1789009780,
+      "songs": [
+        {
+          "artist": "blink-182",
+          "title": "Adam's Song",
+          "album": "Enema Of The State",
+          "count": 2,
+          "first": 1789003210,
+          "last": 1789009262,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Demolition Lovers",
+          "album": "I Brought You My Bullets, You Brought Me Your Love",
+          "count": 2,
+          "first": 1789002841,
+          "last": 1789007500,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "Evanescence",
+          "title": "Lithium",
+          "album": "The Open Door",
+          "count": 2,
+          "first": 1789004613,
+          "last": 1789007274,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Cemetery Drive",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789003808,
+          "last": 1789007053,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "Taking Back Sunday",
+          "title": "Liar (It Takes One To Know One)",
+          "album": "Louder Now (U.S. Version)",
+          "count": 2,
+          "first": 1789004353,
+          "last": 1789006366,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        }
+      ]
+    },
+    {
       "playlist": "breakbeat",
       "count": 39,
       "first": 1788938278,
@@ -3971,69 +4045,6 @@
           "last": 1788945201,
           "playlists": {
             "breakbeat": 1
-          }
-        }
-      ]
-    },
-    {
-      "playlist": "MCR wednesday wind down",
-      "count": 38,
-      "first": 1788995310,
-      "last": 1789009510,
-      "songs": [
-        {
-          "artist": "blink-182",
-          "title": "Adam's Song",
-          "album": "Enema Of The State",
-          "count": 2,
-          "first": 1789003210,
-          "last": 1789009262,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Demolition Lovers",
-          "album": "I Brought You My Bullets, You Brought Me Your Love",
-          "count": 2,
-          "first": 1789002841,
-          "last": 1789007500,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "Evanescence",
-          "title": "Lithium",
-          "album": "The Open Door",
-          "count": 2,
-          "first": 1789004613,
-          "last": 1789007274,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Cemetery Drive",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 2,
-          "first": 1789003808,
-          "last": 1789007053,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "Taking Back Sunday",
-          "title": "Liar (It Takes One To Know One)",
-          "album": "Louder Now (U.S. Version)",
-          "count": 2,
-          "first": 1789004353,
-          "last": 1789006366,
-          "playlists": {
-            "MCR wednesday wind down": 2
           }
         }
       ]
