@@ -1300,12 +1300,9 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 }
 .heatmap-cell.has-playlist{
   font-weight:700;
-  color:#fff;
-  text-shadow:
-    -0.5px 0 #000,
-     0.5px 0 #000,
-     0 -0.5px #000,
-     0 0.5px #000;
+  color:#242424;
+  text-shadow:none;
+  -webkit-text-stroke:0;
 }
 .heatmap-cell:hover{outline:1px solid #777}
 @media(max-width:760px){
