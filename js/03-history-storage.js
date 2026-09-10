@@ -228,6 +228,7 @@ function renderSessionStats(){
   document.getElementById("status-session").textContent="Session started "+new Date(session.startedAt).toLocaleTimeString();
 }
 let historyRenderTimer=null;
+let myHistorySearchValue="";
 function scheduleHistoryRenders(){
   if(historyRenderTimer)return;
   historyRenderTimer=setTimeout(async()=>{
@@ -244,39 +245,46 @@ function topCounts(records,key,limit=5){
   return [...m.entries()].sort((a,b)=>b[1]-a[1]).slice(0,limit);
 }
 
-function renderListeningPlaylists(records){
-  const root=document.getElementById("myPlaylistList");
-  const count=document.getElementById("myPlaylistCount");
+function listeningGroupName(record,key){
+  if(key==="artist")return (record.artist||"").trim()||"Unknown artist";
+  if(key==="album")return (record.album||"").trim()||"Unknown album";
+  if(key==="playlist")return (record.playlist||"").trim()||"Unknown playlist";
+  return "";
+}
+function latestPlayedAt(records){
+  return records.length?Math.max(...records.map(r=>Number(r.playedAt||0))):0;
+}
+function renderListeningGroups(records,key,rootId,countId,labelPlural){
+  const root=document.getElementById(rootId);
+  const count=document.getElementById(countId);
   if(!root||!count)return;
 
   const groups=new Map();
   for(const r of records){
-    const name=(r.playlist||"").trim();
-    if(!name)continue;
+    const name=listeningGroupName(r,key);
+    if(!name || name.startsWith("Unknown "))continue;
     if(!groups.has(name))groups.set(name,[]);
     groups.get(name).push(r);
   }
 
-  const sorted=[...groups.entries()].sort((a,b)=>{
-    const al=Math.max(...a[1].map(r=>Number(r.playedAt||0)));
-    const bl=Math.max(...b[1].map(r=>Number(r.playedAt||0)));
-    return bl-al;
-  });
-  count.textContent=sorted.length+" playlists";
+  const sorted=[...groups.entries()].sort((a,b)=>
+    latestPlayedAt(b[1])-latestPlayedAt(a[1]) || a[0].localeCompare(b[0])
+  );
+  count.textContent=sorted.length+" "+labelPlural;
   root.replaceChildren();
 
   if(!sorted.length){
-    root.innerHTML='<div class="muted tiny">No playlist information recorded yet.</div>';
+    root.innerHTML='<div class="muted tiny">No '+escapeHtml(labelPlural)+' recorded yet.</div>';
     return;
   }
 
-  for(const [playlist,recs] of sorted){
+  for(const [name,recs] of sorted){
     const d=document.createElement("details");
     d.className="playlist-history-group";
     const s=document.createElement("summary");
     const main=document.createElement("span");
-    const mostRecent=Math.max(...recs.map(r=>Number(r.playedAt||0)));
-    main.innerHTML='<strong>'+escapeHtml(playlist)+'</strong>'+
+    const mostRecent=latestPlayedAt(recs);
+    main.innerHTML='<strong>'+escapeHtml(name)+'</strong>'+
       '<div class="playlist-meta">Most recent: '+escapeHtml(fmtDate(mostRecent))+'</div>';
     const c=document.createElement("span");
     c.className="rank-count";
@@ -314,6 +322,7 @@ function renderCompactHistoryInto(el,records){
 async function renderPersistentHistories(){
   let listening=[],observed=[];
   try{[listening,observed]=await Promise.all([getAllRecords("listening"),getAllRecords("observed")])}catch(e){return}
+
   const firstL=listening.length?Math.min(...listening.map(r=>r.playedAt||Infinity)):"";
   const lastL=listening.length?Math.max(...listening.map(r=>r.playedAt||0)):"";
   const listenSeconds=listening.reduce((a,r)=>a+(r.listenedSeconds||0),0);
@@ -321,6 +330,7 @@ async function renderPersistentHistories(){
     statTile("Recorded plays",listening.length),
     statTile("Unique artists",uniqueCount(listening,"artist")),
     statTile("Unique tracks",new Set(listening.map(r=>(r.artist||"")+"|"+(r.title||""))).size),
+    statTile("Unique albums",uniqueCount(listening,"album")),
     statTile("Unique playlists",uniqueCount(listening,"playlist")),
     statTile("Tracked listening",formatHMS(listenSeconds)),
     statTile("First recorded",firstL?fmtDate(firstL):"—"),
@@ -328,13 +338,28 @@ async function renderPersistentHistories(){
     statTile("Ads played",listening.filter(isUnknownRecord).length),
     statTile("Avg ad time / listening hr",(()=>{const ads=listening.filter(isUnknownRecord);const adSec=ads.reduce((a,r)=>a+(Number(r.listenedSeconds)||0),0);return listenSeconds>0?fmt(adSec/(listenSeconds/3600))+" / hr":"—"})())
   ].join("");
-  document.getElementById("myHistoryTop").innerHTML='<strong>Top artists:</strong> '+(topCounts(listening,"artist").map(([n,c])=>escapeHtml(n)+" ("+c+")").join(" · ")||"—");
-  document.getElementById("myHistoryListCount").textContent=listening.length+" plays";
-  renderCompactHistory("myHistoryList",listening,Infinity);
-  renderListeningPlaylists(listening);
+
+  const q=myHistorySearchValue.trim().toLowerCase();
+  const visible=q?listening.filter(r=>{
+    const hay=[r.title,r.artist,r.album,r.playlist].filter(Boolean).join(" ").toLowerCase();
+    return hay.includes(q);
+  }):listening;
+
+  document.getElementById("myHistoryListCount").textContent=visible.length+" plays";
+  renderCompactHistory("myHistoryList",visible,Infinity);
+
+  renderListeningGroups(visible,"artist","myArtistList","myArtistCount","artists");
+  renderListeningGroups(visible,"album","myAlbumList","myAlbumCount","albums");
+  renderListeningGroups(visible,"playlist","myPlaylistList","myPlaylistCount","playlists");
 
   document.getElementById("status-myhistory").textContent="Stored on this device";
 }
+
+document.getElementById("myHistorySearch")?.addEventListener("input",e=>{
+  myHistorySearchValue=e.target.value||"";
+  renderPersistentHistories();
+});
+
 
 /* ---------- Export / import / resets ---------- */
 document.getElementById("exportHistoryBtn").addEventListener("click",async()=>{

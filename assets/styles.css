@@ -1059,3 +1059,43 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 #listenerCanvas{
   touch-action:pan-y;
 }
+
+
+/* v32 My Listening History grouped lists + hour-bar selection */
+#myHistoryCard .history-search{
+  margin-bottom:12px;
+}
+#myArtistList,
+#myAlbumList,
+#myPlaylistList{
+  max-height:420px;
+  overflow-y:auto;
+}
+.mini-panel-head{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:10px;
+  margin-bottom:9px;
+}
+.mini-panel-head h3{
+  margin:0;
+}
+.hour-selection-label{
+  font-size:.78rem;
+  color:var(--text);
+  border:1px solid #555;
+  background:#181818;
+  border-radius:8px;
+  padding:5px 8px;
+  text-align:right;
+  line-height:1.25;
+  max-width:55%;
+}
+.hour-selection-label[hidden]{
+  display:none;
+}
+#listenerHourCanvas{
+  cursor:pointer;
+  touch-action:manipulation;
+}

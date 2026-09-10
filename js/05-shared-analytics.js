@@ -38,6 +38,7 @@ let listenerDoc=null;
 let listenerPeriod="90d";
 let listenerPlotPoints=[];
 let listenerCanvasHoverX=null;
+let listenerSelectedHour=null;
 
 function parseListenerTime(v){
   const d=new Date(v);
@@ -283,18 +284,49 @@ function drawHourChart(){
   ctx.strokeStyle="#333";ctx.fillStyle="#aaa";ctx.font="11px system-ui";
   for(let i=0;i<=2;i++){const y=T+ph*i/2;ctx.beginPath();ctx.moveTo(L,y);ctx.lineTo(w-R,y);ctx.stroke()}
   const bw=pw/24;
-  ctx.fillStyle="#ddd";
-  avgs.forEach((v,hour)=>{const barH=(v/ymax)*ph;ctx.fillRect(L+hour*bw+1,T+ph-barH,Math.max(1,bw-2),barH)});
+
+  avgs.forEach((v,hour)=>{
+    const barH=(v/ymax)*ph;
+    ctx.fillStyle=hour===listenerSelectedHour?"#777":"#ddd";
+    ctx.fillRect(L+hour*bw+1,T+ph-barH,Math.max(1,bw-2),barH);
+  });
+
   ctx.fillStyle="#aaa";ctx.textAlign="center";
   [0,6,12,18,23].forEach(hour=>ctx.fillText(hour===0?"12a":hour<12?hour+"a":hour===12?"12p":(hour-12)+"p",L+(hour+.5)*bw,h-8));
+
   const best=avgs.reduce((bi,v,i)=>v>avgs[bi]?i:bi,0);
-  const info=document.getElementById("listenerHourStats");
   setKV("listenerHourStats",[
     ["Busiest hour",formatHourRange(best)],
     ["Average then",avgs[best].toFixed(2)],
     ["Samples then",bins[best].count]
   ]);
+
+  const label=document.getElementById("listenerHourSelection");
+  if(label){
+    if(listenerSelectedHour===null){
+      label.hidden=true;
+      label.textContent="";
+    }else{
+      const hour=listenerSelectedHour;
+      label.hidden=false;
+      label.textContent=formatHourRange(hour)+" · "+avgs[hour].toFixed(2)+" avg active streams";
+    }
+  }
+
+  canvas._hourChartGeometry={L,R,T,B,pw,ph,bw,w,h,bins,avgs};
 }
+function toggleHourSelectionFromClientX(clientX){
+  const canvas=document.getElementById("listenerHourCanvas");
+  const g=canvas?canvas._hourChartGeometry:null;
+  if(!canvas||!g)return;
+  const rect=canvas.getBoundingClientRect();
+  const x=(clientX-rect.left)*(g.w/rect.width);
+  if(x<g.L||x>g.w-g.R)return;
+  const hour=Math.max(0,Math.min(23,Math.floor((x-g.L)/g.bw)));
+  listenerSelectedHour=(listenerSelectedHour===hour)?null:hour;
+  drawHourChart();
+}
+
 function formatHourRange(h){
   const fmtH=x=>x===0?"12 AM":x<12?x+" AM":x===12?"12 PM":(x-12)+" PM";
   return fmtH(h)+"–"+fmtH((h+1)%24);
@@ -352,6 +384,10 @@ document.querySelectorAll("#listenerPeriodTabs button").forEach(b=>b.addEventLis
   renderListenerPeriodStats();drawListenerChart();
 }));
 setupListenerCanvas();
+const listenerHourCanvas=document.getElementById("listenerHourCanvas");
+if(listenerHourCanvas){
+  listenerHourCanvas.addEventListener("click",e=>toggleHourSelectionFromClientX(e.clientX));
+}
 setTimeout(refreshListenerHistoryInfo,700);
 
 Object.assign(infoHelp,{

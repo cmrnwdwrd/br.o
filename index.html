@@ -201,15 +201,24 @@
 <button aria-expanded="true" class="collapse-btn" data-target="body-myhistory" title="Hide/show My Listening History" type="button"><span class="arrow">▼</span></button>
 </div>
 <div class="card-body" id="body-myhistory">
+<input aria-label="Search my listening history" class="history-search" id="myHistorySearch" placeholder="Search tracks, artists, albums, or playlists…" type="search"/>
 <div class="stats-grid" id="myHistoryStats"></div><div class="milestone-panel" id="listeningMilestones"></div>
-<div class="history-top" id="myHistoryTop"></div>
+<div class="history-top compat-hidden" id="myHistoryTop" aria-hidden="true"></div>
+<details class="ranking-details history-list-details">
+<summary>Recently Listened Tracks <span class="muted tiny" id="myHistoryListCount"></span></summary>
+<div class="compact-history" id="myHistoryList"></div>
+</details>
+<details class="ranking-details history-list-details">
+<summary>Recently Listened Artists <span class="muted tiny" id="myArtistCount"></span></summary>
+<div class="playlist-history-list" id="myArtistList"></div>
+</details>
+<details class="ranking-details history-list-details">
+<summary>Recently Listened Albums <span class="muted tiny" id="myAlbumCount"></span></summary>
+<div class="playlist-history-list" id="myAlbumList"></div>
+</details>
 <details class="ranking-details history-list-details" id="myPlaylistDetails">
 <summary>Recently Listened Playlists <span class="muted tiny" id="myPlaylistCount"></span></summary>
 <div class="playlist-history-list" id="myPlaylistList"></div>
-</details>
-<details class="ranking-details history-list-details">
-<summary>Recent Listened Tracks <span class="muted tiny" id="myHistoryListCount"></span></summary>
-<div class="compact-history" id="myHistoryList"></div>
 </details>
 <div class="status-footer">
 <div class="refresh-status" id="status-myhistory"></div>
@@ -281,7 +290,10 @@
 </div>
 <div class="listener-secondary-grid">
 <div class="mini-panel">
+<div class="mini-panel-head">
 <h3>Time of Day</h3>
+<div class="hour-selection-label" hidden="" id="listenerHourSelection"></div>
+</div>
 <div class="kv" id="listenerHourStats"></div>
 <canvas aria-label="Average active streams by hour of day" height="190" id="listenerHourCanvas"></canvas>
 </div>

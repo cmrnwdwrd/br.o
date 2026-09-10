@@ -296,6 +296,8 @@ Object.assign(infoHelp,{
   ]},
   myhistory:{title:"My Listening History",items:[
     ["Milestones","Shows how many of the station's current all-time top-50 songs and artists this device has recorded you hearing."],
+    ["Search","Search filters the local track, artist, album, and playlist lists."],
+    ["Organization","Lists are ordered as Tracks, Artists, Albums, then Playlists. Artist, album, and playlist groups are sorted by most recently heard."],
     ["Storage","Listening history remains local to this browser/device and can be exported/imported from Settings."],
     ["Ads","Unknown tracks are excluded from music lists but retained for the ads-played and ad-time statistics."]
   ]}
