@@ -1,10 +1,10 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T18:50:41.613828+00:00",
-  "totalPlays": 688,
+  "updatedAt": "2026-09-10T18:55:44.775749+00:00",
+  "totalPlays": 689,
   "unknownPlays": 80,
   "firstObserved": 1788901564,
-  "lastObserved": 1789066201,
+  "lastObserved": 1789066342,
   "songs": {
     "n.e.r.d|run to the sun": {
       "artist": "N.E.R.D",
@@ -6805,6 +6805,17 @@
       "count": 1,
       "first": 1789066201,
       "last": 1789066201,
+      "playlists": {
+        "1default": 1
+      }
+    },
+    "foo fighters|walk": {
+      "artist": "Foo Fighters",
+      "title": "Walk",
+      "album": "Wasting Light",
+      "count": 1,
+      "first": 1789066342,
+      "last": 1789066342,
       "playlists": {
         "1default": 1
       }
@@ -17392,6 +17403,25 @@
           "count": 1,
           "first": 1789066201,
           "last": 1789066201,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      }
+    },
+    "foo fighters": {
+      "artist": "Foo Fighters",
+      "count": 1,
+      "first": 1789066342,
+      "last": 1789066342,
+      "songs": {
+        "foo fighters|walk": {
+          "artist": "Foo Fighters",
+          "title": "Walk",
+          "album": "Wasting Light",
+          "count": 1,
+          "first": 1789066342,
+          "last": 1789066342,
           "playlists": {
             "1default": 1
           }
@@ -29107,14 +29137,34 @@
           }
         }
       }
+    },
+    "foo fighters|wasting light": {
+      "artist": "Foo Fighters",
+      "album": "Wasting Light",
+      "count": 1,
+      "first": 1789066342,
+      "last": 1789066342,
+      "songs": {
+        "foo fighters|walk": {
+          "artist": "Foo Fighters",
+          "title": "Walk",
+          "album": "Wasting Light",
+          "count": 1,
+          "first": 1789066342,
+          "last": 1789066342,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      }
     }
   },
   "playlists": {
     "1default": {
       "playlist": "1default",
-      "count": 277,
+      "count": 278,
       "first": 1788901564,
-      "last": 1789066201,
+      "last": 1789066342,
       "songs": {
         "n.e.r.d|run to the sun": {
           "artist": "N.E.R.D",
@@ -32082,6 +32132,17 @@
           "count": 1,
           "first": 1789066201,
           "last": 1789066201,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        "foo fighters|walk": {
+          "artist": "Foo Fighters",
+          "title": "Walk",
+          "album": "Wasting Light",
+          "count": 1,
+          "first": 1789066342,
+          "last": 1789066342,
           "playlists": {
             "1default": 1
           }
