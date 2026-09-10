@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T02:00:24.524770+00:00",
+  "updatedAt": "2026-09-10T02:05:24.628845+00:00",
   "summary": {
-    "totalPlays": 420,
+    "totalPlays": 421,
     "unknownPlays": 48,
     "uniqueTracks": 411,
     "uniqueArtists": 337,
     "uniqueAlbums": 375,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789005562
+    "lastObserved": 1789005759
   },
   "topSongs": [
+    {
+      "artist": "Simple Plan",
+      "title": "I'm Just A Kid",
+      "album": "No Pads, No Helmets...Just Balls",
+      "count": 2,
+      "first": 1789002640,
+      "last": 1789005759,
+      "playlists": {
+        "MCR wednesday wind down": 2
+      }
+    },
     {
       "artist": "My Chemical Romance",
       "title": "I'm Not Okay (I Promise)",
@@ -239,17 +250,6 @@
       "count": 1,
       "first": 1789002841,
       "last": 1789002841,
-      "playlists": {
-        "MCR wednesday wind down": 1
-      }
-    },
-    {
-      "artist": "Simple Plan",
-      "title": "I'm Just A Kid",
-      "album": "No Pads, No Helmets...Just Balls",
-      "count": 1,
-      "first": 1789002640,
-      "last": 1789002640,
       "playlists": {
         "MCR wednesday wind down": 1
       }
@@ -1381,6 +1381,25 @@
       ]
     },
     {
+      "artist": "Simple Plan",
+      "count": 2,
+      "first": 1789002640,
+      "last": 1789005759,
+      "songs": [
+        {
+          "artist": "Simple Plan",
+          "title": "I'm Just A Kid",
+          "album": "No Pads, No Helmets...Just Balls",
+          "count": 2,
+          "first": 1789002640,
+          "last": 1789005759,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Paramore",
       "count": 2,
       "first": 1788996589,
@@ -2253,25 +2272,6 @@
       ]
     },
     {
-      "artist": "Simple Plan",
-      "count": 1,
-      "first": 1789002640,
-      "last": 1789002640,
-      "songs": [
-        {
-          "artist": "Simple Plan",
-          "title": "I'm Just A Kid",
-          "album": "No Pads, No Helmets...Just Balls",
-          "count": 1,
-          "first": 1789002640,
-          "last": 1789002640,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
       "artist": "Strange Things, Small Towns",
       "count": 1,
       "first": 1788999291,
@@ -2737,6 +2737,26 @@
           "last": 1788929259,
           "playlists": {
             "more home alone": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Simple Plan",
+      "album": "No Pads, No Helmets...Just Balls",
+      "count": 2,
+      "first": 1789002640,
+      "last": 1789005759,
+      "songs": [
+        {
+          "artist": "Simple Plan",
+          "title": "I'm Just A Kid",
+          "album": "No Pads, No Helmets...Just Balls",
+          "count": 2,
+          "first": 1789002640,
+          "last": 1789005759,
+          "playlists": {
+            "MCR wednesday wind down": 2
           }
         }
       ]
@@ -3400,26 +3420,6 @@
           "count": 1,
           "first": 1789003210,
           "last": 1789003210,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Simple Plan",
-      "album": "No Pads, No Helmets...Just Balls",
-      "count": 1,
-      "first": 1789002640,
-      "last": 1789002640,
-      "songs": [
-        {
-          "artist": "Simple Plan",
-          "title": "I'm Just A Kid",
-          "album": "No Pads, No Helmets...Just Balls",
-          "count": 1,
-          "first": 1789002640,
-          "last": 1789002640,
           "playlists": {
             "MCR wednesday wind down": 1
           }
@@ -4595,10 +4595,21 @@
     },
     {
       "playlist": "MCR wednesday wind down",
-      "count": 21,
+      "count": 22,
       "first": 1788995310,
-      "last": 1789005562,
+      "last": 1789005759,
       "songs": [
+        {
+          "artist": "Simple Plan",
+          "title": "I'm Just A Kid",
+          "album": "No Pads, No Helmets...Just Balls",
+          "count": 2,
+          "first": 1789002640,
+          "last": 1789005759,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "I'm Not Okay (I Promise)",
@@ -4749,17 +4760,6 @@
           "count": 1,
           "first": 1789002841,
           "last": 1789002841,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Simple Plan",
-          "title": "I'm Just A Kid",
-          "album": "No Pads, No Helmets...Just Balls",
-          "count": 1,
-          "first": 1789002640,
-          "last": 1789002640,
           "playlists": {
             "MCR wednesday wind down": 1
           }
