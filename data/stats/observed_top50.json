@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T11:20:50.363660+00:00",
+  "updatedAt": "2026-09-10T11:25:42.826166+00:00",
   "summary": {
-    "totalPlays": 562,
-    "unknownPlays": 65,
-    "uniqueTracks": 503,
-    "uniqueArtists": 387,
-    "uniqueAlbums": 439,
+    "totalPlays": 564,
+    "unknownPlays": 66,
+    "uniqueTracks": 504,
+    "uniqueArtists": 388,
+    "uniqueAlbums": 440,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789039110
+    "lastObserved": 1789039501
   },
   "topSongs": [
+    {
+      "artist": "Joey Pecoraro",
+      "title": "Lightning",
+      "album": "Sea Monster",
+      "count": 2,
+      "first": 1788948970,
+      "last": 1789039501,
+      "playlists": {
+        "freestyle beats to crash your car to": 2
+      }
+    },
     {
       "artist": "Team Astro",
       "title": "Empty Shelves",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1789004215,
       "last": 1789006168,
-      "playlists": {
-        "MCR wednesday wind down": 2
-      }
-    },
-    {
-      "artist": "Simple Plan",
-      "title": "I'm Just A Kid",
-      "album": "No Pads, No Helmets...Just Balls",
-      "count": 2,
-      "first": 1789002640,
-      "last": 1789005759,
       "playlists": {
         "MCR wednesday wind down": 2
       }
@@ -2011,6 +2011,25 @@
       ]
     },
     {
+      "artist": "Joey Pecoraro",
+      "count": 2,
+      "first": 1788948970,
+      "last": 1789039501,
+      "songs": [
+        {
+          "artist": "Joey Pecoraro",
+          "title": "Lightning",
+          "album": "Sea Monster",
+          "count": 2,
+          "first": 1788948970,
+          "last": 1789039501,
+          "playlists": {
+            "freestyle beats to crash your car to": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Team Astro",
       "count": 2,
       "first": 1788953642,
@@ -2534,25 +2553,6 @@
           "count": 2,
           "first": 1788940627,
           "last": 1789024738,
-          "playlists": {
-            "breakbeat": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Machine Girl",
-      "count": 2,
-      "first": 1788942783,
-      "last": 1789024552,
-      "songs": [
-        {
-          "artist": "Machine Girl",
-          "title": "Ghost",
-          "album": "Wlfgrl",
-          "count": 2,
-          "first": 1788942783,
-          "last": 1789024552,
           "playlists": {
             "breakbeat": 2
           }
@@ -3410,6 +3410,26 @@
       ]
     },
     {
+      "artist": "Joey Pecoraro",
+      "album": "Sea Monster",
+      "count": 2,
+      "first": 1788948970,
+      "last": 1789039501,
+      "songs": [
+        {
+          "artist": "Joey Pecoraro",
+          "title": "Lightning",
+          "album": "Sea Monster",
+          "count": 2,
+          "first": 1788948970,
+          "last": 1789039501,
+          "playlists": {
+            "freestyle beats to crash your car to": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Team Astro",
       "album": "Hush",
       "count": 2,
@@ -4090,26 +4110,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Sinistarr",
-      "album": "Naine Rouge EP",
-      "count": 2,
-      "first": 1788939947,
-      "last": 1789021858,
-      "songs": [
-        {
-          "artist": "Sinistarr",
-          "title": "I Pop, I Jit",
-          "album": "Naine Rouge EP",
-          "count": 2,
-          "first": 1788939947,
-          "last": 1789021858,
-          "playlists": {
-            "breakbeat": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
@@ -4241,10 +4241,21 @@
     },
     {
       "playlist": "freestyle beats to crash your car to",
-      "count": 55,
+      "count": 57,
       "first": 1788948264,
-      "last": 1789039110,
+      "last": 1789039501,
       "songs": [
+        {
+          "artist": "Joey Pecoraro",
+          "title": "Lightning",
+          "album": "Sea Monster",
+          "count": 2,
+          "first": 1788948970,
+          "last": 1789039501,
+          "playlists": {
+            "freestyle beats to crash your car to": 2
+          }
+        },
         {
           "artist": "Team Astro",
           "title": "Empty Shelves",
@@ -4285,17 +4296,6 @@
           "count": 2,
           "first": 1788952827,
           "last": 1789038620,
-          "playlists": {
-            "freestyle beats to crash your car to": 2
-          }
-        },
-        {
-          "artist": "Astronauts, etc.",
-          "title": "Shake It Loose",
-          "album": "Mind Out Wandering",
-          "count": 2,
-          "first": 1788951516,
-          "last": 1789038166,
           "playlists": {
             "freestyle beats to crash your car to": 2
           }
