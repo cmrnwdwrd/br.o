@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T07:43:40.848474+00:00",
+  "updatedAt": "2026-09-10T07:45:41.258315+00:00",
   "summary": {
-    "totalPlays": 503,
+    "totalPlays": 504,
     "unknownPlays": 58,
     "uniqueTracks": 467,
     "uniqueArtists": 360,
     "uniqueAlbums": 404,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789026134
+    "lastObserved": 1789026239
   },
   "topSongs": [
+    {
+      "artist": "bastienGOAT",
+      "title": "Tell me if you like it",
+      "album": "MULTI",
+      "count": 2,
+      "first": 1788944435,
+      "last": 1789026239,
+      "playlists": {
+        "breakbeat": 2
+      }
+    },
     {
       "artist": "noelleallowed",
       "title": "roomscan",
@@ -547,17 +558,6 @@
       "count": 1,
       "first": 1789022359,
       "last": 1789022359,
-      "playlists": {
-        "breakbeat": 1
-      }
-    },
-    {
-      "artist": "Purity Filter",
-      "title": "Chrysalis",
-      "album": "imago",
-      "count": 1,
-      "first": 1789022184,
-      "last": 1789022184,
       "playlists": {
         "breakbeat": 1
       }
@@ -1817,6 +1817,25 @@
       ]
     },
     {
+      "artist": "bastienGOAT",
+      "count": 2,
+      "first": 1788944435,
+      "last": 1789026239,
+      "songs": [
+        {
+          "artist": "bastienGOAT",
+          "title": "Tell me if you like it",
+          "album": "MULTI",
+          "count": 2,
+          "first": 1788944435,
+          "last": 1789026239,
+          "playlists": {
+            "breakbeat": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "noelleallowed",
       "count": 2,
       "first": 1788939810,
@@ -2492,25 +2511,6 @@
           "last": 1788985030,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie, EDDISON",
-      "count": 2,
-      "first": 1788982835,
-      "last": 1788986267,
-      "songs": [
-        {
-          "artist": "Lil Darkie, EDDISON",
-          "title": "USA",
-          "album": "USA",
-          "count": 2,
-          "first": 1788982835,
-          "last": 1788986267,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -3335,6 +3335,26 @@
       ]
     },
     {
+      "artist": "bastienGOAT",
+      "album": "MULTI",
+      "count": 2,
+      "first": 1788944435,
+      "last": 1789026239,
+      "songs": [
+        {
+          "artist": "bastienGOAT",
+          "title": "Tell me if you like it",
+          "album": "MULTI",
+          "count": 2,
+          "first": 1788944435,
+          "last": 1789026239,
+          "playlists": {
+            "breakbeat": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "noelleallowed",
       "album": "Greatest Hits... TWO!",
       "count": 2,
@@ -4123,37 +4143,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 2,
-      "first": 1788947080,
-      "last": 1788968380,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 1,
-          "first": 1788968380,
-          "last": 1788968380,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 1,
-          "first": 1788947080,
-          "last": 1788947080,
-          "playlists": {
-            "1default": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
@@ -4222,10 +4211,21 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 82,
+      "count": 83,
       "first": 1788938278,
-      "last": 1789026134,
+      "last": 1789026239,
       "songs": [
+        {
+          "artist": "bastienGOAT",
+          "title": "Tell me if you like it",
+          "album": "MULTI",
+          "count": 2,
+          "first": 1788944435,
+          "last": 1789026239,
+          "playlists": {
+            "breakbeat": 2
+          }
+        },
         {
           "artist": "noelleallowed",
           "title": "roomscan",
@@ -4266,17 +4266,6 @@
           "count": 2,
           "first": 1788940627,
           "last": 1789024738,
-          "playlists": {
-            "breakbeat": 2
-          }
-        },
-        {
-          "artist": "Machine Girl",
-          "title": "Ghost",
-          "album": "Wlfgrl",
-          "count": 2,
-          "first": 1788942783,
-          "last": 1789024552,
           "playlists": {
             "breakbeat": 2
           }
