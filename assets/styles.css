@@ -635,9 +635,12 @@ body{
 }
 #sessionHistoryList,
 #observedTopSongs,
-#observedTopArtists{
+#observedTopArtists,
+#observedTopAlbums,
+#observedTopPlaylists{
   max-height:420px;
   overflow-y:auto;
+  overscroll-behavior:contain;
 }
 .settings-subgroup{
   margin-top:14px;

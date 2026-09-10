@@ -59,6 +59,7 @@ simpleModeBtn.addEventListener("click",()=>setSimpleMode(!simpleMode));
 
 /* ---------- v29 compact observed-history UI + favorites search ---------- */
 let observedSearchValue="";
+const observedOpenGroups=new Set();
 let favoritesSearchValue="";
 
 function recordTrackKey(r){
@@ -96,6 +97,14 @@ function top50Matches(item,q){
 function filteredTop50(items){
   const q=observedSearchValue.trim();
   return (items||[]).filter(x=>top50Matches(x,q)).slice(0,50);
+}
+function bindObservedGroupState(details,key){
+  details.dataset.groupKey=key;
+  details.open=observedOpenGroups.has(key);
+  details.addEventListener("toggle",()=>{
+    if(details.open)observedOpenGroups.add(key);
+    else observedOpenGroups.delete(key);
+  });
 }
 function captureOpenDetailKeys(root){
   return new Set([...root.querySelectorAll("details[data-group-key][open]")].map(d=>d.dataset.groupKey));
@@ -152,14 +161,12 @@ function renderCompactObservedTop50(){
   songs.forEach((x,i)=>sr.appendChild(makeTopSongRow(x,i)));
 
   const artists=filteredTop50(data.topArtists);
-  const openArtists=captureOpenDetailKeys(ar);
   ar.replaceChildren();
   document.getElementById("observedArtistCount").textContent=artists.length+" of top 50";
   artists.forEach((a,i)=>{
     const d=document.createElement("details");d.className="artist-rank";
     const stableGroupKey="artist:"+(a.artist||"Unknown artist").trim().toLowerCase();
-    d.dataset.groupKey=stableGroupKey;
-    if(openArtists.has(stableGroupKey))d.open=true;
+    bindObservedGroupState(d,stableGroupKey);
     const sum=document.createElement("summary");
     const name=document.createElement("span");
     name.innerHTML="#"+(i+1)+" "+escapeHtml(a.artist||"Unknown artist")+
@@ -192,14 +199,12 @@ function renderCompactObservedTop50(){
   });
 
   const albums=filteredTop50(data.topAlbums);
-  const openAlbums=captureOpenDetailKeys(al);
   al.replaceChildren();
   document.getElementById("observedAlbumCount").textContent=albums.length+" of top 50";
   albums.forEach((a,i)=>{
     const d=document.createElement("details");d.className="artist-rank";
     const stableGroupKey="album:"+((a.artist||"")+"|"+(a.album||"Unknown album")).trim().toLowerCase();
-    d.dataset.groupKey=stableGroupKey;
-    if(openAlbums.has(stableGroupKey))d.open=true;
+    bindObservedGroupState(d,stableGroupKey);
     const sum=document.createElement("summary");
     const name=document.createElement("span");
     name.innerHTML="#"+(i+1)+" "+escapeHtml(a.album||"Unknown album")+
@@ -232,14 +237,12 @@ function renderCompactObservedTop50(){
   const anyObservedMatches=(songs.length||artists.length||albums.length||(data.topPlaylists||[]).some(x=>top50Matches(x,observedSearchValue)));
   if(observedNo)observedNo.hidden=!(observedSearchValue&& !anyObservedMatches);
   const playlists=(data.topPlaylists||[]).slice(0,10);
-  const openPlaylists=captureOpenDetailKeys(pl);
   pl.replaceChildren();
   document.getElementById("observedPlaylistCount").textContent=playlists.length+" playlists";
   playlists.forEach((a,i)=>{
     const d=document.createElement("details");d.className="artist-rank";
     const stableGroupKey="playlist:"+normalizePlaylistName(a.playlist||"Unspecified").toLowerCase();
-    d.dataset.groupKey=stableGroupKey;
-    if(openPlaylists.has(stableGroupKey))d.open=true;
+    bindObservedGroupState(d,stableGroupKey);
     const sum=document.createElement("summary");
     const name=document.createElement("span");
     name.innerHTML="#"+(i+1)+" "+escapeHtml(a.playlist||"Unspecified")+
