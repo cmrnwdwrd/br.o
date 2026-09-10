@@ -408,6 +408,28 @@ def add_session_heat_minutes(heat, start_ts, end_ts):
         cursor = segment_end
 
 
+
+def add_session_quarter_minutes(heat, start_ts, end_ts):
+    """Add exact overlapping minutes to local weekday/15-minute bins."""
+    cursor = datetime.fromtimestamp(start_ts, timezone.utc)
+    end = datetime.fromtimestamp(end_ts, timezone.utc)
+    guard = 0
+    while cursor < end and guard < 500:
+        guard += 1
+        local = cursor.astimezone(LOCAL_TZ)
+        quarter_minute = (local.minute // 15) * 15
+        quarter_start_local = local.replace(minute=quarter_minute, second=0, microsecond=0)
+        next_quarter_local = quarter_start_local + timedelta(minutes=15)
+        boundary = next_quarter_local.astimezone(timezone.utc)
+        if boundary <= cursor:
+            boundary = cursor + timedelta(minutes=15)
+        segment_end = min(end, boundary)
+        minutes = max(0.0, (segment_end - cursor).total_seconds() / 60)
+        slot = local.hour * 4 + (local.minute // 15)
+        heat[local.weekday()][slot] += minutes
+        cursor = segment_end
+
+
 def build_playlist_schedule():
     """
     Infer playlist sessions from the rolling last 90 days of observed plays.
@@ -497,6 +519,7 @@ def build_playlist_schedule():
     for p in by_playlist.values():
         ss = sorted(p["sessions"], key=lambda s: s["start"])
         heat = [[0.0 for _ in range(24)] for _ in range(7)]
+        quarter_heat = [[0.0 for _ in range(96)] for _ in range(7)]
         start_heat = [[0 for _ in range(24)] for _ in range(7)]
         day_groups = {d: [] for d in range(7)}
         start_minutes_all = []
@@ -513,6 +536,7 @@ def build_playlist_schedule():
             day_groups[start_local.weekday()].append((start_minute, duration_min, s))
             start_heat[start_local.weekday()][start_local.hour] += 1
             add_session_heat_minutes(heat, s["start"], end_ts)
+            add_session_quarter_minutes(quarter_heat, s["start"], end_ts)
 
         likely_windows = []
         for weekday in range(7):
@@ -548,6 +572,7 @@ def build_playlist_schedule():
             "typicalDurationMinutes": int(round(statistics.median(durations_all))) if durations_all else None,
             "confidence": schedule_confidence(len(ss), start_minutes_all),
             "heatmapMinutes": [[round(v, 1) for v in row] for row in heat],
+            "quarterHeatmapMinutes": [[round(v, 1) for v in row] for row in quarter_heat],
             "startHeatmap": start_heat,
             "likelyWindows": likely_windows,
             "recentSessions": recent_sessions,

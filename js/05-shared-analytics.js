@@ -499,6 +499,83 @@ function renderPlaylistScheduleSelect(){
       escapeHtml(p.playlist)+' · '+Number(p.sessionCount||0)+' sessions</option>'
     ).join("");
 }
+function scheduleQuarterLabel(slot){
+  const minutes=(slot%96)*15;
+  const h=Math.floor(minutes/60),m=minutes%60;
+  return new Date(2000,0,1,h,m).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"});
+}
+function scheduleRangeLabel(startSlot,endSlot){
+  const start=scheduleQuarterLabel(startSlot);
+  const endMinutes=(endSlot%96)*15;
+  const eh=Math.floor(endMinutes/60),em=endMinutes%60;
+  const end=endSlot===96
+    ?"12:00 AM"
+    :new Date(2000,0,1,eh,em).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"});
+  return start+"–"+end;
+}
+function scheduleQuarterHeat(pl,d,slot){
+  const q=pl?.quarterHeatmapMinutes;
+  if(Array.isArray(q?.[d]))return Number(q[d][slot]||0);
+  // Backward-compatible fallback until the collector has generated 15-minute data.
+  const hourly=Number(pl?.heatmapMinutes?.[d]?.[Math.floor(slot/4)]||0);
+  return hourly/4;
+}
+function scheduleSegmentsForDay(rows,p,d){
+  const slots=[];
+  if(p){
+    for(let slot=0;slot<96;slot++){
+      const minutes=scheduleQuarterHeat(p,d,slot);
+      slots.push({
+        playlist:minutes>0?p.playlist:"",
+        minutes,
+        share:minutes>0?1:0
+      });
+    }
+  }else{
+    for(let slot=0;slot<96;slot++){
+      const ranked=rows.map(pl=>({
+        playlist:pl.playlist,
+        minutes:scheduleQuarterHeat(pl,d,slot),
+        sessions:Number(pl.sessionCount||0)
+      })).filter(x=>x.minutes>0)
+        .sort((a,b)=>b.minutes-a.minutes || b.sessions-a.sessions || a.playlist.localeCompare(b.playlist));
+      const best=ranked[0];
+      const total=ranked.reduce((s,x)=>s+x.minutes,0);
+      slots.push({
+        playlist:best?.playlist||"",
+        minutes:best?.minutes||0,
+        share:best&&total>0?best.minutes/total:0
+      });
+    }
+  }
+
+  const segments=[];
+  let start=0;
+  for(let slot=1;slot<=96;slot++){
+    const prev=slots[slot-1];
+    const curr=slot<96?slots[slot]:null;
+    const same=curr && curr.playlist===prev.playlist;
+    if(!same){
+      const slice=slots.slice(start,slot);
+      const avgShare=slice.length?slice.reduce((s,x)=>s+x.share,0)/slice.length:0;
+      const avgMinutes=slice.length?slice.reduce((s,x)=>s+x.minutes,0)/slice.length:0;
+      segments.push({
+        startSlot:start,
+        endSlot:slot,
+        playlist:prev.playlist,
+        share:avgShare,
+        minutes:avgMinutes
+      });
+      start=slot;
+    }
+  }
+  return segments;
+}
+function clearSelectedScheduleBlock(except=null){
+  document.querySelectorAll("#playlistScheduleHeatmap .schedule-block.is-selected").forEach(el=>{
+    if(el!==except)el.classList.remove("is-selected");
+  });
+}
 function renderPlaylistScheduleHeatmap(p){
   const root=document.getElementById("playlistScheduleHeatmap");if(!root)return;
   const rows=schedulePlaylistRows();
@@ -507,62 +584,59 @@ function renderPlaylistScheduleHeatmap(p){
     return;
   }
 
-  let out='<div class="heatmap-corner">Hour</div>';
-  for(let d=0;d<7;d++)out+='<div class="heatmap-day-head">'+PLAYLIST_WEEKDAYS[d]+'</div>';
+  let out='<div class="heatmap-corner" style="grid-column:1;grid-row:1">Hour</div>';
+  for(let d=0;d<7;d++){
+    out+='<div class="heatmap-day-head" style="grid-column:'+(d+2)+';grid-row:1">'+PLAYLIST_WEEKDAYS[d]+'</div>';
+  }
 
-  if(p){
-    const heat=Array.isArray(p.heatmapMinutes)?p.heatmapMinutes:[];
-    const vals=heat.flat().map(Number).filter(Number.isFinite);
-    const max=Math.max(1,...vals);
+  // Only whole-hour labels are printed on the Y axis, while schedule blocks
+  // can begin/end on any 15-minute boundary.
+  for(let h=0;h<24;h++){
+    const rowStart=2+h*4;
+    const label=new Date(2000,0,1,h,0).toLocaleTimeString([],{hour:"numeric"});
+    out+='<div class="heatmap-hour" style="grid-column:1;grid-row:'+rowStart+' / span 4">'+label+'</div>';
+  }
 
-    for(let h=0;h<24;h++){
-      const hourLabel=new Date(2000,0,1,h,0).toLocaleTimeString([],{hour:"numeric"});
-      out+='<div class="heatmap-hour">'+hourLabel+'</div>';
-      for(let d=0;d<7;d++){
-        const minutes=Number(heat?.[d]?.[h]||0);
-        const normalized=minutes/max;
-        const alpha=minutes>0?(0.10+0.78*Math.sqrt(normalized)):0.025;
-        const endLabel=new Date(2000,0,1,(h+1)%24,0).toLocaleTimeString([],{hour:"numeric"});
-        const title=PLAYLIST_WEEKDAYS[d]+" "+hourLabel+"–"+endLabel+" · "+Math.round(minutes)+" observed min";
-        out+='<div class="heatmap-cell'+(minutes>0?' has-playlist':'')+'" style="--heat:'+alpha.toFixed(3)+'" title="'+escapeHtml(title)+'">'+
-          (minutes>0?escapeHtml(p.playlist):'')+
-        '</div>';
-      }
-    }
-  }else{
-    const candidates=rows.map(pl=>({
-      playlist:pl.playlist,
-      sessions:Number(pl.sessionCount||0),
-      heat:Array.isArray(pl.heatmapMinutes)?pl.heatmapMinutes:[]
-    }));
-
-    for(let h=0;h<24;h++){
-      const hourLabel=new Date(2000,0,1,h,0).toLocaleTimeString([],{hour:"numeric"});
-      out+='<div class="heatmap-hour">'+hourLabel+'</div>';
-      for(let d=0;d<7;d++){
-        const ranked=candidates.map(c=>({
-          playlist:c.playlist,
-          minutes:Number(c.heat?.[d]?.[h]||0),
-          sessions:c.sessions
-        })).filter(x=>x.minutes>0)
-          .sort((a,b)=>b.minutes-a.minutes || b.sessions-a.sessions || a.playlist.localeCompare(b.playlist));
-
-        const best=ranked[0];
-        const total=ranked.reduce((s,x)=>s+x.minutes,0);
-        const share=best&&total>0?best.minutes/total:0;
-        const alpha=best?(0.12+0.76*Math.sqrt(share)):0.025;
-        const endLabel=new Date(2000,0,1,(h+1)%24,0).toLocaleTimeString([],{hour:"numeric"});
-        const title=best
-          ? PLAYLIST_WEEKDAYS[d]+" "+hourLabel+"–"+endLabel+" · Most likely: "+best.playlist+
-            " ("+Math.round(share*100)+"% of observed playlist-minutes in this slot)"
-          : PLAYLIST_WEEKDAYS[d]+" "+hourLabel+"–"+endLabel+" · No observed playlist data";
-        out+='<div class="heatmap-cell'+(best?' has-playlist':'')+'" style="--heat:'+alpha.toFixed(3)+'" title="'+escapeHtml(title)+'">'+
-          (best?escapeHtml(best.playlist):'')+
-        '</div>';
-      }
+  for(let d=0;d<7;d++){
+    const segments=scheduleSegmentsForDay(rows,p,d);
+    for(const seg of segments){
+      const span=seg.endSlot-seg.startSlot;
+      const rowStart=2+seg.startSlot;
+      const range=scheduleRangeLabel(seg.startSlot,seg.endSlot);
+      const alpha=seg.playlist
+        ?(0.12+0.76*Math.sqrt(Math.max(0,Math.min(1,p?Math.min(1,seg.minutes/15):seg.share))))
+        :0.025;
+      const title=seg.playlist
+        ?PLAYLIST_WEEKDAYS[d]+" "+range+" · "+seg.playlist
+        :PLAYLIST_WEEKDAYS[d]+" "+range+" · No observed playlist data";
+      out+='<div class="schedule-block'+(seg.playlist?' has-playlist':' empty')+'"'+
+        ' style="grid-column:'+(d+2)+';grid-row:'+rowStart+' / span '+span+';--heat:'+alpha.toFixed(3)+'"'+
+        ' data-time="'+escapeHtml(range)+'" title="'+escapeHtml(title)+'" tabindex="0" role="button" aria-label="'+escapeHtml(title)+'">'+
+        (seg.playlist?'<span class="schedule-block-text">'+escapeHtml(seg.playlist)+'</span>':'')+
+        '<span class="schedule-time-popover">'+escapeHtml(range)+'</span>'+
+      '</div>';
     }
   }
   root.innerHTML=out;
+
+  // Tap/click behavior: one time label maximum; tap same block again to close it.
+  root.querySelectorAll(".schedule-block").forEach(el=>{
+    el.addEventListener("click",ev=>{
+      const wasSelected=el.classList.contains("is-selected");
+      clearSelectedScheduleBlock(el);
+      el.classList.toggle("is-selected",!wasSelected);
+      ev.stopPropagation();
+    });
+    el.addEventListener("keydown",ev=>{
+      if(ev.key==="Enter"||ev.key===" "){
+        ev.preventDefault();
+        el.click();
+      }
+      if(ev.key==="Escape"){
+        el.classList.remove("is-selected");
+      }
+    });
+  });
 }
 
 
@@ -613,3 +687,9 @@ document.getElementById("playlistScheduleSelect")?.addEventListener("change",e=>
 });
 document.getElementById("refreshPlaylistSchedule")?.addEventListener("click",loadPlaylistSchedule);
 setTimeout(loadPlaylistSchedule,600);
+
+document.addEventListener("click",e=>{
+  if(!e.target.closest("#playlistScheduleHeatmap .schedule-block")){
+    clearSelectedScheduleBlock();
+  }
+});

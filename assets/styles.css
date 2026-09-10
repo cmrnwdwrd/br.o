@@ -1242,7 +1242,7 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
 }
 
 
-/* v34.1 Playlist Schedule */
+/* v34.2 Playlist Schedule — 15-minute merged timeline */
 .playlist-schedule-controls{
   display:grid;
   grid-template-columns:auto minmax(220px,360px) 1fr;
@@ -1261,15 +1261,17 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
   min-width:860px;
   display:grid;
   grid-template-columns:78px repeat(7,minmax(100px,1fr));
-  gap:3px;
+  grid-template-rows:24px repeat(96,7.5px);
+  column-gap:3px;
+  row-gap:0;
   align-items:stretch;
+  position:relative;
 }
 .heatmap-corner,
 .heatmap-day-head{
   color:var(--muted);
   font-size:.75rem;
   text-align:center;
-  min-height:24px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -1280,29 +1282,83 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
   text-align:right;
   padding-right:7px;
   display:flex;
-  align-items:center;
+  align-items:flex-start;
   justify-content:flex-end;
-  min-height:30px;
+  line-height:1;
+  padding-top:2px;
 }
-.heatmap-cell{
-  min-height:30px;
+.schedule-block{
+  position:relative;
+  min-width:0;
   border:1px solid #303030;
   border-radius:4px;
-  background:rgba(255,255,255,var(--heat,.03));
-  padding:4px 6px;
+  background:rgba(255,255,255,var(--heat,.025));
   display:flex;
   align-items:center;
   justify-content:center;
   text-align:center;
+  padding:2px 5px;
   font-size:.69rem;
   line-height:1.15;
-  overflow-wrap:anywhere;
+  overflow:visible;
 }
-.heatmap-cell.has-playlist{
+.schedule-block.has-playlist{
   font-weight:700;
   color:#242424 !important;
 }
-.heatmap-cell:hover{outline:1px solid #777}
+.schedule-block.empty{
+  padding:0;
+}
+.schedule-block::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent calc(7.5px * 4 - 1px),
+      rgba(255,255,255,.035) calc(7.5px * 4 - 1px),
+      rgba(255,255,255,.035) calc(7.5px * 4)
+    );
+  border-radius:inherit;
+}
+.schedule-block-text{
+  position:relative;
+  z-index:1;
+  overflow-wrap:anywhere;
+}
+.schedule-time-popover{
+  display:none;
+  position:absolute;
+  z-index:20;
+  left:50%;
+  bottom:calc(100% + 5px);
+  transform:translateX(-50%);
+  white-space:nowrap;
+  padding:4px 7px;
+  border:1px solid #777;
+  border-radius:4px;
+  background:#111;
+  color:#fff;
+  font-size:.72rem;
+  line-height:1.2;
+  pointer-events:none;
+  box-shadow:0 2px 8px rgba(0,0,0,.35);
+}
+.schedule-block.is-selected .schedule-time-popover{
+  display:block;
+}
+@media(hover:hover) and (pointer:fine){
+  .schedule-block:hover{
+    outline:1px solid #777;
+    z-index:10;
+  }
+  .schedule-block:hover .schedule-time-popover{
+    display:block;
+  }
+}
 @media(max-width:760px){
   .playlist-schedule-controls{grid-template-columns:1fr}
   .playlist-heatmap{min-width:760px}
