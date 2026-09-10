@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T12:00:49.530570+00:00",
+  "updatedAt": "2026-09-10T12:05:40.977185+00:00",
   "summary": {
-    "totalPlays": 572,
+    "totalPlays": 573,
     "unknownPlays": 66,
-    "uniqueTracks": 506,
-    "uniqueArtists": 390,
-    "uniqueAlbums": 442,
+    "uniqueTracks": 507,
+    "uniqueArtists": 391,
+    "uniqueAlbums": 443,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789041475
+    "lastObserved": 1789041675
   },
   "topSongs": [
     {
@@ -4408,10 +4408,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 30,
+      "count": 31,
       "first": 1788955289,
-      "last": 1788962266,
+      "last": 1789041675,
       "songs": [
+        {
+          "artist": "Gregory Alan Isakov",
+          "title": "San Luis",
+          "album": "Evening Machines",
+          "count": 1,
+          "first": 1789041675,
+          "last": 1789041675,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
         {
           "artist": "Yael Naim",
           "title": "A Part of Us",
@@ -4452,17 +4463,6 @@
           "count": 1,
           "first": 1788961439,
           "last": 1788961439,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Matt Corby",
-          "title": "Belly Side Up",
-          "album": "Telluric",
-          "count": 1,
-          "first": 1788961194,
-          "last": 1788961194,
           "playlists": {
             "carhartts": 1
           }
