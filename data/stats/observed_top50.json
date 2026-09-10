@@ -1,16 +1,24 @@
 {
   "schemaVersion": 29,
-  "updatedAt": "2026-09-10T00:50:26.596004+00:00",
+  "updatedAt": "2026-09-10T00:55:26.981832+00:00",
   "summary": {
-    "totalPlays": 402,
+    "totalPlays": 403,
     "unknownPlays": 46,
     "uniqueTracks": 395,
     "uniqueArtists": 333,
     "uniqueAlbums": 367,
     "firstObserved": 1788901564,
-    "lastObserved": 1789001430
+    "lastObserved": 1789001665
   },
   "topSongs": [
+    {
+      "artist": "My Chemical Romance",
+      "title": "Thank You for the Venom",
+      "album": "Three Cheers for Sweet Revenge",
+      "count": 2,
+      "first": 1788995310,
+      "last": 1789001665
+    },
     {
       "artist": "MJ Lenderman",
       "title": "Rudolph",
@@ -178,14 +186,6 @@
       "count": 1,
       "first": 1788995529,
       "last": 1788995529
-    },
-    {
-      "artist": "My Chemical Romance",
-      "title": "Thank You for the Venom",
-      "album": "Three Cheers for Sweet Revenge",
-      "count": 1,
-      "first": 1788995310,
-      "last": 1788995310
     },
     {
       "artist": "Rosie Tucker",
@@ -542,6 +542,46 @@
       ]
     },
     {
+      "artist": "My Chemical Romance",
+      "count": 5,
+      "first": 1788965302,
+      "last": 1789001665,
+      "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Thank You for the Venom",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1788995310,
+          "last": 1789001665
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "I Never Told You What I Do for a Living",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 1,
+          "first": 1789001430,
+          "last": 1789001430
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "DESTROYA",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 1,
+          "first": 1789001125,
+          "last": 1789001125
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Planetary (GO!)",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 1,
+          "first": 1788965302,
+          "last": 1788965302
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "count": 5,
       "first": 1788910325,
@@ -586,46 +626,6 @@
           "count": 1,
           "first": 1788910325,
           "last": 1788910325
-        }
-      ]
-    },
-    {
-      "artist": "My Chemical Romance",
-      "count": 4,
-      "first": 1788965302,
-      "last": 1789001430,
-      "songs": [
-        {
-          "artist": "My Chemical Romance",
-          "title": "I Never Told You What I Do for a Living",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789001430,
-          "last": 1789001430
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "DESTROYA",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 1,
-          "first": 1789001125,
-          "last": 1789001125
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Thank You for the Venom",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1788995310,
-          "last": 1788995310
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Planetary (GO!)",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 1,
-          "first": 1788965302,
-          "last": 1788965302
         }
       ]
     },
@@ -1794,6 +1794,31 @@
       ]
     },
     {
+      "artist": "My Chemical Romance",
+      "album": "Three Cheers for Sweet Revenge",
+      "count": 3,
+      "first": 1788995310,
+      "last": 1789001665,
+      "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Thank You for the Venom",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1788995310,
+          "last": 1789001665
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "I Never Told You What I Do for a Living",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 1,
+          "first": 1789001430,
+          "last": 1789001430
+        }
+      ]
+    },
+    {
       "artist": "Opium",
       "album": "PHANTOMS",
       "count": 3,
@@ -1914,31 +1939,6 @@
           "count": 1,
           "first": 1788929259,
           "last": 1788929259
-        }
-      ]
-    },
-    {
-      "artist": "My Chemical Romance",
-      "album": "Three Cheers for Sweet Revenge",
-      "count": 2,
-      "first": 1788995310,
-      "last": 1789001430,
-      "songs": [
-        {
-          "artist": "My Chemical Romance",
-          "title": "I Never Told You What I Do for a Living",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789001430,
-          "last": 1789001430
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Thank You for the Venom",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1788995310,
-          "last": 1788995310
         }
       ]
     },
