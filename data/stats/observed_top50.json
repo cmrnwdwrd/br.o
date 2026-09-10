@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T01:25:24.409771+00:00",
+  "updatedAt": "2026-09-10T01:30:24.723630+00:00",
   "summary": {
-    "totalPlays": 410,
+    "totalPlays": 412,
     "unknownPlays": 47,
-    "uniqueTracks": 402,
+    "uniqueTracks": 404,
     "uniqueArtists": 336,
-    "uniqueAlbums": 372,
+    "uniqueAlbums": 373,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789003457
+    "lastObserved": 1789003808
   },
   "topSongs": [
     {
@@ -98,6 +98,28 @@
       "last": 1788930391,
       "playlists": {
         "1default": 2
+      }
+    },
+    {
+      "artist": "My Chemical Romance",
+      "title": "Cemetery Drive",
+      "album": "Three Cheers for Sweet Revenge",
+      "count": 1,
+      "first": 1789003808,
+      "last": 1789003808,
+      "playlists": {
+        "MCR wednesday wind down": 1
+      }
+    },
+    {
+      "artist": "Paramore",
+      "title": "crushcrushcrush",
+      "album": "Riot!",
+      "count": 1,
+      "first": 1789003620,
+      "last": 1789003620,
+      "playlists": {
+        "MCR wednesday wind down": 1
       }
     },
     {
@@ -539,36 +561,14 @@
       "playlists": {
         "1default": 1
       }
-    },
-    {
-      "artist": "Cage The Elephant",
-      "title": "Social Cues",
-      "album": "Social Cues",
-      "count": 1,
-      "first": 1788990244,
-      "last": 1788990244,
-      "playlists": {
-        "1default": 1
-      }
-    },
-    {
-      "artist": "Arcade Fire",
-      "title": "Wake Up",
-      "album": "Funeral",
-      "count": 1,
-      "first": 1788989909,
-      "last": 1788989909,
-      "playlists": {
-        "1default": 1
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "My Chemical Romance",
-      "count": 9,
+      "count": 10,
       "first": 1788965302,
-      "last": 1789003457,
+      "last": 1789003808,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -579,6 +579,17 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Cemetery Drive",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 1,
+          "first": 1789003808,
+          "last": 1789003808,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         },
         {
@@ -1280,6 +1291,36 @@
           "last": 1788938278,
           "playlists": {
             "breakbeat": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Paramore",
+      "count": 2,
+      "first": 1788996589,
+      "last": 1789003620,
+      "songs": [
+        {
+          "artist": "Paramore",
+          "title": "crushcrushcrush",
+          "album": "Riot!",
+          "count": 1,
+          "first": 1789003620,
+          "last": 1789003620,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Paramore",
+          "title": "The News",
+          "album": "This Is Why",
+          "count": 1,
+          "first": 1788996589,
+          "last": 1788996589,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 1
           }
         }
       ]
@@ -2220,34 +2261,15 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Paramore",
-      "count": 1,
-      "first": 1788996589,
-      "last": 1788996589,
-      "songs": [
-        {
-          "artist": "Paramore",
-          "title": "The News",
-          "album": "This Is Why",
-          "count": 1,
-          "first": 1788996589,
-          "last": 1788996589,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 1
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
     {
       "artist": "My Chemical Romance",
       "album": "Three Cheers for Sweet Revenge",
-      "count": 4,
+      "count": 5,
       "first": 1788995310,
-      "last": 1789002250,
+      "last": 1789003808,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -2258,6 +2280,17 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Cemetery Drive",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 1,
+          "first": 1789003808,
+          "last": 1789003808,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         },
         {
@@ -3133,6 +3166,26 @@
       ]
     },
     {
+      "artist": "Paramore",
+      "album": "Riot!",
+      "count": 1,
+      "first": 1789003620,
+      "last": 1789003620,
+      "songs": [
+        {
+          "artist": "Paramore",
+          "title": "crushcrushcrush",
+          "album": "Riot!",
+          "count": 1,
+          "first": 1789003620,
+          "last": 1789003620,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "blink-182",
       "album": "Enema Of The State",
       "count": 1,
@@ -3546,26 +3599,6 @@
           "count": 1,
           "first": 1788993925,
           "last": 1788993925,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Built To Spill",
-      "album": "Keep It like a Secret",
-      "count": 1,
-      "first": 1788993405,
-      "last": 1788993405,
-      "songs": [
-        {
-          "artist": "Built To Spill",
-          "title": "Broken Chairs",
-          "album": "Keep It like a Secret",
-          "count": 1,
-          "first": 1788993405,
-          "last": 1788993405,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 1
           }
@@ -4960,9 +4993,9 @@
     },
     {
       "playlist": "MCR wednesday wind down",
-      "count": 11,
+      "count": 13,
       "first": 1788995310,
-      "last": 1789003457,
+      "last": 1789003808,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -4973,6 +5006,28 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Cemetery Drive",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 1,
+          "first": 1789003808,
+          "last": 1789003808,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Paramore",
+          "title": "crushcrushcrush",
+          "album": "Riot!",
+          "count": 1,
+          "first": 1789003620,
+          "last": 1789003620,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         },
         {
