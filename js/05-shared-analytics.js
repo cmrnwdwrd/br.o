@@ -630,12 +630,43 @@ function renderPlaylistScheduleHeatmap(p){
   }
   root.innerHTML=out;
 
+  // Keep the schedule tooltip inside the top edge of the grid. Normally it
+  // appears above a block; if there is not enough room, flip it below.
+  function positionSchedulePopover(el){
+    const pop=el.querySelector(".schedule-time-popover");
+    if(!pop)return;
+
+    // Reset first so the measurement reflects the normal above-block position.
+    pop.style.top="";
+    pop.style.bottom="";
+
+    requestAnimationFrame(()=>{
+      const gridRect=root.getBoundingClientRect();
+      const blockRect=el.getBoundingClientRect();
+      const popRect=pop.getBoundingClientRect();
+      if(!popRect.height)return;
+
+      const gap=7;
+      const roomAbove=blockRect.top-gridRect.top;
+      if(roomAbove<popRect.height+gap){
+        pop.style.bottom="auto";
+        pop.style.top="calc(100% + 5px)";
+      }else{
+        pop.style.top="auto";
+        pop.style.bottom="calc(100% + 5px)";
+      }
+    });
+  }
+
   // Tap/click behavior: one time label maximum; tap same block again to close it.
   root.querySelectorAll(".schedule-block").forEach(el=>{
+    el.addEventListener("mouseenter",()=>positionSchedulePopover(el));
+    el.addEventListener("focus",()=>positionSchedulePopover(el));
     el.addEventListener("click",ev=>{
       const wasSelected=el.classList.contains("is-selected");
       clearSelectedScheduleBlock(el);
       el.classList.toggle("is-selected",!wasSelected);
+      if(!wasSelected)positionSchedulePopover(el);
       ev.stopPropagation();
     });
     el.addEventListener("keydown",ev=>{
