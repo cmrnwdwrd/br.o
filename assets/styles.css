@@ -1366,3 +1366,38 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
   .playlist-schedule-controls{grid-template-columns:1fr}
   .playlist-heatmap{min-width:760px}
 }
+
+
+/* v34.6 liked-song actions, scrolling, and display-category preference */
+#favoritesList{
+  max-height:420px !important;
+  overflow-y:auto !important;
+  overflow-x:hidden !important;
+  padding-right:7px;
+}
+.favorite-group-rows{
+  max-height:none !important;
+  overflow:visible !important;
+}
+.favorite-row{
+  grid-template-columns:minmax(0,1fr) auto !important;
+}
+.favorite-row .song-row-actions{
+  align-self:center;
+  justify-self:end;
+}
+.display-category-hidden{
+  display:none !important;
+}
+.display-setting-toggle{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  width:max-content;
+  max-width:100%;
+  margin:10px 0 12px;
+  cursor:pointer;
+}
+.display-setting-toggle input{
+  margin:0;
+}

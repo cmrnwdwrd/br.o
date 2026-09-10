@@ -81,7 +81,10 @@ function favoriteRow(r){
     if(latestData) renderHistory(latestData);
   });
 
-  row.append(main,like,spotifyMiniButton(r.artist,r.title));
+  const actions=document.createElement("div");
+  actions.className="song-row-actions";
+  actions.append(like,spotifyMiniButton(r.artist,r.title));
+  row.append(main,actions);
   return row;
 }
 async function renderFavorites(){

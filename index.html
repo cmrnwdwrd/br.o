@@ -261,42 +261,6 @@
 </div>
 </div>
 </section>
-
-<section class="card history-wide" id="playlistScheduleCard">
-<div class="card-head">
-<h2>Playlist Schedule</h2>
-<div class="card-tools">
-<button aria-label="Refresh inferred playlist schedule" class="icon-btn" id="refreshPlaylistSchedule" title="Refresh playlist schedule" type="button"><span aria-hidden="true">↻</span></button>
-<button aria-expanded="true" class="collapse-btn" data-target="body-playlistschedule" title="Hide/show Playlist Schedule" type="button"><span class="arrow">▼</span></button>
-</div>
-</div>
-<div class="card-body" id="body-playlistschedule">
-<div class="playlist-schedule-controls">
-<label for="playlistScheduleSelect">Playlist</label>
-<select id="playlistScheduleSelect" aria-label="Choose playlist to analyze">
-<option value="">Loading playlists…</option>
-</select>
-<span class="muted tiny">Inferred from the most recent 90 days of observed playlist sessions.</span>
-</div>
-<div class="stats-grid" id="playlistScheduleStats"></div>
-
-<div class="mini-panel playlist-schedule-full">
-<div class="mini-panel-head">
-<h3>Weekly Schedule</h3>
-<div class="muted tiny">Days across the top · hours down the left. Schedule changes are shown to the nearest 15 minutes.</div>
-</div>
-<div class="playlist-heatmap-scroll">
-<div class="playlist-heatmap" id="playlistScheduleHeatmap" aria-label="Weekly playlist schedule heatmap"></div>
-</div>
-</div>
-
-<div class="status-footer">
-<div class="refresh-status" id="status-playlistschedule">Last Updated: —</div>
-<button aria-label="Explain Playlist Schedule" class="info-btn" data-info="playlistschedule" type="button">i</button>
-</div>
-</div>
-</section>
-
 <section class="card station-wide" id="listenerTrendCard">
 <div class="card-head">
 <h2>Active Streams</h2>
@@ -312,10 +276,10 @@
 </div>
 <div class="listener-controls">
 <div class="period-tabs" id="listenerPeriodTabs">
-<button class="active" data-period="24h" type="button">24 hours</button>
+<button data-period="24h" type="button">24 hours</button>
 <button data-period="7d" type="button">7 days</button>
 <button data-period="30d" type="button">30 days</button>
-<button data-period="90d" type="button">90 days</button>
+<button class="active" data-period="90d" type="button">90 days</button>
 <button data-period="all" type="button">All time</button>
 </div>
 </div>
@@ -340,7 +304,7 @@
 </div>
 <div class="muted tiny" id="listenerPlotStatus">Loading shared listener history…</div>
 <div class="status-footer">
-<div class="refresh-status" id="listenerPeriodLabel">24-hour active-stream history</div>
+<div class="refresh-status" id="listenerPeriodLabel">90-day active-stream history</div>
 <button aria-label="Explain active stream history" class="info-btn" data-info="listenertrend" type="button">i</button>
 </div>
 </div>
@@ -507,7 +471,7 @@
 </div>
 <p class="muted tiny">Now Playing and Recently Played update independently using the lowest-data method available. Realtime push is preferred when the server supports it.</p>
 </section>
-<section class="settings-section"><h3>Display</h3><p class="muted tiny">All optional categories start collapsed whenever the player opens. Now Playing and Recently Played stay open.</p><div class="settings-actions"><button id="expandCategories" type="button">Expand categories</button><button id="collapseCategories" type="button">Collapse categories</button></div></section>
+<section class="settings-section"><h3>Display</h3><p class="muted tiny">All optional categories start collapsed whenever the player opens. Now Playing and Recently Played stay open.</p><label class="display-setting-toggle"><input id="hideStationTechnical" type="checkbox" checked> Hide Station and Technical categories</label><div class="settings-actions"><button id="expandCategories" type="button">Expand categories</button><button id="collapseCategories" type="button">Collapse categories</button></div></section>
 <section class="settings-section">
 <h3>History &amp; Storage</h3>
 <p class="muted tiny">My Listening History is stored locally in this browser. Observed BottleRag History is shared from the cloud collector.</p>

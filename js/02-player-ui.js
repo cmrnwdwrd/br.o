@@ -87,6 +87,33 @@ document.addEventListener("keydown",e=>{if(e.key==="Escape")settingsModal.hidden
 
 /* ---------- Categories ---------- */
 const CATEGORY_IDS=["likedCategory","listeningCategory","historyCategory","stationCategory","technicalCategory"];
+const OPTIONAL_DETAIL_CATEGORY_IDS=["stationCategory","technicalCategory"];
+const HIDE_DETAIL_CATEGORIES_KEY="bottlerag-hide-station-technical";
+
+function applyDetailCategoryVisibility(hide){
+  OPTIONAL_DETAIL_CATEGORY_IDS.forEach(id=>{
+    const section=document.getElementById(id);
+    if(section)section.classList.toggle("display-category-hidden",hide);
+  });
+}
+
+const hideStationTechnical=document.getElementById("hideStationTechnical");
+if(hideStationTechnical){
+  let hide=true;
+  try{
+    const saved=localStorage.getItem(HIDE_DETAIL_CATEGORIES_KEY);
+    hide=saved===null?true:saved!=="false";
+  }catch(e){}
+  hideStationTechnical.checked=hide;
+  applyDetailCategoryVisibility(hide);
+  hideStationTechnical.addEventListener("change",()=>{
+    const next=hideStationTechnical.checked;
+    applyDetailCategoryVisibility(next);
+    try{localStorage.setItem(HIDE_DETAIL_CATEGORIES_KEY,String(next))}catch(e){}
+    updateGlobalCategoryButton();
+  });
+}
+
 function setCategory(id,show){
   const body=document.getElementById(id+"-body");
   const btn=document.querySelector('.category-toggle[data-category="'+id+'"]');
@@ -101,19 +128,21 @@ document.querySelectorAll(".category-toggle").forEach(btn=>{
   });
 });
 function updateGlobalCategoryButton(){
-  const allOpen=CATEGORY_IDS.every(id=>!document.getElementById(id+"-body").hidden);
+  const visibleIds=CATEGORY_IDS.filter(id=>!document.getElementById(id)?.classList.contains("display-category-hidden"));
+  const allOpen=visibleIds.every(id=>!document.getElementById(id+"-body").hidden);
   document.getElementById("toggleAllCategories").textContent=allOpen?"Collapse all":"Expand all";
 }
 document.getElementById("toggleAllCategories").addEventListener("click",()=>{
-  const allOpen=CATEGORY_IDS.every(id=>!document.getElementById(id+"-body").hidden);
-  CATEGORY_IDS.forEach(id=>setCategory(id,!allOpen));
+  const visibleIds=CATEGORY_IDS.filter(id=>!document.getElementById(id)?.classList.contains("display-category-hidden"));
+  const allOpen=visibleIds.every(id=>!document.getElementById(id+"-body").hidden);
+  visibleIds.forEach(id=>setCategory(id,!allOpen));
   updateGlobalCategoryButton();
 });
 document.getElementById("expandCategories").addEventListener("click",()=>{
-  CATEGORY_IDS.forEach(id=>setCategory(id,true)); updateGlobalCategoryButton();
+  CATEGORY_IDS.filter(id=>!document.getElementById(id)?.classList.contains("display-category-hidden")).forEach(id=>setCategory(id,true)); updateGlobalCategoryButton();
 });
 document.getElementById("collapseCategories").addEventListener("click",()=>{
-  CATEGORY_IDS.forEach(id=>setCategory(id,false)); updateGlobalCategoryButton();
+  CATEGORY_IDS.filter(id=>!document.getElementById(id)?.classList.contains("display-category-hidden")).forEach(id=>setCategory(id,false)); updateGlobalCategoryButton();
 });
 CATEGORY_IDS.forEach(id=>setCategory(id,false));
 updateGlobalCategoryButton();
