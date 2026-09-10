@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
+    inputs:
+      collector_source:
+        description: "Collector source"
+        required: false
+        default: "primary"
 
 permissions:
   contents: write
@@ -21,18 +26,22 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check whether scheduled fallback is needed
+      - name: Check whether collector should run
         id: fallback
         run: |
-          # Cloudflare uses workflow_dispatch, so those runs always collect.
+          # workflow_dispatch means Cloudflare/manual/page-open dispatch.
           if [ "${{ github.event_name }}" != "schedule" ]; then
             echo "run_collector=true" >> "$GITHUB_OUTPUT"
-            echo "collector_source=primary" >> "$GITHUB_OUTPUT"
-            echo "Cloudflare/manual dispatch: collector will run."
+            SOURCE="${{ inputs.collector_source }}"
+            if [ -z "$SOURCE" ]; then
+              SOURCE="primary"
+            fi
+            echo "collector_source=$SOURCE" >> "$GITHUB_OUTPUT"
+            echo "Dispatched collector source: $SOURCE"
             exit 0
           fi
 
-          # GitHub schedule is only the fallback watchdog.
+          # GitHub schedule is the first fallback watchdog.
           python - <<'PY'
           import json
           import os
@@ -73,11 +82,11 @@ jobs:
                   + ("true" if run_collector else "false")
                   + "\n"
               )
-
-              if run_collector:
-                  f.write("collector_source=github-fallback\n")
-              else:
-                  f.write("collector_source=none\n")
+              f.write(
+                  "collector_source="
+                  + ("github-fallback" if run_collector else "none")
+                  + "\n"
+              )
 
           if run_collector:
               print("Collector is stale: GitHub fallback will run.")
