@@ -328,6 +328,10 @@ function renderListeningGroups(records,key,rootId,countId,labelPlural,limitPerGr
   const count=document.getElementById(countId);
   if(!root||!count)return;
 
+  const openGroups=new Set(
+    [...root.querySelectorAll("details[data-group-key][open]")].map(d=>d.dataset.groupKey)
+  );
+
   const groups=new Map();
   for(const r of records){
     const displayName=listeningGroupName(r,key);
@@ -355,6 +359,9 @@ function renderListeningGroups(records,key,rootId,countId,labelPlural,limitPerGr
     const {name,recs}= {name:group.name,recs:group.records};
     const d=document.createElement("details");
     d.className="playlist-history-group";
+    const stableGroupKey=key+":"+(key==="playlist"?normalizePlaylistName(name):name).toLowerCase();
+    d.dataset.groupKey=stableGroupKey;
+    if(openGroups.has(stableGroupKey))d.open=true;
     const s=document.createElement("summary");
     const main=document.createElement("span");
     const mostRecent=latestPlayedAt(recs);

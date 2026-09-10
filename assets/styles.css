@@ -1218,3 +1218,22 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
     grid-template-columns:48px minmax(0,1fr) auto !important;
   }
 }
+
+
+/* v33.2: keep history actions together and preserve clean row alignment */
+.song-row-actions{
+  display:inline-flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:6px;
+  white-space:nowrap;
+  align-self:center;
+}
+.rank-row,
+.artist-song-row{
+  grid-template-columns:minmax(0,1fr) auto auto;
+}
+.song-row-actions .history-like-btn,
+.song-row-actions .mini-spotify{
+  flex:0 0 auto;
+}

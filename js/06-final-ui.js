@@ -97,6 +97,19 @@ function filteredTop50(items){
   const q=observedSearchValue.trim();
   return (items||[]).filter(x=>top50Matches(x,q)).slice(0,50);
 }
+function captureOpenDetailKeys(root){
+  return new Set([...root.querySelectorAll("details[data-group-key][open]")].map(d=>d.dataset.groupKey));
+}
+function songRowActions(record,artist,title){
+  const wrap=document.createElement("div");
+  wrap.className="song-row-actions";
+  const like=historyLikeButton(record);
+  if(like)wrap.appendChild(like);
+  if(artist&&title&&title.trim().toLowerCase()!=="unknown"){
+    wrap.appendChild(spotifyMiniButton(artist,title));
+  }
+  return wrap;
+}
 function makeTopSongRow(s,i){
   const row=document.createElement("div");row.className="rank-row";
   const main=document.createElement("div");
@@ -106,10 +119,7 @@ function makeTopSongRow(s,i){
     '<div class="aggregate-meta">'+escapeHtml(heardMeta(s.first,s.last))+'</div>';
   const count=document.createElement("div");count.className="rank-count";
   count.textContent=(s.count||0)+" play"+(Number(s.count)===1?"":"s");
-  const like=historyLikeButton(observedLikeRecord(s));
-  row.append(main,count);
-  if(like)row.appendChild(like);
-  row.appendChild(spotifyMiniButton(s.artist||"",s.title||""));
+  row.append(main,count,songRowActions(observedLikeRecord(s),s.artist||"",s.title||""));
   return row;
 }
 function renderCompactObservedTop50(){
@@ -142,10 +152,14 @@ function renderCompactObservedTop50(){
   songs.forEach((x,i)=>sr.appendChild(makeTopSongRow(x,i)));
 
   const artists=filteredTop50(data.topArtists);
+  const openArtists=captureOpenDetailKeys(ar);
   ar.replaceChildren();
   document.getElementById("observedArtistCount").textContent=artists.length+" of top 50";
   artists.forEach((a,i)=>{
     const d=document.createElement("details");d.className="artist-rank";
+    const stableGroupKey="artist:"+(a.artist||"Unknown artist").trim().toLowerCase();
+    d.dataset.groupKey=stableGroupKey;
+    if(openArtists.has(stableGroupKey))d.open=true;
     const sum=document.createElement("summary");
     const name=document.createElement("span");
     name.innerHTML="#"+(i+1)+" "+escapeHtml(a.artist||"Unknown artist")+
@@ -163,20 +177,29 @@ function renderCompactObservedTop50(){
         (playlistSummaryText(sg)?'<div class="muted tiny">Playlist: '+escapeHtml(playlistSummaryText(sg))+'</div>':''))+
         '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
       const c=document.createElement("div");c.className="rank-count";c.textContent=(sg.count||0)+" plays";
-      const like=historyLikeButton(observedLikeRecord({...sg,artist:sg.artist||a.artist||""}));
-      row.append(main,c);
-      if(like)row.appendChild(like);
-      row.appendChild(spotifyMiniButton(sg.artist||a.artist||"",sg.title||""));
+      row.append(
+        main,
+        c,
+        songRowActions(
+          observedLikeRecord({...sg,artist:sg.artist||a.artist||""}),
+          sg.artist||a.artist||"",
+          sg.title||""
+        )
+      );
       songsWrap.appendChild(row);
     });
     d.appendChild(songsWrap);ar.appendChild(d);
   });
 
   const albums=filteredTop50(data.topAlbums);
+  const openAlbums=captureOpenDetailKeys(al);
   al.replaceChildren();
   document.getElementById("observedAlbumCount").textContent=albums.length+" of top 50";
   albums.forEach((a,i)=>{
     const d=document.createElement("details");d.className="artist-rank";
+    const stableGroupKey="album:"+((a.artist||"")+"|"+(a.album||"Unknown album")).trim().toLowerCase();
+    d.dataset.groupKey=stableGroupKey;
+    if(openAlbums.has(stableGroupKey))d.open=true;
     const sum=document.createElement("summary");
     const name=document.createElement("span");
     name.innerHTML="#"+(i+1)+" "+escapeHtml(a.album||"Unknown album")+
@@ -192,10 +215,15 @@ function renderCompactObservedTop50(){
         (playlistSummaryText(sg)?'<div class="muted tiny">Playlist: '+escapeHtml(playlistSummaryText(sg))+'</div>':'')+
         '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
       const c=document.createElement("div");c.className="rank-count";c.textContent=(sg.count||0)+" plays";
-      const like=historyLikeButton(observedLikeRecord({...sg,artist:sg.artist||a.artist||""}));
-      row.append(main,c);
-      if(like)row.appendChild(like);
-      row.appendChild(spotifyMiniButton(sg.artist||a.artist||"",sg.title||""));
+      row.append(
+        main,
+        c,
+        songRowActions(
+          observedLikeRecord({...sg,artist:sg.artist||a.artist||""}),
+          sg.artist||a.artist||"",
+          sg.title||""
+        )
+      );
       songsWrap.appendChild(row);
     });
     d.appendChild(songsWrap);al.appendChild(d);
@@ -204,10 +232,14 @@ function renderCompactObservedTop50(){
   const anyObservedMatches=(songs.length||artists.length||albums.length||(data.topPlaylists||[]).some(x=>top50Matches(x,observedSearchValue)));
   if(observedNo)observedNo.hidden=!(observedSearchValue&& !anyObservedMatches);
   const playlists=(data.topPlaylists||[]).slice(0,10);
+  const openPlaylists=captureOpenDetailKeys(pl);
   pl.replaceChildren();
   document.getElementById("observedPlaylistCount").textContent=playlists.length+" playlists";
   playlists.forEach((a,i)=>{
     const d=document.createElement("details");d.className="artist-rank";
+    const stableGroupKey="playlist:"+normalizePlaylistName(a.playlist||"Unspecified").toLowerCase();
+    d.dataset.groupKey=stableGroupKey;
+    if(openPlaylists.has(stableGroupKey))d.open=true;
     const sum=document.createElement("summary");
     const name=document.createElement("span");
     name.innerHTML="#"+(i+1)+" "+escapeHtml(a.playlist||"Unspecified")+
@@ -227,10 +259,15 @@ function renderCompactObservedTop50(){
         '<div class="aggregate-meta">'+escapeHtml(heardMeta(sg.first,sg.last))+'</div>';
       const c=document.createElement("div");c.className="rank-count";
       c.textContent=(sg.count||0)+" play"+(Number(sg.count)===1?"":"s");
-      const like=historyLikeButton(observedLikeRecord(sg,a.playlist||""));
-      row.append(main,c);
-      if(like)row.appendChild(like);
-      row.appendChild(spotifyMiniButton(sg.artist||"",sg.title||""));
+      row.append(
+        main,
+        c,
+        songRowActions(
+          observedLikeRecord(sg,a.playlist||""),
+          sg.artist||"",
+          sg.title||""
+        )
+      );
       songsWrap.appendChild(row);
     });
     d.appendChild(songsWrap);pl.appendChild(d);
