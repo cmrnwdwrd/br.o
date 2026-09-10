@@ -81,18 +81,6 @@ def month_path(month_key):
 
 
 def blank_aggregates():
-    playlists = list(agg.get("playlists", {}).values())
-    playlists.sort(key=lambda x: (-int(x.get("count") or 0), -int(x.get("last") or 0), (x.get("playlist") or "").lower()))
-    top_playlists = []
-    for a in playlists[:10]:
-        top_playlists.append({
-            "playlist": a.get("playlist") or "Unspecified",
-            "count": int(a.get("count") or 0),
-            "first": a.get("first"),
-            "last": a.get("last"),
-            "songs": sorted_track_items(a.get("songs", {}), 15),
-        })
-
     return {
         "schemaVersion": 31,
         "updatedAt": None,
@@ -233,6 +221,22 @@ def build_top50(agg):
             "first": a.get("first"),
             "last": a.get("last"),
             "songs": sorted_track_items(a.get("songs", {}), 50),
+        })
+
+    playlists = list(agg.get("playlists", {}).values())
+    playlists.sort(key=lambda x: (
+        -int(x.get("count") or 0),
+        -int(x.get("last") or 0),
+        (x.get("playlist") or "").lower()
+    ))
+    top_playlists = []
+    for a in playlists[:10]:
+        top_playlists.append({
+            "playlist": a.get("playlist") or "Unspecified",
+            "count": int(a.get("count") or 0),
+            "first": a.get("first"),
+            "last": a.get("last"),
+            "songs": sorted_track_items(a.get("songs", {}), 15),
         })
 
     return {
