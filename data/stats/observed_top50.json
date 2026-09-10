@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T23:25:41.294390+00:00",
+  "updatedAt": "2026-09-10T23:30:45.712535+00:00",
   "summary": {
-    "totalPlays": 764,
+    "totalPlays": 765,
     "unknownPlays": 90,
     "uniqueTracks": 642,
     "uniqueArtists": 491,
     "uniqueAlbums": 568,
     "uniquePlaylists": 13,
     "firstObserved": 1788901564,
-    "lastObserved": 1789082742
+    "lastObserved": 1789082930
   },
   "topSongs": [
     {
@@ -54,6 +54,17 @@
       "last": 1789078459,
       "playlists": {
         "MCR wednesday wind down": 3
+      }
+    },
+    {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 2,
+      "first": 1789015368,
+      "last": 1789082930,
+      "playlists": {
+        "1default": 2
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788913218,
       "last": 1789067227,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Bikini Kill",
-      "title": "Rebel Girl",
-      "album": "The Punk Singer (Original Motion Picture Soundtrack)",
-      "count": 2,
-      "first": 1788916304,
-      "last": 1789067025,
       "playlists": {
         "1default": 2
       }
@@ -2746,6 +2746,25 @@
       ]
     },
     {
+      "artist": "Lush",
+      "count": 2,
+      "first": 1789015368,
+      "last": 1789082930,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 2,
+          "first": 1789015368,
+          "last": 1789082930,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mommy Long Legs",
       "count": 2,
       "first": 1789072780,
@@ -2866,25 +2885,6 @@
           "last": 1789079938,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Car Seat Headrest",
-      "count": 2,
-      "first": 1788994486,
-      "last": 1789079530,
-      "songs": [
-        {
-          "artist": "Car Seat Headrest",
-          "title": "Bodys",
-          "album": "Twin Fantasy",
-          "count": 2,
-          "first": 1788994486,
-          "last": 1789079530,
-          "playlists": {
-            "d i n n e r": 2
           }
         }
       ]
@@ -4134,6 +4134,26 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 2,
+      "first": 1789015368,
+      "last": 1789082930,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 2,
+          "first": 1789015368,
+          "last": 1789082930,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Paramore",
       "album": "This Is Why",
       "count": 2,
@@ -4552,34 +4572,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Arcade Fire",
-      "album": "Funeral",
-      "count": 2,
-      "first": 1788989909,
-      "last": 1789072948,
-      "songs": [
-        {
-          "artist": "Arcade Fire",
-          "title": "Wake Up",
-          "album": "Funeral",
-          "count": 2,
-          "first": 1788989909,
-          "last": 1789072948,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 339,
+      "count": 340,
       "first": 1788901564,
-      "last": 1789082598,
+      "last": 1789082930,
       "songs": [
         {
           "artist": "Destructo Disk",
@@ -4615,23 +4615,23 @@
           }
         },
         {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 2,
+          "first": 1789015368,
+          "last": 1789082930,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
           "artist": "Mommy Long Legs",
           "title": "Weird Girl",
           "album": "Assholes",
           "count": 2,
           "first": 1789072780,
           "last": 1789082598,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 2,
-          "first": 1788991593,
-          "last": 1789080744,
           "playlists": {
             "1default": 2
           }
