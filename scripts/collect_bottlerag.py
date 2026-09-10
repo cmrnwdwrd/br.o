@@ -342,7 +342,7 @@ def collect_observed(data):
         plays_out = sorted(mapping.values(), key=lambda x: int(x.get("playedAt") or 0))
         save_json(month_path(month), {"month": month, "plays": plays_out})
 
-    agg["schemaVersion"] = 29
+    agg["schemaVersion"] = 31
     agg["updatedAt"] = datetime.now(timezone.utc).isoformat()
     save_json(OBS_AGG, agg)
     save_json(OBS_TOP, build_top50(agg))
