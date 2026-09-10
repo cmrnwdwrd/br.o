@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T19:10:43.810012+00:00",
+  "updatedAt": "2026-09-10T19:15:42.463964+00:00",
   "summary": {
-    "totalPlays": 693,
+    "totalPlays": 695,
     "unknownPlays": 81,
     "uniqueTracks": 620,
     "uniqueArtists": 474,
     "uniqueAlbums": 546,
     "uniquePlaylists": 13,
     "firstObserved": 1788901564,
-    "lastObserved": 1789067227
+    "lastObserved": 1789067677
   },
   "topSongs": [
     {
@@ -21,6 +21,28 @@
       "last": 1789065741,
       "playlists": {
         "1default": 3
+      }
+    },
+    {
+      "artist": "Beach Bunny",
+      "title": "Oxygen",
+      "album": "Oxygen",
+      "count": 2,
+      "first": 1788966457,
+      "last": 1789067677,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
+      "artist": "Yellowcard",
+      "title": "Ocean Avenue",
+      "album": "Ocean Avenue",
+      "count": 2,
+      "first": 1789060451,
+      "last": 1789067479,
+      "playlists": {
+        "1default": 2
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 2,
       "first": 1788940813,
       "last": 1789021080,
-      "playlists": {
-        "breakbeat": 2
-      }
-    },
-    {
-      "artist": "Khadija Al Hanafi",
-      "title": "Move Like Me",
-      "album": "Slime Patrol 2",
-      "count": 2,
-      "first": 1788942659,
-      "last": 1789020954,
-      "playlists": {
-        "breakbeat": 2
-      }
-    },
-    {
-      "artist": "Brahman",
-      "title": "invisibility cloak",
-      "album": "invisibility cloak",
-      "count": 2,
-      "first": 1788944074,
-      "last": 1789020879,
       "playlists": {
         "breakbeat": 2
       }
@@ -2446,6 +2446,44 @@
       ]
     },
     {
+      "artist": "Beach Bunny",
+      "count": 2,
+      "first": 1788966457,
+      "last": 1789067677,
+      "songs": [
+        {
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 2,
+          "first": 1788966457,
+          "last": 1789067677,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Yellowcard",
+      "count": 2,
+      "first": 1789060451,
+      "last": 1789067479,
+      "songs": [
+        {
+          "artist": "Yellowcard",
+          "title": "Ocean Avenue",
+          "album": "Ocean Avenue",
+          "count": 2,
+          "first": 1789060451,
+          "last": 1789067479,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Growlers",
       "count": 2,
       "first": 1788913218,
@@ -2847,66 +2885,6 @@
           "last": 1788993925,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Paper Kites",
-      "count": 2,
-      "first": 1788958139,
-      "last": 1789044929,
-      "songs": [
-        {
-          "artist": "The Paper Kites",
-          "title": "Arms",
-          "album": "On the Train Ride Home",
-          "count": 1,
-          "first": 1789044929,
-          "last": 1789044929,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "The Paper Kites",
-          "title": "Paint",
-          "album": "Young North - EP",
-          "count": 1,
-          "first": 1788958139,
-          "last": 1788958139,
-          "playlists": {
-            "carhartts": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Phoebe Bridgers",
-      "count": 2,
-      "first": 1788926905,
-      "last": 1789041947,
-      "songs": [
-        {
-          "artist": "Phoebe Bridgers",
-          "title": "Georgia",
-          "album": "Stranger in the Alps",
-          "count": 1,
-          "first": 1789041947,
-          "last": 1789041947,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Phoebe Bridgers",
-          "title": "Killer",
-          "album": "Stranger in the Alps",
-          "count": 1,
-          "first": 1788926905,
-          "last": 1788926905,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -3930,6 +3908,46 @@
       ]
     },
     {
+      "artist": "Beach Bunny",
+      "album": "Oxygen",
+      "count": 2,
+      "first": 1788966457,
+      "last": 1789067677,
+      "songs": [
+        {
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 2,
+          "first": 1788966457,
+          "last": 1789067677,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Yellowcard",
+      "album": "Ocean Avenue",
+      "count": 2,
+      "first": 1789060451,
+      "last": 1789067479,
+      "songs": [
+        {
+          "artist": "Yellowcard",
+          "title": "Ocean Avenue",
+          "album": "Ocean Avenue",
+          "count": 2,
+          "first": 1789060451,
+          "last": 1789067479,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Growlers",
       "album": "City Club",
       "count": 2,
@@ -4543,54 +4561,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Muskila, Siu Mata",
-      "album": "Ok, Fatma (Siu Mata Remix)",
-      "count": 2,
-      "first": 1788939106,
-      "last": 1789031640,
-      "songs": [
-        {
-          "artist": "Muskila, Siu Mata",
-          "title": "Ok, Fatma - Siu Mata Remix",
-          "album": "Ok, Fatma (Siu Mata Remix)",
-          "count": 2,
-          "first": 1788939106,
-          "last": 1789031640,
-          "playlists": {
-            "breakbeat": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Nick León",
-      "album": "2020 EDITS",
-      "count": 2,
-      "first": 1788941052,
-      "last": 1789030854,
-      "songs": [
-        {
-          "artist": "Nick León",
-          "title": "Beam Ahh (Nick León Baile mix)",
-          "album": "2020 EDITS",
-          "count": 2,
-          "first": 1788941052,
-          "last": 1789030854,
-          "playlists": {
-            "breakbeat": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 282,
+      "count": 284,
       "first": 1788901564,
-      "last": 1789067227,
+      "last": 1789067677,
       "songs": [
         {
           "artist": "Destructo Disk",
@@ -4601,6 +4579,28 @@
           "last": 1789065741,
           "playlists": {
             "1default": 3
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 2,
+          "first": 1788966457,
+          "last": 1789067677,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Yellowcard",
+          "title": "Ocean Avenue",
+          "album": "Ocean Avenue",
+          "count": 2,
+          "first": 1789060451,
+          "last": 1789067479,
+          "playlists": {
+            "1default": 2
           }
         },
         {
@@ -4621,28 +4621,6 @@
           "count": 2,
           "first": 1788916304,
           "last": 1789067025,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Dreamer Isioma",
-          "title": "Sensitive",
-          "album": "Sensitive",
-          "count": 2,
-          "first": 1789057751,
-          "last": 1789066850,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 2,
-          "first": 1788969485,
-          "last": 1789066599,
           "playlists": {
             "1default": 2
           }
