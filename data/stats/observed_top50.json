@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T01:55:25.818572+00:00",
+  "updatedAt": "2026-09-10T02:00:24.524770+00:00",
   "summary": {
-    "totalPlays": 418,
+    "totalPlays": 420,
     "unknownPlays": 48,
-    "uniqueTracks": 410,
+    "uniqueTracks": 411,
     "uniqueArtists": 337,
     "uniqueAlbums": 375,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789005050
+    "lastObserved": 1789005562
   },
   "topSongs": [
+    {
+      "artist": "My Chemical Romance",
+      "title": "I'm Not Okay (I Promise)",
+      "album": "Three Cheers for Sweet Revenge",
+      "count": 2,
+      "first": 1789002250,
+      "last": 1789005376,
+      "playlists": {
+        "MCR wednesday wind down": 2
+      }
+    },
     {
       "artist": "My Chemical Romance",
       "title": "Thank You for the Venom",
@@ -98,6 +109,17 @@
       "last": 1788930391,
       "playlists": {
         "1default": 2
+      }
+    },
+    {
+      "artist": "My Chemical Romance",
+      "title": "Dead!",
+      "album": "The Black Parade",
+      "count": 1,
+      "first": 1789005562,
+      "last": 1789005562,
+      "playlists": {
+        "MCR wednesday wind down": 1
       }
     },
     {
@@ -239,17 +261,6 @@
       "count": 1,
       "first": 1789002434,
       "last": 1789002434,
-      "playlists": {
-        "MCR wednesday wind down": 1
-      }
-    },
-    {
-      "artist": "My Chemical Romance",
-      "title": "I'm Not Okay (I Promise)",
-      "album": "Three Cheers for Sweet Revenge",
-      "count": 1,
-      "first": 1789002250,
-      "last": 1789002250,
       "playlists": {
         "MCR wednesday wind down": 1
       }
@@ -550,26 +561,26 @@
       "playlists": {
         "anti-capitalist weekday afternoon #1": 1
       }
-    },
-    {
-      "artist": "The Crickets",
-      "title": "I Fought The Law",
-      "album": "In Style With The Crickets (Expanded Edition)",
-      "count": 1,
-      "first": 1788991998,
-      "last": 1788991998,
-      "playlists": {
-        "anti-capitalist weekday afternoon #1": 1
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "My Chemical Romance",
-      "count": 13,
+      "count": 15,
       "first": 1788965302,
-      "last": 1789005050,
+      "last": 1789005562,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "I'm Not Okay (I Promise)",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789002250,
+          "last": 1789005376,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "Thank You for the Venom",
@@ -579,6 +590,17 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Dead!",
+          "album": "The Black Parade",
+          "count": 1,
+          "first": 1789005562,
+          "last": 1789005562,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         },
         {
@@ -643,17 +665,6 @@
           "count": 1,
           "first": 1789002841,
           "last": 1789002841,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "I'm Not Okay (I Promise)",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789002250,
-          "last": 1789002250,
           "playlists": {
             "MCR wednesday wind down": 1
           }
@@ -2322,10 +2333,21 @@
     {
       "artist": "My Chemical Romance",
       "album": "Three Cheers for Sweet Revenge",
-      "count": 6,
+      "count": 7,
       "first": 1788995310,
-      "last": 1789004215,
+      "last": 1789005376,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "I'm Not Okay (I Promise)",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789002250,
+          "last": 1789005376,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "Thank You for the Venom",
@@ -2355,17 +2377,6 @@
           "count": 1,
           "first": 1789003808,
           "last": 1789003808,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "I'm Not Okay (I Promise)",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789002250,
-          "last": 1789002250,
           "playlists": {
             "MCR wednesday wind down": 1
           }
@@ -2485,6 +2496,48 @@
           "last": 1788902047,
           "playlists": {
             "1default": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "My Chemical Romance",
+      "album": "The Black Parade",
+      "count": 3,
+      "first": 1789001951,
+      "last": 1789005562,
+      "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Dead!",
+          "album": "The Black Parade",
+          "count": 1,
+          "first": 1789005562,
+          "last": 1789005562,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Teenagers",
+          "album": "The Black Parade",
+          "count": 1,
+          "first": 1789003457,
+          "last": 1789003457,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Famous Last Words",
+          "album": "The Black Parade",
+          "count": 1,
+          "first": 1789001951,
+          "last": 1789001951,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         }
       ]
@@ -2744,37 +2797,6 @@
           "count": 1,
           "first": 1789002434,
           "last": 1789002434,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "My Chemical Romance",
-      "album": "The Black Parade",
-      "count": 2,
-      "first": 1789001951,
-      "last": 1789003457,
-      "songs": [
-        {
-          "artist": "My Chemical Romance",
-          "title": "Teenagers",
-          "album": "The Black Parade",
-          "count": 1,
-          "first": 1789003457,
-          "last": 1789003457,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Famous Last Words",
-          "album": "The Black Parade",
-          "count": 1,
-          "first": 1789001951,
-          "last": 1789001951,
           "playlists": {
             "MCR wednesday wind down": 1
           }
@@ -4572,6 +4594,179 @@
       ]
     },
     {
+      "playlist": "MCR wednesday wind down",
+      "count": 21,
+      "first": 1788995310,
+      "last": 1789005562,
+      "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "I'm Not Okay (I Promise)",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789002250,
+          "last": 1789005376,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Thank You for the Venom",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1788995310,
+          "last": 1789001665,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Dead!",
+          "album": "The Black Parade",
+          "count": 1,
+          "first": 1789005562,
+          "last": 1789005562,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Vampires Will Never Hurt You",
+          "album": "I Brought You My Bullets, You Brought Me Your Love",
+          "count": 1,
+          "first": 1789005050,
+          "last": 1789005050,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Taking Back Sunday",
+          "title": "Cute Without The 'E' (Cut From The Team) - Remastered 2019",
+          "album": "Tell All Your Friends (Remastered)",
+          "count": 1,
+          "first": 1789004837,
+          "last": 1789004837,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Evanescence",
+          "title": "Lithium",
+          "album": "The Open Door",
+          "count": 1,
+          "first": 1789004613,
+          "last": 1789004613,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Taking Back Sunday",
+          "title": "Liar (It Takes One To Know One)",
+          "album": "Louder Now (U.S. Version)",
+          "count": 1,
+          "first": 1789004353,
+          "last": 1789004353,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Give 'Em Hell, Kid",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 1,
+          "first": 1789004215,
+          "last": 1789004215,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Vampire Money",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 1,
+          "first": 1789003997,
+          "last": 1789003997,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Cemetery Drive",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 1,
+          "first": 1789003808,
+          "last": 1789003808,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Paramore",
+          "title": "crushcrushcrush",
+          "album": "Riot!",
+          "count": 1,
+          "first": 1789003620,
+          "last": 1789003620,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Teenagers",
+          "album": "The Black Parade",
+          "count": 1,
+          "first": 1789003457,
+          "last": 1789003457,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "blink-182",
+          "title": "Adam's Song",
+          "album": "Enema Of The State",
+          "count": 1,
+          "first": 1789003210,
+          "last": 1789003210,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Demolition Lovers",
+          "album": "I Brought You My Bullets, You Brought Me Your Love",
+          "count": 1,
+          "first": 1789002841,
+          "last": 1789002841,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Simple Plan",
+          "title": "I'm Just A Kid",
+          "album": "No Pads, No Helmets...Just Balls",
+          "count": 1,
+          "first": 1789002640,
+          "last": 1789002640,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        }
+      ]
+    },
+    {
       "playlist": "EPL4a",
       "count": 21,
       "first": 1788930925,
@@ -4740,179 +4935,6 @@
           "last": 1788931855,
           "playlists": {
             "EPL4a": 1
-          }
-        }
-      ]
-    },
-    {
-      "playlist": "MCR wednesday wind down",
-      "count": 19,
-      "first": 1788995310,
-      "last": 1789005050,
-      "songs": [
-        {
-          "artist": "My Chemical Romance",
-          "title": "Thank You for the Venom",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 2,
-          "first": 1788995310,
-          "last": 1789001665,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Vampires Will Never Hurt You",
-          "album": "I Brought You My Bullets, You Brought Me Your Love",
-          "count": 1,
-          "first": 1789005050,
-          "last": 1789005050,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Taking Back Sunday",
-          "title": "Cute Without The 'E' (Cut From The Team) - Remastered 2019",
-          "album": "Tell All Your Friends (Remastered)",
-          "count": 1,
-          "first": 1789004837,
-          "last": 1789004837,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Evanescence",
-          "title": "Lithium",
-          "album": "The Open Door",
-          "count": 1,
-          "first": 1789004613,
-          "last": 1789004613,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Taking Back Sunday",
-          "title": "Liar (It Takes One To Know One)",
-          "album": "Louder Now (U.S. Version)",
-          "count": 1,
-          "first": 1789004353,
-          "last": 1789004353,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Give 'Em Hell, Kid",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789004215,
-          "last": 1789004215,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Vampire Money",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 1,
-          "first": 1789003997,
-          "last": 1789003997,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Cemetery Drive",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789003808,
-          "last": 1789003808,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Paramore",
-          "title": "crushcrushcrush",
-          "album": "Riot!",
-          "count": 1,
-          "first": 1789003620,
-          "last": 1789003620,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Teenagers",
-          "album": "The Black Parade",
-          "count": 1,
-          "first": 1789003457,
-          "last": 1789003457,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "blink-182",
-          "title": "Adam's Song",
-          "album": "Enema Of The State",
-          "count": 1,
-          "first": 1789003210,
-          "last": 1789003210,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Demolition Lovers",
-          "album": "I Brought You My Bullets, You Brought Me Your Love",
-          "count": 1,
-          "first": 1789002841,
-          "last": 1789002841,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Simple Plan",
-          "title": "I'm Just A Kid",
-          "album": "No Pads, No Helmets...Just Balls",
-          "count": 1,
-          "first": 1789002640,
-          "last": 1789002640,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Taking Back Sunday",
-          "title": "MakeDamnSure",
-          "album": "Louder Now (U.S. Version)",
-          "count": 1,
-          "first": 1789002434,
-          "last": 1789002434,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "I'm Not Okay (I Promise)",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789002250,
-          "last": 1789002250,
-          "playlists": {
-            "MCR wednesday wind down": 1
           }
         }
       ]
