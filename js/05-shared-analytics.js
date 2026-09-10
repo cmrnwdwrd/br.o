@@ -35,7 +35,7 @@ function mergeObserved(local,shared){
 
 /* ---------- v26 Active Streams dashboard ---------- */
 let listenerDoc=null;
-let listenerPeriod="90d";
+let listenerPeriod="24h";
 let listenerPlotPoints=[];
 let listenerCanvasHoverX=null;
 let listenerSelectedHour=null;
