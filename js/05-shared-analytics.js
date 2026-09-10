@@ -349,16 +349,20 @@ function renderCollectorHealth(){
   if(!d){el.textContent="Collector: unknown";el.className="collector-health warn";return}
   const mins=(Date.now()-d.getTime())/60000;
   const source=listenerDoc.lastSampleSource||"primary";
-  let sourceLabel="";
-  if(source==="github-fallback")sourceLabel=" · Fallback sample";
-  if(source==="page-fallback")sourceLabel=" · 2nd fallback sample";
+  const sourceLabels={
+    "primary":"Primary",
+    "github-fallback":"2nd fallback",
+    "cron-fallback":"3rd fallback",
+    "page-fallback":"4th fallback"
+  };
+  const sourceLabel=sourceLabels[source]||"";
 
   el.className="collector-health "+(mins<=15?"ok":mins<=30?"warn":"bad");
   el.textContent=mins<=15
-    ?"Collector: ✓ "+Math.max(0,Math.round(mins))+" min ago"+sourceLabel
+    ?"Collector: ✓ "+Math.max(0,Math.round(mins))+" min ago"+(sourceLabel?" · "+sourceLabel:"")
     :mins<=30
-      ?"Collector delayed · "+Math.round(mins)+" min"
-      :"Collector stale · "+Math.round(mins)+" min";
+      ?"Collector delayed · "+Math.round(mins)+" min"+(sourceLabel?" · Last source: "+sourceLabel:"")
+      :"Collector stale · "+Math.round(mins)+" min"+(sourceLabel?" · Last source: "+sourceLabel:"");
 }
 const PAGE_FALLBACK_URL="https://bottlerag-collector-trigger.cmrnwdwrd.workers.dev/fallback";
 const PAGE_FALLBACK_STALE_MINUTES=14;
@@ -437,7 +441,7 @@ Object.assign(infoHelp,{
     ["Interactive chart","Move the mouse or tap anywhere along the x-axis. You do not need to hit a data point; the nearest sample/day is selected and a vertical cursor appears."],
     ["Time of day","The hourly chart uses cumulative aggregate samples to show when BottleRag tends to have the most simultaneous active streams."],
     ["Records","All-time peak, highest daily average, highest daily peak, and busiest hour remain available even after old detailed samples are compressed."],
-    ["Collector health","Shows how recently GitHub Actions updated the shared data. More than about 15 minutes suggests the scheduled collector is delayed."]
+    ["Collector health","Shows how recently the shared collector data was updated and which trigger produced the latest sample: Primary (Cloudflare Cron), 2nd fallback (GitHub schedule), 3rd fallback (cron-job.org), or 4th fallback (open browser)."]
   ]}
 });
 
