@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T13:05:44.234396+00:00",
+  "updatedAt": "2026-09-10T13:10:45.030017+00:00",
   "summary": {
-    "totalPlays": 589,
+    "totalPlays": 590,
     "unknownPlays": 69,
-    "uniqueTracks": 523,
+    "uniqueTracks": 524,
     "uniqueArtists": 401,
-    "uniqueAlbums": 458,
+    "uniqueAlbums": 459,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789045430
+    "lastObserved": 1789045645
   },
   "topSongs": [
     {
@@ -2134,6 +2134,36 @@
       ]
     },
     {
+      "artist": "Shakey Graves",
+      "count": 2,
+      "first": 1788993925,
+      "last": 1789045645,
+      "songs": [
+        {
+          "artist": "Shakey Graves",
+          "title": "Tomorrow",
+          "album": "Tomorrow",
+          "count": 1,
+          "first": 1789045645,
+          "last": 1789045645,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
+        {
+          "artist": "Shakey Graves",
+          "title": "Chinatown",
+          "album": "Roll The Bones X",
+          "count": 1,
+          "first": 1788993925,
+          "last": 1788993925,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Paper Kites",
       "count": 2,
       "first": 1788958139,
@@ -2591,25 +2621,6 @@
           "last": 1788973998,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Budos Band",
-      "count": 2,
-      "first": 1788943384,
-      "last": 1789032122,
-      "songs": [
-        {
-          "artist": "The Budos Band",
-          "title": "Up From the South",
-          "album": "The Budos Band",
-          "count": 2,
-          "first": 1788943384,
-          "last": 1789032122,
-          "playlists": {
-            "breakbeat": 2
           }
         }
       ]
@@ -4359,10 +4370,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 47,
+      "count": 48,
       "first": 1788955289,
-      "last": 1789045430,
+      "last": 1789045645,
       "songs": [
+        {
+          "artist": "Shakey Graves",
+          "title": "Tomorrow",
+          "album": "Tomorrow",
+          "count": 1,
+          "first": 1789045645,
+          "last": 1789045645,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
         {
           "artist": "The Head And The Heart",
           "title": "Every Shade of Blue",
@@ -4403,17 +4425,6 @@
           "count": 1,
           "first": 1789044723,
           "last": 1789044723,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Houndmouth",
-          "title": "Darlin'",
-          "album": "Little Neon Limelight",
-          "count": 1,
-          "first": 1789044464,
-          "last": 1789044464,
           "playlists": {
             "carhartts": 1
           }
