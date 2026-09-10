@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T02:05:24.628845+00:00",
+  "updatedAt": "2026-09-10T02:10:59.756915+00:00",
   "summary": {
-    "totalPlays": 421,
+    "totalPlays": 423,
     "unknownPlays": 48,
-    "uniqueTracks": 411,
+    "uniqueTracks": 412,
     "uniqueArtists": 337,
     "uniqueAlbums": 375,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789005759
+    "lastObserved": 1789006168
   },
   "topSongs": [
+    {
+      "artist": "My Chemical Romance",
+      "title": "Give 'Em Hell, Kid",
+      "album": "Three Cheers for Sweet Revenge",
+      "count": 2,
+      "first": 1789004215,
+      "last": 1789006168,
+      "playlists": {
+        "MCR wednesday wind down": 2
+      }
+    },
     {
       "artist": "Simple Plan",
       "title": "I'm Just A Kid",
@@ -123,6 +134,17 @@
       }
     },
     {
+      "artist": "Paramore",
+      "title": "Misery Business",
+      "album": "Riot!",
+      "count": 1,
+      "first": 1789005955,
+      "last": 1789005955,
+      "playlists": {
+        "MCR wednesday wind down": 1
+      }
+    },
+    {
       "artist": "My Chemical Romance",
       "title": "Dead!",
       "album": "The Black Parade",
@@ -173,17 +195,6 @@
       "count": 1,
       "first": 1789004353,
       "last": 1789004353,
-      "playlists": {
-        "MCR wednesday wind down": 1
-      }
-    },
-    {
-      "artist": "My Chemical Romance",
-      "title": "Give 'Em Hell, Kid",
-      "album": "Three Cheers for Sweet Revenge",
-      "count": 1,
-      "first": 1789004215,
-      "last": 1789004215,
       "playlists": {
         "MCR wednesday wind down": 1
       }
@@ -550,26 +561,26 @@
       "playlists": {
         "anti-capitalist weekday afternoon #1": 1
       }
-    },
-    {
-      "artist": "Dead Kennedys",
-      "title": "Kill the Poor",
-      "album": "Fresh Fruit for Rotting Vegetables",
-      "count": 1,
-      "first": 1788992133,
-      "last": 1788992133,
-      "playlists": {
-        "anti-capitalist weekday afternoon #1": 1
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "My Chemical Romance",
-      "count": 15,
+      "count": 16,
       "first": 1788965302,
-      "last": 1789005562,
+      "last": 1789006168,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Give 'Em Hell, Kid",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789004215,
+          "last": 1789006168,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "I'm Not Okay (I Promise)",
@@ -610,17 +621,6 @@
           "count": 1,
           "first": 1789005050,
           "last": 1789005050,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Give 'Em Hell, Kid",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789004215,
-          "last": 1789004215,
           "playlists": {
             "MCR wednesday wind down": 1
           }
@@ -1094,6 +1094,47 @@
       ]
     },
     {
+      "artist": "Paramore",
+      "count": 3,
+      "first": 1788996589,
+      "last": 1789005955,
+      "songs": [
+        {
+          "artist": "Paramore",
+          "title": "Misery Business",
+          "album": "Riot!",
+          "count": 1,
+          "first": 1789005955,
+          "last": 1789005955,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Paramore",
+          "title": "crushcrushcrush",
+          "album": "Riot!",
+          "count": 1,
+          "first": 1789003620,
+          "last": 1789003620,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Paramore",
+          "title": "The News",
+          "album": "This Is Why",
+          "count": 1,
+          "first": 1788996589,
+          "last": 1788996589,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Taking Back Sunday",
       "count": 3,
       "first": 1789002434,
@@ -1395,36 +1436,6 @@
           "last": 1789005759,
           "playlists": {
             "MCR wednesday wind down": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Paramore",
-      "count": 2,
-      "first": 1788996589,
-      "last": 1789003620,
-      "songs": [
-        {
-          "artist": "Paramore",
-          "title": "crushcrushcrush",
-          "album": "Riot!",
-          "count": 1,
-          "first": 1789003620,
-          "last": 1789003620,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Paramore",
-          "title": "The News",
-          "album": "This Is Why",
-          "count": 1,
-          "first": 1788996589,
-          "last": 1788996589,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 1
           }
         }
       ]
@@ -2333,10 +2344,21 @@
     {
       "artist": "My Chemical Romance",
       "album": "Three Cheers for Sweet Revenge",
-      "count": 7,
+      "count": 8,
       "first": 1788995310,
-      "last": 1789005376,
+      "last": 1789006168,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Give 'Em Hell, Kid",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789004215,
+          "last": 1789006168,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "I'm Not Okay (I Promise)",
@@ -2357,17 +2379,6 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Give 'Em Hell, Kid",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789004215,
-          "last": 1789004215,
-          "playlists": {
-            "MCR wednesday wind down": 1
           }
         },
         {
@@ -2737,6 +2748,37 @@
           "last": 1788929259,
           "playlists": {
             "more home alone": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Paramore",
+      "album": "Riot!",
+      "count": 2,
+      "first": 1789003620,
+      "last": 1789005955,
+      "songs": [
+        {
+          "artist": "Paramore",
+          "title": "Misery Business",
+          "album": "Riot!",
+          "count": 1,
+          "first": 1789005955,
+          "last": 1789005955,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Paramore",
+          "title": "crushcrushcrush",
+          "album": "Riot!",
+          "count": 1,
+          "first": 1789003620,
+          "last": 1789003620,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         }
       ]
@@ -3380,26 +3422,6 @@
           "count": 1,
           "first": 1789004613,
           "last": 1789004613,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Paramore",
-      "album": "Riot!",
-      "count": 1,
-      "first": 1789003620,
-      "last": 1789003620,
-      "songs": [
-        {
-          "artist": "Paramore",
-          "title": "crushcrushcrush",
-          "album": "Riot!",
-          "count": 1,
-          "first": 1789003620,
-          "last": 1789003620,
           "playlists": {
             "MCR wednesday wind down": 1
           }
@@ -4595,10 +4617,21 @@
     },
     {
       "playlist": "MCR wednesday wind down",
-      "count": 22,
+      "count": 24,
       "first": 1788995310,
-      "last": 1789005759,
+      "last": 1789006168,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Give 'Em Hell, Kid",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789004215,
+          "last": 1789006168,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
         {
           "artist": "Simple Plan",
           "title": "I'm Just A Kid",
@@ -4630,6 +4663,17 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "Paramore",
+          "title": "Misery Business",
+          "album": "Riot!",
+          "count": 1,
+          "first": 1789005955,
+          "last": 1789005955,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         },
         {
@@ -4689,17 +4733,6 @@
         },
         {
           "artist": "My Chemical Romance",
-          "title": "Give 'Em Hell, Kid",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 1,
-          "first": 1789004215,
-          "last": 1789004215,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
           "title": "Vampire Money",
           "album": "Danger Days: The True Lives of the Fabulous Killjoys",
           "count": 1,
@@ -4749,17 +4782,6 @@
           "count": 1,
           "first": 1789003210,
           "last": 1789003210,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Demolition Lovers",
-          "album": "I Brought You My Bullets, You Brought Me Your Love",
-          "count": 1,
-          "first": 1789002841,
-          "last": 1789002841,
           "playlists": {
             "MCR wednesday wind down": 1
           }
