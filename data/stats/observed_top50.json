@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T22:20:41.500044+00:00",
+  "updatedAt": "2026-09-10T22:25:42.615868+00:00",
   "summary": {
-    "totalPlays": 746,
+    "totalPlays": 747,
     "unknownPlays": 88,
     "uniqueTracks": 637,
     "uniqueArtists": 487,
     "uniqueAlbums": 563,
     "uniquePlaylists": 13,
     "firstObserved": 1788901564,
-    "lastObserved": 1789078681
+    "lastObserved": 1789078914
   },
   "topSongs": [
     {
@@ -43,6 +43,17 @@
       "last": 1789065741,
       "playlists": {
         "1default": 3
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 2,
+      "first": 1789014862,
+      "last": 1789078914,
+      "playlists": {
+        "1default": 2
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788953642,
       "last": 1789039110,
-      "playlists": {
-        "freestyle beats to crash your car to": 2
-      }
-    },
-    {
-      "artist": "S I M",
-      "title": "Dill Pickles",
-      "album": "Dill Pickles",
-      "count": 2,
-      "first": 1788952978,
-      "last": 1789038973,
       "playlists": {
         "freestyle beats to crash your car to": 2
       }
@@ -2667,6 +2667,25 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "count": 2,
+      "first": 1789014862,
+      "last": 1789078914,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 2,
+          "first": 1789014862,
+          "last": 1789078914,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "We The Kings",
       "count": 2,
       "first": 1788915906,
@@ -2842,25 +2861,6 @@
           "count": 2,
           "first": 1789064997,
           "last": 1789074214,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Arcade Fire",
-      "count": 2,
-      "first": 1788989909,
-      "last": 1789072948,
-      "songs": [
-        {
-          "artist": "Arcade Fire",
-          "title": "Wake Up",
-          "album": "Funeral",
-          "count": 2,
-          "first": 1788989909,
-          "last": 1789072948,
           "playlists": {
             "1default": 2
           }
@@ -4092,6 +4092,26 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 2,
+      "first": 1789014862,
+      "last": 1789078914,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 2,
+          "first": 1789014862,
+          "last": 1789078914,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "We The Kings",
       "album": "We The Kings",
       "count": 2,
@@ -4530,34 +4550,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Gorillaz, Peter Hook, Georgia",
-      "album": "Song Machine Episode 3",
-      "count": 2,
-      "first": 1788971208,
-      "last": 1789068385,
-      "songs": [
-        {
-          "artist": "Gorillaz, Peter Hook, Georgia",
-          "title": "Aries (feat. Peter Hook and Georgia)",
-          "album": "Song Machine Episode 3",
-          "count": 2,
-          "first": 1788971208,
-          "last": 1789068385,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 333,
+      "count": 334,
       "first": 1788901564,
-      "last": 1789078681,
+      "last": 1789078914,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -4582,6 +4582,17 @@
           }
         },
         {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 2,
+          "first": 1789014862,
+          "last": 1789078914,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
           "artist": "botch",
           "title": "a machine as big as a city with a concert at the center",
           "album": "a machine as big as a city with a concert at the center",
@@ -4599,17 +4610,6 @@
           "count": 2,
           "first": 1788915906,
           "last": 1789077307,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Japanese Breakfast",
-          "title": "Everybody Wants to Love You",
-          "album": "Psychopomp",
-          "count": 2,
-          "first": 1789032729,
-          "last": 1789076799,
           "playlists": {
             "1default": 2
           }
