@@ -430,6 +430,42 @@ def add_session_quarter_minutes(heat, start_ts, end_ts):
         cursor = segment_end
 
 
+
+def bridge_short_playlist_interruptions(sessions, max_interrupt_tracks=2, max_interrupt_seconds=10*60):
+    """
+    Merge A -> short B -> A into one A session when the interruption is no more
+    than max_interrupt_tracks and max_interrupt_seconds. Repeat until stable.
+    """
+    sessions = [dict(s) for s in sessions]
+    changed = True
+    while changed and len(sessions) >= 3:
+        changed = False
+        out = []
+        i = 0
+        while i < len(sessions):
+            if i + 2 < len(sessions):
+                a, b, c = sessions[i], sessions[i+1], sessions[i+2]
+                b_duration = max(0, b["end"] - b["start"])
+                if (
+                    a["playlistKey"] == c["playlistKey"]
+                    and b["playlistKey"] != a["playlistKey"]
+                    and int(b.get("playCount", 0)) <= max_interrupt_tracks
+                    and b_duration <= max_interrupt_seconds
+                ):
+                    merged = dict(a)
+                    merged["end"] = max(c["end"], b["end"], a["end"])
+                    merged["lastTrackStart"] = max(c.get("lastTrackStart", c["start"]), a.get("lastTrackStart", a["start"]))
+                    merged["playCount"] = int(a.get("playCount", 0)) + int(b.get("playCount", 0)) + int(c.get("playCount", 0))
+                    out.append(merged)
+                    i += 3
+                    changed = True
+                    continue
+            out.append(sessions[i])
+            i += 1
+        sessions = out
+    return sessions
+
+
 def build_playlist_schedule():
     """
     Infer playlist sessions from the rolling last 90 days of observed plays.
@@ -498,6 +534,12 @@ def build_playlist_schedule():
 
     # If a following playlist starts before the estimated final-track end,
     # clamp the prior session so sessions never overlap.
+    sessions.sort(key=lambda s: s["start"])
+    for i in range(len(sessions) - 1):
+        sessions[i]["end"] = min(sessions[i]["end"], sessions[i + 1]["start"])
+        sessions[i]["end"] = max(sessions[i]["end"], sessions[i]["start"] + 60)
+
+    sessions = bridge_short_playlist_interruptions(sessions)
     sessions.sort(key=lambda s: s["start"])
     for i in range(len(sessions) - 1):
         sessions[i]["end"] = min(sessions[i]["end"], sessions[i + 1]["start"])

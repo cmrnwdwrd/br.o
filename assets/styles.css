@@ -1337,15 +1337,18 @@ body.simple-mode #simpleModeBtn{background:#3a3a3a}
   bottom:calc(100% + 5px);
   transform:translateX(-50%);
   white-space:nowrap;
-  padding:4px 7px;
+  padding:5px 8px;
   border:1px solid #777;
   border-radius:4px;
   background:#111;
   color:#fff;
   font-size:.72rem;
-  line-height:1.2;
+  line-height:1.25;
   pointer-events:none;
   box-shadow:0 2px 8px rgba(0,0,0,.35);
+}
+.schedule-time-popover strong{
+  font-weight:700;
 }
 .schedule-block.is-selected .schedule-time-popover{
   display:block;

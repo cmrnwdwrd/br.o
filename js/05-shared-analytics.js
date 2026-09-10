@@ -609,11 +609,18 @@ function renderPlaylistScheduleHeatmap(p){
       const title=seg.playlist
         ?PLAYLIST_WEEKDAYS[d]+" "+range+" · "+seg.playlist
         :PLAYLIST_WEEKDAYS[d]+" "+range+" · No observed playlist data";
+      const minutes=span*15;
+      const showText=!!seg.playlist && minutes>=45;
+      const shortText=!!seg.playlist && minutes===30 && seg.playlist.length<=16;
+      const visibleText=(showText||shortText)?escapeHtml(seg.playlist):"";
+      const popover=seg.playlist
+        ?'<span class="schedule-time-popover"><strong>'+escapeHtml(seg.playlist)+'</strong><br>'+escapeHtml(range)+'</span>'
+        :'<span class="schedule-time-popover">'+escapeHtml(range)+'</span>';
       out+='<div class="schedule-block'+(seg.playlist?' has-playlist':' empty')+'"'+
         ' style="grid-column:'+(d+2)+';grid-row:'+rowStart+' / span '+span+';--heat:'+alpha.toFixed(3)+'"'+
         ' data-time="'+escapeHtml(range)+'" title="'+escapeHtml(title)+'" tabindex="0" role="button" aria-label="'+escapeHtml(title)+'">'+
-        (seg.playlist?'<span class="schedule-block-text">'+escapeHtml(seg.playlist)+'</span>':'')+
-        '<span class="schedule-time-popover">'+escapeHtml(range)+'</span>'+
+        (visibleText?'<span class="schedule-block-text">'+visibleText+'</span>':'')+
+        popover+
       '</div>';
     }
   }

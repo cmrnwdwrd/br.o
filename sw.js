@@ -1,4 +1,4 @@
-const CACHE="bottlerag-shell-v34-2";
+const CACHE="bottlerag-shell-v34-3";
 const SHELL=["./","./index.html","./manifest.webmanifest","./assets/styles.css","./js/01-core.js","./js/02-player-ui.js","./js/03-history-storage.js","./js/04-favorites-observed.js","./js/05-shared-analytics.js","./js/06-final-ui.js"];
 self.addEventListener("install",e=>{self.skipWaiting();e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)))});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});

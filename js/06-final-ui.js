@@ -373,9 +373,9 @@ document.querySelectorAll(".search-clear").forEach(btn=>{
 
 Object.assign(infoHelp,{
   playlistschedule:{title:"Playlist Schedule",items:[
-    ["Inferred sessions","Consecutive observed tracks carrying the same playlist name are grouped into sessions. A long gap or a different named playlist starts a new session."],
+    ["Inferred sessions","Consecutive observed tracks carrying the same playlist name are grouped into sessions. If the station briefly switches away for no more than two tracks and roughly ten minutes, then returns to the same playlist, that interruption is treated as part of the surrounding playlist block."],
     ["Rolling window","Schedule patterns use the most recent 90 days so the display can adapt if BottleRag changes its automation schedule."],
-    ["Weekly schedule","Days run across the top and only whole hours are labeled down the left. Playlist changes are inferred to the nearest 15 minutes, and consecutive 15-minute slots with the same playlist are merged into one block. Hover a block for its start/end time; on touch devices tap a block to show the time and tap it again to close it."],
+    ["Weekly schedule","Days run across the top and only whole hours are labeled down the left. Playlist changes are inferred to the nearest 15 minutes, and consecutive 15-minute slots with the same playlist are merged into one block. Very short blocks hide their text to keep the grid readable. Hover or tap a block to see the playlist name and start/end time; tap the same block again to close it."],
     
     ["Not official","These are patterns inferred from the station's observed metadata, not an official published BottleRag schedule."]
   ]},
