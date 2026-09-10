@@ -334,7 +334,6 @@ async function renderPersistentHistories(){
   renderListeningPlaylists(listening);
 
   document.getElementById("status-myhistory").textContent="Stored on this device";
-  document.getElementById("status-observed").textContent="Stored on this device";
 }
 
 /* ---------- Export / import / resets ---------- */
