@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-10T02:40:24.199997+00:00",
+  "updatedAt": "2026-09-10T02:45:24.968402+00:00",
   "summary": {
-    "totalPlays": 430,
+    "totalPlays": 432,
     "unknownPlays": 50,
-    "uniqueTracks": 415,
-    "uniqueArtists": 339,
-    "uniqueAlbums": 378,
+    "uniqueTracks": 417,
+    "uniqueArtists": 340,
+    "uniqueAlbums": 379,
     "uniquePlaylists": 12,
     "firstObserved": 1788901564,
-    "lastObserved": 1789007866
+    "lastObserved": 1789008320
   },
   "topSongs": [
     {
@@ -175,6 +175,28 @@
       "last": 1788930391,
       "playlists": {
         "1default": 2
+      }
+    },
+    {
+      "artist": "My Chemical Romance",
+      "title": "The Jetset Life Is Gonna Kill You",
+      "album": "Three Cheers for Sweet Revenge",
+      "count": 1,
+      "first": 1789008320,
+      "last": 1789008320,
+      "playlists": {
+        "MCR wednesday wind down": 1
+      }
+    },
+    {
+      "artist": "Bayside",
+      "title": "Carry On",
+      "album": "The Walking Wounded",
+      "count": 1,
+      "first": 1789008079,
+      "last": 1789008079,
+      "playlists": {
+        "MCR wednesday wind down": 1
       }
     },
     {
@@ -539,36 +561,14 @@
       "playlists": {
         "anti-capitalist weekday afternoon #1": 1
       }
-    },
-    {
-      "artist": "Shakey Graves",
-      "title": "Chinatown",
-      "album": "Roll The Bones X",
-      "count": 1,
-      "first": 1788993925,
-      "last": 1788993925,
-      "playlists": {
-        "anti-capitalist weekday afternoon #1": 1
-      }
-    },
-    {
-      "artist": "Built To Spill",
-      "title": "Broken Chairs",
-      "album": "Keep It like a Secret",
-      "count": 1,
-      "first": 1788993405,
-      "last": 1788993405,
-      "playlists": {
-        "anti-capitalist weekday afternoon #1": 1
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "My Chemical Romance",
-      "count": 18,
+      "count": 19,
       "first": 1788965302,
-      "last": 1789007500,
+      "last": 1789008320,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -623,6 +623,17 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "The Jetset Life Is Gonna Kill You",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 1,
+          "first": 1789008320,
+          "last": 1789008320,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         },
         {
@@ -2275,6 +2286,25 @@
       ]
     },
     {
+      "artist": "Bayside",
+      "count": 1,
+      "first": 1789008079,
+      "last": 1789008079,
+      "songs": [
+        {
+          "artist": "Bayside",
+          "title": "Carry On",
+          "album": "The Walking Wounded",
+          "count": 1,
+          "first": 1789008079,
+          "last": 1789008079,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Offspring",
       "count": 1,
       "first": 1789006875,
@@ -2330,34 +2360,15 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Strange Things, Small Towns",
-      "count": 1,
-      "first": 1788999291,
-      "last": 1788999291,
-      "songs": [
-        {
-          "artist": "Strange Things, Small Towns",
-          "title": "Bergen Park, CO",
-          "album": "Ep 1",
-          "count": 1,
-          "first": 1788999291,
-          "last": 1788999291,
-          "playlists": {
-            "podcast": 1
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
     {
       "artist": "My Chemical Romance",
       "album": "Three Cheers for Sweet Revenge",
-      "count": 9,
+      "count": 10,
       "first": 1788995310,
-      "last": 1789007053,
+      "last": 1789008320,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -2401,6 +2412,17 @@
           "last": 1789001665,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "The Jetset Life Is Gonna Kill You",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 1,
+          "first": 1789008320,
+          "last": 1789008320,
+          "playlists": {
+            "MCR wednesday wind down": 1
           }
         },
         {
@@ -3420,6 +3442,26 @@
       ]
     },
     {
+      "artist": "Bayside",
+      "album": "The Walking Wounded",
+      "count": 1,
+      "first": 1789008079,
+      "last": 1789008079,
+      "songs": [
+        {
+          "artist": "Bayside",
+          "title": "Carry On",
+          "album": "The Walking Wounded",
+          "count": 1,
+          "first": 1789008079,
+          "last": 1789008079,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Taking Back Sunday",
       "album": "Tell All Your Friends (Re-Issue)",
       "count": 1,
@@ -3733,26 +3775,6 @@
           "count": 1,
           "first": 1788995157,
           "last": 1788995157,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "They Might Be Giants",
-      "album": "The Communists Have the Music",
-      "count": 1,
-      "first": 1788995009,
-      "last": 1788995009,
-      "songs": [
-        {
-          "artist": "They Might Be Giants",
-          "title": "The Communists Have the Music",
-          "album": "The Communists Have the Music",
-          "count": 1,
-          "first": 1788995009,
-          "last": 1788995009,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 1
           }
@@ -4108,6 +4130,179 @@
       ]
     },
     {
+      "playlist": "MCR wednesday wind down",
+      "count": 33,
+      "first": 1788995310,
+      "last": 1789008320,
+      "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Demolition Lovers",
+          "album": "I Brought You My Bullets, You Brought Me Your Love",
+          "count": 2,
+          "first": 1789002841,
+          "last": 1789007500,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "Evanescence",
+          "title": "Lithium",
+          "album": "The Open Door",
+          "count": 2,
+          "first": 1789004613,
+          "last": 1789007274,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Cemetery Drive",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789003808,
+          "last": 1789007053,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "Taking Back Sunday",
+          "title": "Liar (It Takes One To Know One)",
+          "album": "Louder Now (U.S. Version)",
+          "count": 2,
+          "first": 1789004353,
+          "last": 1789006366,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Give 'Em Hell, Kid",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789004215,
+          "last": 1789006168,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "Simple Plan",
+          "title": "I'm Just A Kid",
+          "album": "No Pads, No Helmets...Just Balls",
+          "count": 2,
+          "first": 1789002640,
+          "last": 1789005759,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "I'm Not Okay (I Promise)",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1789002250,
+          "last": 1789005376,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Thank You for the Venom",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 2,
+          "first": 1788995310,
+          "last": 1789001665,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "The Jetset Life Is Gonna Kill You",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 1,
+          "first": 1789008320,
+          "last": 1789008320,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Bayside",
+          "title": "Carry On",
+          "album": "The Walking Wounded",
+          "count": 1,
+          "first": 1789008079,
+          "last": 1789008079,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Taking Back Sunday",
+          "title": "Cute Without the \"E\" (Cut From the Team)",
+          "album": "Tell All Your Friends (Re-Issue)",
+          "count": 1,
+          "first": 1789007866,
+          "last": 1789007866,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "The Offspring",
+          "title": "You're Gonna Go Far, Kid",
+          "album": "Rise And Fall, Rage And Grace",
+          "count": 1,
+          "first": 1789006875,
+          "last": 1789006875,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Brand New",
+          "title": "Jesus Christ",
+          "album": "The Devil And God Are Raging Inside Me",
+          "count": 1,
+          "first": 1789006557,
+          "last": 1789006557,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "Paramore",
+          "title": "Misery Business",
+          "album": "Riot!",
+          "count": 1,
+          "first": 1789005955,
+          "last": 1789005955,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Dead!",
+          "album": "The Black Parade",
+          "count": 1,
+          "first": 1789005562,
+          "last": 1789005562,
+          "playlists": {
+            "MCR wednesday wind down": 1
+          }
+        }
+      ]
+    },
+    {
       "playlist": "country music was never for republicans",
       "count": 33,
       "first": 1788976050,
@@ -4449,179 +4644,6 @@
           "last": 1788952141,
           "playlists": {
             "freestyle beats to crash your car to": 1
-          }
-        }
-      ]
-    },
-    {
-      "playlist": "MCR wednesday wind down",
-      "count": 31,
-      "first": 1788995310,
-      "last": 1789007866,
-      "songs": [
-        {
-          "artist": "My Chemical Romance",
-          "title": "Demolition Lovers",
-          "album": "I Brought You My Bullets, You Brought Me Your Love",
-          "count": 2,
-          "first": 1789002841,
-          "last": 1789007500,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "Evanescence",
-          "title": "Lithium",
-          "album": "The Open Door",
-          "count": 2,
-          "first": 1789004613,
-          "last": 1789007274,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Cemetery Drive",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 2,
-          "first": 1789003808,
-          "last": 1789007053,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "Taking Back Sunday",
-          "title": "Liar (It Takes One To Know One)",
-          "album": "Louder Now (U.S. Version)",
-          "count": 2,
-          "first": 1789004353,
-          "last": 1789006366,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Give 'Em Hell, Kid",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 2,
-          "first": 1789004215,
-          "last": 1789006168,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "Simple Plan",
-          "title": "I'm Just A Kid",
-          "album": "No Pads, No Helmets...Just Balls",
-          "count": 2,
-          "first": 1789002640,
-          "last": 1789005759,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "I'm Not Okay (I Promise)",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 2,
-          "first": 1789002250,
-          "last": 1789005376,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Thank You for the Venom",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 2,
-          "first": 1788995310,
-          "last": 1789001665,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "Taking Back Sunday",
-          "title": "Cute Without the \"E\" (Cut From the Team)",
-          "album": "Tell All Your Friends (Re-Issue)",
-          "count": 1,
-          "first": 1789007866,
-          "last": 1789007866,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "The Offspring",
-          "title": "You're Gonna Go Far, Kid",
-          "album": "Rise And Fall, Rage And Grace",
-          "count": 1,
-          "first": 1789006875,
-          "last": 1789006875,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Brand New",
-          "title": "Jesus Christ",
-          "album": "The Devil And God Are Raging Inside Me",
-          "count": 1,
-          "first": 1789006557,
-          "last": 1789006557,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Paramore",
-          "title": "Misery Business",
-          "album": "Riot!",
-          "count": 1,
-          "first": 1789005955,
-          "last": 1789005955,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Dead!",
-          "album": "The Black Parade",
-          "count": 1,
-          "first": 1789005562,
-          "last": 1789005562,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Vampires Will Never Hurt You",
-          "album": "I Brought You My Bullets, You Brought Me Your Love",
-          "count": 1,
-          "first": 1789005050,
-          "last": 1789005050,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "Taking Back Sunday",
-          "title": "Cute Without The 'E' (Cut From The Team) - Remastered 2019",
-          "album": "Tell All Your Friends (Remastered)",
-          "count": 1,
-          "first": 1789004837,
-          "last": 1789004837,
-          "playlists": {
-            "MCR wednesday wind down": 1
           }
         }
       ]
