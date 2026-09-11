@@ -1,10 +1,10 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T22:25:40.245484+00:00",
-  "totalPlays": 1113,
+  "updatedAt": "2026-09-11T22:30:54.872333+00:00",
+  "totalPlays": 1114,
   "unknownPlays": 132,
   "firstObserved": 1788901564,
-  "lastObserved": 1789165534,
+  "lastObserved": 1789165660,
   "songs": {
     "n.e.r.d|run to the sun": {
       "artist": "N.E.R.D",
@@ -9302,6 +9302,17 @@
       "count": 1,
       "first": 1789164995,
       "last": 1789164995,
+      "playlists": {
+        "1default": 1
+      }
+    },
+    "flipturn|hippies": {
+      "artist": "flipturn",
+      "title": "Hippies",
+      "album": "Citrona",
+      "count": 1,
+      "first": 1789165660,
+      "last": 1789165660,
       "playlists": {
         "1default": 1
       }
@@ -23522,6 +23533,25 @@
           "count": 1,
           "first": 1789164995,
           "last": 1789164995,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      }
+    },
+    "flipturn": {
+      "artist": "flipturn",
+      "count": 1,
+      "first": 1789165660,
+      "last": 1789165660,
+      "songs": {
+        "flipturn|hippies": {
+          "artist": "flipturn",
+          "title": "Hippies",
+          "album": "Citrona",
+          "count": 1,
+          "first": 1789165660,
+          "last": 1789165660,
           "playlists": {
             "1default": 1
           }
@@ -39408,14 +39438,34 @@
           }
         }
       }
+    },
+    "flipturn|citrona": {
+      "artist": "flipturn",
+      "album": "Citrona",
+      "count": 1,
+      "first": 1789165660,
+      "last": 1789165660,
+      "songs": {
+        "flipturn|hippies": {
+          "artist": "flipturn",
+          "title": "Hippies",
+          "album": "Citrona",
+          "count": 1,
+          "first": 1789165660,
+          "last": 1789165660,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      }
     }
   },
   "playlists": {
     "1default": {
       "playlist": "1default",
-      "count": 458,
+      "count": 459,
       "first": 1788901564,
-      "last": 1789165534,
+      "last": 1789165660,
       "songs": {
         "n.e.r.d|run to the sun": {
           "artist": "N.E.R.D",
@@ -42889,6 +42939,17 @@
           "count": 1,
           "first": 1789164995,
           "last": 1789164995,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        "flipturn|hippies": {
+          "artist": "flipturn",
+          "title": "Hippies",
+          "album": "Citrona",
+          "count": 1,
+          "first": 1789165660,
+          "last": 1789165660,
           "playlists": {
             "1default": 1
           }
