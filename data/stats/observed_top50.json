@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T16:10:46.453894+00:00",
+  "updatedAt": "2026-09-11T16:15:40.188043+00:00",
   "summary": {
-    "totalPlays": 1012,
+    "totalPlays": 1013,
     "unknownPlays": 120,
     "uniqueTracks": 765,
     "uniqueArtists": 567,
     "uniqueAlbums": 666,
     "uniquePlaylists": 18,
     "firstObserved": 1788901564,
-    "lastObserved": 1789143025
+    "lastObserved": 1789143235
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "The Cranberries",
+      "title": "Ode To My Family",
+      "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+      "count": 2,
+      "first": 1789060180,
+      "last": 1789143235,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Vampire Weekend",
       "title": "How Long?",
       "album": "Father of the Bride",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788965930,
       "last": 1789130727,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Donovan",
-      "title": "Sunshine Superman",
-      "album": "Sunshine Superman",
-      "count": 2,
-      "first": 1788920950,
-      "last": 1789130533,
       "playlists": {
         "1default": 2
       }
@@ -1783,6 +1783,47 @@
       ]
     },
     {
+      "artist": "The Cranberries",
+      "count": 5,
+      "first": 1788916461,
+      "last": 1789143235,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 2,
+          "first": 1789060180,
+          "last": 1789143235,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 2,
+          "first": 1788916461,
+          "last": 1789088091,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 1,
+          "first": 1789087662,
+          "last": 1789087662,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "100 gecs",
       "count": 5,
       "first": 1789133320,
@@ -2563,47 +2604,6 @@
           "count": 1,
           "first": 1788963949,
           "last": 1788963949,
-          "playlists": {
-            "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Cranberries",
-      "count": 4,
-      "first": 1788916461,
-      "last": 1789088091,
-      "songs": [
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 2,
-          "first": 1788916461,
-          "last": 1789088091,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 1,
-          "first": 1789087662,
-          "last": 1789087662,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 1,
-          "first": 1789060180,
-          "last": 1789060180,
           "playlists": {
             "1default": 1
           }
@@ -5017,9 +5017,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 433,
+      "count": 434,
       "first": 1788901564,
-      "last": 1789143025,
+      "last": 1789143235,
       "songs": [
         {
           "artist": "Tele Novella",
