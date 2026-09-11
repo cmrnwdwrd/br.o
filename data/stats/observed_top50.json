@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T18:30:54.210357+00:00",
+  "updatedAt": "2026-09-11T18:35:36.505074+00:00",
   "summary": {
-    "totalPlays": 1050,
+    "totalPlays": 1052,
     "unknownPlays": 125,
-    "uniqueTracks": 791,
-    "uniqueArtists": 578,
-    "uniqueAlbums": 683,
+    "uniqueTracks": 793,
+    "uniqueArtists": 579,
+    "uniqueAlbums": 684,
     "uniquePlaylists": 19,
     "firstObserved": 1788901564,
-    "lastObserved": 1789151305
+    "lastObserved": 1789151695
   },
   "topSongs": [
     {
@@ -1195,10 +1195,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 12,
+      "count": 13,
       "first": 1789147116,
-      "last": 1789150701,
+      "last": 1789151504,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Banana Pancakes",
+          "album": "In Between Dreams",
+          "count": 1,
+          "first": 1789151504,
+          "last": 1789151504,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Never Know",
@@ -4728,6 +4739,48 @@
       ]
     },
     {
+      "artist": "Jack Johnson",
+      "album": "In Between Dreams",
+      "count": 3,
+      "first": 1789148222,
+      "last": 1789151504,
+      "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Banana Pancakes",
+          "album": "In Between Dreams",
+          "count": 1,
+          "first": 1789151504,
+          "last": 1789151504,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
+        {
+          "artist": "Jack Johnson",
+          "title": "Never Know",
+          "album": "In Between Dreams",
+          "count": 1,
+          "first": 1789150701,
+          "last": 1789150701,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
+        {
+          "artist": "Jack Johnson",
+          "title": "Better Together",
+          "album": "In Between Dreams",
+          "count": 1,
+          "first": 1789148222,
+          "last": 1789148222,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Built To Spill",
       "album": "Keep It like a Secret",
       "count": 3,
@@ -5176,37 +5229,6 @@
           "last": 1789111933,
           "playlists": {
             "breakbeat": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Siete Catorce",
-      "album": "Cruda",
-      "count": 3,
-      "first": 1789028695,
-      "last": 1789111396,
-      "songs": [
-        {
-          "artist": "Siete Catorce",
-          "title": "Que La Fiesta Nunca Se Acabe",
-          "album": "Cruda",
-          "count": 2,
-          "first": 1789028695,
-          "last": 1789111396,
-          "playlists": {
-            "breakbeat": 2
-          }
-        },
-        {
-          "artist": "Siete Catorce",
-          "title": "Sobriedad",
-          "album": "Cruda",
-          "count": 1,
-          "first": 1789029996,
-          "last": 1789029996,
-          "playlists": {
-            "breakbeat": 1
           }
         }
       ]
