@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T17:10:47.105833+00:00",
+  "updatedAt": "2026-09-11T17:15:37.547904+00:00",
   "summary": {
-    "totalPlays": 1028,
+    "totalPlays": 1030,
     "unknownPlays": 122,
     "uniqueTracks": 771,
     "uniqueArtists": 572,
     "uniqueAlbums": 671,
     "uniquePlaylists": 18,
     "firstObserved": 1788901564,
-    "lastObserved": 1789146519
+    "lastObserved": 1789146895
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Colfax Speed Queen",
+      "title": "Jesus Loves Rock N' Roll",
+      "album": "Satisfaction Intended",
+      "count": 2,
+      "first": 1788926155,
+      "last": 1789146895,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 2,
+      "first": 1788985030,
+      "last": 1789146726,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Alvvays",
       "title": "Adult Diversion",
       "album": "Alvvays",
@@ -536,28 +558,6 @@
       "count": 2,
       "first": 1789059805,
       "last": 1789140805,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "The Ephinjis",
-      "title": "Hot to Go!",
-      "album": "Hot to Go!",
-      "count": 2,
-      "first": 1789033065,
-      "last": 1789140613,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Richy Mitch & The Coal Miners",
-      "title": "WET SOCKS",
-      "album": "Subliming",
-      "count": 2,
-      "first": 1788926758,
-      "last": 1789140467,
       "playlists": {
         "1default": 2
       }
@@ -2868,6 +2868,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 3,
+      "first": 1788985030,
+      "last": 1789146726,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 2,
+          "first": 1788985030,
+          "last": 1789146726,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 1,
+          "first": 1788987870,
+          "last": 1788987870,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mallory Graham",
       "count": 3,
       "first": 1788973386,
@@ -3152,36 +3182,6 @@
           "last": 1789129475,
           "playlists": {
             "breakbeat": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 3,
-      "first": 1788963370,
-      "last": 1789119689,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 2,
-          "first": 1788963370,
-          "last": 1789119689,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 1,
-          "first": 1788991170,
-          "last": 1788991170,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -5050,9 +5050,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 449,
+      "count": 451,
       "first": 1788901564,
-      "last": 1789146519,
+      "last": 1789146895,
       "songs": [
         {
           "artist": "Tele Novella",
