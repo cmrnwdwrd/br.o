@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T02:25:40.055459+00:00",
+  "updatedAt": "2026-09-11T02:30:43.380085+00:00",
   "summary": {
-    "totalPlays": 810,
+    "totalPlays": 812,
     "unknownPlays": 95,
-    "uniqueTracks": 665,
-    "uniqueArtists": 511,
-    "uniqueAlbums": 590,
+    "uniqueTracks": 666,
+    "uniqueArtists": 512,
+    "uniqueAlbums": 591,
     "uniquePlaylists": 14,
     "firstObserved": 1788901564,
-    "lastObserved": 1789093420
+    "lastObserved": 1789093798
   },
   "topSongs": [
     {
@@ -21,6 +21,17 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Joey Valence & Brae",
+      "title": "Crank It Up",
+      "album": "Crank It Up",
+      "count": 3,
+      "first": 1788938278,
+      "last": 1789093798,
+      "playlists": {
+        "breakbeat": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1789064997,
       "last": 1789074214,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Mitski",
-      "title": "Should've Been Me",
-      "album": "Laurel Hell",
-      "count": 2,
-      "first": 1788920128,
-      "last": 1789073563,
       "playlists": {
         "1default": 2
       }
@@ -1195,10 +1195,21 @@
     },
     {
       "artist": "Joey Valence & Brae",
-      "count": 8,
+      "count": 9,
       "first": 1788938278,
-      "last": 1789092903,
+      "last": 1789093798,
       "songs": [
+        {
+          "artist": "Joey Valence & Brae",
+          "title": "Crank It Up",
+          "album": "Crank It Up",
+          "count": 3,
+          "first": 1788938278,
+          "last": 1789093798,
+          "playlists": {
+            "breakbeat": 3
+          }
+        },
         {
           "artist": "Joey Valence & Brae",
           "title": "THE BADDEST",
@@ -1208,17 +1219,6 @@
           "last": 1789092903,
           "playlists": {
             "breakbeat": 3
-          }
-        },
-        {
-          "artist": "Joey Valence & Brae",
-          "title": "Crank It Up",
-          "album": "Crank It Up",
-          "count": 2,
-          "first": 1788938278,
-          "last": 1789025579,
-          "playlists": {
-            "breakbeat": 2
           }
         },
         {
@@ -3672,6 +3672,26 @@
     },
     {
       "artist": "Joey Valence & Brae",
+      "album": "Crank It Up",
+      "count": 3,
+      "first": 1788938278,
+      "last": 1789093798,
+      "songs": [
+        {
+          "artist": "Joey Valence & Brae",
+          "title": "Crank It Up",
+          "album": "Crank It Up",
+          "count": 3,
+          "first": 1788938278,
+          "last": 1789093798,
+          "playlists": {
+            "breakbeat": 3
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Joey Valence & Brae",
       "album": "NO HANDS",
       "count": 3,
       "first": 1788942030,
@@ -4596,26 +4616,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Lush",
-      "album": "Lovelife",
-      "count": 2,
-      "first": 1789015368,
-      "last": 1789082930,
-      "songs": [
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 2,
-          "first": 1789015368,
-          "last": 1789082930,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
@@ -4684,10 +4684,21 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 112,
+      "count": 113,
       "first": 1788938278,
-      "last": 1789092903,
+      "last": 1789093798,
       "songs": [
+        {
+          "artist": "Joey Valence & Brae",
+          "title": "Crank It Up",
+          "album": "Crank It Up",
+          "count": 3,
+          "first": 1788938278,
+          "last": 1789093798,
+          "playlists": {
+            "breakbeat": 3
+          }
+        },
         {
           "artist": "Joey Valence & Brae",
           "title": "THE BADDEST",
@@ -4728,17 +4739,6 @@
           "count": 2,
           "first": 1788941052,
           "last": 1789030854,
-          "playlists": {
-            "breakbeat": 2
-          }
-        },
-        {
-          "artist": "Grapetooth, Knox Fortune",
-          "title": "Infinite Source",
-          "album": "Infinite Source",
-          "count": 2,
-          "first": 1788943890,
-          "last": 1789029651,
           "playlists": {
             "breakbeat": 2
           }
@@ -5187,64 +5187,64 @@
       ]
     },
     {
-      "playlist": "rage commute",
+      "playlist": "grwm blindspotting",
       "count": 16,
-      "first": 1789050879,
-      "last": 1789057712,
+      "first": 1789089933,
+      "last": 1789093599,
       "songs": [
         {
-          "artist": "ZYX, PRINCESSBRI",
-          "title": "Icky",
-          "album": "The Killroom, Vol. 2",
-          "count": 2,
-          "first": 1789053333,
-          "last": 1789057712,
+          "artist": "Kool John, P-Lo",
+          "title": "Blue Hunnids",
+          "album": "Blue Hunnids (feat. P-Lo) - Single",
+          "count": 1,
+          "first": 1789093599,
+          "last": 1789093599,
           "playlists": {
-            "rage commute": 2
+            "grwm blindspotting": 1
           }
         },
         {
-          "artist": "BRUHMANEGOD",
-          "title": "Get Up Out the World",
-          "album": "Get Up Out the World",
+          "artist": "Rayana Jay",
+          "title": "Way Back",
+          "album": "Morning After",
           "count": 1,
-          "first": 1789054112,
-          "last": 1789054112,
+          "first": 1789093420,
+          "last": 1789093420,
           "playlists": {
-            "rage commute": 1
+            "grwm blindspotting": 1
           }
         },
         {
-          "artist": "Doechii",
-          "title": "Crazy",
-          "album": "Crazy",
+          "artist": "Kool John, P-Lo, Iamsu!",
+          "title": "On One",
+          "album": "Moovie!",
           "count": 1,
-          "first": 1789053978,
-          "last": 1789053978,
+          "first": 1789093216,
+          "last": 1789093216,
           "playlists": {
-            "rage commute": 1
+            "grwm blindspotting": 1
           }
         },
         {
-          "artist": "$NOT",
-          "title": "GOSHA",
-          "album": "- TRAGEDY +",
+          "artist": "SOB X RBE",
+          "title": "Anti",
+          "album": "SOB X RBE",
           "count": 1,
-          "first": 1789053574,
-          "last": 1789053574,
+          "first": 1789093045,
+          "last": 1789093045,
           "playlists": {
-            "rage commute": 1
+            "grwm blindspotting": 1
           }
         },
         {
-          "artist": "Freddie Dredd",
-          "title": "Devine",
-          "album": "8ball Playaz 1 & 2",
+          "artist": "JID",
+          "title": "EdEddnEddy",
+          "album": "The Never Story",
           "count": 1,
-          "first": 1789053430,
-          "last": 1789053430,
+          "first": 1789092760,
+          "last": 1789092760,
           "playlists": {
-            "rage commute": 1
+            "grwm blindspotting": 1
           }
         }
       ]
