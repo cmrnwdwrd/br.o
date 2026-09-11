@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T15:30:53.125929+00:00",
+  "updatedAt": "2026-09-11T15:35:42.669061+00:00",
   "summary": {
-    "totalPlays": 1000,
+    "totalPlays": 1001,
     "unknownPlays": 118,
     "uniqueTracks": 764,
     "uniqueArtists": 567,
     "uniqueAlbums": 665,
     "uniquePlaylists": 18,
     "firstObserved": 1788901564,
-    "lastObserved": 1789140613
+    "lastObserved": 1789140805
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "Against Me!",
+      "title": "I Was a Teenage Anarchist",
+      "album": "White Crosses",
+      "count": 2,
+      "first": 1789059805,
+      "last": 1789140805,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "The Ephinjis",
       "title": "Hot to Go!",
       "album": "Hot to Go!",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788928852,
       "last": 1789119925,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "title": "Visitor",
-      "album": "Visitor",
-      "count": 2,
-      "first": 1788963370,
-      "last": 1789119689,
       "playlists": {
         "1default": 2
       }
@@ -2797,6 +2797,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 3,
+      "first": 1788947810,
+      "last": 1789140805,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 2,
+          "first": 1789059805,
+          "last": 1789140805,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 1,
+          "first": 1788947810,
+          "last": 1788947810,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 3,
       "first": 1788973998,
@@ -3084,25 +3114,6 @@
           "count": 3,
           "first": 1788942175,
           "last": 1789116820,
-          "playlists": {
-            "breakbeat": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Overpade",
-      "count": 3,
-      "first": 1788942969,
-      "last": 1789116430,
-      "songs": [
-        {
-          "artist": "Overpade",
-          "title": "hi(gher)",
-          "album": "HYPNOTIK",
-          "count": 3,
-          "first": 1788942969,
-          "last": 1789116430,
           "playlists": {
             "breakbeat": 3
           }
@@ -4929,9 +4940,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 421,
+      "count": 422,
       "first": 1788901564,
-      "last": 1789140613,
+      "last": 1789140805,
       "songs": [
         {
           "artist": "Tele Novella",
