@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T09:35:37.292987+00:00",
+  "updatedAt": "2026-09-11T09:40:38.946478+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 14,
-    "sessionCount": 40,
+    "sessionCount": 41,
     "firstObserved": 1788901564,
-    "lastObserved": 1789110993
+    "lastObserved": 1789119354
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 17,
-      "playCount": 391,
+      "sessionCount": 18,
+      "playCount": 392,
       "firstObserved": 1788901564,
-      "lastObserved": 1789108459,
-      "typicalStartMinute": 1234,
+      "lastObserved": 1789119354,
+      "typicalStartMinute": 1299,
       "typicalDurationMinutes": 33,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -128,7 +128,7 @@
           25.7,
           16.6,
           0.0,
-          0.0,
+          5.6,
           0.0,
           0.0,
           0.0,
@@ -611,7 +611,7 @@
           0.0,
           0.0,
           0.0,
-          0.0,
+          5.6,
           0.0,
           0.0,
           0.0,
@@ -1000,7 +1000,7 @@
           1,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -1099,13 +1099,19 @@
         },
         {
           "weekday": 4,
-          "sessions": 1,
-          "typicalStartMinute": 34,
-          "typicalDurationMinutes": 42,
+          "sessions": 2,
+          "typicalStartMinute": 124,
+          "typicalDurationMinutes": 24,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1789119354,
+          "end": 1789119690,
+          "durationMinutes": 6,
+          "playCount": 1
+        },
         {
           "start": 1789108459,
           "end": 1789110993,
