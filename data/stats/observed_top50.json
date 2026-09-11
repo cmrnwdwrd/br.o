@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T18:05:36.312907+00:00",
+  "updatedAt": "2026-09-11T18:10:49.945188+00:00",
   "summary": {
-    "totalPlays": 1044,
-    "unknownPlays": 123,
-    "uniqueTracks": 785,
+    "totalPlays": 1045,
+    "unknownPlays": 124,
+    "uniqueTracks": 786,
     "uniqueArtists": 576,
     "uniqueAlbums": 680,
     "uniquePlaylists": 19,
     "firstObserved": 1788901564,
-    "lastObserved": 1789149935
+    "lastObserved": 1789150237
   },
   "topSongs": [
     {
@@ -1302,10 +1302,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 10,
+      "count": 11,
       "first": 1789147116,
-      "last": 1789149935,
+      "last": 1789150237,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Hope",
+          "album": "Sleep Through The Static",
+          "count": 1,
+          "first": 1789150237,
+          "last": 1789150237,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "If I Had Eyes",
@@ -4058,6 +4069,59 @@
       ]
     },
     {
+      "artist": "Jack Johnson",
+      "album": "Sleep Through The Static",
+      "count": 4,
+      "first": 1789147875,
+      "last": 1789150237,
+      "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Hope",
+          "album": "Sleep Through The Static",
+          "count": 1,
+          "first": 1789150237,
+          "last": 1789150237,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
+        {
+          "artist": "Jack Johnson",
+          "title": "If I Had Eyes",
+          "album": "Sleep Through The Static",
+          "count": 1,
+          "first": 1789149935,
+          "last": 1789149935,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
+        {
+          "artist": "Jack Johnson",
+          "title": "Sleep Through The Static",
+          "album": "Sleep Through The Static",
+          "count": 1,
+          "first": 1789147998,
+          "last": 1789147998,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
+        {
+          "artist": "Jack Johnson",
+          "title": "Angel",
+          "album": "Sleep Through The Static",
+          "count": 1,
+          "first": 1789147875,
+          "last": 1789147875,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "album": "Change the Channel",
       "count": 4,
@@ -4626,48 +4690,6 @@
           "last": 1789081933,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jack Johnson",
-      "album": "Sleep Through The Static",
-      "count": 3,
-      "first": 1789147875,
-      "last": 1789149935,
-      "songs": [
-        {
-          "artist": "Jack Johnson",
-          "title": "If I Had Eyes",
-          "album": "Sleep Through The Static",
-          "count": 1,
-          "first": 1789149935,
-          "last": 1789149935,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Sleep Through The Static",
-          "album": "Sleep Through The Static",
-          "count": 1,
-          "first": 1789147998,
-          "last": 1789147998,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Angel",
-          "album": "Sleep Through The Static",
-          "count": 1,
-          "first": 1789147875,
-          "last": 1789147875,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
           }
         }
       ]
