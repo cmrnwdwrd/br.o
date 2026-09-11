@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T09:15:38.255886+00:00",
+  "updatedAt": "2026-09-11T09:20:37.548866+00:00",
   "summary": {
-    "totalPlays": 917,
+    "totalPlays": 919,
     "unknownPlays": 109,
     "uniqueTracks": 713,
     "uniqueArtists": 531,
     "uniqueAlbums": 621,
     "uniquePlaylists": 16,
     "firstObserved": 1788901564,
-    "lastObserved": 1789117915
+    "lastObserved": 1789118431
   },
   "topSongs": [
     {
@@ -43,6 +43,17 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Goreshit",
+      "title": "Black Is the New Black",
+      "album": "Copyright Infringement EP",
+      "count": 3,
+      "first": 1788940813,
+      "last": 1789118431,
+      "playlists": {
+        "breakbeat": 3
       }
     },
     {
@@ -252,6 +263,17 @@
       "last": 1789078459,
       "playlists": {
         "MCR wednesday wind down": 3
+      }
+    },
+    {
+      "artist": "Y2K, JPEGMAFIA",
+      "title": "DIRT (feat. JPEGMAFIA)",
+      "album": "DIRT (feat. JPEGMAFIA)",
+      "count": 2,
+      "first": 1789023126,
+      "last": 1789118193,
+      "playlists": {
+        "breakbeat": 2
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 2,
       "first": 1789097836,
       "last": 1789107691,
-      "playlists": {
-        "for the girls driving 85": 2
-      }
-    },
-    {
-      "artist": "Florence + The Machine, Ethel Cain",
-      "title": "Morning Elvis - Live At Denver Ball Arena",
-      "album": "Morning Elvis (Live At Denver Ball Arena)",
-      "count": 2,
-      "first": 1789099938,
-      "last": 1789107274,
-      "playlists": {
-        "for the girls driving 85": 2
-      }
-    },
-    {
-      "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
-      "title": "Loose Change",
-      "album": "The Highwomen",
-      "count": 2,
-      "first": 1789102138,
-      "last": 1789105374,
       "playlists": {
         "for the girls driving 85": 2
       }
@@ -2589,6 +2589,25 @@
       ]
     },
     {
+      "artist": "Goreshit",
+      "count": 3,
+      "first": 1788940813,
+      "last": 1789118431,
+      "songs": [
+        {
+          "artist": "Goreshit",
+          "title": "Black Is the New Black",
+          "album": "Copyright Infringement EP",
+          "count": 3,
+          "first": 1788940813,
+          "last": 1789118431,
+          "playlists": {
+            "breakbeat": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Chants, Dave Schoepke",
       "count": 3,
       "first": 1788940627,
@@ -2943,36 +2962,6 @@
           "last": 1789089055,
           "playlists": {
             "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 3,
-      "first": 1788912861,
-      "last": 1789086970,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 2,
-          "first": 1788966960,
-          "last": 1789086970,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 1,
-          "first": 1788912861,
-          "last": 1788912861,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -4071,6 +4060,26 @@
       ]
     },
     {
+      "artist": "Goreshit",
+      "album": "Copyright Infringement EP",
+      "count": 3,
+      "first": 1788940813,
+      "last": 1789118431,
+      "songs": [
+        {
+          "artist": "Goreshit",
+          "title": "Black Is the New Black",
+          "album": "Copyright Infringement EP",
+          "count": 3,
+          "first": 1788940813,
+          "last": 1789118431,
+          "playlists": {
+            "breakbeat": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Chants, Dave Schoepke",
       "album": "Speleogenesis",
       "count": 3,
@@ -4761,48 +4770,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "My Chemical Romance",
-      "album": "The Black Parade",
-      "count": 3,
-      "first": 1789001951,
-      "last": 1789005562,
-      "songs": [
-        {
-          "artist": "My Chemical Romance",
-          "title": "Dead!",
-          "album": "The Black Parade",
-          "count": 1,
-          "first": 1789005562,
-          "last": 1789005562,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Teenagers",
-          "album": "The Black Parade",
-          "count": 1,
-          "first": 1789003457,
-          "last": 1789003457,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Famous Last Words",
-          "album": "The Black Parade",
-          "count": 1,
-          "first": 1789001951,
-          "last": 1789001951,
-          "playlists": {
-            "MCR wednesday wind down": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
@@ -4871,9 +4838,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 151,
+      "count": 153,
       "first": 1788938278,
-      "last": 1789117915,
+      "last": 1789118431,
       "songs": [
         {
           "artist": "Joey Valence & Brae",
@@ -4884,6 +4851,17 @@
           "last": 1789115080,
           "playlists": {
             "breakbeat": 4
+          }
+        },
+        {
+          "artist": "Goreshit",
+          "title": "Black Is the New Black",
+          "album": "Copyright Infringement EP",
+          "count": 3,
+          "first": 1788940813,
+          "last": 1789118431,
+          "playlists": {
+            "breakbeat": 3
           }
         },
         {
@@ -4915,17 +4893,6 @@
           "count": 3,
           "first": 1788942175,
           "last": 1789116820,
-          "playlists": {
-            "breakbeat": 3
-          }
-        },
-        {
-          "artist": "Overpade",
-          "title": "hi(gher)",
-          "album": "HYPNOTIK",
-          "count": 3,
-          "first": 1788942969,
-          "last": 1789116430,
           "playlists": {
             "breakbeat": 3
           }
