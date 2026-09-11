@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T00:50:42.602030+00:00",
+  "updatedAt": "2026-09-11T00:55:43.230014+00:00",
   "summary": {
-    "totalPlays": 785,
+    "totalPlays": 787,
     "unknownPlays": 92,
     "uniqueTracks": 649,
     "uniqueArtists": 495,
     "uniqueAlbums": 574,
     "uniquePlaylists": 13,
     "firstObserved": 1788901564,
-    "lastObserved": 1789087662
+    "lastObserved": 1789088091
   },
   "topSongs": [
     {
@@ -54,6 +54,28 @@
       "last": 1789078459,
       "playlists": {
         "MCR wednesday wind down": 3
+      }
+    },
+    {
+      "artist": "The Cranberries",
+      "title": "Zombie",
+      "album": "No Need To Argue",
+      "count": 2,
+      "first": 1788916461,
+      "last": 1789088091,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+      "album": "SWAMP",
+      "count": 2,
+      "first": 1789057548,
+      "last": 1789087937,
+      "playlists": {
+        "1default": 2
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 2,
       "first": 1788997171,
       "last": 1789071785,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Sugs",
-      "title": "PICTURESQUE",
-      "album": "PICTURESQUE",
-      "count": 2,
-      "first": 1789060859,
-      "last": 1789071615,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "No Pulse",
-      "album": "PHANTOMS",
-      "count": 2,
-      "first": 1788946866,
-      "last": 1789071400,
       "playlists": {
         "1default": 2
       }
@@ -1066,10 +1066,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 12,
+      "count": 13,
       "first": 1788910325,
-      "last": 1789070570,
+      "last": 1789087937,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 2,
+          "first": 1789057548,
+          "last": 1789087937,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "show me a sign",
@@ -1110,17 +1121,6 @@
           "count": 1,
           "first": 1789058454,
           "last": 1789058454,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 1,
-          "first": 1789057548,
-          "last": 1789057548,
           "playlists": {
             "1default": 1
           }
@@ -1550,6 +1550,47 @@
       ]
     },
     {
+      "artist": "The Cranberries",
+      "count": 4,
+      "first": 1788916461,
+      "last": 1789088091,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 2,
+          "first": 1788916461,
+          "last": 1789088091,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 1,
+          "first": 1789087662,
+          "last": 1789087662,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 1,
+          "first": 1789060180,
+          "last": 1789060180,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 4,
       "first": 1788947368,
@@ -1933,47 +1974,6 @@
           "last": 1788931104,
           "playlists": {
             "EPL4a": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Cranberries",
-      "count": 3,
-      "first": 1788916461,
-      "last": 1789087662,
-      "songs": [
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 1,
-          "first": 1789087662,
-          "last": 1789087662,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 1,
-          "first": 1789060180,
-          "last": 1789060180,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 1,
-          "first": 1788916461,
-          "last": 1788916461,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -3388,6 +3388,59 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "SWAMP",
+      "count": 5,
+      "first": 1788926373,
+      "last": 1789087937,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 2,
+          "first": 1789057548,
+          "last": 1789087937,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 1,
+          "first": 1789058454,
+          "last": 1789058454,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 1,
+          "first": 1788983290,
+          "last": 1788983290,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 1,
+          "first": 1788926373,
+          "last": 1788926373,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "album": "Bad Habit",
       "count": 4,
@@ -3445,59 +3498,6 @@
           "last": 1789081933,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "SWAMP",
-      "count": 4,
-      "first": 1788926373,
-      "last": 1789058454,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 1,
-          "first": 1789058454,
-          "last": 1789058454,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 1,
-          "first": 1789057548,
-          "last": 1789057548,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 1,
-          "first": 1788983290,
-          "last": 1788983290,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 1,
-          "first": 1788926373,
-          "last": 1788926373,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -4189,6 +4189,26 @@
       ]
     },
     {
+      "artist": "The Cranberries",
+      "album": "No Need To Argue",
+      "count": 2,
+      "first": 1788916461,
+      "last": 1789088091,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 2,
+          "first": 1788916461,
+          "last": 1789088091,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pigeons Playing Ping Pong",
       "album": "Pizazz",
       "count": 2,
@@ -4607,34 +4627,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Car Seat Headrest",
-      "album": "Twin Fantasy",
-      "count": 2,
-      "first": 1788994486,
-      "last": 1789079530,
-      "songs": [
-        {
-          "artist": "Car Seat Headrest",
-          "title": "Bodys",
-          "album": "Twin Fantasy",
-          "count": 2,
-          "first": 1788994486,
-          "last": 1789079530,
-          "playlists": {
-            "d i n n e r": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 360,
+      "count": 362,
       "first": 1788901564,
-      "last": 1789087662,
+      "last": 1789088091,
       "songs": [
         {
           "artist": "Destructo Disk",
@@ -4670,23 +4670,23 @@
           }
         },
         {
-          "artist": "Pigeons Playing Ping Pong",
-          "title": "Poseidon",
-          "album": "Pizazz",
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
           "count": 2,
-          "first": 1788987420,
-          "last": 1789087340,
+          "first": 1788916461,
+          "last": 1789088091,
           "playlists": {
             "1default": 2
           }
         },
         {
-          "artist": "Mosie",
-          "title": "Oh! Frenchy",
-          "album": "Oh! Frenchy",
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
           "count": 2,
-          "first": 1788904291,
-          "last": 1789087105,
+          "first": 1789057548,
+          "last": 1789087937,
           "playlists": {
             "1default": 2
           }
