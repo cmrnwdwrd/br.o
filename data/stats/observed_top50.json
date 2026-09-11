@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T21:40:38.747206+00:00",
+  "updatedAt": "2026-09-11T21:45:43.474582+00:00",
   "summary": {
-    "totalPlays": 1101,
+    "totalPlays": 1102,
     "unknownPlays": 130,
     "uniqueTracks": 842,
     "uniqueArtists": 612,
     "uniqueAlbums": 727,
     "uniquePlaylists": 20,
     "firstObserved": 1788901564,
-    "lastObserved": 1789162830
+    "lastObserved": 1789162990
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Current Joys",
+      "title": "Blondie",
+      "album": "Wild Heart",
+      "count": 2,
+      "first": 1789154365,
+      "last": 1789162990,
+      "playlists": {
+        "escaping from cu boulder by giselle": 2
+      }
+    },
+    {
       "artist": "Colfax Speed Queen",
       "title": "Jesus Loves Rock N' Roll",
       "album": "Satisfaction Intended",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788988096,
       "last": 1789140999,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Against Me!",
-      "title": "I Was a Teenage Anarchist",
-      "album": "White Crosses",
-      "count": 2,
-      "first": 1789059805,
-      "last": 1789140805,
       "playlists": {
         "1default": 2
       }
@@ -5854,10 +5854,21 @@
     },
     {
       "playlist": "escaping from cu boulder by giselle",
-      "count": 38,
+      "count": 39,
       "first": 1789154151,
-      "last": 1789162830,
+      "last": 1789162990,
       "songs": [
+        {
+          "artist": "Current Joys",
+          "title": "Blondie",
+          "album": "Wild Heart",
+          "count": 2,
+          "first": 1789154365,
+          "last": 1789162990,
+          "playlists": {
+            "escaping from cu boulder by giselle": 2
+          }
+        },
         {
           "artist": "The Lumineers",
           "title": "Ophelia",
@@ -5898,17 +5909,6 @@
           "count": 1,
           "first": 1789161904,
           "last": 1789161904,
-          "playlists": {
-            "escaping from cu boulder by giselle": 1
-          }
-        },
-        {
-          "artist": "Hozier",
-          "title": "Someone New",
-          "album": "Hozier (Expanded Edition)",
-          "count": 1,
-          "first": 1789161681,
-          "last": 1789161681,
           "playlists": {
             "escaping from cu boulder by giselle": 1
           }
