@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T06:35:40.356163+00:00",
+  "updatedAt": "2026-09-11T06:40:43.191660+00:00",
   "summary": {
-    "totalPlays": 870,
+    "totalPlays": 871,
     "unknownPlays": 103,
     "uniqueTracks": 707,
     "uniqueArtists": 527,
     "uniqueAlbums": 617,
     "uniquePlaylists": 16,
     "firstObserved": 1788901564,
-    "lastObserved": 1789108459
+    "lastObserved": 1789108636
   },
   "topSongs": [
     {
@@ -87,6 +87,17 @@
       "last": 1789078459,
       "playlists": {
         "MCR wednesday wind down": 3
+      }
+    },
+    {
+      "artist": "Sugarloaf",
+      "title": "West Of Tomorrow",
+      "album": "Sugarloaf",
+      "count": 2,
+      "first": 1788968800,
+      "last": 1789108636,
+      "playlists": {
+        "1default": 2
       }
     },
     {
@@ -549,17 +560,6 @@
       "last": 1789081734,
       "playlists": {
         "anti-capitalist weekday afternoon #1": 2
-      }
-    },
-    {
-      "artist": "Viagra Boys",
-      "title": "Worms",
-      "album": "Street Worms",
-      "count": 2,
-      "first": 1788991593,
-      "last": 1789080744,
-      "playlists": {
-        "1default": 2
       }
     }
   ],
@@ -4721,6 +4721,26 @@
       ]
     },
     {
+      "artist": "Sugarloaf",
+      "album": "Sugarloaf",
+      "count": 2,
+      "first": 1788968800,
+      "last": 1789108636,
+      "songs": [
+        {
+          "artist": "Sugarloaf",
+          "title": "West Of Tomorrow",
+          "album": "Sugarloaf",
+          "count": 2,
+          "first": 1788968800,
+          "last": 1789108636,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mary Gauthier",
       "album": "Filth & Fire",
       "count": 2,
@@ -4981,34 +5001,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Joey Valence & Brae, Brae",
-      "album": "Double Jump",
-      "count": 2,
-      "first": 1789029501,
-      "last": 1789094328,
-      "songs": [
-        {
-          "artist": "Joey Valence & Brae, Brae",
-          "title": "Double Jump",
-          "album": "Double Jump",
-          "count": 2,
-          "first": 1789029501,
-          "last": 1789094328,
-          "playlists": {
-            "breakbeat": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 380,
+      "count": 381,
       "first": 1788901564,
-      "last": 1789108459,
+      "last": 1789108636,
       "songs": [
         {
           "artist": "Destructo Disk",
@@ -5055,12 +5055,12 @@
           }
         },
         {
-          "artist": "LCD Soundsystem",
-          "title": "All My Friends",
-          "album": "Sound of Silver",
+          "artist": "Sugarloaf",
+          "title": "West Of Tomorrow",
+          "album": "Sugarloaf",
           "count": 2,
-          "first": 1788917983,
-          "last": 1789096723,
+          "first": 1788968800,
+          "last": 1789108636,
           "playlists": {
             "1default": 2
           }
