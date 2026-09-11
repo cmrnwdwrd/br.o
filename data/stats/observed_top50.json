@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T22:00:57.372064+00:00",
+  "updatedAt": "2026-09-11T22:05:41.768317+00:00",
   "summary": {
-    "totalPlays": 1106,
+    "totalPlays": 1107,
     "unknownPlays": 131,
     "uniqueTracks": 844,
     "uniqueArtists": 613,
     "uniqueAlbums": 729,
     "uniquePlaylists": 20,
     "firstObserved": 1788901564,
-    "lastObserved": 1789163855
+    "lastObserved": 1789164122
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Knives",
+      "album": "Knives",
+      "count": 2,
+      "first": 1788973998,
+      "last": 1789164122,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Of Monsters and Men",
       "title": "Little Talks",
       "album": "My Head Is An Animal",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788986484,
       "last": 1789141743,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Billie Eilish",
-      "title": "NDA",
-      "album": "Happier Than Ever",
-      "count": 2,
-      "first": 1788989714,
-      "last": 1789141547,
       "playlists": {
         "1default": 2
       }
@@ -2487,6 +2487,36 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 4,
+      "first": 1788973998,
+      "last": 1789164122,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 2,
+          "first": 1788973998,
+          "last": 1789164122,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 2,
+          "first": 1789033065,
+          "last": 1789140613,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 4,
       "first": 1788946510,
@@ -3436,36 +3466,6 @@
           "count": 1,
           "first": 1788973386,
           "last": 1788973386,
-          "playlists": {
-            "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Vampire Weekend",
-      "count": 3,
-      "first": 1788990464,
-      "last": 1789143025,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 2,
-          "first": 1788990464,
-          "last": 1789143025,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 1,
-          "first": 1789108965,
-          "last": 1789108965,
           "playlists": {
             "1default": 1
           }
@@ -5424,9 +5424,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 451,
+      "count": 452,
       "first": 1788901564,
-      "last": 1789146895,
+      "last": 1789164122,
       "songs": [
         {
           "artist": "Tele Novella",
