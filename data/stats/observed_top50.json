@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T07:20:37.250386+00:00",
+  "updatedAt": "2026-09-11T07:25:36.763134+00:00",
   "summary": {
-    "totalPlays": 882,
+    "totalPlays": 884,
     "unknownPlays": 104,
-    "uniqueTracks": 712,
-    "uniqueArtists": 530,
-    "uniqueAlbums": 620,
+    "uniqueTracks": 713,
+    "uniqueArtists": 531,
+    "uniqueAlbums": 621,
     "uniquePlaylists": 16,
     "firstObserved": 1788901564,
-    "lastObserved": 1789111150
+    "lastObserved": 1789111396
   },
   "topSongs": [
     {
@@ -87,6 +87,17 @@
       "last": 1789078459,
       "playlists": {
         "MCR wednesday wind down": 3
+      }
+    },
+    {
+      "artist": "Siete Catorce",
+      "title": "Que La Fiesta Nunca Se Acabe",
+      "album": "Cruda",
+      "count": 2,
+      "first": 1789028695,
+      "last": 1789111396,
+      "playlists": {
+        "breakbeat": 2
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788974410,
       "last": 1789083512,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Ichika Nito",
-      "title": "Secret",
-      "album": "Journey",
-      "count": 2,
-      "first": 1789064515,
-      "last": 1789083123,
       "playlists": {
         "1default": 2
       }
@@ -2428,6 +2428,36 @@
       ]
     },
     {
+      "artist": "Siete Catorce",
+      "count": 3,
+      "first": 1789028695,
+      "last": 1789111396,
+      "songs": [
+        {
+          "artist": "Siete Catorce",
+          "title": "Que La Fiesta Nunca Se Acabe",
+          "album": "Cruda",
+          "count": 2,
+          "first": 1789028695,
+          "last": 1789111396,
+          "playlists": {
+            "breakbeat": 2
+          }
+        },
+        {
+          "artist": "Siete Catorce",
+          "title": "Sobriedad",
+          "album": "Cruda",
+          "count": 1,
+          "first": 1789029996,
+          "last": 1789029996,
+          "playlists": {
+            "breakbeat": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Chicks",
       "count": 3,
       "first": 1789045885,
@@ -3108,47 +3138,6 @@
           "last": 1789023525,
           "playlists": {
             "breakbeat": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Cage The Elephant",
-      "count": 3,
-      "first": 1788928254,
-      "last": 1788990244,
-      "songs": [
-        {
-          "artist": "Cage The Elephant",
-          "title": "Social Cues",
-          "album": "Social Cues",
-          "count": 1,
-          "first": 1788990244,
-          "last": 1788990244,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Cigarette Daydreams",
-          "album": "Melophobia",
-          "count": 1,
-          "first": 1788956946,
-          "last": 1788956946,
-          "playlists": {
-            "d i n n e r": 1
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Skin and Bones - Mix 2020",
-          "album": "Skin and Bones",
-          "count": 1,
-          "first": 1788928254,
-          "last": 1788928254,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -4165,6 +4154,37 @@
       ]
     },
     {
+      "artist": "Siete Catorce",
+      "album": "Cruda",
+      "count": 3,
+      "first": 1789028695,
+      "last": 1789111396,
+      "songs": [
+        {
+          "artist": "Siete Catorce",
+          "title": "Que La Fiesta Nunca Se Acabe",
+          "album": "Cruda",
+          "count": 2,
+          "first": 1789028695,
+          "last": 1789111396,
+          "playlists": {
+            "breakbeat": 2
+          }
+        },
+        {
+          "artist": "Siete Catorce",
+          "title": "Sobriedad",
+          "album": "Cruda",
+          "count": 1,
+          "first": 1789029996,
+          "last": 1789029996,
+          "playlists": {
+            "breakbeat": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Bury Me At Makeout Creek",
       "count": 3,
@@ -5014,26 +5034,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "LCD Soundsystem",
-      "album": "Sound of Silver",
-      "count": 2,
-      "first": 1788917983,
-      "last": 1789096723,
-      "songs": [
-        {
-          "artist": "LCD Soundsystem",
-          "title": "All My Friends",
-          "album": "Sound of Silver",
-          "count": 2,
-          "first": 1788917983,
-          "last": 1789096723,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
@@ -5102,9 +5102,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 116,
+      "count": 118,
       "first": 1788938278,
-      "last": 1789111150,
+      "last": 1789111396,
       "songs": [
         {
           "artist": "Joey Valence & Brae",
@@ -5129,6 +5129,17 @@
           }
         },
         {
+          "artist": "Siete Catorce",
+          "title": "Que La Fiesta Nunca Se Acabe",
+          "album": "Cruda",
+          "count": 2,
+          "first": 1789028695,
+          "last": 1789111396,
+          "playlists": {
+            "breakbeat": 2
+          }
+        },
+        {
           "artist": "Joey Valence & Brae, Brae",
           "title": "Double Jump",
           "album": "Double Jump",
@@ -5146,17 +5157,6 @@
           "count": 2,
           "first": 1788943384,
           "last": 1789032122,
-          "playlists": {
-            "breakbeat": 2
-          }
-        },
-        {
-          "artist": "Muskila, Siu Mata",
-          "title": "Ok, Fatma - Siu Mata Remix",
-          "album": "Ok, Fatma (Siu Mata Remix)",
-          "count": 2,
-          "first": 1788939106,
-          "last": 1789031640,
           "playlists": {
             "breakbeat": 2
           }
