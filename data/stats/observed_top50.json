@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T16:50:37.203643+00:00",
+  "updatedAt": "2026-09-11T16:55:38.220434+00:00",
   "summary": {
-    "totalPlays": 1023,
-    "unknownPlays": 121,
-    "uniqueTracks": 770,
-    "uniqueArtists": 571,
-    "uniqueAlbums": 670,
+    "totalPlays": 1025,
+    "unknownPlays": 122,
+    "uniqueTracks": 771,
+    "uniqueArtists": 572,
+    "uniqueAlbums": 671,
     "uniquePlaylists": 18,
     "firstObserved": 1788901564,
-    "lastObserved": 1789145316
+    "lastObserved": 1789145725
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 2,
+      "first": 1789063640,
+      "last": 1789145480,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Hotel Ugly",
       "title": "Shut up My Moms Calling",
       "album": "Shut up My Moms Calling",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1789061325,
       "last": 1789139860,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Aldous Harding",
-      "title": "The Barrel",
-      "album": "Designer",
-      "count": 2,
-      "first": 1788916930,
-      "last": 1789139560,
       "playlists": {
         "1default": 2
       }
@@ -2868,6 +2868,36 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 3,
+      "first": 1788973386,
+      "last": 1789145480,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 2,
+          "first": 1789063640,
+          "last": 1789145480,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 1,
+          "first": 1788973386,
+          "last": 1788973386,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 3,
       "first": 1788990464,
@@ -3152,25 +3182,6 @@
           "last": 1788991170,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Goreshit",
-      "count": 3,
-      "first": 1788940813,
-      "last": 1789118431,
-      "songs": [
-        {
-          "artist": "Goreshit",
-          "title": "Black Is the New Black",
-          "album": "Copyright Infringement EP",
-          "count": 3,
-          "first": 1788940813,
-          "last": 1789118431,
-          "playlists": {
-            "breakbeat": 3
           }
         }
       ]
@@ -5039,9 +5050,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 444,
+      "count": 446,
       "first": 1788901564,
-      "last": 1789145316,
+      "last": 1789145725,
       "songs": [
         {
           "artist": "Tele Novella",
