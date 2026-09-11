@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T23:10:42.137356+00:00",
+  "updatedAt": "2026-09-11T23:15:41.382436+00:00",
   "summary": {
-    "totalPlays": 1125,
+    "totalPlays": 1127,
     "unknownPlays": 133,
     "uniqueTracks": 852,
     "uniqueArtists": 620,
     "uniqueAlbums": 736,
     "uniquePlaylists": 20,
     "firstObserved": 1788901564,
-    "lastObserved": 1789168089
+    "lastObserved": 1789168440
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Midlake",
+      "title": "Acts of Man",
+      "album": "The Courage of Others",
+      "count": 2,
+      "first": 1789056160,
+      "last": 1789168440,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "THE KIDS ARE ALL RETARDED",
+      "album": "SWAMP",
+      "count": 2,
+      "first": 1788926373,
+      "last": 1789168329,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Gorillaz, Fatoumata Diawara",
       "title": "Désolé (feat. Fatoumata Diawara)",
       "album": "Song Machine Episode 2",
@@ -536,28 +558,6 @@
       "count": 2,
       "first": 1789063640,
       "last": 1789145480,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Hotel Ugly",
-      "title": "Shut up My Moms Calling",
-      "album": "Shut up My Moms Calling",
-      "count": 2,
-      "first": 1788969130,
-      "last": 1789144800,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "The Remnant",
-      "title": "Summer Dog Days",
-      "album": "Indian Summer",
-      "count": 2,
-      "first": 1788919662,
-      "last": 1789144411,
       "playlists": {
         "1default": 2
       }
@@ -1261,10 +1261,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 15,
+      "count": 16,
       "first": 1788910325,
-      "last": 1789142929,
+      "last": 1789168329,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 2,
+          "first": 1788926373,
+          "last": 1789168329,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "LA LA UNDERBELLY",
@@ -1349,17 +1360,6 @@
           "count": 1,
           "first": 1788983290,
           "last": 1788983290,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 1,
-          "first": 1788926373,
-          "last": 1788926373,
           "playlists": {
             "1default": 1
           }
@@ -4015,10 +4015,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 6,
+      "count": 7,
       "first": 1788926373,
-      "last": 1789142929,
+      "last": 1789168329,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 2,
+          "first": 1788926373,
+          "last": 1789168329,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "LA LA UNDERBELLY",
@@ -4048,17 +4059,6 @@
           "count": 1,
           "first": 1788983290,
           "last": 1788983290,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 1,
-          "first": 1788926373,
-          "last": 1788926373,
           "playlists": {
             "1default": 1
           }
@@ -5435,9 +5435,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 470,
+      "count": 472,
       "first": 1788901564,
-      "last": 1789168089,
+      "last": 1789168440,
       "songs": [
         {
           "artist": "Tele Novella",
