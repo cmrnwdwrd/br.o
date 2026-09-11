@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-11T23:30:38.556712+00:00",
+  "updatedAt": "2026-09-11T23:35:39.837910+00:00",
   "summary": {
-    "totalPlays": 1131,
+    "totalPlays": 1132,
     "unknownPlays": 134,
     "uniqueTracks": 855,
     "uniqueArtists": 621,
     "uniqueAlbums": 739,
     "uniquePlaylists": 20,
     "firstObserved": 1788901564,
-    "lastObserved": 1789169386
+    "lastObserved": 1789169631
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Pride (In The Name Of Love) - Remastered 2009",
+      "album": "The Unforgettable Fire (Remastered)",
+      "count": 2,
+      "first": 1788964687,
+      "last": 1789169631,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "The Cardigans",
       "title": "Step On Me",
       "album": "First Band On The Moon (Remastered)",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788902251,
       "last": 1789146175,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Jelani Aryeh",
-      "title": "Stella Brown",
-      "album": "I've Got Some Living To Do",
-      "count": 2,
-      "first": 1788918760,
-      "last": 1789145990,
       "playlists": {
         "1default": 2
       }
@@ -2528,6 +2528,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 4,
+      "first": 1788921291,
+      "last": 1789169631,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 2,
+          "first": 1788964687,
+          "last": 1789169631,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 2,
+          "first": 1788921291,
+          "last": 1789073284,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 4,
       "first": 1788973998,
@@ -3447,36 +3477,6 @@
           "count": 1,
           "first": 1789151075,
           "last": 1789151075,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Built To Spill",
-      "count": 3,
-      "first": 1788993405,
-      "last": 1789149189,
-      "songs": [
-        {
-          "artist": "Built To Spill",
-          "title": "Broken Chairs",
-          "album": "Keep It like a Secret",
-          "count": 2,
-          "first": 1788993405,
-          "last": 1789082080,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 2
-          }
-        },
-        {
-          "artist": "Built To Spill",
-          "title": "You Were Right",
-          "album": "Keep It like a Secret",
-          "count": 1,
-          "first": 1789149189,
-          "last": 1789149189,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 1
           }
@@ -5446,9 +5446,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 476,
+      "count": 477,
       "first": 1788901564,
-      "last": 1789169386,
+      "last": 1789169631,
       "songs": [
         {
           "artist": "Tele Novella",
