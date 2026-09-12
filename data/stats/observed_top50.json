@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T18:31:12.393030+00:00",
+  "updatedAt": "2026-09-12T18:36:07.852922+00:00",
   "summary": {
-    "totalPlays": 1384,
+    "totalPlays": 1386,
     "unknownPlays": 165,
     "uniqueTracks": 976,
     "uniqueArtists": 691,
     "uniqueAlbums": 833,
     "uniquePlaylists": 23,
     "firstObserved": 1788901564,
-    "lastObserved": 1789237680
+    "lastObserved": 1789238132
   },
   "topSongs": [
     {
@@ -530,34 +530,34 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "You Make Me Want to Kill Myself",
+      "album": "You Make Me Want to Kill Myself",
+      "count": 2,
+      "first": 1788984684,
+      "last": 1789238132,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
+      "artist": "Yumi Zouma",
+      "title": "In Camera",
+      "album": "EP III",
+      "count": 2,
+      "first": 1789054681,
+      "last": 1789237930,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Salt-N-Pepa",
       "title": "Shoop",
       "album": "Very Necessary",
       "count": 2,
       "first": 1788903124,
       "last": 1789237680,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "DISINTEGRATE",
-      "album": "SWAMP",
-      "count": 2,
-      "first": 1788983290,
-      "last": 1789237521,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "The Shivas",
-      "title": "You Make Me Wanna Die",
-      "album": "You Know What to Do",
-      "count": 2,
-      "first": 1788975450,
-      "last": 1789237350,
       "playlists": {
         "1default": 2
       }
@@ -1766,10 +1766,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 12,
+      "count": 13,
       "first": 1788902047,
-      "last": 1789233167,
+      "last": 1789238132,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "You Make Me Want to Kill Myself",
+          "album": "You Make Me Want to Kill Myself",
+          "count": 2,
+          "first": 1788984684,
+          "last": 1789238132,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Rock n' roll (Bonus Track)",
@@ -1832,17 +1843,6 @@
           "count": 1,
           "first": 1789097184,
           "last": 1789097184,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "You Make Me Want to Kill Myself",
-          "album": "You Make Me Want to Kill Myself",
-          "count": 1,
-          "first": 1788984684,
-          "last": 1788984684,
           "playlists": {
             "1default": 1
           }
@@ -3300,6 +3300,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 4,
+      "first": 1789054681,
+      "last": 1789237930,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 2,
+          "first": 1789054681,
+          "last": 1789237930,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 2,
+          "first": 1789057143,
+          "last": 1789210514,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 4,
       "first": 1788947810,
@@ -3680,36 +3710,6 @@
           "last": 1789075386,
           "playlists": {
             "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Carole King",
-      "count": 4,
-      "first": 1789191307,
-      "last": 1789199806,
-      "songs": [
-        {
-          "artist": "Carole King",
-          "title": "Time Gone By",
-          "album": "Touch the Sky",
-          "count": 2,
-          "first": 1789191307,
-          "last": 1789199806,
-          "playlists": {
-            "for the girls driving 85": 2
-          }
-        },
-        {
-          "artist": "Carole King",
-          "title": "Good Mountain People",
-          "album": "Touch the Sky",
-          "count": 2,
-          "first": 1789194681,
-          "last": 1789196991,
-          "playlists": {
-            "for the girls driving 85": 2
           }
         }
       ]
@@ -5897,9 +5897,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 597,
+      "count": 599,
       "first": 1788901564,
-      "last": 1789237680,
+      "last": 1789238132,
       "songs": [
         {
           "artist": "Modest Mouse",
