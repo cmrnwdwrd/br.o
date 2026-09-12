@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T14:46:13.162990+00:00",
+  "updatedAt": "2026-09-12T14:51:11.500763+00:00",
   "summary": {
-    "totalPlays": 1322,
+    "totalPlays": 1324,
     "unknownPlays": 158,
     "uniqueTracks": 945,
     "uniqueArtists": 672,
     "uniqueAlbums": 805,
     "uniquePlaylists": 22,
     "firstObserved": 1788901564,
-    "lastObserved": 1789224287
+    "lastObserved": 1789224664
   },
   "topSongs": [
     {
@@ -508,6 +508,28 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Broken Glass",
+      "album": "PHANTOMS",
+      "count": 2,
+      "first": 1788973540,
+      "last": 1789224664,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
+      "artist": "COIN",
+      "title": "Chapstick",
+      "album": "Chapstick",
+      "count": 2,
+      "first": 1788903373,
+      "last": 1789224471,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "NO CHANCE!",
       "title": "I Wanna Be Your Man",
       "album": "I Wanna Be Your Man",
@@ -536,28 +558,6 @@
       "count": 2,
       "first": 1788990730,
       "last": 1789223358,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Saint Motel",
-      "title": "My Type",
-      "album": "My Type EP",
-      "count": 2,
-      "first": 1789032860,
-      "last": 1789223155,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "isobel",
-      "title": "laundry",
-      "album": "laundry",
-      "count": 2,
-      "first": 1788902953,
-      "last": 1789222983,
       "playlists": {
         "1default": 2
       }
@@ -1648,10 +1648,21 @@
     },
     {
       "artist": "Opium",
-      "count": 12,
+      "count": 13,
       "first": 1788927400,
-      "last": 1789219465,
+      "last": 1789224664,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 2,
+          "first": 1788973540,
+          "last": 1789224664,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Opium",
           "title": "Rainfall",
@@ -1725,17 +1736,6 @@
           "count": 1,
           "first": 1789063255,
           "last": 1789063255,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 1,
-          "first": 1788973540,
-          "last": 1788973540,
           "playlists": {
             "1default": 1
           }
@@ -3706,10 +3706,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 10,
+      "count": 11,
       "first": 1788927400,
-      "last": 1789219465,
+      "last": 1789224664,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 2,
+          "first": 1788973540,
+          "last": 1789224664,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Opium",
           "title": "Rainfall",
@@ -3761,17 +3772,6 @@
           "count": 1,
           "first": 1789109880,
           "last": 1789109880,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 1,
-          "first": 1788973540,
-          "last": 1788973540,
           "playlists": {
             "1default": 1
           }
@@ -5776,9 +5776,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 552,
+      "count": 554,
       "first": 1788901564,
-      "last": 1789224287,
+      "last": 1789224664,
       "songs": [
         {
           "artist": "Modest Mouse",
