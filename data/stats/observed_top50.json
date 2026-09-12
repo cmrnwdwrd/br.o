@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T14:01:21.173244+00:00",
+  "updatedAt": "2026-09-12T14:06:05.460563+00:00",
   "summary": {
-    "totalPlays": 1311,
+    "totalPlays": 1313,
     "unknownPlays": 157,
-    "uniqueTracks": 942,
+    "uniqueTracks": 943,
     "uniqueArtists": 671,
-    "uniqueAlbums": 802,
+    "uniqueAlbums": 803,
     "uniquePlaylists": 22,
     "firstObserved": 1788901564,
-    "lastObserved": 1789221400
+    "lastObserved": 1789221948
   },
   "topSongs": [
     {
@@ -497,6 +497,17 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "Say It Ain't So",
+      "album": "Weezer",
+      "count": 2,
+      "first": 1788946510,
+      "last": 1789221948,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Jethro Tull",
       "title": "Nothing Is Easy",
       "album": "Stand Up",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788975272,
       "last": 1789220119,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Rainfall",
-      "album": "PHANTOMS",
-      "count": 2,
-      "first": 1789064095,
-      "last": 1789219465,
       "playlists": {
         "1default": 2
       }
@@ -2504,6 +2504,58 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 5,
+      "first": 1788946510,
+      "last": 1789221948,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1788946510,
+          "last": 1789221948,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 1,
+          "first": 1789150460,
+          "last": 1789150460,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 1,
+          "first": 1789142694,
+          "last": 1789142694,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 1,
+          "first": 1788974227,
+          "last": 1788974227,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Czars",
       "count": 5,
       "first": 1788963949,
@@ -3368,58 +3420,6 @@
           "last": 1789140613,
           "playlists": {
             "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 4,
-      "first": 1788946510,
-      "last": 1789150460,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 1,
-          "first": 1789150460,
-          "last": 1789150460,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 1,
-          "first": 1789142694,
-          "last": 1789142694,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 1,
-          "first": 1788974227,
-          "last": 1788974227,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 1,
-          "first": 1788946510,
-          "last": 1788946510,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -5465,6 +5465,37 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "album": "Weezer",
+      "count": 3,
+      "first": 1788946510,
+      "last": 1789221948,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1788946510,
+          "last": 1789221948,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 1,
+          "first": 1789150460,
+          "last": 1789150460,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie, EDDISON",
       "album": "USA",
       "count": 3,
@@ -5740,34 +5771,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Tanya Tucker",
-      "album": "Delta Dawn",
-      "count": 3,
-      "first": 1789098011,
-      "last": 1789197804,
-      "songs": [
-        {
-          "artist": "Tanya Tucker",
-          "title": "Delta Dawn",
-          "album": "Delta Dawn",
-          "count": 3,
-          "first": 1789098011,
-          "last": 1789197804,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 542,
+      "count": 544,
       "first": 1788901564,
-      "last": 1789221400,
+      "last": 1789221948,
       "songs": [
         {
           "artist": "Modest Mouse",
