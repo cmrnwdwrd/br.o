@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T11:01:16.537243+00:00",
+  "updatedAt": "2026-09-12T11:06:05.907094+00:00",
   "summary": {
-    "totalPlays": 1263,
+    "totalPlays": 1265,
     "unknownPlays": 150,
     "uniqueTracks": 928,
     "uniqueArtists": 666,
     "uniqueAlbums": 792,
     "uniquePlaylists": 22,
     "firstObserved": 1788901564,
-    "lastObserved": 1789210690
+    "lastObserved": 1789211084
   },
   "topSongs": [
     {
@@ -486,6 +486,28 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "TRAP METAL",
+      "album": "TRAP METAL",
+      "count": 2,
+      "first": 1789063011,
+      "last": 1789211084,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
+      "artist": "Your Smith",
+      "title": "Debbie",
+      "album": "Bad Habit",
+      "count": 2,
+      "first": 1788947368,
+      "last": 1789210893,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Leon Bridges",
       "title": "Steam",
       "album": "Gold-Diggers Sound",
@@ -538,28 +560,6 @@
       "last": 1789209153,
       "playlists": {
         "1default": 2
-      }
-    },
-    {
-      "artist": "Mitski",
-      "title": "Two Slow Dancers",
-      "album": "Be the Cowboy",
-      "count": 2,
-      "first": 1789194339,
-      "last": 1789200707,
-      "playlists": {
-        "for the girls driving 85": 2
-      }
-    },
-    {
-      "artist": "Mary Gauthier",
-      "title": "The Sun Fades The Color Of Everything",
-      "album": "Filth & Fire",
-      "count": 2,
-      "first": 1789105172,
-      "last": 1789200329,
-      "playlists": {
-        "for the girls driving 85": 2
       }
     }
   ],
@@ -1206,10 +1206,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 17,
+      "count": 18,
       "first": 1788910325,
-      "last": 1789171015,
+      "last": 1789211084,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "TRAP METAL",
+          "album": "TRAP METAL",
+          "count": 2,
+          "first": 1789063011,
+          "last": 1789211084,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "DARKIE STILL CANNOT RAP",
@@ -1283,17 +1294,6 @@
           "count": 1,
           "first": 1789069780,
           "last": 1789069780,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "TRAP METAL",
-          "album": "TRAP METAL",
-          "count": 1,
-          "first": 1789063011,
-          "last": 1789063011,
           "playlists": {
             "1default": 1
           }
@@ -2482,6 +2482,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 5,
+      "first": 1788947368,
+      "last": 1789210893,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 2,
+          "first": 1788947368,
+          "last": 1789210893,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 2,
+          "first": 1788969485,
+          "last": 1789066599,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 1,
+          "first": 1789086174,
+          "last": 1789086174,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Chicks",
       "count": 5,
       "first": 1789045885,
@@ -3423,47 +3464,6 @@
           "count": 1,
           "first": 1788963949,
           "last": 1788963949,
-          "playlists": {
-            "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 4,
-      "first": 1788947368,
-      "last": 1789086174,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 2,
-          "first": 1788969485,
-          "last": 1789066599,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 1,
-          "first": 1789086174,
-          "last": 1789086174,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 1,
-          "first": 1788947368,
-          "last": 1788947368,
           "playlists": {
             "1default": 1
           }
@@ -4547,6 +4547,48 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "album": "Bad Habit",
+      "count": 5,
+      "first": 1788947368,
+      "last": 1789210893,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 2,
+          "first": 1788947368,
+          "last": 1789210893,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 2,
+          "first": 1788969485,
+          "last": 1789066599,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 1,
+          "first": 1789086174,
+          "last": 1789086174,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Be the Cowboy",
       "count": 5,
@@ -5308,48 +5350,6 @@
       ]
     },
     {
-      "artist": "Your Smith",
-      "album": "Bad Habit",
-      "count": 4,
-      "first": 1788947368,
-      "last": 1789086174,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 2,
-          "first": 1788969485,
-          "last": 1789066599,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 1,
-          "first": 1789086174,
-          "last": 1789086174,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 1,
-          "first": 1788947368,
-          "last": 1788947368,
-          "playlists": {
-            "1default": 1
-          }
-        }
-      ]
-    },
-    {
       "artist": "Destructo Disk",
       "album": "Punk Rocks For Kids Who Can't Skate",
       "count": 4,
@@ -5688,9 +5688,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 494,
+      "count": 496,
       "first": 1788901564,
-      "last": 1789210690,
+      "last": 1789211084,
       "songs": [
         {
           "artist": "Tele Novella",
