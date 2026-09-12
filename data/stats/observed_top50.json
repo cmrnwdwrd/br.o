@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T21:41:12.649601+00:00",
+  "updatedAt": "2026-09-12T21:46:49.345951+00:00",
   "summary": {
-    "totalPlays": 1440,
+    "totalPlays": 1441,
     "unknownPlays": 172,
     "uniqueTracks": 1025,
     "uniqueArtists": 718,
     "uniqueAlbums": 871,
     "uniquePlaylists": 25,
     "firstObserved": 1788901564,
-    "lastObserved": 1789249255
+    "lastObserved": 1789249570
   },
   "topSongs": [
     {
@@ -54,6 +54,17 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Los Narwhals",
+      "title": "Surfer Babe",
+      "album": "Lagrimas de Agave",
+      "count": 3,
+      "first": 1788972740,
+      "last": 1789249570,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1789061533,
       "last": 1789239120,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "What's for Dinner????",
-      "album": "Dead",
-      "count": 2,
-      "first": 1788917492,
-      "last": 1789238994,
       "playlists": {
         "1default": 2
       }
@@ -5809,6 +5809,26 @@
       ]
     },
     {
+      "artist": "Los Narwhals",
+      "album": "Lagrimas de Agave",
+      "count": 3,
+      "first": 1788972740,
+      "last": 1789249570,
+      "songs": [
+        {
+          "artist": "Los Narwhals",
+          "title": "Surfer Babe",
+          "album": "Lagrimas de Agave",
+          "count": 3,
+          "first": 1788972740,
+          "last": 1789249570,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "USD",
       "count": 3,
@@ -5993,45 +6013,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Weezer",
-      "album": "Weezer",
-      "count": 3,
-      "first": 1788946510,
-      "last": 1789221948,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1788946510,
-          "last": 1789221948,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 1,
-          "first": 1789150460,
-          "last": 1789150460,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 606,
+      "count": 607,
       "first": 1788901564,
-      "last": 1789248785,
+      "last": 1789249570,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -6067,23 +6056,23 @@
           }
         },
         {
+          "artist": "Los Narwhals",
+          "title": "Surfer Babe",
+          "album": "Lagrimas de Agave",
+          "count": 3,
+          "first": 1788972740,
+          "last": 1789249570,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
           "artist": "CAKE",
           "title": "Rock 'n' Roll Lifestyle",
           "album": "Motorcade of Generosity",
           "count": 3,
           "first": 1789014862,
           "last": 1789233954,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 3,
-          "first": 1789053695,
-          "last": 1789228614,
           "playlists": {
             "1default": 3
           }
