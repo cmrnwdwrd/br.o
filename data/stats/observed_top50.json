@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T18:46:26.973187+00:00",
+  "updatedAt": "2026-09-12T18:51:11.149466+00:00",
   "summary": {
-    "totalPlays": 1388,
+    "totalPlays": 1389,
     "unknownPlays": 165,
     "uniqueTracks": 976,
     "uniqueArtists": 691,
     "uniqueAlbums": 833,
     "uniquePlaylists": 23,
     "firstObserved": 1788901564,
-    "lastObserved": 1789238754
+    "lastObserved": 1789238994
   },
   "topSongs": [
     {
@@ -530,6 +530,17 @@
       }
     },
     {
+      "artist": "Sexy Coyote",
+      "title": "What's for Dinner????",
+      "album": "Dead",
+      "count": 2,
+      "first": 1788917492,
+      "last": 1789238994,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "title": "Lava Lamp Pisco",
       "album": "Lava Lamp Pisco",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1789055424,
       "last": 1789238480,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "You Make Me Want to Kill Myself",
-      "album": "You Make Me Want to Kill Myself",
-      "count": 2,
-      "first": 1788984684,
-      "last": 1789238132,
       "playlists": {
         "1default": 2
       }
@@ -2351,6 +2351,58 @@
       ]
     },
     {
+      "artist": "Sexy Coyote",
+      "count": 6,
+      "first": 1788917492,
+      "last": 1789238994,
+      "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 2,
+          "first": 1788917492,
+          "last": 1789238994,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "Dancing With Demons",
+          "album": "Dancing With Demons",
+          "count": 2,
+          "first": 1788946229,
+          "last": 1789215738,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "DEAD (Yeah!)",
+          "album": "Dead",
+          "count": 1,
+          "first": 1789224883,
+          "last": 1789224883,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 1,
+          "first": 1788921570,
+          "last": 1788921570,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
       "count": 6,
       "first": 1789102138,
@@ -2716,58 +2768,6 @@
           "count": 1,
           "first": 1789225488,
           "last": 1789225488,
-          "playlists": {
-            "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sexy Coyote",
-      "count": 5,
-      "first": 1788917492,
-      "last": 1789224883,
-      "songs": [
-        {
-          "artist": "Sexy Coyote",
-          "title": "Dancing With Demons",
-          "album": "Dancing With Demons",
-          "count": 2,
-          "first": 1788946229,
-          "last": 1789215738,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "DEAD (Yeah!)",
-          "album": "Dead",
-          "count": 1,
-          "first": 1789224883,
-          "last": 1789224883,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 1,
-          "first": 1788921570,
-          "last": 1788921570,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 1,
-          "first": 1788917492,
-          "last": 1788917492,
           "playlists": {
             "1default": 1
           }
@@ -5015,6 +5015,48 @@
       ]
     },
     {
+      "artist": "Sexy Coyote",
+      "album": "Dead",
+      "count": 4,
+      "first": 1788917492,
+      "last": 1789238994,
+      "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 2,
+          "first": 1788917492,
+          "last": 1789238994,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "DEAD (Yeah!)",
+          "album": "Dead",
+          "count": 1,
+          "first": 1789224883,
+          "last": 1789224883,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 1,
+          "first": 1788921570,
+          "last": 1788921570,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THIS DOES NOT EXIST",
       "count": 4,
@@ -5719,48 +5761,6 @@
       ]
     },
     {
-      "artist": "Sexy Coyote",
-      "album": "Dead",
-      "count": 3,
-      "first": 1788917492,
-      "last": 1789224883,
-      "songs": [
-        {
-          "artist": "Sexy Coyote",
-          "title": "DEAD (Yeah!)",
-          "album": "Dead",
-          "count": 1,
-          "first": 1789224883,
-          "last": 1789224883,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 1,
-          "first": 1788921570,
-          "last": 1788921570,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 1,
-          "first": 1788917492,
-          "last": 1788917492,
-          "playlists": {
-            "1default": 1
-          }
-        }
-      ]
-    },
-    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "album": "Run It",
       "count": 3,
@@ -5897,9 +5897,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 601,
+      "count": 602,
       "first": 1788901564,
-      "last": 1789238754,
+      "last": 1789238994,
       "songs": [
         {
           "artist": "Modest Mouse",
