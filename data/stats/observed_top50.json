@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T17:01:21.437547+00:00",
+  "updatedAt": "2026-09-12T17:06:05.539258+00:00",
   "summary": {
-    "totalPlays": 1360,
+    "totalPlays": 1362,
     "unknownPlays": 162,
     "uniqueTracks": 970,
     "uniqueArtists": 687,
     "uniqueAlbums": 827,
     "uniquePlaylists": 23,
     "firstObserved": 1788901564,
-    "lastObserved": 1789232320
+    "lastObserved": 1789232750
   },
   "topSongs": [
     {
@@ -519,6 +519,28 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 2,
+      "first": 1789064784,
+      "last": 1789232750,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
+      "artist": "Kate Bollinger",
+      "title": "A Couple Things",
+      "album": "A word becomes a sound",
+      "count": 2,
+      "first": 1788915657,
+      "last": 1789232590,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Kai Straw",
       "title": "Don't Tread on Me",
       "album": "Toothpick",
@@ -536,28 +558,6 @@
       "count": 2,
       "first": 1789015116,
       "last": 1789231900,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "HEALTH, Nine Inch Nails",
-      "title": "ISN'T EVERYONE",
-      "album": "ISN'T EVERYONE",
-      "count": 2,
-      "first": 1788967539,
-      "last": 1789231585,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Interpol",
-      "title": "PDA",
-      "album": "Turn On The Bright Lights",
-      "count": 2,
-      "first": 1788985465,
-      "last": 1789230940,
       "playlists": {
         "1default": 2
       }
@@ -1670,10 +1670,21 @@
     },
     {
       "artist": "Opium",
-      "count": 13,
+      "count": 14,
       "first": 1788927400,
-      "last": 1789224664,
+      "last": 1789232750,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 2,
+          "first": 1789064784,
+          "last": 1789232750,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Opium",
           "title": "Broken Glass",
@@ -1736,17 +1747,6 @@
           "count": 1,
           "first": 1789109880,
           "last": 1789109880,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 1,
-          "first": 1789064784,
-          "last": 1789064784,
           "playlists": {
             "1default": 1
           }
@@ -5864,9 +5864,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 573,
+      "count": 575,
       "first": 1788901564,
-      "last": 1789232320,
+      "last": 1789232750,
       "songs": [
         {
           "artist": "Modest Mouse",
