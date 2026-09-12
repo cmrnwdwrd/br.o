@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T15:16:13.668395+00:00",
+  "updatedAt": "2026-09-12T15:21:12.528227+00:00",
   "summary": {
-    "totalPlays": 1331,
-    "unknownPlays": 158,
-    "uniqueTracks": 950,
-    "uniqueArtists": 672,
-    "uniqueAlbums": 807,
+    "totalPlays": 1333,
+    "unknownPlays": 159,
+    "uniqueTracks": 951,
+    "uniqueArtists": 673,
+    "uniqueAlbums": 808,
     "uniquePlaylists": 22,
     "firstObserved": 1788901564,
-    "lastObserved": 1789226001
+    "lastObserved": 1789226433
   },
   "topSongs": [
     {
@@ -508,6 +508,17 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "Mallard",
+      "album": "Mallard",
+      "count": 2,
+      "first": 1788973386,
+      "last": 1789226433,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Los Narwhals",
       "title": "Surfer Babe",
       "album": "Lagrimas de Agave",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788903373,
       "last": 1789224471,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "NO CHANCE!",
-      "title": "I Wanna Be Your Man",
-      "album": "I Wanna Be Your Man",
-      "count": 2,
-      "first": 1788986942,
-      "last": 1789224287,
       "playlists": {
         "1default": 2
       }
@@ -3248,6 +3248,36 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 4,
+      "first": 1788973386,
+      "last": 1789226433,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 2,
+          "first": 1788973386,
+          "last": 1789226433,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 2,
+          "first": 1789063640,
+          "last": 1789145480,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 4,
       "first": 1788975620,
@@ -3625,36 +3655,6 @@
           "last": 1789029209,
           "playlists": {
             "breakbeat": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kenya Grace",
-      "count": 4,
-      "first": 1788944782,
-      "last": 1789114315,
-      "songs": [
-        {
-          "artist": "Kenya Grace",
-          "title": "Meteor",
-          "album": "Meteor",
-          "count": 2,
-          "first": 1789020059,
-          "last": 1789114315,
-          "playlists": {
-            "breakbeat": 2
-          }
-        },
-        {
-          "artist": "Kenya Grace",
-          "title": "Afterparty Lover",
-          "album": "Afterparty Lover",
-          "count": 2,
-          "first": 1788944782,
-          "last": 1789027805,
-          "playlists": {
-            "breakbeat": 2
           }
         }
       ]
@@ -5842,9 +5842,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 561,
+      "count": 563,
       "first": 1788901564,
-      "last": 1789226001,
+      "last": 1789226433,
       "songs": [
         {
           "artist": "Modest Mouse",
