@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T13:51:11.965903+00:00",
+  "updatedAt": "2026-09-12T13:56:39.921582+00:00",
   "summary": {
-    "totalPlays": 1309,
+    "totalPlays": 1311,
     "unknownPlays": 156,
     "uniqueTracks": 942,
     "uniqueArtists": 671,
     "uniqueAlbums": 802,
     "uniquePlaylists": 22,
     "firstObserved": 1788901564,
-    "lastObserved": 1789220990
+    "lastObserved": 1789221400
   },
   "topSongs": [
     {
@@ -497,6 +497,28 @@
       }
     },
     {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 2,
+      "first": 1788968380,
+      "last": 1789221400,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
+      "artist": "Jethro Tull",
+      "title": "A New Day Yesterday",
+      "album": "Stand Up",
+      "count": 2,
+      "first": 1788947080,
+      "last": 1789221152,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Alanis Morissette",
       "title": "You Oughta Know - 2015 Remaster",
       "album": "Jagged Little Pill (2015 Remaster)",
@@ -536,28 +558,6 @@
       "count": 2,
       "first": 1789064095,
       "last": 1789219465,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Grace Ives",
-      "title": "Mirror",
-      "album": "2nd",
-      "count": 2,
-      "first": 1788972624,
-      "last": 1789219349,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Nat & Alex Wolff",
-      "title": "Rollin' Around",
-      "album": "Public Places",
-      "count": 2,
-      "first": 1788971807,
-      "last": 1789219132,
       "playlists": {
         "1default": 2
       }
@@ -3092,6 +3092,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 4,
+      "first": 1788947080,
+      "last": 1789221400,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 2,
+          "first": 1788968380,
+          "last": 1789221400,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 2,
+          "first": 1788947080,
+          "last": 1789221152,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "count": 4,
       "first": 1788968149,
@@ -3579,36 +3609,6 @@
           "count": 2,
           "first": 1788940271,
           "last": 1789018504,
-          "playlists": {
-            "breakbeat": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kasper Marott",
-      "count": 4,
-      "first": 1788941505,
-      "last": 1789111720,
-      "songs": [
-        {
-          "artist": "Kasper Marott",
-          "title": "Pling",
-          "album": "Full Circle",
-          "count": 2,
-          "first": 1789018934,
-          "last": 1789111720,
-          "playlists": {
-            "breakbeat": 2
-          }
-        },
-        {
-          "artist": "Kasper Marott",
-          "title": "Mere",
-          "album": "Full Circle",
-          "count": 2,
-          "first": 1788941505,
-          "last": 1789026511,
           "playlists": {
             "breakbeat": 2
           }
@@ -4916,6 +4916,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 4,
+      "first": 1788947080,
+      "last": 1789221400,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 2,
+          "first": 1788968380,
+          "last": 1789221400,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 2,
+          "first": 1788947080,
+          "last": 1789221152,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "album": "Good News For People Who Love Bad News",
       "count": 4,
@@ -5729,34 +5760,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Florence + The Machine, Ethel Cain",
-      "album": "Morning Elvis (Live At Denver Ball Arena)",
-      "count": 3,
-      "first": 1789099938,
-      "last": 1789196556,
-      "songs": [
-        {
-          "artist": "Florence + The Machine, Ethel Cain",
-          "title": "Morning Elvis - Live At Denver Ball Arena",
-          "album": "Morning Elvis (Live At Denver Ball Arena)",
-          "count": 3,
-          "first": 1789099938,
-          "last": 1789196556,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 540,
+      "count": 542,
       "first": 1788901564,
-      "last": 1789220990,
+      "last": 1789221400,
       "songs": [
         {
           "artist": "Modest Mouse",
