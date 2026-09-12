@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T05:46:06.769396+00:00",
+  "updatedAt": "2026-09-12T05:51:12.529763+00:00",
   "summary": {
-    "totalPlays": 1211,
-    "unknownPlays": 144,
+    "totalPlays": 1212,
+    "unknownPlays": 145,
     "uniqueTracks": 915,
     "uniqueArtists": 661,
     "uniqueAlbums": 786,
     "uniquePlaylists": 21,
     "firstObserved": 1788901564,
-    "lastObserved": 1789191562
+    "lastObserved": 1789192063
   },
   "topSongs": [
     {
@@ -343,6 +343,17 @@
       }
     },
     {
+      "artist": "Sally Yeh, Unknown",
+      "title": "往昔夢境",
+      "album": "面對面",
+      "count": 2,
+      "first": 1789099669,
+      "last": 1789192063,
+      "playlists": {
+        "for the girls driving 85": 2
+      }
+    },
+    {
       "artist": "Florence + The Machine",
       "title": "Cassandra",
       "album": "Dance Fever",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1789056160,
       "last": 1789168440,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE KIDS ARE ALL RETARDED",
-      "album": "SWAMP",
-      "count": 2,
-      "first": 1788926373,
-      "last": 1789168329,
       "playlists": {
         "1default": 2
       }
@@ -5885,10 +5885,21 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 50,
+      "count": 51,
       "first": 1789097452,
-      "last": 1789191562,
+      "last": 1789192063,
       "songs": [
+        {
+          "artist": "Sally Yeh, Unknown",
+          "title": "往昔夢境",
+          "album": "面對面",
+          "count": 2,
+          "first": 1789099669,
+          "last": 1789192063,
+          "playlists": {
+            "for the girls driving 85": 2
+          }
+        },
         {
           "artist": "Florence + The Machine",
           "title": "Cassandra",
@@ -5929,17 +5940,6 @@
           "count": 2,
           "first": 1789101906,
           "last": 1789107865,
-          "playlists": {
-            "for the girls driving 85": 2
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "I Will",
-          "album": "Bury Me At Makeout Creek",
-          "count": 2,
-          "first": 1789097836,
-          "last": 1789107691,
           "playlists": {
             "for the girls driving 85": 2
           }
