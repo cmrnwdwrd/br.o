@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T17:21:09.917099+00:00",
+  "updatedAt": "2026-09-12T17:26:05.630216+00:00",
   "summary": {
-    "totalPlays": 1366,
+    "totalPlays": 1367,
     "unknownPlays": 162,
     "uniqueTracks": 971,
     "uniqueArtists": 688,
     "uniqueAlbums": 828,
     "uniquePlaylists": 23,
     "firstObserved": 1788901564,
-    "lastObserved": 1789233673
+    "lastObserved": 1789233954
   },
   "topSongs": [
     {
@@ -54,6 +54,17 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 3,
+      "first": 1789014862,
+      "last": 1789233954,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788903730,
       "last": 1789233167,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Dirge",
-      "album": "Dirge",
-      "count": 2,
-      "first": 1789064784,
-      "last": 1789232750,
       "playlists": {
         "1default": 2
       }
@@ -5604,6 +5604,26 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 3,
+      "first": 1789014862,
+      "last": 1789233954,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 3,
+          "first": 1789014862,
+          "last": 1789233954,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 3,
@@ -5839,34 +5859,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Lush",
-      "album": "Lovelife",
-      "count": 3,
-      "first": 1789015368,
-      "last": 1789210138,
-      "songs": [
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 3,
-          "first": 1789015368,
-          "last": 1789210138,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 579,
+      "count": 580,
       "first": 1788901564,
-      "last": 1789233673,
+      "last": 1789233954,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -5902,23 +5902,23 @@
           }
         },
         {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 3,
+          "first": 1789014862,
+          "last": 1789233954,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
           "artist": "Lil Darkie",
           "title": "wrap music",
           "album": "THIS DOES NOT EXIST",
           "count": 3,
           "first": 1789053695,
           "last": 1789228614,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie, EDDISON",
-          "title": "USA",
-          "album": "USA",
-          "count": 3,
-          "first": 1788982835,
-          "last": 1789218454,
           "playlists": {
             "1default": 3
           }
