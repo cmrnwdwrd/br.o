@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-12T21:36:12.827020+00:00",
+  "updatedAt": "2026-09-12T21:41:12.694043+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 24,
-    "sessionCount": 59,
+    "sessionCount": 58,
     "firstObserved": 1788901564,
-    "lastObserved": 1789248785
+    "lastObserved": 1789246811
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 24,
-      "playCount": 608,
+      "sessionCount": 23,
+      "playCount": 607,
       "firstObserved": 1788901564,
-      "lastObserved": 1789248785,
-      "typicalStartMinute": 1212,
-      "typicalDurationMinutes": 41,
+      "lastObserved": 1789230720,
+      "typicalStartMinute": 36,
+      "typicalDurationMinutes": 42,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -166,7 +166,7 @@
           60.0,
           1.0,
           0.0,
-          3.5,
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -757,7 +757,7 @@
           0.0,
           0.0,
           0.0,
-          3.5,
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -1038,7 +1038,7 @@
           0,
           0,
           0,
-          1,
+          0,
           0,
           0,
           0,
@@ -1106,19 +1106,13 @@
         },
         {
           "weekday": 5,
-          "sessions": 3,
-          "typicalStartMinute": 626,
-          "typicalDurationMinutes": 149,
+          "sessions": 2,
+          "typicalStartMinute": 452,
+          "typicalDurationMinutes": 224,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
-        {
-          "start": 1789248785,
-          "end": 1789248996,
-          "durationMinutes": 4,
-          "playCount": 1
-        },
         {
           "start": 1789230720,
           "end": 1789239662,
@@ -1232,6 +1226,12 @@
           "end": 1788948201,
           "durationMinutes": 33,
           "playCount": 9
+        },
+        {
+          "start": 1788934345,
+          "end": 1788934451,
+          "durationMinutes": 2,
+          "playCount": 1
         }
       ]
     },
@@ -23019,11 +23019,11 @@
     {
       "playlist": "landlockd surfrock",
       "sessionCount": 1,
-      "playCount": 11,
+      "playCount": 14,
       "firstObserved": 1789246811,
       "lastObserved": 1789246811,
       "typicalStartMinute": 900,
-      "typicalDurationMinutes": 33,
+      "typicalDurationMinutes": 46,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -23172,7 +23172,7 @@
           0.0,
           0.0,
           0.0,
-          32.9,
+          46.0,
           0.0,
           0.0,
           0.0,
@@ -23763,8 +23763,8 @@
           0.0,
           14.8,
           15.0,
-          3.1,
-          0.0,
+          15.0,
+          1.1,
           0.0,
           0.0,
           0.0,
@@ -24086,16 +24086,16 @@
           "weekday": 5,
           "sessions": 1,
           "typicalStartMinute": 900,
-          "typicalDurationMinutes": 33,
+          "typicalDurationMinutes": 46,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
         {
           "start": 1789246811,
-          "end": 1789248784,
-          "durationMinutes": 33,
-          "playCount": 11
+          "end": 1789249568,
+          "durationMinutes": 46,
+          "playCount": 14
         }
       ]
     },
