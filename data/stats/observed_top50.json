@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T07:46:06.350967+00:00",
+  "updatedAt": "2026-09-12T07:51:06.586666+00:00",
   "summary": {
-    "totalPlays": 1245,
+    "totalPlays": 1246,
     "unknownPlays": 147,
     "uniqueTracks": 923,
     "uniqueArtists": 663,
     "uniqueAlbums": 789,
     "uniquePlaylists": 21,
     "firstObserved": 1788901564,
-    "lastObserved": 1789199065
+    "lastObserved": 1789199335
   },
   "topSongs": [
     {
@@ -442,6 +442,17 @@
       }
     },
     {
+      "artist": "The Chicks",
+      "title": "Cowboy Take Me Away",
+      "album": "Fly",
+      "count": 2,
+      "first": 1789106714,
+      "last": 1789199335,
+      "playlists": {
+        "for the girls driving 85": 2
+      }
+    },
+    {
       "artist": "Tanya Tucker",
       "title": "My Arms Stay Open All Night",
       "album": "20 Greatest Hits",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1789190515,
       "last": 1789195850,
-      "playlists": {
-        "for the girls driving 85": 2
-      }
-    },
-    {
-      "artist": "Patsy Cline, The Jordanaires",
-      "title": "Walkin' After Midnight",
-      "album": "Patsy Cline's Greatest Hits",
-      "count": 2,
-      "first": 1789192969,
-      "last": 1789195160,
       "playlists": {
         "for the girls driving 85": 2
       }
@@ -2482,6 +2482,58 @@
       ]
     },
     {
+      "artist": "The Chicks",
+      "count": 5,
+      "first": 1789045885,
+      "last": 1789199335,
+      "songs": [
+        {
+          "artist": "The Chicks",
+          "title": "Cowboy Take Me Away",
+          "album": "Fly",
+          "count": 2,
+          "first": 1789106714,
+          "last": 1789199335,
+          "playlists": {
+            "for the girls driving 85": 2
+          }
+        },
+        {
+          "artist": "The Chicks",
+          "title": "The Long Way Around",
+          "album": "Taking The Long Way",
+          "count": 1,
+          "first": 1789190065,
+          "last": 1789190065,
+          "playlists": {
+            "for the girls driving 85": 1
+          }
+        },
+        {
+          "artist": "The Chicks",
+          "title": "Wide Open Spaces",
+          "album": "Wide Open Spaces",
+          "count": 1,
+          "first": 1789107001,
+          "last": 1789107001,
+          "playlists": {
+            "for the girls driving 85": 1
+          }
+        },
+        {
+          "artist": "The Chicks",
+          "title": "Travelin' Soldier",
+          "album": "The Essential The Chicks",
+          "count": 1,
+          "first": 1789045885,
+          "last": 1789045885,
+          "playlists": {
+            "country music was never for republicans": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Tanya Tucker",
       "count": 5,
       "first": 1789098011,
@@ -2868,58 +2920,6 @@
           "last": 1789002434,
           "playlists": {
             "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Chicks",
-      "count": 4,
-      "first": 1789045885,
-      "last": 1789190065,
-      "songs": [
-        {
-          "artist": "The Chicks",
-          "title": "The Long Way Around",
-          "album": "Taking The Long Way",
-          "count": 1,
-          "first": 1789190065,
-          "last": 1789190065,
-          "playlists": {
-            "for the girls driving 85": 1
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Wide Open Spaces",
-          "album": "Wide Open Spaces",
-          "count": 1,
-          "first": 1789107001,
-          "last": 1789107001,
-          "playlists": {
-            "for the girls driving 85": 1
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Cowboy Take Me Away",
-          "album": "Fly",
-          "count": 1,
-          "first": 1789106714,
-          "last": 1789106714,
-          "playlists": {
-            "for the girls driving 85": 1
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Travelin' Soldier",
-          "album": "The Essential The Chicks",
-          "count": 1,
-          "first": 1789045885,
-          "last": 1789045885,
-          "playlists": {
-            "country music was never for republicans": 1
           }
         }
       ]
@@ -5858,9 +5858,9 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 81,
+      "count": 82,
       "first": 1789097452,
-      "last": 1789199065,
+      "last": 1789199335,
       "songs": [
         {
           "artist": "Sally Yeh, Unknown",
