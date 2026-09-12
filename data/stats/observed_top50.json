@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-12T14:11:07.690479+00:00",
+  "updatedAt": "2026-09-12T14:16:07.224716+00:00",
   "summary": {
-    "totalPlays": 1314,
+    "totalPlays": 1315,
     "unknownPlays": 157,
     "uniqueTracks": 943,
     "uniqueArtists": 671,
     "uniqueAlbums": 803,
     "uniquePlaylists": 22,
     "firstObserved": 1788901564,
-    "lastObserved": 1789222208
+    "lastObserved": 1789222505
   },
   "topSongs": [
     {
@@ -508,6 +508,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "THE WORLD IS ENDING",
+      "album": "THE WORLD IS ENDING",
+      "count": 2,
+      "first": 1789033665,
+      "last": 1789222505,
+      "playlists": {
+        "1default": 2
+      }
+    },
+    {
       "artist": "Weezer",
       "title": "Say It Ain't So",
       "album": "Weezer",
@@ -547,17 +558,6 @@
       "count": 2,
       "first": 1788947559,
       "last": 1789220740,
-      "playlists": {
-        "1default": 2
-      }
-    },
-    {
-      "artist": "CLAЯA",
-      "title": "A Good Friend",
-      "album": "A Good Friend",
-      "count": 2,
-      "first": 1788902594,
-      "last": 1789220297,
       "playlists": {
         "1default": 2
       }
@@ -1206,10 +1206,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 20,
+      "count": 21,
       "first": 1788910325,
-      "last": 1789217995,
+      "last": 1789222505,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE WORLD IS ENDING",
+          "album": "THE WORLD IS ENDING",
+          "count": 2,
+          "first": 1789033665,
+          "last": 1789222505,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "TRAP METAL",
@@ -1316,17 +1327,6 @@
           "count": 1,
           "first": 1789069780,
           "last": 1789069780,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE WORLD IS ENDING",
-          "album": "THE WORLD IS ENDING",
-          "count": 1,
-          "first": 1789033665,
-          "last": 1789033665,
           "playlists": {
             "1default": 1
           }
@@ -5776,9 +5776,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 544,
+      "count": 545,
       "first": 1788901564,
-      "last": 1789221948,
+      "last": 1789222505,
       "songs": [
         {
           "artist": "Modest Mouse",
