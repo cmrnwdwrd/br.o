@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T19:46:17.000727+00:00",
+  "updatedAt": "2026-09-13T19:51:18.199731+00:00",
   "summary": {
-    "totalPlays": 1709,
+    "totalPlays": 1711,
     "unknownPlays": 202,
     "uniqueTracks": 1223,
     "uniqueArtists": 871,
     "uniqueAlbums": 1043,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789328620
+    "lastObserved": 1789329015
   },
   "topSongs": [
     {
@@ -76,6 +76,28 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Gorillaz, Fatoumata Diawara",
+      "title": "Désolé (feat. Fatoumata Diawara)",
+      "album": "Song Machine Episode 2",
+      "count": 3,
+      "first": 1788967094,
+      "last": 1789329015,
+      "playlists": {
+        "1default": 3
+      }
+    },
+    {
+      "artist": "Tennis",
+      "title": "Need Your Love",
+      "album": "Swimmer",
+      "count": 3,
+      "first": 1789058225,
+      "last": 1789328785,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 3,
       "first": 1788939947,
       "last": 1789115836,
-      "playlists": {
-        "breakbeat": 3
-      }
-    },
-    {
-      "artist": "Nick León",
-      "title": "Beam Ahh (Nick León Baile mix)",
-      "album": "2020 EDITS",
-      "count": 3,
-      "first": 1788941052,
-      "last": 1789115526,
-      "playlists": {
-        "breakbeat": 3
-      }
-    },
-    {
-      "artist": "bastienGOAT",
-      "title": "Tell me if you like it",
-      "album": "MULTI",
-      "count": 3,
-      "first": 1788944435,
-      "last": 1789115254,
       "playlists": {
         "breakbeat": 3
       }
@@ -2108,6 +2108,58 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "count": 8,
+      "first": 1788989320,
+      "last": 1789328785,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Need Your Love",
+          "album": "Swimmer",
+          "count": 3,
+          "first": 1789058225,
+          "last": 1789328785,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 3,
+          "first": 1788989320,
+          "last": 1789294062,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Tender as a Tomb",
+          "album": "Swimmer",
+          "count": 1,
+          "first": 1789253168,
+          "last": 1789253168,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Seafarer",
+          "album": "Cape Dory",
+          "count": 1,
+          "first": 1789248601,
+          "last": 1789248601,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Cage The Elephant",
       "count": 8,
       "first": 1788928254,
@@ -2363,58 +2415,6 @@
           "last": 1789224883,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tennis",
-      "count": 7,
-      "first": 1788989320,
-      "last": 1789294062,
-      "songs": [
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 3,
-          "first": 1788989320,
-          "last": 1789294062,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Need Your Love",
-          "album": "Swimmer",
-          "count": 2,
-          "first": 1789058225,
-          "last": 1789213785,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Tender as a Tomb",
-          "album": "Swimmer",
-          "count": 1,
-          "first": 1789253168,
-          "last": 1789253168,
-          "playlists": {
-            "landlockd surfrock": 1
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Seafarer",
-          "album": "Cape Dory",
-          "count": 1,
-          "first": 1789248601,
-          "last": 1789248601,
-          "playlists": {
-            "landlockd surfrock": 1
           }
         }
       ]
@@ -5478,6 +5478,37 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "album": "Swimmer",
+      "count": 4,
+      "first": 1789058225,
+      "last": 1789328785,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Need Your Love",
+          "album": "Swimmer",
+          "count": 3,
+          "first": 1789058225,
+          "last": 1789328785,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Tender as a Tomb",
+          "album": "Swimmer",
+          "count": 1,
+          "first": 1789253168,
+          "last": 1789253168,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Daffo",
       "album": "Good God (Porches Remix)",
       "count": 4,
@@ -6191,45 +6222,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 4,
-      "first": 1788920128,
-      "last": 1789095744,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 2,
-          "first": 1789055950,
-          "last": 1789095744,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 2,
-          "first": 1788920128,
-          "last": 1789073563,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 669,
+      "count": 671,
       "first": 1788901564,
-      "last": 1789328620,
+      "last": 1789329015,
       "songs": [
         {
           "artist": "Daffo",
