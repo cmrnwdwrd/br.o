@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T22:31:19.339392+00:00",
+  "updatedAt": "2026-09-13T22:36:11.964431+00:00",
   "summary": {
-    "totalPlays": 1755,
+    "totalPlays": 1756,
     "unknownPlays": 208,
     "uniqueTracks": 1224,
     "uniqueArtists": 872,
     "uniqueAlbums": 1044,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789338669
+    "lastObserved": 1789338804
   },
   "topSongs": [
     {
@@ -87,6 +87,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Mitski",
+      "title": "Should've Been Me",
+      "album": "Laurel Hell",
+      "count": 3,
+      "first": 1788920128,
+      "last": 1789338804,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1789063640,
       "last": 1789252354,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 3,
-      "first": 1789014862,
-      "last": 1789233954,
       "playlists": {
         "1default": 3
       }
@@ -1360,10 +1360,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 24,
+      "count": 25,
       "first": 1788920128,
-      "last": 1789255458,
+      "last": 1789338804,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 3,
+          "first": 1788920128,
+          "last": 1789338804,
+          "playlists": {
+            "1default": 3
+          }
+        },
         {
           "artist": "Mitski",
           "title": "I Will",
@@ -1448,17 +1459,6 @@
           "count": 2,
           "first": 1789055950,
           "last": 1789095744,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 2,
-          "first": 1788920128,
-          "last": 1789073563,
           "playlists": {
             "1default": 2
           }
@@ -5151,6 +5151,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 5,
+      "first": 1788920128,
+      "last": 1789338804,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 3,
+          "first": 1788920128,
+          "last": 1789338804,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 2,
+          "first": 1789055950,
+          "last": 1789095744,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ramones",
       "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
       "count": 5,
@@ -6158,34 +6189,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Joey Valence & Brae",
-      "album": "Crank It Up",
-      "count": 4,
-      "first": 1788938278,
-      "last": 1789115080,
-      "songs": [
-        {
-          "artist": "Joey Valence & Brae",
-          "title": "Crank It Up",
-          "album": "Crank It Up",
-          "count": 4,
-          "first": 1788938278,
-          "last": 1789115080,
-          "playlists": {
-            "breakbeat": 4
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 715,
+      "count": 716,
       "first": 1788901564,
-      "last": 1789338669,
+      "last": 1789338804,
       "songs": [
         {
           "artist": "Destructo Disk",
