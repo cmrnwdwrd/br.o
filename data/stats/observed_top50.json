@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T17:11:05.169173+00:00",
+  "updatedAt": "2026-09-13T17:16:10.375461+00:00",
   "summary": {
-    "totalPlays": 1667,
+    "totalPlays": 1668,
     "unknownPlays": 198,
-    "uniqueTracks": 1200,
+    "uniqueTracks": 1201,
     "uniqueArtists": 853,
-    "uniqueAlbums": 1021,
+    "uniqueAlbums": 1022,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789319442
+    "lastObserved": 1789319672
   },
   "topSongs": [
     {
@@ -3700,6 +3700,47 @@
       ]
     },
     {
+      "artist": "Kendrick Lamar",
+      "count": 4,
+      "first": 1789061029,
+      "last": 1789319672,
+      "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Black Panther",
+          "album": "Black Panther The Album Music From And Inspired By",
+          "count": 2,
+          "first": 1789061029,
+          "last": 1789141995,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "HUMBLE.",
+          "album": "DAMN.",
+          "count": 1,
+          "first": 1789319672,
+          "last": 1789319672,
+          "playlists": {
+            "throwbacks": 1
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Alright",
+          "album": "To Pimp A Butterfly",
+          "count": 1,
+          "first": 1789221730,
+          "last": 1789221730,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Newton Brothers",
       "count": 4,
       "first": 1789295519,
@@ -3845,47 +3886,6 @@
           "last": 1789211326,
           "playlists": {
             "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "count": 4,
-      "first": 1789057000,
-      "last": 1789259545,
-      "songs": [
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "brutal",
-          "album": "SOUR",
-          "count": 2,
-          "first": 1789057000,
-          "last": 1789096097,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "bad idea right?",
-          "album": "GUTS",
-          "count": 1,
-          "first": 1789259545,
-          "last": 1789259545,
-          "playlists": {
-            "texting your situationship": 1
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "all-american bitch",
-          "album": "GUTS",
-          "count": 1,
-          "first": 1789081344,
-          "last": 1789081344,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 1
           }
         }
       ]
@@ -6520,10 +6520,21 @@
     },
     {
       "playlist": "throwbacks",
-      "count": 54,
+      "count": 55,
       "first": 1789263760,
-      "last": 1789319442,
+      "last": 1789319672,
       "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "HUMBLE.",
+          "album": "DAMN.",
+          "count": 1,
+          "first": 1789319672,
+          "last": 1789319672,
+          "playlists": {
+            "throwbacks": 1
+          }
+        },
         {
           "artist": "The Notorious B.I.G.",
           "title": "Hypnotize - 2014 Remaster",
@@ -6564,17 +6575,6 @@
           "count": 1,
           "first": 1789318585,
           "last": 1789318585,
-          "playlists": {
-            "throwbacks": 1
-          }
-        },
-        {
-          "artist": "Plato III, MERK, Daniel Sahad",
-          "title": "Feel the Hell",
-          "album": "Feel the Hell",
-          "count": 1,
-          "first": 1789318360,
-          "last": 1789318360,
           "playlists": {
             "throwbacks": 1
           }
