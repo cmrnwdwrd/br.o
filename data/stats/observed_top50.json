@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T01:36:07.328751+00:00",
+  "updatedAt": "2026-09-13T01:41:09.673121+00:00",
   "summary": {
-    "totalPlays": 1511,
-    "unknownPlays": 180,
+    "totalPlays": 1513,
+    "unknownPlays": 181,
     "uniqueTracks": 1075,
     "uniqueArtists": 747,
     "uniqueAlbums": 908,
     "uniquePlaylists": 26,
     "firstObserved": 1788901564,
-    "lastObserved": 1789263241
+    "lastObserved": 1789263556
   },
   "topSongs": [
     {
@@ -1810,10 +1810,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 13,
+      "count": 14,
       "first": 1788902047,
-      "last": 1789238132,
+      "last": 1789263556,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 2,
+          "first": 1788902047,
+          "last": 1789263556,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "You Make Me Want to Kill Myself",
@@ -1887,17 +1898,6 @@
           "count": 1,
           "first": 1789097184,
           "last": 1789097184,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 1,
-          "first": 1788902047,
-          "last": 1788902047,
           "playlists": {
             "1default": 1
           }
@@ -3979,10 +3979,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 9,
+      "count": 10,
       "first": 1788902047,
-      "last": 1789233167,
+      "last": 1789263556,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 2,
+          "first": 1788902047,
+          "last": 1789263556,
+          "playlists": {
+            "1default": 2
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Rock n' roll (Bonus Track)",
@@ -4034,17 +4045,6 @@
           "count": 1,
           "first": 1789097184,
           "last": 1789097184,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 1,
-          "first": 1788902047,
-          "last": 1788902047,
           "playlists": {
             "1default": 1
           }
@@ -5946,6 +5946,37 @@
       ]
     },
     {
+      "artist": "The Dare",
+      "album": "What's Wrong With New York?",
+      "count": 3,
+      "first": 1789138251,
+      "last": 1789263490,
+      "songs": [
+        {
+          "artist": "The Dare",
+          "title": "Girls",
+          "album": "What's Wrong With New York?",
+          "count": 2,
+          "first": 1789258975,
+          "last": 1789263490,
+          "playlists": {
+            "texting your situationship": 2
+          }
+        },
+        {
+          "artist": "The Dare",
+          "title": "Perfume",
+          "album": "What's Wrong With New York?",
+          "count": 1,
+          "first": 1789138251,
+          "last": 1789138251,
+          "playlists": {
+            "hyperpop friday morning": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Daffo",
       "album": "Good God (Porches Remix)",
       "count": 3,
@@ -6015,34 +6046,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "wilt",
-      "album": "the riff",
-      "count": 3,
-      "first": 1788911339,
-      "last": 1789258057,
-      "songs": [
-        {
-          "artist": "wilt",
-          "title": "the riff",
-          "album": "the riff",
-          "count": 3,
-          "first": 1788911339,
-          "last": 1789258057,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 625,
+      "count": 626,
       "first": 1788901564,
-      "last": 1789263241,
+      "last": 1789263556,
       "songs": [
         {
           "artist": "Los Narwhals",
