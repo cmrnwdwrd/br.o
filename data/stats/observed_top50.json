@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T23:51:10.190369+00:00",
+  "updatedAt": "2026-09-13T23:56:08.281249+00:00",
   "summary": {
-    "totalPlays": 1777,
+    "totalPlays": 1778,
     "unknownPlays": 210,
     "uniqueTracks": 1224,
     "uniqueArtists": 872,
     "uniqueAlbums": 1044,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789343283
+    "lastObserved": 1789343545
   },
   "topSongs": [
     {
@@ -87,6 +87,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Tell Me That You Like It",
+      "album": "Tell Me That You Like It",
+      "count": 3,
+      "first": 1789050580,
+      "last": 1789343545,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788989503,
       "last": 1789330593,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "The Salesmen",
-      "title": "Commodify",
-      "album": "Commodify",
-      "count": 3,
-      "first": 1788917230,
-      "last": 1789330389,
       "playlists": {
         "1default": 3
       }
@@ -2235,10 +2235,21 @@
     },
     {
       "artist": "The Salesmen",
-      "count": 8,
+      "count": 9,
       "first": 1788917230,
-      "last": 1789339184,
+      "last": 1789343545,
       "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 3,
+          "first": 1789050580,
+          "last": 1789343545,
+          "playlists": {
+            "1default": 3
+          }
+        },
         {
           "artist": "The Salesmen",
           "title": "Little Plans",
@@ -2259,17 +2270,6 @@
           "last": 1789330389,
           "playlists": {
             "1default": 3
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 2,
-          "first": 1789050580,
-          "last": 1789293220,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6161,9 +6161,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 737,
+      "count": 738,
       "first": 1788901564,
-      "last": 1789343283,
+      "last": 1789343545,
       "songs": [
         {
           "artist": "Destructo Disk",
