@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T20:31:14.998245+00:00",
+  "updatedAt": "2026-09-13T20:36:06.410730+00:00",
   "summary": {
-    "totalPlays": 1721,
-    "unknownPlays": 203,
+    "totalPlays": 1722,
+    "unknownPlays": 204,
     "uniqueTracks": 1223,
     "uniqueArtists": 871,
     "uniqueAlbums": 1043,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789331264
+    "lastObserved": 1789331533
   },
   "topSongs": [
     {
@@ -76,6 +76,17 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Sexy Coyote",
+      "title": "Run, Rabbit, Run",
+      "album": "Dead",
+      "count": 3,
+      "first": 1788921570,
+      "last": 1789331533,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1789029835,
       "last": 1789129475,
-      "playlists": {
-        "breakbeat": 3
-      }
-    },
-    {
-      "artist": "Khadija Al Hanafi",
-      "title": "Move Like Me",
-      "album": "Slime Patrol 2",
-      "count": 3,
-      "first": 1788942659,
-      "last": 1789118859,
       "playlists": {
         "breakbeat": 3
       }
@@ -2108,6 +2108,58 @@
       ]
     },
     {
+      "artist": "Sexy Coyote",
+      "count": 8,
+      "first": 1788917492,
+      "last": 1789331533,
+      "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 3,
+          "first": 1788921570,
+          "last": 1789331533,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 2,
+          "first": 1788917492,
+          "last": 1789238994,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "Dancing With Demons",
+          "album": "Dancing With Demons",
+          "count": 2,
+          "first": 1788946229,
+          "last": 1789215738,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "DEAD (Yeah!)",
+          "album": "Dead",
+          "count": 1,
+          "first": 1789224883,
+          "last": 1789224883,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Tennis",
       "count": 8,
       "first": 1788989320,
@@ -2404,58 +2456,6 @@
           "last": 1789263241,
           "playlists": {
             "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sexy Coyote",
-      "count": 7,
-      "first": 1788917492,
-      "last": 1789294464,
-      "songs": [
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 2,
-          "first": 1788921570,
-          "last": 1789294464,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 2,
-          "first": 1788917492,
-          "last": 1789238994,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Dancing With Demons",
-          "album": "Dancing With Demons",
-          "count": 2,
-          "first": 1788946229,
-          "last": 1789215738,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "DEAD (Yeah!)",
-          "album": "Dead",
-          "count": 1,
-          "first": 1789224883,
-          "last": 1789224883,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -4857,6 +4857,48 @@
       ]
     },
     {
+      "artist": "Sexy Coyote",
+      "album": "Dead",
+      "count": 6,
+      "first": 1788917492,
+      "last": 1789331533,
+      "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 3,
+          "first": 1788921570,
+          "last": 1789331533,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 2,
+          "first": 1788917492,
+          "last": 1789238994,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "DEAD (Yeah!)",
+          "album": "Dead",
+          "count": 1,
+          "first": 1789224883,
+          "last": 1789224883,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Be the Cowboy",
       "count": 6,
@@ -5104,48 +5146,6 @@
           "last": 1789221400,
           "playlists": {
             "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sexy Coyote",
-      "album": "Dead",
-      "count": 5,
-      "first": 1788917492,
-      "last": 1789294464,
-      "songs": [
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 2,
-          "first": 1788921570,
-          "last": 1789294464,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 2,
-          "first": 1788917492,
-          "last": 1789238994,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "DEAD (Yeah!)",
-          "album": "Dead",
-          "count": 1,
-          "first": 1789224883,
-          "last": 1789224883,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -6227,9 +6227,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 681,
+      "count": 682,
       "first": 1788901564,
-      "last": 1789331264,
+      "last": 1789331533,
       "songs": [
         {
           "artist": "Modest Mouse",
