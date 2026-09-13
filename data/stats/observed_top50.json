@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T23:21:11.832502+00:00",
+  "updatedAt": "2026-09-13T23:26:11.183586+00:00",
   "summary": {
-    "totalPlays": 1769,
+    "totalPlays": 1771,
     "unknownPlays": 210,
     "uniqueTracks": 1224,
     "uniqueArtists": 872,
     "uniqueAlbums": 1044,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789341568
+    "lastObserved": 1789341928
   },
   "topSongs": [
     {
@@ -87,6 +87,28 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "TRAP METAL",
+      "album": "TRAP METAL",
+      "count": 3,
+      "first": 1789063011,
+      "last": 1789341928,
+      "playlists": {
+        "1default": 3
+      }
+    },
+    {
+      "artist": "botch",
+      "title": "gettingyoutobelieve",
+      "album": "pear",
+      "count": 3,
+      "first": 1788920755,
+      "last": 1789341734,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -539,28 +561,6 @@
       "playlists": {
         "1default": 3
       }
-    },
-    {
-      "artist": "Gorillaz, Fatoumata Diawara",
-      "title": "Désolé (feat. Fatoumata Diawara)",
-      "album": "Song Machine Episode 2",
-      "count": 3,
-      "first": 1788967094,
-      "last": 1789329015,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Need Your Love",
-      "album": "Swimmer",
-      "count": 3,
-      "first": 1789058225,
-      "last": 1789328785,
-      "playlists": {
-        "1default": 3
-      }
     }
   ],
   "topArtists": [
@@ -937,10 +937,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 32,
+      "count": 33,
       "first": 1788910325,
-      "last": 1789340480,
+      "last": 1789341928,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "TRAP METAL",
+          "album": "TRAP METAL",
+          "count": 3,
+          "first": 1789063011,
+          "last": 1789341928,
+          "playlists": {
+            "1default": 3
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "THE KIDS ARE ALL RETARDED",
@@ -1003,17 +1014,6 @@
           "count": 2,
           "first": 1789033665,
           "last": 1789222505,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "TRAP METAL",
-          "album": "TRAP METAL",
-          "count": 2,
-          "first": 1789063011,
-          "last": 1789211084,
           "playlists": {
             "1default": 2
           }
@@ -1993,6 +1993,58 @@
       ]
     },
     {
+      "artist": "botch",
+      "count": 10,
+      "first": 1788920755,
+      "last": 1789341734,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 3,
+          "first": 1788920755,
+          "last": 1789341734,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 3,
+          "first": 1788997306,
+          "last": 1789332320,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 2,
+          "first": 1788963025,
+          "last": 1789325391,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 2,
+          "first": 1788972349,
+          "last": 1789077527,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ethel Cain",
       "count": 10,
       "first": 1789098981,
@@ -2177,58 +2229,6 @@
           "last": 1788963949,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "count": 9,
-      "first": 1788920755,
-      "last": 1789332320,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 3,
-          "first": 1788997306,
-          "last": 1789332320,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 2,
-          "first": 1788963025,
-          "last": 1789325391,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 2,
-          "first": 1788920755,
-          "last": 1789217237,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 2,
-          "first": 1788972349,
-          "last": 1789077527,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -5140,6 +5140,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 5,
+      "first": 1788920755,
+      "last": 1789341734,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 3,
+          "first": 1788920755,
+          "last": 1789341734,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 2,
+          "first": 1788963025,
+          "last": 1789325391,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 5,
@@ -5793,37 +5824,6 @@
       ]
     },
     {
-      "artist": "botch",
-      "album": "pear",
-      "count": 4,
-      "first": 1788920755,
-      "last": 1789325391,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 2,
-          "first": 1788963025,
-          "last": 1789325391,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 2,
-          "first": 1788920755,
-          "last": 1789217237,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
       "artist": "The Newton Brothers",
       "album": "The Haunting of Bly Manor (Music from the Netflix Horror Series)",
       "count": 4,
@@ -6161,9 +6161,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 729,
+      "count": 731,
       "first": 1788901564,
-      "last": 1789341568,
+      "last": 1789341928,
       "songs": [
         {
           "artist": "Destructo Disk",
