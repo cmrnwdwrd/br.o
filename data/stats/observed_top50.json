@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T19:16:08.822007+00:00",
+  "updatedAt": "2026-09-13T19:21:10.130496+00:00",
   "summary": {
-    "totalPlays": 1701,
+    "totalPlays": 1703,
     "unknownPlays": 202,
     "uniqueTracks": 1223,
     "uniqueArtists": 871,
     "uniqueAlbums": 1043,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789326922
+    "lastObserved": 1789327216
   },
   "topSongs": [
     {
@@ -76,6 +76,28 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Cage The Elephant",
+      "title": "Social Cues",
+      "album": "Social Cues",
+      "count": 3,
+      "first": 1788990244,
+      "last": 1789327216,
+      "playlists": {
+        "1default": 3
+      }
+    },
+    {
+      "artist": "Run The Jewels, El-P, Killer Mike, Royal Blood",
+      "title": "the ground below (feat. Royal Blood) - Royal Jewels Mix",
+      "album": "the ground below (feat. Royal Blood) [Royal Jewels Mix]",
+      "count": 3,
+      "first": 1788902781,
+      "last": 1789327045,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 3,
       "first": 1788938450,
       "last": 1789112889,
-      "playlists": {
-        "breakbeat": 3
-      }
-    },
-    {
-      "artist": "Grapetooth, Knox Fortune",
-      "title": "Infinite Source",
-      "album": "Infinite Source",
-      "count": 3,
-      "first": 1788943890,
-      "last": 1789112326,
-      "playlists": {
-        "breakbeat": 3
-      }
-    },
-    {
-      "artist": "hkmori",
-      "title": "lost",
-      "album": "unrequited love",
-      "count": 3,
-      "first": 1788938854,
-      "last": 1789112140,
       "playlists": {
         "breakbeat": 3
       }
@@ -2108,6 +2108,47 @@
       ]
     },
     {
+      "artist": "Cage The Elephant",
+      "count": 8,
+      "first": 1788928254,
+      "last": 1789327216,
+      "songs": [
+        {
+          "artist": "Cage The Elephant",
+          "title": "Social Cues",
+          "album": "Social Cues",
+          "count": 3,
+          "first": 1788990244,
+          "last": 1789327216,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Cage The Elephant",
+          "title": "Cigarette Daydreams",
+          "album": "Melophobia",
+          "count": 3,
+          "first": 1788956946,
+          "last": 1789175184,
+          "playlists": {
+            "d i n n e r": 3
+          }
+        },
+        {
+          "artist": "Cage The Elephant",
+          "title": "Skin and Bones - Mix 2020",
+          "album": "Skin and Bones",
+          "count": 2,
+          "first": 1788928254,
+          "last": 1789131580,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "count": 8,
       "first": 1788920755,
@@ -2374,47 +2415,6 @@
           "last": 1789248601,
           "playlists": {
             "landlockd surfrock": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Cage The Elephant",
-      "count": 7,
-      "first": 1788928254,
-      "last": 1789216531,
-      "songs": [
-        {
-          "artist": "Cage The Elephant",
-          "title": "Cigarette Daydreams",
-          "album": "Melophobia",
-          "count": 3,
-          "first": 1788956946,
-          "last": 1789175184,
-          "playlists": {
-            "d i n n e r": 3
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Social Cues",
-          "album": "Social Cues",
-          "count": 2,
-          "first": 1788990244,
-          "last": 1789216531,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Skin and Bones - Mix 2020",
-          "album": "Skin and Bones",
-          "count": 2,
-          "first": 1788928254,
-          "last": 1789131580,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6227,9 +6227,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 661,
+      "count": 663,
       "first": 1788901564,
-      "last": 1789326922,
+      "last": 1789327216,
       "songs": [
         {
           "artist": "Daffo",
