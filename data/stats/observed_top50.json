@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T22:36:11.964431+00:00",
+  "updatedAt": "2026-09-13T22:41:08.709340+00:00",
   "summary": {
-    "totalPlays": 1756,
+    "totalPlays": 1758,
     "unknownPlays": 208,
     "uniqueTracks": 1224,
     "uniqueArtists": 872,
     "uniqueAlbums": 1044,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789338804
+    "lastObserved": 1789339184
   },
   "topSongs": [
     {
@@ -87,6 +87,28 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 3,
+      "first": 1788970790,
+      "last": 1789339184,
+      "playlists": {
+        "1default": 3
+      }
+    },
+    {
+      "artist": "Jelani Aryeh",
+      "title": "Stella Brown",
+      "album": "I've Got Some Living To Do",
+      "count": 3,
+      "first": 1788918760,
+      "last": 1789338999,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 3,
       "first": 1788911339,
       "last": 1789258057,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Nat & Alex Wolff",
-      "title": "Rollin' Around",
-      "album": "Public Places",
-      "count": 3,
-      "first": 1788971807,
-      "last": 1789254714,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 3,
-      "first": 1789063640,
-      "last": 1789252354,
       "playlists": {
         "1default": 3
       }
@@ -2160,6 +2160,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 8,
+      "first": 1788917230,
+      "last": 1789339184,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 3,
+          "first": 1788970790,
+          "last": 1789339184,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 3,
+          "first": 1788917230,
+          "last": 1789330389,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 2,
+          "first": 1789050580,
+          "last": 1789293220,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "count": 8,
       "first": 1788917492,
@@ -2495,47 +2536,6 @@
           "count": 2,
           "first": 1788947368,
           "last": 1789210893,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 7,
-      "first": 1788917230,
-      "last": 1789330389,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 3,
-          "first": 1788917230,
-          "last": 1789330389,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 2,
-          "first": 1789050580,
-          "last": 1789293220,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 2,
-          "first": 1788970790,
-          "last": 1789263241,
           "playlists": {
             "1default": 2
           }
@@ -6194,9 +6194,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 716,
+      "count": 718,
       "first": 1788901564,
-      "last": 1789338804,
+      "last": 1789339184,
       "songs": [
         {
           "artist": "Destructo Disk",
