@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T19:51:18.199731+00:00",
+  "updatedAt": "2026-09-13T19:56:06.514635+00:00",
   "summary": {
-    "totalPlays": 1711,
+    "totalPlays": 1712,
     "unknownPlays": 202,
     "uniqueTracks": 1223,
     "uniqueArtists": 871,
     "uniqueAlbums": 1043,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789329015
+    "lastObserved": 1789329249
   },
   "topSongs": [
     {
@@ -76,6 +76,17 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Jethro Tull",
+      "title": "A New Day Yesterday",
+      "album": "Stand Up",
+      "count": 3,
+      "first": 1788947080,
+      "last": 1789329249,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788944074,
       "last": 1789116160,
-      "playlists": {
-        "breakbeat": 3
-      }
-    },
-    {
-      "artist": "Sinistarr",
-      "title": "I Pop, I Jit",
-      "album": "Naine Rouge EP",
-      "count": 3,
-      "first": 1788939947,
-      "last": 1789115836,
       "playlists": {
         "breakbeat": 3
       }
@@ -3011,6 +3011,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 5,
+      "first": 1788947080,
+      "last": 1789329249,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 3,
+          "first": 1788947080,
+          "last": 1789329249,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 2,
+          "first": 1788968380,
+          "last": 1789221400,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Los Narwhals",
       "count": 5,
       "first": 1788972740,
@@ -3856,36 +3886,6 @@
           "last": 1789114150,
           "playlists": {
             "breakbeat": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 4,
-      "first": 1788985030,
-      "last": 1789262328,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 2,
-          "first": 1788987870,
-          "last": 1789262328,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 2,
-          "first": 1788985030,
-          "last": 1789146726,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -5069,6 +5069,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 5,
+      "first": 1788947080,
+      "last": 1789329249,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 3,
+          "first": 1788947080,
+          "last": 1789329249,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 2,
+          "first": 1788968380,
+          "last": 1789221400,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "album": "Dead",
       "count": 5,
@@ -5757,37 +5788,6 @@
       ]
     },
     {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 4,
-      "first": 1788947080,
-      "last": 1789221400,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 2,
-          "first": 1788968380,
-          "last": 1789221400,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 2,
-          "first": 1788947080,
-          "last": 1789221152,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
       "artist": "Modest Mouse",
       "album": "Good News For People Who Love Bad News",
       "count": 4,
@@ -6227,9 +6227,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 671,
+      "count": 672,
       "first": 1788901564,
-      "last": 1789329015,
+      "last": 1789329249,
       "songs": [
         {
           "artist": "Daffo",
