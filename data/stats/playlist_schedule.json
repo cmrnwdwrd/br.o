@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T00:26:02.797110+00:00",
+  "updatedAt": "2026-09-13T00:31:14.970771+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 26,
-    "sessionCount": 64,
+    "sessionCount": 65,
     "firstObserved": 1788901564,
-    "lastObserved": 1789258510
+    "lastObserved": 1789259315
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 25,
-      "playCount": 609,
+      "sessionCount": 26,
+      "playCount": 610,
       "firstObserved": 1788901564,
-      "lastObserved": 1789258057,
-      "typicalStartMinute": 1174,
-      "typicalDurationMinutes": 41,
+      "lastObserved": 1789259315,
+      "typicalStartMinute": 1152,
+      "typicalDurationMinutes": 37,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -169,7 +169,7 @@
           0.0,
           0.5,
           1.6,
-          3.2,
+          7.1,
           0.0,
           0.0,
           0.0,
@@ -768,8 +768,8 @@
           0.0,
           0.0,
           3.2,
-          0.0,
-          0.0,
+          1.4,
+          2.4,
           0.0,
           0.0,
           0.0,
@@ -1041,7 +1041,7 @@
           0,
           1,
           0,
-          1,
+          2,
           0,
           0,
           0,
@@ -1106,13 +1106,19 @@
         },
         {
           "weekday": 5,
-          "sessions": 4,
-          "typicalStartMinute": 881,
-          "typicalDurationMinutes": 76,
+          "sessions": 5,
+          "typicalStartMinute": 993,
+          "typicalDurationMinutes": 4,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1789259315,
+          "end": 1789259545,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1789258057,
           "end": 1789258250,
@@ -1226,12 +1232,6 @@
           "end": 1788991800,
           "durationMinutes": 142,
           "playCount": 37
-        },
-        {
-          "start": 1788962598,
-          "end": 1788976050,
-          "durationMinutes": 224,
-          "playCount": 58
         }
       ]
     },
@@ -10015,7 +10015,7 @@
       "recentSessions": [
         {
           "start": 1789258510,
-          "end": 1789259317,
+          "end": 1789259315,
           "durationMinutes": 13,
           "playCount": 4
         },
