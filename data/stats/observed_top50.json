@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T00:06:03.474385+00:00",
+  "updatedAt": "2026-09-13T00:11:10.481311+00:00",
   "summary": {
-    "totalPlays": 1484,
+    "totalPlays": 1486,
     "unknownPlays": 177,
     "uniqueTracks": 1061,
     "uniqueArtists": 743,
     "uniqueAlbums": 899,
     "uniquePlaylists": 26,
     "firstObserved": 1788901564,
-    "lastObserved": 1789257850
+    "lastObserved": 1789258251
   },
   "topSongs": [
     {
@@ -65,6 +65,17 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "wilt",
+      "title": "the riff",
+      "album": "the riff",
+      "count": 3,
+      "first": 1788911339,
+      "last": 1789258057,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -549,17 +560,6 @@
       "last": 1789089055,
       "playlists": {
         "1default": 3
-      }
-    },
-    {
-      "artist": "My Chemical Romance",
-      "title": "Thank You for the Venom",
-      "album": "Three Cheers for Sweet Revenge",
-      "count": 3,
-      "first": 1788995310,
-      "last": 1789078459,
-      "playlists": {
-        "MCR wednesday wind down": 3
       }
     }
   ],
@@ -5895,6 +5895,26 @@
       ]
     },
     {
+      "artist": "wilt",
+      "album": "the riff",
+      "count": 3,
+      "first": 1788911339,
+      "last": 1789258057,
+      "songs": [
+        {
+          "artist": "wilt",
+          "title": "the riff",
+          "album": "the riff",
+          "count": 3,
+          "first": 1788911339,
+          "last": 1789258057,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Nat & Alex Wolff",
       "album": "Public Places",
       "count": 3,
@@ -6037,45 +6057,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Meeting House",
-      "album": "Couch Surfer",
-      "count": 3,
-      "first": 1789226222,
-      "last": 1789250068,
-      "songs": [
-        {
-          "artist": "Meeting House",
-          "title": "Black Clouds",
-          "album": "Couch Surfer",
-          "count": 2,
-          "first": 1789226222,
-          "last": 1789248785,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Meeting House",
-          "title": "Couch Surfer",
-          "album": "Couch Surfer",
-          "count": 1,
-          "first": 1789250068,
-          "last": 1789250068,
-          "playlists": {
-            "landlockd surfrock": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 611,
+      "count": 612,
       "first": 1788901564,
-      "last": 1789254714,
+      "last": 1789258057,
       "songs": [
         {
           "artist": "Los Narwhals",
@@ -6122,12 +6111,12 @@
           }
         },
         {
-          "artist": "Nat & Alex Wolff",
-          "title": "Rollin' Around",
-          "album": "Public Places",
+          "artist": "wilt",
+          "title": "the riff",
+          "album": "the riff",
           "count": 3,
-          "first": 1788971807,
-          "last": 1789254714,
+          "first": 1788911339,
+          "last": 1789258057,
           "playlists": {
             "1default": 3
           }
@@ -6387,6 +6376,69 @@
       ]
     },
     {
+      "playlist": "d i n n e r",
+      "count": 44,
+      "first": 1788956946,
+      "last": 1789258251,
+      "songs": [
+        {
+          "artist": "Car Seat Headrest",
+          "title": "Bodys",
+          "album": "Twin Fantasy",
+          "count": 3,
+          "first": 1788994486,
+          "last": 1789176991,
+          "playlists": {
+            "d i n n e r": 3
+          }
+        },
+        {
+          "artist": "Cage The Elephant",
+          "title": "Cigarette Daydreams",
+          "album": "Melophobia",
+          "count": 3,
+          "first": 1788956946,
+          "last": 1789175184,
+          "playlists": {
+            "d i n n e r": 3
+          }
+        },
+        {
+          "artist": "Seeing Double",
+          "title": "Leah",
+          "album": "Leah//Don't Wait",
+          "count": 2,
+          "first": 1789177398,
+          "last": 1789258251,
+          "playlists": {
+            "d i n n e r": 2
+          }
+        },
+        {
+          "artist": "Caroline Polachek",
+          "title": "So Hot You're Hurting My Feelings",
+          "album": "Pang",
+          "count": 2,
+          "first": 1789178785,
+          "last": 1789255275,
+          "playlists": {
+            "d i n n e r": 2
+          }
+        },
+        {
+          "artist": "Billy Joel",
+          "title": "You May Be Right",
+          "album": "Glass Houses",
+          "count": 2,
+          "first": 1789172845,
+          "last": 1789181057,
+          "playlists": {
+            "d i n n e r": 2
+          }
+        }
+      ]
+    },
+    {
       "playlist": "hyperpop friday morning",
       "count": 44,
       "first": 1789131775,
@@ -6445,69 +6497,6 @@
           "last": 1789138062,
           "playlists": {
             "hyperpop friday morning": 1
-          }
-        }
-      ]
-    },
-    {
-      "playlist": "d i n n e r",
-      "count": 43,
-      "first": 1788956946,
-      "last": 1789255275,
-      "songs": [
-        {
-          "artist": "Car Seat Headrest",
-          "title": "Bodys",
-          "album": "Twin Fantasy",
-          "count": 3,
-          "first": 1788994486,
-          "last": 1789176991,
-          "playlists": {
-            "d i n n e r": 3
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Cigarette Daydreams",
-          "album": "Melophobia",
-          "count": 3,
-          "first": 1788956946,
-          "last": 1789175184,
-          "playlists": {
-            "d i n n e r": 3
-          }
-        },
-        {
-          "artist": "Caroline Polachek",
-          "title": "So Hot You're Hurting My Feelings",
-          "album": "Pang",
-          "count": 2,
-          "first": 1789178785,
-          "last": 1789255275,
-          "playlists": {
-            "d i n n e r": 2
-          }
-        },
-        {
-          "artist": "Billy Joel",
-          "title": "You May Be Right",
-          "album": "Glass Houses",
-          "count": 2,
-          "first": 1789172845,
-          "last": 1789181057,
-          "playlists": {
-            "d i n n e r": 2
-          }
-        },
-        {
-          "artist": "The Beach Boys",
-          "title": "Wouldn't It Be Nice",
-          "album": "Greatest Hits",
-          "count": 2,
-          "first": 1789172695,
-          "last": 1789179583,
-          "playlists": {
-            "d i n n e r": 2
           }
         }
       ]
