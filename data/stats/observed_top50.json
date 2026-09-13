@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T20:01:21.183631+00:00",
+  "updatedAt": "2026-09-13T20:06:06.716866+00:00",
   "summary": {
-    "totalPlays": 1713,
+    "totalPlays": 1715,
     "unknownPlays": 203,
     "uniqueTracks": 1223,
     "uniqueArtists": 871,
     "uniqueAlbums": 1043,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789329532
+    "lastObserved": 1789329910
   },
   "topSongs": [
     {
@@ -76,6 +76,17 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "DISINTEGRATE",
+      "album": "SWAMP",
+      "count": 3,
+      "first": 1788983290,
+      "last": 1789329750,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -550,17 +561,6 @@
       "playlists": {
         "breakbeat": 3
       }
-    },
-    {
-      "artist": "AZALI",
-      "title": "EVE'S ALTER EGO",
-      "album": "Voices From the True World",
-      "count": 3,
-      "first": 1788941969,
-      "last": 1789116237,
-      "playlists": {
-        "breakbeat": 3
-      }
     }
   ],
   "topArtists": [
@@ -937,10 +937,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 29,
+      "count": 30,
       "first": 1788910325,
-      "last": 1789294677,
+      "last": 1789329750,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 3,
+          "first": 1788983290,
+          "last": 1789329750,
+          "playlists": {
+            "1default": 3
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "wrap music",
@@ -959,17 +970,6 @@
           "count": 2,
           "first": 1788913884,
           "last": 1789294677,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 2,
-          "first": 1788983290,
-          "last": 1789237521,
           "playlists": {
             "1default": 2
           }
@@ -4226,6 +4226,59 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "SWAMP",
+      "count": 9,
+      "first": 1788926373,
+      "last": 1789329750,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 3,
+          "first": 1788983290,
+          "last": 1789329750,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 2,
+          "first": 1788926373,
+          "last": 1789168329,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 2,
+          "first": 1789058454,
+          "last": 1789142929,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 2,
+          "first": 1789057548,
+          "last": 1789087937,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Florence + The Machine",
       "album": "Dance Fever",
       "count": 9,
@@ -4457,59 +4510,6 @@
           "last": 1788963949,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "SWAMP",
-      "count": 8,
-      "first": 1788926373,
-      "last": 1789237521,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 2,
-          "first": 1788983290,
-          "last": 1789237521,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 2,
-          "first": 1788926373,
-          "last": 1789168329,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 2,
-          "first": 1789058454,
-          "last": 1789142929,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 2,
-          "first": 1789057548,
-          "last": 1789087937,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6238,9 +6238,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 673,
+      "count": 675,
       "first": 1788901564,
-      "last": 1789329532,
+      "last": 1789329910,
       "songs": [
         {
           "artist": "Daffo",
