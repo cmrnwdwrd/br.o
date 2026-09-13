@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T12:26:09.053490+00:00",
+  "updatedAt": "2026-09-13T12:31:11.472955+00:00",
   "summary": {
-    "totalPlays": 1598,
+    "totalPlays": 1599,
     "unknownPlays": 190,
-    "uniqueTracks": 1144,
-    "uniqueArtists": 809,
-    "uniqueAlbums": 974,
+    "uniqueTracks": 1145,
+    "uniqueArtists": 810,
+    "uniqueAlbums": 975,
     "uniquePlaylists": 29,
     "firstObserved": 1788901564,
-    "lastObserved": 1789301985
+    "lastObserved": 1789302565
   },
   "topSongs": [
     {
@@ -6629,10 +6629,21 @@
     },
     {
       "playlist": "classical",
-      "count": 34,
+      "count": 35,
       "first": 1789295519,
-      "last": 1789301985,
+      "last": 1789302565,
       "songs": [
+        {
+          "artist": "Frédéric Chopin, Alexandre Tharaud",
+          "title": "No. 4, Largo",
+          "album": "Chopin: Préludes",
+          "count": 1,
+          "first": 1789302565,
+          "last": 1789302565,
+          "playlists": {
+            "classical": 1
+          }
+        },
         {
           "artist": "Terry Riley, Kronos Quartet",
           "title": "G Song",
@@ -6673,17 +6684,6 @@
           "count": 1,
           "first": 1789301560,
           "last": 1789301560,
-          "playlists": {
-            "classical": 1
-          }
-        },
-        {
-          "artist": "Lama House",
-          "title": "By the Border",
-          "album": "By the Border",
-          "count": 1,
-          "first": 1789301398,
-          "last": 1789301398,
           "playlists": {
             "classical": 1
           }
