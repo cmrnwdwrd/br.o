@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-13T21:51:12.470213+00:00",
+  "updatedAt": "2026-09-13T21:56:08.013765+00:00",
   "summary": {
-    "totalPlays": 1743,
+    "totalPlays": 1744,
     "unknownPlays": 206,
     "uniqueTracks": 1224,
     "uniqueArtists": 872,
     "uniqueAlbums": 1044,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789336175
+    "lastObserved": 1789336407
   },
   "topSongs": [
     {
@@ -76,6 +76,17 @@
       "last": 1789081933,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Against Me!",
+      "title": "I Was a Teenage Anarchist",
+      "album": "White Crosses",
+      "count": 3,
+      "first": 1789059805,
+      "last": 1789336407,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1789099669,
       "last": 1789199065,
-      "playlists": {
-        "for the girls driving 85": 3
-      }
-    },
-    {
-      "artist": "Florence + The Machine",
-      "title": "Dream Girl Evil",
-      "album": "Dance Fever",
-      "count": 3,
-      "first": 1789101142,
-      "last": 1789198840,
       "playlists": {
         "for the girls driving 85": 3
       }
@@ -3093,6 +3093,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 5,
+      "first": 1788947810,
+      "last": 1789336407,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 3,
+          "first": 1789059805,
+          "last": 1789336407,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 2,
+          "first": 1788947810,
+          "last": 1789236234,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "count": 5,
       "first": 1788968149,
@@ -3845,36 +3875,6 @@
           "last": 1789129275,
           "playlists": {
             "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Better Oblivion Community Center, Conor Oberst, Phoebe Bridgers",
-      "count": 4,
-      "first": 1789055208,
-      "last": 1789329532,
-      "songs": [
-        {
-          "artist": "Better Oblivion Community Center, Conor Oberst, Phoebe Bridgers",
-          "title": "Dylan Thomas",
-          "album": "Better Oblivion Community Center",
-          "count": 3,
-          "first": 1789055208,
-          "last": 1789329532,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Better Oblivion Community Center, Conor Oberst, Phoebe Bridgers",
-          "title": "Sleepwalkin'",
-          "album": "Better Oblivion Community Center",
-          "count": 1,
-          "first": 1789176799,
-          "last": 1789176799,
-          "playlists": {
-            "d i n n e r": 1
           }
         }
       ]
@@ -6227,9 +6227,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 703,
+      "count": 704,
       "first": 1788901564,
-      "last": 1789336175,
+      "last": 1789336407,
       "songs": [
         {
           "artist": "Modest Mouse",
