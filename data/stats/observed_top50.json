@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T18:01:27.035844+00:00",
+  "updatedAt": "2026-09-14T18:06:10.146054+00:00",
   "summary": {
-    "totalPlays": 2082,
+    "totalPlays": 2084,
     "unknownPlays": 247,
     "uniqueTracks": 1276,
     "uniqueArtists": 906,
     "uniqueAlbums": 1089,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789408773
+    "lastObserved": 1789409149
   },
   "topSongs": [
     {
@@ -197,6 +197,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "THE FUTURE IS DARK",
+      "album": "THE FUTURE IS DARK",
+      "count": 3,
+      "first": 1788913884,
+      "last": 1789408999,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -550,26 +561,26 @@
       "playlists": {
         "1default": 3
       }
-    },
-    {
-      "artist": "Muse",
-      "title": "Madness",
-      "album": "The 2nd Law",
-      "count": 3,
-      "first": 1788920439,
-      "last": 1789397597,
-      "playlists": {
-        "1default": 3
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "Lil Darkie",
-      "count": 40,
+      "count": 41,
       "first": 1788910325,
-      "last": 1789397400,
+      "last": 1789408999,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 3,
+          "first": 1788913884,
+          "last": 1789408999,
+          "playlists": {
+            "1default": 3
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "show me a sign",
@@ -698,17 +709,6 @@
           "count": 2,
           "first": 1789069780,
           "last": 1789340480,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 2,
-          "first": 1788913884,
-          "last": 1789294677,
           "playlists": {
             "1default": 2
           }
@@ -1994,9 +1994,9 @@
     },
     {
       "artist": "The Czars",
-      "count": 13,
+      "count": 14,
       "first": 1788963949,
-      "last": 1789401565,
+      "last": 1789409149,
       "songs": [
         {
           "artist": "The Czars",
@@ -2018,6 +2018,17 @@
           "last": 1789341140,
           "playlists": {
             "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1789218669,
+          "last": 1789409149,
+          "playlists": {
+            "1default": 2
           }
         },
         {
@@ -2051,17 +2062,6 @@
           "last": 1789352270,
           "playlists": {
             "1default": 2
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 1,
-          "first": 1789218669,
-          "last": 1789218669,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -3902,6 +3902,81 @@
       ]
     },
     {
+      "artist": "The Czars",
+      "album": "Best Of",
+      "count": 14,
+      "first": 1788963949,
+      "last": 1789409149,
+      "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789063847,
+          "last": 1789342864,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789015116,
+          "last": 1789341140,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1789218669,
+          "last": 1789409149,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1788963949,
+          "last": 1789401565,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1789324379,
+          "last": 1789397152,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1789096240,
+          "last": 1789352270,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
       "count": 13,
@@ -3970,81 +4045,6 @@
           "count": 1,
           "first": 1789097184,
           "last": 1789097184,
-          "playlists": {
-            "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Czars",
-      "album": "Best Of",
-      "count": 13,
-      "first": 1788963949,
-      "last": 1789401565,
-      "songs": [
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789063847,
-          "last": 1789342864,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789015116,
-          "last": 1789341140,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 2,
-          "first": 1788963949,
-          "last": 1789401565,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 2,
-          "first": 1789324379,
-          "last": 1789397152,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 2,
-          "first": 1789096240,
-          "last": 1789352270,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 1,
-          "first": 1789218669,
-          "last": 1789218669,
           "playlists": {
             "1default": 1
           }
@@ -4928,6 +4928,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THE FUTURE IS DARK",
+      "count": 6,
+      "first": 1788913884,
+      "last": 1789408999,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 3,
+          "first": 1788913884,
+          "last": 1789408999,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 3,
+          "first": 1788975770,
+          "last": 1789379935,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "album": "GRITTED TEETH *",
       "count": 6,
@@ -5372,37 +5403,6 @@
           "count": 2,
           "first": 1789217995,
           "last": 1789397400,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THE FUTURE IS DARK",
-      "count": 5,
-      "first": 1788913884,
-      "last": 1789379935,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 3,
-          "first": 1788975770,
-          "last": 1789379935,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 2,
-          "first": 1788913884,
-          "last": 1789294677,
           "playlists": {
             "1default": 2
           }
@@ -6095,9 +6095,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 933,
+      "count": 935,
       "first": 1788901564,
-      "last": 1789408773,
+      "last": 1789409149,
       "songs": [
         {
           "artist": "Los Narwhals",
