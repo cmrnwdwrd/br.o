@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T19:11:17.911153+00:00",
+  "updatedAt": "2026-09-14T19:16:06.792150+00:00",
   "summary": {
-    "totalPlays": 2099,
-    "unknownPlays": 249,
+    "totalPlays": 2100,
+    "unknownPlays": 250,
     "uniqueTracks": 1276,
     "uniqueArtists": 906,
     "uniqueAlbums": 1089,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789413004
+    "lastObserved": 1789413262
   },
   "topSongs": [
     {
@@ -197,6 +197,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 3,
+      "first": 1789033065,
+      "last": 1789413262,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1789054884,
       "last": 1789402246,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Your Neighbors",
-      "title": "Chicken",
-      "album": "Chicken",
-      "count": 3,
-      "first": 1789049221,
-      "last": 1789402039,
       "playlists": {
         "1default": 3
       }
@@ -2409,6 +2409,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 8,
+      "first": 1788973998,
+      "last": 1789413262,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 3,
+          "first": 1789033065,
+          "last": 1789413262,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 3,
+          "first": 1788973998,
+          "last": 1789394545,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 2,
+          "first": 1789226629,
+          "last": 1789343283,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Of Monsters and Men",
       "count": 8,
       "first": 1788963370,
@@ -2809,47 +2850,6 @@
           "last": 1789053978,
           "playlists": {
             "rage commute": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 7,
-      "first": 1788973998,
-      "last": 1789394545,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 3,
-          "first": 1788973998,
-          "last": 1789394545,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 2,
-          "first": 1789226629,
-          "last": 1789343283,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 2,
-          "first": 1789033065,
-          "last": 1789140613,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6106,9 +6106,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 950,
+      "count": 951,
       "first": 1788901564,
-      "last": 1789413004,
+      "last": 1789413262,
       "songs": [
         {
           "artist": "Los Narwhals",
