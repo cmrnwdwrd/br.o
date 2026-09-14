@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T09:21:10.280481+00:00",
+  "updatedAt": "2026-09-14T09:26:09.748785+00:00",
   "summary": {
-    "totalPlays": 1933,
+    "totalPlays": 1935,
     "unknownPlays": 229,
     "uniqueTracks": 1233,
     "uniqueArtists": 878,
     "uniqueAlbums": 1052,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789377484
+    "lastObserved": 1789377918
   },
   "topSongs": [
     {
@@ -142,6 +142,28 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Barrie",
+      "title": "Hutch",
+      "album": "Happy To Be Here",
+      "count": 3,
+      "first": 1788912861,
+      "last": 1789377918,
+      "playlists": {
+        "1default": 3
+      }
+    },
+    {
+      "artist": "Tems, Brent Faiyaz",
+      "title": "Found (feat. Brent Faiyaz)",
+      "album": "Found (feat. Brent Faiyaz)",
+      "count": 3,
+      "first": 1788969945,
+      "last": 1789377708,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 3,
       "first": 1788970549,
       "last": 1789357155,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Breakup Shoes",
-      "title": "Nicotine Dream",
-      "album": "Nicotine Dream EP",
-      "count": 3,
-      "first": 1788919486,
-      "last": 1789356979,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Leon Bridges",
-      "title": "Motorbike",
-      "album": "Motorbike",
-      "count": 3,
-      "first": 1788975084,
-      "last": 1789356790,
       "playlists": {
         "1default": 3
       }
@@ -3011,6 +3011,36 @@
       ]
     },
     {
+      "artist": "Barrie",
+      "count": 6,
+      "first": 1788912861,
+      "last": 1789377918,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 3,
+          "first": 1788912861,
+          "last": 1789377918,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 3,
+          "first": 1788966960,
+          "last": 1789337895,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 6,
       "first": 1789054681,
@@ -3482,36 +3512,6 @@
           "count": 2,
           "first": 1788968644,
           "last": 1789142125,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 5,
-      "first": 1788912861,
-      "last": 1789337895,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 3,
-          "first": 1788966960,
-          "last": 1789337895,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 2,
-          "first": 1788912861,
-          "last": 1789261472,
           "playlists": {
             "1default": 2
           }
@@ -6051,9 +6051,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 854,
+      "count": 856,
       "first": 1788901564,
-      "last": 1789377484,
+      "last": 1789377918,
       "songs": [
         {
           "artist": "Destructo Disk",
