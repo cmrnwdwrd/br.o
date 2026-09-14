@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T14:16:10.883212+00:00",
+  "updatedAt": "2026-09-14T14:21:13.606187+00:00",
   "summary": {
-    "totalPlays": 2020,
+    "totalPlays": 2022,
     "unknownPlays": 239,
     "uniqueTracks": 1274,
     "uniqueArtists": 905,
     "uniqueAlbums": 1088,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789395115
+    "lastObserved": 1789395610
   },
   "topSongs": [
     {
@@ -153,6 +153,28 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "NO CHANCE!",
+      "title": "I Wanna Be Your Man",
+      "album": "I Wanna Be Your Man",
+      "count": 3,
+      "first": 1788986942,
+      "last": 1789395610,
+      "playlists": {
+        "1default": 3
+      }
+    },
+    {
+      "artist": "Fatboy Slim",
+      "title": "Weapon of Choice",
+      "album": "The Greatest Hits: Why Try Harder",
+      "count": 3,
+      "first": 1788984231,
+      "last": 1789395390,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 3,
       "first": 1788970154,
       "last": 1789370920,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Collective Soul",
-      "title": "December",
-      "album": "Collective Soul",
-      "count": 3,
-      "first": 1788988096,
-      "last": 1789370192,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Men At Work",
-      "title": "Who Can It Be Now?",
-      "album": "Business As Usual",
-      "count": 3,
-      "first": 1789061920,
-      "last": 1789362529,
       "playlists": {
         "1default": 3
       }
@@ -3410,6 +3410,36 @@
       ]
     },
     {
+      "artist": "Fatboy Slim",
+      "count": 5,
+      "first": 1788984231,
+      "last": 1789395390,
+      "songs": [
+        {
+          "artist": "Fatboy Slim",
+          "title": "Weapon of Choice",
+          "album": "The Greatest Hits: Why Try Harder",
+          "count": 3,
+          "first": 1788984231,
+          "last": 1789395390,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Fatboy Slim",
+          "title": "Wonderful Night - Radio Edit;; Explicit",
+          "album": "Wonderful Night",
+          "count": 2,
+          "first": 1789031956,
+          "last": 1789114150,
+          "playlists": {
+            "breakbeat": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 5,
       "first": 1789061029,
@@ -3735,36 +3765,6 @@
           "last": 1789221400,
           "playlists": {
             "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Los Narwhals",
-      "count": 5,
-      "first": 1788972740,
-      "last": 1789253972,
-      "songs": [
-        {
-          "artist": "Los Narwhals",
-          "title": "Surfer Babe",
-          "album": "Lagrimas de Agave",
-          "count": 4,
-          "first": 1788972740,
-          "last": 1789253972,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Los Narwhals",
-          "title": "Quiero Saber",
-          "album": "Lagrimas de Agave",
-          "count": 1,
-          "first": 1789251467,
-          "last": 1789251467,
-          "playlists": {
-            "landlockd surfrock": 1
           }
         }
       ]
@@ -6029,9 +6029,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 871,
+      "count": 873,
       "first": 1788901564,
-      "last": 1789395115,
+      "last": 1789395610,
       "songs": [
         {
           "artist": "Destructo Disk",
