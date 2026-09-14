@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T19:46:13.494906+00:00",
+  "updatedAt": "2026-09-14T19:51:14.446246+00:00",
   "summary": {
-    "totalPlays": 2108,
-    "unknownPlays": 250,
+    "totalPlays": 2110,
+    "unknownPlays": 251,
     "uniqueTracks": 1277,
     "uniqueArtists": 907,
     "uniqueAlbums": 1090,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789414921
+    "lastObserved": 1789415399
   },
   "topSongs": [
     {
@@ -197,6 +197,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "TOPS",
+      "title": "Petals",
+      "album": "Sugar at the Gate",
+      "count": 3,
+      "first": 1788988660,
+      "last": 1789415195,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788946771,
       "last": 1789404980,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "John Grant",
-      "title": "It Doesn't Matter to Him",
-      "album": "Pale Green Ghosts",
-      "count": 3,
-      "first": 1788964915,
-      "last": 1789404595,
       "playlists": {
         "1default": 3
       }
@@ -3675,6 +3675,36 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 5,
+      "first": 1788914032,
+      "last": 1789415399,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 3,
+          "first": 1788914032,
+          "last": 1789408773,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 2,
+          "first": 1789222724,
+          "last": 1789415399,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 5,
       "first": 1788921291,
@@ -3801,36 +3831,6 @@
           "last": 1789178971,
           "playlists": {
             "d i n n e r": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 5,
-      "first": 1788989714,
-      "last": 1789405269,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 3,
-          "first": 1788989714,
-          "last": 1789332985,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 2,
-          "first": 1789169386,
-          "last": 1789405269,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6117,9 +6117,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 959,
+      "count": 961,
       "first": 1788901564,
-      "last": 1789414921,
+      "last": 1789415399,
       "songs": [
         {
           "artist": "Los Narwhals",
