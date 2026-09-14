@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T04:56:08.217300+00:00",
+  "updatedAt": "2026-09-14T05:01:19.380619+00:00",
   "summary": {
-    "totalPlays": 1856,
+    "totalPlays": 1857,
     "unknownPlays": 219,
     "uniqueTracks": 1224,
     "uniqueArtists": 872,
     "uniqueAlbums": 1044,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789361597
+    "lastObserved": 1789361979
   },
   "topSongs": [
     {
@@ -131,6 +131,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Radiohead",
+      "title": "Follow Me Around",
+      "album": "Follow Me Around",
+      "count": 3,
+      "first": 1788973066,
+      "last": 1789361979,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788963025,
       "last": 1789347939,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "title": "Wars",
-      "album": "FEVER DREAM",
-      "count": 3,
-      "first": 1788991170,
-      "last": 1789347705,
       "playlists": {
         "1default": 3
       }
@@ -2368,6 +2368,47 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 8,
+      "first": 1788973066,
+      "last": 1789361979,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 3,
+          "first": 1788973066,
+          "last": 1789361979,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 3,
+          "first": 1788984450,
+          "last": 1789335939,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 2,
+          "first": 1789033884,
+          "last": 1789324798,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 8,
       "first": 1788946510,
@@ -2681,47 +2722,6 @@
           "count": 2,
           "first": 1788919863,
           "last": 1789075183,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 7,
-      "first": 1788973066,
-      "last": 1789335939,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 3,
-          "first": 1788984450,
-          "last": 1789335939,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 2,
-          "first": 1789033884,
-          "last": 1789324798,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 2,
-          "first": 1788973066,
-          "last": 1789071081,
           "playlists": {
             "1default": 2
           }
@@ -6018,9 +6018,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 815,
+      "count": 816,
       "first": 1788901564,
-      "last": 1789361597,
+      "last": 1789361979,
       "songs": [
         {
           "artist": "Destructo Disk",
