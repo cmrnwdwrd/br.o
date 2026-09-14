@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T15:31:16.504204+00:00",
+  "updatedAt": "2026-09-14T15:36:12.486799+00:00",
   "summary": {
-    "totalPlays": 2042,
+    "totalPlays": 2043,
     "unknownPlays": 242,
     "uniqueTracks": 1274,
     "uniqueArtists": 905,
     "uniqueAlbums": 1088,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789399825
+    "lastObserved": 1789399998
   },
   "topSongs": [
     {
@@ -43,6 +43,17 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Viagra Boys",
+      "title": "Worms",
+      "album": "Street Worms",
+      "count": 4,
+      "first": 1788991593,
+      "last": 1789399998,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1789058454,
       "last": 1789375336,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Midlake",
-      "title": "Acts of Man",
-      "album": "The Courage of Others",
-      "count": 3,
-      "first": 1789056160,
-      "last": 1789374947,
       "playlists": {
         "1default": 3
       }
@@ -5908,6 +5908,26 @@
       ]
     },
     {
+      "artist": "Viagra Boys",
+      "album": "Street Worms",
+      "count": 4,
+      "first": 1788991593,
+      "last": 1789399998,
+      "songs": [
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 4,
+          "first": 1788991593,
+          "last": 1789399998,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "wilt",
       "album": "the riff",
       "count": 4,
@@ -6059,34 +6079,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "The Cardigans",
-      "album": "First Band On The Moon (Remastered)",
-      "count": 4,
-      "first": 1788985233,
-      "last": 1789347475,
-      "songs": [
-        {
-          "artist": "The Cardigans",
-          "title": "Step On Me",
-          "album": "First Band On The Moon (Remastered)",
-          "count": 4,
-          "first": 1788985233,
-          "last": 1789347475,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 893,
+      "count": 894,
       "first": 1788901564,
-      "last": 1789399825,
+      "last": 1789399998,
       "songs": [
         {
           "artist": "Los Narwhals",
@@ -6122,23 +6122,23 @@
           }
         },
         {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 4,
+          "first": 1788991593,
+          "last": 1789399998,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
           "artist": "wilt",
           "title": "the riff",
           "album": "the riff",
           "count": 4,
           "first": 1788911339,
           "last": 1789378524,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Nat & Alex Wolff",
-          "title": "Rollin' Around",
-          "album": "Public Places",
-          "count": 4,
-          "first": 1788971807,
-          "last": 1789374268,
           "playlists": {
             "1default": 4
           }
