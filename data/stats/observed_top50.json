@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T14:41:15.944223+00:00",
+  "updatedAt": "2026-09-14T14:46:16.285925+00:00",
   "summary": {
-    "totalPlays": 2028,
+    "totalPlays": 2030,
     "unknownPlays": 240,
     "uniqueTracks": 1274,
     "uniqueArtists": 905,
     "uniqueAlbums": 1088,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789396765
+    "lastObserved": 1789397152
   },
   "topSongs": [
     {
@@ -153,6 +153,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "Lava Lamp Pisco",
+      "album": "Lava Lamp Pisco",
+      "count": 3,
+      "first": 1788915065,
+      "last": 1789396911,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788927400,
       "last": 1789372381,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Anjimile",
-      "title": "Baby No More",
-      "album": "Giver Taker",
-      "count": 3,
-      "first": 1788963785,
-      "last": 1789371524,
       "playlists": {
         "1default": 3
       }
@@ -1994,9 +1994,9 @@
     },
     {
       "artist": "The Czars",
-      "count": 11,
+      "count": 12,
       "first": 1788963949,
-      "last": 1789352270,
+      "last": 1789397152,
       "songs": [
         {
           "artist": "The Czars",
@@ -2022,6 +2022,17 @@
         },
         {
           "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1789324379,
+          "last": 1789397152,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Czars",
           "title": "Killjoy",
           "album": "Best Of",
           "count": 2,
@@ -2029,17 +2040,6 @@
           "last": 1789352270,
           "playlists": {
             "1default": 2
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 1,
-          "first": 1789324379,
-          "last": 1789324379,
-          "playlists": {
-            "1default": 1
           }
         },
         {
@@ -3063,6 +3063,58 @@
       ]
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "count": 6,
+      "first": 1788915065,
+      "last": 1789396911,
+      "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Lava Lamp Pisco",
+          "album": "Lava Lamp Pisco",
+          "count": 3,
+          "first": 1788915065,
+          "last": 1789396911,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Bill's Mandolin",
+          "album": "And Now for the Whatchamacallit",
+          "count": 1,
+          "first": 1789234972,
+          "last": 1789234972,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Mr. Prism",
+          "album": "Mr. Prism",
+          "count": 1,
+          "first": 1789168906,
+          "last": 1789168906,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Tally-Ho",
+          "album": "Tally-Ho",
+          "count": 1,
+          "first": 1789085431,
+          "last": 1789085431,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 6,
       "first": 1788914421,
@@ -3738,36 +3790,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "count": 5,
-      "first": 1788947080,
-      "last": 1789329249,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 3,
-          "first": 1788947080,
-          "last": 1789329249,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 2,
-          "first": 1788968380,
-          "last": 1789221400,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
@@ -3840,6 +3862,81 @@
           "count": 1,
           "first": 1789109880,
           "last": 1789109880,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "The Czars",
+      "album": "Best Of",
+      "count": 12,
+      "first": 1788963949,
+      "last": 1789397152,
+      "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789063847,
+          "last": 1789342864,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789015116,
+          "last": 1789341140,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1789324379,
+          "last": 1789397152,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1789096240,
+          "last": 1789352270,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 1,
+          "first": 1789218669,
+          "last": 1789218669,
+          "playlists": {
+            "1default": 1
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 1,
+          "first": 1788963949,
+          "last": 1788963949,
           "playlists": {
             "1default": 1
           }
@@ -4056,81 +4153,6 @@
           "last": 1789001430,
           "playlists": {
             "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Czars",
-      "album": "Best Of",
-      "count": 11,
-      "first": 1788963949,
-      "last": 1789352270,
-      "songs": [
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789063847,
-          "last": 1789342864,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789015116,
-          "last": 1789341140,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 2,
-          "first": 1789096240,
-          "last": 1789352270,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 1,
-          "first": 1789324379,
-          "last": 1789324379,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 1,
-          "first": 1789218669,
-          "last": 1789218669,
-          "playlists": {
-            "1default": 1
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 1,
-          "first": 1788963949,
-          "last": 1788963949,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -6029,9 +6051,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 879,
+      "count": 881,
       "first": 1788901564,
-      "last": 1789396765,
+      "last": 1789397152,
       "songs": [
         {
           "artist": "Destructo Disk",
