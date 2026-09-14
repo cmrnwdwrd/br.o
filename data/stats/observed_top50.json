@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T01:01:24.329336+00:00",
+  "updatedAt": "2026-09-14T01:06:06.987098+00:00",
   "summary": {
-    "totalPlays": 1795,
-    "unknownPlays": 212,
+    "totalPlays": 1797,
+    "unknownPlays": 213,
     "uniqueTracks": 1224,
     "uniqueArtists": 872,
     "uniqueAlbums": 1044,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789347475
+    "lastObserved": 1789347939
   },
   "topSongs": [
     {
@@ -120,6 +120,28 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "botch",
+      "title": "takeadrag",
+      "album": "pear",
+      "count": 3,
+      "first": 1788963025,
+      "last": 1789347939,
+      "playlists": {
+        "1default": 3
+      }
+    },
+    {
+      "artist": "Of Monsters and Men",
+      "title": "Wars",
+      "album": "FEVER DREAM",
+      "count": 3,
+      "first": 1788991170,
+      "last": 1789347705,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 3,
       "first": 1788926373,
       "last": 1789334845,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Gorillaz, Peter Hook, Georgia",
-      "title": "Aries (feat. Peter Hook and Georgia)",
-      "album": "Song Machine Episode 3",
-      "count": 3,
-      "first": 1788971208,
-      "last": 1789334571,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Your Smith",
-      "title": "Ooh Wee",
-      "album": "Bad Habit",
-      "count": 3,
-      "first": 1788969485,
-      "last": 1789334005,
       "playlists": {
         "1default": 3
       }
@@ -1993,6 +1993,58 @@
       ]
     },
     {
+      "artist": "botch",
+      "count": 11,
+      "first": 1788920755,
+      "last": 1789347939,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 3,
+          "first": 1788963025,
+          "last": 1789347939,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 3,
+          "first": 1788920755,
+          "last": 1789341734,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 3,
+          "first": 1788997306,
+          "last": 1789332320,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 2,
+          "first": 1788972349,
+          "last": 1789077527,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Czars",
       "count": 10,
       "first": 1788963949,
@@ -2062,58 +2114,6 @@
           "last": 1788963949,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "count": 10,
-      "first": 1788920755,
-      "last": 1789341734,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 3,
-          "first": 1788920755,
-          "last": 1789341734,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 3,
-          "first": 1788997306,
-          "last": 1789332320,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 2,
-          "first": 1788963025,
-          "last": 1789325391,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 2,
-          "first": 1788972349,
-          "last": 1789077527,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -2454,6 +2454,47 @@
           "count": 2,
           "first": 1788928254,
           "last": 1789131580,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Of Monsters and Men",
+      "count": 7,
+      "first": 1788963370,
+      "last": 1789347705,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 3,
+          "first": 1788991170,
+          "last": 1789347705,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 2,
+          "first": 1789156918,
+          "last": 1789163855,
+          "playlists": {
+            "escaping from cu boulder by giselle": 2
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 2,
+          "first": 1788963370,
+          "last": 1789119689,
           "playlists": {
             "1default": 2
           }
@@ -2943,47 +2984,6 @@
           "last": 1789142694,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 6,
-      "first": 1788963370,
-      "last": 1789310117,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 2,
-          "first": 1788991170,
-          "last": 1789310117,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 2,
-          "first": 1789156918,
-          "last": 1789163855,
-          "playlists": {
-            "escaping from cu boulder by giselle": 2
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 2,
-          "first": 1788963370,
-          "last": 1789119689,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -4886,6 +4886,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 6,
+      "first": 1788920755,
+      "last": 1789347939,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 3,
+          "first": 1788963025,
+          "last": 1789347939,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 3,
+          "first": 1788920755,
+          "last": 1789341734,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "album": "Dead",
       "count": 6,
@@ -5166,37 +5197,6 @@
           "last": 1789209975,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 5,
-      "first": 1788920755,
-      "last": 1789341734,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 3,
-          "first": 1788920755,
-          "last": 1789341734,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 2,
-          "first": 1788963025,
-          "last": 1789325391,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6073,9 +6073,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 754,
+      "count": 756,
       "first": 1788901564,
-      "last": 1789347475,
+      "last": 1789347939,
       "songs": [
         {
           "artist": "Destructo Disk",
