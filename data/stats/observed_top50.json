@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T18:26:10.546815+00:00",
+  "updatedAt": "2026-09-14T18:31:27.965322+00:00",
   "summary": {
-    "totalPlays": 2089,
+    "totalPlays": 2090,
     "unknownPlays": 248,
     "uniqueTracks": 1276,
     "uniqueArtists": 906,
     "uniqueAlbums": 1089,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789410295
+    "lastObserved": 1789410576
   },
   "topSongs": [
     {
@@ -197,6 +197,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Mitski",
+      "title": "Love Me More",
+      "album": "Laurel Hell",
+      "count": 3,
+      "first": 1789055950,
+      "last": 1789410576,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788975450,
       "last": 1789399825,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Keanu Bicol",
-      "title": "her smile",
-      "album": "butterfly / her smile",
-      "count": 3,
-      "first": 1788911837,
-      "last": 1789399591,
       "playlists": {
         "1default": 3
       }
@@ -1143,10 +1143,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 26,
+      "count": 27,
       "first": 1788920128,
-      "last": 1789372006,
+      "last": 1789410576,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 3,
+          "first": 1789055950,
+          "last": 1789410576,
+          "playlists": {
+            "1default": 3
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Should've Been Me",
@@ -1244,17 +1255,6 @@
           "last": 1789190769,
           "playlists": {
             "sad girl no friends saturday": 2
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 2,
-          "first": 1789055950,
-          "last": 1789095744,
-          "playlists": {
-            "1default": 2
           }
         },
         {
@@ -4917,6 +4917,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 6,
+      "first": 1788920128,
+      "last": 1789410576,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 3,
+          "first": 1789055950,
+          "last": 1789410576,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 3,
+          "first": 1788920128,
+          "last": 1789338804,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 6,
@@ -5534,37 +5565,6 @@
       ]
     },
     {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 5,
-      "first": 1788920128,
-      "last": 1789338804,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 3,
-          "first": 1788920128,
-          "last": 1789338804,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 2,
-          "first": 1789055950,
-          "last": 1789095744,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
       "artist": "Ramones",
       "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
       "count": 5,
@@ -6084,9 +6084,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 940,
+      "count": 941,
       "first": 1788901564,
-      "last": 1789410295,
+      "last": 1789410576,
       "songs": [
         {
           "artist": "Los Narwhals",
