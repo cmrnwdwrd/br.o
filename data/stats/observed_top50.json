@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T19:36:09.005692+00:00",
+  "updatedAt": "2026-09-14T19:41:14.838881+00:00",
   "summary": {
-    "totalPlays": 2106,
+    "totalPlays": 2107,
     "unknownPlays": 250,
     "uniqueTracks": 1277,
     "uniqueArtists": 907,
     "uniqueAlbums": 1090,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789414469
+    "lastObserved": 1789414693
   },
   "topSongs": [
     {
@@ -197,6 +197,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "U2",
+      "title": "Pride (In The Name Of Love) - Remastered 2009",
+      "album": "The Unforgettable Fire (Remastered)",
+      "count": 3,
+      "first": 1788964687,
+      "last": 1789414693,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788964915,
       "last": 1789404595,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Mommy Long Legs",
-      "title": "Weird Girl",
-      "album": "Assholes",
-      "count": 3,
-      "first": 1789072780,
-      "last": 1789403577,
       "playlists": {
         "1default": 3
       }
@@ -3675,6 +3675,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 5,
+      "first": 1788921291,
+      "last": 1789414693,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 3,
+          "first": 1788964687,
+          "last": 1789414693,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 2,
+          "first": 1788921291,
+          "last": 1789073284,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Courtney Barnett",
       "count": 5,
       "first": 1788913469,
@@ -3799,36 +3829,6 @@
           "count": 2,
           "first": 1789169386,
           "last": 1789405269,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brahman",
-      "count": 5,
-      "first": 1788944074,
-      "last": 1789401137,
-      "songs": [
-        {
-          "artist": "Brahman",
-          "title": "invisibility cloak",
-          "album": "invisibility cloak",
-          "count": 3,
-          "first": 1788944074,
-          "last": 1789116160,
-          "playlists": {
-            "breakbeat": 3
-          }
-        },
-        {
-          "artist": "Brahman",
-          "title": "RUN",
-          "album": "RUN",
-          "count": 2,
-          "first": 1789239291,
-          "last": 1789401137,
           "playlists": {
             "1default": 2
           }
@@ -6117,9 +6117,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 957,
+      "count": 958,
       "first": 1788901564,
-      "last": 1789414469,
+      "last": 1789414693,
       "songs": [
         {
           "artist": "Los Narwhals",
