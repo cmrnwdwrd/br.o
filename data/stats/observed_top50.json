@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T15:41:07.975815+00:00",
+  "updatedAt": "2026-09-14T15:46:13.447370+00:00",
   "summary": {
-    "totalPlays": 2045,
+    "totalPlays": 2046,
     "unknownPlays": 242,
     "uniqueTracks": 1274,
     "uniqueArtists": 905,
     "uniqueAlbums": 1088,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789400352
+    "lastObserved": 1789400650
   },
   "topSongs": [
     {
@@ -164,6 +164,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Sexy Coyote",
+      "title": "Dancing With Demons",
+      "album": "Dancing With Demons",
+      "count": 3,
+      "first": 1788946229,
+      "last": 1789400650,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1789057548,
       "last": 1789375769,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Zolof the Rock & Roll Destroyer",
-      "title": "Plays Pretty for Baby",
-      "album": "Zolof the Rock & Roll Destroyer",
-      "count": 3,
-      "first": 1788987745,
-      "last": 1789375644,
       "playlists": {
         "1default": 3
       }
@@ -2119,6 +2119,58 @@
       ]
     },
     {
+      "artist": "Sexy Coyote",
+      "count": 10,
+      "first": 1788917492,
+      "last": 1789400650,
+      "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "Dancing With Demons",
+          "album": "Dancing With Demons",
+          "count": 3,
+          "first": 1788946229,
+          "last": 1789400650,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 3,
+          "first": 1788917492,
+          "last": 1789359003,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 3,
+          "first": 1788921570,
+          "last": 1789331533,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "DEAD (Yeah!)",
+          "album": "Dead",
+          "count": 1,
+          "first": 1789224883,
+          "last": 1789224883,
+          "playlists": {
+            "1default": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "count": 10,
       "first": 1788917845,
@@ -2270,58 +2322,6 @@
           "last": 1789031460,
           "playlists": {
             "breakbeat": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sexy Coyote",
-      "count": 9,
-      "first": 1788917492,
-      "last": 1789359003,
-      "songs": [
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 3,
-          "first": 1788917492,
-          "last": 1789359003,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 3,
-          "first": 1788921570,
-          "last": 1789331533,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Dancing With Demons",
-          "album": "Dancing With Demons",
-          "count": 2,
-          "first": 1788946229,
-          "last": 1789215738,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "DEAD (Yeah!)",
-          "album": "Dead",
-          "count": 1,
-          "first": 1789224883,
-          "last": 1789224883,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -6084,9 +6084,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 896,
+      "count": 897,
       "first": 1788901564,
-      "last": 1789400352,
+      "last": 1789400650,
       "songs": [
         {
           "artist": "Los Narwhals",
