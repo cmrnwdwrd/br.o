@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T16:31:18.826979+00:00",
+  "updatedAt": "2026-09-14T16:36:07.167109+00:00",
   "summary": {
-    "totalPlays": 2057,
+    "totalPlays": 2059,
     "unknownPlays": 244,
     "uniqueTracks": 1275,
     "uniqueArtists": 906,
     "uniqueAlbums": 1089,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789403410
+    "lastObserved": 1789403720
   },
   "topSongs": [
     {
@@ -175,6 +175,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Mommy Long Legs",
+      "title": "Weird Girl",
+      "album": "Assholes",
+      "count": 3,
+      "first": 1789072780,
+      "last": 1789403577,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1789064643,
       "last": 1789378386,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Leon Bridges",
-      "title": "Steam",
-      "album": "Gold-Diggers Sound",
-      "count": 3,
-      "first": 1788919285,
-      "last": 1789378065,
       "playlists": {
         "1default": 3
       }
@@ -5908,6 +5908,37 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "album": "Doolittle",
+      "count": 4,
+      "first": 1788972865,
+      "last": 1789403720,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 2,
+          "first": 1789214521,
+          "last": 1789403720,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 2,
+          "first": 1788972865,
+          "last": 1789067862,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mallory Graham",
       "album": "MOP",
       "count": 4,
@@ -6037,45 +6068,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 4,
-      "first": 1789166634,
-      "last": 1789349253,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 2,
-          "first": 1789167660,
-          "last": 1789349253,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 2,
-          "first": 1789166634,
-          "last": 1789346727,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 908,
+      "count": 910,
       "first": 1788901564,
-      "last": 1789403410,
+      "last": 1789403720,
       "songs": [
         {
           "artist": "Los Narwhals",
