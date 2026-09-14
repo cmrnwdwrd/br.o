@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T16:26:11.013203+00:00",
+  "updatedAt": "2026-09-14T16:31:18.826979+00:00",
   "summary": {
-    "totalPlays": 2055,
+    "totalPlays": 2057,
     "unknownPlays": 244,
     "uniqueTracks": 1275,
     "uniqueArtists": 906,
     "uniqueAlbums": 1089,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789402944
+    "lastObserved": 1789403410
   },
   "topSongs": [
     {
@@ -175,6 +175,28 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Teyana Taylor",
+      "title": "Gonna Love Me",
+      "album": "K.T.S.E.",
+      "count": 3,
+      "first": 1788929095,
+      "last": 1789403410,
+      "playlists": {
+        "1default": 3
+      }
+    },
+    {
+      "artist": "Sjowgren",
+      "title": "Now & Then",
+      "album": "Now & Then",
+      "count": 3,
+      "first": 1788965724,
+      "last": 1789403203,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 3,
       "first": 1788919285,
       "last": 1789378065,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Barrie",
-      "title": "Hutch",
-      "album": "Happy To Be Here",
-      "count": 3,
-      "first": 1788912861,
-      "last": 1789377918,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Tems, Brent Faiyaz",
-      "title": "Found (feat. Brent Faiyaz)",
-      "album": "Found (feat. Brent Faiyaz)",
-      "count": 3,
-      "first": 1788969945,
-      "last": 1789377708,
       "playlists": {
         "1default": 3
       }
@@ -2368,6 +2368,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 8,
+      "first": 1788965724,
+      "last": 1789403203,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 3,
+          "first": 1788965724,
+          "last": 1789403203,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 3,
+          "first": 1789059354,
+          "last": 1789340658,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 2,
+          "first": 1789225488,
+          "last": 1789341393,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Noah Kahan",
       "count": 8,
       "first": 1789154561,
@@ -2883,47 +2924,6 @@
           "last": 1789087662,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 7,
-      "first": 1788965724,
-      "last": 1789341393,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 3,
-          "first": 1789059354,
-          "last": 1789340658,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 2,
-          "first": 1789225488,
-          "last": 1789341393,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 2,
-          "first": 1788965724,
-          "last": 1789140091,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6073,9 +6073,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 906,
+      "count": 908,
       "first": 1788901564,
-      "last": 1789402944,
+      "last": 1789403410,
       "songs": [
         {
           "artist": "Los Narwhals",
