@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-14T18:36:10.152244+00:00",
+  "updatedAt": "2026-09-14T18:41:06.693552+00:00",
   "summary": {
-    "totalPlays": 2091,
+    "totalPlays": 2092,
     "unknownPlays": 248,
     "uniqueTracks": 1276,
     "uniqueArtists": 906,
     "uniqueAlbums": 1089,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789410790
+    "lastObserved": 1789411069
   },
   "topSongs": [
     {
@@ -197,6 +197,17 @@
       "last": 1789110594,
       "playlists": {
         "1default": 4
+      }
+    },
+    {
+      "artist": "Meeting House",
+      "title": "Black Clouds",
+      "album": "Couch Surfer",
+      "count": 3,
+      "first": 1789226222,
+      "last": 1789411069,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1789057927,
       "last": 1789400352,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Richy Mitch & The Coal Miners",
-      "title": "WET SOCKS",
-      "album": "Subliming",
-      "count": 3,
-      "first": 1788926758,
-      "last": 1789400205,
       "playlists": {
         "1default": 3
       }
@@ -5950,6 +5950,37 @@
       ]
     },
     {
+      "artist": "Meeting House",
+      "album": "Couch Surfer",
+      "count": 4,
+      "first": 1789226222,
+      "last": 1789411069,
+      "songs": [
+        {
+          "artist": "Meeting House",
+          "title": "Black Clouds",
+          "album": "Couch Surfer",
+          "count": 3,
+          "first": 1789226222,
+          "last": 1789411069,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Meeting House",
+          "title": "Couch Surfer",
+          "album": "Couch Surfer",
+          "count": 1,
+          "first": 1789250068,
+          "last": 1789250068,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Squirrel Flower",
       "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
       "count": 4,
@@ -6059,34 +6090,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "wilt",
-      "album": "the riff",
-      "count": 4,
-      "first": 1788911339,
-      "last": 1789378524,
-      "songs": [
-        {
-          "artist": "wilt",
-          "title": "the riff",
-          "album": "the riff",
-          "count": 4,
-          "first": 1788911339,
-          "last": 1789378524,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 942,
+      "count": 943,
       "first": 1788901564,
-      "last": 1789410790,
+      "last": 1789411069,
       "songs": [
         {
           "artist": "Los Narwhals",
