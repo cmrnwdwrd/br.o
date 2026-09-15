@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T15:36:12.916843+00:00",
+  "updatedAt": "2026-09-15T15:41:15.492096+00:00",
   "summary": {
-    "totalPlays": 2442,
+    "totalPlays": 2443,
     "unknownPlays": 290,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789486357
+    "lastObserved": 1789486660
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "George Harrison",
+      "title": "I Dig Love (2020 Mix)",
+      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "count": 5,
+      "first": 1789034170,
+      "last": 1789486660,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1789057548,
       "last": 1789444924,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "MICHELLE",
-      "title": "FYO",
-      "album": "FYO",
-      "count": 4,
-      "first": 1789061160,
-      "last": 1789444695,
       "playlists": {
         "1default": 4
       }
@@ -5938,6 +5938,26 @@
       ]
     },
     {
+      "artist": "George Harrison",
+      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "count": 5,
+      "first": 1789034170,
+      "last": 1789486660,
+      "songs": [
+        {
+          "artist": "George Harrison",
+          "title": "I Dig Love (2020 Mix)",
+          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "count": 5,
+          "first": 1789034170,
+          "last": 1789486660,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "wilt",
       "album": "the riff",
       "count": 5,
@@ -6180,45 +6200,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Vampire Weekend",
-      "album": "Father of the Bride",
-      "count": 5,
-      "first": 1788990464,
-      "last": 1789353000,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 3,
-          "first": 1788990464,
-          "last": 1789353000,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 2,
-          "first": 1789108965,
-          "last": 1789351444,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1119,
+      "count": 1120,
       "first": 1788901564,
-      "last": 1789486357,
+      "last": 1789486660,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -6243,6 +6232,17 @@
           }
         },
         {
+          "artist": "George Harrison",
+          "title": "I Dig Love (2020 Mix)",
+          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "count": 5,
+          "first": 1789034170,
+          "last": 1789486660,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
           "artist": "wilt",
           "title": "the riff",
           "album": "the riff",
@@ -6260,17 +6260,6 @@
           "count": 5,
           "first": 1788985233,
           "last": 1789483645,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 5,
-          "first": 1789063640,
-          "last": 1789443003,
           "playlists": {
             "1default": 5
           }
