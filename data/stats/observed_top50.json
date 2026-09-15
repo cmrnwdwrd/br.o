@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T07:56:09.435590+00:00",
+  "updatedAt": "2026-09-15T08:01:20.566993+00:00",
   "summary": {
-    "totalPlays": 2317,
+    "totalPlays": 2318,
     "unknownPlays": 275,
     "uniqueTracks": 1294,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789458905
+    "lastObserved": 1789459275
   },
   "topSongs": [
     {
@@ -87,6 +87,17 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Machine Girl",
+      "title": "Ghost",
+      "album": "Wlfgrl",
+      "count": 4,
+      "first": 1788942783,
+      "last": 1789459275,
+      "playlists": {
+        "breakbeat": 4
       }
     },
     {
@@ -549,17 +560,6 @@
       "last": 1789337444,
       "playlists": {
         "1default": 4
-      }
-    },
-    {
-      "artist": "Joey Valence & Brae",
-      "title": "Crank It Up",
-      "album": "Crank It Up",
-      "count": 4,
-      "first": 1788938278,
-      "last": 1789115080,
-      "playlists": {
-        "breakbeat": 4
       }
     }
   ],
@@ -3558,6 +3558,47 @@
       ]
     },
     {
+      "artist": "Machine Girl",
+      "count": 6,
+      "first": 1788942783,
+      "last": 1789459275,
+      "songs": [
+        {
+          "artist": "Machine Girl",
+          "title": "Ghost",
+          "album": "Wlfgrl",
+          "count": 4,
+          "first": 1788942783,
+          "last": 1789459275,
+          "playlists": {
+            "breakbeat": 4
+          }
+        },
+        {
+          "artist": "Machine Girl",
+          "title": "うずまき",
+          "album": "...Because I'm Young Arrogant and Hate Everything You Stand For",
+          "count": 1,
+          "first": 1789134394,
+          "last": 1789134394,
+          "playlists": {
+            "hyperpop friday morning": 1
+          }
+        },
+        {
+          "artist": "Machine Girl",
+          "title": "Greaze - Machine Girl Mix",
+          "album": "RePorpoised Phantasies",
+          "count": 1,
+          "first": 1789132950,
+          "last": 1789132950,
+          "playlists": {
+            "hyperpop friday morning": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khadija Al Hanafi",
       "count": 6,
       "first": 1788941290,
@@ -3834,47 +3875,6 @@
           "last": 1789319672,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "ruzlxn",
-      "count": 6,
-      "first": 1788914259,
-      "last": 1789408164,
-      "songs": [
-        {
-          "artist": "ruzlxn",
-          "title": "BURN YOUR LOCAL POLITICIAN !",
-          "album": "GRITTED TEETH *",
-          "count": 3,
-          "first": 1788914259,
-          "last": 1789407999,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "BONES",
-          "album": "GRITTED TEETH *",
-          "count": 2,
-          "first": 1788933961,
-          "last": 1789364725,
-          "playlists": {
-            "EPL4a": 2
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "GRITTED TEETH",
-          "album": "GRITTED TEETH *",
-          "count": 1,
-          "first": 1789408164,
-          "last": 1789408164,
-          "playlists": {
-            "1default": 1
           }
         }
       ]
@@ -6268,9 +6268,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 203,
+      "count": 204,
       "first": 1788938278,
-      "last": 1789458905,
+      "last": 1789459275,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
@@ -6281,6 +6281,17 @@
           "last": 1789457747,
           "playlists": {
             "breakbeat": 5
+          }
+        },
+        {
+          "artist": "Machine Girl",
+          "title": "Ghost",
+          "album": "Wlfgrl",
+          "count": 4,
+          "first": 1788942783,
+          "last": 1789459275,
+          "playlists": {
+            "breakbeat": 4
           }
         },
         {
@@ -6312,17 +6323,6 @@
           "count": 3,
           "first": 1789026815,
           "last": 1789458905,
-          "playlists": {
-            "breakbeat": 3
-          }
-        },
-        {
-          "artist": "Tarshito",
-          "title": "Gyana",
-          "album": "Drum Drive",
-          "count": 3,
-          "first": 1789024925,
-          "last": 1789458569,
           "playlists": {
             "breakbeat": 3
           }
