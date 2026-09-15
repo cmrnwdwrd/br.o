@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T18:36:11.870517+00:00",
+  "updatedAt": "2026-09-15T18:41:14.515327+00:00",
   "summary": {
-    "totalPlays": 2491,
+    "totalPlays": 2492,
     "unknownPlays": 296,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789497333
+    "lastObserved": 1789497497
   },
   "topSongs": [
     {
@@ -175,6 +175,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Atom Son of Man",
+      "title": "Think Too Much",
+      "album": "Think Too Much",
+      "count": 4,
+      "first": 1788964420,
+      "last": 1789497497,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1789061029,
       "last": 1789485267,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Franz Ferdinand",
-      "title": "Billy Goodbye",
-      "album": "Billy Goodbye",
-      "count": 4,
-      "first": 1789014639,
-      "last": 1789485046,
       "playlists": {
         "1default": 4
       }
@@ -1684,10 +1684,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 24,
+      "count": 25,
       "first": 1788902047,
-      "last": 1789497333,
+      "last": 1789497497,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Think Too Much",
+          "album": "Think Too Much",
+          "count": 4,
+          "first": 1788964420,
+          "last": 1789497497,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Atom Son of Man",
@@ -1708,17 +1719,6 @@
           "last": 1789464759,
           "playlists": {
             "1default": 4
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Think Too Much",
-          "album": "Think Too Much",
-          "count": 3,
-          "first": 1788964420,
-          "last": 1789432236,
-          "playlists": {
-            "1default": 3
           }
         },
         {
@@ -6183,9 +6183,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1168,
+      "count": 1169,
       "first": 1788901564,
-      "last": 1789497333,
+      "last": 1789497497,
       "songs": [
         {
           "artist": "Destructo Disk",
