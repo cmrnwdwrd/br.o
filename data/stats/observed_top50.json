@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T22:51:16.490436+00:00",
+  "updatedAt": "2026-09-15T22:56:14.075282+00:00",
   "summary": {
-    "totalPlays": 2562,
+    "totalPlays": 2563,
     "unknownPlays": 305,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789512650
+    "lastObserved": 1789512882
   },
   "topSongs": [
+    {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 6,
+      "first": 1789015368,
+      "last": 1789512882,
+      "playlists": {
+        "1default": 6
+      }
+    },
     {
       "artist": "Viagra Boys",
       "title": "Worms",
@@ -54,17 +65,6 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
-      }
-    },
-    {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 5,
-      "first": 1789015368,
-      "last": 1789503955,
-      "playlists": {
-        "1default": 5
       }
     },
     {
@@ -5538,6 +5538,26 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 6,
+      "first": 1789015368,
+      "last": 1789512882,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 6,
+          "first": 1789015368,
+          "last": 1789512882,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Viagra Boys",
       "album": "Street Worms",
       "count": 6,
@@ -6038,26 +6058,6 @@
       ]
     },
     {
-      "artist": "Lush",
-      "album": "Lovelife",
-      "count": 5,
-      "first": 1789015368,
-      "last": 1789503955,
-      "songs": [
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 5,
-          "first": 1789015368,
-          "last": 1789503955,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
-    },
-    {
       "artist": "Juno Rossa",
       "album": "Chasing Animals",
       "count": 5,
@@ -6172,10 +6172,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1227,
+      "count": 1228,
       "first": 1788901564,
-      "last": 1789510504,
+      "last": 1789512882,
       "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 6,
+          "first": 1789015368,
+          "last": 1789512882,
+          "playlists": {
+            "1default": 6
+          }
+        },
         {
           "artist": "Viagra Boys",
           "title": "Worms",
@@ -6218,17 +6229,6 @@
           "last": 1789480930,
           "playlists": {
             "1default": 6
-          }
-        },
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 5,
-          "first": 1789015368,
-          "last": 1789503955,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
