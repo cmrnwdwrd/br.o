@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T14:41:19.302547+00:00",
+  "updatedAt": "2026-09-15T14:46:17.691644+00:00",
   "summary": {
-    "totalPlays": 2427,
+    "totalPlays": 2429,
     "unknownPlays": 288,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789483127
+    "lastObserved": 1789483434
   },
   "topSongs": [
     {
@@ -87,6 +87,17 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "No Doubt",
+      "title": "Just A Girl",
+      "album": "Tragic Kingdom",
+      "count": 4,
+      "first": 1789061325,
+      "last": 1789483434,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788975084,
       "last": 1789441180,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Rilo Kiley",
-      "title": "Science Vs. Romance",
-      "album": "Take Offs And Landings",
-      "count": 4,
-      "first": 1788902251,
-      "last": 1789440835,
       "playlists": {
         "1default": 4
       }
@@ -3241,6 +3241,36 @@
       ]
     },
     {
+      "artist": "MICHELLE",
+      "count": 7,
+      "first": 1789061160,
+      "last": 1789483315,
+      "songs": [
+        {
+          "artist": "MICHELLE",
+          "title": "FYO",
+          "album": "FYO",
+          "count": 4,
+          "first": 1789061160,
+          "last": 1789444695,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "MICHELLE",
+          "title": "SYNCOPATE",
+          "album": "AFTER DINNER WE TALK DREAMS",
+          "count": 3,
+          "first": 1789239544,
+          "last": 1789483315,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "count": 7,
       "first": 1788947080,
@@ -3878,36 +3908,6 @@
           "last": 1789416348,
           "playlists": {
             "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Harper Powell",
-      "count": 6,
-      "first": 1788947970,
-      "last": 1789445772,
-      "songs": [
-        {
-          "artist": "Harper Powell",
-          "title": "It's the Full Moon",
-          "album": "It's the Full Moon",
-          "count": 4,
-          "first": 1788947970,
-          "last": 1789445772,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Harper Powell",
-          "title": "Time Is Empty",
-          "album": "Time Is Empty",
-          "count": 2,
-          "first": 1789077114,
-          "last": 1789348245,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6249,9 +6249,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1104,
+      "count": 1106,
       "first": 1788901564,
-      "last": 1789483127,
+      "last": 1789483434,
       "songs": [
         {
           "artist": "Los Narwhals",
