@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T02:36:07.417816+00:00",
+  "updatedAt": "2026-09-15T02:41:14.454099+00:00",
   "summary": {
-    "totalPlays": 2220,
+    "totalPlays": 2221,
     "unknownPlays": 264,
     "uniqueTracks": 1287,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789439649
+    "lastObserved": 1789439897
   },
   "topSongs": [
     {
@@ -65,6 +65,17 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Led Zeppelin",
+      "title": "Dazed and Confused - 1990 Remaster",
+      "album": "Led Zeppelin",
+      "count": 4,
+      "first": 1789062336,
+      "last": 1789439897,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788966457,
       "last": 1789432049,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "KXLLSWXTCH, Powers Pleasant",
-      "title": "COSMO",
-      "album": "THE WALLS HAVE EYES",
-      "count": 3,
-      "first": 1789049117,
-      "last": 1789431945,
       "playlists": {
         "1default": 3
       }
@@ -6074,6 +6074,26 @@
       ]
     },
     {
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin",
+      "count": 4,
+      "first": 1789062336,
+      "last": 1789439897,
+      "songs": [
+        {
+          "artist": "Led Zeppelin",
+          "title": "Dazed and Confused - 1990 Remaster",
+          "album": "Led Zeppelin",
+          "count": 4,
+          "first": 1789062336,
+          "last": 1789439897,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lucy Dacus",
       "album": "Home Video",
       "count": 4,
@@ -6092,34 +6112,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "SiR",
-      "album": "November",
-      "count": 4,
-      "first": 1789033495,
-      "last": 1789439475,
-      "songs": [
-        {
-          "artist": "SiR",
-          "title": "D'Evils",
-          "album": "November",
-          "count": 4,
-          "first": 1789033495,
-          "last": 1789439475,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1051,
+      "count": 1052,
       "first": 1788901564,
-      "last": 1789439649,
+      "last": 1789439897,
       "songs": [
         {
           "artist": "Daffo",
