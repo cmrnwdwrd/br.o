@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T01:36:07.350299+00:00",
+  "updatedAt": "2026-09-15T01:41:13.756030+00:00",
   "summary": {
-    "totalPlays": 2203,
+    "totalPlays": 2205,
     "unknownPlays": 261,
     "uniqueTracks": 1286,
     "uniqueArtists": 911,
     "uniqueAlbums": 1098,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789436064
+    "lastObserved": 1789436454
   },
   "topSongs": [
     {
@@ -274,6 +274,17 @@
       "last": 1789115080,
       "playlists": {
         "breakbeat": 4
+      }
+    },
+    {
+      "artist": "Phoebe Bridgers",
+      "title": "Killer",
+      "album": "Stranger in the Alps",
+      "count": 3,
+      "first": 1788926905,
+      "last": 1789436267,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788916765,
       "last": 1789422714,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "The Remnant",
-      "title": "Summer Dog Days",
-      "album": "Indian Summer",
-      "count": 3,
-      "first": 1788919662,
-      "last": 1789422515,
       "playlists": {
         "1default": 3
       }
@@ -6054,6 +6054,37 @@
       ]
     },
     {
+      "artist": "Phoebe Bridgers",
+      "album": "Stranger in the Alps",
+      "count": 4,
+      "first": 1788926905,
+      "last": 1789436267,
+      "songs": [
+        {
+          "artist": "Phoebe Bridgers",
+          "title": "Killer",
+          "album": "Stranger in the Alps",
+          "count": 3,
+          "first": 1788926905,
+          "last": 1789436267,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Phoebe Bridgers",
+          "title": "Georgia",
+          "album": "Stranger in the Alps",
+          "count": 1,
+          "first": 1789041947,
+          "last": 1789041947,
+          "playlists": {
+            "carhartts": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Colfax Speed Queen",
       "album": "Satisfaction Intended",
       "count": 4,
@@ -6103,34 +6134,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "album": "WAR IN COLORADO!",
-      "count": 4,
-      "first": 1788993017,
-      "last": 1789425435,
-      "songs": [
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 4,
-          "first": 1788993017,
-          "last": 1789425435,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1034,
+      "count": 1036,
       "first": 1788901564,
-      "last": 1789436064,
+      "last": 1789436454,
       "songs": [
         {
           "artist": "Tele Novella",
