@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T03:46:12.856458+00:00",
+  "updatedAt": "2026-09-15T03:51:06.365893+00:00",
   "summary": {
-    "totalPlays": 2237,
+    "totalPlays": 2239,
     "unknownPlays": 266,
     "uniqueTracks": 1287,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789443789
+    "lastObserved": 1789444219
   },
   "topSongs": [
     {
@@ -76,6 +76,28 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Madness",
+      "title": "Our House",
+      "album": "Madness",
+      "count": 4,
+      "first": 1788904090,
+      "last": 1789444219,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
+      "artist": "Orion Sun",
+      "title": "Antidote",
+      "album": "A Collection of Fleeting Moments and Daydreams",
+      "count": 4,
+      "first": 1788987870,
+      "last": 1789444049,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 3,
       "first": 1788915475,
       "last": 1789438290,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "We The Kings",
-      "title": "Check Yes, Juliet",
-      "album": "We The Kings",
-      "count": 3,
-      "first": 1788915906,
-      "last": 1789438071,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Susannah Joffe",
-      "title": "Die Your Daughter",
-      "album": "Your Mother's Name",
-      "count": 3,
-      "first": 1788989025,
-      "last": 1789437931,
       "playlists": {
         "1default": 3
       }
@@ -3071,6 +3071,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 7,
+      "first": 1788985030,
+      "last": 1789444049,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 4,
+          "first": 1788987870,
+          "last": 1789444049,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 3,
+          "first": 1788985030,
+          "last": 1789406111,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 7,
       "first": 1788914032,
@@ -3525,36 +3555,6 @@
           "last": 1789408164,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 6,
-      "first": 1788985030,
-      "last": 1789406111,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 3,
-          "first": 1788985030,
-          "last": 1789406111,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 3,
-          "first": 1788987870,
-          "last": 1789361190,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6094,19 +6094,19 @@
       ]
     },
     {
-      "artist": "Lorde",
-      "album": "Pure Heroine",
+      "artist": "Madness",
+      "album": "Madness",
       "count": 4,
-      "first": 1789222724,
-      "last": 1789443789,
+      "first": 1788904090,
+      "last": 1789444219,
       "songs": [
         {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
+          "artist": "Madness",
+          "title": "Our House",
+          "album": "Madness",
           "count": 4,
-          "first": 1789222724,
-          "last": 1789443789,
+          "first": 1788904090,
+          "last": 1789444219,
           "playlists": {
             "1default": 4
           }
@@ -6117,9 +6117,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1068,
+      "count": 1070,
       "first": 1788901564,
-      "last": 1789443789,
+      "last": 1789444219,
       "songs": [
         {
           "artist": "Mallory Graham",
