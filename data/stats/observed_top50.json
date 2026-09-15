@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T14:46:17.691644+00:00",
+  "updatedAt": "2026-09-15T14:51:15.179456+00:00",
   "summary": {
-    "totalPlays": 2429,
+    "totalPlays": 2431,
     "unknownPlays": 288,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789483434
+    "lastObserved": 1789483873
   },
   "topSongs": [
     {
@@ -21,6 +21,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "The Cardigans",
+      "title": "Step On Me",
+      "album": "First Band On The Moon (Remastered)",
+      "count": 5,
+      "first": 1788985233,
+      "last": 1789483645,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1789054884,
       "last": 1789441366,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Leon Bridges",
-      "title": "Motorbike",
-      "album": "Motorbike",
-      "count": 4,
-      "first": 1788975084,
-      "last": 1789441180,
       "playlists": {
         "1default": 4
       }
@@ -5898,6 +5898,26 @@
       ]
     },
     {
+      "artist": "The Cardigans",
+      "album": "First Band On The Moon (Remastered)",
+      "count": 5,
+      "first": 1788985233,
+      "last": 1789483645,
+      "songs": [
+        {
+          "artist": "The Cardigans",
+          "title": "Step On Me",
+          "album": "First Band On The Moon (Remastered)",
+          "count": 5,
+          "first": 1788985233,
+          "last": 1789483645,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "album": "FOAR EVERYWUN FRUM MIMI",
       "count": 5,
@@ -6224,34 +6244,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Destructo Disk",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 5,
-      "first": 1788996063,
-      "last": 1789337089,
-      "songs": [
-        {
-          "artist": "Destructo Disk",
-          "title": "I Wish I Was A Riot Grrrl",
-          "album": "Punk Rocks For Kids Who Can't Skate",
-          "count": 5,
-          "first": 1788996063,
-          "last": 1789337089,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1106,
+      "count": 1108,
       "first": 1788901564,
-      "last": 1789483434,
+      "last": 1789483873,
       "songs": [
         {
           "artist": "Los Narwhals",
@@ -6262,6 +6262,17 @@
           "last": 1789480930,
           "playlists": {
             "1default": 6
+          }
+        },
+        {
+          "artist": "The Cardigans",
+          "title": "Step On Me",
+          "album": "First Band On The Moon (Remastered)",
+          "count": 5,
+          "first": 1788985233,
+          "last": 1789483645,
+          "playlists": {
+            "1default": 5
           }
         },
         {
@@ -6293,17 +6304,6 @@
           "count": 5,
           "first": 1788996940,
           "last": 1789416551,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Destructo Disk",
-          "title": "I Wish I Was A Riot Grrrl",
-          "album": "Punk Rocks For Kids Who Can't Skate",
-          "count": 5,
-          "first": 1788996063,
-          "last": 1789337089,
           "playlists": {
             "1default": 5
           }
