@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T15:01:27.488426+00:00",
+  "updatedAt": "2026-09-15T15:06:07.211882+00:00",
   "summary": {
-    "totalPlays": 2432,
-    "unknownPlays": 288,
+    "totalPlays": 2434,
+    "unknownPlays": 289,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789484148
+    "lastObserved": 1789484766
   },
   "topSongs": [
+    {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 6,
+      "first": 1788968149,
+      "last": 1789484494,
+      "playlists": {
+        "1default": 6
+      }
+    },
     {
       "artist": "Los Narwhals",
       "title": "Surfer Babe",
@@ -90,14 +101,14 @@
       }
     },
     {
-      "artist": "Modest Mouse",
-      "title": "Bury Me With It",
-      "album": "Good News For People Who Love Bad News",
-      "count": 5,
-      "first": 1788968149,
-      "last": 1789331035,
+      "artist": "Sjowgren",
+      "title": "Flip Phones",
+      "album": "win'20",
+      "count": 4,
+      "first": 1789059354,
+      "last": 1789484766,
       "playlists": {
-        "1default": 5
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788969945,
       "last": 1789441983,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Radiohead",
-      "title": "Follow Me Around",
-      "album": "Follow Me Around",
-      "count": 4,
-      "first": 1788973066,
-      "last": 1789441663,
       "playlists": {
         "1default": 4
       }
@@ -2497,6 +2497,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 9,
+      "first": 1788965724,
+      "last": 1789484766,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 4,
+          "first": 1789059354,
+          "last": 1789484766,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 3,
+          "first": 1788965724,
+          "last": 1789403203,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 2,
+          "first": 1789225488,
+          "last": 1789341393,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 9,
       "first": 1788973998,
@@ -3058,47 +3099,6 @@
           "last": 1789163855,
           "playlists": {
             "escaping from cu boulder by giselle": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 8,
-      "first": 1788965724,
-      "last": 1789403203,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 3,
-          "first": 1788965724,
-          "last": 1789403203,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 3,
-          "first": 1789059354,
-          "last": 1789340658,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 2,
-          "first": 1789225488,
-          "last": 1789341393,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -3678,6 +3678,25 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "count": 6,
+      "first": 1788968149,
+      "last": 1789484494,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 6,
+          "first": 1788968149,
+          "last": 1789484494,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Beach Bunny",
       "count": 6,
       "first": 1788966457,
@@ -3878,36 +3897,6 @@
           "last": 1789118859,
           "playlists": {
             "breakbeat": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Pixies",
-      "count": 6,
-      "first": 1788972865,
-      "last": 1789447485,
-      "songs": [
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 3,
-          "first": 1789214521,
-          "last": 1789447485,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 3,
-          "first": 1788972865,
-          "last": 1789416348,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -5363,6 +5352,57 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "album": "win'20",
+      "count": 6,
+      "first": 1789059354,
+      "last": 1789484766,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 4,
+          "first": 1789059354,
+          "last": 1789484766,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 2,
+          "first": 1789225488,
+          "last": 1789341393,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Modest Mouse",
+      "album": "Good News For People Who Love Bad News",
+      "count": 6,
+      "first": 1788968149,
+      "last": 1789484494,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 6,
+          "first": 1788968149,
+          "last": 1789484494,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khadija Al Hanafi",
       "album": "Slime Patrol 2",
       "count": 6,
@@ -6153,37 +6193,6 @@
       ]
     },
     {
-      "artist": "Sjowgren",
-      "album": "win'20",
-      "count": 5,
-      "first": 1789059354,
-      "last": 1789341393,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 3,
-          "first": 1789059354,
-          "last": 1789340658,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 2,
-          "first": 1789225488,
-          "last": 1789341393,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
       "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
       "album": "the record",
       "count": 5,
@@ -6213,46 +6222,26 @@
           }
         }
       ]
-    },
-    {
-      "artist": "MJ Lenderman",
-      "album": "Manning Fireworks",
-      "count": 5,
-      "first": 1788988450,
-      "last": 1789337444,
-      "songs": [
-        {
-          "artist": "MJ Lenderman",
-          "title": "Rudolph",
-          "album": "Manning Fireworks",
-          "count": 4,
-          "first": 1788988450,
-          "last": 1789337444,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "MJ Lenderman",
-          "title": "Wristwatch",
-          "album": "Manning Fireworks",
-          "count": 1,
-          "first": 1789259095,
-          "last": 1789259095,
-          "playlists": {
-            "texting your situationship": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1109,
+      "count": 1111,
       "first": 1788901564,
-      "last": 1789484148,
+      "last": 1789484766,
       "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 6,
+          "first": 1788968149,
+          "last": 1789484494,
+          "playlists": {
+            "1default": 6
+          }
+        },
         {
           "artist": "Los Narwhals",
           "title": "Surfer Babe",
@@ -6293,17 +6282,6 @@
           "count": 5,
           "first": 1788920320,
           "last": 1789438690,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 5,
-          "first": 1788996940,
-          "last": 1789416551,
           "playlists": {
             "1default": 5
           }
