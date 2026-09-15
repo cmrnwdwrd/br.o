@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T09:51:13.461867+00:00",
+  "updatedAt": "2026-09-15T09:57:19.571678+00:00",
   "summary": {
-    "totalPlays": 2348,
+    "totalPlays": 2350,
     "unknownPlays": 279,
     "uniqueTracks": 1294,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789465696
+    "lastObserved": 1789466175
   },
   "topSongs": [
     {
@@ -87,6 +87,17 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "THE WORLD IS ENDING",
+      "album": "THE WORLD IS ENDING",
+      "count": 4,
+      "first": 1789033665,
+      "last": 1789466175,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -550,17 +561,6 @@
       "playlists": {
         "1default": 4
       }
-    },
-    {
-      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "title": "Keep Pushing",
-      "album": "Change the Channel",
-      "count": 4,
-      "first": 1788925926,
-      "last": 1789429889,
-      "playlists": {
-        "1default": 4
-      }
     }
   ],
   "topArtists": [
@@ -1014,10 +1014,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 47,
+      "count": 49,
       "first": 1788910325,
-      "last": 1789465455,
+      "last": 1789466175,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE WORLD IS ENDING",
+          "album": "THE WORLD IS ENDING",
+          "count": 4,
+          "first": 1789033665,
+          "last": 1789466175,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "TRAP METAL",
@@ -1049,6 +1060,17 @@
           "last": 1789434026,
           "playlists": {
             "1default": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 3,
+          "first": 1789217995,
+          "last": 1789465977,
+          "playlists": {
+            "1default": 3
           }
         },
         {
@@ -1119,17 +1141,6 @@
         },
         {
           "artist": "Lil Darkie",
-          "title": "THE WORLD IS ENDING",
-          "album": "THE WORLD IS ENDING",
-          "count": 3,
-          "first": 1789033665,
-          "last": 1789357971,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
           "title": "THE KIDS ARE ALL RETARDED",
           "album": "SWAMP",
           "count": 3,
@@ -1148,17 +1159,6 @@
           "last": 1789329750,
           "playlists": {
             "1default": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 2,
-          "first": 1789217995,
-          "last": 1789397400,
-          "playlists": {
-            "1default": 2
           }
         },
         {
@@ -5069,6 +5069,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THIS DOES NOT EXIST",
+      "count": 7,
+      "first": 1789053695,
+      "last": 1789465977,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "wrap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 4,
+          "first": 1789053695,
+          "last": 1789434026,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 3,
+          "first": 1789217995,
+          "last": 1789465977,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ramones",
       "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
       "count": 7,
@@ -5283,37 +5314,6 @@
           "last": 1789332320,
           "playlists": {
             "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THIS DOES NOT EXIST",
-      "count": 6,
-      "first": 1789053695,
-      "last": 1789434026,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 4,
-          "first": 1789053695,
-          "last": 1789434026,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 2,
-          "first": 1789217995,
-          "last": 1789397400,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6205,9 +6205,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1090,
+      "count": 1092,
       "first": 1788901564,
-      "last": 1789465696,
+      "last": 1789466175,
       "songs": [
         {
           "artist": "Mallory Graham",
