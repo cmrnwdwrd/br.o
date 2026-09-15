@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T04:56:08.403512+00:00",
+  "updatedAt": "2026-09-15T05:01:17.288477+00:00",
   "summary": {
-    "totalPlays": 2258,
+    "totalPlays": 2260,
     "unknownPlays": 269,
-    "uniqueTracks": 1291,
+    "uniqueTracks": 1293,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789448120
+    "lastObserved": 1789448431
   },
   "topSongs": [
     {
@@ -772,9 +772,9 @@
     },
     {
       "artist": "home alone.",
-      "count": 40,
+      "count": 42,
       "first": 1788929259,
-      "last": 1789448120,
+      "last": 1789448431,
       "songs": [
         {
           "artist": "home alone.",
@@ -807,6 +807,28 @@
           "last": 1789305814,
           "playlists": {
             "home alone.": 2
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "5o5",
+          "album": "all killer, no filler",
+          "count": 1,
+          "first": 1789448431,
+          "last": 1789448431,
+          "playlists": {
+            "more home alone": 1
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "light it up",
+          "album": "drive it like you stole it.",
+          "count": 1,
+          "first": 1789448241,
+          "last": 1789448241,
+          "playlists": {
+            "more home alone": 1
           }
         },
         {
@@ -4409,10 +4431,21 @@
     {
       "artist": "home alone.",
       "album": "all killer, no filler",
-      "count": 9,
+      "count": 10,
       "first": 1788929845,
-      "last": 1789447986,
+      "last": 1789448431,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "5o5",
+          "album": "all killer, no filler",
+          "count": 1,
+          "first": 1789448431,
+          "last": 1789448431,
+          "playlists": {
+            "more home alone": 1
+          }
+        },
         {
           "artist": "home alone.",
           "title": "all that jazz",
@@ -4515,65 +4548,23 @@
       ]
     },
     {
-      "artist": "Florence + The Machine",
-      "album": "Dance Fever",
-      "count": 9,
-      "first": 1789099438,
-      "last": 1789198840,
-      "songs": [
-        {
-          "artist": "Florence + The Machine",
-          "title": "Dream Girl Evil",
-          "album": "Dance Fever",
-          "count": 3,
-          "first": 1789101142,
-          "last": 1789198840,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Cassandra",
-          "album": "Dance Fever",
-          "count": 3,
-          "first": 1789101648,
-          "last": 1789197981,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "My Love",
-          "album": "Dance Fever",
-          "count": 2,
-          "first": 1789099438,
-          "last": 1789104039,
-          "playlists": {
-            "for the girls driving 85": 2
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Free",
-          "album": "Dance Fever",
-          "count": 1,
-          "first": 1789104727,
-          "last": 1789104727,
-          "playlists": {
-            "for the girls driving 85": 1
-          }
-        }
-      ]
-    },
-    {
       "artist": "home alone.",
       "album": "drive it like you stole it.",
-      "count": 9,
+      "count": 10,
       "first": 1788929527,
-      "last": 1789018094,
+      "last": 1789448241,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "light it up",
+          "album": "drive it like you stole it.",
+          "count": 1,
+          "first": 1789448241,
+          "last": 1789448241,
+          "playlists": {
+            "more home alone": 1
+          }
+        },
         {
           "artist": "home alone.",
           "title": "kill bill",
@@ -4671,6 +4662,59 @@
           "last": 1788929527,
           "playlists": {
             "more home alone": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Florence + The Machine",
+      "album": "Dance Fever",
+      "count": 9,
+      "first": 1789099438,
+      "last": 1789198840,
+      "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "Dream Girl Evil",
+          "album": "Dance Fever",
+          "count": 3,
+          "first": 1789101142,
+          "last": 1789198840,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Cassandra",
+          "album": "Dance Fever",
+          "count": 3,
+          "first": 1789101648,
+          "last": 1789197981,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "My Love",
+          "album": "Dance Fever",
+          "count": 2,
+          "first": 1789099438,
+          "last": 1789104039,
+          "playlists": {
+            "for the girls driving 85": 2
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Free",
+          "album": "Dance Fever",
+          "count": 1,
+          "first": 1789104727,
+          "last": 1789104727,
+          "playlists": {
+            "for the girls driving 85": 1
           }
         }
       ]
