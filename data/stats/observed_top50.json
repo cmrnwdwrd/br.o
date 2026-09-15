@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T15:46:12.800427+00:00",
+  "updatedAt": "2026-09-15T15:51:20.385198+00:00",
   "summary": {
-    "totalPlays": 2445,
+    "totalPlays": 2446,
     "unknownPlays": 290,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789487174
+    "lastObserved": 1789487420
   },
   "topSongs": [
+    {
+      "artist": "Destructo Disk",
+      "title": "I Wish I Was A Riot Grrrl",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 6,
+      "first": 1788996063,
+      "last": 1789487420,
+      "playlists": {
+        "1default": 6
+      }
+    },
     {
       "artist": "Modest Mouse",
       "title": "Bury Me With It",
@@ -107,17 +118,6 @@
       "count": 5,
       "first": 1788996940,
       "last": 1789416551,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Destructo Disk",
-      "title": "I Wish I Was A Riot Grrrl",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 5,
-      "first": 1788996063,
-      "last": 1789337089,
       "playlists": {
         "1default": 5
       }
@@ -3749,6 +3749,25 @@
       ]
     },
     {
+      "artist": "Destructo Disk",
+      "count": 6,
+      "first": 1788996063,
+      "last": 1789487420,
+      "songs": [
+        {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 6,
+          "first": 1788996063,
+          "last": 1789487420,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 6,
       "first": 1788989714,
@@ -3823,80 +3842,6 @@
           "last": 1789403890,
           "playlists": {
             "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Rainbow Kitten Surprise",
-      "count": 6,
-      "first": 1789044109,
-      "last": 1789480709,
-      "songs": [
-        {
-          "artist": "Rainbow Kitten Surprise",
-          "title": "Heart",
-          "album": "Mary (b-sides)",
-          "count": 1,
-          "first": 1789480709,
-          "last": 1789480709,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Rainbow Kitten Surprise",
-          "title": "First Class",
-          "album": "Seven + Mary",
-          "count": 1,
-          "first": 1789477240,
-          "last": 1789477240,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Rainbow Kitten Surprise",
-          "title": "Cold Love",
-          "album": "RKS",
-          "count": 1,
-          "first": 1789048161,
-          "last": 1789048161,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Rainbow Kitten Surprise",
-          "title": "Possum Queen",
-          "album": "How to: Friend, Love, Freefall",
-          "count": 1,
-          "first": 1789046919,
-          "last": 1789046919,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Rainbow Kitten Surprise",
-          "title": "All's Well That Ends",
-          "album": "RKS",
-          "count": 1,
-          "first": 1789044723,
-          "last": 1789044723,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Rainbow Kitten Surprise",
-          "title": "It's Called: Freefall",
-          "album": "How to: Friend, Love, Freefall",
-          "count": 1,
-          "first": 1789044109,
-          "last": 1789044109,
-          "playlists": {
-            "carhartts": 1
           }
         }
       ]
@@ -5352,6 +5297,26 @@
       ]
     },
     {
+      "artist": "Destructo Disk",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 6,
+      "first": 1788996063,
+      "last": 1789487420,
+      "songs": [
+        {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 6,
+          "first": 1788996063,
+          "last": 1789487420,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 6,
@@ -6180,35 +6145,26 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Tele Novella",
-      "album": "Poet's Tooth",
-      "count": 5,
-      "first": 1788996940,
-      "last": 1789416551,
-      "songs": [
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 5,
-          "first": 1788996940,
-          "last": 1789416551,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1122,
+      "count": 1123,
       "first": 1788901564,
-      "last": 1789487174,
+      "last": 1789487420,
       "songs": [
+        {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 6,
+          "first": 1788996063,
+          "last": 1789487420,
+          "playlists": {
+            "1default": 6
+          }
+        },
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
@@ -6249,17 +6205,6 @@
           "count": 5,
           "first": 1788911339,
           "last": 1789485558,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "The Cardigans",
-          "title": "Step On Me",
-          "album": "First Band On The Moon (Remastered)",
-          "count": 5,
-          "first": 1788985233,
-          "last": 1789483645,
           "playlists": {
             "1default": 5
           }
