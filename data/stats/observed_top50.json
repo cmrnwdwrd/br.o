@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T00:21:12.690824+00:00",
+  "updatedAt": "2026-09-15T00:26:11.469564+00:00",
   "summary": {
-    "totalPlays": 2182,
+    "totalPlays": 2184,
     "unknownPlays": 259,
     "uniqueTracks": 1286,
     "uniqueArtists": 911,
     "uniqueAlbums": 1098,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789431474
+    "lastObserved": 1789431945
   },
   "topSongs": [
     {
@@ -252,6 +252,28 @@
       "last": 1789115080,
       "playlists": {
         "breakbeat": 4
+      }
+    },
+    {
+      "artist": "KXLLSWXTCH, Powers Pleasant",
+      "title": "COSMO",
+      "album": "THE WALLS HAVE EYES",
+      "count": 3,
+      "first": 1789049117,
+      "last": 1789431945,
+      "playlists": {
+        "1default": 3
+      }
+    },
+    {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 3,
+      "first": 1788965930,
+      "last": 1789431707,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 3,
       "first": 1788921291,
       "last": 1789417095,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Rock n' roll (Bonus Track)",
-      "album": "1's a Man, 3's a Band",
-      "count": 3,
-      "first": 1788903730,
-      "last": 1789416781,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Pixies",
-      "title": "Here Comes Your Man",
-      "album": "Doolittle",
-      "count": 3,
-      "first": 1788972865,
-      "last": 1789416348,
       "playlists": {
         "1default": 3
       }
@@ -2959,6 +2959,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 7,
+      "first": 1788965930,
+      "last": 1789431707,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 3,
+          "first": 1788965930,
+          "last": 1789431707,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 2,
+          "first": 1789215234,
+          "last": 1789414469,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 2,
+          "first": 1789068640,
+          "last": 1789411743,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 7,
       "first": 1788975620,
@@ -3372,47 +3413,6 @@
           "last": 1789414693,
           "playlists": {
             "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 6,
-      "first": 1788965930,
-      "last": 1789414469,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 2,
-          "first": 1789215234,
-          "last": 1789414469,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 2,
-          "first": 1789068640,
-          "last": 1789411743,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 2,
-          "first": 1788965930,
-          "last": 1789130727,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6128,9 +6128,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1013,
+      "count": 1015,
       "first": 1788901564,
-      "last": 1789431474,
+      "last": 1789431945,
       "songs": [
         {
           "artist": "Tele Novella",
