@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T08:01:20.566993+00:00",
+  "updatedAt": "2026-09-15T08:06:07.541551+00:00",
   "summary": {
-    "totalPlays": 2318,
+    "totalPlays": 2319,
     "unknownPlays": 275,
     "uniqueTracks": 1294,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789459275
+    "lastObserved": 1789459460
   },
   "topSongs": [
     {
@@ -87,6 +87,17 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "bastienGOAT",
+      "title": "Tell me if you like it",
+      "album": "MULTI",
+      "count": 4,
+      "first": 1788944435,
+      "last": 1789459460,
+      "playlists": {
+        "breakbeat": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788982835,
       "last": 1789344714,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "MJ Lenderman",
-      "title": "Rudolph",
-      "album": "Manning Fireworks",
-      "count": 4,
-      "first": 1788988450,
-      "last": 1789337444,
       "playlists": {
         "1default": 4
       }
@@ -3558,6 +3558,36 @@
       ]
     },
     {
+      "artist": "bastienGOAT",
+      "count": 6,
+      "first": 1788944435,
+      "last": 1789459460,
+      "songs": [
+        {
+          "artist": "bastienGOAT",
+          "title": "Tell me if you like it",
+          "album": "MULTI",
+          "count": 4,
+          "first": 1788944435,
+          "last": 1789459460,
+          "playlists": {
+            "breakbeat": 4
+          }
+        },
+        {
+          "artist": "bastienGOAT",
+          "title": "Don't stop don't miss",
+          "album": "NODE",
+          "count": 2,
+          "first": 1789029209,
+          "last": 1789455397,
+          "playlists": {
+            "breakbeat": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Machine Girl",
       "count": 6,
       "first": 1788942783,
@@ -3834,47 +3864,6 @@
           "last": 1789414693,
           "playlists": {
             "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kendrick Lamar",
-      "count": 6,
-      "first": 1789061029,
-      "last": 1789413985,
-      "songs": [
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Black Panther",
-          "album": "Black Panther The Album Music From And Inspired By",
-          "count": 3,
-          "first": 1789061029,
-          "last": 1789413985,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Alright",
-          "album": "To Pimp A Butterfly",
-          "count": 2,
-          "first": 1789221730,
-          "last": 1789394770,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "HUMBLE.",
-          "album": "DAMN.",
-          "count": 1,
-          "first": 1789319672,
-          "last": 1789319672,
-          "playlists": {
-            "throwbacks": 1
           }
         }
       ]
@@ -6268,9 +6257,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 204,
+      "count": 205,
       "first": 1788938278,
-      "last": 1789459275,
+      "last": 1789459460,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
@@ -6281,6 +6270,17 @@
           "last": 1789457747,
           "playlists": {
             "breakbeat": 5
+          }
+        },
+        {
+          "artist": "bastienGOAT",
+          "title": "Tell me if you like it",
+          "album": "MULTI",
+          "count": 4,
+          "first": 1788944435,
+          "last": 1789459460,
+          "playlists": {
+            "breakbeat": 4
           }
         },
         {
@@ -6314,17 +6314,6 @@
           "last": 1789115080,
           "playlists": {
             "breakbeat": 4
-          }
-        },
-        {
-          "artist": "Lake Hills",
-          "title": "PRIVATE LINK",
-          "album": "PRIVATE LINK",
-          "count": 3,
-          "first": 1789026815,
-          "last": 1789458905,
-          "playlists": {
-            "breakbeat": 3
           }
         }
       ]
