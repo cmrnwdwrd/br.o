@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T20:21:14.423522+00:00",
+  "updatedAt": "2026-09-15T20:26:15.658736+00:00",
   "summary": {
-    "totalPlays": 2520,
+    "totalPlays": 2521,
     "unknownPlays": 300,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789503640
+    "lastObserved": 1789503955
   },
   "topSongs": [
     {
@@ -43,6 +43,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 5,
+      "first": 1789015368,
+      "last": 1789503955,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788912073,
       "last": 1789493195,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "No Pulse",
-      "album": "PHANTOMS",
-      "count": 4,
-      "first": 1788946866,
-      "last": 1789492980,
       "playlists": {
         "1default": 4
       }
@@ -6029,6 +6029,26 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 5,
+      "first": 1789015368,
+      "last": 1789503955,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 5,
+          "first": 1789015368,
+          "last": 1789503955,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Viagra Boys",
       "album": "Street Worms",
       "count": 5,
@@ -6158,34 +6178,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "The Cardigans",
-      "album": "First Band On The Moon (Remastered)",
-      "count": 5,
-      "first": 1788985233,
-      "last": 1789483645,
-      "songs": [
-        {
-          "artist": "The Cardigans",
-          "title": "Step On Me",
-          "album": "First Band On The Moon (Remastered)",
-          "count": 5,
-          "first": 1788985233,
-          "last": 1789483645,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1197,
+      "count": 1198,
       "first": 1788901564,
-      "last": 1789503640,
+      "last": 1789503955,
       "songs": [
         {
           "artist": "Destructo Disk",
@@ -6221,23 +6221,23 @@
           }
         },
         {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 5,
+          "first": 1789015368,
+          "last": 1789503955,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
           "artist": "Viagra Boys",
           "title": "Worms",
           "album": "Street Worms",
           "count": 5,
           "first": 1788991593,
           "last": 1789502583,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "MJ Lenderman",
-          "title": "Rudolph",
-          "album": "Manning Fireworks",
-          "count": 5,
-          "first": 1788988450,
-          "last": 1789497122,
           "playlists": {
             "1default": 5
           }
