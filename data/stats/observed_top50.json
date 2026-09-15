@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T02:26:07.912442+00:00",
+  "updatedAt": "2026-09-15T02:31:18.337045+00:00",
   "summary": {
-    "totalPlays": 2218,
+    "totalPlays": 2219,
     "unknownPlays": 264,
     "uniqueTracks": 1287,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789439169
+    "lastObserved": 1789439475
   },
   "topSongs": [
     {
@@ -65,6 +65,17 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "SiR",
+      "title": "D'Evils",
+      "album": "November",
+      "count": 4,
+      "first": 1789033495,
+      "last": 1789439475,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788965930,
       "last": 1789431707,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "The Cranberries",
-      "title": "Ode To My Family",
-      "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-      "count": 3,
-      "first": 1789060180,
-      "last": 1789431115,
       "playlists": {
         "1default": 3
       }
@@ -6074,6 +6074,26 @@
       ]
     },
     {
+      "artist": "SiR",
+      "album": "November",
+      "count": 4,
+      "first": 1789033495,
+      "last": 1789439475,
+      "songs": [
+        {
+          "artist": "SiR",
+          "title": "D'Evils",
+          "album": "November",
+          "count": 4,
+          "first": 1789033495,
+          "last": 1789439475,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Airborne Toxic Event",
       "album": "The Airborne Toxic Event (Deluxe Edition)",
       "count": 4,
@@ -6092,34 +6112,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Tennis",
-      "album": "Young & Old",
-      "count": 4,
-      "first": 1788989320,
-      "last": 1789437001,
-      "songs": [
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 4,
-          "first": 1788989320,
-          "last": 1789437001,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1049,
+      "count": 1050,
       "first": 1788901564,
-      "last": 1789439169,
+      "last": 1789439475,
       "songs": [
         {
           "artist": "Daffo",
