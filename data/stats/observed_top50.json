@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T21:16:08.699086+00:00",
+  "updatedAt": "2026-09-15T21:21:10.997489+00:00",
   "summary": {
-    "totalPlays": 2536,
+    "totalPlays": 2538,
     "unknownPlays": 302,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789506865
+    "lastObserved": 1789507265
   },
   "topSongs": [
     {
@@ -197,6 +197,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 4,
+      "first": 1788968380,
+      "last": 1789507000,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1789049635,
       "last": 1789496214,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Masta Ace",
-      "title": "Son of Yvonne",
-      "album": "MA_DOOM: Son of Yvonne",
-      "count": 4,
-      "first": 1788970154,
-      "last": 1789496019,
       "playlists": {
         "1default": 4
       }
@@ -2888,6 +2888,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 8,
+      "first": 1788947080,
+      "last": 1789507000,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 4,
+          "first": 1788968380,
+          "last": 1789507000,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 4,
+          "first": 1788947080,
+          "last": 1789482739,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 8,
       "first": 1788914421,
@@ -3597,36 +3627,6 @@
           "count": 3,
           "first": 1789239544,
           "last": 1789483315,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "count": 7,
-      "first": 1788947080,
-      "last": 1789482739,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 4,
-          "first": 1788947080,
-          "last": 1789482739,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 3,
-          "first": 1788968380,
-          "last": 1789420333,
           "playlists": {
             "1default": 3
           }
@@ -4910,6 +4910,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 8,
+      "first": 1788947080,
+      "last": 1789507000,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 4,
+          "first": 1788968380,
+          "last": 1789507000,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 4,
+          "first": 1788947080,
+          "last": 1789482739,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "album": "GRITTED TEETH *",
       "count": 8,
@@ -5312,37 +5343,6 @@
           "count": 3,
           "first": 1788972349,
           "last": 1789434815,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 7,
-      "first": 1788947080,
-      "last": 1789482739,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 4,
-          "first": 1788947080,
-          "last": 1789482739,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 3,
-          "first": 1788968380,
-          "last": 1789420333,
           "playlists": {
             "1default": 3
           }
@@ -6172,9 +6172,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1213,
+      "count": 1215,
       "first": 1788901564,
-      "last": 1789506865,
+      "last": 1789507265,
       "songs": [
         {
           "artist": "Destructo Disk",
