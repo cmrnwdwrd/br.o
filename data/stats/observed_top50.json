@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T03:41:11.646527+00:00",
+  "updatedAt": "2026-09-15T03:46:12.856458+00:00",
   "summary": {
-    "totalPlays": 2236,
+    "totalPlays": 2237,
     "unknownPlays": 266,
     "uniqueTracks": 1287,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789443454
+    "lastObserved": 1789443789
   },
   "topSongs": [
     {
@@ -76,6 +76,17 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Lorde",
+      "title": "Ribs",
+      "album": "Pure Heroine",
+      "count": 4,
+      "first": 1789222724,
+      "last": 1789443789,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1788989025,
       "last": 1789437931,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "The Slaps",
-      "title": "Where Were You Where They Were Also",
-      "album": "A",
-      "count": 3,
-      "first": 1788974839,
-      "last": 1789437450,
       "playlists": {
         "1default": 3
       }
@@ -3071,6 +3071,36 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 7,
+      "first": 1788914032,
+      "last": 1789443789,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 4,
+          "first": 1789222724,
+          "last": 1789443789,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 3,
+          "first": 1788914032,
+          "last": 1789408773,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 7,
       "first": 1788919285,
@@ -3381,36 +3411,6 @@
           "count": 3,
           "first": 1788947080,
           "last": 1789329249,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 6,
-      "first": 1788914032,
-      "last": 1789418500,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 3,
-          "first": 1789222724,
-          "last": 1789418500,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 3,
-          "first": 1788914032,
-          "last": 1789408773,
           "playlists": {
             "1default": 3
           }
@@ -6094,19 +6094,19 @@
       ]
     },
     {
-      "artist": "Black Sheep",
-      "album": "A Wolf In Sheep's Clothing",
+      "artist": "Lorde",
+      "album": "Pure Heroine",
       "count": 4,
-      "first": 1789062768,
-      "last": 1789443210,
+      "first": 1789222724,
+      "last": 1789443789,
       "songs": [
         {
-          "artist": "Black Sheep",
-          "title": "The Choice Is Yours (Revisited)",
-          "album": "A Wolf In Sheep's Clothing",
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
           "count": 4,
-          "first": 1789062768,
-          "last": 1789443210,
+          "first": 1789222724,
+          "last": 1789443789,
           "playlists": {
             "1default": 4
           }
@@ -6117,9 +6117,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1067,
+      "count": 1068,
       "first": 1788901564,
-      "last": 1789443454,
+      "last": 1789443789,
       "songs": [
         {
           "artist": "Mallory Graham",
