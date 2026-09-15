@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T20:16:13.697859+00:00",
+  "updatedAt": "2026-09-15T20:21:14.423522+00:00",
   "summary": {
-    "totalPlays": 2518,
-    "unknownPlays": 299,
+    "totalPlays": 2520,
+    "unknownPlays": 300,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789503232
+    "lastObserved": 1789503640
   },
   "topSongs": [
     {
@@ -186,6 +186,28 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "HEALTH, Nine Inch Nails",
+      "title": "ISN'T EVERYONE",
+      "album": "ISN'T EVERYONE",
+      "count": 4,
+      "first": 1788967539,
+      "last": 1789503640,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "DISINTEGRATE",
+      "album": "SWAMP",
+      "count": 4,
+      "first": 1788983290,
+      "last": 1789503480,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 4,
       "first": 1788946866,
       "last": 1789492980,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Gorillaz, ScHoolboy Q",
-      "title": "Pac-Man (feat. ScHoolboy Q)",
-      "album": "Song Machine Episode 5",
-      "count": 4,
-      "first": 1788901855,
-      "last": 1789492495,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Pigeons Playing Ping Pong",
-      "title": "Poseidon",
-      "album": "Pizazz",
-      "count": 4,
-      "first": 1788987420,
-      "last": 1789492171,
       "playlists": {
         "1default": 4
       }
@@ -1014,10 +1014,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 49,
+      "count": 50,
       "first": 1788910325,
-      "last": 1789466175,
+      "last": 1789503480,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1788983290,
+          "last": 1789503480,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "THE WORLD IS ENDING",
@@ -1146,17 +1157,6 @@
           "count": 3,
           "first": 1788926373,
           "last": 1789334845,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 3,
-          "first": 1788983290,
-          "last": 1789329750,
           "playlists": {
             "1default": 3
           }
@@ -4369,10 +4369,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 13,
+      "count": 14,
       "first": 1788926373,
-      "last": 1789444924,
+      "last": 1789503480,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1788983290,
+          "last": 1789503480,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "HANGING MYSELF WITH MY PHONE CHARGER",
@@ -4402,17 +4413,6 @@
           "count": 3,
           "first": 1788926373,
           "last": 1789334845,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 3,
-          "first": 1788983290,
-          "last": 1789329750,
           "playlists": {
             "1default": 3
           }
@@ -6183,9 +6183,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1195,
+      "count": 1197,
       "first": 1788901564,
-      "last": 1789503232,
+      "last": 1789503640,
       "songs": [
         {
           "artist": "Destructo Disk",
