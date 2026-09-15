@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T14:36:15.114179+00:00",
+  "updatedAt": "2026-09-15T14:41:19.302547+00:00",
   "summary": {
-    "totalPlays": 2425,
+    "totalPlays": 2427,
     "unknownPlays": 288,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789482739
+    "lastObserved": 1789483127
   },
   "topSongs": [
     {
@@ -87,6 +87,28 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 4,
+      "first": 1789033065,
+      "last": 1789483127,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
+      "artist": "Susannah Joffe",
+      "title": "Die Your Daughter",
+      "album": "Your Mother's Name",
+      "count": 4,
+      "first": 1788989025,
+      "last": 1789482985,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 4,
       "first": 1788902251,
       "last": 1789440835,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Radiohead",
-      "title": "Just",
-      "album": "The Bends",
-      "count": 4,
-      "first": 1788984450,
-      "last": 1789440411,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Zolof the Rock & Roll Destroyer",
-      "title": "Plays Pretty for Baby",
-      "album": "Zolof the Rock & Roll Destroyer",
-      "count": 4,
-      "first": 1788987745,
-      "last": 1789440284,
       "playlists": {
         "1default": 4
       }
@@ -2497,6 +2497,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 9,
+      "first": 1788973998,
+      "last": 1789483127,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 4,
+          "first": 1789033065,
+          "last": 1789483127,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 3,
+          "first": 1788973998,
+          "last": 1789394545,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 2,
+          "first": 1789226629,
+          "last": 1789343283,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Tennis",
       "count": 9,
       "first": 1788989320,
@@ -2974,47 +3015,6 @@
           "count": 2,
           "first": 1789139069,
           "last": 1789335744,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 8,
-      "first": 1788973998,
-      "last": 1789413262,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 3,
-          "first": 1789033065,
-          "last": 1789413262,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 3,
-          "first": 1788973998,
-          "last": 1789394545,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 2,
-          "first": 1789226629,
-          "last": 1789343283,
           "playlists": {
             "1default": 2
           }
@@ -6249,9 +6249,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1102,
+      "count": 1104,
       "first": 1788901564,
-      "last": 1789482739,
+      "last": 1789483127,
       "songs": [
         {
           "artist": "Los Narwhals",
