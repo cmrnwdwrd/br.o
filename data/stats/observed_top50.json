@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T02:21:13.980778+00:00",
+  "updatedAt": "2026-09-15T02:26:07.912442+00:00",
   "summary": {
-    "totalPlays": 2216,
-    "unknownPlays": 263,
+    "totalPlays": 2218,
+    "unknownPlays": 264,
     "uniqueTracks": 1287,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789438811
+    "lastObserved": 1789439169
   },
   "topSongs": [
     {
@@ -65,6 +65,17 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "The Airborne Toxic Event",
+      "title": "Sometime Around Midnight",
+      "album": "The Airborne Toxic Event (Deluxe Edition)",
+      "count": 4,
+      "first": 1788911534,
+      "last": 1789439169,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -285,6 +296,17 @@
       "last": 1789115080,
       "playlists": {
         "breakbeat": 4
+      }
+    },
+    {
+      "artist": "Brandywine",
+      "title": "Hey You",
+      "album": "Hey You",
+      "count": 3,
+      "first": 1789215234,
+      "last": 1789438919,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 3,
       "first": 1789060180,
       "last": 1789431115,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Harper Powell",
-      "title": "It's the Full Moon",
-      "album": "It's the Full Moon",
-      "count": 3,
-      "first": 1788947970,
-      "last": 1789430884,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "The Chats",
-      "title": "Smoko",
-      "album": "Get This In Ya",
-      "count": 3,
-      "first": 1789078009,
-      "last": 1789430705,
       "playlists": {
         "1default": 3
       }
@@ -2658,6 +2658,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 8,
+      "first": 1788965930,
+      "last": 1789438919,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 3,
+          "first": 1789215234,
+          "last": 1789438919,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 3,
+          "first": 1788965930,
+          "last": 1789431707,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 2,
+          "first": 1789068640,
+          "last": 1789411743,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 8,
       "first": 1788975620,
@@ -3025,47 +3066,6 @@
           "last": 1789338669,
           "playlists": {
             "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 7,
-      "first": 1788965930,
-      "last": 1789431707,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 3,
-          "first": 1788965930,
-          "last": 1789431707,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 2,
-          "first": 1789215234,
-          "last": 1789414469,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 2,
-          "first": 1789068640,
-          "last": 1789411743,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -6074,6 +6074,26 @@
       ]
     },
     {
+      "artist": "The Airborne Toxic Event",
+      "album": "The Airborne Toxic Event (Deluxe Edition)",
+      "count": 4,
+      "first": 1788911534,
+      "last": 1789439169,
+      "songs": [
+        {
+          "artist": "The Airborne Toxic Event",
+          "title": "Sometime Around Midnight",
+          "album": "The Airborne Toxic Event (Deluxe Edition)",
+          "count": 4,
+          "first": 1788911534,
+          "last": 1789439169,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Tennis",
       "album": "Young & Old",
       "count": 4,
@@ -6092,45 +6112,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Phoebe Bridgers",
-      "album": "Stranger in the Alps",
-      "count": 4,
-      "first": 1788926905,
-      "last": 1789436267,
-      "songs": [
-        {
-          "artist": "Phoebe Bridgers",
-          "title": "Killer",
-          "album": "Stranger in the Alps",
-          "count": 3,
-          "first": 1788926905,
-          "last": 1789436267,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Phoebe Bridgers",
-          "title": "Georgia",
-          "album": "Stranger in the Alps",
-          "count": 1,
-          "first": 1789041947,
-          "last": 1789041947,
-          "playlists": {
-            "carhartts": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1047,
+      "count": 1049,
       "first": 1788901564,
-      "last": 1789438811,
+      "last": 1789439169,
       "songs": [
         {
           "artist": "Daffo",
