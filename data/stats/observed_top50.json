@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T14:31:13.379800+00:00",
+  "updatedAt": "2026-09-15T14:36:15.114179+00:00",
   "summary": {
-    "totalPlays": 2424,
+    "totalPlays": 2425,
     "unknownPlays": 288,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789482505
+    "lastObserved": 1789482739
   },
   "topSongs": [
     {
@@ -87,6 +87,17 @@
       "last": 1789331035,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Jethro Tull",
+      "title": "A New Day Yesterday",
+      "album": "Stand Up",
+      "count": 4,
+      "first": 1788947080,
+      "last": 1789482739,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788987745,
       "last": 1789440284,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Led Zeppelin",
-      "title": "Dazed and Confused - 1990 Remaster",
-      "album": "Led Zeppelin",
-      "count": 4,
-      "first": 1789062336,
-      "last": 1789439897,
       "playlists": {
         "1default": 4
       }
@@ -3241,6 +3241,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 7,
+      "first": 1788947080,
+      "last": 1789482739,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 4,
+          "first": 1788947080,
+          "last": 1789482739,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 3,
+          "first": 1788968380,
+          "last": 1789420333,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Los Narwhals",
       "count": 7,
       "first": 1788972740,
@@ -3876,36 +3906,6 @@
           "count": 2,
           "first": 1789077114,
           "last": 1789348245,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "MICHELLE",
-      "count": 6,
-      "first": 1789061160,
-      "last": 1789444695,
-      "songs": [
-        {
-          "artist": "MICHELLE",
-          "title": "FYO",
-          "album": "FYO",
-          "count": 4,
-          "first": 1789061160,
-          "last": 1789444695,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "MICHELLE",
-          "title": "SYNCOPATE",
-          "album": "AFTER DINNER WE TALK DREAMS",
-          "count": 2,
-          "first": 1789239544,
-          "last": 1789378268,
           "playlists": {
             "1default": 2
           }
@@ -5113,6 +5113,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 7,
+      "first": 1788947080,
+      "last": 1789482739,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 4,
+          "first": 1788947080,
+          "last": 1789482739,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 3,
+          "first": 1788968380,
+          "last": 1789420333,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Laurel Hell",
       "count": 7,
@@ -5418,37 +5449,6 @@
           "count": 3,
           "first": 1788997306,
           "last": 1789332320,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 6,
-      "first": 1788947080,
-      "last": 1789420333,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 3,
-          "first": 1788968380,
-          "last": 1789420333,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 3,
-          "first": 1788947080,
-          "last": 1789329249,
           "playlists": {
             "1default": 3
           }
@@ -6249,9 +6249,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1101,
+      "count": 1102,
       "first": 1788901564,
-      "last": 1789482505,
+      "last": 1789482739,
       "songs": [
         {
           "artist": "Los Narwhals",
