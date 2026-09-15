@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T17:21:20.208078+00:00",
+  "updatedAt": "2026-09-15T17:26:15.618697+00:00",
   "summary": {
-    "totalPlays": 2470,
-    "unknownPlays": 293,
+    "totalPlays": 2471,
+    "unknownPlays": 294,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789492686
+    "lastObserved": 1789492980
   },
   "topSongs": [
     {
@@ -153,6 +153,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Opium",
+      "title": "No Pulse",
+      "album": "PHANTOMS",
+      "count": 4,
+      "first": 1788946866,
+      "last": 1789492980,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788903124,
       "last": 1789465023,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Junkyard Dog",
-      "album": "1's a Man, 3's a Band",
-      "count": 4,
-      "first": 1788928852,
-      "last": 1789464759,
       "playlists": {
         "1default": 4
       }
@@ -1588,10 +1588,21 @@
     },
     {
       "artist": "Opium",
-      "count": 26,
+      "count": 27,
       "first": 1788927400,
-      "last": 1789489982,
+      "last": 1789492980,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 4,
+          "first": 1788946866,
+          "last": 1789492980,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "Opium",
           "title": "Dirge",
@@ -1632,17 +1643,6 @@
           "count": 3,
           "first": 1789063255,
           "last": 1789432732,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 3,
-          "first": 1788946866,
-          "last": 1789374730,
           "playlists": {
             "1default": 3
           }
@@ -3873,10 +3873,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 19,
+      "count": 20,
       "first": 1788927400,
-      "last": 1789486956,
+      "last": 1789492980,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 4,
+          "first": 1788946866,
+          "last": 1789492980,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "Opium",
           "title": "Broken Glass",
@@ -3897,17 +3908,6 @@
           "last": 1789481544,
           "playlists": {
             "1default": 4
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 3,
-          "first": 1788946866,
-          "last": 1789374730,
-          "playlists": {
-            "1default": 3
           }
         },
         {
@@ -6161,9 +6161,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1147,
+      "count": 1148,
       "first": 1788901564,
-      "last": 1789492686,
+      "last": 1789492980,
       "songs": [
         {
           "artist": "Destructo Disk",
