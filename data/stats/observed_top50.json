@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T15:16:12.849185+00:00",
+  "updatedAt": "2026-09-15T15:21:47.049124+00:00",
   "summary": {
-    "totalPlays": 2436,
+    "totalPlays": 2438,
     "unknownPlays": 290,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789485267
+    "lastObserved": 1789485558
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "wilt",
+      "title": "the riff",
+      "album": "the riff",
+      "count": 5,
+      "first": 1788911339,
+      "last": 1789485558,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -98,6 +109,17 @@
       "last": 1789337089,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Against Me!",
+      "title": "Baby, I'm an Anarchist!",
+      "album": "Reinventing Axl Rose",
+      "count": 4,
+      "first": 1788947810,
+      "last": 1789485400,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 4,
       "first": 1789222724,
       "last": 1789443789,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Black Sheep",
-      "title": "The Choice Is Yours (Revisited)",
-      "album": "A Wolf In Sheep's Clothing",
-      "count": 4,
-      "first": 1789062768,
-      "last": 1789443210,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "COIN",
-      "title": "Chapstick",
-      "album": "Chapstick",
-      "count": 4,
-      "first": 1788903373,
-      "last": 1789442575,
       "playlists": {
         "1default": 4
       }
@@ -3241,6 +3241,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 7,
+      "first": 1788947810,
+      "last": 1789485400,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 4,
+          "first": 1788947810,
+          "last": 1789485400,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 3,
+          "first": 1789059805,
+          "last": 1789336407,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 7,
       "first": 1789061029,
@@ -3867,47 +3897,6 @@
           "last": 1789455397,
           "playlists": {
             "breakbeat": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Machine Girl",
-      "count": 6,
-      "first": 1788942783,
-      "last": 1789459275,
-      "songs": [
-        {
-          "artist": "Machine Girl",
-          "title": "Ghost",
-          "album": "Wlfgrl",
-          "count": 4,
-          "first": 1788942783,
-          "last": 1789459275,
-          "playlists": {
-            "breakbeat": 4
-          }
-        },
-        {
-          "artist": "Machine Girl",
-          "title": "うずまき",
-          "album": "...Because I'm Young Arrogant and Hate Everything You Stand For",
-          "count": 1,
-          "first": 1789134394,
-          "last": 1789134394,
-          "playlists": {
-            "hyperpop friday morning": 1
-          }
-        },
-        {
-          "artist": "Machine Girl",
-          "title": "Greaze - Machine Girl Mix",
-          "album": "RePorpoised Phantasies",
-          "count": 1,
-          "first": 1789132950,
-          "last": 1789132950,
-          "playlists": {
-            "hyperpop friday morning": 1
           }
         }
       ]
@@ -5949,6 +5938,26 @@
       ]
     },
     {
+      "artist": "wilt",
+      "album": "the riff",
+      "count": 5,
+      "first": 1788911339,
+      "last": 1789485558,
+      "songs": [
+        {
+          "artist": "wilt",
+          "title": "the riff",
+          "album": "the riff",
+          "count": 5,
+          "first": 1788911339,
+          "last": 1789485558,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cardigans",
       "album": "First Band On The Moon (Remastered)",
       "count": 5,
@@ -6202,45 +6211,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
-      "album": "the record",
-      "count": 5,
-      "first": 1788986031,
-      "last": 1789340245,
-      "songs": [
-        {
-          "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
-          "title": "Not Strong Enough",
-          "album": "the record",
-          "count": 3,
-          "first": 1788986031,
-          "last": 1789340245,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
-          "title": "Cool About It",
-          "album": "the record",
-          "count": 2,
-          "first": 1789152675,
-          "last": 1789260942,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1113,
+      "count": 1115,
       "first": 1788901564,
-      "last": 1789485267,
+      "last": 1789485558,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -6265,6 +6243,17 @@
           }
         },
         {
+          "artist": "wilt",
+          "title": "the riff",
+          "album": "the riff",
+          "count": 5,
+          "first": 1788911339,
+          "last": 1789485558,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
           "artist": "The Cardigans",
           "title": "Step On Me",
           "album": "First Band On The Moon (Remastered)",
@@ -6282,17 +6271,6 @@
           "count": 5,
           "first": 1789063640,
           "last": 1789443003,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Daffo",
-          "title": "Good God",
-          "album": "Good God (Porches Remix)",
-          "count": 5,
-          "first": 1788920320,
-          "last": 1789438690,
           "playlists": {
             "1default": 5
           }
