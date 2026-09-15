@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T02:16:12.637041+00:00",
+  "updatedAt": "2026-09-15T02:21:13.980778+00:00",
   "summary": {
-    "totalPlays": 2214,
+    "totalPlays": 2216,
     "unknownPlays": 263,
     "uniqueTracks": 1287,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789438474
+    "lastObserved": 1789438811
   },
   "topSongs": [
+    {
+      "artist": "Daffo",
+      "title": "Good God",
+      "album": "Good God (Porches Remix)",
+      "count": 5,
+      "first": 1788920320,
+      "last": 1789438690,
+      "playlists": {
+        "1default": 5
+      }
+    },
     {
       "artist": "Tele Novella",
       "title": "Funeral",
@@ -266,17 +277,6 @@
       }
     },
     {
-      "artist": "Daffo",
-      "title": "Good God",
-      "album": "Good God (Porches Remix)",
-      "count": 4,
-      "first": 1788920320,
-      "last": 1789326922,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
       "artist": "Joey Valence & Brae",
       "title": "Crank It Up",
       "album": "Crank It Up",
@@ -285,6 +285,17 @@
       "last": 1789115080,
       "playlists": {
         "breakbeat": 4
+      }
+    },
+    {
+      "artist": "Jaguar Stevens",
+      "title": "Capital Lie",
+      "album": "Jaguar Stevens",
+      "count": 3,
+      "first": 1789209975,
+      "last": 1789438811,
+      "playlists": {
+        "1default": 3
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1789078009,
       "last": 1789430705,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "title": "Pawn Shop Prada",
-      "album": "Lick My Soul",
-      "count": 3,
-      "first": 1788919863,
-      "last": 1789430230,
       "playlists": {
         "1default": 3
       }
@@ -2658,6 +2658,47 @@
       ]
     },
     {
+      "artist": "Jaguar Stevens",
+      "count": 8,
+      "first": 1788975620,
+      "last": 1789438811,
+      "songs": [
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Capital Lie",
+          "album": "Jaguar Stevens",
+          "count": 3,
+          "first": 1789209975,
+          "last": 1789438811,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Dying Dance",
+          "album": "Jaguar Stevens",
+          "count": 3,
+          "first": 1788975620,
+          "last": 1789345173,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "All the Things He Said",
+          "album": "Jaguar Stevens",
+          "count": 2,
+          "first": 1789226001,
+          "last": 1789420730,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 8,
       "first": 1788919863,
@@ -3023,47 +3064,6 @@
           "count": 2,
           "first": 1789068640,
           "last": 1789411743,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "count": 7,
-      "first": 1788975620,
-      "last": 1789423198,
-      "songs": [
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Dying Dance",
-          "album": "Jaguar Stevens",
-          "count": 3,
-          "first": 1788975620,
-          "last": 1789345173,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Capital Lie",
-          "album": "Jaguar Stevens",
-          "count": 2,
-          "first": 1789209975,
-          "last": 1789423198,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "All the Things He Said",
-          "album": "Jaguar Stevens",
-          "count": 2,
-          "first": 1789226001,
-          "last": 1789420730,
           "playlists": {
             "1default": 2
           }
@@ -4460,6 +4460,48 @@
       ]
     },
     {
+      "artist": "Jaguar Stevens",
+      "album": "Jaguar Stevens",
+      "count": 8,
+      "first": 1788975620,
+      "last": 1789438811,
+      "songs": [
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Capital Lie",
+          "album": "Jaguar Stevens",
+          "count": 3,
+          "first": 1789209975,
+          "last": 1789438811,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Dying Dance",
+          "album": "Jaguar Stevens",
+          "count": 3,
+          "first": 1788975620,
+          "last": 1789345173,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "All the Things He Said",
+          "album": "Jaguar Stevens",
+          "count": 2,
+          "first": 1789226001,
+          "last": 1789420730,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "album": "Lick My Soul",
       "count": 8,
@@ -4901,48 +4943,6 @@
           "last": 1789350946,
           "playlists": {
             "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "album": "Jaguar Stevens",
-      "count": 7,
-      "first": 1788975620,
-      "last": 1789423198,
-      "songs": [
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Dying Dance",
-          "album": "Jaguar Stevens",
-          "count": 3,
-          "first": 1788975620,
-          "last": 1789345173,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Capital Lie",
-          "album": "Jaguar Stevens",
-          "count": 2,
-          "first": 1789209975,
-          "last": 1789423198,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "All the Things He Said",
-          "album": "Jaguar Stevens",
-          "count": 2,
-          "first": 1789226001,
-          "last": 1789420730,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -5640,6 +5640,26 @@
       ]
     },
     {
+      "artist": "Daffo",
+      "album": "Good God (Porches Remix)",
+      "count": 5,
+      "first": 1788920320,
+      "last": 1789438690,
+      "songs": [
+        {
+          "artist": "Daffo",
+          "title": "Good God",
+          "album": "Good God (Porches Remix)",
+          "count": 5,
+          "first": 1788920320,
+          "last": 1789438690,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "album": "Old World Underground, Where Are You Now?",
       "count": 5,
@@ -6103,35 +6123,26 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "album": "Satisfaction Intended",
-      "count": 4,
-      "first": 1788926155,
-      "last": 1789426926,
-      "songs": [
-        {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
-          "count": 4,
-          "first": 1788926155,
-          "last": 1789426926,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1045,
+      "count": 1047,
       "first": 1788901564,
-      "last": 1789438474,
+      "last": 1789438811,
       "songs": [
+        {
+          "artist": "Daffo",
+          "title": "Good God",
+          "album": "Good God (Porches Remix)",
+          "count": 5,
+          "first": 1788920320,
+          "last": 1789438690,
+          "playlists": {
+            "1default": 5
+          }
+        },
         {
           "artist": "Tele Novella",
           "title": "Funeral",
@@ -6174,17 +6185,6 @@
           "last": 1789331035,
           "playlists": {
             "1default": 5
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 4,
-          "first": 1788989320,
-          "last": 1789437001,
-          "playlists": {
-            "1default": 4
           }
         }
       ]
