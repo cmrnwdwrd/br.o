@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T15:26:12.448354+00:00",
+  "updatedAt": "2026-09-15T15:31:12.326220+00:00",
   "summary": {
-    "totalPlays": 2440,
+    "totalPlays": 2441,
     "unknownPlays": 290,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789485910
+    "lastObserved": 1789486161
   },
   "topSongs": [
     {
@@ -109,6 +109,17 @@
       "last": 1789337089,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 4,
+      "first": 1788989714,
+      "last": 1789486161,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1789061160,
       "last": 1789444695,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Madness",
-      "title": "Our House",
-      "album": "Madness",
-      "count": 4,
-      "first": 1788904090,
-      "last": 1789444219,
       "playlists": {
         "1default": 4
       }
@@ -3749,6 +3749,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 6,
+      "first": 1788989714,
+      "last": 1789486161,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 4,
+          "first": 1788989714,
+          "last": 1789486161,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 2,
+          "first": 1789169386,
+          "last": 1789405269,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "count": 6,
       "first": 1788968149,
@@ -3867,36 +3897,6 @@
           "last": 1789044109,
           "playlists": {
             "carhartts": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "bastienGOAT",
-      "count": 6,
-      "first": 1788944435,
-      "last": 1789459460,
-      "songs": [
-        {
-          "artist": "bastienGOAT",
-          "title": "Tell me if you like it",
-          "album": "MULTI",
-          "count": 4,
-          "first": 1788944435,
-          "last": 1789459460,
-          "playlists": {
-            "breakbeat": 4
-          }
-        },
-        {
-          "artist": "bastienGOAT",
-          "title": "Don't stop don't miss",
-          "album": "NODE",
-          "count": 2,
-          "first": 1789029209,
-          "last": 1789455397,
-          "playlists": {
-            "breakbeat": 2
           }
         }
       ]
@@ -6216,9 +6216,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1117,
+      "count": 1118,
       "first": 1788901564,
-      "last": 1789485910,
+      "last": 1789486161,
       "songs": [
         {
           "artist": "Modest Mouse",
