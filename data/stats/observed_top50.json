@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T16:31:10.459418+00:00",
+  "updatedAt": "2026-09-15T16:36:11.979391+00:00",
   "summary": {
-    "totalPlays": 2456,
+    "totalPlays": 2457,
     "unknownPlays": 292,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789489724
+    "lastObserved": 1789489982
   },
   "topSongs": [
     {
@@ -131,6 +131,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 4,
+      "first": 1789064784,
+      "last": 1789489982,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788944435,
       "last": 1789459460,
-      "playlists": {
-        "breakbeat": 4
-      }
-    },
-    {
-      "artist": "Machine Girl",
-      "title": "Ghost",
-      "album": "Wlfgrl",
-      "count": 4,
-      "first": 1788942783,
-      "last": 1789459275,
       "playlists": {
         "breakbeat": 4
       }
@@ -1588,10 +1588,21 @@
     },
     {
       "artist": "Opium",
-      "count": 25,
+      "count": 26,
       "first": 1788927400,
-      "last": 1789486956,
+      "last": 1789489982,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 4,
+          "first": 1789064784,
+          "last": 1789489982,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "Opium",
           "title": "Broken Glass",
@@ -1612,17 +1623,6 @@
           "last": 1789481544,
           "playlists": {
             "1default": 4
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 3,
-          "first": 1789064784,
-          "last": 1789438474,
-          "playlists": {
-            "1default": 3
           }
         },
         {
@@ -6139,9 +6139,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1133,
+      "count": 1134,
       "first": 1788901564,
-      "last": 1789489724,
+      "last": 1789489982,
       "songs": [
         {
           "artist": "Destructo Disk",
