@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T18:21:21.691574+00:00",
+  "updatedAt": "2026-09-15T18:26:12.129176+00:00",
   "summary": {
-    "totalPlays": 2486,
+    "totalPlays": 2487,
     "unknownPlays": 296,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789496388
+    "lastObserved": 1789496563
   },
   "topSongs": [
     {
@@ -3790,6 +3790,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 6,
+      "first": 1788912385,
+      "last": 1789496563,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 3,
+          "first": 1788912385,
+          "last": 1789496563,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 3,
+          "first": 1789129746,
+          "last": 1789481267,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Brahman",
       "count": 6,
       "first": 1788944074,
@@ -3843,36 +3873,6 @@
           "count": 3,
           "first": 1788990464,
           "last": 1789353000,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 6,
-      "first": 1788986484,
-      "last": 1789488490,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 3,
-          "first": 1789231311,
-          "last": 1789488490,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 3,
-          "first": 1788986484,
-          "last": 1789418994,
           "playlists": {
             "1default": 3
           }
@@ -6183,9 +6183,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1163,
+      "count": 1164,
       "first": 1788901564,
-      "last": 1789496388,
+      "last": 1789496563,
       "songs": [
         {
           "artist": "Destructo Disk",
