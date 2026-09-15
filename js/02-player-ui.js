@@ -48,10 +48,9 @@ async function reconnectLiveStream(autoplay=true){
     livePlayer.pause();
     livePlayer.removeAttribute("src");
     livePlayer.load();
-    livePlayer.src=LIVE_STREAM_BASE+"?live="+Date.now();
+    livePlayer.src=LIVE_STREAM_BASE;
     livePlayer.volume=rememberedVolume;
     livePlayer.muted=rememberedMuted;
-    livePlayer.load();
     if(autoplay){
       try{await livePlayer.play()}catch(e){}
     }
@@ -68,10 +67,15 @@ async function reconnectLiveStream(autoplay=true){
 }
 playStopBtn.addEventListener("click",async()=>{
   if(livePlayer.paused){
-    // Always establish a fresh connection after a stop/pause. This prevents stale
-    // buffered live audio from fighting with the current stream.
-    await reconnectLiveStream(true);
+    // Normal Play should create only one stream connection. After Stop the src is
+    // removed, so restore it once and let play() establish the connection.
+    if(!livePlayer.getAttribute("src")){
+      livePlayer.src=LIVE_STREAM_BASE;
+    }
+    try{await livePlayer.play()}catch(e){}
+    updateTransportUI();
   }else{
+    // Fully disconnect on Stop so a live stream is not left open in the background.
     livePlayer.pause();
     livePlayer.removeAttribute("src");
     livePlayer.load();
