@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T04:16:09.736086+00:00",
+  "updatedAt": "2026-09-15T04:21:12.101585+00:00",
   "summary": {
-    "totalPlays": 2247,
+    "totalPlays": 2248,
     "unknownPlays": 267,
     "uniqueTracks": 1287,
     "uniqueArtists": 912,
     "uniqueAlbums": 1099,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789445772
+    "lastObserved": 1789446003
   },
   "topSongs": [
     {
@@ -530,6 +530,17 @@
       }
     },
     {
+      "artist": "The Czars",
+      "title": "Anger",
+      "album": "Best Of",
+      "count": 3,
+      "first": 1789324379,
+      "last": 1789446003,
+      "playlists": {
+        "1default": 3
+      }
+    },
+    {
       "artist": "Avril Lavigne",
       "title": "What the Hell",
       "album": "Goodbye Lullaby (Expanded Edition)",
@@ -547,17 +558,6 @@
       "count": 3,
       "first": 1789069780,
       "last": 1789445373,
-      "playlists": {
-        "1default": 3
-      }
-    },
-    {
-      "artist": "flipturn",
-      "title": "Hippies",
-      "album": "Citrona",
-      "count": 3,
-      "first": 1789165660,
-      "last": 1789444420,
       "playlists": {
         "1default": 3
       }
@@ -1897,6 +1897,80 @@
       ]
     },
     {
+      "artist": "The Czars",
+      "count": 15,
+      "first": 1788963949,
+      "last": 1789446003,
+      "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789324379,
+          "last": 1789446003,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789063847,
+          "last": 1789342864,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789015116,
+          "last": 1789341140,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1789218669,
+          "last": 1789409149,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1788963949,
+          "last": 1789401565,
+          "playlists": {
+            "1default": 2
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1789096240,
+          "last": 1789352270,
+          "playlists": {
+            "1default": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Florence + The Machine",
       "count": 15,
       "first": 1789098538,
@@ -1988,80 +2062,6 @@
           "last": 1789103353,
           "playlists": {
             "for the girls driving 85": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Czars",
-      "count": 14,
-      "first": 1788963949,
-      "last": 1789409149,
-      "songs": [
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789063847,
-          "last": 1789342864,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789015116,
-          "last": 1789341140,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 2,
-          "first": 1789218669,
-          "last": 1789409149,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 2,
-          "first": 1788963949,
-          "last": 1789401565,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 2,
-          "first": 1789324379,
-          "last": 1789397152,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 2,
-          "first": 1789096240,
-          "last": 1789352270,
-          "playlists": {
-            "1default": 2
           }
         }
       ]
@@ -3946,10 +3946,21 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 14,
+      "count": 15,
       "first": 1788963949,
-      "last": 1789409149,
+      "last": 1789446003,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789324379,
+          "last": 1789446003,
+          "playlists": {
+            "1default": 3
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Drug",
@@ -3990,17 +4001,6 @@
           "count": 2,
           "first": 1788963949,
           "last": 1789401565,
-          "playlists": {
-            "1default": 2
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 2,
-          "first": 1789324379,
-          "last": 1789397152,
           "playlists": {
             "1default": 2
           }
@@ -6073,9 +6073,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1078,
+      "count": 1079,
       "first": 1788901564,
-      "last": 1789445772,
+      "last": 1789446003,
       "songs": [
         {
           "artist": "Mallory Graham",
