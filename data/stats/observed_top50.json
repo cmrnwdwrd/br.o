@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-15T20:56:10.838513+00:00",
+  "updatedAt": "2026-09-15T21:01:23.524692+00:00",
   "summary": {
-    "totalPlays": 2530,
-    "unknownPlays": 301,
+    "totalPlays": 2531,
+    "unknownPlays": 302,
     "uniqueTracks": 1325,
     "uniqueArtists": 930,
     "uniqueAlbums": 1126,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789505671
+    "lastObserved": 1789505986
   },
   "topSongs": [
     {
@@ -197,6 +197,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 4,
+      "first": 1788986484,
+      "last": 1789505986,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1789058552,
       "last": 1789495096,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "TOPS",
-      "title": "Petals",
-      "album": "Sugar at the Gate",
-      "count": 4,
-      "first": 1788988660,
-      "last": 1789494922,
       "playlists": {
         "1default": 4
       }
@@ -3342,6 +3342,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 7,
+      "first": 1788986484,
+      "last": 1789505986,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 4,
+          "first": 1788986484,
+          "last": 1789505986,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 3,
+          "first": 1789231311,
+          "last": 1789488490,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 7,
       "first": 1788990464,
@@ -3845,36 +3875,6 @@
           "last": 1789260942,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "MJ Lenderman",
-      "count": 6,
-      "first": 1788988450,
-      "last": 1789497122,
-      "songs": [
-        {
-          "artist": "MJ Lenderman",
-          "title": "Rudolph",
-          "album": "Manning Fireworks",
-          "count": 5,
-          "first": 1788988450,
-          "last": 1789497122,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "MJ Lenderman",
-          "title": "Wristwatch",
-          "album": "Manning Fireworks",
-          "count": 1,
-          "first": 1789259095,
-          "last": 1789259095,
-          "playlists": {
-            "texting your situationship": 1
           }
         }
       ]
@@ -6183,9 +6183,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1207,
+      "count": 1208,
       "first": 1788901564,
-      "last": 1789505671,
+      "last": 1789505986,
       "songs": [
         {
           "artist": "Destructo Disk",
