@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T20:06:24.211873+00:00",
+  "updatedAt": "2026-09-16T20:11:32.624647+00:00",
   "summary": {
-    "totalPlays": 2915,
+    "totalPlays": 2916,
     "unknownPlays": 347,
     "uniqueTracks": 1389,
     "uniqueArtists": 965,
     "uniqueAlbums": 1181,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789589160
+    "lastObserved": 1789589366
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 4,
+      "first": 1788914032,
+      "last": 1789589366,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
       "artist": "Goldfrapp",
       "title": "Ooh La La",
       "album": "Supernature",
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1789049117,
       "last": 1789575172,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "CLAЯA",
-      "title": "A Good Friend",
-      "album": "A Good Friend",
-      "count": 4,
-      "first": 1788902594,
-      "last": 1789574985,
       "playlists": {
         "1default": 4
       }
@@ -3290,6 +3290,36 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 8,
+      "first": 1788914032,
+      "last": 1789589366,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 4,
+          "first": 1788914032,
+          "last": 1789589366,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 4,
+          "first": 1789222724,
+          "last": 1789443789,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 8,
       "first": 1788921291,
@@ -3911,36 +3941,6 @@
           "last": 1788955289,
           "playlists": {
             "carhartts": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Crumb",
-      "count": 7,
-      "first": 1788983912,
-      "last": 1789551031,
-      "songs": [
-        {
-          "artist": "Crumb",
-          "title": "Locket",
-          "album": "Locket",
-          "count": 4,
-          "first": 1788983912,
-          "last": 1789551031,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Crumb",
-          "title": "Ghostride",
-          "album": "Jinx",
-          "count": 3,
-          "first": 1789219993,
-          "last": 1789507604,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6260,9 +6260,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1393,
+      "count": 1394,
       "first": 1788901564,
-      "last": 1789589160,
+      "last": 1789589366,
       "songs": [
         {
           "artist": "Destructo Disk",
