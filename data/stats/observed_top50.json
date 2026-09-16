@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T01:36:10.550824+00:00",
+  "updatedAt": "2026-09-16T01:41:21.172575+00:00",
   "summary": {
-    "totalPlays": 2607,
+    "totalPlays": 2608,
     "unknownPlays": 310,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789522483
+    "lastObserved": 1789522779
   },
   "topSongs": [
     {
@@ -3413,6 +3413,36 @@
       ]
     },
     {
+      "artist": "Beach Bunny",
+      "count": 7,
+      "first": 1788966457,
+      "last": 1789522779,
+      "songs": [
+        {
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 4,
+          "first": 1788966457,
+          "last": 1789481812,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Entropy",
+          "album": "Emotional Creature",
+          "count": 3,
+          "first": 1789230720,
+          "last": 1789522779,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Harper Powell",
       "count": 7,
       "first": 1788947970,
@@ -3766,36 +3796,6 @@
           "count": 3,
           "first": 1788914032,
           "last": 1789408773,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 7,
-      "first": 1788919285,
-      "last": 1789441180,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 4,
-          "first": 1788975084,
-          "last": 1789441180,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 3,
-          "first": 1788919285,
-          "last": 1789378065,
           "playlists": {
             "1default": 3
           }
@@ -6106,9 +6106,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1264,
+      "count": 1265,
       "first": 1788901564,
-      "last": 1789522483,
+      "last": 1789522779,
       "songs": [
         {
           "artist": "Destructo Disk",
