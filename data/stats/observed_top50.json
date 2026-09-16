@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T08:56:07.634487+00:00",
+  "updatedAt": "2026-09-16T09:01:18.184335+00:00",
   "summary": {
-    "totalPlays": 2734,
-    "unknownPlays": 325,
+    "totalPlays": 2736,
+    "unknownPlays": 326,
     "uniqueTracks": 1327,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789548790
+    "lastObserved": 1789549260
   },
   "topSongs": [
     {
@@ -263,6 +263,28 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Chants, Dave Schoepke",
+      "title": "The Quickstepper",
+      "album": "Speleogenesis",
+      "count": 4,
+      "first": 1788940627,
+      "last": 1789549260,
+      "playlists": {
+        "breakbeat": 4
+      }
+    },
+    {
+      "artist": "Nick León",
+      "title": "Beam Ahh (Nick León Baile mix)",
+      "album": "2020 EDITS",
+      "count": 4,
+      "first": 1788941052,
+      "last": 1789548974,
+      "playlists": {
+        "breakbeat": 4
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 4,
       "first": 1788964687,
       "last": 1789530441,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Collective Soul",
-      "title": "December",
-      "album": "Collective Soul",
-      "count": 4,
-      "first": 1788988096,
-      "last": 1789529834,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Japanese Breakfast",
-      "title": "Everybody Wants to Love You",
-      "album": "Psychopomp",
-      "count": 4,
-      "first": 1789032729,
-      "last": 1789529702,
       "playlists": {
         "1default": 4
       }
@@ -3085,6 +3085,36 @@
       ]
     },
     {
+      "artist": "Nick León",
+      "count": 8,
+      "first": 1788941052,
+      "last": 1789548974,
+      "songs": [
+        {
+          "artist": "Nick León",
+          "title": "Beam Ahh (Nick León Baile mix)",
+          "album": "2020 EDITS",
+          "count": 4,
+          "first": 1788941052,
+          "last": 1789548974,
+          "playlists": {
+            "breakbeat": 4
+          }
+        },
+        {
+          "artist": "Nick León",
+          "title": "Hilary Duff - Come Clean (Nick León Bubbling mix)",
+          "album": "2023 EDITS",
+          "count": 4,
+          "first": 1788942445,
+          "last": 1789548134,
+          "playlists": {
+            "breakbeat": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Barrie",
       "count": 8,
       "first": 1788912861,
@@ -3531,36 +3561,6 @@
           "last": 1789154561,
           "playlists": {
             "escaping from cu boulder by giselle": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Nick León",
-      "count": 7,
-      "first": 1788941052,
-      "last": 1789548134,
-      "songs": [
-        {
-          "artist": "Nick León",
-          "title": "Hilary Duff - Come Clean (Nick León Bubbling mix)",
-          "album": "2023 EDITS",
-          "count": 4,
-          "first": 1788942445,
-          "last": 1789548134,
-          "playlists": {
-            "breakbeat": 4
-          }
-        },
-        {
-          "artist": "Nick León",
-          "title": "Beam Ahh (Nick León Baile mix)",
-          "album": "2020 EDITS",
-          "count": 3,
-          "first": 1788941052,
-          "last": 1789115526,
-          "playlists": {
-            "breakbeat": 3
           }
         }
       ]
@@ -6235,9 +6235,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 259,
+      "count": 261,
       "first": 1788938278,
-      "last": 1789548790,
+      "last": 1789549260,
       "songs": [
         {
           "artist": "Joey Valence & Brae",
@@ -6262,34 +6262,34 @@
           }
         },
         {
-          "artist": "Grapetooth, Knox Fortune",
-          "title": "Infinite Source",
-          "album": "Infinite Source",
+          "artist": "Chants, Dave Schoepke",
+          "title": "The Quickstepper",
+          "album": "Speleogenesis",
           "count": 4,
-          "first": 1788943890,
-          "last": 1789548790,
-          "playlists": {
-            "breakbeat": 4
-          }
-        },
-        {
-          "artist": "Coen",
-          "title": "Clang",
-          "album": "Slop, Drop & Roll",
-          "count": 4,
-          "first": 1788938583,
-          "last": 1789548520,
+          "first": 1788940627,
+          "last": 1789549260,
           "playlists": {
             "breakbeat": 4
           }
         },
         {
           "artist": "Nick León",
-          "title": "Hilary Duff - Come Clean (Nick León Bubbling mix)",
-          "album": "2023 EDITS",
+          "title": "Beam Ahh (Nick León Baile mix)",
+          "album": "2020 EDITS",
           "count": 4,
-          "first": 1788942445,
-          "last": 1789548134,
+          "first": 1788941052,
+          "last": 1789548974,
+          "playlists": {
+            "breakbeat": 4
+          }
+        },
+        {
+          "artist": "Grapetooth, Knox Fortune",
+          "title": "Infinite Source",
+          "album": "Infinite Source",
+          "count": 4,
+          "first": 1788943890,
+          "last": 1789548790,
           "playlists": {
             "breakbeat": 4
           }
