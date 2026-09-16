@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T14:26:33.744821+00:00",
+  "updatedAt": "2026-09-16T14:31:38.298080+00:00",
   "summary": {
-    "totalPlays": 2820,
+    "totalPlays": 2821,
     "unknownPlays": 337,
     "uniqueTracks": 1356,
     "uniqueArtists": 948,
     "uniqueAlbums": 1153,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789568775
+    "lastObserved": 1789568990
   },
   "topSongs": [
     {
@@ -76,6 +76,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "wrap music",
+      "album": "THIS DOES NOT EXIST",
+      "count": 5,
+      "first": 1789053695,
+      "last": 1789568990,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -550,17 +561,6 @@
       "playlists": {
         "breakbeat": 4
       }
-    },
-    {
-      "artist": "Clap! Clap!, Domenico Candellori, TOROZEBU",
-      "title": "Tales from the Doumbek",
-      "album": "TOROZEBU",
-      "count": 4,
-      "first": 1788940271,
-      "last": 1789546705,
-      "playlists": {
-        "breakbeat": 4
-      }
     }
   ],
   "topArtists": [
@@ -1014,10 +1014,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 54,
+      "count": 55,
       "first": 1788910325,
-      "last": 1789531592,
+      "last": 1789568990,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "wrap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 5,
+          "first": 1789053695,
+          "last": 1789568990,
+          "playlists": {
+            "1default": 5
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "show me a sign",
@@ -1091,17 +1102,6 @@
           "count": 4,
           "first": 1789057548,
           "last": 1789444924,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 4,
-          "first": 1789053695,
-          "last": 1789434026,
           "playlists": {
             "1default": 4
           }
@@ -5027,6 +5027,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THIS DOES NOT EXIST",
+      "count": 8,
+      "first": 1789053695,
+      "last": 1789568990,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "wrap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 5,
+          "first": 1789053695,
+          "last": 1789568990,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 3,
+          "first": 1789217995,
+          "last": 1789465977,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sophie Truax",
       "album": "Kissing With a Cavity",
       "count": 8,
@@ -5611,37 +5642,6 @@
       ]
     },
     {
-      "artist": "Lil Darkie",
-      "album": "THIS DOES NOT EXIST",
-      "count": 7,
-      "first": 1789053695,
-      "last": 1789465977,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 4,
-          "first": 1789053695,
-          "last": 1789434026,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 3,
-          "first": 1789217995,
-          "last": 1789465977,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
       "artist": "Mitski",
       "album": "Bury Me At Makeout Creek",
       "count": 7,
@@ -6216,9 +6216,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1332,
+      "count": 1333,
       "first": 1788901564,
-      "last": 1789568775,
+      "last": 1789568990,
       "songs": [
         {
           "artist": "Destructo Disk",
