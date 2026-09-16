@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T04:56:10.926578+00:00",
+  "updatedAt": "2026-09-16T05:01:19.226496+00:00",
   "summary": {
-    "totalPlays": 2660,
+    "totalPlays": 2662,
     "unknownPlays": 317,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789534573
+    "lastObserved": 1789534880
   },
   "topSongs": [
     {
@@ -566,10 +566,32 @@
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 59,
+      "count": 61,
       "first": 1788929259,
-      "last": 1789534573,
+      "last": 1789534880,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "marv",
+          "album": "Casual Affair.",
+          "count": 2,
+          "first": 1789016278,
+          "last": 1789534880,
+          "playlists": {
+            "more home alone": 2
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "worthy",
+          "album": "Casual Affair.",
+          "count": 2,
+          "first": 1789015787,
+          "last": 1789534705,
+          "playlists": {
+            "more home alone": 2
+          }
+        },
         {
           "artist": "home alone.",
           "title": "serendipity",
@@ -924,33 +946,11 @@
         },
         {
           "artist": "home alone.",
-          "title": "marv",
-          "album": "Casual Affair.",
-          "count": 1,
-          "first": 1789016278,
-          "last": 1789016278,
-          "playlists": {
-            "more home alone": 1
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "distant",
           "album": "drive it like you stole it.",
           "count": 1,
           "first": 1789015960,
           "last": 1789015960,
-          "playlists": {
-            "more home alone": 1
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "worthy",
-          "album": "Casual Affair.",
-          "count": 1,
-          "first": 1789015787,
-          "last": 1789015787,
           "playlists": {
             "more home alone": 1
           }
@@ -3955,87 +3955,34 @@
       ]
     },
     {
-      "artist": "The Czars",
-      "album": "Best Of",
-      "count": 18,
-      "first": 1788963949,
-      "last": 1789527519,
-      "songs": [
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 4,
-          "first": 1789015116,
-          "last": 1789527519,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1788963949,
-          "last": 1789524901,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789218669,
-          "last": 1789515283,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789324379,
-          "last": 1789446003,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789063847,
-          "last": 1789342864,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 2,
-          "first": 1789096240,
-          "last": 1789352270,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
       "artist": "home alone.",
       "album": "Casual Affair.",
-      "count": 17,
+      "count": 19,
       "first": 1788929259,
-      "last": 1789534573,
+      "last": 1789534880,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "marv",
+          "album": "Casual Affair.",
+          "count": 2,
+          "first": 1789016278,
+          "last": 1789534880,
+          "playlists": {
+            "more home alone": 2
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "worthy",
+          "album": "Casual Affair.",
+          "count": 2,
+          "first": 1789015787,
+          "last": 1789534705,
+          "playlists": {
+            "more home alone": 2
+          }
+        },
         {
           "artist": "home alone.",
           "title": "serendipity",
@@ -4134,27 +4081,80 @@
           "playlists": {
             "more home alone": 1
           }
-        },
+        }
+      ]
+    },
+    {
+      "artist": "The Czars",
+      "album": "Best Of",
+      "count": 18,
+      "first": 1788963949,
+      "last": 1789527519,
+      "songs": [
         {
-          "artist": "home alone.",
-          "title": "marv",
-          "album": "Casual Affair.",
-          "count": 1,
-          "first": 1789016278,
-          "last": 1789016278,
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 4,
+          "first": 1789015116,
+          "last": 1789527519,
           "playlists": {
-            "more home alone": 1
+            "1default": 4
           }
         },
         {
-          "artist": "home alone.",
-          "title": "worthy",
-          "album": "Casual Affair.",
-          "count": 1,
-          "first": 1789015787,
-          "last": 1789015787,
+          "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1788963949,
+          "last": 1789524901,
           "playlists": {
-            "more home alone": 1
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789218669,
+          "last": 1789515283,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789324379,
+          "last": 1789446003,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 3,
+          "first": 1789063847,
+          "last": 1789342864,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 2,
+          "first": 1789096240,
+          "last": 1789352270,
+          "playlists": {
+            "1default": 2
           }
         }
       ]
@@ -6558,10 +6558,32 @@
     },
     {
       "playlist": "more home alone",
-      "count": 48,
+      "count": 50,
       "first": 1788929259,
-      "last": 1789534573,
+      "last": 1789534880,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "marv",
+          "album": "Casual Affair.",
+          "count": 2,
+          "first": 1789016278,
+          "last": 1789534880,
+          "playlists": {
+            "more home alone": 2
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "worthy",
+          "album": "Casual Affair.",
+          "count": 2,
+          "first": 1789015787,
+          "last": 1789534705,
+          "playlists": {
+            "more home alone": 2
+          }
+        },
         {
           "artist": "home alone.",
           "title": "serendipity",
@@ -6591,28 +6613,6 @@
           "count": 2,
           "first": 1789017011,
           "last": 1789534195,
-          "playlists": {
-            "more home alone": 2
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "gracious",
-          "album": "all killer, no filler",
-          "count": 2,
-          "first": 1789017591,
-          "last": 1789534006,
-          "playlists": {
-            "more home alone": 2
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "yessa",
-          "album": "Casual Affair.",
-          "count": 2,
-          "first": 1789447705,
-          "last": 1789451229,
           "playlists": {
             "more home alone": 2
           }
