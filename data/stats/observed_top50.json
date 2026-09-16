@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T15:01:44.901823+00:00",
+  "updatedAt": "2026-09-16T15:06:22.700788+00:00",
   "summary": {
-    "totalPlays": 2831,
-    "unknownPlays": 337,
+    "totalPlays": 2832,
+    "unknownPlays": 338,
     "uniqueTracks": 1356,
     "uniqueArtists": 948,
     "uniqueAlbums": 1153,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789570870
+    "lastObserved": 1789571044
   },
   "topSongs": [
     {
@@ -274,6 +274,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Against Me!",
+      "title": "I Was a Teenage Anarchist",
+      "album": "White Crosses",
+      "count": 4,
+      "first": 1789059805,
+      "last": 1789571044,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -549,17 +560,6 @@
       "last": 1789551031,
       "playlists": {
         "1default": 4
-      }
-    },
-    {
-      "artist": "Kenya Grace",
-      "title": "Afterparty Lover",
-      "album": "Afterparty Lover",
-      "count": 4,
-      "first": 1788944782,
-      "last": 1789550221,
-      "playlists": {
-        "breakbeat": 4
       }
     }
   ],
@@ -3238,6 +3238,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 8,
+      "first": 1788947810,
+      "last": 1789571044,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 4,
+          "first": 1789059805,
+          "last": 1789571044,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 4,
+          "first": 1788947810,
+          "last": 1789485400,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 8,
       "first": 1789054681,
@@ -3865,36 +3895,6 @@
           "count": 3,
           "first": 1789239291,
           "last": 1789495438,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Courtney Barnett",
-      "count": 7,
-      "first": 1788913469,
-      "last": 1789530670,
-      "songs": [
-        {
-          "artist": "Courtney Barnett",
-          "title": "Write A List of Things To Look Forward To",
-          "album": "Things Take Time, Take Time",
-          "count": 4,
-          "first": 1788913469,
-          "last": 1789521034,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Courtney Barnett",
-          "title": "Pedestrian at Best",
-          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
-          "count": 3,
-          "first": 1789215507,
-          "last": 1789530670,
           "playlists": {
             "1default": 3
           }
@@ -6216,9 +6216,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1343,
+      "count": 1344,
       "first": 1788901564,
-      "last": 1789570870,
+      "last": 1789571044,
       "songs": [
         {
           "artist": "Destructo Disk",
