@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T03:01:23.932726+00:00",
+  "updatedAt": "2026-09-16T03:06:12.193522+00:00",
   "summary": {
-    "totalPlays": 2629,
+    "totalPlays": 2630,
     "unknownPlays": 313,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789527519
+    "lastObserved": 1789527772
   },
   "topSongs": [
     {
@@ -219,6 +219,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Atom Son of Man",
+      "title": "Rock n' roll (Bonus Track)",
+      "album": "1's a Man, 3's a Band",
+      "count": 4,
+      "first": 1788903730,
+      "last": 1789527772,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1789062154,
       "last": 1789516270,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "S T A R V E",
-      "album": "PHANTOMS",
-      "count": 4,
-      "first": 1788927400,
-      "last": 1789515824,
       "playlists": {
         "1default": 4
       }
@@ -1684,10 +1684,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 26,
+      "count": 27,
       "first": 1788902047,
-      "last": 1789501720,
+      "last": 1789527772,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 4,
+          "first": 1788903730,
+          "last": 1789527772,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -1730,17 +1741,6 @@
           "last": 1789464759,
           "playlists": {
             "1default": 4
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 3,
-          "first": 1788903730,
-          "last": 1789416781,
-          "playlists": {
-            "1default": 3
           }
         },
         {
@@ -3882,10 +3882,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 19,
+      "count": 20,
       "first": 1788902047,
-      "last": 1789501720,
+      "last": 1789527772,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 4,
+          "first": 1788903730,
+          "last": 1789527772,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -3917,17 +3928,6 @@
           "last": 1789464759,
           "playlists": {
             "1default": 4
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 3,
-          "first": 1788903730,
-          "last": 1789416781,
-          "playlists": {
-            "1default": 3
           }
         },
         {
@@ -6106,9 +6106,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1286,
+      "count": 1287,
       "first": 1788901564,
-      "last": 1789527519,
+      "last": 1789527772,
       "songs": [
         {
           "artist": "Destructo Disk",
