@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T23:06:29.049008+00:00",
+  "updatedAt": "2026-09-16T23:11:28.193846+00:00",
   "summary": {
-    "totalPlays": 2963,
+    "totalPlays": 2964,
     "unknownPlays": 353,
     "uniqueTracks": 1389,
     "uniqueArtists": 965,
     "uniqueAlbums": 1181,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789599968
+    "lastObserved": 1789600135
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1789513264,
       "playlists": {
         "1default": 7
+      }
+    },
+    {
+      "artist": "George Harrison",
+      "title": "I Dig Love (2020 Mix)",
+      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "count": 6,
+      "first": 1789034170,
+      "last": 1789600135,
+      "playlists": {
+        "1default": 6
       }
     },
     {
@@ -250,17 +261,6 @@
       "count": 5,
       "first": 1788925926,
       "last": 1789492686,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "George Harrison",
-      "title": "I Dig Love (2020 Mix)",
-      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-      "count": 5,
-      "first": 1789034170,
-      "last": 1789486660,
       "playlists": {
         "1default": 5
       }
@@ -5808,6 +5808,26 @@
       ]
     },
     {
+      "artist": "George Harrison",
+      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "count": 6,
+      "first": 1789034170,
+      "last": 1789600135,
+      "songs": [
+        {
+          "artist": "George Harrison",
+          "title": "I Dig Love (2020 Mix)",
+          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "count": 6,
+          "first": 1789034170,
+          "last": 1789600135,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "album": "WAR IN COLORADO!",
       "count": 6,
@@ -6081,45 +6101,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
-      "album": "the record",
-      "count": 6,
-      "first": 1788986031,
-      "last": 1789499275,
-      "songs": [
-        {
-          "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
-          "title": "Not Strong Enough",
-          "album": "the record",
-          "count": 4,
-          "first": 1788986031,
-          "last": 1789499275,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
-          "title": "Cool About It",
-          "album": "the record",
-          "count": 2,
-          "first": 1789152675,
-          "last": 1789260942,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1428,
+      "count": 1429,
       "first": 1788901564,
-      "last": 1789599660,
+      "last": 1789600135,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -6144,6 +6133,17 @@
           }
         },
         {
+          "artist": "George Harrison",
+          "title": "I Dig Love (2020 Mix)",
+          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "count": 6,
+          "first": 1789034170,
+          "last": 1789600135,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
           "artist": "The Salesmen, Ike Spivak",
           "title": "Happy Boy",
           "album": "WAR IN COLORADO!",
@@ -6161,17 +6161,6 @@
           "count": 6,
           "first": 1788986736,
           "last": 1789599011,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
-          "count": 6,
-          "first": 1788926155,
-          "last": 1789596535,
           "playlists": {
             "1default": 6
           }
