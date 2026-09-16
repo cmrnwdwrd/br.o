@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T02:06:11.247770+00:00",
+  "updatedAt": "2026-09-16T02:11:18.171106+00:00",
   "summary": {
-    "totalPlays": 2614,
-    "unknownPlays": 311,
+    "totalPlays": 2616,
+    "unknownPlays": 312,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789524183
+    "lastObserved": 1789524678
   },
   "topSongs": [
     {
@@ -219,6 +219,28 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 4,
+      "first": 1788970790,
+      "last": 1789524678,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
+      "artist": "Mystee",
+      "title": "hard candy",
+      "album": "hard candy",
+      "count": 4,
+      "first": 1788915475,
+      "last": 1789524435,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 4,
       "first": 1788946771,
       "last": 1789509021,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "gavn!",
-      "title": "Poseidon",
-      "album": "Poseidon",
-      "count": 4,
-      "first": 1788910937,
-      "last": 1789507422,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Jethro Tull",
-      "title": "Nothing Is Easy",
-      "album": "Stand Up",
-      "count": 4,
-      "first": 1788968380,
-      "last": 1789507000,
       "playlists": {
         "1default": 4
       }
@@ -2620,6 +2620,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 10,
+      "first": 1788917230,
+      "last": 1789524678,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 4,
+          "first": 1788970790,
+          "last": 1789524678,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 3,
+          "first": 1789050580,
+          "last": 1789343545,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 3,
+          "first": 1788917230,
+          "last": 1789330389,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 10,
       "first": 1788947368,
@@ -2924,47 +2965,6 @@
           "last": 1789248601,
           "playlists": {
             "landlockd surfrock": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 9,
-      "first": 1788917230,
-      "last": 1789343545,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 3,
-          "first": 1789050580,
-          "last": 1789343545,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 3,
-          "first": 1788970790,
-          "last": 1789339184,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 3,
-          "first": 1788917230,
-          "last": 1789330389,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6106,9 +6106,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1271,
+      "count": 1273,
       "first": 1788901564,
-      "last": 1789524183,
+      "last": 1789524678,
       "songs": [
         {
           "artist": "Destructo Disk",
