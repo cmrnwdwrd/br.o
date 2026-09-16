@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T04:41:11.639095+00:00",
+  "updatedAt": "2026-09-16T04:46:11.526110+00:00",
   "summary": {
-    "totalPlays": 2655,
-    "unknownPlays": 316,
+    "totalPlays": 2656,
+    "unknownPlays": 317,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789533530
+    "lastObserved": 1789533824
   },
   "topSongs": [
     {
@@ -76,6 +76,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 5,
+      "first": 1788989320,
+      "last": 1789533824,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788974227,
       "last": 1789523760,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Mk.gee",
-      "title": "Are You Looking Up",
-      "album": "Two Star & The Dream Police",
-      "count": 4,
-      "first": 1788915308,
-      "last": 1789522999,
       "playlists": {
         "1default": 4
       }
@@ -2661,6 +2661,58 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "count": 10,
+      "first": 1788989320,
+      "last": 1789533824,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 5,
+          "first": 1788989320,
+          "last": 1789533824,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Need Your Love",
+          "album": "Swimmer",
+          "count": 3,
+          "first": 1789058225,
+          "last": 1789328785,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Tender as a Tomb",
+          "album": "Swimmer",
+          "count": 1,
+          "first": 1789253168,
+          "last": 1789253168,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Seafarer",
+          "album": "Cape Dory",
+          "count": 1,
+          "first": 1789248601,
+          "last": 1789248601,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 10,
       "first": 1788917230,
@@ -2913,58 +2965,6 @@
           "last": 1789053978,
           "playlists": {
             "rage commute": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tennis",
-      "count": 9,
-      "first": 1788989320,
-      "last": 1789437001,
-      "songs": [
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 4,
-          "first": 1788989320,
-          "last": 1789437001,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Need Your Love",
-          "album": "Swimmer",
-          "count": 3,
-          "first": 1789058225,
-          "last": 1789328785,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Tender as a Tomb",
-          "album": "Swimmer",
-          "count": 1,
-          "first": 1789253168,
-          "last": 1789253168,
-          "playlists": {
-            "landlockd surfrock": 1
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Seafarer",
-          "album": "Cape Dory",
-          "count": 1,
-          "first": 1789248601,
-          "last": 1789248601,
-          "playlists": {
-            "landlockd surfrock": 1
           }
         }
       ]
@@ -6054,6 +6054,26 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "album": "Young & Old",
+      "count": 5,
+      "first": 1788989320,
+      "last": 1789533824,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 5,
+          "first": 1788989320,
+          "last": 1789533824,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Nat & Alex Wolff",
       "album": "Public Places",
       "count": 5,
@@ -6092,34 +6112,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "album": "Satisfaction Intended",
-      "count": 5,
-      "first": 1788926155,
-      "last": 1789515996,
-      "songs": [
-        {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
-          "count": 5,
-          "first": 1788926155,
-          "last": 1789515996,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1312,
+      "count": 1313,
       "first": 1788901564,
-      "last": 1789533530,
+      "last": 1789533824,
       "songs": [
         {
           "artist": "Destructo Disk",
