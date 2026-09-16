@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T04:11:13.547826+00:00",
+  "updatedAt": "2026-09-16T04:16:10.179198+00:00",
   "summary": {
-    "totalPlays": 2648,
+    "totalPlays": 2649,
     "unknownPlays": 315,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789531872
+    "lastObserved": 1789532169
   },
   "topSongs": [
     {
@@ -241,6 +241,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Barrie",
+      "title": "Hutch",
+      "album": "Happy To Be Here",
+      "count": 4,
+      "first": 1788912861,
+      "last": 1789532169,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788989909,
       "last": 1789521390,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Courtney Barnett",
-      "title": "Write A List of Things To Look Forward To",
-      "album": "Things Take Time, Take Time",
-      "count": 4,
-      "first": 1788913469,
-      "last": 1789521034,
       "playlists": {
         "1default": 4
       }
@@ -2970,6 +2970,36 @@
       ]
     },
     {
+      "artist": "Barrie",
+      "count": 8,
+      "first": 1788912861,
+      "last": 1789532169,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 4,
+          "first": 1788912861,
+          "last": 1789532169,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 4,
+          "first": 1788966960,
+          "last": 1789506865,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 8,
       "first": 1788919285,
@@ -3607,36 +3637,6 @@
           "last": 1789513264,
           "playlists": {
             "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 7,
-      "first": 1788912861,
-      "last": 1789506865,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 4,
-          "first": 1788966960,
-          "last": 1789506865,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 3,
-          "first": 1788912861,
-          "last": 1789377918,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6117,9 +6117,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1305,
+      "count": 1306,
       "first": 1788901564,
-      "last": 1789531872,
+      "last": 1789532169,
       "songs": [
         {
           "artist": "Destructo Disk",
