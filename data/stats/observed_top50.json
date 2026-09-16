@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T13:56:33.708858+00:00",
+  "updatedAt": "2026-09-16T14:01:29.711052+00:00",
   "summary": {
-    "totalPlays": 2812,
+    "totalPlays": 2813,
     "unknownPlays": 336,
     "uniqueTracks": 1356,
     "uniqueArtists": 948,
     "uniqueAlbums": 1153,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789566928
+    "lastObserved": 1789567234
   },
   "topSongs": [
     {
@@ -263,6 +263,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Mallory Graham",
+      "title": "Mallard",
+      "album": "Mallard",
+      "count": 4,
+      "first": 1788973386,
+      "last": 1789567234,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788939947,
       "last": 1789544087,
-      "playlists": {
-        "breakbeat": 4
-      }
-    },
-    {
-      "artist": "Brahman",
-      "title": "invisibility cloak",
-      "album": "invisibility cloak",
-      "count": 4,
-      "first": 1788944074,
-      "last": 1789543846,
       "playlists": {
         "breakbeat": 4
       }
@@ -2951,6 +2951,36 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 9,
+      "first": 1788973386,
+      "last": 1789567234,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 5,
+          "first": 1789063640,
+          "last": 1789443003,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 4,
+          "first": 1788973386,
+          "last": 1789567234,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Brandywine",
       "count": 9,
       "first": 1788965930,
@@ -3353,36 +3383,6 @@
           "last": 1789444049,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 8,
-      "first": 1788973386,
-      "last": 1789443003,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 5,
-          "first": 1789063640,
-          "last": 1789443003,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 3,
-          "first": 1788973386,
-          "last": 1789423045,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6205,9 +6205,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1324,
+      "count": 1325,
       "first": 1788901564,
-      "last": 1789552791,
+      "last": 1789567234,
       "songs": [
         {
           "artist": "Destructo Disk",
