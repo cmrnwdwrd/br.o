@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T07:11:12.284617+00:00",
+  "updatedAt": "2026-09-16T07:16:11.431063+00:00",
   "summary": {
-    "totalPlays": 2703,
+    "totalPlays": 2704,
     "unknownPlays": 322,
     "uniqueTracks": 1327,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789542655
+    "lastObserved": 1789542885
   },
   "topSongs": [
     {
@@ -252,6 +252,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "The Czars",
+      "title": "Drug",
+      "album": "Best Of",
+      "count": 4,
+      "first": 1789063847,
+      "last": 1789542885,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788971208,
       "last": 1789524183,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Surfaces",
-      "title": "Heaven Falls / Fall On Me",
-      "album": "Sunday Best (Japan Exclusive)",
-      "count": 4,
-      "first": 1789048876,
-      "last": 1789523942,
       "playlists": {
         "1default": 4
       }
@@ -1780,10 +1780,21 @@
     },
     {
       "artist": "The Czars",
-      "count": 18,
+      "count": 19,
       "first": 1788963949,
-      "last": 1789527519,
+      "last": 1789542885,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 4,
+          "first": 1789063847,
+          "last": 1789542885,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Paint the Moon",
@@ -1824,17 +1835,6 @@
           "count": 3,
           "first": 1789324379,
           "last": 1789446003,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789063847,
-          "last": 1789342864,
           "playlists": {
             "1default": 3
           }
@@ -4109,10 +4109,21 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 18,
+      "count": 19,
       "first": 1788963949,
-      "last": 1789527519,
+      "last": 1789542885,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 4,
+          "first": 1789063847,
+          "last": 1789542885,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Paint the Moon",
@@ -4153,17 +4164,6 @@
           "count": 3,
           "first": 1789324379,
           "last": 1789446003,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 3,
-          "first": 1789063847,
-          "last": 1789342864,
           "playlists": {
             "1default": 3
           }
@@ -6139,9 +6139,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1315,
+      "count": 1316,
       "first": 1788901564,
-      "last": 1789539201,
+      "last": 1789542885,
       "songs": [
         {
           "artist": "Destructo Disk",
