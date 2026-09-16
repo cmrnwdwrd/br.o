@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T10:01:18.095624+00:00",
+  "updatedAt": "2026-09-16T10:06:08.295716+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 32,
-    "sessionCount": 104,
+    "sessionCount": 105,
     "firstObserved": 1788901564,
-    "lastObserved": 1789551031
+    "lastObserved": 1789553034
   },
   "playlists": [
     {
@@ -3525,12 +3525,12 @@
     },
     {
       "playlist": "freestyle beats to crash your car to",
-      "sessionCount": 4,
-      "playCount": 134,
+      "sessionCount": 5,
+      "playCount": 135,
       "firstObserved": 1788948264,
-      "lastObserved": 1789466590,
+      "lastObserved": 1789553034,
       "typicalStartMinute": 243,
-      "typicalDurationMinutes": 119,
+      "typicalDurationMinutes": 117,
       "confidence": "Medium",
       "heatmapMinutes": [
         [
@@ -3590,7 +3590,7 @@
           0.0,
           0.0,
           0.0,
-          55.6,
+          59.2,
           60.0,
           1.4,
           0.0,
@@ -3930,7 +3930,7 @@
           0.0,
           0.0,
           0.0,
-          10.6,
+          14.2,
           15.0,
           15.0,
           15.0,
@@ -4462,7 +4462,7 @@
           0,
           0,
           0,
-          1,
+          2,
           0,
           0,
           0,
@@ -4605,9 +4605,9 @@
         },
         {
           "weekday": 2,
-          "sessions": 1,
+          "sessions": 2,
           "typicalStartMinute": 244,
-          "typicalDurationMinutes": 117,
+          "typicalDurationMinutes": 60,
           "confidence": "Low"
         },
         {
@@ -4619,6 +4619,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1789553034,
+          "end": 1789553253,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1789466590,
           "end": 1789473853,
