@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T01:26:07.931802+00:00",
+  "updatedAt": "2026-09-16T01:31:20.802747+00:00",
   "summary": {
-    "totalPlays": 2604,
+    "totalPlays": 2606,
     "unknownPlays": 310,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789521770
+    "lastObserved": 1789522215
   },
   "topSongs": [
     {
@@ -219,6 +219,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Kai Straw",
+      "title": "Don't Tread on Me",
+      "album": "Toothpick",
+      "count": 4,
+      "first": 1788985765,
+      "last": 1789522215,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1789060650,
       "last": 1789505461,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "The Dandy Warhols",
-      "title": "Bohemian Like You",
-      "album": "Thirteen Tales From Urban Bohemia",
-      "count": 4,
-      "first": 1788989503,
-      "last": 1789504693,
       "playlists": {
         "1default": 4
       }
@@ -5523,6 +5523,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 6,
+      "first": 1789166634,
+      "last": 1789521988,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 3,
+          "first": 1789166634,
+          "last": 1789521988,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 3,
+          "first": 1789167660,
+          "last": 1789498227,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lush",
       "album": "Lovelife",
       "count": 6,
@@ -6032,37 +6063,6 @@
       ]
     },
     {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 5,
-      "first": 1789166634,
-      "last": 1789498227,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 3,
-          "first": 1789167660,
-          "last": 1789498227,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 2,
-          "first": 1789166634,
-          "last": 1789346727,
-          "playlists": {
-            "1default": 2
-          }
-        }
-      ]
-    },
-    {
       "artist": "The Salesmen, Ike Spivak",
       "album": "WAR IN COLORADO!",
       "count": 5,
@@ -6106,9 +6106,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1261,
+      "count": 1263,
       "first": 1788901564,
-      "last": 1789521770,
+      "last": 1789522215,
       "songs": [
         {
           "artist": "Destructo Disk",
