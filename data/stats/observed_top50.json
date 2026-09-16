@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T17:01:37.249084+00:00",
+  "updatedAt": "2026-09-16T17:06:31.381072+00:00",
   "summary": {
-    "totalPlays": 2864,
+    "totalPlays": 2866,
     "unknownPlays": 341,
     "uniqueTracks": 1356,
     "uniqueArtists": 948,
     "uniqueAlbums": 1153,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789578001
+    "lastObserved": 1789578352
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Sunday Bloody Sunday - Remastered 2008",
+      "album": "War (Remastered)",
+      "count": 4,
+      "first": 1788921291,
+      "last": 1789578352,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
+      "artist": "Blue Rain Boots",
+      "title": "Oh My God You Are Fine",
+      "album": "Oh My God You Are Fine",
+      "count": 4,
+      "first": 1788914549,
+      "last": 1789578166,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
       "artist": "Pixies",
       "title": "Here Comes Your Man",
       "album": "Doolittle",
@@ -536,28 +558,6 @@
       "count": 4,
       "first": 1788918444,
       "last": 1789570870,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Smash Mouth",
-      "title": "Walkin' On The Sun",
-      "album": "Fush Yu Mang (20th Anniversary Edition)",
-      "count": 4,
-      "first": 1788967329,
-      "last": 1789570665,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Yumi Zouma",
-      "title": "In Camera",
-      "album": "EP III",
-      "count": 4,
-      "first": 1789054681,
-      "last": 1789570279,
       "playlists": {
         "1default": 4
       }
@@ -3279,6 +3279,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 8,
+      "first": 1788921291,
+      "last": 1789578352,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 4,
+          "first": 1788921291,
+          "last": 1789578352,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 4,
+          "first": 1788964687,
+          "last": 1789530441,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 8,
       "first": 1788947810,
@@ -3865,36 +3895,6 @@
           "count": 3,
           "first": 1788942659,
           "last": 1789118859,
-          "playlists": {
-            "breakbeat": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "bastienGOAT",
-      "count": 7,
-      "first": 1788944435,
-      "last": 1789547842,
-      "songs": [
-        {
-          "artist": "bastienGOAT",
-          "title": "Tell me if you like it",
-          "album": "MULTI",
-          "count": 4,
-          "first": 1788944435,
-          "last": 1789459460,
-          "playlists": {
-            "breakbeat": 4
-          }
-        },
-        {
-          "artist": "bastienGOAT",
-          "title": "Don't stop don't miss",
-          "album": "NODE",
-          "count": 3,
-          "first": 1789029209,
-          "last": 1789547842,
           "playlists": {
             "breakbeat": 3
           }
@@ -6216,9 +6216,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1376,
+      "count": 1378,
       "first": 1788901564,
-      "last": 1789578001,
+      "last": 1789578352,
       "songs": [
         {
           "artist": "Destructo Disk",
