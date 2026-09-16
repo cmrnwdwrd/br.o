@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T04:06:13.442386+00:00",
+  "updatedAt": "2026-09-16T04:11:13.547826+00:00",
   "summary": {
-    "totalPlays": 2646,
+    "totalPlays": 2648,
     "unknownPlays": 315,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789531498
+    "lastObserved": 1789531872
   },
   "topSongs": [
     {
@@ -241,6 +241,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "show me a sign",
+      "album": "THE FUTURE IS DARK",
+      "count": 4,
+      "first": 1788975770,
+      "last": 1789531592,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788913469,
       "last": 1789521034,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Human People",
-      "title": "Mood Swings",
-      "album": "Butterflies Drink Turtle Tears",
-      "count": 4,
-      "first": 1788934345,
-      "last": 1789520720,
       "playlists": {
         "1default": 4
       }
@@ -1014,10 +1014,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 53,
+      "count": 54,
       "first": 1788910325,
-      "last": 1789531498,
+      "last": 1789531592,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 4,
+          "first": 1788975770,
+          "last": 1789531592,
+          "playlists": {
+            "1default": 4
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "LA LA UNDERBELLY",
@@ -1146,17 +1157,6 @@
           "count": 3,
           "first": 1788913884,
           "last": 1789408999,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 3,
-          "first": 1788975770,
-          "last": 1789379935,
           "playlists": {
             "1default": 3
           }
@@ -5138,6 +5138,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THE FUTURE IS DARK",
+      "count": 7,
+      "first": 1788913884,
+      "last": 1789531592,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 4,
+          "first": 1788975770,
+          "last": 1789531592,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 3,
+          "first": 1788913884,
+          "last": 1789408999,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "pear",
       "count": 7,
@@ -5769,37 +5800,6 @@
       ]
     },
     {
-      "artist": "Lil Darkie",
-      "album": "THE FUTURE IS DARK",
-      "count": 6,
-      "first": 1788913884,
-      "last": 1789408999,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 3,
-          "first": 1788913884,
-          "last": 1789408999,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 3,
-          "first": 1788975770,
-          "last": 1789379935,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
       "artist": "Sophie Truax",
       "album": "Kissing With a Cavity",
       "count": 6,
@@ -6117,9 +6117,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1303,
+      "count": 1305,
       "first": 1788901564,
-      "last": 1789531498,
+      "last": 1789531872,
       "songs": [
         {
           "artist": "Destructo Disk",
