@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T16:46:28.388926+00:00",
+  "updatedAt": "2026-09-16T16:51:28.676950+00:00",
   "summary": {
-    "totalPlays": 2860,
+    "totalPlays": 2861,
     "unknownPlays": 341,
     "uniqueTracks": 1356,
     "uniqueArtists": 948,
     "uniqueAlbums": 1153,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789577088
+    "lastObserved": 1789577323
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Pixies",
+      "title": "Here Comes Your Man",
+      "album": "Doolittle",
+      "count": 4,
+      "first": 1788972865,
+      "last": 1789577323,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
       "artist": "Anjimile",
       "title": "Baby No More",
       "album": "Giver Taker",
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1789054681,
       "last": 1789570279,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Mitski",
-      "title": "Should've Been Me",
-      "album": "Laurel Hell",
-      "count": 4,
-      "first": 1788920128,
-      "last": 1789570087,
       "playlists": {
         "1default": 4
       }
@@ -3667,6 +3667,36 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "count": 7,
+      "first": 1788972865,
+      "last": 1789577323,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 4,
+          "first": 1788972865,
+          "last": 1789577323,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 3,
+          "first": 1789214521,
+          "last": 1789447485,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Daniel Nunnelee",
       "count": 7,
       "first": 1788955289,
@@ -3867,36 +3897,6 @@
           "last": 1789547842,
           "playlists": {
             "breakbeat": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brahman",
-      "count": 7,
-      "first": 1788944074,
-      "last": 1789543846,
-      "songs": [
-        {
-          "artist": "Brahman",
-          "title": "invisibility cloak",
-          "album": "invisibility cloak",
-          "count": 4,
-          "first": 1788944074,
-          "last": 1789543846,
-          "playlists": {
-            "breakbeat": 4
-          }
-        },
-        {
-          "artist": "Brahman",
-          "title": "RUN",
-          "album": "RUN",
-          "count": 3,
-          "first": 1789239291,
-          "last": 1789495438,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -5414,6 +5414,37 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "album": "Doolittle",
+      "count": 7,
+      "first": 1788972865,
+      "last": 1789577323,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 4,
+          "first": 1788972865,
+          "last": 1789577323,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 3,
+          "first": 1789214521,
+          "last": 1789447485,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khadija Al Hanafi",
       "album": "Slime Patrol 2",
       "count": 7,
@@ -6045,37 +6076,6 @@
       ]
     },
     {
-      "artist": "Pixies",
-      "album": "Doolittle",
-      "count": 6,
-      "first": 1788972865,
-      "last": 1789447485,
-      "songs": [
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 3,
-          "first": 1789214521,
-          "last": 1789447485,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 3,
-          "first": 1788972865,
-          "last": 1789416348,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
       "artist": "Mitski",
       "album": "Be the Cowboy",
       "count": 6,
@@ -6216,9 +6216,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1372,
+      "count": 1373,
       "first": 1788901564,
-      "last": 1789577088,
+      "last": 1789577323,
       "songs": [
         {
           "artist": "Destructo Disk",
