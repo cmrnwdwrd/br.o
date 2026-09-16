@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T21:06:24.870869+00:00",
+  "updatedAt": "2026-09-16T21:11:33.750526+00:00",
   "summary": {
-    "totalPlays": 2931,
+    "totalPlays": 2932,
     "unknownPlays": 350,
     "uniqueTracks": 1389,
     "uniqueArtists": 965,
     "uniqueAlbums": 1181,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789592704
+    "lastObserved": 1789592913
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Tell Me That You Like It",
+      "album": "Tell Me That You Like It",
+      "count": 4,
+      "first": 1789050580,
+      "last": 1789592913,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
       "artist": "Meeting House",
       "title": "Black Clouds",
       "album": "Couch Surfer",
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788984684,
       "last": 1789578793,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Sunday Bloody Sunday - Remastered 2008",
-      "album": "War (Remastered)",
-      "count": 4,
-      "first": 1788921291,
-      "last": 1789578352,
       "playlists": {
         "1default": 4
       }
@@ -2352,6 +2352,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 12,
+      "first": 1788917230,
+      "last": 1789592913,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 4,
+          "first": 1789050580,
+          "last": 1789592913,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 4,
+          "first": 1788917230,
+          "last": 1789571695,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 4,
+          "first": 1788970790,
+          "last": 1789524678,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 12,
       "first": 1788946510,
@@ -2678,47 +2719,6 @@
           "last": 1789248601,
           "playlists": {
             "landlockd surfrock": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 11,
-      "first": 1788917230,
-      "last": 1789571695,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 4,
-          "first": 1788917230,
-          "last": 1789571695,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 4,
-          "first": 1788970790,
-          "last": 1789524678,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 3,
-          "first": 1789050580,
-          "last": 1789343545,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6238,9 +6238,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1408,
+      "count": 1409,
       "first": 1788901564,
-      "last": 1789592704,
+      "last": 1789592913,
       "songs": [
         {
           "artist": "Destructo Disk",
