@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T16:16:25.401918+00:00",
+  "updatedAt": "2026-09-16T16:21:29.880048+00:00",
   "summary": {
-    "totalPlays": 2851,
+    "totalPlays": 2853,
     "unknownPlays": 340,
     "uniqueTracks": 1356,
     "uniqueArtists": 948,
     "uniqueAlbums": 1153,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789575276
+    "lastObserved": 1789575660
   },
   "topSongs": [
     {
@@ -277,6 +277,28 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 4,
+      "first": 1788965930,
+      "last": 1789575660,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "THE KIDS ARE ALL RETARDED",
+      "album": "SWAMP",
+      "count": 4,
+      "first": 1788926373,
+      "last": 1789575550,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
       "artist": "Ritt Momney",
       "title": "Young Adult",
       "album": "Young Adult",
@@ -536,28 +558,6 @@
       "count": 4,
       "first": 1788972624,
       "last": 1789569129,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Isaiah Rashad",
-      "title": "Heavenly Father",
-      "album": "Cilvia Demo",
-      "count": 4,
-      "first": 1788930667,
-      "last": 1789568271,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "King Fantastic",
-      "title": "Joshua Tree",
-      "album": "The Great Man Theory",
-      "count": 4,
-      "first": 1789061705,
-      "last": 1789568058,
       "playlists": {
         "1default": 4
       }
@@ -1014,9 +1014,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 56,
+      "count": 57,
       "first": 1788910325,
-      "last": 1789573662,
+      "last": 1789575550,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1027,6 +1027,17 @@
           "last": 1789568990,
           "playlists": {
             "1default": 5
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1788926373,
+          "last": 1789575550,
+          "playlists": {
+            "1default": 4
           }
         },
         {
@@ -1157,17 +1168,6 @@
           "count": 3,
           "first": 1789212337,
           "last": 1789442432,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 3,
-          "first": 1788926373,
-          "last": 1789334845,
           "playlists": {
             "1default": 3
           }
@@ -2754,6 +2754,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 10,
+      "first": 1788965930,
+      "last": 1789575660,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 4,
+          "first": 1788965930,
+          "last": 1789575660,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 3,
+          "first": 1789068640,
+          "last": 1789552386,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 3,
+          "first": 1789215234,
+          "last": 1789438919,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 10,
       "first": 1788919863,
@@ -3099,47 +3140,6 @@
           "last": 1789567234,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 9,
-      "first": 1788965930,
-      "last": 1789552386,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 3,
-          "first": 1789068640,
-          "last": 1789552386,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 3,
-          "first": 1789215234,
-          "last": 1789438919,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 3,
-          "first": 1788965930,
-          "last": 1789431707,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -4389,6 +4389,59 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "SWAMP",
+      "count": 16,
+      "first": 1788926373,
+      "last": 1789575550,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1788926373,
+          "last": 1789575550,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1789058454,
+          "last": 1789531498,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1788983290,
+          "last": 1789503480,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1789057548,
+          "last": 1789444924,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "home alone.",
       "album": "all killer, no filler",
       "count": 16,
@@ -4503,59 +4556,6 @@
           "last": 1788929845,
           "playlists": {
             "more home alone": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "SWAMP",
-      "count": 15,
-      "first": 1788926373,
-      "last": 1789531498,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 4,
-          "first": 1789058454,
-          "last": 1789531498,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 4,
-          "first": 1788983290,
-          "last": 1789503480,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 4,
-          "first": 1789057548,
-          "last": 1789444924,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 3,
-          "first": 1788926373,
-          "last": 1789334845,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6216,9 +6216,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1363,
+      "count": 1365,
       "first": 1788901564,
-      "last": 1789575276,
+      "last": 1789575660,
       "songs": [
         {
           "artist": "Destructo Disk",
