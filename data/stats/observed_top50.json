@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T15:11:34.127448+00:00",
+  "updatedAt": "2026-09-16T15:16:26.785140+00:00",
   "summary": {
-    "totalPlays": 2834,
+    "totalPlays": 2835,
     "unknownPlays": 339,
     "uniqueTracks": 1356,
     "uniqueArtists": 948,
     "uniqueAlbums": 1153,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789571484
+    "lastObserved": 1789571695
   },
   "topSongs": [
     {
@@ -274,6 +274,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 4,
+      "first": 1788917230,
+      "last": 1789571695,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788964915,
       "last": 1789551585,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Wolfmother",
-      "title": "Woman",
-      "album": "Wolfmother",
-      "count": 4,
-      "first": 1788916127,
-      "last": 1789551350,
       "playlists": {
         "1default": 4
       }
@@ -2486,6 +2486,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 11,
+      "first": 1788917230,
+      "last": 1789571695,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 4,
+          "first": 1788917230,
+          "last": 1789571695,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 4,
+          "first": 1788970790,
+          "last": 1789524678,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 3,
+          "first": 1789050580,
+          "last": 1789343545,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 11,
       "first": 1788973998,
@@ -2812,47 +2853,6 @@
           "last": 1789248601,
           "playlists": {
             "landlockd surfrock": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 10,
-      "first": 1788917230,
-      "last": 1789524678,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 4,
-          "first": 1788970790,
-          "last": 1789524678,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 3,
-          "first": 1789050580,
-          "last": 1789343545,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 3,
-          "first": 1788917230,
-          "last": 1789330389,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6216,9 +6216,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1346,
+      "count": 1347,
       "first": 1788901564,
-      "last": 1789571484,
+      "last": 1789571695,
       "songs": [
         {
           "artist": "Destructo Disk",
