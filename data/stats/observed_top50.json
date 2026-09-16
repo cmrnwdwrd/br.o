@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T15:06:22.700788+00:00",
+  "updatedAt": "2026-09-16T15:11:34.127448+00:00",
   "summary": {
-    "totalPlays": 2832,
-    "unknownPlays": 338,
+    "totalPlays": 2834,
+    "unknownPlays": 339,
     "uniqueTracks": 1356,
     "uniqueArtists": 948,
     "uniqueAlbums": 1153,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789571044
+    "lastObserved": 1789571484
   },
   "topSongs": [
     {
@@ -274,6 +274,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Of Monsters and Men",
+      "title": "Visitor",
+      "album": "Visitor",
+      "count": 4,
+      "first": 1788963370,
+      "last": 1789571275,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 4,
       "first": 1788916127,
       "last": 1789551350,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Crumb",
-      "title": "Locket",
-      "album": "Locket",
-      "count": 4,
-      "first": 1788983912,
-      "last": 1789551031,
       "playlists": {
         "1default": 4
       }
@@ -2992,6 +2992,47 @@
       ]
     },
     {
+      "artist": "Of Monsters and Men",
+      "count": 9,
+      "first": 1788963370,
+      "last": 1789571275,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 4,
+          "first": 1788963370,
+          "last": 1789571275,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 3,
+          "first": 1788991170,
+          "last": 1789347705,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 2,
+          "first": 1789156918,
+          "last": 1789163855,
+          "playlists": {
+            "escaping from cu boulder by giselle": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 9,
       "first": 1788975620,
@@ -3525,47 +3566,6 @@
           "last": 1789444049,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 8,
-      "first": 1788963370,
-      "last": 1789408235,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 3,
-          "first": 1788963370,
-          "last": 1789408235,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 3,
-          "first": 1788991170,
-          "last": 1789347705,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 2,
-          "first": 1789156918,
-          "last": 1789163855,
-          "playlists": {
-            "escaping from cu boulder by giselle": 2
           }
         }
       ]
@@ -6216,9 +6216,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1344,
+      "count": 1346,
       "first": 1788901564,
-      "last": 1789571044,
+      "last": 1789571484,
       "songs": [
         {
           "artist": "Destructo Disk",
