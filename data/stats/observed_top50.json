@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T15:31:41.254306+00:00",
+  "updatedAt": "2026-09-16T15:36:31.590826+00:00",
   "summary": {
-    "totalPlays": 2838,
+    "totalPlays": 2840,
     "unknownPlays": 339,
     "uniqueTracks": 1356,
     "uniqueArtists": 948,
     "uniqueAlbums": 1153,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789572411
+    "lastObserved": 1789572973
   },
   "topSongs": [
     {
@@ -277,6 +277,28 @@
       }
     },
     {
+      "artist": "N.E.R.D",
+      "title": "Run To The Sun",
+      "album": "In Search Of...",
+      "count": 4,
+      "first": 1788901564,
+      "last": 1789572973,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
+      "artist": "Tennis",
+      "title": "Need Your Love",
+      "album": "Swimmer",
+      "count": 4,
+      "first": 1789058225,
+      "last": 1789572742,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
       "artist": "Massive Attack, Elizabeth Fraser",
       "title": "Teardrop",
       "album": "Mezzanine",
@@ -536,28 +558,6 @@
       "count": 4,
       "first": 1789034826,
       "last": 1789558054,
-      "playlists": {
-        "freestyle beats to crash your car to": 4
-      }
-    },
-    {
-      "artist": "Mik, Knocked Loose",
-      "title": "Mistakes Like Fractures - Lofi",
-      "album": "Mistakes Like Fractures (Lofi)",
-      "count": 4,
-      "first": 1788949141,
-      "last": 1789557519,
-      "playlists": {
-        "freestyle beats to crash your car to": 4
-      }
-    },
-    {
-      "artist": "Hallucinogenius",
-      "title": "Don't Assume My Genre",
-      "album": "High-Wasted",
-      "count": 4,
-      "first": 1788950539,
-      "last": 1789557040,
       "playlists": {
         "freestyle beats to crash your car to": 4
       }
@@ -2486,6 +2486,58 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "count": 11,
+      "first": 1788989320,
+      "last": 1789572742,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 5,
+          "first": 1788989320,
+          "last": 1789533824,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Need Your Love",
+          "album": "Swimmer",
+          "count": 4,
+          "first": 1789058225,
+          "last": 1789572742,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Tender as a Tomb",
+          "album": "Swimmer",
+          "count": 1,
+          "first": 1789253168,
+          "last": 1789253168,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Seafarer",
+          "album": "Cape Dory",
+          "count": 1,
+          "first": 1789248601,
+          "last": 1789248601,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 11,
       "first": 1788917230,
@@ -2801,58 +2853,6 @@
           "last": 1789365605,
           "playlists": {
             "EPL4a": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tennis",
-      "count": 10,
-      "first": 1788989320,
-      "last": 1789533824,
-      "songs": [
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 5,
-          "first": 1788989320,
-          "last": 1789533824,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Need Your Love",
-          "album": "Swimmer",
-          "count": 3,
-          "first": 1789058225,
-          "last": 1789328785,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Tender as a Tomb",
-          "album": "Swimmer",
-          "count": 1,
-          "first": 1789253168,
-          "last": 1789253168,
-          "playlists": {
-            "landlockd surfrock": 1
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Seafarer",
-          "album": "Cape Dory",
-          "count": 1,
-          "first": 1789248601,
-          "last": 1789248601,
-          "playlists": {
-            "landlockd surfrock": 1
           }
         }
       ]
@@ -6216,9 +6216,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1350,
+      "count": 1352,
       "first": 1788901564,
-      "last": 1789572411,
+      "last": 1789572973,
       "songs": [
         {
           "artist": "Destructo Disk",
