@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T17:41:30.446508+00:00",
+  "updatedAt": "2026-09-16T17:46:26.076599+00:00",
   "summary": {
-    "totalPlays": 2874,
+    "totalPlays": 2875,
     "unknownPlays": 342,
     "uniqueTracks": 1356,
     "uniqueArtists": 948,
     "uniqueAlbums": 1153,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789580461
+    "lastObserved": 1789580604
   },
   "topSongs": [
     {
@@ -3697,6 +3697,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 7,
+      "first": 1788989714,
+      "last": 1789580604,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 4,
+          "first": 1788989714,
+          "last": 1789486161,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 3,
+          "first": 1789169386,
+          "last": 1789580604,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 7,
       "first": 1788972865,
@@ -3865,36 +3895,6 @@
           "count": 3,
           "first": 1789020059,
           "last": 1789550049,
-          "playlists": {
-            "breakbeat": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khadija Al Hanafi",
-      "count": 7,
-      "first": 1788941290,
-      "last": 1789549510,
-      "songs": [
-        {
-          "artist": "Khadija Al Hanafi",
-          "title": "You Know I Got That / Wont Stop Callin",
-          "album": "Slime Patrol 2",
-          "count": 4,
-          "first": 1788941290,
-          "last": 1789549510,
-          "playlists": {
-            "breakbeat": 4
-          }
-        },
-        {
-          "artist": "Khadija Al Hanafi",
-          "title": "Move Like Me",
-          "album": "Slime Patrol 2",
-          "count": 3,
-          "first": 1788942659,
-          "last": 1789118859,
           "playlists": {
             "breakbeat": 3
           }
@@ -6216,9 +6216,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1386,
+      "count": 1387,
       "first": 1788901564,
-      "last": 1789580461,
+      "last": 1789580604,
       "songs": [
         {
           "artist": "Destructo Disk",
