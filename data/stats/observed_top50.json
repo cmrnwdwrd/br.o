@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T04:36:12.837046+00:00",
+  "updatedAt": "2026-09-16T04:41:11.639095+00:00",
   "summary": {
-    "totalPlays": 2653,
+    "totalPlays": 2655,
     "unknownPlays": 316,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789533264
+    "lastObserved": 1789533530
   },
   "topSongs": [
     {
@@ -241,6 +241,28 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "The Ephinjis",
+      "title": "Knives",
+      "album": "Knives",
+      "count": 4,
+      "first": 1788973998,
+      "last": 1789533530,
+      "playlists": {
+        "1default": 4
+      }
+    },
+    {
+      "artist": "Tōth",
+      "title": "Song to Make You Fall in Love With Me",
+      "album": "Practice Magic and Seek Professional Help When Necessary",
+      "count": 4,
+      "first": 1788996775,
+      "last": 1789533100,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 4,
       "first": 1788915308,
       "last": 1789522999,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Fantastic Negrito",
-      "title": "Chocolate Samurai",
-      "album": "Chocolate Samurai",
-      "count": 4,
-      "first": 1788967854,
-      "last": 1789522483,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Kai Straw",
-      "title": "Don't Tread on Me",
-      "album": "Toothpick",
-      "count": 4,
-      "first": 1788985765,
-      "last": 1789522215,
       "playlists": {
         "1default": 4
       }
@@ -2434,6 +2434,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 11,
+      "first": 1788973998,
+      "last": 1789533530,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 4,
+          "first": 1788973998,
+          "last": 1789533530,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 4,
+          "first": 1789033065,
+          "last": 1789483127,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 3,
+          "first": 1789226629,
+          "last": 1789505671,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 11,
       "first": 1788946510,
@@ -2727,47 +2768,6 @@
           "last": 1789493471,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 10,
-      "first": 1788973998,
-      "last": 1789505671,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 4,
-          "first": 1789033065,
-          "last": 1789483127,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 3,
-          "first": 1789226629,
-          "last": 1789505671,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 3,
-          "first": 1788973998,
-          "last": 1789394545,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6117,9 +6117,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1310,
+      "count": 1312,
       "first": 1788901564,
-      "last": 1789533264,
+      "last": 1789533530,
       "songs": [
         {
           "artist": "Destructo Disk",
