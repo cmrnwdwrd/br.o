@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-16T02:51:18.239380+00:00",
+  "updatedAt": "2026-09-16T02:56:10.422917+00:00",
   "summary": {
-    "totalPlays": 2626,
-    "unknownPlays": 312,
+    "totalPlays": 2628,
+    "unknownPlays": 313,
     "uniqueTracks": 1326,
     "uniqueArtists": 931,
     "uniqueAlbums": 1127,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789526931
+    "lastObserved": 1789527340
   },
   "topSongs": [
     {
@@ -219,6 +219,17 @@
       "last": 1789416551,
       "playlists": {
         "1default": 5
+      }
+    },
+    {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 4,
+      "first": 1788919285,
+      "last": 1789527100,
+      "playlists": {
+        "1default": 4
       }
     },
     {
@@ -549,17 +560,6 @@
       "last": 1789515569,
       "playlists": {
         "1default": 4
-      }
-    },
-    {
-      "artist": "Car Seat Headrest",
-      "title": "Bodys",
-      "album": "Twin Fantasy",
-      "count": 4,
-      "first": 1788994486,
-      "last": 1789514875,
-      "playlists": {
-        "d i n n e r": 4
       }
     }
   ],
@@ -2970,6 +2970,36 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 8,
+      "first": 1788919285,
+      "last": 1789527100,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 4,
+          "first": 1788919285,
+          "last": 1789527100,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 4,
+          "first": 1788975084,
+          "last": 1789441180,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "count": 8,
       "first": 1788947080,
@@ -3768,36 +3798,6 @@
           "last": 1789463134,
           "playlists": {
             "breakbeat": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 7,
-      "first": 1788914032,
-      "last": 1789443789,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 4,
-          "first": 1789222724,
-          "last": 1789443789,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 3,
-          "first": 1788914032,
-          "last": 1789408773,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6106,9 +6106,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1283,
+      "count": 1285,
       "first": 1788901564,
-      "last": 1789526931,
+      "last": 1789527340,
       "songs": [
         {
           "artist": "Destructo Disk",
