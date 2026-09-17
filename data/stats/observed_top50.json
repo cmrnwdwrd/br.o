@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T04:56:19.653585+00:00",
+  "updatedAt": "2026-09-17T05:01:33.906999+00:00",
   "summary": {
-    "totalPlays": 3038,
+    "totalPlays": 3040,
     "unknownPlays": 363,
     "uniqueTracks": 1417,
     "uniqueArtists": 971,
     "uniqueAlbums": 1194,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789620900
+    "lastObserved": 1789621279
   },
   "topSongs": [
     {
@@ -566,9 +566,9 @@
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 68,
+      "count": 70,
       "first": 1788929259,
-      "last": 1789620900,
+      "last": 1789621279,
       "songs": [
         {
           "artist": "home alone.",
@@ -579,6 +579,28 @@
           "last": 1789620352,
           "playlists": {
             "more home alone": 3
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "lowkey",
+          "album": "all killer, no filler",
+          "count": 2,
+          "first": 1788929845,
+          "last": 1789621279,
+          "playlists": {
+            "more home alone": 2
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "oklahoma",
+          "album": "all killer, no filler",
+          "count": 2,
+          "first": 1789016560,
+          "last": 1789621100,
+          "playlists": {
+            "more home alone": 2
           }
         },
         {
@@ -946,17 +968,6 @@
         },
         {
           "artist": "home alone.",
-          "title": "oklahoma",
-          "album": "all killer, no filler",
-          "count": 1,
-          "first": 1789016560,
-          "last": 1789016560,
-          "playlists": {
-            "more home alone": 1
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "distant",
           "album": "drive it like you stole it.",
           "count": 1,
@@ -984,17 +995,6 @@
           "count": 1,
           "first": 1788930426,
           "last": 1788930426,
-          "playlists": {
-            "more home alone": 1
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "lowkey",
-          "album": "all killer, no filler",
-          "count": 1,
-          "first": 1788929845,
-          "last": 1788929845,
           "playlists": {
             "more home alone": 1
           }
@@ -4466,65 +4466,34 @@
       ]
     },
     {
-      "artist": "Lil Darkie",
-      "album": "SWAMP",
-      "count": 16,
-      "first": 1788926373,
-      "last": 1789575550,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 4,
-          "first": 1788926373,
-          "last": 1789575550,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 4,
-          "first": 1789058454,
-          "last": 1789531498,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 4,
-          "first": 1788983290,
-          "last": 1789503480,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 4,
-          "first": 1789057548,
-          "last": 1789444924,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
-    },
-    {
       "artist": "home alone.",
       "album": "all killer, no filler",
-      "count": 16,
+      "count": 18,
       "first": 1788929845,
-      "last": 1789535214,
+      "last": 1789621279,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "lowkey",
+          "album": "all killer, no filler",
+          "count": 2,
+          "first": 1788929845,
+          "last": 1789621279,
+          "playlists": {
+            "more home alone": 2
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "oklahoma",
+          "album": "all killer, no filler",
+          "count": 2,
+          "first": 1789016560,
+          "last": 1789621100,
+          "playlists": {
+            "more home alone": 2
+          }
+        },
         {
           "artist": "home alone.",
           "title": "all that jazz",
@@ -4604,17 +4573,6 @@
         },
         {
           "artist": "home alone.",
-          "title": "oklahoma",
-          "album": "all killer, no filler",
-          "count": 1,
-          "first": 1789016560,
-          "last": 1789016560,
-          "playlists": {
-            "more home alone": 1
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "regrets²",
           "album": "all killer, no filler",
           "count": 1,
@@ -4623,16 +4581,58 @@
           "playlists": {
             "more home alone": 1
           }
+        }
+      ]
+    },
+    {
+      "artist": "Lil Darkie",
+      "album": "SWAMP",
+      "count": 16,
+      "first": 1788926373,
+      "last": 1789575550,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1788926373,
+          "last": 1789575550,
+          "playlists": {
+            "1default": 4
+          }
         },
         {
-          "artist": "home alone.",
-          "title": "lowkey",
-          "album": "all killer, no filler",
-          "count": 1,
-          "first": 1788929845,
-          "last": 1788929845,
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1789058454,
+          "last": 1789531498,
           "playlists": {
-            "more home alone": 1
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1788983290,
+          "last": 1789503480,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1789057548,
+          "last": 1789444924,
+          "playlists": {
+            "1default": 4
           }
         }
       ]
