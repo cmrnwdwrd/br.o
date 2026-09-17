@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T21:25:35.264787+00:00",
+  "updatedAt": "2026-09-17T21:30:47.564847+00:00",
   "summary": {
-    "totalPlays": 3327,
+    "totalPlays": 3329,
     "unknownPlays": 398,
     "uniqueTracks": 1470,
     "uniqueArtists": 1004,
     "uniqueAlbums": 1235,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789680086
+    "lastObserved": 1789680626
   },
   "topSongs": [
     {
@@ -230,6 +230,28 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Tell Me That You Like It",
+      "album": "Tell Me That You Like It",
+      "count": 5,
+      "first": 1789050580,
+      "last": 1789680626,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
+      "artist": "Surfaces",
+      "title": "Heaven Falls / Fall On Me",
+      "album": "Sunday Best (Japan Exclusive)",
+      "count": 5,
+      "first": 1789048876,
+      "last": 1789680386,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 5,
       "first": 1788983582,
       "last": 1789666705,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Franz Schubert, Clara Rockmore, Nadia Reisenberg",
-      "title": "Ave Maria, Op. 52 No. 6, D. 839 (Arr. for Theremin & Piano)",
-      "album": "Dvořák, Ravel, Gershwin & Others: Chamber Works",
-      "count": 5,
-      "first": 1789064997,
-      "last": 1789666173,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Your Smith",
-      "title": "Ooh Wee",
-      "album": "Bad Habit",
-      "count": 5,
-      "first": 1788969485,
-      "last": 1789665460,
       "playlists": {
         "1default": 5
       }
@@ -2610,6 +2610,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 13,
+      "first": 1788917230,
+      "last": 1789680626,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 5,
+          "first": 1789050580,
+          "last": 1789680626,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 4,
+          "first": 1788917230,
+          "last": 1789571695,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 4,
+          "first": 1788970790,
+          "last": 1789524678,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 13,
       "first": 1788973066,
@@ -2964,47 +3005,6 @@
           "count": 4,
           "first": 1788965930,
           "last": 1789575660,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 12,
-      "first": 1788917230,
-      "last": 1789592913,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 4,
-          "first": 1789050580,
-          "last": 1789592913,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 4,
-          "first": 1788917230,
-          "last": 1789571695,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 4,
-          "first": 1788970790,
-          "last": 1789524678,
           "playlists": {
             "1default": 4
           }
@@ -6370,9 +6370,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1575,
+      "count": 1577,
       "first": 1788901564,
-      "last": 1789680086,
+      "last": 1789680626,
       "songs": [
         {
           "artist": "Modest Mouse",
