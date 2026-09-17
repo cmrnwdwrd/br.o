@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T17:25:35.637548+00:00",
+  "updatedAt": "2026-09-17T17:30:29.021537+00:00",
   "summary": {
-    "totalPlays": 3261,
+    "totalPlays": 3263,
     "unknownPlays": 390,
     "uniqueTracks": 1470,
     "uniqueArtists": 1004,
     "uniqueAlbums": 1235,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789665710
+    "lastObserved": 1789666173
   },
   "topSongs": [
     {
@@ -208,6 +208,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "Franz Schubert, Clara Rockmore, Nadia Reisenberg",
+      "title": "Ave Maria, Op. 52 No. 6, D. 839 (Arr. for Theremin & Piano)",
+      "album": "Dvořák, Ravel, Gershwin & Others: Chamber Works",
+      "count": 5,
+      "first": 1789064997,
+      "last": 1789666173,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -549,17 +560,6 @@
       "last": 1789644693,
       "playlists": {
         "freestyle beats to crash your car to": 5
-      }
-    },
-    {
-      "artist": "Mint Royale, Posdnuos",
-      "title": "Show Me",
-      "album": "Dancehall Places",
-      "count": 5,
-      "first": 1789030424,
-      "last": 1789641498,
-      "playlists": {
-        "breakbeat": 5
       }
     }
   ],
@@ -2755,6 +2755,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 12,
+      "first": 1788965930,
+      "last": 1789665992,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 4,
+          "first": 1789068640,
+          "last": 1789665992,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 4,
+          "first": 1789215234,
+          "last": 1789638022,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 4,
+          "first": 1788965930,
+          "last": 1789575660,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Tennis",
       "count": 12,
       "first": 1788989320,
@@ -2923,47 +2964,6 @@
           "count": 3,
           "first": 1789226001,
           "last": 1789591378,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 11,
-      "first": 1788965930,
-      "last": 1789638022,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 4,
-          "first": 1789215234,
-          "last": 1789638022,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 4,
-          "first": 1788965930,
-          "last": 1789575660,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 3,
-          "first": 1789068640,
-          "last": 1789552386,
           "playlists": {
             "1default": 3
           }
@@ -6370,9 +6370,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1509,
+      "count": 1511,
       "first": 1788901564,
-      "last": 1789665710,
+      "last": 1789666173,
       "songs": [
         {
           "artist": "Colfax Speed Queen",
