@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T18:45:34.661923+00:00",
+  "updatedAt": "2026-09-17T18:50:38.195021+00:00",
   "summary": {
-    "totalPlays": 3284,
+    "totalPlays": 3285,
     "unknownPlays": 392,
     "uniqueTracks": 1470,
     "uniqueArtists": 1004,
     "uniqueAlbums": 1235,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789670673
+    "lastObserved": 1789670854
   },
   "topSongs": [
     {
@@ -230,6 +230,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "Of Monsters and Men",
+      "title": "Wars",
+      "album": "FEVER DREAM",
+      "count": 5,
+      "first": 1788991170,
+      "last": 1789670854,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1789064095,
       "last": 1789659805,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Fatboy Slim",
-      "title": "Weapon of Choice",
-      "album": "The Greatest Hits: Why Try Harder",
-      "count": 5,
-      "first": 1788984231,
-      "last": 1789659475,
       "playlists": {
         "1default": 5
       }
@@ -2755,6 +2755,47 @@
       ]
     },
     {
+      "artist": "Of Monsters and Men",
+      "count": 12,
+      "first": 1788963370,
+      "last": 1789670854,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 5,
+          "first": 1788991170,
+          "last": 1789670854,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 5,
+          "first": 1788963370,
+          "last": 1789576300,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 2,
+          "first": 1789156918,
+          "last": 1789163855,
+          "playlists": {
+            "escaping from cu boulder by giselle": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Brandywine",
       "count": 12,
       "first": 1788965930,
@@ -3059,47 +3100,6 @@
           "last": 1789568531,
           "playlists": {
             "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 11,
-      "first": 1788963370,
-      "last": 1789576339,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 5,
-          "first": 1788963370,
-          "last": 1789576300,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 4,
-          "first": 1788991170,
-          "last": 1789576339,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 2,
-          "first": 1789156918,
-          "last": 1789163855,
-          "playlists": {
-            "escaping from cu boulder by giselle": 2
           }
         }
       ]
@@ -6348,9 +6348,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1532,
+      "count": 1533,
       "first": 1788901564,
-      "last": 1789670673,
+      "last": 1789670854,
       "songs": [
         {
           "artist": "Modest Mouse",
