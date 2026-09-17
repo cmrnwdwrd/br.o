@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T22:05:42.288470+00:00",
+  "updatedAt": "2026-09-17T22:10:43.374579+00:00",
   "summary": {
-    "totalPlays": 3338,
+    "totalPlays": 3340,
     "unknownPlays": 399,
     "uniqueTracks": 1470,
     "uniqueArtists": 1004,
     "uniqueAlbums": 1235,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789682663
+    "lastObserved": 1789683037
   },
   "topSongs": [
     {
@@ -241,6 +241,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "My Chemical Romance",
+      "title": "Thank You for the Venom",
+      "album": "Three Cheers for Sweet Revenge",
+      "count": 5,
+      "first": 1788995310,
+      "last": 1789682815,
+      "playlists": {
+        "MCR wednesday wind down": 5
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1789049428,
       "last": 1789669603,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 5,
-      "first": 1788903565,
-      "last": 1789669438,
       "playlists": {
         "1default": 5
       }
@@ -1242,10 +1242,21 @@
     },
     {
       "artist": "My Chemical Romance",
-      "count": 48,
+      "count": 49,
       "first": 1788965302,
-      "last": 1789620105,
+      "last": 1789682815,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Thank You for the Venom",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 5,
+          "first": 1788995310,
+          "last": 1789682815,
+          "playlists": {
+            "MCR wednesday wind down": 5
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "Planetary (GO!)",
@@ -1255,17 +1266,6 @@
           "last": 1789620105,
           "playlists": {
             "1default": 5
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Thank You for the Venom",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 4,
-          "first": 1788995310,
-          "last": 1789609984,
-          "playlists": {
-            "MCR wednesday wind down": 4
           }
         },
         {
@@ -4640,19 +4640,19 @@
     {
       "artist": "My Chemical Romance",
       "album": "Three Cheers for Sweet Revenge",
-      "count": 15,
+      "count": 16,
       "first": 1788995310,
-      "last": 1789614541,
+      "last": 1789682815,
       "songs": [
         {
           "artist": "My Chemical Romance",
           "title": "Thank You for the Venom",
           "album": "Three Cheers for Sweet Revenge",
-          "count": 4,
+          "count": 5,
           "first": 1788995310,
-          "last": 1789609984,
+          "last": 1789682815,
           "playlists": {
-            "MCR wednesday wind down": 4
+            "MCR wednesday wind down": 5
           }
         },
         {
@@ -6652,10 +6652,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 85,
+      "count": 86,
       "first": 1788904845,
-      "last": 1789682663,
+      "last": 1789683037,
       "songs": [
+        {
+          "artist": "Neutral Milk Hotel",
+          "title": "Communist Daughter",
+          "album": "In the Aeroplane Over the Sea",
+          "count": 3,
+          "first": 1788994893,
+          "last": 1789683037,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 3
+          }
+        },
         {
           "artist": "Rosie Tucker",
           "title": "For Sale: Ford Pinto",
@@ -6699,16 +6710,68 @@
           "playlists": {
             "anti-capitalist weekday afternoon #1": 3
           }
+        }
+      ]
+    },
+    {
+      "playlist": "MCR wednesday wind down",
+      "count": 75,
+      "first": 1788995310,
+      "last": 1789682815,
+      "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Thank You for the Venom",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 5,
+          "first": 1788995310,
+          "last": 1789682815,
+          "playlists": {
+            "MCR wednesday wind down": 5
+          }
         },
         {
-          "artist": "The Crickets",
-          "title": "I Fought The Law",
-          "album": "In Style With The Crickets (Expanded Edition)",
-          "count": 3,
-          "first": 1788991998,
-          "last": 1789598537,
+          "artist": "Taking Back Sunday",
+          "title": "MakeDamnSure",
+          "album": "Louder Now (U.S. Version)",
+          "count": 2,
+          "first": 1789002434,
+          "last": 1789614333,
           "playlists": {
-            "anti-capitalist weekday afternoon #1": 3
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Vampire Money",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 2,
+          "first": 1789003997,
+          "last": 1789612519,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "DESTROYA",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 2,
+          "first": 1789001125,
+          "last": 1789610541,
+          "playlists": {
+            "MCR wednesday wind down": 2
+          }
+        },
+        {
+          "artist": "Paramore",
+          "title": "crushcrushcrush",
+          "album": "Riot!",
+          "count": 2,
+          "first": 1789003620,
+          "last": 1789608162,
+          "playlists": {
+            "MCR wednesday wind down": 2
           }
         }
       ]
@@ -6772,69 +6835,6 @@
           "last": 1789323570,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "playlist": "MCR wednesday wind down",
-      "count": 74,
-      "first": 1788995310,
-      "last": 1789614715,
-      "songs": [
-        {
-          "artist": "My Chemical Romance",
-          "title": "Thank You for the Venom",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 4,
-          "first": 1788995310,
-          "last": 1789609984,
-          "playlists": {
-            "MCR wednesday wind down": 4
-          }
-        },
-        {
-          "artist": "Taking Back Sunday",
-          "title": "MakeDamnSure",
-          "album": "Louder Now (U.S. Version)",
-          "count": 2,
-          "first": 1789002434,
-          "last": 1789614333,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Vampire Money",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 2,
-          "first": 1789003997,
-          "last": 1789612519,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "DESTROYA",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 2,
-          "first": 1789001125,
-          "last": 1789610541,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "Paramore",
-          "title": "crushcrushcrush",
-          "album": "Riot!",
-          "count": 2,
-          "first": 1789003620,
-          "last": 1789608162,
-          "playlists": {
-            "MCR wednesday wind down": 2
           }
         }
       ]
