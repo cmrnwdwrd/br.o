@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T04:26:22.858006+00:00",
+  "updatedAt": "2026-09-17T04:31:25.271927+00:00",
   "summary": {
-    "totalPlays": 3029,
+    "totalPlays": 3031,
     "unknownPlays": 361,
     "uniqueTracks": 1417,
     "uniqueArtists": 971,
     "uniqueAlbums": 1194,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789619016
+    "lastObserved": 1789619439
   },
   "topSongs": [
     {
@@ -164,6 +164,28 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "Barrie",
+      "title": "Hutch",
+      "album": "Happy To Be Here",
+      "count": 5,
+      "first": 1788912861,
+      "last": 1789619439,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
+      "artist": "Your Smith",
+      "title": "Debbie",
+      "album": "Bad Habit",
+      "count": 5,
+      "first": 1788947368,
+      "last": 1789619245,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 4,
       "first": 1788983449,
       "last": 1789595526,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Gorillaz, Fatoumata Diawara",
-      "title": "Désolé (feat. Fatoumata Diawara)",
-      "album": "Song Machine Episode 2",
-      "count": 4,
-      "first": 1788967094,
-      "last": 1789594963,
-      "playlists": {
-        "1default": 4
-      }
-    },
-    {
-      "artist": "Bad Bad Hats",
-      "title": "Walkman",
-      "album": "Walkman",
-      "count": 4,
-      "first": 1788963606,
-      "last": 1789594772,
       "playlists": {
         "1default": 4
       }
@@ -2558,6 +2558,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 12,
+      "first": 1788947368,
+      "last": 1789619245,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 5,
+          "first": 1788947368,
+          "last": 1789619245,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 4,
+          "first": 1788969485,
+          "last": 1789485910,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 3,
+          "first": 1789086174,
+          "last": 1789577088,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Tennis",
       "count": 12,
       "first": 1788989320,
@@ -2830,47 +2871,6 @@
           "count": 3,
           "first": 1789139069,
           "last": 1789568531,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 11,
-      "first": 1788947368,
-      "last": 1789577088,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 4,
-          "first": 1788947368,
-          "last": 1789519339,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 4,
-          "first": 1788969485,
-          "last": 1789485910,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 3,
-          "first": 1789086174,
-          "last": 1789577088,
           "playlists": {
             "1default": 3
           }
@@ -3275,6 +3275,36 @@
           "last": 1789105687,
           "playlists": {
             "for the girls driving 85": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Barrie",
+      "count": 9,
+      "first": 1788912861,
+      "last": 1789619439,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 5,
+          "first": 1788912861,
+          "last": 1789619439,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 4,
+          "first": 1788966960,
+          "last": 1789506865,
+          "playlists": {
+            "1default": 4
           }
         }
       ]
@@ -3783,36 +3813,6 @@
           "last": 1789548134,
           "playlists": {
             "breakbeat": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 8,
-      "first": 1788912861,
-      "last": 1789532169,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 4,
-          "first": 1788912861,
-          "last": 1789532169,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 4,
-          "first": 1788966960,
-          "last": 1789506865,
-          "playlists": {
-            "1default": 4
           }
         }
       ]
@@ -4801,6 +4801,48 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "album": "Bad Habit",
+      "count": 12,
+      "first": 1788947368,
+      "last": 1789619245,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 5,
+          "first": 1788947368,
+          "last": 1789619245,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 4,
+          "first": 1788969485,
+          "last": 1789485910,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 3,
+          "first": 1789086174,
+          "last": 1789577088,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
       "count": 12,
@@ -4964,48 +5006,6 @@
           "count": 3,
           "first": 1789139069,
           "last": 1789568531,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "album": "Bad Habit",
-      "count": 11,
-      "first": 1788947368,
-      "last": 1789577088,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 4,
-          "first": 1788947368,
-          "last": 1789519339,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 4,
-          "first": 1788969485,
-          "last": 1789485910,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 3,
-          "first": 1789086174,
-          "last": 1789577088,
           "playlists": {
             "1default": 3
           }
@@ -6381,9 +6381,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1455,
+      "count": 1457,
       "first": 1788901564,
-      "last": 1789619016,
+      "last": 1789619439,
       "songs": [
         {
           "artist": "Modest Mouse",
