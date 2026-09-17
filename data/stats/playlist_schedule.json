@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T03:11:27.550853+00:00",
+  "updatedAt": "2026-09-17T03:16:24.981407+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 32,
-    "sessionCount": 116,
+    "sessionCount": 117,
     "firstObserved": 1788901564,
-    "lastObserved": 1789607228
+    "lastObserved": 1789614928
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 46,
-      "playCount": 1429,
+      "sessionCount": 47,
+      "playCount": 1430,
       "firstObserved": 1788901564,
-      "lastObserved": 1789601419,
-      "typicalStartMinute": 1272,
-      "typicalDurationMinutes": 37,
+      "lastObserved": 1789614928,
+      "typicalStartMinute": 1274,
+      "typicalDurationMinutes": 33,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -94,7 +94,7 @@
           0.0,
           0.0,
           0.0,
-          0.0,
+          3.5,
           21.4,
           0.0
         ],
@@ -486,7 +486,7 @@
           0.0,
           0.0,
           0.0,
-          0.0,
+          3.5,
           0.0,
           0.0,
           0.0,
@@ -966,7 +966,7 @@
           0,
           0,
           0,
-          0,
+          1,
           1,
           0
         ],
@@ -1092,9 +1092,9 @@
         },
         {
           "weekday": 2,
-          "sessions": 14,
-          "typicalStartMinute": 1252,
-          "typicalDurationMinutes": 19,
+          "sessions": 15,
+          "typicalStartMinute": 1260,
+          "typicalDurationMinutes": 17,
           "confidence": "Low"
         },
         {
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1789614928,
+          "end": 1789615138,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1789601419,
           "end": 1789602443,
@@ -1240,12 +1246,6 @@
           "end": 1789306515,
           "durationMinutes": 3,
           "playCount": 1
-        },
-        {
-          "start": 1789292094,
-          "end": 1789295515,
-          "durationMinutes": 57,
-          "playCount": 17
         }
       ]
     },
@@ -13509,11 +13509,11 @@
     {
       "playlist": "MCR wednesday wind down",
       "sessionCount": 2,
-      "playCount": 71,
+      "playCount": 72,
       "firstObserved": 1789001125,
       "lastObserved": 1789607228,
       "typicalStartMinute": 1136,
-      "typicalDurationMinutes": 138,
+      "typicalDurationMinutes": 139,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -13590,7 +13590,7 @@
           14.6,
           112.9,
           120.0,
-          27.6,
+          31.1,
           0.0,
           0.0
         ],
@@ -13981,8 +13981,8 @@
           30.0,
           30.0,
           30.0,
-          26.9,
-          0.7,
+          30.0,
+          1.1,
           0.0,
           0.0,
           0.0,
@@ -14576,16 +14576,16 @@
           "weekday": 2,
           "sessions": 2,
           "typicalStartMinute": 1136,
-          "typicalDurationMinutes": 138,
+          "typicalDurationMinutes": 139,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
         {
           "start": 1789607228,
-          "end": 1789614714,
-          "durationMinutes": 125,
-          "playCount": 33
+          "end": 1789614928,
+          "durationMinutes": 128,
+          "playCount": 34
         },
         {
           "start": 1789001125,
