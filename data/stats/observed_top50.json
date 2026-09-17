@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T19:40:24.923950+00:00",
+  "updatedAt": "2026-09-17T19:45:33.682585+00:00",
   "summary": {
-    "totalPlays": 3300,
+    "totalPlays": 3302,
     "unknownPlays": 395,
     "uniqueTracks": 1470,
     "uniqueArtists": 1004,
     "uniqueAlbums": 1235,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789673806
+    "lastObserved": 1789674163
   },
   "topSongs": [
     {
@@ -230,6 +230,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "Kate Bollinger",
+      "title": "Talk About It",
+      "album": "Talk About It (B-Side)",
+      "count": 5,
+      "first": 1788983449,
+      "last": 1789674031,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1789032729,
       "last": 1789663524,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Mitski",
-      "title": "Should've Been Me",
-      "album": "Laurel Hell",
-      "count": 5,
-      "first": 1788920128,
-      "last": 1789663329,
       "playlists": {
         "1default": 5
       }
@@ -3485,6 +3485,36 @@
       ]
     },
     {
+      "artist": "Kate Bollinger",
+      "count": 9,
+      "first": 1788915657,
+      "last": 1789674031,
+      "songs": [
+        {
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 5,
+          "first": 1788983449,
+          "last": 1789674031,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 4,
+          "first": 1788915657,
+          "last": 1789506238,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Beach Bunny",
       "count": 9,
       "first": 1788966457,
@@ -3769,6 +3799,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 8,
+      "first": 1789069956,
+      "last": 1789674163,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 4,
+          "first": 1789235365,
+          "last": 1789674163,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 4,
+          "first": 1789069956,
+          "last": 1789666468,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "count": 8,
       "first": 1788968149,
@@ -3947,66 +4007,6 @@
           "last": 1789580604,
           "playlists": {
             "1default": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 8,
-      "first": 1788986484,
-      "last": 1789638924,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 4,
-          "first": 1789231311,
-          "last": 1789638924,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 4,
-          "first": 1788986484,
-          "last": 1789505986,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "2 Mello",
-      "count": 8,
-      "first": 1788945550,
-      "last": 1789636567,
-      "songs": [
-        {
-          "artist": "2 Mello",
-          "title": "I Wanna Kno",
-          "album": "Sounds Of Tokyo-To Future",
-          "count": 4,
-          "first": 1788945550,
-          "last": 1789636567,
-          "playlists": {
-            "breakbeat": 4
-          }
-        },
-        {
-          "artist": "2 Mello",
-          "title": "Ba-Da-Ba",
-          "album": "Memories of Tokyo-To",
-          "count": 4,
-          "first": 1789025752,
-          "last": 1789632805,
-          "playlists": {
-            "breakbeat": 4
           }
         }
       ]
@@ -6359,9 +6359,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1548,
+      "count": 1550,
       "first": 1788901564,
-      "last": 1789673806,
+      "last": 1789674163,
       "songs": [
         {
           "artist": "Modest Mouse",
