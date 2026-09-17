@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T13:35:33.944582+00:00",
+  "updatedAt": "2026-09-17T13:40:41.519329+00:00",
   "summary": {
-    "totalPlays": 3194,
+    "totalPlays": 3195,
     "unknownPlays": 382,
-    "uniqueTracks": 1443,
+    "uniqueTracks": 1444,
     "uniqueArtists": 984,
     "uniqueAlbums": 1211,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789652110
+    "lastObserved": 1789652391
   },
   "topSongs": [
     {
@@ -6504,10 +6504,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 179,
+      "count": 180,
       "first": 1788955289,
-      "last": 1789652110,
+      "last": 1789652391,
       "songs": [
+        {
+          "artist": "Rainbow Kitten Surprise",
+          "title": "Polite Company",
+          "album": "How to: Friend, Love, Freefall",
+          "count": 1,
+          "first": 1789652391,
+          "last": 1789652391,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
         {
           "artist": "Caamp",
           "title": "By and By",
@@ -6548,17 +6559,6 @@
           "count": 1,
           "first": 1789651243,
           "last": 1789651243,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Jome",
-          "title": "Cinnamon",
-          "album": "Tunnels",
-          "count": 1,
-          "first": 1789651038,
-          "last": 1789651038,
           "playlists": {
             "carhartts": 1
           }
