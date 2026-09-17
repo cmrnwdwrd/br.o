@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T17:55:36.368874+00:00",
+  "updatedAt": "2026-09-17T18:01:02.669549+00:00",
   "summary": {
-    "totalPlays": 3269,
+    "totalPlays": 3271,
     "unknownPlays": 391,
     "uniqueTracks": 1470,
     "uniqueArtists": 1004,
     "uniqueAlbums": 1235,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789667653
+    "lastObserved": 1789668035
   },
   "topSongs": [
+    {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 8,
+      "first": 1788968149,
+      "last": 1789667804,
+      "playlists": {
+        "1default": 8
+      }
+    },
     {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "title": "Run It",
@@ -41,17 +52,6 @@
       "count": 7,
       "first": 1788991593,
       "last": 1789637675,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Modest Mouse",
-      "title": "Bury Me With It",
-      "album": "Good News For People Who Love Bad News",
-      "count": 7,
-      "first": 1788968149,
-      "last": 1789600472,
       "playlists": {
         "1default": 7
       }
@@ -208,6 +208,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "Lucius",
+      "title": "Old Tape (feat. Adam Granduciel) - Single Edit",
+      "album": "Old Tape (feat. Adam Granduciel)",
+      "count": 5,
+      "first": 1788912648,
+      "last": 1789668035,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1789226222,
       "last": 1789653887,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Gorillaz, Beck",
-      "title": "The Valley of The Pagans (feat. Beck)",
-      "album": "Song Machine, Season One: Strange Timez (Deluxe)",
-      "count": 5,
-      "first": 1789062154,
-      "last": 1789653705,
       "playlists": {
         "1default": 5
       }
@@ -3698,6 +3698,25 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "count": 8,
+      "first": 1788968149,
+      "last": 1789667804,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 8,
+          "first": 1788968149,
+          "last": 1789667804,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Beach Bunny",
       "count": 8,
       "first": 1788966457,
@@ -3975,36 +3994,6 @@
           "count": 4,
           "first": 1789027410,
           "last": 1789630165,
-          "playlists": {
-            "breakbeat": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "bastienGOAT",
-      "count": 8,
-      "first": 1788944435,
-      "last": 1789633127,
-      "songs": [
-        {
-          "artist": "bastienGOAT",
-          "title": "Don't stop don't miss",
-          "album": "NODE",
-          "count": 4,
-          "first": 1789029209,
-          "last": 1789633127,
-          "playlists": {
-            "breakbeat": 4
-          }
-        },
-        {
-          "artist": "bastienGOAT",
-          "title": "Tell me if you like it",
-          "album": "MULTI",
-          "count": 4,
-          "first": 1788944435,
-          "last": 1789459460,
           "playlists": {
             "breakbeat": 4
           }
@@ -5541,6 +5530,26 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "album": "Good News For People Who Love Bad News",
+      "count": 8,
+      "first": 1788968149,
+      "last": 1789667804,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 8,
+          "first": 1788968149,
+          "last": 1789667804,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "album": "Run It",
       "count": 8,
@@ -6006,26 +6015,6 @@
       ]
     },
     {
-      "artist": "Modest Mouse",
-      "album": "Good News For People Who Love Bad News",
-      "count": 7,
-      "first": 1788968149,
-      "last": 1789600472,
-      "songs": [
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 7,
-          "first": 1788968149,
-          "last": 1789600472,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
       "artist": "Metric",
       "album": "Old World Underground, Where Are You Now?",
       "count": 7,
@@ -6370,10 +6359,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1517,
+      "count": 1519,
       "first": 1788901564,
-      "last": 1789667653,
+      "last": 1789668035,
       "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 8,
+          "first": 1788968149,
+          "last": 1789667804,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Colfax Speed Queen",
           "title": "Jesus Loves Rock N' Roll",
@@ -6392,17 +6392,6 @@
           "count": 7,
           "first": 1788991593,
           "last": 1789637675,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 7,
-          "first": 1788968149,
-          "last": 1789600472,
           "playlists": {
             "1default": 7
           }
