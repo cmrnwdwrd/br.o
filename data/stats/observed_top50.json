@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T20:30:34.248925+00:00",
+  "updatedAt": "2026-09-17T20:35:34.602610+00:00",
   "summary": {
-    "totalPlays": 3314,
+    "totalPlays": 3315,
     "unknownPlays": 396,
     "uniqueTracks": 1470,
     "uniqueArtists": 1004,
     "uniqueAlbums": 1235,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789676836
+    "lastObserved": 1789677125
   },
   "topSongs": [
     {
@@ -230,6 +230,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "Tennis",
+      "title": "Need Your Love",
+      "album": "Swimmer",
+      "count": 5,
+      "first": 1789058225,
+      "last": 1789677125,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788901564,
       "last": 1789664388,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Yumi Zouma",
-      "title": "Right Track / Wrong Man",
-      "album": "Truth or Consequences",
-      "count": 5,
-      "first": 1789057143,
-      "last": 1789664181,
       "playlists": {
         "1default": 5
       }
@@ -2558,6 +2558,58 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "count": 13,
+      "first": 1788989320,
+      "last": 1789677125,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 6,
+          "first": 1788989320,
+          "last": 1789616927,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Need Your Love",
+          "album": "Swimmer",
+          "count": 5,
+          "first": 1789058225,
+          "last": 1789677125,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Tender as a Tomb",
+          "album": "Swimmer",
+          "count": 1,
+          "first": 1789253168,
+          "last": 1789253168,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Seafarer",
+          "album": "Cape Dory",
+          "count": 1,
+          "first": 1789248601,
+          "last": 1789248601,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 13,
       "first": 1788946510,
@@ -2873,58 +2925,6 @@
           "last": 1789575660,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tennis",
-      "count": 12,
-      "first": 1788989320,
-      "last": 1789616927,
-      "songs": [
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 6,
-          "first": 1788989320,
-          "last": 1789616927,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Need Your Love",
-          "album": "Swimmer",
-          "count": 4,
-          "first": 1789058225,
-          "last": 1789572742,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Tender as a Tomb",
-          "album": "Swimmer",
-          "count": 1,
-          "first": 1789253168,
-          "last": 1789253168,
-          "playlists": {
-            "landlockd surfrock": 1
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Seafarer",
-          "album": "Cape Dory",
-          "count": 1,
-          "first": 1789248601,
-          "last": 1789248601,
-          "playlists": {
-            "landlockd surfrock": 1
           }
         }
       ]
@@ -6316,6 +6316,37 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "album": "Swimmer",
+      "count": 6,
+      "first": 1789058225,
+      "last": 1789677125,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Need Your Love",
+          "album": "Swimmer",
+          "count": 5,
+          "first": 1789058225,
+          "last": 1789677125,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Tender as a Tomb",
+          "album": "Swimmer",
+          "count": 1,
+          "first": 1789253168,
+          "last": 1789253168,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Daffo",
       "album": "Good God (Porches Remix)",
       "count": 6,
@@ -6334,34 +6365,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "The Cardigans",
-      "album": "First Band On The Moon (Remastered)",
-      "count": 6,
-      "first": 1788985233,
-      "last": 1789670004,
-      "songs": [
-        {
-          "artist": "The Cardigans",
-          "title": "Step On Me",
-          "album": "First Band On The Moon (Remastered)",
-          "count": 6,
-          "first": 1788985233,
-          "last": 1789670004,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1562,
+      "count": 1563,
       "first": 1788901564,
-      "last": 1789676836,
+      "last": 1789677125,
       "songs": [
         {
           "artist": "Modest Mouse",
