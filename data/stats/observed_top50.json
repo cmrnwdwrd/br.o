@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T21:10:42.484657+00:00",
+  "updatedAt": "2026-09-17T21:15:33.814502+00:00",
   "summary": {
-    "totalPlays": 3324,
-    "unknownPlays": 397,
+    "totalPlays": 3325,
+    "unknownPlays": 398,
     "uniqueTracks": 1470,
     "uniqueArtists": 1004,
     "uniqueAlbums": 1235,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789679282
+    "lastObserved": 1789679495
   },
   "topSongs": [
     {
@@ -230,6 +230,17 @@
       "last": 1789480930,
       "playlists": {
         "1default": 6
+      }
+    },
+    {
+      "artist": "Radiohead",
+      "title": "Follow Me Around",
+      "album": "Follow Me Around",
+      "count": 5,
+      "first": 1788973066,
+      "last": 1789679495,
+      "playlists": {
+        "1default": 5
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788913008,
       "last": 1789665248,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Jelani Aryeh",
-      "title": "Stella Brown",
-      "album": "I've Got Some Living To Do",
-      "count": 5,
-      "first": 1788918760,
-      "last": 1789665063,
       "playlists": {
         "1default": 5
       }
@@ -2610,6 +2610,47 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 13,
+      "first": 1788973066,
+      "last": 1789679495,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 5,
+          "first": 1788973066,
+          "last": 1789679495,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 4,
+          "first": 1789033884,
+          "last": 1789502050,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 4,
+          "first": 1788984450,
+          "last": 1789440411,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Tennis",
       "count": 13,
       "first": 1788989320,
@@ -2964,47 +3005,6 @@
           "count": 4,
           "first": 1788970790,
           "last": 1789524678,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 12,
-      "first": 1788973066,
-      "last": 1789502050,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 4,
-          "first": 1789033884,
-          "last": 1789502050,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 4,
-          "first": 1788973066,
-          "last": 1789441663,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 4,
-          "first": 1788984450,
-          "last": 1789440411,
           "playlists": {
             "1default": 4
           }
@@ -6370,9 +6370,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1572,
+      "count": 1573,
       "first": 1788901564,
-      "last": 1789679282,
+      "last": 1789679495,
       "songs": [
         {
           "artist": "Modest Mouse",
