@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T09:30:51.064484+00:00",
+  "updatedAt": "2026-09-17T09:35:29.846524+00:00",
   "summary": {
-    "totalPlays": 3123,
+    "totalPlays": 3124,
     "unknownPlays": 374,
     "uniqueTracks": 1417,
     "uniqueArtists": 971,
     "uniqueAlbums": 1194,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789637448
+    "lastObserved": 1789637675
   },
   "topSongs": [
     {
@@ -21,6 +21,17 @@
       "last": 1789632219,
       "playlists": {
         "breakbeat": 8
+      }
+    },
+    {
+      "artist": "Viagra Boys",
+      "title": "Worms",
+      "album": "Street Worms",
+      "count": 7,
+      "first": 1788991593,
+      "last": 1789637675,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -173,17 +184,6 @@
       "count": 6,
       "first": 1789015368,
       "last": 1789512882,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Viagra Boys",
-      "title": "Worms",
-      "album": "Street Worms",
-      "count": 6,
-      "first": 1788991593,
-      "last": 1789510504,
       "playlists": {
         "1default": 6
       }
@@ -5880,6 +5880,26 @@
       ]
     },
     {
+      "artist": "Viagra Boys",
+      "album": "Street Worms",
+      "count": 7,
+      "first": 1788991593,
+      "last": 1789637675,
+      "songs": [
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 7,
+          "first": 1788991593,
+          "last": 1789637675,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "album": "FOAR EVERYWUN FRUM MIMI",
       "count": 7,
@@ -6268,35 +6288,26 @@
           }
         }
       ]
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "album": "WAR IN COLORADO!",
-      "count": 6,
-      "first": 1788993017,
-      "last": 1789599660,
-      "songs": [
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 6,
-          "first": 1788993017,
-          "last": 1789599660,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1461,
+      "count": 1462,
       "first": 1788901564,
-      "last": 1789637448,
+      "last": 1789637675,
       "songs": [
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 7,
+          "first": 1788991593,
+          "last": 1789637675,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
@@ -6337,17 +6348,6 @@
           "count": 6,
           "first": 1788925926,
           "last": 1789637448,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 6,
-          "first": 1788989320,
-          "last": 1789616927,
           "playlists": {
             "1default": 6
           }
