@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-17T22:25:27.000382+00:00",
+  "updatedAt": "2026-09-17T22:30:33.032186+00:00",
   "summary": {
-    "totalPlays": 3344,
+    "totalPlays": 3346,
     "unknownPlays": 400,
     "uniqueTracks": 1470,
     "uniqueArtists": 1004,
     "uniqueAlbums": 1235,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789683882
+    "lastObserved": 1789684208
   },
   "topSongs": [
     {
@@ -87,6 +87,17 @@
       "last": 1789513264,
       "playlists": {
         "1default": 7
+      }
+    },
+    {
+      "artist": "The Chats",
+      "title": "Smoko",
+      "album": "Get This In Ya",
+      "count": 6,
+      "first": 1789078009,
+      "last": 1789684027,
+      "playlists": {
+        "1default": 6
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788972624,
       "last": 1789670234,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Finger Eleven",
-      "title": "Paralyzer",
-      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-      "count": 5,
-      "first": 1789049428,
-      "last": 1789669603,
       "playlists": {
         "1default": 5
       }
@@ -3870,6 +3870,36 @@
       ]
     },
     {
+      "artist": "They Might Be Giants",
+      "count": 8,
+      "first": 1788991800,
+      "last": 1789684208,
+      "songs": [
+        {
+          "artist": "They Might Be Giants",
+          "title": "Birdhouse in Your Soul",
+          "album": "Flood",
+          "count": 4,
+          "first": 1788991800,
+          "last": 1789684208,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 4
+          }
+        },
+        {
+          "artist": "They Might Be Giants",
+          "title": "The Communists Have the Music",
+          "album": "The Communists Have the Music",
+          "count": 4,
+          "first": 1788995009,
+          "last": 1789683882,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "David Bowie",
       "count": 8,
       "first": 1788912385,
@@ -3944,36 +3974,6 @@
           "last": 1789667804,
           "playlists": {
             "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Crumb",
-      "count": 8,
-      "first": 1788983912,
-      "last": 1789661495,
-      "songs": [
-        {
-          "artist": "Crumb",
-          "title": "Ghostride",
-          "album": "Jinx",
-          "count": 4,
-          "first": 1789219993,
-          "last": 1789661495,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Crumb",
-          "title": "Locket",
-          "album": "Locket",
-          "count": 4,
-          "first": 1788983912,
-          "last": 1789551031,
-          "playlists": {
-            "1default": 4
           }
         }
       ]
@@ -6303,32 +6303,21 @@
       ]
     },
     {
-      "artist": "Rosie Tucker",
-      "album": "Sucker Supreme",
+      "artist": "The Chats",
+      "album": "Get This In Ya",
       "count": 6,
-      "first": 1788995157,
-      "last": 1789682663,
+      "first": 1789078009,
+      "last": 1789684027,
       "songs": [
         {
-          "artist": "Rosie Tucker",
-          "title": "For Sale: Ford Pinto",
-          "album": "Sucker Supreme",
-          "count": 3,
-          "first": 1788995157,
-          "last": 1789682663,
+          "artist": "The Chats",
+          "title": "Smoko",
+          "album": "Get This In Ya",
+          "count": 6,
+          "first": 1789078009,
+          "last": 1789684027,
           "playlists": {
-            "anti-capitalist weekday afternoon #1": 3
-          }
-        },
-        {
-          "artist": "Rosie Tucker",
-          "title": "Habanero",
-          "album": "Sucker Supreme",
-          "count": 3,
-          "first": 1789214020,
-          "last": 1789568775,
-          "playlists": {
-            "1default": 3
+            "1default": 6
           }
         }
       ]
@@ -6337,9 +6326,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1586,
+      "count": 1587,
       "first": 1788901564,
-      "last": 1789683643,
+      "last": 1789684027,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -6589,10 +6578,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 89,
+      "count": 90,
       "first": 1788904845,
-      "last": 1789683882,
+      "last": 1789684208,
       "songs": [
+        {
+          "artist": "They Might Be Giants",
+          "title": "Birdhouse in Your Soul",
+          "album": "Flood",
+          "count": 4,
+          "first": 1788991800,
+          "last": 1789684208,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 4
+          }
+        },
         {
           "artist": "They Might Be Giants",
           "title": "The Communists Have the Music",
@@ -6633,17 +6633,6 @@
           "count": 3,
           "first": 1788995157,
           "last": 1789682663,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 3
-          }
-        },
-        {
-          "artist": "Jesse Welles",
-          "title": "War Isn't Murder",
-          "album": "Hells Welles",
-          "count": 3,
-          "first": 1788994150,
-          "last": 1789600705,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 3
           }
