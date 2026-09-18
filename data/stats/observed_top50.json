@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T15:00:43.125454+00:00",
+  "updatedAt": "2026-09-18T15:05:33.403431+00:00",
   "summary": {
-    "totalPlays": 3586,
+    "totalPlays": 3588,
     "unknownPlays": 428,
     "uniqueTracks": 1493,
     "uniqueArtists": 1022,
     "uniqueAlbums": 1257,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789743304
+    "lastObserved": 1789743869
   },
   "topSongs": [
     {
@@ -398,6 +398,28 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "S T A R V E",
+      "album": "PHANTOMS",
+      "count": 5,
+      "first": 1788927400,
+      "last": 1789743869,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
+      "artist": "Weezer",
+      "title": "The End of the Game",
+      "album": "The End of the Game",
+      "count": 5,
+      "first": 1788974227,
+      "last": 1789743687,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Cage The Elephant",
       "title": "Skin and Bones - Mix 2020",
       "album": "Skin and Bones",
@@ -538,28 +560,6 @@
       "last": 1789724175,
       "playlists": {
         "1default": 5
-      }
-    },
-    {
-      "artist": "Mura Masa",
-      "title": "gimme",
-      "album": "Curve 1",
-      "count": 5,
-      "first": 1789032329,
-      "last": 1789723775,
-      "playlists": {
-        "breakbeat": 5
-      }
-    },
-    {
-      "artist": "hkmori",
-      "title": "re:titled",
-      "album": "unrequited love",
-      "count": 5,
-      "first": 1789018775,
-      "last": 1789723603,
-      "playlists": {
-        "breakbeat": 5
       }
     }
   ],
@@ -1764,10 +1764,21 @@
     },
     {
       "artist": "Opium",
-      "count": 34,
+      "count": 35,
       "first": 1788927400,
-      "last": 1789713705,
+      "last": 1789743869,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 5,
+          "first": 1788927400,
+          "last": 1789743869,
+          "playlists": {
+            "1default": 5
+          }
+        },
         {
           "artist": "Opium",
           "title": "No Pulse",
@@ -1808,17 +1819,6 @@
           "count": 4,
           "first": 1789063255,
           "last": 1789590330,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 4,
-          "first": 1788927400,
-          "last": 1789515824,
           "playlists": {
             "1default": 4
           }
@@ -2662,6 +2662,58 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 14,
+      "first": 1788946510,
+      "last": 1789743687,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 5,
+          "first": 1788974227,
+          "last": 1789743687,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 5,
+          "first": 1788946510,
+          "last": 1789663075,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 3,
+          "first": 1789142694,
+          "last": 1789502791,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 1,
+          "first": 1789150460,
+          "last": 1789150460,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "hkmori",
       "count": 14,
       "first": 1788938854,
@@ -3089,58 +3141,6 @@
           "last": 1789248601,
           "playlists": {
             "landlockd surfrock": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 13,
-      "first": 1788946510,
-      "last": 1789663075,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 5,
-          "first": 1788946510,
-          "last": 1789663075,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 4,
-          "first": 1788974227,
-          "last": 1789523760,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 3,
-          "first": 1789142694,
-          "last": 1789502791,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 1,
-          "first": 1789150460,
-          "last": 1789150460,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
           }
         }
       ]
@@ -4071,10 +4071,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 26,
+      "count": 27,
       "first": 1788927400,
-      "last": 1789713705,
+      "last": 1789743869,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 5,
+          "first": 1788927400,
+          "last": 1789743869,
+          "playlists": {
+            "1default": 5
+          }
+        },
         {
           "artist": "Opium",
           "title": "No Pulse",
@@ -4106,17 +4117,6 @@
           "last": 1789659805,
           "playlists": {
             "1default": 5
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 4,
-          "first": 1788927400,
-          "last": 1789515824,
-          "playlists": {
-            "1default": 4
           }
         },
         {
@@ -6469,9 +6469,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1666,
+      "count": 1668,
       "first": 1788901564,
-      "last": 1789736137,
+      "last": 1789743869,
       "songs": [
         {
           "artist": "Modest Mouse",
