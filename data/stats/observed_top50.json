@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T19:10:44.908409+00:00",
+  "updatedAt": "2026-09-18T19:15:38.405209+00:00",
   "summary": {
-    "totalPlays": 3656,
+    "totalPlays": 3658,
     "unknownPlays": 438,
     "uniqueTracks": 1512,
     "uniqueArtists": 1028,
     "uniqueAlbums": 1267,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789758426
+    "lastObserved": 1789758798
   },
   "topSongs": [
     {
@@ -1956,10 +1956,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 32,
+      "count": 33,
       "first": 1789147116,
-      "last": 1789758426,
+      "last": 1789758673,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Gone",
+          "album": "On And On",
+          "count": 2,
+          "first": 1789147116,
+          "last": 1789758673,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Inaudible Melodies",
@@ -2220,17 +2231,6 @@
           "count": 1,
           "first": 1789147474,
           "last": 1789147474,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Gone",
-          "album": "On And On",
-          "count": 1,
-          "first": 1789147116,
-          "last": 1789147116,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 1
           }
@@ -2605,6 +2605,58 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 15,
+      "first": 1788946510,
+      "last": 1789758798,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 5,
+          "first": 1788974227,
+          "last": 1789743687,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 5,
+          "first": 1788946510,
+          "last": 1789663075,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 3,
+          "first": 1789142694,
+          "last": 1789502791,
+          "playlists": {
+            "1default": 3
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "count": 15,
       "first": 1788915065,
@@ -2849,58 +2901,6 @@
           "last": 1789702841,
           "playlists": {
             "for the girls driving 85": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 14,
-      "first": 1788946510,
-      "last": 1789743687,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 5,
-          "first": 1788974227,
-          "last": 1789743687,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 5,
-          "first": 1788946510,
-          "last": 1789663075,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 3,
-          "first": 1789142694,
-          "last": 1789502791,
-          "playlists": {
-            "1default": 3
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 1,
-          "first": 1789150460,
-          "last": 1789150460,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
           }
         }
       ]
@@ -6560,6 +6560,101 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "album": "Weezer",
+      "count": 7,
+      "first": 1788946510,
+      "last": 1789758798,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 5,
+          "first": 1788946510,
+          "last": 1789663075,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Jack Johnson",
+      "album": "On And On",
+      "count": 7,
+      "first": 1789147116,
+      "last": 1789758673,
+      "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Gone",
+          "album": "On And On",
+          "count": 2,
+          "first": 1789147116,
+          "last": 1789758673,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        },
+        {
+          "artist": "Jack Johnson",
+          "title": "Times Like These",
+          "album": "On And On",
+          "count": 2,
+          "first": 1789152330,
+          "last": 1789751930,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        },
+        {
+          "artist": "Jack Johnson",
+          "title": "Wasting Time",
+          "album": "On And On",
+          "count": 1,
+          "first": 1789755596,
+          "last": 1789755596,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
+        {
+          "artist": "Jack Johnson",
+          "title": "Rodeo Clowns",
+          "album": "On And On",
+          "count": 1,
+          "first": 1789755233,
+          "last": 1789755233,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
+        {
+          "artist": "Jack Johnson",
+          "title": "Traffic In The Sky",
+          "album": "On And On",
+          "count": 1,
+          "first": 1789147704,
+          "last": 1789147704,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Chats",
       "album": "Get This In Ya",
       "count": 7,
@@ -6575,46 +6670,6 @@
           "last": 1789746160,
           "playlists": {
             "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "George Harrison",
-      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-      "count": 7,
-      "first": 1789034170,
-      "last": 1789736137,
-      "songs": [
-        {
-          "artist": "George Harrison",
-          "title": "I Dig Love (2020 Mix)",
-          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-          "count": 7,
-          "first": 1789034170,
-          "last": 1789736137,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Joey Valence & Brae",
-      "album": "NO HANDS",
-      "count": 7,
-      "first": 1788942030,
-      "last": 1789721304,
-      "songs": [
-        {
-          "artist": "Joey Valence & Brae",
-          "title": "THE BADDEST",
-          "album": "NO HANDS",
-          "count": 7,
-          "first": 1788942030,
-          "last": 1789721304,
-          "playlists": {
-            "breakbeat": 7
           }
         }
       ]
