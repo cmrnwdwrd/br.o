@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T22:25:32.363370+00:00",
+  "updatedAt": "2026-09-18T22:30:38.151177+00:00",
   "summary": {
-    "totalPlays": 3707,
+    "totalPlays": 3708,
     "unknownPlays": 444,
     "uniqueTracks": 1530,
     "uniqueArtists": 1034,
     "uniqueAlbums": 1281,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789770271
+    "lastObserved": 1789770534
   },
   "topSongs": [
     {
@@ -398,6 +398,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "underthebasement",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 5,
+      "first": 1788997306,
+      "last": 1789770534,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Olivia Rodrigo",
       "title": "brutal",
       "album": "SOUR",
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788920755,
       "last": 1789749739,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "a machine as big as a city with a concert at the center",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 5,
-      "first": 1788972349,
-      "last": 1789748772,
       "playlists": {
         "1default": 5
       }
@@ -2502,10 +2502,21 @@
     },
     {
       "artist": "botch",
-      "count": 18,
+      "count": 19,
       "first": 1788920755,
-      "last": 1789749739,
+      "last": 1789770534,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 5,
+          "first": 1788997306,
+          "last": 1789770534,
+          "playlists": {
+            "1default": 5
+          }
+        },
         {
           "artist": "botch",
           "title": "gettingyoutobelieve",
@@ -2535,17 +2546,6 @@
           "count": 4,
           "first": 1788963025,
           "last": 1789532320,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 4,
-          "first": 1788997306,
-          "last": 1789489190,
           "playlists": {
             "1default": 4
           }
@@ -5719,6 +5719,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 10,
+      "first": 1788972349,
+      "last": 1789770534,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 5,
+          "first": 1788997306,
+          "last": 1789770534,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 5,
+          "first": 1788972349,
+          "last": 1789748772,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "album": "Good News For People Who Love Bad News",
       "count": 10,
@@ -6101,37 +6132,6 @@
           "count": 4,
           "first": 1788963025,
           "last": 1789532320,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 9,
-      "first": 1788972349,
-      "last": 1789748772,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 5,
-          "first": 1788972349,
-          "last": 1789748772,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 4,
-          "first": 1788997306,
-          "last": 1789489190,
           "playlists": {
             "1default": 4
           }
@@ -6766,9 +6766,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1712,
+      "count": 1713,
       "first": 1788901564,
-      "last": 1789770271,
+      "last": 1789770534,
       "songs": [
         {
           "artist": "Modest Mouse",
