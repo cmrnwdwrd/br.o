@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T05:10:30.641351+00:00",
+  "updatedAt": "2026-09-18T05:15:34.859605+00:00",
   "summary": {
-    "totalPlays": 3449,
+    "totalPlays": 3451,
     "unknownPlays": 412,
     "uniqueTracks": 1484,
     "uniqueArtists": 1016,
     "uniqueAlbums": 1249,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789707947
+    "lastObserved": 1789708522
   },
   "topSongs": [
     {
@@ -2082,10 +2082,21 @@
     },
     {
       "artist": "Florence + The Machine",
-      "count": 20,
+      "count": 21,
       "first": 1789098538,
-      "last": 1789707430,
+      "last": 1789708285,
       "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "Free",
+          "album": "Dance Fever",
+          "count": 3,
+          "first": 1789104727,
+          "last": 1789708285,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
         {
           "artist": "Florence + The Machine",
           "title": "Falling",
@@ -2128,17 +2139,6 @@
           "last": 1789197981,
           "playlists": {
             "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Free",
-          "album": "Dance Fever",
-          "count": 2,
-          "first": 1789104727,
-          "last": 1789707430,
-          "playlists": {
-            "for the girls driving 85": 2
           }
         },
         {
@@ -3545,6 +3545,47 @@
       ]
     },
     {
+      "artist": "Kacey Musgraves",
+      "count": 9,
+      "first": 1789098752,
+      "last": 1789708522,
+      "songs": [
+        {
+          "artist": "Kacey Musgraves",
+          "title": "Deeper Well",
+          "album": "Deeper Well: Deeper into the Well",
+          "count": 4,
+          "first": 1789101906,
+          "last": 1789708522,
+          "playlists": {
+            "for the girls driving 85": 4
+          }
+        },
+        {
+          "artist": "Kacey Musgraves",
+          "title": "I Miss You",
+          "album": "Same Trailer Different Park",
+          "count": 3,
+          "first": 1789098752,
+          "last": 1789200100,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
+        {
+          "artist": "Kacey Musgraves",
+          "title": "Silver Lining",
+          "album": "Same Trailer Different Park",
+          "count": 2,
+          "first": 1789106255,
+          "last": 1789197376,
+          "playlists": {
+            "for the girls driving 85": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mary Gauthier",
       "count": 9,
       "first": 1789100539,
@@ -3988,36 +4029,6 @@
           "last": 1789578352,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kenya Grace",
-      "count": 9,
-      "first": 1788944782,
-      "last": 1789627908,
-      "songs": [
-        {
-          "artist": "Kenya Grace",
-          "title": "Afterparty Lover",
-          "album": "Afterparty Lover",
-          "count": 5,
-          "first": 1788944782,
-          "last": 1789626175,
-          "playlists": {
-            "breakbeat": 5
-          }
-        },
-        {
-          "artist": "Kenya Grace",
-          "title": "Meteor",
-          "album": "Meteor",
-          "count": 4,
-          "first": 1789020059,
-          "last": 1789627908,
-          "playlists": {
-            "breakbeat": 4
           }
         }
       ]
@@ -4991,6 +5002,59 @@
       ]
     },
     {
+      "artist": "Florence + The Machine",
+      "album": "Dance Fever",
+      "count": 12,
+      "first": 1789099438,
+      "last": 1789708285,
+      "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "Free",
+          "album": "Dance Fever",
+          "count": 3,
+          "first": 1789104727,
+          "last": 1789708285,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "My Love",
+          "album": "Dance Fever",
+          "count": 3,
+          "first": 1789099438,
+          "last": 1789704805,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Dream Girl Evil",
+          "album": "Dance Fever",
+          "count": 3,
+          "first": 1789101142,
+          "last": 1789198840,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Cassandra",
+          "album": "Dance Fever",
+          "count": 3,
+          "first": 1789101648,
+          "last": 1789197981,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "album": "Jaguar Stevens",
       "count": 12,
@@ -5070,59 +5134,6 @@
           "last": 1789517585,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Florence + The Machine",
-      "album": "Dance Fever",
-      "count": 11,
-      "first": 1789099438,
-      "last": 1789707430,
-      "songs": [
-        {
-          "artist": "Florence + The Machine",
-          "title": "My Love",
-          "album": "Dance Fever",
-          "count": 3,
-          "first": 1789099438,
-          "last": 1789704805,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Dream Girl Evil",
-          "album": "Dance Fever",
-          "count": 3,
-          "first": 1789101142,
-          "last": 1789198840,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Cassandra",
-          "album": "Dance Fever",
-          "count": 3,
-          "first": 1789101648,
-          "last": 1789197981,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Free",
-          "album": "Dance Fever",
-          "count": 2,
-          "first": 1789104727,
-          "last": 1789707430,
-          "playlists": {
-            "for the girls driving 85": 2
           }
         }
       ]
@@ -6655,10 +6666,32 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 108,
+      "count": 110,
       "first": 1789097452,
-      "last": 1789707947,
+      "last": 1789708522,
       "songs": [
+        {
+          "artist": "Kacey Musgraves",
+          "title": "Deeper Well",
+          "album": "Deeper Well: Deeper into the Well",
+          "count": 4,
+          "first": 1789101906,
+          "last": 1789708522,
+          "playlists": {
+            "for the girls driving 85": 4
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Free",
+          "album": "Dance Fever",
+          "count": 3,
+          "first": 1789104727,
+          "last": 1789708285,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
         {
           "artist": "Mary Gauthier",
           "title": "Drag Queens In Limousines",
@@ -6688,28 +6721,6 @@
           "count": 3,
           "first": 1789098538,
           "last": 1789705263,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "My Love",
-          "album": "Dance Fever",
-          "count": 3,
-          "first": 1789099438,
-          "last": 1789704805,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Florence + The Machine, Jules Buckley",
-          "title": "Dog Days Are Over - BBC Proms at the Royal Albert Hall",
-          "album": "Symphony of Lungs - BBC Proms at the Royal Albert Hall",
-          "count": 3,
-          "first": 1789098189,
-          "last": 1789703905,
           "playlists": {
             "for the girls driving 85": 3
           }
