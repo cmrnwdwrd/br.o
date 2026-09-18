@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T22:45:42.025590+00:00",
+  "updatedAt": "2026-09-18T22:50:37.693477+00:00",
   "summary": {
-    "totalPlays": 3712,
+    "totalPlays": 3713,
     "unknownPlays": 445,
     "uniqueTracks": 1530,
     "uniqueArtists": 1034,
     "uniqueAlbums": 1281,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789771454
+    "lastObserved": 1789771690
   },
   "topSongs": [
     {
@@ -398,6 +398,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 5,
+      "first": 1788965930,
+      "last": 1789771690,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Sjowgren",
       "title": "Now & Then",
       "album": "Now & Then",
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788916461,
       "last": 1789750404,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "The Shivas",
-      "title": "You Make Me Wanna Die",
-      "album": "You Know What to Do",
-      "count": 5,
-      "first": 1788975450,
-      "last": 1789750236,
       "playlists": {
         "1default": 5
       }
@@ -3029,6 +3029,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 13,
+      "first": 1788965930,
+      "last": 1789771690,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 5,
+          "first": 1788965930,
+          "last": 1789771690,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 4,
+          "first": 1789068640,
+          "last": 1789665992,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 4,
+          "first": 1789215234,
+          "last": 1789638022,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Noah Kahan",
       "count": 13,
       "first": 1789154561,
@@ -3479,47 +3520,6 @@
           "count": 4,
           "first": 1788919863,
           "last": 1789517585,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 12,
-      "first": 1788965930,
-      "last": 1789665992,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 4,
-          "first": 1789068640,
-          "last": 1789665992,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 4,
-          "first": 1789215234,
-          "last": 1789638022,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 4,
-          "first": 1788965930,
-          "last": 1789575660,
           "playlists": {
             "1default": 4
           }
@@ -6766,9 +6766,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1717,
+      "count": 1718,
       "first": 1788901564,
-      "last": 1789771454,
+      "last": 1789771690,
       "songs": [
         {
           "artist": "Modest Mouse",
