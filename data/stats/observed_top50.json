@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T03:10:37.483357+00:00",
+  "updatedAt": "2026-09-18T03:15:41.518818+00:00",
   "summary": {
-    "totalPlays": 3421,
+    "totalPlays": 3423,
     "unknownPlays": 410,
     "uniqueTracks": 1484,
     "uniqueArtists": 1016,
     "uniqueAlbums": 1249,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789700980
+    "lastObserved": 1789701316
   },
   "topSongs": [
     {
@@ -131,6 +131,17 @@
       "last": 1789513264,
       "playlists": {
         "1default": 7
+      }
+    },
+    {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 6,
+      "first": 1789063640,
+      "last": 1789701108,
+      "playlists": {
+        "1default": 6
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788966700,
       "last": 1789681780,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Lorde",
-      "title": "Ribs",
-      "album": "Pure Heroine",
-      "count": 5,
-      "first": 1789222724,
-      "last": 1789680991,
       "playlists": {
         "1default": 5
       }
@@ -3299,6 +3299,36 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 10,
+      "first": 1788973386,
+      "last": 1789701108,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 6,
+          "first": 1789063640,
+          "last": 1789701108,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 4,
+          "first": 1788973386,
+          "last": 1789567234,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khadija Al Hanafi",
       "count": 10,
       "first": 1788941290,
@@ -3914,36 +3944,6 @@
           "last": 1789005955,
           "playlists": {
             "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 9,
-      "first": 1788973386,
-      "last": 1789567234,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 5,
-          "first": 1789063640,
-          "last": 1789443003,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 4,
-          "first": 1788973386,
-          "last": 1789567234,
-          "playlists": {
-            "1default": 4
           }
         }
       ]
@@ -6260,9 +6260,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1629,
+      "count": 1631,
       "first": 1788901564,
-      "last": 1789700980,
+      "last": 1789701316,
       "songs": [
         {
           "artist": "Modest Mouse",
