@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T23:50:37.282550+00:00",
+  "updatedAt": "2026-09-18T23:55:37.103744+00:00",
   "summary": {
-    "totalPlays": 3729,
+    "totalPlays": 3731,
     "unknownPlays": 446,
     "uniqueTracks": 1530,
     "uniqueArtists": 1034,
     "uniqueAlbums": 1281,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789775326
+    "lastObserved": 1789775632
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1789687365,
       "playlists": {
         "1default": 9
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 8,
+      "first": 1789014862,
+      "last": 1789775632,
+      "playlists": {
+        "1default": 8
       }
     },
     {
@@ -120,17 +131,6 @@
       "last": 1789697680,
       "playlists": {
         "breakbeat": 7
-      }
-    },
-    {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 7,
-      "first": 1789014862,
-      "last": 1789685357,
-      "playlists": {
-        "1default": 7
       }
     },
     {
@@ -409,6 +409,17 @@
       }
     },
     {
+      "artist": "Barrie",
+      "title": "Human Nature",
+      "album": "Happy To Be Here (Ext)",
+      "count": 5,
+      "first": 1788966960,
+      "last": 1789775500,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Jalen Santoy",
       "title": "Foreplay",
       "album": "II Shepherds",
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788965724,
       "last": 1789771012,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "underthebasement",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 5,
-      "first": 1788997306,
-      "last": 1789770534,
       "playlists": {
         "1default": 5
       }
@@ -3784,6 +3784,36 @@
       ]
     },
     {
+      "artist": "Barrie",
+      "count": 10,
+      "first": 1788912861,
+      "last": 1789775500,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 5,
+          "first": 1788966960,
+          "last": 1789775500,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 5,
+          "first": 1788912861,
+          "last": 1789619439,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 10,
       "first": 1788914032,
@@ -4186,69 +4216,6 @@
           "last": 1789691407,
           "playlists": {
             "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sophie Truax",
-      "count": 10,
-      "first": 1788931104,
-      "last": 1789537605,
-      "songs": [
-        {
-          "artist": "Sophie Truax",
-          "title": "Losing Bet",
-          "album": "Kissing With a Cavity",
-          "count": 2,
-          "first": 1788931409,
-          "last": 1789537605,
-          "playlists": {
-            "EPL4a": 2
-          }
-        },
-        {
-          "artist": "Sophie Truax",
-          "title": "Nonchalant",
-          "album": "Kissing With a Cavity",
-          "count": 2,
-          "first": 1789363910,
-          "last": 1789537233,
-          "playlists": {
-            "EPL4a": 2
-          }
-        },
-        {
-          "artist": "Sophie Truax",
-          "title": "Untether",
-          "album": "Untether",
-          "count": 2,
-          "first": 1788931242,
-          "last": 1789535748,
-          "playlists": {
-            "EPL4a": 2
-          }
-        },
-        {
-          "artist": "Sophie Truax",
-          "title": "fifty50",
-          "album": "Kissing With a Cavity",
-          "count": 2,
-          "first": 1788931104,
-          "last": 1789365965,
-          "playlists": {
-            "EPL4a": 2
-          }
-        },
-        {
-          "artist": "Sophie Truax",
-          "title": "TOO BAD!",
-          "album": "Kissing With a Cavity",
-          "count": 2,
-          "first": 1788933320,
-          "last": 1789365605,
-          "playlists": {
-            "EPL4a": 2
           }
         }
       ]
@@ -6376,6 +6343,26 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 8,
+      "first": 1789014862,
+      "last": 1789775632,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 8,
+          "first": 1789014862,
+          "last": 1789775632,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lush",
       "album": "Lovelife",
       "count": 8,
@@ -6697,45 +6684,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Weezer",
-      "album": "Weezer",
-      "count": 7,
-      "first": 1788946510,
-      "last": 1789758798,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 5,
-          "first": 1788946510,
-          "last": 1789663075,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1789150460,
-          "last": 1789758798,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1733,
+      "count": 1735,
       "first": 1788901564,
-      "last": 1789775326,
+      "last": 1789775632,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -6746,6 +6702,17 @@
           "last": 1789687365,
           "playlists": {
             "1default": 9
+          }
+        },
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 8,
+          "first": 1789014862,
+          "last": 1789775632,
+          "playlists": {
+            "1default": 8
           }
         },
         {
@@ -6777,17 +6744,6 @@
           "count": 8,
           "first": 1788993017,
           "last": 1789694122,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
-          "count": 8,
-          "first": 1788926155,
-          "last": 1789686535,
           "playlists": {
             "1default": 8
           }
