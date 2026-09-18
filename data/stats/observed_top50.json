@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T03:25:26.323460+00:00",
+  "updatedAt": "2026-09-18T03:30:33.383662+00:00",
   "summary": {
-    "totalPlays": 3426,
+    "totalPlays": 3427,
     "unknownPlays": 410,
     "uniqueTracks": 1484,
     "uniqueArtists": 1016,
     "uniqueAlbums": 1249,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789701865
+    "lastObserved": 1789702086
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 5,
+      "first": 1788985030,
+      "last": 1789702086,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Spoon",
       "title": "No Bullets Spent",
       "album": "No Bullets Spent",
@@ -549,17 +560,6 @@
       "last": 1789688838,
       "playlists": {
         "1default": 5
-      }
-    },
-    {
-      "artist": "My Chemical Romance",
-      "title": "Thank You for the Venom",
-      "album": "Three Cheers for Sweet Revenge",
-      "count": 5,
-      "first": 1788995310,
-      "last": 1789682815,
-      "playlists": {
-        "MCR wednesday wind down": 5
       }
     }
   ],
@@ -3299,6 +3299,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 10,
+      "first": 1788985030,
+      "last": 1789702086,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 5,
+          "first": 1788985030,
+          "last": 1789702086,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 5,
+          "first": 1788987870,
+          "last": 1789691407,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mallory Graham",
       "count": 10,
       "first": 1788973386,
@@ -3510,36 +3540,6 @@
           "last": 1789105687,
           "playlists": {
             "for the girls driving 85": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 9,
-      "first": 1788985030,
-      "last": 1789691407,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 5,
-          "first": 1788987870,
-          "last": 1789691407,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 4,
-          "first": 1788985030,
-          "last": 1789499527,
-          "playlists": {
-            "1default": 4
           }
         }
       ]
@@ -6260,9 +6260,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1634,
+      "count": 1635,
       "first": 1788901564,
-      "last": 1789701865,
+      "last": 1789702086,
       "songs": [
         {
           "artist": "Modest Mouse",
