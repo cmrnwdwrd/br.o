@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T17:20:29.671296+00:00",
+  "updatedAt": "2026-09-18T17:25:28.513885+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 32,
-    "sessionCount": 141,
+    "sessionCount": 142,
     "firstObserved": 1788901564,
-    "lastObserved": 1789751746
+    "lastObserved": 1789752321
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 57,
-      "playCount": 1693,
+      "sessionCount": 58,
+      "playCount": 1694,
       "firstObserved": 1788901564,
-      "lastObserved": 1789743687,
-      "typicalStartMinute": 143,
+      "lastObserved": 1789752321,
+      "typicalStartMinute": 266,
       "typicalDurationMinutes": 41,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -136,7 +136,7 @@
           0.0,
           117.1,
           120.0,
-          34.4,
+          36.6,
           0.0,
           0.0,
           0.0,
@@ -642,7 +642,7 @@
           30.0,
           30.0,
           30.0,
-          4.4,
+          6.7,
           0.0,
           0.0,
           0.0,
@@ -1008,7 +1008,7 @@
           0,
           2,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -1106,9 +1106,9 @@
         },
         {
           "weekday": 4,
-          "sessions": 9,
-          "typicalStartMinute": 303,
-          "typicalDurationMinutes": 44,
+          "sessions": 10,
+          "typicalStartMinute": 353,
+          "typicalDurationMinutes": 43,
           "confidence": "Low"
         },
         {
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1789752321,
+          "end": 1789752458,
+          "durationMinutes": 2,
+          "playCount": 1
+        },
         {
           "start": 1789743687,
           "end": 1789751746,
@@ -1240,12 +1246,6 @@
           "end": 1789535746,
           "durationMinutes": 5,
           "playCount": 1
-        },
-        {
-          "start": 1789515283,
-          "end": 1789534005,
-          "durationMinutes": 312,
-          "playCount": 81
         }
       ]
     },
@@ -19020,11 +19020,11 @@
     {
       "playlist": "jack johnson hackiesack friday afternoon",
       "sessionCount": 2,
-      "playCount": 35,
+      "playCount": 36,
       "firstObserved": 1789147116,
       "lastObserved": 1789751746,
       "typicalStartMinute": 676,
-      "typicalDurationMinutes": 61,
+      "typicalDurationMinutes": 63,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -19143,7 +19143,7 @@
           0.0,
           0.0,
           0.0,
-          46.8,
+          51.0,
           60.0,
           15.8,
           0.0,
@@ -19649,7 +19649,7 @@
           0.0,
           0.0,
           0.0,
-          16.8,
+          21.0,
           15.0,
           15.0,
           15.0,
@@ -20087,16 +20087,16 @@
           "weekday": 4,
           "sessions": 2,
           "typicalStartMinute": 676,
-          "typicalDurationMinutes": 61,
+          "typicalDurationMinutes": 63,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
         {
           "start": 1789751746,
-          "end": 1789752071,
-          "durationMinutes": 5,
-          "playCount": 2
+          "end": 1789752319,
+          "durationMinutes": 10,
+          "playCount": 3
         },
         {
           "start": 1789147116,

@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T17:20:29.594473+00:00",
+  "updatedAt": "2026-09-18T17:25:28.448975+00:00",
   "summary": {
-    "totalPlays": 3625,
-    "unknownPlays": 433,
-    "uniqueTracks": 1494,
+    "totalPlays": 3627,
+    "unknownPlays": 434,
+    "uniqueTracks": 1495,
     "uniqueArtists": 1022,
-    "uniqueAlbums": 1257,
+    "uniqueAlbums": 1258,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789751930
+    "lastObserved": 1789752321
   },
   "topSongs": [
     {
@@ -398,6 +398,17 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "My Love Mine All Mine",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 5,
+      "first": 1789130394,
+      "last": 1789752321,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Medium Troy",
       "title": "Space Tree",
       "album": "Space Tree",
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788919486,
       "last": 1789747420,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Chrissy",
-      "title": "Socks",
-      "album": "Socks",
-      "count": 5,
-      "first": 1789049635,
-      "last": 1789747247,
       "playlists": {
         "1default": 5
       }
@@ -1613,10 +1613,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 38,
+      "count": 39,
       "first": 1788920128,
-      "last": 1789713360,
+      "last": 1789752321,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "My Love Mine All Mine",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 5,
+          "first": 1789130394,
+          "last": 1789752321,
+          "playlists": {
+            "1default": 5
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Love Me More",
@@ -1637,17 +1648,6 @@
           "last": 1789663329,
           "playlists": {
             "1default": 5
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "My Love Mine All Mine",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 4,
-          "first": 1789130394,
-          "last": 1789713360,
-          "playlists": {
-            "1default": 4
           }
         },
         {
@@ -2177,51 +2177,10 @@
       ]
     },
     {
-      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "count": 20,
-      "first": 1788917845,
-      "last": 1789720275,
-      "songs": [
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Run It",
-          "album": "Run It",
-          "count": 9,
-          "first": 1788943592,
-          "last": 1789720275,
-          "playlists": {
-            "breakbeat": 9
-          }
-        },
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Keep Pushing",
-          "album": "Change the Channel",
-          "count": 6,
-          "first": 1788925926,
-          "last": 1789637448,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Change the Channel",
-          "album": "Change the Channel",
-          "count": 5,
-          "first": 1788917845,
-          "last": 1789715605,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
-    },
-    {
       "artist": "Jack Johnson",
-      "count": 19,
+      "count": 20,
       "first": 1789147116,
-      "last": 1789751930,
+      "last": 1789752110,
       "songs": [
         {
           "artist": "Jack Johnson",
@@ -2232,6 +2191,17 @@
           "last": 1789751930,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
+          }
+        },
+        {
+          "artist": "Jack Johnson",
+          "title": "Upside Down",
+          "album": "Upside Down",
+          "count": 1,
+          "first": 1789752110,
+          "last": 1789752110,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
           }
         },
         {
@@ -2419,6 +2389,47 @@
           "last": 1789147116,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+      "count": 20,
+      "first": 1788917845,
+      "last": 1789720275,
+      "songs": [
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Run It",
+          "album": "Run It",
+          "count": 9,
+          "first": 1788943592,
+          "last": 1789720275,
+          "playlists": {
+            "breakbeat": 9
+          }
+        },
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Keep Pushing",
+          "album": "Change the Channel",
+          "count": 6,
+          "first": 1788925926,
+          "last": 1789637448,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Change the Channel",
+          "album": "Change the Channel",
+          "count": 5,
+          "first": 1788917845,
+          "last": 1789715605,
+          "playlists": {
+            "1default": 5
           }
         }
       ]
@@ -4971,6 +4982,70 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 13,
+      "first": 1789102597,
+      "last": 1789752321,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "My Love Mine All Mine",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 5,
+          "first": 1789130394,
+          "last": 1789752321,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Bug Like an Angel",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 2,
+          "first": 1789102597,
+          "last": 1789705476,
+          "playlists": {
+            "for the girls driving 85": 2
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "The Frost",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 2,
+          "first": 1789105519,
+          "last": 1789702671,
+          "playlists": {
+            "for the girls driving 85": 2
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Buffalo Replaced",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 2,
+          "first": 1789107530,
+          "last": 1789198465,
+          "playlists": {
+            "for the girls driving 85": 2
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Star",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 2,
+          "first": 1789192334,
+          "last": 1789196811,
+          "playlists": {
+            "for the girls driving 85": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "album": "Jaguar Stevens",
       "count": 13,
@@ -5178,70 +5253,6 @@
           "last": 1789008538,
           "playlists": {
             "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "The Land Is Inhospitable and So Are We",
-      "count": 12,
-      "first": 1789102597,
-      "last": 1789713360,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "My Love Mine All Mine",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 4,
-          "first": 1789130394,
-          "last": 1789713360,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Bug Like an Angel",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 2,
-          "first": 1789102597,
-          "last": 1789705476,
-          "playlists": {
-            "for the girls driving 85": 2
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "The Frost",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 2,
-          "first": 1789105519,
-          "last": 1789702671,
-          "playlists": {
-            "for the girls driving 85": 2
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Buffalo Replaced",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 2,
-          "first": 1789107530,
-          "last": 1789198465,
-          "playlists": {
-            "for the girls driving 85": 2
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Star",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 2,
-          "first": 1789192334,
-          "last": 1789196811,
-          "playlists": {
-            "for the girls driving 85": 2
           }
         }
       ]
@@ -6491,9 +6502,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1703,
+      "count": 1704,
       "first": 1788901564,
-      "last": 1789751492,
+      "last": 1789752321,
       "songs": [
         {
           "artist": "Modest Mouse",
