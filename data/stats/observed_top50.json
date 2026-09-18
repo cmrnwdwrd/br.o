@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T09:00:37.830131+00:00",
+  "updatedAt": "2026-09-18T09:05:31.160605+00:00",
   "summary": {
-    "totalPlays": 3513,
+    "totalPlays": 3514,
     "unknownPlays": 420,
     "uniqueTracks": 1484,
     "uniqueArtists": 1016,
     "uniqueAlbums": 1249,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789721965
+    "lastObserved": 1789722062
   },
   "topSongs": [
     {
@@ -365,6 +365,17 @@
       }
     },
     {
+      "artist": "bastienGOAT",
+      "title": "Don't stop don't miss",
+      "album": "NODE",
+      "count": 5,
+      "first": 1789029209,
+      "last": 1789722062,
+      "playlists": {
+        "breakbeat": 5
+      }
+    },
+    {
       "artist": "TOKYOPILL",
       "title": "E t h e r e a l",
       "album": "E t h e r e a l",
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788903373,
       "last": 1789714375,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "The Czars",
-      "title": "Drug",
-      "album": "Best Of",
-      "count": 5,
-      "first": 1789063847,
-      "last": 1789714127,
       "playlists": {
         "1default": 5
       }
@@ -3444,6 +3444,36 @@
       ]
     },
     {
+      "artist": "bastienGOAT",
+      "count": 10,
+      "first": 1788944435,
+      "last": 1789722062,
+      "songs": [
+        {
+          "artist": "bastienGOAT",
+          "title": "Don't stop don't miss",
+          "album": "NODE",
+          "count": 5,
+          "first": 1789029209,
+          "last": 1789722062,
+          "playlists": {
+            "breakbeat": 5
+          }
+        },
+        {
+          "artist": "bastienGOAT",
+          "title": "Tell me if you like it",
+          "album": "MULTI",
+          "count": 5,
+          "first": 1788944435,
+          "last": 1789716648,
+          "playlists": {
+            "breakbeat": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "TOKYOPILL",
       "count": 10,
       "first": 1789027410,
@@ -3885,36 +3915,6 @@
           "count": 4,
           "first": 1789023525,
           "last": 1789719001,
-          "playlists": {
-            "breakbeat": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "bastienGOAT",
-      "count": 9,
-      "first": 1788944435,
-      "last": 1789716648,
-      "songs": [
-        {
-          "artist": "bastienGOAT",
-          "title": "Tell me if you like it",
-          "album": "MULTI",
-          "count": 5,
-          "first": 1788944435,
-          "last": 1789716648,
-          "playlists": {
-            "breakbeat": 5
-          }
-        },
-        {
-          "artist": "bastienGOAT",
-          "title": "Don't stop don't miss",
-          "album": "NODE",
-          "count": 4,
-          "first": 1789029209,
-          "last": 1789633127,
           "playlists": {
             "breakbeat": 4
           }
@@ -6466,9 +6466,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 379,
+      "count": 380,
       "first": 1788938278,
-      "last": 1789721965,
+      "last": 1789722062,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
