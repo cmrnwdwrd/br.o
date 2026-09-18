@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-18T09:40:37.262986+00:00",
+  "updatedAt": "2026-09-18T09:45:35.526619+00:00",
   "summary": {
-    "totalPlays": 3523,
+    "totalPlays": 3525,
     "unknownPlays": 422,
     "uniqueTracks": 1484,
     "uniqueArtists": 1016,
     "uniqueAlbums": 1249,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789724175
+    "lastObserved": 1789724627
   },
   "topSongs": [
     {
@@ -398,6 +398,17 @@
       }
     },
     {
+      "artist": "Enya",
+      "title": "Orinoco Flow",
+      "album": "Watermark",
+      "count": 5,
+      "first": 1789073755,
+      "last": 1789724627,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Bell X1",
       "title": "The Great Defector",
       "album": "Blue Lights on the Runway",
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788941505,
       "last": 1789719151,
-      "playlists": {
-        "breakbeat": 5
-      }
-    },
-    {
-      "artist": "The Budos Band",
-      "title": "Up From the South",
-      "album": "The Budos Band",
-      "count": 5,
-      "first": 1788943384,
-      "last": 1789718395,
       "playlists": {
         "breakbeat": 5
       }
@@ -5990,6 +5990,37 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "album": "Doolittle",
+      "count": 8,
+      "first": 1788972865,
+      "last": 1789724455,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 4,
+          "first": 1789214521,
+          "last": 1789724455,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 4,
+          "first": 1788972865,
+          "last": 1789577323,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "album": "FOAR EVERYWUN FRUM MIMI",
       "count": 8,
@@ -6378,45 +6409,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 7,
-      "first": 1789166634,
-      "last": 1789668670,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 4,
-          "first": 1789166634,
-          "last": 1789668670,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 3,
-          "first": 1789167660,
-          "last": 1789498227,
-          "playlists": {
-            "1default": 3
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1649,
+      "count": 1651,
       "first": 1788901564,
-      "last": 1789724175,
+      "last": 1789724627,
       "songs": [
         {
           "artist": "Modest Mouse",
