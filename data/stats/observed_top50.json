@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-19T16:10:39.134758+00:00",
+  "updatedAt": "2026-09-19T16:15:37.532716+00:00",
   "summary": {
-    "totalPlays": 3926,
+    "totalPlays": 3928,
     "unknownPlays": 471,
     "uniqueTracks": 1535,
     "uniqueArtists": 1036,
     "uniqueAlbums": 1284,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789834194
+    "lastObserved": 1789834457
   },
   "topSongs": [
     {
@@ -175,6 +175,17 @@
       "last": 1789637675,
       "playlists": {
         "1default": 7
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "wrap music",
+      "album": "THIS DOES NOT EXIST",
+      "count": 6,
+      "first": 1789053695,
+      "last": 1789834314,
+      "playlists": {
+        "1default": 6
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788921148,
       "last": 1789828739,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Black Sheep",
-      "title": "The Choice Is Yours (Revisited)",
-      "album": "A Wolf In Sheep's Clothing",
-      "count": 5,
-      "first": 1789062768,
-      "last": 1789828495,
       "playlists": {
         "1default": 5
       }
@@ -1014,10 +1014,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 70,
+      "count": 71,
       "first": 1788910325,
-      "last": 1789833391,
+      "last": 1789834314,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "wrap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 6,
+          "first": 1789053695,
+          "last": 1789834314,
+          "playlists": {
+            "1default": 6
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "THE KIDS ARE ALL RETARDED",
@@ -1080,17 +1091,6 @@
           "count": 5,
           "first": 1789033665,
           "last": 1789618633,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 5,
-          "first": 1789053695,
-          "last": 1789568990,
           "playlists": {
             "1default": 5
           }
@@ -5878,6 +5878,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THIS DOES NOT EXIST",
+      "count": 10,
+      "first": 1789053695,
+      "last": 1789834314,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "wrap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 6,
+          "first": 1789053695,
+          "last": 1789834314,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 4,
+          "first": 1789217995,
+          "last": 1789769929,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "album": "Stand Up",
       "count": 10,
@@ -6338,37 +6369,6 @@
       ]
     },
     {
-      "artist": "Lil Darkie",
-      "album": "THIS DOES NOT EXIST",
-      "count": 9,
-      "first": 1789053695,
-      "last": 1789769929,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 5,
-          "first": 1789053695,
-          "last": 1789568990,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 4,
-          "first": 1789217995,
-          "last": 1789769929,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
-    },
-    {
       "artist": "Siete Catorce",
       "album": "Cruda",
       "count": 9,
@@ -6711,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1808,
+      "count": 1809,
       "first": 1788901564,
-      "last": 1789831757,
+      "last": 1789834314,
       "songs": [
         {
           "artist": "Modest Mouse",
