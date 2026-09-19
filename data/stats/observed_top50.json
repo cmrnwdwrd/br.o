@@ -1,26 +1,26 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-19T11:50:32.074106+00:00",
+  "updatedAt": "2026-09-19T11:55:34.207507+00:00",
   "summary": {
-    "totalPlays": 3856,
+    "totalPlays": 3858,
     "unknownPlays": 462,
     "uniqueTracks": 1533,
     "uniqueArtists": 1035,
     "uniqueAlbums": 1282,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789818425
+    "lastObserved": 1789818870
   },
   "topSongs": [
     {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "title": "Run It",
       "album": "Run It",
-      "count": 9,
+      "count": 10,
       "first": 1788943592,
-      "last": 1789720275,
+      "last": 1789818870,
       "playlists": {
-        "breakbeat": 9
+        "breakbeat": 10
       }
     },
     {
@@ -420,6 +420,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "DISINTEGRATE",
+      "album": "SWAMP",
+      "count": 5,
+      "first": 1788983290,
+      "last": 1789818709,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "St. Paul & The Broken Bones",
       "title": "Apollo",
       "album": "Young Sick Camellia",
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1789101906,
       "last": 1789802789,
-      "playlists": {
-        "for the girls driving 85": 5
-      }
-    },
-    {
-      "artist": "Florence + The Machine",
-      "title": "My Love",
-      "album": "Dance Fever",
-      "count": 5,
-      "first": 1789099438,
-      "last": 1789802170,
       "playlists": {
         "for the girls driving 85": 5
       }
@@ -1014,10 +1014,21 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 67,
+      "count": 68,
       "first": 1788910325,
-      "last": 1789816015,
+      "last": 1789818709,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 5,
+          "first": 1788983290,
+          "last": 1789818709,
+          "playlists": {
+            "1default": 5
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "THE FUTURE IS DARK",
@@ -1146,17 +1157,6 @@
           "count": 4,
           "first": 1788910325,
           "last": 1789518228,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 4,
-          "first": 1788983290,
-          "last": 1789503480,
           "playlists": {
             "1default": 4
           }
@@ -2460,6 +2460,47 @@
       ]
     },
     {
+      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+      "count": 21,
+      "first": 1788917845,
+      "last": 1789818870,
+      "songs": [
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Run It",
+          "album": "Run It",
+          "count": 10,
+          "first": 1788943592,
+          "last": 1789818870,
+          "playlists": {
+            "breakbeat": 10
+          }
+        },
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Keep Pushing",
+          "album": "Change the Channel",
+          "count": 6,
+          "first": 1788925926,
+          "last": 1789637448,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Change the Channel",
+          "album": "Change the Channel",
+          "count": 5,
+          "first": 1788917845,
+          "last": 1789715605,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ethel Cain",
       "count": 20,
       "first": 1789098981,
@@ -2518,47 +2559,6 @@
           "last": 1789798866,
           "playlists": {
             "for the girls driving 85": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "count": 20,
-      "first": 1788917845,
-      "last": 1789720275,
-      "songs": [
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Run It",
-          "album": "Run It",
-          "count": 9,
-          "first": 1788943592,
-          "last": 1789720275,
-          "playlists": {
-            "breakbeat": 9
-          }
-        },
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Keep Pushing",
-          "album": "Change the Channel",
-          "count": 6,
-          "first": 1788925926,
-          "last": 1789637448,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Change the Channel",
-          "album": "Change the Channel",
-          "count": 5,
-          "first": 1788917845,
-          "last": 1789715605,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -4882,6 +4882,59 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "SWAMP",
+      "count": 19,
+      "first": 1788926373,
+      "last": 1789818709,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 5,
+          "first": 1788983290,
+          "last": 1789818709,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 5,
+          "first": 1789058454,
+          "last": 1789676441,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 5,
+          "first": 1789057548,
+          "last": 1789672390,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 4,
+          "first": 1788926373,
+          "last": 1789575550,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "The Land Is Inhospitable and So Are We",
       "count": 18,
@@ -4941,59 +4994,6 @@
           "last": 1789795270,
           "playlists": {
             "for the girls driving 85": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "SWAMP",
-      "count": 18,
-      "first": 1788926373,
-      "last": 1789676441,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 5,
-          "first": 1789058454,
-          "last": 1789676441,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 5,
-          "first": 1789057548,
-          "last": 1789672390,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 4,
-          "first": 1788926373,
-          "last": 1789575550,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 4,
-          "first": 1788983290,
-          "last": 1789503480,
-          "playlists": {
-            "1default": 4
           }
         }
       ]
@@ -5889,6 +5889,26 @@
       ]
     },
     {
+      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+      "album": "Run It",
+      "count": 10,
+      "first": 1788943592,
+      "last": 1789818870,
+      "songs": [
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Run It",
+          "album": "Run It",
+          "count": 10,
+          "first": 1788943592,
+          "last": 1789818870,
+          "playlists": {
+            "breakbeat": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "a machine as big as a city with a concert at the center",
       "count": 10,
@@ -6360,26 +6380,6 @@
       ]
     },
     {
-      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "album": "Run It",
-      "count": 9,
-      "first": 1788943592,
-      "last": 1789720275,
-      "songs": [
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Run It",
-          "album": "Run It",
-          "count": 9,
-          "first": 1788943592,
-          "last": 1789720275,
-          "playlists": {
-            "breakbeat": 9
-          }
-        }
-      ]
-    },
-    {
       "artist": "Kasper Marott",
       "album": "Full Circle",
       "count": 9,
@@ -6788,9 +6788,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1751,
+      "count": 1752,
       "first": 1788901564,
-      "last": 1789818425,
+      "last": 1789818709,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -6851,19 +6851,19 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 388,
+      "count": 389,
       "first": 1788938278,
-      "last": 1789723775,
+      "last": 1789818870,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
           "title": "Run It",
           "album": "Run It",
-          "count": 9,
+          "count": 10,
           "first": 1788943592,
-          "last": 1789720275,
+          "last": 1789818870,
           "playlists": {
-            "breakbeat": 9
+            "breakbeat": 10
           }
         },
         {
