@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-19T14:40:34.201492+00:00",
+  "updatedAt": "2026-09-19T14:46:06.469406+00:00",
   "summary": {
-    "totalPlays": 3900,
-    "unknownPlays": 467,
+    "totalPlays": 3902,
+    "unknownPlays": 468,
     "uniqueTracks": 1533,
     "uniqueArtists": 1035,
     "uniqueAlbums": 1282,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789828739
+    "lastObserved": 1789829095
   },
   "topSongs": [
     {
@@ -420,6 +420,17 @@
       }
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "Lava Lamp Pisco",
+      "album": "Lava Lamp Pisco",
+      "count": 5,
+      "first": 1788915065,
+      "last": 1789829095,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Crying",
       "title": "Bodega Run",
       "album": "Get Olde / Second Wind",
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788988096,
       "last": 1789825587,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Sunday Bloody Sunday - Remastered 2008",
-      "album": "War (Remastered)",
-      "count": 5,
-      "first": 1788921291,
-      "last": 1789825074,
       "playlists": {
         "1default": 5
       }
@@ -2668,6 +2668,58 @@
       ]
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "count": 17,
+      "first": 1788915065,
+      "last": 1789829095,
+      "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Lava Lamp Pisco",
+          "album": "Lava Lamp Pisco",
+          "count": 5,
+          "first": 1788915065,
+          "last": 1789829095,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Mr. Prism",
+          "album": "Mr. Prism",
+          "count": 4,
+          "first": 1789168906,
+          "last": 1789771454,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Tally-Ho",
+          "album": "Tally-Ho",
+          "count": 4,
+          "first": 1789085431,
+          "last": 1789750713,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Bill's Mandolin",
+          "album": "And Now for the Whatchamacallit",
+          "count": 4,
+          "first": 1789234972,
+          "last": 1789678109,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 16,
       "first": 1788916461,
@@ -2715,58 +2767,6 @@
           "last": 1789784208,
           "playlists": {
             "d i n n e r": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Psychedelic Porn Crumpets",
-      "count": 16,
-      "first": 1788915065,
-      "last": 1789771454,
-      "songs": [
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Mr. Prism",
-          "album": "Mr. Prism",
-          "count": 4,
-          "first": 1789168906,
-          "last": 1789771454,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Tally-Ho",
-          "album": "Tally-Ho",
-          "count": 4,
-          "first": 1789085431,
-          "last": 1789750713,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Bill's Mandolin",
-          "album": "And Now for the Whatchamacallit",
-          "count": 4,
-          "first": 1789234972,
-          "last": 1789678109,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Lava Lamp Pisco",
-          "album": "Lava Lamp Pisco",
-          "count": 4,
-          "first": 1788915065,
-          "last": 1789567816,
-          "playlists": {
-            "1default": 4
           }
         }
       ]
@@ -6722,9 +6722,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1794,
+      "count": 1796,
       "first": 1788901564,
-      "last": 1789828739,
+      "last": 1789829095,
       "songs": [
         {
           "artist": "Modest Mouse",
