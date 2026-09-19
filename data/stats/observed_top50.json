@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-19T13:20:35.770873+00:00",
+  "updatedAt": "2026-09-19T13:25:32.212930+00:00",
   "summary": {
-    "totalPlays": 3879,
+    "totalPlays": 3880,
     "unknownPlays": 465,
     "uniqueTracks": 1533,
     "uniqueArtists": 1035,
     "uniqueAlbums": 1282,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789823960
+    "lastObserved": 1789824169
   },
   "topSongs": [
     {
@@ -420,6 +420,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Broken Glass",
+      "album": "PHANTOMS",
+      "count": 5,
+      "first": 1788973540,
+      "last": 1789824169,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Tems, Brent Faiyaz",
       "title": "Found (feat. Brent Faiyaz)",
       "album": "Found (feat. Brent Faiyaz)",
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1789061325,
       "last": 1789820523,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
-      "title": "Not Strong Enough",
-      "album": "the record",
-      "count": 5,
-      "first": 1788986031,
-      "last": 1789820289,
       "playlists": {
         "1default": 5
       }
@@ -1860,10 +1860,21 @@
     },
     {
       "artist": "Opium",
-      "count": 36,
+      "count": 37,
       "first": 1788927400,
-      "last": 1789745945,
+      "last": 1789824169,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 5,
+          "first": 1788973540,
+          "last": 1789824169,
+          "playlists": {
+            "1default": 5
+          }
+        },
         {
           "artist": "Opium",
           "title": "Dirge",
@@ -1926,17 +1937,6 @@
           "count": 4,
           "first": 1789063255,
           "last": 1789590330,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 4,
-          "first": 1788973540,
-          "last": 1789486956,
           "playlists": {
             "1default": 4
           }
@@ -4278,6 +4278,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Opium",
+      "album": "PHANTOMS",
+      "count": 28,
+      "first": 1788927400,
+      "last": 1789824169,
+      "songs": [
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 5,
+          "first": 1788973540,
+          "last": 1789824169,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 5,
+          "first": 1788927400,
+          "last": 1789743869,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 5,
+          "first": 1788946866,
+          "last": 1789713705,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 5,
+          "first": 1789057319,
+          "last": 1789671071,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 5,
+          "first": 1789064095,
+          "last": 1789659805,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 3,
+          "first": 1789109880,
+          "last": 1789506400,
+          "playlists": {
+            "1default": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
       "count": 28,
@@ -4348,81 +4423,6 @@
           "last": 1789672015,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Opium",
-      "album": "PHANTOMS",
-      "count": 27,
-      "first": 1788927400,
-      "last": 1789743869,
-      "songs": [
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 5,
-          "first": 1788927400,
-          "last": 1789743869,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 5,
-          "first": 1788946866,
-          "last": 1789713705,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 5,
-          "first": 1789057319,
-          "last": 1789671071,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 5,
-          "first": 1789064095,
-          "last": 1789659805,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 4,
-          "first": 1788973540,
-          "last": 1789486956,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 3,
-          "first": 1789109880,
-          "last": 1789506400,
-          "playlists": {
-            "1default": 3
           }
         }
       ]
@@ -6777,9 +6777,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1773,
+      "count": 1774,
       "first": 1788901564,
-      "last": 1789823960,
+      "last": 1789824169,
       "songs": [
         {
           "artist": "Modest Mouse",
