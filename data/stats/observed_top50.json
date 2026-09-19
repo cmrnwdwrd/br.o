@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-19T07:15:31.613649+00:00",
+  "updatedAt": "2026-09-19T07:20:33.201551+00:00",
   "summary": {
-    "totalPlays": 3826,
+    "totalPlays": 3828,
     "unknownPlays": 458,
     "uniqueTracks": 1532,
     "uniqueArtists": 1035,
     "uniqueAlbums": 1282,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789801891
+    "lastObserved": 1789802402
   },
   "topSongs": [
     {
@@ -420,6 +420,17 @@
       }
     },
     {
+      "artist": "Florence + The Machine",
+      "title": "My Love",
+      "album": "Dance Fever",
+      "count": 5,
+      "first": 1789099438,
+      "last": 1789802170,
+      "playlists": {
+        "for the girls driving 85": 5
+      }
+    },
+    {
       "artist": "Mitski",
       "title": "First Love/Late Spring",
       "album": "Bury Me At Makeout Creek",
@@ -547,17 +558,6 @@
       "count": 5,
       "first": 1788904291,
       "last": 1789773862,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "clipping.",
-      "title": "Nothing is Safe",
-      "album": "There Existed an Addiction to Blood",
-      "count": 5,
-      "first": 1789054884,
-      "last": 1789773124,
       "playlists": {
         "1default": 5
       }
@@ -1613,9 +1613,9 @@
     },
     {
       "artist": "Mitski",
-      "count": 47,
+      "count": 48,
       "first": 1788920128,
-      "last": 1789801891,
+      "last": 1789802402,
       "songs": [
         {
           "artist": "Mitski",
@@ -1659,6 +1659,17 @@
           "last": 1789663329,
           "playlists": {
             "1default": 5
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Bug Like an Angel",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 4,
+          "first": 1789102597,
+          "last": 1789802402,
+          "playlists": {
+            "for the girls driving 85": 4
           }
         },
         {
@@ -1712,17 +1723,6 @@
           "count": 3,
           "first": 1789192334,
           "last": 1789797039,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Bug Like an Angel",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 3,
-          "first": 1789102597,
-          "last": 1789796562,
           "playlists": {
             "for the girls driving 85": 3
           }
@@ -2239,10 +2239,21 @@
     },
     {
       "artist": "Florence + The Machine",
-      "count": 30,
+      "count": 31,
       "first": 1789098538,
-      "last": 1789801404,
+      "last": 1789802170,
       "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "My Love",
+          "album": "Dance Fever",
+          "count": 5,
+          "first": 1789099438,
+          "last": 1789802170,
+          "playlists": {
+            "for the girls driving 85": 5
+          }
+        },
         {
           "artist": "Florence + The Machine",
           "title": "Falling",
@@ -2283,17 +2294,6 @@
           "count": 4,
           "first": 1789101142,
           "last": 1789794640,
-          "playlists": {
-            "for the girls driving 85": 4
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "My Love",
-          "album": "Dance Fever",
-          "count": 4,
-          "first": 1789099438,
-          "last": 1789711247,
           "playlists": {
             "for the girls driving 85": 4
           }
@@ -4882,6 +4882,70 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 18,
+      "first": 1789102597,
+      "last": 1789802402,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "My Love Mine All Mine",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 5,
+          "first": 1789130394,
+          "last": 1789752321,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Bug Like an Angel",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 4,
+          "first": 1789102597,
+          "last": 1789802402,
+          "playlists": {
+            "for the girls driving 85": 4
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Star",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 3,
+          "first": 1789192334,
+          "last": 1789797039,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Buffalo Replaced",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 3,
+          "first": 1789107530,
+          "last": 1789796155,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "The Frost",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 3,
+          "first": 1789105519,
+          "last": 1789795270,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "SWAMP",
       "count": 18,
@@ -4935,63 +4999,52 @@
       ]
     },
     {
-      "artist": "Mitski",
-      "album": "The Land Is Inhospitable and So Are We",
-      "count": 17,
-      "first": 1789102597,
-      "last": 1789797039,
+      "artist": "Florence + The Machine",
+      "album": "Dance Fever",
+      "count": 16,
+      "first": 1789099438,
+      "last": 1789802170,
       "songs": [
         {
-          "artist": "Mitski",
-          "title": "My Love Mine All Mine",
-          "album": "The Land Is Inhospitable and So Are We",
+          "artist": "Florence + The Machine",
+          "title": "My Love",
+          "album": "Dance Fever",
           "count": 5,
-          "first": 1789130394,
-          "last": 1789752321,
+          "first": 1789099438,
+          "last": 1789802170,
           "playlists": {
-            "1default": 5
+            "for the girls driving 85": 5
           }
         },
         {
-          "artist": "Mitski",
-          "title": "Star",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 3,
-          "first": 1789192334,
-          "last": 1789797039,
+          "artist": "Florence + The Machine",
+          "title": "Cassandra",
+          "album": "Dance Fever",
+          "count": 4,
+          "first": 1789101648,
+          "last": 1789797220,
           "playlists": {
-            "for the girls driving 85": 3
+            "for the girls driving 85": 4
           }
         },
         {
-          "artist": "Mitski",
-          "title": "Bug Like an Angel",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 3,
-          "first": 1789102597,
-          "last": 1789796562,
+          "artist": "Florence + The Machine",
+          "title": "Dream Girl Evil",
+          "album": "Dance Fever",
+          "count": 4,
+          "first": 1789101142,
+          "last": 1789794640,
           "playlists": {
-            "for the girls driving 85": 3
+            "for the girls driving 85": 4
           }
         },
         {
-          "artist": "Mitski",
-          "title": "Buffalo Replaced",
-          "album": "The Land Is Inhospitable and So Are We",
+          "artist": "Florence + The Machine",
+          "title": "Free",
+          "album": "Dance Fever",
           "count": 3,
-          "first": 1789107530,
-          "last": 1789796155,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "The Frost",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 3,
-          "first": 1789105519,
-          "last": 1789795270,
+          "first": 1789104727,
+          "last": 1789708285,
           "playlists": {
             "for the girls driving 85": 3
           }
@@ -5091,59 +5144,6 @@
           "last": 1789008320,
           "playlists": {
             "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Florence + The Machine",
-      "album": "Dance Fever",
-      "count": 15,
-      "first": 1789099438,
-      "last": 1789797220,
-      "songs": [
-        {
-          "artist": "Florence + The Machine",
-          "title": "Cassandra",
-          "album": "Dance Fever",
-          "count": 4,
-          "first": 1789101648,
-          "last": 1789797220,
-          "playlists": {
-            "for the girls driving 85": 4
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Dream Girl Evil",
-          "album": "Dance Fever",
-          "count": 4,
-          "first": 1789101142,
-          "last": 1789794640,
-          "playlists": {
-            "for the girls driving 85": 4
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "My Love",
-          "album": "Dance Fever",
-          "count": 4,
-          "first": 1789099438,
-          "last": 1789711247,
-          "playlists": {
-            "for the girls driving 85": 4
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Free",
-          "album": "Dance Fever",
-          "count": 3,
-          "first": 1789104727,
-          "last": 1789708285,
-          "playlists": {
-            "for the girls driving 85": 3
           }
         }
       ]
@@ -7018,10 +7018,21 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 156,
+      "count": 158,
       "first": 1789097452,
-      "last": 1789801680,
+      "last": 1789802402,
       "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "My Love",
+          "album": "Dance Fever",
+          "count": 5,
+          "first": 1789099438,
+          "last": 1789802170,
+          "playlists": {
+            "for the girls driving 85": 5
+          }
+        },
         {
           "artist": "Florence + The Machine",
           "title": "Falling",
@@ -7031,6 +7042,17 @@
           "last": 1789801192,
           "playlists": {
             "for the girls driving 85": 5
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Bug Like an Angel",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 4,
+          "first": 1789102597,
+          "last": 1789802402,
+          "playlists": {
+            "for the girls driving 85": 4
           }
         },
         {
@@ -7051,28 +7073,6 @@
           "count": 4,
           "first": 1789103353,
           "last": 1789801404,
-          "playlists": {
-            "for the girls driving 85": 4
-          }
-        },
-        {
-          "artist": "Kacey Musgraves",
-          "title": "I Miss You",
-          "album": "Same Trailer Different Park",
-          "count": 4,
-          "first": 1789098752,
-          "last": 1789800110,
-          "playlists": {
-            "for the girls driving 85": 4
-          }
-        },
-        {
-          "artist": "Ethel Cain",
-          "title": "Crush",
-          "album": "Inbred",
-          "count": 4,
-          "first": 1789100938,
-          "last": 1789798660,
           "playlists": {
             "for the girls driving 85": 4
           }
