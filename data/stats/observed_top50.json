@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-19T15:20:35.492174+00:00",
+  "updatedAt": "2026-09-19T15:25:35.760233+00:00",
   "summary": {
-    "totalPlays": 3911,
+    "totalPlays": 3913,
     "unknownPlays": 468,
     "uniqueTracks": 1533,
     "uniqueArtists": 1035,
     "uniqueAlbums": 1282,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789831041
+    "lastObserved": 1789831404
   },
   "topSongs": [
     {
@@ -420,6 +420,28 @@
       }
     },
     {
+      "artist": "Crumb",
+      "title": "Locket",
+      "album": "Locket",
+      "count": 5,
+      "first": 1788983912,
+      "last": 1789831404,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
+      "artist": "Kate Bollinger",
+      "title": "A Couple Things",
+      "album": "A word becomes a sound",
+      "count": 5,
+      "first": 1788915657,
+      "last": 1789831245,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "title": "Pawn Shop Prada",
       "album": "Lick My Soul",
@@ -536,28 +558,6 @@
       "count": 5,
       "first": 1788990464,
       "last": 1789828245,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Human People",
-      "title": "Mood Swings",
-      "album": "Butterflies Drink Turtle Tears",
-      "count": 5,
-      "first": 1788934345,
-      "last": 1789828139,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Harper Powell",
-      "title": "It's the Full Moon",
-      "album": "It's the Full Moon",
-      "count": 5,
-      "first": 1788947970,
-      "last": 1789827908,
       "playlists": {
         "1default": 5
       }
@@ -4044,6 +4044,36 @@
       ]
     },
     {
+      "artist": "Kate Bollinger",
+      "count": 10,
+      "first": 1788915657,
+      "last": 1789831245,
+      "songs": [
+        {
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 5,
+          "first": 1788915657,
+          "last": 1789831245,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 5,
+          "first": 1788983449,
+          "last": 1789674031,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "count": 10,
       "first": 1788947080,
@@ -4228,36 +4258,6 @@
           "count": 5,
           "first": 1788912861,
           "last": 1789619439,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 10,
-      "first": 1788914032,
-      "last": 1789774435,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 5,
-          "first": 1788914032,
-          "last": 1789774435,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 5,
-          "first": 1789222724,
-          "last": 1789680991,
           "playlists": {
             "1default": 5
           }
@@ -6711,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1805,
+      "count": 1807,
       "first": 1788901564,
-      "last": 1789831041,
+      "last": 1789831404,
       "songs": [
         {
           "artist": "Modest Mouse",
