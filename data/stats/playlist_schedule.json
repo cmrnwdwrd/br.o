@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T16:25:30.275228+00:00",
+  "updatedAt": "2026-09-19T16:30:34.562436+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 32,
-    "sessionCount": 149,
+    "sessionCount": 150,
     "firstObserved": 1788901564,
-    "lastObserved": 1789831922
+    "lastObserved": 1789835426
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 59,
-      "playCount": 1798,
+      "sessionCount": 60,
+      "playCount": 1799,
       "firstObserved": 1788901564,
-      "lastObserved": 1789815834,
-      "typicalStartMinute": 172,
-      "typicalDurationMinutes": 42,
+      "lastObserved": 1789835426,
+      "typicalStartMinute": 309,
+      "typicalDurationMinutes": 41,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -161,7 +161,7 @@
           120.0,
           120.0,
           64.4,
-          28.0,
+          32.0,
           60.0,
           60.0,
           1.0,
@@ -737,7 +737,7 @@
           0.0,
           0.0,
           0.0,
-          13.0,
+          17.0,
           15.0,
           15.0,
           15.0,
@@ -1033,7 +1033,7 @@
           0,
           0,
           0,
-          1,
+          2,
           0,
           0,
           0,
@@ -1113,9 +1113,9 @@
         },
         {
           "weekday": 5,
-          "sessions": 6,
-          "typicalStartMinute": 990,
-          "typicalDurationMinutes": 95,
+          "sessions": 7,
+          "typicalStartMinute": 772,
+          "typicalDurationMinutes": 40,
           "confidence": "Low"
         },
         {
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1789835426,
+          "end": 1789835667,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1789815834,
           "end": 1789831921,
@@ -1239,12 +1245,6 @@
           "start": 1789542885,
           "end": 1789543134,
           "durationMinutes": 4,
-          "playCount": 1
-        },
-        {
-          "start": 1789539201,
-          "end": 1789539380,
-          "durationMinutes": 3,
           "playCount": 1
         }
       ]
@@ -22299,11 +22299,11 @@
     {
       "playlist": "steal my bike",
       "sessionCount": 2,
-      "playCount": 35,
+      "playCount": 36,
       "firstObserved": 1789227144,
       "lastObserved": 1789831922,
       "typicalStartMinute": 572,
-      "typicalDurationMinutes": 58,
+      "typicalDurationMinutes": 59,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -22447,7 +22447,7 @@
           0.0,
           0.0,
           55.6,
-          59.5,
+          62.3,
           0.0,
           0.0,
           0.0,
@@ -23022,8 +23022,8 @@
           25.6,
           30.0,
           30.0,
-          27.5,
-          2.0,
+          30.0,
+          2.3,
           0.0,
           0.0,
           0.0,
@@ -23366,16 +23366,16 @@
           "weekday": 5,
           "sessions": 2,
           "typicalStartMinute": 572,
-          "typicalDurationMinutes": 58,
+          "typicalDurationMinutes": 59,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
         {
           "start": 1789831922,
-          "end": 1789835250,
-          "durationMinutes": 55,
-          "playCount": 17
+          "end": 1789835420,
+          "durationMinutes": 58,
+          "playCount": 18
         },
         {
           "start": 1789227144,
