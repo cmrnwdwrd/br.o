@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T23:20:30.528149+00:00",
+  "updatedAt": "2026-09-19T23:25:33.919403+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 32,
-    "sessionCount": 154,
+    "sessionCount": 153,
     "firstObserved": 1788901564,
-    "lastObserved": 1789860026
+    "lastObserved": 1789858892
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 61,
-      "playCount": 1840,
+      "sessionCount": 60,
+      "playCount": 1839,
       "firstObserved": 1788901564,
-      "lastObserved": 1789860026,
-      "typicalStartMinute": 292,
+      "lastObserved": 1789835426,
+      "typicalStartMinute": 309,
       "typicalDurationMinutes": 42,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -168,7 +168,7 @@
           0.0,
           0.0,
           0.5,
-          5.5,
+          1.6,
           3.2,
           40.5,
           0.0,
@@ -764,7 +764,7 @@
           0.0,
           0.5,
           1.6,
-          3.8,
+          0.0,
           0.0,
           0.0,
           3.2,
@@ -1040,7 +1040,7 @@
           0,
           0,
           1,
-          1,
+          0,
           1,
           1,
           0,
@@ -1113,9 +1113,9 @@
         },
         {
           "weekday": 5,
-          "sessions": 8,
-          "typicalStartMinute": 890,
-          "typicalDurationMinutes": 95,
+          "sessions": 7,
+          "typicalStartMinute": 772,
+          "typicalDurationMinutes": 149,
           "confidence": "Low"
         },
         {
@@ -1127,12 +1127,6 @@
         }
       ],
       "recentSessions": [
-        {
-          "start": 1789860026,
-          "end": 1789860256,
-          "durationMinutes": 4,
-          "playCount": 1
-        },
         {
           "start": 1789835426,
           "end": 1789844452,
@@ -1246,6 +1240,12 @@
           "end": 1789553032,
           "durationMinutes": 33,
           "playCount": 8
+        },
+        {
+          "start": 1789542885,
+          "end": 1789543134,
+          "durationMinutes": 4,
+          "playCount": 1
         }
       ]
     },
@@ -13574,7 +13574,7 @@
     {
       "playlist": "texting your situationship",
       "sessionCount": 3,
-      "playCount": 37,
+      "playCount": 39,
       "firstObserved": 1789254099,
       "lastObserved": 1789858892,
       "typicalStartMinute": 1046,
@@ -13729,7 +13729,7 @@
           0.0,
           0.0,
           0.0,
-          75.7,
+          83.0,
           49.0,
           2.1,
           0.0,
@@ -14325,7 +14325,7 @@
           0.0,
           0.0,
           26.8,
-          18.9,
+          26.2,
           15.0,
           15.0,
           4.2,
@@ -14648,9 +14648,9 @@
       "recentSessions": [
         {
           "start": 1789858892,
-          "end": 1789859935,
-          "durationMinutes": 17,
-          "playCount": 5
+          "end": 1789860374,
+          "durationMinutes": 25,
+          "playCount": 7
         },
         {
           "start": 1789258510,
