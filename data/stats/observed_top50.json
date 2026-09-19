@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-19T14:30:34.755633+00:00",
+  "updatedAt": "2026-09-19T14:35:36.403127+00:00",
   "summary": {
-    "totalPlays": 3897,
-    "unknownPlays": 466,
+    "totalPlays": 3899,
+    "unknownPlays": 467,
     "uniqueTracks": 1533,
     "uniqueArtists": 1035,
     "uniqueAlbums": 1282,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789828139
+    "lastObserved": 1789828495
   },
   "topSongs": [
     {
@@ -420,6 +420,28 @@
       }
     },
     {
+      "artist": "Black Sheep",
+      "title": "The Choice Is Yours (Revisited)",
+      "album": "A Wolf In Sheep's Clothing",
+      "count": 5,
+      "first": 1789062768,
+      "last": 1789828495,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
+      "artist": "Vampire Weekend",
+      "title": "How Long?",
+      "album": "Father of the Bride",
+      "count": 5,
+      "first": 1788990464,
+      "last": 1789828245,
+      "playlists": {
+        "1default": 5
+      }
+    },
+    {
       "artist": "Human People",
       "title": "Mood Swings",
       "album": "Butterflies Drink Turtle Tears",
@@ -536,28 +558,6 @@
       "count": 5,
       "first": 1788926905,
       "last": 1789824886,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Ms. Lauryn Hill",
-      "title": "Everything Is Everything",
-      "album": "The Miseducation of Lauryn Hill",
-      "count": 5,
-      "first": 1788987126,
-      "last": 1789824595,
-      "playlists": {
-        "1default": 5
-      }
-    },
-    {
-      "artist": "Saint Motel",
-      "title": "My Type",
-      "album": "My Type EP",
-      "count": 5,
-      "first": 1789032860,
-      "last": 1789824388,
       "playlists": {
         "1default": 5
       }
@@ -4044,6 +4044,47 @@
       ]
     },
     {
+      "artist": "Vampire Weekend",
+      "count": 10,
+      "first": 1788990464,
+      "last": 1789828245,
+      "songs": [
+        {
+          "artist": "Vampire Weekend",
+          "title": "How Long?",
+          "album": "Father of the Bride",
+          "count": 5,
+          "first": 1788990464,
+          "last": 1789828245,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Harmony Hall",
+          "album": "Father of the Bride",
+          "count": 4,
+          "first": 1789108965,
+          "last": 1789619584,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Campus",
+          "album": "Vampire Weekend",
+          "count": 1,
+          "first": 1789762855,
+          "last": 1789762855,
+          "playlists": {
+            "escaping from cu boulder by giselle": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 10,
       "first": 1788947810,
@@ -4230,36 +4271,6 @@
           "last": 1789319672,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Modest Mouse",
-      "count": 10,
-      "first": 1788968149,
-      "last": 1789756286,
-      "songs": [
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 9,
-          "first": 1788968149,
-          "last": 1789687365,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "The World At Large",
-          "album": "Good News For People Who Love Bad News",
-          "count": 1,
-          "first": 1789756286,
-          "last": 1789756286,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
           }
         }
       ]
@@ -6203,6 +6214,37 @@
       ]
     },
     {
+      "artist": "Vampire Weekend",
+      "album": "Father of the Bride",
+      "count": 9,
+      "first": 1788990464,
+      "last": 1789828245,
+      "songs": [
+        {
+          "artist": "Vampire Weekend",
+          "title": "How Long?",
+          "album": "Father of the Bride",
+          "count": 5,
+          "first": 1788990464,
+          "last": 1789828245,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Harmony Hall",
+          "album": "Father of the Bride",
+          "count": 4,
+          "first": 1789108965,
+          "last": 1789619584,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Be the Cowboy",
       "count": 9,
@@ -6675,78 +6717,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Jack Johnson",
-      "album": "In Between Dreams",
-      "count": 8,
-      "first": 1789148222,
-      "last": 1789754841,
-      "songs": [
-        {
-          "artist": "Jack Johnson",
-          "title": "Banana Pancakes",
-          "album": "In Between Dreams",
-          "count": 2,
-          "first": 1789151504,
-          "last": 1789754841,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Never Know",
-          "album": "In Between Dreams",
-          "count": 2,
-          "first": 1789150701,
-          "last": 1789754628,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Better Together",
-          "album": "In Between Dreams",
-          "count": 2,
-          "first": 1789148222,
-          "last": 1789753770,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Sitting, Waiting, Wishing",
-          "album": "In Between Dreams",
-          "count": 1,
-          "first": 1789751746,
-          "last": 1789751746,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Good People",
-          "album": "In Between Dreams",
-          "count": 1,
-          "first": 1789152122,
-          "last": 1789152122,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1791,
+      "count": 1793,
       "first": 1788901564,
-      "last": 1789828139,
+      "last": 1789828495,
       "songs": [
         {
           "artist": "Modest Mouse",
