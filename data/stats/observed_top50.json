@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-20T18:30:26.592073+00:00",
+  "updatedAt": "2026-09-20T18:35:34.849370+00:00",
   "summary": {
-    "totalPlays": 4365,
-    "unknownPlays": 523,
+    "totalPlays": 4366,
+    "unknownPlays": 524,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789928910
+    "lastObserved": 1789929188
   },
   "topSongs": [
     {
@@ -274,6 +274,17 @@
       "last": 1789637675,
       "playlists": {
         "1default": 7
+      }
+    },
+    {
+      "artist": "botch",
+      "title": "gettingyoutobelieve",
+      "album": "pear",
+      "count": 6,
+      "first": 1788920755,
+      "last": 1789929188,
+      "playlists": {
+        "1default": 6
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1788991170,
       "last": 1789866164,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Arlie",
-      "title": "didya think",
-      "album": "Wait",
-      "count": 6,
-      "first": 1788970349,
-      "last": 1789855600,
       "playlists": {
         "1default": 6
       }
@@ -2579,10 +2579,21 @@
     },
     {
       "artist": "botch",
-      "count": 20,
+      "count": 21,
       "first": 1788920755,
-      "last": 1789826965,
+      "last": 1789929188,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 6,
+          "first": 1788920755,
+          "last": 1789929188,
+          "playlists": {
+            "1default": 6
+          }
+        },
         {
           "artist": "botch",
           "title": "takeadrag",
@@ -2601,17 +2612,6 @@
           "count": 5,
           "first": 1788997306,
           "last": 1789770534,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 5,
-          "first": 1788920755,
-          "last": 1789749739,
           "playlists": {
             "1default": 5
           }
@@ -6025,6 +6025,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 11,
+      "first": 1788920755,
+      "last": 1789929188,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 6,
+          "first": 1788920755,
+          "last": 1789929188,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 5,
+          "first": 1788963025,
+          "last": 1789826965,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "album": "GRITTED TEETH *",
       "count": 11,
@@ -6504,37 +6535,6 @@
           "count": 5,
           "first": 1788913884,
           "last": 1789693270,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 10,
-      "first": 1788920755,
-      "last": 1789826965,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 5,
-          "first": 1788963025,
-          "last": 1789826965,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 5,
-          "first": 1788920755,
-          "last": 1789749739,
           "playlists": {
             "1default": 5
           }
@@ -7118,9 +7118,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1899,
+      "count": 1900,
       "first": 1788901564,
-      "last": 1789915309,
+      "last": 1789929188,
       "songs": [
         {
           "artist": "Modest Mouse",
