@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-20T03:10:32.337633+00:00",
+  "updatedAt": "2026-09-20T03:15:38.114248+00:00",
   "summary": {
-    "totalPlays": 4106,
-    "unknownPlays": 492,
+    "totalPlays": 4107,
+    "unknownPlays": 493,
     "uniqueTracks": 1597,
     "uniqueArtists": 1070,
     "uniqueAlbums": 1331,
     "uniquePlaylists": 32,
     "firstObserved": 1788901564,
-    "lastObserved": 1789873805
+    "lastObserved": 1789874140
   },
   "topSongs": [
     {
@@ -7287,10 +7287,21 @@
     },
     {
       "playlist": "throwbacks",
-      "count": 96,
+      "count": 97,
       "first": 1789263760,
-      "last": 1789873805,
+      "last": 1789874140,
       "songs": [
+        {
+          "artist": "Jason Derulo",
+          "title": "Trumpets",
+          "album": "Talk Dirty",
+          "count": 2,
+          "first": 1789264242,
+          "last": 1789874140,
+          "playlists": {
+            "throwbacks": 2
+          }
+        },
         {
           "artist": "Big-A Prado, Nino Cahootz, Amy Luciani",
           "title": "Mudd",
@@ -7331,17 +7342,6 @@
           "count": 1,
           "first": 1789873805,
           "last": 1789873805,
-          "playlists": {
-            "throwbacks": 1
-          }
-        },
-        {
-          "artist": "Migos",
-          "title": "Stir Fry",
-          "album": "Culture II",
-          "count": 1,
-          "first": 1789873451,
-          "last": 1789873451,
           "playlists": {
             "throwbacks": 1
           }
