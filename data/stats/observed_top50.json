@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-20T20:45:40.305085+00:00",
+  "updatedAt": "2026-09-20T20:50:37.800154+00:00",
   "summary": {
-    "totalPlays": 4403,
+    "totalPlays": 4404,
     "unknownPlays": 528,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789936874
+    "lastObserved": 1789937193
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Ribs",
+      "album": "Pure Heroine",
+      "count": 6,
+      "first": 1789222724,
+      "last": 1789937193,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Radiohead",
       "title": "Follow Me Around",
       "album": "Follow Me Around",
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1788904291,
       "last": 1789915309,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "My Chemical Romance",
-      "title": "Planetary (GO!)",
-      "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-      "count": 6,
-      "first": 1788965302,
-      "last": 1789899928,
       "playlists": {
         "1default": 6
       }
@@ -3957,6 +3957,36 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 11,
+      "first": 1788914032,
+      "last": 1789937193,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 6,
+          "first": 1789222724,
+          "last": 1789937193,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 5,
+          "first": 1788914032,
+          "last": 1789774435,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 11,
       "first": 1788921291,
@@ -4351,47 +4381,6 @@
           "last": 1789843380,
           "playlists": {
             "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "ruzlxn",
-      "count": 11,
-      "first": 1788914259,
-      "last": 1789843120,
-      "songs": [
-        {
-          "artist": "ruzlxn",
-          "title": "BURN YOUR LOCAL POLITICIAN !",
-          "album": "GRITTED TEETH *",
-          "count": 5,
-          "first": 1788914259,
-          "last": 1789748411,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "GRITTED TEETH",
-          "album": "GRITTED TEETH *",
-          "count": 4,
-          "first": 1789408164,
-          "last": 1789843120,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "BONES",
-          "album": "GRITTED TEETH *",
-          "count": 2,
-          "first": 1788933961,
-          "last": 1789364725,
-          "playlists": {
-            "EPL4a": 2
           }
         }
       ]
@@ -7063,9 +7052,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1937,
+      "count": 1938,
       "first": 1788901564,
-      "last": 1789936874,
+      "last": 1789937193,
       "songs": [
         {
           "artist": "Modest Mouse",
