@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-20T22:05:33.455917+00:00",
+  "updatedAt": "2026-09-20T22:10:39.792179+00:00",
   "summary": {
-    "totalPlays": 4422,
+    "totalPlays": 4423,
     "unknownPlays": 531,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789941689
+    "lastObserved": 1789941985
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 6,
+      "first": 1788968380,
+      "last": 1789941985,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "The Salesmen",
       "title": "Tell Me That You Like It",
       "album": "Tell Me That You Like It",
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1789059151,
       "last": 1789933390,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Smash Mouth",
-      "title": "Walkin' On The Sun",
-      "album": "Fush Yu Mang (20th Anniversary Edition)",
-      "count": 6,
-      "first": 1788967329,
-      "last": 1789932976,
       "playlists": {
         "1default": 6
       }
@@ -3894,6 +3894,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 12,
+      "first": 1788947080,
+      "last": 1789941985,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 6,
+          "first": 1788968380,
+          "last": 1789941985,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 6,
+          "first": 1788947080,
+          "last": 1789842652,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 12,
       "first": 1789061029,
@@ -4285,36 +4315,6 @@
           "last": 1789893243,
           "playlists": {
             "christmas rn": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 11,
-      "first": 1789054681,
-      "last": 1789867226,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 6,
-          "first": 1789057143,
-          "last": 1789867226,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 5,
-          "first": 1789054681,
-          "last": 1789839431,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -5767,6 +5767,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 12,
+      "first": 1788947080,
+      "last": 1789941985,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 6,
+          "first": 1788968380,
+          "last": 1789941985,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 6,
+          "first": 1788947080,
+          "last": 1789842652,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "album": "Alligator Bites Never Heal",
       "count": 12,
@@ -6096,37 +6127,6 @@
           "last": 1789364725,
           "playlists": {
             "EPL4a": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 11,
-      "first": 1788947080,
-      "last": 1789842652,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 6,
-          "first": 1788947080,
-          "last": 1789842652,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 5,
-          "first": 1788968380,
-          "last": 1789830041,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -6986,9 +6986,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1956,
+      "count": 1957,
       "first": 1788901564,
-      "last": 1789941689,
+      "last": 1789941985,
       "songs": [
         {
           "artist": "Ramones",
