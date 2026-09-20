@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-20T20:50:37.800154+00:00",
+  "updatedAt": "2026-09-20T20:55:33.909794+00:00",
   "summary": {
-    "totalPlays": 4404,
+    "totalPlays": 4406,
     "unknownPlays": 528,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789937193
+    "lastObserved": 1789937714
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "Vampire Weekend",
+      "title": "How Long?",
+      "album": "Father of the Bride",
+      "count": 6,
+      "first": 1788990464,
+      "last": 1789937714,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
+      "artist": "Radiohead",
+      "title": "If You Say the Word",
+      "album": "If You Say the Word",
+      "count": 6,
+      "first": 1789033884,
+      "last": 1789937455,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Lorde",
       "title": "Ribs",
       "album": "Pure Heroine",
@@ -536,28 +558,6 @@
       "count": 6,
       "first": 1788918945,
       "last": 1789929384,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "gettingyoutobelieve",
-      "album": "pear",
-      "count": 6,
-      "first": 1788920755,
-      "last": 1789929188,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Mosie",
-      "title": "Oh! Frenchy",
-      "album": "Oh! Frenchy",
-      "count": 6,
-      "first": 1788904291,
-      "last": 1789915309,
       "playlists": {
         "1default": 6
       }
@@ -2860,6 +2860,47 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 17,
+      "first": 1788973066,
+      "last": 1789937455,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 6,
+          "first": 1789033884,
+          "last": 1789937455,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 6,
+          "first": 1788973066,
+          "last": 1789936874,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 5,
+          "first": 1788984450,
+          "last": 1789699765,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 17,
       "first": 1788946510,
@@ -2907,47 +2948,6 @@
           "last": 1789758798,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 16,
-      "first": 1788973066,
-      "last": 1789936874,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 6,
-          "first": 1788973066,
-          "last": 1789936874,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 5,
-          "first": 1789033884,
-          "last": 1789734659,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 5,
-          "first": 1788984450,
-          "last": 1789699765,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -3957,6 +3957,47 @@
       ]
     },
     {
+      "artist": "Vampire Weekend",
+      "count": 11,
+      "first": 1788990464,
+      "last": 1789937714,
+      "songs": [
+        {
+          "artist": "Vampire Weekend",
+          "title": "How Long?",
+          "album": "Father of the Bride",
+          "count": 6,
+          "first": 1788990464,
+          "last": 1789937714,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Harmony Hall",
+          "album": "Father of the Bride",
+          "count": 4,
+          "first": 1789108965,
+          "last": 1789619584,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Campus",
+          "album": "Vampire Weekend",
+          "count": 1,
+          "first": 1789762855,
+          "last": 1789762855,
+          "playlists": {
+            "escaping from cu boulder by giselle": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 11,
       "first": 1788914032,
@@ -4351,36 +4392,6 @@
           "last": 1789242269,
           "playlists": {
             "constitution't": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 11,
-      "first": 1788986484,
-      "last": 1789844012,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 6,
-          "first": 1788986484,
-          "last": 1789844012,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 5,
-          "first": 1789231311,
-          "last": 1789843380,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -6271,6 +6282,37 @@
       ]
     },
     {
+      "artist": "Vampire Weekend",
+      "album": "Father of the Bride",
+      "count": 10,
+      "first": 1788990464,
+      "last": 1789937714,
+      "songs": [
+        {
+          "artist": "Vampire Weekend",
+          "title": "How Long?",
+          "album": "Father of the Bride",
+          "count": 6,
+          "first": 1788990464,
+          "last": 1789937714,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Harmony Hall",
+          "album": "Father of the Bride",
+          "count": 4,
+          "first": 1789108965,
+          "last": 1789619584,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "album": "Doolittle",
       "count": 10,
@@ -6801,37 +6843,6 @@
       ]
     },
     {
-      "artist": "Vampire Weekend",
-      "album": "Father of the Bride",
-      "count": 9,
-      "first": 1788990464,
-      "last": 1789828245,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 5,
-          "first": 1788990464,
-          "last": 1789828245,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 4,
-          "first": 1789108965,
-          "last": 1789619584,
-          "playlists": {
-            "1default": 4
-          }
-        }
-      ]
-    },
-    {
       "artist": "Mitski",
       "album": "Be the Cowboy",
       "count": 9,
@@ -7052,9 +7063,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1938,
+      "count": 1940,
       "first": 1788901564,
-      "last": 1789937193,
+      "last": 1789937714,
       "songs": [
         {
           "artist": "Modest Mouse",
