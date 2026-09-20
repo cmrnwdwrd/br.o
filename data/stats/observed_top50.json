@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-20T21:35:36.586636+00:00",
+  "updatedAt": "2026-09-20T21:40:37.496030+00:00",
   "summary": {
-    "totalPlays": 4416,
+    "totalPlays": 4417,
     "unknownPlays": 530,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789939995
+    "lastObserved": 1789940280
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "The Cranberries",
+      "title": "Zombie",
+      "album": "No Need To Argue",
+      "count": 6,
+      "first": 1788916461,
+      "last": 1789940280,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Collective Soul",
       "title": "December",
       "album": "Collective Soul",
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1789014639,
       "last": 1789931942,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "title": "Pawn Shop Prada",
-      "album": "Lick My Soul",
-      "count": 6,
-      "first": 1788919863,
-      "last": 1789931401,
       "playlists": {
         "1default": 6
       }
@@ -2860,6 +2860,58 @@
       ]
     },
     {
+      "artist": "The Cranberries",
+      "count": 17,
+      "first": 1788916461,
+      "last": 1789940280,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 6,
+          "first": 1788916461,
+          "last": 1789940280,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 5,
+          "first": 1789060180,
+          "last": 1789660075,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 4,
+          "first": 1789087662,
+          "last": 1789745173,
+          "playlists": {
+            "1default": 4
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Dreams",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 2,
+          "first": 1789174476,
+          "last": 1789784208,
+          "playlists": {
+            "d i n n e r": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 17,
       "first": 1788973066,
@@ -2989,58 +3041,6 @@
           "last": 1789680626,
           "playlists": {
             "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Cranberries",
-      "count": 16,
-      "first": 1788916461,
-      "last": 1789784208,
-      "songs": [
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 5,
-          "first": 1788916461,
-          "last": 1789750404,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 5,
-          "first": 1789060180,
-          "last": 1789660075,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 4,
-          "first": 1789087662,
-          "last": 1789745173,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Dreams",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 2,
-          "first": 1789174476,
-          "last": 1789784208,
-          "playlists": {
-            "d i n n e r": 2
           }
         }
       ]
@@ -7063,9 +7063,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1950,
+      "count": 1951,
       "first": 1788901564,
-      "last": 1789939995,
+      "last": 1789940280,
       "songs": [
         {
           "artist": "Ramones",
