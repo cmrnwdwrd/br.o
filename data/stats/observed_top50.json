@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-20T23:05:35.474845+00:00",
+  "updatedAt": "2026-09-20T23:10:34.527304+00:00",
   "summary": {
-    "totalPlays": 4440,
+    "totalPlays": 4441,
     "unknownPlays": 532,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789945376
+    "lastObserved": 1789945573
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "takeadrag",
+      "album": "pear",
+      "count": 6,
+      "first": 1788963025,
+      "last": 1789945573,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Yellowcard",
       "title": "Ocean Avenue",
       "album": "Ocean Avenue",
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1789222724,
       "last": 1789937193,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Radiohead",
-      "title": "Follow Me Around",
-      "album": "Follow Me Around",
-      "count": 6,
-      "first": 1788973066,
-      "last": 1789936874,
       "playlists": {
         "1default": 6
       }
@@ -2537,6 +2537,58 @@
       ]
     },
     {
+      "artist": "botch",
+      "count": 22,
+      "first": 1788920755,
+      "last": 1789945573,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 6,
+          "first": 1788963025,
+          "last": 1789945573,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 6,
+          "first": 1788920755,
+          "last": 1789929188,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 5,
+          "first": 1788997306,
+          "last": 1789770534,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 5,
+          "first": 1788972349,
+          "last": 1789748772,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "count": 22,
       "first": 1788917845,
@@ -2571,58 +2623,6 @@
           "count": 5,
           "first": 1788917845,
           "last": 1789715605,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "count": 21,
-      "first": 1788920755,
-      "last": 1789929188,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 6,
-          "first": 1788920755,
-          "last": 1789929188,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 5,
-          "first": 1788963025,
-          "last": 1789826965,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 5,
-          "first": 1788997306,
-          "last": 1789770534,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 5,
-          "first": 1788972349,
-          "last": 1789748772,
           "playlists": {
             "1default": 5
           }
@@ -5767,6 +5767,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 12,
+      "first": 1788920755,
+      "last": 1789945573,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 6,
+          "first": 1788963025,
+          "last": 1789945573,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 6,
+          "first": 1788920755,
+          "last": 1789929188,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "album": "Stand Up",
       "count": 12,
@@ -6085,37 +6116,6 @@
           "last": 1789882590,
           "playlists": {
             "sad girl no friends saturday": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 11,
-      "first": 1788920755,
-      "last": 1789929188,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 6,
-          "first": 1788920755,
-          "last": 1789929188,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 5,
-          "first": 1788963025,
-          "last": 1789826965,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -6975,9 +6975,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 1974,
+      "count": 1975,
       "first": 1788901564,
-      "last": 1789945376,
+      "last": 1789945573,
       "songs": [
         {
           "artist": "Ramones",
