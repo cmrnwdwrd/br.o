@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T07:25:35.118249+00:00",
+  "updatedAt": "2026-09-21T07:30:37.212782+00:00",
   "summary": {
-    "totalPlays": 4580,
+    "totalPlays": 4582,
     "unknownPlays": 550,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789975245
+    "lastObserved": 1789975766
   },
   "topSongs": [
     {
@@ -332,6 +332,28 @@
       }
     },
     {
+      "artist": "Jaguar Stevens",
+      "title": "Dying Dance",
+      "album": "Jaguar Stevens",
+      "count": 6,
+      "first": 1788975620,
+      "last": 1789975766,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
+      "artist": "Better Oblivion Community Center, Conor Oberst, Phoebe Bridgers",
+      "title": "Dylan Thomas",
+      "album": "Better Oblivion Community Center",
+      "count": 6,
+      "first": 1789055208,
+      "last": 1789975547,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Hotel Ugly",
       "title": "Shut up My Moms Calling",
       "album": "Shut up My Moms Calling",
@@ -536,28 +558,6 @@
       "count": 6,
       "first": 1789058964,
       "last": 1789961330,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "Dancing With Demons",
-      "album": "Dancing With Demons",
-      "count": 6,
-      "first": 1788946229,
-      "last": 1789961049,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "What's for Dinner????",
-      "album": "Dead",
-      "count": 6,
-      "first": 1788917492,
-      "last": 1789960330,
       "playlists": {
         "1default": 6
       }
@@ -3128,6 +3128,47 @@
       ]
     },
     {
+      "artist": "Jaguar Stevens",
+      "count": 16,
+      "first": 1788975620,
+      "last": 1789975766,
+      "songs": [
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Dying Dance",
+          "album": "Jaguar Stevens",
+          "count": 6,
+          "first": 1788975620,
+          "last": 1789975766,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "All the Things He Said",
+          "album": "Jaguar Stevens",
+          "count": 5,
+          "first": 1789226001,
+          "last": 1789962348,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Capital Lie",
+          "album": "Jaguar Stevens",
+          "count": 5,
+          "first": 1789209975,
+          "last": 1789931831,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 16,
       "first": 1788973998,
@@ -3268,47 +3309,6 @@
           "last": 1789967584,
           "playlists": {
             "EPL4a": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "count": 15,
-      "first": 1788975620,
-      "last": 1789962348,
-      "songs": [
-        {
-          "artist": "Jaguar Stevens",
-          "title": "All the Things He Said",
-          "album": "Jaguar Stevens",
-          "count": 5,
-          "first": 1789226001,
-          "last": 1789962348,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Capital Lie",
-          "album": "Jaguar Stevens",
-          "count": 5,
-          "first": 1789209975,
-          "last": 1789931831,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Dying Dance",
-          "album": "Jaguar Stevens",
-          "count": 5,
-          "first": 1788975620,
-          "last": 1789682041,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -5217,6 +5217,48 @@
       ]
     },
     {
+      "artist": "Jaguar Stevens",
+      "album": "Jaguar Stevens",
+      "count": 16,
+      "first": 1788975620,
+      "last": 1789975766,
+      "songs": [
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Dying Dance",
+          "album": "Jaguar Stevens",
+          "count": 6,
+          "first": 1788975620,
+          "last": 1789975766,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "All the Things He Said",
+          "album": "Jaguar Stevens",
+          "count": 5,
+          "first": 1789226001,
+          "last": 1789962348,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Capital Lie",
+          "album": "Jaguar Stevens",
+          "count": 5,
+          "first": 1789209975,
+          "last": 1789931831,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "album": "Dead",
       "count": 16,
@@ -5499,48 +5541,6 @@
           "last": 1789008320,
           "playlists": {
             "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "album": "Jaguar Stevens",
-      "count": 15,
-      "first": 1788975620,
-      "last": 1789962348,
-      "songs": [
-        {
-          "artist": "Jaguar Stevens",
-          "title": "All the Things He Said",
-          "album": "Jaguar Stevens",
-          "count": 5,
-          "first": 1789226001,
-          "last": 1789962348,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Capital Lie",
-          "album": "Jaguar Stevens",
-          "count": 5,
-          "first": 1789209975,
-          "last": 1789931831,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Dying Dance",
-          "album": "Jaguar Stevens",
-          "count": 5,
-          "first": 1788975620,
-          "last": 1789682041,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -7052,9 +7052,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2077,
+      "count": 2079,
       "first": 1788901564,
-      "last": 1789975245,
+      "last": 1789975766,
       "songs": [
         {
           "artist": "Modest Mouse",
