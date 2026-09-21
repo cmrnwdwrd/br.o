@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T09:25:35.703738+00:00",
+  "updatedAt": "2026-09-21T09:30:33.674491+00:00",
   "summary": {
-    "totalPlays": 4613,
+    "totalPlays": 4615,
     "unknownPlays": 554,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789982530
+    "lastObserved": 1789982935
   },
   "topSongs": [
     {
@@ -354,6 +354,28 @@
       }
     },
     {
+      "artist": "Your Smith",
+      "title": "Ooh Wee",
+      "album": "Bad Habit",
+      "count": 6,
+      "first": 1788969485,
+      "last": 1789982935,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
+      "artist": "Masta Ace",
+      "title": "Son of Yvonne",
+      "album": "MA_DOOM: Son of Yvonne",
+      "count": 6,
+      "first": 1788970154,
+      "last": 1789982741,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Sugs",
       "title": "PICTURESQUE",
       "album": "PICTURESQUE",
@@ -536,28 +558,6 @@
       "count": 6,
       "first": 1788963785,
       "last": 1789977895,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "ruzlxn",
-      "title": "BURN YOUR LOCAL POLITICIAN !",
-      "album": "GRITTED TEETH *",
-      "count": 6,
-      "first": 1788914259,
-      "last": 1789977210,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Broken Glass",
-      "album": "PHANTOMS",
-      "count": 6,
-      "first": 1788973540,
-      "last": 1789976545,
       "playlists": {
         "1default": 6
       }
@@ -3128,6 +3128,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 16,
+      "first": 1788947368,
+      "last": 1789982935,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 6,
+          "first": 1788969485,
+          "last": 1789982935,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 6,
+          "first": 1788947368,
+          "last": 1789948218,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 4,
+          "first": 1789086174,
+          "last": 1789672545,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 16,
       "first": 1788975620,
@@ -3350,47 +3391,6 @@
           "last": 1789967584,
           "playlists": {
             "EPL4a": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 15,
-      "first": 1788947368,
-      "last": 1789948218,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 6,
-          "first": 1788947368,
-          "last": 1789948218,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 5,
-          "first": 1788969485,
-          "last": 1789665460,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 4,
-          "first": 1789086174,
-          "last": 1789672545,
-          "playlists": {
-            "1default": 4
           }
         }
       ]
@@ -5217,6 +5217,48 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "album": "Bad Habit",
+      "count": 16,
+      "first": 1788947368,
+      "last": 1789982935,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 6,
+          "first": 1788969485,
+          "last": 1789982935,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 6,
+          "first": 1788947368,
+          "last": 1789948218,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 4,
+          "first": 1789086174,
+          "last": 1789672545,
+          "playlists": {
+            "1default": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "album": "Jaguar Stevens",
       "count": 16,
@@ -5541,48 +5583,6 @@
           "last": 1789008320,
           "playlists": {
             "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "album": "Bad Habit",
-      "count": 15,
-      "first": 1788947368,
-      "last": 1789948218,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 6,
-          "first": 1788947368,
-          "last": 1789948218,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 5,
-          "first": 1788969485,
-          "last": 1789665460,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 4,
-          "first": 1789086174,
-          "last": 1789672545,
-          "playlists": {
-            "1default": 4
           }
         }
       ]
@@ -7041,9 +7041,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2109,
+      "count": 2111,
       "first": 1788901564,
-      "last": 1789982530,
+      "last": 1789982935,
       "songs": [
         {
           "artist": "Modest Mouse",
