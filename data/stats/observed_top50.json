@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T22:45:37.636669+00:00",
+  "updatedAt": "2026-09-21T22:50:40.933581+00:00",
   "summary": {
-    "totalPlays": 4829,
+    "totalPlays": 4830,
     "unknownPlays": 580,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790030681
+    "lastObserved": 1790030941
   },
   "topSongs": [
     {
@@ -43,6 +43,17 @@
       "last": 1789964305,
       "playlists": {
         "1default": 10
+      }
+    },
+    {
+      "artist": "Destructo Disk",
+      "title": "I Wish I Was A Riot Grrrl",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 9,
+      "first": 1788996063,
+      "last": 1790030941,
+      "playlists": {
+        "1default": 9
       }
     },
     {
@@ -228,17 +239,6 @@
       "count": 8,
       "first": 1788989320,
       "last": 1789900209,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Destructo Disk",
-      "title": "I Wish I Was A Riot Grrrl",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 8,
-      "first": 1788996063,
-      "last": 1789830895,
       "playlists": {
         "1default": 8
       }
@@ -6870,6 +6870,26 @@
       ]
     },
     {
+      "artist": "Destructo Disk",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 9,
+      "first": 1788996063,
+      "last": 1790030941,
+      "songs": [
+        {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 9,
+          "first": 1788996063,
+          "last": 1790030941,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Viagra Boys",
       "album": "Street Worms",
       "count": 9,
@@ -6939,34 +6959,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "album": "Satisfaction Intended",
-      "count": 9,
-      "first": 1788926155,
-      "last": 1789984060,
-      "songs": [
-        {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
-          "count": 9,
-          "first": 1788926155,
-          "last": 1789984060,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2251,
+      "count": 2252,
       "first": 1788901564,
-      "last": 1790030129,
+      "last": 1790030941,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -6991,6 +6991,17 @@
           }
         },
         {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 9,
+          "first": 1788996063,
+          "last": 1790030941,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
           "artist": "Viagra Boys",
           "title": "Worms",
           "album": "Street Worms",
@@ -7008,17 +7019,6 @@
           "count": 9,
           "first": 1788972740,
           "last": 1790023101,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 9,
-          "first": 1788993017,
-          "last": 1790006299,
           "playlists": {
             "1default": 9
           }
