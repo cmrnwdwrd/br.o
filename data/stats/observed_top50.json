@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T08:50:37.350373+00:00",
+  "updatedAt": "2026-09-21T08:55:34.712118+00:00",
   "summary": {
-    "totalPlays": 4603,
+    "totalPlays": 4605,
     "unknownPlays": 552,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789980515
+    "lastObserved": 1789980880
   },
   "topSongs": [
     {
@@ -343,6 +343,28 @@
       }
     },
     {
+      "artist": "Men At Work",
+      "title": "Who Can It Be Now?",
+      "album": "Business As Usual",
+      "count": 6,
+      "first": 1789061920,
+      "last": 1789980880,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
+      "artist": "Mitski",
+      "title": "My Love Mine All Mine",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 6,
+      "first": 1789130394,
+      "last": 1789980741,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Lorde",
       "title": "Mood Ring",
       "album": "Solar Power",
@@ -536,28 +558,6 @@
       "count": 6,
       "first": 1789061160,
       "last": 1789967419,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE WORLD IS ENDING",
-      "album": "THE WORLD IS ENDING",
-      "count": 6,
-      "first": 1789033665,
-      "last": 1789967168,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Finger Eleven",
-      "title": "Paralyzer",
-      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-      "count": 6,
-      "first": 1789049428,
-      "last": 1789966589,
       "playlists": {
         "1default": 6
       }
@@ -1308,10 +1308,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 52,
+      "count": 53,
       "first": 1788920128,
-      "last": 1789955069,
+      "last": 1789980741,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "My Love Mine All Mine",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 6,
+          "first": 1789130394,
+          "last": 1789980741,
+          "playlists": {
+            "1default": 6
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Should've Been Me",
@@ -1354,17 +1365,6 @@
           "last": 1789801891,
           "playlists": {
             "sad girl no friends saturday": 5
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "My Love Mine All Mine",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 5,
-          "first": 1789130394,
-          "last": 1789752321,
-          "playlists": {
-            "1default": 5
           }
         },
         {
@@ -5144,19 +5144,19 @@
     {
       "artist": "Mitski",
       "album": "The Land Is Inhospitable and So Are We",
-      "count": 18,
+      "count": 19,
       "first": 1789102597,
-      "last": 1789802402,
+      "last": 1789980741,
       "songs": [
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
           "album": "The Land Is Inhospitable and So Are We",
-          "count": 5,
+          "count": 6,
           "first": 1789130394,
-          "last": 1789752321,
+          "last": 1789980741,
           "playlists": {
-            "1default": 5
+            "1default": 6
           }
         },
         {
@@ -7030,9 +7030,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2099,
+      "count": 2101,
       "first": 1788901564,
-      "last": 1789980515,
+      "last": 1789980880,
       "songs": [
         {
           "artist": "Modest Mouse",
