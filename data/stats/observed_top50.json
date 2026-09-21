@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T08:15:34.151600+00:00",
+  "updatedAt": "2026-09-21T08:20:35.441963+00:00",
   "summary": {
-    "totalPlays": 4594,
+    "totalPlays": 4596,
     "unknownPlays": 551,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789978357
+    "lastObserved": 1789978798
   },
   "topSongs": [
     {
@@ -343,6 +343,28 @@
       }
     },
     {
+      "artist": "Barrie",
+      "title": "Human Nature",
+      "album": "Happy To Be Here (Ext)",
+      "count": 6,
+      "first": 1788966960,
+      "last": 1789978798,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
+      "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
+      "title": "Not Strong Enough",
+      "album": "the record",
+      "count": 6,
+      "first": 1788986031,
+      "last": 1789978564,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "clipping.",
       "title": "Nothing is Safe",
       "album": "There Existed an Addiction to Blood",
@@ -536,28 +558,6 @@
       "count": 6,
       "first": 1788928852,
       "last": 1789965125,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "You Make Me Want to Kill Myself",
-      "album": "You Make Me Want to Kill Myself",
-      "count": 6,
-      "first": 1788984684,
-      "last": 1789964534,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Muse",
-      "title": "Madness",
-      "album": "The 2nd Law",
-      "count": 6,
-      "first": 1788920439,
-      "last": 1789964023,
       "playlists": {
         "1default": 6
       }
@@ -3998,6 +3998,36 @@
       ]
     },
     {
+      "artist": "Barrie",
+      "count": 12,
+      "first": 1788912861,
+      "last": 1789978798,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 6,
+          "first": 1788966960,
+          "last": 1789978798,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 6,
+          "first": 1788912861,
+          "last": 1789952773,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kate Bollinger",
       "count": 12,
       "first": 1788915657,
@@ -4247,36 +4277,6 @@
           "last": 1789756286,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 11,
-      "first": 1788912861,
-      "last": 1789952773,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 6,
-          "first": 1788912861,
-          "last": 1789952773,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 5,
-          "first": 1788966960,
-          "last": 1789775500,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -7041,9 +7041,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2090,
+      "count": 2092,
       "first": 1788901564,
-      "last": 1789978357,
+      "last": 1789978798,
       "songs": [
         {
           "artist": "Modest Mouse",
