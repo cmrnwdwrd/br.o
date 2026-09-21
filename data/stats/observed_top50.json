@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T02:20:26.226533+00:00",
+  "updatedAt": "2026-09-21T02:25:29.680672+00:00",
   "summary": {
-    "totalPlays": 4494,
+    "totalPlays": 4495,
     "unknownPlays": 539,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789957215
+    "lastObserved": 1789957391
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 6,
+      "first": 1788970790,
+      "last": 1789957391,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Weezer",
       "title": "The End of the Game",
       "album": "The End of the Game",
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1788915475,
       "last": 1789950155,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Greer",
-      "title": "Song for Me",
-      "album": "Song for Me",
-      "count": 6,
-      "first": 1789049810,
-      "last": 1789949947,
       "playlists": {
         "1default": 6
       }
@@ -2849,6 +2849,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 18,
+      "first": 1788917230,
+      "last": 1789957391,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 6,
+          "first": 1788970790,
+          "last": 1789957391,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 6,
+          "first": 1789050580,
+          "last": 1789941689,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 6,
+          "first": 1788917230,
+          "last": 1789930873,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 18,
       "first": 1788916461,
@@ -2998,47 +3039,6 @@
           "count": 5,
           "first": 1789225488,
           "last": 1789944560,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 17,
-      "first": 1788917230,
-      "last": 1789941689,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 6,
-          "first": 1789050580,
-          "last": 1789941689,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 6,
-          "first": 1788917230,
-          "last": 1789930873,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 5,
-          "first": 1788970790,
-          "last": 1789690133,
           "playlists": {
             "1default": 5
           }
@@ -6964,9 +6964,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2028,
+      "count": 2029,
       "first": 1788901564,
-      "last": 1789957215,
+      "last": 1789957391,
       "songs": [
         {
           "artist": "Ramones",
