@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T21:40:36.079089+00:00",
+  "updatedAt": "2026-09-21T21:45:33.659364+00:00",
   "summary": {
-    "totalPlays": 4811,
+    "totalPlays": 4812,
     "unknownPlays": 578,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790026756
+    "lastObserved": 1790026956
   },
   "topSongs": [
     {
@@ -486,6 +486,17 @@
       }
     },
     {
+      "artist": "Juno Rossa",
+      "title": "Like A Lover",
+      "album": "Chasing Animals",
+      "count": 6,
+      "first": 1789167660,
+      "last": 1790026956,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "torr",
       "title": "talia",
       "album": "molecule",
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1789087662,
       "last": 1790023768,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "title": "Capital Lie",
-      "album": "Jaguar Stevens",
-      "count": 6,
-      "first": 1789209975,
-      "last": 1790023384,
       "playlists": {
         "1default": 6
       }
@@ -6216,6 +6216,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 11,
+      "first": 1789166634,
+      "last": 1790026956,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 6,
+          "first": 1789167660,
+          "last": 1790026956,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 5,
+          "first": 1789166634,
+          "last": 1789946051,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Los Narwhals",
       "album": "Lagrimas de Agave",
       "count": 11,
@@ -6510,37 +6541,6 @@
           "last": 1790022867,
           "playlists": {
             "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 10,
-      "first": 1789166634,
-      "last": 1789946051,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 5,
-          "first": 1789166634,
-          "last": 1789946051,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 5,
-          "first": 1789167660,
-          "last": 1789936303,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -6964,9 +6964,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2242,
+      "count": 2243,
       "first": 1788901564,
-      "last": 1790026756,
+      "last": 1790026956,
       "songs": [
         {
           "artist": "Tele Novella",
