@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T08:45:34.406586+00:00",
+  "updatedAt": "2026-09-21T08:50:37.350373+00:00",
   "summary": {
-    "totalPlays": 4602,
+    "totalPlays": 4603,
     "unknownPlays": 552,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789980130
+    "lastObserved": 1789980515
   },
   "topSongs": [
     {
@@ -343,6 +343,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 6,
+      "first": 1788914032,
+      "last": 1789980515,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Led Zeppelin",
       "title": "Dazed and Confused - 1990 Remaster",
       "album": "Led Zeppelin",
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1789049428,
       "last": 1789966589,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Salt-N-Pepa",
-      "title": "Shoop",
-      "album": "Very Necessary",
-      "count": 6,
-      "first": 1788903124,
-      "last": 1789966195,
       "playlists": {
         "1default": 6
       }
@@ -3998,6 +3998,36 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 12,
+      "first": 1788914032,
+      "last": 1789980515,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 6,
+          "first": 1788914032,
+          "last": 1789980515,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 6,
+          "first": 1789222724,
+          "last": 1789937193,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Barrie",
       "count": 12,
       "first": 1788912861,
@@ -4307,47 +4337,6 @@
           "last": 1789895920,
           "playlists": {
             "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Vampire Weekend",
-      "count": 11,
-      "first": 1788990464,
-      "last": 1789937714,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 6,
-          "first": 1788990464,
-          "last": 1789937714,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 4,
-          "first": 1789108965,
-          "last": 1789619584,
-          "playlists": {
-            "1default": 4
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Campus",
-          "album": "Vampire Weekend",
-          "count": 1,
-          "first": 1789762855,
-          "last": 1789762855,
-          "playlists": {
-            "escaping from cu boulder by giselle": 1
           }
         }
       ]
@@ -7041,9 +7030,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2098,
+      "count": 2099,
       "first": 1788901564,
-      "last": 1789980130,
+      "last": 1789980515,
       "songs": [
         {
           "artist": "Modest Mouse",
