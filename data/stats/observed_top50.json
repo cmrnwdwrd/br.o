@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T08:00:34.784461+00:00",
+  "updatedAt": "2026-09-21T08:05:36.235568+00:00",
   "summary": {
-    "totalPlays": 4590,
+    "totalPlays": 4592,
     "unknownPlays": 551,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789977373
+    "lastObserved": 1789977895
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1789818870,
       "playlists": {
         "breakbeat": 10
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 9,
+      "first": 1789014862,
+      "last": 1789977640,
+      "playlists": {
+        "1default": 9
       }
     },
     {
@@ -178,17 +189,6 @@
       }
     },
     {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 8,
-      "first": 1789014862,
-      "last": 1789775632,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
       "artist": "The Salesmen, Ike Spivak",
       "title": "Happy Boy",
       "album": "WAR IN COLORADO!",
@@ -329,6 +329,17 @@
       "last": 1789697680,
       "playlists": {
         "breakbeat": 7
+      }
+    },
+    {
+      "artist": "Anjimile",
+      "title": "Baby No More",
+      "album": "Giver Taker",
+      "count": 6,
+      "first": 1788963785,
+      "last": 1789977895,
+      "playlists": {
+        "1default": 6
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1788975770,
       "last": 1789963559,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Ritt Momney",
-      "title": "Young Adult",
-      "album": "Young Adult",
-      "count": 6,
-      "first": 1788926485,
-      "last": 1789963286,
       "playlists": {
         "1default": 6
       }
@@ -6883,6 +6883,26 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 9,
+      "first": 1789014862,
+      "last": 1789977640,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 9,
+          "first": 1789014862,
+          "last": 1789977640,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Chappell Roan",
       "album": "The Rise and Fall of a Midwest Princess",
       "count": 9,
@@ -7016,45 +7036,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Siete Catorce",
-      "album": "Cruda",
-      "count": 9,
-      "first": 1789028695,
-      "last": 1789720573,
-      "songs": [
-        {
-          "artist": "Siete Catorce",
-          "title": "Que La Fiesta Nunca Se Acabe",
-          "album": "Cruda",
-          "count": 5,
-          "first": 1789028695,
-          "last": 1789720573,
-          "playlists": {
-            "breakbeat": 5
-          }
-        },
-        {
-          "artist": "Siete Catorce",
-          "title": "Sobriedad",
-          "album": "Cruda",
-          "count": 4,
-          "first": 1789029996,
-          "last": 1789631721,
-          "playlists": {
-            "breakbeat": 4
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2086,
+      "count": 2088,
       "first": 1788901564,
-      "last": 1789977373,
+      "last": 1789977895,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -7065,6 +7054,17 @@
           "last": 1789964305,
           "playlists": {
             "1default": 10
+          }
+        },
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 9,
+          "first": 1789014862,
+          "last": 1789977640,
+          "playlists": {
+            "1default": 9
           }
         },
         {
@@ -7096,17 +7096,6 @@
           "count": 8,
           "first": 1788911339,
           "last": 1789964930,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 8,
-          "first": 1789053695,
-          "last": 1789961515,
           "playlists": {
             "1default": 8
           }
