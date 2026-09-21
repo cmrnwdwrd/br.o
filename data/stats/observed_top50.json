@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T20:45:36.630753+00:00",
+  "updatedAt": "2026-09-21T20:50:39.787225+00:00",
   "summary": {
-    "totalPlays": 4797,
+    "totalPlays": 4798,
     "unknownPlays": 576,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790023495
+    "lastObserved": 1790023768
   },
   "topSongs": [
     {
@@ -398,6 +398,17 @@
       }
     },
     {
+      "artist": "The Cranberries",
+      "title": "Linger",
+      "album": "Everybody Else Is Doing It, So Why Can't We?",
+      "count": 6,
+      "first": 1789087662,
+      "last": 1790023768,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Jaguar Stevens",
       "title": "Capital Lie",
       "album": "Jaguar Stevens",
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1789055424,
       "last": 1790017605,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Saint Motel",
-      "title": "My Type",
-      "album": "My Type EP",
-      "count": 6,
-      "first": 1789032860,
-      "last": 1790017126,
       "playlists": {
         "1default": 6
       }
@@ -2682,6 +2682,58 @@
       ]
     },
     {
+      "artist": "The Cranberries",
+      "count": 21,
+      "first": 1788916461,
+      "last": 1790023768,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 7,
+          "first": 1789060180,
+          "last": 1790023495,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 6,
+          "first": 1789087662,
+          "last": 1790023768,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 6,
+          "first": 1788916461,
+          "last": 1789940280,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Dreams",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 2,
+          "first": 1789174476,
+          "last": 1789784208,
+          "playlists": {
+            "d i n n e r": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "count": 21,
       "first": 1788915065,
@@ -2729,58 +2781,6 @@
           "last": 1789841364,
           "playlists": {
             "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Cranberries",
-      "count": 20,
-      "first": 1788916461,
-      "last": 1790023495,
-      "songs": [
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 7,
-          "first": 1789060180,
-          "last": 1790023495,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 6,
-          "first": 1788916461,
-          "last": 1789940280,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 5,
-          "first": 1789087662,
-          "last": 1790013050,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Dreams",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 2,
-          "first": 1789174476,
-          "last": 1789784208,
-          "playlists": {
-            "d i n n e r": 2
           }
         }
       ]
@@ -6964,9 +6964,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2228,
+      "count": 2229,
       "first": 1788901564,
-      "last": 1790023495,
+      "last": 1790023768,
       "songs": [
         {
           "artist": "Tele Novella",
