@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T14:15:34.582041+00:00",
+  "updatedAt": "2026-09-21T14:20:37.292492+00:00",
   "summary": {
-    "totalPlays": 4690,
+    "totalPlays": 4691,
     "unknownPlays": 563,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789999955
+    "lastObserved": 1790000177
   },
   "topSongs": [
     {
@@ -354,6 +354,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Sunday Bloody Sunday - Remastered 2008",
+      "album": "War (Remastered)",
+      "count": 6,
+      "first": 1788921291,
+      "last": 1790000177,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "We The Kings",
       "title": "Check Yes, Juliet",
       "album": "We The Kings",
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1789130394,
       "last": 1789980741,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Lorde",
-      "title": "Mood Ring",
-      "album": "Solar Power",
-      "count": 6,
-      "first": 1788914032,
-      "last": 1789980515,
       "playlists": {
         "1default": 6
       }
@@ -3998,6 +3998,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 12,
+      "first": 1788921291,
+      "last": 1790000177,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 6,
+          "first": 1788921291,
+          "last": 1790000177,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 6,
+          "first": 1788964687,
+          "last": 1789935234,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 12,
       "first": 1788990464,
@@ -4327,36 +4357,6 @@
           "count": 5,
           "first": 1788947810,
           "last": 1789825871,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Harper Powell",
-      "count": 11,
-      "first": 1788947970,
-      "last": 1789975052,
-      "songs": [
-        {
-          "artist": "Harper Powell",
-          "title": "It's the Full Moon",
-          "album": "It's the Full Moon",
-          "count": 6,
-          "first": 1788947970,
-          "last": 1789956978,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Harper Powell",
-          "title": "Time Is Empty",
-          "album": "Time Is Empty",
-          "count": 5,
-          "first": 1789077114,
-          "last": 1789975052,
           "playlists": {
             "1default": 5
           }
@@ -7030,9 +7030,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2122,
+      "count": 2123,
       "first": 1788901564,
-      "last": 1789999955,
+      "last": 1790000177,
       "songs": [
         {
           "artist": "Modest Mouse",
