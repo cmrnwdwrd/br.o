@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T02:05:36.190982+00:00",
+  "updatedAt": "2026-09-21T02:10:38.689341+00:00",
   "summary": {
-    "totalPlays": 4489,
+    "totalPlays": 4491,
     "unknownPlays": 538,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789956213
+    "lastObserved": 1789956520
   },
   "topSongs": [
     {
@@ -178,6 +178,17 @@
       }
     },
     {
+      "artist": "Mommy Long Legs",
+      "title": "Weird Girl",
+      "album": "Assholes",
+      "count": 7,
+      "first": 1789072780,
+      "last": 1789956520,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Daffo",
       "title": "Good God",
       "album": "Good God (Porches Remix)",
@@ -307,6 +318,17 @@
       "last": 1789637675,
       "playlists": {
         "1default": 7
+      }
+    },
+    {
+      "artist": "Opium",
+      "title": "S T A R V E",
+      "album": "PHANTOMS",
+      "count": 6,
+      "first": 1788927400,
+      "last": 1789956349,
+      "playlists": {
+        "1default": 6
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 6,
       "first": 1789054258,
       "last": 1789948949,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Your Smith",
-      "title": "Debbie",
-      "album": "Bad Habit",
-      "count": 6,
-      "first": 1788947368,
-      "last": 1789948218,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Hold Me",
-      "album": "1's a Man, 3's a Band",
-      "count": 6,
-      "first": 1788902047,
-      "last": 1789947199,
       "playlists": {
         "1default": 6
       }
@@ -1841,10 +1841,21 @@
     },
     {
       "artist": "Opium",
-      "count": 42,
+      "count": 43,
       "first": 1788927400,
-      "last": 1789942458,
+      "last": 1789956349,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 6,
+          "first": 1788927400,
+          "last": 1789956349,
+          "playlists": {
+            "1default": 6
+          }
+        },
         {
           "artist": "Opium",
           "title": "Delusional",
@@ -1896,17 +1907,6 @@
           "count": 5,
           "first": 1788973540,
           "last": 1789824169,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 5,
-          "first": 1788927400,
-          "last": 1789743869,
           "playlists": {
             "1default": 5
           }
@@ -4313,10 +4313,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 31,
+      "count": 32,
       "first": 1788927400,
-      "last": 1789942458,
+      "last": 1789956349,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 6,
+          "first": 1788927400,
+          "last": 1789956349,
+          "playlists": {
+            "1default": 6
+          }
+        },
         {
           "artist": "Opium",
           "title": "Delusional",
@@ -4346,17 +4357,6 @@
           "count": 5,
           "first": 1788973540,
           "last": 1789824169,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 5,
-          "first": 1788927400,
-          "last": 1789743869,
           "playlists": {
             "1default": 5
           }
@@ -6964,9 +6964,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2023,
+      "count": 2025,
       "first": 1788901564,
-      "last": 1789956213,
+      "last": 1789956520,
       "songs": [
         {
           "artist": "Ramones",
