@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T20:50:39.787225+00:00",
+  "updatedAt": "2026-09-21T20:55:46.429631+00:00",
   "summary": {
-    "totalPlays": 4798,
+    "totalPlays": 4799,
     "unknownPlays": 576,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790023768
+    "lastObserved": 1790024041
   },
   "topSongs": [
     {
@@ -398,6 +398,17 @@
       }
     },
     {
+      "artist": "Harper Powell",
+      "title": "Time Is Empty",
+      "album": "Time Is Empty",
+      "count": 6,
+      "first": 1789077114,
+      "last": 1790024041,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "The Cranberries",
       "title": "Linger",
       "album": "Everybody Else Is Doing It, So Why Can't We?",
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1789064643,
       "last": 1790018407,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Zakaraka & Imaginomics",
-      "title": "998 Good Bricks",
-      "album": "Instinct",
-      "count": 6,
-      "first": 1789055424,
-      "last": 1790017605,
       "playlists": {
         "1default": 6
       }
@@ -4099,6 +4099,36 @@
       ]
     },
     {
+      "artist": "Harper Powell",
+      "count": 12,
+      "first": 1788947970,
+      "last": 1790024041,
+      "songs": [
+        {
+          "artist": "Harper Powell",
+          "title": "Time Is Empty",
+          "album": "Time Is Empty",
+          "count": 6,
+          "first": 1789077114,
+          "last": 1790024041,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Harper Powell",
+          "title": "It's the Full Moon",
+          "album": "It's the Full Moon",
+          "count": 6,
+          "first": 1788947970,
+          "last": 1789956978,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 12,
       "first": 1788985030,
@@ -4283,36 +4313,6 @@
           "count": 6,
           "first": 1788912861,
           "last": 1789952773,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "count": 12,
-      "first": 1788947080,
-      "last": 1789941985,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 6,
-          "first": 1788968380,
-          "last": 1789941985,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 6,
-          "first": 1788947080,
-          "last": 1789842652,
           "playlists": {
             "1default": 6
           }
@@ -6964,9 +6964,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2229,
+      "count": 2230,
       "first": 1788901564,
-      "last": 1790023768,
+      "last": 1790024041,
       "songs": [
         {
           "artist": "Tele Novella",
