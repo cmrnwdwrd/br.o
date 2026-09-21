@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T15:25:33.041045+00:00",
+  "updatedAt": "2026-09-21T15:30:38.009692+00:00",
   "summary": {
-    "totalPlays": 4709,
+    "totalPlays": 4710,
     "unknownPlays": 566,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790004245
+    "lastObserved": 1790004480
   },
   "topSongs": [
     {
@@ -354,6 +354,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "a machine as big as a city with a concert at the center",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 6,
+      "first": 1788972349,
+      "last": 1790004480,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Ichika Nito",
       "title": "Secret",
       "album": "Journey",
@@ -549,17 +560,6 @@
       "last": 1789991475,
       "playlists": {
         "freestyle beats to crash your car to": 6
-      }
-    },
-    {
-      "artist": "Crying",
-      "title": "Bodega Run",
-      "album": "Get Olde / Second Wind",
-      "count": 6,
-      "first": 1788921148,
-      "last": 1789983920,
-      "playlists": {
-        "1default": 6
       }
     }
   ],
@@ -2486,10 +2486,21 @@
     },
     {
       "artist": "botch",
-      "count": 23,
+      "count": 24,
       "first": 1788920755,
-      "last": 1789958823,
+      "last": 1790004480,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 6,
+          "first": 1788972349,
+          "last": 1790004480,
+          "playlists": {
+            "1default": 6
+          }
+        },
         {
           "artist": "botch",
           "title": "underthebasement",
@@ -2521,17 +2532,6 @@
           "last": 1789929188,
           "playlists": {
             "1default": 6
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 5,
-          "first": 1788972349,
-          "last": 1789748772,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -5915,6 +5915,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 12,
+      "first": 1788972349,
+      "last": 1790004480,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 6,
+          "first": 1788972349,
+          "last": 1790004480,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 6,
+          "first": 1788997306,
+          "last": 1789958823,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 12,
@@ -6286,37 +6317,6 @@
           "last": 1789756286,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 11,
-      "first": 1788972349,
-      "last": 1789958823,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 6,
-          "first": 1788997306,
-          "last": 1789958823,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 5,
-          "first": 1788972349,
-          "last": 1789748772,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -7030,9 +7030,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2141,
+      "count": 2142,
       "first": 1788901564,
-      "last": 1790004245,
+      "last": 1790004480,
       "songs": [
         {
           "artist": "Modest Mouse",
