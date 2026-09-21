@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T19:50:32.850175+00:00",
+  "updatedAt": "2026-09-21T19:55:35.533772+00:00",
   "summary": {
-    "totalPlays": 4779,
+    "totalPlays": 4780,
     "unknownPlays": 573,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790020211
+    "lastObserved": 1790020376
   },
   "topSongs": [
     {
@@ -230,6 +230,17 @@
       "last": 1789822987,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "Meeting House",
+      "title": "Black Clouds",
+      "album": "Couch Surfer",
+      "count": 7,
+      "first": 1789226222,
+      "last": 1790020376,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1788984450,
       "last": 1790013325,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "title": "brutal",
-      "album": "SOUR",
-      "count": 6,
-      "first": 1789057000,
-      "last": 1790012904,
       "playlists": {
         "1default": 6
       }
@@ -6861,6 +6861,37 @@
       ]
     },
     {
+      "artist": "Meeting House",
+      "album": "Couch Surfer",
+      "count": 9,
+      "first": 1789226222,
+      "last": 1790020376,
+      "songs": [
+        {
+          "artist": "Meeting House",
+          "title": "Black Clouds",
+          "album": "Couch Surfer",
+          "count": 7,
+          "first": 1789226222,
+          "last": 1790020376,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Meeting House",
+          "title": "Couch Surfer",
+          "album": "Couch Surfer",
+          "count": 2,
+          "first": 1789250068,
+          "last": 1789853525,
+          "playlists": {
+            "landlockd surfrock": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "album": "WAR IN COLORADO!",
       "count": 9,
@@ -6961,34 +6992,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Lush",
-      "album": "Lovelife",
-      "count": 9,
-      "first": 1789015368,
-      "last": 1789958449,
-      "songs": [
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 9,
-          "first": 1789015368,
-          "last": 1789958449,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2210,
+      "count": 2211,
       "first": 1788901564,
-      "last": 1790020211,
+      "last": 1790020376,
       "songs": [
         {
           "artist": "Modest Mouse",
