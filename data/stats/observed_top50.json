@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T02:15:36.873056+00:00",
+  "updatedAt": "2026-09-21T02:20:26.226533+00:00",
   "summary": {
-    "totalPlays": 4492,
+    "totalPlays": 4494,
     "unknownPlays": 539,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789956724
+    "lastObserved": 1789957215
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "The End of the Game",
+      "album": "The End of the Game",
+      "count": 6,
+      "first": 1788974227,
+      "last": 1789957215,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
+      "artist": "Harper Powell",
+      "title": "It's the Full Moon",
+      "album": "It's the Full Moon",
+      "count": 6,
+      "first": 1788947970,
+      "last": 1789956978,
+      "playlists": {
+        "1default": 6
+      }
+    },
+    {
       "artist": "Gorillaz, Peter Hook, Georgia",
       "title": "Aries (feat. Peter Hook and Georgia)",
       "album": "Song Machine Episode 3",
@@ -536,28 +558,6 @@
       "count": 6,
       "first": 1789049810,
       "last": 1789949947,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Donovan",
-      "title": "Sunshine Superman",
-      "album": "Sunshine Superman",
-      "count": 6,
-      "first": 1788920950,
-      "last": 1789949752,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Billie Eilish",
-      "title": "NDA",
-      "album": "Happier Than Ever",
-      "count": 6,
-      "first": 1788989714,
-      "last": 1789949338,
       "playlists": {
         "1default": 6
       }
@@ -2693,6 +2693,58 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 19,
+      "first": 1788946510,
+      "last": 1789957215,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 6,
+          "first": 1788974227,
+          "last": 1789957215,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 6,
+          "first": 1788946510,
+          "last": 1789896277,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 5,
+          "first": 1789142694,
+          "last": 1789952920,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "count": 19,
       "first": 1788915065,
@@ -2792,58 +2844,6 @@
           "last": 1789670470,
           "playlists": {
             "1default": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 18,
-      "first": 1788946510,
-      "last": 1789952920,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 6,
-          "first": 1788946510,
-          "last": 1789896277,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 5,
-          "first": 1789142694,
-          "last": 1789952920,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 5,
-          "first": 1788974227,
-          "last": 1789743687,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1789150460,
-          "last": 1789758798,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
           }
         }
       ]
@@ -6964,9 +6964,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2026,
+      "count": 2028,
       "first": 1788901564,
-      "last": 1789956724,
+      "last": 1789957215,
       "songs": [
         {
           "artist": "Ramones",
