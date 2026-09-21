@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T02:40:39.638000+00:00",
+  "updatedAt": "2026-09-21T02:45:42.855082+00:00",
   "summary": {
-    "totalPlays": 4499,
+    "totalPlays": 4501,
     "unknownPlays": 540,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789958240
+    "lastObserved": 1789958642
   },
   "topSongs": [
     {
@@ -21,6 +21,17 @@
       "last": 1789818870,
       "playlists": {
         "breakbeat": 10
+      }
+    },
+    {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 9,
+      "first": 1789015368,
+      "last": 1789958449,
+      "playlists": {
+        "1default": 9
       }
     },
     {
@@ -151,17 +162,6 @@
       "count": 8,
       "first": 1789014862,
       "last": 1789775632,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 8,
-      "first": 1789015368,
-      "last": 1789773595,
       "playlists": {
         "1default": 8
       }
@@ -6786,6 +6786,26 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 9,
+      "first": 1789015368,
+      "last": 1789958449,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 9,
+          "first": 1789015368,
+          "last": 1789958449,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "MJ Lenderman",
       "album": "Manning Fireworks",
       "count": 9,
@@ -6950,35 +6970,26 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Viagra Boys",
-      "album": "Street Worms",
-      "count": 8,
-      "first": 1788991593,
-      "last": 1789958240,
-      "songs": [
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 8,
-          "first": 1788991593,
-          "last": 1789958240,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2033,
+      "count": 2035,
       "first": 1788901564,
-      "last": 1789958240,
+      "last": 1789958642,
       "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 9,
+          "first": 1789015368,
+          "last": 1789958449,
+          "playlists": {
+            "1default": 9
+          }
+        },
         {
           "artist": "Ramones",
           "title": "Judy Is a Punk - 2016 Remaster",
@@ -7019,17 +7030,6 @@
           "count": 8,
           "first": 1788972740,
           "last": 1789954450,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "George Harrison",
-          "title": "I Dig Love (2020 Mix)",
-          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-          "count": 8,
-          "first": 1789034170,
-          "last": 1789950341,
           "playlists": {
             "1default": 8
           }
