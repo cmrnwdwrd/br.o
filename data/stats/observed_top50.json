@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T20:30:35.246684+00:00",
+  "updatedAt": "2026-09-21T20:35:38.120998+00:00",
   "summary": {
-    "totalPlays": 4791,
-    "unknownPlays": 575,
+    "totalPlays": 4793,
+    "unknownPlays": 576,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790022392
+    "lastObserved": 1790022867
   },
   "topSongs": [
     {
@@ -24,6 +24,17 @@
       }
     },
     {
+      "artist": "Tele Novella",
+      "title": "Funeral",
+      "album": "Poet's Tooth",
+      "count": 10,
+      "first": 1788996940,
+      "last": 1790022867,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Modest Mouse",
       "title": "Bury Me With It",
       "album": "Good News For People Who Love Bad News",
@@ -32,17 +43,6 @@
       "last": 1789964305,
       "playlists": {
         "1default": 10
-      }
-    },
-    {
-      "artist": "Tele Novella",
-      "title": "Funeral",
-      "album": "Poet's Tooth",
-      "count": 9,
-      "first": 1788996940,
-      "last": 1790021428,
-      "playlists": {
-        "1default": 9
       }
     },
     {
@@ -230,6 +230,17 @@
       "last": 1789830895,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "Against Me!",
+      "title": "Baby, I'm an Anarchist!",
+      "album": "Reinventing Axl Rose",
+      "count": 7,
+      "first": 1788947810,
+      "last": 1790022657,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 6,
       "first": 1788926905,
       "last": 1790015980,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Midlake",
-      "title": "Acts of Man",
-      "album": "The Courage of Others",
-      "count": 6,
-      "first": 1789056160,
-      "last": 1790015593,
       "playlists": {
         "1default": 6
       }
@@ -3694,6 +3694,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 13,
+      "first": 1788947810,
+      "last": 1790022657,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 7,
+          "first": 1788947810,
+          "last": 1790022657,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 6,
+          "first": 1789059805,
+          "last": 1789999761,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 13,
       "first": 1788919285,
@@ -4092,36 +4122,6 @@
           "count": 6,
           "first": 1789057143,
           "last": 1789867226,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 12,
-      "first": 1788947810,
-      "last": 1790012499,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 6,
-          "first": 1788947810,
-          "last": 1790012499,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 6,
-          "first": 1789059805,
-          "last": 1789999761,
           "playlists": {
             "1default": 6
           }
@@ -6464,6 +6464,26 @@
       ]
     },
     {
+      "artist": "Tele Novella",
+      "album": "Poet's Tooth",
+      "count": 10,
+      "first": 1788996940,
+      "last": 1790022867,
+      "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 10,
+          "first": 1788996940,
+          "last": 1790022867,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Los Narwhals",
       "album": "Lagrimas de Agave",
       "count": 10,
@@ -6850,26 +6870,6 @@
       ]
     },
     {
-      "artist": "Tele Novella",
-      "album": "Poet's Tooth",
-      "count": 9,
-      "first": 1788996940,
-      "last": 1790021428,
-      "songs": [
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 9,
-          "first": 1788996940,
-          "last": 1790021428,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
       "artist": "Meeting House",
       "album": "Couch Surfer",
       "count": 9,
@@ -6964,10 +6964,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2222,
+      "count": 2224,
       "first": 1788901564,
-      "last": 1790022392,
+      "last": 1790022867,
       "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 10,
+          "first": 1788996940,
+          "last": 1790022867,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
@@ -6977,17 +6988,6 @@
           "last": 1789964305,
           "playlists": {
             "1default": 10
-          }
-        },
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 9,
-          "first": 1788996940,
-          "last": 1790021428,
-          "playlists": {
-            "1default": 9
           }
         },
         {
