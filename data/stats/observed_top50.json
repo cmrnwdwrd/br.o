@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T09:45:34.726607+00:00",
+  "updatedAt": "2026-09-21T09:50:39.254600+00:00",
   "summary": {
-    "totalPlays": 4619,
+    "totalPlays": 4620,
     "unknownPlays": 554,
     "uniqueTracks": 1766,
     "uniqueArtists": 1186,
     "uniqueAlbums": 1465,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1789983920
+    "lastObserved": 1789984060
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1789818870,
       "playlists": {
         "breakbeat": 10
+      }
+    },
+    {
+      "artist": "Colfax Speed Queen",
+      "title": "Jesus Loves Rock N' Roll",
+      "album": "Satisfaction Intended",
+      "count": 9,
+      "first": 1788926155,
+      "last": 1789984060,
+      "playlists": {
+        "1default": 9
       }
     },
     {
@@ -206,17 +217,6 @@
       "count": 8,
       "first": 1788993017,
       "last": 1789694122,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "title": "Jesus Loves Rock N' Roll",
-      "album": "Satisfaction Intended",
-      "count": 8,
-      "first": 1788926155,
-      "last": 1789686535,
       "playlists": {
         "1default": 8
       }
@@ -6883,6 +6883,26 @@
       ]
     },
     {
+      "artist": "Colfax Speed Queen",
+      "album": "Satisfaction Intended",
+      "count": 9,
+      "first": 1788926155,
+      "last": 1789984060,
+      "songs": [
+        {
+          "artist": "Colfax Speed Queen",
+          "title": "Jesus Loves Rock N' Roll",
+          "album": "Satisfaction Intended",
+          "count": 9,
+          "first": 1788926155,
+          "last": 1789984060,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "CAKE",
       "album": "Motorcade of Generosity",
       "count": 9,
@@ -6994,56 +7014,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Be the Cowboy",
-      "count": 9,
-      "first": 1789097710,
-      "last": 1789803043,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "A Horse Named Cold Air",
-          "album": "Be the Cowboy",
-          "count": 5,
-          "first": 1789097710,
-          "last": 1789803043,
-          "playlists": {
-            "for the girls driving 85": 5
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Two Slow Dancers",
-          "album": "Be the Cowboy",
-          "count": 3,
-          "first": 1789194339,
-          "last": 1789800360,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Washing Machine Heart",
-          "album": "Be the Cowboy",
-          "count": 1,
-          "first": 1789255458,
-          "last": 1789255458,
-          "playlists": {
-            "texting your situationship": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2115,
+      "count": 2116,
       "first": 1788901564,
-      "last": 1789983920,
+      "last": 1789984060,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -7054,6 +7032,17 @@
           "last": 1789964305,
           "playlists": {
             "1default": 10
+          }
+        },
+        {
+          "artist": "Colfax Speed Queen",
+          "title": "Jesus Loves Rock N' Roll",
+          "album": "Satisfaction Intended",
+          "count": 9,
+          "first": 1788926155,
+          "last": 1789984060,
+          "playlists": {
+            "1default": 9
           }
         },
         {
@@ -7087,17 +7076,6 @@
           "last": 1789939186,
           "playlists": {
             "1default": 9
-          }
-        },
-        {
-          "artist": "The Chats",
-          "title": "Smoko",
-          "album": "Get This In Ya",
-          "count": 8,
-          "first": 1789078009,
-          "last": 1789981933,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
