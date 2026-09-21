@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T21:00:42.170032+00:00",
+  "updatedAt": "2026-09-21T21:05:36.256172+00:00",
   "summary": {
-    "totalPlays": 4800,
+    "totalPlays": 4802,
     "unknownPlays": 576,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790024233
+    "lastObserved": 1790024717
   },
   "topSongs": [
     {
@@ -230,6 +230,28 @@
       "last": 1789830895,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "The Czars",
+      "title": "Drug",
+      "album": "Best Of",
+      "count": 7,
+      "first": 1789063847,
+      "last": 1790024717,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 7,
+      "first": 1788989714,
+      "last": 1790024520,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 6,
       "first": 1789033255,
       "last": 1790019186,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Yumi Zouma",
-      "title": "In Camera",
-      "album": "EP III",
-      "count": 6,
-      "first": 1789054681,
-      "last": 1790018981,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Leon Bridges",
-      "title": "Motorbike",
-      "album": "Motorbike",
-      "count": 6,
-      "first": 1788975084,
-      "last": 1790018793,
       "playlists": {
         "1default": 6
       }
@@ -2033,10 +2033,21 @@
     },
     {
       "artist": "The Czars",
-      "count": 33,
+      "count": 34,
       "first": 1788963949,
-      "last": 1790024233,
+      "last": 1790024717,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 7,
+          "first": 1789063847,
+          "last": 1790024717,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Angel Eyes",
@@ -2044,17 +2055,6 @@
           "count": 6,
           "first": 1789218669,
           "last": 1790024233,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 6,
-          "first": 1789063847,
-          "last": 1789981234,
           "playlists": {
             "1default": 6
           }
@@ -4099,6 +4099,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 12,
+      "first": 1788989714,
+      "last": 1790024520,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 7,
+          "first": 1788989714,
+          "last": 1790024520,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 5,
+          "first": 1789169386,
+          "last": 1790011213,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Harper Powell",
       "count": 12,
       "first": 1788947970,
@@ -4288,36 +4318,6 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 12,
-      "first": 1788912861,
-      "last": 1789978798,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 6,
-          "first": 1788966960,
-          "last": 1789978798,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 6,
-          "first": 1788912861,
-          "last": 1789952773,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
@@ -4397,6 +4397,81 @@
       ]
     },
     {
+      "artist": "The Czars",
+      "album": "Best Of",
+      "count": 34,
+      "first": 1788963949,
+      "last": 1790024717,
+      "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 7,
+          "first": 1789063847,
+          "last": 1790024717,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 6,
+          "first": 1789218669,
+          "last": 1790024233,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 6,
+          "first": 1789015116,
+          "last": 1789955456,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 5,
+          "first": 1789324379,
+          "last": 1790018545,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 5,
+          "first": 1788963949,
+          "last": 1789948454,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 5,
+          "first": 1789096240,
+          "last": 1789896676,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
       "count": 34,
@@ -4465,81 +4540,6 @@
           "count": 5,
           "first": 1789097184,
           "last": 1789932163,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Czars",
-      "album": "Best Of",
-      "count": 33,
-      "first": 1788963949,
-      "last": 1790024233,
-      "songs": [
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 6,
-          "first": 1789218669,
-          "last": 1790024233,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 6,
-          "first": 1789063847,
-          "last": 1789981234,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 6,
-          "first": 1789015116,
-          "last": 1789955456,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 5,
-          "first": 1789324379,
-          "last": 1790018545,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 5,
-          "first": 1788963949,
-          "last": 1789948454,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 5,
-          "first": 1789096240,
-          "last": 1789896676,
           "playlists": {
             "1default": 5
           }
@@ -6964,9 +6964,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2231,
+      "count": 2233,
       "first": 1788901564,
-      "last": 1790024233,
+      "last": 1790024717,
       "songs": [
         {
           "artist": "Tele Novella",
