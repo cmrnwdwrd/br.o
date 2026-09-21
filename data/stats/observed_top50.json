@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-21T21:45:33.659364+00:00",
+  "updatedAt": "2026-09-21T21:50:37.730664+00:00",
   "summary": {
-    "totalPlays": 4812,
+    "totalPlays": 4814,
     "unknownPlays": 578,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790026956
+    "lastObserved": 1790027337
   },
   "topSongs": [
     {
@@ -230,6 +230,28 @@
       "last": 1789830895,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 7,
+      "first": 1788917230,
+      "last": 1790027337,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
+      "artist": "Gorillaz, Gruff Rhys, De La Soul, Dave Jolicoeur, Kelvin Mercer, Vincent Mason",
+      "title": "Superfast Jellyfish (feat. Gruff Rhys and De La Soul)",
+      "album": "Plastic Beach",
+      "count": 7,
+      "first": 1788965548,
+      "last": 1790027161,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 6,
       "first": 1789218669,
       "last": 1790024233,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "Harper Powell",
-      "title": "Time Is Empty",
-      "album": "Time Is Empty",
-      "count": 6,
-      "first": 1789077114,
-      "last": 1790024041,
-      "playlists": {
-        "1default": 6
-      }
-    },
-    {
-      "artist": "The Cranberries",
-      "title": "Linger",
-      "album": "Everybody Else Is Doing It, So Why Can't We?",
-      "count": 6,
-      "first": 1789087662,
-      "last": 1790023768,
       "playlists": {
         "1default": 6
       }
@@ -2849,6 +2849,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 19,
+      "first": 1788917230,
+      "last": 1790027337,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 7,
+          "first": 1788917230,
+          "last": 1790027337,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 6,
+          "first": 1788970790,
+          "last": 1789957391,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 6,
+          "first": 1789050580,
+          "last": 1789941689,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 19,
       "first": 1788973066,
@@ -3000,47 +3041,6 @@
           "last": 1789758798,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 18,
-      "first": 1788917230,
-      "last": 1789957391,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 6,
-          "first": 1788970790,
-          "last": 1789957391,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 6,
-          "first": 1789050580,
-          "last": 1789941689,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 6,
-          "first": 1788917230,
-          "last": 1789930873,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -6964,9 +6964,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2243,
+      "count": 2245,
       "first": 1788901564,
-      "last": 1790026956,
+      "last": 1790027337,
       "songs": [
         {
           "artist": "Tele Novella",
