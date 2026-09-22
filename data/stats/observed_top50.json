@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T20:40:40.445584+00:00",
+  "updatedAt": "2026-09-22T20:45:47.412716+00:00",
   "summary": {
-    "totalPlays": 5202,
+    "totalPlays": 5204,
     "unknownPlays": 625,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790109380
+    "lastObserved": 1790109947
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 7,
+      "first": 1788986484,
+      "last": 1790109693,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Radiohead",
       "title": "If You Say the Word",
       "album": "If You Say the Word",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788910695,
       "last": 1790100852,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Finger Eleven",
-      "title": "Paralyzer",
-      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-      "count": 7,
-      "first": 1789049428,
-      "last": 1790100641,
       "playlists": {
         "1default": 7
       }
@@ -4047,6 +4047,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 13,
+      "first": 1788986484,
+      "last": 1790109693,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 7,
+          "first": 1788986484,
+          "last": 1790109693,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 6,
+          "first": 1789231311,
+          "last": 1790090764,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "David Bowie",
       "count": 13,
       "first": 1788912385,
@@ -4250,36 +4280,6 @@
           "count": 6,
           "first": 1789239544,
           "last": 1790039901,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 13,
-      "first": 1788989714,
-      "last": 1790087689,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 7,
-          "first": 1788989714,
-          "last": 1790024520,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 6,
-          "first": 1789169386,
-          "last": 1790087689,
           "playlists": {
             "1default": 6
           }
@@ -6722,9 +6722,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2460,
+      "count": 2462,
       "first": 1788901564,
-      "last": 1790109380,
+      "last": 1790109947,
       "songs": [
         {
           "artist": "Modest Mouse",
