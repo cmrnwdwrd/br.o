@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T18:35:45.301461+00:00",
+  "updatedAt": "2026-09-22T18:40:39.830616+00:00",
   "summary": {
-    "totalPlays": 5167,
+    "totalPlays": 5168,
     "unknownPlays": 621,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790102066
+    "lastObserved": 1790102371
   },
   "topSongs": [
     {
@@ -43,6 +43,17 @@
       "last": 1790016172,
       "playlists": {
         "breakbeat": 11
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 10,
+      "first": 1789014862,
+      "last": 1790102371,
+      "playlists": {
+        "1default": 10
       }
     },
     {
@@ -162,17 +173,6 @@
       "count": 9,
       "first": 1788972740,
       "last": 1790023101,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 9,
-      "first": 1789014862,
-      "last": 1789977640,
       "playlists": {
         "1default": 9
       }
@@ -6564,6 +6564,26 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 10,
+      "first": 1789014862,
+      "last": 1790102371,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 10,
+          "first": 1789014862,
+          "last": 1790102371,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Chappell Roan",
       "album": "The Rise and Fall of a Midwest Princess",
       "count": 10,
@@ -6686,34 +6706,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "album": "Satisfaction Intended",
-      "count": 10,
-      "first": 1788926155,
-      "last": 1790040022,
-      "songs": [
-        {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
-          "count": 10,
-          "first": 1788926155,
-          "last": 1790040022,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2425,
+      "count": 2426,
       "first": 1788901564,
-      "last": 1790102066,
+      "last": 1790102371,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -6738,6 +6738,17 @@
           }
         },
         {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 10,
+          "first": 1789014862,
+          "last": 1790102371,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
           "artist": "Metric",
           "title": "Dead Disco",
           "album": "Old World Underground, Where Are You Now?",
@@ -6755,17 +6766,6 @@
           "count": 10,
           "first": 1788968644,
           "last": 1790087116,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 10,
-          "first": 1788991593,
-          "last": 1790048457,
           "playlists": {
             "1default": 10
           }
