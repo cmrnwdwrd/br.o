@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T03:50:46.680985+00:00",
+  "updatedAt": "2026-09-22T03:55:44.464608+00:00",
   "summary": {
-    "totalPlays": 4912,
+    "totalPlays": 4913,
     "unknownPlays": 589,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790048956
+    "lastObserved": 1790049111
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 7,
+      "first": 1788965930,
+      "last": 1790049111,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "HANGING MYSELF WITH MY PHONE CHARGER",
       "album": "SWAMP",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1789235365,
       "last": 1790041255,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Rock n' roll (Bonus Track)",
-      "album": "1's a Man, 3's a Band",
-      "count": 7,
-      "first": 1788903730,
-      "last": 1790040916,
       "playlists": {
         "1default": 7
       }
@@ -3210,6 +3210,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 17,
+      "first": 1788965930,
+      "last": 1790049111,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 7,
+          "first": 1788965930,
+          "last": 1790049111,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 5,
+          "first": 1789068640,
+          "last": 1790020032,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 5,
+          "first": 1789215234,
+          "last": 1789894037,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 17,
       "first": 1788947368,
@@ -3328,47 +3369,6 @@
           "last": 1789163855,
           "playlists": {
             "escaping from cu boulder by giselle": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 16,
-      "first": 1788965930,
-      "last": 1790020032,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 6,
-          "first": 1788965930,
-          "last": 1789841127,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 5,
-          "first": 1789068640,
-          "last": 1790020032,
-          "playlists": {
-            "1default": 5
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 5,
-          "first": 1789215234,
-          "last": 1789894037,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -6953,9 +6953,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2325,
+      "count": 2326,
       "first": 1788901564,
-      "last": 1790048956,
+      "last": 1790049111,
       "songs": [
         {
           "artist": "Tele Novella",
