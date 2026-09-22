@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T13:45:38.644643+00:00",
+  "updatedAt": "2026-09-22T13:50:36.506372+00:00",
   "summary": {
-    "totalPlays": 5085,
+    "totalPlays": 5086,
     "unknownPlays": 611,
-    "uniqueTracks": 1825,
+    "uniqueTracks": 1826,
     "uniqueArtists": 1211,
-    "uniqueAlbums": 1511,
+    "uniqueAlbums": 1512,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790084531
+    "lastObserved": 1790084825
   },
   "topSongs": [
     {
@@ -6933,10 +6933,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 244,
+      "count": 245,
       "first": 1788955289,
-      "last": 1790084531,
+      "last": 1790084825,
       "songs": [
+        {
+          "artist": "Caamp",
+          "title": "Books",
+          "album": "Books",
+          "count": 1,
+          "first": 1790084825,
+          "last": 1790084825,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
         {
           "artist": "Blind Pilot",
           "title": "Like Lions",
@@ -6977,17 +6988,6 @@
           "count": 1,
           "first": 1790083924,
           "last": 1790083924,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Briston Maroney",
-          "title": "Fool's Gold",
-          "album": "Indiana",
-          "count": 1,
-          "first": 1790083600,
-          "last": 1790083600,
           "playlists": {
             "carhartts": 1
           }
