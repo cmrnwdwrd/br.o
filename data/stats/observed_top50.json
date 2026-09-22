@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T16:00:45.935018+00:00",
+  "updatedAt": "2026-09-22T16:05:37.393668+00:00",
   "summary": {
-    "totalPlays": 5123,
+    "totalPlays": 5125,
     "unknownPlays": 616,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790092761
+    "lastObserved": 1790093086
   },
   "topSongs": [
+    {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 11,
+      "first": 1788968149,
+      "last": 1790093086,
+      "playlists": {
+        "1default": 11
+      }
+    },
     {
       "artist": "Tele Novella",
       "title": "Funeral",
@@ -85,17 +96,6 @@
       "count": 10,
       "first": 1789034170,
       "last": 1790037508,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Modest Mouse",
-      "title": "Bury Me With It",
-      "album": "Good News For People Who Love Bad News",
-      "count": 10,
-      "first": 1788968149,
-      "last": 1789964305,
       "playlists": {
         "1default": 10
       }
@@ -296,6 +296,17 @@
       "last": 1789900209,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "Ramones",
+      "title": "Blitzkrieg Bop - 2016 Remaster",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "count": 7,
+      "first": 1788997171,
+      "last": 1790092952,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788910937,
       "last": 1790069835,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "N.W.A.",
-      "title": "Fuck Tha Police",
-      "album": "Straight Outta Compton",
-      "count": 7,
-      "first": 1788971461,
-      "last": 1790069491,
       "playlists": {
         "1default": 7
       }
@@ -3333,6 +3333,36 @@
       ]
     },
     {
+      "artist": "Ramones",
+      "count": 17,
+      "first": 1788968644,
+      "last": 1790092952,
+      "songs": [
+        {
+          "artist": "Ramones",
+          "title": "Judy Is a Punk - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 10,
+          "first": 1788968644,
+          "last": 1790087116,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Ramones",
+          "title": "Blitzkrieg Bop - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 7,
+          "first": 1788997171,
+          "last": 1790092952,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 17,
       "first": 1789021318,
@@ -3380,36 +3410,6 @@
           "last": 1789134054,
           "playlists": {
             "hyperpop friday morning": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Ramones",
-      "count": 16,
-      "first": 1788968644,
-      "last": 1790087116,
-      "songs": [
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 10,
-          "first": 1788968644,
-          "last": 1790087116,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Blitzkrieg Bop - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 6,
-          "first": 1788997171,
-          "last": 1789932841,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -5319,6 +5319,37 @@
       ]
     },
     {
+      "artist": "Ramones",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "count": 17,
+      "first": 1788968644,
+      "last": 1790092952,
+      "songs": [
+        {
+          "artist": "Ramones",
+          "title": "Judy Is a Punk - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 10,
+          "first": 1788968644,
+          "last": 1790087116,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Ramones",
+          "title": "Blitzkrieg Bop - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 7,
+          "first": 1788997171,
+          "last": 1790092952,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "My Chemical Romance",
       "album": "Three Cheers for Sweet Revenge",
       "count": 17,
@@ -5411,37 +5442,6 @@
           "last": 1789008320,
           "playlists": {
             "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Ramones",
-      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-      "count": 16,
-      "first": 1788968644,
-      "last": 1790087116,
-      "songs": [
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 10,
-          "first": 1788968644,
-          "last": 1790087116,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Blitzkrieg Bop - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 6,
-          "first": 1788997171,
-          "last": 1789932841,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -6055,6 +6055,37 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "album": "Good News For People Who Love Bad News",
+      "count": 12,
+      "first": 1788968149,
+      "last": 1790093086,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 11,
+          "first": 1788968149,
+          "last": 1790093086,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "The World At Large",
+          "album": "Good News For People Who Love Bad News",
+          "count": 1,
+          "first": 1789756286,
+          "last": 1789756286,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 12,
@@ -6502,37 +6533,6 @@
       ]
     },
     {
-      "artist": "Modest Mouse",
-      "album": "Good News For People Who Love Bad News",
-      "count": 11,
-      "first": 1788968149,
-      "last": 1789964305,
-      "songs": [
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 10,
-          "first": 1788968149,
-          "last": 1789964305,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "The World At Large",
-          "album": "Good News For People Who Love Bad News",
-          "count": 1,
-          "first": 1789756286,
-          "last": 1789756286,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        }
-      ]
-    },
-    {
       "artist": "Florence + The Machine, Jules Buckley",
       "album": "Symphony of Lungs - BBC Proms at the Royal Albert Hall",
       "count": 11,
@@ -6722,10 +6722,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2381,
+      "count": 2383,
       "first": 1788901564,
-      "last": 1790092761,
+      "last": 1790093086,
       "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 11,
+          "first": 1788968149,
+          "last": 1790093086,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "Tele Novella",
           "title": "Funeral",
@@ -6766,17 +6777,6 @@
           "count": 10,
           "first": 1788926155,
           "last": 1790040022,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 10,
-          "first": 1788993017,
-          "last": 1790038572,
           "playlists": {
             "1default": 10
           }
