@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T00:00:39.495927+00:00",
+  "updatedAt": "2026-09-22T00:05:45.222291+00:00",
   "summary": {
-    "totalPlays": 4851,
+    "totalPlays": 4852,
     "unknownPlays": 582,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790035242
+    "lastObserved": 1790035516
   },
   "topSongs": [
     {
@@ -241,6 +241,17 @@
       "last": 1789900209,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "Opium",
+      "title": "No Pulse",
+      "album": "PHANTOMS",
+      "count": 7,
+      "first": 1788946866,
+      "last": 1790035516,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788902251,
       "last": 1789944034,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Arlie",
-      "title": "didya think",
-      "album": "Wait",
-      "count": 7,
-      "first": 1788970349,
-      "last": 1789930670,
       "playlists": {
         "1default": 7
       }
@@ -1841,10 +1841,21 @@
     },
     {
       "artist": "Opium",
-      "count": 47,
+      "count": 48,
       "first": 1788927400,
-      "last": 1790000632,
+      "last": 1790035516,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 7,
+          "first": 1788946866,
+          "last": 1790035516,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "Opium",
           "title": "Brainsick",
@@ -1874,17 +1885,6 @@
           "count": 6,
           "first": 1788973540,
           "last": 1789976545,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 6,
-          "first": 1788946866,
-          "last": 1789976330,
           "playlists": {
             "1default": 6
           }
@@ -4313,10 +4313,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 35,
+      "count": 36,
       "first": 1788927400,
-      "last": 1789999248,
+      "last": 1790035516,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 7,
+          "first": 1788946866,
+          "last": 1790035516,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "Opium",
           "title": "Rainfall",
@@ -4335,17 +4346,6 @@
           "count": 6,
           "first": 1788973540,
           "last": 1789976545,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 6,
-          "first": 1788946866,
-          "last": 1789976330,
           "playlists": {
             "1default": 6
           }
@@ -6953,9 +6953,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2264,
+      "count": 2265,
       "first": 1788901564,
-      "last": 1790035242,
+      "last": 1790035516,
       "songs": [
         {
           "artist": "Tele Novella",
