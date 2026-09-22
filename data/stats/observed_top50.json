@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T20:45:47.412716+00:00",
+  "updatedAt": "2026-09-22T20:50:39.580218+00:00",
   "summary": {
-    "totalPlays": 5204,
+    "totalPlays": 5205,
     "unknownPlays": 625,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790109947
+    "lastObserved": 1790110161
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "a machine as big as a city with a concert at the center",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 7,
+      "first": 1788972349,
+      "last": 1790110161,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "title": "Texas Sun",
       "album": "Texas Sun",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1789055208,
       "last": 1790101091,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Moby",
-      "title": "Porcelain",
-      "album": "Play & Play: B Sides",
-      "count": 7,
-      "first": 1788910695,
-      "last": 1790100852,
       "playlists": {
         "1default": 7
       }
@@ -2486,10 +2486,21 @@
     },
     {
       "artist": "botch",
-      "count": 26,
+      "count": 27,
       "first": 1788920755,
-      "last": 1790101310,
+      "last": 1790110161,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 7,
+          "first": 1788972349,
+          "last": 1790110161,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "botch",
           "title": "underthebasement",
@@ -2510,17 +2521,6 @@
           "last": 1790046881,
           "playlists": {
             "1default": 7
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 6,
-          "first": 1788972349,
-          "last": 1790004480,
-          "playlists": {
-            "1default": 6
           }
         },
         {
@@ -5734,6 +5734,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 14,
+      "first": 1788972349,
+      "last": 1790110161,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 7,
+          "first": 1788972349,
+          "last": 1790110161,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 7,
+          "first": 1788997306,
+          "last": 1790101310,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THIS DOES NOT EXIST",
       "count": 14,
@@ -5833,37 +5864,6 @@
           "last": 1789971110,
           "playlists": {
             "EPL4a": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 13,
-      "first": 1788972349,
-      "last": 1790101310,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 7,
-          "first": 1788997306,
-          "last": 1790101310,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 6,
-          "first": 1788972349,
-          "last": 1790004480,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -6722,9 +6722,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2462,
+      "count": 2463,
       "first": 1788901564,
-      "last": 1790109947,
+      "last": 1790110161,
       "songs": [
         {
           "artist": "Modest Mouse",
