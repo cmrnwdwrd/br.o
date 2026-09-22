@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T23:35:41.184995+00:00",
+  "updatedAt": "2026-09-22T23:40:43.119489+00:00",
   "summary": {
-    "totalPlays": 5249,
-    "unknownPlays": 630,
+    "totalPlays": 5250,
+    "unknownPlays": 631,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790120052
+    "lastObserved": 1790120334
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Crumb",
+      "title": "Locket",
+      "album": "Locket",
+      "count": 7,
+      "first": 1788983912,
+      "last": 1790120334,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "Junkyard Dog",
       "album": "1's a Man, 3's a Band",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788919285,
       "last": 1790107152,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Gorillaz, Peter Hook, Georgia",
-      "title": "Aries (feat. Peter Hook and Georgia)",
-      "album": "Song Machine Episode 3",
-      "count": 7,
-      "first": 1788971208,
-      "last": 1790106612,
       "playlists": {
         "1default": 7
       }
@@ -4107,6 +4107,36 @@
       ]
     },
     {
+      "artist": "Crumb",
+      "count": 13,
+      "first": 1788983912,
+      "last": 1790120334,
+      "songs": [
+        {
+          "artist": "Crumb",
+          "title": "Locket",
+          "album": "Locket",
+          "count": 7,
+          "first": 1788983912,
+          "last": 1790120334,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Crumb",
+          "title": "Ghostride",
+          "album": "Jinx",
+          "count": 6,
+          "first": 1789219993,
+          "last": 1790034616,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Olivia Rodrigo",
       "count": 13,
       "first": 1789057000,
@@ -4261,36 +4291,6 @@
           "count": 6,
           "first": 1789230720,
           "last": 1790095343,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 13,
-      "first": 1789054681,
-      "last": 1790090287,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 7,
-          "first": 1789054681,
-          "last": 1790090287,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 6,
-          "first": 1789057143,
-          "last": 1789867226,
           "playlists": {
             "1default": 6
           }
@@ -6700,9 +6700,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2486,
+      "count": 2487,
       "first": 1788901564,
-      "last": 1790120052,
+      "last": 1790120334,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
