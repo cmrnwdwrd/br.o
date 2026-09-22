@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T05:05:32.397660+00:00",
+  "updatedAt": "2026-09-22T05:10:35.701743+00:00",
   "summary": {
-    "totalPlays": 4934,
+    "totalPlays": 4936,
     "unknownPlays": 592,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790053492
+    "lastObserved": 1790053836
   },
   "topSongs": [
     {
@@ -566,10 +566,32 @@
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 98,
+      "count": 100,
       "first": 1788929259,
-      "last": 1790053492,
+      "last": 1790053836,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "distant",
+          "album": "drive it like you stole it.",
+          "count": 3,
+          "first": 1789015960,
+          "last": 1790053836,
+          "playlists": {
+            "more home alone": 3
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "pedal to the metal",
+          "album": "drive it like you stole it.",
+          "count": 3,
+          "first": 1788930426,
+          "last": 1790053596,
+          "playlists": {
+            "more home alone": 3
+          }
+        },
         {
           "artist": "home alone.",
           "title": "marv",
@@ -781,33 +803,11 @@
         },
         {
           "artist": "home alone.",
-          "title": "distant",
-          "album": "drive it like you stole it.",
-          "count": 2,
-          "first": 1789015960,
-          "last": 1789621908,
-          "playlists": {
-            "more home alone": 2
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "blow your mind",
           "album": "all killer, no filler",
           "count": 2,
           "first": 1789017777,
           "last": 1789621700,
-          "playlists": {
-            "more home alone": 2
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "pedal to the metal",
-          "album": "drive it like you stole it.",
-          "count": 2,
-          "first": 1788930426,
-          "last": 1789621458,
           "playlists": {
             "more home alone": 2
           }
@@ -4677,65 +4677,34 @@
       ]
     },
     {
-      "artist": "Lil Darkie",
-      "album": "SWAMP",
-      "count": 25,
-      "first": 1788926373,
-      "last": 1790048956,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 7,
-          "first": 1789057548,
-          "last": 1790048956,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 6,
-          "first": 1788983290,
-          "last": 1789953996,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 6,
-          "first": 1788926373,
-          "last": 1789946917,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 6,
-          "first": 1789058454,
-          "last": 1789840766,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
       "artist": "home alone.",
       "album": "drive it like you stole it.",
-      "count": 24,
+      "count": 26,
       "first": 1788929527,
-      "last": 1790052534,
+      "last": 1790053836,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "distant",
+          "album": "drive it like you stole it.",
+          "count": 3,
+          "first": 1789015960,
+          "last": 1790053836,
+          "playlists": {
+            "more home alone": 3
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "pedal to the metal",
+          "album": "drive it like you stole it.",
+          "count": 3,
+          "first": 1788930426,
+          "last": 1790053596,
+          "playlists": {
+            "more home alone": 3
+          }
+        },
         {
           "artist": "home alone.",
           "title": "what goes around comes around",
@@ -4765,28 +4734,6 @@
           "count": 2,
           "first": 1788929679,
           "last": 1789622066,
-          "playlists": {
-            "more home alone": 2
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "distant",
-          "album": "drive it like you stole it.",
-          "count": 2,
-          "first": 1789015960,
-          "last": 1789621908,
-          "playlists": {
-            "more home alone": 2
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "pedal to the metal",
-          "album": "drive it like you stole it.",
-          "count": 2,
-          "first": 1788930426,
-          "last": 1789621458,
           "playlists": {
             "more home alone": 2
           }
@@ -4855,6 +4802,59 @@
           "last": 1789449182,
           "playlists": {
             "more home alone": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Lil Darkie",
+      "album": "SWAMP",
+      "count": 25,
+      "first": 1788926373,
+      "last": 1790048956,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 7,
+          "first": 1789057548,
+          "last": 1790048956,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 6,
+          "first": 1788983290,
+          "last": 1789953996,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 6,
+          "first": 1788926373,
+          "last": 1789946917,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 6,
+          "first": 1789058454,
+          "last": 1789840766,
+          "playlists": {
+            "1default": 6
           }
         }
       ]
