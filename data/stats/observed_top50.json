@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T22:40:49.146346+00:00",
+  "updatedAt": "2026-09-22T22:45:44.449591+00:00",
   "summary": {
-    "totalPlays": 5234,
+    "totalPlays": 5236,
     "unknownPlays": 629,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790116692
+    "lastObserved": 1790117087
   },
   "topSongs": [
+    {
+      "artist": "Viagra Boys",
+      "title": "Worms",
+      "album": "Street Worms",
+      "count": 11,
+      "first": 1788991593,
+      "last": 1790116881,
+      "playlists": {
+        "1default": 11
+      }
+    },
     {
       "artist": "Metric",
       "title": "Dead Disco",
@@ -74,17 +85,6 @@
       "count": 10,
       "first": 1788968644,
       "last": 1790087116,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Viagra Boys",
-      "title": "Worms",
-      "album": "Street Worms",
-      "count": 10,
-      "first": 1788991593,
-      "last": 1790048457,
       "playlists": {
         "1default": 10
       }
@@ -6411,6 +6411,26 @@
       ]
     },
     {
+      "artist": "Viagra Boys",
+      "album": "Street Worms",
+      "count": 11,
+      "first": 1788991593,
+      "last": 1790116881,
+      "songs": [
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 11,
+          "first": 1788991593,
+          "last": 1790116881,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kasper Marott",
       "album": "Full Circle",
       "count": 11,
@@ -6708,46 +6728,26 @@
           }
         }
       ]
-    },
-    {
-      "artist": "MIMIDEATH",
-      "album": "FOAR EVERYWUN FRUM MIMI",
-      "count": 10,
-      "first": 1789021318,
-      "last": 1790057980,
-      "songs": [
-        {
-          "artist": "MIMIDEATH",
-          "title": "the con",
-          "album": "FOAR EVERYWUN FRUM MIMI",
-          "count": 5,
-          "first": 1789022489,
-          "last": 1790057980,
-          "playlists": {
-            "breakbeat": 5
-          }
-        },
-        {
-          "artist": "MIMIDEATH",
-          "title": "abusive",
-          "album": "FOAR EVERYWUN FRUM MIMI",
-          "count": 5,
-          "first": 1789021318,
-          "last": 1790056405,
-          "playlists": {
-            "breakbeat": 5
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2481,
+      "count": 2482,
       "first": 1788901564,
-      "last": 1790115515,
+      "last": 1790116881,
       "songs": [
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 11,
+          "first": 1788991593,
+          "last": 1790116881,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "Metric",
           "title": "Dead Disco",
@@ -6788,17 +6788,6 @@
           "count": 10,
           "first": 1789014862,
           "last": 1790102371,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 10,
-          "first": 1788968644,
-          "last": 1790087116,
           "playlists": {
             "1default": 10
           }
@@ -7122,10 +7111,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 128,
+      "count": 129,
       "first": 1788904845,
-      "last": 1790116692,
+      "last": 1790117087,
       "songs": [
+        {
+          "artist": "The Crickets",
+          "title": "I Fought The Law",
+          "album": "In Style With The Crickets (Expanded Edition)",
+          "count": 5,
+          "first": 1788991998,
+          "last": 1790117087,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 5
+          }
+        },
         {
           "artist": "Dead Kennedys",
           "title": "Kill the Poor",
@@ -7168,17 +7168,6 @@
           "last": 1790115180,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 5
-          }
-        },
-        {
-          "artist": "Tucker Skaar, brian schnell",
-          "title": "train",
-          "album": "melodically numb",
-          "count": 4,
-          "first": 1789081552,
-          "last": 1790116511,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 4
           }
         }
       ]
