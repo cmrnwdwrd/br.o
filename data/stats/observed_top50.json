@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T19:01:20.385808+00:00",
+  "updatedAt": "2026-09-22T19:05:37.274059+00:00",
   "summary": {
-    "totalPlays": 5174,
+    "totalPlays": 5176,
     "unknownPlays": 621,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790103629
+    "lastObserved": 1790103933
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 7,
+      "first": 1788970790,
+      "last": 1790103933,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Zolof the Rock & Roll Destroyer",
       "title": "Plays Pretty for Baby",
       "album": "Zolof the Rock & Roll Destroyer",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1789130394,
       "last": 1790095206,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Zakaraka & Imaginomics",
-      "title": "998 Good Bricks",
-      "album": "Instinct",
-      "count": 7,
-      "first": 1789055424,
-      "last": 1790094933,
       "playlists": {
         "1default": 7
       }
@@ -2787,10 +2787,21 @@
     },
     {
       "artist": "The Salesmen",
-      "count": 20,
+      "count": 21,
       "first": 1788917230,
-      "last": 1790037805,
+      "last": 1790103933,
       "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 7,
+          "first": 1788970790,
+          "last": 1790103933,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "The Salesmen",
           "title": "Tell Me That You Like It",
@@ -2811,17 +2822,6 @@
           "last": 1790027337,
           "playlists": {
             "1default": 7
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 6,
-          "first": 1788970790,
-          "last": 1789957391,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -6711,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2432,
+      "count": 2434,
       "first": 1788901564,
-      "last": 1790103629,
+      "last": 1790103933,
       "songs": [
         {
           "artist": "Modest Mouse",
