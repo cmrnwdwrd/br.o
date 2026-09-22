@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T17:05:44.276242+00:00",
+  "updatedAt": "2026-09-22T17:10:37.743710+00:00",
   "summary": {
-    "totalPlays": 5143,
+    "totalPlays": 5144,
     "unknownPlays": 619,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790096737
+    "lastObserved": 1790097003
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "The Cranberries",
+      "title": "Zombie",
+      "album": "No Need To Argue",
+      "count": 7,
+      "first": 1788916461,
+      "last": 1790097003,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "cehryl",
       "title": "Moon Eyes",
       "album": "Hide n Seek / Moon Eyes",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1789061160,
       "last": 1790089001,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE WORLD IS ENDING",
-      "album": "THE WORLD IS ENDING",
-      "count": 7,
-      "first": 1789033665,
-      "last": 1790088737,
       "playlists": {
         "1default": 7
       }
@@ -2682,6 +2682,58 @@
       ]
     },
     {
+      "artist": "The Cranberries",
+      "count": 22,
+      "first": 1788916461,
+      "last": 1790097003,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 7,
+          "first": 1788916461,
+          "last": 1790097003,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 7,
+          "first": 1789060180,
+          "last": 1790023495,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 6,
+          "first": 1789087662,
+          "last": 1790023768,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Dreams",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 2,
+          "first": 1789174476,
+          "last": 1789784208,
+          "playlists": {
+            "d i n n e r": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "count": 22,
       "first": 1788915065,
@@ -2729,58 +2781,6 @@
           "last": 1789841364,
           "playlists": {
             "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Cranberries",
-      "count": 21,
-      "first": 1788916461,
-      "last": 1790023768,
-      "songs": [
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 7,
-          "first": 1789060180,
-          "last": 1790023495,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 6,
-          "first": 1789087662,
-          "last": 1790023768,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 6,
-          "first": 1788916461,
-          "last": 1789940280,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Dreams",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 2,
-          "first": 1789174476,
-          "last": 1789784208,
-          "playlists": {
-            "d i n n e r": 2
           }
         }
       ]
@@ -6711,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2401,
+      "count": 2402,
       "first": 1788901564,
-      "last": 1790096737,
+      "last": 1790097003,
       "songs": [
         {
           "artist": "Modest Mouse",
