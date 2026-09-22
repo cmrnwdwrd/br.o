@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T21:10:40.857747+00:00",
+  "updatedAt": "2026-09-22T21:15:39.285529+00:00",
   "summary": {
-    "totalPlays": 5210,
-    "unknownPlays": 625,
+    "totalPlays": 5211,
+    "unknownPlays": 626,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790111308
+    "lastObserved": 1790111545
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Ribs",
+      "album": "Pure Heroine",
+      "count": 7,
+      "first": 1789222724,
+      "last": 1790111545,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Your Smith",
       "title": "Debbie",
       "album": "Bad Habit",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1789058964,
       "last": 1790102837,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "The Airborne Toxic Event",
-      "title": "Sometime Around Midnight",
-      "album": "The Airborne Toxic Event (Deluxe Edition)",
-      "count": 7,
-      "first": 1788911534,
-      "last": 1790102066,
       "playlists": {
         "1default": 7
       }
@@ -3694,6 +3694,36 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 14,
+      "first": 1788914032,
+      "last": 1790111545,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 7,
+          "first": 1789222724,
+          "last": 1790111545,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 7,
+          "first": 1788914032,
+          "last": 1790099815,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 14,
       "first": 1788919285,
@@ -4130,36 +4160,6 @@
           "count": 6,
           "first": 1788921291,
           "last": 1790000177,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 13,
-      "first": 1788914032,
-      "last": 1790099815,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 7,
-          "first": 1788914032,
-          "last": 1790099815,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 6,
-          "first": 1789222724,
-          "last": 1789937193,
           "playlists": {
             "1default": 6
           }
@@ -6722,9 +6722,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2468,
+      "count": 2469,
       "first": 1788901564,
-      "last": 1790111308,
+      "last": 1790111545,
       "songs": [
         {
           "artist": "Modest Mouse",
