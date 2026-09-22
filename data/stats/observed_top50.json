@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T00:30:34.450875+00:00",
+  "updatedAt": "2026-09-22T00:35:44.702241+00:00",
   "summary": {
-    "totalPlays": 4857,
+    "totalPlays": 4859,
     "unknownPlays": 584,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790036961
+    "lastObserved": 1790037319
   },
   "topSongs": [
     {
@@ -241,6 +241,28 @@
       "last": 1789900209,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 7,
+      "first": 1789033065,
+      "last": 1790037319,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
+      "artist": "Opium",
+      "title": "Broken Glass",
+      "album": "PHANTOMS",
+      "count": 7,
+      "first": 1788973540,
+      "last": 1790037100,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 7,
       "first": 1789226222,
       "last": 1790020376,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Squirrel Flower",
-      "title": "So Hot You're Hurting My Feelings",
-      "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
-      "count": 7,
-      "first": 1789056580,
-      "last": 1789982530,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "title": "Visitor",
-      "album": "Visitor",
-      "count": 7,
-      "first": 1788963370,
-      "last": 1789978357,
       "playlists": {
         "1default": 7
       }
@@ -1841,10 +1841,21 @@
     },
     {
       "artist": "Opium",
-      "count": 48,
+      "count": 49,
       "first": 1788927400,
-      "last": 1790035516,
+      "last": 1790037100,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 7,
+          "first": 1788973540,
+          "last": 1790037100,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "Opium",
           "title": "No Pulse",
@@ -1874,17 +1885,6 @@
           "count": 6,
           "first": 1789064095,
           "last": 1789999248,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 6,
-          "first": 1788973540,
-          "last": 1789976545,
           "playlists": {
             "1default": 6
           }
@@ -3046,6 +3046,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 18,
+      "first": 1788973998,
+      "last": 1790037319,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 7,
+          "first": 1789033065,
+          "last": 1790037319,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 6,
+          "first": 1788973998,
+          "last": 1789938340,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 5,
+          "first": 1789226629,
+          "last": 1789962715,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 17,
       "first": 1788975620,
@@ -3162,47 +3203,6 @@
           "count": 5,
           "first": 1789086174,
           "last": 1790012095,
-          "playlists": {
-            "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 17,
-      "first": 1788973998,
-      "last": 1790002315,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 6,
-          "first": 1789033065,
-          "last": 1790002315,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 6,
-          "first": 1788973998,
-          "last": 1789938340,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 5,
-          "first": 1789226629,
-          "last": 1789962715,
           "playlists": {
             "1default": 5
           }
@@ -4313,10 +4313,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 36,
+      "count": 37,
       "first": 1788927400,
-      "last": 1790035516,
+      "last": 1790037100,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 7,
+          "first": 1788973540,
+          "last": 1790037100,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "Opium",
           "title": "No Pulse",
@@ -4335,17 +4346,6 @@
           "count": 6,
           "first": 1789064095,
           "last": 1789999248,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 6,
-          "first": 1788973540,
-          "last": 1789976545,
           "playlists": {
             "1default": 6
           }
@@ -6953,9 +6953,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2270,
+      "count": 2272,
       "first": 1788901564,
-      "last": 1790036961,
+      "last": 1790037319,
       "songs": [
         {
           "artist": "Tele Novella",
