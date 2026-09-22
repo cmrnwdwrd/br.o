@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T12:15:40.795575+00:00",
+  "updatedAt": "2026-09-22T12:20:46.346116+00:00",
   "summary": {
-    "totalPlays": 5061,
+    "totalPlays": 5062,
     "unknownPlays": 608,
-    "uniqueTracks": 1801,
+    "uniqueTracks": 1802,
     "uniqueArtists": 1196,
     "uniqueAlbums": 1492,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790079289
+    "lastObserved": 1790079541
   },
   "topSongs": [
     {
@@ -6933,10 +6933,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 220,
+      "count": 221,
       "first": 1788955289,
-      "last": 1790079289,
+      "last": 1790079541,
       "songs": [
+        {
+          "artist": "Caamp",
+          "title": "Peach Fuzz",
+          "album": "By and By",
+          "count": 1,
+          "first": 1790079541,
+          "last": 1790079541,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
         {
           "artist": "Noah Kahan",
           "title": "Please",
@@ -6977,17 +6988,6 @@
           "count": 1,
           "first": 1790078763,
           "last": 1790078763,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Hollow Coves",
-          "title": "Coastline",
-          "album": "Wanderlust",
-          "count": 1,
-          "first": 1790078507,
-          "last": 1790078507,
           "playlists": {
             "carhartts": 1
           }
