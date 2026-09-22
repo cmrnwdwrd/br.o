@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T12:40:44.767781+00:00",
+  "updatedAt": "2026-09-22T12:45:36.376372+00:00",
   "summary": {
-    "totalPlays": 5068,
+    "totalPlays": 5069,
     "unknownPlays": 608,
-    "uniqueTracks": 1808,
+    "uniqueTracks": 1809,
     "uniqueArtists": 1200,
     "uniqueAlbums": 1497,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790080802
+    "lastObserved": 1790080980
   },
   "topSongs": [
     {
@@ -6933,10 +6933,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 227,
+      "count": 228,
       "first": 1788955289,
-      "last": 1790080802,
+      "last": 1790080980,
       "songs": [
+        {
+          "artist": "Mt. Joy",
+          "title": "Jenny Jenkins",
+          "album": "Mt. Joy",
+          "count": 1,
+          "first": 1790080980,
+          "last": 1790080980,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
         {
           "artist": "Cece Coakley",
           "title": "Cliché",
@@ -6977,17 +6988,6 @@
           "count": 1,
           "first": 1790080167,
           "last": 1790080167,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Ciaran Lavery",
-          "title": "Shame",
-          "album": "Not Nearly Dark",
-          "count": 1,
-          "first": 1790079912,
-          "last": 1790079912,
           "playlists": {
             "carhartts": 1
           }
