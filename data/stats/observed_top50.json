@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T22:15:40.986189+00:00",
+  "updatedAt": "2026-09-22T22:20:47.194152+00:00",
   "summary": {
-    "totalPlays": 5226,
+    "totalPlays": 5228,
     "unknownPlays": 628,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790115180
+    "lastObserved": 1790115515
   },
   "topSongs": [
+    {
+      "artist": "Metric",
+      "title": "Dead Disco",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 11,
+      "first": 1788986736,
+      "last": 1790115515,
+      "playlists": {
+        "1default": 11
+      }
+    },
     {
       "artist": "Modest Mouse",
       "title": "Bury Me With It",
@@ -52,17 +63,6 @@
       "count": 10,
       "first": 1789014862,
       "last": 1790102371,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Metric",
-      "title": "Dead Disco",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 10,
-      "first": 1788986736,
-      "last": 1790095896,
       "playlists": {
         "1default": 10
       }
@@ -3694,6 +3694,36 @@
       ]
     },
     {
+      "artist": "Metric",
+      "count": 14,
+      "first": 1788986736,
+      "last": 1790115515,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 11,
+          "first": 1788986736,
+          "last": 1790115515,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 3,
+          "first": 1789258725,
+          "last": 1789882590,
+          "playlists": {
+            "sad girl no friends saturday": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 14,
       "first": 1788914032,
@@ -4162,36 +4192,6 @@
           "last": 1790000177,
           "playlists": {
             "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "count": 13,
-      "first": 1788986736,
-      "last": 1790095896,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 10,
-          "first": 1788986736,
-          "last": 1790095896,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 3,
-          "first": 1789258725,
-          "last": 1789882590,
-          "playlists": {
-            "sad girl no friends saturday": 3
           }
         }
       ]
@@ -5734,6 +5734,37 @@
       ]
     },
     {
+      "artist": "Metric",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 14,
+      "first": 1788986736,
+      "last": 1790115515,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 11,
+          "first": 1788986736,
+          "last": 1790115515,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 3,
+          "first": 1789258725,
+          "last": 1789882590,
+          "playlists": {
+            "sad girl no friends saturday": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "a machine as big as a city with a concert at the center",
       "count": 14,
@@ -5895,37 +5926,6 @@
           "last": 1790112674,
           "playlists": {
             "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 13,
-      "first": 1788986736,
-      "last": 1790095896,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 10,
-          "first": 1788986736,
-          "last": 1790095896,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 3,
-          "first": 1789258725,
-          "last": 1789882590,
-          "playlists": {
-            "sad girl no friends saturday": 3
           }
         }
       ]
@@ -6733,10 +6733,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2480,
+      "count": 2481,
       "first": 1788901564,
-      "last": 1790113951,
+      "last": 1790115515,
       "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 11,
+          "first": 1788986736,
+          "last": 1790115515,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
@@ -6766,17 +6777,6 @@
           "count": 10,
           "first": 1789014862,
           "last": 1790102371,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 10,
-          "first": 1788986736,
-          "last": 1790095896,
           "playlists": {
             "1default": 10
           }
@@ -7111,10 +7111,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 121,
+      "count": 122,
       "first": 1788904845,
-      "last": 1790115180,
+      "last": 1790115400,
       "songs": [
+        {
+          "artist": "Neutral Milk Hotel",
+          "title": "Communist Daughter",
+          "album": "In the Aeroplane Over the Sea",
+          "count": 5,
+          "first": 1788994893,
+          "last": 1790115400,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 5
+          }
+        },
         {
           "artist": "Watsky",
           "title": "Welcome To The Family",
@@ -7155,17 +7166,6 @@
           "count": 4,
           "first": 1788996460,
           "last": 1790032879,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 4
-          }
-        },
-        {
-          "artist": "illuminati hotties",
-          "title": "(You're Better) Than Ever",
-          "album": "Kiss Yr Frenemies",
-          "count": 4,
-          "first": 1788994345,
-          "last": 1790031876,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 4
           }
