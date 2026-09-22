@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T09:50:32.373941+00:00",
+  "updatedAt": "2026-09-22T09:55:36.412549+00:00",
   "summary": {
-    "totalPlays": 5018,
+    "totalPlays": 5020,
     "unknownPlays": 602,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790070548
+    "lastObserved": 1790070898
   },
   "topSongs": [
     {
@@ -299,6 +299,28 @@
       }
     },
     {
+      "artist": "Jelani Aryeh",
+      "title": "Stella Brown",
+      "album": "I've Got Some Living To Do",
+      "count": 7,
+      "first": 1788918760,
+      "last": 1790070898,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
+      "artist": "Doechii",
+      "title": "BULLFROG",
+      "album": "Alligator Bites Never Heal",
+      "count": 7,
+      "first": 1788946771,
+      "last": 1790070805,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "gavn!",
       "title": "Poseidon",
       "album": "Poseidon",
@@ -536,28 +558,6 @@
       "count": 7,
       "first": 1789054884,
       "last": 1790046311,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Hold Me",
-      "album": "1's a Man, 3's a Band",
-      "count": 7,
-      "first": 1788902047,
-      "last": 1790046105,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Interpol",
-      "title": "PDA",
-      "album": "Turn On The Bright Lights",
-      "count": 7,
-      "first": 1788985465,
-      "last": 1790045774,
       "playlists": {
         "1default": 7
       }
@@ -3694,6 +3694,47 @@
       ]
     },
     {
+      "artist": "Doechii",
+      "count": 14,
+      "first": 1788914421,
+      "last": 1790070805,
+      "songs": [
+        {
+          "artist": "Doechii",
+          "title": "BULLFROG",
+          "album": "Alligator Bites Never Heal",
+          "count": 7,
+          "first": 1788946771,
+          "last": 1790070805,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Doechii",
+          "title": "NISSAN ALTIMA",
+          "album": "Alligator Bites Never Heal",
+          "count": 6,
+          "first": 1788914421,
+          "last": 1789929955,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Doechii",
+          "title": "Crazy",
+          "album": "Crazy",
+          "count": 1,
+          "first": 1789053978,
+          "last": 1789053978,
+          "playlists": {
+            "rage commute": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "count": 14,
       "first": 1788914259,
@@ -4022,47 +4063,6 @@
           "last": 1789893243,
           "playlists": {
             "christmas rn": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Doechii",
-      "count": 13,
-      "first": 1788914421,
-      "last": 1789935085,
-      "songs": [
-        {
-          "artist": "Doechii",
-          "title": "BULLFROG",
-          "album": "Alligator Bites Never Heal",
-          "count": 6,
-          "first": 1788946771,
-          "last": 1789935085,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Doechii",
-          "title": "NISSAN ALTIMA",
-          "album": "Alligator Bites Never Heal",
-          "count": 6,
-          "first": 1788914421,
-          "last": 1789929955,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Doechii",
-          "title": "Crazy",
-          "album": "Crazy",
-          "count": 1,
-          "first": 1789053978,
-          "last": 1789053978,
-          "playlists": {
-            "rage commute": 1
           }
         }
       ]
@@ -5809,6 +5809,37 @@
       ]
     },
     {
+      "artist": "Doechii",
+      "album": "Alligator Bites Never Heal",
+      "count": 13,
+      "first": 1788914421,
+      "last": 1790070805,
+      "songs": [
+        {
+          "artist": "Doechii",
+          "title": "BULLFROG",
+          "album": "Alligator Bites Never Heal",
+          "count": 7,
+          "first": 1788946771,
+          "last": 1790070805,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Doechii",
+          "title": "NISSAN ALTIMA",
+          "album": "Alligator Bites Never Heal",
+          "count": 6,
+          "first": 1788914421,
+          "last": 1789929955,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khadija Al Hanafi",
       "album": "Slime Patrol 2",
       "count": 13,
@@ -6227,37 +6258,6 @@
           "count": 6,
           "first": 1789055950,
           "last": 1789934437,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Doechii",
-      "album": "Alligator Bites Never Heal",
-      "count": 12,
-      "first": 1788914421,
-      "last": 1789935085,
-      "songs": [
-        {
-          "artist": "Doechii",
-          "title": "BULLFROG",
-          "album": "Alligator Bites Never Heal",
-          "count": 6,
-          "first": 1788946771,
-          "last": 1789935085,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Doechii",
-          "title": "NISSAN ALTIMA",
-          "album": "Alligator Bites Never Heal",
-          "count": 6,
-          "first": 1788914421,
-          "last": 1789929955,
           "playlists": {
             "1default": 6
           }
@@ -6733,9 +6733,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2344,
+      "count": 2346,
       "first": 1788901564,
-      "last": 1790070548,
+      "last": 1790070898,
       "songs": [
         {
           "artist": "Tele Novella",
