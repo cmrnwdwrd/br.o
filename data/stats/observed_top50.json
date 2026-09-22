@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T20:20:43.903502+00:00",
+  "updatedAt": "2026-09-22T20:25:30.654906+00:00",
   "summary": {
-    "totalPlays": 5197,
+    "totalPlays": 5199,
     "unknownPlays": 624,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790108260
+    "lastObserved": 1790108591
   },
   "topSongs": [
     {
@@ -120,6 +120,17 @@
       "last": 1790037508,
       "playlists": {
         "1default": 10
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "wrap music",
+      "album": "THIS DOES NOT EXIST",
+      "count": 9,
+      "first": 1789053695,
+      "last": 1790108448,
+      "playlists": {
+        "1default": 9
       }
     },
     {
@@ -277,17 +288,6 @@
       }
     },
     {
-      "artist": "Lil Darkie",
-      "title": "wrap music",
-      "album": "THIS DOES NOT EXIST",
-      "count": 8,
-      "first": 1789053695,
-      "last": 1789961515,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
       "artist": "Tennis",
       "title": "Traveling",
       "album": "Young & Old",
@@ -296,6 +296,17 @@
       "last": 1789900209,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "Fantastic Negrito",
+      "title": "Chocolate Samurai",
+      "album": "Chocolate Samurai",
+      "count": 7,
+      "first": 1788967854,
+      "last": 1790108591,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788928449,
       "last": 1790100468,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "My Chemical Romance",
-      "title": "Planetary (GO!)",
-      "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-      "count": 7,
-      "first": 1788965302,
-      "last": 1790100041,
       "playlists": {
         "1default": 7
       }
@@ -1058,19 +1058,19 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 98,
+      "count": 99,
       "first": 1788910325,
-      "last": 1790108260,
+      "last": 1790108448,
       "songs": [
         {
           "artist": "Lil Darkie",
           "title": "wrap music",
           "album": "THIS DOES NOT EXIST",
-          "count": 8,
+          "count": 9,
           "first": 1789053695,
-          "last": 1789961515,
+          "last": 1790108448,
           "playlists": {
-            "1default": 8
+            "1default": 9
           }
         },
         {
@@ -5734,6 +5734,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THIS DOES NOT EXIST",
+      "count": 14,
+      "first": 1789053695,
+      "last": 1790108448,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "wrap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 9,
+          "first": 1789053695,
+          "last": 1790108448,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 5,
+          "first": 1789217995,
+          "last": 1789949141,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "album": "Stand Up",
       "count": 14,
@@ -6050,37 +6081,6 @@
           "last": 1789981080,
           "playlists": {
             "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THIS DOES NOT EXIST",
-      "count": 13,
-      "first": 1789053695,
-      "last": 1789961515,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 8,
-          "first": 1789053695,
-          "last": 1789961515,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 5,
-          "first": 1789217995,
-          "last": 1789949141,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -6722,9 +6722,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2455,
+      "count": 2457,
       "first": 1788901564,
-      "last": 1790108260,
+      "last": 1790108591,
       "songs": [
         {
           "artist": "Modest Mouse",
