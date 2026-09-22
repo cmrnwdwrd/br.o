@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T03:40:46.131121+00:00",
+  "updatedAt": "2026-09-22T03:45:37.448456+00:00",
   "summary": {
-    "totalPlays": 4909,
+    "totalPlays": 4911,
     "unknownPlays": 589,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790048296
+    "lastObserved": 1790048665
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1790016172,
       "playlists": {
         "breakbeat": 11
+      }
+    },
+    {
+      "artist": "Viagra Boys",
+      "title": "Worms",
+      "album": "Street Worms",
+      "count": 10,
+      "first": 1788991593,
+      "last": 1790048457,
+      "playlists": {
+        "1default": 10
       }
     },
     {
@@ -107,17 +118,6 @@
       "count": 9,
       "first": 1788996063,
       "last": 1790030941,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Viagra Boys",
-      "title": "Worms",
-      "album": "Street Worms",
-      "count": 9,
-      "first": 1788991593,
-      "last": 1790028525,
       "playlists": {
         "1default": 9
       }
@@ -285,6 +285,17 @@
       "last": 1789900209,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "N.E.R.D",
+      "title": "Run To The Sun",
+      "album": "In Search Of...",
+      "count": 7,
+      "first": 1788901564,
+      "last": 1790048665,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788990730,
       "last": 1790040655,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Saint Motel",
-      "title": "My Type",
-      "album": "My Type EP",
-      "count": 7,
-      "first": 1789032860,
-      "last": 1790040239,
       "playlists": {
         "1default": 7
       }
@@ -6546,6 +6546,26 @@
       ]
     },
     {
+      "artist": "Viagra Boys",
+      "album": "Street Worms",
+      "count": 10,
+      "first": 1788991593,
+      "last": 1790048457,
+      "songs": [
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 10,
+          "first": 1788991593,
+          "last": 1790048457,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Colfax Speed Queen",
       "album": "Satisfaction Intended",
       "count": 10,
@@ -6928,34 +6948,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "album": "MOP",
-      "count": 9,
-      "first": 1789063640,
-      "last": 1790044860,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 9,
-          "first": 1789063640,
-          "last": 1790044860,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2322,
+      "count": 2324,
       "first": 1788901564,
-      "last": 1790048296,
+      "last": 1790048665,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -6966,6 +6966,17 @@
           "last": 1790029105,
           "playlists": {
             "1default": 11
+          }
+        },
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 10,
+          "first": 1788991593,
+          "last": 1790048457,
+          "playlists": {
+            "1default": 10
           }
         },
         {
@@ -6997,17 +7008,6 @@
           "count": 10,
           "first": 1789034170,
           "last": 1790037508,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 10,
-          "first": 1788968149,
-          "last": 1789964305,
           "playlists": {
             "1default": 10
           }
