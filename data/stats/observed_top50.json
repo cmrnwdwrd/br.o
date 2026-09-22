@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T00:40:33.801883+00:00",
+  "updatedAt": "2026-09-22T00:45:34.698912+00:00",
   "summary": {
-    "totalPlays": 4860,
+    "totalPlays": 4861,
     "unknownPlays": 584,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790037508
+    "lastObserved": 1790037805
   },
   "topSongs": [
     {
@@ -241,6 +241,17 @@
       "last": 1789900209,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Tell Me That You Like It",
+      "album": "Tell Me That You Like It",
+      "count": 7,
+      "first": 1789050580,
+      "last": 1790037805,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788947810,
       "last": 1790022657,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Meeting House",
-      "title": "Black Clouds",
-      "album": "Couch Surfer",
-      "count": 7,
-      "first": 1789226222,
-      "last": 1790020376,
       "playlists": {
         "1default": 7
       }
@@ -2786,6 +2786,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 20,
+      "first": 1788917230,
+      "last": 1790037805,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 7,
+          "first": 1789050580,
+          "last": 1790037805,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 7,
+          "first": 1788917230,
+          "last": 1790027337,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 6,
+          "first": 1788970790,
+          "last": 1789957391,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ethel Cain",
       "count": 20,
       "first": 1789098981,
@@ -2844,47 +2885,6 @@
           "last": 1789798866,
           "playlists": {
             "for the girls driving 85": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 19,
-      "first": 1788917230,
-      "last": 1790027337,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 7,
-          "first": 1788917230,
-          "last": 1790027337,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 6,
-          "first": 1788970790,
-          "last": 1789957391,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 6,
-          "first": 1789050580,
-          "last": 1789941689,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -6953,9 +6953,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2273,
+      "count": 2274,
       "first": 1788901564,
-      "last": 1790037508,
+      "last": 1790037805,
       "songs": [
         {
           "artist": "Tele Novella",
