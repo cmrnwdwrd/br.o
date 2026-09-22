@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T01:00:39.230193+00:00",
+  "updatedAt": "2026-09-22T01:10:44.587634+00:00",
   "summary": {
-    "totalPlays": 4865,
+    "totalPlays": 4868,
     "unknownPlays": 585,
     "uniqueTracks": 1796,
     "uniqueArtists": 1195,
     "uniqueAlbums": 1488,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790038572
+    "lastObserved": 1790039266
   },
   "topSongs": [
     {
@@ -156,6 +156,17 @@
       }
     },
     {
+      "artist": "Of Monsters and Men",
+      "title": "Visitor",
+      "album": "Visitor",
+      "count": 8,
+      "first": 1788963370,
+      "last": 1790039266,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Daffo",
       "title": "Good God",
       "album": "Good God (Porches Remix)",
@@ -252,6 +263,17 @@
       "last": 1789900209,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 7,
+      "first": 1789064784,
+      "last": 1790038879,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 7,
       "first": 1788973066,
       "last": 1790025155,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "The Czars",
-      "title": "Drug",
-      "album": "Best Of",
-      "count": 7,
-      "first": 1789063847,
-      "last": 1790024717,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Billie Eilish",
-      "title": "NDA",
-      "album": "Happier Than Ever",
-      "count": 7,
-      "first": 1788989714,
-      "last": 1790024520,
       "playlists": {
         "1default": 7
       }
@@ -1841,10 +1841,21 @@
     },
     {
       "artist": "Opium",
-      "count": 49,
+      "count": 50,
       "first": 1788927400,
-      "last": 1790037100,
+      "last": 1790038879,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 7,
+          "first": 1789064784,
+          "last": 1790038879,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "Opium",
           "title": "Broken Glass",
@@ -1907,17 +1918,6 @@
           "count": 6,
           "first": 1789057319,
           "last": 1789942458,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 6,
-          "first": 1789064784,
-          "last": 1789936507,
           "playlists": {
             "1default": 6
           }
@@ -3292,6 +3292,47 @@
       ]
     },
     {
+      "artist": "Of Monsters and Men",
+      "count": 16,
+      "first": 1788963370,
+      "last": 1790039266,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 8,
+          "first": 1788963370,
+          "last": 1790039266,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 6,
+          "first": 1788991170,
+          "last": 1789866164,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 2,
+          "first": 1789156918,
+          "last": 1789163855,
+          "playlists": {
+            "escaping from cu boulder by giselle": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Brandywine",
       "count": 16,
       "first": 1788965930,
@@ -3328,47 +3369,6 @@
           "last": 1789894037,
           "playlists": {
             "1default": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 15,
-      "first": 1788963370,
-      "last": 1789978357,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 7,
-          "first": 1788963370,
-          "last": 1789978357,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 6,
-          "first": 1788991170,
-          "last": 1789866164,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 2,
-          "first": 1789156918,
-          "last": 1789163855,
-          "playlists": {
-            "escaping from cu boulder by giselle": 2
           }
         }
       ]
@@ -6942,9 +6942,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2278,
+      "count": 2281,
       "first": 1788901564,
-      "last": 1790038572,
+      "last": 1790039266,
       "songs": [
         {
           "artist": "Tele Novella",
