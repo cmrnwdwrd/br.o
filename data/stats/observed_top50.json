@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T17:35:45.074000+00:00",
+  "updatedAt": "2026-09-22T17:40:40.568421+00:00",
   "summary": {
-    "totalPlays": 5150,
+    "totalPlays": 5151,
     "unknownPlays": 619,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790098366
+    "lastObserved": 1790098582
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "Think Too Much",
+      "album": "Think Too Much",
+      "count": 7,
+      "first": 1788964420,
+      "last": 1790098582,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Spoon",
       "title": "No Bullets Spent",
       "album": "No Bullets Spent",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788927095,
       "last": 1790091037,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Yumi Zouma",
-      "title": "In Camera",
-      "album": "EP III",
-      "count": 7,
-      "first": 1789054681,
-      "last": 1790090287,
       "playlists": {
         "1default": 7
       }
@@ -1470,10 +1470,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 51,
+      "count": 52,
       "first": 1788902047,
-      "last": 1790085971,
+      "last": 1790098582,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Think Too Much",
+          "album": "Think Too Much",
+          "count": 7,
+          "first": 1788964420,
+          "last": 1790098582,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -1536,17 +1547,6 @@
           "count": 6,
           "first": 1788928852,
           "last": 1789965125,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Think Too Much",
-          "album": "Think Too Much",
-          "count": 6,
-          "first": 1788964420,
-          "last": 1789840860,
           "playlists": {
             "1default": 6
           }
@@ -6711,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2408,
+      "count": 2409,
       "first": 1788901564,
-      "last": 1790098366,
+      "last": 1790098582,
       "songs": [
         {
           "artist": "Modest Mouse",
