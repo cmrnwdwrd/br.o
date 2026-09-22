@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-22T23:25:36.913274+00:00",
+  "updatedAt": "2026-09-22T23:30:41.193190+00:00",
   "summary": {
-    "totalPlays": 5246,
+    "totalPlays": 5248,
     "unknownPlays": 630,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790119489
+    "lastObserved": 1790119741
   },
   "topSongs": [
+    {
+      "artist": "The Salesmen, Ike Spivak",
+      "title": "Happy Boy",
+      "album": "WAR IN COLORADO!",
+      "count": 11,
+      "first": 1788993017,
+      "last": 1790119741,
+      "playlists": {
+        "1default": 11
+      }
+    },
     {
       "artist": "George Harrison",
       "title": "I Dig Love (2020 Mix)",
@@ -107,17 +118,6 @@
       "count": 10,
       "first": 1788926155,
       "last": 1790040022,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "title": "Happy Boy",
-      "album": "WAR IN COLORADO!",
-      "count": 10,
-      "first": 1788993017,
-      "last": 1790038572,
       "playlists": {
         "1default": 10
       }
@@ -6411,6 +6411,26 @@
       ]
     },
     {
+      "artist": "The Salesmen, Ike Spivak",
+      "album": "WAR IN COLORADO!",
+      "count": 11,
+      "first": 1788993017,
+      "last": 1790119741,
+      "songs": [
+        {
+          "artist": "The Salesmen, Ike Spivak",
+          "title": "Happy Boy",
+          "album": "WAR IN COLORADO!",
+          "count": 11,
+          "first": 1788993017,
+          "last": 1790119741,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "George Harrison",
       "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
       "count": 11,
@@ -6675,57 +6695,26 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Chappell Roan",
-      "album": "The Rise and Fall of a Midwest Princess",
-      "count": 10,
-      "first": 1788973776,
-      "last": 1790087466,
-      "songs": [
-        {
-          "artist": "Chappell Roan",
-          "title": "My Kink Is Karma",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 6,
-          "first": 1788973776,
-          "last": 1790087466,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Super Graphic Ultra Modern Girl",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 3,
-          "first": 1789428359,
-          "last": 1789684405,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 3
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Pink Pony Club",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 1,
-          "first": 1789883353,
-          "last": 1789883353,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2484,
+      "count": 2485,
       "first": 1788901564,
-      "last": 1790119489,
+      "last": 1790119741,
       "songs": [
+        {
+          "artist": "The Salesmen, Ike Spivak",
+          "title": "Happy Boy",
+          "album": "WAR IN COLORADO!",
+          "count": 11,
+          "first": 1788993017,
+          "last": 1790119741,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "George Harrison",
           "title": "I Dig Love (2020 Mix)",
@@ -6766,17 +6755,6 @@
           "count": 11,
           "first": 1788968149,
           "last": 1790093086,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 11,
-          "first": 1788996940,
-          "last": 1790029105,
           "playlists": {
             "1default": 11
           }
@@ -7100,9 +7078,9 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 136,
+      "count": 137,
       "first": 1788904845,
-      "last": 1790119271,
+      "last": 1790119632,
       "songs": [
         {
           "artist": "SZA, Phoebe Bridgers",
