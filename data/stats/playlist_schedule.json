@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T23:00:40.493671+00:00",
+  "updatedAt": "2026-09-22T23:05:38.493104+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 190,
+    "sessionCount": 191,
     "firstObserved": 1788901564,
-    "lastObserved": 1790117755
+    "lastObserved": 1790118053
   },
   "playlists": [
     {
@@ -1251,12 +1251,12 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "sessionCount": 13,
-      "playCount": 145,
+      "sessionCount": 14,
+      "playCount": 147,
       "firstObserved": 1788991800,
-      "lastObserved": 1790114627,
-      "typicalStartMinute": 987,
-      "typicalDurationMinutes": 34,
+      "lastObserved": 1790118053,
+      "typicalStartMinute": 989,
+      "typicalDurationMinutes": 31,
       "confidence": "High",
       "heatmapMinutes": [
         [
@@ -1303,7 +1303,7 @@
           0.0,
           0.0,
           100.3,
-          24.4,
+          30.4,
           0.0,
           0.0,
           0.0,
@@ -1610,7 +1610,7 @@
           30.0,
           30.0,
           16.5,
-          11.5,
+          17.4,
           12.9,
           0.0,
           0.0,
@@ -2175,7 +2175,7 @@
           0,
           0,
           2,
-          1,
+          2,
           0,
           0,
           0,
@@ -2324,9 +2324,9 @@
         },
         {
           "weekday": 1,
-          "sessions": 3,
-          "typicalStartMinute": 983,
-          "typicalDurationMinutes": 48,
+          "sessions": 4,
+          "typicalStartMinute": 992,
+          "typicalDurationMinutes": 36,
           "confidence": "Medium"
         },
         {
@@ -2345,6 +2345,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790118053,
+          "end": 1790118408,
+          "durationMinutes": 6,
+          "playCount": 2
+        },
         {
           "start": 1790114627,
           "end": 1790117506,
