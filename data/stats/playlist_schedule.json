@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T22:00:39.529776+00:00",
+  "updatedAt": "2026-09-22T22:05:38.534408+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 187,
+    "sessionCount": 188,
     "firstObserved": 1788901564,
-    "lastObserved": 1790085746
+    "lastObserved": 1790114627
   },
   "playlists": [
     {
@@ -1251,12 +1251,12 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "sessionCount": 12,
-      "playCount": 130,
+      "sessionCount": 13,
+      "playCount": 131,
       "firstObserved": 1788991800,
-      "lastObserved": 1790029745,
-      "typicalStartMinute": 989,
-      "typicalDurationMinutes": 31,
+      "lastObserved": 1790114627,
+      "typicalStartMinute": 987,
+      "typicalDurationMinutes": 27,
       "confidence": "High",
       "heatmapMinutes": [
         [
@@ -1302,7 +1302,7 @@
           0.0,
           0.0,
           0.0,
-          52.3,
+          54.8,
           24.4,
           0.0,
           0.0,
@@ -1606,7 +1606,7 @@
           0.0,
           0.0,
           0.0,
-          12.6,
+          15.1,
           15.0,
           15.0,
           9.7,
@@ -2174,7 +2174,7 @@
           0,
           0,
           0,
-          1,
+          2,
           1,
           0,
           0,
@@ -2324,10 +2324,10 @@
         },
         {
           "weekday": 1,
-          "sessions": 2,
-          "typicalStartMinute": 992,
-          "typicalDurationMinutes": 38,
-          "confidence": "Low"
+          "sessions": 3,
+          "typicalStartMinute": 983,
+          "typicalDurationMinutes": 24,
+          "confidence": "Medium"
         },
         {
           "weekday": 2,
@@ -2345,6 +2345,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790114627,
+          "end": 1790114780,
+          "durationMinutes": 3,
+          "playCount": 1
+        },
         {
           "start": 1790029745,
           "end": 1790033495,
