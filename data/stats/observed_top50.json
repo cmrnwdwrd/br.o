@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T09:30:31.068406+00:00",
+  "updatedAt": "2026-09-23T09:35:45.687071+00:00",
   "summary": {
-    "totalPlays": 5422,
+    "totalPlays": 5425,
     "unknownPlays": 652,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790155745
+    "lastObserved": 1790156128
   },
   "topSongs": [
     {
@@ -233,6 +233,17 @@
       }
     },
     {
+      "artist": "Meeting House",
+      "title": "Black Clouds",
+      "album": "Couch Surfer",
+      "count": 8,
+      "first": 1789226222,
+      "last": 1790156128,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Joey Valence & Brae",
       "title": "THE BADDEST",
       "album": "NO HANDS",
@@ -329,6 +340,28 @@
       "last": 1789981933,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "Courtney Barnett",
+      "title": "Write A List of Things To Look Forward To",
+      "album": "Things Take Time, Take Time",
+      "count": 7,
+      "first": 1788913469,
+      "last": 1790155957,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
+      "artist": "Grace Ives",
+      "title": "Mirror",
+      "album": "2nd",
+      "count": 7,
+      "first": 1788972624,
+      "last": 1790155840,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -525,39 +558,6 @@
       "count": 7,
       "first": 1788904291,
       "last": 1790138645,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Mitski",
-      "title": "Should've Been Me",
-      "album": "Laurel Hell",
-      "count": 7,
-      "first": 1788920128,
-      "last": 1790138454,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Orion Sun",
-      "title": "Antidote",
-      "album": "A Collection of Fleeting Moments and Daydreams",
-      "count": 7,
-      "first": 1788987870,
-      "last": 1790138284,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Against Me!",
-      "title": "I Was a Teenage Anarchist",
-      "album": "White Crosses",
-      "count": 7,
-      "first": 1789059805,
-      "last": 1790138088,
       "playlists": {
         "1default": 7
       }
@@ -4167,6 +4167,36 @@
       ]
     },
     {
+      "artist": "Courtney Barnett",
+      "count": 13,
+      "first": 1788913469,
+      "last": 1790155957,
+      "songs": [
+        {
+          "artist": "Courtney Barnett",
+          "title": "Write A List of Things To Look Forward To",
+          "album": "Things Take Time, Take Time",
+          "count": 7,
+          "first": 1788913469,
+          "last": 1790155957,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Courtney Barnett",
+          "title": "Pedestrian at Best",
+          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
+          "count": 6,
+          "first": 1789215507,
+          "last": 1790135250,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "bastienGOAT",
       "count": 13,
       "first": 1788944435,
@@ -4252,36 +4282,6 @@
           "last": 1789722919,
           "playlists": {
             "breakbeat": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jay Som",
-      "count": 13,
-      "first": 1789069956,
-      "last": 1790131716,
-      "songs": [
-        {
-          "artist": "Jay Som",
-          "title": "Tenderness",
-          "album": "Anak Ko",
-          "count": 7,
-          "first": 1789235365,
-          "last": 1790041255,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Jay Som",
-          "title": "O.K., Meet Me Underwater",
-          "album": "Pirouette",
-          "count": 6,
-          "first": 1789069956,
-          "last": 1790131716,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -6700,9 +6700,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2570,
+      "count": 2573,
       "first": 1788901564,
-      "last": 1790147660,
+      "last": 1790156128,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
