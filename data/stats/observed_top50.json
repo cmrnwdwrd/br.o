@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T13:20:40.838372+00:00",
+  "updatedAt": "2026-09-23T13:25:47.150176+00:00",
   "summary": {
-    "totalPlays": 5486,
+    "totalPlays": 5487,
     "unknownPlays": 659,
-    "uniqueTracks": 1849,
+    "uniqueTracks": 1850,
     "uniqueArtists": 1224,
     "uniqueAlbums": 1532,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790169612
+    "lastObserved": 1790169792
   },
   "topSongs": [
     {
@@ -6889,10 +6889,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 268,
+      "count": 269,
       "first": 1788955289,
-      "last": 1790169612,
+      "last": 1790169792,
       "songs": [
+        {
+          "artist": "Houndmouth",
+          "title": "Sedona",
+          "album": "Little Neon Limelight",
+          "count": 1,
+          "first": 1790169792,
+          "last": 1790169792,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
         {
           "artist": "The Backseat Lovers",
           "title": "Davy Crochet",
@@ -6933,17 +6944,6 @@
           "count": 1,
           "first": 1790169011,
           "last": 1790169011,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "Grace Potter",
-          "title": "Something That I Want",
-          "album": "Tangled",
-          "count": 1,
-          "first": 1790168846,
-          "last": 1790168846,
           "playlists": {
             "carhartts": 1
           }
