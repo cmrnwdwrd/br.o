@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T02:50:47.559865+00:00",
+  "updatedAt": "2026-09-23T02:55:36.949893+00:00",
   "summary": {
-    "totalPlays": 5300,
+    "totalPlays": 5302,
     "unknownPlays": 637,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790131716
+    "lastObserved": 1790132129
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 7,
+      "first": 1788975084,
+      "last": 1790132129,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Royal Blood",
       "title": "Trouble's Coming",
       "album": "Trouble's Coming",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1789064997,
       "last": 1790125673,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Crying",
-      "title": "Bodega Run",
-      "album": "Get Olde / Second Wind",
-      "count": 7,
-      "first": 1788921148,
-      "last": 1790125058,
       "playlists": {
         "1default": 7
       }
@@ -3527,6 +3527,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 15,
+      "first": 1788919285,
+      "last": 1790132129,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 7,
+          "first": 1788975084,
+          "last": 1790132129,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 7,
+          "first": 1788919285,
+          "last": 1790107152,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 1,
+          "first": 1789893243,
+          "last": 1789893243,
+          "playlists": {
+            "christmas rn": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "count": 15,
       "first": 1788914259,
@@ -3831,47 +3872,6 @@
           "last": 1790099815,
           "playlists": {
             "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 14,
-      "first": 1788919285,
-      "last": 1790107152,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 7,
-          "first": 1788919285,
-          "last": 1790107152,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 6,
-          "first": 1788975084,
-          "last": 1790018793,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 1,
-          "first": 1789893243,
-          "last": 1789893243,
-          "playlists": {
-            "christmas rn": 1
           }
         }
       ]
@@ -6711,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2536,
+      "count": 2538,
       "first": 1788901564,
-      "last": 1790131716,
+      "last": 1790132129,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
