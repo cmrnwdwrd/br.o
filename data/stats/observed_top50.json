@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T03:25:42.754126+00:00",
+  "updatedAt": "2026-09-23T03:30:40.438283+00:00",
   "summary": {
-    "totalPlays": 5310,
+    "totalPlays": 5311,
     "unknownPlays": 638,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790133886
+    "lastObserved": 1790134075
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 7,
+      "first": 1788985030,
+      "last": 1790134075,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Phoebe Bridgers",
       "title": "Killer",
       "album": "Stranger in the Alps",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788946229,
       "last": 1790127031,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "S T A R V E",
-      "album": "PHANTOMS",
-      "count": 7,
-      "first": 1788927400,
-      "last": 1790126860,
       "playlists": {
         "1default": 7
       }
@@ -4107,6 +4107,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 13,
+      "first": 1788985030,
+      "last": 1790134075,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 7,
+          "first": 1788985030,
+          "last": 1790134075,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 6,
+          "first": 1788987870,
+          "last": 1790020620,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jay Som",
       "count": 13,
       "first": 1789069956,
@@ -4272,36 +4302,6 @@
           "count": 6,
           "first": 1789231311,
           "last": 1790090764,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "David Bowie",
-      "count": 13,
-      "first": 1788912385,
-      "last": 1790102026,
-      "songs": [
-        {
-          "artist": "David Bowie",
-          "title": "I'm Afraid of Americans (V1)",
-          "album": "Legacy (Deluxe Edition)",
-          "count": 7,
-          "first": 1788912385,
-          "last": 1790102026,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "David Bowie",
-          "title": "Rebel Rebel - 2016 Remaster",
-          "album": "Diamond Dogs (2016 Remaster)",
-          "count": 6,
-          "first": 1789129746,
-          "last": 1790090487,
           "playlists": {
             "1default": 6
           }
@@ -6700,9 +6700,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2546,
+      "count": 2547,
       "first": 1788901564,
-      "last": 1790133886,
+      "last": 1790134075,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
