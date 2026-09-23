@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T12:40:41.376398+00:00",
+  "updatedAt": "2026-09-23T12:45:43.621647+00:00",
   "summary": {
-    "totalPlays": 5476,
-    "unknownPlays": 657,
-    "uniqueTracks": 1839,
-    "uniqueArtists": 1218,
-    "uniqueAlbums": 1523,
+    "totalPlays": 5477,
+    "unknownPlays": 658,
+    "uniqueTracks": 1840,
+    "uniqueArtists": 1219,
+    "uniqueAlbums": 1524,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790167119
+    "lastObserved": 1790167405
   },
   "topSongs": [
     {
@@ -6889,10 +6889,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 258,
+      "count": 259,
       "first": 1788955289,
-      "last": 1790167119,
+      "last": 1790167405,
       "songs": [
+        {
+          "artist": "Mumford & Sons",
+          "title": "After the Storm",
+          "album": "Sigh No More",
+          "count": 1,
+          "first": 1790167405,
+          "last": 1790167405,
+          "playlists": {
+            "carhartts": 1
+          }
+        },
         {
           "artist": "My Brothers And I",
           "title": "Maddy Brown",
@@ -6933,17 +6944,6 @@
           "count": 1,
           "first": 1790166326,
           "last": 1790166326,
-          "playlists": {
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "flipturn",
-          "title": "Chicago",
-          "album": "Heavy Colors",
-          "count": 1,
-          "first": 1790166003,
-          "last": 1790166003,
           "playlists": {
             "carhartts": 1
           }
