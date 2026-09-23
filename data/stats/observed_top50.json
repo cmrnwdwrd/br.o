@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T22:15:51.184922+00:00",
+  "updatedAt": "2026-09-23T22:20:44.334538+00:00",
   "summary": {
-    "totalPlays": 5625,
+    "totalPlays": 5627,
     "unknownPlays": 676,
     "uniqueTracks": 1877,
     "uniqueArtists": 1237,
     "uniqueAlbums": 1556,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790201728
+    "lastObserved": 1790202015
   },
   "topSongs": [
     {
@@ -65,6 +65,17 @@
       "last": 1790130717,
       "playlists": {
         "breakbeat": 12
+      }
+    },
+    {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 11,
+      "first": 1789015368,
+      "last": 1790201820,
+      "playlists": {
+        "1default": 11
       }
     },
     {
@@ -140,17 +151,6 @@
       "count": 10,
       "first": 1789072780,
       "last": 1790135480,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 10,
-      "first": 1789015368,
-      "last": 1790132927,
       "playlists": {
         "1default": 10
       }
@@ -6443,6 +6443,26 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 11,
+      "first": 1789015368,
+      "last": 1790201820,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 11,
+          "first": 1789015368,
+          "last": 1790201820,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Chappell Roan",
       "album": "The Rise and Fall of a Midwest Princess",
       "count": 11,
@@ -6565,34 +6585,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "album": "WAR IN COLORADO!",
-      "count": 11,
-      "first": 1788993017,
-      "last": 1790119741,
-      "songs": [
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 11,
-          "first": 1788993017,
-          "last": 1790119741,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2678,
+      "count": 2679,
       "first": 1788901564,
-      "last": 1790201728,
+      "last": 1790201820,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -6639,12 +6639,12 @@
           }
         },
         {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
           "count": 11,
-          "first": 1788968644,
-          "last": 1790201728,
+          "first": 1789015368,
+          "last": 1790201820,
           "playlists": {
             "1default": 11
           }
@@ -6968,10 +6968,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 138,
+      "count": 139,
       "first": 1788904845,
-      "last": 1790201523,
+      "last": 1790202015,
       "songs": [
+        {
+          "artist": "Mothers",
+          "title": "It Hurts Until It Doesn't",
+          "album": "When You Walk A Long Distance You Are Tired",
+          "count": 5,
+          "first": 1788904845,
+          "last": 1790202015,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 5
+          }
+        },
         {
           "artist": "SZA, Phoebe Bridgers",
           "title": "Ghost in the Machine (feat. Phoebe Bridgers)",
@@ -7012,17 +7023,6 @@
           "count": 5,
           "first": 1788994345,
           "last": 1790118409,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 5
-          }
-        },
-        {
-          "artist": "The Crickets",
-          "title": "I Fought The Law",
-          "album": "In Style With The Crickets (Expanded Edition)",
-          "count": 5,
-          "first": 1788991998,
-          "last": 1790117087,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 5
           }
