@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T16:00:49.103610+00:00",
+  "updatedAt": "2026-09-23T16:05:42.438984+00:00",
   "summary": {
-    "totalPlays": 5524,
+    "totalPlays": 5525,
     "unknownPlays": 664,
     "uniqueTracks": 1857,
     "uniqueArtists": 1228,
     "uniqueAlbums": 1538,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790179068
+    "lastObserved": 1790179346
   },
   "topSongs": [
     {
@@ -365,6 +365,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Rainfall",
+      "album": "PHANTOMS",
+      "count": 7,
+      "first": 1789064095,
+      "last": 1790179346,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Madness",
       "title": "Our House",
       "album": "Madness",
@@ -549,17 +560,6 @@
       "last": 1790172659,
       "playlists": {
         "1default": 7
-      }
-    },
-    {
-      "artist": "Sarcastic Sounds",
-      "title": "I Don't Sleep",
-      "album": "I Don't Sleep",
-      "count": 7,
-      "first": 1788951075,
-      "last": 1790159462,
-      "playlists": {
-        "freestyle beats to crash your car to": 7
       }
     }
   ],
@@ -1470,10 +1470,21 @@
     },
     {
       "artist": "Opium",
-      "count": 54,
+      "count": 55,
       "first": 1788927400,
-      "last": 1790176051,
+      "last": 1790179346,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 7,
+          "first": 1789064095,
+          "last": 1790179346,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "Opium",
           "title": "Brainsick",
@@ -1547,17 +1558,6 @@
           "count": 6,
           "first": 1789109880,
           "last": 1790176051,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 6,
-          "first": 1789064095,
-          "last": 1789999248,
           "playlists": {
             "1default": 6
           }
@@ -4302,10 +4302,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 40,
+      "count": 41,
       "first": 1788927400,
-      "last": 1790176051,
+      "last": 1790179346,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 7,
+          "first": 1789064095,
+          "last": 1790179346,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "Opium",
           "title": "S T A R V E",
@@ -4357,17 +4368,6 @@
           "count": 6,
           "first": 1789109880,
           "last": 1790176051,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 6,
-          "first": 1789064095,
-          "last": 1789999248,
           "playlists": {
             "1default": 6
           }
@@ -6711,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2610,
+      "count": 2611,
       "first": 1788901564,
-      "last": 1790179068,
+      "last": 1790179346,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
