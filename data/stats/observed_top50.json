@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T21:30:44.828404+00:00",
+  "updatedAt": "2026-09-23T21:35:40.501750+00:00",
   "summary": {
-    "totalPlays": 5613,
+    "totalPlays": 5615,
     "unknownPlays": 675,
     "uniqueTracks": 1877,
     "uniqueArtists": 1237,
     "uniqueAlbums": 1556,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790198794
+    "lastObserved": 1790199333
   },
   "topSongs": [
     {
@@ -263,6 +263,17 @@
       "last": 1790023101,
       "playlists": {
         "1default": 9
+      }
+    },
+    {
+      "artist": "U2",
+      "title": "Pride (In The Name Of Love) - Remastered 2009",
+      "album": "The Unforgettable Fire (Remastered)",
+      "count": 8,
+      "first": 1788964687,
+      "last": 1790199333,
+      "playlists": {
+        "1default": 8
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788947559,
       "last": 1790180419,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Arlie",
-      "title": "didya think",
-      "album": "Wait",
-      "count": 8,
-      "first": 1788970349,
-      "last": 1790180218,
       "playlists": {
         "1default": 8
       }
@@ -3631,6 +3631,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 15,
+      "first": 1788921291,
+      "last": 1790199333,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 8,
+          "first": 1788964687,
+          "last": 1790199333,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 7,
+          "first": 1788921291,
+          "last": 1790174538,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 15,
       "first": 1788985030,
@@ -3918,6 +3948,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 14,
+      "first": 1788989714,
+      "last": 1790199086,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 7,
+          "first": 1789169386,
+          "last": 1790199086,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 7,
+          "first": 1788989714,
+          "last": 1790024520,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Crumb",
       "count": 14,
       "first": 1788983912,
@@ -4068,36 +4128,6 @@
       ]
     },
     {
-      "artist": "U2",
-      "count": 14,
-      "first": 1788921291,
-      "last": 1790174538,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 7,
-          "first": 1788921291,
-          "last": 1790174538,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 7,
-          "first": 1788964687,
-          "last": 1790101545,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
       "artist": "Against Me!",
       "count": 14,
       "first": 1788947810,
@@ -4151,36 +4181,6 @@
           "count": 7,
           "first": 1788914032,
           "last": 1790099815,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "count": 14,
-      "first": 1788947080,
-      "last": 1790092510,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 7,
-          "first": 1788947080,
-          "last": 1790092510,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 7,
-          "first": 1788968380,
-          "last": 1790049583,
           "playlists": {
             "1default": 7
           }
@@ -6590,9 +6590,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2667,
+      "count": 2669,
       "first": 1788901564,
-      "last": 1790198794,
+      "last": 1790199333,
       "songs": [
         {
           "artist": "Tele Novella",
