@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T02:17:13.695587+00:00",
+  "updatedAt": "2026-09-23T02:20:43.819151+00:00",
   "summary": {
-    "totalPlays": 5291,
+    "totalPlays": 5292,
     "unknownPlays": 636,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790129635
+    "lastObserved": 1790129876
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Knives",
+      "album": "Knives",
+      "count": 7,
+      "first": 1788973998,
+      "last": 1790129876,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Blue October",
       "title": "Into The Ocean",
       "album": "Foiled",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788967094,
       "last": 1790123161,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
-      "title": "Leave The Door Open",
-      "album": "Leave The Door Open",
-      "count": 7,
-      "first": 1789056336,
-      "last": 1790122863,
       "playlists": {
         "1default": 7
       }
@@ -3046,6 +3046,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 19,
+      "first": 1788973998,
+      "last": 1790129876,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 7,
+          "first": 1788973998,
+          "last": 1790129876,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 7,
+          "first": 1789033065,
+          "last": 1790037319,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 5,
+          "first": 1789226629,
+          "last": 1789962715,
+          "playlists": {
+            "1default": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 19,
       "first": 1788975620,
@@ -3287,47 +3328,6 @@
           "last": 1789931401,
           "playlists": {
             "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 18,
-      "first": 1788973998,
-      "last": 1790037319,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 7,
-          "first": 1789033065,
-          "last": 1790037319,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 6,
-          "first": 1788973998,
-          "last": 1789938340,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 5,
-          "first": 1789226629,
-          "last": 1789962715,
-          "playlists": {
-            "1default": 5
           }
         }
       ]
@@ -6711,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2528,
+      "count": 2529,
       "first": 1788901564,
-      "last": 1790129635,
+      "last": 1790129876,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
