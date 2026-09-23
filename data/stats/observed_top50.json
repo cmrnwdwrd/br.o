@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T20:05:42.961421+00:00",
+  "updatedAt": "2026-09-23T20:10:48.733345+00:00",
   "summary": {
-    "totalPlays": 5593,
+    "totalPlays": 5594,
     "unknownPlays": 672,
     "uniqueTracks": 1877,
     "uniqueArtists": 1237,
     "uniqueAlbums": 1556,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790193915
+    "lastObserved": 1790194252
   },
   "topSongs": [
+    {
+      "artist": "Tele Novella",
+      "title": "Funeral",
+      "album": "Poet's Tooth",
+      "count": 12,
+      "first": 1788996940,
+      "last": 1790194252,
+      "playlists": {
+        "1default": 12
+      }
+    },
     {
       "artist": "Metric",
       "title": "Dead Disco",
@@ -107,17 +118,6 @@
       "count": 11,
       "first": 1788968149,
       "last": 1790093086,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Tele Novella",
-      "title": "Funeral",
-      "album": "Poet's Tooth",
-      "count": 11,
-      "first": 1788996940,
-      "last": 1790029105,
       "playlists": {
         "1default": 11
       }
@@ -6133,6 +6133,26 @@
       ]
     },
     {
+      "artist": "Tele Novella",
+      "album": "Poet's Tooth",
+      "count": 12,
+      "first": 1788996940,
+      "last": 1790194252,
+      "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 12,
+          "first": 1788996940,
+          "last": 1790194252,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kasper Marott",
       "album": "Full Circle",
       "count": 12,
@@ -6565,35 +6585,26 @@
           }
         }
       ]
-    },
-    {
-      "artist": "George Harrison",
-      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-      "count": 11,
-      "first": 1789034170,
-      "last": 1790117755,
-      "songs": [
-        {
-          "artist": "George Harrison",
-          "title": "I Dig Love (2020 Mix)",
-          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-          "count": 11,
-          "first": 1789034170,
-          "last": 1790117755,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2647,
+      "count": 2648,
       "first": 1788901564,
-      "last": 1790193915,
+      "last": 1790194252,
       "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 12,
+          "first": 1788996940,
+          "last": 1790194252,
+          "playlists": {
+            "1default": 12
+          }
+        },
         {
           "artist": "Metric",
           "title": "Dead Disco",
@@ -6634,17 +6645,6 @@
           "count": 11,
           "first": 1789014862,
           "last": 1790180940,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 11,
-          "first": 1788993017,
-          "last": 1790119741,
           "playlists": {
             "1default": 11
           }
