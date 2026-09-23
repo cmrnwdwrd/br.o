@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T04:25:41.490944+00:00",
+  "updatedAt": "2026-09-23T04:30:40.288857+00:00",
   "summary": {
-    "totalPlays": 5327,
+    "totalPlays": 5329,
     "unknownPlays": 640,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790137293
+    "lastObserved": 1790137830
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "Say It Ain't So",
+      "album": "Weezer",
+      "count": 7,
+      "first": 1788946510,
+      "last": 1790137830,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
+      "artist": "St. Paul & The Broken Bones",
+      "title": "Apollo",
+      "album": "Young Sick Camellia",
+      "count": 7,
+      "first": 1788972025,
+      "last": 1790137547,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "The Czars",
       "title": "Paint the Moon",
       "album": "Best Of",
@@ -536,28 +558,6 @@
       "count": 7,
       "first": 1789033495,
       "last": 1790130547,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Radiohead",
-      "title": "Just",
-      "album": "The Bends",
-      "count": 7,
-      "first": 1788984450,
-      "last": 1790130312,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Alvvays",
-      "title": "Adult Diversion",
-      "album": "Alvvays",
-      "count": 7,
-      "first": 1789050335,
-      "last": 1790130100,
       "playlists": {
         "1default": 7
       }
@@ -2734,6 +2734,58 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 22,
+      "first": 1788946510,
+      "last": 1790137830,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 7,
+          "first": 1788946510,
+          "last": 1790137830,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 7,
+          "first": 1788974227,
+          "last": 1790134246,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 6,
+          "first": 1789142694,
+          "last": 1790121841,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 22,
       "first": 1788916461,
@@ -2781,58 +2833,6 @@
           "last": 1789784208,
           "playlists": {
             "d i n n e r": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 21,
-      "first": 1788946510,
-      "last": 1790134246,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 7,
-          "first": 1788974227,
-          "last": 1790134246,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 6,
-          "first": 1789142694,
-          "last": 1790121841,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 6,
-          "first": 1788946510,
-          "last": 1789896277,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1789150460,
-          "last": 1789758798,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
           }
         }
       ]
@@ -6700,9 +6700,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2563,
+      "count": 2565,
       "first": 1788901564,
-      "last": 1790137293,
+      "last": 1790137830,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
