@@ -1,24 +1,35 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T22:00:45.120472+00:00",
+  "updatedAt": "2026-09-23T22:05:40.462921+00:00",
   "summary": {
-    "totalPlays": 5620,
+    "totalPlays": 5622,
     "unknownPlays": 675,
     "uniqueTracks": 1877,
     "uniqueArtists": 1237,
     "uniqueAlbums": 1556,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790200626
+    "lastObserved": 1790201100
   },
   "topSongs": [
     {
       "artist": "Tele Novella",
       "title": "Funeral",
       "album": "Poet's Tooth",
-      "count": 12,
+      "count": 13,
       "first": 1788996940,
-      "last": 1790194252,
+      "last": 1790200872,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
+      "artist": "Destructo Disk",
+      "title": "I Wish I Was A Riot Grrrl",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 12,
+      "first": 1788996063,
+      "last": 1790201100,
       "playlists": {
         "1default": 12
       }
@@ -52,17 +63,6 @@
       "count": 11,
       "first": 1788926155,
       "last": 1790193695,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Destructo Disk",
-      "title": "I Wish I Was A Riot Grrrl",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 11,
-      "first": 1788996063,
-      "last": 1790184187,
       "playlists": {
         "1default": 11
       }
@@ -6040,6 +6040,26 @@
       ]
     },
     {
+      "artist": "Tele Novella",
+      "album": "Poet's Tooth",
+      "count": 13,
+      "first": 1788996940,
+      "last": 1790200872,
+      "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 13,
+          "first": 1788996940,
+          "last": 1790200872,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khadija Al Hanafi",
       "album": "Slime Patrol 2",
       "count": 13,
@@ -6133,19 +6153,19 @@
       ]
     },
     {
-      "artist": "Tele Novella",
-      "album": "Poet's Tooth",
+      "artist": "Destructo Disk",
+      "album": "Punk Rocks For Kids Who Can't Skate",
       "count": 12,
-      "first": 1788996940,
-      "last": 1790194252,
+      "first": 1788996063,
+      "last": 1790201100,
       "songs": [
         {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
           "count": 12,
-          "first": 1788996940,
-          "last": 1790194252,
+          "first": 1788996063,
+          "last": 1790201100,
           "playlists": {
             "1default": 12
           }
@@ -6423,26 +6443,6 @@
       ]
     },
     {
-      "artist": "Destructo Disk",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 11,
-      "first": 1788996063,
-      "last": 1790184187,
-      "songs": [
-        {
-          "artist": "Destructo Disk",
-          "title": "I Wish I Was A Riot Grrrl",
-          "album": "Punk Rocks For Kids Who Can't Skate",
-          "count": 11,
-          "first": 1788996063,
-          "last": 1790184187,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
-    },
-    {
       "artist": "Chappell Roan",
       "album": "The Rise and Fall of a Midwest Princess",
       "count": 11,
@@ -6590,17 +6590,28 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2674,
+      "count": 2676,
       "first": 1788901564,
-      "last": 1790200626,
+      "last": 1790201100,
       "songs": [
         {
           "artist": "Tele Novella",
           "title": "Funeral",
           "album": "Poet's Tooth",
-          "count": 12,
+          "count": 13,
           "first": 1788996940,
-          "last": 1790194252,
+          "last": 1790200872,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 12,
+          "first": 1788996063,
+          "last": 1790201100,
           "playlists": {
             "1default": 12
           }
@@ -6623,17 +6634,6 @@
           "count": 11,
           "first": 1788926155,
           "last": 1790193695,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Destructo Disk",
-          "title": "I Wish I Was A Riot Grrrl",
-          "album": "Punk Rocks For Kids Who Can't Skate",
-          "count": 11,
-          "first": 1788996063,
-          "last": 1790184187,
           "playlists": {
             "1default": 11
           }
