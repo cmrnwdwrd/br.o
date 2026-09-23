@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T04:30:40.288857+00:00",
+  "updatedAt": "2026-09-23T04:35:37.393426+00:00",
   "summary": {
-    "totalPlays": 5329,
+    "totalPlays": 5330,
     "unknownPlays": 640,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790137830
+    "lastObserved": 1790138088
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Against Me!",
+      "title": "I Was a Teenage Anarchist",
+      "album": "White Crosses",
+      "count": 7,
+      "first": 1789059805,
+      "last": 1790138088,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Weezer",
       "title": "Say It Ain't So",
       "album": "Weezer",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788917492,
       "last": 1790131014,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "SiR",
-      "title": "D'Evils",
-      "album": "November",
-      "count": 7,
-      "first": 1789033495,
-      "last": 1790130547,
       "playlists": {
         "1default": 7
       }
@@ -3817,6 +3817,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 14,
+      "first": 1788947810,
+      "last": 1790138088,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 7,
+          "first": 1789059805,
+          "last": 1790138088,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 7,
+          "first": 1788947810,
+          "last": 1790022657,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "count": 14,
       "first": 1788986736,
@@ -4274,36 +4304,6 @@
           "last": 1789865980,
           "playlists": {
             "texting your situationship": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 13,
-      "first": 1788986484,
-      "last": 1790109693,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 7,
-          "first": 1788986484,
-          "last": 1790109693,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 6,
-          "first": 1789231311,
-          "last": 1790090764,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -6700,9 +6700,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2565,
+      "count": 2566,
       "first": 1788901564,
-      "last": 1790137830,
+      "last": 1790138088,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
