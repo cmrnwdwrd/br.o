@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T02:45:42.244746+00:00",
+  "updatedAt": "2026-09-23T02:50:47.559865+00:00",
   "summary": {
-    "totalPlays": 5299,
+    "totalPlays": 5300,
     "unknownPlays": 637,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790131487
+    "lastObserved": 1790131716
   },
   "topSongs": [
     {
@@ -4107,6 +4107,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 13,
+      "first": 1789069956,
+      "last": 1790131716,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 7,
+          "first": 1789235365,
+          "last": 1790041255,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 6,
+          "first": 1789069956,
+          "last": 1790131716,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 13,
       "first": 1789061029,
@@ -4272,36 +4302,6 @@
           "count": 6,
           "first": 1789129746,
           "last": 1790090487,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 13,
-      "first": 1788921291,
-      "last": 1790101545,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 7,
-          "first": 1788964687,
-          "last": 1790101545,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 6,
-          "first": 1788921291,
-          "last": 1790000177,
           "playlists": {
             "1default": 6
           }
@@ -6711,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2535,
+      "count": 2536,
       "first": 1788901564,
-      "last": 1790131487,
+      "last": 1790131716,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
