@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T02:10:41.647781+00:00",
+  "updatedAt": "2026-09-23T02:16:26.023419+00:00",
   "summary": {
-    "totalPlays": 5289,
+    "totalPlays": 5291,
     "unknownPlays": 636,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790129255
+    "lastObserved": 1790129635
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Blue October",
+      "title": "Into The Ocean",
+      "album": "Foiled",
+      "count": 7,
+      "first": 1788970549,
+      "last": 1790129635,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "title": "Black Panther",
+      "album": "Black Panther The Album Music From And Inspired By",
+      "count": 7,
+      "first": 1789061029,
+      "last": 1790129504,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Alanis Morissette",
       "title": "You Oughta Know - 2015 Remaster",
       "album": "Jagged Little Pill (2015 Remaster)",
@@ -536,28 +558,6 @@
       "count": 7,
       "first": 1789056336,
       "last": 1790122863,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Chrissy",
-      "title": "Socks",
-      "album": "Socks",
-      "count": 7,
-      "first": 1789049635,
-      "last": 1790122692,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Bell X1",
-      "title": "The Great Defector",
-      "album": "Blue Lights on the Runway",
-      "count": 7,
-      "first": 1788927733,
-      "last": 1790122263,
       "playlists": {
         "1default": 7
       }
@@ -4107,6 +4107,47 @@
       ]
     },
     {
+      "artist": "Kendrick Lamar",
+      "count": 13,
+      "first": 1789061029,
+      "last": 1790129504,
+      "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Black Panther",
+          "album": "Black Panther The Album Music From And Inspired By",
+          "count": 7,
+          "first": 1789061029,
+          "last": 1790129504,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Alright",
+          "album": "To Pimp A Butterfly",
+          "count": 5,
+          "first": 1789221730,
+          "last": 1789940788,
+          "playlists": {
+            "1default": 5
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "HUMBLE.",
+          "album": "DAMN.",
+          "count": 1,
+          "first": 1789319672,
+          "last": 1789319672,
+          "playlists": {
+            "throwbacks": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Crumb",
       "count": 13,
       "first": 1788983912,
@@ -4261,36 +4302,6 @@
           "count": 6,
           "first": 1788921291,
           "last": 1790000177,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Beach Bunny",
-      "count": 13,
-      "first": 1788966457,
-      "last": 1790095343,
-      "songs": [
-        {
-          "artist": "Beach Bunny",
-          "title": "Oxygen",
-          "album": "Oxygen",
-          "count": 7,
-          "first": 1788966457,
-          "last": 1790091902,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Beach Bunny",
-          "title": "Entropy",
-          "album": "Emotional Creature",
-          "count": 6,
-          "first": 1789230720,
-          "last": 1790095343,
           "playlists": {
             "1default": 6
           }
@@ -6700,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2526,
+      "count": 2528,
       "first": 1788901564,
-      "last": 1790129255,
+      "last": 1790129635,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
