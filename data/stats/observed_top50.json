@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T03:30:40.438283+00:00",
+  "updatedAt": "2026-09-23T03:35:42.816470+00:00",
   "summary": {
-    "totalPlays": 5311,
+    "totalPlays": 5313,
     "unknownPlays": 638,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790134075
+    "lastObserved": 1790134427
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Hotel Ugly",
+      "title": "Shut up My Moms Calling",
+      "album": "Shut up My Moms Calling",
+      "count": 7,
+      "first": 1788969130,
+      "last": 1790134427,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
+      "artist": "Weezer",
+      "title": "The End of the Game",
+      "album": "The End of the Game",
+      "count": 7,
+      "first": 1788974227,
+      "last": 1790134246,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Orion Sun",
       "title": "Ne Me Quitte Pas (Don't Leave Me)",
       "album": "Hold Space For Me",
@@ -536,28 +558,6 @@
       "count": 7,
       "first": 1788926758,
       "last": 1790127522,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Mat Kerekes",
-      "title": "Diamonds",
-      "album": "Ruby",
-      "count": 7,
-      "first": 1788969737,
-      "last": 1790127314,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "Dancing With Demons",
-      "album": "Dancing With Demons",
-      "count": 7,
-      "first": 1788946229,
-      "last": 1790127031,
       "playlists": {
         "1default": 7
       }
@@ -2786,6 +2786,58 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 21,
+      "first": 1788946510,
+      "last": 1790134246,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 7,
+          "first": 1788974227,
+          "last": 1790134246,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 6,
+          "first": 1789142694,
+          "last": 1790121841,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 6,
+          "first": 1788946510,
+          "last": 1789896277,
+          "playlists": {
+            "1default": 6
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 21,
       "first": 1788973066,
@@ -3008,58 +3060,6 @@
           "last": 1790133120,
           "playlists": {
             "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 20,
-      "first": 1788946510,
-      "last": 1790121841,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 6,
-          "first": 1789142694,
-          "last": 1790121841,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 6,
-          "first": 1788974227,
-          "last": 1789957215,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 6,
-          "first": 1788946510,
-          "last": 1789896277,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1789150460,
-          "last": 1789758798,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
           }
         }
       ]
@@ -6700,9 +6700,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2547,
+      "count": 2549,
       "first": 1788901564,
-      "last": 1790134075,
+      "last": 1790134427,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
