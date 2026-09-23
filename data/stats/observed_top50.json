@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T19:50:33.386166+00:00",
+  "updatedAt": "2026-09-23T19:55:41.722800+00:00",
   "summary": {
-    "totalPlays": 5588,
+    "totalPlays": 5590,
     "unknownPlays": 672,
     "uniqueTracks": 1877,
     "uniqueArtists": 1237,
     "uniqueAlbums": 1556,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790192875
+    "lastObserved": 1790193267
   },
   "topSongs": [
     {
@@ -263,6 +263,17 @@
       "last": 1790023101,
       "playlists": {
         "1default": 9
+      }
+    },
+    {
+      "artist": "Mitski",
+      "title": "Love Me More",
+      "album": "Laurel Hell",
+      "count": 8,
+      "first": 1789055950,
+      "last": 1790193055,
+      "playlists": {
+        "1default": 8
       }
     },
     {
@@ -530,34 +541,23 @@
       }
     },
     {
+      "artist": "Anderson .Paak",
+      "title": "Lockdown",
+      "album": "Lockdown",
+      "count": 7,
+      "first": 1789225789,
+      "last": 1790193267,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Julia Jacklin",
       "title": "Pressure To Party",
       "album": "Crushing",
       "count": 7,
       "first": 1789235185,
       "last": 1790192875,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "DEAD (Yeah!)",
-      "album": "Dead",
-      "count": 7,
-      "first": 1789224883,
-      "last": 1790184913,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "quinnie",
-      "title": "touch tank",
-      "album": "touch tank",
-      "count": 7,
-      "first": 1789166137,
-      "last": 1790183549,
       "playlists": {
         "1default": 7
       }
@@ -1308,10 +1308,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 57,
+      "count": 58,
       "first": 1788920128,
-      "last": 1790182343,
+      "last": 1790193055,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 8,
+          "first": 1789055950,
+          "last": 1790193055,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
@@ -1321,17 +1332,6 @@
           "last": 1790182343,
           "playlists": {
             "1default": 8
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 7,
-          "first": 1789055950,
-          "last": 1790178496,
-          "playlists": {
-            "1default": 7
           }
         },
         {
@@ -5569,6 +5569,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 15,
+      "first": 1788920128,
+      "last": 1790193055,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 8,
+          "first": 1789055950,
+          "last": 1790193055,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 7,
+          "first": 1788920128,
+          "last": 1790138454,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "album": "Old World Underground, Where Are You Now?",
       "count": 15,
@@ -5796,37 +5827,6 @@
           "last": 1790112674,
           "playlists": {
             "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 14,
-      "first": 1788920128,
-      "last": 1790178496,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 7,
-          "first": 1789055950,
-          "last": 1790178496,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 7,
-          "first": 1788920128,
-          "last": 1790138454,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -6590,9 +6590,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2642,
+      "count": 2644,
       "first": 1788901564,
-      "last": 1790192875,
+      "last": 1790193267,
       "songs": [
         {
           "artist": "Metric",
