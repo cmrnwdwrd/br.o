@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T15:45:35.101207+00:00",
+  "updatedAt": "2026-09-23T15:50:41.206943+00:00",
   "summary": {
-    "totalPlays": 5520,
-    "unknownPlays": 663,
+    "totalPlays": 5521,
+    "unknownPlays": 664,
     "uniqueTracks": 1857,
     "uniqueArtists": 1228,
     "uniqueAlbums": 1538,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790178265
+    "lastObserved": 1790178496
   },
   "topSongs": [
     {
@@ -365,6 +365,17 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "Love Me More",
+      "album": "Laurel Hell",
+      "count": 7,
+      "first": 1789055950,
+      "last": 1790178496,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Yumi Zouma",
       "title": "Right Track / Wrong Man",
       "album": "Truth or Consequences",
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788967539,
       "last": 1790156815,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Courtney Barnett",
-      "title": "Write A List of Things To Look Forward To",
-      "album": "Things Take Time, Take Time",
-      "count": 7,
-      "first": 1788913469,
-      "last": 1790155957,
       "playlists": {
         "1default": 7
       }
@@ -1308,10 +1308,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 55,
+      "count": 56,
       "first": 1788920128,
-      "last": 1790138454,
+      "last": 1790178496,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 7,
+          "first": 1789055950,
+          "last": 1790178496,
+          "playlists": {
+            "1default": 7
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Should've Been Me",
@@ -1332,17 +1343,6 @@
           "last": 1790095206,
           "playlists": {
             "1default": 7
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 6,
-          "first": 1789055950,
-          "last": 1789934437,
-          "playlists": {
-            "1default": 6
           }
         },
         {
@@ -5849,6 +5849,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 14,
+      "first": 1788920128,
+      "last": 1790178496,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 7,
+          "first": 1789055950,
+          "last": 1790178496,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 7,
+          "first": 1788920128,
+          "last": 1790138454,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sophie Truax",
       "album": "Kissing With a Cavity",
       "count": 14,
@@ -6083,37 +6114,6 @@
           "last": 1790049583,
           "playlists": {
             "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 13,
-      "first": 1788920128,
-      "last": 1790138454,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 7,
-          "first": 1788920128,
-          "last": 1790138454,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 6,
-          "first": 1789055950,
-          "last": 1789934437,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -6711,9 +6711,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2606,
+      "count": 2607,
       "first": 1788901564,
-      "last": 1790178265,
+      "last": 1790178496,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
