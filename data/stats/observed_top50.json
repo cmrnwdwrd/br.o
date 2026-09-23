@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T16:50:30.593434+00:00",
+  "updatedAt": "2026-09-23T16:55:48.247104+00:00",
   "summary": {
-    "totalPlays": 5538,
-    "unknownPlays": 665,
+    "totalPlays": 5540,
+    "unknownPlays": 666,
     "uniqueTracks": 1857,
     "uniqueArtists": 1228,
     "uniqueAlbums": 1538,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790182090
+    "lastObserved": 1790182480
   },
   "topSongs": [
     {
@@ -244,6 +244,17 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "My Love Mine All Mine",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 8,
+      "first": 1789130394,
+      "last": 1790182343,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Tems, Brent Faiyaz",
       "title": "Found (feat. Brent Faiyaz)",
       "album": "Found (feat. Brent Faiyaz)",
@@ -442,6 +453,17 @@
       }
     },
     {
+      "artist": "Chillinit",
+      "title": "230 Pounds",
+      "album": "The Octagon (420 Deluxe)",
+      "count": 7,
+      "first": 1788988836,
+      "last": 1790182480,
+      "playlists": {
+        "1default": 7
+      }
+    },
+    {
       "artist": "Chappell Roan",
       "title": "My Kink Is Karma",
       "album": "The Rise and Fall of a Midwest Princess",
@@ -536,28 +558,6 @@
       "count": 7,
       "first": 1788928015,
       "last": 1790177632,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "King Fantastic",
-      "title": "Joshua Tree",
-      "album": "The Great Man Theory",
-      "count": 7,
-      "first": 1789061705,
-      "last": 1790177419,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Led Zeppelin",
-      "title": "Dazed and Confused - 1990 Remaster",
-      "album": "Led Zeppelin",
-      "count": 7,
-      "first": 1789062336,
-      "last": 1790176356,
       "playlists": {
         "1default": 7
       }
@@ -1308,10 +1308,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 56,
+      "count": 57,
       "first": 1788920128,
-      "last": 1790178496,
+      "last": 1790182343,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "My Love Mine All Mine",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 8,
+          "first": 1789130394,
+          "last": 1790182343,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Love Me More",
@@ -1330,17 +1341,6 @@
           "count": 7,
           "first": 1788920128,
           "last": 1790138454,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "My Love Mine All Mine",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 7,
-          "first": 1789130394,
-          "last": 1790095206,
           "playlists": {
             "1default": 7
           }
@@ -5098,6 +5098,70 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 21,
+      "first": 1789102597,
+      "last": 1790182343,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "My Love Mine All Mine",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 8,
+          "first": 1789130394,
+          "last": 1790182343,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Bug Like an Angel",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 4,
+          "first": 1789102597,
+          "last": 1789802402,
+          "playlists": {
+            "for the girls driving 85": 4
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Star",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 3,
+          "first": 1789192334,
+          "last": 1789797039,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Buffalo Replaced",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 3,
+          "first": 1789107530,
+          "last": 1789796155,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "The Frost",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 3,
+          "first": 1789105519,
+          "last": 1789795270,
+          "playlists": {
+            "for the girls driving 85": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "album": "Lick My Soul",
       "count": 20,
@@ -5219,70 +5283,6 @@
           "last": 1790096101,
           "playlists": {
             "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "The Land Is Inhospitable and So Are We",
-      "count": 20,
-      "first": 1789102597,
-      "last": 1790095206,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "My Love Mine All Mine",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 7,
-          "first": 1789130394,
-          "last": 1790095206,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Bug Like an Angel",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 4,
-          "first": 1789102597,
-          "last": 1789802402,
-          "playlists": {
-            "for the girls driving 85": 4
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Star",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 3,
-          "first": 1789192334,
-          "last": 1789797039,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Buffalo Replaced",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 3,
-          "first": 1789107530,
-          "last": 1789796155,
-          "playlists": {
-            "for the girls driving 85": 3
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "The Frost",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 3,
-          "first": 1789105519,
-          "last": 1789795270,
-          "playlists": {
-            "for the girls driving 85": 3
           }
         }
       ]
@@ -6700,9 +6700,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2624,
+      "count": 2626,
       "first": 1788901564,
-      "last": 1790182090,
+      "last": 1790182480,
       "songs": [
         {
           "artist": "CAKE",
