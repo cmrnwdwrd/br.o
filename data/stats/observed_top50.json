@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T22:30:47.248552+00:00",
+  "updatedAt": "2026-09-23T22:35:42.904822+00:00",
   "summary": {
-    "totalPlays": 5629,
+    "totalPlays": 5631,
     "unknownPlays": 676,
     "uniqueTracks": 1877,
     "uniqueArtists": 1237,
     "uniqueAlbums": 1556,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790202475
+    "lastObserved": 1790202851
   },
   "topSongs": [
     {
@@ -21,6 +21,17 @@
       "last": 1790200872,
       "playlists": {
         "1default": 13
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 12,
+      "first": 1789014862,
+      "last": 1790202851,
+      "playlists": {
+        "1default": 12
       }
     },
     {
@@ -96,17 +107,6 @@
       "count": 11,
       "first": 1788968644,
       "last": 1790201728,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 11,
-      "first": 1789014862,
-      "last": 1790180940,
       "playlists": {
         "1default": 11
       }
@@ -6184,6 +6184,26 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 12,
+      "first": 1789014862,
+      "last": 1790202851,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 12,
+          "first": 1789014862,
+          "last": 1790202851,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Colfax Speed Queen",
       "album": "Satisfaction Intended",
       "count": 12,
@@ -6505,26 +6525,6 @@
       ]
     },
     {
-      "artist": "CAKE",
-      "album": "Motorcade of Generosity",
-      "count": 11,
-      "first": 1789014862,
-      "last": 1790180940,
-      "songs": [
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 11,
-          "first": 1789014862,
-          "last": 1790180940,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
-    },
-    {
       "artist": "MIMIDEATH",
       "album": "FOAR EVERYWUN FRUM MIMI",
       "count": 11,
@@ -6590,9 +6590,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2680,
+      "count": 2681,
       "first": 1788901564,
-      "last": 1790202475,
+      "last": 1790202851,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -6603,6 +6603,17 @@
           "last": 1790200872,
           "playlists": {
             "1default": 13
+          }
+        },
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 12,
+          "first": 1789014862,
+          "last": 1790202851,
+          "playlists": {
+            "1default": 12
           }
         },
         {
@@ -6634,17 +6645,6 @@
           "count": 12,
           "first": 1788996063,
           "last": 1790201100,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 12,
-          "first": 1788986736,
-          "last": 1790183729,
           "playlists": {
             "1default": 12
           }
@@ -6968,10 +6968,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 140,
+      "count": 141,
       "first": 1788904845,
-      "last": 1790202347,
+      "last": 1790202705,
       "songs": [
+        {
+          "artist": "They Might Be Giants",
+          "title": "The Communists Have the Music",
+          "album": "The Communists Have the Music",
+          "count": 5,
+          "first": 1788995009,
+          "last": 1790202705,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 5
+          }
+        },
         {
           "artist": "Crywank",
           "title": "I Am Shit",
@@ -7012,17 +7023,6 @@
           "count": 5,
           "first": 1788993405,
           "last": 1790118750,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 5
-          }
-        },
-        {
-          "artist": "They Might Be Giants",
-          "title": "Birdhouse in Your Soul",
-          "album": "Flood",
-          "count": 5,
-          "first": 1788991800,
-          "last": 1790118556,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 5
           }
