@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T03:50:34.515957+00:00",
+  "updatedAt": "2026-09-23T03:55:40.968853+00:00",
   "summary": {
-    "totalPlays": 5318,
+    "totalPlays": 5320,
     "unknownPlays": 638,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790135250
+    "lastObserved": 1790135625
   },
   "topSongs": [
     {
@@ -90,6 +90,17 @@
       }
     },
     {
+      "artist": "Mommy Long Legs",
+      "title": "Weird Girl",
+      "album": "Assholes",
+      "count": 10,
+      "first": 1789072780,
+      "last": 1790135480,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Lush",
       "title": "Ladykillers",
       "album": "Lovelife",
@@ -151,17 +162,6 @@
       "count": 9,
       "first": 1788989320,
       "last": 1790124876,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Mommy Long Legs",
-      "title": "Weird Girl",
-      "album": "Assholes",
-      "count": 9,
-      "first": 1789072780,
-      "last": 1790119489,
       "playlists": {
         "1default": 9
       }
@@ -318,6 +318,17 @@
       "last": 1789981933,
       "playlists": {
         "1default": 8
+      }
+    },
+    {
+      "artist": "Twen",
+      "title": "One Stop Shop (For A Fading Revolution)",
+      "album": "One Stop Shop",
+      "count": 7,
+      "first": 1789056787,
+      "last": 1790135625,
+      "playlists": {
+        "1default": 7
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 7,
       "first": 1788966700,
       "last": 1790128798,
-      "playlists": {
-        "1default": 7
-      }
-    },
-    {
-      "artist": "Doja Cat",
-      "title": "Say So (MTV EMA 2020)",
-      "album": "",
-      "count": 7,
-      "first": 1788962794,
-      "last": 1790128165,
       "playlists": {
         "1default": 7
       }
@@ -6657,6 +6657,26 @@
       ]
     },
     {
+      "artist": "Mommy Long Legs",
+      "album": "Assholes",
+      "count": 10,
+      "first": 1789072780,
+      "last": 1790135480,
+      "songs": [
+        {
+          "artist": "Mommy Long Legs",
+          "title": "Weird Girl",
+          "album": "Assholes",
+          "count": 10,
+          "first": 1789072780,
+          "last": 1790135480,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lush",
       "album": "Lovelife",
       "count": 10,
@@ -6675,34 +6695,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Destructo Disk",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 10,
-      "first": 1788996063,
-      "last": 1790123800,
-      "songs": [
-        {
-          "artist": "Destructo Disk",
-          "title": "I Wish I Was A Riot Grrrl",
-          "album": "Punk Rocks For Kids Who Can't Skate",
-          "count": 10,
-          "first": 1788996063,
-          "last": 1790123800,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2554,
+      "count": 2556,
       "first": 1788901564,
-      "last": 1790135250,
+      "last": 1790135625,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
