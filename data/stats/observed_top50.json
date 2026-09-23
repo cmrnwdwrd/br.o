@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-23T00:50:45.366871+00:00",
+  "updatedAt": "2026-09-23T00:55:45.377750+00:00",
   "summary": {
-    "totalPlays": 5269,
+    "totalPlays": 5270,
     "unknownPlays": 633,
     "uniqueTracks": 1829,
     "uniqueArtists": 1213,
     "uniqueAlbums": 1515,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790124582
+    "lastObserved": 1790124876
   },
   "topSongs": [
     {
@@ -131,6 +131,17 @@
       "last": 1790040022,
       "playlists": {
         "1default": 10
+      }
+    },
+    {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 9,
+      "first": 1788989320,
+      "last": 1790124876,
+      "playlists": {
+        "1default": 9
       }
     },
     {
@@ -294,17 +305,6 @@
       "count": 8,
       "first": 1789078009,
       "last": 1789981933,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Traveling",
-      "album": "Young & Old",
-      "count": 8,
-      "first": 1788989320,
-      "last": 1789900209,
       "playlists": {
         "1default": 8
       }
@@ -2786,6 +2786,69 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "count": 21,
+      "first": 1788989320,
+      "last": 1790124876,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 9,
+          "first": 1788989320,
+          "last": 1790124876,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Need Your Love",
+          "album": "Swimmer",
+          "count": 7,
+          "first": 1789058225,
+          "last": 1790113524,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Tender as a Tomb",
+          "album": "Swimmer",
+          "count": 2,
+          "first": 1789253168,
+          "last": 1789858728,
+          "playlists": {
+            "landlockd surfrock": 2
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Seafarer",
+          "album": "Cape Dory",
+          "count": 2,
+          "first": 1789248601,
+          "last": 1789852572,
+          "playlists": {
+            "landlockd surfrock": 2
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Pigeon",
+          "album": "Cape Dory",
+          "count": 1,
+          "first": 1789854131,
+          "last": 1789854131,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 21,
       "first": 1788917230,
@@ -2874,69 +2937,6 @@
           "last": 1789758798,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tennis",
-      "count": 20,
-      "first": 1788989320,
-      "last": 1790113524,
-      "songs": [
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 8,
-          "first": 1788989320,
-          "last": 1789900209,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Need Your Love",
-          "album": "Swimmer",
-          "count": 7,
-          "first": 1789058225,
-          "last": 1790113524,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Tender as a Tomb",
-          "album": "Swimmer",
-          "count": 2,
-          "first": 1789253168,
-          "last": 1789858728,
-          "playlists": {
-            "landlockd surfrock": 2
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Seafarer",
-          "album": "Cape Dory",
-          "count": 2,
-          "first": 1789248601,
-          "last": 1789852572,
-          "playlists": {
-            "landlockd surfrock": 2
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Pigeon",
-          "album": "Cape Dory",
-          "count": 1,
-          "first": 1789854131,
-          "last": 1789854131,
-          "playlists": {
-            "landlockd surfrock": 1
           }
         }
       ]
@@ -6700,9 +6700,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2506,
+      "count": 2507,
       "first": 1788901564,
-      "last": 1790124582,
+      "last": 1790124876,
       "songs": [
         {
           "artist": "The Salesmen, Ike Spivak",
