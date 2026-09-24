@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T18:05:42.131414+00:00",
+  "updatedAt": "2026-09-24T18:10:52.193974+00:00",
   "summary": {
-    "totalPlays": 5939,
+    "totalPlays": 5941,
     "unknownPlays": 714,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790272900
+    "lastObserved": 1790273315
   },
   "topSongs": [
     {
@@ -310,6 +310,28 @@
       }
     },
     {
+      "artist": "NO CHANCE!",
+      "title": "I Wanna Be Your Man",
+      "album": "I Wanna Be Your Man",
+      "count": 8,
+      "first": 1788986942,
+      "last": 1790273315,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
+      "artist": "Kate Bollinger",
+      "title": "Talk About It",
+      "album": "Talk About It (B-Side)",
+      "count": 8,
+      "first": 1788983449,
+      "last": 1790273185,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Muse",
       "title": "Madness",
       "album": "The 2nd Law",
@@ -536,28 +558,6 @@
       "count": 8,
       "first": 1788927400,
       "last": 1790266279,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Ramones",
-      "title": "Blitzkrieg Bop - 2016 Remaster",
-      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-      "count": 8,
-      "first": 1788997171,
-      "last": 1790265735,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Delusional",
-      "album": "PHANTOMS",
-      "count": 8,
-      "first": 1789057319,
-      "last": 1790265277,
       "playlists": {
         "1default": 8
       }
@@ -3692,6 +3692,36 @@
       ]
     },
     {
+      "artist": "Kate Bollinger",
+      "count": 16,
+      "first": 1788915657,
+      "last": 1790273185,
+      "songs": [
+        {
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 8,
+          "first": 1788983449,
+          "last": 1790273185,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 8,
+          "first": 1788915657,
+          "last": 1790221950,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 16,
       "first": 1788947810,
@@ -4207,36 +4237,6 @@
           "last": 1790234922,
           "playlists": {
             "breakbeat": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kate Bollinger",
-      "count": 15,
-      "first": 1788915657,
-      "last": 1790221950,
-      "songs": [
-        {
-          "artist": "Kate Bollinger",
-          "title": "A Couple Things",
-          "album": "A word becomes a sound",
-          "count": 8,
-          "first": 1788915657,
-          "last": 1790221950,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Kate Bollinger",
-          "title": "Talk About It",
-          "album": "Talk About It (B-Side)",
-          "count": 7,
-          "first": 1788983449,
-          "last": 1790086975,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -6729,9 +6729,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2771,
+      "count": 2773,
       "first": 1788901564,
-      "last": 1790272900,
+      "last": 1790273315,
       "songs": [
         {
           "artist": "Modest Mouse",
