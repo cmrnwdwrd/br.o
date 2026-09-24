@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T19:46:11.251482+00:00",
+  "updatedAt": "2026-09-24T19:50:47.624919+00:00",
   "summary": {
-    "totalPlays": 5968,
+    "totalPlays": 5969,
     "unknownPlays": 718,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790279065
+    "lastObserved": 1790279283
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "The Czars",
+      "title": "Paint the Moon",
+      "album": "Best Of",
+      "count": 8,
+      "first": 1789015116,
+      "last": 1790279283,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Cage The Elephant",
       "title": "Social Cues",
       "album": "Social Cues",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788920439,
       "last": 1790272900,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Doechii",
-      "title": "BULLFROG",
-      "album": "Alligator Bites Never Heal",
-      "count": 8,
-      "first": 1788946771,
-      "last": 1790272809,
       "playlists": {
         "1default": 8
       }
@@ -2042,10 +2042,21 @@
     },
     {
       "artist": "The Czars",
-      "count": 40,
+      "count": 41,
       "first": 1788963949,
-      "last": 1790197002,
+      "last": 1790279283,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 8,
+          "first": 1789015116,
+          "last": 1790279283,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Song to the Siren",
@@ -2064,17 +2075,6 @@
           "count": 7,
           "first": 1789324379,
           "last": 1790194483,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 7,
-          "first": 1789015116,
-          "last": 1790137293,
           "playlists": {
             "1default": 7
           }
@@ -4426,10 +4426,21 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 40,
+      "count": 41,
       "first": 1788963949,
-      "last": 1790197002,
+      "last": 1790279283,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 8,
+          "first": 1789015116,
+          "last": 1790279283,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Song to the Siren",
@@ -4448,17 +4459,6 @@
           "count": 7,
           "first": 1789324379,
           "last": 1790194483,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 7,
-          "first": 1789015116,
-          "last": 1790137293,
           "playlists": {
             "1default": 7
           }
@@ -6729,9 +6729,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2800,
+      "count": 2801,
       "first": 1788901564,
-      "last": 1790279065,
+      "last": 1790279283,
       "songs": [
         {
           "artist": "Modest Mouse",
