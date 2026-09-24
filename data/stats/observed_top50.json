@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T17:50:46.319764+00:00",
+  "updatedAt": "2026-09-24T17:55:38.604915+00:00",
   "summary": {
-    "totalPlays": 5935,
-    "unknownPlays": 713,
+    "totalPlays": 5936,
+    "unknownPlays": 714,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790272043
+    "lastObserved": 1790272485
   },
   "topSongs": [
     {
@@ -156,6 +156,17 @@
       }
     },
     {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 10,
+      "first": 1788989320,
+      "last": 1790272485,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "The Chats",
       "title": "Smoko",
       "album": "Get This In Ya",
@@ -228,17 +239,6 @@
       "count": 9,
       "first": 1788925926,
       "last": 1790183131,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Traveling",
-      "album": "Young & Old",
-      "count": 9,
-      "first": 1788989320,
-      "last": 1790124876,
       "playlists": {
         "1default": 9
       }
@@ -2847,6 +2847,69 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "count": 22,
+      "first": 1788989320,
+      "last": 1790272485,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 10,
+          "first": 1788989320,
+          "last": 1790272485,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Need Your Love",
+          "album": "Swimmer",
+          "count": 7,
+          "first": 1789058225,
+          "last": 1790113524,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Tender as a Tomb",
+          "album": "Swimmer",
+          "count": 2,
+          "first": 1789253168,
+          "last": 1789858728,
+          "playlists": {
+            "landlockd surfrock": 2
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Seafarer",
+          "album": "Cape Dory",
+          "count": 2,
+          "first": 1789248601,
+          "last": 1789852572,
+          "playlists": {
+            "landlockd surfrock": 2
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Pigeon",
+          "album": "Cape Dory",
+          "count": 1,
+          "first": 1789854131,
+          "last": 1789854131,
+          "playlists": {
+            "landlockd surfrock": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 22,
       "first": 1788965724,
@@ -3058,69 +3121,6 @@
           "last": 1790089332,
           "playlists": {
             "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tennis",
-      "count": 21,
-      "first": 1788989320,
-      "last": 1790124876,
-      "songs": [
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 9,
-          "first": 1788989320,
-          "last": 1790124876,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Need Your Love",
-          "album": "Swimmer",
-          "count": 7,
-          "first": 1789058225,
-          "last": 1790113524,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Tender as a Tomb",
-          "album": "Swimmer",
-          "count": 2,
-          "first": 1789253168,
-          "last": 1789858728,
-          "playlists": {
-            "landlockd surfrock": 2
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Seafarer",
-          "album": "Cape Dory",
-          "count": 2,
-          "first": 1789248601,
-          "last": 1789852572,
-          "playlists": {
-            "landlockd surfrock": 2
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Pigeon",
-          "album": "Cape Dory",
-          "count": 1,
-          "first": 1789854131,
-          "last": 1789854131,
-          "playlists": {
-            "landlockd surfrock": 1
           }
         }
       ]
@@ -6729,9 +6729,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2767,
+      "count": 2768,
       "first": 1788901564,
-      "last": 1790272043,
+      "last": 1790272485,
       "songs": [
         {
           "artist": "Modest Mouse",
