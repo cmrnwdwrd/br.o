@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T15:50:46.047943+00:00",
+  "updatedAt": "2026-09-24T15:55:43.603723+00:00",
   "summary": {
-    "totalPlays": 5901,
+    "totalPlays": 5902,
     "unknownPlays": 710,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790265035
+    "lastObserved": 1790265277
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Delusional",
+      "album": "PHANTOMS",
+      "count": 8,
+      "first": 1789057319,
+      "last": 1790265277,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "Junkyard Dog",
       "album": "1's a Man, 3's a Band",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788942445,
       "last": 1790238930,
-      "playlists": {
-        "breakbeat": 8
-      }
-    },
-    {
-      "artist": "AZALI",
-      "title": "EVE'S ALTER EGO",
-      "album": "Voices From the True World",
-      "count": 8,
-      "first": 1788941969,
-      "last": 1790238654,
       "playlists": {
         "breakbeat": 8
       }
@@ -1946,10 +1946,21 @@
     },
     {
       "artist": "Opium",
-      "count": 55,
+      "count": 56,
       "first": 1788927400,
-      "last": 1790179346,
+      "last": 1790265277,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 8,
+          "first": 1789057319,
+          "last": 1790265277,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Opium",
           "title": "Rainfall",
@@ -1979,17 +1990,6 @@
           "count": 7,
           "first": 1788927400,
           "last": 1790126860,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 7,
-          "first": 1789057319,
-          "last": 1790046651,
           "playlists": {
             "1default": 7
           }
@@ -4373,10 +4373,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 41,
+      "count": 42,
       "first": 1788927400,
-      "last": 1790179346,
+      "last": 1790265277,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 8,
+          "first": 1789057319,
+          "last": 1790265277,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Opium",
           "title": "Rainfall",
@@ -4395,17 +4406,6 @@
           "count": 7,
           "first": 1788927400,
           "last": 1790126860,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 7,
-          "first": 1789057319,
-          "last": 1790046651,
           "playlists": {
             "1default": 7
           }
@@ -6784,9 +6784,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2733,
+      "count": 2734,
       "first": 1788901564,
-      "last": 1790265035,
+      "last": 1790265277,
       "songs": [
         {
           "artist": "Tele Novella",
