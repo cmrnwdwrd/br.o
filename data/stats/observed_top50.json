@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T19:20:46.383776+00:00",
+  "updatedAt": "2026-09-24T19:25:43.888915+00:00",
   "summary": {
-    "totalPlays": 5961,
+    "totalPlays": 5962,
     "unknownPlays": 717,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790277570
+    "lastObserved": 1790277839
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Tell Me That You Like It",
+      "album": "Tell Me That You Like It",
+      "count": 8,
+      "first": 1789050580,
+      "last": 1790277839,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Rainfall",
       "album": "PHANTOMS",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1789061533,
       "last": 1790270995,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Salt-N-Pepa",
-      "title": "Shoop",
-      "album": "Very Necessary",
-      "count": 8,
-      "first": 1788903124,
-      "last": 1790270558,
       "playlists": {
         "1default": 8
       }
@@ -2910,6 +2910,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 22,
+      "first": 1788917230,
+      "last": 1790277839,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 8,
+          "first": 1789050580,
+          "last": 1790277839,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 7,
+          "first": 1788970790,
+          "last": 1790103933,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 7,
+          "first": 1788917230,
+          "last": 1790027337,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 22,
       "first": 1788947368,
@@ -3121,47 +3162,6 @@
           "last": 1789134054,
           "playlists": {
             "hyperpop friday morning": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 21,
-      "first": 1788917230,
-      "last": 1790103933,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 7,
-          "first": 1788970790,
-          "last": 1790103933,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 7,
-          "first": 1789050580,
-          "last": 1790037805,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 7,
-          "first": 1788917230,
-          "last": 1790027337,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -6729,9 +6729,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2793,
+      "count": 2794,
       "first": 1788901564,
-      "last": 1790277570,
+      "last": 1790277839,
       "songs": [
         {
           "artist": "Modest Mouse",
