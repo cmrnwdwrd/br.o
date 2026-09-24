@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T17:00:46.460079+00:00",
+  "updatedAt": "2026-09-24T17:05:45.161252+00:00",
   "summary": {
-    "totalPlays": 5920,
-    "unknownPlays": 711,
+    "totalPlays": 5921,
+    "unknownPlays": 712,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790269135
+    "lastObserved": 1790269412
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "Against Me!",
+      "title": "Baby, I'm an Anarchist!",
+      "album": "Reinventing Axl Rose",
+      "count": 8,
+      "first": 1788947810,
+      "last": 1790269412,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "title": "Lava Lamp Pisco",
       "album": "Lava Lamp Pisco",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788970549,
       "last": 1790258591,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Lucius",
-      "title": "Old Tape (feat. Adam Granduciel) - Single Edit",
-      "album": "Old Tape (feat. Adam Granduciel)",
-      "count": 8,
-      "first": 1788912648,
-      "last": 1790243125,
       "playlists": {
         "1default": 8
       }
@@ -3640,6 +3640,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 16,
+      "first": 1788947810,
+      "last": 1790269412,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 8,
+          "first": 1788947810,
+          "last": 1790269412,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 8,
+          "first": 1789059805,
+          "last": 1790221756,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 16,
       "first": 1788919285,
@@ -4175,36 +4205,6 @@
           "count": 7,
           "first": 1788983449,
           "last": 1790086975,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 15,
-      "first": 1788947810,
-      "last": 1790221756,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 8,
-          "first": 1789059805,
-          "last": 1790221756,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 7,
-          "first": 1788947810,
-          "last": 1790022657,
           "playlists": {
             "1default": 7
           }
@@ -6729,9 +6729,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2752,
+      "count": 2753,
       "first": 1788901564,
-      "last": 1790269135,
+      "last": 1790269412,
       "songs": [
         {
           "artist": "Tele Novella",
