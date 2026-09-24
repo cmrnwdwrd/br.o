@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T15:40:51.824796+00:00",
+  "updatedAt": "2026-09-24T15:45:43.846442+00:00",
   "summary": {
-    "totalPlays": 5898,
-    "unknownPlays": 708,
+    "totalPlays": 5899,
+    "unknownPlays": 709,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790264293
+    "lastObserved": 1790264534
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Ribs",
+      "album": "Pure Heroine",
+      "count": 8,
+      "first": 1789222724,
+      "last": 1790264534,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "The Presidents Of The United States Of America",
       "title": "Lump",
       "album": "The Presidents of The United States of America: Ten Year Super Bonus Special Anniversary Edition",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1789031335,
       "last": 1790237593,
-      "playlists": {
-        "breakbeat": 8
-      }
-    },
-    {
-      "artist": "noelleallowed",
-      "title": "roomscan",
-      "album": "Greatest Hits... TWO!",
-      "count": 8,
-      "first": 1788939810,
-      "last": 1790237506,
       "playlists": {
         "breakbeat": 8
       }
@@ -3640,6 +3640,36 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 16,
+      "first": 1788914032,
+      "last": 1790264534,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 8,
+          "first": 1789222724,
+          "last": 1790264534,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 8,
+          "first": 1788914032,
+          "last": 1790222565,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Cemetery Drive",
       "count": 16,
       "first": 1789051357,
@@ -4016,36 +4046,6 @@
           "last": 1790234922,
           "playlists": {
             "breakbeat": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 15,
-      "first": 1788914032,
-      "last": 1790222565,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 8,
-          "first": 1788914032,
-          "last": 1790222565,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 7,
-          "first": 1789222724,
-          "last": 1790111545,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -6784,9 +6784,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2730,
+      "count": 2731,
       "first": 1788901564,
-      "last": 1790264293,
+      "last": 1790264534,
       "songs": [
         {
           "artist": "Tele Novella",
