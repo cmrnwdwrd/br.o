@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T19:05:32.368644+00:00",
+  "updatedAt": "2026-09-24T19:10:39.382407+00:00",
   "summary": {
-    "totalPlays": 5957,
+    "totalPlays": 5958,
     "unknownPlays": 716,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790276647
+    "lastObserved": 1790276905
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "Beach Bunny",
+      "title": "Oxygen",
+      "album": "Oxygen",
+      "count": 8,
+      "first": 1788966457,
+      "last": 1790276905,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Mosie",
       "title": "Oh! Frenchy",
       "album": "Oh! Frenchy",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788987745,
       "last": 1790269802,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Against Me!",
-      "title": "Baby, I'm an Anarchist!",
-      "album": "Reinventing Axl Rose",
-      "count": 8,
-      "first": 1788947810,
-      "last": 1790269412,
       "playlists": {
         "1default": 8
       }
@@ -4021,6 +4021,36 @@
       ]
     },
     {
+      "artist": "Beach Bunny",
+      "count": 15,
+      "first": 1788966457,
+      "last": 1790276905,
+      "songs": [
+        {
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 8,
+          "first": 1788966457,
+          "last": 1790276905,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Entropy",
+          "album": "Emotional Creature",
+          "count": 7,
+          "first": 1789230720,
+          "last": 1790267990,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Barrie",
       "count": 15,
       "first": 1788912861,
@@ -4237,36 +4267,6 @@
           "last": 1790234922,
           "playlists": {
             "breakbeat": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 15,
-      "first": 1788921291,
-      "last": 1790199333,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 8,
-          "first": 1788964687,
-          "last": 1790199333,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 7,
-          "first": 1788921291,
-          "last": 1790174538,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -6729,9 +6729,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2789,
+      "count": 2790,
       "first": 1788901564,
-      "last": 1790276647,
+      "last": 1790276905,
       "songs": [
         {
           "artist": "Modest Mouse",
