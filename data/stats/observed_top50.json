@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T22:10:50.949708+00:00",
+  "updatedAt": "2026-09-24T22:15:47.619230+00:00",
   "summary": {
-    "totalPlays": 6006,
-    "unknownPlays": 722,
+    "totalPlays": 6008,
+    "unknownPlays": 723,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790287725
+    "lastObserved": 1790288126
   },
   "topSongs": [
     {
@@ -21,6 +21,17 @@
       "last": 1790239446,
       "playlists": {
         "breakbeat": 14
+      }
+    },
+    {
+      "artist": "Metric",
+      "title": "Dead Disco",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 13,
+      "first": 1788986736,
+      "last": 1790288126,
+      "playlists": {
+        "1default": 13
       }
     },
     {
@@ -43,6 +54,17 @@
       "last": 1790200872,
       "playlists": {
         "1default": 13
+      }
+    },
+    {
+      "artist": "Mommy Long Legs",
+      "title": "Weird Girl",
+      "album": "Assholes",
+      "count": 12,
+      "first": 1789072780,
+      "last": 1790287931,
+      "playlists": {
+        "1default": 12
       }
     },
     {
@@ -101,34 +123,12 @@
       }
     },
     {
-      "artist": "Metric",
-      "title": "Dead Disco",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 12,
-      "first": 1788986736,
-      "last": 1790183729,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
       "artist": "The Chats",
       "title": "Smoko",
       "album": "Get This In Ya",
       "count": 11,
       "first": 1789078009,
       "last": 1790284597,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Mommy Long Legs",
-      "title": "Weird Girl",
-      "album": "Assholes",
-      "count": 11,
-      "first": 1789072780,
-      "last": 1790224811,
       "playlists": {
         "1default": 11
       }
@@ -3692,6 +3692,36 @@
       ]
     },
     {
+      "artist": "Metric",
+      "count": 16,
+      "first": 1788986736,
+      "last": 1790288126,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 13,
+          "first": 1788986736,
+          "last": 1790288126,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 3,
+          "first": 1789258725,
+          "last": 1789882590,
+          "playlists": {
+            "sad girl no friends saturday": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kate Bollinger",
       "count": 16,
       "first": 1788915657,
@@ -4237,36 +4267,6 @@
           "last": 1789762855,
           "playlists": {
             "escaping from cu boulder by giselle": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kasper Marott",
-      "count": 15,
-      "first": 1788941505,
-      "last": 1790240830,
-      "songs": [
-        {
-          "artist": "Kasper Marott",
-          "title": "Mere",
-          "album": "Full Circle",
-          "count": 8,
-          "first": 1788941505,
-          "last": 1790240527,
-          "playlists": {
-            "breakbeat": 8
-          }
-        },
-        {
-          "artist": "Kasper Marott",
-          "title": "Pling",
-          "album": "Full Circle",
-          "count": 7,
-          "first": 1789018934,
-          "last": 1790240830,
-          "playlists": {
-            "breakbeat": 7
           }
         }
       ]
@@ -5516,6 +5516,37 @@
       ]
     },
     {
+      "artist": "Metric",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 16,
+      "first": 1788986736,
+      "last": 1790288126,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 13,
+          "first": 1788986736,
+          "last": 1790288126,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 3,
+          "first": 1789258725,
+          "last": 1789882590,
+          "playlists": {
+            "sad girl no friends saturday": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "a machine as big as a city with a concert at the center",
       "count": 16,
@@ -5951,37 +5982,6 @@
           "last": 1790232415,
           "playlists": {
             "breakbeat": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 15,
-      "first": 1788986736,
-      "last": 1790183729,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 12,
-          "first": 1788986736,
-          "last": 1790183729,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 3,
-          "first": 1789258725,
-          "last": 1789882590,
-          "playlists": {
-            "sad girl no friends saturday": 3
           }
         }
       ]
@@ -6520,6 +6520,26 @@
       ]
     },
     {
+      "artist": "Mommy Long Legs",
+      "album": "Assholes",
+      "count": 12,
+      "first": 1789072780,
+      "last": 1790287931,
+      "songs": [
+        {
+          "artist": "Mommy Long Legs",
+          "title": "Weird Girl",
+          "album": "Assholes",
+          "count": 12,
+          "first": 1789072780,
+          "last": 1790287931,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Viagra Boys",
       "album": "Street Worms",
       "count": 12,
@@ -6671,46 +6691,26 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 12,
-      "first": 1789166634,
-      "last": 1790132552,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 6,
-          "first": 1789166634,
-          "last": 1790132552,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 6,
-          "first": 1789167660,
-          "last": 1790026956,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2836,
+      "count": 2838,
       "first": 1788901564,
-      "last": 1790287725,
+      "last": 1790288126,
       "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 13,
+          "first": 1788986736,
+          "last": 1790288126,
+          "playlists": {
+            "1default": 13
+          }
+        },
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
@@ -6734,34 +6734,23 @@
           }
         },
         {
+          "artist": "Mommy Long Legs",
+          "title": "Weird Girl",
+          "album": "Assholes",
+          "count": 12,
+          "first": 1789072780,
+          "last": 1790287931,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
           "artist": "Viagra Boys",
           "title": "Worms",
           "album": "Street Worms",
           "count": 12,
           "first": 1788991593,
           "last": 1790287725,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 12,
-          "first": 1788968644,
-          "last": 1790276555,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 12,
-          "first": 1789014862,
-          "last": 1790202851,
           "playlists": {
             "1default": 12
           }
