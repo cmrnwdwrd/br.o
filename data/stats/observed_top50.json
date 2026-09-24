@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T09:40:43.765420+00:00",
+  "updatedAt": "2026-09-24T09:45:32.370186+00:00",
   "summary": {
-    "totalPlays": 5799,
+    "totalPlays": 5801,
     "unknownPlays": 697,
     "uniqueTracks": 1880,
     "uniqueArtists": 1238,
     "uniqueAlbums": 1558,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790242623
+    "lastObserved": 1790243125
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "Lucius",
+      "title": "Old Tape (feat. Adam Granduciel) - Single Edit",
+      "album": "Old Tape (feat. Adam Granduciel)",
+      "count": 8,
+      "first": 1788912648,
+      "last": 1790243125,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
+      "artist": "Mitski",
+      "title": "Should've Been Me",
+      "album": "Laurel Hell",
+      "count": 8,
+      "first": 1788920128,
+      "last": 1790242930,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "PUP",
       "title": "Kids",
       "album": "Morbid Stuff",
@@ -538,28 +560,6 @@
       "last": 1790233990,
       "playlists": {
         "breakbeat": 8
-      }
-    },
-    {
-      "artist": "Joey Valence & Brae",
-      "title": "STARTAFIGHT",
-      "album": "PUNK TACTICS",
-      "count": 8,
-      "first": 1788939624,
-      "last": 1790233690,
-      "playlists": {
-        "breakbeat": 8
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "Say It Ain't So",
-      "album": "Weezer",
-      "count": 8,
-      "first": 1788946510,
-      "last": 1790225014,
-      "playlists": {
-        "1default": 8
       }
     }
   ],
@@ -1679,10 +1679,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 58,
+      "count": 59,
       "first": 1788920128,
-      "last": 1790193055,
+      "last": 1790242930,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 8,
+          "first": 1788920128,
+          "last": 1790242930,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Love Me More",
@@ -1703,17 +1714,6 @@
           "last": 1790182343,
           "playlists": {
             "1default": 8
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 7,
-          "first": 1788920128,
-          "last": 1790138454,
-          "playlists": {
-            "1default": 7
           }
         },
         {
@@ -5443,6 +5443,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 16,
+      "first": 1788920128,
+      "last": 1790242930,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 8,
+          "first": 1788920128,
+          "last": 1790242930,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 8,
+          "first": 1789055950,
+          "last": 1790193055,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
       "count": 16,
@@ -5723,37 +5754,6 @@
           "last": 1790232415,
           "playlists": {
             "breakbeat": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 15,
-      "first": 1788920128,
-      "last": 1790193055,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 8,
-          "first": 1789055950,
-          "last": 1790193055,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 7,
-          "first": 1788920128,
-          "last": 1790138454,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -6689,9 +6689,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2714,
+      "count": 2716,
       "first": 1788901564,
-      "last": 1790242623,
+      "last": 1790243125,
       "songs": [
         {
           "artist": "Tele Novella",
