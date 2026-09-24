@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T23:10:38.319485+00:00",
+  "updatedAt": "2026-09-24T23:15:36.767087+00:00",
   "summary": {
-    "totalPlays": 6022,
+    "totalPlays": 6023,
     "unknownPlays": 725,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790291171
+    "lastObserved": 1790291579
   },
   "topSongs": [
+    {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 14,
+      "first": 1788968149,
+      "last": 1790291579,
+      "playlists": {
+        "1default": 14
+      }
+    },
     {
       "artist": "Tele Novella",
       "title": "Funeral",
@@ -52,17 +63,6 @@
       "count": 13,
       "first": 1788986736,
       "last": 1790288126,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Modest Mouse",
-      "title": "Bury Me With It",
-      "album": "Good News For People Who Love Bad News",
-      "count": 13,
-      "first": 1788968149,
-      "last": 1790269574,
       "playlists": {
         "1default": 13
       }
@@ -4051,6 +4051,36 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "count": 15,
+      "first": 1788968149,
+      "last": 1790291579,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 14,
+          "first": 1788968149,
+          "last": 1790291579,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "The World At Large",
+          "album": "Good News For People Who Love Bad News",
+          "count": 1,
+          "first": 1789756286,
+          "last": 1789756286,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 15,
       "first": 1788986484,
@@ -4226,47 +4256,6 @@
           "last": 1790195961,
           "playlists": {
             "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Vampire Weekend",
-      "count": 15,
-      "first": 1788990464,
-      "last": 1790242623,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 7,
-          "first": 1789108965,
-          "last": 1790242623,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 7,
-          "first": 1788990464,
-          "last": 1790051455,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Campus",
-          "album": "Vampire Weekend",
-          "count": 1,
-          "first": 1789762855,
-          "last": 1789762855,
-          "playlists": {
-            "escaping from cu boulder by giselle": 1
           }
         }
       ]
@@ -5832,6 +5821,37 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "album": "Good News For People Who Love Bad News",
+      "count": 15,
+      "first": 1788968149,
+      "last": 1790291579,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 14,
+          "first": 1788968149,
+          "last": 1790291579,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "The World At Large",
+          "album": "Good News For People Who Love Bad News",
+          "count": 1,
+          "first": 1789756286,
+          "last": 1789756286,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "pear",
       "count": 15,
@@ -6086,37 +6106,6 @@
           "last": 1790288400,
           "playlists": {
             "1default": 14
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Modest Mouse",
-      "album": "Good News For People Who Love Bad News",
-      "count": 14,
-      "first": 1788968149,
-      "last": 1790269574,
-      "songs": [
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 13,
-          "first": 1788968149,
-          "last": 1790269574,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "The World At Large",
-          "album": "Good News For People Who Love Bad News",
-          "count": 1,
-          "first": 1789756286,
-          "last": 1789756286,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
           }
         }
       ]
@@ -6696,10 +6685,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2841,
+      "count": 2842,
       "first": 1788901564,
-      "last": 1790289886,
+      "last": 1790291579,
       "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 14,
+          "first": 1788968149,
+          "last": 1790291579,
+          "playlists": {
+            "1default": 14
+          }
+        },
         {
           "artist": "Tele Novella",
           "title": "Funeral",
@@ -6729,17 +6729,6 @@
           "count": 13,
           "first": 1788986736,
           "last": 1790288126,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 13,
-          "first": 1788968149,
-          "last": 1790269574,
           "playlists": {
             "1default": 13
           }
