@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T15:25:44.480271+00:00",
+  "updatedAt": "2026-09-24T15:30:43.242147+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 215,
+    "sessionCount": 216,
     "firstObserved": 1788901564,
-    "lastObserved": 1790260480
+    "lastObserved": 1790263844
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 80,
-      "playCount": 2704,
+      "sessionCount": 81,
+      "playCount": 2705,
       "firstObserved": 1788901564,
-      "lastObserved": 1790258591,
-      "typicalStartMinute": 346,
+      "lastObserved": 1790263844,
+      "typicalStartMinute": 385,
       "typicalDurationMinutes": 42,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -108,7 +108,7 @@
           0.0,
           0.0,
           95.0,
-          55.9,
+          61.1,
           120.0,
           120.0,
           120.0,
@@ -537,7 +537,7 @@
           0.0,
           0.0,
           0.0,
-          25.9,
+          31.1,
           30.0,
           30.0,
           30.0,
@@ -980,7 +980,7 @@
           0,
           0,
           3,
-          2,
+          3,
           0,
           0,
           0,
@@ -1099,8 +1099,8 @@
         },
         {
           "weekday": 3,
-          "sessions": 14,
-          "typicalStartMinute": 555,
+          "sessions": 15,
+          "typicalStartMinute": 561,
           "typicalDurationMinutes": 32,
           "confidence": "Low"
         },
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790263844,
+          "end": 1790264157,
+          "durationMinutes": 5,
+          "playCount": 1
+        },
         {
           "start": 1790258591,
           "end": 1790260480,
@@ -1240,12 +1246,6 @@
           "end": 1789900390,
           "durationMinutes": 115,
           "playCount": 30
-        },
-        {
-          "start": 1789866164,
-          "end": 1789868486,
-          "durationMinutes": 39,
-          "playCount": 10
         }
       ]
     },
@@ -19244,7 +19244,7 @@
     {
       "playlist": "rage commute",
       "sessionCount": 3,
-      "playCount": 49,
+      "playCount": 51,
       "firstObserved": 1789050879,
       "lastObserved": 1790260480,
       "typicalStartMinute": 513,
@@ -19339,7 +19339,7 @@
           0.0,
           0.0,
           78.7,
-          91.5,
+          94.9,
           0.0,
           0.0,
           0.0,
@@ -19767,8 +19767,8 @@
           33.7,
           45.0,
           45.0,
-          42.4,
-          4.1,
+          45.0,
+          4.9,
           0.0,
           0.0,
           0.0,
@@ -20318,9 +20318,9 @@
       "recentSessions": [
         {
           "start": 1790260480,
-          "end": 1790263642,
-          "durationMinutes": 53,
-          "playCount": 15
+          "end": 1790263844,
+          "durationMinutes": 56,
+          "playCount": 17
         },
         {
           "start": 1789655518,
