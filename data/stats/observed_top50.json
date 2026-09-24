@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T15:45:43.846442+00:00",
+  "updatedAt": "2026-09-24T15:50:46.047943+00:00",
   "summary": {
-    "totalPlays": 5899,
-    "unknownPlays": 709,
+    "totalPlays": 5901,
+    "unknownPlays": 710,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790264534
+    "lastObserved": 1790265035
   },
   "topSongs": [
     {
@@ -310,6 +310,28 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "Junkyard Dog",
+      "album": "1's a Man, 3's a Band",
+      "count": 8,
+      "first": 1788928852,
+      "last": 1790265035,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 8,
+      "first": 1788919285,
+      "last": 1790264830,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Lorde",
       "title": "Ribs",
       "album": "Pure Heroine",
@@ -536,28 +558,6 @@
       "count": 8,
       "first": 1788941969,
       "last": 1790238654,
-      "playlists": {
-        "breakbeat": 8
-      }
-    },
-    {
-      "artist": "Overpade",
-      "title": "hi(gher)",
-      "album": "HYPNOTIK",
-      "count": 8,
-      "first": 1788942969,
-      "last": 1790237666,
-      "playlists": {
-        "breakbeat": 8
-      }
-    },
-    {
-      "artist": "MIMIDEATH",
-      "title": "Bethlehem Entity Xmas Party Gifts Thru the Dna Spiral",
-      "album": "effective. Power",
-      "count": 8,
-      "first": 1789031335,
-      "last": 1790237593,
       "playlists": {
         "breakbeat": 8
       }
@@ -1850,10 +1850,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 56,
+      "count": 57,
       "first": 1788902047,
-      "last": 1790263844,
+      "last": 1790265035,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 8,
+          "first": 1788928852,
+          "last": 1790265035,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Rock n' roll (Bonus Track)",
@@ -1872,17 +1883,6 @@
           "count": 7,
           "first": 1789145316,
           "last": 1790200461,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 7,
-          "first": 1788928852,
-          "last": 1790120052,
           "playlists": {
             "1default": 7
           }
@@ -3640,6 +3640,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 16,
+      "first": 1788919285,
+      "last": 1790264830,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 8,
+          "first": 1788919285,
+          "last": 1790264830,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 7,
+          "first": 1788975084,
+          "last": 1790132129,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 1,
+          "first": 1789893243,
+          "last": 1789893243,
+          "playlists": {
+            "christmas rn": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 16,
       "first": 1788914032,
@@ -4201,47 +4242,6 @@
       ]
     },
     {
-      "artist": "Leon Bridges",
-      "count": 15,
-      "first": 1788919285,
-      "last": 1790132129,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 7,
-          "first": 1788975084,
-          "last": 1790132129,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 7,
-          "first": 1788919285,
-          "last": 1790107152,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 1,
-          "first": 1789893243,
-          "last": 1789893243,
-          "playlists": {
-            "christmas rn": 1
-          }
-        }
-      ]
-    },
-    {
       "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
       "count": 15,
       "first": 1789102138,
@@ -4298,10 +4298,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 42,
+      "count": 43,
       "first": 1788902047,
-      "last": 1790263844,
+      "last": 1790265035,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 8,
+          "first": 1788928852,
+          "last": 1790265035,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Rock n' roll (Bonus Track)",
@@ -4320,17 +4331,6 @@
           "count": 7,
           "first": 1789145316,
           "last": 1790200461,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 7,
-          "first": 1788928852,
-          "last": 1790120052,
           "playlists": {
             "1default": 7
           }
@@ -6784,9 +6784,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2731,
+      "count": 2733,
       "first": 1788901564,
-      "last": 1790264534,
+      "last": 1790265035,
       "songs": [
         {
           "artist": "Tele Novella",
