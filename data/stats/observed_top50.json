@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T17:35:46.473981+00:00",
+  "updatedAt": "2026-09-24T17:40:43.520341+00:00",
   "summary": {
-    "totalPlays": 5930,
+    "totalPlays": 5932,
     "unknownPlays": 713,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790271169
+    "lastObserved": 1790271589
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "Barrie",
+      "title": "Hutch",
+      "album": "Happy To Be Here",
+      "count": 8,
+      "first": 1788912861,
+      "last": 1790271589,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Pinegrove",
       "title": "Need 2",
       "album": "Everything So Far",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1789059997,
       "last": 1790264158,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Rock n' roll (Bonus Track)",
-      "album": "1's a Man, 3's a Band",
-      "count": 8,
-      "first": 1788903730,
-      "last": 1790263844,
       "playlists": {
         "1default": 8
       }
@@ -3991,6 +3991,36 @@
       ]
     },
     {
+      "artist": "Barrie",
+      "count": 15,
+      "first": 1788912861,
+      "last": 1790271589,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 8,
+          "first": 1788912861,
+          "last": 1790271589,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 7,
+          "first": 1788966960,
+          "last": 1790175917,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Harper Powell",
       "count": 15,
       "first": 1788947970,
@@ -4235,36 +4265,6 @@
           "count": 7,
           "first": 1788921291,
           "last": 1790174538,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 15,
-      "first": 1788985030,
-      "last": 1790196730,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 8,
-          "first": 1788985030,
-          "last": 1790196730,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 7,
-          "first": 1788987870,
-          "last": 1790138284,
           "playlists": {
             "1default": 7
           }
@@ -6729,9 +6729,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2762,
+      "count": 2764,
       "first": 1788901564,
-      "last": 1790271169,
+      "last": 1790271589,
       "songs": [
         {
           "artist": "Modest Mouse",
