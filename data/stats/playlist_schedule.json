@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T22:00:48.856182+00:00",
+  "updatedAt": "2026-09-24T22:05:52.358217+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 216,
+    "sessionCount": 217,
     "firstObserved": 1788901564,
-    "lastObserved": 1790263844
+    "lastObserved": 1790287315
   },
   "playlists": [
     {
@@ -115,7 +115,7 @@
           180.0,
           180.0,
           180.0,
-          55.3,
+          55.2,
           59.1,
           120.0,
           49.4,
@@ -1129,7 +1129,7 @@
       "recentSessions": [
         {
           "start": 1790263844,
-          "end": 1790287317,
+          "end": 1790287315,
           "durationMinutes": 391,
           "playCount": 108
         },
@@ -1251,12 +1251,12 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "sessionCount": 15,
-      "playCount": 171,
+      "sessionCount": 16,
+      "playCount": 173,
       "firstObserved": 1788991800,
-      "lastObserved": 1790202015,
-      "typicalStartMinute": 989,
-      "typicalDurationMinutes": 34,
+      "lastObserved": 1790287315,
+      "typicalStartMinute": 987,
+      "typicalDurationMinutes": 31,
       "confidence": "High",
       "heatmapMinutes": [
         [
@@ -1354,7 +1354,7 @@
           0.0,
           0.0,
           0.0,
-          66.5,
+          73.3,
           60.9,
           0.0,
           0.0,
@@ -1802,7 +1802,7 @@
           0.0,
           0.0,
           0.0,
-          10.6,
+          17.4,
           9.6,
           27.3,
           19.1,
@@ -2226,7 +2226,7 @@
           0,
           0,
           0,
-          4,
+          5,
           0,
           0,
           0,
@@ -2338,13 +2338,19 @@
         },
         {
           "weekday": 3,
-          "sessions": 4,
-          "typicalStartMinute": 989,
-          "typicalDurationMinutes": 22,
+          "sessions": 5,
+          "typicalStartMinute": 983,
+          "typicalDurationMinutes": 16,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790287315,
+          "end": 1790287724,
+          "durationMinutes": 7,
+          "playCount": 2
+        },
         {
           "start": 1790202015,
           "end": 1790206328,
