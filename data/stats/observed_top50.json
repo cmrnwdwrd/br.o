@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T23:45:33.889785+00:00",
+  "updatedAt": "2026-09-24T23:50:43.445980+00:00",
   "summary": {
-    "totalPlays": 6031,
+    "totalPlays": 6034,
     "unknownPlays": 726,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790293315
+    "lastObserved": 1790293829
   },
   "topSongs": [
+    {
+      "artist": "Tele Novella",
+      "title": "Funeral",
+      "album": "Poet's Tooth",
+      "count": 15,
+      "first": 1788996940,
+      "last": 1790293584,
+      "playlists": {
+        "1default": 15
+      }
+    },
     {
       "artist": "Modest Mouse",
       "title": "Bury Me With It",
@@ -19,17 +30,6 @@
       "count": 14,
       "first": 1788968149,
       "last": 1790291579,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Tele Novella",
-      "title": "Funeral",
-      "album": "Poet's Tooth",
-      "count": 14,
-      "first": 1788996940,
-      "last": 1790288400,
       "playlists": {
         "1default": 14
       }
@@ -343,6 +343,17 @@
       }
     },
     {
+      "artist": "Greer",
+      "title": "Song for Me",
+      "album": "Song for Me",
+      "count": 8,
+      "first": 1789049810,
+      "last": 1790293829,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Mat Kerekes",
       "title": "Diamonds",
       "album": "Ruby",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788970790,
       "last": 1790280632,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "COIN",
-      "title": "Chapstick",
-      "album": "Chapstick",
-      "count": 8,
-      "first": 1788903373,
-      "last": 1790280438,
       "playlists": {
         "1default": 8
       }
@@ -1058,9 +1058,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 113,
+      "count": 114,
       "first": 1788910325,
-      "last": 1790286925,
+      "last": 1790293650,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1115,6 +1115,17 @@
           "last": 1790184333,
           "playlists": {
             "1default": 8
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "gangster rapper punk rockstar",
+          "album": "boros",
+          "count": 7,
+          "first": 1789069780,
+          "last": 1790293650,
+          "playlists": {
+            "1default": 7
           }
         },
         {
@@ -1201,17 +1212,6 @@
           "count": 6,
           "first": 1789217995,
           "last": 1790172463,
-          "playlists": {
-            "1default": 6
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "gangster rapper punk rockstar",
-          "album": "boros",
-          "count": 6,
-          "first": 1789069780,
-          "last": 1790134770,
           "playlists": {
             "1default": 6
           }
@@ -4051,6 +4051,25 @@
       ]
     },
     {
+      "artist": "Tele Novella",
+      "count": 15,
+      "first": 1788996940,
+      "last": 1790293584,
+      "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 15,
+          "first": 1788996940,
+          "last": 1790293584,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "count": 15,
       "first": 1788968149,
@@ -4224,36 +4243,6 @@
           "count": 7,
           "first": 1789077114,
           "last": 1790183358,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Crumb",
-      "count": 15,
-      "first": 1788983912,
-      "last": 1790267672,
-      "songs": [
-        {
-          "artist": "Crumb",
-          "title": "Locket",
-          "album": "Locket",
-          "count": 8,
-          "first": 1788983912,
-          "last": 1790267672,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Crumb",
-          "title": "Ghostride",
-          "album": "Jinx",
-          "count": 7,
-          "first": 1789219993,
-          "last": 1790195961,
           "playlists": {
             "1default": 7
           }
@@ -5821,6 +5810,26 @@
       ]
     },
     {
+      "artist": "Tele Novella",
+      "album": "Poet's Tooth",
+      "count": 15,
+      "first": 1788996940,
+      "last": 1790293584,
+      "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 15,
+          "first": 1788996940,
+          "last": 1790293584,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "album": "Good News For People Who Love Bad News",
       "count": 15,
@@ -6086,26 +6095,6 @@
           "last": 1789711875,
           "playlists": {
             "for the girls driving 85": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tele Novella",
-      "album": "Poet's Tooth",
-      "count": 14,
-      "first": 1788996940,
-      "last": 1790288400,
-      "songs": [
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 14,
-          "first": 1788996940,
-          "last": 1790288400,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -6663,10 +6652,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2848,
+      "count": 2851,
       "first": 1788901564,
-      "last": 1790293315,
+      "last": 1790293829,
       "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 15,
+          "first": 1788996940,
+          "last": 1790293584,
+          "playlists": {
+            "1default": 15
+          }
+        },
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
@@ -6674,17 +6674,6 @@
           "count": 14,
           "first": 1788968149,
           "last": 1790291579,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 14,
-          "first": 1788996940,
-          "last": 1790288400,
           "playlists": {
             "1default": 14
           }
