@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T20:05:45.958945+00:00",
+  "updatedAt": "2026-09-24T20:10:54.721728+00:00",
   "summary": {
-    "totalPlays": 5973,
+    "totalPlays": 5975,
     "unknownPlays": 719,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790280230
+    "lastObserved": 1790280632
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 8,
+      "first": 1788970790,
+      "last": 1790280632,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
+      "artist": "COIN",
+      "title": "Chapstick",
+      "album": "Chapstick",
+      "count": 8,
+      "first": 1788903373,
+      "last": 1790280438,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Eagles",
       "title": "Certain Kind of Fool - 2013 Remaster",
       "album": "Desperado (2013 Remaster)",
@@ -536,28 +558,6 @@
       "count": 8,
       "first": 1789061325,
       "last": 1790274081,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Madness",
-      "title": "Our House",
-      "album": "Madness",
-      "count": 8,
-      "first": 1788904090,
-      "last": 1790273878,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "NO CHANCE!",
-      "title": "I Wanna Be Your Man",
-      "album": "I Wanna Be Your Man",
-      "count": 8,
-      "first": 1788986942,
-      "last": 1790273315,
       "playlists": {
         "1default": 8
       }
@@ -2795,6 +2795,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 23,
+      "first": 1788917230,
+      "last": 1790280632,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 8,
+          "first": 1788970790,
+          "last": 1790280632,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 8,
+          "first": 1789050580,
+          "last": 1790277839,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 7,
+          "first": 1788917230,
+          "last": 1790027337,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 23,
       "first": 1788919863,
@@ -2946,47 +2987,6 @@
           "last": 1789784208,
           "playlists": {
             "d i n n e r": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 22,
-      "first": 1788917230,
-      "last": 1790277839,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 8,
-          "first": 1789050580,
-          "last": 1790277839,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 7,
-          "first": 1788970790,
-          "last": 1790103933,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 7,
-          "first": 1788917230,
-          "last": 1790027337,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -6729,9 +6729,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2805,
+      "count": 2807,
       "first": 1788901564,
-      "last": 1790280230,
+      "last": 1790280632,
       "songs": [
         {
           "artist": "Modest Mouse",
