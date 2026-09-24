@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T04:35:41.752847+00:00",
+  "updatedAt": "2026-09-24T04:40:36.702351+00:00",
   "summary": {
-    "totalPlays": 5704,
+    "totalPlays": 5706,
     "unknownPlays": 686,
     "uniqueTracks": 1880,
     "uniqueArtists": 1238,
     "uniqueAlbums": 1558,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790224443
+    "lastObserved": 1790224811
   },
   "topSongs": [
     {
@@ -90,6 +90,17 @@
       }
     },
     {
+      "artist": "Mommy Long Legs",
+      "title": "Weird Girl",
+      "album": "Assholes",
+      "count": 11,
+      "first": 1789072780,
+      "last": 1790224811,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Lush",
       "title": "Ladykillers",
       "album": "Lovelife",
@@ -151,17 +162,6 @@
       "count": 10,
       "first": 1789078009,
       "last": 1790203154,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Mommy Long Legs",
-      "title": "Weird Girl",
-      "album": "Assholes",
-      "count": 10,
-      "first": 1789072780,
-      "last": 1790135480,
       "playlists": {
         "1default": 10
       }
@@ -274,6 +274,17 @@
       "last": 1790023101,
       "playlists": {
         "1default": 9
+      }
+    },
+    {
+      "artist": "Jelani Aryeh",
+      "title": "Stella Brown",
+      "album": "I've Got Some Living To Do",
+      "count": 8,
+      "first": 1788918760,
+      "last": 1790224625,
+      "playlists": {
+        "1default": 8
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1789049117,
       "last": 1790198351,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "clipping.",
-      "title": "Nothing is Safe",
-      "album": "There Existed an Addiction to Blood",
-      "count": 8,
-      "first": 1789054884,
-      "last": 1790197660,
       "playlists": {
         "1default": 8
       }
@@ -6613,6 +6613,26 @@
       ]
     },
     {
+      "artist": "Mommy Long Legs",
+      "album": "Assholes",
+      "count": 11,
+      "first": 1789072780,
+      "last": 1790224811,
+      "songs": [
+        {
+          "artist": "Mommy Long Legs",
+          "title": "Weird Girl",
+          "album": "Assholes",
+          "count": 11,
+          "first": 1789072780,
+          "last": 1790224811,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Rosie Tucker",
       "album": "Sucker Supreme",
       "count": 11,
@@ -6642,34 +6662,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Lush",
-      "album": "Lovelife",
-      "count": 11,
-      "first": 1789015368,
-      "last": 1790201820,
-      "songs": [
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 11,
-          "first": 1789015368,
-          "last": 1790201820,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2708,
+      "count": 2710,
       "first": 1788901564,
-      "last": 1790224443,
+      "last": 1790224811,
       "songs": [
         {
           "artist": "Tele Novella",
