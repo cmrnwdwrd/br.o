@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T03:50:42.055821+00:00",
+  "updatedAt": "2026-09-24T03:55:44.748735+00:00",
   "summary": {
-    "totalPlays": 5691,
+    "totalPlays": 5693,
     "unknownPlays": 684,
     "uniqueTracks": 1880,
     "uniqueArtists": 1238,
     "uniqueAlbums": 1558,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790221756
+    "lastObserved": 1790222113
   },
   "topSongs": [
     {
@@ -274,6 +274,17 @@
       "last": 1790023101,
       "playlists": {
         "1default": 9
+      }
+    },
+    {
+      "artist": "Kate Bollinger",
+      "title": "A Couple Things",
+      "album": "A word becomes a sound",
+      "count": 8,
+      "first": 1788915657,
+      "last": 1790221950,
+      "playlists": {
+        "1default": 8
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788989909,
       "last": 1790193915,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Mitski",
-      "title": "Love Me More",
-      "album": "Laurel Hell",
-      "count": 8,
-      "first": 1789055950,
-      "last": 1790193055,
       "playlists": {
         "1default": 8
       }
@@ -3631,6 +3631,36 @@
       ]
     },
     {
+      "artist": "Kate Bollinger",
+      "count": 15,
+      "first": 1788915657,
+      "last": 1790221950,
+      "songs": [
+        {
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 8,
+          "first": 1788915657,
+          "last": 1790221950,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 7,
+          "first": 1788983449,
+          "last": 1790086975,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 15,
       "first": 1788947810,
@@ -4151,36 +4181,6 @@
           "count": 7,
           "first": 1788912861,
           "last": 1790034065,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 14,
-      "first": 1788914032,
-      "last": 1790111545,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 7,
-          "first": 1789222724,
-          "last": 1790111545,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 7,
-          "first": 1788914032,
-          "last": 1790099815,
           "playlists": {
             "1default": 7
           }
@@ -6667,9 +6667,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2695,
+      "count": 2697,
       "first": 1788901564,
-      "last": 1790221756,
+      "last": 1790222113,
       "songs": [
         {
           "artist": "Tele Novella",
