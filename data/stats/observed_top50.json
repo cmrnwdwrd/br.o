@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-24T05:20:48.011803+00:00",
+  "updatedAt": "2026-09-24T05:25:42.536178+00:00",
   "summary": {
-    "totalPlays": 5721,
+    "totalPlays": 5723,
     "unknownPlays": 689,
     "uniqueTracks": 1880,
     "uniqueArtists": 1238,
     "uniqueAlbums": 1558,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790227233
+    "lastObserved": 1790227520
   },
   "topSongs": [
     {
@@ -566,10 +566,32 @@
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 130,
+      "count": 132,
       "first": 1788929259,
-      "last": 1790227233,
+      "last": 1790227520,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "offset",
+          "album": "all killer, no filler",
+          "count": 4,
+          "first": 1789017196,
+          "last": 1790227520,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "blind",
+          "album": "Casual Affair.",
+          "count": 4,
+          "first": 1789016116,
+          "last": 1790227409,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
         {
           "artist": "home alone.",
           "title": "casino royal",
@@ -698,17 +720,6 @@
           "count": 3,
           "first": 1789015607,
           "last": 1790226502,
-          "playlists": {
-            "more home alone": 3
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "blind",
-          "album": "Casual Affair.",
-          "count": 3,
-          "first": 1789016116,
-          "last": 1790225594,
           "playlists": {
             "more home alone": 3
           }
@@ -929,17 +940,6 @@
           "count": 3,
           "first": 1789448593,
           "last": 1789622950,
-          "playlists": {
-            "more home alone": 3
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "offset",
-          "album": "all killer, no filler",
-          "count": 3,
-          "first": 1789017196,
-          "last": 1789622717,
           "playlists": {
             "more home alone": 3
           }
@@ -4417,10 +4417,21 @@
     {
       "artist": "home alone.",
       "album": "Casual Affair.",
-      "count": 37,
+      "count": 38,
       "first": 1788929259,
-      "last": 1790226937,
+      "last": 1790227409,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "blind",
+          "album": "Casual Affair.",
+          "count": 4,
+          "first": 1789016116,
+          "last": 1790227409,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
         {
           "artist": "home alone.",
           "title": "marv",
@@ -4463,17 +4474,6 @@
           "last": 1790054973,
           "playlists": {
             "more home alone": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "blind",
-          "album": "Casual Affair.",
-          "count": 3,
-          "first": 1789016116,
-          "last": 1790225594,
-          "playlists": {
-            "more home alone": 3
           }
         },
         {
@@ -4538,6 +4538,125 @@
           "count": 3,
           "first": 1789018186,
           "last": 1790052795,
+          "playlists": {
+            "more home alone": 3
+          }
+        }
+      ]
+    },
+    {
+      "artist": "home alone.",
+      "album": "all killer, no filler",
+      "count": 36,
+      "first": 1788929845,
+      "last": 1790227520,
+      "songs": [
+        {
+          "artist": "home alone.",
+          "title": "offset",
+          "album": "all killer, no filler",
+          "count": 4,
+          "first": 1789017196,
+          "last": 1790227520,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "5o5",
+          "album": "all killer, no filler",
+          "count": 4,
+          "first": 1789448431,
+          "last": 1790226342,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "pretty please",
+          "album": "all killer, no filler",
+          "count": 4,
+          "first": 1789017391,
+          "last": 1790226205,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "gracious",
+          "album": "all killer, no filler",
+          "count": 4,
+          "first": 1789017591,
+          "last": 1790226020,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "all that jazz",
+          "album": "all killer, no filler",
+          "count": 4,
+          "first": 1789447986,
+          "last": 1790225884,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "lowkey",
+          "album": "all killer, no filler",
+          "count": 4,
+          "first": 1788929845,
+          "last": 1790225705,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "regrets²",
+          "album": "all killer, no filler",
+          "count": 3,
+          "first": 1789015607,
+          "last": 1790226502,
+          "playlists": {
+            "more home alone": 3
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "reel it in",
+          "album": "all killer, no filler",
+          "count": 3,
+          "first": 1789017011,
+          "last": 1790054635,
+          "playlists": {
+            "more home alone": 3
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "blow your mind",
+          "album": "all killer, no filler",
+          "count": 3,
+          "first": 1789017777,
+          "last": 1790054309,
+          "playlists": {
+            "more home alone": 3
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "oklahoma",
+          "album": "all killer, no filler",
+          "count": 3,
+          "first": 1789016560,
+          "last": 1790053990,
           "playlists": {
             "more home alone": 3
           }
@@ -4668,125 +4787,6 @@
           "count": 3,
           "first": 1789448593,
           "last": 1789622950,
-          "playlists": {
-            "more home alone": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "home alone.",
-      "album": "all killer, no filler",
-      "count": 35,
-      "first": 1788929845,
-      "last": 1790226502,
-      "songs": [
-        {
-          "artist": "home alone.",
-          "title": "5o5",
-          "album": "all killer, no filler",
-          "count": 4,
-          "first": 1789448431,
-          "last": 1790226342,
-          "playlists": {
-            "more home alone": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "pretty please",
-          "album": "all killer, no filler",
-          "count": 4,
-          "first": 1789017391,
-          "last": 1790226205,
-          "playlists": {
-            "more home alone": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "gracious",
-          "album": "all killer, no filler",
-          "count": 4,
-          "first": 1789017591,
-          "last": 1790226020,
-          "playlists": {
-            "more home alone": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "all that jazz",
-          "album": "all killer, no filler",
-          "count": 4,
-          "first": 1789447986,
-          "last": 1790225884,
-          "playlists": {
-            "more home alone": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "lowkey",
-          "album": "all killer, no filler",
-          "count": 4,
-          "first": 1788929845,
-          "last": 1790225705,
-          "playlists": {
-            "more home alone": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "regrets²",
-          "album": "all killer, no filler",
-          "count": 3,
-          "first": 1789015607,
-          "last": 1790226502,
-          "playlists": {
-            "more home alone": 3
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "reel it in",
-          "album": "all killer, no filler",
-          "count": 3,
-          "first": 1789017011,
-          "last": 1790054635,
-          "playlists": {
-            "more home alone": 3
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "blow your mind",
-          "album": "all killer, no filler",
-          "count": 3,
-          "first": 1789017777,
-          "last": 1790054309,
-          "playlists": {
-            "more home alone": 3
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "oklahoma",
-          "album": "all killer, no filler",
-          "count": 3,
-          "first": 1789016560,
-          "last": 1790053990,
-          "playlists": {
-            "more home alone": 3
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "offset",
-          "album": "all killer, no filler",
-          "count": 3,
-          "first": 1789017196,
-          "last": 1789622717,
           "playlists": {
             "more home alone": 3
           }
@@ -7107,6 +7107,69 @@
       ]
     },
     {
+      "playlist": "more home alone",
+      "count": 109,
+      "first": 1788929259,
+      "last": 1790227520,
+      "songs": [
+        {
+          "artist": "home alone.",
+          "title": "offset",
+          "album": "all killer, no filler",
+          "count": 4,
+          "first": 1789017196,
+          "last": 1790227520,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "blind",
+          "album": "Casual Affair.",
+          "count": 4,
+          "first": 1789016116,
+          "last": 1790227409,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "casino royal",
+          "album": "drive it like you stole it.",
+          "count": 4,
+          "first": 1789016383,
+          "last": 1790227233,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "distant",
+          "album": "drive it like you stole it.",
+          "count": 4,
+          "first": 1789015960,
+          "last": 1790227076,
+          "playlists": {
+            "more home alone": 4
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "marv",
+          "album": "Casual Affair.",
+          "count": 4,
+          "first": 1789016278,
+          "last": 1790226937,
+          "playlists": {
+            "more home alone": 4
+          }
+        }
+      ]
+    },
+    {
       "playlist": "MCR wednesday wind down",
       "count": 109,
       "first": 1788995310,
@@ -7228,69 +7291,6 @@
           "last": 1790143331,
           "playlists": {
             "EPL4a": 4
-          }
-        }
-      ]
-    },
-    {
-      "playlist": "more home alone",
-      "count": 107,
-      "first": 1788929259,
-      "last": 1790227233,
-      "songs": [
-        {
-          "artist": "home alone.",
-          "title": "casino royal",
-          "album": "drive it like you stole it.",
-          "count": 4,
-          "first": 1789016383,
-          "last": 1790227233,
-          "playlists": {
-            "more home alone": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "distant",
-          "album": "drive it like you stole it.",
-          "count": 4,
-          "first": 1789015960,
-          "last": 1790227076,
-          "playlists": {
-            "more home alone": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "marv",
-          "album": "Casual Affair.",
-          "count": 4,
-          "first": 1789016278,
-          "last": 1790226937,
-          "playlists": {
-            "more home alone": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "stegaya",
-          "album": "Casual Affair.",
-          "count": 4,
-          "first": 1788930024,
-          "last": 1790226795,
-          "playlists": {
-            "more home alone": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "gesture",
-          "album": "Casual Affair.",
-          "count": 4,
-          "first": 1789016737,
-          "last": 1790226681,
-          "playlists": {
-            "more home alone": 4
           }
         }
       ]
