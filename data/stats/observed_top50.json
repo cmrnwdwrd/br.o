@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T01:15:44.213746+00:00",
+  "updatedAt": "2026-09-25T01:20:42.999180+00:00",
   "summary": {
-    "totalPlays": 6057,
+    "totalPlays": 6059,
     "unknownPlays": 729,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790298668
+    "lastObserved": 1790299172
   },
   "topSongs": [
     {
@@ -343,6 +343,28 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Knives",
+      "album": "Knives",
+      "count": 8,
+      "first": 1788973998,
+      "last": 1790299172,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
+      "artist": "Opium",
+      "title": "No Pulse",
+      "album": "PHANTOMS",
+      "count": 8,
+      "first": 1788946866,
+      "last": 1790298956,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Tally Hall",
       "title": "The Bidding",
       "album": "Marvin's Marvelous Mechanical Museum",
@@ -536,28 +558,6 @@
       "count": 8,
       "first": 1788983290,
       "last": 1790286925,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "gavn!",
-      "title": "Poseidon",
-      "album": "Poseidon",
-      "count": 8,
-      "first": 1788910937,
-      "last": 1790286331,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Moby",
-      "title": "Porcelain",
-      "album": "Play & Play: B Sides",
-      "count": 8,
-      "first": 1788910695,
-      "last": 1790286088,
       "playlists": {
         "1default": 8
       }
@@ -1688,10 +1688,21 @@
     },
     {
       "artist": "Opium",
-      "count": 59,
+      "count": 60,
       "first": 1788927400,
-      "last": 1790277570,
+      "last": 1790298956,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 8,
+          "first": 1788946866,
+          "last": 1790298956,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Opium",
           "title": "Rainfall",
@@ -1754,17 +1765,6 @@
           "count": 7,
           "first": 1788973540,
           "last": 1790037100,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 7,
-          "first": 1788946866,
-          "last": 1790035516,
           "playlists": {
             "1default": 7
           }
@@ -2992,6 +2992,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 22,
+      "first": 1788973998,
+      "last": 1790299172,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 8,
+          "first": 1788973998,
+          "last": 1790299172,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 8,
+          "first": 1789033065,
+          "last": 1790296135,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 6,
+          "first": 1789226629,
+          "last": 1790133120,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 22,
       "first": 1788947368,
@@ -3162,47 +3203,6 @@
           "last": 1789134054,
           "playlists": {
             "hyperpop friday morning": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 21,
-      "first": 1788973998,
-      "last": 1790296135,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 8,
-          "first": 1789033065,
-          "last": 1790296135,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 7,
-          "first": 1788973998,
-          "last": 1790129876,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 6,
-          "first": 1789226629,
-          "last": 1790133120,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -4254,10 +4254,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 44,
+      "count": 45,
       "first": 1788927400,
-      "last": 1790277570,
+      "last": 1790298956,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 8,
+          "first": 1788946866,
+          "last": 1790298956,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Opium",
           "title": "Rainfall",
@@ -4298,17 +4309,6 @@
           "count": 7,
           "first": 1788973540,
           "last": 1790037100,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 7,
-          "first": 1788946866,
-          "last": 1790035516,
           "playlists": {
             "1default": 7
           }
@@ -6652,9 +6652,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2874,
+      "count": 2876,
       "first": 1788901564,
-      "last": 1790298668,
+      "last": 1790299172,
       "songs": [
         {
           "artist": "Tele Novella",
