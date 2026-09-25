@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T16:50:46.613537+00:00",
+  "updatedAt": "2026-09-25T16:55:44.209183+00:00",
   "summary": {
-    "totalPlays": 6278,
+    "totalPlays": 6280,
     "unknownPlays": 756,
     "uniqueTracks": 1946,
     "uniqueArtists": 1277,
     "uniqueAlbums": 1613,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790354855
+    "lastObserved": 1790355295
   },
   "topSongs": [
     {
@@ -398,6 +398,28 @@
       }
     },
     {
+      "artist": "King Fantastic",
+      "title": "Joshua Tree",
+      "album": "The Great Man Theory",
+      "count": 8,
+      "first": 1789061705,
+      "last": 1790355295,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
+      "artist": "Yumi Zouma",
+      "title": "In Camera",
+      "album": "EP III",
+      "count": 8,
+      "first": 1789054681,
+      "last": 1790355089,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Gorillaz, Gruff Rhys, De La Soul, Dave Jolicoeur, Kelvin Mercer, Vincent Mason",
       "title": "Superfast Jellyfish (feat. Gruff Rhys and De La Soul)",
       "album": "Plastic Beach",
@@ -536,28 +558,6 @@
       "count": 8,
       "first": 1788990464,
       "last": 1790349686,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Gorillaz, ScHoolboy Q",
-      "title": "Pac-Man (feat. ScHoolboy Q)",
-      "album": "Song Machine Episode 5",
-      "count": 8,
-      "first": 1788901855,
-      "last": 1790349304,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Wolfmother",
-      "title": "Woman",
-      "album": "Wolfmother",
-      "count": 8,
-      "first": 1788916127,
-      "last": 1790348946,
       "playlists": {
         "1default": 8
       }
@@ -3964,6 +3964,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 16,
+      "first": 1789054681,
+      "last": 1790355089,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 8,
+          "first": 1789054681,
+          "last": 1790355089,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 8,
+          "first": 1789057143,
+          "last": 1790283114,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "count": 16,
       "first": 1788947080,
@@ -4312,36 +4342,6 @@
           "count": 8,
           "first": 1788915657,
           "last": 1790221950,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 16,
-      "first": 1788947810,
-      "last": 1790269412,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 8,
-          "first": 1788947810,
-          "last": 1790269412,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 8,
-          "first": 1789059805,
-          "last": 1790221756,
           "playlists": {
             "1default": 8
           }
@@ -6806,9 +6806,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2947,
+      "count": 2949,
       "first": 1788901564,
-      "last": 1790354855,
+      "last": 1790355295,
       "songs": [
         {
           "artist": "Tele Novella",
