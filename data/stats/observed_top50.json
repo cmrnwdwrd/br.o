@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T03:00:36.257740+00:00",
+  "updatedAt": "2026-09-25T03:05:46.422371+00:00",
   "summary": {
-    "totalPlays": 6086,
+    "totalPlays": 6088,
     "unknownPlays": 732,
     "uniqueTracks": 1943,
     "uniqueArtists": 1276,
     "uniqueAlbums": 1611,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790305114
+    "lastObserved": 1790305489
   },
   "topSongs": [
     {
@@ -167,6 +167,17 @@
       }
     },
     {
+      "artist": "wilt",
+      "title": "the riff",
+      "album": "the riff",
+      "count": 10,
+      "first": 1788911339,
+      "last": 1790305296,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Nat & Alex Wolff",
       "title": "Rollin' Around",
       "album": "Public Places",
@@ -316,17 +327,6 @@
       "count": 9,
       "first": 1789053695,
       "last": 1790108448,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "wilt",
-      "title": "the riff",
-      "album": "the riff",
-      "count": 9,
-      "first": 1788911339,
-      "last": 1790070356,
       "playlists": {
         "1default": 9
       }
@@ -1058,9 +1058,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 114,
+      "count": 115,
       "first": 1788910325,
-      "last": 1790293650,
+      "last": 1790305489,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1115,6 +1115,17 @@
           "last": 1790184333,
           "playlists": {
             "1default": 8
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 7,
+          "first": 1789217995,
+          "last": 1790305489,
+          "playlists": {
+            "1default": 7
           }
         },
         {
@@ -1203,17 +1214,6 @@
           "last": 1790042324,
           "playlists": {
             "1default": 7
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 6,
-          "first": 1789217995,
-          "last": 1790172463,
-          "playlists": {
-            "1default": 6
           }
         },
         {
@@ -5494,6 +5494,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THIS DOES NOT EXIST",
+      "count": 16,
+      "first": 1789053695,
+      "last": 1790305489,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "wrap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 9,
+          "first": 1789053695,
+          "last": 1790108448,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 7,
+          "first": 1789217995,
+          "last": 1790305489,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "album": "Alligator Bites Never Heal",
       "count": 16,
@@ -6011,37 +6042,6 @@
           "last": 1790232415,
           "playlists": {
             "breakbeat": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THIS DOES NOT EXIST",
-      "count": 15,
-      "first": 1789053695,
-      "last": 1790172463,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 9,
-          "first": 1789053695,
-          "last": 1790108448,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 6,
-          "first": 1789217995,
-          "last": 1790172463,
-          "playlists": {
-            "1default": 6
           }
         }
       ]
@@ -6652,9 +6652,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2881,
+      "count": 2883,
       "first": 1788901564,
-      "last": 1790305114,
+      "last": 1790305489,
       "songs": [
         {
           "artist": "Tele Novella",
