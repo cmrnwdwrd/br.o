@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T22:50:49.548131+00:00",
+  "updatedAt": "2026-09-25T22:55:44.089206+00:00",
   "summary": {
-    "totalPlays": 6373,
+    "totalPlays": 6374,
     "unknownPlays": 767,
     "uniqueTracks": 1972,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790376547
+    "lastObserved": 1790376755
   },
   "topSongs": [
     {
@@ -43,6 +43,17 @@
       "last": 1790291579,
       "playlists": {
         "1default": 14
+      }
+    },
+    {
+      "artist": "Viagra Boys",
+      "title": "Worms",
+      "album": "Street Worms",
+      "count": 13,
+      "first": 1788991593,
+      "last": 1790376755,
+      "playlists": {
+        "1default": 13
       }
     },
     {
@@ -118,17 +129,6 @@
       "count": 12,
       "first": 1789072780,
       "last": 1790287931,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Viagra Boys",
-      "title": "Worms",
-      "album": "Street Worms",
-      "count": 12,
-      "first": 1788991593,
-      "last": 1790287725,
       "playlists": {
         "1default": 12
       }
@@ -6899,6 +6899,26 @@
       ]
     },
     {
+      "artist": "Viagra Boys",
+      "album": "Street Worms",
+      "count": 13,
+      "first": 1788991593,
+      "last": 1790376755,
+      "songs": [
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 13,
+          "first": 1788991593,
+          "last": 1790376755,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "album": "WAR IN COLORADO!",
       "count": 13,
@@ -6957,45 +6977,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "MJ Lenderman",
-      "album": "Manning Fireworks",
-      "count": 12,
-      "first": 1788988450,
-      "last": 1790361193,
-      "songs": [
-        {
-          "artist": "MJ Lenderman",
-          "title": "Rudolph",
-          "album": "Manning Fireworks",
-          "count": 10,
-          "first": 1788988450,
-          "last": 1790361193,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "MJ Lenderman",
-          "title": "Wristwatch",
-          "album": "Manning Fireworks",
-          "count": 2,
-          "first": 1789259095,
-          "last": 1789863251,
-          "playlists": {
-            "texting your situationship": 2
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2970,
+      "count": 2971,
       "first": 1788901564,
-      "last": 1790376547,
+      "last": 1790376755,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7020,6 +7009,17 @@
           }
         },
         {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 13,
+          "first": 1788991593,
+          "last": 1790376755,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
           "artist": "The Salesmen, Ike Spivak",
           "title": "Happy Boy",
           "album": "WAR IN COLORADO!",
@@ -7037,17 +7037,6 @@
           "count": 13,
           "first": 1789014862,
           "last": 1790288740,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 13,
-          "first": 1788986736,
-          "last": 1790288126,
           "playlists": {
             "1default": 13
           }
