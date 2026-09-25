@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T06:25:41.166353+00:00",
+  "updatedAt": "2026-09-25T06:31:19.507722+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 222,
+    "sessionCount": 223,
     "firstObserved": 1788901564,
-    "lastObserved": 1790307184
+    "lastObserved": 1790317851
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 83,
-      "playCount": 2869,
+      "sessionCount": 84,
+      "playCount": 2870,
       "firstObserved": 1788901564,
-      "lastObserved": 1790304356,
-      "typicalStartMinute": 366,
-      "typicalDurationMinutes": 44,
+      "lastObserved": 1790317851,
+      "typicalStartMinute": 297,
+      "typicalDurationMinutes": 43,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -125,7 +125,7 @@
           0.0
         ],
         [
-          53.5,
+          56.4,
           32.2,
           0.0,
           47.9,
@@ -599,7 +599,7 @@
         [
           0.0,
           0.0,
-          23.5,
+          26.3,
           30.0,
           30.0,
           2.2,
@@ -997,7 +997,7 @@
           0
         ],
         [
-          2,
+          3,
           0,
           0,
           2,
@@ -1106,9 +1106,9 @@
         },
         {
           "weekday": 4,
-          "sessions": 10,
-          "typicalStartMinute": 319,
-          "typicalDurationMinutes": 49,
+          "sessions": 11,
+          "typicalStartMinute": 265,
+          "typicalDurationMinutes": 44,
           "confidence": "Low"
         },
         {
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790317851,
+          "end": 1790318021,
+          "durationMinutes": 3,
+          "playCount": 1
+        },
         {
           "start": 1790304356,
           "end": 1790307184,
@@ -1240,12 +1246,6 @@
           "end": 1789967583,
           "durationMinutes": 640,
           "playCount": 175
-        },
-        {
-          "start": 1789915309,
-          "end": 1789915543,
-          "durationMinutes": 4,
-          "playCount": 1
         }
       ]
     },
@@ -8206,7 +8206,7 @@
     {
       "playlist": "for the girls driving 85",
       "sessionCount": 5,
-      "playCount": 221,
+      "playCount": 222,
       "firstObserved": 1789097452,
       "lastObserved": 1790307184,
       "typicalStartMinute": 1328,
@@ -8318,7 +8318,7 @@
           180.0
         ],
         [
-          92.3,
+          96.1,
           0.0,
           0.0,
           0.0,
@@ -8791,8 +8791,8 @@
         ],
         [
           45.0,
-          42.0,
-          5.3,
+          45.0,
+          6.1,
           0.0,
           0.0,
           0.0,
@@ -9287,9 +9287,9 @@
       "recentSessions": [
         {
           "start": 1790307184,
-          "end": 1790317621,
-          "durationMinutes": 174,
-          "playCount": 40
+          "end": 1790317850,
+          "durationMinutes": 178,
+          "playCount": 41
         },
         {
           "start": 1789794295,

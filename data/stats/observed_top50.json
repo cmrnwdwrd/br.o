@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T06:25:41.065376+00:00",
+  "updatedAt": "2026-09-25T06:31:19.407153+00:00",
   "summary": {
-    "totalPlays": 6135,
+    "totalPlays": 6137,
     "unknownPlays": 738,
     "uniqueTracks": 1943,
     "uniqueArtists": 1276,
     "uniqueAlbums": 1611,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790317366
+    "lastObserved": 1790317851
   },
   "topSongs": [
     {
@@ -354,6 +354,17 @@
       }
     },
     {
+      "artist": "The Shivas",
+      "title": "You Make Me Wanna Die",
+      "album": "You Know What to Do",
+      "count": 8,
+      "first": 1788975450,
+      "last": 1790317851,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "botch",
       "title": "gettingyoutobelieve",
       "album": "pear",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788985465,
       "last": 1790295357,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Doechii",
-      "title": "NISSAN ALTIMA",
-      "album": "Alligator Bites Never Heal",
-      "count": 8,
-      "first": 1788914421,
-      "last": 1790295228,
       "playlists": {
         "1default": 8
       }
@@ -4289,6 +4289,47 @@
       ]
     },
     {
+      "artist": "Kacey Musgraves",
+      "count": 15,
+      "first": 1789098752,
+      "last": 1790317621,
+      "songs": [
+        {
+          "artist": "Kacey Musgraves",
+          "title": "I Miss You",
+          "album": "Same Trailer Different Park",
+          "count": 6,
+          "first": 1789098752,
+          "last": 1790317621,
+          "playlists": {
+            "for the girls driving 85": 6
+          }
+        },
+        {
+          "artist": "Kacey Musgraves",
+          "title": "Deeper Well",
+          "album": "Deeper Well: Deeper into the Well",
+          "count": 5,
+          "first": 1789101906,
+          "last": 1789802789,
+          "playlists": {
+            "for the girls driving 85": 5
+          }
+        },
+        {
+          "artist": "Kacey Musgraves",
+          "title": "Silver Lining",
+          "album": "Same Trailer Different Park",
+          "count": 4,
+          "first": 1789106255,
+          "last": 1789803353,
+          "playlists": {
+            "for the girls driving 85": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Tele Novella",
       "count": 15,
       "first": 1788996940,
@@ -4303,36 +4344,6 @@
           "last": 1790293584,
           "playlists": {
             "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Modest Mouse",
-      "count": 15,
-      "first": 1788968149,
-      "last": 1790291579,
-      "songs": [
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 14,
-          "first": 1788968149,
-          "last": 1790291579,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "The World At Large",
-          "album": "Good News For People Who Love Bad News",
-          "count": 1,
-          "first": 1789756286,
-          "last": 1789756286,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
           }
         }
       ]
@@ -6784,9 +6795,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2890,
+      "count": 2891,
       "first": 1788901564,
-      "last": 1790306920,
+      "last": 1790317851,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7036,10 +7047,21 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 210,
+      "count": 211,
       "first": 1789097452,
-      "last": 1790317366,
+      "last": 1790317621,
       "songs": [
+        {
+          "artist": "Kacey Musgraves",
+          "title": "I Miss You",
+          "album": "Same Trailer Different Park",
+          "count": 6,
+          "first": 1789098752,
+          "last": 1790317621,
+          "playlists": {
+            "for the girls driving 85": 6
+          }
+        },
         {
           "artist": "Florence + The Machine, Jules Buckley",
           "title": "Howl - BBC Proms at the Royal Albert Hall",
@@ -7080,17 +7102,6 @@
           "count": 6,
           "first": 1789098981,
           "last": 1790315192,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        },
-        {
-          "artist": "Florence + The Machine, Ethel Cain",
-          "title": "Morning Elvis - Live At Denver Ball Arena",
-          "album": "Morning Elvis (Live At Denver Ball Arena)",
-          "count": 6,
-          "first": 1789099938,
-          "last": 1790314936,
           "playlists": {
             "for the girls driving 85": 6
           }
