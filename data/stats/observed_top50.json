@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T19:10:45.418064+00:00",
+  "updatedAt": "2026-09-25T19:15:49.278139+00:00",
   "summary": {
-    "totalPlays": 6315,
+    "totalPlays": 6316,
     "unknownPlays": 760,
     "uniqueTracks": 1962,
     "uniqueArtists": 1281,
     "uniqueAlbums": 1619,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790363425
+    "lastObserved": 1790363661
   },
   "topSongs": [
     {
@@ -2042,10 +2042,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 45,
+      "count": 46,
       "first": 1789147116,
-      "last": 1790363425,
+      "last": 1790363661,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Angel",
+          "album": "Sleep Through The Static",
+          "count": 2,
+          "first": 1789147875,
+          "last": 1790363661,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Tape Deck",
@@ -2372,17 +2383,6 @@
           "count": 1,
           "first": 1789149935,
           "last": 1789149935,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Angel",
-          "album": "Sleep Through The Static",
-          "count": 1,
-          "first": 1789147875,
-          "last": 1789147875,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 1
           }
