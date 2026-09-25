@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T00:45:51.097754+00:00",
+  "updatedAt": "2026-09-25T00:50:53.508449+00:00",
   "summary": {
-    "totalPlays": 6050,
+    "totalPlays": 6051,
     "unknownPlays": 727,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790297067
+    "lastObserved": 1790297252
   },
   "topSongs": [
     {
@@ -343,6 +343,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Sunday Bloody Sunday - Remastered 2008",
+      "album": "War (Remastered)",
+      "count": 8,
+      "first": 1788921291,
+      "last": 1790297252,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Chance the Rapper, Childish Gambino",
       "title": "Favorite Song",
       "album": "Acid Rap",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788972349,
       "last": 1790285233,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "David Bowie",
-      "title": "I'm Afraid of Americans (V1)",
-      "album": "Legacy (Deluxe Edition)",
-      "count": 8,
-      "first": 1788912385,
-      "last": 1790283942,
       "playlists": {
         "1default": 8
       }
@@ -3692,6 +3692,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 16,
+      "first": 1788921291,
+      "last": 1790297252,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 8,
+          "first": 1788921291,
+          "last": 1790297252,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 8,
+          "first": 1788964687,
+          "last": 1790199333,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "count": 16,
       "first": 1788986736,
@@ -4213,36 +4243,6 @@
           "count": 7,
           "first": 1788966960,
           "last": 1790175917,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Harper Powell",
-      "count": 15,
-      "first": 1788947970,
-      "last": 1790268212,
-      "songs": [
-        {
-          "artist": "Harper Powell",
-          "title": "It's the Full Moon",
-          "album": "It's the Full Moon",
-          "count": 8,
-          "first": 1788947970,
-          "last": 1790268212,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Harper Powell",
-          "title": "Time Is Empty",
-          "album": "Time Is Empty",
-          "count": 7,
-          "first": 1789077114,
-          "last": 1790183358,
           "playlists": {
             "1default": 7
           }
@@ -6652,9 +6652,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2867,
+      "count": 2868,
       "first": 1788901564,
-      "last": 1790297067,
+      "last": 1790297252,
       "songs": [
         {
           "artist": "Tele Novella",
