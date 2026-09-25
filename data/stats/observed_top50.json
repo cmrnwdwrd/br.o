@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T00:25:42.212392+00:00",
+  "updatedAt": "2026-09-25T00:30:47.924242+00:00",
   "summary": {
-    "totalPlays": 6044,
-    "unknownPlays": 726,
+    "totalPlays": 6045,
+    "unknownPlays": 727,
     "uniqueTracks": 1930,
     "uniqueArtists": 1265,
     "uniqueAlbums": 1598,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790295911
+    "lastObserved": 1790296135
   },
   "topSongs": [
     {
@@ -343,6 +343,17 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 8,
+      "first": 1789033065,
+      "last": 1790296135,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Sugs",
       "title": "PICTURESQUE",
       "album": "PICTURESQUE",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1789057143,
       "last": 1790283114,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "title": "Dying Dance",
-      "album": "Jaguar Stevens",
-      "count": 8,
-      "first": 1788975620,
-      "last": 1790282966,
       "playlists": {
         "1default": 8
       }
@@ -3167,6 +3167,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 21,
+      "first": 1788973998,
+      "last": 1790296135,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 8,
+          "first": 1789033065,
+          "last": 1790296135,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 7,
+          "first": 1788973998,
+          "last": 1790129876,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 6,
+          "first": 1789226629,
+          "last": 1790133120,
+          "playlists": {
+            "1default": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 21,
       "first": 1788975620,
@@ -3354,47 +3395,6 @@
           "count": 6,
           "first": 1789215234,
           "last": 1790085746,
-          "playlists": {
-            "1default": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 20,
-      "first": 1788973998,
-      "last": 1790133120,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 7,
-          "first": 1788973998,
-          "last": 1790129876,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 7,
-          "first": 1789033065,
-          "last": 1790037319,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 6,
-          "first": 1789226629,
-          "last": 1790133120,
           "playlists": {
             "1default": 6
           }
@@ -6652,9 +6652,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2861,
+      "count": 2862,
       "first": 1788901564,
-      "last": 1790295911,
+      "last": 1790296135,
       "songs": [
         {
           "artist": "Tele Novella",
