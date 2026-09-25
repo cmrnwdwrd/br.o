@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T15:15:46.610630+00:00",
+  "updatedAt": "2026-09-25T15:20:56.471390+00:00",
   "summary": {
-    "totalPlays": 6253,
-    "unknownPlays": 752,
+    "totalPlays": 6254,
+    "unknownPlays": 753,
     "uniqueTracks": 1946,
     "uniqueArtists": 1277,
     "uniqueAlbums": 1613,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790349304
+    "lastObserved": 1790349558
   },
   "topSongs": [
     {
@@ -164,6 +164,17 @@
       "last": 1790201820,
       "playlists": {
         "1default": 11
+      }
+    },
+    {
+      "artist": "Los Narwhals",
+      "title": "Surfer Babe",
+      "album": "Lagrimas de Agave",
+      "count": 10,
+      "first": 1788972740,
+      "last": 1790349558,
+      "playlists": {
+        "1default": 10
       }
     },
     {
@@ -360,17 +371,6 @@
       "count": 9,
       "first": 1789053695,
       "last": 1790108448,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Los Narwhals",
-      "title": "Surfer Babe",
-      "album": "Lagrimas de Agave",
-      "count": 9,
-      "first": 1788972740,
-      "last": 1790023101,
       "playlists": {
         "1default": 9
       }
@@ -6752,6 +6752,37 @@
       ]
     },
     {
+      "artist": "Los Narwhals",
+      "album": "Lagrimas de Agave",
+      "count": 12,
+      "first": 1788972740,
+      "last": 1790349558,
+      "songs": [
+        {
+          "artist": "Los Narwhals",
+          "title": "Surfer Babe",
+          "album": "Lagrimas de Agave",
+          "count": 10,
+          "first": 1788972740,
+          "last": 1790349558,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Los Narwhals",
+          "title": "Quiero Saber",
+          "album": "Lagrimas de Agave",
+          "count": 2,
+          "first": 1789251467,
+          "last": 1789852169,
+          "playlists": {
+            "landlockd surfrock": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Chats",
       "album": "Get This In Ya",
       "count": 12,
@@ -6770,34 +6801,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "George Harrison",
-      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-      "count": 12,
-      "first": 1789034170,
-      "last": 1790289886,
-      "songs": [
-        {
-          "artist": "George Harrison",
-          "title": "I Dig Love (2020 Mix)",
-          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-          "count": 12,
-          "first": 1789034170,
-          "last": 1790289886,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2923,
+      "count": 2924,
       "first": 1788901564,
-      "last": 1790349304,
+      "last": 1790349558,
       "songs": [
         {
           "artist": "Tele Novella",
