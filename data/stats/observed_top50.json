@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T12:35:46.696152+00:00",
+  "updatedAt": "2026-09-25T12:40:51.250268+00:00",
   "summary": {
-    "totalPlays": 6202,
+    "totalPlays": 6203,
     "unknownPlays": 746,
     "uniqueTracks": 1943,
     "uniqueArtists": 1276,
     "uniqueAlbums": 1611,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790339725
+    "lastObserved": 1790339965
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 8,
+      "first": 1788975084,
+      "last": 1790339965,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Your Neighbors",
       "title": "Chicken",
       "album": "Chicken",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788942659,
       "last": 1790324304,
-      "playlists": {
-        "breakbeat": 8
-      }
-    },
-    {
-      "artist": "webcage",
-      "title": "undermyskin",
-      "album": "peer2peer",
-      "count": 8,
-      "first": 1788939422,
-      "last": 1790324023,
       "playlists": {
         "breakbeat": 8
       }
@@ -3588,6 +3588,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 17,
+      "first": 1788919285,
+      "last": 1790339965,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 8,
+          "first": 1788975084,
+          "last": 1790339965,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 8,
+          "first": 1788919285,
+          "last": 1790264830,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 1,
+          "first": 1789893243,
+          "last": 1789893243,
+          "playlists": {
+            "christmas rn": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
       "count": 17,
       "first": 1789102138,
@@ -4075,47 +4116,6 @@
           "last": 1790221756,
           "playlists": {
             "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 16,
-      "first": 1788919285,
-      "last": 1790264830,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 8,
-          "first": 1788919285,
-          "last": 1790264830,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 7,
-          "first": 1788975084,
-          "last": 1790132129,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 1,
-          "first": 1789893243,
-          "last": 1789893243,
-          "playlists": {
-            "christmas rn": 1
           }
         }
       ]
@@ -6795,9 +6795,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2913,
+      "count": 2914,
       "first": 1788901564,
-      "last": 1790339725,
+      "last": 1790339965,
       "songs": [
         {
           "artist": "Tele Novella",
