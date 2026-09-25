@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T23:10:47.285741+00:00",
+  "updatedAt": "2026-09-25T23:15:48.204539+00:00",
   "summary": {
-    "totalPlays": 6379,
+    "totalPlays": 6381,
     "unknownPlays": 767,
     "uniqueTracks": 1972,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790377739
+    "lastObserved": 1790378059
   },
   "topSongs": [
     {
@@ -43,6 +43,17 @@
       "last": 1790291579,
       "playlists": {
         "1default": 14
+      }
+    },
+    {
+      "artist": "George Harrison",
+      "title": "I Dig Love (2020 Mix)",
+      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "count": 13,
+      "first": 1789034170,
+      "last": 1790378059,
+      "playlists": {
+        "1default": 13
       }
     },
     {
@@ -107,17 +118,6 @@
       "count": 12,
       "first": 1789078009,
       "last": 1790292012,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "George Harrison",
-      "title": "I Dig Love (2020 Mix)",
-      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-      "count": 12,
-      "first": 1789034170,
-      "last": 1790289886,
       "playlists": {
         "1default": 12
       }
@@ -6899,6 +6899,26 @@
       ]
     },
     {
+      "artist": "George Harrison",
+      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "count": 13,
+      "first": 1789034170,
+      "last": 1790378059,
+      "songs": [
+        {
+          "artist": "George Harrison",
+          "title": "I Dig Love (2020 Mix)",
+          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "count": 13,
+          "first": 1789034170,
+          "last": 1790378059,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Viagra Boys",
       "album": "Street Worms",
       "count": 13,
@@ -6957,34 +6977,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Lush",
-      "album": "Lovelife",
-      "count": 12,
-      "first": 1789015368,
-      "last": 1790374634,
-      "songs": [
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 12,
-          "first": 1789015368,
-          "last": 1790374634,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2976,
+      "count": 2978,
       "first": 1788901564,
-      "last": 1790377739,
+      "last": 1790378059,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7009,6 +7009,17 @@
           }
         },
         {
+          "artist": "George Harrison",
+          "title": "I Dig Love (2020 Mix)",
+          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "count": 13,
+          "first": 1789034170,
+          "last": 1790378059,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
           "artist": "Viagra Boys",
           "title": "Worms",
           "album": "Street Worms",
@@ -7026,17 +7037,6 @@
           "count": 13,
           "first": 1788993017,
           "last": 1790297935,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 13,
-          "first": 1789014862,
-          "last": 1790288740,
           "playlists": {
             "1default": 13
           }
