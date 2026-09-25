@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T22:05:45.150957+00:00",
+  "updatedAt": "2026-09-25T22:10:51.401960+00:00",
   "summary": {
-    "totalPlays": 6361,
+    "totalPlays": 6363,
     "unknownPlays": 765,
     "uniqueTracks": 1972,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790373841
+    "lastObserved": 1790374176
   },
   "topSongs": [
     {
@@ -409,6 +409,17 @@
       }
     },
     {
+      "artist": "Radiohead",
+      "title": "If You Say the Word",
+      "album": "If You Say the Word",
+      "count": 8,
+      "first": 1789033884,
+      "last": 1790374176,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Hope Tala",
       "title": "Blue",
       "album": "Blue",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788926373,
       "last": 1790352101,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Jethro Tull",
-      "title": "A New Day Yesterday",
-      "album": "Stand Up",
-      "count": 8,
-      "first": 1788947080,
-      "last": 1790350546,
       "playlists": {
         "1default": 8
       }
@@ -3039,6 +3039,47 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 24,
+      "first": 1788973066,
+      "last": 1790374176,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 8,
+          "first": 1789033884,
+          "last": 1790374176,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 8,
+          "first": 1788973066,
+          "last": 1790348627,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 8,
+          "first": 1788984450,
+          "last": 1790259051,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 23,
       "first": 1788965724,
@@ -3073,47 +3114,6 @@
           "count": 7,
           "first": 1789225488,
           "last": 1790269965,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 23,
-      "first": 1788973066,
-      "last": 1790348627,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 8,
-          "first": 1788973066,
-          "last": 1790348627,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 8,
-          "first": 1788984450,
-          "last": 1790259051,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 7,
-          "first": 1789033884,
-          "last": 1790109380,
           "playlists": {
             "1default": 7
           }
@@ -7004,9 +7004,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2958,
+      "count": 2960,
       "first": 1788901564,
-      "last": 1790373841,
+      "last": 1790374176,
       "songs": [
         {
           "artist": "Tele Novella",
