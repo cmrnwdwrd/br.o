@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T16:20:46.300162+00:00",
+  "updatedAt": "2026-09-25T16:25:41.108257+00:00",
   "summary": {
-    "totalPlays": 6271,
+    "totalPlays": 6272,
     "unknownPlays": 754,
     "uniqueTracks": 1946,
     "uniqueArtists": 1277,
     "uniqueAlbums": 1613,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790353059
+    "lastObserved": 1790353330
   },
   "topSongs": [
     {
@@ -387,6 +387,17 @@
       }
     },
     {
+      "artist": "The Cranberries",
+      "title": "Zombie",
+      "album": "No Need To Argue",
+      "count": 8,
+      "first": 1788916461,
+      "last": 1790353330,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Courtney Barnett",
       "title": "Write A List of Things To Look Forward To",
       "album": "Things Take Time, Take Time",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788962794,
       "last": 1790340883,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Caroline Rose",
-      "title": "Jeannie Becomes A Mom",
-      "album": "LONER",
-      "count": 8,
-      "first": 1788966700,
-      "last": 1790340622,
       "playlists": {
         "1default": 8
       }
@@ -2743,6 +2743,58 @@
       ]
     },
     {
+      "artist": "The Cranberries",
+      "count": 25,
+      "first": 1788916461,
+      "last": 1790353330,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 8,
+          "first": 1788916461,
+          "last": 1790353330,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 8,
+          "first": 1789060180,
+          "last": 1790319829,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 7,
+          "first": 1789087662,
+          "last": 1790220685,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Dreams",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 2,
+          "first": 1789174476,
+          "last": 1789784208,
+          "playlists": {
+            "d i n n e r": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 25,
       "first": 1789021318,
@@ -2905,58 +2957,6 @@
           "last": 1789758798,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Cranberries",
-      "count": 24,
-      "first": 1788916461,
-      "last": 1790319829,
-      "songs": [
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 8,
-          "first": 1789060180,
-          "last": 1790319829,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 7,
-          "first": 1789087662,
-          "last": 1790220685,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 7,
-          "first": 1788916461,
-          "last": 1790097003,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Dreams",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 2,
-          "first": 1789174476,
-          "last": 1789784208,
-          "playlists": {
-            "d i n n e r": 2
           }
         }
       ]
@@ -6709,9 +6709,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2940,
+      "count": 2941,
       "first": 1788901564,
-      "last": 1790353059,
+      "last": 1790353330,
       "songs": [
         {
           "artist": "Tele Novella",
