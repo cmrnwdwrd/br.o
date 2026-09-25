@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T18:20:46.822335+00:00",
+  "updatedAt": "2026-09-25T18:25:50.034667+00:00",
   "summary": {
-    "totalPlays": 6301,
+    "totalPlays": 6303,
     "unknownPlays": 759,
     "uniqueTracks": 1954,
     "uniqueArtists": 1277,
     "uniqueAlbums": 1614,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790360335
+    "lastObserved": 1790360734
   },
   "topSongs": [
     {
@@ -2116,10 +2116,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 41,
+      "count": 42,
       "first": 1789147116,
-      "last": 1790360335,
+      "last": 1790360734,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Tape Deck",
+          "album": "From Here To Now To You",
+          "count": 2,
+          "first": 1789149733,
+          "last": 1790360734,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Good People",
@@ -2402,17 +2413,6 @@
           "count": 1,
           "first": 1789149935,
           "last": 1789149935,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Tape Deck",
-          "album": "From Here To Now To You",
-          "count": 1,
-          "first": 1789149733,
-          "last": 1789149733,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 1
           }
