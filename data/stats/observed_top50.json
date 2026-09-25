@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T15:25:46.082597+00:00",
+  "updatedAt": "2026-09-25T15:30:34.995625+00:00",
   "summary": {
-    "totalPlays": 6256,
+    "totalPlays": 6258,
     "unknownPlays": 753,
     "uniqueTracks": 1946,
     "uniqueArtists": 1277,
     "uniqueAlbums": 1613,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790349895
+    "lastObserved": 1790350206
   },
   "topSongs": [
     {
@@ -244,6 +244,17 @@
       }
     },
     {
+      "artist": "Daffo",
+      "title": "Good God",
+      "album": "Good God (Porches Remix)",
+      "count": 9,
+      "first": 1788920320,
+      "last": 1790350086,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Basement Jaxx",
       "title": "Where's Your Head At",
       "album": "Rooty",
@@ -373,6 +384,17 @@
       "last": 1790108448,
       "playlists": {
         "1default": 9
+      }
+    },
+    {
+      "artist": "Sjowgren",
+      "title": "Now & Then",
+      "album": "Now & Then",
+      "count": 8,
+      "first": 1788965724,
+      "last": 1790350206,
+      "playlists": {
+        "1default": 8
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 8,
       "first": 1788983582,
       "last": 1790338712,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Spoon",
-      "title": "No Bullets Spent",
-      "album": "No Bullets Spent",
-      "count": 8,
-      "first": 1789065520,
-      "last": 1790338491,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Brainsick",
-      "album": "Brainsick",
-      "count": 8,
-      "first": 1789063255,
-      "last": 1790329855,
       "playlists": {
         "1default": 8
       }
@@ -2962,6 +2962,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 23,
+      "first": 1788965724,
+      "last": 1790350206,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 8,
+          "first": 1788965724,
+          "last": 1790350206,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 8,
+          "first": 1789059354,
+          "last": 1790182873,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 7,
+          "first": 1789225488,
+          "last": 1790269965,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 23,
       "first": 1788973066,
@@ -3264,47 +3305,6 @@
           "count": 7,
           "first": 1788969485,
           "last": 1790089332,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 22,
-      "first": 1788965724,
-      "last": 1790269965,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 8,
-          "first": 1789059354,
-          "last": 1790182873,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 7,
-          "first": 1789225488,
-          "last": 1790269965,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 7,
-          "first": 1788965724,
-          "last": 1790179614,
           "playlists": {
             "1default": 7
           }
@@ -6817,9 +6817,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2926,
+      "count": 2928,
       "first": 1788901564,
-      "last": 1790349895,
+      "last": 1790350206,
       "songs": [
         {
           "artist": "Tele Novella",
