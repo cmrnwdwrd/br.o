@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-25T03:10:50.481741+00:00",
+  "updatedAt": "2026-09-25T03:15:44.117238+00:00",
   "summary": {
-    "totalPlays": 6089,
+    "totalPlays": 6091,
     "unknownPlays": 732,
     "uniqueTracks": 1943,
     "uniqueArtists": 1276,
     "uniqueAlbums": 1611,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790305687
+    "lastObserved": 1790306015
   },
   "topSongs": [
     {
@@ -354,6 +354,28 @@
       }
     },
     {
+      "artist": "Hazel English",
+      "title": "Five and Dime",
+      "album": "Wake UP!",
+      "count": 8,
+      "first": 1789065292,
+      "last": 1790306015,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+      "album": "SWAMP",
+      "count": 8,
+      "first": 1789057548,
+      "last": 1790305862,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Midlake",
       "title": "Acts of Man",
       "album": "The Courage of Others",
@@ -536,28 +558,6 @@
       "count": 8,
       "first": 1789064515,
       "last": 1790294926,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "St. Paul & The Broken Bones",
-      "title": "Apollo",
-      "album": "Young Sick Camellia",
-      "count": 8,
-      "first": 1788972025,
-      "last": 1790294641,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Gorillaz, Fatoumata Diawara",
-      "title": "Désolé (feat. Fatoumata Diawara)",
-      "album": "Song Machine Episode 2",
-      "count": 8,
-      "first": 1788967094,
-      "last": 1790294405,
       "playlists": {
         "1default": 8
       }
@@ -1058,9 +1058,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 115,
+      "count": 116,
       "first": 1788910325,
-      "last": 1790305489,
+      "last": 1790305862,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1071,6 +1071,17 @@
           "last": 1790108448,
           "playlists": {
             "1default": 9
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 8,
+          "first": 1789057548,
+          "last": 1790305862,
+          "playlists": {
+            "1default": 8
           }
         },
         {
@@ -1190,17 +1201,6 @@
           "count": 7,
           "first": 1788926373,
           "last": 1790086864,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 7,
-          "first": 1789057548,
-          "last": 1790048956,
           "playlists": {
             "1default": 7
           }
@@ -4858,10 +4858,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 30,
+      "count": 31,
       "first": 1788926373,
-      "last": 1790286925,
+      "last": 1790305862,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 8,
+          "first": 1789057548,
+          "last": 1790305862,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "DISINTEGRATE",
@@ -4891,17 +4902,6 @@
           "count": 7,
           "first": 1788926373,
           "last": 1790086864,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 7,
-          "first": 1789057548,
-          "last": 1790048956,
           "playlists": {
             "1default": 7
           }
@@ -6652,9 +6652,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2884,
+      "count": 2886,
       "first": 1788901564,
-      "last": 1790305687,
+      "last": 1790306015,
       "songs": [
         {
           "artist": "Tele Novella",
