@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-26T17:51:30.679225+00:00",
+  "updatedAt": "2026-09-26T17:56:43.705435+00:00",
   "summary": {
-    "totalPlays": 6631,
+    "totalPlays": 6632,
     "unknownPlays": 797,
     "uniqueTracks": 1973,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790444935
+    "lastObserved": 1790445099
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Crumb",
+      "title": "Locket",
+      "album": "Locket",
+      "count": 9,
+      "first": 1788983912,
+      "last": 1790445099,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788987870,
       "last": 1790429943,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Harper Powell",
-      "title": "It's the Full Moon",
-      "album": "It's the Full Moon",
-      "count": 9,
-      "first": 1788947970,
-      "last": 1790429713,
       "playlists": {
         "1default": 9
       }
@@ -4457,6 +4457,36 @@
       ]
     },
     {
+      "artist": "Crumb",
+      "count": 16,
+      "first": 1788983912,
+      "last": 1790445099,
+      "songs": [
+        {
+          "artist": "Crumb",
+          "title": "Locket",
+          "album": "Locket",
+          "count": 9,
+          "first": 1788983912,
+          "last": 1790445099,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Crumb",
+          "title": "Ghostride",
+          "album": "Jinx",
+          "count": 7,
+          "first": 1789219993,
+          "last": 1790195961,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jay Som",
       "count": 16,
       "first": 1789069956,
@@ -4510,36 +4540,6 @@
           "count": 8,
           "first": 1788972865,
           "last": 1790421391,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Courtney Barnett",
-      "count": 16,
-      "first": 1788913469,
-      "last": 1790430114,
-      "songs": [
-        {
-          "artist": "Courtney Barnett",
-          "title": "Pedestrian at Best",
-          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
-          "count": 8,
-          "first": 1789215507,
-          "last": 1790430114,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Courtney Barnett",
-          "title": "Write A List of Things To Look Forward To",
-          "album": "Things Take Time, Take Time",
-          "count": 8,
-          "first": 1788913469,
-          "last": 1790352891,
           "playlists": {
             "1default": 8
           }
@@ -7048,9 +7048,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3097,
+      "count": 3098,
       "first": 1788901564,
-      "last": 1790444935,
+      "last": 1790445099,
       "songs": [
         {
           "artist": "Tele Novella",
