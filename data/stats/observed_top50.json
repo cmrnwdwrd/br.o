@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-26T17:56:43.705435+00:00",
+  "updatedAt": "2026-09-26T18:02:12.045774+00:00",
   "summary": {
-    "totalPlays": 6632,
-    "unknownPlays": 797,
+    "totalPlays": 6634,
+    "unknownPlays": 798,
     "uniqueTracks": 1973,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790445099
+    "lastObserved": 1790445623
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "The Vaccines",
+      "title": "If You Wanna",
+      "album": "What Did You Expect from The Vaccines?",
+      "count": 9,
+      "first": 1788928449,
+      "last": 1790445449,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Crumb",
       "title": "Locket",
       "album": "Locket",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1789073755,
       "last": 1790432029,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Orion Sun",
-      "title": "Antidote",
-      "album": "A Collection of Fleeting Moments and Daydreams",
-      "count": 9,
-      "first": 1788987870,
-      "last": 1790429943,
       "playlists": {
         "1default": 9
       }
@@ -4457,6 +4457,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 16,
+      "first": 1788989714,
+      "last": 1790445623,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 8,
+          "first": 1789169386,
+          "last": 1790445623,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 8,
+          "first": 1788989714,
+          "last": 1790375385,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Crumb",
       "count": 16,
       "first": 1788983912,
@@ -4510,36 +4540,6 @@
           "count": 8,
           "first": 1789235365,
           "last": 1790354207,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Pixies",
-      "count": 16,
-      "first": 1788972865,
-      "last": 1790431599,
-      "songs": [
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 8,
-          "first": 1789214521,
-          "last": 1790431599,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 8,
-          "first": 1788972865,
-          "last": 1790421391,
           "playlists": {
             "1default": 8
           }
@@ -7048,9 +7048,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3098,
+      "count": 3100,
       "first": 1788901564,
-      "last": 1790445099,
+      "last": 1790445623,
       "songs": [
         {
           "artist": "Tele Novella",
