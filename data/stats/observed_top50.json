@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-26T07:31:33.252697+00:00",
+  "updatedAt": "2026-09-26T07:36:45.329256+00:00",
   "summary": {
-    "totalPlays": 6497,
-    "unknownPlays": 781,
+    "totalPlays": 6499,
+    "unknownPlays": 782,
     "uniqueTracks": 1972,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790407726
+    "lastObserved": 1790408188
   },
   "topSongs": [
     {
@@ -1317,9 +1317,9 @@
     },
     {
       "artist": "Mitski",
-      "count": 75,
+      "count": 76,
       "first": 1788920128,
-      "last": 1790406940,
+      "last": 1790407953,
       "songs": [
         {
           "artist": "Mitski",
@@ -1356,6 +1356,17 @@
         },
         {
           "artist": "Mitski",
+          "title": "I Will",
+          "album": "Bury Me At Makeout Creek",
+          "count": 7,
+          "first": 1789097836,
+          "last": 1790407953,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
+        {
+          "artist": "Mitski",
           "title": "First Love/Late Spring",
           "album": "Bury Me At Makeout Creek",
           "count": 7,
@@ -1372,17 +1383,6 @@
           "count": 6,
           "first": 1789097710,
           "last": 1790403475,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "I Will",
-          "album": "Bury Me At Makeout Creek",
-          "count": 6,
-          "first": 1789097836,
-          "last": 1790314760,
           "playlists": {
             "for the girls driving 85": 6
           }
@@ -3266,6 +3266,58 @@
       ]
     },
     {
+      "artist": "Mary Gauthier",
+      "count": 22,
+      "first": 1789100539,
+      "last": 1790408188,
+      "songs": [
+        {
+          "artist": "Mary Gauthier",
+          "title": "The Sun Fades The Color Of Everything",
+          "album": "Filth & Fire",
+          "count": 6,
+          "first": 1789105172,
+          "last": 1790408188,
+          "playlists": {
+            "for the girls driving 85": 6
+          }
+        },
+        {
+          "artist": "Mary Gauthier",
+          "title": "Drag Queens In Limousines",
+          "album": "Drag Queens In Limousines",
+          "count": 6,
+          "first": 1789100539,
+          "last": 1790398822,
+          "playlists": {
+            "for the girls driving 85": 6
+          }
+        },
+        {
+          "artist": "Mary Gauthier",
+          "title": "After You're Gone",
+          "album": "Filth & Fire",
+          "count": 5,
+          "first": 1789108098,
+          "last": 1790403992,
+          "playlists": {
+            "for the girls driving 85": 5
+          }
+        },
+        {
+          "artist": "Mary Gauthier",
+          "title": "I Drink",
+          "album": "Drag Queens In Limousines",
+          "count": 5,
+          "first": 1789106484,
+          "last": 1790403595,
+          "playlists": {
+            "for the girls driving 85": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 22,
       "first": 1788975620,
@@ -3425,58 +3477,6 @@
           "last": 1790089332,
           "playlists": {
             "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mary Gauthier",
-      "count": 21,
-      "first": 1789100539,
-      "last": 1790405140,
-      "songs": [
-        {
-          "artist": "Mary Gauthier",
-          "title": "Drag Queens In Limousines",
-          "album": "Drag Queens In Limousines",
-          "count": 6,
-          "first": 1789100539,
-          "last": 1790398822,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        },
-        {
-          "artist": "Mary Gauthier",
-          "title": "The Sun Fades The Color Of Everything",
-          "album": "Filth & Fire",
-          "count": 5,
-          "first": 1789105172,
-          "last": 1790405140,
-          "playlists": {
-            "for the girls driving 85": 5
-          }
-        },
-        {
-          "artist": "Mary Gauthier",
-          "title": "After You're Gone",
-          "album": "Filth & Fire",
-          "count": 5,
-          "first": 1789108098,
-          "last": 1790403992,
-          "playlists": {
-            "for the girls driving 85": 5
-          }
-        },
-        {
-          "artist": "Mary Gauthier",
-          "title": "I Drink",
-          "album": "Drag Queens In Limousines",
-          "count": 5,
-          "first": 1789106484,
-          "last": 1790403595,
-          "playlists": {
-            "for the girls driving 85": 5
           }
         }
       ]
@@ -5943,10 +5943,21 @@
     {
       "artist": "Mitski",
       "album": "Bury Me At Makeout Creek",
-      "count": 18,
+      "count": 19,
       "first": 1789097836,
-      "last": 1790406940,
+      "last": 1790407953,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "I Will",
+          "album": "Bury Me At Makeout Creek",
+          "count": 7,
+          "first": 1789097836,
+          "last": 1790407953,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
         {
           "artist": "Mitski",
           "title": "First Love/Late Spring",
@@ -5956,17 +5967,6 @@
           "last": 1790406940,
           "playlists": {
             "sad girl no friends saturday": 7
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "I Will",
-          "album": "Bury Me At Makeout Creek",
-          "count": 6,
-          "first": 1789097836,
-          "last": 1790314760,
-          "playlists": {
-            "for the girls driving 85": 6
           }
         },
         {
@@ -7322,10 +7322,21 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 246,
+      "count": 248,
       "first": 1789097452,
-      "last": 1790407726,
+      "last": 1790408188,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "I Will",
+          "album": "Bury Me At Makeout Creek",
+          "count": 7,
+          "first": 1789097836,
+          "last": 1790407953,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
         {
           "artist": "Florence + The Machine",
           "title": "Dream Girl Evil",
@@ -7349,34 +7360,23 @@
           }
         },
         {
+          "artist": "Mary Gauthier",
+          "title": "The Sun Fades The Color Of Everything",
+          "album": "Filth & Fire",
+          "count": 6,
+          "first": 1789105172,
+          "last": 1790408188,
+          "playlists": {
+            "for the girls driving 85": 6
+          }
+        },
+        {
           "artist": "Florence + The Machine",
           "title": "Just A Girl - From The Original Series \"Yellowjackets\"",
           "album": "Just A Girl (From The Original Series \"Yellowjackets\")",
           "count": 6,
           "first": 1789103353,
           "last": 1790407221,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        },
-        {
-          "artist": "Ethel Cain",
-          "title": "Crush",
-          "album": "Inbred",
-          "count": 6,
-          "first": 1789100938,
-          "last": 1790406051,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        },
-        {
-          "artist": "Sally Yeh, Unknown",
-          "title": "往昔夢境",
-          "album": "面對面",
-          "count": 6,
-          "first": 1789099669,
-          "last": 1790404560,
           "playlists": {
             "for the girls driving 85": 6
           }
