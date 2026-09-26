@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-26T11:01:39.056097+00:00",
+  "updatedAt": "2026-09-26T11:06:39.779898+00:00",
   "summary": {
-    "totalPlays": 6515,
+    "totalPlays": 6517,
     "unknownPlays": 784,
     "uniqueTracks": 1973,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790420388
+    "lastObserved": 1790420800
   },
   "topSongs": [
     {
@@ -420,6 +420,28 @@
       }
     },
     {
+      "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
+      "title": "Leave The Door Open",
+      "album": "Leave The Door Open",
+      "count": 8,
+      "first": 1789056336,
+      "last": 1790420800,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "THE FUTURE IS DARK",
+      "album": "THE FUTURE IS DARK",
+      "count": 8,
+      "first": 1788913884,
+      "last": 1790420650,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Isaiah Rashad",
       "title": "Heavenly Father",
       "album": "Cilvia Demo",
@@ -536,28 +558,6 @@
       "count": 8,
       "first": 1788989503,
       "last": 1790379492,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Anjimile",
-      "title": "Baby No More",
-      "album": "Giver Taker",
-      "count": 8,
-      "first": 1788963785,
-      "last": 1790379296,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Mk.gee",
-      "title": "Are You Looking Up",
-      "album": "Two Star & The Dream Police",
-      "count": 8,
-      "first": 1788915308,
-      "last": 1790379126,
       "playlists": {
         "1default": 8
       }
@@ -1058,9 +1058,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 119,
+      "count": 120,
       "first": 1788910325,
-      "last": 1790380391,
+      "last": 1790420650,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1071,6 +1071,17 @@
           "last": 1790378545,
           "playlists": {
             "1default": 10
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 8,
+          "first": 1788913884,
+          "last": 1790420650,
+          "playlists": {
+            "1default": 8
           }
         },
         {
@@ -1190,17 +1201,6 @@
           "count": 7,
           "first": 1789212337,
           "last": 1790272668,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 7,
-          "first": 1788913884,
-          "last": 1790132777,
           "playlists": {
             "1default": 7
           }
@@ -6215,6 +6215,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THE FUTURE IS DARK",
+      "count": 16,
+      "first": 1788913884,
+      "last": 1790420650,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 8,
+          "first": 1788913884,
+          "last": 1790420650,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 8,
+          "first": 1788975770,
+          "last": 1790380391,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "鈴木 弘",
       "album": "キャット",
       "count": 16,
@@ -6522,37 +6553,6 @@
           "last": 1790193055,
           "playlists": {
             "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THE FUTURE IS DARK",
-      "count": 15,
-      "first": 1788913884,
-      "last": 1790380391,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 8,
-          "first": 1788975770,
-          "last": 1790380391,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 7,
-          "first": 1788913884,
-          "last": 1790132777,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -7070,9 +7070,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 2999,
+      "count": 3001,
       "first": 1788901564,
-      "last": 1790420388,
+      "last": 1790420800,
       "songs": [
         {
           "artist": "Tele Novella",
