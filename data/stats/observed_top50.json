@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-26T12:21:43.939647+00:00",
+  "updatedAt": "2026-09-26T12:26:36.305963+00:00",
   "summary": {
-    "totalPlays": 6537,
-    "unknownPlays": 786,
+    "totalPlays": 6538,
+    "unknownPlays": 787,
     "uniqueTracks": 1973,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790425270
+    "lastObserved": 1790425480
   },
   "topSongs": [
     {
@@ -274,6 +274,17 @@
       "last": 1790272485,
       "playlists": {
         "1default": 10
+      }
+    },
+    {
+      "artist": "Mitski",
+      "title": "Love Me More",
+      "album": "Laurel Hell",
+      "count": 9,
+      "first": 1789055950,
+      "last": 1790425480,
+      "playlists": {
+        "1default": 9
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1788972865,
       "last": 1790421391,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Orion Sun",
-      "title": "Antidote",
-      "album": "A Collection of Fleeting Moments and Daydreams",
-      "count": 8,
-      "first": 1788987870,
-      "last": 1790421221,
       "playlists": {
         "1default": 8
       }
@@ -1317,10 +1317,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 79,
+      "count": 80,
       "first": 1788920128,
-      "last": 1790410185,
+      "last": 1790425480,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 9,
+          "first": 1789055950,
+          "last": 1790425480,
+          "playlists": {
+            "1default": 9
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Should've Been Me",
@@ -1328,17 +1339,6 @@
           "count": 8,
           "first": 1788920128,
           "last": 1790242930,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 8,
-          "first": 1789055950,
-          "last": 1790193055,
           "playlists": {
             "1default": 8
           }
@@ -6025,6 +6025,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 17,
+      "first": 1788920128,
+      "last": 1790425480,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 9,
+          "first": 1789055950,
+          "last": 1790425480,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 8,
+          "first": 1788920128,
+          "last": 1790242930,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Florence + The Machine, Jules Buckley",
       "album": "Symphony of Lungs - BBC Proms at the Royal Albert Hall",
       "count": 17,
@@ -6520,37 +6551,6 @@
           "count": 8,
           "first": 1788997306,
           "last": 1790274634,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 16,
-      "first": 1788920128,
-      "last": 1790242930,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 8,
-          "first": 1788920128,
-          "last": 1790242930,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 8,
-          "first": 1789055950,
-          "last": 1790193055,
           "playlists": {
             "1default": 8
           }
@@ -7070,9 +7070,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3021,
+      "count": 3022,
       "first": 1788901564,
-      "last": 1790425270,
+      "last": 1790425480,
       "songs": [
         {
           "artist": "Tele Novella",
