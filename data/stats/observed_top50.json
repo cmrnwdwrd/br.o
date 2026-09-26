@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-26T17:06:45.658629+00:00",
+  "updatedAt": "2026-09-26T17:11:46.769736+00:00",
   "summary": {
-    "totalPlays": 6617,
+    "totalPlays": 6618,
     "unknownPlays": 796,
     "uniqueTracks": 1973,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790442400
+    "lastObserved": 1790442546
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Sjowgren",
+      "title": "Now & Then",
+      "album": "Now & Then",
+      "count": 9,
+      "first": 1788965724,
+      "last": 1790442546,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Richy Mitch & The Coal Miners",
       "title": "WET SOCKS",
       "album": "Subliming",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788990464,
       "last": 1790426589,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "IDNTY THFT",
-      "title": "Kleptomania",
-      "album": "Some",
-      "count": 9,
-      "first": 1788912073,
-      "last": 1790426250,
       "playlists": {
         "1default": 9
       }
@@ -3039,6 +3039,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 24,
+      "first": 1788965724,
+      "last": 1790442546,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 9,
+          "first": 1788965724,
+          "last": 1790442546,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 8,
+          "first": 1789059354,
+          "last": 1790182873,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 7,
+          "first": 1789225488,
+          "last": 1790269965,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 24,
       "first": 1788947368,
@@ -3330,47 +3371,6 @@
           "count": 7,
           "first": 1789226629,
           "last": 1790423380,
-          "playlists": {
-            "1default": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 23,
-      "first": 1788965724,
-      "last": 1790350206,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 8,
-          "first": 1788965724,
-          "last": 1790350206,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 8,
-          "first": 1789059354,
-          "last": 1790182873,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 7,
-          "first": 1789225488,
-          "last": 1790269965,
           "playlists": {
             "1default": 7
           }
@@ -7048,9 +7048,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3083,
+      "count": 3084,
       "first": 1788901564,
-      "last": 1790442400,
+      "last": 1790442546,
       "songs": [
         {
           "artist": "Tele Novella",
