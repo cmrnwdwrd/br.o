@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-26T22:01:58.984958+00:00",
+  "updatedAt": "2026-09-26T22:06:42.996108+00:00",
   "summary": {
-    "totalPlays": 6702,
+    "totalPlays": 6703,
     "unknownPlays": 807,
     "uniqueTracks": 1988,
     "uniqueArtists": 1288,
     "uniqueAlbums": 1634,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790460004
+    "lastObserved": 1790460258
   },
   "topSongs": [
     {
@@ -178,6 +178,17 @@
       }
     },
     {
+      "artist": "Meeting House",
+      "title": "Black Clouds",
+      "album": "Couch Surfer",
+      "count": 11,
+      "first": 1789226222,
+      "last": 1790460258,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "The Cardigans",
       "title": "Step On Me",
       "album": "First Band On The Moon (Remastered)",
@@ -217,17 +228,6 @@
       "count": 10,
       "first": 1788929095,
       "last": 1790440990,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Meeting House",
-      "title": "Black Clouds",
-      "album": "Couch Surfer",
-      "count": 10,
-      "first": 1789226222,
-      "last": 1790430684,
       "playlists": {
         "1default": 10
       }
@@ -7004,6 +7004,37 @@
       ]
     },
     {
+      "artist": "Meeting House",
+      "album": "Couch Surfer",
+      "count": 14,
+      "first": 1789226222,
+      "last": 1790460258,
+      "songs": [
+        {
+          "artist": "Meeting House",
+          "title": "Black Clouds",
+          "album": "Couch Surfer",
+          "count": 11,
+          "first": 1789226222,
+          "last": 1790460258,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Meeting House",
+          "title": "Couch Surfer",
+          "album": "Couch Surfer",
+          "count": 3,
+          "first": 1789250068,
+          "last": 1790458152,
+          "playlists": {
+            "landlockd surfrock": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "CAKE",
       "album": "Motorcade of Generosity",
       "count": 14,
@@ -7276,45 +7307,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Los Narwhals",
-      "album": "Lagrimas de Agave",
-      "count": 13,
-      "first": 1788972740,
-      "last": 1790458915,
-      "songs": [
-        {
-          "artist": "Los Narwhals",
-          "title": "Surfer Babe",
-          "album": "Lagrimas de Agave",
-          "count": 10,
-          "first": 1788972740,
-          "last": 1790349558,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Los Narwhals",
-          "title": "Quiero Saber",
-          "album": "Lagrimas de Agave",
-          "count": 3,
-          "first": 1789251467,
-          "last": 1790458915,
-          "playlists": {
-            "landlockd surfrock": 3
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3115,
+      "count": 3116,
       "first": 1788901564,
-      "last": 1790449151,
+      "last": 1790460258,
       "songs": [
         {
           "artist": "Tele Novella",
