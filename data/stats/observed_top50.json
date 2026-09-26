@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-26T13:06:42.866564+00:00",
+  "updatedAt": "2026-09-26T13:11:37.677685+00:00",
   "summary": {
-    "totalPlays": 6550,
+    "totalPlays": 6551,
     "unknownPlays": 789,
     "uniqueTracks": 1973,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790427933
+    "lastObserved": 1790428142
   },
   "topSongs": [
     {
@@ -519,6 +519,17 @@
       }
     },
     {
+      "artist": "Brahman",
+      "title": "RUN",
+      "album": "RUN",
+      "count": 8,
+      "first": 1789239291,
+      "last": 1790428142,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Your Smith",
       "title": "Bad Habit",
       "album": "Bad Habit",
@@ -547,17 +558,6 @@
       "count": 8,
       "first": 1789109880,
       "last": 1790427131,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Dashboard Confessional",
-      "title": "Matters Of Blood And Connection",
-      "album": "The Shade Of Poison Trees",
-      "count": 8,
-      "first": 1789075039,
-      "last": 1790426803,
       "playlists": {
         "1default": 8
       }
@@ -4397,6 +4397,36 @@
       ]
     },
     {
+      "artist": "Brahman",
+      "count": 16,
+      "first": 1788944074,
+      "last": 1790428142,
+      "songs": [
+        {
+          "artist": "Brahman",
+          "title": "RUN",
+          "album": "RUN",
+          "count": 8,
+          "first": 1789239291,
+          "last": 1790428142,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Brahman",
+          "title": "invisibility cloak",
+          "album": "invisibility cloak",
+          "count": 8,
+          "first": 1788944074,
+          "last": 1790233990,
+          "playlists": {
+            "breakbeat": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 16,
       "first": 1788985030,
@@ -4543,36 +4573,6 @@
           "count": 8,
           "first": 1788947080,
           "last": 1790350546,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 16,
-      "first": 1788912861,
-      "last": 1790350412,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 8,
-          "first": 1788966960,
-          "last": 1790350412,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 8,
-          "first": 1788912861,
-          "last": 1790271589,
           "playlists": {
             "1default": 8
           }
@@ -7070,9 +7070,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3034,
+      "count": 3035,
       "first": 1788901564,
-      "last": 1790427933,
+      "last": 1790428142,
       "songs": [
         {
           "artist": "Tele Novella",
