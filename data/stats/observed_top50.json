@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-26T12:51:45.240588+00:00",
+  "updatedAt": "2026-09-26T12:56:39.949824+00:00",
   "summary": {
-    "totalPlays": 6545,
+    "totalPlays": 6547,
     "unknownPlays": 788,
     "uniqueTracks": 1973,
     "uniqueArtists": 1283,
     "uniqueAlbums": 1626,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790426947
+    "lastObserved": 1790427300
   },
   "topSongs": [
     {
@@ -497,6 +497,28 @@
       }
     },
     {
+      "artist": "The Frights",
+      "title": "Boy",
+      "album": "Gallows Humour",
+      "count": 8,
+      "first": 1789261619,
+      "last": 1790427300,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
+      "artist": "Opium",
+      "title": "At Your Funeral",
+      "album": "PHANTOMS",
+      "count": 8,
+      "first": 1789109880,
+      "last": 1790427131,
+      "playlists": {
+        "1default": 8
+      }
+    },
+    {
       "artist": "Dashboard Confessional",
       "title": "Matters Of Blood And Connection",
       "album": "The Shade Of Poison Trees",
@@ -536,28 +558,6 @@
       "count": 8,
       "first": 1788919662,
       "last": 1790424145,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "N.E.R.D",
-      "title": "Run To The Sun",
-      "album": "In Search Of...",
-      "count": 8,
-      "first": 1788901564,
-      "last": 1790423854,
-      "playlists": {
-        "1default": 8
-      }
-    },
-    {
-      "artist": "Finger Eleven",
-      "title": "Paralyzer",
-      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-      "count": 8,
-      "first": 1789049428,
-      "last": 1790423646,
       "playlists": {
         "1default": 8
       }
@@ -1850,10 +1850,21 @@
     },
     {
       "artist": "Opium",
-      "count": 63,
+      "count": 64,
       "first": 1788927400,
-      "last": 1790378380,
+      "last": 1790427131,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 8,
+          "first": 1789109880,
+          "last": 1790427131,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Opium",
           "title": "Broken Glass",
@@ -1929,17 +1940,6 @@
           "last": 1790265277,
           "playlists": {
             "1default": 8
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 7,
-          "first": 1789109880,
-          "last": 1790378380,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -4584,10 +4584,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 47,
+      "count": 48,
       "first": 1788927400,
-      "last": 1790378380,
+      "last": 1790427131,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 8,
+          "first": 1789109880,
+          "last": 1790427131,
+          "playlists": {
+            "1default": 8
+          }
+        },
         {
           "artist": "Opium",
           "title": "Broken Glass",
@@ -4641,17 +4652,6 @@
           "last": 1790265277,
           "playlists": {
             "1default": 8
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 7,
-          "first": 1789109880,
-          "last": 1790378380,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -7070,9 +7070,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3029,
+      "count": 3031,
       "first": 1788901564,
-      "last": 1790426947,
+      "last": 1790427300,
       "songs": [
         {
           "artist": "Tele Novella",
