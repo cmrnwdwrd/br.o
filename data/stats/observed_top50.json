@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T09:06:43.840028+00:00",
+  "updatedAt": "2026-09-27T09:11:43.136577+00:00",
   "summary": {
-    "totalPlays": 6902,
+    "totalPlays": 6904,
     "unknownPlays": 831,
     "uniqueTracks": 2074,
     "uniqueArtists": 1343,
     "uniqueAlbums": 1704,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790499895
+    "lastObserved": 1790500300
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 9,
+      "first": 1788989714,
+      "last": 1790500300,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Dreamer Isioma",
       "title": "Sensitive",
       "album": "Sensitive",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788972349,
       "last": 1790447695,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Collective Soul",
-      "title": "December",
-      "album": "Collective Soul",
-      "count": 9,
-      "first": 1788988096,
-      "last": 1790446937,
       "playlists": {
         "1default": 9
       }
@@ -4372,6 +4372,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 17,
+      "first": 1788989714,
+      "last": 1790500300,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 9,
+          "first": 1788989714,
+          "last": 1790500300,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 8,
+          "first": 1789169386,
+          "last": 1790445623,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 17,
       "first": 1788972865,
@@ -4677,36 +4707,6 @@
           "count": 8,
           "first": 1789054681,
           "last": 1790355089,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 17,
-      "first": 1788985030,
-      "last": 1790429943,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 9,
-          "first": 1788987870,
-          "last": 1790429943,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 8,
-          "first": 1788985030,
-          "last": 1790196730,
           "playlists": {
             "1default": 8
           }
@@ -7435,9 +7435,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3142,
+      "count": 3144,
       "first": 1788901564,
-      "last": 1790499895,
+      "last": 1790500300,
       "songs": [
         {
           "artist": "Tele Novella",
