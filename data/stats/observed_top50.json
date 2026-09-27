@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T14:31:39.709824+00:00",
+  "updatedAt": "2026-09-27T14:36:46.456718+00:00",
   "summary": {
-    "totalPlays": 6998,
+    "totalPlays": 7000,
     "unknownPlays": 843,
     "uniqueTracks": 2084,
     "uniqueArtists": 1348,
     "uniqueAlbums": 1713,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790519274
+    "lastObserved": 1790519736
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "My Love Mine All Mine",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 9,
+      "first": 1789130394,
+      "last": 1790519736,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Doja Cat",
       "title": "Say So (MTV EMA 2020)",
       "album": "",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1789064095,
       "last": 1790498124,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Midlake",
-      "title": "Acts of Man",
-      "album": "The Courage of Others",
-      "count": 9,
-      "first": 1789056160,
-      "last": 1790492463,
       "playlists": {
         "1default": 9
       }
@@ -1350,10 +1350,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 83,
+      "count": 84,
       "first": 1788920128,
-      "last": 1790488245,
+      "last": 1790519736,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "My Love Mine All Mine",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 9,
+          "first": 1789130394,
+          "last": 1790519736,
+          "playlists": {
+            "1default": 9
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Should've Been Me",
@@ -1374,17 +1385,6 @@
           "last": 1790425480,
           "playlists": {
             "1default": 9
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "My Love Mine All Mine",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 8,
-          "first": 1789130394,
-          "last": 1790182343,
-          "playlists": {
-            "1default": 8
           }
         },
         {
@@ -5516,19 +5516,19 @@
     {
       "artist": "Mitski",
       "album": "The Land Is Inhospitable and So Are We",
-      "count": 30,
+      "count": 31,
       "first": 1789102597,
-      "last": 1790410185,
+      "last": 1790519736,
       "songs": [
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
           "album": "The Land Is Inhospitable and So Are We",
-          "count": 8,
+          "count": 9,
           "first": 1789130394,
-          "last": 1790182343,
+          "last": 1790519736,
           "playlists": {
-            "1default": 8
+            "1default": 9
           }
         },
         {
@@ -7358,9 +7358,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3163,
+      "count": 3164,
       "first": 1788901564,
-      "last": 1790504856,
+      "last": 1790519736,
       "songs": [
         {
           "artist": "Tele Novella",
