@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T17:31:57.468563+00:00",
+  "updatedAt": "2026-09-27T17:36:40.284186+00:00",
   "summary": {
-    "totalPlays": 7042,
+    "totalPlays": 7043,
     "unknownPlays": 847,
     "uniqueTracks": 2108,
     "uniqueArtists": 1367,
     "uniqueAlbums": 1736,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790530225
+    "lastObserved": 1790530437
   },
   "topSongs": [
     {
@@ -7673,10 +7673,21 @@
     },
     {
       "playlist": "throwbacks",
-      "count": 216,
+      "count": 217,
       "first": 1789263760,
-      "last": 1790530225,
+      "last": 1790530437,
       "songs": [
+        {
+          "artist": "Nina Simone",
+          "title": "I Shall Be Released",
+          "album": "To Love Somebody (Expanded Edition)",
+          "count": 2,
+          "first": 1789270162,
+          "last": 1790530437,
+          "playlists": {
+            "throwbacks": 2
+          }
+        },
         {
           "artist": "Kelela",
           "title": "Jupiter",
@@ -7717,17 +7728,6 @@
           "count": 2,
           "first": 1789317088,
           "last": 1790525245,
-          "playlists": {
-            "throwbacks": 2
-          }
-        },
-        {
-          "artist": "Young Thug",
-          "title": "Digits",
-          "album": "Slime Season 3",
-          "count": 2,
-          "first": 1789264856,
-          "last": 1790524548,
           "playlists": {
             "throwbacks": 2
           }
