@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T12:51:45.775279+00:00",
+  "updatedAt": "2026-09-27T12:56:41.269226+00:00",
   "summary": {
-    "totalPlays": 6972,
+    "totalPlays": 6973,
     "unknownPlays": 840,
     "uniqueTracks": 2084,
     "uniqueArtists": 1348,
     "uniqueAlbums": 1713,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790513359
+    "lastObserved": 1790513732
   },
   "topSongs": [
     {
@@ -7862,10 +7862,21 @@
     },
     {
       "playlist": "classical",
-      "count": 129,
+      "count": 130,
       "first": 1789295519,
-      "last": 1790513359,
+      "last": 1790513732,
       "songs": [
+        {
+          "artist": "haruka nakamura",
+          "title": "better day",
+          "album": "Still Life",
+          "count": 3,
+          "first": 1789298395,
+          "last": 1790513732,
+          "playlists": {
+            "classical": 3
+          }
+        },
         {
           "artist": "Jonny Greenwood",
           "title": "Crucifix",
@@ -7906,17 +7917,6 @@
           "count": 3,
           "first": 1789301985,
           "last": 1790511538,
-          "playlists": {
-            "classical": 3
-          }
-        },
-        {
-          "artist": "Andrew Huang, Nahre Sol",
-          "title": "Swan Song",
-          "album": "Swan Song",
-          "count": 3,
-          "first": 1789302696,
-          "last": 1790511415,
           "playlists": {
             "classical": 3
           }
