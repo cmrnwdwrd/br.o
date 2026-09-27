@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T23:51:36.041545+00:00",
+  "updatedAt": "2026-09-27T23:56:48.159657+00:00",
   "summary": {
-    "totalPlays": 7141,
+    "totalPlays": 7142,
     "unknownPlays": 860,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790553096
+    "lastObserved": 1790553330
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "The End of the Game",
+      "album": "The End of the Game",
+      "count": 9,
+      "first": 1788974227,
+      "last": 1790553330,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "title": "Lava Lamp Pisco",
       "album": "Lava Lamp Pisco",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788985465,
       "last": 1790544805,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "DARKIE STILL CANNOT RAP",
-      "album": "SWAMP DRAINED",
-      "count": 9,
-      "first": 1788910325,
-      "last": 1790544436,
       "playlists": {
         "1default": 9
       }
@@ -3054,10 +3054,21 @@
     },
     {
       "artist": "Weezer",
-      "count": 27,
+      "count": 28,
       "first": 1788946510,
-      "last": 1790552606,
+      "last": 1790553330,
       "songs": [
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 9,
+          "first": 1788974227,
+          "last": 1790553330,
+          "playlists": {
+            "1default": 9
+          }
+        },
         {
           "artist": "Weezer",
           "title": "Say It Ain't So",
@@ -3076,17 +3087,6 @@
           "count": 8,
           "first": 1789142694,
           "last": 1790552606,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 8,
-          "first": 1788974227,
-          "last": 1790184703,
           "playlists": {
             "1default": 8
           }
@@ -7226,9 +7226,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3252,
+      "count": 3253,
       "first": 1788901564,
-      "last": 1790553096,
+      "last": 1790553330,
       "songs": [
         {
           "artist": "Tele Novella",
