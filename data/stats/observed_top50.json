@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T23:46:53.027356+00:00",
+  "updatedAt": "2026-09-27T23:51:36.041545+00:00",
   "summary": {
-    "totalPlays": 7139,
-    "unknownPlays": 859,
+    "totalPlays": 7141,
+    "unknownPlays": 860,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790552606
+    "lastObserved": 1790553096
   },
   "topSongs": [
+    {
+      "artist": "Tele Novella",
+      "title": "Funeral",
+      "album": "Poet's Tooth",
+      "count": 16,
+      "first": 1788996940,
+      "last": 1790553096,
+      "playlists": {
+        "1default": 16
+      }
+    },
     {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "title": "Run It",
@@ -30,17 +41,6 @@
       "count": 15,
       "first": 1788968149,
       "last": 1790539411,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Tele Novella",
-      "title": "Funeral",
-      "album": "Poet's Tooth",
-      "count": 15,
-      "first": 1788996940,
-      "last": 1790293584,
       "playlists": {
         "1default": 15
       }
@@ -263,6 +263,17 @@
       "last": 1790428561,
       "playlists": {
         "1default": 11
+      }
+    },
+    {
+      "artist": "Squirrel Flower",
+      "title": "So Hot You're Hurting My Feelings",
+      "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
+      "count": 10,
+      "first": 1789056580,
+      "last": 1790552845,
+      "playlists": {
+        "1default": 10
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788910325,
       "last": 1790544436,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "Mallard",
-      "album": "Mallard",
-      "count": 9,
-      "first": 1788973386,
-      "last": 1790544229,
       "playlists": {
         "1default": 9
       }
@@ -6712,6 +6712,26 @@
       ]
     },
     {
+      "artist": "Tele Novella",
+      "album": "Poet's Tooth",
+      "count": 16,
+      "first": 1788996940,
+      "last": 1790553096,
+      "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 16,
+          "first": 1788996940,
+          "last": 1790553096,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "album": "Good News For People Who Love Bad News",
       "count": 16,
@@ -7081,26 +7101,6 @@
       ]
     },
     {
-      "artist": "Tele Novella",
-      "album": "Poet's Tooth",
-      "count": 15,
-      "first": 1788996940,
-      "last": 1790293584,
-      "songs": [
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 15,
-          "first": 1788996940,
-          "last": 1790293584,
-          "playlists": {
-            "1default": 15
-          }
-        }
-      ]
-    },
-    {
       "artist": "George Harrison",
       "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
       "count": 14,
@@ -7226,10 +7226,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3250,
+      "count": 3252,
       "first": 1788901564,
-      "last": 1790552606,
+      "last": 1790553096,
       "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 16,
+          "first": 1788996940,
+          "last": 1790553096,
+          "playlists": {
+            "1default": 16
+          }
+        },
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
@@ -7237,17 +7248,6 @@
           "count": 15,
           "first": 1788968149,
           "last": 1790539411,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 15,
-          "first": 1788996940,
-          "last": 1790293584,
           "playlists": {
             "1default": 15
           }
