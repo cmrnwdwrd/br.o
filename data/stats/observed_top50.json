@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T18:56:50.219919+00:00",
+  "updatedAt": "2026-09-27T19:01:55.679046+00:00",
   "summary": {
-    "totalPlays": 7063,
+    "totalPlays": 7065,
     "unknownPlays": 850,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790535085
+    "lastObserved": 1790535667
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 9,
+      "first": 1788985030,
+      "last": 1790535667,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
+      "artist": "Better Oblivion Community Center, Conor Oberst, Phoebe Bridgers",
+      "title": "Dylan Thomas",
+      "album": "Better Oblivion Community Center",
+      "count": 9,
+      "first": 1789055208,
+      "last": 1790535450,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Dirge",
       "album": "Dirge",
@@ -536,28 +558,6 @@
       "count": 9,
       "first": 1788921570,
       "last": 1790500752,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Medium Troy",
-      "title": "Space Tree",
-      "album": "Space Tree",
-      "count": 9,
-      "first": 1788990730,
-      "last": 1790500494,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Billie Eilish",
-      "title": "NDA",
-      "album": "Happier Than Ever",
-      "count": 9,
-      "first": 1788989714,
-      "last": 1790500300,
       "playlists": {
         "1default": 9
       }
@@ -4085,6 +4085,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 18,
+      "first": 1788985030,
+      "last": 1790535667,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 9,
+          "first": 1788985030,
+          "last": 1790535667,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 9,
+          "first": 1788987870,
+          "last": 1790429943,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "count": 18,
       "first": 1788947080,
@@ -4677,36 +4707,6 @@
           "count": 8,
           "first": 1789059805,
           "last": 1790221756,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 17,
-      "first": 1789054681,
-      "last": 1790443238,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 9,
-          "first": 1789057143,
-          "last": 1790443238,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 8,
-          "first": 1789054681,
-          "last": 1790355089,
           "playlists": {
             "1default": 8
           }
@@ -7336,9 +7336,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3174,
+      "count": 3176,
       "first": 1788901564,
-      "last": 1790535085,
+      "last": 1790535667,
       "songs": [
         {
           "artist": "Tele Novella",
