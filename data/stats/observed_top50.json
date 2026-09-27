@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T18:16:53.610202+00:00",
+  "updatedAt": "2026-09-27T18:22:24.264095+00:00",
   "summary": {
-    "totalPlays": 7053,
+    "totalPlays": 7055,
     "unknownPlays": 848,
-    "uniqueTracks": 2115,
+    "uniqueTracks": 2116,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1743,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790532934
+    "lastObserved": 1790533164
   },
   "topSongs": [
     {
@@ -7673,10 +7673,21 @@
     },
     {
       "playlist": "throwbacks",
-      "count": 227,
+      "count": 229,
       "first": 1789263760,
-      "last": 1790532934,
+      "last": 1790533164,
       "songs": [
+        {
+          "artist": "Little Beaver",
+          "title": "I Can Dig It Baby",
+          "album": "The Very Best Of Little Beaver",
+          "count": 2,
+          "first": 1789265031,
+          "last": 1790533164,
+          "playlists": {
+            "throwbacks": 2
+          }
+        },
         {
           "artist": "2 Chainz",
           "title": "Neighborhood",
@@ -7717,17 +7728,6 @@
           "count": 2,
           "first": 1789270162,
           "last": 1790530437,
-          "playlists": {
-            "throwbacks": 2
-          }
-        },
-        {
-          "artist": "Kelela",
-          "title": "Jupiter",
-          "album": "Take Me Apart",
-          "count": 2,
-          "first": 1789267844,
-          "last": 1790529626,
           "playlists": {
             "throwbacks": 2
           }
