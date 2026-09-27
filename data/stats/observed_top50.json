@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T18:41:50.654370+00:00",
+  "updatedAt": "2026-09-27T18:46:50.994869+00:00",
   "summary": {
-    "totalPlays": 7059,
+    "totalPlays": 7061,
     "unknownPlays": 850,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790534253
+    "lastObserved": 1790534777
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 9,
+      "first": 1789064784,
+      "last": 1790534560,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Phoebe Bridgers",
       "title": "Killer",
       "album": "Stranger in the Alps",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788989714,
       "last": 1790500300,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Dreamer Isioma",
-      "title": "Sensitive",
-      "album": "Sensitive",
-      "count": 9,
-      "first": 1789057751,
-      "last": 1790499895,
       "playlists": {
         "1default": 9
       }
@@ -1990,10 +1990,21 @@
     },
     {
       "artist": "Opium",
-      "count": 66,
+      "count": 67,
       "first": 1788927400,
-      "last": 1790498124,
+      "last": 1790534560,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 9,
+          "first": 1789064784,
+          "last": 1790534560,
+          "playlists": {
+            "1default": 9
+          }
+        },
         {
           "artist": "Opium",
           "title": "Rainfall",
@@ -2056,17 +2067,6 @@
           "count": 8,
           "first": 1788946866,
           "last": 1790298956,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 8,
-          "first": 1789064784,
-          "last": 1790268443,
           "playlists": {
             "1default": 8
           }
@@ -7347,9 +7347,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3170,
+      "count": 3172,
       "first": 1788901564,
-      "last": 1790534253,
+      "last": 1790534777,
       "songs": [
         {
           "artist": "Tele Novella",
