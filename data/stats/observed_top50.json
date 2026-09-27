@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T01:21:37.348707+00:00",
+  "updatedAt": "2026-09-27T01:26:42.192719+00:00",
   "summary": {
-    "totalPlays": 6763,
+    "totalPlays": 6765,
     "unknownPlays": 813,
     "uniqueTracks": 1990,
     "uniqueArtists": 1289,
     "uniqueAlbums": 1636,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790471980
+    "lastObserved": 1790472405
   },
   "topSongs": [
     {
@@ -134,6 +134,17 @@
       }
     },
     {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 12,
+      "first": 1788989320,
+      "last": 1790472223,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "wrap music",
       "album": "THIS DOES NOT EXIST",
@@ -184,17 +195,6 @@
       "count": 11,
       "first": 1788920320,
       "last": 1790469064,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Traveling",
-      "album": "Young & Old",
-      "count": 11,
-      "first": 1788989320,
-      "last": 1790463453,
       "playlists": {
         "1default": 11
       }
@@ -307,6 +307,17 @@
       "last": 1790325555,
       "playlists": {
         "breakbeat": 10
+      }
+    },
+    {
+      "artist": "Kate Bollinger",
+      "title": "A Couple Things",
+      "album": "A word becomes a sound",
+      "count": 9,
+      "first": 1788915657,
+      "last": 1790472405,
+      "playlists": {
+        "1default": 9
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788969945,
       "last": 1790443919,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Yumi Zouma",
-      "title": "Right Track / Wrong Man",
-      "album": "Truth or Consequences",
-      "count": 9,
-      "first": 1789057143,
-      "last": 1790443238,
       "playlists": {
         "1default": 9
       }
@@ -2802,19 +2802,19 @@
     },
     {
       "artist": "Tennis",
-      "count": 29,
+      "count": 30,
       "first": 1788989320,
-      "last": 1790463453,
+      "last": 1790472223,
       "songs": [
         {
           "artist": "Tennis",
           "title": "Traveling",
           "album": "Young & Old",
-          "count": 11,
+          "count": 12,
           "first": 1788989320,
-          "last": 1790463453,
+          "last": 1790472223,
           "playlists": {
-            "1default": 11
+            "1default": 12
           }
         },
         {
@@ -3912,6 +3912,36 @@
       ]
     },
     {
+      "artist": "Kate Bollinger",
+      "count": 18,
+      "first": 1788915657,
+      "last": 1790472405,
+      "songs": [
+        {
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 9,
+          "first": 1788915657,
+          "last": 1790472405,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 9,
+          "first": 1788983449,
+          "last": 1790424885,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 18,
       "first": 1788919285,
@@ -4433,36 +4463,6 @@
           "count": 8,
           "first": 1788985030,
           "last": 1790196730,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kate Bollinger",
-      "count": 17,
-      "first": 1788915657,
-      "last": 1790424885,
-      "songs": [
-        {
-          "artist": "Kate Bollinger",
-          "title": "Talk About It",
-          "album": "Talk About It (B-Side)",
-          "count": 9,
-          "first": 1788983449,
-          "last": 1790424885,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Kate Bollinger",
-          "title": "A Couple Things",
-          "album": "A word becomes a sound",
-          "count": 8,
-          "first": 1788915657,
-          "last": 1790221950,
           "playlists": {
             "1default": 8
           }
@@ -7290,9 +7290,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3127,
+      "count": 3129,
       "first": 1788901564,
-      "last": 1790471980,
+      "last": 1790472405,
       "songs": [
         {
           "artist": "Tele Novella",
