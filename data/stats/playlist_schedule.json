@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T06:56:42.929861+00:00",
+  "updatedAt": "2026-09-27T07:01:45.969043+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 253,
+    "sessionCount": 254,
     "firstObserved": 1788901564,
-    "lastObserved": 1790488889
+    "lastObserved": 1790492463
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 92,
-      "playCount": 3106,
+      "sessionCount": 93,
+      "playCount": 3107,
       "firstObserved": 1788901564,
-      "lastObserved": 1790470832,
-      "typicalStartMinute": 382,
+      "lastObserved": 1790492463,
+      "typicalStartMinute": 332,
       "typicalDurationMinutes": 46,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -178,7 +178,7 @@
         ],
         [
           0.0,
-          0.0,
+          2.9,
           21.7,
           85.1,
           65.1,
@@ -797,7 +797,7 @@
           0.0,
           0.0,
           0.0,
-          0.0,
+          2.9,
           0.0,
           0.0,
           0.0,
@@ -1050,7 +1050,7 @@
         ],
         [
           0,
-          0,
+          1,
           1,
           1,
           0,
@@ -1120,13 +1120,19 @@
         },
         {
           "weekday": 6,
-          "sessions": 9,
-          "typicalStartMinute": 497,
-          "typicalDurationMinutes": 12,
+          "sessions": 10,
+          "typicalStartMinute": 460,
+          "typicalDurationMinutes": 8,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790492463,
+          "end": 1790492638,
+          "durationMinutes": 3,
+          "playCount": 1
+        },
         {
           "start": 1790470832,
           "end": 1790473352,
@@ -1240,12 +1246,6 @@
           "end": 1790157769,
           "durationMinutes": 32,
           "playCount": 9
-        },
-        {
-          "start": 1790147660,
-          "end": 1790147985,
-          "durationMinutes": 5,
-          "playCount": 1
         }
       ]
     },
@@ -32481,11 +32481,11 @@
     {
       "playlist": "silly lofi",
       "sessionCount": 2,
-      "playCount": 55,
+      "playCount": 57,
       "firstObserved": 1789884012,
       "lastObserved": 1790488889,
       "typicalStartMinute": 0,
-      "typicalDurationMinutes": 59,
+      "typicalDurationMinutes": 60,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -32645,8 +32645,8 @@
           0.0
         ],
         [
-          115.8,
-          1.5,
+          118.3,
+          2.0,
           0.0,
           0.0,
           0.0,
@@ -33264,8 +33264,8 @@
           28.3,
           30.0,
           30.0,
-          27.5,
-          1.5,
+          30.0,
+          2.0,
           0.0,
           0.0,
           0.0,
@@ -33548,16 +33548,16 @@
           "weekday": 6,
           "sessions": 2,
           "typicalStartMinute": 0,
-          "typicalDurationMinutes": 59,
+          "typicalDurationMinutes": 60,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
         {
           "start": 1790488889,
-          "end": 1790492250,
-          "durationMinutes": 56,
-          "playCount": 27
+          "end": 1790492432,
+          "durationMinutes": 59,
+          "playCount": 29
         },
         {
           "start": 1789884012,
