@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T02:36:45.966648+00:00",
+  "updatedAt": "2026-09-27T02:41:46.862592+00:00",
   "summary": {
-    "totalPlays": 6782,
+    "totalPlays": 6783,
     "unknownPlays": 816,
     "uniqueTracks": 2002,
     "uniqueArtists": 1298,
     "uniqueAlbums": 1647,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790476488
+    "lastObserved": 1790476760
   },
   "topSongs": [
     {
@@ -7508,10 +7508,21 @@
     },
     {
       "playlist": "throwbacks",
-      "count": 167,
+      "count": 168,
       "first": 1789263760,
-      "last": 1790476488,
+      "last": 1790476760,
       "songs": [
+        {
+          "artist": "Beach House",
+          "title": "Space Song",
+          "album": "Depression Cherry",
+          "count": 2,
+          "first": 1789266877,
+          "last": 1790476760,
+          "playlists": {
+            "throwbacks": 2
+          }
+        },
         {
           "artist": "Xavier Wulf",
           "title": "Thunder Man",
@@ -7552,17 +7563,6 @@
           "count": 2,
           "first": 1789272123,
           "last": 1789928021,
-          "playlists": {
-            "throwbacks": 2
-          }
-        },
-        {
-          "artist": "Jeremih",
-          "title": "oui",
-          "album": "Late Nights: The Album",
-          "count": 2,
-          "first": 1789265570,
-          "last": 1789927523,
           "playlists": {
             "throwbacks": 2
           }
