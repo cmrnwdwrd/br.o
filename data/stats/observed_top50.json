@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T18:46:50.994869+00:00",
+  "updatedAt": "2026-09-27T18:51:50.489813+00:00",
   "summary": {
-    "totalPlays": 7061,
+    "totalPlays": 7063,
     "unknownPlays": 850,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790534777
+    "lastObserved": 1790535085
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1790293584,
       "playlists": {
         "1default": 15
+      }
+    },
+    {
+      "artist": "Viagra Boys",
+      "title": "Worms",
+      "album": "Street Worms",
+      "count": 14,
+      "first": 1788991593,
+      "last": 1790534875,
+      "playlists": {
+        "1default": 14
       }
     },
     {
@@ -107,17 +118,6 @@
       "count": 13,
       "first": 1789034170,
       "last": 1790378059,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Viagra Boys",
-      "title": "Worms",
-      "album": "Street Worms",
-      "count": 13,
-      "first": 1788991593,
-      "last": 1790376755,
       "playlists": {
         "1default": 13
       }
@@ -7180,6 +7180,26 @@
       ]
     },
     {
+      "artist": "Viagra Boys",
+      "album": "Street Worms",
+      "count": 14,
+      "first": 1788991593,
+      "last": 1790534875,
+      "songs": [
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 14,
+          "first": 1788991593,
+          "last": 1790534875,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "album": "WAR IN COLORADO!",
       "count": 14,
@@ -7311,45 +7331,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "MIMIDEATH",
-      "album": "FOAR EVERYWUN FRUM MIMI",
-      "count": 14,
-      "first": 1789021318,
-      "last": 1790326200,
-      "songs": [
-        {
-          "artist": "MIMIDEATH",
-          "title": "the con",
-          "album": "FOAR EVERYWUN FRUM MIMI",
-          "count": 7,
-          "first": 1789022489,
-          "last": 1790326200,
-          "playlists": {
-            "breakbeat": 7
-          }
-        },
-        {
-          "artist": "MIMIDEATH",
-          "title": "abusive",
-          "album": "FOAR EVERYWUN FRUM MIMI",
-          "count": 7,
-          "first": 1789021318,
-          "last": 1790234851,
-          "playlists": {
-            "breakbeat": 7
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3172,
+      "count": 3174,
       "first": 1788901564,
-      "last": 1790534777,
+      "last": 1790535085,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7360,6 +7349,17 @@
           "last": 1790293584,
           "playlists": {
             "1default": 15
+          }
+        },
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 14,
+          "first": 1788991593,
+          "last": 1790534875,
+          "playlists": {
+            "1default": 14
           }
         },
         {
@@ -7393,17 +7393,6 @@
           "last": 1790291579,
           "playlists": {
             "1default": 14
-          }
-        },
-        {
-          "artist": "Mommy Long Legs",
-          "title": "Weird Girl",
-          "album": "Assholes",
-          "count": 13,
-          "first": 1789072780,
-          "last": 1790444792,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
