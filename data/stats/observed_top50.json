@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T03:41:55.097614+00:00",
+  "updatedAt": "2026-09-27T03:46:43.283950+00:00",
   "summary": {
-    "totalPlays": 6797,
+    "totalPlays": 6798,
     "unknownPlays": 818,
     "uniqueTracks": 2016,
     "uniqueArtists": 1310,
     "uniqueAlbums": 1661,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790480485
+    "lastObserved": 1790480695
   },
   "topSongs": [
     {
@@ -7508,10 +7508,21 @@
     },
     {
       "playlist": "throwbacks",
-      "count": 182,
+      "count": 183,
       "first": 1789263760,
-      "last": 1790480485,
+      "last": 1790480695,
       "songs": [
+        {
+          "artist": "Eminem",
+          "title": "The Real Slim Shady",
+          "album": "The Marshall Mathers LP",
+          "count": 2,
+          "first": 1789267970,
+          "last": 1790480695,
+          "playlists": {
+            "throwbacks": 2
+          }
+        },
         {
           "artist": "Beach House",
           "title": "Space Song",
@@ -7552,17 +7563,6 @@
           "count": 2,
           "first": 1789270394,
           "last": 1789928910,
-          "playlists": {
-            "throwbacks": 2
-          }
-        },
-        {
-          "artist": "B.o.B, 2 Chainz",
-          "title": "HeadBand (feat. 2 Chainz)",
-          "album": "Underground Luxury",
-          "count": 2,
-          "first": 1789272123,
-          "last": 1789928021,
           "playlists": {
             "throwbacks": 2
           }
