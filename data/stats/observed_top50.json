@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T23:32:02.817938+00:00",
+  "updatedAt": "2026-09-27T23:36:35.305194+00:00",
   "summary": {
-    "totalPlays": 7135,
+    "totalPlays": 7137,
     "unknownPlays": 859,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790551690
+    "lastObserved": 1790552173
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "Lava Lamp Pisco",
+      "album": "Lava Lamp Pisco",
+      "count": 9,
+      "first": 1788915065,
+      "last": 1790552173,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Blue October",
       "title": "Into The Ocean",
       "album": "Foiled",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788973386,
       "last": 1790544229,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "King Fantastic",
-      "title": "Joshua Tree",
-      "album": "The Great Man Theory",
-      "count": 9,
-      "first": 1789061705,
-      "last": 1790544017,
       "playlists": {
         "1default": 9
       }
@@ -2760,6 +2760,58 @@
       ]
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "count": 32,
+      "first": 1788915065,
+      "last": 1790552173,
+      "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Lava Lamp Pisco",
+          "album": "Lava Lamp Pisco",
+          "count": 9,
+          "first": 1788915065,
+          "last": 1790552173,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Bill's Mandolin",
+          "album": "And Now for the Whatchamacallit",
+          "count": 8,
+          "first": 1789234972,
+          "last": 1790551961,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Tally-Ho",
+          "album": "Tally-Ho",
+          "count": 8,
+          "first": 1789085431,
+          "last": 1790541632,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Mr. Prism",
+          "album": "Mr. Prism",
+          "count": 7,
+          "first": 1789168906,
+          "last": 1790196342,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "count": 32,
       "first": 1788917492,
@@ -2881,58 +2933,6 @@
           "last": 1790459138,
           "playlists": {
             "landlockd surfrock": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Psychedelic Porn Crumpets",
-      "count": 30,
-      "first": 1788915065,
-      "last": 1790541632,
-      "songs": [
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Tally-Ho",
-          "album": "Tally-Ho",
-          "count": 8,
-          "first": 1789085431,
-          "last": 1790541632,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Lava Lamp Pisco",
-          "album": "Lava Lamp Pisco",
-          "count": 8,
-          "first": 1788915065,
-          "last": 1790269135,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Bill's Mandolin",
-          "album": "And Now for the Whatchamacallit",
-          "count": 7,
-          "first": 1789234972,
-          "last": 1790275102,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Mr. Prism",
-          "album": "Mr. Prism",
-          "count": 7,
-          "first": 1789168906,
-          "last": 1790196342,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -7226,9 +7226,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3246,
+      "count": 3248,
       "first": 1788901564,
-      "last": 1790551690,
+      "last": 1790552173,
       "songs": [
         {
           "artist": "Modest Mouse",
