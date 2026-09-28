@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T21:31:54.250439+00:00",
+  "updatedAt": "2026-09-28T21:36:47.926465+00:00",
   "summary": {
-    "totalPlays": 7496,
+    "totalPlays": 7497,
     "unknownPlays": 902,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790630968
+    "lastObserved": 1790631183
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "David Bowie",
+      "title": "I'm Afraid of Americans (V1)",
+      "album": "Legacy (Deluxe Edition)",
+      "count": 10,
+      "first": 1788912385,
+      "last": 1790631183,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Dirge",
       "album": "Dirge",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788965724,
       "last": 1790622972,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Sweet Pill",
-      "title": "Blood",
-      "album": "Where the Heart Is",
-      "count": 10,
-      "first": 1789064643,
-      "last": 1790622138,
       "playlists": {
         "1default": 10
       }
@@ -4383,6 +4383,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 18,
+      "first": 1788912385,
+      "last": 1790631183,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 10,
+          "first": 1788912385,
+          "last": 1790631183,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 8,
+          "first": 1789129746,
+          "last": 1790561384,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jay Som",
       "count": 18,
       "first": 1789069956,
@@ -4653,36 +4683,6 @@
           "count": 9,
           "first": 1788947810,
           "last": 1790445893,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 18,
-      "first": 1788912861,
-      "last": 1790563368,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 9,
-          "first": 1788966960,
-          "last": 1790563368,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 9,
-          "first": 1788912861,
-          "last": 1790540336,
           "playlists": {
             "1default": 9
           }
@@ -7345,9 +7345,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3503,
+      "count": 3504,
       "first": 1788901564,
-      "last": 1790630968,
+      "last": 1790631183,
       "songs": [
         {
           "artist": "Metric",
