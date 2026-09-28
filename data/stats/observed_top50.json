@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T23:36:50.814543+00:00",
+  "updatedAt": "2026-09-28T23:42:00.231001+00:00",
   "summary": {
-    "totalPlays": 7531,
+    "totalPlays": 7533,
     "unknownPlays": 907,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790638477
+    "lastObserved": 1790638897
   },
   "topSongs": [
+    {
+      "artist": "Tele Novella",
+      "title": "Funeral",
+      "album": "Poet's Tooth",
+      "count": 17,
+      "first": 1788996940,
+      "last": 1790638665,
+      "playlists": {
+        "1default": 17
+      }
+    },
     {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "title": "Run It",
@@ -41,17 +52,6 @@
       "count": 16,
       "first": 1788968149,
       "last": 1790626156,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Tele Novella",
-      "title": "Funeral",
-      "album": "Poet's Tooth",
-      "count": 16,
-      "first": 1788996940,
-      "last": 1790553096,
       "playlists": {
         "1default": 16
       }
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Ribs",
+      "album": "Pure Heroine",
+      "count": 10,
+      "first": 1789222724,
+      "last": 1790638897,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Saint Motel",
       "title": "My Type",
       "album": "My Type EP",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788920128,
       "last": 1790625964,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "ruzlxn",
-      "title": "BURN YOUR LOCAL POLITICIAN !",
-      "album": "GRITTED TEETH *",
-      "count": 10,
-      "first": 1788914259,
-      "last": 1790625800,
       "playlists": {
         "1default": 10
       }
@@ -4178,6 +4178,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 20,
+      "first": 1788914032,
+      "last": 1790638897,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 10,
+          "first": 1789222724,
+          "last": 1790638897,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 9,
+          "first": 1788914032,
+          "last": 1790604231,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 1,
+          "first": 1790465398,
+          "last": 1790465398,
+          "playlists": {
+            "texting your situationship": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 20,
       "first": 1788914421,
@@ -4397,47 +4438,6 @@
           "last": 1789893243,
           "playlists": {
             "christmas rn": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 19,
-      "first": 1788914032,
-      "last": 1790604231,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 9,
-          "first": 1788914032,
-          "last": 1790604231,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 9,
-          "first": 1789222724,
-          "last": 1790588570,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 1,
-          "first": 1790465398,
-          "last": 1790465398,
-          "playlists": {
-            "texting your situationship": 1
           }
         }
       ]
@@ -6694,6 +6694,26 @@
       ]
     },
     {
+      "artist": "Tele Novella",
+      "album": "Poet's Tooth",
+      "count": 17,
+      "first": 1788996940,
+      "last": 1790638665,
+      "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 17,
+          "first": 1788996940,
+          "last": 1790638665,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "album": "Good News For People Who Love Bad News",
       "count": 17,
@@ -6928,26 +6948,6 @@
           "last": 1790315647,
           "playlists": {
             "for the girls driving 85": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tele Novella",
-      "album": "Poet's Tooth",
-      "count": 16,
-      "first": 1788996940,
-      "last": 1790553096,
-      "songs": [
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 16,
-          "first": 1788996940,
-          "last": 1790553096,
-          "playlists": {
-            "1default": 16
           }
         }
       ]
@@ -7334,10 +7334,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3518,
+      "count": 3520,
       "first": 1788901564,
-      "last": 1790638477,
+      "last": 1790638897,
       "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 17,
+          "first": 1788996940,
+          "last": 1790638665,
+          "playlists": {
+            "1default": 17
+          }
+        },
         {
           "artist": "Metric",
           "title": "Dead Disco",
@@ -7356,17 +7367,6 @@
           "count": 16,
           "first": 1788968149,
           "last": 1790626156,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 16,
-          "first": 1788996940,
-          "last": 1790553096,
           "playlists": {
             "1default": 16
           }
