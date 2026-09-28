@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T19:56:58.536736+00:00",
+  "updatedAt": "2026-09-28T20:06:57.995954+00:00",
   "summary": {
-    "totalPlays": 7470,
+    "totalPlays": 7473,
     "unknownPlays": 900,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790625415
+    "lastObserved": 1790625964
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "Should've Been Me",
+      "album": "Laurel Hell",
+      "count": 10,
+      "first": 1788920128,
+      "last": 1790625964,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "ruzlxn",
+      "title": "BURN YOUR LOCAL POLITICIAN !",
+      "album": "GRITTED TEETH *",
+      "count": 10,
+      "first": 1788914259,
+      "last": 1790625800,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Kendrick Lamar",
       "title": "Black Panther",
       "album": "Black Panther The Album Music From And Inspired By",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1789065520,
       "last": 1790616057,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Monsune",
-      "title": "Nothing in Return",
-      "album": "Nothing in Return",
-      "count": 10,
-      "first": 1789054450,
-      "last": 1790615825,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "title": "Texas Sun",
-      "album": "Texas Sun",
-      "count": 10,
-      "first": 1788986484,
-      "last": 1790615106,
       "playlists": {
         "1default": 10
       }
@@ -1350,10 +1350,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 85,
+      "count": 86,
       "first": 1788920128,
-      "last": 1790623785,
+      "last": 1790625964,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 10,
+          "first": 1788920128,
+          "last": 1790625964,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Love Me More",
@@ -1372,17 +1383,6 @@
           "count": 9,
           "first": 1789130394,
           "last": 1790519736,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 9,
-          "first": 1788920128,
-          "last": 1790429125,
           "playlists": {
             "1default": 9
           }
@@ -3269,6 +3269,47 @@
       ]
     },
     {
+      "artist": "Jaguar Stevens",
+      "count": 26,
+      "first": 1788975620,
+      "last": 1790625690,
+      "songs": [
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Capital Lie",
+          "album": "Jaguar Stevens",
+          "count": 9,
+          "first": 1789209975,
+          "last": 1790625690,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Dying Dance",
+          "album": "Jaguar Stevens",
+          "count": 9,
+          "first": 1788975620,
+          "last": 1790607887,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "All the Things He Said",
+          "album": "Jaguar Stevens",
+          "count": 8,
+          "first": 1789226001,
+          "last": 1790429539,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 26,
       "first": 1788973998,
@@ -3344,47 +3385,6 @@
           "count": 8,
           "first": 1789086174,
           "last": 1790427490,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "count": 25,
-      "first": 1788975620,
-      "last": 1790607887,
-      "songs": [
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Dying Dance",
-          "album": "Jaguar Stevens",
-          "count": 9,
-          "first": 1788975620,
-          "last": 1790607887,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Capital Lie",
-          "album": "Jaguar Stevens",
-          "count": 8,
-          "first": 1789209975,
-          "last": 1790562912,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "All the Things He Said",
-          "album": "Jaguar Stevens",
-          "count": 8,
-          "first": 1789226001,
-          "last": 1790429539,
           "playlists": {
             "1default": 8
           }
@@ -3707,6 +3707,47 @@
           "last": 1790236251,
           "playlists": {
             "breakbeat": 7
+          }
+        }
+      ]
+    },
+    {
+      "artist": "ruzlxn",
+      "count": 21,
+      "first": 1788914259,
+      "last": 1790625800,
+      "songs": [
+        {
+          "artist": "ruzlxn",
+          "title": "BURN YOUR LOCAL POLITICIAN !",
+          "album": "GRITTED TEETH *",
+          "count": 10,
+          "first": 1788914259,
+          "last": 1790625800,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "ruzlxn",
+          "title": "GRITTED TEETH",
+          "album": "GRITTED TEETH *",
+          "count": 7,
+          "first": 1789408164,
+          "last": 1790444338,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "ruzlxn",
+          "title": "BONES",
+          "album": "GRITTED TEETH *",
+          "count": 4,
+          "first": 1788933961,
+          "last": 1790143161,
+          "playlists": {
+            "EPL4a": 4
           }
         }
       ]
@@ -4132,47 +4173,6 @@
           "last": 1790488034,
           "playlists": {
             "sad girl no friends saturday": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "ruzlxn",
-      "count": 20,
-      "first": 1788914259,
-      "last": 1790569621,
-      "songs": [
-        {
-          "artist": "ruzlxn",
-          "title": "BURN YOUR LOCAL POLITICIAN !",
-          "album": "GRITTED TEETH *",
-          "count": 9,
-          "first": 1788914259,
-          "last": 1790569621,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "GRITTED TEETH",
-          "album": "GRITTED TEETH *",
-          "count": 7,
-          "first": 1789408164,
-          "last": 1790444338,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "BONES",
-          "album": "GRITTED TEETH *",
-          "count": 4,
-          "first": 1788933961,
-          "last": 1790143161,
-          "playlists": {
-            "EPL4a": 4
           }
         }
       ]
@@ -5596,6 +5596,48 @@
       ]
     },
     {
+      "artist": "Jaguar Stevens",
+      "album": "Jaguar Stevens",
+      "count": 26,
+      "first": 1788975620,
+      "last": 1790625690,
+      "songs": [
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Capital Lie",
+          "album": "Jaguar Stevens",
+          "count": 9,
+          "first": 1789209975,
+          "last": 1790625690,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Dying Dance",
+          "album": "Jaguar Stevens",
+          "count": 9,
+          "first": 1788975620,
+          "last": 1790607887,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "All the Things He Said",
+          "album": "Jaguar Stevens",
+          "count": 8,
+          "first": 1789226001,
+          "last": 1790429539,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "album": "Bad Habit",
       "count": 26,
@@ -5673,48 +5715,6 @@
           "count": 8,
           "first": 1789224883,
           "last": 1790557203,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "album": "Jaguar Stevens",
-      "count": 25,
-      "first": 1788975620,
-      "last": 1790607887,
-      "songs": [
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Dying Dance",
-          "album": "Jaguar Stevens",
-          "count": 9,
-          "first": 1788975620,
-          "last": 1790607887,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Capital Lie",
-          "album": "Jaguar Stevens",
-          "count": 8,
-          "first": 1789209975,
-          "last": 1790562912,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "All the Things He Said",
-          "album": "Jaguar Stevens",
-          "count": 8,
-          "first": 1789226001,
-          "last": 1790429539,
           "playlists": {
             "1default": 8
           }
@@ -5998,6 +5998,48 @@
       ]
     },
     {
+      "artist": "ruzlxn",
+      "album": "GRITTED TEETH *",
+      "count": 21,
+      "first": 1788914259,
+      "last": 1790625800,
+      "songs": [
+        {
+          "artist": "ruzlxn",
+          "title": "BURN YOUR LOCAL POLITICIAN !",
+          "album": "GRITTED TEETH *",
+          "count": 10,
+          "first": 1788914259,
+          "last": 1790625800,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "ruzlxn",
+          "title": "GRITTED TEETH",
+          "album": "GRITTED TEETH *",
+          "count": 7,
+          "first": 1789408164,
+          "last": 1790444338,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "ruzlxn",
+          "title": "BONES",
+          "album": "GRITTED TEETH *",
+          "count": 4,
+          "first": 1788933961,
+          "last": 1790143161,
+          "playlists": {
+            "EPL4a": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THIS DOES NOT EXIST",
       "count": 21,
@@ -6245,6 +6287,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 20,
+      "first": 1788920128,
+      "last": 1790625964,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 10,
+          "first": 1788920128,
+          "last": 1790625964,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 10,
+          "first": 1789055950,
+          "last": 1790623785,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "album": "Old World Underground, Where Are You Now?",
       "count": 20,
@@ -6271,48 +6344,6 @@
           "last": 1790488034,
           "playlists": {
             "sad girl no friends saturday": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "ruzlxn",
-      "album": "GRITTED TEETH *",
-      "count": 20,
-      "first": 1788914259,
-      "last": 1790569621,
-      "songs": [
-        {
-          "artist": "ruzlxn",
-          "title": "BURN YOUR LOCAL POLITICIAN !",
-          "album": "GRITTED TEETH *",
-          "count": 9,
-          "first": 1788914259,
-          "last": 1790569621,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "GRITTED TEETH",
-          "album": "GRITTED TEETH *",
-          "count": 7,
-          "first": 1789408164,
-          "last": 1790444338,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "BONES",
-          "album": "GRITTED TEETH *",
-          "count": 4,
-          "first": 1788933961,
-          "last": 1790143161,
-          "playlists": {
-            "EPL4a": 4
           }
         }
       ]
@@ -6355,37 +6386,6 @@
           "last": 1790408560,
           "playlists": {
             "sad girl no friends saturday": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 19,
-      "first": 1788920128,
-      "last": 1790623785,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 10,
-          "first": 1789055950,
-          "last": 1790623785,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 9,
-          "first": 1788920128,
-          "last": 1790429125,
-          "playlists": {
-            "1default": 9
           }
         }
       ]
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3477,
+      "count": 3480,
       "first": 1788901564,
-      "last": 1790625415,
+      "last": 1790625964,
       "songs": [
         {
           "artist": "Tele Novella",
