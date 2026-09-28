@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T16:32:00.766030+00:00",
+  "updatedAt": "2026-09-28T16:36:46.623508+00:00",
   "summary": {
-    "totalPlays": 7414,
+    "totalPlays": 7416,
     "unknownPlays": 893,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790612921
+    "lastObserved": 1790613359
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Broken Glass",
+      "album": "PHANTOMS",
+      "count": 10,
+      "first": 1788973540,
+      "last": 1790613359,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Lucy Dacus",
       "title": "Hot & Heavy",
       "album": "Home Video",
@@ -541,23 +552,12 @@
       }
     },
     {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "Bill's Mandolin",
-      "album": "And Now for the Whatchamacallit",
+      "artist": "Jean Dawson, Mac DeMarco",
+      "title": "MENTHOL*",
+      "album": "MENTHOL*",
       "count": 9,
-      "first": 1789234972,
-      "last": 1790612507,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Drew Monson",
-      "title": "To Hold Amber",
-      "album": "The Pop He Faked",
-      "count": 9,
-      "first": 1789065886,
-      "last": 1790612000,
+      "first": 1789216750,
+      "last": 1790613174,
       "playlists": {
         "1default": 9
       }
@@ -1523,10 +1523,21 @@
     },
     {
       "artist": "Opium",
-      "count": 71,
+      "count": 72,
       "first": 1788927400,
-      "last": 1790572005,
+      "last": 1790613359,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 10,
+          "first": 1788973540,
+          "last": 1790613359,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Opium",
           "title": "Brainsick",
@@ -1534,17 +1545,6 @@
           "count": 9,
           "first": 1789063255,
           "last": 1790572005,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 9,
-          "first": 1788973540,
-          "last": 1790560864,
           "playlists": {
             "1default": 9
           }
@@ -4705,19 +4705,19 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 53,
+      "count": 54,
       "first": 1788927400,
-      "last": 1790560864,
+      "last": 1790613359,
       "songs": [
         {
           "artist": "Opium",
           "title": "Broken Glass",
           "album": "PHANTOMS",
-          "count": 9,
+          "count": 10,
           "first": 1788973540,
-          "last": 1790560864,
+          "last": 1790613359,
           "playlists": {
-            "1default": 9
+            "1default": 10
           }
         },
         {
@@ -7345,9 +7345,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3422,
+      "count": 3424,
       "first": 1788901564,
-      "last": 1790612921,
+      "last": 1790613359,
       "songs": [
         {
           "artist": "Tele Novella",
