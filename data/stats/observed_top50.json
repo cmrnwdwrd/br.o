@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T14:01:47.627652+00:00",
+  "updatedAt": "2026-09-28T14:06:55.416910+00:00",
   "summary": {
-    "totalPlays": 7376,
+    "totalPlays": 7377,
     "unknownPlays": 888,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790603845
+    "lastObserved": 1790604231
   },
   "topSongs": [
     {
@@ -398,6 +398,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 9,
+      "first": 1788914032,
+      "last": 1790604231,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "The Presidents Of The United States Of America",
       "title": "Lump",
       "album": "The Presidents of The United States of America: Ten Year Super Bonus Special Anniversary Edition",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788963785,
       "last": 1790582071,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "The Ephinjis",
-      "title": "Hot to Go!",
-      "album": "Hot to Go!",
-      "count": 9,
-      "first": 1789033065,
-      "last": 1790581881,
       "playlists": {
         "1default": 9
       }
@@ -4230,6 +4230,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 19,
+      "first": 1788914032,
+      "last": 1790604231,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 9,
+          "first": 1788914032,
+          "last": 1790604231,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 9,
+          "first": 1789222724,
+          "last": 1790588570,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 1,
+          "first": 1790465398,
+          "last": 1790465398,
+          "playlists": {
+            "texting your situationship": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "count": 19,
       "first": 1788986736,
@@ -4255,47 +4296,6 @@
           "last": 1790488034,
           "playlists": {
             "sad girl no friends saturday": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 18,
-      "first": 1788914032,
-      "last": 1790588570,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 9,
-          "first": 1789222724,
-          "last": 1790588570,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 8,
-          "first": 1788914032,
-          "last": 1790222565,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 1,
-          "first": 1790465398,
-          "last": 1790465398,
-          "playlists": {
-            "texting your situationship": 1
           }
         }
       ]
@@ -7237,9 +7237,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3384,
+      "count": 3385,
       "first": 1788901564,
-      "last": 1790589506,
+      "last": 1790604231,
       "songs": [
         {
           "artist": "Tele Novella",
