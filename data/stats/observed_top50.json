@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T09:26:55.228782+00:00",
+  "updatedAt": "2026-09-28T09:31:42.107748+00:00",
   "summary": {
-    "totalPlays": 7302,
+    "totalPlays": 7303,
     "unknownPlays": 880,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790587571
+    "lastObserved": 1790587734
   },
   "topSongs": [
     {
@@ -387,6 +387,17 @@
       }
     },
     {
+      "artist": "Radiohead",
+      "title": "Just",
+      "album": "The Bends",
+      "count": 9,
+      "first": 1788984450,
+      "last": 1790587734,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "MICHELLE",
       "title": "FYO",
       "album": "FYO",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788968800,
       "last": 1790580817,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "title": "Texas Sun",
-      "album": "Texas Sun",
-      "count": 9,
-      "first": 1788986484,
-      "last": 1790580566,
       "playlists": {
         "1default": 9
       }
@@ -3146,6 +3146,47 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 26,
+      "first": 1788973066,
+      "last": 1790587734,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 9,
+          "first": 1788984450,
+          "last": 1790587734,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 9,
+          "first": 1788973066,
+          "last": 1790502061,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 8,
+          "first": 1789033884,
+          "last": 1790374176,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 26,
       "first": 1788973998,
@@ -3344,47 +3385,6 @@
           "count": 8,
           "first": 1789068640,
           "last": 1790548135,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 25,
-      "first": 1788973066,
-      "last": 1790502061,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 9,
-          "first": 1788973066,
-          "last": 1790502061,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 8,
-          "first": 1789033884,
-          "last": 1790374176,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 8,
-          "first": 1788984450,
-          "last": 1790259051,
           "playlists": {
             "1default": 8
           }
@@ -7237,9 +7237,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3375,
+      "count": 3376,
       "first": 1788901564,
-      "last": 1790587571,
+      "last": 1790587734,
       "songs": [
         {
           "artist": "Tele Novella",
