@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T02:42:25.257896+00:00",
+  "updatedAt": "2026-09-28T02:46:51.208113+00:00",
   "summary": {
-    "totalPlays": 7187,
-    "unknownPlays": 865,
+    "totalPlays": 7190,
+    "unknownPlays": 866,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790563155
+    "lastObserved": 1790563614
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Sexy Coyote",
+      "title": "Dancing With Demons",
+      "album": "Dancing With Demons",
+      "count": 10,
+      "first": 1788946229,
+      "last": 1790563556,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Squirrel Flower",
       "title": "So Hot You're Hurting My Feelings",
       "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
@@ -329,6 +340,28 @@
       "last": 1790325555,
       "playlists": {
         "breakbeat": 10
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 9,
+      "first": 1788917230,
+      "last": 1790563614,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
+      "artist": "Barrie",
+      "title": "Human Nature",
+      "album": "Happy To Be Here (Ext)",
+      "count": 9,
+      "first": 1788966960,
+      "last": 1790563368,
+      "playlists": {
+        "1default": 9
       }
     },
     {
@@ -464,17 +497,6 @@
       }
     },
     {
-      "artist": "Sexy Coyote",
-      "title": "Dancing With Demons",
-      "album": "Dancing With Demons",
-      "count": 9,
-      "first": 1788946229,
-      "last": 1790558500,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
       "artist": "Tally Hall",
       "title": "The Bidding",
       "album": "Marvin's Marvelous Mechanical Museum",
@@ -536,28 +558,6 @@
       "count": 9,
       "first": 1789015116,
       "last": 1790555698,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Crying",
-      "title": "Bodega Run",
-      "album": "Get Olde / Second Wind",
-      "count": 9,
-      "first": 1788921148,
-      "last": 1790555554,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "TOPS",
-      "title": "Petals",
-      "album": "Sugar at the Gate",
-      "count": 9,
-      "first": 1788988660,
-      "last": 1790555121,
       "playlists": {
         "1default": 9
       }
@@ -2616,19 +2616,19 @@
     },
     {
       "artist": "Sexy Coyote",
-      "count": 34,
+      "count": 35,
       "first": 1788917492,
-      "last": 1790558500,
+      "last": 1790563556,
       "songs": [
         {
           "artist": "Sexy Coyote",
           "title": "Dancing With Demons",
           "album": "Dancing With Demons",
-          "count": 9,
+          "count": 10,
           "first": 1788946229,
-          "last": 1790558500,
+          "last": 1790563556,
           "playlists": {
-            "1default": 9
+            "1default": 10
           }
         },
         {
@@ -3106,10 +3106,21 @@
     },
     {
       "artist": "The Salesmen",
-      "count": 26,
+      "count": 27,
       "first": 1788917230,
-      "last": 1790546304,
+      "last": 1790563614,
       "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 9,
+          "first": 1788917230,
+          "last": 1790563614,
+          "playlists": {
+            "1default": 9
+          }
+        },
         {
           "artist": "The Salesmen",
           "title": "Tell Me That You Like It",
@@ -3130,17 +3141,6 @@
           "last": 1790540482,
           "playlists": {
             "1default": 9
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 8,
-          "first": 1788917230,
-          "last": 1790375921,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -4167,6 +4167,36 @@
       ]
     },
     {
+      "artist": "Barrie",
+      "count": 18,
+      "first": 1788912861,
+      "last": 1790563368,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 9,
+          "first": 1788966960,
+          "last": 1790563368,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 9,
+          "first": 1788912861,
+          "last": 1790540336,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 18,
       "first": 1789061029,
@@ -4537,36 +4567,6 @@
           "count": 8,
           "first": 1788921291,
           "last": 1790297252,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 17,
-      "first": 1788912861,
-      "last": 1790540336,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 9,
-          "first": 1788912861,
-          "last": 1790540336,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 8,
-          "first": 1788966960,
-          "last": 1790350412,
           "playlists": {
             "1default": 8
           }
@@ -7226,9 +7226,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3298,
+      "count": 3301,
       "first": 1788901564,
-      "last": 1790563155,
+      "last": 1790563614,
       "songs": [
         {
           "artist": "Tele Novella",
