@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T01:16:40.783639+00:00",
+  "updatedAt": "2026-09-28T01:21:52.130837+00:00",
   "summary": {
-    "totalPlays": 7164,
-    "unknownPlays": 862,
+    "totalPlays": 7166,
+    "unknownPlays": 864,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790558081
+    "lastObserved": 1790558500
   },
   "topSongs": [
     {
@@ -332,6 +332,28 @@
       }
     },
     {
+      "artist": "Sexy Coyote",
+      "title": "Dancing With Demons",
+      "album": "Dancing With Demons",
+      "count": 9,
+      "first": 1788946229,
+      "last": 1790558500,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
+      "artist": "Tally Hall",
+      "title": "The Bidding",
+      "album": "Marvin's Marvelous Mechanical Museum",
+      "count": 9,
+      "first": 1788927573,
+      "last": 1790558320,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Dead Or Alive",
       "title": "You Spin Me Round (Like a Record)",
       "album": "Evolution: The Hits",
@@ -536,28 +558,6 @@
       "count": 9,
       "first": 1788916127,
       "last": 1790550233,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Arcade Fire",
-      "title": "Wake Up",
-      "album": "Funeral",
-      "count": 9,
-      "first": 1788989909,
-      "last": 1790549898,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Claud",
-      "title": "Scarlett",
-      "album": "Scarlett",
-      "count": 9,
-      "first": 1789058552,
-      "last": 1790549531,
       "playlists": {
         "1default": 9
       }
@@ -2615,6 +2615,58 @@
       ]
     },
     {
+      "artist": "Sexy Coyote",
+      "count": 34,
+      "first": 1788917492,
+      "last": 1790558500,
+      "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "Dancing With Demons",
+          "album": "Dancing With Demons",
+          "count": 9,
+          "first": 1788946229,
+          "last": 1790558500,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 9,
+          "first": 1788921570,
+          "last": 1790500752,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "DEAD (Yeah!)",
+          "album": "Dead",
+          "count": 8,
+          "first": 1789224883,
+          "last": 1790557203,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 8,
+          "first": 1788917492,
+          "last": 1790271918,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "count": 34,
       "first": 1788917845,
@@ -2755,58 +2807,6 @@
           "last": 1790325888,
           "playlists": {
             "breakbeat": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sexy Coyote",
-      "count": 33,
-      "first": 1788917492,
-      "last": 1790557203,
-      "songs": [
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 9,
-          "first": 1788921570,
-          "last": 1790500752,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "DEAD (Yeah!)",
-          "album": "Dead",
-          "count": 8,
-          "first": 1789224883,
-          "last": 1790557203,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 8,
-          "first": 1788917492,
-          "last": 1790271918,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Dancing With Demons",
-          "album": "Dancing With Demons",
-          "count": 8,
-          "first": 1788946229,
-          "last": 1790206330,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -7226,9 +7226,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3275,
+      "count": 3277,
       "first": 1788901564,
-      "last": 1790558081,
+      "last": 1790558500,
       "songs": [
         {
           "artist": "Tele Novella",
