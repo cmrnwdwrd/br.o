@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T21:52:03.868949+00:00",
+  "updatedAt": "2026-09-28T21:56:52.321491+00:00",
   "summary": {
-    "totalPlays": 7502,
-    "unknownPlays": 903,
+    "totalPlays": 7504,
+    "unknownPlays": 904,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790632198
+    "lastObserved": 1790632570
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Saint Motel",
+      "title": "My Type",
+      "album": "My Type EP",
+      "count": 10,
+      "first": 1789032860,
+      "last": 1790632570,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Against Me!",
+      "title": "Baby, I'm an Anarchist!",
+      "album": "Reinventing Axl Rose",
+      "count": 10,
+      "first": 1788947810,
+      "last": 1790632344,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Bahamas",
       "title": "Own Alone",
       "album": "Sad Hunk",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1788914259,
       "last": 1790625800,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Kendrick Lamar",
-      "title": "Black Panther",
-      "album": "Black Panther The Album Music From And Inspired By",
-      "count": 10,
-      "first": 1789061029,
-      "last": 1790624721,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "Lava Lamp Pisco",
-      "album": "Lava Lamp Pisco",
-      "count": 10,
-      "first": 1788915065,
-      "last": 1790624465,
       "playlists": {
         "1default": 10
       }
@@ -4260,6 +4260,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 19,
+      "first": 1788947810,
+      "last": 1790632344,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 10,
+          "first": 1788947810,
+          "last": 1790632344,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 9,
+          "first": 1789059805,
+          "last": 1790563820,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kate Bollinger",
       "count": 19,
       "first": 1788915657,
@@ -4653,36 +4683,6 @@
           "count": 9,
           "first": 1789057143,
           "last": 1790443238,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 18,
-      "first": 1788921291,
-      "last": 1790565284,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 9,
-          "first": 1788921291,
-          "last": 1790565284,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 9,
-          "first": 1788964687,
-          "last": 1790546985,
           "playlists": {
             "1default": 9
           }
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3509,
+      "count": 3511,
       "first": 1788901564,
-      "last": 1790632198,
+      "last": 1790632570,
       "songs": [
         {
           "artist": "Metric",
