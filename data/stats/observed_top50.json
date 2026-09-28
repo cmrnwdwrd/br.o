@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T12:56:54.915245+00:00",
+  "updatedAt": "2026-09-28T13:02:05.196937+00:00",
   "summary": {
-    "totalPlays": 7361,
+    "totalPlays": 7362,
     "unknownPlays": 886,
     "uniqueTracks": 2127,
     "uniqueArtists": 1374,
     "uniqueAlbums": 1751,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790600133
+    "lastObserved": 1790600372
   },
   "topSongs": [
     {
@@ -7426,10 +7426,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 323,
+      "count": 324,
       "first": 1788955289,
-      "last": 1790600133,
+      "last": 1790600372,
       "songs": [
+        {
+          "artist": "Field Guide",
+          "title": "You Were",
+          "album": "You Were",
+          "count": 2,
+          "first": 1789475883,
+          "last": 1790600372,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Michael Simon Armstrong",
           "title": "Frames",
@@ -7470,17 +7481,6 @@
           "count": 2,
           "first": 1790078915,
           "last": 1790599175,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "The Walters",
-          "title": "Fancy Shoes",
-          "album": "Songs for Dads",
-          "count": 2,
-          "first": 1789648000,
-          "last": 1790599041,
           "playlists": {
             "carhartts": 2
           }
