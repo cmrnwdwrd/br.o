@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T19:41:55.857100+00:00",
+  "updatedAt": "2026-09-28T19:46:58.063795+00:00",
   "summary": {
-    "totalPlays": 7466,
-    "unknownPlays": 899,
+    "totalPlays": 7467,
+    "unknownPlays": 900,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790624465
+    "lastObserved": 1790624721
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Kendrick Lamar",
+      "title": "Black Panther",
+      "album": "Black Panther The Album Music From And Inspired By",
+      "count": 10,
+      "first": 1789061029,
+      "last": 1790624721,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "title": "Lava Lamp Pisco",
       "album": "Lava Lamp Pisco",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788986484,
       "last": 1790615106,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "N.W.A.",
-      "title": "Fuck Tha Police",
-      "album": "Straight Outta Compton",
-      "count": 10,
-      "first": 1788971461,
-      "last": 1790614603,
       "playlists": {
         "1default": 10
       }
@@ -4260,6 +4260,47 @@
       ]
     },
     {
+      "artist": "Kendrick Lamar",
+      "count": 19,
+      "first": 1789061029,
+      "last": 1790624721,
+      "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Black Panther",
+          "album": "Black Panther The Album Music From And Inspired By",
+          "count": 10,
+          "first": 1789061029,
+          "last": 1790624721,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Alright",
+          "album": "To Pimp A Butterfly",
+          "count": 8,
+          "first": 1789221730,
+          "last": 1790555297,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "HUMBLE.",
+          "album": "DAMN.",
+          "count": 1,
+          "first": 1789319672,
+          "last": 1789319672,
+          "playlists": {
+            "throwbacks": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 19,
       "first": 1788919285,
@@ -4644,47 +4685,6 @@
           "last": 1790540336,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kendrick Lamar",
-      "count": 18,
-      "first": 1789061029,
-      "last": 1790555297,
-      "songs": [
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Black Panther",
-          "album": "Black Panther The Album Music From And Inspired By",
-          "count": 9,
-          "first": 1789061029,
-          "last": 1790553511,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Alright",
-          "album": "To Pimp A Butterfly",
-          "count": 8,
-          "first": 1789221730,
-          "last": 1790555297,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "HUMBLE.",
-          "album": "DAMN.",
-          "count": 1,
-          "first": 1789319672,
-          "last": 1789319672,
-          "playlists": {
-            "throwbacks": 1
           }
         }
       ]
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3473,
+      "count": 3474,
       "first": 1788901564,
-      "last": 1790624465,
+      "last": 1790624721,
       "songs": [
         {
           "artist": "Tele Novella",
