@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T03:46:34.423210+00:00",
+  "updatedAt": "2026-09-28T03:51:51.665724+00:00",
   "summary": {
-    "totalPlays": 7207,
+    "totalPlays": 7209,
     "unknownPlays": 867,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790566930
+    "lastObserved": 1790567448
   },
   "topSongs": [
     {
@@ -354,6 +354,17 @@
       }
     },
     {
+      "artist": "Gorillaz, Fatoumata Diawara",
+      "title": "Désolé (feat. Fatoumata Diawara)",
+      "album": "Song Machine Episode 2",
+      "count": 9,
+      "first": 1788967094,
+      "last": 1790567210,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Muse",
       "title": "Madness",
       "album": "The 2nd Law",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788913008,
       "last": 1790561659,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "TRAP METAL",
-      "album": "TRAP METAL",
-      "count": 9,
-      "first": 1789063011,
-      "last": 1790561140,
       "playlists": {
         "1default": 9
       }
@@ -2085,6 +2085,80 @@
       ]
     },
     {
+      "artist": "The Czars",
+      "count": 47,
+      "first": 1788963949,
+      "last": 1790567448,
+      "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 9,
+          "first": 1789015116,
+          "last": 1790555698,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 8,
+          "first": 1789324379,
+          "last": 1790567448,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 8,
+          "first": 1788963949,
+          "last": 1790557405,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 8,
+          "first": 1789063847,
+          "last": 1790341114,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 7,
+          "first": 1789096240,
+          "last": 1790380061,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 7,
+          "first": 1789218669,
+          "last": 1790329091,
+          "playlists": {
+            "1default": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Florence + The Machine",
       "count": 47,
       "first": 1789098538,
@@ -2176,80 +2250,6 @@
           "last": 1790317121,
           "playlists": {
             "for the girls driving 85": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Czars",
-      "count": 46,
-      "first": 1788963949,
-      "last": 1790557405,
-      "songs": [
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 9,
-          "first": 1789015116,
-          "last": 1790555698,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 8,
-          "first": 1788963949,
-          "last": 1790557405,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 8,
-          "first": 1789063847,
-          "last": 1790341114,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 7,
-          "first": 1789096240,
-          "last": 1790380061,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 7,
-          "first": 1789218669,
-          "last": 1790329091,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 7,
-          "first": 1789324379,
-          "last": 1790194483,
-          "playlists": {
-            "1default": 7
           }
         }
       ]
@@ -4758,9 +4758,9 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 46,
+      "count": 47,
       "first": 1788963949,
-      "last": 1790557405,
+      "last": 1790567448,
       "songs": [
         {
           "artist": "The Czars",
@@ -4771,6 +4771,17 @@
           "last": 1790555698,
           "playlists": {
             "1default": 9
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 8,
+          "first": 1789324379,
+          "last": 1790567448,
+          "playlists": {
+            "1default": 8
           }
         },
         {
@@ -4813,17 +4824,6 @@
           "count": 7,
           "first": 1789218669,
           "last": 1790329091,
-          "playlists": {
-            "1default": 7
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 7,
-          "first": 1789324379,
-          "last": 1790194483,
           "playlists": {
             "1default": 7
           }
@@ -7226,9 +7226,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3318,
+      "count": 3320,
       "first": 1788901564,
-      "last": 1790566930,
+      "last": 1790567448,
       "songs": [
         {
           "artist": "Tele Novella",
