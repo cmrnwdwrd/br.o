@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T21:36:47.926465+00:00",
+  "updatedAt": "2026-09-28T21:41:43.238358+00:00",
   "summary": {
-    "totalPlays": 7497,
+    "totalPlays": 7499,
     "unknownPlays": 902,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790631183
+    "lastObserved": 1790631611
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "S T A R V E",
+      "album": "PHANTOMS",
+      "count": 10,
+      "first": 1788927400,
+      "last": 1790631611,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Kate Bollinger",
+      "title": "A Couple Things",
+      "album": "A word becomes a sound",
+      "count": 10,
+      "first": 1788915657,
+      "last": 1790631448,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "David Bowie",
       "title": "I'm Afraid of Americans (V1)",
       "album": "Legacy (Deluxe Edition)",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1788911174,
       "last": 1790623619,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Franz Ferdinand",
-      "title": "Billy Goodbye",
-      "album": "Billy Goodbye",
-      "count": 10,
-      "first": 1789014639,
-      "last": 1790623397,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Sjowgren",
-      "title": "Now & Then",
-      "album": "Now & Then",
-      "count": 10,
-      "first": 1788965724,
-      "last": 1790622972,
       "playlists": {
         "1default": 10
       }
@@ -1523,10 +1523,21 @@
     },
     {
       "artist": "Opium",
-      "count": 73,
+      "count": 74,
       "first": 1788927400,
-      "last": 1790630968,
+      "last": 1790631611,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 10,
+          "first": 1788927400,
+          "last": 1790631611,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Opium",
           "title": "Dirge",
@@ -1589,17 +1600,6 @@
           "count": 9,
           "first": 1789064095,
           "last": 1790498124,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 9,
-          "first": 1788927400,
-          "last": 1790432758,
           "playlists": {
             "1default": 9
           }
@@ -4260,6 +4260,36 @@
       ]
     },
     {
+      "artist": "Kate Bollinger",
+      "count": 19,
+      "first": 1788915657,
+      "last": 1790631448,
+      "songs": [
+        {
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 10,
+          "first": 1788915657,
+          "last": 1790631448,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 9,
+          "first": 1788983449,
+          "last": 1790424885,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 19,
       "first": 1789061029,
@@ -4658,46 +4688,27 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 18,
-      "first": 1788947810,
-      "last": 1790563820,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 9,
-          "first": 1789059805,
-          "last": 1790563820,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 9,
-          "first": 1788947810,
-          "last": 1790445893,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 54,
+      "count": 55,
       "first": 1788927400,
-      "last": 1790613359,
+      "last": 1790631611,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 10,
+          "first": 1788927400,
+          "last": 1790631611,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Opium",
           "title": "Broken Glass",
@@ -4738,17 +4749,6 @@
           "count": 9,
           "first": 1789064095,
           "last": 1790498124,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 9,
-          "first": 1788927400,
-          "last": 1790432758,
           "playlists": {
             "1default": 9
           }
@@ -7345,9 +7345,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3504,
+      "count": 3506,
       "first": 1788901564,
-      "last": 1790631183,
+      "last": 1790631611,
       "songs": [
         {
           "artist": "Metric",
