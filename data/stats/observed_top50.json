@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T01:56:37.697110+00:00",
+  "updatedAt": "2026-09-28T02:02:03.477942+00:00",
   "summary": {
-    "totalPlays": 7175,
+    "totalPlays": 7176,
     "unknownPlays": 864,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790560518
+    "lastObserved": 1790560864
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Broken Glass",
+      "album": "PHANTOMS",
+      "count": 9,
+      "first": 1788973540,
+      "last": 1790560864,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "N.W.A.",
       "title": "Fuck Tha Police",
       "album": "Straight Outta Compton",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788974227,
       "last": 1790553330,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "Lava Lamp Pisco",
-      "album": "Lava Lamp Pisco",
-      "count": 9,
-      "first": 1788915065,
-      "last": 1790552173,
       "playlists": {
         "1default": 9
       }
@@ -1523,10 +1523,21 @@
     },
     {
       "artist": "Opium",
-      "count": 69,
+      "count": 70,
       "first": 1788927400,
-      "last": 1790559105,
+      "last": 1790560864,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 9,
+          "first": 1788973540,
+          "last": 1790560864,
+          "playlists": {
+            "1default": 9
+          }
+        },
         {
           "artist": "Opium",
           "title": "No Pulse",
@@ -1589,17 +1600,6 @@
           "count": 8,
           "first": 1789109880,
           "last": 1790427131,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 8,
-          "first": 1788973540,
-          "last": 1790373628,
           "playlists": {
             "1default": 8
           }
@@ -4608,10 +4608,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 52,
+      "count": 53,
       "first": 1788927400,
-      "last": 1790559105,
+      "last": 1790560864,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 9,
+          "first": 1788973540,
+          "last": 1790560864,
+          "playlists": {
+            "1default": 9
+          }
+        },
         {
           "artist": "Opium",
           "title": "No Pulse",
@@ -4663,17 +4674,6 @@
           "count": 8,
           "first": 1789109880,
           "last": 1790427131,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 8,
-          "first": 1788973540,
-          "last": 1790373628,
           "playlists": {
             "1default": 8
           }
@@ -7226,9 +7226,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3286,
+      "count": 3287,
       "first": 1788901564,
-      "last": 1790560518,
+      "last": 1790560864,
       "songs": [
         {
           "artist": "Tele Novella",
