@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T16:16:53.146686+00:00",
+  "updatedAt": "2026-09-28T16:21:55.801964+00:00",
   "summary": {
-    "totalPlays": 7410,
-    "unknownPlays": 892,
+    "totalPlays": 7412,
+    "unknownPlays": 893,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790612000
+    "lastObserved": 1790612507
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Ramones",
+      "title": "Blitzkrieg Bop - 2016 Remaster",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "count": 10,
+      "first": 1788997171,
+      "last": 1790612316,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Vista Kicks",
       "title": "Chasing Waves",
       "album": "Chasing Waves",
@@ -508,6 +519,17 @@
       }
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "Bill's Mandolin",
+      "album": "And Now for the Whatchamacallit",
+      "count": 9,
+      "first": 1789234972,
+      "last": 1790612507,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Drew Monson",
       "title": "To Hold Amber",
       "album": "The Pop He Faked",
@@ -536,28 +558,6 @@
       "count": 9,
       "first": 1788974410,
       "last": 1790609231,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Lil Darkie, Afourteen, Teenage Disaster",
-      "title": "P.I.G.G.Y.",
-      "album": "SWAMP",
-      "count": 9,
-      "first": 1789059567,
-      "last": 1790608995,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "David Bowie",
-      "title": "I'm Afraid of Americans (V1)",
-      "album": "Legacy (Deluxe Edition)",
-      "count": 9,
-      "first": 1788912385,
-      "last": 1790608567,
       "playlists": {
         "1default": 9
       }
@@ -2760,6 +2760,58 @@
       ]
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "count": 34,
+      "first": 1788915065,
+      "last": 1790612507,
+      "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Bill's Mandolin",
+          "album": "And Now for the Whatchamacallit",
+          "count": 9,
+          "first": 1789234972,
+          "last": 1790612507,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Lava Lamp Pisco",
+          "album": "Lava Lamp Pisco",
+          "count": 9,
+          "first": 1788915065,
+          "last": 1790552173,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Mr. Prism",
+          "album": "Mr. Prism",
+          "count": 8,
+          "first": 1789168906,
+          "last": 1790580125,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Tally-Ho",
+          "album": "Tally-Ho",
+          "count": 8,
+          "first": 1789085431,
+          "last": 1790541632,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Joey Valence & Brae",
       "count": 34,
       "first": 1788938278,
@@ -2807,58 +2859,6 @@
           "last": 1790325888,
           "playlists": {
             "breakbeat": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Psychedelic Porn Crumpets",
-      "count": 33,
-      "first": 1788915065,
-      "last": 1790580125,
-      "songs": [
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Lava Lamp Pisco",
-          "album": "Lava Lamp Pisco",
-          "count": 9,
-          "first": 1788915065,
-          "last": 1790552173,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Mr. Prism",
-          "album": "Mr. Prism",
-          "count": 8,
-          "first": 1789168906,
-          "last": 1790580125,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Bill's Mandolin",
-          "album": "And Now for the Whatchamacallit",
-          "count": 8,
-          "first": 1789234972,
-          "last": 1790551961,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Tally-Ho",
-          "album": "Tally-Ho",
-          "count": 8,
-          "first": 1789085431,
-          "last": 1790541632,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -3578,6 +3578,36 @@
       ]
     },
     {
+      "artist": "Ramones",
+      "count": 23,
+      "first": 1788968644,
+      "last": 1790612316,
+      "songs": [
+        {
+          "artist": "Ramones",
+          "title": "Judy Is a Punk - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 13,
+          "first": 1788968644,
+          "last": 1790443145,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Ramones",
+          "title": "Blitzkrieg Bop - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 10,
+          "first": 1788997171,
+          "last": 1790612316,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sophie Truax",
       "count": 22,
       "first": 1788931104,
@@ -3636,36 +3666,6 @@
           "last": 1790143436,
           "playlists": {
             "EPL4a": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Ramones",
-      "count": 22,
-      "first": 1788968644,
-      "last": 1790545337,
-      "songs": [
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 13,
-          "first": 1788968644,
-          "last": 1790443145,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Blitzkrieg Bop - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 9,
-          "first": 1788997171,
-          "last": 1790545337,
-          "playlists": {
-            "1default": 9
           }
         }
       ]
@@ -5786,6 +5786,37 @@
       ]
     },
     {
+      "artist": "Ramones",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "count": 23,
+      "first": 1788968644,
+      "last": 1790612316,
+      "songs": [
+        {
+          "artist": "Ramones",
+          "title": "Judy Is a Punk - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 13,
+          "first": 1788968644,
+          "last": 1790443145,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Ramones",
+          "title": "Blitzkrieg Bop - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 10,
+          "first": 1788997171,
+          "last": 1790612316,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ethel Cain",
       "album": "Preacher's Daughter",
       "count": 23,
@@ -5931,37 +5962,6 @@
           "last": 1789008320,
           "playlists": {
             "MCR wednesday wind down": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Ramones",
-      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-      "count": 22,
-      "first": 1788968644,
-      "last": 1790545337,
-      "songs": [
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 13,
-          "first": 1788968644,
-          "last": 1790443145,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Blitzkrieg Bop - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 9,
-          "first": 1788997171,
-          "last": 1790545337,
-          "playlists": {
-            "1default": 9
           }
         }
       ]
@@ -7345,9 +7345,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3418,
+      "count": 3420,
       "first": 1788901564,
-      "last": 1790612000,
+      "last": 1790612507,
       "songs": [
         {
           "artist": "Tele Novella",
