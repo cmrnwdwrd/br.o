@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T19:37:01.643558+00:00",
+  "updatedAt": "2026-09-28T19:41:55.857100+00:00",
   "summary": {
-    "totalPlays": 7464,
+    "totalPlays": 7466,
     "unknownPlays": 899,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790623997
+    "lastObserved": 1790624465
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "Lava Lamp Pisco",
+      "album": "Lava Lamp Pisco",
+      "count": 10,
+      "first": 1788915065,
+      "last": 1790624465,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Mitski",
       "title": "Love Me More",
       "album": "Laurel Hell",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788971461,
       "last": 1790614603,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Hold Me",
-      "album": "1's a Man, 3's a Band",
-      "count": 10,
-      "first": 1788902047,
-      "last": 1790613695,
       "playlists": {
         "1default": 10
       }
@@ -2761,10 +2761,21 @@
     },
     {
       "artist": "Psychedelic Porn Crumpets",
-      "count": 34,
+      "count": 35,
       "first": 1788915065,
-      "last": 1790612507,
+      "last": 1790624465,
       "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Lava Lamp Pisco",
+          "album": "Lava Lamp Pisco",
+          "count": 10,
+          "first": 1788915065,
+          "last": 1790624465,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Psychedelic Porn Crumpets",
           "title": "Bill's Mandolin",
@@ -2772,17 +2783,6 @@
           "count": 9,
           "first": 1789234972,
           "last": 1790612507,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Lava Lamp Pisco",
-          "album": "Lava Lamp Pisco",
-          "count": 9,
-          "first": 1788915065,
-          "last": 1790552173,
           "playlists": {
             "1default": 9
           }
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3471,
+      "count": 3473,
       "first": 1788901564,
-      "last": 1790623997,
+      "last": 1790624465,
       "songs": [
         {
           "artist": "Tele Novella",
