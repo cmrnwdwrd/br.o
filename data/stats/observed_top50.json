@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T15:56:43.291491+00:00",
+  "updatedAt": "2026-09-28T16:02:00.096719+00:00",
   "summary": {
-    "totalPlays": 7405,
-    "unknownPlays": 891,
+    "totalPlays": 7407,
+    "unknownPlays": 892,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790610816
+    "lastObserved": 1790611320
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Le Tigre",
+      "title": "Deceptacon",
+      "album": "Le Tigre",
+      "count": 10,
+      "first": 1788990985,
+      "last": 1790611320,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Medium Troy",
       "title": "Space Tree",
       "album": "Space Tree",
@@ -475,6 +486,17 @@
       }
     },
     {
+      "artist": "Juno Rossa",
+      "title": "Paris For The Summer",
+      "album": "Chasing Animals",
+      "count": 9,
+      "first": 1789166634,
+      "last": 1790611069,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "hey, nothing",
       "title": "The Sink",
       "album": "The Sink",
@@ -536,28 +558,6 @@
       "count": 9,
       "first": 1788984684,
       "last": 1790607539,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Your Neighbors",
-      "title": "Chicken",
-      "album": "Chicken",
-      "count": 9,
-      "first": 1789049221,
-      "last": 1790607070,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Radiohead",
-      "title": "If You Say the Word",
-      "album": "If You Say the Word",
-      "count": 9,
-      "first": 1789033884,
-      "last": 1790606811,
       "playlists": {
         "1default": 9
       }
@@ -6674,6 +6674,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 17,
+      "first": 1789166634,
+      "last": 1790611069,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 9,
+          "first": 1789166634,
+          "last": 1790611069,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 8,
+          "first": 1789167660,
+          "last": 1790580361,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sophie Truax",
       "album": "Kissing With a Cavity",
       "count": 17,
@@ -6857,37 +6888,6 @@
           "last": 1790315647,
           "playlists": {
             "for the girls driving 85": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 16,
-      "first": 1789166634,
-      "last": 1790580361,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 8,
-          "first": 1789167660,
-          "last": 1790580361,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 8,
-          "first": 1789166634,
-          "last": 1790537330,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -7345,9 +7345,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3413,
+      "count": 3415,
       "first": 1788901564,
-      "last": 1790610816,
+      "last": 1790611320,
       "songs": [
         {
           "artist": "Tele Novella",
