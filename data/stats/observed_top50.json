@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T07:16:48.344441+00:00",
+  "updatedAt": "2026-09-28T07:21:51.127591+00:00",
   "summary": {
-    "totalPlays": 7268,
+    "totalPlays": 7269,
     "unknownPlays": 875,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790579580
+    "lastObserved": 1790579867
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "Say It Ain't So",
+      "album": "Weezer",
+      "count": 10,
+      "first": 1788946510,
+      "last": 1790579867,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "The Salesmen",
       "title": "Commodify",
       "album": "Commodify",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788984231,
       "last": 1790567695,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Gorillaz, Fatoumata Diawara",
-      "title": "Désolé (feat. Fatoumata Diawara)",
-      "album": "Song Machine Episode 2",
-      "count": 9,
-      "first": 1788967094,
-      "last": 1790567210,
       "playlists": {
         "1default": 9
       }
@@ -2990,6 +2990,58 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 29,
+      "first": 1788946510,
+      "last": 1790579867,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 10,
+          "first": 1788946510,
+          "last": 1790579867,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 9,
+          "first": 1788974227,
+          "last": 1790553330,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 8,
+          "first": 1789142694,
+          "last": 1790552606,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ethel Cain",
       "count": 29,
       "first": 1789098981,
@@ -3089,58 +3141,6 @@
           "last": 1790540482,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 28,
-      "first": 1788946510,
-      "last": 1790553330,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 9,
-          "first": 1788974227,
-          "last": 1790553330,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 9,
-          "first": 1788946510,
-          "last": 1790360935,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 8,
-          "first": 1789142694,
-          "last": 1790552606,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1789150460,
-          "last": 1789758798,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
           }
         }
       ]
@@ -7248,9 +7248,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3341,
+      "count": 3342,
       "first": 1788901564,
-      "last": 1790572005,
+      "last": 1790579867,
       "songs": [
         {
           "artist": "Tele Novella",
