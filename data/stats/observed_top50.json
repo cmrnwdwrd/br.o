@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T23:46:50.894034+00:00",
+  "updatedAt": "2026-09-28T23:56:54.042138+00:00",
   "summary": {
-    "totalPlays": 7534,
+    "totalPlays": 7536,
     "unknownPlays": 907,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790639155
+    "lastObserved": 1790639755
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "You Make Me Want to Kill Myself",
+      "album": "You Make Me Want to Kill Myself",
+      "count": 10,
+      "first": 1788984684,
+      "last": 1790639755,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Fine Young Cannibals",
+      "title": "Good Thing",
+      "album": "The Raw & The Cooked",
+      "count": 10,
+      "first": 1788974590,
+      "last": 1790639360,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Lorde",
       "title": "Ribs",
       "album": "Pure Heroine",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1788989503,
       "last": 1790627415,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "isobel",
-      "title": "laundry",
-      "album": "laundry",
-      "count": 10,
-      "first": 1788902953,
-      "last": 1790626618,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Mitski",
-      "title": "Should've Been Me",
-      "album": "Laurel Hell",
-      "count": 10,
-      "first": 1788920128,
-      "last": 1790625964,
       "playlists": {
         "1default": 10
       }
@@ -1619,10 +1619,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 72,
+      "count": 73,
       "first": 1788902047,
-      "last": 1790621479,
+      "last": 1790639755,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "You Make Me Want to Kill Myself",
+          "album": "You Make Me Want to Kill Myself",
+          "count": 10,
+          "first": 1788984684,
+          "last": 1790639755,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Think Too Much",
@@ -1643,17 +1654,6 @@
           "last": 1790613695,
           "playlists": {
             "1default": 10
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "You Make Me Want to Kill Myself",
-          "album": "You Make Me Want to Kill Myself",
-          "count": 9,
-          "first": 1788984684,
-          "last": 1790607539,
-          "playlists": {
-            "1default": 9
           }
         },
         {
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3521,
+      "count": 3523,
       "first": 1788901564,
-      "last": 1790639155,
+      "last": 1790639755,
       "songs": [
         {
           "artist": "Tele Novella",
