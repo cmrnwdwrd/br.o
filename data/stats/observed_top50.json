@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T13:17:03.160576+00:00",
+  "updatedAt": "2026-09-28T13:21:58.431889+00:00",
   "summary": {
-    "totalPlays": 7366,
+    "totalPlays": 7367,
     "unknownPlays": 886,
     "uniqueTracks": 2130,
     "uniqueArtists": 1376,
     "uniqueAlbums": 1754,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790601423
+    "lastObserved": 1790601632
   },
   "topSongs": [
     {
@@ -7426,10 +7426,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 328,
+      "count": 329,
       "first": 1788955289,
-      "last": 1790601423,
+      "last": 1790601632,
       "songs": [
+        {
+          "artist": "flipturn",
+          "title": "Chicago",
+          "album": "Heavy Colors",
+          "count": 2,
+          "first": 1790166003,
+          "last": 1790601632,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Caamp",
           "title": "Wolf Song",
@@ -7470,17 +7481,6 @@
           "count": 2,
           "first": 1790081676,
           "last": 1790599720,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "The Head And The Heart",
-          "title": "Rivers and Roads",
-          "album": "The Head And The Heart",
-          "count": 2,
-          "first": 1788959398,
-          "last": 1790599393,
           "playlists": {
             "carhartts": 2
           }
