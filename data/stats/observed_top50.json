@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T00:16:54.318119+00:00",
+  "updatedAt": "2026-09-28T00:21:48.523351+00:00",
   "summary": {
-    "totalPlays": 7148,
+    "totalPlays": 7150,
     "unknownPlays": 861,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790554472
+    "lastObserved": 1790554900
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "The Cranberries",
+      "title": "Ode To My Family",
+      "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+      "count": 9,
+      "first": 1789060180,
+      "last": 1790554629,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Mk.gee",
       "title": "Are You Looking Up",
       "album": "Two Star & The Dream Police",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1789050580,
       "last": 1790546304,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Led Zeppelin",
-      "title": "Dazed and Confused - 1990 Remaster",
-      "album": "Led Zeppelin",
-      "count": 9,
-      "first": 1789062336,
-      "last": 1790545776,
       "playlists": {
         "1default": 9
       }
@@ -2939,10 +2939,21 @@
     },
     {
       "artist": "The Cranberries",
-      "count": 29,
+      "count": 30,
       "first": 1788916461,
-      "last": 1790550684,
+      "last": 1790554629,
       "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 9,
+          "first": 1789060180,
+          "last": 1790554629,
+          "playlists": {
+            "1default": 9
+          }
+        },
         {
           "artist": "The Cranberries",
           "title": "Zombie",
@@ -2961,17 +2972,6 @@
           "count": 8,
           "first": 1789087662,
           "last": 1790550684,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 8,
-          "first": 1789060180,
-          "last": 1790319829,
           "playlists": {
             "1default": 8
           }
@@ -7226,9 +7226,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3259,
+      "count": 3261,
       "first": 1788901564,
-      "last": 1790554472,
+      "last": 1790554900,
       "songs": [
         {
           "artist": "Tele Novella",
