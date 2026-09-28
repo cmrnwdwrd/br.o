@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T03:11:39.963062+00:00",
+  "updatedAt": "2026-09-28T03:16:34.519088+00:00",
   "summary": {
-    "totalPlays": 7199,
+    "totalPlays": 7200,
     "unknownPlays": 866,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790565036
+    "lastObserved": 1790565284
   },
   "topSongs": [
     {
@@ -354,6 +354,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Sunday Bloody Sunday - Remastered 2008",
+      "album": "War (Remastered)",
+      "count": 9,
+      "first": 1788921291,
+      "last": 1790565284,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "My Chemical Romance",
       "title": "Planetary (GO!)",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788946866,
       "last": 1790559105,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Pigeons Playing Ping Pong",
-      "title": "Poseidon",
-      "album": "Pizazz",
-      "count": 9,
-      "first": 1788987420,
-      "last": 1790558786,
       "playlists": {
         "1default": 9
       }
@@ -4167,6 +4167,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 18,
+      "first": 1788921291,
+      "last": 1790565284,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 9,
+          "first": 1788921291,
+          "last": 1790565284,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 9,
+          "first": 1788964687,
+          "last": 1790546985,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 18,
       "first": 1788947810,
@@ -4569,36 +4599,6 @@
           "last": 1789583434,
           "playlists": {
             "country music was never for republicans": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 17,
-      "first": 1788921291,
-      "last": 1790546985,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 9,
-          "first": 1788964687,
-          "last": 1790546985,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 8,
-          "first": 1788921291,
-          "last": 1790297252,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -7226,9 +7226,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3310,
+      "count": 3311,
       "first": 1788901564,
-      "last": 1790565036,
+      "last": 1790565284,
       "songs": [
         {
           "artist": "Tele Novella",
