@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T17:02:13.757624+00:00",
+  "updatedAt": "2026-09-28T17:06:50.138282+00:00",
   "summary": {
-    "totalPlays": 7422,
+    "totalPlays": 7424,
     "unknownPlays": 894,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790614603
+    "lastObserved": 1790615106
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 10,
+      "first": 1788986484,
+      "last": 1790615106,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "N.W.A.",
       "title": "Fuck Tha Police",
       "album": "Straight Outta Compton",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788946229,
       "last": 1790563556,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Rilo Kiley",
-      "title": "Science Vs. Romance",
-      "album": "Take Offs And Landings",
-      "count": 10,
-      "first": 1788902251,
-      "last": 1790504316,
       "playlists": {
         "1default": 10
       }
@@ -4342,6 +4342,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 18,
+      "first": 1788986484,
+      "last": 1790615106,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 10,
+          "first": 1788986484,
+          "last": 1790615106,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 8,
+          "first": 1789231311,
+          "last": 1790587294,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Cemetery Drive",
       "count": 18,
       "first": 1789051357,
@@ -4666,36 +4696,6 @@
           "last": 1790484376,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 18,
-      "first": 1788985030,
-      "last": 1790535667,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 9,
-          "first": 1788985030,
-          "last": 1790535667,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 9,
-          "first": 1788987870,
-          "last": 1790429943,
-          "playlists": {
-            "1default": 9
           }
         }
       ]
@@ -7345,9 +7345,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3430,
+      "count": 3432,
       "first": 1788901564,
-      "last": 1790614603,
+      "last": 1790615106,
       "songs": [
         {
           "artist": "Tele Novella",
