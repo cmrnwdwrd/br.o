@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T04:21:54.085805+00:00",
+  "updatedAt": "2026-09-28T04:26:50.629318+00:00",
   "summary": {
-    "totalPlays": 7217,
+    "totalPlays": 7218,
     "unknownPlays": 869,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790569150
+    "lastObserved": 1790569393
   },
   "topSongs": [
     {
@@ -354,6 +354,17 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Knives",
+      "album": "Knives",
+      "count": 9,
+      "first": 1788973998,
+      "last": 1790569393,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Jay Som",
       "title": "Tenderness",
       "album": "Anak Ko",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788917492,
       "last": 1790564375,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Yellowcard",
-      "title": "Ocean Avenue",
-      "album": "Ocean Avenue",
-      "count": 9,
-      "first": 1789060451,
-      "last": 1790564178,
       "playlists": {
         "1default": 9
       }
@@ -3187,6 +3187,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 25,
+      "first": 1788973998,
+      "last": 1790569393,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 9,
+          "first": 1788973998,
+          "last": 1790569393,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 8,
+          "first": 1789226629,
+          "last": 1790443657,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 8,
+          "first": 1789033065,
+          "last": 1790296135,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 25,
       "first": 1788919863,
@@ -3478,47 +3519,6 @@
           "count": 8,
           "first": 1788975620,
           "last": 1790282966,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 24,
-      "first": 1788973998,
-      "last": 1790443657,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 8,
-          "first": 1789226629,
-          "last": 1790443657,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 8,
-          "first": 1788973998,
-          "last": 1790299172,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 8,
-          "first": 1789033065,
-          "last": 1790296135,
           "playlists": {
             "1default": 8
           }
@@ -7226,9 +7226,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3328,
+      "count": 3329,
       "first": 1788901564,
-      "last": 1790569150,
+      "last": 1790569393,
       "songs": [
         {
           "artist": "Tele Novella",
