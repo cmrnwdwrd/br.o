@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T12:51:51.908157+00:00",
+  "updatedAt": "2026-09-28T12:56:54.915245+00:00",
   "summary": {
-    "totalPlays": 7359,
+    "totalPlays": 7361,
     "unknownPlays": 886,
-    "uniqueTracks": 2126,
+    "uniqueTracks": 2127,
     "uniqueArtists": 1374,
-    "uniqueAlbums": 1750,
+    "uniqueAlbums": 1751,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790599720
+    "lastObserved": 1790600133
   },
   "topSongs": [
     {
@@ -7426,10 +7426,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 321,
+      "count": 323,
       "first": 1788955289,
-      "last": 1790599720,
+      "last": 1790600133,
       "songs": [
+        {
+          "artist": "Michael Simon Armstrong",
+          "title": "Frames",
+          "album": "Frames",
+          "count": 2,
+          "first": 1788960543,
+          "last": 1790599980,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Khalid",
           "title": "Therapy",
@@ -7470,17 +7481,6 @@
           "count": 2,
           "first": 1789648000,
           "last": 1790599041,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Still Woozy",
-          "title": "Kenny",
-          "album": "Kenny",
-          "count": 2,
-          "first": 1790254300,
-          "last": 1790598512,
           "playlists": {
             "carhartts": 2
           }
