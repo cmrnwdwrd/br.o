@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T19:26:54.195591+00:00",
+  "updatedAt": "2026-09-28T19:32:03.573465+00:00",
   "summary": {
-    "totalPlays": 7461,
+    "totalPlays": 7463,
     "unknownPlays": 899,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790623397
+    "lastObserved": 1790623785
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "Love Me More",
+      "album": "Laurel Hell",
+      "count": 10,
+      "first": 1789055950,
+      "last": 1790623785,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "BENEE",
+      "title": "Sad Boiii",
+      "album": "Sad Boiii",
+      "count": 10,
+      "first": 1788911174,
+      "last": 1790623619,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Franz Ferdinand",
       "title": "Billy Goodbye",
       "album": "Billy Goodbye",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1788902047,
       "last": 1790613695,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Grace Ives",
-      "title": "Mirror",
-      "album": "2nd",
-      "count": 10,
-      "first": 1788972624,
-      "last": 1790613580,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Broken Glass",
-      "album": "PHANTOMS",
-      "count": 10,
-      "first": 1788973540,
-      "last": 1790613359,
       "playlists": {
         "1default": 10
       }
@@ -1350,10 +1350,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 84,
+      "count": 85,
       "first": 1788920128,
-      "last": 1790519736,
+      "last": 1790623785,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 10,
+          "first": 1789055950,
+          "last": 1790623785,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
@@ -1372,17 +1383,6 @@
           "count": 9,
           "first": 1788920128,
           "last": 1790429125,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 9,
-          "first": 1789055950,
-          "last": 1790425480,
           "playlists": {
             "1default": 9
           }
@@ -6360,6 +6360,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 19,
+      "first": 1788920128,
+      "last": 1790623785,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 10,
+          "first": 1789055950,
+          "last": 1790623785,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 9,
+          "first": 1788920128,
+          "last": 1790429125,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "album": "Change the Channel",
       "count": 19,
@@ -6656,37 +6687,6 @@
           "count": 9,
           "first": 1788968380,
           "last": 1790472894,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 18,
-      "first": 1788920128,
-      "last": 1790429125,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 9,
-          "first": 1788920128,
-          "last": 1790429125,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 9,
-          "first": 1789055950,
-          "last": 1790425480,
           "playlists": {
             "1default": 9
           }
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3468,
+      "count": 3470,
       "first": 1788901564,
-      "last": 1790623397,
+      "last": 1790623785,
       "songs": [
         {
           "artist": "Tele Novella",
