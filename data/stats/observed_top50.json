@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-27T23:56:48.159657+00:00",
+  "updatedAt": "2026-09-28T00:02:08.346361+00:00",
   "summary": {
-    "totalPlays": 7142,
-    "unknownPlays": 860,
+    "totalPlays": 7144,
+    "unknownPlays": 861,
     "uniqueTracks": 2117,
     "uniqueArtists": 1372,
     "uniqueAlbums": 1744,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790553330
+    "lastObserved": 1790553691
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "Kendrick Lamar",
+      "title": "Black Panther",
+      "album": "Black Panther The Album Music From And Inspired By",
+      "count": 9,
+      "first": 1789061029,
+      "last": 1790553511,
+      "playlists": {
+        "1default": 9
+      }
+    },
+    {
       "artist": "Weezer",
       "title": "The End of the Game",
       "album": "The End of the Game",
@@ -547,17 +558,6 @@
       "count": 9,
       "first": 1788997171,
       "last": 1790545337,
-      "playlists": {
-        "1default": 9
-      }
-    },
-    {
-      "artist": "Interpol",
-      "title": "PDA",
-      "album": "Turn On The Bright Lights",
-      "count": 9,
-      "first": 1788985465,
-      "last": 1790544805,
       "playlists": {
         "1default": 9
       }
@@ -4473,6 +4473,47 @@
       ]
     },
     {
+      "artist": "Kendrick Lamar",
+      "count": 17,
+      "first": 1789061029,
+      "last": 1790553511,
+      "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Black Panther",
+          "album": "Black Panther The Album Music From And Inspired By",
+          "count": 9,
+          "first": 1789061029,
+          "last": 1790553511,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Alright",
+          "album": "To Pimp A Butterfly",
+          "count": 7,
+          "first": 1789221730,
+          "last": 1790259492,
+          "playlists": {
+            "1default": 7
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "HUMBLE.",
+          "album": "DAMN.",
+          "count": 1,
+          "first": 1789319672,
+          "last": 1789319672,
+          "playlists": {
+            "throwbacks": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 17,
       "first": 1788921291,
@@ -4558,47 +4599,6 @@
           "last": 1790445623,
           "playlists": {
             "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 17,
-      "first": 1788914032,
-      "last": 1790465398,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 8,
-          "first": 1789222724,
-          "last": 1790264534,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 8,
-          "first": 1788914032,
-          "last": 1790222565,
-          "playlists": {
-            "1default": 8
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 1,
-          "first": 1790465398,
-          "last": 1790465398,
-          "playlists": {
-            "texting your situationship": 1
           }
         }
       ]
@@ -7226,9 +7226,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3253,
+      "count": 3255,
       "first": 1788901564,
-      "last": 1790553330,
+      "last": 1790553691,
       "songs": [
         {
           "artist": "Tele Novella",
