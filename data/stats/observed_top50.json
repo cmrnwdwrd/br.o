@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-28T16:36:46.623508+00:00",
+  "updatedAt": "2026-09-28T16:41:59.471098+00:00",
   "summary": {
-    "totalPlays": 7416,
+    "totalPlays": 7418,
     "unknownPlays": 893,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790613359
+    "lastObserved": 1790613695
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "Hold Me",
+      "album": "1's a Man, 3's a Band",
+      "count": 10,
+      "first": 1788902047,
+      "last": 1790613695,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Grace Ives",
+      "title": "Mirror",
+      "album": "2nd",
+      "count": 10,
+      "first": 1788972624,
+      "last": 1790613580,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Broken Glass",
       "album": "PHANTOMS",
@@ -538,28 +560,6 @@
       "last": 1790440990,
       "playlists": {
         "1default": 10
-      }
-    },
-    {
-      "artist": "Joey Valence & Brae",
-      "title": "Crank It Up",
-      "album": "Crank It Up",
-      "count": 10,
-      "first": 1788938278,
-      "last": 1790325555,
-      "playlists": {
-        "breakbeat": 10
-      }
-    },
-    {
-      "artist": "Jean Dawson, Mac DeMarco",
-      "title": "MENTHOL*",
-      "album": "MENTHOL*",
-      "count": 9,
-      "first": 1789216750,
-      "last": 1790613174,
-      "playlists": {
-        "1default": 9
       }
     }
   ],
@@ -1619,10 +1619,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 70,
+      "count": 71,
       "first": 1788902047,
-      "last": 1790607539,
+      "last": 1790613695,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 10,
+          "first": 1788902047,
+          "last": 1790613695,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "You Make Me Want to Kill Myself",
@@ -1630,17 +1641,6 @@
           "count": 9,
           "first": 1788984684,
           "last": 1790607539,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 9,
-          "first": 1788902047,
-          "last": 1790502624,
           "playlists": {
             "1default": 9
           }
@@ -4780,19 +4780,19 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 52,
+      "count": 53,
       "first": 1788902047,
-      "last": 1790556738,
+      "last": 1790613695,
       "songs": [
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
           "album": "1's a Man, 3's a Band",
-          "count": 9,
+          "count": 10,
           "first": 1788902047,
-          "last": 1790502624,
+          "last": 1790613695,
           "playlists": {
-            "1default": 9
+            "1default": 10
           }
         },
         {
@@ -7345,9 +7345,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3424,
+      "count": 3426,
       "first": 1788901564,
-      "last": 1790613359,
+      "last": 1790613695,
       "songs": [
         {
           "artist": "Tele Novella",
