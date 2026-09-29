@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T19:56:58.546256+00:00",
+  "updatedAt": "2026-09-29T20:02:06.557140+00:00",
   "summary": {
-    "totalPlays": 7876,
+    "totalPlays": 7877,
     "unknownPlays": 948,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790711795
+    "lastObserved": 1790712039
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Sunday Bloody Sunday - Remastered 2008",
+      "album": "War (Remastered)",
+      "count": 10,
+      "first": 1788921291,
+      "last": 1790712039,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
       "title": "Leave The Door Open",
       "album": "Leave The Door Open",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788970549,
       "last": 1790705980,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Alvvays",
-      "title": "Adult Diversion",
-      "album": "Alvvays",
-      "count": 10,
-      "first": 1789050335,
-      "last": 1790705141,
       "playlists": {
         "1default": 10
       }
@@ -4219,6 +4219,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 20,
+      "first": 1788921291,
+      "last": 1790712039,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 10,
+          "first": 1788921291,
+          "last": 1790712039,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 10,
+          "first": 1788964687,
+          "last": 1790700468,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 20,
       "first": 1788985030,
@@ -4526,36 +4556,6 @@
           "count": 9,
           "first": 1789057143,
           "last": 1790443238,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 19,
-      "first": 1788921291,
-      "last": 1790700468,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 10,
-          "first": 1788964687,
-          "last": 1790700468,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 9,
-          "first": 1788921291,
-          "last": 1790565284,
           "playlists": {
             "1default": 9
           }
@@ -7281,9 +7281,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3708,
+      "count": 3709,
       "first": 1788901564,
-      "last": 1790711795,
+      "last": 1790712039,
       "songs": [
         {
           "artist": "Tele Novella",
