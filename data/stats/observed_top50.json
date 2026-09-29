@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T19:22:01.342013+00:00",
+  "updatedAt": "2026-09-29T19:26:54.478864+00:00",
   "summary": {
-    "totalPlays": 7865,
+    "totalPlays": 7867,
     "unknownPlays": 948,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790709491
+    "lastObserved": 1790709961
   },
   "topSongs": [
     {
@@ -376,6 +376,28 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "gettingyoutobelieve",
+      "album": "pear",
+      "count": 10,
+      "first": 1788920755,
+      "last": 1790709961,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Jelani Aryeh",
+      "title": "Stella Brown",
+      "album": "I've Got Some Living To Do",
+      "count": 10,
+      "first": 1788918760,
+      "last": 1790709775,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Madness",
       "title": "Our House",
       "album": "Madness",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1789032729,
       "last": 1790703752,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Interpol",
-      "title": "PDA",
-      "album": "Turn On The Bright Lights",
-      "count": 10,
-      "first": 1788985465,
-      "last": 1790703451,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Mosie",
-      "title": "Oh! Frenchy",
-      "album": "Oh! Frenchy",
-      "count": 10,
-      "first": 1788904291,
-      "last": 1790703215,
       "playlists": {
         "1default": 10
       }
@@ -2616,10 +2616,21 @@
     },
     {
       "artist": "botch",
-      "count": 38,
+      "count": 39,
       "first": 1788920755,
-      "last": 1790699574,
+      "last": 1790709961,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 10,
+          "first": 1788920755,
+          "last": 1790709961,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "botch",
           "title": "takeadrag",
@@ -2649,17 +2660,6 @@
           "count": 9,
           "first": 1788997306,
           "last": 1790571081,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 9,
-          "first": 1788920755,
-          "last": 1790449151,
           "playlists": {
             "1default": 9
           }
@@ -6221,6 +6221,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 20,
+      "first": 1788920755,
+      "last": 1790709961,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 10,
+          "first": 1788920755,
+          "last": 1790709961,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 10,
+          "first": 1788963025,
+          "last": 1790699574,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 20,
@@ -6380,37 +6411,6 @@
           "count": 9,
           "first": 1789225488,
           "last": 1790705474,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 19,
-      "first": 1788920755,
-      "last": 1790699574,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 10,
-          "first": 1788963025,
-          "last": 1790699574,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 9,
-          "first": 1788920755,
-          "last": 1790449151,
           "playlists": {
             "1default": 9
           }
@@ -7281,9 +7281,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3697,
+      "count": 3699,
       "first": 1788901564,
-      "last": 1790709491,
+      "last": 1790709961,
       "songs": [
         {
           "artist": "Tele Novella",
