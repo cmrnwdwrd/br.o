@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T20:12:01.408611+00:00",
+  "updatedAt": "2026-09-29T20:16:45.419088+00:00",
   "summary": {
-    "totalPlays": 7879,
+    "totalPlays": 7880,
     "unknownPlays": 950,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790712575
+    "lastObserved": 1790712745
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "The Cranberries",
+      "title": "Zombie",
+      "album": "No Need To Argue",
+      "count": 10,
+      "first": 1788916461,
+      "last": 1790712745,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "U2",
       "title": "Sunday Bloody Sunday - Remastered 2008",
       "album": "War (Remastered)",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788971012,
       "last": 1790706632,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Blue October",
-      "title": "Into The Ocean",
-      "album": "Foiled",
-      "count": 10,
-      "first": 1788970549,
-      "last": 1790705980,
       "playlists": {
         "1default": 10
       }
@@ -2865,10 +2865,21 @@
     },
     {
       "artist": "The Cranberries",
-      "count": 32,
+      "count": 33,
       "first": 1788916461,
-      "last": 1790653551,
+      "last": 1790712745,
       "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 10,
+          "first": 1788916461,
+          "last": 1790712745,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "The Cranberries",
           "title": "Ode To My Family",
@@ -2887,17 +2898,6 @@
           "count": 9,
           "first": 1789087662,
           "last": 1790644893,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 9,
-          "first": 1788916461,
-          "last": 1790433220,
           "playlists": {
             "1default": 9
           }
@@ -7281,9 +7281,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3711,
+      "count": 3712,
       "first": 1788901564,
-      "last": 1790712575,
+      "last": 1790712745,
       "songs": [
         {
           "artist": "Tele Novella",
