@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T03:11:50.720631+00:00",
+  "updatedAt": "2026-09-29T03:17:27.288191+00:00",
   "summary": {
-    "totalPlays": 7591,
+    "totalPlays": 7593,
     "unknownPlays": 915,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790651275
+    "lastObserved": 1790651726
   },
   "topSongs": [
     {
@@ -332,6 +332,28 @@
       }
     },
     {
+      "artist": "The Czars",
+      "title": "Drug",
+      "album": "Best Of",
+      "count": 10,
+      "first": 1789063847,
+      "last": 1790651726,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "COIN",
+      "title": "Chapstick",
+      "album": "Chapstick",
+      "count": 10,
+      "first": 1788903373,
+      "last": 1790651531,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Keanu Bicol",
       "title": "her smile",
       "album": "butterfly / her smile",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1788919285,
       "last": 1790643382,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Fatboy Slim",
-      "title": "Weapon of Choice",
-      "album": "The Greatest Hits: Why Try Harder",
-      "count": 10,
-      "first": 1788984231,
-      "last": 1790643163,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Courtney Barnett",
-      "title": "Write A List of Things To Look Forward To",
-      "album": "Things Take Time, Take Time",
-      "count": 10,
-      "first": 1788913469,
-      "last": 1790642994,
       "playlists": {
         "1default": 10
       }
@@ -2086,10 +2086,21 @@
     },
     {
       "artist": "The Czars",
-      "count": 51,
+      "count": 52,
       "first": 1788963949,
-      "last": 1790619226,
+      "last": 1790651726,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 10,
+          "first": 1789063847,
+          "last": 1790651726,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Angel Eyes",
@@ -2097,17 +2108,6 @@
           "count": 9,
           "first": 1789218669,
           "last": 1790619226,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 9,
-          "first": 1789063847,
-          "last": 1790570830,
           "playlists": {
             "1default": 9
           }
@@ -4844,10 +4844,21 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 51,
+      "count": 52,
       "first": 1788963949,
-      "last": 1790619226,
+      "last": 1790651726,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 10,
+          "first": 1789063847,
+          "last": 1790651726,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Angel Eyes",
@@ -4855,17 +4866,6 @@
           "count": 9,
           "first": 1789218669,
           "last": 1790619226,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 9,
-          "first": 1789063847,
-          "last": 1790570830,
           "playlists": {
             "1default": 9
           }
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3578,
+      "count": 3580,
       "first": 1788901564,
-      "last": 1790651275,
+      "last": 1790651726,
       "songs": [
         {
           "artist": "Tele Novella",
