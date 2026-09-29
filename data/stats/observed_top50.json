@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T13:27:34.544645+00:00",
+  "updatedAt": "2026-09-29T13:32:04.780051+00:00",
   "summary": {
-    "totalPlays": 7772,
+    "totalPlays": 7773,
     "unknownPlays": 936,
     "uniqueTracks": 2139,
     "uniqueArtists": 1380,
     "uniqueAlbums": 1763,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790688376
+    "lastObserved": 1790688628
   },
   "topSongs": [
     {
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 360,
+      "count": 361,
       "first": 1788955289,
-      "last": 1790688376,
+      "last": 1790688628,
       "songs": [
+        {
+          "artist": "Jason Reeves",
+          "title": "Murakami",
+          "album": "Murakami",
+          "count": 2,
+          "first": 1790254790,
+          "last": 1790688628,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Jamws",
           "title": "Toronto",
@@ -7492,17 +7503,6 @@
           "count": 2,
           "first": 1790251692,
           "last": 1790687035,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "The 502s",
-          "title": "Magdalene",
-          "album": "Could It Get Better Than This",
-          "count": 2,
-          "first": 1789474294,
-          "last": 1790686886,
           "playlists": {
             "carhartts": 2
           }
