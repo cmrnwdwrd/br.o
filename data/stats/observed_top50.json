@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T00:36:48.192696+00:00",
+  "updatedAt": "2026-09-29T00:41:51.002008+00:00",
   "summary": {
-    "totalPlays": 7547,
+    "totalPlays": 7550,
     "unknownPlays": 909,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790642020
+    "lastObserved": 1790642506
   },
   "topSongs": [
     {
@@ -321,6 +321,39 @@
       }
     },
     {
+      "artist": "Moby",
+      "title": "Porcelain",
+      "album": "Play & Play: B Sides",
+      "count": 10,
+      "first": 1788910695,
+      "last": 1790642506,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "LA LA UNDERBELLY",
+      "album": "SWAMP",
+      "count": 10,
+      "first": 1789058454,
+      "last": 1790642413,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Against Me!",
+      "title": "I Was a Teenage Anarchist",
+      "album": "White Crosses",
+      "count": 10,
+      "first": 1789059805,
+      "last": 1790642216,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Billie Eilish",
       "title": "NDA",
       "album": "Happier Than Ever",
@@ -528,47 +561,14 @@
       "playlists": {
         "1default": 10
       }
-    },
-    {
-      "artist": "Gorillaz, Beck",
-      "title": "The Valley of The Pagans (feat. Beck)",
-      "album": "Song Machine, Season One: Strange Timez (Deluxe)",
-      "count": 10,
-      "first": 1789062154,
-      "last": 1790629931,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "The Ephinjis",
-      "title": "Knives",
-      "album": "Knives",
-      "count": 10,
-      "first": 1788973998,
-      "last": 1790629701,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Susannah Joffe",
-      "title": "Die Your Daughter",
-      "album": "Your Mother's Name",
-      "count": 10,
-      "first": 1788989025,
-      "last": 1790629563,
-      "playlists": {
-        "1default": 10
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "Lil Darkie",
-      "count": 147,
+      "count": 148,
       "first": 1788910325,
-      "last": 1790641621,
+      "last": 1790642413,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -579,6 +579,17 @@
           "last": 1790589125,
           "playlists": {
             "1default": 13
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 10,
+          "first": 1789058454,
+          "last": 1790642413,
+          "playlists": {
+            "1default": 10
           }
         },
         {
@@ -632,17 +643,6 @@
           "count": 9,
           "first": 1789033665,
           "last": 1790568124,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 9,
-          "first": 1789058454,
-          "last": 1790560025,
           "playlists": {
             "1default": 9
           }
@@ -4178,6 +4178,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 20,
+      "first": 1788947810,
+      "last": 1790642216,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 10,
+          "first": 1789059805,
+          "last": 1790642216,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 10,
+          "first": 1788947810,
+          "last": 1790632344,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 20,
       "first": 1788914032,
@@ -4324,36 +4354,6 @@
           "count": 9,
           "first": 1789129746,
           "last": 1790641110,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 19,
-      "first": 1788947810,
-      "last": 1790632344,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 10,
-          "first": 1788947810,
-          "last": 1790632344,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 9,
-          "first": 1789059805,
-          "last": 1790563820,
           "playlists": {
             "1default": 9
           }
@@ -4952,19 +4952,19 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 36,
+      "count": 37,
       "first": 1788926373,
-      "last": 1790560025,
+      "last": 1790642413,
       "songs": [
         {
           "artist": "Lil Darkie",
           "title": "LA LA UNDERBELLY",
           "album": "SWAMP",
-          "count": 9,
+          "count": 10,
           "first": 1789058454,
-          "last": 1790560025,
+          "last": 1790642413,
           "playlists": {
-            "1default": 9
+            "1default": 10
           }
         },
         {
@@ -7237,9 +7237,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3534,
+      "count": 3537,
       "first": 1788901564,
-      "last": 1790642020,
+      "last": 1790642506,
       "songs": [
         {
           "artist": "Tele Novella",
