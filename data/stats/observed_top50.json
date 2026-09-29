@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T18:32:10.855524+00:00",
+  "updatedAt": "2026-09-29T18:36:53.770598+00:00",
   "summary": {
-    "totalPlays": 7852,
+    "totalPlays": 7853,
     "unknownPlays": 945,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790706632
+    "lastObserved": 1790706826
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "Yumi Zouma",
+      "title": "In Camera",
+      "album": "EP III",
+      "count": 10,
+      "first": 1789054681,
+      "last": 1790706826,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Dead Or Alive",
       "title": "You Spin Me Round (Like a Record)",
       "album": "Evolution: The Hits",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788926485,
       "last": 1790701369,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Leon Bridges",
-      "title": "Motorbike",
-      "album": "Motorbike",
-      "count": 10,
-      "first": 1788975084,
-      "last": 1790701180,
       "playlists": {
         "1default": 10
       }
@@ -4473,6 +4473,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 19,
+      "first": 1789054681,
+      "last": 1790706826,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 10,
+          "first": 1789054681,
+          "last": 1790706826,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 9,
+          "first": 1789057143,
+          "last": 1790443238,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 19,
       "first": 1788921291,
@@ -4556,36 +4586,6 @@
           "count": 9,
           "first": 1789169386,
           "last": 1790692544,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Courtney Barnett",
-      "count": 19,
-      "first": 1788913469,
-      "last": 1790655305,
-      "songs": [
-        {
-          "artist": "Courtney Barnett",
-          "title": "Write A List of Things To Look Forward To",
-          "album": "Things Take Time, Take Time",
-          "count": 10,
-          "first": 1788913469,
-          "last": 1790642994,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Courtney Barnett",
-          "title": "Pedestrian at Best",
-          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
-          "count": 9,
-          "first": 1789215507,
-          "last": 1790655305,
           "playlists": {
             "1default": 9
           }
@@ -7259,9 +7259,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3684,
+      "count": 3685,
       "first": 1788901564,
-      "last": 1790706632,
+      "last": 1790706826,
       "songs": [
         {
           "artist": "Tele Novella",
