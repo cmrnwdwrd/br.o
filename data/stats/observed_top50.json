@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T00:46:58.767893+00:00",
+  "updatedAt": "2026-09-29T00:52:04.445083+00:00",
   "summary": {
-    "totalPlays": 7551,
+    "totalPlays": 7552,
     "unknownPlays": 909,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790642747
+    "lastObserved": 1790642994
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Courtney Barnett",
+      "title": "Write A List of Things To Look Forward To",
+      "album": "Things Take Time, Take Time",
+      "count": 10,
+      "first": 1788913469,
+      "last": 1790642994,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Moby",
       "title": "Porcelain",
       "album": "Play & Play: B Sides",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1789063011,
       "last": 1790630726,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Gorillaz, Gruff Rhys, De La Soul, Dave Jolicoeur, Kelvin Mercer, Vincent Mason",
-      "title": "Superfast Jellyfish (feat. Gruff Rhys and De La Soul)",
-      "album": "Plastic Beach",
-      "count": 10,
-      "first": 1788965548,
-      "last": 1790630552,
       "playlists": {
         "1default": 10
       }
@@ -4473,6 +4473,36 @@
       ]
     },
     {
+      "artist": "Courtney Barnett",
+      "count": 18,
+      "first": 1788913469,
+      "last": 1790642994,
+      "songs": [
+        {
+          "artist": "Courtney Barnett",
+          "title": "Write A List of Things To Look Forward To",
+          "album": "Things Take Time, Take Time",
+          "count": 10,
+          "first": 1788913469,
+          "last": 1790642994,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Courtney Barnett",
+          "title": "Pedestrian at Best",
+          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
+          "count": 8,
+          "first": 1789215507,
+          "last": 1790430114,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 18,
       "first": 1788989714,
@@ -4558,36 +4588,6 @@
           "last": 1790569150,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 18,
-      "first": 1788986484,
-      "last": 1790615106,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 10,
-          "first": 1788986484,
-          "last": 1790615106,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 8,
-          "first": 1789231311,
-          "last": 1790587294,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -7237,9 +7237,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3538,
+      "count": 3539,
       "first": 1788901564,
-      "last": 1790642747,
+      "last": 1790642994,
       "songs": [
         {
           "artist": "Tele Novella",
