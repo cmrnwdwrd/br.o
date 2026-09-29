@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T22:36:53.518412+00:00",
+  "updatedAt": "2026-09-29T22:41:55.619257+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 280,
+    "sessionCount": 282,
     "firstObserved": 1788901564,
-    "lastObserved": 1790721272
+    "lastObserved": 1790721671
   },
   "playlists": [
     {
@@ -1251,12 +1251,12 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "sessionCount": 18,
-      "playCount": 212,
+      "sessionCount": 19,
+      "playCount": 213,
       "firstObserved": 1788991800,
-      "lastObserved": 1790719300,
-      "typicalStartMinute": 986,
-      "typicalDurationMinutes": 38,
+      "lastObserved": 1790721671,
+      "typicalStartMinute": 987,
+      "typicalDurationMinutes": 34,
       "confidence": "High",
       "heatmapMinutes": [
         [
@@ -1302,7 +1302,7 @@
           0.0,
           0.0,
           0.0,
-          133.1,
+          135.9,
           52.6,
           0.0,
           0.0,
@@ -1608,7 +1608,7 @@
           0.0,
           37.1,
           45.0,
-          34.5,
+          37.3,
           16.5,
           25.6,
           26.9,
@@ -2174,7 +2174,7 @@
           0,
           0,
           0,
-          3,
+          4,
           2,
           0,
           0,
@@ -2324,10 +2324,10 @@
         },
         {
           "weekday": 1,
-          "sessions": 5,
-          "typicalStartMinute": 986,
-          "typicalDurationMinutes": 33,
-          "confidence": "Medium"
+          "sessions": 6,
+          "typicalStartMinute": 988,
+          "typicalDurationMinutes": 30,
+          "confidence": "High"
         },
         {
           "weekday": 2,
@@ -2345,6 +2345,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790721671,
+          "end": 1790721836,
+          "durationMinutes": 3,
+          "playCount": 1
+        },
         {
           "start": 1790719300,
           "end": 1790721272,
@@ -16096,12 +16102,12 @@
     },
     {
       "playlist": "MCR wednesday wind down",
-      "sessionCount": 4,
-      "playCount": 105,
+      "sessionCount": 5,
+      "playCount": 106,
       "firstObserved": 1789001125,
-      "lastObserved": 1790212219,
-      "typicalStartMinute": 1109,
-      "typicalDurationMinutes": 127,
+      "lastObserved": 1790721451,
+      "typicalStartMinute": 1087,
+      "typicalDurationMinutes": 126,
       "confidence": "Medium",
       "heatmapMinutes": [
         [
@@ -16147,7 +16153,7 @@
           0.0,
           0.0,
           0.0,
-          3.7,
+          7.3,
           0.0,
           0.0,
           0.0,
@@ -16453,7 +16459,7 @@
           0.0,
           0.0,
           0.0,
-          0.0,
+          3.7,
           3.7,
           0.0,
           0.0,
@@ -17019,7 +17025,7 @@
           0,
           0,
           0,
-          1,
+          2,
           0,
           0,
           0,
@@ -17162,8 +17168,8 @@
       "likelyWindows": [
         {
           "weekday": 1,
-          "sessions": 1,
-          "typicalStartMinute": 1012,
+          "sessions": 2,
+          "typicalStartMinute": 1004,
           "typicalDurationMinutes": 4,
           "confidence": "Low"
         },
@@ -17176,6 +17182,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790721451,
+          "end": 1790721671,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1790212219,
           "end": 1790219781,
