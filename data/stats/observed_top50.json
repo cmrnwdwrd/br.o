@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T21:16:51.788353+00:00",
+  "updatedAt": "2026-09-29T21:21:56.885435+00:00",
   "summary": {
-    "totalPlays": 7896,
+    "totalPlays": 7897,
     "unknownPlays": 951,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790716480
+    "lastObserved": 1790716643
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 10,
+      "first": 1789063255,
+      "last": 1790716643,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Zolof the Rock & Roll Destroyer",
       "title": "Plays Pretty for Baby",
       "album": "Zolof the Rock & Roll Destroyer",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1789056336,
       "last": 1790711795,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Savage Ga$p, Lil Darkie, KAMAARA",
-      "title": "paranoia agent",
-      "album": "in my restless dreams, i see you",
-      "count": 10,
-      "first": 1789033255,
-      "last": 1790711617,
       "playlists": {
         "1default": 10
       }
@@ -1523,10 +1523,21 @@
     },
     {
       "artist": "Opium",
-      "count": 77,
+      "count": 78,
       "first": 1788927400,
-      "last": 1790708020,
+      "last": 1790716643,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 10,
+          "first": 1789063255,
+          "last": 1790716643,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Opium",
           "title": "Delusional",
@@ -1591,17 +1602,6 @@
           "last": 1790613359,
           "playlists": {
             "1default": 10
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 9,
-          "first": 1789063255,
-          "last": 1790572005,
-          "playlists": {
-            "1default": 9
           }
         },
         {
@@ -7270,9 +7270,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3728,
+      "count": 3729,
       "first": 1788901564,
-      "last": 1790716480,
+      "last": 1790716643,
       "songs": [
         {
           "artist": "Tele Novella",
