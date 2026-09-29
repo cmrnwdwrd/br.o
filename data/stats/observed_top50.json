@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T16:46:59.251403+00:00",
+  "updatedAt": "2026-09-29T16:51:55.274445+00:00",
   "summary": {
-    "totalPlays": 7824,
+    "totalPlays": 7826,
     "unknownPlays": 942,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790700289
+    "lastObserved": 1790700696
   },
   "topSongs": [
     {
@@ -376,6 +376,28 @@
       }
     },
     {
+      "artist": "The Airborne Toxic Event",
+      "title": "Sometime Around Midnight",
+      "album": "The Airborne Toxic Event (Deluxe Edition)",
+      "count": 10,
+      "first": 1788911534,
+      "last": 1790700696,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "U2",
+      "title": "Pride (In The Name Of Love) - Remastered 2009",
+      "album": "The Unforgettable Fire (Remastered)",
+      "count": 10,
+      "first": 1788964687,
+      "last": 1790700468,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Barrie",
       "title": "Hutch",
       "album": "Happy To Be Here",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1788974410,
       "last": 1790694792,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Fugees, Ms. Lauryn Hill",
-      "title": "Killing Me Softly With His Song",
-      "album": "The Score (Expanded Edition)",
-      "count": 10,
-      "first": 1789057927,
-      "last": 1790694280,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Phoebe Bridgers",
-      "title": "Killer",
-      "album": "Stranger in the Alps",
-      "count": 10,
-      "first": 1788926905,
-      "last": 1790693887,
       "playlists": {
         "1default": 10
       }
@@ -4473,6 +4473,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 19,
+      "first": 1788921291,
+      "last": 1790700468,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 10,
+          "first": 1788964687,
+          "last": 1790700468,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 9,
+          "first": 1788921291,
+          "last": 1790565284,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 19,
       "first": 1788985030,
@@ -4558,47 +4588,6 @@
           "last": 1790655305,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Vampire Weekend",
-      "count": 19,
-      "first": 1788990464,
-      "last": 1790652469,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 9,
-          "first": 1789108965,
-          "last": 1790652469,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 9,
-          "first": 1788990464,
-          "last": 1790426589,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Campus",
-          "album": "Vampire Weekend",
-          "count": 1,
-          "first": 1789762855,
-          "last": 1789762855,
-          "playlists": {
-            "escaping from cu boulder by giselle": 1
           }
         }
       ]
@@ -7259,9 +7248,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3656,
+      "count": 3658,
       "first": 1788901564,
-      "last": 1790700289,
+      "last": 1790700696,
       "songs": [
         {
           "artist": "Tele Novella",
