@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T20:56:54.236835+00:00",
+  "updatedAt": "2026-09-29T21:01:56.690504+00:00",
   "summary": {
-    "totalPlays": 7890,
+    "totalPlays": 7891,
     "unknownPlays": 951,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790715131
+    "lastObserved": 1790715656
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "MICHELLE",
+      "title": "FYO",
+      "album": "FYO",
+      "count": 10,
+      "first": 1789061160,
+      "last": 1790715656,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "cehryl",
       "title": "Moon Eyes",
       "album": "Hide n Seek / Moon Eyes",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788985030,
       "last": 1790710156,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "gettingyoutobelieve",
-      "album": "pear",
-      "count": 10,
-      "first": 1788920755,
-      "last": 1790709961,
       "playlists": {
         "1default": 10
       }
@@ -4533,6 +4533,36 @@
       ]
     },
     {
+      "artist": "MICHELLE",
+      "count": 19,
+      "first": 1789061160,
+      "last": 1790715656,
+      "songs": [
+        {
+          "artist": "MICHELLE",
+          "title": "FYO",
+          "album": "FYO",
+          "count": 10,
+          "first": 1789061160,
+          "last": 1790715656,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "MICHELLE",
+          "title": "SYNCOPATE",
+          "album": "AFTER DINNER WE TALK DREAMS",
+          "count": 9,
+          "first": 1789239544,
+          "last": 1790640275,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Crumb",
       "count": 19,
       "first": 1788983912,
@@ -4556,36 +4586,6 @@
           "count": 9,
           "first": 1789219993,
           "last": 1790712575,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 19,
-      "first": 1789054681,
-      "last": 1790706826,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 10,
-          "first": 1789054681,
-          "last": 1790706826,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 9,
-          "first": 1789057143,
-          "last": 1790443238,
           "playlists": {
             "1default": 9
           }
@@ -7270,9 +7270,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3722,
+      "count": 3723,
       "first": 1788901564,
-      "last": 1790715131,
+      "last": 1790715656,
       "songs": [
         {
           "artist": "Tele Novella",
