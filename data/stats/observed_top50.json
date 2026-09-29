@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T20:26:53.138711+00:00",
+  "updatedAt": "2026-09-29T20:31:47.749411+00:00",
   "summary": {
-    "totalPlays": 7883,
+    "totalPlays": 7885,
     "unknownPlays": 950,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790713480
+    "lastObserved": 1790713896
   },
   "topSongs": [
     {
@@ -376,6 +376,28 @@
       }
     },
     {
+      "artist": "Your Smith",
+      "title": "Ooh Wee",
+      "album": "Bad Habit",
+      "count": 10,
+      "first": 1788969485,
+      "last": 1790713896,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Weezer",
+      "title": "The End of the Game",
+      "album": "The End of the Game",
+      "count": 10,
+      "first": 1788974227,
+      "last": 1790713713,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "botch",
       "title": "underthebasement",
       "album": "a machine as big as a city with a concert at the center",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1789062336,
       "last": 1790708411,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Delusional",
-      "album": "PHANTOMS",
-      "count": 10,
-      "first": 1789057319,
-      "last": 1790708020,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Arcade Fire",
-      "title": "Wake Up",
-      "album": "Funeral",
-      "count": 10,
-      "first": 1788989909,
-      "last": 1790707638,
       "playlists": {
         "1default": 10
       }
@@ -2917,9 +2917,9 @@
     },
     {
       "artist": "Weezer",
-      "count": 31,
+      "count": 32,
       "first": 1788946510,
-      "last": 1790651275,
+      "last": 1790713713,
       "songs": [
         {
           "artist": "Weezer",
@@ -2934,22 +2934,22 @@
         },
         {
           "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 10,
+          "first": 1788974227,
+          "last": 1790713713,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Weezer",
           "title": "Hero",
           "album": "Hero",
           "count": 9,
           "first": 1789142694,
           "last": 1790621243,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 9,
-          "first": 1788974227,
-          "last": 1790553330,
           "playlists": {
             "1default": 9
           }
@@ -3445,19 +3445,19 @@
     },
     {
       "artist": "Your Smith",
-      "count": 26,
+      "count": 27,
       "first": 1788947368,
-      "last": 1790570580,
+      "last": 1790713896,
       "songs": [
         {
           "artist": "Your Smith",
           "title": "Ooh Wee",
           "album": "Bad Habit",
-          "count": 9,
+          "count": 10,
           "first": 1788969485,
-          "last": 1790570580,
+          "last": 1790713896,
           "playlists": {
-            "1default": 9
+            "1default": 10
           }
         },
         {
@@ -5541,6 +5541,48 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "album": "Bad Habit",
+      "count": 27,
+      "first": 1788947368,
+      "last": 1790713896,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 10,
+          "first": 1788969485,
+          "last": 1790713896,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 9,
+          "first": 1788947368,
+          "last": 1790473161,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 8,
+          "first": 1789086174,
+          "last": 1790427490,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "album": "Dead",
       "count": 27,
@@ -5578,48 +5620,6 @@
           "last": 1790500752,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "album": "Bad Habit",
-      "count": 26,
-      "first": 1788947368,
-      "last": 1790570580,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 9,
-          "first": 1788969485,
-          "last": 1790570580,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 9,
-          "first": 1788947368,
-          "last": 1790473161,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 8,
-          "first": 1789086174,
-          "last": 1790427490,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -7281,9 +7281,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3715,
+      "count": 3717,
       "first": 1788901564,
-      "last": 1790713480,
+      "last": 1790713896,
       "songs": [
         {
           "artist": "Tele Novella",
