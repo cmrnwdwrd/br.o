@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T03:32:04.283808+00:00",
+  "updatedAt": "2026-09-29T03:36:54.249183+00:00",
   "summary": {
-    "totalPlays": 7597,
+    "totalPlays": 7599,
     "unknownPlays": 915,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790652469
+    "lastObserved": 1790653000
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "The Growlers",
+      "title": "Dope on a Rope",
+      "album": "City Club",
+      "count": 10,
+      "first": 1788913218,
+      "last": 1790653000,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Barrie",
       "title": "Human Nature",
       "album": "Happy To Be Here (Ext)",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1789073755,
       "last": 1790644627,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "CLAЯA",
-      "title": "A Good Friend",
-      "album": "A Good Friend",
-      "count": 10,
-      "first": 1788902594,
-      "last": 1790644440,
       "playlists": {
         "1default": 10
       }
@@ -3228,6 +3228,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 28,
+      "first": 1788965930,
+      "last": 1790652778,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 10,
+          "first": 1788965930,
+          "last": 1790640870,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 9,
+          "first": 1789215234,
+          "last": 1790652778,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 9,
+          "first": 1789068640,
+          "last": 1790627998,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 28,
       "first": 1788965724,
@@ -3303,47 +3344,6 @@
           "count": 8,
           "first": 1789226001,
           "last": 1790429539,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 27,
-      "first": 1788965930,
-      "last": 1790640870,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 10,
-          "first": 1788965930,
-          "last": 1790640870,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 9,
-          "first": 1789068640,
-          "last": 1790627998,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 8,
-          "first": 1789215234,
-          "last": 1790559320,
           "playlists": {
             "1default": 8
           }
@@ -7345,9 +7345,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3584,
+      "count": 3586,
       "first": 1788901564,
-      "last": 1790652469,
+      "last": 1790653000,
       "songs": [
         {
           "artist": "Tele Novella",
