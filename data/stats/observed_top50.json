@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T21:27:04.458424+00:00",
+  "updatedAt": "2026-09-29T21:32:06.081595+00:00",
   "summary": {
-    "totalPlays": 7899,
+    "totalPlays": 7900,
     "unknownPlays": 951,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790717204
+    "lastObserved": 1790717449
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "Mallard",
+      "album": "Mallard",
+      "count": 10,
+      "first": 1788973386,
+      "last": 1790717449,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Chrissy",
       "title": "Socks",
       "album": "Socks",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788916461,
       "last": 1790712745,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Sunday Bloody Sunday - Remastered 2008",
-      "album": "War (Remastered)",
-      "count": 10,
-      "first": 1788921291,
-      "last": 1790712039,
       "playlists": {
         "1default": 10
       }
@@ -3934,6 +3934,36 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 21,
+      "first": 1788973386,
+      "last": 1790717449,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 11,
+          "first": 1789063640,
+          "last": 1790543136,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 10,
+          "first": 1788973386,
+          "last": 1790717449,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 21,
       "first": 1788914421,
@@ -4498,36 +4528,6 @@
           "last": 1790465398,
           "playlists": {
             "texting your situationship": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 20,
-      "first": 1788973386,
-      "last": 1790544229,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 11,
-          "first": 1789063640,
-          "last": 1790543136,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 9,
-          "first": 1788973386,
-          "last": 1790544229,
-          "playlists": {
-            "1default": 9
           }
         }
       ]
@@ -7270,9 +7270,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3731,
+      "count": 3732,
       "first": 1788901564,
-      "last": 1790717204,
+      "last": 1790717449,
       "songs": [
         {
           "artist": "Tele Novella",
