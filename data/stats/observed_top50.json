@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T00:06:54.429320+00:00",
+  "updatedAt": "2026-09-29T00:12:00.899294+00:00",
   "summary": {
-    "totalPlays": 7539,
+    "totalPlays": 7541,
     "unknownPlays": 908,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790640275
+    "lastObserved": 1790640675
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Masta Ace",
+      "title": "Son of Yvonne",
+      "album": "MA_DOOM: Son of Yvonne",
+      "count": 10,
+      "first": 1788970154,
+      "last": 1790640675,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 10,
+      "first": 1788970790,
+      "last": 1790640451,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "You Make Me Want to Kill Myself",
       "album": "You Make Me Want to Kill Myself",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1788912648,
       "last": 1790628179,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Tally Hall",
-      "title": "The Bidding",
-      "album": "Marvin's Marvelous Mechanical Museum",
-      "count": 10,
-      "first": 1788927573,
-      "last": 1790627626,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "The Dandy Warhols",
-      "title": "Bohemian Like You",
-      "album": "Thirteen Tales From Urban Bohemia",
-      "count": 10,
-      "first": 1788989503,
-      "last": 1790627415,
       "playlists": {
         "1default": 10
       }
@@ -2938,6 +2938,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 30,
+      "first": 1788917230,
+      "last": 1790640451,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 11,
+          "first": 1788917230,
+          "last": 1790622765,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 10,
+          "first": 1788970790,
+          "last": 1790640451,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 9,
+          "first": 1789050580,
+          "last": 1790546304,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 30,
       "first": 1788946510,
@@ -3076,47 +3117,6 @@
           "count": 9,
           "first": 1788984450,
           "last": 1790587734,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 29,
-      "first": 1788917230,
-      "last": 1790622765,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 11,
-          "first": 1788917230,
-          "last": 1790622765,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 9,
-          "first": 1789050580,
-          "last": 1790546304,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 9,
-          "first": 1788970790,
-          "last": 1790540482,
           "playlists": {
             "1default": 9
           }
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3526,
+      "count": 3528,
       "first": 1788901564,
-      "last": 1790640275,
+      "last": 1790640675,
       "songs": [
         {
           "artist": "Tele Novella",
