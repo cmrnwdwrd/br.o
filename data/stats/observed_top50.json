@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T13:32:04.780051+00:00",
+  "updatedAt": "2026-09-29T13:36:54.546315+00:00",
   "summary": {
-    "totalPlays": 7773,
+    "totalPlays": 7774,
     "unknownPlays": 936,
     "uniqueTracks": 2139,
     "uniqueArtists": 1380,
     "uniqueAlbums": 1763,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790688628
+    "lastObserved": 1790688895
   },
   "topSongs": [
     {
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 361,
+      "count": 362,
       "first": 1788955289,
-      "last": 1790688628,
+      "last": 1790688895,
       "songs": [
+        {
+          "artist": "Mt. Joy",
+          "title": "Jenny Jenkins",
+          "album": "Mt. Joy",
+          "count": 2,
+          "first": 1790080980,
+          "last": 1790688895,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Jason Reeves",
           "title": "Murakami",
@@ -7492,17 +7503,6 @@
           "count": 2,
           "first": 1789046634,
           "last": 1790687791,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Andrew Montana",
-          "title": "Strawberry",
-          "album": "Strawberry",
-          "count": 2,
-          "first": 1790251692,
-          "last": 1790687035,
           "playlists": {
             "carhartts": 2
           }
