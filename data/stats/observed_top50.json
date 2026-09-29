@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T02:07:03.494210+00:00",
+  "updatedAt": "2026-09-29T02:12:06.271166+00:00",
   "summary": {
-    "totalPlays": 7573,
+    "totalPlays": 7574,
     "unknownPlays": 912,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790647459
+    "lastObserved": 1790647754
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "show me a sign",
+      "album": "THE FUTURE IS DARK",
+      "count": 10,
+      "first": 1788975770,
+      "last": 1790647754,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Franz Schubert, Clara Rockmore, Nadia Reisenberg",
       "title": "Ave Maria, Op. 52 No. 6, D. 839 (Arr. for Theremin & Piano)",
       "album": "Dvořák, Ravel, Gershwin & Others: Chamber Works",
@@ -550,25 +561,14 @@
       "playlists": {
         "1default": 10
       }
-    },
-    {
-      "artist": "The Salesmen",
-      "title": "Little Plans",
-      "album": "WAR IN COLORADO!",
-      "count": 10,
-      "first": 1788970790,
-      "last": 1790640451,
-      "playlists": {
-        "1default": 10
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "Lil Darkie",
-      "count": 148,
+      "count": 149,
       "first": 1788910325,
-      "last": 1790642413,
+      "last": 1790647754,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -579,6 +579,17 @@
           "last": 1790589125,
           "playlists": {
             "1default": 13
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 10,
+          "first": 1788975770,
+          "last": 1790647754,
+          "playlists": {
+            "1default": 10
           }
         },
         {
@@ -621,17 +632,6 @@
           "count": 9,
           "first": 1789225086,
           "last": 1790630168,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 9,
-          "first": 1788975770,
-          "last": 1790585809,
           "playlists": {
             "1default": 9
           }
@@ -6391,6 +6391,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THE FUTURE IS DARK",
+      "count": 19,
+      "first": 1788913884,
+      "last": 1790647754,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 10,
+          "first": 1788975770,
+          "last": 1790647754,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 9,
+          "first": 1788913884,
+          "last": 1790446474,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "a machine as big as a city with a concert at the center",
       "count": 19,
@@ -6508,37 +6539,6 @@
           "count": 9,
           "first": 1788920755,
           "last": 1790449151,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THE FUTURE IS DARK",
-      "count": 18,
-      "first": 1788913884,
-      "last": 1790585809,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 9,
-          "first": 1788975770,
-          "last": 1790585809,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 9,
-          "first": 1788913884,
-          "last": 1790446474,
           "playlists": {
             "1default": 9
           }
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3560,
+      "count": 3561,
       "first": 1788901564,
-      "last": 1790647459,
+      "last": 1790647754,
       "songs": [
         {
           "artist": "Tele Novella",
