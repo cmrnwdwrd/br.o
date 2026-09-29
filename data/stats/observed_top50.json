@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T13:11:41.771365+00:00",
+  "updatedAt": "2026-09-29T13:16:58.553712+00:00",
   "summary": {
-    "totalPlays": 7767,
-    "unknownPlays": 935,
-    "uniqueTracks": 2138,
+    "totalPlays": 7770,
+    "unknownPlays": 936,
+    "uniqueTracks": 2139,
     "uniqueArtists": 1380,
-    "uniqueAlbums": 1762,
+    "uniqueAlbums": 1763,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790687223
+    "lastObserved": 1790687791
   },
   "topSongs": [
     {
@@ -354,6 +354,17 @@
       }
     },
     {
+      "artist": "Sarcastic Sounds",
+      "title": "I Don't Sleep",
+      "album": "I Don't Sleep",
+      "count": 10,
+      "first": 1788951075,
+      "last": 1790687755,
+      "playlists": {
+        "freestyle beats to crash your car to": 10
+      }
+    },
+    {
       "artist": "Olivia Rodrigo",
       "title": "brutal",
       "album": "SOUR",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788971208,
       "last": 1790653822,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "The Cranberries",
-      "title": "Ode To My Family",
-      "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-      "count": 10,
-      "first": 1789060180,
-      "last": 1790653551,
       "playlists": {
         "1default": 10
       }
@@ -7385,19 +7385,19 @@
     },
     {
       "playlist": "freestyle beats to crash your car to",
-      "count": 405,
+      "count": 406,
       "first": 1788948264,
-      "last": 1790683067,
+      "last": 1790687755,
       "songs": [
         {
           "artist": "Sarcastic Sounds",
           "title": "I Don't Sleep",
           "album": "I Don't Sleep",
-          "count": 9,
+          "count": 10,
           "first": 1788951075,
-          "last": 1790682513,
+          "last": 1790687755,
           "playlists": {
-            "freestyle beats to crash your car to": 9
+            "freestyle beats to crash your car to": 10
           }
         },
         {
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 356,
+      "count": 358,
       "first": 1788955289,
-      "last": 1790687223,
+      "last": 1790687791,
       "songs": [
+        {
+          "artist": "Lord Huron",
+          "title": "Long Lost",
+          "album": "Long Lost",
+          "count": 2,
+          "first": 1789046634,
+          "last": 1790687791,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Andrew Montana",
           "title": "Strawberry",
@@ -7492,17 +7503,6 @@
           "count": 2,
           "first": 1789565530,
           "last": 1790686478,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Arts Fishing Club",
-          "title": "Tupelo Honey",
-          "album": "Human - I",
-          "count": 2,
-          "first": 1788957422,
-          "last": 1790686314,
           "playlists": {
             "carhartts": 2
           }
