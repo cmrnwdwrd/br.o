@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T21:51:59.158633+00:00",
+  "updatedAt": "2026-09-29T21:56:57.422574+00:00",
   "summary": {
-    "totalPlays": 7905,
+    "totalPlays": 7906,
     "unknownPlays": 952,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790718606
+    "lastObserved": 1790718798
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 10,
+      "first": 1788968380,
+      "last": 1790718798,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Your Smith",
       "title": "Debbie",
       "album": "Bad Habit",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788969485,
       "last": 1790713896,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "The End of the Game",
-      "album": "The End of the Game",
-      "count": 10,
-      "first": 1788974227,
-      "last": 1790713713,
       "playlists": {
         "1default": 10
       }
@@ -4533,6 +4533,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 19,
+      "first": 1788947080,
+      "last": 1790718798,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 10,
+          "first": 1788968380,
+          "last": 1790718798,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 9,
+          "first": 1788947080,
+          "last": 1790520184,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "MICHELLE",
       "count": 19,
       "first": 1789061160,
@@ -4556,36 +4586,6 @@
           "count": 9,
           "first": 1789239544,
           "last": 1790640275,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Crumb",
-      "count": 19,
-      "first": 1788983912,
-      "last": 1790712575,
-      "songs": [
-        {
-          "artist": "Crumb",
-          "title": "Locket",
-          "album": "Locket",
-          "count": 10,
-          "first": 1788983912,
-          "last": 1790654987,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Crumb",
-          "title": "Ghostride",
-          "album": "Jinx",
-          "count": 9,
-          "first": 1789219993,
-          "last": 1790712575,
           "playlists": {
             "1default": 9
           }
@@ -6418,6 +6418,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 19,
+      "first": 1788947080,
+      "last": 1790718798,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 10,
+          "first": 1788968380,
+          "last": 1790718798,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 9,
+          "first": 1788947080,
+          "last": 1790520184,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
       "count": 19,
@@ -6641,37 +6672,6 @@
           "count": 9,
           "first": 1788990464,
           "last": 1790426589,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 18,
-      "first": 1788947080,
-      "last": 1790520184,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 9,
-          "first": 1788947080,
-          "last": 1790520184,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 9,
-          "first": 1788968380,
-          "last": 1790472894,
           "playlists": {
             "1default": 9
           }
@@ -7270,9 +7270,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3737,
+      "count": 3738,
       "first": 1788901564,
-      "last": 1790718606,
+      "last": 1790718798,
       "songs": [
         {
           "artist": "Tele Novella",
