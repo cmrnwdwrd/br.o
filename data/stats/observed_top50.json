@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T13:56:48.430642+00:00",
+  "updatedAt": "2026-09-29T14:02:21.598951+00:00",
   "summary": {
-    "totalPlays": 7779,
+    "totalPlays": 7781,
     "unknownPlays": 936,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790690042
+    "lastObserved": 1790690461
   },
   "topSongs": [
     {
@@ -354,6 +354,17 @@
       }
     },
     {
+      "artist": "King Fantastic",
+      "title": "Joshua Tree",
+      "album": "The Great Man Theory",
+      "count": 10,
+      "first": 1789061705,
+      "last": 1790690461,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Sarcastic Sounds",
       "title": "I Don't Sleep",
       "album": "I Don't Sleep",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1789061325,
       "last": 1790654305,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Gorillaz, Peter Hook, Georgia",
-      "title": "Aries (feat. Peter Hook and Georgia)",
-      "album": "Song Machine Episode 3",
-      "count": 10,
-      "first": 1788971208,
-      "last": 1790653822,
       "playlists": {
         "1default": 10
       }
@@ -7259,9 +7259,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3612,
+      "count": 3613,
       "first": 1788901564,
-      "last": 1790675890,
+      "last": 1790690461,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 367,
+      "count": 368,
       "first": 1788955289,
-      "last": 1790690042,
+      "last": 1790690231,
       "songs": [
+        {
+          "artist": "The Paper Kites",
+          "title": "Featherstone",
+          "album": "Woodland - EP",
+          "count": 2,
+          "first": 1790256572,
+          "last": 1790690231,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Rancid Eddie",
           "title": "Dry",
@@ -7492,17 +7503,6 @@
           "count": 2,
           "first": 1789566014,
           "last": 1790689094,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Mt. Joy",
-          "title": "Jenny Jenkins",
-          "album": "Mt. Joy",
-          "count": 2,
-          "first": 1790080980,
-          "last": 1790688895,
           "playlists": {
             "carhartts": 2
           }
