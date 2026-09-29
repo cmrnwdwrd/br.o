@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T14:26:56.139342+00:00",
+  "updatedAt": "2026-09-29T14:31:52.756019+00:00",
   "summary": {
-    "totalPlays": 7787,
+    "totalPlays": 7789,
     "unknownPlays": 937,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790691685
+    "lastObserved": 1790692281
   },
   "topSongs": [
     {
@@ -354,6 +354,17 @@
       }
     },
     {
+      "artist": "Smash Mouth",
+      "title": "Walkin' On The Sun",
+      "album": "Fush Yu Mang (20th Anniversary Edition)",
+      "count": 10,
+      "first": 1788967329,
+      "last": 1790692072,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "John Grant",
       "title": "It Doesn't Matter to Him",
       "album": "Pale Green Ghosts",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788914549,
       "last": 1790655535,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Crumb",
-      "title": "Locket",
-      "album": "Locket",
-      "count": 10,
-      "first": 1788983912,
-      "last": 1790654987,
       "playlists": {
         "1default": 10
       }
@@ -3228,6 +3228,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 28,
+      "first": 1788973998,
+      "last": 1790692281,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 10,
+          "first": 1788973998,
+          "last": 1790629701,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 9,
+          "first": 1789226629,
+          "last": 1790692281,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 9,
+          "first": 1789033065,
+          "last": 1790581881,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 28,
       "first": 1789021318,
@@ -3396,47 +3437,6 @@
           "count": 8,
           "first": 1789226001,
           "last": 1790429539,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 27,
-      "first": 1788973998,
-      "last": 1790629701,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 10,
-          "first": 1788973998,
-          "last": 1790629701,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 9,
-          "first": 1789033065,
-          "last": 1790581881,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 8,
-          "first": 1789226629,
-          "last": 1790443657,
           "playlists": {
             "1default": 8
           }
@@ -7259,9 +7259,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3619,
+      "count": 3621,
       "first": 1788901564,
-      "last": 1790691685,
+      "last": 1790692281,
       "songs": [
         {
           "artist": "Tele Novella",
