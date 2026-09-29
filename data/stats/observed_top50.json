@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T03:21:38.377167+00:00",
+  "updatedAt": "2026-09-29T03:26:58.788553+00:00",
   "summary": {
-    "totalPlays": 7594,
+    "totalPlays": 7596,
     "unknownPlays": 915,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790651975
+    "lastObserved": 1790652336
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "Barrie",
+      "title": "Human Nature",
+      "album": "Happy To Be Here (Ext)",
+      "count": 10,
+      "first": 1788966960,
+      "last": 1790652336,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "THE WORLD IS ENDING",
       "album": "THE WORLD IS ENDING",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788902594,
       "last": 1790644440,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Hazel English",
-      "title": "Five and Dime",
-      "album": "Wake UP!",
-      "count": 10,
-      "first": 1789065292,
-      "last": 1790643819,
       "playlists": {
         "1default": 10
       }
@@ -4443,6 +4443,36 @@
       ]
     },
     {
+      "artist": "Barrie",
+      "count": 19,
+      "first": 1788912861,
+      "last": 1790652336,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 10,
+          "first": 1788966960,
+          "last": 1790652336,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 9,
+          "first": 1788912861,
+          "last": 1790540336,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jay Som",
       "count": 19,
       "first": 1789069956,
@@ -4655,36 +4685,6 @@
           "last": 1790641110,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Courtney Barnett",
-      "count": 18,
-      "first": 1788913469,
-      "last": 1790642994,
-      "songs": [
-        {
-          "artist": "Courtney Barnett",
-          "title": "Write A List of Things To Look Forward To",
-          "album": "Things Take Time, Take Time",
-          "count": 10,
-          "first": 1788913469,
-          "last": 1790642994,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Courtney Barnett",
-          "title": "Pedestrian at Best",
-          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
-          "count": 8,
-          "first": 1789215507,
-          "last": 1790430114,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3581,
+      "count": 3583,
       "first": 1788901564,
-      "last": 1790651975,
+      "last": 1790652336,
       "songs": [
         {
           "artist": "Tele Novella",
