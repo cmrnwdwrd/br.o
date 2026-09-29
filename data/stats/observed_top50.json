@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T13:21:59.924632+00:00",
+  "updatedAt": "2026-09-29T13:27:34.544645+00:00",
   "summary": {
-    "totalPlays": 7771,
+    "totalPlays": 7772,
     "unknownPlays": 936,
     "uniqueTracks": 2139,
     "uniqueArtists": 1380,
     "uniqueAlbums": 1763,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790688077
+    "lastObserved": 1790688376
   },
   "topSongs": [
     {
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 359,
+      "count": 360,
       "first": 1788955289,
-      "last": 1790688077,
+      "last": 1790688376,
       "songs": [
+        {
+          "artist": "Jamws",
+          "title": "Toronto",
+          "album": "Toronto",
+          "count": 2,
+          "first": 1790165374,
+          "last": 1790688376,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Daniel Leggs",
           "title": "u know who u r",
@@ -7492,17 +7503,6 @@
           "count": 2,
           "first": 1789474294,
           "last": 1790686886,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Oliver Hazard",
-          "title": "Caesar Knows",
-          "album": "34 N. River",
-          "count": 2,
-          "first": 1790598143,
-          "last": 1790686727,
           "playlists": {
             "carhartts": 2
           }
