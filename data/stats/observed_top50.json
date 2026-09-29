@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T12:01:52.662305+00:00",
+  "updatedAt": "2026-09-29T12:06:55.635364+00:00",
   "summary": {
-    "totalPlays": 7750,
+    "totalPlays": 7751,
     "unknownPlays": 934,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790683280
+    "lastObserved": 1790683528
   },
   "topSongs": [
     {
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 339,
+      "count": 340,
       "first": 1788955289,
-      "last": 1790683280,
+      "last": 1790683528,
       "songs": [
+        {
+          "artist": "Yael Naim",
+          "title": "A Part of Us",
+          "album": "Mon Bébé (Original Motion Picture Soundtrack)",
+          "count": 2,
+          "first": 1788962266,
+          "last": 1790683528,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Mumford & Sons",
           "title": "After the Storm",
@@ -7492,17 +7503,6 @@
           "count": 2,
           "first": 1788958582,
           "last": 1790603014,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "flipturn",
-          "title": "August (Acoustic)",
-          "album": "August (Acoustic)",
-          "count": 2,
-          "first": 1789994506,
-          "last": 1790602321,
           "playlists": {
             "carhartts": 2
           }
