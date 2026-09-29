@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T13:52:05.228790+00:00",
+  "updatedAt": "2026-09-29T13:56:48.430642+00:00",
   "summary": {
-    "totalPlays": 7778,
+    "totalPlays": 7779,
     "unknownPlays": 936,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790689827
+    "lastObserved": 1790690042
   },
   "topSongs": [
     {
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 366,
+      "count": 367,
       "first": 1788955289,
-      "last": 1790689827,
+      "last": 1790690042,
       "songs": [
+        {
+          "artist": "Rancid Eddie",
+          "title": "Dry",
+          "album": "Dry",
+          "count": 2,
+          "first": 1790085061,
+          "last": 1790690042,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Hippo Campus",
           "title": "Simple Season",
@@ -7492,17 +7503,6 @@
           "count": 2,
           "first": 1790080980,
           "last": 1790688895,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Jason Reeves",
-          "title": "Murakami",
-          "album": "Murakami",
-          "count": 2,
-          "first": 1790254790,
-          "last": 1790688628,
           "playlists": {
             "carhartts": 2
           }
