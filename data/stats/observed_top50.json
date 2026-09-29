@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T04:31:51.277209+00:00",
+  "updatedAt": "2026-09-29T04:36:51.794007+00:00",
   "summary": {
-    "totalPlays": 7611,
+    "totalPlays": 7613,
     "unknownPlays": 917,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790655974
+    "lastObserved": 1790656474
   },
   "topSongs": [
     {
@@ -332,6 +332,28 @@
       }
     },
     {
+      "artist": "Midlake",
+      "title": "Acts of Man",
+      "album": "The Courage of Others",
+      "count": 10,
+      "first": 1789056160,
+      "last": 1790656474,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Mitski",
+      "title": "My Love Mine All Mine",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 10,
+      "first": 1789130394,
+      "last": 1790656337,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Caroline Rose",
       "title": "Jeannie Becomes A Mom",
       "album": "LONER",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1789074021,
       "last": 1790648901,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
-      "title": "Not Strong Enough",
-      "album": "the record",
-      "count": 10,
-      "first": 1788986031,
-      "last": 1790648455,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "show me a sign",
-      "album": "THE FUTURE IS DARK",
-      "count": 10,
-      "first": 1788975770,
-      "last": 1790647754,
       "playlists": {
         "1default": 10
       }
@@ -1350,10 +1350,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 86,
+      "count": 87,
       "first": 1788920128,
-      "last": 1790625964,
+      "last": 1790656337,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "My Love Mine All Mine",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 10,
+          "first": 1789130394,
+          "last": 1790656337,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Should've Been Me",
@@ -1374,17 +1385,6 @@
           "last": 1790623785,
           "playlists": {
             "1default": 10
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "My Love Mine All Mine",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 9,
-          "first": 1789130394,
-          "last": 1790519736,
-          "playlists": {
-            "1default": 9
           }
         },
         {
@@ -5406,19 +5406,19 @@
     {
       "artist": "Mitski",
       "album": "The Land Is Inhospitable and So Are We",
-      "count": 31,
+      "count": 32,
       "first": 1789102597,
-      "last": 1790519736,
+      "last": 1790656337,
       "songs": [
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
           "album": "The Land Is Inhospitable and So Are We",
-          "count": 9,
+          "count": 10,
           "first": 1789130394,
-          "last": 1790519736,
+          "last": 1790656337,
           "playlists": {
-            "1default": 9
+            "1default": 10
           }
         },
         {
@@ -7248,9 +7248,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3598,
+      "count": 3600,
       "first": 1788901564,
-      "last": 1790655974,
+      "last": 1790656474,
       "songs": [
         {
           "artist": "Tele Novella",
