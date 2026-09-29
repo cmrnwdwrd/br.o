@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T16:32:05.955863+00:00",
+  "updatedAt": "2026-09-29T16:36:50.375615+00:00",
   "summary": {
-    "totalPlays": 7820,
+    "totalPlays": 7821,
     "unknownPlays": 942,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790699381
+    "lastObserved": 1790699574
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "takeadrag",
+      "album": "pear",
+      "count": 10,
+      "first": 1788963025,
+      "last": 1790699574,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Mat Kerekes",
       "title": "Diamonds",
       "album": "Ruby",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1789056787,
       "last": 1790693505,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Men At Work",
-      "title": "Who Can It Be Now?",
-      "album": "Business As Usual",
-      "count": 10,
-      "first": 1789061920,
-      "last": 1790693253,
       "playlists": {
         "1default": 10
       }
@@ -2615,6 +2615,58 @@
       ]
     },
     {
+      "artist": "botch",
+      "count": 38,
+      "first": 1788920755,
+      "last": 1790699574,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 10,
+          "first": 1788963025,
+          "last": 1790699574,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 10,
+          "first": 1788972349,
+          "last": 1790645170,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 9,
+          "first": 1788997306,
+          "last": 1790571081,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 9,
+          "first": 1788920755,
+          "last": 1790449151,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "count": 38,
       "first": 1788917492,
@@ -2753,58 +2805,6 @@
           "count": 9,
           "first": 1788917845,
           "last": 1790541869,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "count": 37,
-      "first": 1788920755,
-      "last": 1790645170,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 10,
-          "first": 1788972349,
-          "last": 1790645170,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 9,
-          "first": 1788963025,
-          "last": 1790604456,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 9,
-          "first": 1788997306,
-          "last": 1790571081,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 9,
-          "first": 1788920755,
-          "last": 1790449151,
           "playlists": {
             "1default": 9
           }
@@ -6368,6 +6368,37 @@
     },
     {
       "artist": "botch",
+      "album": "pear",
+      "count": 19,
+      "first": 1788920755,
+      "last": 1790699574,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 10,
+          "first": 1788963025,
+          "last": 1790699574,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 9,
+          "first": 1788920755,
+          "last": 1790449151,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
+      "artist": "botch",
       "album": "a machine as big as a city with a concert at the center",
       "count": 19,
       "first": 1788972349,
@@ -6506,37 +6537,6 @@
           "last": 1790498886,
           "playlists": {
             "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 18,
-      "first": 1788920755,
-      "last": 1790604456,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 9,
-          "first": 1788963025,
-          "last": 1790604456,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 9,
-          "first": 1788920755,
-          "last": 1790449151,
-          "playlists": {
-            "1default": 9
           }
         }
       ]
@@ -7259,9 +7259,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3652,
+      "count": 3653,
       "first": 1788901564,
-      "last": 1790699381,
+      "last": 1790699574,
       "songs": [
         {
           "artist": "Tele Novella",
