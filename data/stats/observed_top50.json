@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T21:46:48.602837+00:00",
+  "updatedAt": "2026-09-29T21:51:59.158633+00:00",
   "summary": {
-    "totalPlays": 7903,
+    "totalPlays": 7905,
     "unknownPlays": 952,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790718264
+    "lastObserved": 1790718606
   },
   "topSongs": [
     {
@@ -178,6 +178,17 @@
       }
     },
     {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 13,
+      "first": 1788989320,
+      "last": 1790718424,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Daffo",
       "title": "Good God",
       "album": "Good God (Porches Remix)",
@@ -250,17 +261,6 @@
       "count": 12,
       "first": 1788985233,
       "last": 1790613917,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Traveling",
-      "album": "Young & Old",
-      "count": 12,
-      "first": 1788989320,
-      "last": 1790472223,
       "playlists": {
         "1default": 12
       }
@@ -373,6 +373,17 @@
       "last": 1790441778,
       "playlists": {
         "1default": 11
+      }
+    },
+    {
+      "artist": "Your Smith",
+      "title": "Debbie",
+      "album": "Bad Habit",
+      "count": 10,
+      "first": 1788947368,
+      "last": 1790718606,
+      "playlists": {
+        "1default": 10
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788974227,
       "last": 1790713713,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "underthebasement",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 10,
-      "first": 1788997306,
-      "last": 1790713480,
       "playlists": {
         "1default": 10
       }
@@ -2864,72 +2864,20 @@
       ]
     },
     {
-      "artist": "The Cranberries",
-      "count": 33,
-      "first": 1788916461,
-      "last": 1790712745,
-      "songs": [
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 10,
-          "first": 1788916461,
-          "last": 1790712745,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 10,
-          "first": 1789060180,
-          "last": 1790653551,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 9,
-          "first": 1789087662,
-          "last": 1790644893,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Dreams",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 4,
-          "first": 1789174476,
-          "last": 1790389664,
-          "playlists": {
-            "d i n n e r": 4
-          }
-        }
-      ]
-    },
-    {
       "artist": "Tennis",
-      "count": 32,
+      "count": 33,
       "first": 1788989320,
-      "last": 1790717605,
+      "last": 1790718424,
       "songs": [
         {
           "artist": "Tennis",
           "title": "Traveling",
           "album": "Young & Old",
-          "count": 12,
+          "count": 13,
           "first": 1788989320,
-          "last": 1790472223,
+          "last": 1790718424,
           "playlists": {
-            "1default": 12
+            "1default": 13
           }
         },
         {
@@ -2985,6 +2933,58 @@
           "last": 1790459138,
           "playlists": {
             "landlockd surfrock": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "The Cranberries",
+      "count": 33,
+      "first": 1788916461,
+      "last": 1790712745,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 10,
+          "first": 1788916461,
+          "last": 1790712745,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 10,
+          "first": 1789060180,
+          "last": 1790653551,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 9,
+          "first": 1789087662,
+          "last": 1790644893,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Dreams",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 4,
+          "first": 1789174476,
+          "last": 1790389664,
+          "playlists": {
+            "d i n n e r": 4
           }
         }
       ]
@@ -3269,6 +3269,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 28,
+      "first": 1788947368,
+      "last": 1790718606,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 10,
+          "first": 1788947368,
+          "last": 1790718606,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 10,
+          "first": 1788969485,
+          "last": 1790713896,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 8,
+          "first": 1789086174,
+          "last": 1790427490,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 28,
       "first": 1788975620,
@@ -3439,47 +3480,6 @@
           "last": 1790627998,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 27,
-      "first": 1788947368,
-      "last": 1790713896,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 10,
-          "first": 1788969485,
-          "last": 1790713896,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 9,
-          "first": 1788947368,
-          "last": 1790473161,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 8,
-          "first": 1789086174,
-          "last": 1790427490,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -5499,6 +5499,48 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "album": "Bad Habit",
+      "count": 28,
+      "first": 1788947368,
+      "last": 1790718606,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 10,
+          "first": 1788947368,
+          "last": 1790718606,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 10,
+          "first": 1788969485,
+          "last": 1790713896,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 8,
+          "first": 1789086174,
+          "last": 1790427490,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "album": "Jaguar Stevens",
       "count": 28,
@@ -5536,48 +5578,6 @@
           "last": 1790625690,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "album": "Bad Habit",
-      "count": 27,
-      "first": 1788947368,
-      "last": 1790713896,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 10,
-          "first": 1788969485,
-          "last": 1790713896,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 9,
-          "first": 1788947368,
-          "last": 1790473161,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 8,
-          "first": 1789086174,
-          "last": 1790427490,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -7270,9 +7270,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3735,
+      "count": 3737,
       "first": 1788901564,
-      "last": 1790718264,
+      "last": 1790718606,
       "songs": [
         {
           "artist": "Tele Novella",
