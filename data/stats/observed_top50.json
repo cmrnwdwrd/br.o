@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T00:12:00.899294+00:00",
+  "updatedAt": "2026-09-29T00:16:59.788137+00:00",
   "summary": {
-    "totalPlays": 7541,
+    "totalPlays": 7542,
     "unknownPlays": 908,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790640675
+    "lastObserved": 1790640870
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 10,
+      "first": 1788965930,
+      "last": 1790640870,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Masta Ace",
       "title": "Son of Yvonne",
       "album": "MA_DOOM: Son of Yvonne",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788967854,
       "last": 1790628392,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Lucius",
-      "title": "Old Tape (feat. Adam Granduciel) - Single Edit",
-      "album": "Old Tape (feat. Adam Granduciel)",
-      "count": 10,
-      "first": 1788912648,
-      "last": 1790628179,
       "playlists": {
         "1default": 10
       }
@@ -3269,6 +3269,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 27,
+      "first": 1788965930,
+      "last": 1790640870,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 10,
+          "first": 1788965930,
+          "last": 1790640870,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 9,
+          "first": 1789068640,
+          "last": 1790627998,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 8,
+          "first": 1789215234,
+          "last": 1790559320,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 27,
       "first": 1788973998,
@@ -3303,47 +3344,6 @@
           "count": 8,
           "first": 1789226629,
           "last": 1790443657,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 26,
-      "first": 1788965930,
-      "last": 1790627998,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 9,
-          "first": 1789068640,
-          "last": 1790627998,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 9,
-          "first": 1788965930,
-          "last": 1790550444,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 8,
-          "first": 1789215234,
-          "last": 1790559320,
           "playlists": {
             "1default": 8
           }
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3528,
+      "count": 3529,
       "first": 1788901564,
-      "last": 1790640675,
+      "last": 1790640870,
       "songs": [
         {
           "artist": "Tele Novella",
