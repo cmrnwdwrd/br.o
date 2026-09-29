@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T16:06:57.046107+00:00",
+  "updatedAt": "2026-09-29T16:11:55.909787+00:00",
   "summary": {
-    "totalPlays": 7813,
+    "totalPlays": 7815,
     "unknownPlays": 941,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790697764
+    "lastObserved": 1790698255
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "Cage The Elephant",
+      "title": "Social Cues",
+      "album": "Social Cues",
+      "count": 10,
+      "first": 1788990244,
+      "last": 1790698255,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "LCD Soundsystem",
       "title": "All My Friends",
       "album": "Sound of Silver",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788964915,
       "last": 1790691685,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 10,
-      "first": 1788903565,
-      "last": 1790691329,
       "playlists": {
         "1default": 10
       }
@@ -3485,6 +3485,47 @@
       ]
     },
     {
+      "artist": "Cage The Elephant",
+      "count": 25,
+      "first": 1788928254,
+      "last": 1790698255,
+      "songs": [
+        {
+          "artist": "Cage The Elephant",
+          "title": "Social Cues",
+          "album": "Social Cues",
+          "count": 10,
+          "first": 1788990244,
+          "last": 1790698255,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Cage The Elephant",
+          "title": "Skin and Bones - Mix 2020",
+          "album": "Skin and Bones",
+          "count": 9,
+          "first": 1788928254,
+          "last": 1790566302,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Cage The Elephant",
+          "title": "Cigarette Daydreams",
+          "album": "Melophobia",
+          "count": 6,
+          "first": 1788956946,
+          "last": 1790388617,
+          "playlists": {
+            "d i n n e r": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ramones",
       "count": 25,
       "first": 1788968644,
@@ -3551,47 +3592,6 @@
           "last": 1790326423,
           "playlists": {
             "breakbeat": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Cage The Elephant",
-      "count": 24,
-      "first": 1788928254,
-      "last": 1790566302,
-      "songs": [
-        {
-          "artist": "Cage The Elephant",
-          "title": "Skin and Bones - Mix 2020",
-          "album": "Skin and Bones",
-          "count": 9,
-          "first": 1788928254,
-          "last": 1790566302,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Social Cues",
-          "album": "Social Cues",
-          "count": 9,
-          "first": 1788990244,
-          "last": 1790441560,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Cigarette Daydreams",
-          "album": "Melophobia",
-          "count": 6,
-          "first": 1788956946,
-          "last": 1790388617,
-          "playlists": {
-            "d i n n e r": 6
           }
         }
       ]
@@ -7259,9 +7259,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3645,
+      "count": 3647,
       "first": 1788901564,
-      "last": 1790697764,
+      "last": 1790698255,
       "songs": [
         {
           "artist": "Tele Novella",
