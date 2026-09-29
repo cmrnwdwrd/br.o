@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T23:26:56.930013+00:00",
+  "updatedAt": "2026-09-29T23:31:41.952178+00:00",
   "summary": {
-    "totalPlays": 7931,
+    "totalPlays": 7933,
     "unknownPlays": 955,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790724280
+    "lastObserved": 1790724689
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "Sugarloaf",
+      "title": "West Of Tomorrow",
+      "album": "Sugarloaf",
+      "count": 10,
+      "first": 1788968800,
+      "last": 1790724689,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Jethro Tull",
       "title": "Nothing Is Easy",
       "album": "Stand Up",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1789049221,
       "last": 1790714146,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Your Smith",
-      "title": "Ooh Wee",
-      "album": "Bad Habit",
-      "count": 10,
-      "first": 1788969485,
-      "last": 1790713896,
       "playlists": {
         "1default": 10
       }
@@ -7105,9 +7105,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3748,
+      "count": 3749,
       "first": 1788901564,
-      "last": 1790724280,
+      "last": 1790724689,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -7483,10 +7483,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 199,
+      "count": 200,
       "first": 1788904845,
-      "last": 1790723785,
+      "last": 1790724472,
       "songs": [
+        {
+          "artist": "Watsky",
+          "title": "Welcome To The Family",
+          "album": "COMPLAINT",
+          "count": 7,
+          "first": 1788996244,
+          "last": 1790724472,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 7
+          }
+        },
         {
           "artist": "SZA, Phoebe Bridgers",
           "title": "Ghost in the Machine (feat. Phoebe Bridgers)",
@@ -7527,17 +7538,6 @@
           "count": 7,
           "first": 1788994150,
           "last": 1790721077,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 7
-          }
-        },
-        {
-          "artist": "Crywank",
-          "title": "I Am Shit",
-          "album": "Tomorrow Is Nearly Yesterday and Everyday Is Stupid",
-          "count": 7,
-          "first": 1788996460,
-          "last": 1790720668,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 7
           }
