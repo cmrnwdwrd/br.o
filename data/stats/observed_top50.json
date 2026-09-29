@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T12:41:44.356810+00:00",
+  "updatedAt": "2026-09-29T12:47:01.597299+00:00",
   "summary": {
-    "totalPlays": 7759,
+    "totalPlays": 7760,
     "unknownPlays": 935,
     "uniqueTracks": 2137,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1761,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790685437
+    "lastObserved": 1790685905
   },
   "topSongs": [
     {
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 348,
+      "count": 349,
       "first": 1788955289,
-      "last": 1790685437,
+      "last": 1790685905,
       "songs": [
+        {
+          "artist": "Rainbow Kitten Surprise",
+          "title": "Bare Bones",
+          "album": "RKS",
+          "count": 2,
+          "first": 1789996211,
+          "last": 1790685905,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Bethel Music, Cory Asbury, Gable Price",
           "title": "Homecoming - Live",
@@ -7492,17 +7503,6 @@
           "count": 2,
           "first": 1790166574,
           "last": 1790684305,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Hollow Coves",
-          "title": "The Woods - Acoustic",
-          "album": "The Woods (Acoustic)",
-          "count": 2,
-          "first": 1789390712,
-          "last": 1790684065,
           "playlists": {
             "carhartts": 2
           }
