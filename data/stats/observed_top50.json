@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T01:51:51.259037+00:00",
+  "updatedAt": "2026-09-29T01:56:54.979843+00:00",
   "summary": {
-    "totalPlays": 7568,
+    "totalPlays": 7570,
     "unknownPlays": 912,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790646529
+    "lastObserved": 1790646990
   },
   "topSongs": [
     {
@@ -321,6 +321,28 @@
       }
     },
     {
+      "artist": "Kate Bollinger",
+      "title": "Talk About It",
+      "album": "Talk About It (B-Side)",
+      "count": 10,
+      "first": 1788983449,
+      "last": 1790646990,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 10,
+      "first": 1789235365,
+      "last": 1790646750,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Hope Tala",
       "title": "Blue",
       "album": "Blue",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1788974590,
       "last": 1790639360,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Lorde",
-      "title": "Ribs",
-      "album": "Pure Heroine",
-      "count": 10,
-      "first": 1789222724,
-      "last": 1790638897,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Saint Motel",
-      "title": "My Type",
-      "album": "My Type EP",
-      "count": 10,
-      "first": 1789032860,
-      "last": 1790632570,
       "playlists": {
         "1default": 10
       }
@@ -4178,6 +4178,36 @@
       ]
     },
     {
+      "artist": "Kate Bollinger",
+      "count": 20,
+      "first": 1788915657,
+      "last": 1790646990,
+      "songs": [
+        {
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 10,
+          "first": 1788983449,
+          "last": 1790646990,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 10,
+          "first": 1788915657,
+          "last": 1790631448,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 20,
       "first": 1789061029,
@@ -4413,6 +4443,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 19,
+      "first": 1789069956,
+      "last": 1790646750,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 10,
+          "first": 1789235365,
+          "last": 1790646750,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 9,
+          "first": 1789069956,
+          "last": 1790621911,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 19,
       "first": 1788986484,
@@ -4600,36 +4660,6 @@
       ]
     },
     {
-      "artist": "Kate Bollinger",
-      "count": 19,
-      "first": 1788915657,
-      "last": 1790631448,
-      "songs": [
-        {
-          "artist": "Kate Bollinger",
-          "title": "A Couple Things",
-          "album": "A word becomes a sound",
-          "count": 10,
-          "first": 1788915657,
-          "last": 1790631448,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Kate Bollinger",
-          "title": "Talk About It",
-          "album": "Talk About It (B-Side)",
-          "count": 9,
-          "first": 1788983449,
-          "last": 1790424885,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
       "artist": "Courtney Barnett",
       "count": 18,
       "first": 1788913469,
@@ -4653,36 +4683,6 @@
           "count": 8,
           "first": 1789215507,
           "last": 1790430114,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 18,
-      "first": 1788989714,
-      "last": 1790642020,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 10,
-          "first": 1788989714,
-          "last": 1790642020,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 8,
-          "first": 1789169386,
-          "last": 1790445623,
           "playlists": {
             "1default": 8
           }
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3555,
+      "count": 3557,
       "first": 1788901564,
-      "last": 1790646529,
+      "last": 1790646990,
       "songs": [
         {
           "artist": "Tele Novella",
