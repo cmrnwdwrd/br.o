@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T04:21:54.681900+00:00",
+  "updatedAt": "2026-09-29T04:26:42.148547+00:00",
   "summary": {
-    "totalPlays": 7609,
+    "totalPlays": 7611,
     "unknownPlays": 916,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790655535
+    "lastObserved": 1790655974
   },
   "topSongs": [
     {
@@ -332,6 +332,28 @@
       }
     },
     {
+      "artist": "Caroline Rose",
+      "title": "Jeannie Becomes A Mom",
+      "album": "LONER",
+      "count": 10,
+      "first": 1788966700,
+      "last": 1790655974,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "The Czars",
+      "title": "Paint the Moon",
+      "album": "Best Of",
+      "count": 10,
+      "first": 1789015116,
+      "last": 1790655722,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Blue Rain Boots",
       "title": "Oh My God You Are Fine",
       "album": "Oh My God You Are Fine",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1788975770,
       "last": 1790647754,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Franz Schubert, Clara Rockmore, Nadia Reisenberg",
-      "title": "Ave Maria, Op. 52 No. 6, D. 839 (Arr. for Theremin & Piano)",
-      "album": "Dvořák, Ravel, Gershwin & Others: Chamber Works",
-      "count": 10,
-      "first": 1789064997,
-      "last": 1790647459,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Mk.gee",
-      "title": "Are You Looking Up",
-      "album": "Two Star & The Dream Police",
-      "count": 10,
-      "first": 1788915308,
-      "last": 1790647121,
       "playlists": {
         "1default": 10
       }
@@ -2086,10 +2086,21 @@
     },
     {
       "artist": "The Czars",
-      "count": 52,
+      "count": 53,
       "first": 1788963949,
-      "last": 1790651726,
+      "last": 1790655722,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 10,
+          "first": 1789015116,
+          "last": 1790655722,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Drug",
@@ -2108,17 +2119,6 @@
           "count": 9,
           "first": 1789218669,
           "last": 1790619226,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 9,
-          "first": 1789015116,
-          "last": 1790555698,
           "playlists": {
             "1default": 9
           }
@@ -4758,10 +4758,21 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 52,
+      "count": 53,
       "first": 1788963949,
-      "last": 1790651726,
+      "last": 1790655722,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 10,
+          "first": 1789015116,
+          "last": 1790655722,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Drug",
@@ -4780,17 +4791,6 @@
           "count": 9,
           "first": 1789218669,
           "last": 1790619226,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 9,
-          "first": 1789015116,
-          "last": 1790555698,
           "playlists": {
             "1default": 9
           }
@@ -7248,9 +7248,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3596,
+      "count": 3598,
       "first": 1788901564,
-      "last": 1790655535,
+      "last": 1790655974,
       "songs": [
         {
           "artist": "Tele Novella",
