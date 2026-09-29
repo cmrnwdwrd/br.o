@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-29T00:16:59.788137+00:00",
+  "updatedAt": "2026-09-29T00:21:50.833660+00:00",
   "summary": {
-    "totalPlays": 7542,
+    "totalPlays": 7543,
     "unknownPlays": 908,
     "uniqueTracks": 2135,
     "uniqueArtists": 1379,
     "uniqueAlbums": 1759,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790640870
+    "lastObserved": 1790641110
   },
   "topSongs": [
     {
@@ -4301,6 +4301,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 19,
+      "first": 1788912385,
+      "last": 1790641110,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 10,
+          "first": 1788912385,
+          "last": 1790631183,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 9,
+          "first": 1789129746,
+          "last": 1790641110,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 19,
       "first": 1788947810,
@@ -4468,36 +4498,6 @@
           "last": 1790587571,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "David Bowie",
-      "count": 18,
-      "first": 1788912385,
-      "last": 1790631183,
-      "songs": [
-        {
-          "artist": "David Bowie",
-          "title": "I'm Afraid of Americans (V1)",
-          "album": "Legacy (Deluxe Edition)",
-          "count": 10,
-          "first": 1788912385,
-          "last": 1790631183,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "David Bowie",
-          "title": "Rebel Rebel - 2016 Remaster",
-          "album": "Diamond Dogs (2016 Remaster)",
-          "count": 8,
-          "first": 1789129746,
-          "last": 1790561384,
-          "playlists": {
-            "1default": 8
           }
         }
       ]
@@ -7334,9 +7334,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3529,
+      "count": 3530,
       "first": 1788901564,
-      "last": 1790640870,
+      "last": 1790641110,
       "songs": [
         {
           "artist": "Tele Novella",
