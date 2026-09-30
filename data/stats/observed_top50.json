@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T03:36:49.052617+00:00",
+  "updatedAt": "2026-09-30T03:41:45.860684+00:00",
   "summary": {
-    "totalPlays": 7997,
-    "unknownPlays": 963,
+    "totalPlays": 7999,
+    "unknownPlays": 964,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790739355
+    "lastObserved": 1790739700
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "Crumb",
+      "title": "Locket",
+      "album": "Locket",
+      "count": 11,
+      "first": 1788983912,
+      "last": 1790739700,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
+      "artist": "Grace Ives",
+      "title": "Mirror",
+      "album": "2nd",
+      "count": 11,
+      "first": 1788972624,
+      "last": 1790739580,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "You Make Me Want to Kill Myself",
       "album": "You Make Me Want to Kill Myself",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1789049117,
       "last": 1790735315,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Dreamer Isioma",
-      "title": "Sensitive",
-      "album": "Sensitive",
-      "count": 10,
-      "first": 1789057751,
-      "last": 1790735141,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "gavn!",
-      "title": "Poseidon",
-      "album": "Poseidon",
-      "count": 10,
-      "first": 1788910937,
-      "last": 1790734556,
       "playlists": {
         "1default": 10
       }
@@ -4342,6 +4342,36 @@
       ]
     },
     {
+      "artist": "Crumb",
+      "count": 20,
+      "first": 1788983912,
+      "last": 1790739700,
+      "songs": [
+        {
+          "artist": "Crumb",
+          "title": "Locket",
+          "album": "Locket",
+          "count": 11,
+          "first": 1788983912,
+          "last": 1790739700,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Crumb",
+          "title": "Ghostride",
+          "album": "Jinx",
+          "count": 9,
+          "first": 1789219993,
+          "last": 1790712575,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 20,
       "first": 1788972865,
@@ -4567,36 +4597,6 @@
           "count": 10,
           "first": 1788966960,
           "last": 1790652336,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kate Bollinger",
-      "count": 20,
-      "first": 1788915657,
-      "last": 1790646990,
-      "songs": [
-        {
-          "artist": "Kate Bollinger",
-          "title": "Talk About It",
-          "album": "Talk About It (B-Side)",
-          "count": 10,
-          "first": 1788983449,
-          "last": 1790646990,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Kate Bollinger",
-          "title": "A Couple Things",
-          "album": "A word becomes a sound",
-          "count": 10,
-          "first": 1788915657,
-          "last": 1790631448,
           "playlists": {
             "1default": 10
           }
@@ -7083,9 +7083,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3813,
+      "count": 3815,
       "first": 1788901564,
-      "last": 1790739355,
+      "last": 1790739700,
       "songs": [
         {
           "artist": "Modest Mouse",
