@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T13:06:55.085387+00:00",
+  "updatedAt": "2026-09-30T13:11:39.616651+00:00",
   "summary": {
-    "totalPlays": 8162,
+    "totalPlays": 8163,
     "unknownPlays": 983,
     "uniqueTracks": 2144,
     "uniqueArtists": 1383,
     "uniqueAlbums": 1766,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790773472
+    "lastObserved": 1790773679
   },
   "topSongs": [
     {
@@ -7305,10 +7305,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 386,
+      "count": 387,
       "first": 1788955289,
-      "last": 1790773472,
+      "last": 1790773679,
       "songs": [
+        {
+          "artist": "Matt Corby",
+          "title": "Souls A'Fire",
+          "album": "Into The Flame",
+          "count": 2,
+          "first": 1789998037,
+          "last": 1790773679,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Mt. Joy",
           "title": "Julia",
@@ -7349,17 +7360,6 @@
           "count": 2,
           "first": 1788958139,
           "last": 1790772508,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "ROLE MODEL",
-          "title": "notice me - acoustic",
-          "album": "notice me (acoustic)",
-          "count": 2,
-          "first": 1789565780,
-          "last": 1790772029,
           "playlists": {
             "carhartts": 2
           }
