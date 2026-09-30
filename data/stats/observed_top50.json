@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T03:51:55.135740+00:00",
+  "updatedAt": "2026-09-30T03:56:55.124071+00:00",
   "summary": {
-    "totalPlays": 8001,
+    "totalPlays": 8003,
     "unknownPlays": 964,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790740202
+    "lastObserved": 1790740567
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
+      "title": "Leave The Door Open",
+      "album": "Leave The Door Open",
+      "count": 11,
+      "first": 1789056336,
+      "last": 1790740567,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
+      "artist": "Yumi Zouma",
+      "title": "Right Track / Wrong Man",
+      "album": "Truth or Consequences",
+      "count": 11,
+      "first": 1789057143,
+      "last": 1790740392,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Chance the Rapper, Childish Gambino",
       "title": "Favorite Song",
       "album": "Acid Rap",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1789066342,
       "last": 1790737166,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "What's for Dinner????",
-      "album": "Dead",
-      "count": 10,
-      "first": 1788917492,
-      "last": 1790736587,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Wolfmother",
-      "title": "Woman",
-      "album": "Wolfmother",
-      "count": 10,
-      "first": 1788916127,
-      "last": 1790736370,
       "playlists": {
         "1default": 10
       }
@@ -4016,6 +4016,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 21,
+      "first": 1789054681,
+      "last": 1790740392,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 11,
+          "first": 1789057143,
+          "last": 1790740392,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 10,
+          "first": 1789054681,
+          "last": 1790706826,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 21,
       "first": 1788914032,
@@ -4408,36 +4438,6 @@
           "last": 1790484376,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 20,
-      "first": 1789054681,
-      "last": 1790735560,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 10,
-          "first": 1789057143,
-          "last": 1790735560,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 10,
-          "first": 1789054681,
-          "last": 1790706826,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7083,9 +7083,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3817,
+      "count": 3819,
       "first": 1788901564,
-      "last": 1790740202,
+      "last": 1790740567,
       "songs": [
         {
           "artist": "Modest Mouse",
