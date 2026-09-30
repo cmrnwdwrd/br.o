@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T16:56:56.273321+00:00",
+  "updatedAt": "2026-09-30T17:02:04.470319+00:00",
   "summary": {
-    "totalPlays": 8225,
-    "unknownPlays": 990,
+    "totalPlays": 8227,
+    "unknownPlays": 991,
     "uniqueTracks": 2148,
     "uniqueArtists": 1385,
     "uniqueAlbums": 1768,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790787415
+    "lastObserved": 1790787616
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "Alvvays",
+      "title": "Adult Diversion",
+      "album": "Alvvays",
+      "count": 11,
+      "first": 1789050335,
+      "last": 1790787616,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
+      "artist": "David Bowie",
+      "title": "I'm Afraid of Americans (V1)",
+      "album": "Legacy (Deluxe Edition)",
+      "count": 11,
+      "first": 1788912385,
+      "last": 1790787149,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Bahamas",
       "title": "Own Alone",
       "album": "Sad Hunk",
@@ -536,28 +558,6 @@
       "count": 11,
       "first": 1788927573,
       "last": 1790780988,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Saint Motel",
-      "title": "My Type",
-      "album": "My Type EP",
-      "count": 11,
-      "first": 1789032860,
-      "last": 1790780785,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "N.E.R.D",
-      "title": "Run To The Sun",
-      "album": "In Search Of...",
-      "count": 11,
-      "first": 1788901564,
-      "last": 1790780492,
       "playlists": {
         "1default": 11
       }
@@ -4503,6 +4503,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 20,
+      "first": 1788912385,
+      "last": 1790787149,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 11,
+          "first": 1788912385,
+          "last": 1790787149,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 9,
+          "first": 1789129746,
+          "last": 1790641110,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 20,
       "first": 1788986484,
@@ -4569,36 +4599,6 @@
           "last": 1790466363,
           "playlists": {
             "texting your situationship": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "count": 20,
-      "first": 1789166634,
-      "last": 1790779482,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 10,
-          "first": 1789166634,
-          "last": 1790779482,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 10,
-          "first": 1789167660,
-          "last": 1790740985,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7127,9 +7127,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3892,
+      "count": 3894,
       "first": 1788901564,
-      "last": 1790787415,
+      "last": 1790787616,
       "songs": [
         {
           "artist": "Tele Novella",
