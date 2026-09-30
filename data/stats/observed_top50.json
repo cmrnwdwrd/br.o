@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T21:32:07.168509+00:00",
+  "updatedAt": "2026-09-30T21:37:02.866408+00:00",
   "summary": {
-    "totalPlays": 8298,
+    "totalPlays": 8300,
     "unknownPlays": 1000,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790803713
+    "lastObserved": 1790804151
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "Vampire Weekend",
+      "title": "How Long?",
+      "album": "Father of the Bride",
+      "count": 11,
+      "first": 1788990464,
+      "last": 1790804151,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
+      "artist": "Courtney Barnett",
+      "title": "Write A List of Things To Look Forward To",
+      "album": "Things Take Time, Take Time",
+      "count": 11,
+      "first": 1788913469,
+      "last": 1790803982,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Medium Troy",
       "title": "Space Tree",
       "album": "Space Tree",
@@ -536,28 +558,6 @@
       "count": 11,
       "first": 1788974590,
       "last": 1790786751,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Finger Eleven",
-      "title": "Paralyzer",
-      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-      "count": 11,
-      "first": 1789049428,
-      "last": 1790786215,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "title": "Texas Sun",
-      "album": "Texas Sun",
-      "count": 11,
-      "first": 1788986484,
-      "last": 1790785960,
       "playlists": {
         "1default": 11
       }
@@ -4147,6 +4147,77 @@
       ]
     },
     {
+      "artist": "Vampire Weekend",
+      "count": 21,
+      "first": 1788990464,
+      "last": 1790804151,
+      "songs": [
+        {
+          "artist": "Vampire Weekend",
+          "title": "How Long?",
+          "album": "Father of the Bride",
+          "count": 11,
+          "first": 1788990464,
+          "last": 1790804151,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Harmony Hall",
+          "album": "Father of the Bride",
+          "count": 9,
+          "first": 1789108965,
+          "last": 1790652469,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Campus",
+          "album": "Vampire Weekend",
+          "count": 1,
+          "first": 1789762855,
+          "last": 1789762855,
+          "playlists": {
+            "escaping from cu boulder by giselle": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Courtney Barnett",
+      "count": 21,
+      "first": 1788913469,
+      "last": 1790803982,
+      "songs": [
+        {
+          "artist": "Courtney Barnett",
+          "title": "Write A List of Things To Look Forward To",
+          "album": "Things Take Time, Take Time",
+          "count": 11,
+          "first": 1788913469,
+          "last": 1790803982,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Courtney Barnett",
+          "title": "Pedestrian at Best",
+          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
+          "count": 10,
+          "first": 1789215507,
+          "last": 1790789413,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 21,
       "first": 1788921291,
@@ -4528,66 +4599,6 @@
           "last": 1790400474,
           "playlists": {
             "for the girls driving 85": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Courtney Barnett",
-      "count": 20,
-      "first": 1788913469,
-      "last": 1790789413,
-      "songs": [
-        {
-          "artist": "Courtney Barnett",
-          "title": "Pedestrian at Best",
-          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
-          "count": 10,
-          "first": 1789215507,
-          "last": 1790789413,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Courtney Barnett",
-          "title": "Write A List of Things To Look Forward To",
-          "album": "Things Take Time, Take Time",
-          "count": 10,
-          "first": 1788913469,
-          "last": 1790642994,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Harper Powell",
-      "count": 20,
-      "first": 1788947970,
-      "last": 1790787817,
-      "songs": [
-        {
-          "artist": "Harper Powell",
-          "title": "Time Is Empty",
-          "album": "Time Is Empty",
-          "count": 10,
-          "first": 1789077114,
-          "last": 1790787817,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Harper Powell",
-          "title": "It's the Full Moon",
-          "album": "It's the Full Moon",
-          "count": 10,
-          "first": 1788947970,
-          "last": 1790725685,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -6283,6 +6294,37 @@
       ]
     },
     {
+      "artist": "Vampire Weekend",
+      "album": "Father of the Bride",
+      "count": 20,
+      "first": 1788990464,
+      "last": 1790804151,
+      "songs": [
+        {
+          "artist": "Vampire Weekend",
+          "title": "How Long?",
+          "album": "Father of the Bride",
+          "count": 11,
+          "first": 1788990464,
+          "last": 1790804151,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Harmony Hall",
+          "album": "Father of the Bride",
+          "count": 9,
+          "first": 1789108965,
+          "last": 1790652469,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Juno Rossa",
       "album": "Chasing Animals",
       "count": 20,
@@ -6688,37 +6730,6 @@
       ]
     },
     {
-      "artist": "Vampire Weekend",
-      "album": "Father of the Bride",
-      "count": 19,
-      "first": 1788990464,
-      "last": 1790733504,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 10,
-          "first": 1788990464,
-          "last": 1790733504,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 9,
-          "first": 1789108965,
-          "last": 1790652469,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
       "count": 19,
@@ -7116,9 +7127,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3932,
+      "count": 3934,
       "first": 1788901564,
-      "last": 1790803713,
+      "last": 1790804151,
       "songs": [
         {
           "artist": "Tele Novella",
