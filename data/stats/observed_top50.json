@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T21:27:07.633305+00:00",
+  "updatedAt": "2026-09-30T21:32:07.168509+00:00",
   "summary": {
-    "totalPlays": 8297,
-    "unknownPlays": 999,
+    "totalPlays": 8298,
+    "unknownPlays": 1000,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790803459
+    "lastObserved": 1790803713
   },
   "topSongs": [
     {
@@ -178,6 +178,17 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 13,
+      "first": 1789063640,
+      "last": 1790803713,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Nat & Alex Wolff",
       "title": "Rollin' Around",
       "album": "Public Places",
@@ -241,17 +252,6 @@
       "last": 1790619040,
       "playlists": {
         "1default": 13
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 12,
-      "first": 1789063640,
-      "last": 1790736159,
-      "playlists": {
-        "1default": 12
       }
     },
     {
@@ -3712,6 +3712,36 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 23,
+      "first": 1788973386,
+      "last": 1790803713,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 13,
+          "first": 1789063640,
+          "last": 1790803713,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 10,
+          "first": 1788973386,
+          "last": 1790717449,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 23,
       "first": 1788919285,
@@ -3920,36 +3950,6 @@
           "last": 1790488034,
           "playlists": {
             "sad girl no friends saturday": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 22,
-      "first": 1788973386,
-      "last": 1790736159,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 12,
-          "first": 1789063640,
-          "last": 1790736159,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 10,
-          "first": 1788973386,
-          "last": 1790717449,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7116,9 +7116,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3931,
+      "count": 3932,
       "first": 1788901564,
-      "last": 1790803459,
+      "last": 1790803713,
       "songs": [
         {
           "artist": "Tele Novella",
