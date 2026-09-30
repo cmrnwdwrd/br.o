@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T09:41:58.398391+00:00",
+  "updatedAt": "2026-09-30T09:46:49.918661+00:00",
   "summary": {
-    "totalPlays": 8107,
+    "totalPlays": 8109,
     "unknownPlays": 977,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790761139
+    "lastObserved": 1790761598
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1790660845,
       "playlists": {
         "breakbeat": 18
+      }
+    },
+    {
+      "artist": "Metric",
+      "title": "Dead Disco",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 17,
+      "first": 1788986736,
+      "last": 1790761390,
+      "playlists": {
+        "1default": 17
       }
     },
     {
@@ -107,17 +118,6 @@
       "count": 16,
       "first": 1789034170,
       "last": 1790720324,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Metric",
-      "title": "Dead Disco",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 16,
-      "first": 1788986736,
-      "last": 1790627351,
       "playlists": {
         "1default": 16
       }
@@ -285,6 +285,17 @@
       "last": 1790613917,
       "playlists": {
         "1default": 12
+      }
+    },
+    {
+      "artist": "IDNTY THFT",
+      "title": "Kleptomania",
+      "album": "Some",
+      "count": 11,
+      "first": 1788912073,
+      "last": 1790761598,
+      "playlists": {
+        "1default": 11
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788902251,
       "last": 1790734212,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Bikini Kill",
-      "title": "Rebel Girl",
-      "album": "The Punk Singer (Original Motion Picture Soundtrack)",
-      "count": 11,
-      "first": 1788916304,
-      "last": 1790729165,
       "playlists": {
         "1default": 11
       }
@@ -3794,6 +3794,36 @@
       ]
     },
     {
+      "artist": "Metric",
+      "count": 22,
+      "first": 1788986736,
+      "last": 1790761390,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 17,
+          "first": 1788986736,
+          "last": 1790761390,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 5,
+          "first": 1789258725,
+          "last": 1790488034,
+          "playlists": {
+            "sad girl no friends saturday": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mallory Graham",
       "count": 22,
       "first": 1788973386,
@@ -4153,36 +4183,6 @@
           "last": 1789893243,
           "playlists": {
             "christmas rn": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "count": 21,
-      "first": 1788986736,
-      "last": 1790627351,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 16,
-          "first": 1788986736,
-          "last": 1790627351,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 5,
-          "first": 1789258725,
-          "last": 1790488034,
-          "playlists": {
-            "sad girl no friends saturday": 5
           }
         }
       ]
@@ -5985,6 +5985,37 @@
       ]
     },
     {
+      "artist": "Metric",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 22,
+      "first": 1788986736,
+      "last": 1790761390,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 17,
+          "first": 1788986736,
+          "last": 1790761390,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 5,
+          "first": 1789258725,
+          "last": 1790488034,
+          "playlists": {
+            "sad girl no friends saturday": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "album": "Change the Channel",
       "count": 21,
@@ -6011,37 +6042,6 @@
           "last": 1790732851,
           "playlists": {
             "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 21,
-      "first": 1788986736,
-      "last": 1790627351,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 16,
-          "first": 1788986736,
-          "last": 1790627351,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 5,
-          "first": 1789258725,
-          "last": 1790488034,
-          "playlists": {
-            "sad girl no friends saturday": 5
           }
         }
       ]
@@ -7105,9 +7105,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3838,
+      "count": 3840,
       "first": 1788901564,
-      "last": 1790761139,
+      "last": 1790761598,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -7118,6 +7118,17 @@
           "last": 1790738583,
           "playlists": {
             "1default": 18
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 17,
+          "first": 1788986736,
+          "last": 1790761390,
+          "playlists": {
+            "1default": 17
           }
         },
         {
@@ -7149,17 +7160,6 @@
           "count": 16,
           "first": 1789014862,
           "last": 1790735735,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 16,
-          "first": 1788991593,
-          "last": 1790731955,
           "playlists": {
             "1default": 16
           }
