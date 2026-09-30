@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T14:26:59.266472+00:00",
+  "updatedAt": "2026-09-30T14:31:54.387849+00:00",
   "summary": {
-    "totalPlays": 8184,
+    "totalPlays": 8186,
     "unknownPlays": 986,
     "uniqueTracks": 2148,
     "uniqueArtists": 1385,
     "uniqueAlbums": 1768,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790778241
+    "lastObserved": 1790778650
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 11,
+      "first": 1788965930,
+      "last": 1790778650,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Dead Or Alive",
       "title": "You Spin Me Round (Like a Record)",
       "album": "Evolution: The Hits",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788970154,
       "last": 1790738814,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Led Zeppelin",
-      "title": "Dazed and Confused - 1990 Remaster",
-      "album": "Led Zeppelin",
-      "count": 11,
-      "first": 1789062336,
-      "last": 1790737965,
       "playlists": {
         "1default": 11
       }
@@ -3124,6 +3124,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 29,
+      "first": 1788965930,
+      "last": 1790778650,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 11,
+          "first": 1788965930,
+          "last": 1790778650,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 9,
+          "first": 1789215234,
+          "last": 1790652778,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 9,
+          "first": 1789068640,
+          "last": 1790627998,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 29,
       "first": 1789021318,
@@ -3437,47 +3478,6 @@
           "count": 9,
           "first": 1789209975,
           "last": 1790625690,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 28,
-      "first": 1788965930,
-      "last": 1790652778,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 10,
-          "first": 1788965930,
-          "last": 1790640870,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 9,
-          "first": 1789215234,
-          "last": 1790652778,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 9,
-          "first": 1789068640,
-          "last": 1790627998,
           "playlists": {
             "1default": 9
           }
@@ -6867,6 +6867,37 @@
       ]
     },
     {
+      "artist": "Rosie Tucker",
+      "album": "Sucker Supreme",
+      "count": 17,
+      "first": 1788995157,
+      "last": 1790778436,
+      "songs": [
+        {
+          "artist": "Rosie Tucker",
+          "title": "Habanero",
+          "album": "Sucker Supreme",
+          "count": 10,
+          "first": 1789214020,
+          "last": 1790778436,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Rosie Tucker",
+          "title": "For Sale: Ford Pinto",
+          "album": "Sucker Supreme",
+          "count": 7,
+          "first": 1788995157,
+          "last": 1790719938,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Destructo Disk",
       "album": "Punk Rocks For Kids Who Can't Skate",
       "count": 17,
@@ -7091,34 +7122,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "CAKE",
-      "album": "Motorcade of Generosity",
-      "count": 16,
-      "first": 1789014862,
-      "last": 1790735735,
-      "songs": [
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 16,
-          "first": 1789014862,
-          "last": 1790735735,
-          "playlists": {
-            "1default": 16
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3851,
+      "count": 3853,
       "first": 1788901564,
-      "last": 1790778241,
+      "last": 1790778650,
       "songs": [
         {
           "artist": "Modest Mouse",
