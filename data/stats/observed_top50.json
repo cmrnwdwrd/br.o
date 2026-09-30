@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T04:37:04.399953+00:00",
+  "updatedAt": "2026-09-30T04:41:45.127965+00:00",
   "summary": {
-    "totalPlays": 8014,
+    "totalPlays": 8016,
     "unknownPlays": 966,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790742909
+    "lastObserved": 1790743261
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Surfaces",
+      "title": "Heaven Falls / Fall On Me",
+      "album": "Sunday Best (Japan Exclusive)",
+      "count": 11,
+      "first": 1789048876,
+      "last": 1790743261,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Japanese Breakfast",
       "title": "Everybody Wants to Love You",
       "album": "Psychopomp",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788917230,
       "last": 1790622765,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Arlie",
-      "title": "didya think",
-      "album": "Wait",
-      "count": 11,
-      "first": 1788970349,
-      "last": 1790617649,
       "playlists": {
         "1default": 11
       }
@@ -4372,6 +4372,36 @@
       ]
     },
     {
+      "artist": "Beach Bunny",
+      "count": 20,
+      "first": 1788966457,
+      "last": 1790743040,
+      "songs": [
+        {
+          "artist": "Beach Bunny",
+          "title": "Entropy",
+          "album": "Emotional Creature",
+          "count": 10,
+          "first": 1789230720,
+          "last": 1790743040,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 10,
+          "first": 1788966457,
+          "last": 1790733320,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Crumb",
       "count": 20,
       "first": 1788983912,
@@ -4567,36 +4597,6 @@
           "count": 10,
           "first": 1788987870,
           "last": 1790695940,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 20,
-      "first": 1788912861,
-      "last": 1790700141,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 10,
-          "first": 1788912861,
-          "last": 1790700141,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 10,
-          "first": 1788966960,
-          "last": 1790652336,
           "playlists": {
             "1default": 10
           }
@@ -7083,9 +7083,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3830,
+      "count": 3832,
       "first": 1788901564,
-      "last": 1790742909,
+      "last": 1790743261,
       "songs": [
         {
           "artist": "Modest Mouse",
