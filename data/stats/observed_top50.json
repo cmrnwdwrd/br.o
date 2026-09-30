@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T14:57:04.167529+00:00",
+  "updatedAt": "2026-09-30T15:02:05.491912+00:00",
   "summary": {
-    "totalPlays": 8192,
+    "totalPlays": 8194,
     "unknownPlays": 987,
     "uniqueTracks": 2148,
     "uniqueArtists": 1385,
     "uniqueAlbums": 1768,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790780071
+    "lastObserved": 1790780492
   },
   "topSongs": [
+    {
+      "artist": "Tele Novella",
+      "title": "Funeral",
+      "album": "Poet's Tooth",
+      "count": 18,
+      "first": 1788996940,
+      "last": 1790780260,
+      "playlists": {
+        "1default": 18
+      }
+    },
     {
       "artist": "Modest Mouse",
       "title": "Bury Me With It",
@@ -63,17 +74,6 @@
       "count": 17,
       "first": 1789015368,
       "last": 1790739355,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Tele Novella",
-      "title": "Funeral",
-      "album": "Poet's Tooth",
-      "count": 17,
-      "first": 1788996940,
-      "last": 1790638665,
       "playlists": {
         "1default": 17
       }
@@ -285,6 +285,17 @@
       "last": 1790613917,
       "playlists": {
         "1default": 12
+      }
+    },
+    {
+      "artist": "N.E.R.D",
+      "title": "Run To The Sun",
+      "album": "In Search Of...",
+      "count": 11,
+      "first": 1788901564,
+      "last": 1790780492,
+      "playlists": {
+        "1default": 11
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1789056336,
       "last": 1790740567,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Yumi Zouma",
-      "title": "Right Track / Wrong Man",
-      "album": "Truth or Consequences",
-      "count": 11,
-      "first": 1789057143,
-      "last": 1790740392,
       "playlists": {
         "1default": 11
       }
@@ -6847,6 +6847,26 @@
       ]
     },
     {
+      "artist": "Tele Novella",
+      "album": "Poet's Tooth",
+      "count": 18,
+      "first": 1788996940,
+      "last": 1790780260,
+      "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 18,
+          "first": 1788996940,
+          "last": 1790780260,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "album": "Run It",
       "count": 18,
@@ -7031,26 +7051,6 @@
       ]
     },
     {
-      "artist": "Tele Novella",
-      "album": "Poet's Tooth",
-      "count": 17,
-      "first": 1788996940,
-      "last": 1790638665,
-      "songs": [
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 17,
-          "first": 1788996940,
-          "last": 1790638665,
-          "playlists": {
-            "1default": 17
-          }
-        }
-      ]
-    },
-    {
       "artist": "Florence + The Machine, Jules Buckley",
       "album": "Symphony of Lungs - BBC Proms at the Royal Albert Hall",
       "count": 17,
@@ -7127,10 +7127,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3859,
+      "count": 3861,
       "first": 1788901564,
-      "last": 1790780071,
+      "last": 1790780492,
       "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 18,
+          "first": 1788996940,
+          "last": 1790780260,
+          "playlists": {
+            "1default": 18
+          }
+        },
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
@@ -7171,17 +7182,6 @@
           "count": 17,
           "first": 1789015368,
           "last": 1790739355,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 17,
-          "first": 1788996940,
-          "last": 1790638665,
           "playlists": {
             "1default": 17
           }
