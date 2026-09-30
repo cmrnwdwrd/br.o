@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T04:41:45.127965+00:00",
+  "updatedAt": "2026-09-30T04:46:56.671975+00:00",
   "summary": {
-    "totalPlays": 8016,
+    "totalPlays": 8017,
     "unknownPlays": 966,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790743261
+    "lastObserved": 1790743502
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 11,
+      "first": 1788985030,
+      "last": 1790743502,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Surfaces",
       "title": "Heaven Falls / Fall On Me",
       "album": "Sunday Best (Japan Exclusive)",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788946510,
       "last": 1790651275,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "The Salesmen",
-      "title": "Commodify",
-      "album": "Commodify",
-      "count": 11,
-      "first": 1788917230,
-      "last": 1790622765,
       "playlists": {
         "1default": 11
       }
@@ -4016,6 +4016,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 21,
+      "first": 1788985030,
+      "last": 1790743502,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 11,
+          "first": 1788985030,
+          "last": 1790743502,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 10,
+          "first": 1788987870,
+          "last": 1790695940,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 21,
       "first": 1789054681,
@@ -4567,36 +4597,6 @@
           "count": 10,
           "first": 1788964687,
           "last": 1790700468,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 20,
-      "first": 1788985030,
-      "last": 1790710156,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 10,
-          "first": 1788985030,
-          "last": 1790710156,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 10,
-          "first": 1788987870,
-          "last": 1790695940,
           "playlists": {
             "1default": 10
           }
@@ -7083,9 +7083,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3832,
+      "count": 3833,
       "first": 1788901564,
-      "last": 1790743261,
+      "last": 1790743502,
       "songs": [
         {
           "artist": "Modest Mouse",
