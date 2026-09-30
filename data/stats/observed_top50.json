@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T21:37:02.866408+00:00",
+  "updatedAt": "2026-09-30T21:41:37.899739+00:00",
   "summary": {
-    "totalPlays": 8300,
+    "totalPlays": 8301,
     "unknownPlays": 1000,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790804151
+    "lastObserved": 1790804365
   },
   "topSongs": [
     {
@@ -178,6 +178,17 @@
       }
     },
     {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 14,
+      "first": 1788989320,
+      "last": 1790804365,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Mallory Graham",
       "title": "MOP",
       "album": "MOP",
@@ -228,17 +239,6 @@
       "count": 13,
       "first": 1788988450,
       "last": 1790736953,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Traveling",
-      "album": "Young & Old",
-      "count": 13,
-      "first": 1788989320,
-      "last": 1790718424,
       "playlists": {
         "1default": 13
       }
@@ -2864,72 +2864,20 @@
       ]
     },
     {
-      "artist": "The Cranberries",
-      "count": 34,
-      "first": 1788916461,
-      "last": 1790802281,
-      "songs": [
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 11,
-          "first": 1788916461,
-          "last": 1790802281,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 10,
-          "first": 1789060180,
-          "last": 1790653551,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 9,
-          "first": 1789087662,
-          "last": 1790644893,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Dreams",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 4,
-          "first": 1789174476,
-          "last": 1790389664,
-          "playlists": {
-            "d i n n e r": 4
-          }
-        }
-      ]
-    },
-    {
       "artist": "Tennis",
-      "count": 34,
+      "count": 35,
       "first": 1788989320,
-      "last": 1790788300,
+      "last": 1790804365,
       "songs": [
         {
           "artist": "Tennis",
           "title": "Traveling",
           "album": "Young & Old",
-          "count": 13,
+          "count": 14,
           "first": 1788989320,
-          "last": 1790718424,
+          "last": 1790804365,
           "playlists": {
-            "1default": 13
+            "1default": 14
           }
         },
         {
@@ -2985,6 +2933,58 @@
           "last": 1790459138,
           "playlists": {
             "landlockd surfrock": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "The Cranberries",
+      "count": 34,
+      "first": 1788916461,
+      "last": 1790802281,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 11,
+          "first": 1788916461,
+          "last": 1790802281,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 10,
+          "first": 1789060180,
+          "last": 1790653551,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 9,
+          "first": 1789087662,
+          "last": 1790644893,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Dreams",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 4,
+          "first": 1789174476,
+          "last": 1790389664,
+          "playlists": {
+            "d i n n e r": 4
           }
         }
       ]
@@ -7127,9 +7127,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3934,
+      "count": 3935,
       "first": 1788901564,
-      "last": 1790804151,
+      "last": 1790804365,
       "songs": [
         {
           "artist": "Tele Novella",
