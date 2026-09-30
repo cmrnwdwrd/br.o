@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T14:51:52.438451+00:00",
+  "updatedAt": "2026-09-30T14:57:04.167529+00:00",
   "summary": {
-    "totalPlays": 8191,
+    "totalPlays": 8192,
     "unknownPlays": 987,
     "uniqueTracks": 2148,
     "uniqueArtists": 1385,
     "uniqueAlbums": 1768,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790779802
+    "lastObserved": 1790780071
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 11,
+      "first": 1788975084,
+      "last": 1790780071,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Kai Straw",
       "title": "Don't Tread on Me",
       "album": "Toothpick",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1789057143,
       "last": 1790740392,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Chance the Rapper, Childish Gambino",
-      "title": "Favorite Song",
-      "album": "Acid Rap",
-      "count": 11,
-      "first": 1789058964,
-      "last": 1790740016,
       "playlists": {
         "1default": 11
       }
@@ -3712,6 +3712,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 23,
+      "first": 1788919285,
+      "last": 1790780071,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 11,
+          "first": 1788975084,
+          "last": 1790780071,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 11,
+          "first": 1788919285,
+          "last": 1790777897,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 1,
+          "first": 1789893243,
+          "last": 1789893243,
+          "playlists": {
+            "christmas rn": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "count": 23,
       "first": 1788914259,
@@ -3789,47 +3830,6 @@
           "last": 1789163855,
           "playlists": {
             "escaping from cu boulder by giselle": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 22,
-      "first": 1788919285,
-      "last": 1790777897,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 11,
-          "first": 1788919285,
-          "last": 1790777897,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 10,
-          "first": 1788975084,
-          "last": 1790701180,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 1,
-          "first": 1789893243,
-          "last": 1789893243,
-          "playlists": {
-            "christmas rn": 1
           }
         }
       ]
@@ -7127,9 +7127,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3858,
+      "count": 3859,
       "first": 1788901564,
-      "last": 1790779802,
+      "last": 1790780071,
       "songs": [
         {
           "artist": "Modest Mouse",
