@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T00:11:58.667858+00:00",
+  "updatedAt": "2026-09-30T00:16:58.461923+00:00",
   "summary": {
-    "totalPlays": 7942,
+    "totalPlays": 7944,
     "unknownPlays": 956,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790727070
+    "lastObserved": 1790727367
   },
   "topSongs": [
     {
@@ -376,6 +376,28 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 10,
+      "first": 1789033065,
+      "last": 1790727367,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
+      "artist": "Pixies",
+      "title": "Here Comes Your Man",
+      "album": "Doolittle",
+      "count": 10,
+      "first": 1788972865,
+      "last": 1790727165,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "Doechii",
       "title": "BULLFROG",
       "album": "Alligator Bites Never Heal",
@@ -536,28 +558,6 @@
       "count": 10,
       "first": 1789049635,
       "last": 1790717030,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Brainsick",
-      "album": "Brainsick",
-      "count": 10,
-      "first": 1789063255,
-      "last": 1790716643,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Zolof the Rock & Roll Destroyer",
-      "title": "Plays Pretty for Baby",
-      "album": "Zolof the Rock & Roll Destroyer",
-      "count": 10,
-      "first": 1788987745,
-      "last": 1790716351,
       "playlists": {
         "1default": 10
       }
@@ -3124,6 +3124,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 29,
+      "first": 1788973998,
+      "last": 1790727367,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 10,
+          "first": 1789033065,
+          "last": 1790727367,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 10,
+          "first": 1788973998,
+          "last": 1790629701,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 9,
+          "first": 1789226629,
+          "last": 1790692281,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 29,
       "first": 1788965724,
@@ -3344,47 +3385,6 @@
           "count": 9,
           "first": 1789209975,
           "last": 1790625690,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 28,
-      "first": 1788973998,
-      "last": 1790692281,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 10,
-          "first": 1788973998,
-          "last": 1790629701,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 9,
-          "first": 1789226629,
-          "last": 1790692281,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 9,
-          "first": 1789033065,
-          "last": 1790581881,
           "playlists": {
             "1default": 9
           }
@@ -4533,6 +4533,47 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "count": 19,
+      "first": 1788972865,
+      "last": 1790727165,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 10,
+          "first": 1788972865,
+          "last": 1790727165,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 8,
+          "first": 1789214521,
+          "last": 1790431599,
+          "playlists": {
+            "1default": 8
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Where Is My Mind? - 2007 Remaster",
+          "album": "Surfer Rosa (2007 Remaster)",
+          "count": 1,
+          "first": 1790484376,
+          "last": 1790484376,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Harper Powell",
       "count": 19,
       "first": 1788947970,
@@ -4558,47 +4599,6 @@
           "last": 1790691494,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "count": 19,
-      "first": 1789057000,
-      "last": 1790721671,
-      "songs": [
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "brutal",
-          "album": "SOUR",
-          "count": 10,
-          "first": 1789057000,
-          "last": 1790675746,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "all-american bitch",
-          "album": "GUTS",
-          "count": 6,
-          "first": 1789081344,
-          "last": 1790721671,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 6
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "bad idea right?",
-          "album": "GUTS",
-          "count": 3,
-          "first": 1789259545,
-          "last": 1790466363,
-          "playlists": {
-            "texting your situationship": 3
           }
         }
       ]
@@ -6608,6 +6608,37 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "album": "Doolittle",
+      "count": 18,
+      "first": 1788972865,
+      "last": 1790727165,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 10,
+          "first": 1788972865,
+          "last": 1790727165,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 8,
+          "first": 1789214521,
+          "last": 1790431599,
+          "playlists": {
+            "1default": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Modest Mouse",
       "album": "Good News For People Who Love Bad News",
       "count": 18,
@@ -6887,37 +6918,6 @@
       ]
     },
     {
-      "artist": "Pixies",
-      "album": "Doolittle",
-      "count": 17,
-      "first": 1788972865,
-      "last": 1790542531,
-      "songs": [
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 9,
-          "first": 1788972865,
-          "last": 1790542531,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 8,
-          "first": 1789214521,
-          "last": 1790431599,
-          "playlists": {
-            "1default": 8
-          }
-        }
-      ]
-    },
-    {
       "artist": "Florence + The Machine, Jules Buckley",
       "album": "Symphony of Lungs - BBC Proms at the Royal Albert Hall",
       "count": 17,
@@ -7105,9 +7105,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3758,
+      "count": 3760,
       "first": 1788901564,
-      "last": 1790727070,
+      "last": 1790727367,
       "songs": [
         {
           "artist": "Modest Mouse",
