@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T13:36:58.860748+00:00",
+  "updatedAt": "2026-09-30T13:41:55.479485+00:00",
   "summary": {
-    "totalPlays": 8170,
+    "totalPlays": 8172,
     "unknownPlays": 985,
-    "uniqueTracks": 2145,
+    "uniqueTracks": 2146,
     "uniqueArtists": 1384,
     "uniqueAlbums": 1767,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790775178
+    "lastObserved": 1790775648
   },
   "topSongs": [
     {
@@ -7305,10 +7305,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 394,
+      "count": 396,
       "first": 1788955289,
-      "last": 1790775178,
+      "last": 1790775648,
       "songs": [
+        {
+          "artist": "Mt. Joy",
+          "title": "Bug Eyes",
+          "album": "Rearrange Us",
+          "count": 2,
+          "first": 1789561624,
+          "last": 1790775648,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Gigi Perez",
           "title": "Sometimes (Backwood)",
@@ -7349,17 +7360,6 @@
           "count": 2,
           "first": 1789997771,
           "last": 1790774371,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Matt Corby",
-          "title": "Belly Side Up",
-          "album": "Telluric",
-          "count": 2,
-          "first": 1788961194,
-          "last": 1790774126,
           "playlists": {
             "carhartts": 2
           }
