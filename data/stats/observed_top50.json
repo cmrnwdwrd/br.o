@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T22:26:44.705030+00:00",
+  "updatedAt": "2026-09-30T22:32:06.682584+00:00",
   "summary": {
-    "totalPlays": 8313,
+    "totalPlays": 8315,
     "unknownPlays": 1002,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790807117
+    "lastObserved": 1790807415
   },
   "topSongs": [
+    {
+      "artist": "Metric",
+      "title": "Dead Disco",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 18,
+      "first": 1788986736,
+      "last": 1790807211,
+      "playlists": {
+        "1default": 18
+      }
+    },
     {
       "artist": "Tele Novella",
       "title": "Funeral",
@@ -52,17 +63,6 @@
       "count": 17,
       "first": 1788996063,
       "last": 1790777392,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Metric",
-      "title": "Dead Disco",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 17,
-      "first": 1788986736,
-      "last": 1790761390,
       "playlists": {
         "1default": 17
       }
@@ -3712,6 +3712,36 @@
       ]
     },
     {
+      "artist": "Metric",
+      "count": 23,
+      "first": 1788986736,
+      "last": 1790807211,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 18,
+          "first": 1788986736,
+          "last": 1790807211,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 5,
+          "first": 1789258725,
+          "last": 1790488034,
+          "playlists": {
+            "sad girl no friends saturday": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mallory Graham",
       "count": 23,
       "first": 1788973386,
@@ -3920,36 +3950,6 @@
           "last": 1790743502,
           "playlists": {
             "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "count": 22,
-      "first": 1788986736,
-      "last": 1790761390,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 17,
-          "first": 1788986736,
-          "last": 1790761390,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 5,
-          "first": 1789258725,
-          "last": 1790488034,
-          "playlists": {
-            "sad girl no friends saturday": 5
           }
         }
       ]
@@ -5747,6 +5747,37 @@
       ]
     },
     {
+      "artist": "Metric",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 23,
+      "first": 1788986736,
+      "last": 1790807211,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 18,
+          "first": 1788986736,
+          "last": 1790807211,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 5,
+          "first": 1789258725,
+          "last": 1790488034,
+          "playlists": {
+            "sad girl no friends saturday": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "album": "GRITTED TEETH *",
       "count": 23,
@@ -5837,37 +5868,6 @@
           "last": 1790314295,
           "playlists": {
             "for the girls driving 85": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 22,
-      "first": 1788986736,
-      "last": 1790761390,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 17,
-          "first": 1788986736,
-          "last": 1790761390,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 5,
-          "first": 1789258725,
-          "last": 1790488034,
-          "playlists": {
-            "sad girl no friends saturday": 5
           }
         }
       ]
@@ -6973,10 +6973,21 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3941,
+      "count": 3942,
       "first": 1788901564,
-      "last": 1790807117,
+      "last": 1790807211,
       "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 18,
+          "first": 1788986736,
+          "last": 1790807211,
+          "playlists": {
+            "1default": 18
+          }
+        },
         {
           "artist": "Tele Novella",
           "title": "Funeral",
@@ -7006,17 +7017,6 @@
           "count": 17,
           "first": 1788996063,
           "last": 1790777392,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 17,
-          "first": 1788986736,
-          "last": 1790761390,
           "playlists": {
             "1default": 17
           }
@@ -7351,10 +7351,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 206,
+      "count": 207,
       "first": 1788904845,
-      "last": 1790806785,
+      "last": 1790807415,
       "songs": [
+        {
+          "artist": "Bright Eyes",
+          "title": "Bells and Whistles",
+          "album": "Bells and Whistles",
+          "count": 7,
+          "first": 1788992320,
+          "last": 1790807415,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 7
+          }
+        },
         {
           "artist": "Mothers",
           "title": "It Hurts Until It Doesn't",
@@ -7395,17 +7406,6 @@
           "count": 7,
           "first": 1788992133,
           "last": 1790805809,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 7
-          }
-        },
-        {
-          "artist": "Watsky",
-          "title": "Welcome To The Family",
-          "album": "COMPLAINT",
-          "count": 7,
-          "first": 1788996244,
-          "last": 1790724472,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 7
           }
