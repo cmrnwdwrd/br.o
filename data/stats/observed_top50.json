@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T19:36:48.864778+00:00",
+  "updatedAt": "2026-09-30T19:41:59.148982+00:00",
   "summary": {
-    "totalPlays": 8269,
+    "totalPlays": 8270,
     "unknownPlays": 996,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790796983
+    "lastObserved": 1790797147
   },
   "topSongs": [
     {
@@ -7683,10 +7683,21 @@
     },
     {
       "playlist": "country music was never for republicans",
-      "count": 131,
+      "count": 132,
       "first": 1788976050,
-      "last": 1790796983,
+      "last": 1790797147,
       "songs": [
+        {
+          "artist": "Willie Nelson",
+          "title": "Whatever Happened To Peace On Earth",
+          "album": "Whatever Happened To Peace On Earth",
+          "count": 2,
+          "first": 1790186658,
+          "last": 1790797147,
+          "playlists": {
+            "country music was never for republicans": 2
+          }
+        },
         {
           "artist": "Kris Kristofferson",
           "title": "Blame It On the Stones",
@@ -7727,17 +7738,6 @@
           "count": 2,
           "first": 1789581430,
           "last": 1790796229,
-          "playlists": {
-            "country music was never for republicans": 2
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Goodbye Earl",
-          "album": "Fly",
-          "count": 2,
-          "first": 1789583434,
-          "last": 1790795969,
           "playlists": {
             "country music was never for republicans": 2
           }
