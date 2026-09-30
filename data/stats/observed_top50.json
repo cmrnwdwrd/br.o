@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T21:41:37.899739+00:00",
+  "updatedAt": "2026-09-30T21:47:03.763602+00:00",
   "summary": {
-    "totalPlays": 8301,
-    "unknownPlays": 1000,
+    "totalPlays": 8303,
+    "unknownPlays": 1001,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790804365
+    "lastObserved": 1790804785
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 11,
+      "first": 1789063255,
+      "last": 1790804785,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
+      "artist": "Sjowgren",
+      "title": "Flip Phones",
+      "album": "win'20",
+      "count": 11,
+      "first": 1789059354,
+      "last": 1790804572,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Vampire Weekend",
       "title": "How Long?",
       "album": "Father of the Bride",
@@ -536,28 +558,6 @@
       "count": 11,
       "first": 1788912385,
       "last": 1790787149,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Bahamas",
-      "title": "Own Alone",
-      "album": "Sad Hunk",
-      "count": 11,
-      "first": 1788962598,
-      "last": 1790786954,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Fine Young Cannibals",
-      "title": "Good Thing",
-      "album": "The Raw & The Cooked",
-      "count": 11,
-      "first": 1788974590,
-      "last": 1790786751,
       "playlists": {
         "1default": 11
       }
@@ -1523,10 +1523,21 @@
     },
     {
       "artist": "Opium",
-      "count": 81,
+      "count": 82,
       "first": 1788927400,
-      "last": 1790788984,
+      "last": 1790804785,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 11,
+          "first": 1789063255,
+          "last": 1790804785,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "Opium",
           "title": "No Pulse",
@@ -1545,17 +1556,6 @@
           "count": 10,
           "first": 1789109880,
           "last": 1790785452,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 10,
-          "first": 1789063255,
-          "last": 1790716643,
           "playlists": {
             "1default": 10
           }
@@ -3083,6 +3083,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 30,
+      "first": 1788965724,
+      "last": 1790804572,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 11,
+          "first": 1789059354,
+          "last": 1790804572,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 10,
+          "first": 1788965724,
+          "last": 1790622972,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 9,
+          "first": 1789225488,
+          "last": 1790705474,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Brandywine",
       "count": 30,
       "first": 1788965930,
@@ -3333,47 +3374,6 @@
           "count": 9,
           "first": 1789226629,
           "last": 1790692281,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 29,
-      "first": 1788965724,
-      "last": 1790705474,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 10,
-          "first": 1788965724,
-          "last": 1790622972,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 10,
-          "first": 1789059354,
-          "last": 1790618830,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 9,
-          "first": 1789225488,
-          "last": 1790705474,
           "playlists": {
             "1default": 9
           }
@@ -6294,6 +6294,37 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "album": "win'20",
+      "count": 20,
+      "first": 1789059354,
+      "last": 1790804572,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 11,
+          "first": 1789059354,
+          "last": 1790804572,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 9,
+          "first": 1789225488,
+          "last": 1790705474,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "album": "Father of the Bride",
       "count": 20,
@@ -6816,37 +6847,6 @@
       ]
     },
     {
-      "artist": "Sjowgren",
-      "album": "win'20",
-      "count": 19,
-      "first": 1789059354,
-      "last": 1790705474,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 10,
-          "first": 1789059354,
-          "last": 1790618830,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 9,
-          "first": 1789225488,
-          "last": 1790705474,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
       "artist": "Tele Novella",
       "album": "Poet's Tooth",
       "count": 18,
@@ -7127,9 +7127,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3935,
+      "count": 3937,
       "first": 1788901564,
-      "last": 1790804365,
+      "last": 1790804785,
       "songs": [
         {
           "artist": "Tele Novella",
