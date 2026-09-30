@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T17:26:52.523815+00:00",
+  "updatedAt": "2026-09-30T17:31:53.805813+00:00",
   "summary": {
-    "totalPlays": 8234,
+    "totalPlays": 8235,
     "unknownPlays": 991,
     "uniqueTracks": 2148,
     "uniqueArtists": 1385,
     "uniqueAlbums": 1768,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790789199
+    "lastObserved": 1790789413
   },
   "topSongs": [
     {
@@ -4503,6 +4503,36 @@
       ]
     },
     {
+      "artist": "Courtney Barnett",
+      "count": 20,
+      "first": 1788913469,
+      "last": 1790789413,
+      "songs": [
+        {
+          "artist": "Courtney Barnett",
+          "title": "Pedestrian at Best",
+          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
+          "count": 10,
+          "first": 1789215507,
+          "last": 1790789413,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Courtney Barnett",
+          "title": "Write A List of Things To Look Forward To",
+          "album": "Things Take Time, Take Time",
+          "count": 10,
+          "first": 1788913469,
+          "last": 1790642994,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Harper Powell",
       "count": 20,
       "first": 1788947970,
@@ -4556,36 +4586,6 @@
           "count": 9,
           "first": 1789129746,
           "last": 1790641110,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 20,
-      "first": 1788986484,
-      "last": 1790785960,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 11,
-          "first": 1788986484,
-          "last": 1790785960,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 9,
-          "first": 1789231311,
-          "last": 1790646058,
           "playlists": {
             "1default": 9
           }
@@ -7116,9 +7116,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3901,
+      "count": 3902,
       "first": 1788901564,
-      "last": 1790789199,
+      "last": 1790789413,
       "songs": [
         {
           "artist": "Tele Novella",
