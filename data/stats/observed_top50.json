@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T12:06:45.685807+00:00",
+  "updatedAt": "2026-09-30T12:11:49.894011+00:00",
   "summary": {
-    "totalPlays": 8146,
-    "unknownPlays": 981,
+    "totalPlays": 8147,
+    "unknownPlays": 982,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790769981
+    "lastObserved": 1790770223
   },
   "topSongs": [
     {
@@ -7305,10 +7305,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 370,
+      "count": 371,
       "first": 1788955289,
-      "last": 1790769981,
+      "last": 1790770223,
       "songs": [
+        {
+          "artist": "Jack Van Cleaf",
+          "title": "Wild Roses",
+          "album": "Wild Roses",
+          "count": 2,
+          "first": 1789653204,
+          "last": 1790770223,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Joe P",
           "title": "Leaves - Acoustic",
@@ -7349,17 +7360,6 @@
           "count": 2,
           "first": 1790085061,
           "last": 1790690042,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Hippo Campus",
-          "title": "Simple Season",
-          "album": "Landmark",
-          "count": 2,
-          "first": 1789479109,
-          "last": 1790689620,
           "playlists": {
             "carhartts": 2
           }
