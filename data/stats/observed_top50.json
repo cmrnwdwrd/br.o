@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T20:02:16.494107+00:00",
+  "updatedAt": "2026-09-30T20:07:13.519348+00:00",
   "summary": {
-    "totalPlays": 8275,
+    "totalPlays": 8277,
     "unknownPlays": 997,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790798365
+    "lastObserved": 1790798791
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Sexy Coyote",
+      "title": "What's for Dinner????",
+      "album": "Dead",
+      "count": 11,
+      "first": 1788917492,
+      "last": 1790798665,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "U2",
       "title": "Pride (In The Name Of Love) - Remastered 2009",
       "album": "The Unforgettable Fire (Remastered)",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788918945,
       "last": 1790782300,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Jonwayne",
-      "title": "Andrew",
-      "album": "Bowser",
-      "count": 11,
-      "first": 1789050019,
-      "last": 1790782022,
       "playlists": {
         "1default": 11
       }
@@ -2616,10 +2616,21 @@
     },
     {
       "artist": "Sexy Coyote",
-      "count": 40,
+      "count": 41,
       "first": 1788917492,
-      "last": 1790736587,
+      "last": 1790798665,
       "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 11,
+          "first": 1788917492,
+          "last": 1790798665,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "Sexy Coyote",
           "title": "Dancing With Demons",
@@ -2629,17 +2640,6 @@
           "last": 1790697181,
           "playlists": {
             "1default": 11
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 10,
-          "first": 1788917492,
-          "last": 1790736587,
-          "playlists": {
-            "1default": 10
           }
         },
         {
@@ -5457,6 +5457,48 @@
       ]
     },
     {
+      "artist": "Sexy Coyote",
+      "album": "Dead",
+      "count": 30,
+      "first": 1788917492,
+      "last": 1790798665,
+      "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 11,
+          "first": 1788917492,
+          "last": 1790798665,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 10,
+          "first": 1788921570,
+          "last": 1790728045,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "DEAD (Yeah!)",
+          "album": "Dead",
+          "count": 9,
+          "first": 1789224883,
+          "last": 1790639155,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "album": "Lick My Soul",
       "count": 30,
@@ -5492,48 +5534,6 @@
           "count": 9,
           "first": 1789139069,
           "last": 1790630358,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sexy Coyote",
-      "album": "Dead",
-      "count": 29,
-      "first": 1788917492,
-      "last": 1790736587,
-      "songs": [
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 10,
-          "first": 1788917492,
-          "last": 1790736587,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 10,
-          "first": 1788921570,
-          "last": 1790728045,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "DEAD (Yeah!)",
-          "album": "Dead",
-          "count": 9,
-          "first": 1789224883,
-          "last": 1790639155,
           "playlists": {
             "1default": 9
           }
@@ -7116,9 +7116,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3909,
+      "count": 3911,
       "first": 1788901564,
-      "last": 1790798365,
+      "last": 1790798791,
       "songs": [
         {
           "artist": "Tele Novella",
