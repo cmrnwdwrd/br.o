@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T16:17:13.176833+00:00",
+  "updatedAt": "2026-09-30T16:21:41.114693+00:00",
   "summary": {
-    "totalPlays": 8215,
+    "totalPlays": 8217,
     "unknownPlays": 990,
     "uniqueTracks": 2148,
     "uniqueArtists": 1385,
     "uniqueAlbums": 1768,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790784950
+    "lastObserved": 1790785268
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "hey, nothing",
+      "title": "The Sink",
+      "album": "The Sink",
+      "count": 11,
+      "first": 1788974410,
+      "last": 1790785268,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
+      "artist": "Barrie",
+      "title": "Hutch",
+      "album": "Happy To Be Here",
+      "count": 11,
+      "first": 1788912861,
+      "last": 1790785120,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Orion Sun",
       "title": "Antidote",
       "album": "A Collection of Fleeting Moments and Daydreams",
@@ -536,28 +558,6 @@
       "count": 11,
       "first": 1788966457,
       "last": 1790778889,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Brandywine",
-      "title": "Friend of Mine",
-      "album": "Friend of Mine",
-      "count": 11,
-      "first": 1788965930,
-      "last": 1790778650,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Dead Or Alive",
-      "title": "You Spin Me Round (Like a Record)",
-      "album": "Evolution: The Hits",
-      "count": 11,
-      "first": 1788971012,
-      "last": 1790778241,
       "playlists": {
         "1default": 11
       }
@@ -3835,6 +3835,36 @@
       ]
     },
     {
+      "artist": "Barrie",
+      "count": 22,
+      "first": 1788912861,
+      "last": 1790785120,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 11,
+          "first": 1788912861,
+          "last": 1790785120,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 11,
+          "first": 1788966960,
+          "last": 1790781149,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 22,
       "first": 1788985030,
@@ -4112,36 +4142,6 @@
           "last": 1789764460,
           "playlists": {
             "escaping from cu boulder by giselle": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 21,
-      "first": 1788912861,
-      "last": 1790781149,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 11,
-          "first": 1788966960,
-          "last": 1790781149,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 10,
-          "first": 1788912861,
-          "last": 1790700141,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7127,9 +7127,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3882,
+      "count": 3884,
       "first": 1788901564,
-      "last": 1790784950,
+      "last": 1790785268,
       "songs": [
         {
           "artist": "Tele Novella",
