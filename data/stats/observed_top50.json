@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T14:31:54.387849+00:00",
+  "updatedAt": "2026-09-30T14:36:59.668687+00:00",
   "summary": {
-    "totalPlays": 8186,
+    "totalPlays": 8187,
     "unknownPlays": 986,
     "uniqueTracks": 2148,
     "uniqueArtists": 1385,
     "uniqueAlbums": 1768,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790778650
+    "lastObserved": 1790778889
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Beach Bunny",
+      "title": "Oxygen",
+      "album": "Oxygen",
+      "count": 11,
+      "first": 1788966457,
+      "last": 1790778889,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Brandywine",
       "title": "Friend of Mine",
       "album": "Friend of Mine",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788984684,
       "last": 1790739009,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Masta Ace",
-      "title": "Son of Yvonne",
-      "album": "MA_DOOM: Son of Yvonne",
-      "count": 11,
-      "first": 1788970154,
-      "last": 1790738814,
       "playlists": {
         "1default": 11
       }
@@ -4087,6 +4087,36 @@
       ]
     },
     {
+      "artist": "Beach Bunny",
+      "count": 21,
+      "first": 1788966457,
+      "last": 1790778889,
+      "songs": [
+        {
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 11,
+          "first": 1788966457,
+          "last": 1790778889,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Entropy",
+          "album": "Emotional Creature",
+          "count": 10,
+          "first": 1789230720,
+          "last": 1790743040,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 21,
       "first": 1789061029,
@@ -4468,36 +4498,6 @@
           "last": 1790754352,
           "playlists": {
             "breakbeat": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Beach Bunny",
-      "count": 20,
-      "first": 1788966457,
-      "last": 1790743040,
-      "songs": [
-        {
-          "artist": "Beach Bunny",
-          "title": "Entropy",
-          "album": "Emotional Creature",
-          "count": 10,
-          "first": 1789230720,
-          "last": 1790743040,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Beach Bunny",
-          "title": "Oxygen",
-          "album": "Oxygen",
-          "count": 10,
-          "first": 1788966457,
-          "last": 1790733320,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7127,9 +7127,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3853,
+      "count": 3854,
       "first": 1788901564,
-      "last": 1790778650,
+      "last": 1790778889,
       "songs": [
         {
           "artist": "Modest Mouse",
