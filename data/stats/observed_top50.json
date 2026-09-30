@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T01:51:50.998942+00:00",
+  "updatedAt": "2026-09-30T01:56:59.658798+00:00",
   "summary": {
-    "totalPlays": 7969,
+    "totalPlays": 7970,
     "unknownPlays": 960,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790733025
+    "lastObserved": 1790733320
   },
   "topSongs": [
     {
@@ -387,6 +387,17 @@
       }
     },
     {
+      "artist": "Beach Bunny",
+      "title": "Oxygen",
+      "album": "Oxygen",
+      "count": 10,
+      "first": 1788966457,
+      "last": 1790733320,
+      "playlists": {
+        "1default": 10
+      }
+    },
+    {
       "artist": "The Salesmen",
       "title": "Tell Me That You Like It",
       "album": "Tell Me That You Like It",
@@ -547,17 +558,6 @@
       "count": 10,
       "first": 1788928852,
       "last": 1790728498,
-      "playlists": {
-        "1default": 10
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "Run, Rabbit, Run",
-      "album": "Dead",
-      "count": 10,
-      "first": 1788921570,
-      "last": 1790728045,
       "playlists": {
         "1default": 10
       }
@@ -4533,6 +4533,36 @@
       ]
     },
     {
+      "artist": "Beach Bunny",
+      "count": 19,
+      "first": 1788966457,
+      "last": 1790733320,
+      "songs": [
+        {
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 10,
+          "first": 1788966457,
+          "last": 1790733320,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Entropy",
+          "album": "Emotional Creature",
+          "count": 9,
+          "first": 1789230720,
+          "last": 1790725017,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 19,
       "first": 1788972865,
@@ -4569,36 +4599,6 @@
           "last": 1790484376,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Harper Powell",
-      "count": 19,
-      "first": 1788947970,
-      "last": 1790725685,
-      "songs": [
-        {
-          "artist": "Harper Powell",
-          "title": "It's the Full Moon",
-          "album": "It's the Full Moon",
-          "count": 10,
-          "first": 1788947970,
-          "last": 1790725685,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Harper Powell",
-          "title": "Time Is Empty",
-          "album": "Time Is Empty",
-          "count": 9,
-          "first": 1789077114,
-          "last": 1790691494,
-          "playlists": {
-            "1default": 9
           }
         }
       ]
@@ -7094,9 +7094,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3785,
+      "count": 3786,
       "first": 1788901564,
-      "last": 1790733025,
+      "last": 1790733320,
       "songs": [
         {
           "artist": "Modest Mouse",
