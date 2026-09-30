@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T06:47:05.775181+00:00",
+  "updatedAt": "2026-09-30T06:52:02.218512+00:00",
   "summary": {
-    "totalPlays": 8057,
-    "unknownPlays": 970,
+    "totalPlays": 8059,
+    "unknownPlays": 971,
     "uniqueTracks": 2140,
     "uniqueArtists": 1381,
     "uniqueAlbums": 1764,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790750657
+    "lastObserved": 1790750950
   },
   "topSongs": [
     {
@@ -7524,10 +7524,21 @@
     },
     {
       "playlist": "EPL4a",
-      "count": 151,
+      "count": 152,
       "first": 1788930925,
-      "last": 1790748608,
+      "last": 1790750905,
       "songs": [
+        {
+          "artist": "Jadu Heart",
+          "title": "Dead, Again",
+          "album": "Hyper Romance",
+          "count": 6,
+          "first": 1788932611,
+          "last": 1790750905,
+          "playlists": {
+            "EPL4a": 6
+          }
+        },
         {
           "artist": "Provoker",
           "title": "Rose In A Glass",
@@ -7568,17 +7579,6 @@
           "count": 5,
           "first": 1788931409,
           "last": 1790748122,
-          "playlists": {
-            "EPL4a": 5
-          }
-        },
-        {
-          "artist": "Sakkaris",
-          "title": "don't cry",
-          "album": "don't cry",
-          "count": 5,
-          "first": 1788933663,
-          "last": 1790748020,
           "playlists": {
             "EPL4a": 5
           }
