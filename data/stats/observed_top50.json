@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-09-30T14:06:56.262661+00:00",
+  "updatedAt": "2026-09-30T14:11:56.992046+00:00",
   "summary": {
-    "totalPlays": 8178,
-    "unknownPlays": 985,
+    "totalPlays": 8179,
+    "unknownPlays": 986,
     "uniqueTracks": 2148,
     "uniqueArtists": 1385,
     "uniqueAlbums": 1768,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790777025
+    "lastObserved": 1790777392
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1790660845,
       "playlists": {
         "breakbeat": 18
+      }
+    },
+    {
+      "artist": "Destructo Disk",
+      "title": "I Wish I Was A Riot Grrrl",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 17,
+      "first": 1788996063,
+      "last": 1790777392,
+      "playlists": {
+        "1default": 17
       }
     },
     {
@@ -85,17 +96,6 @@
       "count": 16,
       "first": 1788991593,
       "last": 1790731955,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Destructo Disk",
-      "title": "I Wish I Was A Riot Grrrl",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 16,
-      "first": 1788996063,
-      "last": 1790722886,
       "playlists": {
         "1default": 16
       }
@@ -6867,6 +6867,26 @@
       ]
     },
     {
+      "artist": "Destructo Disk",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 17,
+      "first": 1788996063,
+      "last": 1790777392,
+      "songs": [
+        {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 17,
+          "first": 1788996063,
+          "last": 1790777392,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "album": "FOAR EVERYWUN FRUM MIMI",
       "count": 17,
@@ -7091,34 +7111,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Viagra Boys",
-      "album": "Street Worms",
-      "count": 16,
-      "first": 1788991593,
-      "last": 1790731955,
-      "songs": [
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 16,
-          "first": 1788991593,
-          "last": 1790731955,
-          "playlists": {
-            "1default": 16
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3845,
+      "count": 3846,
       "first": 1788901564,
-      "last": 1790777025,
+      "last": 1790777392,
       "songs": [
         {
           "artist": "Modest Mouse",
@@ -7129,6 +7129,17 @@
           "last": 1790738583,
           "playlists": {
             "1default": 18
+          }
+        },
+        {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 17,
+          "first": 1788996063,
+          "last": 1790777392,
+          "playlists": {
+            "1default": 17
           }
         },
         {
@@ -7162,17 +7173,6 @@
           "last": 1790638665,
           "playlists": {
             "1default": 17
-          }
-        },
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 16,
-          "first": 1789014862,
-          "last": 1790735735,
-          "playlists": {
-            "1default": 16
           }
         }
       ]
