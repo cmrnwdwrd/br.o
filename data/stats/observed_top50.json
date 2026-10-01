@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T12:16:26.343489+00:00",
+  "updatedAt": "2026-10-01T12:21:28.286250+00:00",
   "summary": {
-    "totalPlays": 8538,
+    "totalPlays": 8539,
     "unknownPlays": 1028,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790856962
+    "lastObserved": 1790857180
   },
   "topSongs": [
     {
@@ -7239,10 +7239,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 406,
+      "count": 407,
       "first": 1788955289,
-      "last": 1790856962,
+      "last": 1790857180,
       "songs": [
+        {
+          "artist": "Lord Huron",
+          "title": "Not Dead Yet",
+          "album": "Not Dead Yet",
+          "count": 2,
+          "first": 1789388508,
+          "last": 1790857180,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Yoke Lore",
           "title": "Dead Ringer",
@@ -7283,17 +7294,6 @@
           "count": 2,
           "first": 1789648135,
           "last": 1790856367,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Town Meeting",
-          "title": "West of Seattle",
-          "album": "West of Seattle",
-          "count": 2,
-          "first": 1788961720,
-          "last": 1790856105,
           "playlists": {
             "carhartts": 2
           }
