@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T18:21:17.139249+00:00",
+  "updatedAt": "2026-10-01T18:26:29.670368+00:00",
   "summary": {
-    "totalPlays": 8641,
+    "totalPlays": 8642,
     "unknownPlays": 1040,
     "uniqueTracks": 2178,
     "uniqueArtists": 1402,
     "uniqueAlbums": 1793,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790878799
+    "lastObserved": 1790879171
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "Sjowgren",
+      "title": "Now & Then",
+      "album": "Now & Then",
+      "count": 11,
+      "first": 1788965724,
+      "last": 1790879171,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "DARKIE STILL CANNOT RAP",
       "album": "SWAMP DRAINED",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788983290,
       "last": 1790870555,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "John Grant",
-      "title": "It Doesn't Matter to Him",
-      "album": "Pale Green Ghosts",
-      "count": 11,
-      "first": 1788964915,
-      "last": 1790870172,
       "playlists": {
         "1default": 11
       }
@@ -3094,6 +3094,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 32,
+      "first": 1788965724,
+      "last": 1790879171,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 11,
+          "first": 1788965724,
+          "last": 1790879171,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 11,
+          "first": 1789059354,
+          "last": 1790804572,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 10,
+          "first": 1789225488,
+          "last": 1790811497,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 32,
       "first": 1788973066,
@@ -3346,47 +3387,6 @@
           "last": 1790630358,
           "playlists": {
             "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 31,
-      "first": 1788965724,
-      "last": 1790811497,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 11,
-          "first": 1789059354,
-          "last": 1790804572,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 10,
-          "first": 1789225488,
-          "last": 1790811497,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 10,
-          "first": 1788965724,
-          "last": 1790622972,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7222,9 +7222,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4032,
+      "count": 4033,
       "first": 1788901564,
-      "last": 1790878799,
+      "last": 1790879171,
       "songs": [
         {
           "artist": "Tele Novella",
