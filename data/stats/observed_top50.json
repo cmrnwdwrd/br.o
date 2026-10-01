@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T03:42:09.402081+00:00",
+  "updatedAt": "2026-10-01T03:47:02.590256+00:00",
   "summary": {
-    "totalPlays": 8382,
-    "unknownPlays": 1009,
+    "totalPlays": 8384,
+    "unknownPlays": 1010,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790826020
+    "lastObserved": 1790826409
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 11,
+      "first": 1788970790,
+      "last": 1790826409,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 11,
+      "first": 1788989714,
+      "last": 1790826157,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Mitski",
       "title": "My Love Mine All Mine",
       "album": "The Land Is Inhospitable and So Are We",
@@ -536,28 +558,6 @@
       "count": 11,
       "first": 1788917492,
       "last": 1790798665,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Pride (In The Name Of Love) - Remastered 2009",
-      "album": "The Unforgettable Fire (Remastered)",
-      "count": 11,
-      "first": 1788964687,
-      "last": 1790797871,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "isobel",
-      "title": "laundry",
-      "album": "laundry",
-      "count": 11,
-      "first": 1788902953,
-      "last": 1790790172,
       "playlists": {
         "1default": 11
       }
@@ -2990,6 +2990,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 32,
+      "first": 1788917230,
+      "last": 1790826409,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 11,
+          "first": 1788970790,
+          "last": 1790826409,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 11,
+          "first": 1788917230,
+          "last": 1790622765,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 10,
+          "first": 1789050580,
+          "last": 1790733025,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 32,
       "first": 1788946510,
@@ -3117,47 +3158,6 @@
           "count": 10,
           "first": 1788965724,
           "last": 1790622972,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 31,
-      "first": 1788917230,
-      "last": 1790733025,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 11,
-          "first": 1788917230,
-          "last": 1790622765,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 10,
-          "first": 1789050580,
-          "last": 1790733025,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 10,
-          "first": 1788970790,
-          "last": 1790640451,
           "playlists": {
             "1default": 10
           }
@@ -7061,9 +7061,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3953,
+      "count": 3955,
       "first": 1788901564,
-      "last": 1790826020,
+      "last": 1790826409,
       "songs": [
         {
           "artist": "Tele Novella",
