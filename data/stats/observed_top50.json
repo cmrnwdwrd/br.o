@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T23:26:27.248664+00:00",
+  "updatedAt": "2026-10-01T23:31:12.765963+00:00",
   "summary": {
-    "totalPlays": 8725,
+    "totalPlays": 8726,
     "unknownPlays": 1049,
     "uniqueTracks": 2178,
     "uniqueArtists": 1402,
     "uniqueAlbums": 1793,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790897079
+    "lastObserved": 1790897290
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1790875724,
       "playlists": {
         "breakbeat": 20
+      }
+    },
+    {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 18,
+      "first": 1789015368,
+      "last": 1790897290,
+      "playlists": {
+        "1default": 18
       }
     },
     {
@@ -129,17 +140,6 @@
       "count": 17,
       "first": 1788996063,
       "last": 1790777392,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 17,
-      "first": 1789015368,
-      "last": 1790739355,
       "playlists": {
         "1default": 17
       }
@@ -7099,6 +7099,26 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 18,
+      "first": 1789015368,
+      "last": 1790897290,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 18,
+          "first": 1789015368,
+          "last": 1790897290,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Chappell Roan",
       "album": "The Rise and Fall of a Midwest Princess",
       "count": 18,
@@ -7241,45 +7261,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Siete Catorce",
-      "album": "Cruda",
-      "count": 18,
-      "first": 1789028695,
-      "last": 1790833360,
-      "songs": [
-        {
-          "artist": "Siete Catorce",
-          "title": "Que La Fiesta Nunca Se Acabe",
-          "album": "Cruda",
-          "count": 9,
-          "first": 1789028695,
-          "last": 1790833360,
-          "playlists": {
-            "breakbeat": 9
-          }
-        },
-        {
-          "artist": "Siete Catorce",
-          "title": "Sobriedad",
-          "album": "Cruda",
-          "count": 9,
-          "first": 1789029996,
-          "last": 1790754691,
-          "playlists": {
-            "breakbeat": 9
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4092,
+      "count": 4093,
       "first": 1788901564,
-      "last": 1790894470,
+      "last": 1790897290,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7290,6 +7279,17 @@
           "last": 1790894470,
           "playlists": {
             "1default": 20
+          }
+        },
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 18,
+          "first": 1789015368,
+          "last": 1790897290,
+          "playlists": {
+            "1default": 18
           }
         },
         {
@@ -7321,17 +7321,6 @@
           "count": 18,
           "first": 1789014862,
           "last": 1790887218,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 18,
-          "first": 1788986736,
-          "last": 1790807211,
           "playlists": {
             "1default": 18
           }
