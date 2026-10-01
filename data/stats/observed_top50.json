@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T21:56:24.133619+00:00",
+  "updatedAt": "2026-10-01T22:01:31.975262+00:00",
   "summary": {
-    "totalPlays": 8696,
+    "totalPlays": 8699,
     "unknownPlays": 1046,
     "uniqueTracks": 2178,
     "uniqueArtists": 1402,
     "uniqueAlbums": 1793,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790891469
+    "lastObserved": 1790892081
   },
   "topSongs": [
     {
@@ -266,12 +266,34 @@
       }
     },
     {
+      "artist": "Enya",
+      "title": "Orinoco Flow",
+      "album": "Watermark",
+      "count": 12,
+      "first": 1789073755,
+      "last": 1790891814,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "You Make Me Want to Kill Myself",
       "album": "You Make Me Want to Kill Myself",
       "count": 12,
       "first": 1788984684,
       "last": 1790891469,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
+      "artist": "Jesus Christ Taxi Driver",
+      "title": "STUPIDMOTHERFUCKER",
+      "album": "Lick My Soul",
+      "count": 12,
+      "first": 1788989164,
+      "last": 1790891313,
       "playlists": {
         "1default": 12
       }
@@ -536,28 +558,6 @@
       "count": 11,
       "first": 1789070850,
       "last": 1790886304,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "The Palmer Squares",
-      "title": "Dip",
-      "album": "Planet of the Shapes",
-      "count": 11,
-      "first": 1788904525,
-      "last": 1790885988,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Gorillaz, Fatoumata Diawara",
-      "title": "Désolé (feat. Fatoumata Diawara)",
-      "album": "Song Machine Episode 2",
-      "count": 11,
-      "first": 1788967094,
-      "last": 1790885484,
       "playlists": {
         "1default": 11
       }
@@ -3002,10 +3002,21 @@
     },
     {
       "artist": "Jesus Christ Taxi Driver",
-      "count": 33,
+      "count": 34,
       "first": 1788919863,
-      "last": 1790890645,
+      "last": 1790891313,
       "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 12,
+          "first": 1788989164,
+          "last": 1790891313,
+          "playlists": {
+            "1default": 12
+          }
+        },
         {
           "artist": "Jesus Christ Taxi Driver",
           "title": "Pawn Shop Prada",
@@ -3015,17 +3026,6 @@
           "last": 1790889322,
           "playlists": {
             "1default": 12
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 11,
-          "first": 1788989164,
-          "last": 1790781864,
-          "playlists": {
-            "1default": 11
           }
         },
         {
@@ -5270,6 +5270,48 @@
       ]
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "album": "Lick My Soul",
+      "count": 34,
+      "first": 1788919863,
+      "last": 1790891313,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 12,
+          "first": 1788989164,
+          "last": 1790891313,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 12,
+          "first": 1788919863,
+          "last": 1790889322,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 10,
+          "first": 1789139069,
+          "last": 1790890645,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "home alone.",
       "album": "ａｒｒｉｖａｌ．",
       "count": 34,
@@ -5406,48 +5448,6 @@
           "last": 1789910987,
           "playlists": {
             "home alone.": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "album": "Lick My Soul",
-      "count": 33,
-      "first": 1788919863,
-      "last": 1790890645,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 12,
-          "first": 1788919863,
-          "last": 1790889322,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 11,
-          "first": 1788989164,
-          "last": 1790781864,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 10,
-          "first": 1789139069,
-          "last": 1790890645,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7222,9 +7222,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4087,
+      "count": 4089,
       "first": 1788901564,
-      "last": 1790891469,
+      "last": 1790891814,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7600,10 +7600,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 221,
+      "count": 222,
       "first": 1788904845,
-      "last": 1790818425,
+      "last": 1790892081,
       "songs": [
+        {
+          "artist": "Dead Kennedys",
+          "title": "Kill the Poor",
+          "album": "Fresh Fruit for Rotting Vegetables",
+          "count": 8,
+          "first": 1788992133,
+          "last": 1790892081,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 8
+          }
+        },
         {
           "artist": "Everlast",
           "title": "Folsom Prison Blues",
@@ -7644,17 +7655,6 @@
           "count": 7,
           "first": 1788993925,
           "last": 1790808911,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 7
-          }
-        },
-        {
-          "artist": "They Might Be Giants",
-          "title": "The Communists Have the Music",
-          "album": "The Communists Have the Music",
-          "count": 7,
-          "first": 1788995009,
-          "last": 1790808764,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 7
           }
