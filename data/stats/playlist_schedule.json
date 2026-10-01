@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T05:26:59.230883+00:00",
+  "updatedAt": "2026-10-01T05:31:56.839147+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 304,
+    "sessionCount": 305,
     "firstObserved": 1788901564,
-    "lastObserved": 1790829984
+    "lastObserved": 1790832692
   },
   "playlists": [
     {
@@ -2469,11 +2469,11 @@
     },
     {
       "playlist": "breakbeat",
-      "sessionCount": 14,
-      "playCount": 720,
+      "sessionCount": 15,
+      "playCount": 721,
       "firstObserved": 1788938278,
-      "lastObserved": 1790752804,
-      "typicalStartMinute": 14,
+      "lastObserved": 1790832692,
+      "typicalStartMinute": 11,
       "typicalDurationMinutes": 139,
       "confidence": "Medium",
       "heatmapMinutes": [
@@ -2553,7 +2553,7 @@
           0.0,
           0.0,
           0.0,
-          85.0
+          87.4
         ],
         [
           180.0,
@@ -2952,7 +2952,7 @@
           0.0,
           0.0,
           0.0,
-          40.0,
+          42.4,
           45.0
         ],
         [
@@ -3425,7 +3425,7 @@
           0,
           0,
           0,
-          3
+          4
         ],
         [
           0,
@@ -3542,9 +3542,9 @@
         },
         {
           "weekday": 2,
-          "sessions": 7,
-          "typicalStartMinute": 33,
-          "typicalDurationMinutes": 133,
+          "sessions": 8,
+          "typicalStartMinute": 25,
+          "typicalDurationMinutes": 132,
           "confidence": "Medium"
         },
         {
@@ -3563,6 +3563,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790832692,
+          "end": 1790832840,
+          "durationMinutes": 2,
+          "playCount": 1
+        },
         {
           "start": 1790752804,
           "end": 1790760634,
@@ -6004,7 +6010,7 @@
     {
       "playlist": "more home alone",
       "sessionCount": 11,
-      "playCount": 150,
+      "playCount": 152,
       "firstObserved": 1788929259,
       "lastObserved": 1790829984,
       "typicalStartMinute": 1367,
@@ -6087,7 +6093,7 @@
           0.0,
           0.0,
           53.0,
-          123.0
+          126.5
         ],
         [
           0.0,
@@ -6485,8 +6491,8 @@
           0.0,
           53.0,
           60.0,
-          58.0,
-          5.0,
+          60.0,
+          6.5,
           0.0
         ],
         [
@@ -7085,16 +7091,16 @@
           "weekday": 2,
           "sessions": 4,
           "typicalStartMinute": 1366,
-          "typicalDurationMinutes": 44,
+          "typicalDurationMinutes": 45,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
         {
           "start": 1790829984,
-          "end": 1790832480,
-          "durationMinutes": 42,
-          "playCount": 15
+          "end": 1790832690,
+          "durationMinutes": 45,
+          "playCount": 17
         },
         {
           "start": 1790743671,
