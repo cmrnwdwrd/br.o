@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T03:31:58.847867+00:00",
+  "updatedAt": "2026-10-01T03:36:42.955788+00:00",
   "summary": {
-    "totalPlays": 8380,
+    "totalPlays": 8381,
     "unknownPlays": 1009,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790825492
+    "lastObserved": 1790825695
   },
   "topSongs": [
     {
@@ -2086,10 +2086,21 @@
     },
     {
       "artist": "The Czars",
-      "count": 56,
+      "count": 57,
       "first": 1788963949,
-      "last": 1790732381,
+      "last": 1790825695,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 10,
+          "first": 1789096240,
+          "last": 1790825695,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Paint the Moon",
@@ -2119,17 +2130,6 @@
           "count": 9,
           "first": 1788963949,
           "last": 1790732381,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 9,
-          "first": 1789096240,
-          "last": 1790726344,
           "playlists": {
             "1default": 9
           }
@@ -4615,10 +4615,21 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 56,
+      "count": 57,
       "first": 1788963949,
-      "last": 1790732381,
+      "last": 1790825695,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 10,
+          "first": 1789096240,
+          "last": 1790825695,
+          "playlists": {
+            "1default": 10
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Paint the Moon",
@@ -4648,17 +4659,6 @@
           "count": 9,
           "first": 1788963949,
           "last": 1790732381,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 9,
-          "first": 1789096240,
-          "last": 1790726344,
           "playlists": {
             "1default": 9
           }
@@ -7061,9 +7061,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3951,
+      "count": 3952,
       "first": 1788901564,
-      "last": 1790825492,
+      "last": 1790825695,
       "songs": [
         {
           "artist": "Tele Novella",
