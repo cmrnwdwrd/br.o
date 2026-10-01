@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T18:36:26.100321+00:00",
+  "updatedAt": "2026-10-01T18:41:16.664140+00:00",
   "summary": {
-    "totalPlays": 8645,
+    "totalPlays": 8646,
     "unknownPlays": 1040,
     "uniqueTracks": 2178,
     "uniqueArtists": 1402,
     "uniqueAlbums": 1793,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790879732
+    "lastObserved": 1790879941
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "Hold Me",
+      "album": "1's a Man, 3's a Band",
+      "count": 11,
+      "first": 1788902047,
+      "last": 1790879941,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Mat Kerekes",
       "title": "Diamonds",
       "album": "Ruby",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788973998,
       "last": 1790872060,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Royel Otis",
-      "title": "Oysters In My Pocket",
-      "album": "Oysters In My Pocket",
-      "count": 11,
-      "first": 1788916765,
-      "last": 1790871707,
       "playlists": {
         "1default": 11
       }
@@ -2001,10 +2001,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 82,
+      "count": 83,
       "first": 1788902047,
-      "last": 1790877970,
+      "last": 1790879941,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 11,
+          "first": 1788902047,
+          "last": 1790879941,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Atom Son of Man",
@@ -2067,17 +2078,6 @@
           "count": 10,
           "first": 1788903730,
           "last": 1790725241,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 10,
-          "first": 1788902047,
-          "last": 1790613695,
           "playlists": {
             "1default": 10
           }
@@ -4701,10 +4701,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 60,
+      "count": 61,
       "first": 1788902047,
-      "last": 1790877970,
+      "last": 1790879941,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 11,
+          "first": 1788902047,
+          "last": 1790879941,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Atom Son of Man",
@@ -4745,17 +4756,6 @@
           "count": 10,
           "first": 1788903730,
           "last": 1790725241,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 10,
-          "first": 1788902047,
-          "last": 1790613695,
           "playlists": {
             "1default": 10
           }
@@ -7222,9 +7222,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4036,
+      "count": 4037,
       "first": 1788901564,
-      "last": 1790879732,
+      "last": 1790879941,
       "songs": [
         {
           "artist": "Tele Novella",
