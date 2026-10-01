@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T04:07:02.382012+00:00",
+  "updatedAt": "2026-10-01T04:11:59.348263+00:00",
   "summary": {
-    "totalPlays": 8388,
+    "totalPlays": 8390,
     "unknownPlays": 1010,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790827204
+    "lastObserved": 1790827859
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "Should've Been Me",
+      "album": "Laurel Hell",
+      "count": 11,
+      "first": 1788920128,
+      "last": 1790827667,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "LCD Soundsystem",
       "title": "All My Friends",
       "album": "Sound of Silver",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788963606,
       "last": 1790801449,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Fugees, Ms. Lauryn Hill",
-      "title": "Killing Me Softly With His Song",
-      "album": "The Score (Expanded Edition)",
-      "count": 11,
-      "first": 1789057927,
-      "last": 1790800852,
       "playlists": {
         "1default": 11
       }
@@ -1721,10 +1721,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 88,
+      "count": 89,
       "first": 1788920128,
-      "last": 1790826020,
+      "last": 1790827667,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 11,
+          "first": 1788920128,
+          "last": 1790827667,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
@@ -1734,17 +1745,6 @@
           "last": 1790826020,
           "playlists": {
             "1default": 11
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 10,
-          "first": 1788920128,
-          "last": 1790625964,
-          "playlists": {
-            "1default": 10
           }
         },
         {
@@ -3083,6 +3083,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 31,
+      "first": 1788965930,
+      "last": 1790827859,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 11,
+          "first": 1788965930,
+          "last": 1790778650,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 10,
+          "first": 1789068640,
+          "last": 1790827859,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 10,
+          "first": 1789215234,
+          "last": 1790800351,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 31,
       "first": 1788919863,
@@ -3160,47 +3201,6 @@
           "last": 1790622972,
           "playlists": {
             "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 30,
-      "first": 1788965930,
-      "last": 1790800351,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 11,
-          "first": 1788965930,
-          "last": 1790778650,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 10,
-          "first": 1789215234,
-          "last": 1790800351,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 9,
-          "first": 1789068640,
-          "last": 1790627998,
-          "playlists": {
-            "1default": 9
           }
         }
       ]
@@ -5959,6 +5959,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 21,
+      "first": 1788920128,
+      "last": 1790827667,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 11,
+          "first": 1788920128,
+          "last": 1790827667,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 10,
+          "first": 1789055950,
+          "last": 1790623785,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "album": "Alligator Bites Never Heal",
       "count": 21,
@@ -6678,37 +6709,6 @@
     },
     {
       "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 20,
-      "first": 1788920128,
-      "last": 1790625964,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 10,
-          "first": 1788920128,
-          "last": 1790625964,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 10,
-          "first": 1789055950,
-          "last": 1790623785,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
       "album": "Bury Me At Makeout Creek",
       "count": 20,
       "first": 1789097836,
@@ -7061,9 +7061,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3959,
+      "count": 3961,
       "first": 1788901564,
-      "last": 1790827204,
+      "last": 1790827859,
       "songs": [
         {
           "artist": "Tele Novella",
