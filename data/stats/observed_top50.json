@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T13:46:26.506139+00:00",
+  "updatedAt": "2026-10-01T13:51:24.490552+00:00",
   "summary": {
-    "totalPlays": 8563,
-    "unknownPlays": 1030,
+    "totalPlays": 8564,
+    "unknownPlays": 1031,
     "uniqueTracks": 2156,
     "uniqueArtists": 1391,
     "uniqueAlbums": 1776,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790862250
+    "lastObserved": 1790862550
   },
   "topSongs": [
     {
@@ -7239,10 +7239,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 431,
+      "count": 432,
       "first": 1788955289,
-      "last": 1790862250,
+      "last": 1790862550,
       "songs": [
+        {
+          "artist": "Her's",
+          "title": "If You Know What's Right",
+          "album": "Invitation to Her's",
+          "count": 2,
+          "first": 1790258013,
+          "last": 1790862550,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Honeywater",
           "title": "7 Hours Ago",
@@ -7283,17 +7294,6 @@
           "count": 2,
           "first": 1788956443,
           "last": 1790861665,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "The 502s",
-          "title": "Just A Little While",
-          "album": "Could It Get Better Than This",
-          "count": 2,
-          "first": 1789043335,
-          "last": 1790861505,
           "playlists": {
             "carhartts": 2
           }
