@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T03:07:09.188109+00:00",
+  "updatedAt": "2026-10-01T03:11:54.704115+00:00",
   "summary": {
-    "totalPlays": 8372,
+    "totalPlays": 8374,
     "unknownPlays": 1009,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790823805
+    "lastObserved": 1790824264
   },
   "topSongs": [
     {
@@ -1350,9 +1350,9 @@
     },
     {
       "artist": "My Chemical Romance",
-      "count": 94,
+      "count": 96,
       "first": 1788965302,
-      "last": 1790823805,
+      "last": 1790824264,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -1374,6 +1374,28 @@
           "last": 1790714355,
           "playlists": {
             "1default": 10
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "I'm Not Okay (I Promise)",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 4,
+          "first": 1789002250,
+          "last": 1790824075,
+          "playlists": {
+            "MCR wednesday wind down": 4
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Summertime",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 3,
+          "first": 1789609459,
+          "last": 1790824264,
+          "playlists": {
+            "MCR wednesday wind down": 3
           }
         },
         {
@@ -1416,17 +1438,6 @@
           "count": 3,
           "first": 1789003457,
           "last": 1790821435,
-          "playlists": {
-            "MCR wednesday wind down": 3
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "I'm Not Okay (I Promise)",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 3,
-          "first": 1789002250,
-          "last": 1790821250,
           "playlists": {
             "MCR wednesday wind down": 3
           }
@@ -1570,17 +1581,6 @@
           "count": 2,
           "first": 1789008538,
           "last": 1790817175,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Summertime",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 2,
-          "first": 1789609459,
-          "last": 1790816927,
           "playlists": {
             "MCR wednesday wind down": 2
           }
@@ -5409,53 +5409,11 @@
       ]
     },
     {
-      "artist": "Your Smith",
-      "album": "Bad Habit",
-      "count": 29,
-      "first": 1788947368,
-      "last": 1790734738,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 10,
-          "first": 1788947368,
-          "last": 1790718606,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 10,
-          "first": 1788969485,
-          "last": 1790713896,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 9,
-          "first": 1789086174,
-          "last": 1790734738,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
       "artist": "My Chemical Romance",
       "album": "Three Cheers for Sweet Revenge",
-      "count": 28,
+      "count": 29,
       "first": 1788995310,
-      "last": 1790821250,
+      "last": 1790824075,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -5472,11 +5430,11 @@
           "artist": "My Chemical Romance",
           "title": "I'm Not Okay (I Promise)",
           "album": "Three Cheers for Sweet Revenge",
-          "count": 3,
+          "count": 4,
           "first": 1789002250,
-          "last": 1790821250,
+          "last": 1790824075,
           "playlists": {
-            "MCR wednesday wind down": 3
+            "MCR wednesday wind down": 4
           }
         },
         {
@@ -5543,6 +5501,48 @@
           "last": 1790213392,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Your Smith",
+      "album": "Bad Habit",
+      "count": 29,
+      "first": 1788947368,
+      "last": 1790734738,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 10,
+          "first": 1788947368,
+          "last": 1790718606,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 10,
+          "first": 1788969485,
+          "last": 1790713896,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 9,
+          "first": 1789086174,
+          "last": 1790734738,
+          "playlists": {
+            "1default": 9
           }
         }
       ]
@@ -5632,42 +5632,11 @@
       ]
     },
     {
-      "artist": "Ramones",
-      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-      "count": 26,
-      "first": 1788968644,
-      "last": 1790807117,
-      "songs": [
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 16,
-          "first": 1788968644,
-          "last": 1790807117,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Blitzkrieg Bop - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 10,
-          "first": 1788997171,
-          "last": 1790612316,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-      "count": 25,
+      "count": 26,
       "first": 1788965302,
-      "last": 1790823465,
+      "last": 1790824264,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -5678,6 +5647,17 @@
           "last": 1790714355,
           "playlists": {
             "1default": 10
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Summertime",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 3,
+          "first": 1789609459,
+          "last": 1790824264,
+          "playlists": {
+            "MCR wednesday wind down": 3
           }
         },
         {
@@ -5726,17 +5706,6 @@
         },
         {
           "artist": "My Chemical Romance",
-          "title": "Summertime",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 2,
-          "first": 1789609459,
-          "last": 1790816927,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
           "title": "Na Na Na (Na Na Na Na Na Na Na Na Na)",
           "album": "Danger Days: The True Lives of the Fabulous Killjoys",
           "count": 2,
@@ -5744,6 +5713,37 @@
           "last": 1790219381,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Ramones",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "count": 26,
+      "first": 1788968644,
+      "last": 1790807117,
+      "songs": [
+        {
+          "artist": "Ramones",
+          "title": "Judy Is a Punk - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 16,
+          "first": 1788968644,
+          "last": 1790807117,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Ramones",
+          "title": "Blitzkrieg Bop - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 10,
+          "first": 1788997171,
+          "last": 1790612316,
+          "playlists": {
+            "1default": 10
           }
         }
       ]
@@ -7565,9 +7565,9 @@
     },
     {
       "playlist": "MCR wednesday wind down",
-      "count": 147,
+      "count": 149,
       "first": 1788995310,
-      "last": 1790823805,
+      "last": 1790824264,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -7578,6 +7578,17 @@
           "last": 1790820367,
           "playlists": {
             "MCR wednesday wind down": 10
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "I'm Not Okay (I Promise)",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 4,
+          "first": 1789002250,
+          "last": 1790824075,
+          "playlists": {
+            "MCR wednesday wind down": 4
           }
         },
         {
@@ -7593,33 +7604,22 @@
         },
         {
           "artist": "My Chemical Romance",
+          "title": "Summertime",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 3,
+          "first": 1789609459,
+          "last": 1790824264,
+          "playlists": {
+            "MCR wednesday wind down": 3
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
           "title": "Kill All Your Friends",
           "album": "Famous Last Words",
           "count": 3,
           "first": 1789009510,
           "last": 1790823805,
-          "playlists": {
-            "MCR wednesday wind down": 3
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "The Kids from Yesterday",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 3,
-          "first": 1789613349,
-          "last": 1790823465,
-          "playlists": {
-            "MCR wednesday wind down": 3
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Our Lady of Sorrows",
-          "album": "I Brought You My Bullets, You Brought Me Your Love",
-          "count": 3,
-          "first": 1789612975,
-          "last": 1790823340,
           "playlists": {
             "MCR wednesday wind down": 3
           }
