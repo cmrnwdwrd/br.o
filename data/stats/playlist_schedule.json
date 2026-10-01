@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T12:01:29.694003+00:00",
+  "updatedAt": "2026-10-01T12:06:27.612459+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 307,
+    "sessionCount": 308,
     "firstObserved": 1788901564,
-    "lastObserved": 1790848849
+    "lastObserved": 1790856105
   },
   "playlists": [
     {
@@ -4839,10 +4839,10 @@
     },
     {
       "playlist": "carhartts",
-      "sessionCount": 13,
-      "playCount": 405,
+      "sessionCount": 14,
+      "playCount": 407,
       "firstObserved": 1788955289,
-      "lastObserved": 1790769820,
+      "lastObserved": 1790856105,
       "typicalStartMinute": 362,
       "typicalDurationMinutes": 120,
       "confidence": "High",
@@ -4932,7 +4932,7 @@
           0.0,
           0.0,
           0.0,
-          172.4,
+          179.8,
           180.0,
           5.5,
           0.0,
@@ -5350,7 +5350,7 @@
           0.0,
           0.0,
           0.0,
-          37.4,
+          44.8,
           45.0,
           45.0,
           45.0,
@@ -5804,7 +5804,7 @@
           0,
           0,
           0,
-          3,
+          4,
           0,
           0,
           0,
@@ -5926,13 +5926,19 @@
         },
         {
           "weekday": 3,
-          "sessions": 3,
+          "sessions": 4,
           "typicalStartMinute": 362,
           "typicalDurationMinutes": 119,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790856105,
+          "end": 1790856549,
+          "durationMinutes": 7,
+          "playCount": 2
+        },
         {
           "start": 1790769820,
           "end": 1790777025,
