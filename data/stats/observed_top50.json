@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T04:31:59.442701+00:00",
+  "updatedAt": "2026-10-01T04:36:56.700573+00:00",
   "summary": {
-    "totalPlays": 8396,
+    "totalPlays": 8398,
     "unknownPlays": 1012,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790828950
+    "lastObserved": 1790829311
   },
   "topSongs": [
     {
@@ -288,6 +288,28 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "gettingyoutobelieve",
+      "album": "pear",
+      "count": 11,
+      "first": 1788920755,
+      "last": 1790829311,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
+      "artist": "Hazel English",
+      "title": "Five and Dime",
+      "album": "Wake UP!",
+      "count": 11,
+      "first": 1789065292,
+      "last": 1790829136,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "NO CHANCE!",
       "title": "I Wanna Be Your Man",
       "album": "I Wanna Be Your Man",
@@ -536,28 +558,6 @@
       "count": 11,
       "first": 1788916461,
       "last": 1790802281,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Twen",
-      "title": "One Stop Shop (For A Fading Revolution)",
-      "album": "One Stop Shop",
-      "count": 11,
-      "first": 1789056787,
-      "last": 1790802069,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Gorillaz, Beck",
-      "title": "The Valley of The Pagans (feat. Beck)",
-      "album": "Song Machine, Season One: Strange Timez (Deluxe)",
-      "count": 11,
-      "first": 1789062154,
-      "last": 1790801887,
       "playlists": {
         "1default": 11
       }
@@ -2616,10 +2616,21 @@
     },
     {
       "artist": "botch",
-      "count": 41,
+      "count": 42,
       "first": 1788920755,
-      "last": 1790800577,
+      "last": 1790829311,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 11,
+          "first": 1788920755,
+          "last": 1790829311,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "botch",
           "title": "a machine as big as a city with a concert at the center",
@@ -2638,17 +2649,6 @@
           "count": 10,
           "first": 1788997306,
           "last": 1790713480,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 10,
-          "first": 1788920755,
-          "last": 1790709961,
           "playlists": {
             "1default": 10
           }
@@ -5959,6 +5959,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 21,
+      "first": 1788920755,
+      "last": 1790829311,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 11,
+          "first": 1788920755,
+          "last": 1790829311,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 10,
+          "first": 1788963025,
+          "last": 1790699574,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Laurel Hell",
       "count": 21,
@@ -6646,37 +6677,6 @@
       ]
     },
     {
-      "artist": "botch",
-      "album": "pear",
-      "count": 20,
-      "first": 1788920755,
-      "last": 1790709961,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 10,
-          "first": 1788920755,
-          "last": 1790709961,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 10,
-          "first": 1788963025,
-          "last": 1790699574,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 20,
@@ -7061,9 +7061,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3967,
+      "count": 3969,
       "first": 1788901564,
-      "last": 1790828950,
+      "last": 1790829311,
       "songs": [
         {
           "artist": "Tele Novella",
