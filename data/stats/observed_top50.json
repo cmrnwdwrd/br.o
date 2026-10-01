@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T16:46:29.746132+00:00",
+  "updatedAt": "2026-10-01T16:51:32.111109+00:00",
   "summary": {
-    "totalPlays": 8614,
+    "totalPlays": 8616,
     "unknownPlays": 1038,
     "uniqueTracks": 2178,
     "uniqueArtists": 1402,
     "uniqueAlbums": 1793,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790873035
+    "lastObserved": 1790873392
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Black Sheep",
+      "title": "The Choice Is Yours (Revisited)",
+      "album": "A Wolf In Sheep's Clothing",
+      "count": 11,
+      "first": 1789062768,
+      "last": 1790873392,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "Radiohead",
       "title": "Just",
       "album": "The Bends",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788968380,
       "last": 1790847460,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "PUP",
-      "title": "Kids",
-      "album": "Morbid Stuff",
-      "count": 11,
-      "first": 1788913008,
-      "last": 1790847251,
       "playlists": {
         "1default": 11
       }
@@ -4379,6 +4379,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 21,
+      "first": 1789069956,
+      "last": 1790873215,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 11,
+          "first": 1789235365,
+          "last": 1790869492,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 10,
+          "first": 1789069956,
+          "last": 1790873215,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "count": 21,
       "first": 1788947080,
@@ -4574,36 +4604,6 @@
           "count": 10,
           "first": 1789215507,
           "last": 1790789413,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Beach Bunny",
-      "count": 21,
-      "first": 1788966457,
-      "last": 1790778889,
-      "songs": [
-        {
-          "artist": "Beach Bunny",
-          "title": "Oxygen",
-          "album": "Oxygen",
-          "count": 11,
-          "first": 1788966457,
-          "last": 1790778889,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Beach Bunny",
-          "title": "Entropy",
-          "album": "Emotional Creature",
-          "count": 10,
-          "first": 1789230720,
-          "last": 1790743040,
           "playlists": {
             "1default": 10
           }
@@ -7211,9 +7211,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4006,
+      "count": 4008,
       "first": 1788901564,
-      "last": 1790873035,
+      "last": 1790873392,
       "songs": [
         {
           "artist": "Tele Novella",
