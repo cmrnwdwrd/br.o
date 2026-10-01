@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T20:31:15.698868+00:00",
+  "updatedAt": "2026-10-01T20:36:38.239495+00:00",
   "summary": {
-    "totalPlays": 8675,
+    "totalPlays": 8677,
     "unknownPlays": 1044,
     "uniqueTracks": 2178,
     "uniqueArtists": 1402,
     "uniqueAlbums": 1793,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790886535
+    "lastObserved": 1790886954
   },
   "topSongs": [
     {
@@ -266,6 +266,17 @@
       }
     },
     {
+      "artist": "David Bowie",
+      "title": "I'm Afraid of Americans (V1)",
+      "album": "Legacy (Deluxe Edition)",
+      "count": 12,
+      "first": 1788912385,
+      "last": 1790886954,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Squirrel Flower",
       "title": "So Hot You're Hurting My Feelings",
       "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
@@ -340,6 +351,17 @@
       "last": 1790627125,
       "playlists": {
         "1default": 12
+      }
+    },
+    {
+      "artist": "The Smashing Pumpkins",
+      "title": "Beautiful - Remastered 2012",
+      "album": "Mellon Collie And The Infinite Sadness (Remastered)",
+      "count": 11,
+      "first": 1789095484,
+      "last": 1790886695,
+      "playlists": {
+        "1default": 11
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 11,
       "first": 1788969737,
       "last": 1790879732,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Smash Mouth",
-      "title": "Walkin' On The Sun",
-      "album": "Fush Yu Mang (20th Anniversary Edition)",
-      "count": 11,
-      "first": 1788967329,
-      "last": 1790879524,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE FUTURE IS DARK",
-      "album": "THE FUTURE IS DARK",
-      "count": 11,
-      "first": 1788913884,
-      "last": 1790879374,
       "playlists": {
         "1default": 11
       }
@@ -4420,6 +4420,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 21,
+      "first": 1788912385,
+      "last": 1790886954,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 12,
+          "first": 1788912385,
+          "last": 1790886954,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 9,
+          "first": 1789129746,
+          "last": 1790641110,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 21,
       "first": 1788989714,
@@ -4576,36 +4606,6 @@
           "last": 1790484376,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 21,
-      "first": 1788986484,
-      "last": 1790805175,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 11,
-          "first": 1788986484,
-          "last": 1790785960,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 10,
-          "first": 1789231311,
-          "last": 1790805175,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7222,9 +7222,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4066,
+      "count": 4068,
       "first": 1788901564,
-      "last": 1790886535,
+      "last": 1790886954,
       "songs": [
         {
           "artist": "Tele Novella",
