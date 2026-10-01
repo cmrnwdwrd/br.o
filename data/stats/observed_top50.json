@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T09:36:16.641357+00:00",
+  "updatedAt": "2026-10-01T09:41:59.948382+00:00",
   "summary": {
-    "totalPlays": 8492,
+    "totalPlays": 8494,
     "unknownPlays": 1023,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790847251
+    "lastObserved": 1790847724
   },
   "topSongs": [
     {
@@ -310,6 +310,28 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 11,
+      "first": 1789033065,
+      "last": 1790847724,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 11,
+      "first": 1788968380,
+      "last": 1790847460,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "PUP",
       "title": "Kids",
       "album": "Morbid Stuff",
@@ -536,28 +558,6 @@
       "count": 11,
       "first": 1788917983,
       "last": 1790827204,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Franz Schubert, Clara Rockmore, Nadia Reisenberg",
-      "title": "Ave Maria, Op. 52 No. 6, D. 839 (Arr. for Theremin & Piano)",
-      "album": "Dvořák, Ravel, Gershwin & Others: Chamber Works",
-      "count": 11,
-      "first": 1789064997,
-      "last": 1790826912,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE KIDS ARE ALL RETARDED",
-      "album": "SWAMP",
-      "count": 11,
-      "first": 1788926373,
-      "last": 1790826797,
       "playlists": {
         "1default": 11
       }
@@ -3258,6 +3258,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 30,
+      "first": 1788973998,
+      "last": 1790847724,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 11,
+          "first": 1789033065,
+          "last": 1790847724,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 10,
+          "first": 1788973998,
+          "last": 1790629701,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 9,
+          "first": 1789226629,
+          "last": 1790692281,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 30,
       "first": 1788973066,
@@ -3333,47 +3374,6 @@
           "count": 9,
           "first": 1789086174,
           "last": 1790734738,
-          "playlists": {
-            "1default": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 29,
-      "first": 1788973998,
-      "last": 1790727367,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 10,
-          "first": 1789033065,
-          "last": 1790727367,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 10,
-          "first": 1788973998,
-          "last": 1790629701,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 9,
-          "first": 1789226629,
-          "last": 1790692281,
           "playlists": {
             "1default": 9
           }
@@ -4147,6 +4147,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 21,
+      "first": 1788947080,
+      "last": 1790847460,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 11,
+          "first": 1788968380,
+          "last": 1790847460,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 10,
+          "first": 1788947080,
+          "last": 1790733718,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khadija Al Hanafi",
       "count": 21,
       "first": 1788941290,
@@ -4415,36 +4445,6 @@
           "last": 1789319672,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 21,
-      "first": 1789054681,
-      "last": 1790740392,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 11,
-          "first": 1789057143,
-          "last": 1790740392,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 10,
-          "first": 1789054681,
-          "last": 1790706826,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -5948,6 +5948,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 21,
+      "first": 1788947080,
+      "last": 1790847460,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 11,
+          "first": 1788968380,
+          "last": 1790847460,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 10,
+          "first": 1788947080,
+          "last": 1790733718,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khadija Al Hanafi",
       "album": "Slime Patrol 2",
       "count": 21,
@@ -6635,37 +6666,6 @@
       ]
     },
     {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 20,
-      "first": 1788947080,
-      "last": 1790733718,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 10,
-          "first": 1788947080,
-          "last": 1790733718,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 10,
-          "first": 1788968380,
-          "last": 1790718798,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 20,
@@ -7050,9 +7050,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 3972,
+      "count": 3974,
       "first": 1788901564,
-      "last": 1790847251,
+      "last": 1790847724,
       "songs": [
         {
           "artist": "Tele Novella",
