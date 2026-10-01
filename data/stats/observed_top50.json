@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T17:21:27.458986+00:00",
+  "updatedAt": "2026-10-01T17:26:16.798150+00:00",
   "summary": {
-    "totalPlays": 8623,
+    "totalPlays": 8625,
     "unknownPlays": 1039,
     "uniqueTracks": 2178,
     "uniqueArtists": 1402,
     "uniqueAlbums": 1793,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790875115
+    "lastObserved": 1790875515
   },
   "topSongs": [
     {
@@ -255,6 +255,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 12,
+      "first": 1788917230,
+      "last": 1790875308,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Teyana Taylor",
       "title": "Gonna Love Me",
       "album": "K.T.S.E.",
@@ -318,6 +329,17 @@
       "last": 1790613917,
       "playlists": {
         "1default": 12
+      }
+    },
+    {
+      "artist": "Tems, Brent Faiyaz",
+      "title": "Found (feat. Brent Faiyaz)",
+      "album": "Found (feat. Brent Faiyaz)",
+      "count": 11,
+      "first": 1788969945,
+      "last": 1790875515,
+      "playlists": {
+        "1default": 11
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 11,
       "first": 1788921291,
       "last": 1790863607,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Collective Soul",
-      "title": "December",
-      "album": "Collective Soul",
-      "count": 11,
-      "first": 1788988096,
-      "last": 1790863323,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Dirge",
-      "album": "Dirge",
-      "count": 11,
-      "first": 1789064784,
-      "last": 1790848633,
       "playlists": {
         "1default": 11
       }
@@ -3001,6 +3001,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 33,
+      "first": 1788917230,
+      "last": 1790875308,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 12,
+          "first": 1788917230,
+          "last": 1790875308,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 11,
+          "first": 1788970790,
+          "last": 1790826409,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 10,
+          "first": 1789050580,
+          "last": 1790733025,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 33,
       "first": 1788946510,
@@ -3141,47 +3182,6 @@
           "last": 1790347260,
           "playlists": {
             "hyperpop friday morning": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 32,
-      "first": 1788917230,
-      "last": 1790826409,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 11,
-          "first": 1788970790,
-          "last": 1790826409,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 11,
-          "first": 1788917230,
-          "last": 1790622765,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 10,
-          "first": 1789050580,
-          "last": 1790733025,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7211,9 +7211,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4015,
+      "count": 4017,
       "first": 1788901564,
-      "last": 1790875115,
+      "last": 1790875515,
       "songs": [
         {
           "artist": "Tele Novella",
