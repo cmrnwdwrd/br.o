@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T19:32:15.118587+00:00",
+  "updatedAt": "2026-10-01T19:36:08.763857+00:00",
   "summary": {
-    "totalPlays": 8660,
-    "unknownPlays": 1042,
+    "totalPlays": 8661,
+    "unknownPlays": 1043,
     "uniqueTracks": 2178,
     "uniqueArtists": 1402,
     "uniqueAlbums": 1793,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790883074
+    "lastObserved": 1790883328
   },
   "topSongs": [
     {
@@ -343,6 +343,17 @@
       }
     },
     {
+      "artist": "Of Monsters and Men",
+      "title": "Wars",
+      "album": "FEVER DREAM",
+      "count": 11,
+      "first": 1788991170,
+      "last": 1790883328,
+      "playlists": {
+        "1default": 11
+      }
+    },
+    {
       "artist": "KXLLSWXTCH, Powers Pleasant",
       "title": "COSMO",
       "album": "THE WALLS HAVE EYES",
@@ -547,17 +558,6 @@
       "count": 11,
       "first": 1788914032,
       "last": 1790877508,
-      "playlists": {
-        "1default": 11
-      }
-    },
-    {
-      "artist": "Zakaraka & Imaginomics",
-      "title": "998 Good Bricks",
-      "album": "Instinct",
-      "count": 11,
-      "first": 1789055424,
-      "last": 1790877235,
       "playlists": {
         "1default": 11
       }
@@ -3745,6 +3745,47 @@
       ]
     },
     {
+      "artist": "Of Monsters and Men",
+      "count": 24,
+      "first": 1788963370,
+      "last": 1790883328,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 11,
+          "first": 1788991170,
+          "last": 1790883328,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 11,
+          "first": 1788963370,
+          "last": 1790697764,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 2,
+          "first": 1789156918,
+          "last": 1789163855,
+          "playlists": {
+            "escaping from cu boulder by giselle": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Cemetery Drive",
       "count": 24,
       "first": 1789051357,
@@ -4103,47 +4144,6 @@
           "last": 1789893243,
           "playlists": {
             "christmas rn": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 23,
-      "first": 1788963370,
-      "last": 1790715820,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 11,
-          "first": 1788963370,
-          "last": 1790697764,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 10,
-          "first": 1788991170,
-          "last": 1790715820,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 2,
-          "first": 1789156918,
-          "last": 1789163855,
-          "playlists": {
-            "escaping from cu boulder by giselle": 2
           }
         }
       ]
@@ -7222,9 +7222,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4051,
+      "count": 4052,
       "first": 1788901564,
-      "last": 1790883074,
+      "last": 1790883328,
       "songs": [
         {
           "artist": "Tele Novella",
