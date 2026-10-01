@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T12:06:27.501936+00:00",
+  "updatedAt": "2026-10-01T12:11:30.850160+00:00",
   "summary": {
-    "totalPlays": 8535,
+    "totalPlays": 8536,
     "unknownPlays": 1028,
     "uniqueTracks": 2151,
     "uniqueArtists": 1387,
     "uniqueAlbums": 1771,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790856367
+    "lastObserved": 1790856549
   },
   "topSongs": [
     {
@@ -7239,10 +7239,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 403,
+      "count": 404,
       "first": 1788955289,
-      "last": 1790856367,
+      "last": 1790856549,
       "songs": [
+        {
+          "artist": "Oliver Hazard",
+          "title": "Dandelion",
+          "album": "Dandelion",
+          "count": 2,
+          "first": 1790253884,
+          "last": 1790856549,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "Garrett Kato",
           "title": "Drugstore Houses",
@@ -7283,17 +7294,6 @@
           "count": 2,
           "first": 1790084130,
           "last": 1790776631,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Rainbow Kitten Surprise",
-          "title": "Heart",
-          "album": "Mary (b-sides)",
-          "count": 2,
-          "first": 1789480709,
-          "last": 1790775951,
           "playlists": {
             "carhartts": 2
           }
