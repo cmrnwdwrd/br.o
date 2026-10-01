@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T09:56:21.305041+00:00",
+  "updatedAt": "2026-10-01T10:01:24.723945+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 306,
+    "sessionCount": 307,
     "firstObserved": 1788901564,
-    "lastObserved": 1790847251
+    "lastObserved": 1790848849
   },
   "playlists": [
     {
       "playlist": "1default",
       "sessionCount": 113,
-      "playCount": 3948,
+      "playCount": 3949,
       "firstObserved": 1788901564,
       "lastObserved": 1790847251,
       "typicalStartMinute": 327,
@@ -102,8 +102,8 @@
           0.0,
           0.0,
           0.0,
-          109.7,
-          4.9,
+          112.4,
+          5.7,
           0.0,
           0.0,
           0.0,
@@ -514,8 +514,8 @@
           0.0,
           0.0,
           52.5,
-          57.2,
-          4.9,
+          60.0,
+          5.7,
           0.0,
           0.0,
           0.0,
@@ -1129,9 +1129,9 @@
       "recentSessions": [
         {
           "start": 1790847251,
-          "end": 1790848633,
-          "durationMinutes": 23,
-          "playCount": 7
+          "end": 1790848847,
+          "durationMinutes": 27,
+          "playCount": 8
         },
         {
           "start": 1790824728,
@@ -3657,10 +3657,10 @@
     },
     {
       "playlist": "freestyle beats to crash your car to",
-      "sessionCount": 13,
-      "playCount": 437,
+      "sessionCount": 14,
+      "playCount": 438,
       "firstObserved": 1788948264,
-      "lastObserved": 1790762620,
+      "lastObserved": 1790848849,
       "typicalStartMinute": 242,
       "typicalDurationMinutes": 120,
       "confidence": "High",
@@ -3748,7 +3748,7 @@
           0.0,
           0.0,
           0.0,
-          174.5,
+          178.0,
           180.0,
           7.1,
           0.0,
@@ -4160,7 +4160,7 @@
           0.0,
           0.0,
           0.0,
-          39.5,
+          43.0,
           45.0,
           45.0,
           45.0,
@@ -4620,7 +4620,7 @@
           0,
           0,
           0,
-          3,
+          4,
           0,
           0,
           0,
@@ -4744,13 +4744,19 @@
         },
         {
           "weekday": 3,
-          "sessions": 3,
+          "sessions": 4,
           "typicalStartMinute": 241,
-          "typicalDurationMinutes": 120,
+          "typicalDurationMinutes": 119,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790848849,
+          "end": 1790849061,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1790762620,
           "end": 1790769818,
