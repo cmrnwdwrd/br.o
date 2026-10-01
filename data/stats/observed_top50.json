@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-01T13:26:29.764202+00:00",
+  "updatedAt": "2026-10-01T13:31:24.008540+00:00",
   "summary": {
-    "totalPlays": 8557,
+    "totalPlays": 8558,
     "unknownPlays": 1030,
     "uniqueTracks": 2156,
     "uniqueArtists": 1391,
     "uniqueAlbums": 1776,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790861060
+    "lastObserved": 1790861286
   },
   "topSongs": [
     {
@@ -7239,10 +7239,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 425,
+      "count": 426,
       "first": 1788955289,
-      "last": 1790861060,
+      "last": 1790861286,
       "songs": [
+        {
+          "artist": "Luz",
+          "title": "the author",
+          "album": "the author",
+          "count": 2,
+          "first": 1790081459,
+          "last": 1790861286,
+          "playlists": {
+            "carhartts": 2
+          }
+        },
         {
           "artist": "The Head And The Heart",
           "title": "All We Ever Knew",
@@ -7283,17 +7294,6 @@
           "count": 2,
           "first": 1788960696,
           "last": 1790859985,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Shakey Graves",
-          "title": "Tomorrow",
-          "album": "Tomorrow",
-          "count": 2,
-          "first": 1789045645,
-          "last": 1790859734,
           "playlists": {
             "carhartts": 2
           }
