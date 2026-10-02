@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T18:31:29.241001+00:00",
-  "lastProcessedTimestamp": "2026-10-02T18:31:29.241001+00:00",
+  "updatedAt": "2026-10-02T18:36:41.847885+00:00",
+  "lastProcessedTimestamp": "2026-10-02T18:36:41.847885+00:00",
   "months": [
     {
       "month": "2026-09",
@@ -56,27 +56,28 @@
     },
     {
       "month": "2026-10",
-      "sampleCount": 437,
-      "sum": 518,
+      "sampleCount": 438,
+      "sum": 522,
       "min": 0,
-      "max": 3,
+      "max": 4,
       "firstSampleAt": "2026-10-01T06:02:00.156118+00:00",
-      "lastSampleAt": "2026-10-02T18:31:29.241001+00:00",
+      "lastSampleAt": "2026-10-02T18:36:41.847885+00:00",
       "listenerDistribution": {
         "1": 356,
         "3": 2,
         "2": 78,
-        "0": 1
+        "0": 1,
+        "4": 1
       },
       "sourceCounts": {
-        "primary": 437
+        "primary": 438
       },
       "daysObserved": [
         "2026-10-01",
         "2026-10-02"
       ],
-      "average": 1.1853546910755148,
-      "median": 1,
+      "average": 1.1917808219178083,
+      "median": 1.0,
       "daysRepresented": 2
     }
   ]
