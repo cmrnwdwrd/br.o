@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T23:26:27.808411+00:00",
+  "updatedAt": "2026-10-02T23:31:25.884767+00:00",
   "summary": {
-    "totalPlays": 9086,
+    "totalPlays": 9087,
     "unknownPlays": 1093,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790983341
+    "lastObserved": 1790983816
   },
   "topSongs": [
     {
@@ -365,6 +365,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 12,
+      "first": 1788975084,
+      "last": 1790983816,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Tally Hall",
       "title": "The Bidding",
       "album": "Marvin's Marvelous Mechanical Museum",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788989714,
       "last": 1790958205,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Letters To Cleo",
-      "title": "Big Star",
-      "album": "Aurora Gory Alice",
-      "count": 12,
-      "first": 1789165225,
-      "last": 1790957341,
       "playlists": {
         "1default": 12
       }
@@ -3863,6 +3863,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 25,
+      "first": 1788919285,
+      "last": 1790983816,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 12,
+          "first": 1788975084,
+          "last": 1790983816,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 12,
+          "first": 1788919285,
+          "last": 1790903650,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 1,
+          "first": 1789893243,
+          "last": 1789893243,
+          "playlists": {
+            "christmas rn": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "count": 25,
       "first": 1788914259,
@@ -4159,47 +4200,6 @@
           "last": 1790953641,
           "playlists": {
             "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 24,
-      "first": 1788919285,
-      "last": 1790903650,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 12,
-          "first": 1788919285,
-          "last": 1790903650,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 11,
-          "first": 1788975084,
-          "last": 1790780071,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 1,
-          "first": 1789893243,
-          "last": 1789893243,
-          "playlists": {
-            "christmas rn": 1
           }
         }
       ]
@@ -7321,9 +7321,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4229,
+      "count": 4230,
       "first": 1788901564,
-      "last": 1790983341,
+      "last": 1790983816,
       "songs": [
         {
           "artist": "Tele Novella",
