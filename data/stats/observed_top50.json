@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T23:46:33.157343+00:00",
+  "updatedAt": "2026-10-02T23:51:29.037584+00:00",
   "summary": {
-    "totalPlays": 9090,
-    "unknownPlays": 1094,
+    "totalPlays": 9091,
+    "unknownPlays": 1095,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790984606
+    "lastObserved": 1790984864
   },
   "topSongs": [
     {
@@ -365,6 +365,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 12,
+      "first": 1789064784,
+      "last": 1790984864,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "The Palmer Squares",
       "title": "Dip",
       "album": "Planet of the Shapes",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788969130,
       "last": 1790958611,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "PUP",
-      "title": "Kids",
-      "album": "Morbid Stuff",
-      "count": 12,
-      "first": 1788913008,
-      "last": 1790958400,
       "playlists": {
         "1default": 12
       }
@@ -1905,10 +1905,21 @@
     },
     {
       "artist": "Opium",
-      "count": 87,
+      "count": 88,
       "first": 1788927400,
-      "last": 1790945221,
+      "last": 1790984864,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 12,
+          "first": 1789064784,
+          "last": 1790984864,
+          "playlists": {
+            "1default": 12
+          }
+        },
         {
           "artist": "Opium",
           "title": "Brainsick",
@@ -1938,17 +1949,6 @@
           "count": 11,
           "first": 1789057319,
           "last": 1790901523,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 11,
-          "first": 1789064784,
-          "last": 1790848633,
           "playlists": {
             "1default": 11
           }
@@ -7321,9 +7321,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4233,
+      "count": 4234,
       "first": 1788901564,
-      "last": 1790984606,
+      "last": 1790984864,
       "songs": [
         {
           "artist": "Tele Novella",
