@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T16:21:26.984804+00:00",
+  "updatedAt": "2026-10-02T16:26:32.011866+00:00",
   "summary": {
-    "totalPlays": 8970,
+    "totalPlays": 8971,
     "unknownPlays": 1080,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790957957
+    "lastObserved": 1790958205
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 12,
+      "first": 1788989714,
+      "last": 1790958205,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Letters To Cleo",
       "title": "Big Star",
       "album": "Aurora Gory Alice",
@@ -549,17 +560,6 @@
       "last": 1790933594,
       "playlists": {
         "1default": 12
-      }
-    },
-    {
-      "artist": "Herbal T",
-      "title": "That's It",
-      "album": "Lo-Fi Blow Dry",
-      "count": 12,
-      "first": 1788943119,
-      "last": 1790931092,
-      "playlists": {
-        "breakbeat": 12
       }
     }
   ],
@@ -4272,6 +4272,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 22,
+      "first": 1788989714,
+      "last": 1790958205,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 12,
+          "first": 1788989714,
+          "last": 1790958205,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 10,
+          "first": 1789169386,
+          "last": 1790885236,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Courtney Barnett",
       "count": 22,
       "first": 1788913469,
@@ -4510,47 +4540,6 @@
           "last": 1790706826,
           "playlists": {
             "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Vampire Weekend",
-      "count": 22,
-      "first": 1788990464,
-      "last": 1790888065,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 12,
-          "first": 1788990464,
-          "last": 1790888065,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 9,
-          "first": 1789108965,
-          "last": 1790652469,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Campus",
-          "album": "Vampire Weekend",
-          "count": 1,
-          "first": 1789762855,
-          "last": 1789762855,
-          "playlists": {
-            "escaping from cu boulder by giselle": 1
           }
         }
       ]
@@ -7189,9 +7178,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4188,
+      "count": 4189,
       "first": 1788901564,
-      "last": 1790957957,
+      "last": 1790958205,
       "songs": [
         {
           "artist": "Tele Novella",
