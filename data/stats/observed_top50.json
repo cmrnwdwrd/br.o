@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T23:06:13.753379+00:00",
+  "updatedAt": "2026-10-02T23:11:26.740853+00:00",
   "summary": {
-    "totalPlays": 9081,
+    "totalPlays": 9083,
     "unknownPlays": 1093,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790982285
+    "lastObserved": 1790982662
   },
   "topSongs": [
     {
@@ -365,6 +365,28 @@
       }
     },
     {
+      "artist": "Monsune",
+      "title": "Nothing in Return",
+      "album": "Nothing in Return",
+      "count": 12,
+      "first": 1789054450,
+      "last": 1790982662,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
+      "artist": "Atom Son of Man",
+      "title": "Hold Me",
+      "album": "1's a Man, 3's a Band",
+      "count": 12,
+      "first": 1788902047,
+      "last": 1790982460,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "The Ephinjis",
       "title": "Hot to Go!",
       "album": "Hot to Go!",
@@ -536,28 +558,6 @@
       "count": 12,
       "first": 1789049428,
       "last": 1790957132,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Sweet Pill",
-      "title": "Blood",
-      "album": "Where the Heart Is",
-      "count": 12,
-      "first": 1789064643,
-      "last": 1790956993,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Fine Young Cannibals",
-      "title": "Good Thing",
-      "album": "The Raw & The Cooked",
-      "count": 12,
-      "first": 1788974590,
-      "last": 1790956330,
       "playlists": {
         "1default": 12
       }
@@ -2001,10 +2001,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 85,
+      "count": 86,
       "first": 1788902047,
-      "last": 1790960379,
+      "last": 1790982460,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 12,
+          "first": 1788902047,
+          "last": 1790982460,
+          "playlists": {
+            "1default": 12
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "You Make Me Want to Kill Myself",
@@ -2023,17 +2034,6 @@
           "count": 11,
           "first": 1788903730,
           "last": 1790960379,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 11,
-          "first": 1788902047,
-          "last": 1790879941,
           "playlists": {
             "1default": 11
           }
@@ -4767,10 +4767,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 62,
+      "count": 63,
       "first": 1788902047,
-      "last": 1790960379,
+      "last": 1790982460,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 12,
+          "first": 1788902047,
+          "last": 1790982460,
+          "playlists": {
+            "1default": 12
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Rock n' roll (Bonus Track)",
@@ -4778,17 +4789,6 @@
           "count": 11,
           "first": 1788903730,
           "last": 1790960379,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 11,
-          "first": 1788902047,
-          "last": 1790879941,
           "playlists": {
             "1default": 11
           }
@@ -7321,9 +7321,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4224,
+      "count": 4226,
       "first": 1788901564,
-      "last": 1790982285,
+      "last": 1790982662,
       "songs": [
         {
           "artist": "Tele Novella",
