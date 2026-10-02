@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T05:01:26.923991+00:00",
+  "updatedAt": "2026-10-02T05:06:26.914695+00:00",
   "summary": {
-    "totalPlays": 8816,
+    "totalPlays": 8817,
     "unknownPlays": 1061,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790917290
+    "lastObserved": 1790917465
   },
   "topSongs": [
     {
@@ -2171,10 +2171,21 @@
     },
     {
       "artist": "Florence + The Machine",
-      "count": 49,
+      "count": 50,
       "first": 1789098538,
-      "last": 1790917044,
+      "last": 1790917465,
       "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "Cassandra",
+          "album": "Dance Fever",
+          "count": 7,
+          "first": 1789101648,
+          "last": 1790917465,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
         {
           "artist": "Florence + The Machine",
           "title": "Dream Girl Evil",
@@ -2237,17 +2248,6 @@
           "count": 6,
           "first": 1789098538,
           "last": 1790400262,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Cassandra",
-          "album": "Dance Fever",
-          "count": 6,
-          "first": 1789101648,
-          "last": 1790315965,
           "playlists": {
             "for the girls driving 85": 6
           }
@@ -5868,6 +5868,59 @@
       ]
     },
     {
+      "artist": "Florence + The Machine",
+      "album": "Dance Fever",
+      "count": 26,
+      "first": 1789099438,
+      "last": 1790917465,
+      "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "Cassandra",
+          "album": "Dance Fever",
+          "count": 7,
+          "first": 1789101648,
+          "last": 1790917465,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Dream Girl Evil",
+          "album": "Dance Fever",
+          "count": 7,
+          "first": 1789101142,
+          "last": 1790407726,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "My Love",
+          "album": "Dance Fever",
+          "count": 7,
+          "first": 1789099438,
+          "last": 1790407495,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Free",
+          "album": "Dance Fever",
+          "count": 5,
+          "first": 1789104727,
+          "last": 1790402170,
+          "playlists": {
+            "for the girls driving 85": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THIS DOES NOT EXIST",
       "count": 26,
@@ -6031,59 +6084,6 @@
           "count": 5,
           "first": 1789191562,
           "last": 1790314295,
-          "playlists": {
-            "for the girls driving 85": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Florence + The Machine",
-      "album": "Dance Fever",
-      "count": 25,
-      "first": 1789099438,
-      "last": 1790407726,
-      "songs": [
-        {
-          "artist": "Florence + The Machine",
-          "title": "Dream Girl Evil",
-          "album": "Dance Fever",
-          "count": 7,
-          "first": 1789101142,
-          "last": 1790407726,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "My Love",
-          "album": "Dance Fever",
-          "count": 7,
-          "first": 1789099438,
-          "last": 1790407495,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Cassandra",
-          "album": "Dance Fever",
-          "count": 6,
-          "first": 1789101648,
-          "last": 1790315965,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Free",
-          "album": "Dance Fever",
-          "count": 5,
-          "first": 1789104727,
-          "last": 1790402170,
           "playlists": {
             "for the girls driving 85": 5
           }
@@ -7540,9 +7540,9 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 278,
+      "count": 279,
       "first": 1789097452,
-      "last": 1790917290,
+      "last": 1790917465,
       "songs": [
         {
           "artist": "Mitski",
@@ -7553,6 +7553,17 @@
           "last": 1790912125,
           "playlists": {
             "for the girls driving 85": 8
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Cassandra",
+          "album": "Dance Fever",
+          "count": 7,
+          "first": 1789101648,
+          "last": 1790917465,
+          "playlists": {
+            "for the girls driving 85": 7
           }
         },
         {
@@ -7584,17 +7595,6 @@
           "count": 7,
           "first": 1789105172,
           "last": 1790915725,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "The Frost",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 7,
-          "first": 1789105519,
-          "last": 1790915079,
           "playlists": {
             "for the girls driving 85": 7
           }
