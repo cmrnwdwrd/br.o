@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T15:51:32.699991+00:00",
+  "updatedAt": "2026-10-02T15:56:29.226461+00:00",
   "summary": {
-    "totalPlays": 8962,
+    "totalPlays": 8964,
     "unknownPlays": 1079,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790956135
+    "lastObserved": 1790956530
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Fine Young Cannibals",
+      "title": "Good Thing",
+      "album": "The Raw & The Cooked",
+      "count": 12,
+      "first": 1788974590,
+      "last": 1790956330,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "botch",
       "title": "gettingyoutobelieve",
       "album": "pear",
@@ -549,17 +560,6 @@
       "last": 1790925902,
       "playlists": {
         "breakbeat": 12
-      }
-    },
-    {
-      "artist": "Your Neighbors",
-      "title": "Chicken",
-      "album": "Chicken",
-      "count": 12,
-      "first": 1789049221,
-      "last": 1790925246,
-      "playlists": {
-        "1default": 12
       }
     }
   ],
@@ -2949,6 +2949,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 35,
+      "first": 1788917230,
+      "last": 1790956530,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 13,
+          "first": 1788917230,
+          "last": 1790945015,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 11,
+          "first": 1789050580,
+          "last": 1790956530,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 11,
+          "first": 1788970790,
+          "last": 1790826409,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 35,
       "first": 1789021318,
@@ -3141,47 +3182,6 @@
           "last": 1789758798,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 34,
-      "first": 1788917230,
-      "last": 1790945015,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 13,
-          "first": 1788917230,
-          "last": 1790945015,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 11,
-          "first": 1788970790,
-          "last": 1790826409,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 10,
-          "first": 1789050580,
-          "last": 1790733025,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7189,9 +7189,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4180,
+      "count": 4182,
       "first": 1788901564,
-      "last": 1790956135,
+      "last": 1790956530,
       "songs": [
         {
           "artist": "Tele Novella",
