@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T06:36:26.916371+00:00",
+  "updatedAt": "2026-10-02T06:41:29.121779+00:00",
   "summary": {
-    "totalPlays": 8837,
-    "unknownPlays": 1062,
+    "totalPlays": 8838,
+    "unknownPlays": 1063,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790922553
+    "lastObserved": 1790923062
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Radiohead",
+      "title": "If You Say the Word",
+      "album": "If You Say the Word",
+      "count": 12,
+      "first": 1789033884,
+      "last": 1790923062,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Bell X1",
       "title": "The Great Defector",
       "album": "Blue Lights on the Runway",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788989164,
       "last": 1790891313,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Arlie",
-      "title": "didya think",
-      "album": "Wait",
-      "count": 12,
-      "first": 1788970349,
-      "last": 1790891114,
       "playlists": {
         "1default": 12
       }
@@ -3105,6 +3105,47 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 33,
+      "first": 1788973066,
+      "last": 1790923062,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 12,
+          "first": 1789033884,
+          "last": 1790923062,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 11,
+          "first": 1788984450,
+          "last": 1790872511,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 10,
+          "first": 1788973066,
+          "last": 1790628688,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 33,
       "first": 1788917230,
@@ -3232,47 +3273,6 @@
           "count": 10,
           "first": 1789225488,
           "last": 1790811497,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 32,
-      "first": 1788973066,
-      "last": 1790873884,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 11,
-          "first": 1789033884,
-          "last": 1790873884,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 11,
-          "first": 1788984450,
-          "last": 1790872511,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 10,
-          "first": 1788973066,
-          "last": 1790628688,
           "playlists": {
             "1default": 10
           }
@@ -7288,9 +7288,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4136,
+      "count": 4137,
       "first": 1788901564,
-      "last": 1790911614,
+      "last": 1790923062,
       "songs": [
         {
           "artist": "Tele Novella",
