@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T07:01:11.234106+00:00",
+  "updatedAt": "2026-10-02T07:06:04.676082+00:00",
   "summary": {
-    "totalPlays": 8844,
+    "totalPlays": 8845,
     "unknownPlays": 1063,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790924379
+    "lastObserved": 1790924639
   },
   "topSongs": [
     {
@@ -1361,10 +1361,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 98,
+      "count": 99,
       "first": 1788920128,
-      "last": 1790920611,
+      "last": 1790924639,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 11,
+          "first": 1789055950,
+          "last": 1790924639,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Should've Been Me",
@@ -1385,17 +1396,6 @@
           "last": 1790826020,
           "playlists": {
             "1default": 11
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 10,
-          "first": 1789055950,
-          "last": 1790623785,
-          "playlists": {
-            "1default": 10
           }
         },
         {
@@ -6312,6 +6312,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 22,
+      "first": 1788920128,
+      "last": 1790924639,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 11,
+          "first": 1789055950,
+          "last": 1790924639,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 11,
+          "first": 1788920128,
+          "last": 1790827667,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 22,
@@ -6491,37 +6522,6 @@
           "count": 10,
           "first": 1788963025,
           "last": 1790699574,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 21,
-      "first": 1788920128,
-      "last": 1790827667,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 11,
-          "first": 1788920128,
-          "last": 1790827667,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 10,
-          "first": 1789055950,
-          "last": 1790623785,
           "playlists": {
             "1default": 10
           }
@@ -7288,9 +7288,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4143,
+      "count": 4144,
       "first": 1788901564,
-      "last": 1790924379,
+      "last": 1790924639,
       "songs": [
         {
           "artist": "Tele Novella",
