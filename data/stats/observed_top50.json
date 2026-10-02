@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T18:21:31.337883+00:00",
+  "updatedAt": "2026-10-02T18:26:25.958874+00:00",
   "summary": {
-    "totalPlays": 9002,
-    "unknownPlays": 1082,
+    "totalPlays": 9004,
+    "unknownPlays": 1083,
     "uniqueTracks": 2184,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790965135
+    "lastObserved": 1790965513
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "My Love Mine All Mine",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 12,
+      "first": 1789130394,
+      "last": 1790965337,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "title": "Texas Sun",
       "album": "Texas Sun",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788910325,
       "last": 1790943290,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Sugarloaf",
-      "title": "West Of Tomorrow",
-      "album": "Sugarloaf",
-      "count": 12,
-      "first": 1788968800,
-      "last": 1790934778,
       "playlists": {
         "1default": 12
       }
@@ -1361,10 +1361,21 @@
     },
     {
       "artist": "Mitski",
-      "count": 99,
+      "count": 100,
       "first": 1788920128,
-      "last": 1790924639,
+      "last": 1790965337,
       "songs": [
+        {
+          "artist": "Mitski",
+          "title": "My Love Mine All Mine",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 12,
+          "first": 1789130394,
+          "last": 1790965337,
+          "playlists": {
+            "1default": 12
+          }
+        },
         {
           "artist": "Mitski",
           "title": "Love Me More",
@@ -1383,17 +1394,6 @@
           "count": 11,
           "first": 1788920128,
           "last": 1790827667,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "My Love Mine All Mine",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 11,
-          "first": 1789130394,
-          "last": 1790826020,
           "playlists": {
             "1default": 11
           }
@@ -2170,107 +2170,22 @@
       ]
     },
     {
-      "artist": "Florence + The Machine",
-      "count": 55,
-      "first": 1789098538,
-      "last": 1790921799,
-      "songs": [
-        {
-          "artist": "Florence + The Machine",
-          "title": "My Love",
-          "album": "Dance Fever",
-          "count": 8,
-          "first": 1789099438,
-          "last": 1790920889,
-          "playlists": {
-            "for the girls driving 85": 8
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Dream Girl Evil",
-          "album": "Dance Fever",
-          "count": 8,
-          "first": 1789101142,
-          "last": 1790919231,
-          "playlists": {
-            "for the girls driving 85": 8
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Just A Girl - From The Original Series \"Yellowjackets\"",
-          "album": "Just A Girl (From The Original Series \"Yellowjackets\")",
-          "count": 7,
-          "first": 1789103353,
-          "last": 1790921799,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Falling",
-          "album": "Lungs (Deluxe Edition)",
-          "count": 7,
-          "first": 1789098538,
-          "last": 1790921374,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Cassandra",
-          "album": "Dance Fever",
-          "count": 7,
-          "first": 1789101648,
-          "last": 1790917465,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Free",
-          "album": "Dance Fever",
-          "count": 6,
-          "first": 1789104727,
-          "last": 1790918420,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "All This And Heaven Too",
-          "album": "Ceremonials",
-          "count": 6,
-          "first": 1789189645,
-          "last": 1790917044,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Third Eye",
-          "album": "How Big, How Blue, How Beautiful",
-          "count": 6,
-          "first": 1789194899,
-          "last": 1790916144,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        }
-      ]
-    },
-    {
       "artist": "Jack Johnson",
-      "count": 54,
+      "count": 55,
       "first": 1789147116,
-      "last": 1790964904,
+      "last": 1790965513,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Better Together",
+          "album": "In Between Dreams",
+          "count": 3,
+          "first": 1789148222,
+          "last": 1790965513,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 3
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Banana Pancakes",
@@ -2460,17 +2375,6 @@
         },
         {
           "artist": "Jack Johnson",
-          "title": "Better Together",
-          "album": "In Between Dreams",
-          "count": 2,
-          "first": 1789148222,
-          "last": 1789753770,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Jack Johnson",
           "title": "My Mind Is For Sale",
           "album": "All The Light Above It Too",
           "count": 2,
@@ -2621,6 +2525,102 @@
           "last": 1789153777,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Florence + The Machine",
+      "count": 55,
+      "first": 1789098538,
+      "last": 1790921799,
+      "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "My Love",
+          "album": "Dance Fever",
+          "count": 8,
+          "first": 1789099438,
+          "last": 1790920889,
+          "playlists": {
+            "for the girls driving 85": 8
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Dream Girl Evil",
+          "album": "Dance Fever",
+          "count": 8,
+          "first": 1789101142,
+          "last": 1790919231,
+          "playlists": {
+            "for the girls driving 85": 8
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Just A Girl - From The Original Series \"Yellowjackets\"",
+          "album": "Just A Girl (From The Original Series \"Yellowjackets\")",
+          "count": 7,
+          "first": 1789103353,
+          "last": 1790921799,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Falling",
+          "album": "Lungs (Deluxe Edition)",
+          "count": 7,
+          "first": 1789098538,
+          "last": 1790921374,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Cassandra",
+          "album": "Dance Fever",
+          "count": 7,
+          "first": 1789101648,
+          "last": 1790917465,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Free",
+          "album": "Dance Fever",
+          "count": 6,
+          "first": 1789104727,
+          "last": 1790918420,
+          "playlists": {
+            "for the girls driving 85": 6
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "All This And Heaven Too",
+          "album": "Ceremonials",
+          "count": 6,
+          "first": 1789189645,
+          "last": 1790917044,
+          "playlists": {
+            "for the girls driving 85": 6
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Third Eye",
+          "album": "How Big, How Blue, How Beautiful",
+          "count": 6,
+          "first": 1789194899,
+          "last": 1790916144,
+          "playlists": {
+            "for the girls driving 85": 6
           }
         }
       ]
@@ -5206,19 +5206,19 @@
     {
       "artist": "Mitski",
       "album": "The Land Is Inhospitable and So Are We",
-      "count": 37,
+      "count": 38,
       "first": 1789102597,
-      "last": 1790920400,
+      "last": 1790965337,
       "songs": [
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
           "album": "The Land Is Inhospitable and So Are We",
-          "count": 11,
+          "count": 12,
           "first": 1789130394,
-          "last": 1790826020,
+          "last": 1790965337,
           "playlists": {
-            "1default": 11
+            "1default": 12
           }
         },
         {
@@ -7178,9 +7178,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4202,
+      "count": 4203,
       "first": 1788901564,
-      "last": 1790961279,
+      "last": 1790965337,
       "songs": [
         {
           "artist": "Tele Novella",
