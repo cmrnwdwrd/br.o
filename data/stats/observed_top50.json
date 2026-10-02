@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T17:01:35.337531+00:00",
+  "updatedAt": "2026-10-02T17:06:25.321635+00:00",
   "summary": {
-    "totalPlays": 8980,
-    "unknownPlays": 1080,
+    "totalPlays": 8982,
+    "unknownPlays": 1081,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790960379
+    "lastObserved": 1790960745
   },
   "topSongs": [
     {
@@ -189,6 +189,17 @@
       }
     },
     {
+      "artist": "Lucius",
+      "title": "Old Tape (feat. Adam Granduciel) - Single Edit",
+      "album": "Old Tape (feat. Adam Granduciel)",
+      "count": 14,
+      "first": 1788912648,
+      "last": 1790960724,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Nat & Alex Wolff",
       "title": "Rollin' Around",
       "album": "Public Places",
@@ -217,17 +228,6 @@
       "count": 13,
       "first": 1788929095,
       "last": 1790956825,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Lucius",
-      "title": "Old Tape (feat. Adam Granduciel) - Single Edit",
-      "album": "Old Tape (feat. Adam Granduciel)",
-      "count": 13,
-      "first": 1788912648,
-      "last": 1790955182,
       "playlists": {
         "1default": 13
       }
@@ -329,6 +329,17 @@
       "last": 1790736953,
       "playlists": {
         "1default": 13
+      }
+    },
+    {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 12,
+      "first": 1788986484,
+      "last": 1790960745,
+      "playlists": {
+        "1default": 12
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788968800,
       "last": 1790934778,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Royal Blood",
-      "title": "Trouble's Coming",
-      "album": "Trouble's Coming",
-      "count": 12,
-      "first": 1788928623,
-      "last": 1790934549,
       "playlists": {
         "1default": 12
       }
@@ -4171,6 +4171,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 23,
+      "first": 1788986484,
+      "last": 1790960745,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 12,
+          "first": 1788986484,
+          "last": 1790960745,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 11,
+          "first": 1789231311,
+          "last": 1790911340,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 23,
       "first": 1788921291,
@@ -4450,36 +4480,6 @@
           "last": 1789583691,
           "playlists": {
             "country music was never for republicans": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 22,
-      "first": 1788986484,
-      "last": 1790911340,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 11,
-          "first": 1789231311,
-          "last": 1790911340,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 11,
-          "first": 1788986484,
-          "last": 1790785960,
-          "playlists": {
-            "1default": 11
           }
         }
       ]
@@ -7178,9 +7178,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4198,
+      "count": 4200,
       "first": 1788901564,
-      "last": 1790960379,
+      "last": 1790960745,
       "songs": [
         {
           "artist": "Tele Novella",
