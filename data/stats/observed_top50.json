@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T12:26:26.294008+00:00",
+  "updatedAt": "2026-10-02T12:31:28.569600+00:00",
   "summary": {
-    "totalPlays": 8896,
-    "unknownPlays": 1070,
+    "totalPlays": 8897,
+    "unknownPlays": 1071,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790943659
+    "lastObserved": 1790944084
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 12,
+      "first": 1789235365,
+      "last": 1790944084,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Brainsick",
       "album": "Brainsick",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1789057751,
       "last": 1790909528,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Sugs",
-      "title": "PICTURESQUE",
-      "album": "PICTURESQUE",
-      "count": 12,
-      "first": 1789060859,
-      "last": 1790903853,
       "playlists": {
         "1default": 12
       }
@@ -4272,6 +4272,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 22,
+      "first": 1789069956,
+      "last": 1790944084,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 12,
+          "first": 1789235365,
+          "last": 1790944084,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 10,
+          "first": 1789069956,
+          "last": 1790873215,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kate Bollinger",
       "count": 22,
       "first": 1788915657,
@@ -4519,36 +4549,6 @@
           "count": 11,
           "first": 1788966960,
           "last": 1790781149,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 22,
-      "first": 1788985030,
-      "last": 1790784950,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 11,
-          "first": 1788987870,
-          "last": 1790784950,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 11,
-          "first": 1788985030,
-          "last": 1790743502,
           "playlists": {
             "1default": 11
           }
@@ -7189,9 +7189,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4156,
+      "count": 4157,
       "first": 1788901564,
-      "last": 1790943659,
+      "last": 1790944084,
       "songs": [
         {
           "artist": "Tele Novella",
