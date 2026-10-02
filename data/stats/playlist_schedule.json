@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T14:56:27.591810+00:00",
+  "updatedAt": "2026-10-02T15:01:39.904792+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 322,
+    "sessionCount": 323,
     "firstObserved": 1788901564,
-    "lastObserved": 1790946121
+    "lastObserved": 1790953256
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 120,
-      "playCount": 4134,
+      "sessionCount": 121,
+      "playCount": 4135,
       "firstObserved": 1788901564,
-      "lastObserved": 1790943290,
-      "typicalStartMinute": 313,
-      "typicalDurationMinutes": 45,
+      "lastObserved": 1790953256,
+      "typicalStartMinute": 335,
+      "typicalDurationMinutes": 44,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -134,7 +134,7 @@
           184.9,
           8.2,
           0.0,
-          173.3,
+          177.2,
           180.0,
           52.2,
           0.0,
@@ -633,7 +633,7 @@
           0.0,
           0.0,
           0.0,
-          38.3,
+          42.2,
           45.0,
           45.0,
           45.0,
@@ -1006,7 +1006,7 @@
           4,
           0,
           0,
-          3,
+          4,
           0,
           0,
           0,
@@ -1106,8 +1106,8 @@
         },
         {
           "weekday": 4,
-          "sessions": 18,
-          "typicalStartMinute": 285,
+          "sessions": 19,
+          "typicalStartMinute": 310,
           "typicalDurationMinutes": 47,
           "confidence": "Low"
         },
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1790953256,
+          "end": 1790953490,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1790943290,
           "end": 1790946121,
@@ -1240,12 +1246,6 @@
           "end": 1790719297,
           "durationMinutes": 481,
           "playCount": 127
-        },
-        {
-          "start": 1790674309,
-          "end": 1790676058,
-          "durationMinutes": 29,
-          "playCount": 9
         }
       ]
     },
@@ -19534,11 +19534,11 @@
     {
       "playlist": "hyperpop friday morning",
       "sessionCount": 4,
-      "playCount": 169,
+      "playCount": 170,
       "firstObserved": 1789131775,
       "lastObserved": 1790946121,
       "typicalStartMinute": 422,
-      "typicalDurationMinutes": 119,
+      "typicalDurationMinutes": 120,
       "confidence": "Medium",
       "heatmapMinutes": [
         [
@@ -19654,8 +19654,8 @@
           0.0,
           0.0,
           231.0,
-          239.0,
-          6.7,
+          240.0,
+          7.6,
           0.0,
           0.0,
           0.0,
@@ -20153,8 +20153,8 @@
           60.0,
           60.0,
           60.0,
-          59.0,
-          6.7,
+          60.0,
+          7.6,
           0.0,
           0.0,
           0.0,
@@ -20601,16 +20601,16 @@
           "weekday": 4,
           "sessions": 4,
           "typicalStartMinute": 422,
-          "typicalDurationMinutes": 119,
+          "typicalDurationMinutes": 120,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
         {
           "start": 1790946121,
-          "end": 1790953140,
-          "durationMinutes": 117,
-          "playCount": 41
+          "end": 1790953256,
+          "durationMinutes": 119,
+          "playCount": 42
         },
         {
           "start": 1790341365,
