@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T12:46:41.490163+00:00",
+  "updatedAt": "2026-10-02T12:51:16.531216+00:00",
   "summary": {
-    "totalPlays": 8901,
+    "totalPlays": 8903,
     "unknownPlays": 1071,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790945015
+    "lastObserved": 1790945386
   },
   "topSongs": [
     {
@@ -310,6 +310,17 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "The End of the Game",
+      "album": "The End of the Game",
+      "count": 12,
+      "first": 1788974227,
+      "last": 1790945386,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Crumb",
       "title": "Locket",
       "album": "Locket",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1789062154,
       "last": 1790910099,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "title": "Visitor",
-      "album": "Visitor",
-      "count": 12,
-      "first": 1788963370,
-      "last": 1790909895,
       "playlists": {
         "1default": 12
       }
@@ -1905,9 +1905,9 @@
     },
     {
       "artist": "Opium",
-      "count": 86,
+      "count": 87,
       "first": 1788927400,
-      "last": 1790943659,
+      "last": 1790945221,
       "songs": [
         {
           "artist": "Opium",
@@ -1918,6 +1918,17 @@
           "last": 1790943659,
           "playlists": {
             "1default": 12
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 11,
+          "first": 1789109880,
+          "last": 1790945221,
+          "playlists": {
+            "1default": 11
           }
         },
         {
@@ -1962,17 +1973,6 @@
           "last": 1790788984,
           "playlists": {
             "1default": 11
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 10,
-          "first": 1789109880,
-          "last": 1790785452,
-          "playlists": {
-            "1default": 10
           }
         },
         {
@@ -3042,6 +3042,58 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 34,
+      "first": 1788946510,
+      "last": 1790945386,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 12,
+          "first": 1788974227,
+          "last": 1790945386,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 11,
+          "first": 1788946510,
+          "last": 1790651275,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 9,
+          "first": 1789142694,
+          "last": 1790621243,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 34,
       "first": 1788917230,
@@ -3275,58 +3327,6 @@
           "last": 1790628688,
           "playlists": {
             "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 33,
-      "first": 1788946510,
-      "last": 1790872288,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 11,
-          "first": 1788974227,
-          "last": 1790872288,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 11,
-          "first": 1788946510,
-          "last": 1790651275,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 9,
-          "first": 1789142694,
-          "last": 1790621243,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1789150460,
-          "last": 1789758798,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
           }
         }
       ]
@@ -4560,10 +4560,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 63,
+      "count": 64,
       "first": 1788927400,
-      "last": 1790901523,
+      "last": 1790945221,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 11,
+          "first": 1789109880,
+          "last": 1790945221,
+          "playlists": {
+            "1default": 11
+          }
+        },
         {
           "artist": "Opium",
           "title": "Delusional",
@@ -4595,17 +4606,6 @@
           "last": 1790788984,
           "playlists": {
             "1default": 11
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 10,
-          "first": 1789109880,
-          "last": 1790785452,
-          "playlists": {
-            "1default": 10
           }
         },
         {
@@ -7189,9 +7189,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4161,
+      "count": 4163,
       "first": 1788901564,
-      "last": 1790945015,
+      "last": 1790945386,
       "songs": [
         {
           "artist": "Tele Novella",
