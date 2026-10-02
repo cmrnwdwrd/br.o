@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T18:26:25.958874+00:00",
+  "updatedAt": "2026-10-02T18:31:29.021375+00:00",
   "summary": {
-    "totalPlays": 9004,
-    "unknownPlays": 1083,
+    "totalPlays": 9005,
+    "unknownPlays": 1084,
     "uniqueTracks": 2184,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790965513
+    "lastObserved": 1790965719
   },
   "topSongs": [
     {
@@ -2171,10 +2171,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 55,
+      "count": 56,
       "first": 1789147116,
-      "last": 1790965513,
+      "last": 1790965719,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Times Like These",
+          "album": "On And On",
+          "count": 3,
+          "first": 1789152330,
+          "last": 1790965719,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 3
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Better Together",
@@ -2380,17 +2391,6 @@
           "count": 2,
           "first": 1789148429,
           "last": 1789752460,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Times Like These",
-          "album": "On And On",
-          "count": 2,
-          "first": 1789152330,
-          "last": 1789751930,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
           }
