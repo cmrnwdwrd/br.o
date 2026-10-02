@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T02:56:26.835435+00:00",
+  "updatedAt": "2026-10-02T03:01:29.516350+00:00",
   "summary": {
-    "totalPlays": 8783,
+    "totalPlays": 8784,
     "unknownPlays": 1057,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790909701
+    "lastObserved": 1790909895
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Of Monsters and Men",
+      "title": "Visitor",
+      "album": "Visitor",
+      "count": 12,
+      "first": 1788963370,
+      "last": 1790909895,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Donovan",
       "title": "Sunshine Superman",
       "album": "Sunshine Superman",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1789057143,
       "last": 1790889525,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "title": "Pawn Shop Prada",
-      "album": "Lick My Soul",
-      "count": 12,
-      "first": 1788919863,
-      "last": 1790889322,
       "playlists": {
         "1default": 12
       }
@@ -3609,10 +3609,21 @@
     },
     {
       "artist": "Of Monsters and Men",
-      "count": 25,
+      "count": 26,
       "first": 1788963370,
-      "last": 1790899228,
+      "last": 1790909895,
       "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 12,
+          "first": 1788963370,
+          "last": 1790909895,
+          "playlists": {
+            "1default": 12
+          }
+        },
         {
           "artist": "Of Monsters and Men",
           "title": "Wars",
@@ -3622,17 +3633,6 @@
           "last": 1790899228,
           "playlists": {
             "1default": 12
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 11,
-          "first": 1788963370,
-          "last": 1790697764,
-          "playlists": {
-            "1default": 11
           }
         },
         {
@@ -7266,9 +7266,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4127,
+      "count": 4128,
       "first": 1788901564,
-      "last": 1790909701,
+      "last": 1790909895,
       "songs": [
         {
           "artist": "Tele Novella",
