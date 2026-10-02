@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T19:11:09.751193+00:00",
+  "updatedAt": "2026-10-02T19:16:20.713013+00:00",
   "summary": {
-    "totalPlays": 9016,
-    "unknownPlays": 1084,
+    "totalPlays": 9018,
+    "unknownPlays": 1085,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790968124
+    "lastObserved": 1790968572
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "Say It Ain't So",
+      "album": "Weezer",
+      "count": 12,
+      "first": 1788946510,
+      "last": 1790968572,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Mitski",
       "title": "My Love Mine All Mine",
       "album": "The Land Is Inhospitable and So Are We",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1789063255,
       "last": 1790943659,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "DARKIE STILL CANNOT RAP",
-      "album": "SWAMP DRAINED",
-      "count": 12,
-      "first": 1788910325,
-      "last": 1790943290,
       "playlists": {
         "1default": 12
       }
@@ -2097,10 +2097,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 63,
+      "count": 64,
       "first": 1789147116,
-      "last": 1790967940,
+      "last": 1790968382,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Angel",
+          "album": "Sleep Through The Static",
+          "count": 3,
+          "first": 1789147875,
+          "last": 1790968382,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 3
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Never Know",
@@ -2262,17 +2273,6 @@
           "count": 2,
           "first": 1789755827,
           "last": 1790962464,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Angel",
-          "album": "Sleep Through The Static",
-          "count": 2,
-          "first": 1789147875,
-          "last": 1790363661,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
           }
@@ -2971,6 +2971,58 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 35,
+      "first": 1788946510,
+      "last": 1790968572,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 12,
+          "first": 1788946510,
+          "last": 1790968572,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 12,
+          "first": 1788974227,
+          "last": 1790945386,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 9,
+          "first": 1789142694,
+          "last": 1790621243,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 35,
       "first": 1788917230,
@@ -3193,58 +3245,6 @@
           "last": 1790872511,
           "playlists": {
             "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 34,
-      "first": 1788946510,
-      "last": 1790945386,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 12,
-          "first": 1788974227,
-          "last": 1790945386,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 11,
-          "first": 1788946510,
-          "last": 1790651275,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 9,
-          "first": 1789142694,
-          "last": 1790621243,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1789150460,
-          "last": 1789758798,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
           }
         }
       ]
@@ -7200,9 +7200,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4203,
+      "count": 4204,
       "first": 1788901564,
-      "last": 1790965337,
+      "last": 1790968572,
       "songs": [
         {
           "artist": "Tele Novella",
