@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T12:16:02.653622+00:00",
+  "updatedAt": "2026-10-02T12:21:25.547234+00:00",
   "summary": {
-    "totalPlays": 8895,
+    "totalPlays": 8896,
     "unknownPlays": 1070,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790943290
+    "lastObserved": 1790943659
   },
   "topSongs": [
     {
@@ -299,6 +299,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 12,
+      "first": 1789063255,
+      "last": 1790943659,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "DARKIE STILL CANNOT RAP",
       "album": "SWAMP DRAINED",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1789060859,
       "last": 1790903853,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Leon Bridges",
-      "title": "Steam",
-      "album": "Gold-Diggers Sound",
-      "count": 12,
-      "first": 1788919285,
-      "last": 1790903650,
       "playlists": {
         "1default": 12
       }
@@ -1905,10 +1905,21 @@
     },
     {
       "artist": "Opium",
-      "count": 85,
+      "count": 86,
       "first": 1788927400,
-      "last": 1790901523,
+      "last": 1790943659,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 12,
+          "first": 1789063255,
+          "last": 1790943659,
+          "playlists": {
+            "1default": 12
+          }
+        },
         {
           "artist": "Opium",
           "title": "Delusional",
@@ -1938,17 +1949,6 @@
           "count": 11,
           "first": 1788927400,
           "last": 1790828387,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 11,
-          "first": 1789063255,
-          "last": 1790804785,
           "playlists": {
             "1default": 11
           }
@@ -7189,9 +7189,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4155,
+      "count": 4156,
       "first": 1788901564,
-      "last": 1790943290,
+      "last": 1790943659,
       "songs": [
         {
           "artist": "Tele Novella",
