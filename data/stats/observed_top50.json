@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T06:51:05.289935+00:00",
+  "updatedAt": "2026-10-02T06:56:25.439042+00:00",
   "summary": {
-    "totalPlays": 8841,
+    "totalPlays": 8843,
     "unknownPlays": 1063,
     "uniqueTracks": 2183,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790923734
+    "lastObserved": 1790924169
   },
   "topSongs": [
     {
@@ -288,6 +288,17 @@
       }
     },
     {
+      "artist": "Sjowgren",
+      "title": "Flip Phones",
+      "album": "win'20",
+      "count": 12,
+      "first": 1789059354,
+      "last": 1790924169,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "The Czars",
       "title": "Drug",
       "album": "Best Of",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1789073755,
       "last": 1790891814,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "You Make Me Want to Kill Myself",
-      "album": "You Make Me Want to Kill Myself",
-      "count": 12,
-      "first": 1788984684,
-      "last": 1790891469,
       "playlists": {
         "1default": 12
       }
@@ -3105,6 +3105,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 33,
+      "first": 1788965724,
+      "last": 1790924169,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 12,
+          "first": 1789059354,
+          "last": 1790924169,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 11,
+          "first": 1788965724,
+          "last": 1790879171,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 10,
+          "first": 1789225488,
+          "last": 1790811497,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 33,
       "first": 1788973066,
@@ -3234,47 +3275,6 @@
           "last": 1789758798,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 32,
-      "first": 1788965724,
-      "last": 1790879171,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 11,
-          "first": 1788965724,
-          "last": 1790879171,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 11,
-          "first": 1789059354,
-          "last": 1790804572,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 10,
-          "first": 1789225488,
-          "last": 1790811497,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -6312,6 +6312,37 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "album": "win'20",
+      "count": 22,
+      "first": 1789059354,
+      "last": 1790924169,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 12,
+          "first": 1789059354,
+          "last": 1790924169,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 10,
+          "first": 1789225488,
+          "last": 1790811497,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "album": "Father of the Bride",
       "count": 21,
@@ -6491,37 +6522,6 @@
           "count": 10,
           "first": 1789055950,
           "last": 1790623785,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "album": "win'20",
-      "count": 21,
-      "first": 1789059354,
-      "last": 1790811497,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 11,
-          "first": 1789059354,
-          "last": 1790804572,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 10,
-          "first": 1789225488,
-          "last": 1790811497,
           "playlists": {
             "1default": 10
           }
@@ -7288,9 +7288,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4140,
+      "count": 4142,
       "first": 1788901564,
-      "last": 1790923734,
+      "last": 1790924169,
       "songs": [
         {
           "artist": "Tele Novella",
