@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-02T22:56:29.950690+00:00",
+  "updatedAt": "2026-10-02T23:01:55.546695+00:00",
   "summary": {
-    "totalPlays": 9077,
-    "unknownPlays": 1092,
+    "totalPlays": 9079,
+    "unknownPlays": 1093,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1790981578
+    "lastObserved": 1790982025
   },
   "topSongs": [
     {
@@ -222,6 +222,17 @@
       }
     },
     {
+      "artist": "Los Narwhals",
+      "title": "Surfer Babe",
+      "album": "Lagrimas de Agave",
+      "count": 13,
+      "first": 1788972740,
+      "last": 1790982025,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Vampire Weekend",
       "title": "How Long?",
       "album": "Father of the Bride",
@@ -351,6 +362,17 @@
       "last": 1790736953,
       "playlists": {
         "1default": 13
+      }
+    },
+    {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 12,
+      "first": 1789033065,
+      "last": 1790981835,
+      "playlists": {
+        "1default": 12
       }
     },
     {
@@ -536,28 +558,6 @@
       "count": 12,
       "first": 1788974590,
       "last": 1790956330,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "gettingyoutobelieve",
-      "album": "pear",
-      "count": 12,
-      "first": 1788920755,
-      "last": 1790956135,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Fastball",
-      "title": "The Way",
-      "album": "All The Pain Money Can Buy",
-      "count": 12,
-      "first": 1789058710,
-      "last": 1790955645,
       "playlists": {
         "1default": 12
       }
@@ -3354,6 +3354,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 32,
+      "first": 1788973998,
+      "last": 1790981835,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 12,
+          "first": 1789033065,
+          "last": 1790981835,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 11,
+          "first": 1788973998,
+          "last": 1790872060,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 9,
+          "first": 1789226629,
+          "last": 1790692281,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 32,
       "first": 1788947368,
@@ -3390,47 +3431,6 @@
           "last": 1790874145,
           "playlists": {
             "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 31,
-      "first": 1788973998,
-      "last": 1790872060,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 11,
-          "first": 1788973998,
-          "last": 1790872060,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 11,
-          "first": 1789033065,
-          "last": 1790847724,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 9,
-          "first": 1789226629,
-          "last": 1790692281,
-          "playlists": {
-            "1default": 9
           }
         }
       ]
@@ -7321,9 +7321,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4220,
+      "count": 4222,
       "first": 1788901564,
-      "last": 1790981578,
+      "last": 1790982025,
       "songs": [
         {
           "artist": "Tele Novella",
