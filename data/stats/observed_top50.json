@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T12:36:27.638995+00:00",
+  "updatedAt": "2026-10-03T12:41:32.474512+00:00",
   "summary": {
-    "totalPlays": 9245,
-    "unknownPlays": 1112,
+    "totalPlays": 9246,
+    "unknownPlays": 1113,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791030894
+    "lastObserved": 1791031239
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Antidote",
+      "album": "A Collection of Fleeting Moments and Daydreams",
+      "count": 12,
+      "first": 1788987870,
+      "last": 1791031239,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "N.E.R.D",
       "title": "Run To The Sun",
       "album": "In Search Of...",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788925926,
       "last": 1791023574,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Smash Mouth",
-      "title": "Walkin' On The Sun",
-      "album": "Fush Yu Mang (20th Anniversary Edition)",
-      "count": 12,
-      "first": 1788967329,
-      "last": 1791022954,
       "playlists": {
         "1default": 12
       }
@@ -4437,6 +4437,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 23,
+      "first": 1788985030,
+      "last": 1791031239,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 12,
+          "first": 1788987870,
+          "last": 1791031239,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 11,
+          "first": 1788985030,
+          "last": 1790743502,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kacey Musgraves",
       "count": 23,
       "first": 1789098752,
@@ -4675,36 +4705,6 @@
           "last": 1789319672,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "count": 22,
-      "first": 1788947080,
-      "last": 1791024561,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 12,
-          "first": 1788968380,
-          "last": 1791024561,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 10,
-          "first": 1788947080,
-          "last": 1790733718,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7354,9 +7354,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4279,
+      "count": 4280,
       "first": 1788901564,
-      "last": 1791030894,
+      "last": 1791031239,
       "songs": [
         {
           "artist": "Tele Novella",
