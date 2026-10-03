@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T05:26:31.050005+00:00",
+  "updatedAt": "2026-10-03T05:31:36.722346+00:00",
   "summary": {
-    "totalPlays": 9163,
+    "totalPlays": 9164,
     "unknownPlays": 1103,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791005047
+    "lastObserved": 1791005259
   },
   "topSongs": [
     {
@@ -7606,10 +7606,21 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 303,
+      "count": 304,
       "first": 1789097452,
-      "last": 1791005047,
+      "last": 1791005259,
       "songs": [
+        {
+          "artist": "Carole King",
+          "title": "Time Gone By",
+          "album": "Touch the Sky",
+          "count": 8,
+          "first": 1789191307,
+          "last": 1791005259,
+          "playlists": {
+            "for the girls driving 85": 8
+          }
+        },
         {
           "artist": "Florence + The Machine",
           "title": "My Love",
@@ -7652,17 +7663,6 @@
           "last": 1790912125,
           "playlists": {
             "for the girls driving 85": 8
-          }
-        },
-        {
-          "artist": "Tanya Tucker",
-          "title": "My Arms Stay Open All Night",
-          "album": "20 Greatest Hits",
-          "count": 7,
-          "first": 1789104961,
-          "last": 1791005047,
-          "playlists": {
-            "for the girls driving 85": 7
           }
         }
       ]
