@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T07:26:17.684682+00:00",
+  "updatedAt": "2026-10-03T07:31:28.230055+00:00",
   "summary": {
-    "totalPlays": 9190,
+    "totalPlays": 9192,
     "unknownPlays": 1106,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791011923
+    "lastObserved": 1791012595
   },
   "topSongs": [
     {
@@ -2898,10 +2898,21 @@
     },
     {
       "artist": "Ethel Cain",
-      "count": 37,
+      "count": 38,
       "first": 1789098981,
-      "last": 1791011923,
+      "last": 1791012389,
       "songs": [
+        {
+          "artist": "Ethel Cain",
+          "title": "Crush",
+          "album": "Inbred",
+          "count": 8,
+          "first": 1789100938,
+          "last": 1791012389,
+          "playlists": {
+            "for the girls driving 85": 8
+          }
+        },
         {
           "artist": "Ethel Cain",
           "title": "Strangers",
@@ -2931,17 +2942,6 @@
           "count": 7,
           "first": 1789191562,
           "last": 1791011923,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        },
-        {
-          "artist": "Ethel Cain",
-          "title": "Crush",
-          "album": "Inbred",
-          "count": 7,
-          "first": 1789100938,
-          "last": 1790914875,
           "playlists": {
             "for the girls driving 85": 7
           }
@@ -3915,6 +3915,69 @@
       ]
     },
     {
+      "artist": "The Chicks",
+      "count": 25,
+      "first": 1789045885,
+      "last": 1791012595,
+      "songs": [
+        {
+          "artist": "The Chicks",
+          "title": "The Long Way Around",
+          "album": "Taking The Long Way",
+          "count": 7,
+          "first": 1789190065,
+          "last": 1791012595,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
+        {
+          "artist": "The Chicks",
+          "title": "Wide Open Spaces",
+          "album": "Wide Open Spaces",
+          "count": 7,
+          "first": 1789107001,
+          "last": 1791009080,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
+        {
+          "artist": "The Chicks",
+          "title": "Cowboy Take Me Away",
+          "album": "Fly",
+          "count": 7,
+          "first": 1789106714,
+          "last": 1791006977,
+          "playlists": {
+            "for the girls driving 85": 7
+          }
+        },
+        {
+          "artist": "The Chicks",
+          "title": "Goodbye Earl",
+          "album": "Fly",
+          "count": 2,
+          "first": 1789583434,
+          "last": 1790795969,
+          "playlists": {
+            "country music was never for republicans": 2
+          }
+        },
+        {
+          "artist": "The Chicks",
+          "title": "Travelin' Soldier",
+          "album": "The Essential The Chicks",
+          "count": 2,
+          "first": 1789045885,
+          "last": 1789583691,
+          "playlists": {
+            "country music was never for republicans": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 25,
       "first": 1788919285,
@@ -4129,69 +4192,6 @@
           "last": 1790574671,
           "playlists": {
             "EPL4a": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Chicks",
-      "count": 24,
-      "first": 1789045885,
-      "last": 1791009080,
-      "songs": [
-        {
-          "artist": "The Chicks",
-          "title": "Wide Open Spaces",
-          "album": "Wide Open Spaces",
-          "count": 7,
-          "first": 1789107001,
-          "last": 1791009080,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Cowboy Take Me Away",
-          "album": "Fly",
-          "count": 7,
-          "first": 1789106714,
-          "last": 1791006977,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "The Long Way Around",
-          "album": "Taking The Long Way",
-          "count": 6,
-          "first": 1789190065,
-          "last": 1790922279,
-          "playlists": {
-            "for the girls driving 85": 6
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Goodbye Earl",
-          "album": "Fly",
-          "count": 2,
-          "first": 1789583434,
-          "last": 1790795969,
-          "playlists": {
-            "country music was never for republicans": 2
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Travelin' Soldier",
-          "album": "The Essential The Chicks",
-          "count": 2,
-          "first": 1789045885,
-          "last": 1789583691,
-          "playlists": {
-            "country music was never for republicans": 2
           }
         }
       ]
@@ -7628,9 +7628,9 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 328,
+      "count": 330,
       "first": 1789097452,
-      "last": 1791011923,
+      "last": 1791012595,
       "songs": [
         {
           "artist": "Mary Gauthier",
@@ -7641,6 +7641,17 @@
           "last": 1791008028,
           "playlists": {
             "for the girls driving 85": 9
+          }
+        },
+        {
+          "artist": "Ethel Cain",
+          "title": "Crush",
+          "album": "Inbred",
+          "count": 8,
+          "first": 1789100938,
+          "last": 1791012389,
+          "playlists": {
+            "for the girls driving 85": 8
           }
         },
         {
@@ -7672,17 +7683,6 @@
           "count": 8,
           "first": 1789103353,
           "last": 1791010974,
-          "playlists": {
-            "for the girls driving 85": 8
-          }
-        },
-        {
-          "artist": "Mary Gauthier",
-          "title": "The Sun Fades The Color Of Everything",
-          "album": "Filth & Fire",
-          "count": 8,
-          "first": 1789105172,
-          "last": 1791010756,
           "playlists": {
             "for the girls driving 85": 8
           }
