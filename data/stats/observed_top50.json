@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T12:51:27.889832+00:00",
+  "updatedAt": "2026-10-03T12:56:28.817361+00:00",
   "summary": {
-    "totalPlays": 9249,
+    "totalPlays": 9250,
     "unknownPlays": 1114,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791031876
+    "lastObserved": 1791032173
   },
   "topSongs": [
     {
@@ -35,6 +35,17 @@
       }
     },
     {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 19,
+      "first": 1789015368,
+      "last": 1791032173,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "title": "Happy Boy",
       "album": "WAR IN COLORADO!",
@@ -52,17 +63,6 @@
       "count": 18,
       "first": 1788991593,
       "last": 1790981370,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 18,
-      "first": 1789015368,
-      "last": 1790897290,
       "playlists": {
         "1default": 18
       }
@@ -7229,6 +7229,26 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 19,
+      "first": 1789015368,
+      "last": 1791032173,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 19,
+          "first": 1789015368,
+          "last": 1791032173,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "Clap! Clap!, Domenico Candellori, TOROZEBU",
       "album": "TOROZEBU",
       "count": 19,
@@ -7329,34 +7349,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Lush",
-      "album": "Lovelife",
-      "count": 18,
-      "first": 1789015368,
-      "last": 1790897290,
-      "songs": [
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 18,
-          "first": 1789015368,
-          "last": 1790897290,
-          "playlists": {
-            "1default": 18
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4283,
+      "count": 4284,
       "first": 1788901564,
-      "last": 1791031876,
+      "last": 1791032173,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7367,6 +7367,17 @@
           "last": 1790894470,
           "playlists": {
             "1default": 20
+          }
+        },
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 19,
+          "first": 1789015368,
+          "last": 1791032173,
+          "playlists": {
+            "1default": 19
           }
         },
         {
@@ -7387,17 +7398,6 @@
           "count": 18,
           "first": 1788991593,
           "last": 1790981370,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 18,
-          "first": 1789015368,
-          "last": 1790897290,
           "playlists": {
             "1default": 18
           }
