@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T12:41:32.474512+00:00",
+  "updatedAt": "2026-10-03T12:46:39.567747+00:00",
   "summary": {
-    "totalPlays": 9246,
-    "unknownPlays": 1113,
+    "totalPlays": 9247,
+    "unknownPlays": 1114,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791031239
+    "lastObserved": 1791031440
   },
   "topSongs": [
     {
@@ -376,6 +376,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Pride (In The Name Of Love) - Remastered 2009",
+      "album": "The Unforgettable Fire (Remastered)",
+      "count": 12,
+      "first": 1788964687,
+      "last": 1791031440,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Orion Sun",
       "title": "Antidote",
       "album": "A Collection of Fleeting Moments and Daydreams",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788971012,
       "last": 1791024111,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "title": "Keep Pushing",
-      "album": "Change the Channel",
-      "count": 12,
-      "first": 1788925926,
-      "last": 1791023574,
       "playlists": {
         "1default": 12
       }
@@ -4197,6 +4197,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 24,
+      "first": 1788921291,
+      "last": 1791031440,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 12,
+          "first": 1788964687,
+          "last": 1791031440,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 12,
+          "first": 1788921291,
+          "last": 1790898946,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 24,
       "first": 1788990464,
@@ -4561,36 +4591,6 @@
           "count": 11,
           "first": 1789231311,
           "last": 1790911340,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 23,
-      "first": 1788921291,
-      "last": 1790898946,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 12,
-          "first": 1788921291,
-          "last": 1790898946,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 11,
-          "first": 1788964687,
-          "last": 1790797871,
           "playlists": {
             "1default": 11
           }
@@ -7354,9 +7354,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4280,
+      "count": 4281,
       "first": 1788901564,
-      "last": 1791031239,
+      "last": 1791031440,
       "songs": [
         {
           "artist": "Tele Novella",
