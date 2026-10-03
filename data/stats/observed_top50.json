@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T13:21:26.030698+00:00",
+  "updatedAt": "2026-10-03T13:26:07.471824+00:00",
   "summary": {
-    "totalPlays": 9256,
+    "totalPlays": 9257,
     "unknownPlays": 1114,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791033607
+    "lastObserved": 1791033871
   },
   "topSongs": [
     {
@@ -32,6 +32,17 @@
       "last": 1790894470,
       "playlists": {
         "1default": 20
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 19,
+      "first": 1789014862,
+      "last": 1791033871,
+      "playlists": {
+        "1default": 19
       }
     },
     {
@@ -85,17 +96,6 @@
       "count": 18,
       "first": 1788968644,
       "last": 1790894379,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 18,
-      "first": 1789014862,
-      "last": 1790887218,
       "playlists": {
         "1default": 18
       }
@@ -7229,6 +7229,26 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 19,
+      "first": 1789014862,
+      "last": 1791033871,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 19,
+          "first": 1789014862,
+          "last": 1791033871,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "Colfax Speed Queen",
       "album": "Satisfaction Intended",
       "count": 19,
@@ -7329,34 +7349,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "album": "WAR IN COLORADO!",
-      "count": 18,
-      "first": 1788993017,
-      "last": 1791023803,
-      "songs": [
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 18,
-          "first": 1788993017,
-          "last": 1791023803,
-          "playlists": {
-            "1default": 18
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4290,
+      "count": 4291,
       "first": 1788901564,
-      "last": 1791033607,
+      "last": 1791033871,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7367,6 +7367,17 @@
           "last": 1790894470,
           "playlists": {
             "1default": 20
+          }
+        },
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 19,
+          "first": 1789014862,
+          "last": 1791033871,
+          "playlists": {
+            "1default": 19
           }
         },
         {
@@ -7398,17 +7409,6 @@
           "count": 18,
           "first": 1788993017,
           "last": 1791023803,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 18,
-          "first": 1788991593,
-          "last": 1790981370,
           "playlists": {
             "1default": 18
           }
