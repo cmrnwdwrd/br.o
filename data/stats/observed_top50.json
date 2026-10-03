@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T14:11:30.008890+00:00",
+  "updatedAt": "2026-10-03T14:16:29.184480+00:00",
   "summary": {
-    "totalPlays": 9269,
+    "totalPlays": 9272,
     "unknownPlays": 1116,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791036418
+    "lastObserved": 1791036941
   },
   "topSongs": [
     {
@@ -233,6 +233,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Pride (In The Name Of Love) - Remastered 2009",
+      "album": "The Unforgettable Fire (Remastered)",
+      "count": 13,
+      "first": 1788964687,
+      "last": 1791036707,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Mitski",
       "title": "My Love Mine All Mine",
       "album": "The Land Is Inhospitable and So Are We",
@@ -448,17 +459,6 @@
       "count": 12,
       "first": 1788969737,
       "last": 1791031668,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Pride (In The Name Of Love) - Remastered 2009",
-      "album": "The Unforgettable Fire (Remastered)",
-      "count": 12,
-      "first": 1788964687,
-      "last": 1791031440,
       "playlists": {
         "1default": 12
       }
@@ -3915,6 +3915,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 25,
+      "first": 1788921291,
+      "last": 1791036707,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 13,
+          "first": 1788964687,
+          "last": 1791036707,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 12,
+          "first": 1788921291,
+          "last": 1790898946,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 25,
       "first": 1788990464,
@@ -4233,36 +4263,6 @@
           "last": 1790574671,
           "playlists": {
             "EPL4a": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 24,
-      "first": 1788921291,
-      "last": 1791031440,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 12,
-          "first": 1788964687,
-          "last": 1791031440,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 12,
-          "first": 1788921291,
-          "last": 1790898946,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -6646,6 +6646,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 21,
+      "first": 1789166634,
+      "last": 1791036941,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 11,
+          "first": 1789166634,
+          "last": 1791036941,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 10,
+          "first": 1789167660,
+          "last": 1790740985,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "鈴木 弘",
       "album": "キャット",
       "count": 21,
@@ -7145,37 +7176,6 @@
       ]
     },
     {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 20,
-      "first": 1789166634,
-      "last": 1790779482,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 10,
-          "first": 1789166634,
-          "last": 1790779482,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 10,
-          "first": 1789167660,
-          "last": 1790740985,
-          "playlists": {
-            "1default": 10
-          }
-        }
-      ]
-    },
-    {
       "artist": "Sophie Truax",
       "album": "Kissing With a Cavity",
       "count": 20,
@@ -7354,9 +7354,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4303,
+      "count": 4306,
       "first": 1788901564,
-      "last": 1791036418,
+      "last": 1791036941,
       "songs": [
         {
           "artist": "Tele Novella",
