@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T05:01:59.184233+00:00",
+  "updatedAt": "2026-10-03T05:06:26.369961+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 332,
+    "sessionCount": 333,
     "firstObserved": 1788901564,
-    "lastObserved": 1790995696
+    "lastObserved": 1791003945
   },
   "playlists": [
     {
@@ -8362,12 +8362,12 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "sessionCount": 7,
-      "playCount": 315,
+      "sessionCount": 8,
+      "playCount": 316,
       "firstObserved": 1789097452,
-      "lastObserved": 1790911893,
-      "typicalStartMinute": 1330,
-      "typicalDurationMinutes": 185,
+      "lastObserved": 1791003945,
+      "typicalStartMinute": 1337,
+      "typicalDurationMinutes": 184,
       "confidence": "Medium",
       "heatmapMinutes": [
         [
@@ -8498,7 +8498,7 @@
           0.0,
           0.0,
           0.0,
-          170.8
+          175.3
         ],
         [
           180.0,
@@ -9039,7 +9039,7 @@
           0.0,
           0.0,
           0.0,
-          35.9,
+          40.3,
           45.0,
           45.0,
           45.0
@@ -9370,7 +9370,7 @@
           0,
           0,
           0,
-          3
+          4
         ],
         [
           0,
@@ -9435,13 +9435,19 @@
         },
         {
           "weekday": 4,
-          "sessions": 3,
-          "typicalStartMinute": 1382,
+          "sessions": 4,
+          "typicalStartMinute": 1383,
           "typicalDurationMinutes": 193,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1791003945,
+          "end": 1791004214,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1790911893,
           "end": 1790923019,
