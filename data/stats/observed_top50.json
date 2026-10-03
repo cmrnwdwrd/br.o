@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T17:51:30.650149+00:00",
+  "updatedAt": "2026-10-03T17:56:17.561140+00:00",
   "summary": {
-    "totalPlays": 9331,
+    "totalPlays": 9332,
     "unknownPlays": 1123,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791049782
+    "lastObserved": 1791049978
   },
   "topSongs": [
     {
@@ -420,6 +420,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 12,
+      "first": 1788965930,
+      "last": 1791049978,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Sexy Coyote",
       "title": "Dancing With Demons",
       "album": "Dancing With Demons",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788910695,
       "last": 1791041055,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Rilo Kiley",
-      "title": "Science Vs. Romance",
-      "album": "Take Offs And Landings",
-      "count": 12,
-      "first": 1788902251,
-      "last": 1791040712,
       "playlists": {
         "1default": 12
       }
@@ -3395,6 +3395,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 32,
+      "first": 1788965930,
+      "last": 1791049978,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 12,
+          "first": 1788965930,
+          "last": 1791049978,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 10,
+          "first": 1789068640,
+          "last": 1790827859,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 10,
+          "first": 1789215234,
+          "last": 1790800351,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mary Gauthier",
       "count": 32,
       "first": 1789100539,
@@ -3565,47 +3606,6 @@
           "last": 1790991611,
           "playlists": {
             "d i n n e r": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 31,
-      "first": 1788965930,
-      "last": 1790827859,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 11,
-          "first": 1788965930,
-          "last": 1790778650,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 10,
-          "first": 1789068640,
-          "last": 1790827859,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 10,
-          "first": 1789215234,
-          "last": 1790800351,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7354,9 +7354,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4347,
+      "count": 4348,
       "first": 1788901564,
-      "last": 1791049782,
+      "last": 1791049978,
       "songs": [
         {
           "artist": "Tele Novella",
