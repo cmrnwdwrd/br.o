@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T17:36:39.695288+00:00",
+  "updatedAt": "2026-10-03T17:41:29.013033+00:00",
   "summary": {
-    "totalPlays": 9327,
+    "totalPlays": 9329,
     "unknownPlays": 1122,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791048845
+    "lastObserved": 1791049225
   },
   "topSongs": [
     {
@@ -252,6 +252,17 @@
       "last": 1790884303,
       "playlists": {
         "1default": 14
+      }
+    },
+    {
+      "artist": "Jesus Christ Taxi Driver",
+      "title": "Pawn Shop Prada",
+      "album": "Lick My Soul",
+      "count": 13,
+      "first": 1788919863,
+      "last": 1791049021,
+      "playlists": {
+        "1default": 13
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788986031,
       "last": 1791040480,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Medium Troy",
-      "title": "Space Tree",
-      "album": "Space Tree",
-      "count": 12,
-      "first": 1788990730,
-      "last": 1791037749,
       "playlists": {
         "1default": 12
       }
@@ -3034,6 +3034,47 @@
       ]
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "count": 36,
+      "first": 1788919863,
+      "last": 1791049021,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 13,
+          "first": 1788919863,
+          "last": 1791049021,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 12,
+          "first": 1788989164,
+          "last": 1790891313,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 11,
+          "first": 1789139069,
+          "last": 1790902648,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 36,
       "first": 1788916461,
@@ -3267,47 +3308,6 @@
           "last": 1790950794,
           "playlists": {
             "hyperpop friday morning": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "count": 35,
-      "first": 1788919863,
-      "last": 1790902648,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 12,
-          "first": 1788989164,
-          "last": 1790891313,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 12,
-          "first": 1788919863,
-          "last": 1790889322,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 11,
-          "first": 1789139069,
-          "last": 1790902648,
-          "playlists": {
-            "1default": 11
           }
         }
       ]
@@ -5435,10 +5435,21 @@
     {
       "artist": "Jesus Christ Taxi Driver",
       "album": "Lick My Soul",
-      "count": 35,
+      "count": 36,
       "first": 1788919863,
-      "last": 1790902648,
+      "last": 1791049021,
       "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 13,
+          "first": 1788919863,
+          "last": 1791049021,
+          "playlists": {
+            "1default": 13
+          }
+        },
         {
           "artist": "Jesus Christ Taxi Driver",
           "title": "STUPIDMOTHERFUCKER",
@@ -5446,17 +5457,6 @@
           "count": 12,
           "first": 1788989164,
           "last": 1790891313,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 12,
-          "first": 1788919863,
-          "last": 1790889322,
           "playlists": {
             "1default": 12
           }
@@ -7354,9 +7354,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4343,
+      "count": 4345,
       "first": 1788901564,
-      "last": 1791048845,
+      "last": 1791049225,
       "songs": [
         {
           "artist": "Tele Novella",
