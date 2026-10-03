@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T10:46:31.585715+00:00",
+  "updatedAt": "2026-10-03T10:51:06.112764+00:00",
   "summary": {
-    "totalPlays": 9214,
+    "totalPlays": 9216,
     "unknownPlays": 1109,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791024306
+    "lastObserved": 1791024561
   },
   "topSongs": [
     {
@@ -365,6 +365,17 @@
       }
     },
     {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 12,
+      "first": 1788968380,
+      "last": 1791024561,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "KXLLSWXTCH, Powers Pleasant",
       "title": "COSMO",
       "album": "THE WALLS HAVE EYES",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788983290,
       "last": 1790979709,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "TRAP METAL",
-      "album": "TRAP METAL",
-      "count": 12,
-      "first": 1789063011,
-      "last": 1790979059,
       "playlists": {
         "1default": 12
       }
@@ -4639,6 +4639,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 22,
+      "first": 1788947080,
+      "last": 1791024561,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 12,
+          "first": 1788968380,
+          "last": 1791024561,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 10,
+          "first": 1788947080,
+          "last": 1790733718,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Florence + The Machine, Jules Buckley",
       "count": 22,
       "first": 1789097452,
@@ -4675,36 +4705,6 @@
           "last": 1790918881,
           "playlists": {
             "for the girls driving 85": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Courtney Barnett",
-      "count": 22,
-      "first": 1788913469,
-      "last": 1790955903,
-      "songs": [
-        {
-          "artist": "Courtney Barnett",
-          "title": "Pedestrian at Best",
-          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
-          "count": 11,
-          "first": 1789215507,
-          "last": 1790955903,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Courtney Barnett",
-          "title": "Write A List of Things To Look Forward To",
-          "album": "Things Take Time, Take Time",
-          "count": 11,
-          "first": 1788913469,
-          "last": 1790803982,
-          "playlists": {
-            "1default": 11
           }
         }
       ]
@@ -6387,6 +6387,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 22,
+      "first": 1788947080,
+      "last": 1791024561,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 12,
+          "first": 1788968380,
+          "last": 1791024561,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 10,
+          "first": 1788947080,
+          "last": 1790733718,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "album": "Change the Channel",
       "count": 22,
@@ -6694,37 +6725,6 @@
           "last": 1790931682,
           "playlists": {
             "breakbeat": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 21,
-      "first": 1788947080,
-      "last": 1790847460,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 11,
-          "first": 1788968380,
-          "last": 1790847460,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 10,
-          "first": 1788947080,
-          "last": 1790733718,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7354,9 +7354,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4248,
+      "count": 4250,
       "first": 1788901564,
-      "last": 1791024306,
+      "last": 1791024561,
       "songs": [
         {
           "artist": "Tele Novella",
