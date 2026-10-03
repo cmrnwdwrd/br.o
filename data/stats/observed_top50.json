@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T06:31:32.123393+00:00",
+  "updatedAt": "2026-10-03T06:36:26.979148+00:00",
   "summary": {
-    "totalPlays": 9178,
+    "totalPlays": 9179,
     "unknownPlays": 1104,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791009080
+    "lastObserved": 1791009303
   },
   "topSongs": [
     {
@@ -2553,10 +2553,21 @@
     },
     {
       "artist": "Florence + The Machine",
-      "count": 57,
+      "count": 58,
       "first": 1789098538,
-      "last": 1791004787,
+      "last": 1791009303,
       "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "Falling",
+          "album": "Lungs (Deluxe Edition)",
+          "count": 8,
+          "first": 1789098538,
+          "last": 1791009303,
+          "playlists": {
+            "for the girls driving 85": 8
+          }
+        },
         {
           "artist": "Florence + The Machine",
           "title": "My Love",
@@ -2608,17 +2619,6 @@
           "count": 7,
           "first": 1789103353,
           "last": 1790921799,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Falling",
-          "album": "Lungs (Deluxe Edition)",
-          "count": 7,
-          "first": 1789098538,
-          "last": 1790921374,
           "playlists": {
             "for the girls driving 85": 7
           }
@@ -7617,9 +7617,9 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 317,
+      "count": 318,
       "first": 1789097452,
-      "last": 1791009080,
+      "last": 1791009303,
       "songs": [
         {
           "artist": "Mary Gauthier",
@@ -7630,6 +7630,17 @@
           "last": 1791008028,
           "playlists": {
             "for the girls driving 85": 9
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Falling",
+          "album": "Lungs (Deluxe Edition)",
+          "count": 8,
+          "first": 1789098538,
+          "last": 1791009303,
+          "playlists": {
+            "for the girls driving 85": 8
           }
         },
         {
@@ -7661,17 +7672,6 @@
           "count": 8,
           "first": 1789098981,
           "last": 1791006519,
-          "playlists": {
-            "for the girls driving 85": 8
-          }
-        },
-        {
-          "artist": "Mary Gauthier",
-          "title": "After You're Gone",
-          "album": "Filth & Fire",
-          "count": 8,
-          "first": 1789108098,
-          "last": 1791006226,
           "playlists": {
             "for the girls driving 85": 8
           }
