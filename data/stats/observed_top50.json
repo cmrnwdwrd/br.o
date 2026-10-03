@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T15:06:41.636810+00:00",
+  "updatedAt": "2026-10-03T15:11:17.535525+00:00",
   "summary": {
-    "totalPlays": 9285,
+    "totalPlays": 9286,
     "unknownPlays": 1117,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791039940
+    "lastObserved": 1791040170
   },
   "topSongs": [
     {
@@ -2701,9 +2701,9 @@
     },
     {
       "artist": "botch",
-      "count": 45,
+      "count": 46,
       "first": 1788920755,
-      "last": 1791027894,
+      "last": 1791040170,
       "songs": [
         {
           "artist": "botch",
@@ -2729,6 +2729,17 @@
         },
         {
           "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 11,
+          "first": 1788963025,
+          "last": 1791040170,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "botch",
           "title": "underthebasement",
           "album": "a machine as big as a city with a concert at the center",
           "count": 11,
@@ -2736,17 +2747,6 @@
           "last": 1790961279,
           "playlists": {
             "1default": 11
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 10,
-          "first": 1788963025,
-          "last": 1790699574,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -6272,6 +6272,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 23,
+      "first": 1788920755,
+      "last": 1791040170,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 12,
+          "first": 1788920755,
+          "last": 1790956135,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 11,
+          "first": 1788963025,
+          "last": 1791040170,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "album": "Father of the Bride",
       "count": 23,
@@ -6630,37 +6661,6 @@
           "last": 1790918881,
           "playlists": {
             "for the girls driving 85": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 22,
-      "first": 1788920755,
-      "last": 1790956135,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 12,
-          "first": 1788920755,
-          "last": 1790956135,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 10,
-          "first": 1788963025,
-          "last": 1790699574,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7354,9 +7354,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4318,
+      "count": 4319,
       "first": 1788901564,
-      "last": 1791039940,
+      "last": 1791040170,
       "songs": [
         {
           "artist": "Tele Novella",
