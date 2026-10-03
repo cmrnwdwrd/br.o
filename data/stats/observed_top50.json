@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-03T18:31:41.731610+00:00",
+  "updatedAt": "2026-10-03T18:36:30.117113+00:00",
   "summary": {
-    "totalPlays": 9342,
-    "unknownPlays": 1124,
+    "totalPlays": 9343,
+    "unknownPlays": 1125,
     "uniqueTracks": 2186,
     "uniqueArtists": 1407,
     "uniqueAlbums": 1798,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791052284
+    "lastObserved": 1791052579
   },
   "topSongs": [
     {
@@ -431,6 +431,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 12,
+      "first": 1788970790,
+      "last": 1791052579,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Japanese Breakfast",
       "title": "Everybody Wants to Love You",
       "album": "Psychopomp",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788914549,
       "last": 1791045790,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Doechii",
-      "title": "NISSAN ALTIMA",
-      "album": "Alligator Bites Never Heal",
-      "count": 12,
-      "first": 1788914421,
-      "last": 1791045661,
       "playlists": {
         "1default": 12
       }
@@ -3034,6 +3034,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 36,
+      "first": 1788917230,
+      "last": 1791052579,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 13,
+          "first": 1788917230,
+          "last": 1790945015,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 12,
+          "first": 1788970790,
+          "last": 1791052579,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 11,
+          "first": 1789050580,
+          "last": 1790956530,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 36,
       "first": 1788946510,
@@ -3213,47 +3254,6 @@
           "count": 11,
           "first": 1789225488,
           "last": 1791048845,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 35,
-      "first": 1788917230,
-      "last": 1790956530,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 13,
-          "first": 1788917230,
-          "last": 1790945015,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 11,
-          "first": 1789050580,
-          "last": 1790956530,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 11,
-          "first": 1788970790,
-          "last": 1790826409,
           "playlists": {
             "1default": 11
           }
@@ -7354,9 +7354,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4358,
+      "count": 4359,
       "first": 1788901564,
-      "last": 1791052284,
+      "last": 1791052579,
       "songs": [
         {
           "artist": "Tele Novella",
