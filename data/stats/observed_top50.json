@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-04T23:16:31.351955+00:00",
+  "updatedAt": "2026-10-04T23:21:31.403797+00:00",
   "summary": {
-    "totalPlays": 9834,
+    "totalPlays": 9836,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791155739
+    "lastObserved": 1791156035
   },
   "topSongs": [
     {
@@ -321,6 +321,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 13,
+      "first": 1788985030,
+      "last": 1791156035,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Grace Ives",
       "title": "Mirror",
       "album": "2nd",
@@ -547,17 +558,6 @@
       "count": 13,
       "first": 1789059997,
       "last": 1791144529,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Blue October",
-      "title": "Into The Ocean",
-      "album": "Foiled",
-      "count": 13,
-      "first": 1788970549,
-      "last": 1791142275,
       "playlists": {
         "1default": 13
       }
@@ -4184,6 +4184,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 26,
+      "first": 1788985030,
+      "last": 1791156035,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 13,
+          "first": 1788985030,
+          "last": 1791156035,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 13,
+          "first": 1788987870,
+          "last": 1791148805,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Cemetery Drive",
       "count": 26,
       "first": 1789051357,
@@ -4471,36 +4501,6 @@
           "last": 1790953641,
           "playlists": {
             "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 25,
-      "first": 1788985030,
-      "last": 1791148805,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 13,
-          "first": 1788987870,
-          "last": 1791148805,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 12,
-          "first": 1788985030,
-          "last": 1791077938,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -7739,9 +7739,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4504,
+      "count": 4506,
       "first": 1788901564,
-      "last": 1791155739,
+      "last": 1791156035,
       "songs": [
         {
           "artist": "Tele Novella",
