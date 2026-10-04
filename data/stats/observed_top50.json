@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-04T21:16:29.089192+00:00",
+  "updatedAt": "2026-10-04T21:21:35.164204+00:00",
   "summary": {
-    "totalPlays": 9797,
+    "totalPlays": 9799,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791148509
+    "lastObserved": 1791148805
   },
   "topSongs": [
     {
@@ -310,6 +310,28 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Antidote",
+      "album": "A Collection of Fleeting Moments and Daydreams",
+      "count": 13,
+      "first": 1788987870,
+      "last": 1791148805,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
+      "artist": "Japanese Breakfast",
+      "title": "Everybody Wants to Love You",
+      "album": "Psychopomp",
+      "count": 13,
+      "first": 1789032729,
+      "last": 1791148674,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Pinegrove",
       "title": "Need 2",
       "album": "Everything So Far",
@@ -536,28 +558,6 @@
       "count": 13,
       "first": 1788927095,
       "last": 1791103230,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Arlie",
-      "title": "didya think",
-      "album": "Wait",
-      "count": 13,
-      "first": 1788970349,
-      "last": 1791066873,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "Say It Ain't So",
-      "album": "Weezer",
-      "count": 13,
-      "first": 1788946510,
-      "last": 1791050434,
       "playlists": {
         "1default": 13
       }
@@ -4266,6 +4266,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 25,
+      "first": 1788985030,
+      "last": 1791148805,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 13,
+          "first": 1788987870,
+          "last": 1791148805,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 12,
+          "first": 1788985030,
+          "last": 1791077938,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "count": 25,
       "first": 1788986736,
@@ -4926,36 +4956,6 @@
           "count": 12,
           "first": 1789059805,
           "last": 1791103535,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 24,
-      "first": 1788985030,
-      "last": 1791077938,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 12,
-          "first": 1788985030,
-          "last": 1791077938,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 12,
-          "first": 1788987870,
-          "last": 1791031239,
           "playlists": {
             "1default": 12
           }
@@ -7728,9 +7728,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4467,
+      "count": 4469,
       "first": 1788901564,
-      "last": 1791148509,
+      "last": 1791148805,
       "songs": [
         {
           "artist": "Tele Novella",
