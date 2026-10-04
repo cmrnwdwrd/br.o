@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-04T09:01:41.393107+00:00",
+  "updatedAt": "2026-10-04T09:06:29.159906+00:00",
   "summary": {
-    "totalPlays": 9606,
+    "totalPlays": 9607,
     "unknownPlays": 1141,
     "uniqueTracks": 2243,
     "uniqueArtists": 1439,
     "uniqueAlbums": 1846,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791104330
+    "lastObserved": 1791104548
   },
   "topSongs": [
     {
@@ -464,6 +464,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Tell Me That You Like It",
+      "album": "Tell Me That You Like It",
+      "count": 12,
+      "first": 1789050580,
+      "last": 1791104548,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "Kendrick Lamar",
       "title": "Alright",
       "album": "To Pimp A Butterfly",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788973998,
       "last": 1791076695,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Your Smith",
-      "title": "Debbie",
-      "album": "Bad Habit",
-      "count": 12,
-      "first": 1788947368,
-      "last": 1791076339,
       "playlists": {
         "1default": 12
       }
@@ -3045,6 +3045,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 37,
+      "first": 1788917230,
+      "last": 1791104548,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 13,
+          "first": 1788917230,
+          "last": 1790945015,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 12,
+          "first": 1789050580,
+          "last": 1791104548,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 12,
+          "first": 1788970790,
+          "last": 1791052579,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Erameld, Hipnos",
       "count": 37,
       "first": 1789884299,
@@ -3224,47 +3265,6 @@
           "last": 1791096639,
           "playlists": {
             "silly lofi": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 36,
-      "first": 1788917230,
-      "last": 1791052579,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 13,
-          "first": 1788917230,
-          "last": 1790945015,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 12,
-          "first": 1788970790,
-          "last": 1791052579,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 11,
-          "first": 1789050580,
-          "last": 1790956530,
-          "playlists": {
-            "1default": 11
           }
         }
       ]
@@ -7739,9 +7739,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4394,
+      "count": 4395,
       "first": 1788901564,
-      "last": 1791104330,
+      "last": 1791104548,
       "songs": [
         {
           "artist": "Tele Novella",
