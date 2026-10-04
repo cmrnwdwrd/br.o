@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T00:16:32.766391+00:00",
+  "updatedAt": "2026-10-04T00:21:29.479735+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 347,
+    "sessionCount": 348,
     "firstObserved": 1788901564,
-    "lastObserved": 1791072926
+    "lastObserved": 1791073109
   },
   "playlists": [
     {
@@ -8368,12 +8368,12 @@
     },
     {
       "playlist": "texting your situationship",
-      "sessionCount": 9,
-      "playCount": 107,
+      "sessionCount": 10,
+      "playCount": 108,
       "firstObserved": 1789254099,
-      "lastObserved": 1791069479,
-      "typicalStartMinute": 1060,
-      "typicalDurationMinutes": 39,
+      "lastObserved": 1791073109,
+      "typicalStartMinute": 1063,
+      "typicalDurationMinutes": 34,
       "confidence": "Medium",
       "heatmapMinutes": [
         [
@@ -8525,7 +8525,7 @@
           0.0,
           0.0,
           210.0,
-          159.2,
+          162.8,
           5.3,
           0.0,
           0.0,
@@ -9124,7 +9124,7 @@
           55.8,
           50.1,
           43.7,
-          35.6,
+          39.2,
           41.5,
           38.4,
           5.3,
@@ -9397,7 +9397,7 @@
           0,
           0,
           6,
-          3,
+          4,
           0,
           0,
           0,
@@ -9434,13 +9434,19 @@
       "likelyWindows": [
         {
           "weekday": 5,
-          "sessions": 9,
-          "typicalStartMinute": 1060,
-          "typicalDurationMinutes": 39,
+          "sessions": 10,
+          "typicalStartMinute": 1063,
+          "typicalDurationMinutes": 34,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1791073109,
+          "end": 1791073324,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1791069479,
           "end": 1791072571,
