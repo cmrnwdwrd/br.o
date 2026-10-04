@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-04T12:46:35.525405+00:00",
+  "updatedAt": "2026-10-04T12:51:07.339949+00:00",
   "summary": {
-    "totalPlays": 9670,
+    "totalPlays": 9671,
     "unknownPlays": 1141,
     "uniqueTracks": 2243,
     "uniqueArtists": 1439,
     "uniqueAlbums": 1846,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791117815
+    "lastObserved": 1791118149
   },
   "topSongs": [
     {
@@ -8243,10 +8243,21 @@
     },
     {
       "playlist": "classical",
-      "count": 171,
+      "count": 172,
       "first": 1789295519,
-      "last": 1791117815,
+      "last": 1791118149,
       "songs": [
+        {
+          "artist": "Terry Riley, Kronos Quartet",
+          "title": "G Song",
+          "album": "Sunrise of the Planetary Dream Collector",
+          "count": 4,
+          "first": 1789301985,
+          "last": 1791118149,
+          "playlists": {
+            "classical": 4
+          }
+        },
         {
           "artist": "Jonny Greenwood",
           "title": "Crucifix",
@@ -8287,17 +8298,6 @@
           "count": 4,
           "first": 1789298395,
           "last": 1791114437,
-          "playlists": {
-            "classical": 4
-          }
-        },
-        {
-          "artist": "Andrew Huang, Nahre Sol",
-          "title": "Swan Song",
-          "album": "Swan Song",
-          "count": 4,
-          "first": 1789302696,
-          "last": 1791110694,
           "playlists": {
             "classical": 4
           }
