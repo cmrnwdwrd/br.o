@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-04T03:36:25.968443+00:00",
+  "updatedAt": "2026-10-04T03:41:22.303003+00:00",
   "summary": {
-    "totalPlays": 9495,
+    "totalPlays": 9497,
     "unknownPlays": 1141,
-    "uniqueTracks": 2208,
-    "uniqueArtists": 1419,
-    "uniqueAlbums": 1816,
+    "uniqueTracks": 2209,
+    "uniqueArtists": 1420,
+    "uniqueAlbums": 1817,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791084786
+    "lastObserved": 1791085214
   },
   "topSongs": [
     {
@@ -7911,10 +7911,21 @@
     },
     {
       "playlist": "throwbacks",
-      "count": 260,
+      "count": 262,
       "first": 1789263760,
-      "last": 1791084786,
+      "last": 1791085214,
       "songs": [
+        {
+          "artist": "Lloyd Banks, Juelz Santana",
+          "title": "Beamer, Benz, Or Bentley",
+          "album": "H.F.M. 2 (Hunger For More 2)",
+          "count": 3,
+          "first": 1789270394,
+          "last": 1791085003,
+          "playlists": {
+            "throwbacks": 3
+          }
+        },
         {
           "artist": "Jason Derulo",
           "title": "Trumpets",
@@ -7957,17 +7968,6 @@
           "last": 1791079151,
           "playlists": {
             "throwbacks": 3
-          }
-        },
-        {
-          "artist": "Rihanna",
-          "title": "S&M",
-          "album": "Loud",
-          "count": 2,
-          "first": 1790524725,
-          "last": 1791084543,
-          "playlists": {
-            "throwbacks": 2
           }
         }
       ]
