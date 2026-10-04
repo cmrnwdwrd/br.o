@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-04T01:36:24.727151+00:00",
+  "updatedAt": "2026-10-04T01:41:31.691404+00:00",
   "summary": {
-    "totalPlays": 9465,
+    "totalPlays": 9466,
     "unknownPlays": 1139,
     "uniqueTracks": 2195,
     "uniqueArtists": 1409,
     "uniqueAlbums": 1804,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791077763
+    "lastObserved": 1791077938
   },
   "topSongs": [
     {
@@ -442,6 +442,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 12,
+      "first": 1788985030,
+      "last": 1791077938,
+      "playlists": {
+        "1default": 12
+      }
+    },
+    {
       "artist": "isobel",
       "title": "laundry",
       "album": "laundry",
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1788965930,
       "last": 1791049978,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "Dancing With Demons",
-      "album": "Dancing With Demons",
-      "count": 12,
-      "first": 1788946229,
-      "last": 1791049444,
       "playlists": {
         "1default": 12
       }
@@ -4519,6 +4519,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 24,
+      "first": 1788985030,
+      "last": 1791077938,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 12,
+          "first": 1788985030,
+          "last": 1791077938,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 12,
+          "first": 1788987870,
+          "last": 1791031239,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "count": 24,
       "first": 1788986736,
@@ -4796,36 +4826,6 @@
           "last": 1789319672,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 23,
-      "first": 1788985030,
-      "last": 1791031239,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 12,
-          "first": 1788987870,
-          "last": 1791031239,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 11,
-          "first": 1788985030,
-          "last": 1790743502,
-          "playlists": {
-            "1default": 11
           }
         }
       ]
@@ -7585,9 +7585,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4384,
+      "count": 4385,
       "first": 1788901564,
-      "last": 1791077763,
+      "last": 1791077938,
       "songs": [
         {
           "artist": "Tele Novella",
