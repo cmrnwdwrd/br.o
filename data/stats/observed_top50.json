@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-04T09:06:29.159906+00:00",
+  "updatedAt": "2026-10-04T09:11:10.435468+00:00",
   "summary": {
-    "totalPlays": 9607,
+    "totalPlays": 9609,
     "unknownPlays": 1141,
     "uniqueTracks": 2243,
     "uniqueArtists": 1439,
     "uniqueAlbums": 1846,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791104548
+    "lastObserved": 1791105056
   },
   "topSongs": [
     {
@@ -274,6 +274,17 @@
       "last": 1790960724,
       "playlists": {
         "1default": 14
+      }
+    },
+    {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 13,
+      "first": 1789033065,
+      "last": 1791104844,
+      "playlists": {
+        "1default": 13
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 12,
       "first": 1789065520,
       "last": 1791076923,
-      "playlists": {
-        "1default": 12
-      }
-    },
-    {
-      "artist": "The Ephinjis",
-      "title": "Knives",
-      "album": "Knives",
-      "count": 12,
-      "first": 1788973998,
-      "last": 1791076695,
       "playlists": {
         "1default": 12
       }
@@ -3415,6 +3415,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 35,
+      "first": 1788973998,
+      "last": 1791104844,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 13,
+          "first": 1789033065,
+          "last": 1791104844,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 12,
+          "first": 1788973998,
+          "last": 1791076695,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 10,
+          "first": 1789226629,
+          "last": 1791034814,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 35,
       "first": 1788965724,
@@ -3503,47 +3544,6 @@
           "last": 1790950794,
           "playlists": {
             "hyperpop friday morning": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 34,
-      "first": 1788973998,
-      "last": 1791076695,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 12,
-          "first": 1788973998,
-          "last": 1791076695,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 12,
-          "first": 1789033065,
-          "last": 1790981835,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 10,
-          "first": 1789226629,
-          "last": 1791034814,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7739,9 +7739,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4395,
+      "count": 4397,
       "first": 1788901564,
-      "last": 1791104548,
+      "last": 1791105056,
       "songs": [
         {
           "artist": "Tele Novella",
