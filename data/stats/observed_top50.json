@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T22:26:33.556083+00:00",
+  "updatedAt": "2026-10-05T22:31:41.033778+00:00",
   "summary": {
-    "totalPlays": 10208,
+    "totalPlays": 10210,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791239083
+    "lastObserved": 1791239446
   },
   "topSongs": [
     {
@@ -33,6 +33,18 @@
       "last": 1791162437,
       "playlists": {
         "1default": 22
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 21,
+      "first": 1789014862,
+      "last": 1791239446,
+      "playlists": {
+        "1default": 20,
+        "anti-capitalist weekday afternoon #1": 1
       }
     },
     {
@@ -88,17 +100,6 @@
       "count": 20,
       "first": 1789015368,
       "last": 1791106899,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 20,
-      "first": 1789014862,
-      "last": 1791105529,
       "playlists": {
         "1default": 20
       }
@@ -1550,10 +1551,22 @@
     },
     {
       "artist": "My Chemical Romance",
-      "count": 100,
+      "count": 101,
       "first": 1788965302,
-      "last": 1791190218,
+      "last": 1791239225,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Thank You for the Venom",
+          "album": "Three Cheers for Sweet Revenge",
+          "count": 12,
+          "first": 1788995310,
+          "last": 1791239225,
+          "playlists": {
+            "MCR wednesday wind down": 11,
+            "anti-capitalist weekday afternoon #1": 1
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "Planetary (GO!)",
@@ -1563,17 +1576,6 @@
           "last": 1791190218,
           "playlists": {
             "1default": 12
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Thank You for the Venom",
-          "album": "Three Cheers for Sweet Revenge",
-          "count": 11,
-          "first": 1788995310,
-          "last": 1790892268,
-          "playlists": {
-            "MCR wednesday wind down": 11
           }
         },
         {
@@ -6206,74 +6208,22 @@
       ]
     },
     {
-      "artist": "Ethel Cain",
-      "album": "Preacher's Daughter",
-      "count": 31,
-      "first": 1789098981,
-      "last": 1791013269,
-      "songs": [
-        {
-          "artist": "Ethel Cain",
-          "title": "Thoroughfare",
-          "album": "Preacher's Daughter",
-          "count": 8,
-          "first": 1789105687,
-          "last": 1791013269,
-          "playlists": {
-            "for the girls driving 85": 8
-          }
-        },
-        {
-          "artist": "Ethel Cain",
-          "title": "Strangers",
-          "album": "Preacher's Daughter",
-          "count": 8,
-          "first": 1789100194,
-          "last": 1791011429,
-          "playlists": {
-            "for the girls driving 85": 8
-          }
-        },
-        {
-          "artist": "Ethel Cain",
-          "title": "Sun Bleached Flies",
-          "album": "Preacher's Daughter",
-          "count": 8,
-          "first": 1789098981,
-          "last": 1791006519,
-          "playlists": {
-            "for the girls driving 85": 8
-          }
-        },
-        {
-          "artist": "Ethel Cain",
-          "title": "A House In Nebraska",
-          "album": "Preacher's Daughter",
-          "count": 7,
-          "first": 1789191562,
-          "last": 1791011923,
-          "playlists": {
-            "for the girls driving 85": 7
-          }
-        }
-      ]
-    },
-    {
       "artist": "My Chemical Romance",
       "album": "Three Cheers for Sweet Revenge",
-      "count": 31,
+      "count": 32,
       "first": 1788995310,
-      "last": 1790892268,
+      "last": 1791239225,
       "songs": [
         {
           "artist": "My Chemical Romance",
           "title": "Thank You for the Venom",
           "album": "Three Cheers for Sweet Revenge",
-          "count": 11,
+          "count": 12,
           "first": 1788995310,
-          "last": 1790892268,
+          "last": 1791239225,
           "playlists": {
-            "MCR wednesday wind down": 11
+            "MCR wednesday wind down": 11,
+            "anti-capitalist weekday afternoon #1": 1
           }
         },
         {
@@ -6351,6 +6301,59 @@
           "last": 1790213392,
           "playlists": {
             "MCR wednesday wind down": 2
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Ethel Cain",
+      "album": "Preacher's Daughter",
+      "count": 31,
+      "first": 1789098981,
+      "last": 1791013269,
+      "songs": [
+        {
+          "artist": "Ethel Cain",
+          "title": "Thoroughfare",
+          "album": "Preacher's Daughter",
+          "count": 8,
+          "first": 1789105687,
+          "last": 1791013269,
+          "playlists": {
+            "for the girls driving 85": 8
+          }
+        },
+        {
+          "artist": "Ethel Cain",
+          "title": "Strangers",
+          "album": "Preacher's Daughter",
+          "count": 8,
+          "first": 1789100194,
+          "last": 1791011429,
+          "playlists": {
+            "for the girls driving 85": 8
+          }
+        },
+        {
+          "artist": "Ethel Cain",
+          "title": "Sun Bleached Flies",
+          "album": "Preacher's Daughter",
+          "count": 8,
+          "first": 1789098981,
+          "last": 1791006519,
+          "playlists": {
+            "for the girls driving 85": 8
+          }
+        },
+        {
+          "artist": "Ethel Cain",
+          "title": "A House In Nebraska",
+          "album": "Preacher's Daughter",
+          "count": 7,
+          "first": 1789191562,
+          "last": 1791011923,
+          "playlists": {
+            "for the girls driving 85": 7
           }
         }
       ]
@@ -7301,6 +7304,27 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 21,
+      "first": 1789014862,
+      "last": 1791239446,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 21,
+          "first": 1789014862,
+          "last": 1791239446,
+          "playlists": {
+            "1default": 20,
+            "anti-capitalist weekday afternoon #1": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "鈴木 弘",
       "album": "キャット",
       "count": 21,
@@ -7460,26 +7484,6 @@
           "count": 20,
           "first": 1789015368,
           "last": 1791106899,
-          "playlists": {
-            "1default": 20
-          }
-        }
-      ]
-    },
-    {
-      "artist": "CAKE",
-      "album": "Motorcade of Generosity",
-      "count": 20,
-      "first": 1789014862,
-      "last": 1791105529,
-      "songs": [
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 20,
-          "first": 1789014862,
-          "last": 1791105529,
           "playlists": {
             "1default": 20
           }
@@ -8038,9 +8042,9 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 252,
+      "count": 254,
       "first": 1788904845,
-      "last": 1791239083,
+      "last": 1791239446,
       "songs": [
         {
           "artist": "Everlast",
