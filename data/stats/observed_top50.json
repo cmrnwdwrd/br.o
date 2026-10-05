@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T14:16:42.351346+00:00",
+  "updatedAt": "2026-10-05T14:21:29.386695+00:00",
   "summary": {
-    "totalPlays": 10084,
+    "totalPlays": 10085,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791209644
+    "lastObserved": 1791209915
   },
   "topSongs": [
     {
@@ -366,6 +366,17 @@
       }
     },
     {
+      "artist": "The Czars",
+      "title": "Killjoy",
+      "album": "Best Of",
+      "count": 13,
+      "first": 1789096240,
+      "last": 1791209915,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "You Make Me Want to Kill Myself",
       "album": "You Make Me Want to Kill Myself",
@@ -548,17 +559,6 @@
       "count": 13,
       "first": 1788930667,
       "last": 1791174618,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "The Shivas",
-      "title": "You Make Me Wanna Die",
-      "album": "You Know What to Do",
-      "count": 13,
-      "first": 1788975450,
-      "last": 1791173931,
       "playlists": {
         "1default": 13
       }
@@ -2109,10 +2109,21 @@
     },
     {
       "artist": "The Czars",
-      "count": 64,
+      "count": 65,
       "first": 1788963949,
-      "last": 1791193599,
+      "last": 1791209915,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 13,
+          "first": 1789096240,
+          "last": 1791209915,
+          "playlists": {
+            "1default": 13
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Drug",
@@ -2122,17 +2133,6 @@
           "last": 1791186241,
           "playlists": {
             "1default": 13
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 12,
-          "first": 1789096240,
-          "last": 1790986115,
-          "playlists": {
-            "1default": 12
           }
         },
         {
@@ -5119,10 +5119,21 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 64,
+      "count": 65,
       "first": 1788963949,
-      "last": 1791193599,
+      "last": 1791209915,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 13,
+          "first": 1789096240,
+          "last": 1791209915,
+          "playlists": {
+            "1default": 13
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Drug",
@@ -5132,17 +5143,6 @@
           "last": 1791186241,
           "playlists": {
             "1default": 13
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 12,
-          "first": 1789096240,
-          "last": 1790986115,
-          "playlists": {
-            "1default": 12
           }
         },
         {
@@ -7719,9 +7719,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4655,
+      "count": 4656,
       "first": 1788901564,
-      "last": 1791209644,
+      "last": 1791209915,
       "songs": [
         {
           "artist": "Tele Novella",
