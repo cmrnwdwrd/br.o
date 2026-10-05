@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T17:52:19.560278+00:00",
+  "updatedAt": "2026-10-05T17:56:42.350171+00:00",
   "summary": {
-    "totalPlays": 10141,
+    "totalPlays": 10143,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791222515
+    "lastObserved": 1791222976
   },
   "topSongs": [
     {
@@ -388,6 +388,17 @@
       }
     },
     {
+      "artist": "Franz Ferdinand",
+      "title": "Billy Goodbye",
+      "album": "Billy Goodbye",
+      "count": 13,
+      "first": 1789014639,
+      "last": 1791222755,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Radiohead",
       "title": "If You Say the Word",
       "album": "If You Say the Word",
@@ -548,17 +559,6 @@
       "count": 13,
       "first": 1788962598,
       "last": 1791214072,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Brittany Howard",
-      "title": "Stay High",
-      "album": "Jaime",
-      "count": 13,
-      "first": 1789054258,
-      "last": 1791213879,
       "playlists": {
         "1default": 13
       }
@@ -1373,9 +1373,9 @@
     },
     {
       "artist": "Mitski",
-      "count": 112,
+      "count": 113,
       "first": 1788920128,
-      "last": 1791212478,
+      "last": 1791222976,
       "songs": [
         {
           "artist": "Mitski",
@@ -1390,6 +1390,17 @@
         },
         {
           "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 12,
+          "first": 1789055950,
+          "last": 1791222976,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Mitski",
           "title": "Should've Been Me",
           "album": "Laurel Hell",
           "count": 12,
@@ -1397,17 +1408,6 @@
           "last": 1791035736,
           "playlists": {
             "1default": 12
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 11,
-          "first": 1789055950,
-          "last": 1790924639,
-          "playlists": {
-            "1default": 11
           }
         },
         {
@@ -6898,6 +6898,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 24,
+      "first": 1788920128,
+      "last": 1791222976,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 12,
+          "first": 1789055950,
+          "last": 1791222976,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 12,
+          "first": 1788920128,
+          "last": 1791035736,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 24,
@@ -7048,37 +7079,6 @@
           "last": 1791035927,
           "playlists": {
             "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 23,
-      "first": 1788920128,
-      "last": 1791035736,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 12,
-          "first": 1788920128,
-          "last": 1791035736,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 11,
-          "first": 1789055950,
-          "last": 1790924639,
-          "playlists": {
-            "1default": 11
           }
         }
       ]
@@ -7686,9 +7686,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4712,
+      "count": 4714,
       "first": 1788901564,
-      "last": 1791222515,
+      "last": 1791222976,
       "songs": [
         {
           "artist": "Tele Novella",
