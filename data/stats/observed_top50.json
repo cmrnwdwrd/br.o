@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T01:26:41.574243+00:00",
+  "updatedAt": "2026-10-05T01:31:24.571605+00:00",
   "summary": {
-    "totalPlays": 9873,
+    "totalPlays": 9875,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791163278
+    "lastObserved": 1791163764
   },
   "topSongs": [
     {
@@ -167,6 +167,17 @@
       }
     },
     {
+      "artist": "Daffo",
+      "title": "Good God",
+      "album": "Good God (Porches Remix)",
+      "count": 16,
+      "first": 1788920320,
+      "last": 1791163607,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "The Cardigans",
       "title": "Step On Me",
       "album": "First Band On The Moon (Remastered)",
@@ -217,17 +228,6 @@
       "count": 15,
       "first": 1789063640,
       "last": 1791076131,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Daffo",
-      "title": "Good God",
-      "album": "Good God (Porches Remix)",
-      "count": 15,
-      "first": 1788920320,
-      "last": 1791072805,
       "playlists": {
         "1default": 15
       }
@@ -340,6 +340,17 @@
       "last": 1790960724,
       "playlists": {
         "1default": 14
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 13,
+      "first": 1788970790,
+      "last": 1791163764,
+      "playlists": {
+        "1default": 13
       }
     },
     {
@@ -547,17 +558,6 @@
       "count": 13,
       "first": 1788963606,
       "last": 1791152589,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Yumi Zouma",
-      "title": "Right Track / Wrong Man",
-      "album": "Truth or Consequences",
-      "count": 13,
-      "first": 1789057143,
-      "last": 1791152234,
       "playlists": {
         "1default": 13
       }
@@ -2982,6 +2982,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 39,
+      "first": 1788917230,
+      "last": 1791163764,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 14,
+          "first": 1788917230,
+          "last": 1791138834,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 13,
+          "first": 1788970790,
+          "last": 1791163764,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 12,
+          "first": 1789050580,
+          "last": 1791104548,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 39,
       "first": 1788916461,
@@ -3133,47 +3174,6 @@
           "last": 1791011923,
           "playlists": {
             "for the girls driving 85": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 38,
-      "first": 1788917230,
-      "last": 1791138834,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 14,
-          "first": 1788917230,
-          "last": 1791138834,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 12,
-          "first": 1789050580,
-          "last": 1791104548,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 12,
-          "first": 1788970790,
-          "last": 1791052579,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -7739,9 +7739,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4543,
+      "count": 4545,
       "first": 1788901564,
-      "last": 1791163278,
+      "last": 1791163764,
       "songs": [
         {
           "artist": "Tele Novella",
