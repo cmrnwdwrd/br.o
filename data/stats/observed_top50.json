@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T05:06:29.894755+00:00",
+  "updatedAt": "2026-10-05T05:11:37.084440+00:00",
   "summary": {
-    "totalPlays": 9936,
+    "totalPlays": 9937,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791176767
+    "lastObserved": 1791176967
   },
   "topSongs": [
     {
@@ -365,6 +365,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 13,
+      "first": 1788965930,
+      "last": 1791176967,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Hotel Ugly",
       "title": "Shut up My Moms Calling",
       "album": "Shut up My Moms Calling",
@@ -547,17 +558,6 @@
       "count": 13,
       "first": 1788968800,
       "last": 1791165784,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Mystee",
-      "title": "hard candy",
-      "album": "hard candy",
-      "count": 13,
-      "first": 1788915475,
-      "last": 1791165377,
       "playlists": {
         "1default": 13
       }
@@ -3590,6 +3590,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 34,
+      "first": 1788965930,
+      "last": 1791176967,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 13,
+          "first": 1788965930,
+          "last": 1791176967,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 11,
+          "first": 1789068640,
+          "last": 1791051291,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 10,
+          "first": 1789215234,
+          "last": 1790800351,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 34,
       "first": 1788975620,
@@ -3667,47 +3708,6 @@
           "last": 1790872511,
           "playlists": {
             "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 33,
-      "first": 1788965930,
-      "last": 1791051291,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 12,
-          "first": 1788965930,
-          "last": 1791049978,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 11,
-          "first": 1789068640,
-          "last": 1791051291,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 10,
-          "first": 1789215234,
-          "last": 1790800351,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7739,9 +7739,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4606,
+      "count": 4607,
       "first": 1788901564,
-      "last": 1791176767,
+      "last": 1791176967,
       "songs": [
         {
           "artist": "Tele Novella",
