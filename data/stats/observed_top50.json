@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T01:16:31.255327+00:00",
+  "updatedAt": "2026-10-05T01:21:33.597180+00:00",
   "summary": {
-    "totalPlays": 9871,
+    "totalPlays": 9873,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791162844
+    "lastObserved": 1791163278
   },
   "topSongs": [
     {
@@ -343,6 +343,17 @@
       }
     },
     {
+      "artist": "Tennis",
+      "title": "Need Your Love",
+      "album": "Swimmer",
+      "count": 13,
+      "first": 1789058225,
+      "last": 1791163047,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Jethro Tull",
       "title": "Nothing Is Easy",
       "album": "Stand Up",
@@ -547,17 +558,6 @@
       "count": 13,
       "first": 1789057143,
       "last": 1791152234,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "KXLLSWXTCH, Powers Pleasant",
-      "title": "COSMO",
-      "album": "THE WALLS HAVE EYES",
-      "count": 13,
-      "first": 1789049117,
-      "last": 1791151954,
       "playlists": {
         "1default": 13
       }
@@ -2856,6 +2856,80 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "count": 43,
+      "first": 1788989320,
+      "last": 1791163047,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 16,
+          "first": 1788989320,
+          "last": 1791067690,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Need Your Love",
+          "album": "Swimmer",
+          "count": 13,
+          "first": 1789058225,
+          "last": 1791163047,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Tender as a Tomb",
+          "album": "Swimmer",
+          "count": 4,
+          "first": 1789253168,
+          "last": 1791068113,
+          "playlists": {
+            "landlockd surfrock": 4
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Seafarer",
+          "album": "Cape Dory",
+          "count": 4,
+          "first": 1789248601,
+          "last": 1791066217,
+          "playlists": {
+            "landlockd surfrock": 4
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Pigeon",
+          "album": "Cape Dory",
+          "count": 3,
+          "first": 1789854131,
+          "last": 1791065041,
+          "playlists": {
+            "landlockd surfrock": 3
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Baltimore",
+          "album": "Cape Dory",
+          "count": 3,
+          "first": 1790457192,
+          "last": 1791062320,
+          "playlists": {
+            "landlockd surfrock": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "count": 43,
       "first": 1788915065,
@@ -2903,80 +2977,6 @@
           "last": 1790624465,
           "playlists": {
             "1default": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tennis",
-      "count": 42,
-      "first": 1788989320,
-      "last": 1791068113,
-      "songs": [
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 16,
-          "first": 1788989320,
-          "last": 1791067690,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Need Your Love",
-          "album": "Swimmer",
-          "count": 12,
-          "first": 1789058225,
-          "last": 1791029519,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Tender as a Tomb",
-          "album": "Swimmer",
-          "count": 4,
-          "first": 1789253168,
-          "last": 1791068113,
-          "playlists": {
-            "landlockd surfrock": 4
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Seafarer",
-          "album": "Cape Dory",
-          "count": 4,
-          "first": 1789248601,
-          "last": 1791066217,
-          "playlists": {
-            "landlockd surfrock": 4
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Pigeon",
-          "album": "Cape Dory",
-          "count": 3,
-          "first": 1789854131,
-          "last": 1791065041,
-          "playlists": {
-            "landlockd surfrock": 3
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Baltimore",
-          "album": "Cape Dory",
-          "count": 3,
-          "first": 1790457192,
-          "last": 1791062320,
-          "playlists": {
-            "landlockd surfrock": 3
           }
         }
       ]
@@ -7739,9 +7739,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4541,
+      "count": 4543,
       "first": 1788901564,
-      "last": 1791162844,
+      "last": 1791163278,
       "songs": [
         {
           "artist": "Tele Novella",
