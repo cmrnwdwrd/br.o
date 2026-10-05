@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T15:11:38.822928+00:00",
+  "updatedAt": "2026-10-05T15:16:38.853398+00:00",
   "summary": {
-    "totalPlays": 10099,
+    "totalPlays": 10101,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791212862
+    "lastObserved": 1791213337
   },
   "topSongs": [
     {
@@ -388,6 +388,28 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 13,
+      "first": 1788975084,
+      "last": 1791213337,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
+      "artist": "Dead Or Alive",
+      "title": "You Spin Me Round (Like a Record)",
+      "album": "Evolution: The Hits",
+      "count": 13,
+      "first": 1788971012,
+      "last": 1791213143,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Bell X1",
       "title": "The Great Defector",
       "album": "Blue Lights on the Runway",
@@ -537,28 +559,6 @@
       "count": 13,
       "first": 1788964915,
       "last": 1791186917,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "The Czars",
-      "title": "Drug",
-      "album": "Best Of",
-      "count": 13,
-      "first": 1789063847,
-      "last": 1791186241,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Brainsick",
-      "album": "Brainsick",
-      "count": 13,
-      "first": 1789063255,
-      "last": 1791185855,
       "playlists": {
         "1default": 13
       }
@@ -4298,6 +4298,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 26,
+      "first": 1788919285,
+      "last": 1791213337,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 13,
+          "first": 1788975084,
+          "last": 1791213337,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 12,
+          "first": 1788919285,
+          "last": 1790903650,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 1,
+          "first": 1789893243,
+          "last": 1789893243,
+          "playlists": {
+            "christmas rn": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 26,
       "first": 1788985030,
@@ -4856,47 +4897,6 @@
           "last": 1789583691,
           "playlists": {
             "country music was never for republicans": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 25,
-      "first": 1788919285,
-      "last": 1790983816,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 12,
-          "first": 1788975084,
-          "last": 1790983816,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 12,
-          "first": 1788919285,
-          "last": 1790903650,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 1,
-          "first": 1789893243,
-          "last": 1789893243,
-          "playlists": {
-            "christmas rn": 1
           }
         }
       ]
@@ -7719,9 +7719,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4670,
+      "count": 4672,
       "first": 1788901564,
-      "last": 1791212862,
+      "last": 1791213337,
       "songs": [
         {
           "artist": "Tele Novella",
