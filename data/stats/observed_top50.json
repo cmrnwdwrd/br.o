@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T19:37:04.502738+00:00",
+  "updatedAt": "2026-10-05T19:52:12.535604+00:00",
   "summary": {
-    "totalPlays": 10167,
+    "totalPlays": 10170,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791228952
+    "lastObserved": 1791229759
   },
   "topSongs": [
     {
@@ -399,6 +399,17 @@
       }
     },
     {
+      "artist": "Cage The Elephant",
+      "title": "Social Cues",
+      "album": "Social Cues",
+      "count": 13,
+      "first": 1788990244,
+      "last": 1791229539,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Of Monsters and Men",
       "title": "Visitor",
       "album": "Visitor",
@@ -548,17 +559,6 @@
       "count": 13,
       "first": 1788974590,
       "last": 1791221402,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Gorillaz, Beck",
-      "title": "The Valley of The Pagans (feat. Beck)",
-      "album": "Song Machine, Season One: Strange Timez (Deluxe)",
-      "count": 13,
-      "first": 1789062154,
-      "last": 1791220885,
       "playlists": {
         "1default": 13
       }
@@ -2859,10 +2859,21 @@
     },
     {
       "artist": "Psychedelic Porn Crumpets",
-      "count": 44,
+      "count": 45,
       "first": 1788915065,
-      "last": 1791222515,
+      "last": 1791229759,
       "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Tally-Ho",
+          "album": "Tally-Ho",
+          "count": 12,
+          "first": 1789085431,
+          "last": 1791229759,
+          "playlists": {
+            "1default": 12
+          }
+        },
         {
           "artist": "Psychedelic Porn Crumpets",
           "title": "Lava Lamp Pisco",
@@ -2892,17 +2903,6 @@
           "count": 11,
           "first": 1789168906,
           "last": 1790959281,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Tally-Ho",
-          "album": "Tally-Ho",
-          "count": 11,
-          "first": 1789085431,
-          "last": 1790945569,
           "playlists": {
             "1default": 11
           }
@@ -3274,6 +3274,47 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 37,
+      "first": 1788973066,
+      "last": 1791229222,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 13,
+          "first": 1789033884,
+          "last": 1791222010,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 12,
+          "first": 1788973066,
+          "last": 1791229222,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 12,
+          "first": 1788984450,
+          "last": 1791214719,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 37,
       "first": 1788973998,
@@ -3499,47 +3540,6 @@
       ]
     },
     {
-      "artist": "Radiohead",
-      "count": 36,
-      "first": 1788973066,
-      "last": 1791222010,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 13,
-          "first": 1789033884,
-          "last": 1791222010,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 12,
-          "first": 1788984450,
-          "last": 1791214719,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 11,
-          "first": 1788973066,
-          "last": 1790957638,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
-    },
-    {
       "artist": "Brandywine",
       "count": 36,
       "first": 1788965930,
@@ -3716,10 +3716,21 @@
     },
     {
       "artist": "Cage The Elephant",
-      "count": 32,
+      "count": 33,
       "first": 1788928254,
-      "last": 1791214954,
+      "last": 1791229539,
       "songs": [
+        {
+          "artist": "Cage The Elephant",
+          "title": "Social Cues",
+          "album": "Social Cues",
+          "count": 13,
+          "first": 1788990244,
+          "last": 1791229539,
+          "playlists": {
+            "1default": 13
+          }
+        },
         {
           "artist": "Cage The Elephant",
           "title": "Skin and Bones - Mix 2020",
@@ -3729,17 +3740,6 @@
           "last": 1791214954,
           "playlists": {
             "1default": 13
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Social Cues",
-          "album": "Social Cues",
-          "count": 12,
-          "first": 1788990244,
-          "last": 1790903244,
-          "playlists": {
-            "1default": 12
           }
         },
         {
@@ -7653,9 +7653,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4738,
+      "count": 4741,
       "first": 1788901564,
-      "last": 1791228952,
+      "last": 1791229759,
       "songs": [
         {
           "artist": "Tele Novella",
