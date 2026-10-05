@@ -1,17 +1,28 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T01:11:17.802875+00:00",
+  "updatedAt": "2026-10-05T01:16:31.255327+00:00",
   "summary": {
-    "totalPlays": 9869,
+    "totalPlays": 9871,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791162670
+    "lastObserved": 1791162844
   },
   "topSongs": [
+    {
+      "artist": "Tele Novella",
+      "title": "Funeral",
+      "album": "Poet's Tooth",
+      "count": 22,
+      "first": 1788996940,
+      "last": 1791162437,
+      "playlists": {
+        "1default": 22
+      }
+    },
     {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "title": "Run It",
@@ -21,17 +32,6 @@
       "last": 1791038177,
       "playlists": {
         "breakbeat": 22
-      }
-    },
-    {
-      "artist": "Tele Novella",
-      "title": "Funeral",
-      "album": "Poet's Tooth",
-      "count": 21,
-      "first": 1788996940,
-      "last": 1791050694,
-      "playlists": {
-        "1default": 21
       }
     },
     {
@@ -6825,6 +6825,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 23,
+      "first": 1789166634,
+      "last": 1791162844,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 12,
+          "first": 1789167660,
+          "last": 1791162844,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 11,
+          "first": 1789166634,
+          "last": 1791036941,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "album": "Stand Up",
       "count": 23,
@@ -7011,6 +7042,26 @@
       ]
     },
     {
+      "artist": "Tele Novella",
+      "album": "Poet's Tooth",
+      "count": 22,
+      "first": 1788996940,
+      "last": 1791162437,
+      "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 22,
+          "first": 1788996940,
+          "last": 1791162437,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "album": "Doolittle",
       "count": 22,
@@ -7192,37 +7243,6 @@
       ]
     },
     {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 22,
-      "first": 1789166634,
-      "last": 1791037312,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 11,
-          "first": 1789167660,
-          "last": 1791037312,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 11,
-          "first": 1789166634,
-          "last": 1791036941,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
-    },
-    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "album": "Change the Channel",
       "count": 22,
@@ -7322,26 +7342,6 @@
           "last": 1789756286,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tele Novella",
-      "album": "Poet's Tooth",
-      "count": 21,
-      "first": 1788996940,
-      "last": 1791050694,
-      "songs": [
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 21,
-          "first": 1788996940,
-          "last": 1791050694,
-          "playlists": {
-            "1default": 21
           }
         }
       ]
@@ -7739,19 +7739,19 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4539,
+      "count": 4541,
       "first": 1788901564,
-      "last": 1791162670,
+      "last": 1791162844,
       "songs": [
         {
           "artist": "Tele Novella",
           "title": "Funeral",
           "album": "Poet's Tooth",
-          "count": 21,
+          "count": 22,
           "first": 1788996940,
-          "last": 1791050694,
+          "last": 1791162437,
           "playlists": {
-            "1default": 21
+            "1default": 22
           }
         },
         {
