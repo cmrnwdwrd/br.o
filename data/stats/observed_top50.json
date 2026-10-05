@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T19:21:56.581369+00:00",
+  "updatedAt": "2026-10-05T19:37:04.502738+00:00",
   "summary": {
-    "totalPlays": 10162,
+    "totalPlays": 10167,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791227911
+    "lastObserved": 1791228952
   },
   "topSongs": [
     {
@@ -399,6 +399,28 @@
       }
     },
     {
+      "artist": "Of Monsters and Men",
+      "title": "Visitor",
+      "album": "Visitor",
+      "count": 13,
+      "first": 1788963370,
+      "last": 1791228952,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
+      "artist": "Gorillaz, ScHoolboy Q",
+      "title": "Pac-Man (feat. ScHoolboy Q)",
+      "album": "Song Machine Episode 5",
+      "count": 13,
+      "first": 1788901855,
+      "last": 1791228229,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "title": "Texas Sun",
       "album": "Texas Sun",
@@ -537,28 +559,6 @@
       "count": 13,
       "first": 1789062154,
       "last": 1791220885,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Sunday Bloody Sunday - Remastered 2008",
-      "album": "War (Remastered)",
-      "count": 13,
-      "first": 1788921291,
-      "last": 1791219673,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Billie Eilish",
-      "title": "NDA",
-      "album": "Happier Than Ever",
-      "count": 13,
-      "first": 1788989714,
-      "last": 1791219475,
       "playlists": {
         "1default": 13
       }
@@ -3879,6 +3879,47 @@
       ]
     },
     {
+      "artist": "Of Monsters and Men",
+      "count": 29,
+      "first": 1788963370,
+      "last": 1791228952,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 13,
+          "first": 1788963370,
+          "last": 1791228952,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 13,
+          "first": 1788991170,
+          "last": 1791212615,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 3,
+          "first": 1789156918,
+          "last": 1790974715,
+          "playlists": {
+            "escaping from cu boulder by giselle": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Noah Kahan",
       "count": 29,
       "first": 1789154561,
@@ -4088,47 +4129,6 @@
           "last": 1789053978,
           "playlists": {
             "rage commute": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 28,
-      "first": 1788963370,
-      "last": 1791212615,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 13,
-          "first": 1788991170,
-          "last": 1791212615,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 12,
-          "first": 1788963370,
-          "last": 1790909895,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 3,
-          "first": 1789156918,
-          "last": 1790974715,
-          "playlists": {
-            "escaping from cu boulder by giselle": 3
           }
         }
       ]
@@ -7653,9 +7653,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4733,
+      "count": 4738,
       "first": 1788901564,
-      "last": 1791227911,
+      "last": 1791228952,
       "songs": [
         {
           "artist": "Tele Novella",
