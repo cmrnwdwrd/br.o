@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T03:11:15.929397+00:00",
+  "updatedAt": "2026-10-05T03:16:30.267425+00:00",
   "summary": {
-    "totalPlays": 9903,
+    "totalPlays": 9905,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791169761
+    "lastObserved": 1791170179
   },
   "topSongs": [
     {
@@ -343,6 +343,17 @@
       }
     },
     {
+      "artist": "Sjowgren",
+      "title": "Now & Then",
+      "album": "Now & Then",
+      "count": 13,
+      "first": 1788965724,
+      "last": 1791169974,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "The Smashing Pumpkins",
       "title": "Beautiful - Remastered 2012",
       "album": "Mellon Collie And The Infinite Sadness (Remastered)",
@@ -547,17 +558,6 @@
       "count": 13,
       "first": 1788996775,
       "last": 1791156376,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Hazel English",
-      "title": "Five and Dime",
-      "album": "Wake UP!",
-      "count": 13,
-      "first": 1789065292,
-      "last": 1791156204,
       "playlists": {
         "1default": 13
       }
@@ -3180,10 +3180,21 @@
     },
     {
       "artist": "Sjowgren",
-      "count": 37,
+      "count": 38,
       "first": 1788965724,
-      "last": 1791162670,
+      "last": 1791169974,
       "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 13,
+          "first": 1788965724,
+          "last": 1791169974,
+          "playlists": {
+            "1default": 13
+          }
+        },
         {
           "artist": "Sjowgren",
           "title": "Flip Phones",
@@ -3202,17 +3213,6 @@
           "count": 12,
           "first": 1789225488,
           "last": 1791162670,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 12,
-          "first": 1788965724,
-          "last": 1791034232,
           "playlists": {
             "1default": 12
           }
@@ -6827,10 +6827,21 @@
     {
       "artist": "Juno Rossa",
       "album": "Chasing Animals",
-      "count": 23,
+      "count": 24,
       "first": 1789166634,
-      "last": 1791162844,
+      "last": 1791170179,
       "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 12,
+          "first": 1789166634,
+          "last": 1791170179,
+          "playlists": {
+            "1default": 12
+          }
+        },
         {
           "artist": "Juno Rossa",
           "title": "Like A Lover",
@@ -6840,17 +6851,6 @@
           "last": 1791162844,
           "playlists": {
             "1default": 12
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 11,
-          "first": 1789166634,
-          "last": 1791036941,
-          "playlists": {
-            "1default": 11
           }
         }
       ]
@@ -7739,9 +7739,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4573,
+      "count": 4575,
       "first": 1788901564,
-      "last": 1791169761,
+      "last": 1791170179,
       "songs": [
         {
           "artist": "Tele Novella",
