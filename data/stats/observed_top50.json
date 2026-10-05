@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T01:01:23.328510+00:00",
+  "updatedAt": "2026-10-05T01:06:06.064567+00:00",
   "summary": {
-    "totalPlays": 9867,
+    "totalPlays": 9868,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791161937
+    "lastObserved": 1791162138
   },
   "topSongs": [
     {
@@ -343,6 +343,17 @@
       }
     },
     {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 13,
+      "first": 1788968380,
+      "last": 1791162138,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Zolof the Rock & Roll Destroyer",
       "title": "Plays Pretty for Baby",
       "album": "Zolof the Rock & Roll Destroyer",
@@ -547,17 +558,6 @@
       "count": 13,
       "first": 1789049117,
       "last": 1791151954,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Sugs",
-      "title": "PICTURESQUE",
-      "album": "PICTURESQUE",
-      "count": 13,
-      "first": 1789060859,
-      "last": 1791150125,
       "playlists": {
         "1default": 13
       }
@@ -6825,6 +6825,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 23,
+      "first": 1788947080,
+      "last": 1791162138,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 13,
+          "first": 1788968380,
+          "last": 1791162138,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 10,
+          "first": 1788947080,
+          "last": 1790733718,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "pear",
       "count": 23,
@@ -7187,37 +7218,6 @@
           "last": 1791036941,
           "playlists": {
             "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 22,
-      "first": 1788947080,
-      "last": 1791024561,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 12,
-          "first": 1788968380,
-          "last": 1791024561,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 10,
-          "first": 1788947080,
-          "last": 1790733718,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7739,9 +7739,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4537,
+      "count": 4538,
       "first": 1788901564,
-      "last": 1791161937,
+      "last": 1791162138,
       "songs": [
         {
           "artist": "Tele Novella",
