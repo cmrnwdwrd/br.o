@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T12:26:22.587189+00:00",
+  "updatedAt": "2026-10-05T12:31:34.803860+00:00",
   "summary": {
-    "totalPlays": 10056,
+    "totalPlays": 10057,
     "unknownPlays": 1141,
     "uniqueTracks": 2261,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1863,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791202981
+    "lastObserved": 1791203278
   },
   "topSongs": [
     {
@@ -7908,10 +7908,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 440,
+      "count": 441,
       "first": 1788955289,
-      "last": 1791202981,
+      "last": 1791203278,
       "songs": [
+        {
+          "artist": "Hollow Coves",
+          "title": "Coastline",
+          "album": "Wanderlust",
+          "count": 3,
+          "first": 1790078507,
+          "last": 1791203278,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Ryn Weaver",
           "title": "Pierre",
@@ -7952,17 +7963,6 @@
           "count": 2,
           "first": 1790254075,
           "last": 1791202754,
-          "playlists": {
-            "carhartts": 2
-          }
-        },
-        {
-          "artist": "Corey Kilgannon",
-          "title": "Macaroni Song",
-          "album": "Bleeding out Slow (B-Sides)",
-          "count": 2,
-          "first": 1789389217,
-          "last": 1791201660,
           "playlists": {
             "carhartts": 2
           }
