@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T09:36:32.018833+00:00",
+  "updatedAt": "2026-10-05T09:41:36.496274+00:00",
   "summary": {
-    "totalPlays": 10010,
+    "totalPlays": 10011,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791192946
+    "lastObserved": 1791193179
   },
   "topSongs": [
     {
@@ -189,6 +189,17 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 16,
+      "first": 1789063640,
+      "last": 1791193179,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "Meeting House",
       "title": "Black Clouds",
       "album": "Couch Surfer",
@@ -228,17 +239,6 @@
       "count": 15,
       "first": 1788988450,
       "last": 1791107739,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 15,
-      "first": 1789063640,
-      "last": 1791076131,
       "playlists": {
         "1default": 15
       }
@@ -3951,6 +3951,36 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 28,
+      "first": 1788973386,
+      "last": 1791193179,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 16,
+          "first": 1789063640,
+          "last": 1791193179,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 12,
+          "first": 1788973386,
+          "last": 1791185702,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "count": 28,
       "first": 1788914259,
@@ -4220,36 +4250,6 @@
           "last": 1791071173,
           "playlists": {
             "texting your situationship": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 27,
-      "first": 1788973386,
-      "last": 1791185702,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 15,
-          "first": 1789063640,
-          "last": 1791076131,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 12,
-          "first": 1788973386,
-          "last": 1791185702,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -7706,9 +7706,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4645,
+      "count": 4646,
       "first": 1788901564,
-      "last": 1791192946,
+      "last": 1791193179,
       "songs": [
         {
           "artist": "Tele Novella",
