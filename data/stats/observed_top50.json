@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T17:36:37.310026+00:00",
+  "updatedAt": "2026-10-05T17:41:40.104316+00:00",
   "summary": {
-    "totalPlays": 10137,
+    "totalPlays": 10139,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791221604
+    "lastObserved": 1791222010
   },
   "topSongs": [
     {
@@ -388,6 +388,17 @@
       }
     },
     {
+      "artist": "Radiohead",
+      "title": "If You Say the Word",
+      "album": "If You Say the Word",
+      "count": 13,
+      "first": 1789033884,
+      "last": 1791222010,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Royal Blood",
       "title": "Trouble's Coming",
       "album": "Trouble's Coming",
@@ -548,17 +559,6 @@
       "count": 13,
       "first": 1789054258,
       "last": 1791213879,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Leon Bridges",
-      "title": "Motorbike",
-      "album": "Motorbike",
-      "count": 13,
-      "first": 1788975084,
-      "last": 1791213337,
       "playlists": {
         "1default": 13
       }
@@ -3499,6 +3499,47 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 36,
+      "first": 1788973066,
+      "last": 1791222010,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 13,
+          "first": 1789033884,
+          "last": 1791222010,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 12,
+          "first": 1788984450,
+          "last": 1791214719,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 11,
+          "first": 1788973066,
+          "last": 1790957638,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Brandywine",
       "count": 36,
       "first": 1788965930,
@@ -3574,47 +3615,6 @@
           "count": 11,
           "first": 1789086174,
           "last": 1791168302,
-          "playlists": {
-            "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 35,
-      "first": 1788973066,
-      "last": 1791214719,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 12,
-          "first": 1788984450,
-          "last": 1791214719,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 12,
-          "first": 1789033884,
-          "last": 1790923062,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 11,
-          "first": 1788973066,
-          "last": 1790957638,
           "playlists": {
             "1default": 11
           }
@@ -7686,9 +7686,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4708,
+      "count": 4710,
       "first": 1788901564,
-      "last": 1791221604,
+      "last": 1791222010,
       "songs": [
         {
           "artist": "Tele Novella",
