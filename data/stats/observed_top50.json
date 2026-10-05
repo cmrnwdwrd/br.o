@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T07:41:33.183053+00:00",
+  "updatedAt": "2026-10-05T07:46:30.768161+00:00",
   "summary": {
-    "totalPlays": 9980,
+    "totalPlays": 9981,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791185855
+    "lastObserved": 1791186241
   },
   "topSongs": [
     {
@@ -365,6 +365,17 @@
       }
     },
     {
+      "artist": "The Czars",
+      "title": "Drug",
+      "album": "Best Of",
+      "count": 13,
+      "first": 1789063847,
+      "last": 1791186241,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Brainsick",
       "album": "Brainsick",
@@ -547,17 +558,6 @@
       "count": 13,
       "first": 1788913008,
       "last": 1791168074,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Madness",
-      "title": "Our House",
-      "album": "Madness",
-      "count": 13,
-      "first": 1788904090,
-      "last": 1791167695,
       "playlists": {
         "1default": 13
       }
@@ -2489,6 +2489,80 @@
       ]
     },
     {
+      "artist": "The Czars",
+      "count": 63,
+      "first": 1788963949,
+      "last": 1791186241,
+      "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 13,
+          "first": 1789063847,
+          "last": 1791186241,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 12,
+          "first": 1789096240,
+          "last": 1790986115,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 10,
+          "first": 1788963949,
+          "last": 1790983341,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 10,
+          "first": 1789015116,
+          "last": 1790655722,
+          "playlists": {
+            "1default": 10
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 9,
+          "first": 1789324379,
+          "last": 1790702130,
+          "playlists": {
+            "1default": 9
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 9,
+          "first": 1789218669,
+          "last": 1790619226,
+          "playlists": {
+            "1default": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Florence + The Machine",
       "count": 63,
       "first": 1789098538,
@@ -2580,80 +2654,6 @@
           "last": 1791004494,
           "playlists": {
             "for the girls driving 85": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Czars",
-      "count": 62,
-      "first": 1788963949,
-      "last": 1790986115,
-      "songs": [
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 12,
-          "first": 1789096240,
-          "last": 1790986115,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 12,
-          "first": 1789063847,
-          "last": 1790923487,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 10,
-          "first": 1788963949,
-          "last": 1790983341,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 10,
-          "first": 1789015116,
-          "last": 1790655722,
-          "playlists": {
-            "1default": 10
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 9,
-          "first": 1789324379,
-          "last": 1790702130,
-          "playlists": {
-            "1default": 9
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 9,
-          "first": 1789218669,
-          "last": 1790619226,
-          "playlists": {
-            "1default": 9
           }
         }
       ]
@@ -5117,10 +5117,21 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 62,
+      "count": 63,
       "first": 1788963949,
-      "last": 1790986115,
+      "last": 1791186241,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 13,
+          "first": 1789063847,
+          "last": 1791186241,
+          "playlists": {
+            "1default": 13
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Killjoy",
@@ -5128,17 +5139,6 @@
           "count": 12,
           "first": 1789096240,
           "last": 1790986115,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 12,
-          "first": 1789063847,
-          "last": 1790923487,
           "playlists": {
             "1default": 12
           }
@@ -7739,9 +7739,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4615,
+      "count": 4616,
       "first": 1788901564,
-      "last": 1791185855,
+      "last": 1791186241,
       "songs": [
         {
           "artist": "Tele Novella",
