@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T13:16:15.055633+00:00",
+  "updatedAt": "2026-10-05T13:21:16.542796+00:00",
   "summary": {
-    "totalPlays": 10069,
+    "totalPlays": 10071,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791206077
+    "lastObserved": 1791206481
   },
   "topSongs": [
     {
@@ -7908,10 +7908,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 453,
+      "count": 455,
       "first": 1788955289,
-      "last": 1791206077,
+      "last": 1791206481,
       "songs": [
+        {
+          "artist": "Lord Huron",
+          "title": "Long Lost",
+          "album": "Long Lost",
+          "count": 3,
+          "first": 1789046634,
+          "last": 1791206481,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "WILLIS",
           "title": "I Think I Like When It Rains",
@@ -7952,17 +7963,6 @@
           "count": 3,
           "first": 1790078507,
           "last": 1791203278,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Ryn Weaver",
-          "title": "Pierre",
-          "album": "The Fool",
-          "count": 3,
-          "first": 1788959882,
-          "last": 1791202553,
           "playlists": {
             "carhartts": 3
           }
