@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-05T00:16:30.816287+00:00",
+  "updatedAt": "2026-10-05T00:21:34.877405+00:00",
   "summary": {
-    "totalPlays": 9853,
+    "totalPlays": 9855,
     "unknownPlays": 1141,
     "uniqueTracks": 2260,
     "uniqueArtists": 1453,
     "uniqueAlbums": 1862,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791159345
+    "lastObserved": 1791159693
   },
   "topSongs": [
     {
@@ -332,6 +332,17 @@
       }
     },
     {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 13,
+      "first": 1789235365,
+      "last": 1791159693,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Rilo Kiley",
       "title": "Science Vs. Romance",
       "album": "Take Offs And Landings",
@@ -547,17 +558,6 @@
       "count": 13,
       "first": 1788927573,
       "last": 1791149016,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Orion Sun",
-      "title": "Antidote",
-      "album": "A Collection of Fleeting Moments and Daydreams",
-      "count": 13,
-      "first": 1788987870,
-      "last": 1791148805,
       "playlists": {
         "1default": 13
       }
@@ -4506,6 +4506,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 25,
+      "first": 1789054681,
+      "last": 1791159489,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 13,
+          "first": 1789057143,
+          "last": 1791152234,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 12,
+          "first": 1789054681,
+          "last": 1791159489,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "count": 25,
       "first": 1788986736,
@@ -4928,36 +4958,6 @@
           "last": 1790574671,
           "playlists": {
             "EPL4a": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 24,
-      "first": 1789054681,
-      "last": 1791152234,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 13,
-          "first": 1789057143,
-          "last": 1791152234,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 11,
-          "first": 1789054681,
-          "last": 1791053994,
-          "playlists": {
-            "1default": 11
           }
         }
       ]
@@ -7739,9 +7739,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4523,
+      "count": 4525,
       "first": 1788901564,
-      "last": 1791159345,
+      "last": 1791159693,
       "songs": [
         {
           "artist": "Tele Novella",
