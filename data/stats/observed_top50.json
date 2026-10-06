@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T13:41:52.722590+00:00",
+  "updatedAt": "2026-10-06T13:46:40.572639+00:00",
   "summary": {
-    "totalPlays": 10466,
+    "totalPlays": 10467,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791293944
+    "lastObserved": 1791294204
   },
   "topSongs": [
     {
@@ -7724,10 +7724,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 489,
+      "count": 490,
       "first": 1788955289,
-      "last": 1791293944,
+      "last": 1791294204,
       "songs": [
+        {
+          "artist": "Daniel Leggs",
+          "title": "u know who u r",
+          "album": "u know who u r",
+          "count": 3,
+          "first": 1790170414,
+          "last": 1791294204,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Town Meeting",
           "title": "West of Seattle",
@@ -7768,17 +7779,6 @@
           "count": 3,
           "first": 1790081459,
           "last": 1791291007,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Yoke Lore",
-          "title": "Dead Ringer",
-          "album": "Dead Ringer",
-          "count": 3,
-          "first": 1789999030,
-          "last": 1791290273,
           "playlists": {
             "carhartts": 3
           }
