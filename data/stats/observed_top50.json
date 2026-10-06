@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T00:41:39.919220+00:00",
+  "updatedAt": "2026-10-06T00:46:27.499088+00:00",
   "summary": {
-    "totalPlays": 10242,
+    "totalPlays": 10243,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791247242
+    "lastObserved": 1791247504
   },
   "topSongs": [
     {
@@ -296,6 +296,17 @@
       }
     },
     {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 14,
+      "first": 1788968380,
+      "last": 1791247504,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Blue Rain Boots",
       "title": "Oh My God You Are Fine",
       "album": "Oh My God You Are Fine",
@@ -555,17 +566,6 @@
       "count": 13,
       "first": 1789058552,
       "last": 1791243097,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Men At Work",
-      "title": "Who Can It Be Now?",
-      "album": "Business As Usual",
-      "count": 13,
-      "first": 1789061920,
-      "last": 1791237258,
       "playlists": {
         "1default": 13
       }
@@ -4670,6 +4670,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 25,
+      "first": 1788947080,
+      "last": 1791247504,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 14,
+          "first": 1788968380,
+          "last": 1791247504,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 11,
+          "first": 1788947080,
+          "last": 1791191108,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Olivia Rodrigo",
       "count": 25,
       "first": 1789057000,
@@ -4796,36 +4826,6 @@
           "last": 1791159489,
           "playlists": {
             "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "count": 25,
-      "first": 1788986736,
-      "last": 1791107950,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 20,
-          "first": 1788986736,
-          "last": 1791107950,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 5,
-          "first": 1789258725,
-          "last": 1790488034,
-          "playlists": {
-            "sad girl no friends saturday": 5
           }
         }
       ]
@@ -6633,6 +6633,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 25,
+      "first": 1788947080,
+      "last": 1791247504,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 14,
+          "first": 1788968380,
+          "last": 1791247504,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 11,
+          "first": 1788947080,
+          "last": 1791191108,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Laurel Hell",
       "count": 25,
@@ -6887,37 +6918,6 @@
           "last": 1790488034,
           "playlists": {
             "sad girl no friends saturday": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 24,
-      "first": 1788947080,
-      "last": 1791191108,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 13,
-          "first": 1788968380,
-          "last": 1791162138,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 11,
-          "first": 1788947080,
-          "last": 1791191108,
-          "playlists": {
-            "1default": 11
           }
         }
       ]
@@ -7502,9 +7502,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4790,
+      "count": 4791,
       "first": 1788901564,
-      "last": 1791247242,
+      "last": 1791247504,
       "songs": [
         {
           "artist": "Tele Novella",
