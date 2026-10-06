@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T03:26:12.839770+00:00",
+  "updatedAt": "2026-10-06T03:31:28.266350+00:00",
   "summary": {
-    "totalPlays": 10287,
+    "totalPlays": 10289,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791257034
+    "lastObserved": 1791257420
   },
   "topSongs": [
     {
@@ -296,6 +296,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "a machine as big as a city with a concert at the center",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 14,
+      "first": 1788972349,
+      "last": 1791257420,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Donovan",
       "title": "Sunshine Superman",
       "album": "Sunshine Superman",
@@ -555,17 +566,6 @@
       "count": 14,
       "first": 1788911339,
       "last": 1791161639,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "Say It Ain't So",
-      "album": "Weezer",
-      "count": 14,
-      "first": 1788946510,
-      "last": 1791158443,
       "playlists": {
         "1default": 14
       }
@@ -2669,10 +2669,21 @@
     },
     {
       "artist": "botch",
-      "count": 51,
+      "count": 52,
       "first": 1788920755,
-      "last": 1791249064,
+      "last": 1791257420,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 14,
+          "first": 1788972349,
+          "last": 1791257420,
+          "playlists": {
+            "1default": 14
+          }
+        },
         {
           "artist": "botch",
           "title": "underthebasement",
@@ -2691,17 +2702,6 @@
           "count": 13,
           "first": 1788920755,
           "last": 1791216695,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 13,
-          "first": 1788972349,
-          "last": 1791185427,
           "playlists": {
             "1default": 13
           }
@@ -6549,6 +6549,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 27,
+      "first": 1788972349,
+      "last": 1791257420,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 14,
+          "first": 1788972349,
+          "last": 1791257420,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 13,
+          "first": 1788997306,
+          "last": 1791249064,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "album": "Alligator Bites Never Heal",
       "count": 27,
@@ -6597,37 +6628,6 @@
           "last": 1790866620,
           "playlists": {
             "rage commute": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 26,
-      "first": 1788972349,
-      "last": 1791249064,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 13,
-          "first": 1788997306,
-          "last": 1791249064,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 13,
-          "first": 1788972349,
-          "last": 1791185427,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7524,9 +7524,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4835,
+      "count": 4837,
       "first": 1788901564,
-      "last": 1791257034,
+      "last": 1791257420,
       "songs": [
         {
           "artist": "Tele Novella",
