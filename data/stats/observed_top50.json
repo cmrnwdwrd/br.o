@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T00:46:27.499088+00:00",
+  "updatedAt": "2026-10-06T00:51:36.154358+00:00",
   "summary": {
-    "totalPlays": 10243,
+    "totalPlays": 10244,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791247504
+    "lastObserved": 1791247767
   },
   "topSongs": [
     {
@@ -296,6 +296,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 14,
+      "first": 1788919285,
+      "last": 1791247767,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Jethro Tull",
       "title": "Nothing Is Easy",
       "album": "Stand Up",
@@ -555,17 +566,6 @@
       "count": 13,
       "first": 1788983582,
       "last": 1791243444,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Claud",
-      "title": "Scarlett",
-      "album": "Scarlett",
-      "count": 13,
-      "first": 1789058552,
-      "last": 1791243097,
       "playlists": {
         "1default": 13
       }
@@ -4143,6 +4143,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 28,
+      "first": 1788919285,
+      "last": 1791247767,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 14,
+          "first": 1788919285,
+          "last": 1791247767,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 13,
+          "first": 1788975084,
+          "last": 1791213337,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 1,
+          "first": 1789893243,
+          "last": 1789893243,
+          "playlists": {
+            "christmas rn": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mallory Graham",
       "count": 28,
       "first": 1788973386,
@@ -4261,47 +4302,6 @@
           "last": 1790914296,
           "playlists": {
             "for the girls driving 85": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 27,
-      "first": 1788919285,
-      "last": 1791232929,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 13,
-          "first": 1788919285,
-          "last": 1791232929,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 13,
-          "first": 1788975084,
-          "last": 1791213337,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 1,
-          "first": 1789893243,
-          "last": 1789893243,
-          "playlists": {
-            "christmas rn": 1
           }
         }
       ]
@@ -7502,9 +7502,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4791,
+      "count": 4792,
       "first": 1788901564,
-      "last": 1791247504,
+      "last": 1791247767,
       "songs": [
         {
           "artist": "Tele Novella",
