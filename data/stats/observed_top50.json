@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T16:21:36.915575+00:00",
+  "updatedAt": "2026-10-06T16:26:14.065439+00:00",
   "summary": {
-    "totalPlays": 10509,
+    "totalPlays": 10510,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791303617
+    "lastObserved": 1791303824
   },
   "topSongs": [
     {
@@ -318,6 +318,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 14,
+      "first": 1788970790,
+      "last": 1791303824,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Finger Eleven",
       "title": "Paralyzer",
       "album": "Them Vs. You Vs. Me (Deluxe Edition)",
@@ -555,17 +566,6 @@
       "count": 14,
       "first": 1788962794,
       "last": 1791261869,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Dreamer Isioma",
-      "title": "Sensitive",
-      "album": "Sensitive",
-      "count": 14,
-      "first": 1789057751,
-      "last": 1791261430,
       "playlists": {
         "1default": 14
       }
@@ -2992,6 +2992,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 41,
+      "first": 1788917230,
+      "last": 1791303824,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 14,
+          "first": 1788970790,
+          "last": 1791303824,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 14,
+          "first": 1788917230,
+          "last": 1791138834,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 13,
+          "first": 1789050580,
+          "last": 1791258148,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 41,
       "first": 1788946510,
@@ -3039,47 +3080,6 @@
           "last": 1789758798,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 40,
-      "first": 1788917230,
-      "last": 1791258148,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 14,
-          "first": 1788917230,
-          "last": 1791138834,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 13,
-          "first": 1789050580,
-          "last": 1791258148,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 13,
-          "first": 1788970790,
-          "last": 1791163764,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7535,9 +7535,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4905,
+      "count": 4906,
       "first": 1788901564,
-      "last": 1791303617,
+      "last": 1791303824,
       "songs": [
         {
           "artist": "Tele Novella",
