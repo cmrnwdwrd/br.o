@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T17:41:38.521529+00:00",
+  "updatedAt": "2026-10-06T17:46:43.318714+00:00",
   "summary": {
-    "totalPlays": 10531,
+    "totalPlays": 10532,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791308351
+    "lastObserved": 1791308593
   },
   "topSongs": [
     {
@@ -329,6 +329,17 @@
       }
     },
     {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 14,
+      "first": 1789235365,
+      "last": 1791308593,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "The Czars",
       "title": "Drug",
       "album": "Best Of",
@@ -555,17 +566,6 @@
       "count": 14,
       "first": 1789095484,
       "last": 1791296596,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "You Make Me Want to Kill Myself",
-      "album": "You Make Me Want to Kill Myself",
-      "count": 14,
-      "first": 1788984684,
-      "last": 1791295724,
       "playlists": {
         "1default": 14
       }
@@ -4760,6 +4760,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 25,
+      "first": 1789069956,
+      "last": 1791308593,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 14,
+          "first": 1789235365,
+          "last": 1791308593,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 11,
+          "first": 1789069956,
+          "last": 1791152414,
+          "playlists": {
+            "1default": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "Beach Bunny",
       "count": 25,
       "first": 1788966457,
@@ -4783,36 +4813,6 @@
           "count": 12,
           "first": 1789230720,
           "last": 1791249811,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "David Bowie",
-      "count": 25,
-      "first": 1788912385,
-      "last": 1791305900,
-      "songs": [
-        {
-          "artist": "David Bowie",
-          "title": "I'm Afraid of Americans (V1)",
-          "album": "Legacy (Deluxe Edition)",
-          "count": 13,
-          "first": 1788912385,
-          "last": 1791219210,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "David Bowie",
-          "title": "Rebel Rebel - 2016 Remaster",
-          "album": "Diamond Dogs (2016 Remaster)",
-          "count": 12,
-          "first": 1789129746,
-          "last": 1791305900,
           "playlists": {
             "1default": 12
           }
@@ -7524,9 +7524,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4927,
+      "count": 4928,
       "first": 1788901564,
-      "last": 1791308351,
+      "last": 1791308593,
       "songs": [
         {
           "artist": "Tele Novella",
