@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T03:46:22.780853+00:00",
+  "updatedAt": "2026-10-06T03:51:31.700373+00:00",
   "summary": {
-    "totalPlays": 10292,
+    "totalPlays": 10294,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791258148
+    "lastObserved": 1791258654
   },
   "topSongs": [
     {
@@ -175,6 +175,17 @@
       }
     },
     {
+      "artist": "Meeting House",
+      "title": "Black Clouds",
+      "album": "Couch Surfer",
+      "count": 17,
+      "first": 1789226222,
+      "last": 1791258444,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Mallory Graham",
       "title": "MOP",
       "album": "MOP",
@@ -225,17 +236,6 @@
       "count": 16,
       "first": 1788988450,
       "last": 1791255991,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Meeting House",
-      "title": "Black Clouds",
-      "album": "Couch Surfer",
-      "count": 16,
-      "first": 1789226222,
-      "last": 1791166825,
       "playlists": {
         "1default": 16
       }
@@ -293,6 +293,17 @@
       "last": 1791217918,
       "playlists": {
         "1default": 15
+      }
+    },
+    {
+      "artist": "JOSEPH",
+      "title": "Green Eyes",
+      "album": "Good Luck, Kid",
+      "count": 14,
+      "first": 1789070850,
+      "last": 1791258654,
+      "playlists": {
+        "1default": 14
       }
     },
     {
@@ -555,17 +566,6 @@
       "count": 14,
       "first": 1788970349,
       "last": 1791176767,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Teyana Taylor",
-      "title": "Gonna Love Me",
-      "album": "K.T.S.E.",
-      "count": 14,
-      "first": 1788929095,
-      "last": 1791176232,
       "playlists": {
         "1default": 14
       }
@@ -7240,6 +7240,37 @@
       ]
     },
     {
+      "artist": "Meeting House",
+      "album": "Couch Surfer",
+      "count": 21,
+      "first": 1789226222,
+      "last": 1791258444,
+      "songs": [
+        {
+          "artist": "Meeting House",
+          "title": "Black Clouds",
+          "album": "Couch Surfer",
+          "count": 17,
+          "first": 1789226222,
+          "last": 1791258444,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Meeting House",
+          "title": "Couch Surfer",
+          "album": "Couch Surfer",
+          "count": 4,
+          "first": 1789250068,
+          "last": 1791065540,
+          "playlists": {
+            "landlockd surfrock": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "CAKE",
       "album": "Motorcade of Generosity",
       "count": 21,
@@ -7439,37 +7470,6 @@
       ]
     },
     {
-      "artist": "Meeting House",
-      "album": "Couch Surfer",
-      "count": 20,
-      "first": 1789226222,
-      "last": 1791166825,
-      "songs": [
-        {
-          "artist": "Meeting House",
-          "title": "Black Clouds",
-          "album": "Couch Surfer",
-          "count": 16,
-          "first": 1789226222,
-          "last": 1791166825,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Meeting House",
-          "title": "Couch Surfer",
-          "album": "Couch Surfer",
-          "count": 4,
-          "first": 1789250068,
-          "last": 1791065540,
-          "playlists": {
-            "landlockd surfrock": 4
-          }
-        }
-      ]
-    },
-    {
       "artist": "Lush",
       "album": "Lovelife",
       "count": 20,
@@ -7524,9 +7524,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4840,
+      "count": 4842,
       "first": 1788901564,
-      "last": 1791258148,
+      "last": 1791258654,
       "songs": [
         {
           "artist": "Tele Novella",
