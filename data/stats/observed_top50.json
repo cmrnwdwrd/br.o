@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T19:31:38.190494+00:00",
+  "updatedAt": "2026-10-06T19:36:39.138555+00:00",
   "summary": {
-    "totalPlays": 10560,
+    "totalPlays": 10561,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791315049
+    "lastObserved": 1791315325
   },
   "topSongs": [
     {
@@ -340,6 +340,17 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 14,
+      "first": 1789033065,
+      "last": 1791315325,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "N.E.R.D",
       "title": "Run To The Sun",
       "album": "In Search Of...",
@@ -555,17 +566,6 @@
       "count": 14,
       "first": 1789032729,
       "last": 1791302021,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Royal Blood",
-      "title": "Trouble's Coming",
-      "album": "Trouble's Coming",
-      "count": 14,
-      "first": 1788928623,
-      "last": 1791301794,
       "playlists": {
         "1default": 14
       }
@@ -3126,6 +3126,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 39,
+      "first": 1788973998,
+      "last": 1791315325,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 14,
+          "first": 1789033065,
+          "last": 1791315325,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 13,
+          "first": 1788973998,
+          "last": 1791128200,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 12,
+          "first": 1789226629,
+          "last": 1791260990,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 39,
       "first": 1788973066,
@@ -3318,47 +3359,6 @@
           "last": 1791011923,
           "playlists": {
             "for the girls driving 85": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 38,
-      "first": 1788973998,
-      "last": 1791260990,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 13,
-          "first": 1788973998,
-          "last": 1791128200,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 13,
-          "first": 1789033065,
-          "last": 1791104844,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 12,
-          "first": 1789226629,
-          "last": 1791260990,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -7524,9 +7524,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4956,
+      "count": 4957,
       "first": 1788901564,
-      "last": 1791315049,
+      "last": 1791315325,
       "songs": [
         {
           "artist": "Tele Novella",
