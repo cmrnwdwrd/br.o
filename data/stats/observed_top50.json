@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T16:51:12.225361+00:00",
+  "updatedAt": "2026-10-06T16:56:24.838846+00:00",
   "summary": {
-    "totalPlays": 10516,
+    "totalPlays": 10518,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791305364
+    "lastObserved": 1791305670
   },
   "topSongs": [
     {
@@ -175,6 +175,17 @@
       }
     },
     {
+      "artist": "The Cardigans",
+      "title": "Step On Me",
+      "album": "First Band On The Moon (Remastered)",
+      "count": 17,
+      "first": 1788985233,
+      "last": 1791305670,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Meeting House",
       "title": "Black Clouds",
       "album": "Couch Surfer",
@@ -247,17 +258,6 @@
       "count": 16,
       "first": 1788920320,
       "last": 1791163607,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "The Cardigans",
-      "title": "Step On Me",
-      "album": "First Band On The Moon (Remastered)",
-      "count": 16,
-      "first": 1788985233,
-      "last": 1791107091,
       "playlists": {
         "1default": 16
       }
@@ -3086,9 +3086,9 @@
     },
     {
       "artist": "Sjowgren",
-      "count": 39,
+      "count": 40,
       "first": 1788965724,
-      "last": 1791279540,
+      "last": 1791305496,
       "songs": [
         {
           "artist": "Sjowgren",
@@ -3103,6 +3103,17 @@
         },
         {
           "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 13,
+          "first": 1789225488,
+          "last": 1791305496,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Sjowgren",
           "title": "Flip Phones",
           "album": "win'20",
           "count": 13,
@@ -3110,17 +3121,6 @@
           "last": 1791155246,
           "playlists": {
             "1default": 13
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 12,
-          "first": 1789225488,
-          "last": 1791162670,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -6622,6 +6622,37 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "album": "win'20",
+      "count": 26,
+      "first": 1789059354,
+      "last": 1791305496,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 13,
+          "first": 1789225488,
+          "last": 1791305496,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 13,
+          "first": 1789059354,
+          "last": 1791155246,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "pear",
       "count": 26,
@@ -6887,37 +6918,6 @@
           "last": 1791193846,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "album": "win'20",
-      "count": 25,
-      "first": 1789059354,
-      "last": 1791162670,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 13,
-          "first": 1789059354,
-          "last": 1791155246,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 12,
-          "first": 1789225488,
-          "last": 1791162670,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -7535,9 +7535,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4912,
+      "count": 4914,
       "first": 1788901564,
-      "last": 1791305364,
+      "last": 1791305670,
       "songs": [
         {
           "artist": "Tele Novella",
