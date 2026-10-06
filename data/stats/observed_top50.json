@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T02:56:34.493106+00:00",
+  "updatedAt": "2026-10-06T03:02:27.590956+00:00",
   "summary": {
-    "totalPlays": 10279,
+    "totalPlays": 10281,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791255144
+    "lastObserved": 1791255744
   },
   "topSongs": [
     {
@@ -4419,6 +4419,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 26,
+      "first": 1788989714,
+      "last": 1791255744,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 13,
+          "first": 1789169386,
+          "last": 1791255744,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 13,
+          "first": 1788989714,
+          "last": 1791219475,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 26,
       "first": 1788985030,
@@ -4805,36 +4835,6 @@
           "count": 12,
           "first": 1789231311,
           "last": 1791220571,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 25,
-      "first": 1788989714,
-      "last": 1791219475,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 13,
-          "first": 1788989714,
-          "last": 1791219475,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 12,
-          "first": 1789169386,
-          "last": 1791212181,
           "playlists": {
             "1default": 12
           }
@@ -7524,9 +7524,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4827,
+      "count": 4829,
       "first": 1788901564,
-      "last": 1791255144,
+      "last": 1791255744,
       "songs": [
         {
           "artist": "Tele Novella",
