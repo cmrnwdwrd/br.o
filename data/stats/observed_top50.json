@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T04:01:39.823106+00:00",
+  "updatedAt": "2026-10-06T04:06:32.433578+00:00",
   "summary": {
-    "totalPlays": 10296,
+    "totalPlays": 10298,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791259083
+    "lastObserved": 1791259524
   },
   "topSongs": [
     {
@@ -45,6 +45,17 @@
       "last": 1791162437,
       "playlists": {
         "1default": 22
+      }
+    },
+    {
+      "artist": "Metric",
+      "title": "Dead Disco",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 21,
+      "first": 1788986736,
+      "last": 1791259322,
+      "playlists": {
+        "1default": 21
       }
     },
     {
@@ -90,17 +101,6 @@
       "count": 20,
       "first": 1788926155,
       "last": 1791187964,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Metric",
-      "title": "Dead Disco",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 20,
-      "first": 1788986736,
-      "last": 1791107950,
       "playlists": {
         "1default": 20
       }
@@ -4419,6 +4419,36 @@
       ]
     },
     {
+      "artist": "Metric",
+      "count": 26,
+      "first": 1788986736,
+      "last": 1791259322,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 21,
+          "first": 1788986736,
+          "last": 1791259322,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 5,
+          "first": 1789258725,
+          "last": 1790488034,
+          "playlists": {
+            "sad girl no friends saturday": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 26,
       "first": 1788989714,
@@ -4807,36 +4837,6 @@
           "last": 1791071409,
           "playlists": {
             "texting your situationship": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 25,
-      "first": 1788986484,
-      "last": 1791227911,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 13,
-          "first": 1788986484,
-          "last": 1791227911,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 12,
-          "first": 1789231311,
-          "last": 1791220571,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -6633,6 +6633,37 @@
       ]
     },
     {
+      "artist": "Metric",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 26,
+      "first": 1788986736,
+      "last": 1791259322,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 21,
+          "first": 1788986736,
+          "last": 1791259322,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 5,
+          "first": 1789258725,
+          "last": 1790488034,
+          "playlists": {
+            "sad girl no friends saturday": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Bury Me At Makeout Creek",
       "count": 26,
@@ -6898,37 +6929,6 @@
           "last": 1791162670,
           "playlists": {
             "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 25,
-      "first": 1788986736,
-      "last": 1791107950,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 20,
-          "first": 1788986736,
-          "last": 1791107950,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 5,
-          "first": 1789258725,
-          "last": 1790488034,
-          "playlists": {
-            "sad girl no friends saturday": 5
           }
         }
       ]
@@ -7524,9 +7524,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4844,
+      "count": 4846,
       "first": 1788901564,
-      "last": 1791259083,
+      "last": 1791259524,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7537,6 +7537,17 @@
           "last": 1791162437,
           "playlists": {
             "1default": 22
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 21,
+          "first": 1788986736,
+          "last": 1791259322,
+          "playlists": {
+            "1default": 21
           }
         },
         {
@@ -7568,17 +7579,6 @@
           "count": 20,
           "first": 1788968644,
           "last": 1791159216,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 20,
-          "first": 1788986736,
-          "last": 1791107950,
           "playlists": {
             "1default": 20
           }
