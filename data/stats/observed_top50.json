@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T01:06:31.425350+00:00",
+  "updatedAt": "2026-10-06T01:11:36.879627+00:00",
   "summary": {
-    "totalPlays": 10248,
+    "totalPlays": 10250,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791248684
+    "lastObserved": 1791249064
   },
   "topSongs": [
     {
@@ -175,6 +175,17 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 17,
+      "first": 1789063640,
+      "last": 1791248859,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Nat & Alex Wolff",
       "title": "Rollin' Around",
       "album": "Public Places",
@@ -205,17 +216,6 @@
       "last": 1791187551,
       "playlists": {
         "1default": 17
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 16,
-      "first": 1789063640,
-      "last": 1791193179,
-      "playlists": {
-        "1default": 16
       }
     },
     {
@@ -505,6 +505,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "underthebasement",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 13,
+      "first": 1788997306,
+      "last": 1791249064,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Midlake",
       "title": "Acts of Man",
       "album": "The Courage of Others",
@@ -555,17 +566,6 @@
       "count": 13,
       "first": 1789057548,
       "last": 1791245443,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "LCD Soundsystem",
-      "title": "All My Friends",
-      "album": "Sound of Silver",
-      "count": 13,
-      "first": 1788917983,
-      "last": 1791244241,
       "playlists": {
         "1default": 13
       }
@@ -2669,10 +2669,21 @@
     },
     {
       "artist": "botch",
-      "count": 50,
+      "count": 51,
       "first": 1788920755,
-      "last": 1791216695,
+      "last": 1791249064,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 13,
+          "first": 1788997306,
+          "last": 1791249064,
+          "playlists": {
+            "1default": 13
+          }
+        },
         {
           "artist": "botch",
           "title": "gettingyoutobelieve",
@@ -2702,17 +2713,6 @@
           "count": 12,
           "first": 1788963025,
           "last": 1791209339,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 12,
-          "first": 1788997306,
-          "last": 1791192946,
           "playlists": {
             "1default": 12
           }
@@ -3888,6 +3888,36 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 29,
+      "first": 1788973386,
+      "last": 1791248859,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 17,
+          "first": 1789063640,
+          "last": 1791248859,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 12,
+          "first": 1788973386,
+          "last": 1791185702,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Of Monsters and Men",
       "count": 29,
       "first": 1788963370,
@@ -4179,36 +4209,6 @@
           "last": 1789893243,
           "playlists": {
             "christmas rn": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 28,
-      "first": 1788973386,
-      "last": 1791193179,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 16,
-          "first": 1789063640,
-          "last": 1791193179,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 12,
-          "first": 1788973386,
-          "last": 1791185702,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -6591,6 +6591,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 26,
+      "first": 1788972349,
+      "last": 1791249064,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 13,
+          "first": 1788997306,
+          "last": 1791249064,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 13,
+          "first": 1788972349,
+          "last": 1791185427,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Bury Me At Makeout Creek",
       "count": 26,
@@ -6825,37 +6856,6 @@
           "last": 1791193846,
           "playlists": {
             "1default": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 25,
-      "first": 1788972349,
-      "last": 1791192946,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 13,
-          "first": 1788972349,
-          "last": 1791185427,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 12,
-          "first": 1788997306,
-          "last": 1791192946,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -7513,9 +7513,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4796,
+      "count": 4798,
       "first": 1788901564,
-      "last": 1791248684,
+      "last": 1791249064,
       "songs": [
         {
           "artist": "Tele Novella",
