@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T13:36:11.720331+00:00",
+  "updatedAt": "2026-10-06T13:41:52.722590+00:00",
   "summary": {
-    "totalPlays": 10465,
+    "totalPlays": 10466,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791293536
+    "lastObserved": 1791293944
   },
   "topSongs": [
     {
@@ -7724,10 +7724,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 488,
+      "count": 489,
       "first": 1788955289,
-      "last": 1791293536,
+      "last": 1791293944,
       "songs": [
+        {
+          "artist": "Town Meeting",
+          "title": "West of Seattle",
+          "album": "West of Seattle",
+          "count": 3,
+          "first": 1788961720,
+          "last": 1791293944,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Cece Coakley",
           "title": "Happy Adjacent",
@@ -7768,17 +7779,6 @@
           "count": 3,
           "first": 1789999030,
           "last": 1791290273,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Lucy Dacus",
-          "title": "Kissing Lessons",
-          "album": "Kissing Lessons",
-          "count": 3,
-          "first": 1789994807,
-          "last": 1791207589,
           "playlists": {
             "carhartts": 3
           }
