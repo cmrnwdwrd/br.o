@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T14:26:39.684922+00:00",
+  "updatedAt": "2026-10-06T14:31:50.307027+00:00",
   "summary": {
-    "totalPlays": 10476,
+    "totalPlays": 10478,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791296596
+    "lastObserved": 1791297047
   },
   "topSongs": [
     {
@@ -296,6 +296,28 @@
       }
     },
     {
+      "artist": "TOPS",
+      "title": "Petals",
+      "album": "Sugar at the Gate",
+      "count": 14,
+      "first": 1788988660,
+      "last": 1791297047,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
+      "artist": "botch",
+      "title": "gettingyoutobelieve",
+      "album": "pear",
+      "count": 14,
+      "first": 1788920755,
+      "last": 1791296854,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "The Smashing Pumpkins",
       "title": "Beautiful - Remastered 2012",
       "album": "Mellon Collie And The Infinite Sadness (Remastered)",
@@ -544,28 +566,6 @@
       "count": 14,
       "first": 1789073755,
       "last": 1791252394,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Led Zeppelin",
-      "title": "Dazed and Confused - 1990 Remaster",
-      "album": "Led Zeppelin",
-      "count": 14,
-      "first": 1789062336,
-      "last": 1791251664,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "title": "Dying Dance",
-      "album": "Jaguar Stevens",
-      "count": 14,
-      "first": 1788975620,
-      "last": 1791251177,
       "playlists": {
         "1default": 14
       }
@@ -2669,10 +2669,21 @@
     },
     {
       "artist": "botch",
-      "count": 52,
+      "count": 53,
       "first": 1788920755,
-      "last": 1791257420,
+      "last": 1791296854,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 14,
+          "first": 1788920755,
+          "last": 1791296854,
+          "playlists": {
+            "1default": 14
+          }
+        },
         {
           "artist": "botch",
           "title": "a machine as big as a city with a concert at the center",
@@ -2691,17 +2702,6 @@
           "count": 13,
           "first": 1788997306,
           "last": 1791249064,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 13,
-          "first": 1788920755,
-          "last": 1791216695,
           "playlists": {
             "1default": 13
           }
@@ -6622,6 +6622,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 26,
+      "first": 1788920755,
+      "last": 1791296854,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 14,
+          "first": 1788920755,
+          "last": 1791296854,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 12,
+          "first": 1788963025,
+          "last": 1791209339,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "album": "Old World Underground, Where Are You Now?",
       "count": 26,
@@ -6814,37 +6845,6 @@
           "last": 1791223444,
           "playlists": {
             "1default": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 25,
-      "first": 1788920755,
-      "last": 1791216695,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 13,
-          "first": 1788920755,
-          "last": 1791216695,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 12,
-          "first": 1788963025,
-          "last": 1791209339,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -7535,9 +7535,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4872,
+      "count": 4874,
       "first": 1788901564,
-      "last": 1791296596,
+      "last": 1791297047,
       "songs": [
         {
           "artist": "Tele Novella",
