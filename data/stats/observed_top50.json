@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T00:21:42.165399+00:00",
+  "updatedAt": "2026-10-06T00:26:38.051714+00:00",
   "summary": {
-    "totalPlays": 10236,
+    "totalPlays": 10238,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791245831
+    "lastObserved": 1791246336
   },
   "topSongs": [
     {
@@ -296,6 +296,17 @@
       }
     },
     {
+      "artist": "The Shivas",
+      "title": "You Make Me Wanna Die",
+      "album": "You Know What to Do",
+      "count": 14,
+      "first": 1788975450,
+      "last": 1791246166,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Arcade Fire",
       "title": "Wake Up",
       "album": "Funeral",
@@ -461,6 +472,17 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "Should've Been Me",
+      "album": "Laurel Hell",
+      "count": 13,
+      "first": 1788920128,
+      "last": 1791246336,
+      "playlists": {
+        "1default": 13
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "HANGING MYSELF WITH MY PHONE CHARGER",
       "album": "SWAMP",
@@ -544,28 +566,6 @@
       "count": 13,
       "first": 1789066342,
       "last": 1791236706,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE WORLD IS ENDING",
-      "album": "THE WORLD IS ENDING",
-      "count": 13,
-      "first": 1789033665,
-      "last": 1791235371,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE KIDS ARE ALL RETARDED",
-      "album": "SWAMP",
-      "count": 13,
-      "first": 1788926373,
-      "last": 1791235258,
       "playlists": {
         "1default": 13
       }
@@ -1380,9 +1380,9 @@
     },
     {
       "artist": "Mitski",
-      "count": 113,
+      "count": 114,
       "first": 1788920128,
-      "last": 1791222976,
+      "last": 1791246336,
       "songs": [
         {
           "artist": "Mitski",
@@ -1397,22 +1397,22 @@
         },
         {
           "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 13,
+          "first": 1788920128,
+          "last": 1791246336,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Mitski",
           "title": "Love Me More",
           "album": "Laurel Hell",
           "count": 12,
           "first": 1789055950,
           "last": 1791222976,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 12,
-          "first": 1788920128,
-          "last": 1791035736,
           "playlists": {
             "1default": 12
           }
@@ -6633,6 +6633,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 25,
+      "first": 1788920128,
+      "last": 1791246336,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 13,
+          "first": 1788920128,
+          "last": 1791246336,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 12,
+          "first": 1789055950,
+          "last": 1791222976,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 25,
@@ -6856,37 +6887,6 @@
           "last": 1790488034,
           "playlists": {
             "sad girl no friends saturday": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 24,
-      "first": 1788920128,
-      "last": 1791222976,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 12,
-          "first": 1789055950,
-          "last": 1791222976,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 12,
-          "first": 1788920128,
-          "last": 1791035736,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -7502,9 +7502,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4784,
+      "count": 4786,
       "first": 1788901564,
-      "last": 1791245831,
+      "last": 1791246336,
       "songs": [
         {
           "artist": "Tele Novella",
