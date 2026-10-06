@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T02:16:41.398843+00:00",
+  "updatedAt": "2026-10-06T02:21:11.237058+00:00",
   "summary": {
-    "totalPlays": 10269,
+    "totalPlays": 10270,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791253004
+    "lastObserved": 1791253189
   },
   "topSongs": [
     {
@@ -296,6 +296,17 @@
       }
     },
     {
+      "artist": "Your Smith",
+      "title": "Debbie",
+      "album": "Bad Habit",
+      "count": 14,
+      "first": 1788947368,
+      "last": 1791253189,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Enya",
       "title": "Orinoco Flow",
       "album": "Watermark",
@@ -555,17 +566,6 @@
       "count": 13,
       "first": 1788989025,
       "last": 1791253004,
-      "playlists": {
-        "1default": 13
-      }
-    },
-    {
-      "artist": "Richy Mitch & The Coal Miners",
-      "title": "WET SOCKS",
-      "album": "Subliming",
-      "count": 13,
-      "first": 1788926758,
-      "last": 1791252799,
       "playlists": {
         "1default": 13
       }
@@ -3241,6 +3241,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 38,
+      "first": 1788947368,
+      "last": 1791253189,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 14,
+          "first": 1788947368,
+          "last": 1791253189,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 12,
+          "first": 1789086174,
+          "last": 1791244917,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 12,
+          "first": 1788969485,
+          "last": 1791161079,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 38,
       "first": 1788965724,
@@ -3275,47 +3316,6 @@
           "count": 12,
           "first": 1789225488,
           "last": 1791162670,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 37,
-      "first": 1788947368,
-      "last": 1791244917,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 13,
-          "first": 1788947368,
-          "last": 1791153780,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 12,
-          "first": 1789086174,
-          "last": 1791244917,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 12,
-          "first": 1788969485,
-          "last": 1791161079,
           "playlists": {
             "1default": 12
           }
@@ -5739,19 +5739,19 @@
     {
       "artist": "Your Smith",
       "album": "Bad Habit",
-      "count": 37,
+      "count": 38,
       "first": 1788947368,
-      "last": 1791244917,
+      "last": 1791253189,
       "songs": [
         {
           "artist": "Your Smith",
           "title": "Debbie",
           "album": "Bad Habit",
-          "count": 13,
+          "count": 14,
           "first": 1788947368,
-          "last": 1791153780,
+          "last": 1791253189,
           "playlists": {
-            "1default": 13
+            "1default": 14
           }
         },
         {
@@ -7513,9 +7513,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4817,
+      "count": 4818,
       "first": 1788901564,
-      "last": 1791253004,
+      "last": 1791253189,
       "songs": [
         {
           "artist": "Tele Novella",
