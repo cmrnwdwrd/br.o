@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T09:36:08.597357+00:00",
+  "updatedAt": "2026-10-06T09:41:35.206337+00:00",
   "summary": {
-    "totalPlays": 10399,
+    "totalPlays": 10400,
     "unknownPlays": 1141,
     "uniqueTracks": 2263,
     "uniqueArtists": 1454,
     "uniqueAlbums": 1865,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791279234
+    "lastObserved": 1791279540
   },
   "topSongs": [
     {
@@ -296,6 +296,17 @@
       }
     },
     {
+      "artist": "Sjowgren",
+      "title": "Now & Then",
+      "album": "Now & Then",
+      "count": 14,
+      "first": 1788965724,
+      "last": 1791279540,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Joey Valence & Brae, Brae",
       "title": "Double Jump",
       "album": "Double Jump",
@@ -555,17 +566,6 @@
       "count": 14,
       "first": 1788914549,
       "last": 1791246527,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "The Shivas",
-      "title": "You Make Me Wanna Die",
-      "album": "You Know What to Do",
-      "count": 14,
-      "first": 1788975450,
-      "last": 1791246166,
       "playlists": {
         "1default": 14
       }
@@ -3085,6 +3085,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 39,
+      "first": 1788965724,
+      "last": 1791279540,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 14,
+          "first": 1788965724,
+          "last": 1791279540,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 13,
+          "first": 1789059354,
+          "last": 1791155246,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 12,
+          "first": 1789225488,
+          "last": 1791162670,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 39,
       "first": 1788916461,
@@ -3316,47 +3357,6 @@
           "count": 12,
           "first": 1788969485,
           "last": 1791161079,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 38,
-      "first": 1788965724,
-      "last": 1791169974,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 13,
-          "first": 1788965724,
-          "last": 1791169974,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 13,
-          "first": 1789059354,
-          "last": 1791155246,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 12,
-          "first": 1789225488,
-          "last": 1791162670,
           "playlists": {
             "1default": 12
           }
@@ -7546,9 +7546,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4859,
+      "count": 4860,
       "first": 1788901564,
-      "last": 1791279234,
+      "last": 1791279540,
       "songs": [
         {
           "artist": "Tele Novella",
