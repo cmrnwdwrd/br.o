@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T19:41:35.929741+00:00",
+  "updatedAt": "2026-10-06T19:46:42.389558+00:00",
   "summary": {
-    "totalPlays": 10562,
+    "totalPlays": 10564,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791315513
+    "lastObserved": 1791315843
   },
   "topSongs": [
     {
@@ -60,6 +60,17 @@
       }
     },
     {
+      "artist": "Colfax Speed Queen",
+      "title": "Jesus Loves Rock N' Roll",
+      "album": "Satisfaction Intended",
+      "count": 21,
+      "first": 1788926155,
+      "last": 1791315843,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "title": "Happy Boy",
       "album": "WAR IN COLORADO!",
@@ -92,17 +103,6 @@
       "playlists": {
         "1default": 20,
         "anti-capitalist weekday afternoon #1": 1
-      }
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "title": "Jesus Loves Rock N' Roll",
-      "album": "Satisfaction Intended",
-      "count": 20,
-      "first": 1788926155,
-      "last": 1791187964,
-      "playlists": {
-        "1default": 20
       }
     },
     {
@@ -340,6 +340,17 @@
       }
     },
     {
+      "artist": "KXLLSWXTCH, Powers Pleasant",
+      "title": "COSMO",
+      "album": "THE WALLS HAVE EYES",
+      "count": 14,
+      "first": 1789049117,
+      "last": 1791315740,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "title": "Keep Pushing",
       "album": "Change the Channel",
@@ -555,17 +566,6 @@
       "count": 14,
       "first": 1789063011,
       "last": 1791302590,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "N.W.A.",
-      "title": "Fuck Tha Police",
-      "album": "Straight Outta Compton",
-      "count": 14,
-      "first": 1788971461,
-      "last": 1791302154,
       "playlists": {
         "1default": 14
       }
@@ -7280,6 +7280,26 @@
       ]
     },
     {
+      "artist": "Colfax Speed Queen",
+      "album": "Satisfaction Intended",
+      "count": 21,
+      "first": 1788926155,
+      "last": 1791315843,
+      "songs": [
+        {
+          "artist": "Colfax Speed Queen",
+          "title": "Jesus Loves Rock N' Roll",
+          "album": "Satisfaction Intended",
+          "count": 21,
+          "first": 1788926155,
+          "last": 1791315843,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "album": "WAR IN COLORADO!",
       "count": 21,
@@ -7477,56 +7497,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Chappell Roan",
-      "album": "The Rise and Fall of a Midwest Princess",
-      "count": 20,
-      "first": 1788973776,
-      "last": 1791247970,
-      "songs": [
-        {
-          "artist": "Chappell Roan",
-          "title": "My Kink Is Karma",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 12,
-          "first": 1788973776,
-          "last": 1791247970,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Super Graphic Ultra Modern Girl",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 7,
-          "first": 1789428359,
-          "last": 1790895435,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 7
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Pink Pony Club",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 1,
-          "first": 1789883353,
-          "last": 1789883353,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 4958,
+      "count": 4960,
       "first": 1788901564,
-      "last": 1791315513,
+      "last": 1791315843,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7537,6 +7515,17 @@
           "last": 1791162437,
           "playlists": {
             "1default": 22
+          }
+        },
+        {
+          "artist": "Colfax Speed Queen",
+          "title": "Jesus Loves Rock N' Roll",
+          "album": "Satisfaction Intended",
+          "count": 21,
+          "first": 1788926155,
+          "last": 1791315843,
+          "playlists": {
+            "1default": 21
           }
         },
         {
@@ -7570,17 +7559,6 @@
           "last": 1791257034,
           "playlists": {
             "1default": 21
-          }
-        },
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 20,
-          "first": 1788993017,
-          "last": 1791279234,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
