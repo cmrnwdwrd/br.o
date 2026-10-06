@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-06T13:21:34.801371+00:00",
+  "updatedAt": "2026-10-06T13:26:25.030087+00:00",
   "summary": {
-    "totalPlays": 10462,
+    "totalPlays": 10463,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791292885
+    "lastObserved": 1791293155
   },
   "topSongs": [
     {
@@ -7724,10 +7724,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 485,
+      "count": 486,
       "first": 1788955289,
-      "last": 1791292885,
+      "last": 1791293155,
       "songs": [
+        {
+          "artist": "Cece Coakley",
+          "title": "Happy Adjacent",
+          "album": "Happy Adjacent",
+          "count": 3,
+          "first": 1790081935,
+          "last": 1791293155,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Joshua Quimby",
           "title": "I've Always Got Time For You",
@@ -7768,17 +7779,6 @@
           "count": 3,
           "first": 1789994807,
           "last": 1791207589,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Lord Huron",
-          "title": "Long Lost",
-          "album": "Long Lost",
-          "count": 3,
-          "first": 1789046634,
-          "last": 1791206481,
           "playlists": {
             "carhartts": 3
           }
