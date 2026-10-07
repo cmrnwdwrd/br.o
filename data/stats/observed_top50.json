@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T20:46:53.784594+00:00",
+  "updatedAt": "2026-10-07T20:51:15.185691+00:00",
   "summary": {
-    "totalPlays": 10991,
+    "totalPlays": 10992,
     "unknownPlays": 1141,
     "uniqueTracks": 2300,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1901,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791405893
+    "lastObserved": 1791406126
   },
   "topSongs": [
     {
@@ -257,6 +257,17 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "Say It Ain't So",
+      "album": "Weezer",
+      "count": 16,
+      "first": 1788946510,
+      "last": 1791406126,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "Lucius",
       "title": "Old Tape (feat. Adam Granduciel) - Single Edit",
       "album": "Old Tape (feat. Adam Granduciel)",
@@ -406,17 +417,6 @@
       "count": 15,
       "first": 1788972740,
       "last": 1791298024,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "Say It Ain't So",
-      "album": "Weezer",
-      "count": 15,
-      "first": 1788946510,
-      "last": 1791297219,
       "playlists": {
         "1default": 15
       }
@@ -2997,6 +2997,58 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 43,
+      "first": 1788946510,
+      "last": 1791406126,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 16,
+          "first": 1788946510,
+          "last": 1791406126,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 14,
+          "first": 1788974227,
+          "last": 1791304723,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 11,
+          "first": 1789142694,
+          "last": 1791245596,
+          "playlists": {
+            "1default": 11
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 42,
       "first": 1788916461,
@@ -3126,58 +3178,6 @@
           "last": 1791258148,
           "playlists": {
             "1default": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 42,
-      "first": 1788946510,
-      "last": 1791304723,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 15,
-          "first": 1788946510,
-          "last": 1791297219,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 14,
-          "first": 1788974227,
-          "last": 1791304723,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 11,
-          "first": 1789142694,
-          "last": 1791245596,
-          "playlists": {
-            "1default": 11
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1789150460,
-          "last": 1789758798,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
           }
         }
       ]
@@ -7544,9 +7544,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5152,
+      "count": 5153,
       "first": 1788901564,
-      "last": 1791405893,
+      "last": 1791406126,
       "songs": [
         {
           "artist": "Tele Novella",
