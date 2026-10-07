@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T02:36:38.561394+00:00",
+  "updatedAt": "2026-10-07T02:41:16.479872+00:00",
   "summary": {
-    "totalPlays": 10674,
+    "totalPlays": 10676,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791340489
+    "lastObserved": 1791340840
   },
   "topSongs": [
     {
@@ -290,6 +290,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 15,
+      "first": 1788917230,
+      "last": 1791340840,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "title": "Pawn Shop Prada",
       "album": "Lick My Soul",
@@ -560,17 +571,6 @@
       "count": 14,
       "first": 1788930667,
       "last": 1791321164,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Monsune",
-      "title": "Nothing in Return",
-      "album": "Nothing in Return",
-      "count": 14,
-      "first": 1789054450,
-      "last": 1791320724,
       "playlists": {
         "1default": 14
       }
@@ -2997,6 +2997,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 42,
+      "first": 1788917230,
+      "last": 1791340840,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 15,
+          "first": 1788917230,
+          "last": 1791340840,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 14,
+          "first": 1788970790,
+          "last": 1791303824,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 13,
+          "first": 1789050580,
+          "last": 1791258148,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 42,
       "first": 1788946510,
@@ -3044,47 +3085,6 @@
           "last": 1789758798,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 41,
-      "first": 1788917230,
-      "last": 1791303824,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 14,
-          "first": 1788970790,
-          "last": 1791303824,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 14,
-          "first": 1788917230,
-          "last": 1791138834,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 13,
-          "first": 1789050580,
-          "last": 1791258148,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7468,9 +7468,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5047,
+      "count": 5049,
       "first": 1788901564,
-      "last": 1791340489,
+      "last": 1791340840,
       "songs": [
         {
           "artist": "Tele Novella",
