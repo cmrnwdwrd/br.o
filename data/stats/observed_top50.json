@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T14:11:46.388314+00:00",
+  "updatedAt": "2026-10-07T14:16:28.962506+00:00",
   "summary": {
-    "totalPlays": 10871,
+    "totalPlays": 10873,
     "unknownPlays": 1141,
     "uniqueTracks": 2272,
     "uniqueArtists": 1461,
     "uniqueAlbums": 1873,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791382190
+    "lastObserved": 1791382524
   },
   "topSongs": [
     {
@@ -422,6 +422,17 @@
       }
     },
     {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 14,
+      "first": 1788989714,
+      "last": 1791382330,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Gorillaz, Fatoumata Diawara",
       "title": "Désolé (feat. Fatoumata Diawara)",
       "album": "Song Machine Episode 2",
@@ -560,17 +571,6 @@
       "count": 14,
       "first": 1788963606,
       "last": 1791345914,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Rat Von Rat",
-      "title": "Staples",
-      "album": "Staples",
-      "count": 14,
-      "first": 1788927095,
-      "last": 1791345375,
       "playlists": {
         "1default": 14
       }
@@ -4569,6 +4569,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 27,
+      "first": 1788989714,
+      "last": 1791382330,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 14,
+          "first": 1788989714,
+          "last": 1791382330,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 13,
+          "first": 1789169386,
+          "last": 1791255744,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 27,
       "first": 1789054681,
@@ -4824,36 +4854,6 @@
           "last": 1791317019,
           "playlists": {
             "1default": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jay Som",
-      "count": 26,
-      "first": 1789069956,
-      "last": 1791340489,
-      "songs": [
-        {
-          "artist": "Jay Som",
-          "title": "Tenderness",
-          "album": "Anak Ko",
-          "count": 14,
-          "first": 1789235365,
-          "last": 1791308593,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Jay Som",
-          "title": "O.K., Meet Me Underwater",
-          "album": "Pirouette",
-          "count": 12,
-          "first": 1789069956,
-          "last": 1791340489,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -7544,9 +7544,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5093,
+      "count": 5095,
       "first": 1788901564,
-      "last": 1791382190,
+      "last": 1791382524,
       "songs": [
         {
           "artist": "Tele Novella",
