@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T14:16:28.962506+00:00",
+  "updatedAt": "2026-10-07T14:21:42.380195+00:00",
   "summary": {
-    "totalPlays": 10873,
+    "totalPlays": 10874,
     "unknownPlays": 1141,
     "uniqueTracks": 2272,
     "uniqueArtists": 1461,
     "uniqueAlbums": 1873,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791382524
+    "lastObserved": 1791382734
   },
   "topSongs": [
     {
@@ -422,6 +422,17 @@
       }
     },
     {
+      "artist": "Of Monsters and Men",
+      "title": "Visitor",
+      "album": "Visitor",
+      "count": 14,
+      "first": 1788963370,
+      "last": 1791382734,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Billie Eilish",
       "title": "NDA",
       "album": "Happier Than Ever",
@@ -560,17 +571,6 @@
       "count": 14,
       "first": 1788921291,
       "last": 1791346264,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Bad Bad Hats",
-      "title": "Walkman",
-      "album": "Walkman",
-      "count": 14,
-      "first": 1788963606,
-      "last": 1791345914,
       "playlists": {
         "1default": 14
       }
@@ -3893,6 +3893,47 @@
       ]
     },
     {
+      "artist": "Of Monsters and Men",
+      "count": 31,
+      "first": 1788963370,
+      "last": 1791382734,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 14,
+          "first": 1788963370,
+          "last": 1791382734,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 14,
+          "first": 1788991170,
+          "last": 1791334465,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 3,
+          "first": 1789156918,
+          "last": 1790974715,
+          "playlists": {
+            "escaping from cu boulder by giselle": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 31,
       "first": 1788914421,
@@ -4066,47 +4107,6 @@
           "last": 1791350614,
           "playlists": {
             "EPL4a": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 30,
-      "first": 1788963370,
-      "last": 1791334465,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 14,
-          "first": 1788991170,
-          "last": 1791334465,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 13,
-          "first": 1788963370,
-          "last": 1791228952,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 3,
-          "first": 1789156918,
-          "last": 1790974715,
-          "playlists": {
-            "escaping from cu boulder by giselle": 3
           }
         }
       ]
@@ -7544,9 +7544,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5095,
+      "count": 5096,
       "first": 1788901564,
-      "last": 1791382524,
+      "last": 1791382734,
       "songs": [
         {
           "artist": "Tele Novella",
