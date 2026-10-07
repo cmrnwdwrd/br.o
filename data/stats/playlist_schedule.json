@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T04:46:41.467243+00:00",
+  "updatedAt": "2026-10-07T04:51:37.423010+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 34,
-    "sessionCount": 382,
+    "sessionCount": 383,
     "firstObserved": 1788901564,
-    "lastObserved": 1791329422
+    "lastObserved": 1791348491
   },
   "playlists": [
     {
@@ -1129,7 +1129,7 @@
       "recentSessions": [
         {
           "start": 1791329422,
-          "end": 1791348492,
+          "end": 1791348491,
           "durationMinutes": 318,
           "playCount": 84
         },
@@ -6057,10 +6057,10 @@
     },
     {
       "playlist": "more home alone",
-      "sessionCount": 12,
-      "playCount": 168,
+      "sessionCount": 13,
+      "playCount": 170,
       "firstObserved": 1788929259,
-      "lastObserved": 1791262100,
+      "lastObserved": 1791348491,
       "typicalStartMinute": 1367,
       "typicalDurationMinutes": 43,
       "confidence": "High",
@@ -6114,7 +6114,7 @@
           0.0,
           0.0,
           0.0,
-          48.9,
+          52.7,
           46.0
         ],
         [
@@ -6439,7 +6439,7 @@
           0.0,
           0.0,
           0.0,
-          48.9,
+          52.7,
           46.0,
           0.0,
           0.0,
@@ -6986,7 +6986,7 @@
           0,
           0,
           0,
-          4,
+          5,
           0
         ],
         [
@@ -7130,9 +7130,9 @@
         },
         {
           "weekday": 1,
-          "sessions": 4,
+          "sessions": 5,
           "typicalStartMinute": 1367,
-          "typicalDurationMinutes": 24,
+          "typicalDurationMinutes": 23,
           "confidence": "Medium"
         },
         {
@@ -7144,6 +7144,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1791348491,
+          "end": 1791348720,
+          "durationMinutes": 4,
+          "playCount": 2
+        },
         {
           "start": 1791262100,
           "end": 1791264722,
