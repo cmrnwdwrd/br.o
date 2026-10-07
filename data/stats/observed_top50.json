@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T13:26:28.913022+00:00",
+  "updatedAt": "2026-10-07T13:32:01.578041+00:00",
   "summary": {
-    "totalPlays": 10860,
+    "totalPlays": 10862,
     "unknownPlays": 1141,
     "uniqueTracks": 2271,
     "uniqueArtists": 1460,
     "uniqueAlbums": 1872,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791379453
+    "lastObserved": 1791379888
   },
   "topSongs": [
     {
@@ -7733,10 +7733,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 516,
+      "count": 518,
       "first": 1788955289,
-      "last": 1791379453,
+      "last": 1791379888,
       "songs": [
+        {
+          "artist": "ROLE MODEL",
+          "title": "notice me - acoustic",
+          "album": "notice me (acoustic)",
+          "count": 3,
+          "first": 1789565780,
+          "last": 1791379888,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "The Head And The Heart",
           "title": "Rivers and Roads",
@@ -7777,17 +7788,6 @@
           "count": 3,
           "first": 1790081935,
           "last": 1791293155,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Joshua Quimby",
-          "title": "I've Always Got Time For You",
-          "album": "I've Always Got Time For You",
-          "count": 3,
-          "first": 1789479664,
-          "last": 1791291523,
           "playlists": {
             "carhartts": 3
           }
