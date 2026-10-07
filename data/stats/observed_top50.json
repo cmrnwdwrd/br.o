@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T21:51:43.679718+00:00",
+  "updatedAt": "2026-10-07T21:56:39.683718+00:00",
   "summary": {
-    "totalPlays": 11008,
+    "totalPlays": 11009,
     "unknownPlays": 1141,
     "uniqueTracks": 2300,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1901,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791409686
+    "lastObserved": 1791410073
   },
   "topSongs": [
     {
@@ -301,6 +301,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 15,
+      "first": 1789064784,
+      "last": 1791410073,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Led Zeppelin",
       "title": "Dazed and Confused - 1990 Remaster",
       "album": "Led Zeppelin",
@@ -560,17 +571,6 @@
       "count": 14,
       "first": 1789061920,
       "last": 1791406579,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "COIN",
-      "title": "Chapstick",
-      "album": "Chapstick",
-      "count": 14,
-      "first": 1788903373,
-      "last": 1791406385,
       "playlists": {
         "1default": 14
       }
@@ -1558,10 +1558,21 @@
     },
     {
       "artist": "Opium",
-      "count": 105,
+      "count": 106,
       "first": 1788927400,
-      "last": 1791366539,
+      "last": 1791410073,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 15,
+          "first": 1789064784,
+          "last": 1791410073,
+          "playlists": {
+            "1default": 15
+          }
+        },
         {
           "artist": "Opium",
           "title": "Brainsick",
@@ -1569,17 +1580,6 @@
           "count": 14,
           "first": 1789063255,
           "last": 1791338205,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 14,
-          "first": 1789064784,
-          "last": 1791302833,
           "playlists": {
             "1default": 14
           }
@@ -7383,9 +7383,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5169,
+      "count": 5170,
       "first": 1788901564,
-      "last": 1791409686,
+      "last": 1791410073,
       "songs": [
         {
           "artist": "Tele Novella",
