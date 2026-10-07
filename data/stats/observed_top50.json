@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T17:21:22.501680+00:00",
+  "updatedAt": "2026-10-07T17:26:36.867040+00:00",
   "summary": {
-    "totalPlays": 10933,
+    "totalPlays": 10935,
     "unknownPlays": 1141,
     "uniqueTracks": 2299,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1900,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791393564
+    "lastObserved": 1791393984
   },
   "topSongs": [
     {
@@ -422,6 +422,28 @@
       }
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 14,
+      "first": 1788986484,
+      "last": 1791393984,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
+      "artist": "Your Neighbors",
+      "title": "Chicken",
+      "album": "Chicken",
+      "count": 14,
+      "first": 1789049221,
+      "last": 1791393777,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "PUP",
       "title": "Kids",
       "album": "Morbid Stuff",
@@ -549,28 +571,6 @@
       "count": 14,
       "first": 1789057927,
       "last": 1791382940,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "title": "Visitor",
-      "album": "Visitor",
-      "count": 14,
-      "first": 1788963370,
-      "last": 1791382734,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Billie Eilish",
-      "title": "NDA",
-      "album": "Happier Than Ever",
-      "count": 14,
-      "first": 1788989714,
-      "last": 1791382330,
       "playlists": {
         "1default": 14
       }
@@ -4569,6 +4569,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 27,
+      "first": 1788986484,
+      "last": 1791393984,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 14,
+          "first": 1788986484,
+          "last": 1791393984,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 13,
+          "first": 1789231311,
+          "last": 1791315049,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 27,
       "first": 1788989714,
@@ -4824,36 +4854,6 @@
           "last": 1789051357,
           "playlists": {
             "rage commute": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Courtney Barnett",
-      "count": 26,
-      "first": 1788913469,
-      "last": 1791390984,
-      "songs": [
-        {
-          "artist": "Courtney Barnett",
-          "title": "Write A List of Things To Look Forward To",
-          "album": "Things Take Time, Take Time",
-          "count": 13,
-          "first": 1788913469,
-          "last": 1791390984,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Courtney Barnett",
-          "title": "Pedestrian at Best",
-          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
-          "count": 13,
-          "first": 1789215507,
-          "last": 1791337974,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7544,9 +7544,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5128,
+      "count": 5130,
       "first": 1788901564,
-      "last": 1791393564,
+      "last": 1791393984,
       "songs": [
         {
           "artist": "Tele Novella",
