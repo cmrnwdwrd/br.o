@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T00:26:38.120760+00:00",
+  "updatedAt": "2026-10-07T00:31:31.399312+00:00",
   "summary": {
-    "totalPlays": 10640,
+    "totalPlays": 10642,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791332579
+    "lastObserved": 1791332979
   },
   "topSongs": [
     {
@@ -345,6 +345,17 @@
       }
     },
     {
+      "artist": "Yumi Zouma",
+      "title": "Right Track / Wrong Man",
+      "album": "Truth or Consequences",
+      "count": 14,
+      "first": 1789057143,
+      "last": 1791332803,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Smash Mouth",
       "title": "Walkin' On The Sun",
       "album": "Fush Yu Mang (20th Anniversary Edition)",
@@ -560,17 +571,6 @@
       "count": 14,
       "first": 1788926373,
       "last": 1791309931,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "St. Paul & The Broken Bones",
-      "title": "Apollo",
-      "album": "Young Sick Camellia",
-      "count": 14,
-      "first": 1788972025,
-      "last": 1791309348,
       "playlists": {
         "1default": 14
       }
@@ -4435,6 +4435,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 27,
+      "first": 1789054681,
+      "last": 1791332803,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 14,
+          "first": 1789057143,
+          "last": 1791332803,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 13,
+          "first": 1789054681,
+          "last": 1791323545,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 27,
       "first": 1788985030,
@@ -4742,36 +4772,6 @@
           "last": 1791071409,
           "playlists": {
             "texting your situationship": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 26,
-      "first": 1789054681,
-      "last": 1791323545,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 13,
-          "first": 1789054681,
-          "last": 1791323545,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 13,
-          "first": 1789057143,
-          "last": 1791152234,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7490,9 +7490,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5013,
+      "count": 5015,
       "first": 1788901564,
-      "last": 1791332579,
+      "last": 1791332979,
       "songs": [
         {
           "artist": "Tele Novella",
