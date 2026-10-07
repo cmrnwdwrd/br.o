@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T21:41:31.903436+00:00",
+  "updatedAt": "2026-10-07T21:46:44.430400+00:00",
   "summary": {
-    "totalPlays": 11006,
+    "totalPlays": 11007,
     "unknownPlays": 1141,
     "uniqueTracks": 2300,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1901,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791409273
+    "lastObserved": 1791409490
   },
   "topSongs": [
     {
@@ -301,6 +301,17 @@
       }
     },
     {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 15,
+      "first": 1788989714,
+      "last": 1791409490,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Of Monsters and Men",
       "title": "Wars",
       "album": "FEVER DREAM",
@@ -560,17 +571,6 @@
       "count": 14,
       "first": 1789239291,
       "last": 1791405893,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "DISINTEGRATE",
-      "album": "SWAMP",
-      "count": 14,
-      "first": 1788983290,
-      "last": 1791404508,
       "playlists": {
         "1default": 14
       }
@@ -4487,6 +4487,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 28,
+      "first": 1788989714,
+      "last": 1791409490,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 15,
+          "first": 1788989714,
+          "last": 1791409490,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 13,
+          "first": 1789169386,
+          "last": 1791255744,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 28,
       "first": 1788985030,
@@ -4622,36 +4652,6 @@
           "count": 13,
           "first": 1789231311,
           "last": 1791315049,
-          "playlists": {
-            "1default": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 27,
-      "first": 1788989714,
-      "last": 1791382330,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 14,
-          "first": 1788989714,
-          "last": 1791382330,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 13,
-          "first": 1789169386,
-          "last": 1791255744,
           "playlists": {
             "1default": 13
           }
@@ -7383,9 +7383,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5167,
+      "count": 5168,
       "first": 1788901564,
-      "last": 1791409273,
+      "last": 1791409490,
       "songs": [
         {
           "artist": "Tele Novella",
