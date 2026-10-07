@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T01:51:51.875168+00:00",
+  "updatedAt": "2026-10-07T01:56:42.515704+00:00",
   "summary": {
-    "totalPlays": 10664,
+    "totalPlays": 10666,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791337838
+    "lastObserved": 1791338205
   },
   "topSongs": [
     {
@@ -356,6 +356,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 14,
+      "first": 1789063255,
+      "last": 1791338205,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Crumb",
       "title": "Locket",
       "album": "Locket",
@@ -560,17 +571,6 @@
       "count": 14,
       "first": 1788990730,
       "last": 1791316476,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "KXLLSWXTCH, Powers Pleasant",
-      "title": "COSMO",
-      "album": "THE WALLS HAVE EYES",
-      "count": 14,
-      "first": 1789049117,
-      "last": 1791315740,
       "playlists": {
         "1default": 14
       }
@@ -1558,10 +1558,21 @@
     },
     {
       "artist": "Opium",
-      "count": 103,
+      "count": 104,
       "first": 1788927400,
-      "last": 1791329422,
+      "last": 1791338205,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 14,
+          "first": 1789063255,
+          "last": 1791338205,
+          "playlists": {
+            "1default": 14
+          }
+        },
         {
           "artist": "Opium",
           "title": "Dirge",
@@ -1613,17 +1624,6 @@
           "count": 13,
           "first": 1789109880,
           "last": 1791257693,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 13,
-          "first": 1789063255,
-          "last": 1791185855,
           "playlists": {
             "1default": 13
           }
@@ -7479,9 +7479,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5037,
+      "count": 5039,
       "first": 1788901564,
-      "last": 1791337838,
+      "last": 1791338205,
       "songs": [
         {
           "artist": "Tele Novella",
