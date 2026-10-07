@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T03:41:41.106253+00:00",
+  "updatedAt": "2026-10-07T03:46:37.263124+00:00",
   "summary": {
-    "totalPlays": 10691,
+    "totalPlays": 10693,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791344304
+    "lastObserved": 1791344682
   },
   "topSongs": [
     {
@@ -4736,6 +4736,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 26,
+      "first": 1788947810,
+      "last": 1791344522,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 13,
+          "first": 1788947810,
+          "last": 1791344522,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 13,
+          "first": 1789059805,
+          "last": 1791317019,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jay Som",
       "count": 26,
       "first": 1789069956,
@@ -4789,36 +4819,6 @@
           "count": 12,
           "first": 1789129746,
           "last": 1791305900,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "count": 26,
-      "first": 1788947080,
-      "last": 1791333442,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 14,
-          "first": 1788968380,
-          "last": 1791247504,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 12,
-          "first": 1788947080,
-          "last": 1791333442,
           "playlists": {
             "1default": 12
           }
@@ -7468,9 +7468,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5064,
+      "count": 5066,
       "first": 1788901564,
-      "last": 1791344304,
+      "last": 1791344682,
       "songs": [
         {
           "artist": "Tele Novella",
