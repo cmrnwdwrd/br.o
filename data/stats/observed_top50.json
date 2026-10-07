@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T04:51:37.306199+00:00",
+  "updatedAt": "2026-10-07T04:56:11.742425+00:00",
   "summary": {
-    "totalPlays": 10710,
+    "totalPlays": 10711,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791348586
+    "lastObserved": 1791348864
   },
   "topSongs": [
     {
@@ -579,10 +579,21 @@
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 216,
+      "count": 217,
       "first": 1788929259,
-      "last": 1791348586,
+      "last": 1791348864,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "reel it in",
+          "album": "all killer, no filler",
+          "count": 6,
+          "first": 1789017011,
+          "last": 1791348864,
+          "playlists": {
+            "more home alone": 6
+          }
+        },
         {
           "artist": "home alone.",
           "title": "kill bill",
@@ -865,17 +876,6 @@
           "count": 5,
           "first": 1789017591,
           "last": 1790830218,
-          "playlists": {
-            "more home alone": 5
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "reel it in",
-          "album": "all killer, no filler",
-          "count": 5,
-          "first": 1789017011,
-          "last": 1790744941,
           "playlists": {
             "more home alone": 5
           }
@@ -5313,65 +5313,23 @@
       ]
     },
     {
-      "artist": "Lil Darkie",
-      "album": "SWAMP",
-      "count": 53,
-      "first": 1788926373,
-      "last": 1791309931,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 14,
-          "first": 1788926373,
-          "last": 1791309931,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 13,
-          "first": 1789058454,
-          "last": 1791295359,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 13,
-          "first": 1789057548,
-          "last": 1791245443,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 13,
-          "first": 1788983290,
-          "last": 1791157233,
-          "playlists": {
-            "1default": 13
-          }
-        }
-      ]
-    },
-    {
       "artist": "home alone.",
       "album": "all killer, no filler",
-      "count": 52,
+      "count": 53,
       "first": 1788929845,
-      "last": 1791348586,
+      "last": 1791348864,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "reel it in",
+          "album": "all killer, no filler",
+          "count": 6,
+          "first": 1789017011,
+          "last": 1791348864,
+          "playlists": {
+            "more home alone": 6
+          }
+        },
         {
           "artist": "home alone.",
           "title": "blow your mind",
@@ -5451,17 +5409,6 @@
         },
         {
           "artist": "home alone.",
-          "title": "reel it in",
-          "album": "all killer, no filler",
-          "count": 5,
-          "first": 1789017011,
-          "last": 1790744941,
-          "playlists": {
-            "more home alone": 5
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "regrets²",
           "album": "all killer, no filler",
           "count": 4,
@@ -5480,6 +5427,59 @@
           "last": 1790227520,
           "playlists": {
             "more home alone": 4
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Lil Darkie",
+      "album": "SWAMP",
+      "count": 53,
+      "first": 1788926373,
+      "last": 1791309931,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 14,
+          "first": 1788926373,
+          "last": 1791309931,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 13,
+          "first": 1789058454,
+          "last": 1791295359,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 13,
+          "first": 1789057548,
+          "last": 1791245443,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 13,
+          "first": 1788983290,
+          "last": 1791157233,
+          "playlists": {
+            "1default": 13
           }
         }
       ]
@@ -8034,64 +8034,64 @@
       ]
     },
     {
-      "playlist": "EPL4a",
+      "playlist": "more home alone",
       "count": 172,
-      "first": 1788930925,
-      "last": 1791180608,
+      "first": 1788929259,
+      "last": 1791348864,
       "songs": [
         {
-          "artist": "Jadu Heart",
-          "title": "Dead, Again",
-          "album": "Hyper Romance",
-          "count": 7,
-          "first": 1788932611,
-          "last": 1791179337,
-          "playlists": {
-            "EPL4a": 7
-          }
-        },
-        {
-          "artist": "Provoker",
-          "title": "Rose In A Glass",
-          "album": "Body Jumper",
-          "count": 7,
-          "first": 1788930925,
-          "last": 1791179159,
-          "playlists": {
-            "EPL4a": 7
-          }
-        },
-        {
-          "artist": "Faerybabyy",
-          "title": "orange soda",
-          "album": "Lucky Star EP",
-          "count": 7,
-          "first": 1788931710,
-          "last": 1791178125,
-          "playlists": {
-            "EPL4a": 7
-          }
-        },
-        {
-          "artist": "tommy oeffling",
-          "title": "fireman",
-          "album": "reliance",
+          "artist": "home alone.",
+          "title": "reel it in",
+          "album": "all killer, no filler",
           "count": 6,
-          "first": 1788932467,
-          "last": 1791180608,
+          "first": 1789017011,
+          "last": 1791348864,
           "playlists": {
-            "EPL4a": 6
+            "more home alone": 6
           }
         },
         {
-          "artist": "Devon Again",
-          "title": "HEAD",
-          "album": "HEAD",
+          "artist": "home alone.",
+          "title": "kill bill",
+          "album": "drive it like you stole it.",
           "count": 6,
-          "first": 1789362730,
-          "last": 1791180497,
+          "first": 1789018094,
+          "last": 1791348491,
           "playlists": {
-            "EPL4a": 6
+            "more home alone": 6
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "gesture",
+          "album": "Casual Affair.",
+          "count": 6,
+          "first": 1789016737,
+          "last": 1791264613,
+          "playlists": {
+            "more home alone": 6
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "martini",
+          "album": "drive it like you stole it.",
+          "count": 6,
+          "first": 1788929527,
+          "last": 1791264284,
+          "playlists": {
+            "more home alone": 6
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "marv",
+          "album": "Casual Affair.",
+          "count": 6,
+          "first": 1789016278,
+          "last": 1791263727,
+          "playlists": {
+            "more home alone": 6
           }
         }
       ]
