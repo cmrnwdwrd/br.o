@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T02:26:38.901283+00:00",
+  "updatedAt": "2026-10-07T02:31:30.217086+00:00",
   "summary": {
-    "totalPlays": 10671,
+    "totalPlays": 10673,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791339898
+    "lastObserved": 1791340284
   },
   "topSongs": [
     {
@@ -290,6 +290,17 @@
       }
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "title": "Pawn Shop Prada",
+      "album": "Lick My Soul",
+      "count": 15,
+      "first": 1788919863,
+      "last": 1791340284,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Squirrel Flower",
       "title": "So Hot You're Hurting My Feelings",
       "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
@@ -364,6 +375,17 @@
       "last": 1791236256,
       "playlists": {
         "1default": 15
+      }
+    },
+    {
+      "artist": "The Ephinjis",
+      "title": "Knives",
+      "album": "Knives",
+      "count": 14,
+      "first": 1788973998,
+      "last": 1791340059,
+      "playlists": {
+        "1default": 14
       }
     },
     {
@@ -549,28 +571,6 @@
       "count": 14,
       "first": 1789054450,
       "last": 1791320724,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Spoon",
-      "title": "No Bullets Spent",
-      "album": "No Bullets Spent",
-      "count": 14,
-      "first": 1789065520,
-      "last": 1791320329,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Grace Ives",
-      "title": "Mirror",
-      "album": "2nd",
-      "count": 14,
-      "first": 1788972624,
-      "last": 1791319130,
       "playlists": {
         "1default": 14
       }
@@ -3090,6 +3090,88 @@
       ]
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "count": 40,
+      "first": 1788919863,
+      "last": 1791340284,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 15,
+          "first": 1788919863,
+          "last": 1791340284,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 13,
+          "first": 1788989164,
+          "last": 1791139495,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 12,
+          "first": 1789139069,
+          "last": 1791106225,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
+      "artist": "The Ephinjis",
+      "count": 40,
+      "first": 1788973998,
+      "last": 1791340059,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 14,
+          "first": 1788973998,
+          "last": 1791340059,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 14,
+          "first": 1789033065,
+          "last": 1791315325,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 12,
+          "first": 1789226629,
+          "last": 1791260990,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 40,
       "first": 1788916461,
@@ -3265,47 +3347,6 @@
       ]
     },
     {
-      "artist": "The Ephinjis",
-      "count": 39,
-      "first": 1788973998,
-      "last": 1791315325,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 14,
-          "first": 1789033065,
-          "last": 1791315325,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 13,
-          "first": 1788973998,
-          "last": 1791128200,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 12,
-          "first": 1789226629,
-          "last": 1791260990,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
-    },
-    {
       "artist": "Radiohead",
       "count": 39,
       "first": 1788973066,
@@ -3340,47 +3381,6 @@
           "count": 12,
           "first": 1788973066,
           "last": 1791229222,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "count": 39,
-      "first": 1788919863,
-      "last": 1791146885,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 14,
-          "first": 1788919863,
-          "last": 1791146885,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 13,
-          "first": 1788989164,
-          "last": 1791139495,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 12,
-          "first": 1789139069,
-          "last": 1791106225,
           "playlists": {
             "1default": 12
           }
@@ -5701,6 +5701,48 @@
       ]
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "album": "Lick My Soul",
+      "count": 40,
+      "first": 1788919863,
+      "last": 1791340284,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 15,
+          "first": 1788919863,
+          "last": 1791340284,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 13,
+          "first": 1788989164,
+          "last": 1791139495,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 12,
+          "first": 1789139069,
+          "last": 1791106225,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "album": "Bad Habit",
       "count": 39,
@@ -5736,48 +5778,6 @@
           "count": 12,
           "first": 1789086174,
           "last": 1791244917,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "album": "Lick My Soul",
-      "count": 39,
-      "first": 1788919863,
-      "last": 1791146885,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 14,
-          "first": 1788919863,
-          "last": 1791146885,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 13,
-          "first": 1788989164,
-          "last": 1791139495,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 12,
-          "first": 1789139069,
-          "last": 1791106225,
           "playlists": {
             "1default": 12
           }
@@ -7479,9 +7479,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5044,
+      "count": 5046,
       "first": 1788901564,
-      "last": 1791339898,
+      "last": 1791340284,
       "songs": [
         {
           "artist": "Tele Novella",
