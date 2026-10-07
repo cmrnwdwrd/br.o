@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T01:01:12.063986+00:00",
+  "updatedAt": "2026-10-07T01:06:36.748581+00:00",
   "summary": {
-    "totalPlays": 10649,
+    "totalPlays": 10651,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791334704
+    "lastObserved": 1791335196
   },
   "topSongs": [
     {
@@ -345,6 +345,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 14,
+      "first": 1788914032,
+      "last": 1791334970,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "David Bowie",
       "title": "I'm Afraid of Americans (V1)",
       "album": "Legacy (Deluxe Edition)",
@@ -560,17 +571,6 @@
       "count": 14,
       "first": 1788967539,
       "last": 1791313096,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Radiohead",
-      "title": "If You Say the Word",
-      "album": "If You Say the Word",
-      "count": 14,
-      "first": 1789033884,
-      "last": 1791312444,
       "playlists": {
         "1default": 14
       }
@@ -4260,6 +4260,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 28,
+      "first": 1788914032,
+      "last": 1791334970,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 14,
+          "first": 1788914032,
+          "last": 1791334970,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 12,
+          "first": 1789222724,
+          "last": 1791186624,
+          "playlists": {
+            "1default": 12
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 2,
+          "first": 1790465398,
+          "last": 1791071173,
+          "playlists": {
+            "texting your situationship": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 28,
       "first": 1789061029,
@@ -4690,47 +4731,6 @@
           "last": 1789051357,
           "playlists": {
             "rage commute": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 27,
-      "first": 1788914032,
-      "last": 1791186624,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 13,
-          "first": 1788914032,
-          "last": 1791166299,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 12,
-          "first": 1789222724,
-          "last": 1791186624,
-          "playlists": {
-            "1default": 12
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 2,
-          "first": 1790465398,
-          "last": 1791071173,
-          "playlists": {
-            "texting your situationship": 2
           }
         }
       ]
@@ -7479,9 +7479,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5022,
+      "count": 5024,
       "first": 1788901564,
-      "last": 1791334704,
+      "last": 1791335196,
       "songs": [
         {
           "artist": "Tele Novella",
