@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T03:21:38.905015+00:00",
+  "updatedAt": "2026-10-07T03:26:27.487321+00:00",
   "summary": {
-    "totalPlays": 10686,
+    "totalPlays": 10687,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791343159
+    "lastObserved": 1791343405
   },
   "topSongs": [
     {
@@ -400,6 +400,17 @@
       }
     },
     {
+      "artist": "Cage The Elephant",
+      "title": "Skin and Bones - Mix 2020",
+      "album": "Skin and Bones",
+      "count": 14,
+      "first": 1788928254,
+      "last": 1791343405,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Sjowgren",
       "title": "Flip Phones",
       "album": "win'20",
@@ -560,17 +571,6 @@
       "count": 14,
       "first": 1789057143,
       "last": 1791332803,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Smash Mouth",
-      "title": "Walkin' On The Sun",
-      "album": "Fush Yu Mang (20th Anniversary Edition)",
-      "count": 14,
-      "first": 1788967329,
-      "last": 1791331909,
       "playlists": {
         "1default": 14
       }
@@ -3729,10 +3729,21 @@
     },
     {
       "artist": "Cage The Elephant",
-      "count": 34,
+      "count": 35,
       "first": 1788928254,
-      "last": 1791301102,
+      "last": 1791343405,
       "songs": [
+        {
+          "artist": "Cage The Elephant",
+          "title": "Skin and Bones - Mix 2020",
+          "album": "Skin and Bones",
+          "count": 14,
+          "first": 1788928254,
+          "last": 1791343405,
+          "playlists": {
+            "1default": 14
+          }
+        },
         {
           "artist": "Cage The Elephant",
           "title": "Social Cues",
@@ -3742,17 +3753,6 @@
           "last": 1791301102,
           "playlists": {
             "1default": 14
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Skin and Bones - Mix 2020",
-          "album": "Skin and Bones",
-          "count": 13,
-          "first": 1788928254,
-          "last": 1791214954,
-          "playlists": {
-            "1default": 13
           }
         },
         {
@@ -7468,9 +7468,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5059,
+      "count": 5060,
       "first": 1788901564,
-      "last": 1791343159,
+      "last": 1791343405,
       "songs": [
         {
           "artist": "Tele Novella",
