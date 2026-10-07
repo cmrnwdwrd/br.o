@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-07T00:51:25.057619+00:00",
+  "updatedAt": "2026-10-07T00:56:36.838243+00:00",
   "summary": {
-    "totalPlays": 10647,
+    "totalPlays": 10648,
     "unknownPlays": 1141,
     "uniqueTracks": 2268,
     "uniqueArtists": 1457,
     "uniqueAlbums": 1869,
     "uniquePlaylists": 34,
     "firstObserved": 1788901564,
-    "lastObserved": 1791334184
+    "lastObserved": 1791334465
   },
   "topSongs": [
     {
@@ -345,6 +345,17 @@
       }
     },
     {
+      "artist": "Of Monsters and Men",
+      "title": "Wars",
+      "album": "FEVER DREAM",
+      "count": 14,
+      "first": 1788991170,
+      "last": 1791334465,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "Black Sheep",
       "title": "The Choice Is Yours (Revisited)",
       "album": "A Wolf In Sheep's Clothing",
@@ -560,17 +571,6 @@
       "count": 14,
       "first": 1789165225,
       "last": 1791310554,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Doechii",
-      "title": "NISSAN ALTIMA",
-      "album": "Alligator Bites Never Heal",
-      "count": 14,
-      "first": 1788914421,
-      "last": 1791310044,
       "playlists": {
         "1default": 14
       }
@@ -3967,6 +3967,47 @@
       ]
     },
     {
+      "artist": "Of Monsters and Men",
+      "count": 30,
+      "first": 1788963370,
+      "last": 1791334465,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 14,
+          "first": 1788991170,
+          "last": 1791334465,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 13,
+          "first": 1788963370,
+          "last": 1791228952,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 3,
+          "first": 1789156918,
+          "last": 1790974715,
+          "playlists": {
+            "escaping from cu boulder by giselle": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mallory Graham",
       "count": 30,
       "first": 1788973386,
@@ -4074,47 +4115,6 @@
           "last": 1791179574,
           "playlists": {
             "EPL4a": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 29,
-      "first": 1788963370,
-      "last": 1791228952,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 13,
-          "first": 1788963370,
-          "last": 1791228952,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 13,
-          "first": 1788991170,
-          "last": 1791212615,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 3,
-          "first": 1789156918,
-          "last": 1790974715,
-          "playlists": {
-            "escaping from cu boulder by giselle": 3
           }
         }
       ]
@@ -7490,9 +7490,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5020,
+      "count": 5021,
       "first": 1788901564,
-      "last": 1791334184,
+      "last": 1791334465,
       "songs": [
         {
           "artist": "Tele Novella",
