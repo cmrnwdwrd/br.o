@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T14:06:59.847858+00:00",
+  "updatedAt": "2026-10-08T14:11:12.381057+00:00",
   "summary": {
-    "totalPlays": 11264,
+    "totalPlays": 11266,
     "unknownPlays": 1141,
     "uniqueTracks": 2304,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1902,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791468152
+    "lastObserved": 1791468634
   },
   "topSongs": [
     {
@@ -180,6 +180,17 @@
       }
     },
     {
+      "artist": "The Cardigans",
+      "title": "Step On Me",
+      "album": "First Band On The Moon (Remastered)",
+      "count": 18,
+      "first": 1788985233,
+      "last": 1791468634,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Meeting House",
       "title": "Black Clouds",
       "album": "Couch Surfer",
@@ -230,17 +241,6 @@
       "count": 17,
       "first": 1788920320,
       "last": 1791319010,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "The Cardigans",
-      "title": "Step On Me",
-      "album": "First Band On The Moon (Remastered)",
-      "count": 17,
-      "first": 1788985233,
-      "last": 1791305670,
       "playlists": {
         "1default": 17
       }
@@ -309,6 +309,17 @@
       "last": 1791255991,
       "playlists": {
         "1default": 16
+      }
+    },
+    {
+      "artist": "Atom Son of Man",
+      "title": "Hold Me",
+      "album": "1's a Man, 3's a Band",
+      "count": 15,
+      "first": 1788902047,
+      "last": 1791468430,
+      "playlists": {
+        "1default": 15
       }
     },
     {
@@ -560,17 +571,6 @@
       "count": 15,
       "first": 1788929095,
       "last": 1791349851,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "wilt",
-      "title": "the riff",
-      "album": "the riff",
-      "count": 15,
-      "first": 1788911339,
-      "last": 1791342022,
       "playlists": {
         "1default": 15
       }
@@ -1930,10 +1930,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 106,
+      "count": 107,
       "first": 1788902047,
-      "last": 1791452194,
+      "last": 1791468430,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 15,
+          "first": 1788902047,
+          "last": 1791468430,
+          "playlists": {
+            "1default": 15
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "You Make Me Want to Kill Myself",
@@ -1952,17 +1963,6 @@
           "count": 14,
           "first": 1789145316,
           "last": 1791431361,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 14,
-          "first": 1788902047,
-          "last": 1791280625,
           "playlists": {
             "1default": 14
           }
@@ -4735,10 +4735,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 78,
+      "count": 79,
       "first": 1788902047,
-      "last": 1791431361,
+      "last": 1791468430,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 15,
+          "first": 1788902047,
+          "last": 1791468430,
+          "playlists": {
+            "1default": 15
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Love Is Lightning",
@@ -4746,17 +4757,6 @@
           "count": 14,
           "first": 1789145316,
           "last": 1791431361,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 14,
-          "first": 1788902047,
-          "last": 1791280625,
           "playlists": {
             "1default": 14
           }
@@ -7393,9 +7393,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5207,
+      "count": 5209,
       "first": 1788901564,
-      "last": 1791468152,
+      "last": 1791468634,
       "songs": [
         {
           "artist": "Tele Novella",
