@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T04:11:11.953363+00:00",
+  "updatedAt": "2026-10-08T04:16:38.333816+00:00",
   "summary": {
-    "totalPlays": 11094,
+    "totalPlays": 11096,
     "unknownPlays": 1141,
     "uniqueTracks": 2300,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1901,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791432444
+    "lastObserved": 1791432864
   },
   "topSongs": [
     {
@@ -301,6 +301,17 @@
       }
     },
     {
+      "artist": "Cage The Elephant",
+      "title": "Skin and Bones - Mix 2020",
+      "album": "Skin and Bones",
+      "count": 15,
+      "first": 1788928254,
+      "last": 1791432864,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Bell X1",
       "title": "The Great Defector",
       "album": "Blue Lights on the Runway",
@@ -543,34 +554,23 @@
       }
     },
     {
+      "artist": "Chance the Rapper, Childish Gambino",
+      "title": "Favorite Song",
+      "album": "Acid Rap",
+      "count": 14,
+      "first": 1789058964,
+      "last": 1791432678,
+      "playlists": {
+        "1default": 14
+      }
+    },
+    {
       "artist": "LCD Soundsystem",
       "title": "All My Friends",
       "album": "Sound of Silver",
       "count": 14,
       "first": 1788917983,
       "last": 1791431984,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Haley Blais",
-      "title": "Small Foreign Faction",
-      "album": "Small Foreign Faction",
-      "count": 14,
-      "first": 1789070298,
-      "last": 1791431589,
-      "playlists": {
-        "1default": 14
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Love Is Lightning",
-      "album": "1's a Man, 3's a Band",
-      "count": 14,
-      "first": 1789145316,
-      "last": 1791431361,
       "playlists": {
         "1default": 14
       }
@@ -3728,6 +3728,47 @@
       ]
     },
     {
+      "artist": "Cage The Elephant",
+      "count": 36,
+      "first": 1788928254,
+      "last": 1791432864,
+      "songs": [
+        {
+          "artist": "Cage The Elephant",
+          "title": "Skin and Bones - Mix 2020",
+          "album": "Skin and Bones",
+          "count": 15,
+          "first": 1788928254,
+          "last": 1791432864,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Cage The Elephant",
+          "title": "Social Cues",
+          "album": "Social Cues",
+          "count": 14,
+          "first": 1788990244,
+          "last": 1791301102,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Cage The Elephant",
+          "title": "Cigarette Daydreams",
+          "album": "Melophobia",
+          "count": 7,
+          "first": 1788956946,
+          "last": 1790991611,
+          "playlists": {
+            "d i n n e r": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ramones",
       "count": 36,
       "first": 1788968644,
@@ -3754,47 +3795,6 @@
           "last": 1791391603,
           "playlists": {
             "1default": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Cage The Elephant",
-      "count": 35,
-      "first": 1788928254,
-      "last": 1791343405,
-      "songs": [
-        {
-          "artist": "Cage The Elephant",
-          "title": "Skin and Bones - Mix 2020",
-          "album": "Skin and Bones",
-          "count": 14,
-          "first": 1788928254,
-          "last": 1791343405,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Social Cues",
-          "album": "Social Cues",
-          "count": 14,
-          "first": 1788990244,
-          "last": 1791301102,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Cigarette Daydreams",
-          "album": "Melophobia",
-          "count": 7,
-          "first": 1788956946,
-          "last": 1790991611,
-          "playlists": {
-            "d i n n e r": 7
           }
         }
       ]
@@ -7352,9 +7352,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5188,
+      "count": 5190,
       "first": 1788901564,
-      "last": 1791432444,
+      "last": 1791432864,
       "songs": [
         {
           "artist": "Tele Novella",
