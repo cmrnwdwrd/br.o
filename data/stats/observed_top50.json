@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T09:46:42.332943+00:00",
+  "updatedAt": "2026-10-08T09:51:39.158970+00:00",
   "summary": {
-    "totalPlays": 11194,
+    "totalPlays": 11196,
     "unknownPlays": 1141,
     "uniqueTracks": 2300,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1901,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791452540
+    "lastObserved": 1791453024
   },
   "topSongs": [
     {
@@ -312,6 +312,17 @@
       }
     },
     {
+      "artist": "Royel Otis",
+      "title": "Oysters In My Pocket",
+      "album": "Oysters In My Pocket",
+      "count": 15,
+      "first": 1788916765,
+      "last": 1791452859,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Moby",
       "title": "Porcelain",
       "album": "Play & Play: B Sides",
@@ -560,17 +571,6 @@
       "count": 15,
       "first": 1788911339,
       "last": 1791342022,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "The Salesmen",
-      "title": "Commodify",
-      "album": "Commodify",
-      "count": 15,
-      "first": 1788917230,
-      "last": 1791340840,
       "playlists": {
         "1default": 15
       }
@@ -2829,6 +2829,58 @@
       ]
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "count": 52,
+      "first": 1788915065,
+      "last": 1791453024,
+      "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Bill's Mandolin",
+          "album": "And Now for the Whatchamacallit",
+          "count": 14,
+          "first": 1789234972,
+          "last": 1791453024,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Mr. Prism",
+          "album": "Mr. Prism",
+          "count": 13,
+          "first": 1789168906,
+          "last": 1791345681,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Tally-Ho",
+          "album": "Tally-Ho",
+          "count": 13,
+          "first": 1789085431,
+          "last": 1791313411,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Lava Lamp Pisco",
+          "album": "Lava Lamp Pisco",
+          "count": 12,
+          "first": 1788915065,
+          "last": 1791306175,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "count": 52,
       "first": 1788917845,
@@ -2864,58 +2916,6 @@
           "count": 12,
           "first": 1788917845,
           "last": 1791337838,
-          "playlists": {
-            "1default": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Psychedelic Porn Crumpets",
-      "count": 51,
-      "first": 1788915065,
-      "last": 1791345681,
-      "songs": [
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Mr. Prism",
-          "album": "Mr. Prism",
-          "count": 13,
-          "first": 1789168906,
-          "last": 1791345681,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Tally-Ho",
-          "album": "Tally-Ho",
-          "count": 13,
-          "first": 1789085431,
-          "last": 1791313411,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Bill's Mandolin",
-          "album": "And Now for the Whatchamacallit",
-          "count": 13,
-          "first": 1789234972,
-          "last": 1791298813,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Lava Lamp Pisco",
-          "album": "Lava Lamp Pisco",
-          "count": 12,
-          "first": 1788915065,
-          "last": 1791306175,
           "playlists": {
             "1default": 12
           }
@@ -7383,9 +7383,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5202,
+      "count": 5204,
       "first": 1788901564,
-      "last": 1791452540,
+      "last": 1791453024,
       "songs": [
         {
           "artist": "Tele Novella",
