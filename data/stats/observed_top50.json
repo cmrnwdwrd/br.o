@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T12:46:40.105264+00:00",
+  "updatedAt": "2026-10-08T12:51:11.292282+00:00",
   "summary": {
-    "totalPlays": 11244,
+    "totalPlays": 11245,
     "unknownPlays": 1141,
     "uniqueTracks": 2302,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1902,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791463567
+    "lastObserved": 1791463799
   },
   "topSongs": [
     {
@@ -7582,10 +7582,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 536,
+      "count": 537,
       "first": 1788955289,
-      "last": 1791463567,
+      "last": 1791463799,
       "songs": [
+        {
+          "artist": "Death Cab for Cutie",
+          "title": "I Will Follow You into the Dark",
+          "album": "Plans",
+          "count": 3,
+          "first": 1789649356,
+          "last": 1791463799,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "River Whyless",
           "title": "Motel 6",
@@ -7626,17 +7637,6 @@
           "count": 3,
           "first": 1789565780,
           "last": 1791379888,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "The Head And The Heart",
-          "title": "Rivers and Roads",
-          "album": "The Head And The Heart",
-          "count": 3,
-          "first": 1788959398,
-          "last": 1791376379,
           "playlists": {
             "carhartts": 3
           }
