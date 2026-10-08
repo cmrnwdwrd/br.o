@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T04:21:34.398615+00:00",
+  "updatedAt": "2026-10-08T04:26:30.389807+00:00",
   "summary": {
-    "totalPlays": 11098,
+    "totalPlays": 11100,
     "unknownPlays": 1141,
     "uniqueTracks": 2300,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1901,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791433244
+    "lastObserved": 1791433566
   },
   "topSongs": [
     {
@@ -180,6 +180,17 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 18,
+      "first": 1789063640,
+      "last": 1791433566,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "wrap music",
       "album": "THIS DOES NOT EXIST",
@@ -230,17 +241,6 @@
       "count": 17,
       "first": 1789226222,
       "last": 1791258444,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 17,
-      "first": 1789063640,
-      "last": 1791248859,
       "playlists": {
         "1default": 17
       }
@@ -3934,6 +3934,36 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 31,
+      "first": 1788973386,
+      "last": 1791433566,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 18,
+          "first": 1789063640,
+          "last": 1791433566,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 13,
+          "first": 1788973386,
+          "last": 1791321617,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "count": 31,
       "first": 1788914259,
@@ -4137,36 +4167,6 @@
           "last": 1791350614,
           "playlists": {
             "EPL4a": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 30,
-      "first": 1788973386,
-      "last": 1791321617,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 17,
-          "first": 1789063640,
-          "last": 1791248859,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 13,
-          "first": 1788973386,
-          "last": 1791321617,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7352,9 +7352,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5192,
+      "count": 5194,
       "first": 1788901564,
-      "last": 1791433244,
+      "last": 1791433566,
       "songs": [
         {
           "artist": "Tele Novella",
