@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T13:31:42.952421+00:00",
+  "updatedAt": "2026-10-08T13:36:14.478970+00:00",
   "summary": {
-    "totalPlays": 11256,
+    "totalPlays": 11257,
     "unknownPlays": 1141,
     "uniqueTracks": 2303,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1902,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791466272
+    "lastObserved": 1791466423
   },
   "topSongs": [
     {
@@ -7582,10 +7582,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 548,
+      "count": 549,
       "first": 1788955289,
-      "last": 1791466272,
+      "last": 1791466423,
       "songs": [
+        {
+          "artist": "Phoebe Bridgers",
+          "title": "Georgia",
+          "album": "Stranger in the Alps",
+          "count": 3,
+          "first": 1789041947,
+          "last": 1791466423,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "The 502s",
           "title": "Magdalene",
@@ -7626,17 +7637,6 @@
           "count": 3,
           "first": 1789478301,
           "last": 1791462469,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "flipturn",
-          "title": "August (Acoustic)",
-          "album": "August (Acoustic)",
-          "count": 3,
-          "first": 1789994506,
-          "last": 1791461925,
           "playlists": {
             "carhartts": 3
           }
