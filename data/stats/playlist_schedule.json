@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T04:46:42.740440+00:00",
+  "updatedAt": "2026-10-08T04:51:41.430198+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 400,
+    "sessionCount": 401,
     "firstObserved": 1788901564,
-    "lastObserved": 1791429470
+    "lastObserved": 1791434811
   },
   "playlists": [
     {
@@ -6075,10 +6075,10 @@
     },
     {
       "playlist": "more home alone",
-      "sessionCount": 13,
-      "playCount": 177,
+      "sessionCount": 14,
+      "playCount": 179,
       "firstObserved": 1788929259,
-      "lastObserved": 1791348491,
+      "lastObserved": 1791434811,
       "typicalStartMinute": 1367,
       "typicalDurationMinutes": 43,
       "confidence": "High",
@@ -6158,7 +6158,7 @@
           0.0,
           0.0,
           0.0,
-          53.0,
+          58.7,
           126.5
         ],
         [
@@ -6555,7 +6555,7 @@
           0.0,
           0.0,
           0.0,
-          53.0,
+          58.7,
           60.0,
           60.0,
           6.5,
@@ -7030,7 +7030,7 @@
           0,
           0,
           0,
-          4,
+          5,
           0
         ],
         [
@@ -7155,13 +7155,19 @@
         },
         {
           "weekday": 2,
-          "sessions": 4,
+          "sessions": 5,
           "typicalStartMinute": 1366,
           "typicalDurationMinutes": 45,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1791434811,
+          "end": 1791435153,
+          "durationMinutes": 6,
+          "playCount": 2
+        },
         {
           "start": 1791348491,
           "end": 1791349833,
