@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T19:01:37.200256+00:00",
+  "updatedAt": "2026-10-08T19:06:31.941132+00:00",
   "summary": {
-    "totalPlays": 11350,
+    "totalPlays": 11352,
     "unknownPlays": 1141,
     "uniqueTracks": 2314,
     "uniqueArtists": 1494,
     "uniqueAlbums": 1913,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791485964
+    "lastObserved": 1791486315
   },
   "topSongs": [
     {
@@ -312,6 +312,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Antidote",
+      "album": "A Collection of Fleeting Moments and Daydreams",
+      "count": 15,
+      "first": 1788987870,
+      "last": 1791486144,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Weezer",
       "title": "The End of the Game",
       "album": "The End of the Game",
@@ -560,17 +571,6 @@
       "count": 15,
       "first": 1788975620,
       "last": 1791474072,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Blue October",
-      "title": "Into The Ocean",
-      "album": "Foiled",
-      "count": 15,
-      "first": 1788970549,
-      "last": 1791473556,
       "playlists": {
         "1default": 15
       }
@@ -4306,6 +4306,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 29,
+      "first": 1788985030,
+      "last": 1791486144,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 15,
+          "first": 1788987870,
+          "last": 1791486144,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 14,
+          "first": 1788985030,
+          "last": 1791342430,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 29,
       "first": 1788989714,
@@ -4742,36 +4772,6 @@
           "last": 1790488034,
           "playlists": {
             "sad girl no friends saturday": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 28,
-      "first": 1788985030,
-      "last": 1791342430,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 14,
-          "first": 1788985030,
-          "last": 1791342430,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 14,
-          "first": 1788987870,
-          "last": 1791331113,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -7500,9 +7500,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5272,
+      "count": 5274,
       "first": 1788901564,
-      "last": 1791485964,
+      "last": 1791486315,
       "songs": [
         {
           "artist": "Tele Novella",
