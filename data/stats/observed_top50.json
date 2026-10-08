@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T13:26:43.776761+00:00",
+  "updatedAt": "2026-10-08T13:31:42.952421+00:00",
   "summary": {
-    "totalPlays": 11254,
+    "totalPlays": 11256,
     "unknownPlays": 1141,
-    "uniqueTracks": 2302,
+    "uniqueTracks": 2303,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1902,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791465877
+    "lastObserved": 1791466272
   },
   "topSongs": [
     {
@@ -7582,10 +7582,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 546,
+      "count": 548,
       "first": 1788955289,
-      "last": 1791465877,
+      "last": 1791466272,
       "songs": [
+        {
+          "artist": "The 502s",
+          "title": "Magdalene",
+          "album": "Could It Get Better Than This",
+          "count": 3,
+          "first": 1789474294,
+          "last": 1791466272,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "The Avett Brothers",
           "title": "I And Love And You",
@@ -7626,17 +7637,6 @@
           "count": 3,
           "first": 1789994506,
           "last": 1791461925,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "The Head And The Heart",
-          "title": "Let's Be Still",
-          "album": "Let's Be Still",
-          "count": 3,
-          "first": 1789997771,
-          "last": 1791461214,
           "playlists": {
             "carhartts": 3
           }
