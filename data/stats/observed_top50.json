@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T22:06:43.741080+00:00",
+  "updatedAt": "2026-10-08T22:11:48.597297+00:00",
   "summary": {
-    "totalPlays": 11399,
+    "totalPlays": 11401,
     "unknownPlays": 1141,
     "uniqueTracks": 2314,
     "uniqueArtists": 1494,
     "uniqueAlbums": 1913,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791497048
+    "lastObserved": 1791497423
   },
   "topSongs": [
     {
@@ -45,6 +45,18 @@
       "last": 1791482616,
       "playlists": {
         "1default": 22,
+        "anti-capitalist weekday afternoon #1": 2
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 23,
+      "first": 1789014862,
+      "last": 1791497423,
+      "playlists": {
+        "1default": 21,
         "anti-capitalist weekday afternoon #1": 2
       }
     },
@@ -142,18 +154,6 @@
       "playlists": {
         "1default": 20,
         "anti-capitalist weekday afternoon #1": 2
-      }
-    },
-    {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 22,
-      "first": 1789014862,
-      "last": 1791323750,
-      "playlists": {
-        "1default": 21,
-        "anti-capitalist weekday afternoon #1": 1
       }
     },
     {
@@ -7353,6 +7353,27 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 23,
+      "first": 1789014862,
+      "last": 1791497423,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 23,
+          "first": 1789014862,
+          "last": 1791497423,
+          "playlists": {
+            "1default": 21,
+            "anti-capitalist weekday afternoon #1": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Colfax Speed Queen",
       "album": "Satisfaction Intended",
       "count": 23,
@@ -7468,53 +7489,32 @@
       ]
     },
     {
-      "artist": "Destructo Disk",
-      "album": "Punk Rocks For Kids Who Can't Skate",
+      "artist": "Rosie Tucker",
+      "album": "Sucker Supreme",
       "count": 22,
-      "first": 1788996063,
-      "last": 1791474455,
+      "first": 1788995157,
+      "last": 1791497269,
       "songs": [
         {
-          "artist": "Destructo Disk",
-          "title": "I Wish I Was A Riot Grrrl",
-          "album": "Punk Rocks For Kids Who Can't Skate",
-          "count": 22,
-          "first": 1788996063,
-          "last": 1791474455,
+          "artist": "Rosie Tucker",
+          "title": "Habanero",
+          "album": "Sucker Supreme",
+          "count": 12,
+          "first": 1789214020,
+          "last": 1791339684,
           "playlists": {
-            "1default": 20,
-            "anti-capitalist weekday afternoon #1": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Meeting House",
-      "album": "Couch Surfer",
-      "count": 22,
-      "first": 1789226222,
-      "last": 1791453494,
-      "songs": [
-        {
-          "artist": "Meeting House",
-          "title": "Black Clouds",
-          "album": "Couch Surfer",
-          "count": 18,
-          "first": 1789226222,
-          "last": 1791453494,
-          "playlists": {
-            "1default": 18
+            "1default": 12
           }
         },
         {
-          "artist": "Meeting House",
-          "title": "Couch Surfer",
-          "album": "Couch Surfer",
-          "count": 4,
-          "first": 1789250068,
-          "last": 1791065540,
+          "artist": "Rosie Tucker",
+          "title": "For Sale: Ford Pinto",
+          "album": "Sucker Supreme",
+          "count": 10,
+          "first": 1788995157,
+          "last": 1791497269,
           "playlists": {
-            "landlockd surfrock": 4
+            "anti-capitalist weekday afternoon #1": 10
           }
         }
       ]
@@ -7838,10 +7838,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 318,
+      "count": 320,
       "first": 1788904845,
-      "last": 1791497048,
+      "last": 1791497423,
       "songs": [
+        {
+          "artist": "Rosie Tucker",
+          "title": "For Sale: Ford Pinto",
+          "album": "Sucker Supreme",
+          "count": 10,
+          "first": 1788995157,
+          "last": 1791497269,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 10
+          }
+        },
         {
           "artist": "They Might Be Giants",
           "title": "Birdhouse in Your Soul",
@@ -7884,17 +7895,6 @@
           "last": 1791237984,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 10
-          }
-        },
-        {
-          "artist": "illuminati hotties",
-          "title": "(You're Better) Than Ever",
-          "album": "Kiss Yr Frenemies",
-          "count": 9,
-          "first": 1788994345,
-          "last": 1791414796,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 9
           }
         }
       ]
