@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T15:31:23.646911+00:00",
+  "updatedAt": "2026-10-08T15:36:43.599676+00:00",
   "summary": {
-    "totalPlays": 11293,
+    "totalPlays": 11295,
     "unknownPlays": 1141,
     "uniqueTracks": 2314,
     "uniqueArtists": 1494,
     "uniqueAlbums": 1913,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791473350
+    "lastObserved": 1791473796
   },
   "topSongs": [
     {
@@ -312,6 +312,17 @@
       }
     },
     {
+      "artist": "Blue October",
+      "title": "Into The Ocean",
+      "album": "Foiled",
+      "count": 15,
+      "first": 1788970549,
+      "last": 1791473556,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "Hold Me",
       "album": "1's a Man, 3's a Band",
@@ -560,17 +571,6 @@
       "count": 15,
       "first": 1789130394,
       "last": 1791365734,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Teyana Taylor",
-      "title": "Gonna Love Me",
-      "album": "K.T.S.E.",
-      "count": 15,
-      "first": 1788929095,
-      "last": 1791349851,
       "playlists": {
         "1default": 15
       }
@@ -4487,6 +4487,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 28,
+      "first": 1788986484,
+      "last": 1791473796,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 14,
+          "first": 1789231311,
+          "last": 1791473796,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 14,
+          "first": 1788986484,
+          "last": 1791393984,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Cemetery Drive",
       "count": 28,
       "first": 1789051357,
@@ -4824,36 +4854,6 @@
           "last": 1791447846,
           "playlists": {
             "breakbeat": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 27,
-      "first": 1788947810,
-      "last": 1791416461,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 14,
-          "first": 1788947810,
-          "last": 1791416461,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 13,
-          "first": 1789059805,
-          "last": 1791317019,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7521,9 +7521,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5215,
+      "count": 5217,
       "first": 1788901564,
-      "last": 1791469794,
+      "last": 1791473796,
       "songs": [
         {
           "artist": "Tele Novella",
