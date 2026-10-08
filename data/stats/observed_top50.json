@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T05:31:45.436102+00:00",
+  "updatedAt": "2026-10-08T05:36:37.278629+00:00",
   "summary": {
-    "totalPlays": 11120,
+    "totalPlays": 11122,
     "unknownPlays": 1141,
     "uniqueTracks": 2300,
     "uniqueArtists": 1486,
     "uniqueAlbums": 1901,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791437398
+    "lastObserved": 1791437770
   },
   "topSongs": [
     {
@@ -3801,10 +3801,21 @@
     },
     {
       "artist": "hkmori",
-      "count": 34,
+      "count": 35,
       "first": 1788938854,
-      "last": 1791364677,
+      "last": 1791437770,
       "songs": [
+        {
+          "artist": "hkmori",
+          "title": "re:titled",
+          "album": "unrequited love",
+          "count": 12,
+          "first": 1789018775,
+          "last": 1791437770,
+          "playlists": {
+            "breakbeat": 12
+          }
+        },
         {
           "artist": "hkmori",
           "title": "anybody can find love (except you.)",
@@ -3823,17 +3834,6 @@
           "count": 11,
           "first": 1788938854,
           "last": 1791357358,
-          "playlists": {
-            "breakbeat": 11
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "re:titled",
-          "album": "unrequited love",
-          "count": 11,
-          "first": 1789018775,
-          "last": 1791276293,
           "playlists": {
             "breakbeat": 11
           }
@@ -5980,6 +5980,48 @@
       ]
     },
     {
+      "artist": "hkmori",
+      "album": "unrequited love",
+      "count": 35,
+      "first": 1788938854,
+      "last": 1791437770,
+      "songs": [
+        {
+          "artist": "hkmori",
+          "title": "re:titled",
+          "album": "unrequited love",
+          "count": 12,
+          "first": 1789018775,
+          "last": 1791437770,
+          "playlists": {
+            "breakbeat": 12
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "anybody can find love (except you.)",
+          "album": "unrequited love",
+          "count": 12,
+          "first": 1789025449,
+          "last": 1791364677,
+          "playlists": {
+            "breakbeat": 12
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "lost",
+          "album": "unrequited love",
+          "count": 11,
+          "first": 1788938854,
+          "last": 1791357358,
+          "playlists": {
+            "breakbeat": 11
+          }
+        }
+      ]
+    },
+    {
       "artist": "My Chemical Romance",
       "album": "Three Cheers for Sweet Revenge",
       "count": 34,
@@ -6073,48 +6115,6 @@
           "last": 1790213392,
           "playlists": {
             "MCR wednesday wind down": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "hkmori",
-      "album": "unrequited love",
-      "count": 34,
-      "first": 1788938854,
-      "last": 1791364677,
-      "songs": [
-        {
-          "artist": "hkmori",
-          "title": "anybody can find love (except you.)",
-          "album": "unrequited love",
-          "count": 12,
-          "first": 1789025449,
-          "last": 1791364677,
-          "playlists": {
-            "breakbeat": 12
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "lost",
-          "album": "unrequited love",
-          "count": 11,
-          "first": 1788938854,
-          "last": 1791357358,
-          "playlists": {
-            "breakbeat": 11
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "re:titled",
-          "album": "unrequited love",
-          "count": 11,
-          "first": 1789018775,
-          "last": 1791276293,
-          "playlists": {
-            "breakbeat": 11
           }
         }
       ]
@@ -7415,9 +7415,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 961,
+      "count": 963,
       "first": 1788938278,
-      "last": 1791365160,
+      "last": 1791437770,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
