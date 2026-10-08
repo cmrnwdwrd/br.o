@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-08T21:06:32.095918+00:00",
+  "updatedAt": "2026-10-08T21:11:17.517878+00:00",
   "summary": {
-    "totalPlays": 11383,
+    "totalPlays": 11384,
     "unknownPlays": 1141,
     "uniqueTracks": 2314,
     "uniqueArtists": 1494,
     "uniqueAlbums": 1913,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791493564
+    "lastObserved": 1791493862
   },
   "topSongs": [
     {
@@ -3359,10 +3359,21 @@
     },
     {
       "artist": "Brandywine",
-      "count": 39,
+      "count": 40,
       "first": 1788965930,
-      "last": 1791332579,
+      "last": 1791493862,
       "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 14,
+          "first": 1789068640,
+          "last": 1791493862,
+          "playlists": {
+            "1default": 14
+          }
+        },
         {
           "artist": "Brandywine",
           "title": "Friend of Mine",
@@ -3372,17 +3383,6 @@
           "last": 1791259083,
           "playlists": {
             "1default": 14
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 13,
-          "first": 1789068640,
-          "last": 1791322485,
-          "playlists": {
-            "1default": 13
           }
         },
         {
@@ -7511,9 +7511,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5305,
+      "count": 5306,
       "first": 1788901564,
-      "last": 1791493564,
+      "last": 1791493862,
       "songs": [
         {
           "artist": "Tele Novella",
