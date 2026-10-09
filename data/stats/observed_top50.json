@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-09T06:46:48.961398+00:00",
+  "updatedAt": "2026-10-09T06:51:43.553055+00:00",
   "summary": {
-    "totalPlays": 11533,
+    "totalPlays": 11534,
     "unknownPlays": 1141,
     "uniqueTracks": 2315,
     "uniqueArtists": 1495,
     "uniqueAlbums": 1914,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791528338
+    "lastObserved": 1791528514
   },
   "topSongs": [
     {
@@ -255,6 +255,17 @@
       "last": 1791319010,
       "playlists": {
         "1default": 17
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 16,
+      "first": 1788917230,
+      "last": 1791528514,
+      "playlists": {
+        "1default": 16
       }
     },
     {
@@ -561,17 +572,6 @@
       "count": 15,
       "first": 1788989909,
       "last": 1791490708,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Gorillaz, Fatoumata Diawara",
-      "title": "Désolé (feat. Fatoumata Diawara)",
-      "album": "Song Machine Episode 2",
-      "count": 15,
-      "first": 1788967094,
-      "last": 1791490472,
       "playlists": {
         "1default": 15
       }
@@ -3156,6 +3156,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 43,
+      "first": 1788917230,
+      "last": 1791528514,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 16,
+          "first": 1788917230,
+          "last": 1791528514,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 14,
+          "first": 1788970790,
+          "last": 1791303824,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 13,
+          "first": 1789050580,
+          "last": 1791258148,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 43,
       "first": 1788965724,
@@ -3324,47 +3365,6 @@
           "count": 13,
           "first": 1789226629,
           "last": 1791405629,
-          "playlists": {
-            "1default": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 42,
-      "first": 1788917230,
-      "last": 1791340840,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 15,
-          "first": 1788917230,
-          "last": 1791340840,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 14,
-          "first": 1788970790,
-          "last": 1791303824,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 13,
-          "first": 1789050580,
-          "last": 1791258148,
           "playlists": {
             "1default": 13
           }
@@ -7431,9 +7431,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5369,
+      "count": 5370,
       "first": 1788901564,
-      "last": 1791528338,
+      "last": 1791528514,
       "songs": [
         {
           "artist": "Tele Novella",
