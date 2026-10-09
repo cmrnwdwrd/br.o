@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-09T12:06:41.655292+00:00",
+  "updatedAt": "2026-10-09T12:11:47.650112+00:00",
   "summary": {
-    "totalPlays": 11592,
+    "totalPlays": 11594,
     "unknownPlays": 1141,
     "uniqueTracks": 2315,
     "uniqueArtists": 1495,
     "uniqueAlbums": 1914,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791545267
+    "lastObserved": 1791547850
   },
   "topSongs": [
     {
@@ -357,6 +357,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 15,
+      "first": 1788965930,
+      "last": 1791547611,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "The Salesmen",
       "title": "Little Plans",
       "album": "WAR IN COLORADO!",
@@ -561,17 +572,6 @@
       "count": 15,
       "first": 1789070850,
       "last": 1791496371,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "PUP",
-      "title": "Kids",
-      "album": "Morbid Stuff",
-      "count": 15,
-      "first": 1788913008,
-      "last": 1791495568,
       "playlists": {
         "1default": 15
       }
@@ -3424,6 +3424,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 41,
+      "first": 1788965930,
+      "last": 1791547611,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 15,
+          "first": 1788965930,
+          "last": 1791547611,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 14,
+          "first": 1789068640,
+          "last": 1791493862,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 12,
+          "first": 1789215234,
+          "last": 1791332579,
+          "playlists": {
+            "1default": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 40,
       "first": 1788947368,
@@ -3460,47 +3501,6 @@
           "last": 1791320078,
           "playlists": {
             "1default": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 40,
-      "first": 1788965930,
-      "last": 1791493862,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 14,
-          "first": 1789068640,
-          "last": 1791493862,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 14,
-          "first": 1788965930,
-          "last": 1791259083,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 12,
-          "first": 1789215234,
-          "last": 1791332579,
-          "playlists": {
-            "1default": 12
           }
         }
       ]
@@ -7420,9 +7420,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5384,
+      "count": 5386,
       "first": 1788901564,
-      "last": 1791539884,
+      "last": 1791547850,
       "songs": [
         {
           "artist": "Tele Novella",
