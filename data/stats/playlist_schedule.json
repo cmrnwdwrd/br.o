@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T17:16:49.689467+00:00",
+  "updatedAt": "2026-10-09T17:21:45.828934+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 421,
+    "sessionCount": 422,
     "firstObserved": 1788901564,
-    "lastObserved": 1791558051
+    "lastObserved": 1791566221
   },
   "playlists": [
     {
@@ -17523,12 +17523,12 @@
     },
     {
       "playlist": "jack johnson hackiesack friday afternoon",
-      "sessionCount": 6,
-      "playCount": 131,
+      "sessionCount": 7,
+      "playCount": 133,
       "firstObserved": 1789147116,
-      "lastObserved": 1791069244,
-      "typicalStartMinute": 735,
-      "typicalDurationMinutes": 89,
+      "lastObserved": 1791566221,
+      "typicalStartMinute": 726,
+      "typicalDurationMinutes": 60,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -17647,7 +17647,7 @@
           0.0,
           0.0,
           0.0,
-          169.3,
+          176.2,
           233.7,
           63.9,
           0.0,
@@ -18153,7 +18153,7 @@
           0.0,
           0.0,
           0.0,
-          49.3,
+          56.2,
           60.0,
           60.0,
           60.0,
@@ -18519,7 +18519,7 @@
           0,
           0,
           0,
-          4,
+          5,
           1,
           0,
           0,
@@ -18589,10 +18589,10 @@
       "likelyWindows": [
         {
           "weekday": 4,
-          "sessions": 5,
-          "typicalStartMinute": 691,
-          "typicalDurationMinutes": 117,
-          "confidence": "Medium"
+          "sessions": 6,
+          "typicalStartMinute": 688,
+          "typicalDurationMinutes": 89,
+          "confidence": "High"
         },
         {
           "weekday": 5,
@@ -18603,6 +18603,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1791566221,
+          "end": 1791566637,
+          "durationMinutes": 7,
+          "playCount": 2
+        },
         {
           "start": 1791069244,
           "end": 1791069424,
