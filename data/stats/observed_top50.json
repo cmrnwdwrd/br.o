@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-09T21:06:47.277035+00:00",
+  "updatedAt": "2026-10-09T21:12:03.697733+00:00",
   "summary": {
-    "totalPlays": 11745,
+    "totalPlays": 11747,
     "unknownPlays": 1141,
     "uniqueTracks": 2316,
     "uniqueArtists": 1496,
     "uniqueAlbums": 1915,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791579824
+    "lastObserved": 1791580264
   },
   "topSongs": [
     {
@@ -7890,10 +7890,21 @@
     },
     {
       "playlist": "escaping from cu boulder by giselle",
-      "count": 199,
+      "count": 201,
       "first": 1789154151,
-      "last": 1791579824,
+      "last": 1791580264,
       "songs": [
+        {
+          "artist": "Men I Trust",
+          "title": "Show Me How",
+          "album": "Show Me How",
+          "count": 5,
+          "first": 1789154151,
+          "last": 1791580264,
+          "playlists": {
+            "escaping from cu boulder by giselle": 5
+          }
+        },
         {
           "artist": "Golden Daze",
           "title": "Blue Bell",
@@ -7936,17 +7947,6 @@
           "last": 1791573360,
           "playlists": {
             "escaping from cu boulder by giselle": 5
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 4,
-          "first": 1789156918,
-          "last": 1791579824,
-          "playlists": {
-            "escaping from cu boulder by giselle": 4
           }
         }
       ]
