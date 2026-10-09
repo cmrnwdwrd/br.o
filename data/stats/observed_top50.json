@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-09T00:56:46.340499+00:00",
+  "updatedAt": "2026-10-09T01:01:16.816495+00:00",
   "summary": {
-    "totalPlays": 11445,
+    "totalPlays": 11447,
     "unknownPlays": 1141,
     "uniqueTracks": 2314,
     "uniqueArtists": 1494,
     "uniqueAlbums": 1913,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791507270
+    "lastObserved": 1791507649
   },
   "topSongs": [
     {
@@ -324,6 +324,17 @@
       }
     },
     {
+      "artist": "Mat Kerekes",
+      "title": "Diamonds",
+      "album": "Ruby",
+      "count": 15,
+      "first": 1788969737,
+      "last": 1791507441,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "The Shivas",
       "title": "You Make Me Wanna Die",
       "album": "You Know What to Do",
@@ -561,17 +572,6 @@
       "count": 15,
       "first": 1788974227,
       "last": 1791485964,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Sjowgren",
-      "title": "Flip Phones",
-      "album": "win'20",
-      "count": 15,
-      "first": 1789059354,
-      "last": 1791485067,
       "playlists": {
         "1default": 15
       }
@@ -6829,6 +6829,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 27,
+      "first": 1789166634,
+      "last": 1791507649,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 14,
+          "first": 1789166634,
+          "last": 1791507649,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 13,
+          "first": 1789167660,
+          "last": 1791318565,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "album": "Stand Up",
       "count": 27,
@@ -6938,37 +6969,6 @@
           "playlists": {
             "1default": 24,
             "anti-capitalist weekday afternoon #1": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 26,
-      "first": 1789166634,
-      "last": 1791318565,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 13,
-          "first": 1789167660,
-          "last": 1791318565,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 13,
-          "first": 1789166634,
-          "last": 1791311167,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7523,9 +7523,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5343,
+      "count": 5345,
       "first": 1788901564,
-      "last": 1791507270,
+      "last": 1791507649,
       "songs": [
         {
           "artist": "Tele Novella",
