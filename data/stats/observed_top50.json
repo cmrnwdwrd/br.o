@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-09T19:01:51.080266+00:00",
+  "updatedAt": "2026-10-09T19:06:37.879047+00:00",
   "summary": {
-    "totalPlays": 11713,
+    "totalPlays": 11714,
     "unknownPlays": 1141,
     "uniqueTracks": 2316,
     "uniqueArtists": 1496,
     "uniqueAlbums": 1915,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791572365
+    "lastObserved": 1791572679
   },
   "topSongs": [
     {
@@ -2300,10 +2300,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 66,
+      "count": 67,
       "first": 1789147116,
-      "last": 1791572147,
+      "last": 1791572679,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Breakdown",
+          "album": "In Between Dreams",
+          "count": 3,
+          "first": 1790362995,
+          "last": 1791572679,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 3
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Sitting, Waiting, Wishing",
@@ -2465,17 +2476,6 @@
           "count": 2,
           "first": 1789147704,
           "last": 1790964048,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Breakdown",
-          "album": "In Between Dreams",
-          "count": 2,
-          "first": 1790362995,
-          "last": 1790963104,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
           }
