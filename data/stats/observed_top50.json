@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-09T19:11:30.114417+00:00",
+  "updatedAt": "2026-10-09T19:16:50.754705+00:00",
   "summary": {
-    "totalPlays": 11715,
+    "totalPlays": 11717,
     "unknownPlays": 1141,
     "uniqueTracks": 2316,
     "uniqueArtists": 1496,
     "uniqueAlbums": 1915,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791572894
+    "lastObserved": 1791573360
   },
   "topSongs": [
     {
@@ -2300,10 +2300,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 67,
+      "count": 68,
       "first": 1789147116,
-      "last": 1791572679,
+      "last": 1791573152,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Good People",
+          "album": "In Between Dreams",
+          "count": 3,
+          "first": 1789152122,
+          "last": 1791573152,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 3
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Breakdown",
@@ -2498,17 +2509,6 @@
           "count": 2,
           "first": 1789149733,
           "last": 1790360734,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Good People",
-          "album": "In Between Dreams",
-          "count": 2,
-          "first": 1789152122,
-          "last": 1790360126,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
           }
