@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-09T12:51:45.689044+00:00",
+  "updatedAt": "2026-10-09T12:56:14.596594+00:00",
   "summary": {
-    "totalPlays": 11604,
+    "totalPlays": 11605,
     "unknownPlays": 1141,
     "uniqueTracks": 2315,
     "uniqueArtists": 1495,
     "uniqueAlbums": 1914,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791550179
+    "lastObserved": 1791550419
   },
   "topSongs": [
     {
@@ -357,6 +357,17 @@
       }
     },
     {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 15,
+      "first": 1789235365,
+      "last": 1791550419,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Sexy Coyote",
       "title": "What's for Dinner????",
       "album": "Dead",
@@ -561,17 +572,6 @@
       "count": 15,
       "first": 1788986484,
       "last": 1791505969,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Tems, Brent Faiyaz",
-      "title": "Found (feat. Brent Faiyaz)",
-      "album": "Found (feat. Brent Faiyaz)",
-      "count": 15,
-      "first": 1788969945,
-      "last": 1791504725,
       "playlists": {
         "1default": 15
       }
@@ -4632,6 +4632,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 28,
+      "first": 1789069956,
+      "last": 1791550419,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 15,
+          "first": 1789235365,
+          "last": 1791550419,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 13,
+          "first": 1789069956,
+          "last": 1791485279,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 28,
       "first": 1789054681,
@@ -4720,36 +4750,6 @@
           "last": 1789583691,
           "playlists": {
             "country music was never for republicans": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 28,
-      "first": 1788947810,
-      "last": 1791515272,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 14,
-          "first": 1789059805,
-          "last": 1791515272,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 14,
-          "first": 1788947810,
-          "last": 1791416461,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -7409,9 +7409,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5396,
+      "count": 5397,
       "first": 1788901564,
-      "last": 1791550179,
+      "last": 1791550419,
       "songs": [
         {
           "artist": "Tele Novella",
