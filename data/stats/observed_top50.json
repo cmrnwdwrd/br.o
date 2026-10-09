@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-09T00:31:44.873209+00:00",
+  "updatedAt": "2026-10-09T00:36:18.758871+00:00",
   "summary": {
-    "totalPlays": 11438,
+    "totalPlays": 11439,
     "unknownPlays": 1141,
     "uniqueTracks": 2314,
     "uniqueArtists": 1494,
     "uniqueAlbums": 1913,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791505703
+    "lastObserved": 1791505969
   },
   "topSongs": [
     {
@@ -324,6 +324,17 @@
       }
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 15,
+      "first": 1788986484,
+      "last": 1791505969,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Tems, Brent Faiyaz",
       "title": "Found (feat. Brent Faiyaz)",
       "album": "Found (feat. Brent Faiyaz)",
@@ -561,17 +572,6 @@
       "count": 15,
       "first": 1788971012,
       "last": 1791484828,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "title": "STUPIDMOTHERFUCKER",
-      "album": "Lick My Soul",
-      "count": 15,
-      "first": 1788989164,
-      "last": 1791483970,
       "playlists": {
         "1default": 15
       }
@@ -4307,6 +4307,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 29,
+      "first": 1788986484,
+      "last": 1791505969,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 15,
+          "first": 1788986484,
+          "last": 1791505969,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 14,
+          "first": 1789231311,
+          "last": 1791473796,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 29,
       "first": 1788985030,
@@ -4584,36 +4614,6 @@
           "last": 1791071409,
           "playlists": {
             "texting your situationship": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 28,
-      "first": 1788986484,
-      "last": 1791473796,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 14,
-          "first": 1789231311,
-          "last": 1791473796,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 14,
-          "first": 1788986484,
-          "last": 1791393984,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -7523,9 +7523,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5336,
+      "count": 5337,
       "first": 1788901564,
-      "last": 1791505703,
+      "last": 1791505969,
       "songs": [
         {
           "artist": "Tele Novella",
