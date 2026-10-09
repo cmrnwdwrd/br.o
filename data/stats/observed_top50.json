@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-09T16:26:41.770262+00:00",
+  "updatedAt": "2026-10-09T16:31:15.130801+00:00",
   "summary": {
-    "totalPlays": 11671,
+    "totalPlays": 11673,
     "unknownPlays": 1141,
     "uniqueTracks": 2315,
     "uniqueArtists": 1495,
     "uniqueAlbums": 1914,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791562927
+    "lastObserved": 1791563424
   },
   "topSongs": [
     {
@@ -368,6 +368,28 @@
       }
     },
     {
+      "artist": "isobel",
+      "title": "laundry",
+      "album": "laundry",
+      "count": 15,
+      "first": 1788902953,
+      "last": 1791563424,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 15,
+      "first": 1789033065,
+      "last": 1791563235,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Gorillaz, ScHoolboy Q",
       "title": "Pac-Man (feat. ScHoolboy Q)",
       "album": "Song Machine Episode 5",
@@ -550,28 +572,6 @@
       "count": 15,
       "first": 1788904525,
       "last": 1791529371,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Bad Bad Hats",
-      "title": "Walkman",
-      "album": "Walkman",
-      "count": 15,
-      "first": 1788963606,
-      "last": 1791528338,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Doja Cat",
-      "title": "Say So (MTV EMA 2020)",
-      "album": "",
-      "count": 15,
-      "first": 1788962794,
-      "last": 1791515469,
       "playlists": {
         "1default": 15
       }
@@ -3249,6 +3249,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 43,
+      "first": 1788973998,
+      "last": 1791563235,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 15,
+          "first": 1789033065,
+          "last": 1791563235,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 15,
+          "first": 1788973998,
+          "last": 1791478594,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 13,
+          "first": 1789226629,
+          "last": 1791405629,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 43,
       "first": 1789021318,
@@ -3417,47 +3458,6 @@
           "count": 13,
           "first": 1788984450,
           "last": 1791304904,
-          "playlists": {
-            "1default": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 42,
-      "first": 1788973998,
-      "last": 1791478594,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 15,
-          "first": 1788973998,
-          "last": 1791478594,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 14,
-          "first": 1789033065,
-          "last": 1791315325,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 13,
-          "first": 1789226629,
-          "last": 1791405629,
           "playlists": {
             "1default": 13
           }
@@ -7377,9 +7377,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5420,
+      "count": 5422,
       "first": 1788901564,
-      "last": 1791562927,
+      "last": 1791563424,
       "songs": [
         {
           "artist": "Tele Novella",
