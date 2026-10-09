@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-09T09:46:15.241534+00:00",
+  "updatedAt": "2026-10-09T09:51:44.565875+00:00",
   "summary": {
-    "totalPlays": 11585,
+    "totalPlays": 11587,
     "unknownPlays": 1141,
     "uniqueTracks": 2315,
     "uniqueArtists": 1495,
     "uniqueAlbums": 1914,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791539022
+    "lastObserved": 1791539452
   },
   "topSongs": [
     {
@@ -357,6 +357,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 15,
+      "first": 1788970790,
+      "last": 1791539191,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Sugs",
       "title": "PICTURESQUE",
       "album": "PICTURESQUE",
@@ -561,17 +572,6 @@
       "count": 15,
       "first": 1788913008,
       "last": 1791495568,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Hotel Ugly",
-      "title": "Shut up My Moms Calling",
-      "album": "Shut up My Moms Calling",
-      "count": 15,
-      "first": 1788969130,
-      "last": 1791493182,
       "playlists": {
         "1default": 15
       }
@@ -3000,6 +3000,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 44,
+      "first": 1788917230,
+      "last": 1791539191,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 16,
+          "first": 1788917230,
+          "last": 1791528514,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 15,
+          "first": 1788970790,
+          "last": 1791539191,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 13,
+          "first": 1789050580,
+          "last": 1791258148,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ethel Cain",
       "count": 44,
       "first": 1789098981,
@@ -3149,47 +3190,6 @@
           "count": 13,
           "first": 1789139069,
           "last": 1791387179,
-          "playlists": {
-            "1default": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 43,
-      "first": 1788917230,
-      "last": 1791528514,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 16,
-          "first": 1788917230,
-          "last": 1791528514,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 14,
-          "first": 1788970790,
-          "last": 1791303824,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 13,
-          "first": 1789050580,
-          "last": 1791258148,
           "playlists": {
             "1default": 13
           }
@@ -7420,9 +7420,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5380,
+      "count": 5382,
       "first": 1788901564,
-      "last": 1791539022,
+      "last": 1791539452,
       "songs": [
         {
           "artist": "Tele Novella",
