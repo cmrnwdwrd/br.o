@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-10T11:11:48.593609+00:00",
+  "updatedAt": "2026-10-10T11:16:18.937033+00:00",
   "summary": {
-    "totalPlays": 11921,
+    "totalPlays": 11922,
     "unknownPlays": 1141,
     "uniqueTracks": 2316,
     "uniqueArtists": 1496,
     "uniqueAlbums": 1915,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791630583
+    "lastObserved": 1791630872
   },
   "topSongs": [
     {
@@ -182,6 +182,17 @@
       }
     },
     {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 19,
+      "first": 1788989320,
+      "last": 1791630872,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "wrap music",
       "album": "THIS DOES NOT EXIST",
@@ -255,17 +266,6 @@
       "count": 18,
       "first": 1789063640,
       "last": 1791433566,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Traveling",
-      "album": "Young & Old",
-      "count": 18,
-      "first": 1788989320,
-      "last": 1791316064,
       "playlists": {
         "1default": 18
       }
@@ -2931,6 +2931,80 @@
       ]
     },
     {
+      "artist": "Tennis",
+      "count": 48,
+      "first": 1788989320,
+      "last": 1791630872,
+      "songs": [
+        {
+          "artist": "Tennis",
+          "title": "Traveling",
+          "album": "Young & Old",
+          "count": 19,
+          "first": 1788989320,
+          "last": 1791630872,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Need Your Love",
+          "album": "Swimmer",
+          "count": 15,
+          "first": 1789058225,
+          "last": 1791407868,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Tender as a Tomb",
+          "album": "Swimmer",
+          "count": 4,
+          "first": 1789253168,
+          "last": 1791068113,
+          "playlists": {
+            "landlockd surfrock": 4
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Seafarer",
+          "album": "Cape Dory",
+          "count": 4,
+          "first": 1789248601,
+          "last": 1791066217,
+          "playlists": {
+            "landlockd surfrock": 4
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Pigeon",
+          "album": "Cape Dory",
+          "count": 3,
+          "first": 1789854131,
+          "last": 1791065041,
+          "playlists": {
+            "landlockd surfrock": 3
+          }
+        },
+        {
+          "artist": "Tennis",
+          "title": "Baltimore",
+          "album": "Cape Dory",
+          "count": 3,
+          "first": 1790457192,
+          "last": 1791062320,
+          "playlists": {
+            "landlockd surfrock": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ethel Cain",
       "count": 47,
       "first": 1789098981,
@@ -2989,80 +3063,6 @@
           "last": 1791517014,
           "playlists": {
             "for the girls driving 85": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tennis",
-      "count": 47,
-      "first": 1788989320,
-      "last": 1791407868,
-      "songs": [
-        {
-          "artist": "Tennis",
-          "title": "Traveling",
-          "album": "Young & Old",
-          "count": 18,
-          "first": 1788989320,
-          "last": 1791316064,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Need Your Love",
-          "album": "Swimmer",
-          "count": 15,
-          "first": 1789058225,
-          "last": 1791407868,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Tender as a Tomb",
-          "album": "Swimmer",
-          "count": 4,
-          "first": 1789253168,
-          "last": 1791068113,
-          "playlists": {
-            "landlockd surfrock": 4
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Seafarer",
-          "album": "Cape Dory",
-          "count": 4,
-          "first": 1789248601,
-          "last": 1791066217,
-          "playlists": {
-            "landlockd surfrock": 4
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Pigeon",
-          "album": "Cape Dory",
-          "count": 3,
-          "first": 1789854131,
-          "last": 1791065041,
-          "playlists": {
-            "landlockd surfrock": 3
-          }
-        },
-        {
-          "artist": "Tennis",
-          "title": "Baltimore",
-          "album": "Cape Dory",
-          "count": 3,
-          "first": 1790457192,
-          "last": 1791062320,
-          "playlists": {
-            "landlockd surfrock": 3
           }
         }
       ]
@@ -7471,9 +7471,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5482,
+      "count": 5483,
       "first": 1788901564,
-      "last": 1791630583,
+      "last": 1791630872,
       "songs": [
         {
           "artist": "Tele Novella",
