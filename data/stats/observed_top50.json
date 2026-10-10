@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-10T18:01:49.991493+00:00",
+  "updatedAt": "2026-10-10T18:06:31.082978+00:00",
   "summary": {
-    "totalPlays": 12033,
+    "totalPlays": 12034,
     "unknownPlays": 1141,
     "uniqueTracks": 2316,
     "uniqueArtists": 1496,
     "uniqueAlbums": 1915,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791655308
+    "lastObserved": 1791655587
   },
   "topSongs": [
     {
@@ -194,6 +194,17 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 19,
+      "first": 1789063640,
+      "last": 1791655587,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Tennis",
       "title": "Traveling",
       "album": "Young & Old",
@@ -268,17 +279,6 @@
       "count": 18,
       "first": 1789226222,
       "last": 1791453494,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 18,
-      "first": 1789063640,
-      "last": 1791433566,
       "playlists": {
         "1default": 18
       }
@@ -3998,6 +3998,36 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 33,
+      "first": 1788973386,
+      "last": 1791655587,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 19,
+          "first": 1789063640,
+          "last": 1791655587,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 14,
+          "first": 1788973386,
+          "last": 1791487291,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 33,
       "first": 1788990464,
@@ -4220,36 +4250,6 @@
           "last": 1789893243,
           "playlists": {
             "christmas rn": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 32,
-      "first": 1788973386,
-      "last": 1791487291,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 18,
-          "first": 1789063640,
-          "last": 1791433566,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 14,
-          "first": 1788973386,
-          "last": 1791487291,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -7365,9 +7365,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5576,
+      "count": 5577,
       "first": 1788901564,
-      "last": 1791655308,
+      "last": 1791655587,
       "songs": [
         {
           "artist": "Tele Novella",
