@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-10T11:21:45.177246+00:00",
+  "updatedAt": "2026-10-10T11:26:46.735464+00:00",
   "summary": {
-    "totalPlays": 11923,
+    "totalPlays": 11925,
     "unknownPlays": 1141,
     "uniqueTracks": 2316,
     "uniqueArtists": 1496,
     "uniqueAlbums": 1915,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791631054
+    "lastObserved": 1791631524
   },
   "topSongs": [
     {
@@ -427,6 +427,28 @@
       }
     },
     {
+      "artist": "Black Sheep",
+      "title": "The Choice Is Yours (Revisited)",
+      "album": "A Wolf In Sheep's Clothing",
+      "count": 15,
+      "first": 1789062768,
+      "last": 1791631524,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
+      "artist": "Of Monsters and Men",
+      "title": "Visitor",
+      "album": "Visitor",
+      "count": 15,
+      "first": 1788963370,
+      "last": 1791631314,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "The Czars",
       "title": "Drug",
       "album": "Best Of",
@@ -554,28 +576,6 @@
       "count": 15,
       "first": 1788985030,
       "last": 1791584949,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Bahamas",
-      "title": "Own Alone",
-      "album": "Sad Hunk",
-      "count": 15,
-      "first": 1788962598,
-      "last": 1791584754,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Franz Ferdinand",
-      "title": "Billy Goodbye",
-      "album": "Billy Goodbye",
-      "count": 15,
-      "first": 1789014639,
-      "last": 1791584534,
       "playlists": {
         "1default": 15
       }
@@ -3955,10 +3955,21 @@
     },
     {
       "artist": "Of Monsters and Men",
-      "count": 33,
+      "count": 34,
       "first": 1788963370,
-      "last": 1791579824,
+      "last": 1791631314,
       "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 15,
+          "first": 1788963370,
+          "last": 1791631314,
+          "playlists": {
+            "1default": 15
+          }
+        },
         {
           "artist": "Of Monsters and Men",
           "title": "Wars",
@@ -3968,17 +3979,6 @@
           "last": 1791409273,
           "playlists": {
             "1default": 15
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 14,
-          "first": 1788963370,
-          "last": 1791382734,
-          "playlists": {
-            "1default": 14
           }
         },
         {
@@ -7471,9 +7471,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5484,
+      "count": 5486,
       "first": 1788901564,
-      "last": 1791631054,
+      "last": 1791631524,
       "songs": [
         {
           "artist": "Tele Novella",
