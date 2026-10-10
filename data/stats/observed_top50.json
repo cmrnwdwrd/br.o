@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-10T15:01:54.691513+00:00",
+  "updatedAt": "2026-10-10T15:06:44.587149+00:00",
   "summary": {
-    "totalPlays": 11983,
+    "totalPlays": 11985,
     "unknownPlays": 1141,
     "uniqueTracks": 2316,
     "uniqueArtists": 1496,
     "uniqueAlbums": 1915,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791644365
+    "lastObserved": 1791644743
   },
   "topSongs": [
     {
@@ -317,6 +317,17 @@
       }
     },
     {
+      "artist": "Bahamas",
+      "title": "Own Alone",
+      "album": "Sad Hunk",
+      "count": 16,
+      "first": 1788962598,
+      "last": 1791644743,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "Hotel Ugly",
       "title": "Shut up My Moms Calling",
       "album": "Shut up My Moms Calling",
@@ -483,6 +494,17 @@
       }
     },
     {
+      "artist": "Yumi Zouma",
+      "title": "In Camera",
+      "album": "EP III",
+      "count": 15,
+      "first": 1789054681,
+      "last": 1791644539,
+      "playlists": {
+        "1default": 15
+      }
+    },
+    {
       "artist": "Breakup Shoes",
       "title": "Nicotine Dream",
       "album": "Nicotine Dream EP",
@@ -555,28 +577,6 @@
       "count": 15,
       "first": 1788926758,
       "last": 1791641634,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE WORLD IS ENDING",
-      "album": "THE WORLD IS ENDING",
-      "count": 15,
-      "first": 1789033665,
-      "last": 1791641226,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "David Bowie",
-      "title": "I'm Afraid of Americans (V1)",
-      "album": "Legacy (Deluxe Edition)",
-      "count": 15,
-      "first": 1788912385,
-      "last": 1791638989,
       "playlists": {
         "1default": 15
       }
@@ -4549,6 +4549,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 30,
+      "first": 1789054681,
+      "last": 1791644539,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 15,
+          "first": 1789054681,
+          "last": 1791644539,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 15,
+          "first": 1789057143,
+          "last": 1791549255,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 30,
       "first": 1788985030,
@@ -4847,36 +4877,6 @@
           "last": 1791616644,
           "playlists": {
             "for the girls driving 85": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 29,
-      "first": 1789054681,
-      "last": 1791585120,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 15,
-          "first": 1789057143,
-          "last": 1791549255,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 14,
-          "first": 1789054681,
-          "last": 1791585120,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -7589,9 +7589,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5544,
+      "count": 5546,
       "first": 1788901564,
-      "last": 1791644365,
+      "last": 1791644743,
       "songs": [
         {
           "artist": "Tele Novella",
