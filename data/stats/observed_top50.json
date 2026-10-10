@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-10T13:36:14.827832+00:00",
+  "updatedAt": "2026-10-10T13:41:35.450257+00:00",
   "summary": {
-    "totalPlays": 11957,
+    "totalPlays": 11959,
     "unknownPlays": 1141,
     "uniqueTracks": 2316,
     "uniqueArtists": 1496,
     "uniqueAlbums": 1915,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791639254
+    "lastObserved": 1791639626
   },
   "topSongs": [
     {
@@ -317,6 +317,17 @@
       }
     },
     {
+      "artist": "wilt",
+      "title": "the riff",
+      "album": "the riff",
+      "count": 16,
+      "first": 1788911339,
+      "last": 1791639432,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "hey, nothing",
       "title": "The Sink",
       "album": "The Sink",
@@ -565,17 +576,6 @@
       "count": 15,
       "first": 1788901564,
       "last": 1791632131,
-      "playlists": {
-        "1default": 15
-      }
-    },
-    {
-      "artist": "Black Sheep",
-      "title": "The Choice Is Yours (Revisited)",
-      "album": "A Wolf In Sheep's Clothing",
-      "count": 15,
-      "first": 1789062768,
-      "last": 1791631524,
       "playlists": {
         "1default": 15
       }
@@ -7039,6 +7039,37 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "album": "Doolittle",
+      "count": 27,
+      "first": 1788972865,
+      "last": 1791639626,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 14,
+          "first": 1789214521,
+          "last": 1791639626,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 13,
+          "first": 1788972865,
+          "last": 1791516289,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Florence + The Machine, Jules Buckley",
       "album": "Symphony of Lungs - BBC Proms at the Royal Albert Hall",
       "count": 27,
@@ -7203,37 +7234,6 @@
           "last": 1791438109,
           "playlists": {
             "breakbeat": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Pixies",
-      "album": "Doolittle",
-      "count": 26,
-      "first": 1788972865,
-      "last": 1791516289,
-      "songs": [
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 13,
-          "first": 1788972865,
-          "last": 1791516289,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 13,
-          "first": 1789214521,
-          "last": 1791323184,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7610,9 +7610,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5518,
+      "count": 5520,
       "first": 1788901564,
-      "last": 1791639254,
+      "last": 1791639626,
       "songs": [
         {
           "artist": "Tele Novella",
