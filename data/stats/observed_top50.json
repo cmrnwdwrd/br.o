@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-10T16:11:46.715364+00:00",
+  "updatedAt": "2026-10-10T16:16:46.452888+00:00",
   "summary": {
-    "totalPlays": 12003,
+    "totalPlays": 12005,
     "unknownPlays": 1141,
     "uniqueTracks": 2316,
     "uniqueArtists": 1496,
     "uniqueAlbums": 1915,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791648552
+    "lastObserved": 1791648862
   },
   "topSongs": [
     {
@@ -182,23 +182,24 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "wrap music",
+      "album": "THIS DOES NOT EXIST",
+      "count": 20,
+      "first": 1789053695,
+      "last": 1791648721,
+      "playlists": {
+        "1default": 19,
+        "steal my bike": 1
+      }
+    },
+    {
       "artist": "Tennis",
       "title": "Traveling",
       "album": "Young & Old",
       "count": 19,
       "first": 1788989320,
       "last": 1791630872,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "wrap music",
-      "album": "THIS DOES NOT EXIST",
-      "count": 19,
-      "first": 1789053695,
-      "last": 1791538518,
       "playlists": {
         "1default": 19
       }
@@ -1077,19 +1078,20 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 227,
+      "count": 228,
       "first": 1788910325,
-      "last": 1791641445,
+      "last": 1791648721,
       "songs": [
         {
           "artist": "Lil Darkie",
           "title": "wrap music",
           "album": "THIS DOES NOT EXIST",
-          "count": 19,
+          "count": 20,
           "first": 1789053695,
-          "last": 1791538518,
+          "last": 1791648721,
           "playlists": {
-            "1default": 19
+            "1default": 19,
+            "steal my bike": 1
           }
         },
         {
@@ -6462,6 +6464,38 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THIS DOES NOT EXIST",
+      "count": 34,
+      "first": 1789053695,
+      "last": 1791648721,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "wrap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 20,
+          "first": 1789053695,
+          "last": 1791648721,
+          "playlists": {
+            "1default": 19,
+            "steal my bike": 1
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 14,
+          "first": 1789217995,
+          "last": 1791628667,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
       "count": 34,
@@ -6585,37 +6619,6 @@
           "last": 1791351841,
           "playlists": {
             "EPL4a": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THIS DOES NOT EXIST",
-      "count": 33,
-      "first": 1789053695,
-      "last": 1791628667,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 19,
-          "first": 1789053695,
-          "last": 1791538518,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 14,
-          "first": 1789217995,
-          "last": 1791628667,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
