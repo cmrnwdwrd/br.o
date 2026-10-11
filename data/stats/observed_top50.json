@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-11T09:11:48.730607+00:00",
+  "updatedAt": "2026-10-11T09:16:45.928669+00:00",
   "summary": {
-    "totalPlays": 12295,
+    "totalPlays": 12297,
     "unknownPlays": 1141,
     "uniqueTracks": 2368,
     "uniqueArtists": 1530,
     "uniqueAlbums": 1962,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791709720
+    "lastObserved": 1791710173
   },
   "topSongs": [
     {
@@ -369,6 +369,17 @@
       }
     },
     {
+      "artist": "Sweet Pill",
+      "title": "Blood",
+      "album": "Where the Heart Is",
+      "count": 16,
+      "first": 1789064643,
+      "last": 1791710173,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "Cage The Elephant",
       "title": "Social Cues",
       "album": "Social Cues",
@@ -573,17 +584,6 @@
       "count": 16,
       "first": 1788967329,
       "last": 1791655100,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Finger Eleven",
-      "title": "Paralyzer",
-      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-      "count": 16,
-      "first": 1789049428,
-      "last": 1791653585,
       "playlists": {
         "1default": 16
       }
@@ -2742,6 +2742,58 @@
       ]
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "count": 57,
+      "first": 1788915065,
+      "last": 1791709938,
+      "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Mr. Prism",
+          "album": "Mr. Prism",
+          "count": 15,
+          "first": 1789168906,
+          "last": 1791709938,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Tally-Ho",
+          "album": "Tally-Ho",
+          "count": 15,
+          "first": 1789085431,
+          "last": 1791645954,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Bill's Mandolin",
+          "album": "And Now for the Whatchamacallit",
+          "count": 14,
+          "first": 1789234972,
+          "last": 1791453024,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Lava Lamp Pisco",
+          "album": "Lava Lamp Pisco",
+          "count": 13,
+          "first": 1788915065,
+          "last": 1791515700,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "count": 57,
       "first": 1788917492,
@@ -2841,58 +2893,6 @@
           "last": 1791437929,
           "playlists": {
             "breakbeat": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Psychedelic Porn Crumpets",
-      "count": 56,
-      "first": 1788915065,
-      "last": 1791645954,
-      "songs": [
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Tally-Ho",
-          "album": "Tally-Ho",
-          "count": 15,
-          "first": 1789085431,
-          "last": 1791645954,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Mr. Prism",
-          "album": "Mr. Prism",
-          "count": 14,
-          "first": 1789168906,
-          "last": 1791560152,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Bill's Mandolin",
-          "album": "And Now for the Whatchamacallit",
-          "count": 14,
-          "first": 1789234972,
-          "last": 1791453024,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Lava Lamp Pisco",
-          "album": "Lava Lamp Pisco",
-          "count": 13,
-          "first": 1788915065,
-          "last": 1791515700,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7442,9 +7442,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5614,
+      "count": 5616,
       "first": 1788901564,
-      "last": 1791709720,
+      "last": 1791710173,
       "songs": [
         {
           "artist": "Tele Novella",
