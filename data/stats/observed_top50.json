@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-11T19:46:35.754087+00:00",
+  "updatedAt": "2026-10-11T19:51:36.686025+00:00",
   "summary": {
-    "totalPlays": 12457,
+    "totalPlays": 12459,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791747876
+    "lastObserved": 1791748264
   },
   "topSongs": [
     {
@@ -392,6 +392,17 @@
       }
     },
     {
+      "artist": "NO CHANCE!",
+      "title": "I Wanna Be Your Man",
+      "album": "I Wanna Be Your Man",
+      "count": 16,
+      "first": 1788986942,
+      "last": 1791748264,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "The Ephinjis",
       "title": "Knives",
       "album": "Knives",
@@ -574,17 +585,6 @@
       "count": 16,
       "first": 1788986031,
       "last": 1791709314,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "title": "brutal",
-      "album": "SOUR",
-      "count": 16,
-      "first": 1789057000,
-      "last": 1791708795,
       "playlists": {
         "1default": 16
       }
@@ -4622,6 +4622,36 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "count": 30,
+      "first": 1789166634,
+      "last": 1791748059,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 15,
+          "first": 1789167660,
+          "last": 1791748059,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 15,
+          "first": 1789166634,
+          "last": 1791651075,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Olivia Rodrigo",
       "count": 30,
       "first": 1789057000,
@@ -4817,36 +4847,6 @@
           "last": 1791477912,
           "playlists": {
             "1default": 14
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 30,
-      "first": 1789054681,
-      "last": 1791644539,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 15,
-          "first": 1789054681,
-          "last": 1791644539,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 15,
-          "first": 1789057143,
-          "last": 1791549255,
-          "playlists": {
-            "1default": 15
           }
         }
       ]
@@ -6733,6 +6733,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 30,
+      "first": 1789166634,
+      "last": 1791748059,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 15,
+          "first": 1789167660,
+          "last": 1791748059,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 15,
+          "first": 1789166634,
+          "last": 1791651075,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 30,
@@ -6819,37 +6850,6 @@
           "count": 14,
           "first": 1789108965,
           "last": 1791645603,
-          "playlists": {
-            "1default": 14
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 29,
-      "first": 1789166634,
-      "last": 1791651075,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 15,
-          "first": 1789166634,
-          "last": 1791651075,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 14,
-          "first": 1789167660,
-          "last": 1791559948,
           "playlists": {
             "1default": 14
           }
@@ -7443,9 +7443,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5658,
+      "count": 5660,
       "first": 1788901564,
-      "last": 1791747876,
+      "last": 1791748264,
       "songs": [
         {
           "artist": "Tele Novella",
