@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-11T08:46:46.103346+00:00",
+  "updatedAt": "2026-10-11T08:51:48.678474+00:00",
   "summary": {
-    "totalPlays": 12288,
+    "totalPlays": 12289,
     "unknownPlays": 1141,
     "uniqueTracks": 2368,
     "uniqueArtists": 1530,
     "uniqueAlbums": 1962,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791708358
+    "lastObserved": 1791708553
   },
   "topSongs": [
     {
@@ -311,6 +311,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 17,
+      "first": 1788917230,
+      "last": 1791708553,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "wilt",
       "title": "the riff",
       "album": "the riff",
@@ -573,17 +584,6 @@
       "count": 16,
       "first": 1788928254,
       "last": 1791651805,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
-      "title": "Leave The Door Open",
-      "album": "Leave The Door Open",
-      "count": 16,
-      "first": 1789056336,
-      "last": 1791651562,
       "playlists": {
         "1default": 16
       }
@@ -3015,6 +3015,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 47,
+      "first": 1788917230,
+      "last": 1791708553,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 17,
+          "first": 1788917230,
+          "last": 1791708553,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 16,
+          "first": 1788970790,
+          "last": 1791680882,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 14,
+          "first": 1789050580,
+          "last": 1791634188,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 47,
       "first": 1788946510,
@@ -3208,47 +3249,6 @@
           "last": 1791485067,
           "playlists": {
             "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 46,
-      "first": 1788917230,
-      "last": 1791680882,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 16,
-          "first": 1788970790,
-          "last": 1791680882,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 16,
-          "first": 1788917230,
-          "last": 1791528514,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 14,
-          "first": 1789050580,
-          "last": 1791634188,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -7420,9 +7420,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5607,
+      "count": 5608,
       "first": 1788901564,
-      "last": 1791708358,
+      "last": 1791708553,
       "songs": [
         {
           "artist": "Tele Novella",
