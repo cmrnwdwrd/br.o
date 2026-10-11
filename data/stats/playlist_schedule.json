@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T13:26:45.166669+00:00",
+  "updatedAt": "2026-10-11T13:31:51.980255+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 444,
+    "sessionCount": 445,
     "firstObserved": 1788901564,
-    "lastObserved": 1791723814
+    "lastObserved": 1791725434
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 164,
-      "playCount": 5599,
+      "sessionCount": 165,
+      "playCount": 5600,
       "firstObserved": 1788901564,
-      "lastObserved": 1791707832,
-      "typicalStartMinute": 360,
+      "lastObserved": 1791725434,
+      "typicalStartMinute": 367,
       "typicalDurationMinutes": 46,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -184,7 +184,7 @@
           163.4,
           0.0,
           0.0,
-          12.6,
+          15.3,
           35.3,
           10.2,
           0.0,
@@ -823,7 +823,7 @@
           0.0,
           0.0,
           0.0,
-          12.6,
+          15.3,
           0.0,
           0.0,
           0.0,
@@ -1056,7 +1056,7 @@
           0,
           0,
           0,
-          3,
+          4,
           4,
           3,
           0,
@@ -1120,13 +1120,19 @@
         },
         {
           "weekday": 6,
-          "sessions": 21,
+          "sessions": 22,
           "typicalStartMinute": 449,
-          "typicalDurationMinutes": 12,
+          "typicalDurationMinutes": 10,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1791725434,
+          "end": 1791725593,
+          "durationMinutes": 3,
+          "playCount": 1
+        },
         {
           "start": 1791707832,
           "end": 1791714738,
@@ -1240,12 +1246,6 @@
           "end": 1791395303,
           "durationMinutes": 135,
           "playCount": 37
-        },
-        {
-          "start": 1791381764,
-          "end": 1791383435,
-          "durationMinutes": 28,
-          "playCount": 8
         }
       ]
     },
