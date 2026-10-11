@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-11T10:21:14.073981+00:00",
+  "updatedAt": "2026-10-11T10:26:32.592524+00:00",
   "summary": {
-    "totalPlays": 12314,
+    "totalPlays": 12315,
     "unknownPlays": 1141,
     "uniqueTracks": 2368,
     "uniqueArtists": 1530,
     "uniqueAlbums": 1962,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791713888
+    "lastObserved": 1791714090
   },
   "topSongs": [
     {
@@ -380,6 +380,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 16,
+      "first": 1789063255,
+      "last": 1791714090,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "Fine Young Cannibals",
       "title": "Good Thing",
       "album": "The Raw & The Cooked",
@@ -573,17 +584,6 @@
       "count": 16,
       "first": 1788913884,
       "last": 1791680462,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Billie Eilish",
-      "title": "NDA",
-      "album": "Happier Than Ever",
-      "count": 16,
-      "first": 1788989714,
-      "last": 1791658647,
       "playlists": {
         "1default": 16
       }
@@ -1947,10 +1947,21 @@
     },
     {
       "artist": "Opium",
-      "count": 116,
+      "count": 117,
       "first": 1788927400,
-      "last": 1791680611,
+      "last": 1791714090,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 16,
+          "first": 1789063255,
+          "last": 1791714090,
+          "playlists": {
+            "1default": 16
+          }
+        },
         {
           "artist": "Opium",
           "title": "Dirge",
@@ -1980,17 +1991,6 @@
           "count": 15,
           "first": 1789057319,
           "last": 1791652674,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 15,
-          "first": 1789063255,
-          "last": 1791560563,
           "playlists": {
             "1default": 15
           }
@@ -7442,9 +7442,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5633,
+      "count": 5634,
       "first": 1788901564,
-      "last": 1791713888,
+      "last": 1791714090,
       "songs": [
         {
           "artist": "Tele Novella",
