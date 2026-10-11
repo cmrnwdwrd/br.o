@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-11T23:21:49.993743+00:00",
+  "updatedAt": "2026-10-11T23:26:15.233969+00:00",
   "summary": {
-    "totalPlays": 12517,
+    "totalPlays": 12518,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791760874
+    "lastObserved": 1791761133
   },
   "topSongs": [
     {
@@ -33,6 +33,18 @@
       "last": 1791497728,
       "playlists": {
         "1default": 24,
+        "anti-capitalist weekday afternoon #1": 2
+      }
+    },
+    {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 25,
+      "first": 1789015368,
+      "last": 1791761133,
+      "playlists": {
+        "1default": 23,
         "anti-capitalist weekday afternoon #1": 2
       }
     },
@@ -104,18 +116,6 @@
       "count": 24,
       "first": 1789014862,
       "last": 1791565967,
-      "playlists": {
-        "1default": 22,
-        "anti-capitalist weekday afternoon #1": 2
-      }
-    },
-    {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 24,
-      "first": 1789015368,
-      "last": 1791498855,
       "playlists": {
         "1default": 22,
         "anti-capitalist weekday afternoon #1": 2
@@ -7203,6 +7203,27 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 25,
+      "first": 1789015368,
+      "last": 1791761133,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 25,
+          "first": 1789015368,
+          "last": 1791761133,
+          "playlists": {
+            "1default": 23,
+            "anti-capitalist weekday afternoon #1": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "album": "Run It",
       "count": 25,
@@ -7420,45 +7441,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Siete Catorce",
-      "album": "Cruda",
-      "count": 24,
-      "first": 1789028695,
-      "last": 1791538214,
-      "songs": [
-        {
-          "artist": "Siete Catorce",
-          "title": "Sobriedad",
-          "album": "Cruda",
-          "count": 12,
-          "first": 1789029996,
-          "last": 1791538214,
-          "playlists": {
-            "breakbeat": 12
-          }
-        },
-        {
-          "artist": "Siete Catorce",
-          "title": "Que La Fiesta Nunca Se Acabe",
-          "album": "Cruda",
-          "count": 12,
-          "first": 1789028695,
-          "last": 1791530755,
-          "playlists": {
-            "breakbeat": 12
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5718,
+      "count": 5719,
       "first": 1788901564,
-      "last": 1791760874,
+      "last": 1791761133,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7469,6 +7459,17 @@
           "last": 1791432444,
           "playlists": {
             "1default": 24
+          }
+        },
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 23,
+          "first": 1789015368,
+          "last": 1791761133,
+          "playlists": {
+            "1default": 23
           }
         },
         {
@@ -7500,17 +7501,6 @@
           "count": 22,
           "first": 1788993017,
           "last": 1791652228,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 22,
-          "first": 1788968149,
-          "last": 1791635154,
           "playlists": {
             "1default": 22
           }
