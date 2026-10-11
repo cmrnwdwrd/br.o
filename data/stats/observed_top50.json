@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-11T20:26:48.720981+00:00",
+  "updatedAt": "2026-10-11T20:31:51.377454+00:00",
   "summary": {
-    "totalPlays": 12470,
+    "totalPlays": 12471,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791750242
+    "lastObserved": 1791750464
   },
   "topSongs": [
     {
@@ -392,6 +392,17 @@
       }
     },
     {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 16,
+      "first": 1788968380,
+      "last": 1791750464,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "Royel Otis",
       "title": "Oysters In My Pocket",
       "album": "Oysters In My Pocket",
@@ -574,17 +585,6 @@
       "count": 16,
       "first": 1788974590,
       "last": 1791713888,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Blue Rain Boots",
-      "title": "Oh My God You Are Fine",
-      "album": "Oh My God You Are Fine",
-      "count": 16,
-      "first": 1788914549,
-      "last": 1791711117,
       "playlists": {
         "1default": 16
       }
@@ -6857,6 +6857,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 29,
+      "first": 1788947080,
+      "last": 1791750464,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 16,
+          "first": 1788968380,
+          "last": 1791750464,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 13,
+          "first": 1788947080,
+          "last": 1791488347,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "pear",
       "count": 29,
@@ -6945,37 +6976,6 @@
           "last": 1791639626,
           "playlists": {
             "1default": 14
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 28,
-      "first": 1788947080,
-      "last": 1791637272,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 15,
-          "first": 1788968380,
-          "last": 1791637272,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 13,
-          "first": 1788947080,
-          "last": 1791488347,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -7464,9 +7464,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5671,
+      "count": 5672,
       "first": 1788901564,
-      "last": 1791750242,
+      "last": 1791750464,
       "songs": [
         {
           "artist": "Tele Novella",
