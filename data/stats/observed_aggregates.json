@@ -1,10 +1,10 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-11T05:31:47.461622+00:00",
-  "totalPlays": 12221,
+  "updatedAt": "2026-10-11T05:36:16.455430+00:00",
+  "totalPlays": 12222,
   "unknownPlays": 1141,
   "firstObserved": 1788901564,
-  "lastObserved": 1791696622,
+  "lastObserved": 1791696803,
   "songs": {
     "n.e.r.d|run to the sun": {
       "artist": "N.E.R.D",
@@ -17888,11 +17888,13 @@
     "charlie puth|light switch": {
       "artist": "Charlie Puth",
       "title": "Light Switch",
-      "album": "",
-      "count": 1,
+      "album": "Light Switch (Instrumental)",
+      "count": 2,
       "first": 1789881640,
-      "last": 1789881640,
-      "playlists": {}
+      "last": 1791696803,
+      "playlists": {
+        "sad girl no friends saturday": 1
+      }
     },
     "coyboi|hold on me": {
       "artist": "Coyboi",
@@ -54923,18 +54925,20 @@
     },
     "charlie puth": {
       "artist": "Charlie Puth",
-      "count": 1,
+      "count": 2,
       "first": 1789881640,
-      "last": 1789881640,
+      "last": 1791696803,
       "songs": {
         "charlie puth|light switch": {
           "artist": "Charlie Puth",
           "title": "Light Switch",
-          "album": "",
-          "count": 1,
+          "album": "Light Switch (Instrumental)",
+          "count": 2,
           "first": 1789881640,
-          "last": 1789881640,
-          "playlists": {}
+          "last": 1791696803,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
         }
       }
     },
@@ -107488,6 +107492,26 @@
           }
         }
       }
+    },
+    "charlie puth|light switch (instrumental)": {
+      "artist": "Charlie Puth",
+      "album": "Light Switch (Instrumental)",
+      "count": 1,
+      "first": 1791696803,
+      "last": 1791696803,
+      "songs": {
+        "charlie puth|light switch": {
+          "artist": "Charlie Puth",
+          "title": "Light Switch",
+          "album": "Light Switch (Instrumental)",
+          "count": 1,
+          "first": 1791696803,
+          "last": 1791696803,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      }
     }
   },
   "playlists": {
@@ -122650,9 +122674,9 @@
     },
     "sad girl no friends saturday": {
       "playlist": "sad girl no friends saturday",
-      "count": 120,
+      "count": 121,
       "first": 1789101370,
-      "last": 1791696622,
+      "last": 1791696803,
       "songs": {
         "mitski|first love/late spring": {
           "artist": "Mitski",
@@ -123475,6 +123499,17 @@
           "count": 1,
           "first": 1791696622,
           "last": 1791696622,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        },
+        "charlie puth|light switch": {
+          "artist": "Charlie Puth",
+          "title": "Light Switch",
+          "album": "Light Switch (Instrumental)",
+          "count": 1,
+          "first": 1791696803,
+          "last": 1791696803,
           "playlists": {
             "sad girl no friends saturday": 1
           }
