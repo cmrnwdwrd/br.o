@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T12:01:57.081169+00:00",
+  "updatedAt": "2026-10-12T12:06:43.098722+00:00",
   "summary": {
-    "totalPlays": 12723,
+    "totalPlays": 12724,
     "unknownPlays": 1141,
     "uniqueTracks": 2391,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791806432
+    "lastObserved": 1791806661
   },
   "topSongs": [
     {
@@ -7569,10 +7569,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 556,
+      "count": 557,
       "first": 1788955289,
-      "last": 1791806432,
+      "last": 1791806661,
       "songs": [
+        {
+          "artist": "flipturn",
+          "title": "Chicago",
+          "album": "Heavy Colors",
+          "count": 3,
+          "first": 1790166003,
+          "last": 1791806661,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Glass Animals",
           "title": "Space Ghost Coast To Coast",
@@ -7613,17 +7624,6 @@
           "count": 3,
           "first": 1788957838,
           "last": 1791465129,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Death Cab for Cutie",
-          "title": "I Will Follow You into the Dark",
-          "album": "Plans",
-          "count": 3,
-          "first": 1789649356,
-          "last": 1791463799,
           "playlists": {
             "carhartts": 3
           }
