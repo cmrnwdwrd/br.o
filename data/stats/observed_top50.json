@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T23:47:04.613745+00:00",
+  "updatedAt": "2026-10-12T23:51:22.904050+00:00",
   "summary": {
-    "totalPlays": 12911,
+    "totalPlays": 12912,
     "unknownPlays": 1141,
     "uniqueTracks": 2391,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791848640
+    "lastObserved": 1791848904
   },
   "topSongs": [
     {
@@ -358,6 +358,17 @@
       }
     },
     {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 17,
+      "first": 1789235365,
+      "last": 1791848904,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "botch",
       "title": "a machine as big as a city with a concert at the center",
       "album": "a machine as big as a city with a concert at the center",
@@ -573,17 +584,6 @@
       "count": 17,
       "first": 1788920950,
       "last": 1791829187,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Blue Rain Boots",
-      "title": "Oh My God You Are Fine",
-      "album": "Oh My God You Are Fine",
-      "count": 17,
-      "first": 1788914549,
-      "last": 1791828090,
       "playlists": {
         "1default": 17
       }
@@ -4482,6 +4482,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 31,
+      "first": 1789069956,
+      "last": 1791848904,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 17,
+          "first": 1789235365,
+          "last": 1791848904,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 14,
+          "first": 1789069956,
+          "last": 1791756818,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Olivia Rodrigo",
       "count": 31,
       "first": 1789057000,
@@ -4617,36 +4647,6 @@
           "count": 15,
           "first": 1789054681,
           "last": 1791644539,
-          "playlists": {
-            "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 31,
-      "first": 1788989714,
-      "last": 1791768706,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 16,
-          "first": 1788989714,
-          "last": 1791658647,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 15,
-          "first": 1789169386,
-          "last": 1791768706,
           "playlists": {
             "1default": 15
           }
@@ -7259,9 +7259,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5988,
+      "count": 5989,
       "first": 1788901564,
-      "last": 1791848640,
+      "last": 1791848904,
       "songs": [
         {
           "artist": "Tele Novella",
