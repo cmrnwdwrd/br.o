@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T02:31:59.421393+00:00",
+  "updatedAt": "2026-10-12T02:37:09.524829+00:00",
   "summary": {
-    "totalPlays": 12566,
+    "totalPlays": 12568,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791772074
+    "lastObserved": 1791772603
   },
   "topSongs": [
     {
@@ -404,6 +404,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 16,
+      "first": 1788914032,
+      "last": 1791772340,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "ruzlxn",
       "title": "BURN YOUR LOCAL POLITICIAN !",
       "album": "GRITTED TEETH *",
@@ -575,17 +586,6 @@
       "count": 16,
       "first": 1788967094,
       "last": 1791755811,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "David Bowie",
-      "title": "I'm Afraid of Americans (V1)",
-      "album": "Legacy (Deluxe Edition)",
-      "count": 16,
-      "first": 1788912385,
-      "last": 1791755371,
       "playlists": {
         "1default": 16
       }
@@ -4153,6 +4153,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 33,
+      "first": 1788914032,
+      "last": 1791772340,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 16,
+          "first": 1788914032,
+          "last": 1791772340,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 15,
+          "first": 1789222724,
+          "last": 1791756421,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 2,
+          "first": 1790465398,
+          "last": 1791071173,
+          "playlists": {
+            "texting your situationship": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 33,
       "first": 1788919285,
@@ -4230,47 +4271,6 @@
           "last": 1791581510,
           "playlists": {
             "escaping from cu boulder by giselle": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 32,
-      "first": 1788914032,
-      "last": 1791756421,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 15,
-          "first": 1789222724,
-          "last": 1791756421,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 15,
-          "first": 1788914032,
-          "last": 1791589686,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 2,
-          "first": 1790465398,
-          "last": 1791071173,
-          "playlists": {
-            "texting your situationship": 2
           }
         }
       ]
@@ -7326,9 +7326,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5767,
+      "count": 5769,
       "first": 1788901564,
-      "last": 1791772074,
+      "last": 1791772603,
       "songs": [
         {
           "artist": "Tele Novella",
