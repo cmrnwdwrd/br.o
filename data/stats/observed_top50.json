@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T09:21:52.329400+00:00",
+  "updatedAt": "2026-10-12T09:26:48.093848+00:00",
   "summary": {
-    "totalPlays": 12681,
+    "totalPlays": 12683,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791796723
+    "lastObserved": 1791797170
   },
   "topSongs": [
     {
@@ -242,6 +242,17 @@
       }
     },
     {
+      "artist": "Meeting House",
+      "title": "Black Clouds",
+      "album": "Couch Surfer",
+      "count": 19,
+      "first": 1789226222,
+      "last": 1791797170,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "MJ Lenderman",
       "title": "Rudolph",
       "album": "Manning Fireworks",
@@ -330,17 +341,6 @@
       "count": 18,
       "first": 1788971807,
       "last": 1791493346,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Meeting House",
-      "title": "Black Clouds",
-      "album": "Couch Surfer",
-      "count": 18,
-      "first": 1789226222,
-      "last": 1791453494,
       "playlists": {
         "1default": 18
       }
@@ -7282,6 +7282,37 @@
       ]
     },
     {
+      "artist": "Meeting House",
+      "album": "Couch Surfer",
+      "count": 24,
+      "first": 1789226222,
+      "last": 1791797170,
+      "songs": [
+        {
+          "artist": "Meeting House",
+          "title": "Black Clouds",
+          "album": "Couch Surfer",
+          "count": 19,
+          "first": 1789226222,
+          "last": 1791797170,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Meeting House",
+          "title": "Couch Surfer",
+          "album": "Couch Surfer",
+          "count": 5,
+          "first": 1789250068,
+          "last": 1791666680,
+          "playlists": {
+            "landlockd surfrock": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Colfax Speed Queen",
       "album": "Satisfaction Intended",
       "count": 24,
@@ -7344,56 +7375,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Chappell Roan",
-      "album": "The Rise and Fall of a Midwest Princess",
-      "count": 24,
-      "first": 1788973776,
-      "last": 1791750242,
-      "songs": [
-        {
-          "artist": "Chappell Roan",
-          "title": "My Kink Is Karma",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 14,
-          "first": 1788973776,
-          "last": 1791750242,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Super Graphic Ultra Modern Girl",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 9,
-          "first": 1789428359,
-          "last": 1791412855,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 9
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Pink Pony Club",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 1,
-          "first": 1789883353,
-          "last": 1789883353,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5844,
+      "count": 5846,
       "first": 1788901564,
-      "last": 1791796723,
+      "last": 1791797170,
       "songs": [
         {
           "artist": "Tele Novella",
