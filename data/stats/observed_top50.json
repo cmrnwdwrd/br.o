@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T07:16:38.583213+00:00",
+  "updatedAt": "2026-10-12T07:21:26.992202+00:00",
   "summary": {
-    "totalPlays": 12648,
+    "totalPlays": 12650,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791789234
+    "lastObserved": 1791789640
   },
   "topSongs": [
     {
@@ -426,6 +426,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Antidote",
+      "album": "A Collection of Fleeting Moments and Daydreams",
+      "count": 16,
+      "first": 1788987870,
+      "last": 1791789640,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "title": "Keep Pushing",
       "album": "Change the Channel",
@@ -575,17 +586,6 @@
       "count": 16,
       "first": 1789073755,
       "last": 1791775131,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "title": "STUPIDMOTHERFUCKER",
-      "album": "Lick My Soul",
-      "count": 16,
-      "first": 1788989164,
-      "last": 1791774699,
       "playlists": {
         "1default": 16
       }
@@ -4369,6 +4369,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 32,
+      "first": 1788985030,
+      "last": 1791789640,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 16,
+          "first": 1788987870,
+          "last": 1791789640,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 16,
+          "first": 1788985030,
+          "last": 1791779370,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 32,
       "first": 1789061029,
@@ -4416,36 +4446,6 @@
           "last": 1791081977,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 31,
-      "first": 1788985030,
-      "last": 1791779370,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 16,
-          "first": 1788985030,
-          "last": 1791779370,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 15,
-          "first": 1788987870,
-          "last": 1791486144,
-          "playlists": {
-            "1default": 15
           }
         }
       ]
@@ -7391,9 +7391,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5811,
+      "count": 5813,
       "first": 1788901564,
-      "last": 1791781765,
+      "last": 1791789640,
       "songs": [
         {
           "artist": "Tele Novella",
