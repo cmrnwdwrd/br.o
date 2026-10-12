@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T21:46:45.798726+00:00",
+  "updatedAt": "2026-10-12T21:51:55.435651+00:00",
   "summary": {
-    "totalPlays": 12881,
+    "totalPlays": 12882,
     "unknownPlays": 1141,
     "uniqueTracks": 2391,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791841552
+    "lastObserved": 1791841740
   },
   "topSongs": [
     {
@@ -242,6 +242,18 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "Say It Ain't So",
+      "album": "Weezer",
+      "count": 19,
+      "first": 1788946510,
+      "last": 1791841740,
+      "playlists": {
+        "1default": 18,
+        "jack johnson hackiesack friday afternoon": 1
+      }
+    },
+    {
       "artist": "wilt",
       "title": "the riff",
       "album": "the riff",
@@ -295,18 +307,6 @@
       "last": 1791794296,
       "playlists": {
         "1default": 18,
-        "jack johnson hackiesack friday afternoon": 1
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "Say It Ain't So",
-      "album": "Weezer",
-      "count": 18,
-      "first": 1788946510,
-      "last": 1791792451,
-      "playlists": {
-        "1default": 17,
         "jack johnson hackiesack friday afternoon": 1
       }
     },
@@ -3015,6 +3015,59 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 50,
+      "first": 1788946510,
+      "last": 1791841740,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 19,
+          "first": 1788946510,
+          "last": 1791841740,
+          "playlists": {
+            "1default": 18,
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 16,
+          "first": 1788974227,
+          "last": 1791775558,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 13,
+          "first": 1789142694,
+          "last": 1791641919,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 49,
       "first": 1788916461,
@@ -3062,59 +3115,6 @@
           "last": 1791593732,
           "playlists": {
             "d i n n e r": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 49,
-      "first": 1788946510,
-      "last": 1791792451,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 18,
-          "first": 1788946510,
-          "last": 1791792451,
-          "playlists": {
-            "1default": 17,
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 16,
-          "first": 1788974227,
-          "last": 1791775558,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 13,
-          "first": 1789142694,
-          "last": 1791641919,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1789150460,
-          "last": 1789758798,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
           }
         }
       ]
@@ -7235,9 +7235,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5981,
+      "count": 5982,
       "first": 1788901564,
-      "last": 1791841552,
+      "last": 1791841740,
       "songs": [
         {
           "artist": "Tele Novella",
