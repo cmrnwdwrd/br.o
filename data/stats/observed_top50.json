@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T07:31:39.282623+00:00",
+  "updatedAt": "2026-10-12T07:36:51.195726+00:00",
   "summary": {
-    "totalPlays": 12653,
+    "totalPlays": 12655,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791790213
+    "lastObserved": 1791790607
   },
   "topSongs": [
     {
@@ -437,6 +437,17 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 16,
+      "first": 1789033065,
+      "last": 1791790607,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "Gorillaz, ScHoolboy Q",
       "title": "Pac-Man (feat. ScHoolboy Q)",
       "album": "Song Machine Episode 5",
@@ -575,17 +586,6 @@
       "count": 16,
       "first": 1789063847,
       "last": 1791776242,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "The End of the Game",
-      "album": "The End of the Game",
-      "count": 16,
-      "first": 1788974227,
-      "last": 1791775558,
       "playlists": {
         "1default": 16
       }
@@ -3267,6 +3267,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 46,
+      "first": 1788973998,
+      "last": 1791790607,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 16,
+          "first": 1789033065,
+          "last": 1791790607,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 16,
+          "first": 1788973998,
+          "last": 1791747239,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 14,
+          "first": 1789226629,
+          "last": 1791754651,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 46,
       "first": 1788965724,
@@ -3303,47 +3344,6 @@
           "last": 1791485067,
           "playlists": {
             "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 45,
-      "first": 1788973998,
-      "last": 1791754651,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 16,
-          "first": 1788973998,
-          "last": 1791747239,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 15,
-          "first": 1789033065,
-          "last": 1791563235,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 14,
-          "first": 1789226629,
-          "last": 1791754651,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -7391,9 +7391,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5816,
+      "count": 5818,
       "first": 1788901564,
-      "last": 1791790213,
+      "last": 1791790607,
       "songs": [
         {
           "artist": "Tele Novella",
