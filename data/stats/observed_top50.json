@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T04:26:52.033789+00:00",
+  "updatedAt": "2026-10-12T04:31:57.046224+00:00",
   "summary": {
-    "totalPlays": 12597,
+    "totalPlays": 12598,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791779184
+    "lastObserved": 1791779370
   },
   "topSongs": [
     {
@@ -426,6 +426,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 16,
+      "first": 1788985030,
+      "last": 1791779370,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "You Make Me Want to Kill Myself",
       "album": "You Make Me Want to Kill Myself",
@@ -575,17 +586,6 @@
       "count": 16,
       "first": 1789057143,
       "last": 1791769494,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Grace Ives",
-      "title": "Mirror",
-      "album": "2nd",
-      "count": 16,
-      "first": 1788972624,
-      "last": 1791767793,
       "playlists": {
         "1default": 16
       }
@@ -4358,6 +4358,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 31,
+      "first": 1788985030,
+      "last": 1791779370,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 16,
+          "first": 1788985030,
+          "last": 1791779370,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 15,
+          "first": 1788987870,
+          "last": 1791486144,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 31,
       "first": 1789054681,
@@ -4708,36 +4738,6 @@
           "last": 1791771120,
           "playlists": {
             "1default": 14
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kate Bollinger",
-      "count": 30,
-      "first": 1788915657,
-      "last": 1791759966,
-      "songs": [
-        {
-          "artist": "Kate Bollinger",
-          "title": "Talk About It",
-          "album": "Talk About It (B-Side)",
-          "count": 15,
-          "first": 1788983449,
-          "last": 1791759966,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Kate Bollinger",
-          "title": "A Couple Things",
-          "album": "A word becomes a sound",
-          "count": 15,
-          "first": 1788915657,
-          "last": 1791711594,
-          "playlists": {
-            "1default": 15
           }
         }
       ]
@@ -7326,9 +7326,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5798,
+      "count": 5799,
       "first": 1788901564,
-      "last": 1791779184,
+      "last": 1791779370,
       "songs": [
         {
           "artist": "Tele Novella",
