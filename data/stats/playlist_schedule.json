@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T05:11:53.301005+00:00",
+  "updatedAt": "2026-10-12T05:16:19.454457+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 450,
+    "sessionCount": 451,
     "firstObserved": 1788901564,
-    "lastObserved": 1791743654
+    "lastObserved": 1791781989
   },
   "playlists": [
     {
@@ -1129,7 +1129,7 @@
       "recentSessions": [
         {
           "start": 1791743654,
-          "end": 1791781991,
+          "end": 1791781989,
           "durationMinutes": 639,
           "playCount": 173
         },
@@ -11895,12 +11895,12 @@
     },
     {
       "playlist": "EPL4a",
-      "sessionCount": 9,
-      "playCount": 193,
+      "sessionCount": 10,
+      "playCount": 194,
       "firstObserved": 1788930925,
-      "lastObserved": 1791350019,
+      "lastObserved": 1791781989,
       "typicalStartMinute": 1393,
-      "typicalDurationMinutes": 61,
+      "typicalDurationMinutes": 60,
       "confidence": "High",
       "heatmapMinutes": [
         [
@@ -12083,7 +12083,7 @@
           0.0,
           0.0,
           0.0,
-          187.8
+          191.2
         ]
       ],
       "quarterHeatmapMinutes": [
@@ -12768,8 +12768,8 @@
           0.0,
           0.0,
           0.0,
-          7.8,
-          60.0,
+          9.6,
+          61.6,
           60.0,
           60.0
         ]
@@ -12955,7 +12955,7 @@
           0,
           0,
           0,
-          4
+          5
         ]
       ],
       "likelyWindows": [
@@ -12968,13 +12968,19 @@
         },
         {
           "weekday": 6,
-          "sessions": 4,
+          "sessions": 5,
           "typicalStartMinute": 1393,
           "typicalDurationMinutes": 61,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1791781989,
+          "end": 1791782194,
+          "durationMinutes": 3,
+          "playCount": 1
+        },
         {
           "start": 1791350019,
           "end": 1791353559,
