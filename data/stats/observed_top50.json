@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T20:51:53.886629+00:00",
+  "updatedAt": "2026-10-12T20:56:29.393282+00:00",
   "summary": {
-    "totalPlays": 12863,
+    "totalPlays": 12865,
     "unknownPlays": 1141,
     "uniqueTracks": 2391,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791838173
+    "lastObserved": 1791838562
   },
   "topSongs": [
     {
@@ -358,6 +358,28 @@
       }
     },
     {
+      "artist": "Zolof the Rock & Roll Destroyer",
+      "title": "Plays Pretty for Baby",
+      "album": "Zolof the Rock & Roll Destroyer",
+      "count": 17,
+      "first": 1788987745,
+      "last": 1791838562,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
+      "artist": "botch",
+      "title": "gettingyoutobelieve",
+      "album": "pear",
+      "count": 17,
+      "first": 1788920755,
+      "last": 1791838366,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Gorillaz, ScHoolboy Q",
       "title": "Pac-Man (feat. ScHoolboy Q)",
       "album": "Song Machine Episode 5",
@@ -562,28 +584,6 @@
       "count": 17,
       "first": 1788974410,
       "last": 1791794069,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Vampire Weekend",
-      "title": "How Long?",
-      "album": "Father of the Bride",
-      "count": 17,
-      "first": 1788990464,
-      "last": 1791790003,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Pride (In The Name Of Love) - Remastered 2009",
-      "album": "The Unforgettable Fire (Remastered)",
-      "count": 17,
-      "first": 1788964687,
-      "last": 1791776960,
       "playlists": {
         "1default": 17
       }
@@ -2691,10 +2691,21 @@
     },
     {
       "artist": "botch",
-      "count": 63,
+      "count": 64,
       "first": 1788920755,
-      "last": 1791831099,
+      "last": 1791838366,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 17,
+          "first": 1788920755,
+          "last": 1791838366,
+          "playlists": {
+            "1default": 17
+          }
+        },
         {
           "artist": "botch",
           "title": "takeadrag",
@@ -2702,17 +2713,6 @@
           "count": 16,
           "first": 1788963025,
           "last": 1791831099,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 16,
-          "first": 1788920755,
-          "last": 1791817295,
           "playlists": {
             "1default": 16
           }
@@ -6416,6 +6416,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 33,
+      "first": 1788920755,
+      "last": 1791838366,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 17,
+          "first": 1788920755,
+          "last": 1791838366,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 16,
+          "first": 1788963025,
+          "last": 1791831099,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "album": "Alligator Bites Never Heal",
       "count": 33,
@@ -6464,37 +6495,6 @@
           "last": 1790866620,
           "playlists": {
             "rage commute": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 32,
-      "first": 1788920755,
-      "last": 1791831099,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 16,
-          "first": 1788963025,
-          "last": 1791831099,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 16,
-          "first": 1788920755,
-          "last": 1791817295,
-          "playlists": {
-            "1default": 16
           }
         }
       ]
@@ -7268,9 +7268,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5963,
+      "count": 5965,
       "first": 1788901564,
-      "last": 1791838173,
+      "last": 1791838562,
       "songs": [
         {
           "artist": "Tele Novella",
