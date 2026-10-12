@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T02:11:52.709713+00:00",
+  "updatedAt": "2026-10-12T02:16:23.188154+00:00",
   "summary": {
-    "totalPlays": 12561,
+    "totalPlays": 12562,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791770952
+    "lastObserved": 1791771120
   },
   "topSongs": [
     {
@@ -4683,6 +4683,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 30,
+      "first": 1788912385,
+      "last": 1791771120,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 16,
+          "first": 1788912385,
+          "last": 1791755371,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 14,
+          "first": 1789129746,
+          "last": 1791771120,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kate Bollinger",
       "count": 30,
       "first": 1788915657,
@@ -4706,36 +4736,6 @@
           "count": 15,
           "first": 1788915657,
           "last": 1791711594,
-          "playlists": {
-            "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "count": 30,
-      "first": 1789166634,
-      "last": 1791748059,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 15,
-          "first": 1789167660,
-          "last": 1791748059,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 15,
-          "first": 1789166634,
-          "last": 1791651075,
           "playlists": {
             "1default": 15
           }
@@ -7326,9 +7326,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5762,
+      "count": 5763,
       "first": 1788901564,
-      "last": 1791770952,
+      "last": 1791771120,
       "songs": [
         {
           "artist": "Tele Novella",
