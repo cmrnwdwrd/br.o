@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T13:56:59.568643+00:00",
+  "updatedAt": "2026-10-12T14:01:57.785293+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 455,
+    "sessionCount": 456,
     "firstObserved": 1788901564,
-    "lastObserved": 1791806432
+    "lastObserved": 1791813620
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 168,
-      "playCount": 5818,
+      "sessionCount": 169,
+      "playCount": 5819,
       "firstObserved": 1788901564,
-      "lastObserved": 1791789462,
-      "typicalStartMinute": 377,
+      "lastObserved": 1791813620,
+      "typicalStartMinute": 383,
       "typicalDurationMinutes": 46,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -29,7 +29,7 @@
           0.0,
           0.0,
           0.0,
-          232.0,
+          235.2,
           240.0,
           240.0,
           240.0,
@@ -237,7 +237,7 @@
           0.0,
           0.0,
           0.0,
-          52.0,
+          55.2,
           60.0,
           60.0,
           60.0,
@@ -901,7 +901,7 @@
           0,
           0,
           0,
-          4,
+          5,
           0,
           0,
           0,
@@ -1078,8 +1078,8 @@
       "likelyWindows": [
         {
           "weekday": 0,
-          "sessions": 14,
-          "typicalStartMinute": 81,
+          "sessions": 15,
+          "typicalStartMinute": 149,
           "typicalDurationMinutes": 316,
           "confidence": "Low"
         },
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1791813620,
+          "end": 1791813808,
+          "durationMinutes": 3,
+          "playCount": 1
+        },
         {
           "start": 1791789462,
           "end": 1791799275,
@@ -1240,12 +1246,6 @@
           "end": 1791453705,
           "durationMinutes": 30,
           "playCount": 8
-        },
-        {
-          "start": 1791429470,
-          "end": 1791434809,
-          "durationMinutes": 89,
-          "playCount": 23
         }
       ]
     },
