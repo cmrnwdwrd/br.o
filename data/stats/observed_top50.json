@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T03:21:21.448032+00:00",
+  "updatedAt": "2026-10-12T03:26:54.389133+00:00",
   "summary": {
-    "totalPlays": 12580,
+    "totalPlays": 12582,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791775131
+    "lastObserved": 1791775558
   },
   "topSongs": [
     {
@@ -415,6 +415,28 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "The End of the Game",
+      "album": "The End of the Game",
+      "count": 16,
+      "first": 1788974227,
+      "last": 1791775558,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
+      "artist": "Tally Hall",
+      "title": "The Bidding",
+      "album": "Marvin's Marvelous Mechanical Museum",
+      "count": 16,
+      "first": 1788927573,
+      "last": 1791775397,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "Enya",
       "title": "Orinoco Flow",
       "album": "Watermark",
@@ -564,28 +586,6 @@
       "count": 16,
       "first": 1788969737,
       "last": 1791762927,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Led Zeppelin",
-      "title": "Dazed and Confused - 1990 Remaster",
-      "album": "Led Zeppelin",
-      "count": 16,
-      "first": 1789062336,
-      "last": 1791761769,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "The Smashing Pumpkins",
-      "title": "Beautiful - Remastered 2012",
-      "album": "Mellon Collie And The Infinite Sadness (Remastered)",
-      "count": 16,
-      "first": 1789095484,
-      "last": 1791760874,
       "playlists": {
         "1default": 16
       }
@@ -3017,6 +3017,59 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 48,
+      "first": 1788946510,
+      "last": 1791775558,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 17,
+          "first": 1788946510,
+          "last": 1791567500,
+          "playlists": {
+            "1default": 16,
+            "jack johnson hackiesack friday afternoon": 1
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 16,
+          "first": 1788974227,
+          "last": 1791775558,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 13,
+          "first": 1789142694,
+          "last": 1791641919,
+          "playlists": {
+            "1default": 13
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 2,
+          "first": 1789150460,
+          "last": 1789758798,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 48,
       "first": 1788916461,
@@ -3146,59 +3199,6 @@
           "last": 1791634188,
           "playlists": {
             "1default": 14
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 47,
-      "first": 1788946510,
-      "last": 1791641919,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 17,
-          "first": 1788946510,
-          "last": 1791567500,
-          "playlists": {
-            "1default": 16,
-            "jack johnson hackiesack friday afternoon": 1
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 15,
-          "first": 1788974227,
-          "last": 1791485964,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 13,
-          "first": 1789142694,
-          "last": 1791641919,
-          "playlists": {
-            "1default": 13
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 2,
-          "first": 1789150460,
-          "last": 1789758798,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
           }
         }
       ]
@@ -7326,9 +7326,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5781,
+      "count": 5783,
       "first": 1788901564,
-      "last": 1791775131,
+      "last": 1791775558,
       "songs": [
         {
           "artist": "Tele Novella",
