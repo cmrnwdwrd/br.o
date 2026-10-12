@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T03:26:54.389133+00:00",
+  "updatedAt": "2026-10-12T03:31:55.651181+00:00",
   "summary": {
-    "totalPlays": 12582,
+    "totalPlays": 12583,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791775558
+    "lastObserved": 1791775740
   },
   "topSongs": [
     {
@@ -33,6 +33,18 @@
       "last": 1791497728,
       "playlists": {
         "1default": 24,
+        "anti-capitalist weekday afternoon #1": 2
+      }
+    },
+    {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 25,
+      "first": 1788968149,
+      "last": 1791775740,
+      "playlists": {
+        "1default": 23,
         "anti-capitalist weekday afternoon #1": 2
       }
     },
@@ -116,18 +128,6 @@
       "count": 24,
       "first": 1788993017,
       "last": 1791652228,
-      "playlists": {
-        "1default": 22,
-        "anti-capitalist weekday afternoon #1": 2
-      }
-    },
-    {
-      "artist": "Modest Mouse",
-      "title": "Bury Me With It",
-      "album": "Good News For People Who Love Bad News",
-      "count": 24,
-      "first": 1788968149,
-      "last": 1791635154,
       "playlists": {
         "1default": 22,
         "anti-capitalist weekday afternoon #1": 2
@@ -6903,6 +6903,38 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "album": "Good News For People Who Love Bad News",
+      "count": 27,
+      "first": 1788968149,
+      "last": 1791775740,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 25,
+          "first": 1788968149,
+          "last": 1791775740,
+          "playlists": {
+            "1default": 23,
+            "anti-capitalist weekday afternoon #1": 2
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "The World At Large",
+          "album": "Good News For People Who Love Bad News",
+          "count": 2,
+          "first": 1789756286,
+          "last": 1791566864,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Florence + The Machine, Jules Buckley",
       "album": "Symphony of Lungs - BBC Proms at the Royal Albert Hall",
       "count": 27,
@@ -6940,38 +6972,6 @@
           "last": 1791521525,
           "playlists": {
             "for the girls driving 85": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Modest Mouse",
-      "album": "Good News For People Who Love Bad News",
-      "count": 26,
-      "first": 1788968149,
-      "last": 1791635154,
-      "songs": [
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 24,
-          "first": 1788968149,
-          "last": 1791635154,
-          "playlists": {
-            "1default": 22,
-            "anti-capitalist weekday afternoon #1": 2
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "The World At Large",
-          "album": "Good News For People Who Love Bad News",
-          "count": 2,
-          "first": 1789756286,
-          "last": 1791566864,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
           }
         }
       ]
@@ -7326,9 +7326,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5783,
+      "count": 5784,
       "first": 1788901564,
-      "last": 1791775558,
+      "last": 1791775740,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7339,6 +7339,17 @@
           "last": 1791432444,
           "playlists": {
             "1default": 24
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 23,
+          "first": 1788968149,
+          "last": 1791775740,
+          "playlists": {
+            "1default": 23
           }
         },
         {
@@ -7370,17 +7381,6 @@
           "count": 23,
           "first": 1788986736,
           "last": 1791657463,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 23,
-          "first": 1788968644,
-          "last": 1791641781,
           "playlists": {
             "1default": 23
           }
