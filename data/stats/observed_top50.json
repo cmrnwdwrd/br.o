@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T13:26:55.488025+00:00",
+  "updatedAt": "2026-10-12T13:31:52.116826+00:00",
   "summary": {
-    "totalPlays": 12745,
+    "totalPlays": 12747,
     "unknownPlays": 1141,
     "uniqueTracks": 2391,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791811404
+    "lastObserved": 1791811816
   },
   "topSongs": [
     {
@@ -7569,10 +7569,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 578,
+      "count": 580,
       "first": 1788955289,
-      "last": 1791811404,
+      "last": 1791811816,
       "songs": [
+        {
+          "artist": "Bertie Newman",
+          "title": "Seaside Eyes",
+          "album": "Seaside Eyes",
+          "count": 3,
+          "first": 1790258407,
+          "last": 1791811634,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "The Paper Kites",
           "title": "Paint",
@@ -7613,17 +7624,6 @@
           "count": 3,
           "first": 1789994136,
           "last": 1791467494,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Phoebe Bridgers",
-          "title": "Georgia",
-          "album": "Stranger in the Alps",
-          "count": 3,
-          "first": 1789041947,
-          "last": 1791466423,
           "playlists": {
             "carhartts": 3
           }
