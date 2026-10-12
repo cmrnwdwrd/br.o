@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T04:16:46.880385+00:00",
+  "updatedAt": "2026-10-12T04:22:08.823882+00:00",
   "summary": {
-    "totalPlays": 12594,
+    "totalPlays": 12595,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791778413
+    "lastObserved": 1791778687
   },
   "topSongs": [
     {
@@ -426,6 +426,17 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "You Make Me Want to Kill Myself",
+      "album": "You Make Me Want to Kill Myself",
+      "count": 16,
+      "first": 1788984684,
+      "last": 1791778687,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "HEALTH, Nine Inch Nails",
       "title": "ISN'T EVERYONE",
       "album": "ISN'T EVERYONE",
@@ -575,17 +586,6 @@
       "count": 16,
       "first": 1788972624,
       "last": 1791767793,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "The Shivas",
-      "title": "You Make Me Wanna Die",
-      "album": "You Know What to Do",
-      "count": 16,
-      "first": 1788975450,
-      "last": 1791766717,
       "playlists": {
         "1default": 16
       }
@@ -2045,10 +2045,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 114,
+      "count": 115,
       "first": 1788902047,
-      "last": 1791745717,
+      "last": 1791778687,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "You Make Me Want to Kill Myself",
+          "album": "You Make Me Want to Kill Myself",
+          "count": 16,
+          "first": 1788984684,
+          "last": 1791778687,
+          "playlists": {
+            "1default": 16
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Think Too Much",
@@ -2067,17 +2078,6 @@
           "count": 15,
           "first": 1788902047,
           "last": 1791468430,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "You Make Me Want to Kill Myself",
-          "album": "You Make Me Want to Kill Myself",
-          "count": 15,
-          "first": 1788984684,
-          "last": 1791452194,
           "playlists": {
             "1default": 15
           }
@@ -7326,9 +7326,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5795,
+      "count": 5796,
       "first": 1788901564,
-      "last": 1791778413,
+      "last": 1791778687,
       "songs": [
         {
           "artist": "Tele Novella",
