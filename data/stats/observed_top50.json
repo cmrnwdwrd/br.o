@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T01:56:20.062591+00:00",
+  "updatedAt": "2026-10-12T02:01:56.364405+00:00",
   "summary": {
-    "totalPlays": 12557,
+    "totalPlays": 12559,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791770059
+    "lastObserved": 1791770520
   },
   "topSongs": [
     {
@@ -70,6 +70,18 @@
       "playlists": {
         "1default": 23,
         "anti-capitalist weekday afternoon #1": 2
+      }
+    },
+    {
+      "artist": "Colfax Speed Queen",
+      "title": "Jesus Loves Rock N' Roll",
+      "album": "Satisfaction Intended",
+      "count": 24,
+      "first": 1788926155,
+      "last": 1791770520,
+      "playlists": {
+        "1default": 23,
+        "anti-capitalist weekday afternoon #1": 1
       }
     },
     {
@@ -143,18 +155,6 @@
       "playlists": {
         "1default": 21,
         "anti-capitalist weekday afternoon #1": 2
-      }
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "title": "Jesus Loves Rock N' Roll",
-      "album": "Satisfaction Intended",
-      "count": 23,
-      "first": 1788926155,
-      "last": 1791497048,
-      "playlists": {
-        "1default": 22,
-        "anti-capitalist weekday afternoon #1": 1
       }
     },
     {
@@ -7196,6 +7196,27 @@
       ]
     },
     {
+      "artist": "Colfax Speed Queen",
+      "album": "Satisfaction Intended",
+      "count": 24,
+      "first": 1788926155,
+      "last": 1791770520,
+      "songs": [
+        {
+          "artist": "Colfax Speed Queen",
+          "title": "Jesus Loves Rock N' Roll",
+          "album": "Satisfaction Intended",
+          "count": 24,
+          "first": 1788926155,
+          "last": 1791770520,
+          "playlists": {
+            "1default": 23,
+            "anti-capitalist weekday afternoon #1": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Viagra Boys",
       "album": "Street Worms",
       "count": 24,
@@ -7300,45 +7321,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Rosie Tucker",
-      "album": "Sucker Supreme",
-      "count": 24,
-      "first": 1788995157,
-      "last": 1791642356,
-      "songs": [
-        {
-          "artist": "Rosie Tucker",
-          "title": "Habanero",
-          "album": "Sucker Supreme",
-          "count": 14,
-          "first": 1789214020,
-          "last": 1791642356,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Rosie Tucker",
-          "title": "For Sale: Ford Pinto",
-          "album": "Sucker Supreme",
-          "count": 10,
-          "first": 1788995157,
-          "last": 1791497269,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 10
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5758,
+      "count": 5760,
       "first": 1788901564,
-      "last": 1791770059,
+      "last": 1791770520,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7349,6 +7339,17 @@
           "last": 1791432444,
           "playlists": {
             "1default": 24
+          }
+        },
+        {
+          "artist": "Colfax Speed Queen",
+          "title": "Jesus Loves Rock N' Roll",
+          "album": "Satisfaction Intended",
+          "count": 23,
+          "first": 1788926155,
+          "last": 1791770520,
+          "playlists": {
+            "1default": 23
           }
         },
         {
@@ -7382,17 +7383,6 @@
           "last": 1791641781,
           "playlists": {
             "1default": 23
-          }
-        },
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 22,
-          "first": 1788991593,
-          "last": 1791763914,
-          "playlists": {
-            "1default": 22
           }
         }
       ]
