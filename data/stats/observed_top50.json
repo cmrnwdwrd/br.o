@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-12T00:11:54.264214+00:00",
+  "updatedAt": "2026-10-12T00:16:38.259752+00:00",
   "summary": {
-    "totalPlays": 12530,
+    "totalPlays": 12532,
     "unknownPlays": 1141,
     "uniqueTracks": 2390,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791763914
+    "lastObserved": 1791764170
   },
   "topSongs": [
     {
@@ -182,6 +182,18 @@
       }
     },
     {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 21,
+      "first": 1788989320,
+      "last": 1791764170,
+      "playlists": {
+        "1default": 20,
+        "landlockd surfrock": 1
+      }
+    },
+    {
       "artist": "Daffo",
       "title": "Good God",
       "album": "Good God (Porches Remix)",
@@ -212,18 +224,6 @@
       "count": 20,
       "first": 1789063640,
       "last": 1791671508,
-      "playlists": {
-        "1default": 19,
-        "landlockd surfrock": 1
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Traveling",
-      "album": "Young & Old",
-      "count": 20,
-      "first": 1788989320,
-      "last": 1791667327,
       "playlists": {
         "1default": 19,
         "landlockd surfrock": 1
@@ -404,6 +404,17 @@
       }
     },
     {
+      "artist": "Your Smith",
+      "title": "Debbie",
+      "album": "Bad Habit",
+      "count": 16,
+      "first": 1788947368,
+      "last": 1791763722,
+      "playlists": {
+        "1default": 16
+      }
+    },
+    {
       "artist": "Mat Kerekes",
       "title": "Diamonds",
       "album": "Ruby",
@@ -575,17 +586,6 @@
       "count": 16,
       "first": 1788968380,
       "last": 1791750464,
-      "playlists": {
-        "1default": 16
-      }
-    },
-    {
-      "artist": "Royel Otis",
-      "title": "Oysters In My Pocket",
-      "album": "Oysters In My Pocket",
-      "count": 16,
-      "first": 1788916765,
-      "last": 1791749824,
       "playlists": {
         "1default": 16
       }
@@ -2943,19 +2943,19 @@
     },
     {
       "artist": "Tennis",
-      "count": 50,
+      "count": 51,
       "first": 1788989320,
-      "last": 1791673013,
+      "last": 1791764170,
       "songs": [
         {
           "artist": "Tennis",
           "title": "Traveling",
           "album": "Young & Old",
-          "count": 20,
+          "count": 21,
           "first": 1788989320,
-          "last": 1791667327,
+          "last": 1791764170,
           "playlists": {
-            "1default": 19,
+            "1default": 20,
             "landlockd surfrock": 1
           }
         },
@@ -3349,6 +3349,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 44,
+      "first": 1788947368,
+      "last": 1791763722,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 16,
+          "first": 1788947368,
+          "last": 1791763722,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 14,
+          "first": 1789086174,
+          "last": 1791709080,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 14,
+          "first": 1788969485,
+          "last": 1791639932,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Brandywine",
       "count": 44,
       "first": 1788965930,
@@ -3424,47 +3465,6 @@
           "count": 14,
           "first": 1788973066,
           "last": 1791433773,
-          "playlists": {
-            "1default": 14
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 43,
-      "first": 1788947368,
-      "last": 1791709080,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 15,
-          "first": 1788947368,
-          "last": 1791632725,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 14,
-          "first": 1789086174,
-          "last": 1791709080,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 14,
-          "first": 1788969485,
-          "last": 1791639932,
           "playlists": {
             "1default": 14
           }
@@ -5760,6 +5760,48 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "album": "Bad Habit",
+      "count": 44,
+      "first": 1788947368,
+      "last": 1791763722,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 16,
+          "first": 1788947368,
+          "last": 1791763722,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 14,
+          "first": 1789086174,
+          "last": 1791709080,
+          "playlists": {
+            "1default": 14
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 14,
+          "first": 1788969485,
+          "last": 1791639932,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "album": "Dead",
       "count": 43,
@@ -5797,48 +5839,6 @@
           "last": 1791760671,
           "playlists": {
             "1default": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "album": "Bad Habit",
-      "count": 43,
-      "first": 1788947368,
-      "last": 1791709080,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 15,
-          "first": 1788947368,
-          "last": 1791632725,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 14,
-          "first": 1789086174,
-          "last": 1791709080,
-          "playlists": {
-            "1default": 14
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 14,
-          "first": 1788969485,
-          "last": 1791639932,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -7446,9 +7446,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 5731,
+      "count": 5733,
       "first": 1788901564,
-      "last": 1791763914,
+      "last": 1791764170,
       "songs": [
         {
           "artist": "Tele Novella",
