@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T05:31:53.663745+00:00",
+  "updatedAt": "2026-10-13T05:36:56.751502+00:00",
   "summary": {
-    "totalPlays": 13010,
+    "totalPlays": 13012,
     "unknownPlays": 1141,
     "uniqueTracks": 2391,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791869484
+    "lastObserved": 1791869784
   },
   "topSongs": [
     {
@@ -3873,10 +3873,21 @@
     },
     {
       "artist": "hkmori",
-      "count": 38,
+      "count": 39,
       "first": 1788938854,
-      "last": 1791538051,
+      "last": 1791869784,
       "songs": [
+        {
+          "artist": "hkmori",
+          "title": "lost",
+          "album": "unrequited love",
+          "count": 13,
+          "first": 1788938854,
+          "last": 1791869784,
+          "playlists": {
+            "breakbeat": 13
+          }
+        },
         {
           "artist": "hkmori",
           "title": "re:titled",
@@ -3897,17 +3908,6 @@
           "last": 1791530451,
           "playlists": {
             "breakbeat": 13
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "lost",
-          "album": "unrequited love",
-          "count": 12,
-          "first": 1788938854,
-          "last": 1791445056,
-          "playlists": {
-            "breakbeat": 12
           }
         }
       ]
@@ -6096,6 +6096,48 @@
       ]
     },
     {
+      "artist": "hkmori",
+      "album": "unrequited love",
+      "count": 39,
+      "first": 1788938854,
+      "last": 1791869784,
+      "songs": [
+        {
+          "artist": "hkmori",
+          "title": "lost",
+          "album": "unrequited love",
+          "count": 13,
+          "first": 1788938854,
+          "last": 1791869784,
+          "playlists": {
+            "breakbeat": 13
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "re:titled",
+          "album": "unrequited love",
+          "count": 13,
+          "first": 1789018775,
+          "last": 1791538051,
+          "playlists": {
+            "breakbeat": 13
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "anybody can find love (except you.)",
+          "album": "unrequited love",
+          "count": 13,
+          "first": 1789025449,
+          "last": 1791530451,
+          "playlists": {
+            "breakbeat": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ethel Cain",
       "album": "Preacher's Daughter",
       "count": 38,
@@ -6144,48 +6186,6 @@
           "last": 1791517014,
           "playlists": {
             "for the girls driving 85": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "hkmori",
-      "album": "unrequited love",
-      "count": 38,
-      "first": 1788938854,
-      "last": 1791538051,
-      "songs": [
-        {
-          "artist": "hkmori",
-          "title": "re:titled",
-          "album": "unrequited love",
-          "count": 13,
-          "first": 1789018775,
-          "last": 1791538051,
-          "playlists": {
-            "breakbeat": 13
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "anybody can find love (except you.)",
-          "album": "unrequited love",
-          "count": 13,
-          "first": 1789025449,
-          "last": 1791530451,
-          "playlists": {
-            "breakbeat": 13
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "lost",
-          "album": "unrequited love",
-          "count": 12,
-          "first": 1788938854,
-          "last": 1791445056,
-          "playlists": {
-            "breakbeat": 12
           }
         }
       ]
@@ -7451,9 +7451,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 1073,
+      "count": 1075,
       "first": 1788938278,
-      "last": 1791869484,
+      "last": 1791869784,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
