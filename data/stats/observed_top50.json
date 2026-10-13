@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T13:36:54.537337+00:00",
+  "updatedAt": "2026-10-13T13:41:53.226116+00:00",
   "summary": {
-    "totalPlays": 13149,
+    "totalPlays": 13150,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791898566
+    "lastObserved": 1791898756
   },
   "topSongs": [
     {
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 612,
+      "count": 613,
       "first": 1788955289,
-      "last": 1791898566,
+      "last": 1791898756,
       "songs": [
+        {
+          "artist": "Still Woozy",
+          "title": "Kenny",
+          "album": "Kenny",
+          "count": 3,
+          "first": 1790254300,
+          "last": 1791898756,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Andrew Montana",
           "title": "Strawberry",
@@ -7492,17 +7503,6 @@
           "count": 3,
           "first": 1790252446,
           "last": 1791895963,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Ben Howard",
-          "title": "Promise",
-          "album": "Every Kingdom",
-          "count": 3,
-          "first": 1790170030,
-          "last": 1791895309,
           "playlists": {
             "carhartts": 3
           }
