@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T13:32:05.636077+00:00",
+  "updatedAt": "2026-10-13T13:36:54.537337+00:00",
   "summary": {
-    "totalPlays": 13148,
+    "totalPlays": 13149,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791898299
+    "lastObserved": 1791898566
   },
   "topSongs": [
     {
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 611,
+      "count": 612,
       "first": 1788955289,
-      "last": 1791898299,
+      "last": 1791898566,
       "songs": [
+        {
+          "artist": "Andrew Montana",
+          "title": "Strawberry",
+          "album": "Strawberry",
+          "count": 3,
+          "first": 1790251692,
+          "last": 1791898566,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Honeywater",
           "title": "7 Hours Ago",
@@ -7492,17 +7503,6 @@
           "count": 3,
           "first": 1790170030,
           "last": 1791895309,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Joe P",
-          "title": "Leaves - Acoustic",
-          "album": "Leaves (Acoustic))",
-          "count": 3,
-          "first": 1789392197,
-          "last": 1791895093,
           "playlists": {
             "carhartts": 3
           }
