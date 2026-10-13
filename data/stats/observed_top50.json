@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T04:36:41.657261+00:00",
+  "updatedAt": "2026-10-13T04:41:38.295153+00:00",
   "summary": {
-    "totalPlays": 12989,
+    "totalPlays": 12990,
     "unknownPlays": 1141,
     "uniqueTracks": 2391,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791866180
+    "lastObserved": 1791866370
   },
   "topSongs": [
     {
@@ -358,6 +358,17 @@
       }
     },
     {
+      "artist": "Sexy Coyote",
+      "title": "What's for Dinner????",
+      "album": "Dead",
+      "count": 17,
+      "first": 1788917492,
+      "last": 1791866370,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
       "title": "Leave The Door Open",
       "album": "Leave The Door Open",
@@ -573,17 +584,6 @@
       "count": 17,
       "first": 1788963606,
       "last": 1791849147,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Jay Som",
-      "title": "Tenderness",
-      "album": "Anak Ko",
-      "count": 17,
-      "first": 1789235365,
-      "last": 1791848904,
       "playlists": {
         "1default": 17
       }
@@ -2742,6 +2742,58 @@
       ]
     },
     {
+      "artist": "Sexy Coyote",
+      "count": 61,
+      "first": 1788917492,
+      "last": 1791866370,
+      "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 17,
+          "first": 1788917492,
+          "last": 1791866370,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "Dancing With Demons",
+          "album": "Dancing With Demons",
+          "count": 16,
+          "first": 1788946229,
+          "last": 1791793786,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 15,
+          "first": 1788921570,
+          "last": 1791650218,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "DEAD (Yeah!)",
+          "album": "Dead",
+          "count": 13,
+          "first": 1789224883,
+          "last": 1791760671,
+          "playlists": {
+            "1default": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "count": 61,
       "first": 1788915065,
@@ -2831,58 +2883,6 @@
           "last": 1791749986,
           "playlists": {
             "1default": 14
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sexy Coyote",
-      "count": 60,
-      "first": 1788917492,
-      "last": 1791793786,
-      "songs": [
-        {
-          "artist": "Sexy Coyote",
-          "title": "Dancing With Demons",
-          "album": "Dancing With Demons",
-          "count": 16,
-          "first": 1788946229,
-          "last": 1791793786,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 16,
-          "first": 1788917492,
-          "last": 1791780354,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 15,
-          "first": 1788921570,
-          "last": 1791650218,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "DEAD (Yeah!)",
-          "album": "Dead",
-          "count": 13,
-          "first": 1789224883,
-          "last": 1791760671,
-          "playlists": {
-            "1default": 13
           }
         }
       ]
@@ -5744,19 +5744,19 @@
     {
       "artist": "Sexy Coyote",
       "album": "Dead",
-      "count": 44,
+      "count": 45,
       "first": 1788917492,
-      "last": 1791780354,
+      "last": 1791866370,
       "songs": [
         {
           "artist": "Sexy Coyote",
           "title": "What's for Dinner????",
           "album": "Dead",
-          "count": 16,
+          "count": 17,
           "first": 1788917492,
-          "last": 1791780354,
+          "last": 1791866370,
           "playlists": {
-            "1default": 16
+            "1default": 17
           }
         },
         {
@@ -7388,9 +7388,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6066,
+      "count": 6067,
       "first": 1788901564,
-      "last": 1791866180,
+      "last": 1791866370,
       "songs": [
         {
           "artist": "Tele Novella",
