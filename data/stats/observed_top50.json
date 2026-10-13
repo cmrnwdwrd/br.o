@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T18:21:59.176198+00:00",
+  "updatedAt": "2026-10-13T18:27:04.415609+00:00",
   "summary": {
-    "totalPlays": 13228,
+    "totalPlays": 13229,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791915664
+    "lastObserved": 1791915894
   },
   "topSongs": [
     {
@@ -414,6 +414,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 17,
+      "first": 1788919285,
+      "last": 1791915894,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Monsune",
       "title": "Nothing in Return",
       "album": "Nothing in Return",
@@ -574,17 +585,6 @@
       "count": 17,
       "first": 1788975620,
       "last": 1791908199,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Fine Young Cannibals",
-      "title": "Good Thing",
-      "album": "The Raw & The Cooked",
-      "count": 17,
-      "first": 1788974590,
-      "last": 1791906628,
       "playlists": {
         "1default": 17
       }
@@ -4101,6 +4101,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 36,
+      "first": 1788919285,
+      "last": 1791915894,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 17,
+          "first": 1788919285,
+          "last": 1791915894,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 17,
+          "first": 1788975084,
+          "last": 1791884151,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 2,
+          "first": 1789893243,
+          "last": 1791702861,
+          "playlists": {
+            "christmas rn": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 36,
       "first": 1788990464,
@@ -4189,47 +4230,6 @@
           "last": 1791612827,
           "playlists": {
             "for the girls driving 85": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 35,
-      "first": 1788919285,
-      "last": 1791884151,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 17,
-          "first": 1788975084,
-          "last": 1791884151,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 16,
-          "first": 1788919285,
-          "last": 1791642154,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 2,
-          "first": 1789893243,
-          "last": 1791702861,
-          "playlists": {
-            "christmas rn": 2
           }
         }
       ]
@@ -7257,9 +7257,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6151,
+      "count": 6152,
       "first": 1788901564,
-      "last": 1791915664,
+      "last": 1791915894,
       "songs": [
         {
           "artist": "Tele Novella",
