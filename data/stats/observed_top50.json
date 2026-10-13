@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T17:27:02.149759+00:00",
+  "updatedAt": "2026-10-13T17:32:00.500902+00:00",
   "summary": {
-    "totalPlays": 13214,
+    "totalPlays": 13215,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791912352
+    "lastObserved": 1791912516
   },
   "topSongs": [
     {
@@ -403,6 +403,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 17,
+      "first": 1789064784,
+      "last": 1791912516,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Orion Sun",
       "title": "Antidote",
       "album": "A Collection of Fleeting Moments and Daydreams",
@@ -574,17 +585,6 @@
       "count": 17,
       "first": 1789058225,
       "last": 1791902464,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Fugees, Ms. Lauryn Hill",
-      "title": "Killing Me Softly With His Song",
-      "album": "The Score (Expanded Edition)",
-      "count": 17,
-      "first": 1789057927,
-      "last": 1791901023,
       "playlists": {
         "1default": 17
       }
@@ -1575,6 +1575,102 @@
       ]
     },
     {
+      "artist": "Opium",
+      "count": 124,
+      "first": 1788927400,
+      "last": 1791912516,
+      "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 17,
+          "first": 1789064784,
+          "last": 1791912516,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 16,
+          "first": 1788927400,
+          "last": 1791905232,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 16,
+          "first": 1789109880,
+          "last": 1791857370,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 16,
+          "first": 1789063255,
+          "last": 1791714090,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 15,
+          "first": 1788946866,
+          "last": 1791744646,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 15,
+          "first": 1789064095,
+          "last": 1791680611,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 15,
+          "first": 1789057319,
+          "last": 1791652674,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 14,
+          "first": 1788973540,
+          "last": 1791797740,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Atom Son of Man",
       "count": 124,
       "first": 1788902047,
@@ -1664,102 +1760,6 @@
           "count": 14,
           "first": 1788928852,
           "last": 1791792709,
-          "playlists": {
-            "1default": 14
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Opium",
-      "count": 123,
-      "first": 1788927400,
-      "last": 1791905232,
-      "songs": [
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 16,
-          "first": 1788927400,
-          "last": 1791905232,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 16,
-          "first": 1789109880,
-          "last": 1791857370,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 16,
-          "first": 1789063255,
-          "last": 1791714090,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 16,
-          "first": 1789064784,
-          "last": 1791645388,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 15,
-          "first": 1788946866,
-          "last": 1791744646,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 15,
-          "first": 1789064095,
-          "last": 1791680611,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 15,
-          "first": 1789057319,
-          "last": 1791652674,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 14,
-          "first": 1788973540,
-          "last": 1791797740,
           "playlists": {
             "1default": 14
           }
@@ -7258,9 +7258,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6137,
+      "count": 6138,
       "first": 1788901564,
-      "last": 1791912352,
+      "last": 1791912516,
       "songs": [
         {
           "artist": "Tele Novella",
