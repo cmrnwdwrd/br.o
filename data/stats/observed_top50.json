@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T12:12:01.698666+00:00",
+  "updatedAt": "2026-10-13T12:16:52.309394+00:00",
   "summary": {
-    "totalPlays": 13127,
+    "totalPlays": 13129,
     "unknownPlays": 1141,
     "uniqueTracks": 2391,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791893370
+    "lastObserved": 1791893791
   },
   "topSongs": [
     {
@@ -7448,10 +7448,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 590,
+      "count": 592,
       "first": 1788955289,
-      "last": 1791893370,
+      "last": 1791893791,
       "songs": [
+        {
+          "artist": "Gregory Alan Isakov",
+          "title": "Big Black Car",
+          "album": "This Empty Northern Hemisphere",
+          "count": 3,
+          "first": 1790078915,
+          "last": 1791893574,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Adam Melchor",
           "title": "Moon in the Morning",
@@ -7492,17 +7503,6 @@
           "count": 3,
           "first": 1790084130,
           "last": 1791807519,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "flipturn",
-          "title": "Chicago",
-          "album": "Heavy Colors",
-          "count": 3,
-          "first": 1790166003,
-          "last": 1791806661,
           "playlists": {
             "carhartts": 3
           }
