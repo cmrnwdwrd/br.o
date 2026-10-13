@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T20:42:03.038718+00:00",
+  "updatedAt": "2026-10-13T20:46:58.143356+00:00",
   "summary": {
-    "totalPlays": 13268,
+    "totalPlays": 13269,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791924122
+    "lastObserved": 1791924331
   },
   "topSongs": [
     {
@@ -436,6 +436,17 @@
       }
     },
     {
+      "artist": "David Bowie",
+      "title": "I'm Afraid of Americans (V1)",
+      "album": "Legacy (Deluxe Edition)",
+      "count": 17,
+      "first": 1788912385,
+      "last": 1791924331,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "PUP",
       "title": "Kids",
       "album": "Morbid Stuff",
@@ -574,17 +585,6 @@
       "count": 17,
       "first": 1788927095,
       "last": 1791915036,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Sunday Bloody Sunday - Remastered 2008",
-      "album": "War (Remastered)",
-      "count": 17,
-      "first": 1788921291,
-      "last": 1791914476,
       "playlists": {
         "1default": 17
       }
@@ -4483,6 +4483,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 32,
+      "first": 1788912385,
+      "last": 1791924331,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 17,
+          "first": 1788912385,
+          "last": 1791924331,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 15,
+          "first": 1789129746,
+          "last": 1791917070,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 32,
       "first": 1788986484,
@@ -4596,36 +4626,6 @@
           "count": 16,
           "first": 1788912861,
           "last": 1791831948,
-          "playlists": {
-            "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Courtney Barnett",
-      "count": 32,
-      "first": 1788913469,
-      "last": 1791884701,
-      "songs": [
-        {
-          "artist": "Courtney Barnett",
-          "title": "Write A List of Things To Look Forward To",
-          "album": "Things Take Time, Take Time",
-          "count": 16,
-          "first": 1788913469,
-          "last": 1791884701,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Courtney Barnett",
-          "title": "Pedestrian at Best",
-          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
-          "count": 16,
-          "first": 1789215507,
-          "last": 1791849599,
           "playlists": {
             "1default": 16
           }
@@ -7257,9 +7257,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6191,
+      "count": 6192,
       "first": 1788901564,
-      "last": 1791924122,
+      "last": 1791924331,
       "songs": [
         {
           "artist": "Tele Novella",
