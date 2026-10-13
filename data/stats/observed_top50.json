@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T17:56:54.564146+00:00",
+  "updatedAt": "2026-10-13T18:01:30.548502+00:00",
   "summary": {
-    "totalPlays": 13223,
+    "totalPlays": 13224,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791914129
+    "lastObserved": 1791914476
   },
   "topSongs": [
     {
@@ -414,6 +414,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Sunday Bloody Sunday - Remastered 2008",
+      "album": "War (Remastered)",
+      "count": 17,
+      "first": 1788921291,
+      "last": 1791914476,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Cage The Elephant",
       "title": "Social Cues",
       "album": "Social Cues",
@@ -574,17 +585,6 @@
       "count": 17,
       "first": 1788967329,
       "last": 1791905739,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Your Neighbors",
-      "title": "Chicken",
-      "album": "Chicken",
-      "count": 17,
-      "first": 1789049221,
-      "last": 1791904381,
       "playlists": {
         "1default": 17
       }
@@ -4350,6 +4350,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 34,
+      "first": 1788921291,
+      "last": 1791914476,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 17,
+          "first": 1788921291,
+          "last": 1791914476,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 17,
+          "first": 1788964687,
+          "last": 1791776960,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 34,
       "first": 1788985030,
@@ -4407,36 +4437,6 @@
           "playlists": {
             "sad girl no friends saturday": 5,
             "texting your situationship": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 33,
-      "first": 1788921291,
-      "last": 1791776960,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 17,
-          "first": 1788964687,
-          "last": 1791776960,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 16,
-          "first": 1788921291,
-          "last": 1791655308,
-          "playlists": {
-            "1default": 16
           }
         }
       ]
@@ -7257,9 +7257,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6146,
+      "count": 6147,
       "first": 1788901564,
-      "last": 1791914129,
+      "last": 1791914476,
       "songs": [
         {
           "artist": "Tele Novella",
