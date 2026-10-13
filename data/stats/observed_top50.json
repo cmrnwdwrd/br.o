@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T22:02:02.421949+00:00",
+  "updatedAt": "2026-10-13T22:06:46.716593+00:00",
   "summary": {
-    "totalPlays": 13288,
+    "totalPlays": 13289,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791928776
+    "lastObserved": 1791929076
   },
   "topSongs": [
     {
@@ -7604,10 +7604,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 363,
+      "count": 364,
       "first": 1788904845,
-      "last": 1791847627,
+      "last": 1791929076,
       "songs": [
+        {
+          "artist": "They Might Be Giants",
+          "title": "Birdhouse in Your Soul",
+          "album": "Flood",
+          "count": 11,
+          "first": 1788991800,
+          "last": 1791929076,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 11
+          }
+        },
         {
           "artist": "Paramore",
           "title": "The News",
@@ -7650,17 +7661,6 @@
           "last": 1791499996,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 11
-          }
-        },
-        {
-          "artist": "The Beatles",
-          "title": "Come Together - Remastered 2009",
-          "album": "Abbey Road (Remastered)",
-          "count": 10,
-          "first": 1789426115,
-          "last": 1791847627,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 10
           }
         }
       ]
