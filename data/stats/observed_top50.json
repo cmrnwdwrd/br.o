@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T03:27:03.537238+00:00",
+  "updatedAt": "2026-10-13T03:36:18.781866+00:00",
   "summary": {
-    "totalPlays": 12972,
+    "totalPlays": 12974,
     "unknownPlays": 1141,
     "uniqueTracks": 2391,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791862024
+    "lastObserved": 1791862515
   },
   "topSongs": [
     {
@@ -358,6 +358,17 @@
       }
     },
     {
+      "artist": "Gorillaz, Peter Hook, Georgia",
+      "title": "Aries (feat. Peter Hook and Georgia)",
+      "album": "Song Machine Episode 3",
+      "count": 17,
+      "first": 1788971208,
+      "last": 1791862515,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Finger Eleven",
       "title": "Paralyzer",
       "album": "Them Vs. You Vs. Me (Deluxe Edition)",
@@ -573,17 +584,6 @@
       "count": 17,
       "first": 1788918760,
       "last": 1791839700,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Sjowgren",
-      "title": "Now & Then",
-      "album": "Now & Then",
-      "count": 17,
-      "first": 1788965724,
-      "last": 1791839494,
       "playlists": {
         "1default": 17
       }
@@ -4482,6 +4482,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 32,
+      "first": 1788947810,
+      "last": 1791862320,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 16,
+          "first": 1789059805,
+          "last": 1791862320,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 16,
+          "first": 1788947810,
+          "last": 1791854958,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Olivia Rodrigo",
       "count": 32,
       "first": 1789057000,
@@ -4617,36 +4647,6 @@
           "count": 15,
           "first": 1789167660,
           "last": 1791748059,
-          "playlists": {
-            "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "count": 31,
-      "first": 1788947080,
-      "last": 1791856566,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 16,
-          "first": 1788968380,
-          "last": 1791750464,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 15,
-          "first": 1788947080,
-          "last": 1791856566,
           "playlists": {
             "1default": 15
           }
@@ -7259,9 +7259,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6049,
+      "count": 6051,
       "first": 1788901564,
-      "last": 1791862024,
+      "last": 1791862515,
       "songs": [
         {
           "artist": "Tele Novella",
