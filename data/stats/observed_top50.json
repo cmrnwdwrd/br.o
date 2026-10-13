@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T09:31:54.957045+00:00",
+  "updatedAt": "2026-10-13T09:36:20.924551+00:00",
   "summary": {
-    "totalPlays": 13081,
+    "totalPlays": 13084,
     "unknownPlays": 1141,
     "uniqueTracks": 2391,
     "uniqueArtists": 1547,
     "uniqueAlbums": 1982,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791883794
+    "lastObserved": 1791884151
   },
   "topSongs": [
     {
@@ -369,6 +369,28 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 17,
+      "first": 1788975084,
+      "last": 1791884151,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "THE FUTURE IS DARK",
+      "album": "THE FUTURE IS DARK",
+      "count": 17,
+      "first": 1788913884,
+      "last": 1791884001,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Joey Valence & Brae",
       "title": "THE BADDEST",
       "album": "NO HANDS",
@@ -562,28 +584,6 @@
       "count": 17,
       "first": 1789054258,
       "last": 1791850881,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Sweet Pill",
-      "title": "Blood",
-      "album": "Where the Heart Is",
-      "count": 17,
-      "first": 1789064643,
-      "last": 1791850741,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Tōth",
-      "title": "Song to Make You Fall in Love With Me",
-      "album": "Practice Magic and Seek Professional Help When Necessary",
-      "count": 17,
-      "first": 1788996775,
-      "last": 1791850579,
       "playlists": {
         "1default": 17
       }
@@ -1084,9 +1084,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 247,
+      "count": 248,
       "first": 1788910325,
-      "last": 1791866180,
+      "last": 1791884001,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1098,6 +1098,17 @@
           "playlists": {
             "1default": 20,
             "steal my bike": 1
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 17,
+          "first": 1788913884,
+          "last": 1791884001,
+          "playlists": {
+            "1default": 17
           }
         },
         {
@@ -1173,17 +1184,6 @@
           "count": 16,
           "first": 1788926373,
           "last": 1791707832,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 16,
-          "first": 1788913884,
-          "last": 1791680462,
           "playlists": {
             "1default": 16
           }
@@ -4152,6 +4152,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 35,
+      "first": 1788919285,
+      "last": 1791884151,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 17,
+          "first": 1788975084,
+          "last": 1791884151,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 16,
+          "first": 1788919285,
+          "last": 1791642154,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 2,
+          "first": 1789893243,
+          "last": 1791702861,
+          "playlists": {
+            "christmas rn": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 35,
       "first": 1788990464,
@@ -4303,47 +4344,6 @@
           "last": 1791782196,
           "playlists": {
             "EPL4a": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 34,
-      "first": 1788919285,
-      "last": 1791777576,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 16,
-          "first": 1788975084,
-          "last": 1791777576,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 16,
-          "first": 1788919285,
-          "last": 1791642154,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 2,
-          "first": 1789893243,
-          "last": 1791702861,
-          "playlists": {
-            "christmas rn": 2
           }
         }
       ]
@@ -6661,6 +6661,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THE FUTURE IS DARK",
+      "count": 32,
+      "first": 1788913884,
+      "last": 1791884001,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 17,
+          "first": 1788913884,
+          "last": 1791884001,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 15,
+          "first": 1788975770,
+          "last": 1791780478,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "album": "Father of the Bride",
       "count": 32,
@@ -6884,37 +6915,6 @@
           "count": 15,
           "first": 1789225488,
           "last": 1791656504,
-          "playlists": {
-            "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THE FUTURE IS DARK",
-      "count": 31,
-      "first": 1788913884,
-      "last": 1791780478,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 16,
-          "first": 1788913884,
-          "last": 1791680462,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 15,
-          "first": 1788975770,
-          "last": 1791780478,
           "playlists": {
             "1default": 15
           }
@@ -7397,9 +7397,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6068,
+      "count": 6070,
       "first": 1788901564,
-      "last": 1791866516,
+      "last": 1791884151,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7460,7 +7460,7 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 1144,
+      "count": 1145,
       "first": 1788938278,
       "last": 1791883794,
       "songs": [
