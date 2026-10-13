@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-13T16:46:23.977184+00:00",
+  "updatedAt": "2026-10-13T16:52:02.926727+00:00",
   "summary": {
-    "totalPlays": 13203,
+    "totalPlays": 13205,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791909864
+    "lastObserved": 1791910261
   },
   "topSongs": [
     {
@@ -403,6 +403,17 @@
       }
     },
     {
+      "artist": "The Shivas",
+      "title": "You Make Me Wanna Die",
+      "album": "You Know What to Do",
+      "count": 17,
+      "first": 1788975450,
+      "last": 1791910261,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Of Monsters and Men",
       "title": "Wars",
       "album": "FEVER DREAM",
@@ -574,17 +585,6 @@
       "count": 17,
       "first": 1788975084,
       "last": 1791884151,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE FUTURE IS DARK",
-      "album": "THE FUTURE IS DARK",
-      "count": 17,
-      "first": 1788913884,
-      "last": 1791884001,
       "playlists": {
         "1default": 17
       }
@@ -4483,6 +4483,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 32,
+      "first": 1789069956,
+      "last": 1791910080,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 17,
+          "first": 1789235365,
+          "last": 1791848904,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 15,
+          "first": 1789069956,
+          "last": 1791910080,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 32,
       "first": 1789054681,
@@ -4596,36 +4626,6 @@
           "count": 16,
           "first": 1789166634,
           "last": 1791857536,
-          "playlists": {
-            "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 32,
-      "first": 1788947810,
-      "last": 1791862320,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 16,
-          "first": 1789059805,
-          "last": 1791862320,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 16,
-          "first": 1788947810,
-          "last": 1791854958,
           "playlists": {
             "1default": 16
           }
@@ -7237,9 +7237,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6126,
+      "count": 6128,
       "first": 1788901564,
-      "last": 1791909864,
+      "last": 1791910261,
       "songs": [
         {
           "artist": "Tele Novella",
