@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T13:56:40.402331+00:00",
+  "updatedAt": "2026-10-13T14:02:09.338387+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 463,
+    "sessionCount": 464,
     "firstObserved": 1788901564,
-    "lastObserved": 1791892832
+    "lastObserved": 1791900050
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 171,
-      "playCount": 6041,
+      "sessionCount": 172,
+      "playCount": 6042,
       "firstObserved": 1788901564,
-      "lastObserved": 1791884001,
-      "typicalStartMinute": 376,
-      "typicalDurationMinutes": 47,
+      "lastObserved": 1791900050,
+      "typicalStartMinute": 383,
+      "typicalDurationMinutes": 46,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -55,7 +55,7 @@
           0.0,
           0.0,
           0.0,
-          231.7,
+          233.6,
           240.0,
           240.0,
           240.0,
@@ -335,7 +335,7 @@
           0.0,
           0.0,
           0.0,
-          51.7,
+          53.6,
           60.0,
           60.0,
           60.0,
@@ -927,7 +927,7 @@
           0,
           0,
           0,
-          4,
+          5,
           0,
           0,
           0,
@@ -1085,8 +1085,8 @@
         },
         {
           "weekday": 1,
-          "sessions": 22,
-          "typicalStartMinute": 1265,
+          "sessions": 23,
+          "typicalStartMinute": 1293,
           "typicalDurationMinutes": 31,
           "confidence": "Low"
         },
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1791900050,
+          "end": 1791900162,
+          "durationMinutes": 2,
+          "playCount": 1
+        },
         {
           "start": 1791884001,
           "end": 1791885838,
@@ -1240,12 +1246,6 @@
           "end": 1791509178,
           "durationMinutes": 114,
           "playCount": 32
-        },
-        {
-          "start": 1791473556,
-          "end": 1791496848,
-          "durationMinutes": 388,
-          "playCount": 104
         }
       ]
     },
@@ -4906,7 +4906,7 @@
     {
       "playlist": "carhartts",
       "sessionCount": 20,
-      "playCount": 620,
+      "playCount": 621,
       "firstObserved": 1788955289,
       "lastObserved": 1791892832,
       "typicalStartMinute": 362,
@@ -4947,8 +4947,8 @@
           0.0,
           0.0,
           288.3,
-          296.6,
-          8.2,
+          300.0,
+          9.1,
           0.0,
           0.0,
           0.0,
@@ -5227,8 +5227,8 @@
           75.0,
           75.0,
           75.0,
-          71.6,
-          8.2,
+          75.0,
+          9.1,
           0.0,
           0.0,
           0.0,
@@ -5980,7 +5980,7 @@
           "weekday": 1,
           "sessions": 5,
           "typicalStartMinute": 362,
-          "typicalDurationMinutes": 119,
+          "typicalDurationMinutes": 120,
           "confidence": "Medium"
         },
         {
@@ -6001,9 +6001,9 @@
       "recentSessions": [
         {
           "start": 1791892832,
-          "end": 1791899795,
-          "durationMinutes": 116,
-          "playCount": 29
+          "end": 1791900050,
+          "durationMinutes": 120,
+          "playCount": 30
         },
         {
           "start": 1791806432,
