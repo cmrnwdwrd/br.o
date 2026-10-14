@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T12:26:41.145196+00:00",
+  "updatedAt": "2026-10-14T12:31:43.883832+00:00",
   "summary": {
-    "totalPlays": 13533,
+    "totalPlays": 13534,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791980578
+    "lastObserved": 1791980920
   },
   "topSongs": [
     {
@@ -7404,10 +7404,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 624,
+      "count": 625,
       "first": 1788955289,
-      "last": 1791980578,
+      "last": 1791980920,
       "songs": [
+        {
+          "artist": "Ray LaMontagne",
+          "title": "Jolene",
+          "album": "Trouble",
+          "count": 3,
+          "first": 1788958330,
+          "last": 1791980920,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Her's",
           "title": "If You Know What's Right",
@@ -7448,17 +7459,6 @@
           "count": 3,
           "first": 1790253625,
           "last": 1791897597,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Mumford & Sons",
-          "title": "After the Storm",
-          "album": "Sigh No More",
-          "count": 3,
-          "first": 1790167405,
-          "last": 1791897334,
           "playlists": {
             "carhartts": 3
           }
