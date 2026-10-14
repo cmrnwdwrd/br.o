@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T14:16:47.597340+00:00",
+  "updatedAt": "2026-10-14T14:21:17.785467+00:00",
   "summary": {
-    "totalPlays": 13564,
+    "totalPlays": 13566,
     "unknownPlays": 1141,
     "uniqueTracks": 2399,
     "uniqueArtists": 1550,
     "uniqueAlbums": 1989,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791987307
+    "lastObserved": 1791987583
   },
   "topSongs": [
     {
@@ -358,6 +358,28 @@
       }
     },
     {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 18,
+      "first": 1788989714,
+      "last": 1791987583,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
+      "artist": "Zolof the Rock & Roll Destroyer",
+      "title": "Plays Pretty for Baby",
+      "album": "Zolof the Rock & Roll Destroyer",
+      "count": 18,
+      "first": 1788987745,
+      "last": 1791987456,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Dreamer Isioma",
       "title": "Sensitive",
       "album": "Sensitive",
@@ -564,28 +586,6 @@
       "count": 17,
       "first": 1788943119,
       "last": 1791969344,
-      "playlists": {
-        "breakbeat": 17
-      }
-    },
-    {
-      "artist": "Overmono",
-      "title": "Good Lies",
-      "album": "Good Lies",
-      "count": 17,
-      "first": 1788941810,
-      "last": 1791967951,
-      "playlists": {
-        "breakbeat": 17
-      }
-    },
-    {
-      "artist": "Joey Valence & Brae, Brae",
-      "title": "Double Jump",
-      "album": "Double Jump",
-      "count": 17,
-      "first": 1789029501,
-      "last": 1791967130,
       "playlists": {
         "breakbeat": 17
       }
@@ -4299,6 +4299,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 35,
+      "first": 1788989714,
+      "last": 1791987583,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 18,
+          "first": 1788989714,
+          "last": 1791987583,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 17,
+          "first": 1789169386,
+          "last": 1791970389,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 35,
       "first": 1788914032,
@@ -4417,36 +4447,6 @@
           "last": 1791081977,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 34,
-      "first": 1788989714,
-      "last": 1791970389,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 17,
-          "first": 1789169386,
-          "last": 1791970389,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 17,
-          "first": 1788989714,
-          "last": 1791952147,
-          "playlists": {
-            "1default": 17
           }
         }
       ]
@@ -7325,9 +7325,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6305,
+      "count": 6307,
       "first": 1788901564,
-      "last": 1791987307,
+      "last": 1791987583,
       "songs": [
         {
           "artist": "Tele Novella",
