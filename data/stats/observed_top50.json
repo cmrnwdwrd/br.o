@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T12:42:04.125034+00:00",
+  "updatedAt": "2026-10-14T12:46:45.897724+00:00",
   "summary": {
-    "totalPlays": 13537,
+    "totalPlays": 13539,
     "unknownPlays": 1141,
-    "uniqueTracks": 2395,
+    "uniqueTracks": 2396,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1986,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791981678
+    "lastObserved": 1791981936
   },
   "topSongs": [
     {
@@ -7404,10 +7404,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 628,
+      "count": 630,
       "first": 1788955289,
-      "last": 1791981678,
+      "last": 1791981936,
       "songs": [
+        {
+          "artist": "Garrett Kato",
+          "title": "Drugstore Houses",
+          "album": "Drugstore Houses",
+          "count": 3,
+          "first": 1789648135,
+          "last": 1791981936,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Ray LaMontagne",
           "title": "Jolene",
@@ -7448,17 +7459,6 @@
           "count": 3,
           "first": 1790251692,
           "last": 1791898566,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Honeywater",
-          "title": "7 Hours Ago",
-          "album": "Honeywater - EP",
-          "count": 3,
-          "first": 1790253625,
-          "last": 1791897597,
           "playlists": {
             "carhartts": 3
           }
