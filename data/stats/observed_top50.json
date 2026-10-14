@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T03:52:01.114251+00:00",
+  "updatedAt": "2026-10-14T03:57:00.873906+00:00",
   "summary": {
-    "totalPlays": 13379,
+    "totalPlays": 13381,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791949555
+    "lastObserved": 1791950075
   },
   "topSongs": [
     {
@@ -459,6 +459,17 @@
       }
     },
     {
+      "artist": "Japanese Breakfast",
+      "title": "Everybody Wants to Love You",
+      "album": "Psychopomp",
+      "count": 17,
+      "first": 1789032729,
+      "last": 1791949944,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "John Grant",
       "title": "It Doesn't Matter to Him",
       "album": "Pale Green Ghosts",
@@ -575,17 +586,6 @@
       "count": 17,
       "first": 1788962598,
       "last": 1791942789,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "The End of the Game",
-      "album": "The End of the Game",
-      "count": 17,
-      "first": 1788974227,
-      "last": 1791942544,
       "playlists": {
         "1default": 17
       }
@@ -3245,6 +3245,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 49,
+      "first": 1788973998,
+      "last": 1791950075,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 17,
+          "first": 1789033065,
+          "last": 1791939300,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 17,
+          "first": 1788973998,
+          "last": 1791923503,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 15,
+          "first": 1789226629,
+          "last": 1791950075,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 49,
       "first": 1788973066,
@@ -3322,47 +3363,6 @@
           "last": 1791885269,
           "playlists": {
             "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 48,
-      "first": 1788973998,
-      "last": 1791939300,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 17,
-          "first": 1789033065,
-          "last": 1791939300,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 17,
-          "first": 1788973998,
-          "last": 1791923503,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 14,
-          "first": 1789226629,
-          "last": 1791754651,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -7218,9 +7218,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6277,
+      "count": 6279,
       "first": 1788901564,
-      "last": 1791949555,
+      "last": 1791950075,
       "songs": [
         {
           "artist": "Tele Novella",
