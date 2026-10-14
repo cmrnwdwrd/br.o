@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T09:46:48.613692+00:00",
+  "updatedAt": "2026-10-14T09:51:40.394511+00:00",
   "summary": {
-    "totalPlays": 13488,
+    "totalPlays": 13490,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791970989
+    "lastObserved": 1791971435
   },
   "topSongs": [
     {
@@ -358,6 +358,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "THE FUTURE IS DARK",
+      "album": "THE FUTURE IS DARK",
+      "count": 18,
+      "first": 1788913884,
+      "last": 1791971285,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Pinegrove",
       "title": "Need 2",
       "album": "Everything So Far",
@@ -456,6 +467,17 @@
       "last": 1791866516,
       "playlists": {
         "1default": 18
+      }
+    },
+    {
+      "artist": "The Cure",
+      "title": "Boys Don't Cry",
+      "album": "Greatest Hits",
+      "count": 17,
+      "first": 1789145159,
+      "last": 1791971435,
+      "playlists": {
+        "1default": 17
       }
     },
     {
@@ -564,28 +586,6 @@
       "count": 17,
       "first": 1788989714,
       "last": 1791952147,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "title": "Visitor",
-      "album": "Visitor",
-      "count": 17,
-      "first": 1788963370,
-      "last": 1791951354,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Tally Hall",
-      "title": "The Bidding",
-      "album": "Marvin's Marvelous Mechanical Museum",
-      "count": 17,
-      "first": 1788927573,
-      "last": 1791950558,
       "playlists": {
         "1default": 17
       }
@@ -1086,9 +1086,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 258,
+      "count": 259,
       "first": 1788910325,
-      "last": 1791954625,
+      "last": 1791971285,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1100,6 +1100,17 @@
           "playlists": {
             "1default": 21,
             "steal my bike": 1
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 18,
+          "first": 1788913884,
+          "last": 1791971285,
+          "playlists": {
+            "1default": 18
           }
         },
         {
@@ -1153,17 +1164,6 @@
           "count": 17,
           "first": 1788926373,
           "last": 1791900050,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 17,
-          "first": 1788913884,
-          "last": 1791884001,
           "playlists": {
             "1default": 17
           }
@@ -6438,6 +6438,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THE FUTURE IS DARK",
+      "count": 34,
+      "first": 1788913884,
+      "last": 1791971285,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 18,
+          "first": 1788913884,
+          "last": 1791971285,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 16,
+          "first": 1788975770,
+          "last": 1791914755,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 33,
@@ -6493,37 +6524,6 @@
           "count": 16,
           "first": 1788997306,
           "last": 1791920928,
-          "playlists": {
-            "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THE FUTURE IS DARK",
-      "count": 33,
-      "first": 1788913884,
-      "last": 1791914755,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 17,
-          "first": 1788913884,
-          "last": 1791884001,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 16,
-          "first": 1788975770,
-          "last": 1791914755,
           "playlists": {
             "1default": 16
           }
@@ -7215,9 +7215,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6297,
+      "count": 6299,
       "first": 1788901564,
-      "last": 1791970989,
+      "last": 1791971435,
       "songs": [
         {
           "artist": "Tele Novella",
