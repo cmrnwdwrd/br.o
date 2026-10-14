@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T19:41:43.921944+00:00",
+  "updatedAt": "2026-10-14T19:46:32.339134+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 478,
+    "sessionCount": 479,
     "firstObserved": 1788901564,
-    "lastObserved": 1791999960
+    "lastObserved": 1792007192
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 177,
-      "playCount": 6316,
+      "sessionCount": 178,
+      "playCount": 6317,
       "firstObserved": 1788901564,
-      "lastObserved": 1791990489,
-      "typicalStartMinute": 379,
-      "typicalDurationMinutes": 47,
+      "lastObserved": 1792007192,
+      "typicalStartMinute": 391,
+      "typicalDurationMinutes": 46,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -86,7 +86,7 @@
           360.0,
           282.1,
           0.0,
-          62.6,
+          66.2,
           300.0,
           300.0,
           67.5,
@@ -456,7 +456,7 @@
           0.0,
           0.0,
           0.0,
-          62.6,
+          66.2,
           75.0,
           75.0,
           75.0,
@@ -958,7 +958,7 @@
           0,
           0,
           0,
-          5,
+          6,
           0,
           0,
           2,
@@ -1092,9 +1092,9 @@
         },
         {
           "weekday": 2,
-          "sessions": 37,
-          "typicalStartMinute": 17,
-          "typicalDurationMinutes": 32,
+          "sessions": 38,
+          "typicalStartMinute": 1417,
+          "typicalDurationMinutes": 31,
           "confidence": "Low"
         },
         {
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1792007192,
+          "end": 1792007411,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1791990489,
           "end": 1791999959,
@@ -1240,12 +1246,6 @@
           "end": 1791591472,
           "durationMinutes": 133,
           "playCount": 37
-        },
-        {
-          "start": 1791558051,
-          "end": 1791566221,
-          "durationMinutes": 136,
-          "playCount": 36
         }
       ]
     },
@@ -19865,11 +19865,11 @@
     {
       "playlist": "country music was never for republicans",
       "sessionCount": 6,
-      "playCount": 200,
+      "playCount": 201,
       "firstObserved": 1788976050,
       "lastObserved": 1791999960,
       "typicalStartMinute": 707,
-      "typicalDurationMinutes": 120,
+      "typicalDurationMinutes": 121,
       "confidence": "High",
       "heatmapMinutes": [
         [
@@ -19938,7 +19938,7 @@
           0.0,
           77.2,
           360.0,
-          280.2,
+          283.9,
           0.0,
           0.0,
           0.0,
@@ -20307,8 +20307,8 @@
           90.0,
           90.0,
           90.0,
-          87.8,
-          12.3,
+          90.0,
+          13.8,
           0.0,
           0.0,
           0.0,
@@ -20932,16 +20932,16 @@
           "weekday": 2,
           "sessions": 6,
           "typicalStartMinute": 707,
-          "typicalDurationMinutes": 120,
+          "typicalDurationMinutes": 121,
           "confidence": "High"
         }
       ],
       "recentSessions": [
         {
           "start": 1791999960,
-          "end": 1792006971,
-          "durationMinutes": 117,
-          "playCount": 32
+          "end": 1792007192,
+          "durationMinutes": 121,
+          "playCount": 33
         },
         {
           "start": 1791395304,
