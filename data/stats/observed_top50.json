@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T02:11:43.192701+00:00",
+  "updatedAt": "2026-10-14T02:16:40.586025+00:00",
   "summary": {
-    "totalPlays": 13354,
+    "totalPlays": 13356,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791943900
+    "lastObserved": 1791944188
   },
   "topSongs": [
     {
@@ -447,6 +447,28 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "Hold Me",
+      "album": "1's a Man, 3's a Band",
+      "count": 17,
+      "first": 1788902047,
+      "last": 1791944188,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 17,
+      "first": 1788965930,
+      "last": 1791943659,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Moby",
       "title": "Porcelain",
       "album": "Play & Play: B Sides",
@@ -563,28 +585,6 @@
       "count": 17,
       "first": 1789096240,
       "last": 1791937049,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "Lorde",
-      "title": "Mood Ring",
-      "album": "Solar Power",
-      "count": 17,
-      "first": 1788914032,
-      "last": 1791935931,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "title": "Keep Pushing",
-      "album": "Change the Channel",
-      "count": 17,
-      "first": 1788925926,
-      "last": 1791935704,
       "playlists": {
         "1default": 17
       }
@@ -1672,10 +1672,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 126,
+      "count": 127,
       "first": 1788902047,
-      "last": 1791936884,
+      "last": 1791944188,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 17,
+          "first": 1788902047,
+          "last": 1791944188,
+          "playlists": {
+            "1default": 17
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "You Make Me Want to Kill Myself",
@@ -1727,17 +1738,6 @@
           "count": 16,
           "first": 1788903730,
           "last": 1791865056,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 16,
-          "first": 1788902047,
-          "last": 1791825810,
           "playlists": {
             "1default": 16
           }
@@ -3285,6 +3285,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 48,
+      "first": 1788965930,
+      "last": 1791943659,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 17,
+          "first": 1788965930,
+          "last": 1791943659,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 16,
+          "first": 1789068640,
+          "last": 1791904590,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 15,
+          "first": 1789215234,
+          "last": 1791885269,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 48,
       "first": 1788973998,
@@ -3360,47 +3401,6 @@
           "count": 15,
           "first": 1789086174,
           "last": 1791920518,
-          "playlists": {
-            "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 47,
-      "first": 1788965930,
-      "last": 1791904590,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 16,
-          "first": 1789068640,
-          "last": 1791904590,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 16,
-          "first": 1788965930,
-          "last": 1791818491,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 15,
-          "first": 1789215234,
-          "last": 1791885269,
           "playlists": {
             "1default": 15
           }
@@ -4646,6 +4646,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 94,
+      "first": 1788902047,
+      "last": 1791944188,
+      "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 17,
+          "first": 1788902047,
+          "last": 1791944188,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 16,
+          "first": 1788903565,
+          "last": 1791936884,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 16,
+          "first": 1789145316,
+          "last": 1791922644,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 16,
+          "first": 1788903730,
+          "last": 1791865056,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Vengeful Vulture",
+          "album": "1's a Man, 3's a Band",
+          "count": 15,
+          "first": 1789097184,
+          "last": 1791834734,
+          "playlists": {
+            "1default": 15
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 14,
+          "first": 1788928852,
+          "last": 1791792709,
+          "playlists": {
+            "1default": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Opium",
       "album": "PHANTOMS",
       "count": 94,
@@ -4716,81 +4791,6 @@
           "last": 1791652674,
           "playlists": {
             "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 93,
-      "first": 1788902047,
-      "last": 1791936884,
-      "songs": [
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 16,
-          "first": 1788903565,
-          "last": 1791936884,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 16,
-          "first": 1789145316,
-          "last": 1791922644,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 16,
-          "first": 1788903730,
-          "last": 1791865056,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 16,
-          "first": 1788902047,
-          "last": 1791825810,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Vengeful Vulture",
-          "album": "1's a Man, 3's a Band",
-          "count": 15,
-          "first": 1789097184,
-          "last": 1791834734,
-          "playlists": {
-            "1default": 15
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 14,
-          "first": 1788928852,
-          "last": 1791792709,
-          "playlists": {
-            "1default": 14
           }
         }
       ]
@@ -7217,9 +7217,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6252,
+      "count": 6254,
       "first": 1788901564,
-      "last": 1791943900,
+      "last": 1791944188,
       "songs": [
         {
           "artist": "Tele Novella",
