@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T22:56:28.415807+00:00",
+  "updatedAt": "2026-10-14T23:01:09.873178+00:00",
   "summary": {
-    "totalPlays": 13714,
+    "totalPlays": 13716,
     "unknownPlays": 1141,
     "uniqueTracks": 2418,
     "uniqueArtists": 1569,
     "uniqueAlbums": 2008,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792018305
+    "lastObserved": 1792018789
   },
   "topSongs": [
     {
@@ -46,6 +46,18 @@
       "playlists": {
         "1default": 25,
         "anti-capitalist weekday afternoon #1": 3
+      }
+    },
+    {
+      "artist": "Viagra Boys",
+      "title": "Worms",
+      "album": "Street Worms",
+      "count": 27,
+      "first": 1788991593,
+      "last": 1792018789,
+      "playlists": {
+        "1default": 23,
+        "anti-capitalist weekday afternoon #1": 4
       }
     },
     {
@@ -140,18 +152,6 @@
       "count": 26,
       "first": 1788993017,
       "last": 1791930320,
-      "playlists": {
-        "1default": 23,
-        "anti-capitalist weekday afternoon #1": 3
-      }
-    },
-    {
-      "artist": "Viagra Boys",
-      "title": "Worms",
-      "album": "Street Worms",
-      "count": 26,
-      "first": 1788991593,
-      "last": 1791913334,
       "playlists": {
         "1default": 23,
         "anti-capitalist weekday afternoon #1": 3
@@ -7012,6 +7012,27 @@
       ]
     },
     {
+      "artist": "Viagra Boys",
+      "album": "Street Worms",
+      "count": 27,
+      "first": 1788991593,
+      "last": 1792018789,
+      "songs": [
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 27,
+          "first": 1788991593,
+          "last": 1792018789,
+          "playlists": {
+            "1default": 23,
+            "anti-capitalist weekday afternoon #1": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "George Harrison",
       "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
       "count": 27,
@@ -7207,37 +7228,6 @@
           "playlists": {
             "1default": 22,
             "anti-capitalist weekday afternoon #1": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Siete Catorce",
-      "album": "Cruda",
-      "count": 26,
-      "first": 1789028695,
-      "last": 1791966230,
-      "songs": [
-        {
-          "artist": "Siete Catorce",
-          "title": "Sobriedad",
-          "album": "Cruda",
-          "count": 13,
-          "first": 1789029996,
-          "last": 1791966230,
-          "playlists": {
-            "breakbeat": 13
-          }
-        },
-        {
-          "artist": "Siete Catorce",
-          "title": "Que La Fiesta Nunca Se Acabe",
-          "album": "Cruda",
-          "count": 13,
-          "first": 1789028695,
-          "last": 1791964468,
-          "playlists": {
-            "breakbeat": 13
           }
         }
       ]
@@ -7561,10 +7551,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 403,
+      "count": 405,
       "first": 1788904845,
-      "last": 1792018305,
+      "last": 1792018789,
       "songs": [
+        {
+          "artist": "Paramore",
+          "title": "The News",
+          "album": "This Is Why",
+          "count": 12,
+          "first": 1788996589,
+          "last": 1792018602,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 12
+          }
+        },
         {
           "artist": "Shakey Graves",
           "title": "Chinatown",
@@ -7607,17 +7608,6 @@
           "last": 1791932759,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 12
-          }
-        },
-        {
-          "artist": "Tucker Skaar, brian schnell",
-          "title": "train",
-          "album": "melodically numb",
-          "count": 11,
-          "first": 1789081552,
-          "last": 1792017979,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 11
           }
         }
       ]
