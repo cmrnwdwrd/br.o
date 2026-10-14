@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T23:11:45.661603+00:00",
+  "updatedAt": "2026-10-14T23:16:45.819814+00:00",
   "summary": {
-    "totalPlays": 13719,
+    "totalPlays": 13721,
     "unknownPlays": 1141,
     "uniqueTracks": 2418,
     "uniqueArtists": 1569,
     "uniqueAlbums": 2008,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792019454
+    "lastObserved": 1792019712
   },
   "topSongs": [
     {
@@ -25,6 +25,18 @@
       }
     },
     {
+      "artist": "Ramones",
+      "title": "Judy Is a Punk - 2016 Remaster",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "count": 29,
+      "first": 1788968644,
+      "last": 1792019619,
+      "playlists": {
+        "1default": 25,
+        "anti-capitalist weekday afternoon #1": 4
+      }
+    },
+    {
       "artist": "Tele Novella",
       "title": "Funeral",
       "album": "Poet's Tooth",
@@ -37,15 +49,15 @@
       }
     },
     {
-      "artist": "Ramones",
-      "title": "Judy Is a Punk - 2016 Remaster",
-      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "artist": "Metric",
+      "title": "Dead Disco",
+      "album": "Old World Underground, Where Are You Now?",
       "count": 28,
-      "first": 1788968644,
-      "last": 1791987307,
+      "first": 1788986736,
+      "last": 1792019712,
       "playlists": {
-        "1default": 25,
-        "anti-capitalist weekday afternoon #1": 3
+        "1default": 24,
+        "anti-capitalist weekday afternoon #1": 4
       }
     },
     {
@@ -104,18 +116,6 @@
       "count": 27,
       "first": 1789015368,
       "last": 1791928583,
-      "playlists": {
-        "1default": 24,
-        "anti-capitalist weekday afternoon #1": 3
-      }
-    },
-    {
-      "artist": "Metric",
-      "title": "Dead Disco",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 27,
-      "first": 1788986736,
-      "last": 1791860489,
       "playlists": {
         "1default": 24,
         "anti-capitalist weekday afternoon #1": 3
@@ -3564,6 +3564,37 @@
       ]
     },
     {
+      "artist": "Ramones",
+      "count": 45,
+      "first": 1788968644,
+      "last": 1792019619,
+      "songs": [
+        {
+          "artist": "Ramones",
+          "title": "Judy Is a Punk - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 29,
+          "first": 1788968644,
+          "last": 1792019619,
+          "playlists": {
+            "1default": 25,
+            "anti-capitalist weekday afternoon #1": 4
+          }
+        },
+        {
+          "artist": "Ramones",
+          "title": "Blitzkrieg Bop - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 16,
+          "first": 1788997171,
+          "last": 1791861182,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Cage The Elephant",
       "count": 45,
       "first": 1788928254,
@@ -3601,37 +3632,6 @@
           "playlists": {
             "d i n n e r": 8,
             "carhartts": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Ramones",
-      "count": 44,
-      "first": 1788968644,
-      "last": 1791987307,
-      "songs": [
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 28,
-          "first": 1788968644,
-          "last": 1791987307,
-          "playlists": {
-            "1default": 25,
-            "anti-capitalist weekday afternoon #1": 3
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Blitzkrieg Bop - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 16,
-          "first": 1788997171,
-          "last": 1791861182,
-          "playlists": {
-            "1default": 16
           }
         }
       ]
@@ -4481,6 +4481,38 @@
       ]
     },
     {
+      "artist": "Metric",
+      "count": 34,
+      "first": 1788986736,
+      "last": 1792019712,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 28,
+          "first": 1788986736,
+          "last": 1792019712,
+          "playlists": {
+            "1default": 24,
+            "anti-capitalist weekday afternoon #1": 4
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 6,
+          "first": 1789258725,
+          "last": 1791674730,
+          "playlists": {
+            "sad girl no friends saturday": 5,
+            "texting your situationship": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Olivia Rodrigo",
       "count": 34,
       "first": 1789057000,
@@ -4616,36 +4648,6 @@
           "count": 16,
           "first": 1789054681,
           "last": 1791907135,
-          "playlists": {
-            "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 33,
-      "first": 1788986484,
-      "last": 1791936611,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 17,
-          "first": 1788986484,
-          "last": 1791923250,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 16,
-          "first": 1789231311,
-          "last": 1791936611,
           "playlists": {
             "1default": 16
           }
@@ -5688,20 +5690,20 @@
     {
       "artist": "Ramones",
       "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-      "count": 44,
+      "count": 45,
       "first": 1788968644,
-      "last": 1791987307,
+      "last": 1792019619,
       "songs": [
         {
           "artist": "Ramones",
           "title": "Judy Is a Punk - 2016 Remaster",
           "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 28,
+          "count": 29,
           "first": 1788968644,
-          "last": 1791987307,
+          "last": 1792019619,
           "playlists": {
             "1default": 25,
-            "anti-capitalist weekday afternoon #1": 3
+            "anti-capitalist weekday afternoon #1": 4
           }
         },
         {
@@ -6457,6 +6459,39 @@
       ]
     },
     {
+      "artist": "Metric",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 34,
+      "first": 1788986736,
+      "last": 1792019712,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 28,
+          "first": 1788986736,
+          "last": 1792019712,
+          "playlists": {
+            "1default": 24,
+            "anti-capitalist weekday afternoon #1": 4
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 6,
+          "first": 1789258725,
+          "last": 1791674730,
+          "playlists": {
+            "sad girl no friends saturday": 5,
+            "texting your situationship": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 34,
@@ -6576,39 +6611,6 @@
           "last": 1791914129,
           "playlists": {
             "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 33,
-      "first": 1788986736,
-      "last": 1791860489,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 27,
-          "first": 1788986736,
-          "last": 1791860489,
-          "playlists": {
-            "1default": 24,
-            "anti-capitalist weekday afternoon #1": 3
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 6,
-          "first": 1789258725,
-          "last": 1791674730,
-          "playlists": {
-            "sad girl no friends saturday": 5,
-            "texting your situationship": 1
           }
         }
       ]
@@ -7551,9 +7553,9 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 408,
+      "count": 410,
       "first": 1788904845,
-      "last": 1792019454,
+      "last": 1792019712,
       "songs": [
         {
           "artist": "Crywank",
