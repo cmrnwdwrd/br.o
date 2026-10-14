@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T19:56:44.338828+00:00",
+  "updatedAt": "2026-10-14T20:01:39.366649+00:00",
   "summary": {
-    "totalPlays": 13664,
+    "totalPlays": 13666,
     "unknownPlays": 1141,
     "uniqueTracks": 2418,
     "uniqueArtists": 1569,
     "uniqueAlbums": 2008,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792007585
+    "lastObserved": 1792008044
   },
   "topSongs": [
     {
@@ -1576,10 +1576,21 @@
     },
     {
       "artist": "Opium",
-      "count": 129,
+      "count": 130,
       "first": 1788927400,
-      "last": 1791949115,
+      "last": 1792007814,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 17,
+          "first": 1789057319,
+          "last": 1792007814,
+          "playlists": {
+            "1default": 17
+          }
+        },
         {
           "artist": "Opium",
           "title": "Brainsick",
@@ -1600,17 +1611,6 @@
           "last": 1791912516,
           "playlists": {
             "1default": 17
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 16,
-          "first": 1789057319,
-          "last": 1791949115,
-          "playlists": {
-            "1default": 16
           }
         },
         {
@@ -4655,6 +4655,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Opium",
+      "album": "PHANTOMS",
+      "count": 96,
+      "first": 1788927400,
+      "last": 1792007814,
+      "songs": [
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 17,
+          "first": 1789057319,
+          "last": 1792007814,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 16,
+          "first": 1788946866,
+          "last": 1791941796,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 16,
+          "first": 1789064095,
+          "last": 1791919852,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 16,
+          "first": 1788927400,
+          "last": 1791905232,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 16,
+          "first": 1789109880,
+          "last": 1791857370,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 15,
+          "first": 1788973540,
+          "last": 1791927301,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
       "count": 95,
@@ -4723,81 +4798,6 @@
           "count": 15,
           "first": 1789097184,
           "last": 1791834734,
-          "playlists": {
-            "1default": 15
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Opium",
-      "album": "PHANTOMS",
-      "count": 95,
-      "first": 1788927400,
-      "last": 1791949115,
-      "songs": [
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 16,
-          "first": 1789057319,
-          "last": 1791949115,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 16,
-          "first": 1788946866,
-          "last": 1791941796,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 16,
-          "first": 1789064095,
-          "last": 1791919852,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 16,
-          "first": 1788927400,
-          "last": 1791905232,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 16,
-          "first": 1789109880,
-          "last": 1791857370,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 15,
-          "first": 1788973540,
-          "last": 1791927301,
           "playlists": {
             "1default": 15
           }
@@ -7234,9 +7234,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6355,
+      "count": 6357,
       "first": 1788901564,
-      "last": 1792007585,
+      "last": 1792008044,
       "songs": [
         {
           "artist": "Tele Novella",
