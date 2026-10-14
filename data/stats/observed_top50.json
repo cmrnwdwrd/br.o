@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T16:31:29.155157+00:00",
+  "updatedAt": "2026-10-14T16:36:49.278316+00:00",
   "summary": {
-    "totalPlays": 13609,
+    "totalPlays": 13611,
     "unknownPlays": 1141,
     "uniqueTracks": 2416,
     "uniqueArtists": 1567,
     "uniqueAlbums": 2006,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791995300
+    "lastObserved": 1791995754
   },
   "topSongs": [
     {
@@ -380,6 +380,28 @@
       }
     },
     {
+      "artist": "Fine Young Cannibals",
+      "title": "Good Thing",
+      "album": "The Raw & The Cooked",
+      "count": 18,
+      "first": 1788974590,
+      "last": 1791995754,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 18,
+      "first": 1788914032,
+      "last": 1791995526,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "title": "Keep Pushing",
       "album": "Change the Channel",
@@ -563,28 +585,6 @@
       "count": 18,
       "first": 1788929095,
       "last": 1791913761,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Squirrel Flower",
-      "title": "So Hot You're Hurting My Feelings",
-      "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
-      "count": 18,
-      "first": 1789056580,
-      "last": 1791906924,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "title": "Pawn Shop Prada",
-      "album": "Lick My Soul",
-      "count": 18,
-      "first": 1788919863,
-      "last": 1791903744,
       "playlists": {
         "1default": 18
       }
@@ -4101,6 +4101,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 36,
+      "first": 1788914032,
+      "last": 1791995526,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 18,
+          "first": 1788914032,
+          "last": 1791995526,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 16,
+          "first": 1789222724,
+          "last": 1791918404,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 2,
+          "first": 1790465398,
+          "last": 1791071173,
+          "playlists": {
+            "texting your situationship": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 36,
       "first": 1789061029,
@@ -4405,47 +4446,6 @@
           "last": 1791970389,
           "playlists": {
             "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 35,
-      "first": 1788914032,
-      "last": 1791935931,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 17,
-          "first": 1788914032,
-          "last": 1791935931,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 16,
-          "first": 1789222724,
-          "last": 1791918404,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 2,
-          "first": 1790465398,
-          "last": 1791071173,
-          "playlists": {
-            "texting your situationship": 2
           }
         }
       ]
@@ -7353,9 +7353,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6333,
+      "count": 6335,
       "first": 1788901564,
-      "last": 1791995300,
+      "last": 1791995754,
       "songs": [
         {
           "artist": "Tele Novella",
