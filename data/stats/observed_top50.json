@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T21:01:47.710798+00:00",
+  "updatedAt": "2026-10-14T21:06:46.562318+00:00",
   "summary": {
-    "totalPlays": 13683,
+    "totalPlays": 13684,
     "unknownPlays": 1141,
     "uniqueTracks": 2418,
     "uniqueArtists": 1569,
     "uniqueAlbums": 2008,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792011644
+    "lastObserved": 1792011890
   },
   "topSongs": [
     {
@@ -1672,10 +1672,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 128,
+      "count": 129,
       "first": 1788902047,
-      "last": 1791951605,
+      "last": 1792011890,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Think Too Much",
+          "album": "Think Too Much",
+          "count": 17,
+          "first": 1788964420,
+          "last": 1792011890,
+          "playlists": {
+            "1default": 17
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -1716,17 +1727,6 @@
           "count": 16,
           "first": 1789145316,
           "last": 1791922644,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Think Too Much",
-          "album": "Think Too Much",
-          "count": 16,
-          "first": 1788964420,
-          "last": 1791907932,
           "playlists": {
             "1default": 16
           }
@@ -7234,9 +7234,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6374,
+      "count": 6375,
       "first": 1788901564,
-      "last": 1792011644,
+      "last": 1792011890,
       "songs": [
         {
           "artist": "Tele Novella",
