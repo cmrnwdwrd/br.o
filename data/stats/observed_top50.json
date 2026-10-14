@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-14T09:31:40.566459+00:00",
+  "updatedAt": "2026-10-14T09:36:39.053500+00:00",
   "summary": {
-    "totalPlays": 13484,
+    "totalPlays": 13485,
     "unknownPlays": 1141,
     "uniqueTracks": 2394,
     "uniqueArtists": 1548,
     "uniqueAlbums": 1985,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1791970205
+    "lastObserved": 1791970389
   },
   "topSongs": [
     {
@@ -459,6 +459,17 @@
       }
     },
     {
+      "artist": "Billie Eilish",
+      "title": "everything i wanted",
+      "album": "everything i wanted",
+      "count": 17,
+      "first": 1789169386,
+      "last": 1791970389,
+      "playlists": {
+        "1default": 17
+      }
+    },
+    {
       "artist": "Mint Royale, Posdnuos",
       "title": "Show Me",
       "album": "Dancehall Places",
@@ -575,17 +586,6 @@
       "count": 17,
       "first": 1789032729,
       "last": 1791949944,
-      "playlists": {
-        "1default": 17
-      }
-    },
-    {
-      "artist": "John Grant",
-      "title": "It Doesn't Matter to Him",
-      "album": "Pale Green Ghosts",
-      "count": 17,
-      "first": 1788964915,
-      "last": 1791949555,
       "playlists": {
         "1default": 17
       }
@@ -4422,6 +4422,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 34,
+      "first": 1788989714,
+      "last": 1791970389,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 17,
+          "first": 1789169386,
+          "last": 1791970389,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 17,
+          "first": 1788989714,
+          "last": 1791952147,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 34,
       "first": 1788985030,
@@ -4447,36 +4477,6 @@
           "last": 1791851939,
           "playlists": {
             "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 33,
-      "first": 1788989714,
-      "last": 1791952147,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 17,
-          "first": 1788989714,
-          "last": 1791952147,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 16,
-          "first": 1789169386,
-          "last": 1791854037,
-          "playlists": {
-            "1default": 16
           }
         }
       ]
@@ -7215,9 +7215,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6293,
+      "count": 6294,
       "first": 1788901564,
-      "last": 1791954625,
+      "last": 1791970389,
       "songs": [
         {
           "artist": "Tele Novella",
