@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T14:26:42.391625+00:00",
+  "updatedAt": "2026-10-14T14:31:15.037208+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 475,
+    "sessionCount": 476,
     "firstObserved": 1788901564,
-    "lastObserved": 1791986696
+    "lastObserved": 1791988250
   },
   "playlists": [
     {
       "playlist": "1default",
       "sessionCount": 176,
-      "playCount": 6272,
+      "playCount": 6273,
       "firstObserved": 1788901564,
       "lastObserved": 1791986696,
       "typicalStartMinute": 369,
@@ -81,7 +81,7 @@
           0.0,
           0.0,
           0.0,
-          278.8,
+          282.4,
           267.0,
           300.0,
           236.1,
@@ -434,8 +434,8 @@
           0.0,
           0.0,
           71.0,
-          87.2,
-          60.6,
+          90.0,
+          61.4,
           60.0,
           60.0,
           60.0,
@@ -1129,9 +1129,9 @@
       "recentSessions": [
         {
           "start": 1791986696,
-          "end": 1791988033,
-          "durationMinutes": 22,
-          "playCount": 7
+          "end": 1791988249,
+          "durationMinutes": 26,
+          "playCount": 8
         },
         {
           "start": 1791970389,
@@ -38683,12 +38683,12 @@
     },
     {
       "playlist": "EGG v CHAIN by ione",
-      "sessionCount": 1,
-      "playCount": 27,
+      "sessionCount": 2,
+      "playCount": 28,
       "firstObserved": 1791383435,
-      "lastObserved": 1791383435,
+      "lastObserved": 1791988250,
       "typicalStartMinute": 510,
-      "typicalDurationMinutes": 62,
+      "typicalDurationMinutes": 32,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -38752,7 +38752,7 @@
           0.0,
           0.0,
           0.0,
-          29.4,
+          30.4,
           33.0,
           0.0,
           0.0,
@@ -39106,7 +39106,7 @@
           0.0,
           0.0,
           0.0,
-          14.4,
+          15.4,
           15.0,
           15.0,
           15.0,
@@ -39624,7 +39624,7 @@
           0,
           0,
           0,
-          1,
+          2,
           0,
           0,
           0,
@@ -39749,13 +39749,19 @@
       "likelyWindows": [
         {
           "weekday": 2,
-          "sessions": 1,
+          "sessions": 2,
           "typicalStartMinute": 510,
-          "typicalDurationMinutes": 62,
+          "typicalDurationMinutes": 32,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1791988250,
+          "end": 1791988304,
+          "durationMinutes": 1,
+          "playCount": 1
+        },
         {
           "start": 1791383435,
           "end": 1791387178,
