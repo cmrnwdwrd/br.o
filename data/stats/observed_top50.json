@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-15T20:26:47.226571+00:00",
+  "updatedAt": "2026-10-15T20:31:37.833687+00:00",
   "summary": {
-    "totalPlays": 14055,
+    "totalPlays": 14056,
     "unknownPlays": 1141,
     "uniqueTracks": 2429,
     "uniqueArtists": 1579,
     "uniqueAlbums": 2019,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792095857
+    "lastObserved": 1792096125
   },
   "topSongs": [
     {
@@ -448,6 +448,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 18,
+      "first": 1788970790,
+      "last": 1792096125,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Of Monsters and Men",
       "title": "Visitor",
       "album": "Visitor",
@@ -575,17 +586,6 @@
       "count": 18,
       "first": 1788902251,
       "last": 1792088922,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Sugarloaf",
-      "title": "West Of Tomorrow",
-      "album": "Sugarloaf",
-      "count": 18,
-      "first": 1788968800,
-      "last": 1792088297,
       "playlists": {
         "1default": 18
       }
@@ -3070,6 +3070,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 54,
+      "first": 1788917230,
+      "last": 1792096125,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 19,
+          "first": 1788917230,
+          "last": 1792038318,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 18,
+          "first": 1788970790,
+          "last": 1792096125,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 17,
+          "first": 1789050580,
+          "last": 1792088625,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 53,
       "first": 1788965724,
@@ -3104,47 +3145,6 @@
           "count": 17,
           "first": 1789225488,
           "last": 1791994905,
-          "playlists": {
-            "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 53,
-      "first": 1788917230,
-      "last": 1792088625,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 19,
-          "first": 1788917230,
-          "last": 1792038318,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 17,
-          "first": 1789050580,
-          "last": 1792088625,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 17,
-          "first": 1788970790,
-          "last": 1791913111,
           "playlists": {
             "1default": 17
           }
@@ -7303,9 +7303,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6513,
+      "count": 6514,
       "first": 1788901564,
-      "last": 1792095857,
+      "last": 1792096125,
       "songs": [
         {
           "artist": "Tele Novella",
