@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-15T20:41:52.066058+00:00",
+  "updatedAt": "2026-10-15T20:46:47.239880+00:00",
   "summary": {
-    "totalPlays": 14059,
+    "totalPlays": 14061,
     "unknownPlays": 1141,
     "uniqueTracks": 2429,
     "uniqueArtists": 1579,
     "uniqueAlbums": 2019,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792096686
+    "lastObserved": 1792097139
   },
   "topSongs": [
     {
@@ -45,6 +45,18 @@
       "last": 1791847396,
       "playlists": {
         "1default": 26,
+        "anti-capitalist weekday afternoon #1": 3
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 28,
+      "first": 1789014862,
+      "last": 1792097139,
+      "playlists": {
+        "1default": 25,
         "anti-capitalist weekday afternoon #1": 3
       }
     },
@@ -104,18 +116,6 @@
       "count": 27,
       "first": 1788968149,
       "last": 1791945099,
-      "playlists": {
-        "1default": 24,
-        "anti-capitalist weekday afternoon #1": 3
-      }
-    },
-    {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 27,
-      "first": 1789014862,
-      "last": 1791933967,
       "playlists": {
         "1default": 24,
         "anti-capitalist weekday afternoon #1": 3
@@ -203,6 +203,17 @@
       "playlists": {
         "1default": 22,
         "steal my bike": 1
+      }
+    },
+    {
+      "artist": "Meeting House",
+      "title": "Black Clouds",
+      "album": "Couch Surfer",
+      "count": 21,
+      "first": 1789226222,
+      "last": 1792096929,
+      "playlists": {
+        "1default": 21
       }
     },
     {
@@ -321,17 +332,6 @@
       "playlists": {
         "1default": 19,
         "jack johnson hackiesack friday afternoon": 1
-      }
-    },
-    {
-      "artist": "Meeting House",
-      "title": "Black Clouds",
-      "album": "Couch Surfer",
-      "count": 20,
-      "first": 1789226222,
-      "last": 1791926361,
-      "playlists": {
-        "1default": 20
       }
     },
     {
@@ -7143,6 +7143,27 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 28,
+      "first": 1789014862,
+      "last": 1792097139,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 28,
+          "first": 1789014862,
+          "last": 1792097139,
+          "playlists": {
+            "1default": 25,
+            "anti-capitalist weekday afternoon #1": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Viagra Boys",
       "album": "Street Worms",
       "count": 28,
@@ -7256,56 +7277,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Chappell Roan",
-      "album": "The Rise and Fall of a Midwest Princess",
-      "count": 27,
-      "first": 1788973776,
-      "last": 1792013835,
-      "songs": [
-        {
-          "artist": "Chappell Roan",
-          "title": "My Kink Is Karma",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 16,
-          "first": 1788973776,
-          "last": 1792013835,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Super Graphic Ultra Modern Girl",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 10,
-          "first": 1789428359,
-          "last": 1791843659,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 10
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Pink Pony Club",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 1,
-          "first": 1789883353,
-          "last": 1789883353,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6517,
+      "count": 6519,
       "first": 1788901564,
-      "last": 1792096686,
+      "last": 1792097139,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7316,6 +7295,17 @@
           "last": 1791839262,
           "playlists": {
             "1default": 26
+          }
+        },
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 25,
+          "first": 1789014862,
+          "last": 1792097139,
+          "playlists": {
+            "1default": 25
           }
         },
         {
@@ -7347,17 +7337,6 @@
           "count": 24,
           "first": 1788968149,
           "last": 1791945099,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 24,
-          "first": 1789015368,
-          "last": 1791928583,
           "playlists": {
             "1default": 24
           }
