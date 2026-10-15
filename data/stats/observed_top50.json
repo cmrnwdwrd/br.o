@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-15T05:26:44.124752+00:00",
+  "updatedAt": "2026-10-15T05:31:44.039401+00:00",
   "summary": {
-    "totalPlays": 13804,
+    "totalPlays": 13806,
     "unknownPlays": 1141,
     "uniqueTracks": 2418,
     "uniqueArtists": 1569,
     "uniqueAlbums": 2008,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792041999
+    "lastObserved": 1792042264
   },
   "topSongs": [
     {
@@ -593,10 +593,21 @@
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 291,
+      "count": 292,
       "first": 1788929259,
-      "last": 1792041999,
+      "last": 1792042101,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "5o5",
+          "album": "all killer, no filler",
+          "count": 8,
+          "first": 1789448431,
+          "last": 1792042101,
+          "playlists": {
+            "more home alone": 8
+          }
+        },
         {
           "artist": "home alone.",
           "title": "stegaya",
@@ -813,17 +824,6 @@
           "count": 7,
           "first": 1788929395,
           "last": 1791953943,
-          "playlists": {
-            "more home alone": 7
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "5o5",
-          "album": "all killer, no filler",
-          "count": 7,
-          "first": 1789448431,
-          "last": 1791953679,
           "playlists": {
             "more home alone": 7
           }
@@ -5155,10 +5155,21 @@
     {
       "artist": "home alone.",
       "album": "all killer, no filler",
-      "count": 72,
+      "count": 73,
       "first": 1788929845,
-      "last": 1792041360,
+      "last": 1792042101,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "5o5",
+          "album": "all killer, no filler",
+          "count": 8,
+          "first": 1789448431,
+          "last": 1792042101,
+          "playlists": {
+            "more home alone": 8
+          }
+        },
         {
           "artist": "home alone.",
           "title": "gracious",
@@ -5210,17 +5221,6 @@
           "count": 7,
           "first": 1789015607,
           "last": 1792039769,
-          "playlists": {
-            "more home alone": 7
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "5o5",
-          "album": "all killer, no filler",
-          "count": 7,
-          "first": 1789448431,
-          "last": 1791953679,
           "playlists": {
             "more home alone": 7
           }
@@ -7399,9 +7399,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 1188,
+      "count": 1189,
       "first": 1788938278,
-      "last": 1791970205,
+      "last": 1792042264,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
@@ -7776,6 +7776,69 @@
       ]
     },
     {
+      "playlist": "more home alone",
+      "count": 237,
+      "first": 1788929259,
+      "last": 1792042101,
+      "songs": [
+        {
+          "artist": "home alone.",
+          "title": "5o5",
+          "album": "all killer, no filler",
+          "count": 8,
+          "first": 1789448431,
+          "last": 1792042101,
+          "playlists": {
+            "more home alone": 8
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "stegaya",
+          "album": "Casual Affair.",
+          "count": 8,
+          "first": 1788930024,
+          "last": 1792041999,
+          "playlists": {
+            "more home alone": 8
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "casino royal",
+          "album": "drive it like you stole it.",
+          "count": 8,
+          "first": 1789016383,
+          "last": 1792041822,
+          "playlists": {
+            "more home alone": 8
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "martini",
+          "album": "drive it like you stole it.",
+          "count": 8,
+          "first": 1788929527,
+          "last": 1792041670,
+          "playlists": {
+            "more home alone": 8
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "gesture",
+          "album": "Casual Affair.",
+          "count": 8,
+          "first": 1789016737,
+          "last": 1792041554,
+          "playlists": {
+            "more home alone": 8
+          }
+        }
+      ]
+    },
+    {
       "playlist": "EPL4a",
       "count": 237,
       "first": 1788930925,
@@ -7834,69 +7897,6 @@
           "last": 1791958070,
           "playlists": {
             "EPL4a": 8
-          }
-        }
-      ]
-    },
-    {
-      "playlist": "more home alone",
-      "count": 236,
-      "first": 1788929259,
-      "last": 1792041999,
-      "songs": [
-        {
-          "artist": "home alone.",
-          "title": "stegaya",
-          "album": "Casual Affair.",
-          "count": 8,
-          "first": 1788930024,
-          "last": 1792041999,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "casino royal",
-          "album": "drive it like you stole it.",
-          "count": 8,
-          "first": 1789016383,
-          "last": 1792041822,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "martini",
-          "album": "drive it like you stole it.",
-          "count": 8,
-          "first": 1788929527,
-          "last": 1792041670,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "gesture",
-          "album": "Casual Affair.",
-          "count": 8,
-          "first": 1789016737,
-          "last": 1792041554,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "jeezus",
-          "album": "drive it like you stole it.",
-          "count": 8,
-          "first": 1789017988,
-          "last": 1792041254,
-          "playlists": {
-            "more home alone": 8
           }
         }
       ]
