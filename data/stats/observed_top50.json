@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-15T14:01:55.005596+00:00",
+  "updatedAt": "2026-10-15T14:06:53.100922+00:00",
   "summary": {
-    "totalPlays": 13947,
+    "totalPlays": 13948,
     "unknownPlays": 1141,
     "uniqueTracks": 2420,
     "uniqueArtists": 1571,
     "uniqueAlbums": 2010,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792072723
+    "lastObserved": 1792073163
   },
   "topSongs": [
     {
@@ -403,6 +403,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 18,
+      "first": 1789063255,
+      "last": 1792073163,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "John Grant",
       "title": "It Doesn't Matter to Him",
       "album": "Pale Green Ghosts",
@@ -574,17 +585,6 @@
       "count": 18,
       "first": 1788920950,
       "last": 1792021472,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "The Ephinjis",
-      "title": "Hot to Go!",
-      "album": "Hot to Go!",
-      "count": 18,
-      "first": 1789033065,
-      "last": 1792014631,
       "playlists": {
         "1default": 18
       }
@@ -1948,10 +1948,21 @@
     },
     {
       "artist": "Opium",
-      "count": 133,
+      "count": 134,
       "first": 1788927400,
-      "last": 1792056709,
+      "last": 1792073163,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 18,
+          "first": 1789063255,
+          "last": 1792073163,
+          "playlists": {
+            "1default": 18
+          }
+        },
         {
           "artist": "Opium",
           "title": "Dirge",
@@ -1992,17 +2003,6 @@
           "count": 17,
           "first": 1789057319,
           "last": 1792007814,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 17,
-          "first": 1789063255,
-          "last": 1791934591,
           "playlists": {
             "1default": 17
           }
@@ -7324,9 +7324,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6426,
+      "count": 6427,
       "first": 1788901564,
-      "last": 1792058314,
+      "last": 1792073163,
       "songs": [
         {
           "artist": "Tele Novella",
