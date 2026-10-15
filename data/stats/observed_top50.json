@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-15T03:56:42.521461+00:00",
+  "updatedAt": "2026-10-15T04:01:34.127752+00:00",
   "summary": {
-    "totalPlays": 13774,
+    "totalPlays": 13776,
     "unknownPlays": 1141,
     "uniqueTracks": 2418,
     "uniqueArtists": 1569,
     "uniqueAlbums": 2008,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792036431
+    "lastObserved": 1792036805
   },
   "topSongs": [
     {
@@ -392,6 +392,17 @@
       }
     },
     {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 18,
+      "first": 1789235365,
+      "last": 1792036805,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Radiohead",
       "title": "If You Say the Word",
       "album": "If You Say the Word",
@@ -574,17 +585,6 @@
       "count": 18,
       "first": 1788967539,
       "last": 1791998867,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Leon Bridges",
-      "title": "Steam",
-      "album": "Gold-Diggers Sound",
-      "count": 18,
-      "first": 1788919285,
-      "last": 1791998664,
       "playlists": {
         "1default": 18
       }
@@ -4565,6 +4565,66 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 33,
+      "first": 1789069956,
+      "last": 1792036805,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 18,
+          "first": 1789235365,
+          "last": 1792036805,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 15,
+          "first": 1789069956,
+          "last": 1791910080,
+          "playlists": {
+            "1default": 15
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Kate Bollinger",
+      "count": 33,
+      "first": 1788915657,
+      "last": 1792036671,
+      "songs": [
+        {
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 17,
+          "first": 1788983449,
+          "last": 1792036671,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 16,
+          "first": 1788915657,
+          "last": 1791839886,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 33,
       "first": 1788972865,
@@ -4601,66 +4661,6 @@
           "last": 1790484376,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "David Bowie",
-      "count": 33,
-      "first": 1788912385,
-      "last": 1791997751,
-      "songs": [
-        {
-          "artist": "David Bowie",
-          "title": "I'm Afraid of Americans (V1)",
-          "album": "Legacy (Deluxe Edition)",
-          "count": 17,
-          "first": 1788912385,
-          "last": 1791924331,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "David Bowie",
-          "title": "Rebel Rebel - 2016 Remaster",
-          "album": "Diamond Dogs (2016 Remaster)",
-          "count": 16,
-          "first": 1789129746,
-          "last": 1791997751,
-          "playlists": {
-            "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 33,
-      "first": 1788947810,
-      "last": 1791995955,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 17,
-          "first": 1788947810,
-          "last": 1791995955,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 16,
-          "first": 1789059805,
-          "last": 1791862320,
-          "playlists": {
-            "1default": 16
           }
         }
       ]
@@ -7336,9 +7336,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6403,
+      "count": 6405,
       "first": 1788901564,
-      "last": 1792036431,
+      "last": 1792036805,
       "songs": [
         {
           "artist": "Tele Novella",
