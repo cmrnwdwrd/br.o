@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T12:06:29.934562+00:00",
+  "updatedAt": "2026-10-15T12:11:38.579553+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 489,
+    "sessionCount": 490,
     "firstObserved": 1788901564,
-    "lastObserved": 1792058619
+    "lastObserved": 1792065999
   },
   "playlists": [
     {
@@ -4905,10 +4905,10 @@
     },
     {
       "playlist": "carhartts",
-      "sessionCount": 21,
-      "playCount": 655,
+      "sessionCount": 22,
+      "playCount": 657,
       "firstObserved": 1788955289,
-      "lastObserved": 1791979285,
+      "lastObserved": 1792065999,
       "typicalStartMinute": 362,
       "typicalDurationMinutes": 120,
       "confidence": "High",
@@ -4998,7 +4998,7 @@
           0.0,
           0.0,
           0.0,
-          287.2,
+          293.2,
           300.0,
           9.0,
           0.0,
@@ -5416,7 +5416,7 @@
           0.0,
           0.0,
           0.0,
-          62.2,
+          68.2,
           75.0,
           75.0,
           75.0,
@@ -5870,7 +5870,7 @@
           0,
           0,
           0,
-          5,
+          6,
           0,
           0,
           0,
@@ -5992,13 +5992,19 @@
         },
         {
           "weekday": 3,
-          "sessions": 5,
-          "typicalStartMinute": 362,
+          "sessions": 6,
+          "typicalStartMinute": 363,
           "typicalDurationMinutes": 119,
-          "confidence": "Medium"
+          "confidence": "High"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1792065999,
+          "end": 1792066359,
+          "durationMinutes": 6,
+          "playCount": 2
+        },
         {
           "start": 1791979285,
           "end": 1791986695,
@@ -6112,12 +6118,6 @@
           "end": 1789394543,
           "durationMinutes": 122,
           "playCount": 35
-        },
-        {
-          "start": 1789041675,
-          "end": 1789048838,
-          "durationMinutes": 119,
-          "playCount": 30
         }
       ]
     },
