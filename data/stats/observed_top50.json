@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-15T17:11:46.651858+00:00",
+  "updatedAt": "2026-10-15T17:16:28.268663+00:00",
   "summary": {
-    "totalPlays": 14001,
+    "totalPlays": 14003,
     "unknownPlays": 1141,
     "uniqueTracks": 2429,
     "uniqueArtists": 1579,
     "uniqueAlbums": 2019,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792084216
+    "lastObserved": 1792084555
   },
   "topSongs": [
     {
@@ -49,6 +49,18 @@
       }
     },
     {
+      "artist": "Viagra Boys",
+      "title": "Worms",
+      "album": "Street Worms",
+      "count": 28,
+      "first": 1788991593,
+      "last": 1792084344,
+      "playlists": {
+        "1default": 24,
+        "anti-capitalist weekday afternoon #1": 4
+      }
+    },
+    {
       "artist": "Metric",
       "title": "Dead Disco",
       "album": "Old World Underground, Where Are You Now?",
@@ -57,18 +69,6 @@
       "last": 1792019712,
       "playlists": {
         "1default": 24,
-        "anti-capitalist weekday afternoon #1": 4
-      }
-    },
-    {
-      "artist": "Viagra Boys",
-      "title": "Worms",
-      "album": "Street Worms",
-      "count": 27,
-      "first": 1788991593,
-      "last": 1792018789,
-      "playlists": {
-        "1default": 23,
         "anti-capitalist weekday afternoon #1": 4
       }
     },
@@ -425,6 +425,17 @@
       }
     },
     {
+      "artist": "Sjowgren",
+      "title": "Flip Phones",
+      "album": "win'20",
+      "count": 18,
+      "first": 1789059354,
+      "last": 1792084555,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Royal Blood",
       "title": "Trouble's Coming",
       "album": "Trouble's Coming",
@@ -574,17 +585,6 @@
       "count": 18,
       "first": 1788941810,
       "last": 1792055641,
-      "playlists": {
-        "breakbeat": 18
-      }
-    },
-    {
-      "artist": "Joey Valence & Brae",
-      "title": "THE BADDEST",
-      "album": "NO HANDS",
-      "count": 18,
-      "first": 1788942030,
-      "last": 1792055040,
       "playlists": {
         "breakbeat": 18
       }
@@ -3110,6 +3110,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 52,
+      "first": 1788965724,
+      "last": 1792084555,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 18,
+          "first": 1789059354,
+          "last": 1792084555,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 17,
+          "first": 1789225488,
+          "last": 1791994905,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 17,
+          "first": 1788965724,
+          "last": 1791839494,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 52,
       "first": 1788917230,
@@ -3250,47 +3291,6 @@
           "last": 1791553980,
           "playlists": {
             "hyperpop friday morning": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 51,
-      "first": 1788965724,
-      "last": 1791994905,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 17,
-          "first": 1789225488,
-          "last": 1791994905,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 17,
-          "first": 1789059354,
-          "last": 1791910690,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 17,
-          "first": 1788965724,
-          "last": 1791839494,
-          "playlists": {
-            "1default": 17
           }
         }
       ]
@@ -6609,6 +6609,37 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "album": "win'20",
+      "count": 35,
+      "first": 1789059354,
+      "last": 1792084555,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 18,
+          "first": 1789059354,
+          "last": 1792084555,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 17,
+          "first": 1789225488,
+          "last": 1791994905,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "pear",
       "count": 34,
@@ -6699,37 +6730,6 @@
           "playlists": {
             "sad girl no friends saturday": 5,
             "texting your situationship": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "album": "win'20",
-      "count": 34,
-      "first": 1789059354,
-      "last": 1791994905,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 17,
-          "first": 1789225488,
-          "last": 1791994905,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 17,
-          "first": 1789059354,
-          "last": 1791910690,
-          "playlists": {
-            "1default": 17
           }
         }
       ]
@@ -7303,6 +7303,27 @@
       ]
     },
     {
+      "artist": "Viagra Boys",
+      "album": "Street Worms",
+      "count": 28,
+      "first": 1788991593,
+      "last": 1792084344,
+      "songs": [
+        {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 28,
+          "first": 1788991593,
+          "last": 1792084344,
+          "playlists": {
+            "1default": 24,
+            "anti-capitalist weekday afternoon #1": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Siete Catorce",
       "album": "Cruda",
       "count": 28,
@@ -7349,27 +7370,6 @@
           "last": 1792047180,
           "playlists": {
             "breakbeat": 27
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Viagra Boys",
-      "album": "Street Worms",
-      "count": 27,
-      "first": 1788991593,
-      "last": 1792018789,
-      "songs": [
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 27,
-          "first": 1788991593,
-          "last": 1792018789,
-          "playlists": {
-            "1default": 23,
-            "anti-capitalist weekday afternoon #1": 4
           }
         }
       ]
@@ -7463,9 +7463,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6459,
+      "count": 6461,
       "first": 1788901564,
-      "last": 1792084216,
+      "last": 1792084555,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7490,6 +7490,17 @@
           }
         },
         {
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 24,
+          "first": 1788991593,
+          "last": 1792084344,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
           "album": "Good News For People Who Love Bad News",
@@ -7507,17 +7518,6 @@
           "count": 24,
           "first": 1789015368,
           "last": 1791928583,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 24,
-          "first": 1789014862,
-          "last": 1791924835,
           "playlists": {
             "1default": 24
           }
