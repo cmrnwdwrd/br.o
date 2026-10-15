@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-15T02:21:06.054122+00:00",
+  "updatedAt": "2026-10-15T02:26:42.422899+00:00",
   "summary": {
-    "totalPlays": 13750,
+    "totalPlays": 13751,
     "unknownPlays": 1141,
     "uniqueTracks": 2418,
     "uniqueArtists": 1569,
     "uniqueAlbums": 2008,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792030825
+    "lastObserved": 1792031011
   },
   "topSongs": [
     {
@@ -1576,9 +1576,9 @@
     },
     {
       "artist": "My Chemical Romance",
-      "count": 138,
+      "count": 139,
       "first": 1788965302,
-      "last": 1792030825,
+      "last": 1792031011,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -1759,6 +1759,17 @@
         },
         {
           "artist": "My Chemical Romance",
+          "title": "I Don't Love You",
+          "album": "The Black Parade",
+          "count": 3,
+          "first": 1789610302,
+          "last": 1792031011,
+          "playlists": {
+            "MCR wednesday wind down": 3
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
           "title": "Surrender the Night",
           "album": "Number Five",
           "count": 3,
@@ -1929,17 +1940,6 @@
           "count": 2,
           "first": 1789613815,
           "last": 1790818885,
-          "playlists": {
-            "MCR wednesday wind down": 2
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "I Don't Love You",
-          "album": "The Black Parade",
-          "count": 2,
-          "first": 1789610302,
-          "last": 1790818124,
           "playlists": {
             "MCR wednesday wind down": 2
           }
@@ -6963,73 +6963,11 @@
       ]
     },
     {
-      "artist": "Kasper Marott",
-      "album": "Full Circle",
-      "count": 28,
-      "first": 1788941505,
-      "last": 1791964792,
-      "songs": [
-        {
-          "artist": "Kasper Marott",
-          "title": "Mere",
-          "album": "Full Circle",
-          "count": 15,
-          "first": 1788941505,
-          "last": 1791878019,
-          "playlists": {
-            "breakbeat": 15
-          }
-        },
-        {
-          "artist": "Kasper Marott",
-          "title": "Pling",
-          "album": "Full Circle",
-          "count": 13,
-          "first": 1789018934,
-          "last": 1791964792,
-          "playlists": {
-            "breakbeat": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "MIMIDEATH",
-      "album": "FOAR EVERYWUN FRUM MIMI",
-      "count": 28,
-      "first": 1789021318,
-      "last": 1791964239,
-      "songs": [
-        {
-          "artist": "MIMIDEATH",
-          "title": "the con",
-          "album": "FOAR EVERYWUN FRUM MIMI",
-          "count": 14,
-          "first": 1789022489,
-          "last": 1791964239,
-          "playlists": {
-            "breakbeat": 14
-          }
-        },
-        {
-          "artist": "MIMIDEATH",
-          "title": "abusive",
-          "album": "FOAR EVERYWUN FRUM MIMI",
-          "count": 14,
-          "first": 1789021318,
-          "last": 1791879897,
-          "playlists": {
-            "breakbeat": 14
-          }
-        }
-      ]
-    },
-    {
       "artist": "My Chemical Romance",
       "album": "The Black Parade",
-      "count": 27,
+      "count": 28,
       "first": 1789001951,
-      "last": 1792030097,
+      "last": 1792031011,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -7051,6 +6989,17 @@
           "last": 1791425186,
           "playlists": {
             "MCR wednesday wind down": 4
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "I Don't Love You",
+          "album": "The Black Parade",
+          "count": 3,
+          "first": 1789610302,
+          "last": 1792031011,
+          "playlists": {
+            "MCR wednesday wind down": 3
           }
         },
         {
@@ -7118,16 +7067,67 @@
           "playlists": {
             "MCR wednesday wind down": 2
           }
+        }
+      ]
+    },
+    {
+      "artist": "Kasper Marott",
+      "album": "Full Circle",
+      "count": 28,
+      "first": 1788941505,
+      "last": 1791964792,
+      "songs": [
+        {
+          "artist": "Kasper Marott",
+          "title": "Mere",
+          "album": "Full Circle",
+          "count": 15,
+          "first": 1788941505,
+          "last": 1791878019,
+          "playlists": {
+            "breakbeat": 15
+          }
         },
         {
-          "artist": "My Chemical Romance",
-          "title": "I Don't Love You",
-          "album": "The Black Parade",
-          "count": 2,
-          "first": 1789610302,
-          "last": 1790818124,
+          "artist": "Kasper Marott",
+          "title": "Pling",
+          "album": "Full Circle",
+          "count": 13,
+          "first": 1789018934,
+          "last": 1791964792,
           "playlists": {
-            "MCR wednesday wind down": 2
+            "breakbeat": 13
+          }
+        }
+      ]
+    },
+    {
+      "artist": "MIMIDEATH",
+      "album": "FOAR EVERYWUN FRUM MIMI",
+      "count": 28,
+      "first": 1789021318,
+      "last": 1791964239,
+      "songs": [
+        {
+          "artist": "MIMIDEATH",
+          "title": "the con",
+          "album": "FOAR EVERYWUN FRUM MIMI",
+          "count": 14,
+          "first": 1789022489,
+          "last": 1791964239,
+          "playlists": {
+            "breakbeat": 14
+          }
+        },
+        {
+          "artist": "MIMIDEATH",
+          "title": "abusive",
+          "album": "FOAR EVERYWUN FRUM MIMI",
+          "count": 14,
+          "first": 1789021318,
+          "last": 1791879897,
+          "playlists": {
+            "breakbeat": 14
           }
         }
       ]
