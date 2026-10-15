@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-15T21:21:49.435768+00:00",
+  "updatedAt": "2026-10-15T21:26:45.788636+00:00",
   "summary": {
-    "totalPlays": 14070,
+    "totalPlays": 14071,
     "unknownPlays": 1141,
     "uniqueTracks": 2429,
     "uniqueArtists": 1579,
     "uniqueAlbums": 2019,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792099044
+    "lastObserved": 1792099380
   },
   "topSongs": [
     {
@@ -448,6 +448,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Sunday Bloody Sunday - Remastered 2008",
+      "album": "War (Remastered)",
+      "count": 18,
+      "first": 1788921291,
+      "last": 1792099380,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "THE KIDS ARE ALL RETARDED",
       "album": "SWAMP",
@@ -575,17 +586,6 @@
       "count": 18,
       "first": 1788972349,
       "last": 1792089869,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "title": "Texas Sun",
-      "album": "Texas Sun",
-      "count": 18,
-      "first": 1788986484,
-      "last": 1792089264,
       "playlists": {
         "1default": 18
       }
@@ -4071,6 +4071,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 37,
+      "first": 1788921291,
+      "last": 1792099380,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 19,
+          "first": 1788964687,
+          "last": 1791992671,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 18,
+          "first": 1788921291,
+          "last": 1792099380,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 37,
       "first": 1789061029,
@@ -4302,36 +4332,6 @@
           "last": 1792010250,
           "playlists": {
             "1default": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 36,
-      "first": 1788921291,
-      "last": 1791992671,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 19,
-          "first": 1788964687,
-          "last": 1791992671,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 17,
-          "first": 1788921291,
-          "last": 1791914476,
-          "playlists": {
-            "1default": 17
           }
         }
       ]
@@ -7282,9 +7282,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6528,
+      "count": 6529,
       "first": 1788901564,
-      "last": 1792099044,
+      "last": 1792099380,
       "songs": [
         {
           "artist": "Tele Novella",
