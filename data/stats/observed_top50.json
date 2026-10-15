@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-15T20:16:27.394683+00:00",
+  "updatedAt": "2026-10-15T20:21:52.389248+00:00",
   "summary": {
-    "totalPlays": 14052,
+    "totalPlays": 14054,
     "unknownPlays": 1141,
     "uniqueTracks": 2429,
     "uniqueArtists": 1579,
     "uniqueAlbums": 2019,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792095286
+    "lastObserved": 1792095681
   },
   "topSongs": [
     {
@@ -448,6 +448,17 @@
       }
     },
     {
+      "artist": "Yumi Zouma",
+      "title": "Right Track / Wrong Man",
+      "album": "Truth or Consequences",
+      "count": 18,
+      "first": 1789057143,
+      "last": 1792095681,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Blue October",
       "title": "Into The Ocean",
       "album": "Foiled",
@@ -575,17 +586,6 @@
       "count": 18,
       "first": 1789062154,
       "last": 1792086349,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "BENEE",
-      "title": "Sad Boiii",
-      "album": "Sad Boiii",
-      "count": 18,
-      "first": 1788911174,
-      "last": 1792085224,
       "playlists": {
         "1default": 18
       }
@@ -4482,6 +4482,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 34,
+      "first": 1789054681,
+      "last": 1792095681,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 18,
+          "first": 1789057143,
+          "last": 1792095681,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 16,
+          "first": 1789054681,
+          "last": 1791907135,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 34,
       "first": 1788986484,
@@ -4610,58 +4640,6 @@
           "playlists": {
             "sad girl no friends saturday": 5,
             "texting your situationship": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "count": 34,
-      "first": 1789057000,
-      "last": 1792019454,
-      "songs": [
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "brutal",
-          "album": "SOUR",
-          "count": 18,
-          "first": 1789057000,
-          "last": 1791999816,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "all-american bitch",
-          "album": "GUTS",
-          "count": 11,
-          "first": 1789081344,
-          "last": 1792019454,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 11
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "bad idea right?",
-          "album": "GUTS",
-          "count": 4,
-          "first": 1789259545,
-          "last": 1791071409,
-          "playlists": {
-            "texting your situationship": 4
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "the grudge",
-          "album": "GUTS",
-          "count": 1,
-          "first": 1791696144,
-          "last": 1791696144,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -7325,9 +7303,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6510,
+      "count": 6512,
       "first": 1788901564,
-      "last": 1792095286,
+      "last": 1792095681,
       "songs": [
         {
           "artist": "Tele Novella",
