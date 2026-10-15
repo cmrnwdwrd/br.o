@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-15T21:26:45.788636+00:00",
+  "updatedAt": "2026-10-15T21:31:50.523869+00:00",
   "summary": {
-    "totalPlays": 14071,
+    "totalPlays": 14073,
     "unknownPlays": 1141,
     "uniqueTracks": 2429,
     "uniqueArtists": 1579,
     "uniqueAlbums": 2019,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792099380
+    "lastObserved": 1792099914
   },
   "topSongs": [
     {
@@ -448,6 +448,17 @@
       }
     },
     {
+      "artist": "Medium Troy",
+      "title": "Space Tree",
+      "album": "Space Tree",
+      "count": 18,
+      "first": 1788990730,
+      "last": 1792099659,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "U2",
       "title": "Sunday Bloody Sunday - Remastered 2008",
       "album": "War (Remastered)",
@@ -575,17 +586,6 @@
       "count": 18,
       "first": 1788972025,
       "last": 1792090404,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "a machine as big as a city with a concert at the center",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 18,
-      "first": 1788972349,
-      "last": 1792089869,
       "playlists": {
         "1default": 18
       }
@@ -4452,6 +4452,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 35,
+      "first": 1788986484,
+      "last": 1792099914,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 18,
+          "first": 1788986484,
+          "last": 1792089264,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 17,
+          "first": 1789231311,
+          "last": 1792099914,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 35,
       "first": 1788989714,
@@ -4505,36 +4535,6 @@
           "count": 16,
           "first": 1789054681,
           "last": 1791907135,
-          "playlists": {
-            "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 34,
-      "first": 1788986484,
-      "last": 1792089264,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 18,
-          "first": 1788986484,
-          "last": 1792089264,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 16,
-          "first": 1789231311,
-          "last": 1791936611,
           "playlists": {
             "1default": 16
           }
@@ -7282,9 +7282,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6529,
+      "count": 6531,
       "first": 1788901564,
-      "last": 1792099380,
+      "last": 1792099914,
       "songs": [
         {
           "artist": "Tele Novella",
