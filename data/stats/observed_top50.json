@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-16T23:01:49.292426+00:00",
+  "updatedAt": "2026-10-16T23:06:46.981529+00:00",
   "summary": {
-    "totalPlays": 14455,
+    "totalPlays": 14457,
     "unknownPlays": 1141,
     "uniqueTracks": 2433,
     "uniqueArtists": 1582,
     "uniqueAlbums": 2023,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792191599
+    "lastObserved": 1792191957
   },
   "topSongs": [
     {
@@ -493,6 +493,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 18,
+      "first": 1788975084,
+      "last": 1792191769,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Led Zeppelin",
       "title": "Dazed and Confused - 1990 Remaster",
       "album": "Led Zeppelin",
@@ -576,17 +587,6 @@
       "count": 18,
       "first": 1788989164,
       "last": 1792168704,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "ruzlxn",
-      "title": "BURN YOUR LOCAL POLITICIAN !",
-      "album": "GRITTED TEETH *",
-      "count": 18,
-      "first": 1788914259,
-      "last": 1792166940,
       "playlists": {
         "1default": 18
       }
@@ -4254,6 +4254,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 38,
+      "first": 1788919285,
+      "last": 1792191769,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 18,
+          "first": 1788975084,
+          "last": 1792191769,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 18,
+          "first": 1788919285,
+          "last": 1791998664,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 2,
+          "first": 1789893243,
+          "last": 1791702861,
+          "playlists": {
+            "christmas rn": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 38,
       "first": 1788990464,
@@ -4465,47 +4506,6 @@
           "last": 1791071173,
           "playlists": {
             "texting your situationship": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 37,
-      "first": 1788919285,
-      "last": 1791998664,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 18,
-          "first": 1788919285,
-          "last": 1791998664,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 17,
-          "first": 1788975084,
-          "last": 1791884151,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 2,
-          "first": 1789893243,
-          "last": 1791702861,
-          "playlists": {
-            "christmas rn": 2
           }
         }
       ]
@@ -7447,9 +7447,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6666,
+      "count": 6668,
       "first": 1788901564,
-      "last": 1792191599,
+      "last": 1792191957,
       "songs": [
         {
           "artist": "Tele Novella",
