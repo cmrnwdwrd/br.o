@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-16T18:21:49.076570+00:00",
+  "updatedAt": "2026-10-16T18:26:08.172373+00:00",
   "summary": {
-    "totalPlays": 14380,
+    "totalPlays": 14382,
     "unknownPlays": 1141,
     "uniqueTracks": 2433,
     "uniqueArtists": 1582,
     "uniqueAlbums": 2023,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792174870
+    "lastObserved": 1792175049
   },
   "topSongs": [
     {
@@ -2312,10 +2312,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 78,
+      "count": 79,
       "first": 1789147116,
-      "last": 1792174488,
+      "last": 1792174727,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Times Like These",
+          "album": "On And On",
+          "count": 4,
+          "first": 1789152330,
+          "last": 1792174727,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 4
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "My Mind Is For Sale",
@@ -2411,17 +2422,6 @@
           "count": 3,
           "first": 1789751746,
           "last": 1791572147,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 3
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Times Like These",
-          "album": "On And On",
-          "count": 3,
-          "first": 1789152330,
-          "last": 1790965719,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 3
           }
