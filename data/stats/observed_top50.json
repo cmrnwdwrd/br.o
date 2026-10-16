@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-16T03:26:44.645035+00:00",
+  "updatedAt": "2026-10-16T03:31:47.376969+00:00",
   "summary": {
-    "totalPlays": 14167,
+    "totalPlays": 14168,
     "unknownPlays": 1141,
     "uniqueTracks": 2431,
     "uniqueArtists": 1581,
     "uniqueAlbums": 2021,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792121106
+    "lastObserved": 1792121372
   },
   "topSongs": [
     {
@@ -471,6 +471,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "gettingyoutobelieve",
+      "album": "pear",
+      "count": 18,
+      "first": 1788920755,
+      "last": 1792121372,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "The Czars",
       "title": "Killjoy",
       "album": "Best Of",
@@ -576,17 +587,6 @@
       "count": 18,
       "first": 1788930667,
       "last": 1792109256,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "The Ephinjis",
-      "title": "Knives",
-      "album": "Knives",
-      "count": 18,
-      "first": 1788973998,
-      "last": 1792108231,
       "playlists": {
         "1default": 18
       }
@@ -2312,10 +2312,21 @@
     },
     {
       "artist": "botch",
-      "count": 68,
+      "count": 69,
       "first": 1788920755,
-      "last": 1792089869,
+      "last": 1792121372,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 18,
+          "first": 1788920755,
+          "last": 1792121372,
+          "playlists": {
+            "1default": 18
+          }
+        },
         {
           "artist": "botch",
           "title": "a machine as big as a city with a concert at the center",
@@ -2334,17 +2345,6 @@
           "count": 17,
           "first": 1788963025,
           "last": 1792058314,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 17,
-          "first": 1788920755,
-          "last": 1791838366,
           "playlists": {
             "1default": 17
           }
@@ -6439,6 +6439,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 35,
+      "first": 1788920755,
+      "last": 1792121372,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 18,
+          "first": 1788920755,
+          "last": 1792121372,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 17,
+          "first": 1788963025,
+          "last": 1792058314,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 35,
@@ -6591,37 +6622,6 @@
           "last": 1791920928,
           "playlists": {
             "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 34,
-      "first": 1788920755,
-      "last": 1792058314,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 17,
-          "first": 1788963025,
-          "last": 1792058314,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 17,
-          "first": 1788920755,
-          "last": 1791838366,
-          "playlists": {
-            "1default": 17
           }
         }
       ]
@@ -7294,9 +7294,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6581,
+      "count": 6582,
       "first": 1788901564,
-      "last": 1792121106,
+      "last": 1792121372,
       "songs": [
         {
           "artist": "Tele Novella",
