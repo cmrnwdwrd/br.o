@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-16T23:26:49.540290+00:00",
+  "updatedAt": "2026-10-16T23:31:53.224658+00:00",
   "summary": {
-    "totalPlays": 14463,
+    "totalPlays": 14464,
     "unknownPlays": 1141,
     "uniqueTracks": 2433,
     "uniqueArtists": 1582,
     "uniqueAlbums": 2023,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792193135
+    "lastObserved": 1792193332
   },
   "topSongs": [
     {
@@ -493,6 +493,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 18,
+      "first": 1788965930,
+      "last": 1792193332,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Bad Bad Hats",
       "title": "Walkman",
       "album": "Walkman",
@@ -576,17 +587,6 @@
       "count": 18,
       "first": 1788916765,
       "last": 1792170215,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Tōth",
-      "title": "Song to Make You Fall in Love With Me",
-      "album": "Practice Magic and Seek Professional Help When Necessary",
-      "count": 18,
-      "first": 1788996775,
-      "last": 1792169619,
       "playlists": {
         "1default": 18
       }
@@ -3454,6 +3454,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 51,
+      "first": 1788965930,
+      "last": 1792193332,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 18,
+          "first": 1788965930,
+          "last": 1792193332,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 17,
+          "first": 1789068640,
+          "last": 1792190559,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 16,
+          "first": 1789215234,
+          "last": 1792094463,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 51,
       "first": 1788947368,
@@ -3488,47 +3529,6 @@
           "count": 16,
           "first": 1789086174,
           "last": 1792057269,
-          "playlists": {
-            "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 50,
-      "first": 1788965930,
-      "last": 1792190559,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 17,
-          "first": 1789068640,
-          "last": 1792190559,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 17,
-          "first": 1788965930,
-          "last": 1791943659,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 16,
-          "first": 1789215234,
-          "last": 1792094463,
           "playlists": {
             "1default": 16
           }
@@ -7447,9 +7447,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6674,
+      "count": 6675,
       "first": 1788901564,
-      "last": 1792193135,
+      "last": 1792193332,
       "songs": [
         {
           "artist": "Tele Novella",
