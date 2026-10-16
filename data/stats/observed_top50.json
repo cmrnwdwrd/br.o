@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-16T16:41:32.221132+00:00",
+  "updatedAt": "2026-10-16T16:46:07.092089+00:00",
   "summary": {
-    "totalPlays": 14353,
+    "totalPlays": 14354,
     "unknownPlays": 1141,
     "uniqueTracks": 2431,
     "uniqueArtists": 1581,
     "uniqueAlbums": 2021,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792168861
+    "lastObserved": 1792169121
   },
   "topSongs": [
     {
@@ -493,6 +493,17 @@
       }
     },
     {
+      "artist": "David Bowie",
+      "title": "I'm Afraid of Americans (V1)",
+      "album": "Legacy (Deluxe Edition)",
+      "count": 18,
+      "first": 1788912385,
+      "last": 1792169121,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "title": "STUPIDMOTHERFUCKER",
       "album": "Lick My Soul",
@@ -576,17 +587,6 @@
       "count": 18,
       "first": 1788913008,
       "last": 1792154855,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Twen",
-      "title": "One Stop Shop (For A Fading Revolution)",
-      "album": "One Stop Shop",
-      "count": 18,
-      "first": 1789056787,
-      "last": 1792144728,
       "playlists": {
         "1default": 18
       }
@@ -4608,6 +4608,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 34,
+      "first": 1788912385,
+      "last": 1792169121,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 18,
+          "first": 1788912385,
+          "last": 1792169121,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 16,
+          "first": 1789129746,
+          "last": 1791997751,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "count": 34,
       "first": 1788947080,
@@ -4633,36 +4663,6 @@
           "last": 1792164279,
           "playlists": {
             "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 34,
-      "first": 1788947810,
-      "last": 1792153667,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 17,
-          "first": 1789059805,
-          "last": 1792153667,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 17,
-          "first": 1788947810,
-          "last": 1791995955,
-          "playlists": {
-            "1default": 17
           }
         }
       ]
@@ -7326,9 +7326,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6640,
+      "count": 6641,
       "first": 1788901564,
-      "last": 1792168861,
+      "last": 1792169121,
       "songs": [
         {
           "artist": "Tele Novella",
