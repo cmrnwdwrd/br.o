@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-16T09:21:50.384449+00:00",
+  "updatedAt": "2026-10-16T09:26:47.410671+00:00",
   "summary": {
-    "totalPlays": 14258,
+    "totalPlays": 14260,
     "unknownPlays": 1141,
     "uniqueTracks": 2431,
     "uniqueArtists": 1581,
     "uniqueAlbums": 2021,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792142339
+    "lastObserved": 1792142721
   },
   "topSongs": [
     {
@@ -348,6 +348,17 @@
     },
     {
       "artist": "Joey Valence & Brae",
+      "title": "Crank It Up",
+      "album": "Crank It Up",
+      "count": 19,
+      "first": 1788938278,
+      "last": 1792142549,
+      "playlists": {
+        "breakbeat": 19
+      }
+    },
+    {
+      "artist": "Joey Valence & Brae",
       "title": "THE BADDEST",
       "album": "NO HANDS",
       "count": 19,
@@ -482,6 +493,17 @@
       }
     },
     {
+      "artist": "Sinistarr",
+      "title": "I Pop, I Jit",
+      "album": "Naine Rouge EP",
+      "count": 18,
+      "first": 1788939947,
+      "last": 1792142721,
+      "playlists": {
+        "breakbeat": 18
+      }
+    },
+    {
       "artist": "Mint Royale, Posdnuos",
       "title": "Show Me",
       "album": "Dancehall Places",
@@ -565,28 +587,6 @@
       "count": 18,
       "first": 1788927095,
       "last": 1792133389,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Arcade Fire",
-      "title": "Wake Up",
-      "album": "Funeral",
-      "count": 18,
-      "first": 1788989909,
-      "last": 1792132790,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "gettingyoutobelieve",
-      "album": "pear",
-      "count": 18,
-      "first": 1788920755,
-      "last": 1792121372,
       "playlists": {
         "1default": 18
       }
@@ -2311,6 +2311,58 @@
       ]
     },
     {
+      "artist": "Joey Valence & Brae",
+      "count": 69,
+      "first": 1788938278,
+      "last": 1792142549,
+      "songs": [
+        {
+          "artist": "Joey Valence & Brae",
+          "title": "Crank It Up",
+          "album": "Crank It Up",
+          "count": 19,
+          "first": 1788938278,
+          "last": 1792142549,
+          "playlists": {
+            "breakbeat": 19
+          }
+        },
+        {
+          "artist": "Joey Valence & Brae",
+          "title": "THE BADDEST",
+          "album": "NO HANDS",
+          "count": 19,
+          "first": 1788942030,
+          "last": 1792135242,
+          "playlists": {
+            "breakbeat": 19
+          }
+        },
+        {
+          "artist": "Joey Valence & Brae",
+          "title": "STARTAFIGHT",
+          "album": "PUNK TACTICS",
+          "count": 16,
+          "first": 1788939624,
+          "last": 1792055184,
+          "playlists": {
+            "breakbeat": 16
+          }
+        },
+        {
+          "artist": "Joey Valence & Brae",
+          "title": "Underground Sound",
+          "album": "Underground Sound",
+          "count": 15,
+          "first": 1789031460,
+          "last": 1792050954,
+          "playlists": {
+            "breakbeat": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "count": 69,
       "first": 1788920755,
@@ -2358,58 +2410,6 @@
           "last": 1791920928,
           "playlists": {
             "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Joey Valence & Brae",
-      "count": 68,
-      "first": 1788938278,
-      "last": 1792135242,
-      "songs": [
-        {
-          "artist": "Joey Valence & Brae",
-          "title": "THE BADDEST",
-          "album": "NO HANDS",
-          "count": 19,
-          "first": 1788942030,
-          "last": 1792135242,
-          "playlists": {
-            "breakbeat": 19
-          }
-        },
-        {
-          "artist": "Joey Valence & Brae",
-          "title": "Crank It Up",
-          "album": "Crank It Up",
-          "count": 18,
-          "first": 1788938278,
-          "last": 1792054362,
-          "playlists": {
-            "breakbeat": 18
-          }
-        },
-        {
-          "artist": "Joey Valence & Brae",
-          "title": "STARTAFIGHT",
-          "album": "PUNK TACTICS",
-          "count": 16,
-          "first": 1788939624,
-          "last": 1792055184,
-          "playlists": {
-            "breakbeat": 16
-          }
-        },
-        {
-          "artist": "Joey Valence & Brae",
-          "title": "Underground Sound",
-          "album": "Underground Sound",
-          "count": 15,
-          "first": 1789031460,
-          "last": 1792050954,
-          "playlists": {
-            "breakbeat": 15
           }
         }
       ]
@@ -7420,9 +7420,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 1297,
+      "count": 1299,
       "first": 1788938278,
-      "last": 1792142339,
+      "last": 1792142721,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
@@ -7437,6 +7437,17 @@
         },
         {
           "artist": "Joey Valence & Brae",
+          "title": "Crank It Up",
+          "album": "Crank It Up",
+          "count": 19,
+          "first": 1788938278,
+          "last": 1792142549,
+          "playlists": {
+            "breakbeat": 19
+          }
+        },
+        {
+          "artist": "Joey Valence & Brae",
           "title": "THE BADDEST",
           "album": "NO HANDS",
           "count": 19,
@@ -7447,34 +7458,23 @@
           }
         },
         {
+          "artist": "Sinistarr",
+          "title": "I Pop, I Jit",
+          "album": "Naine Rouge EP",
+          "count": 18,
+          "first": 1788939947,
+          "last": 1792142721,
+          "playlists": {
+            "breakbeat": 18
+          }
+        },
+        {
           "artist": "Mint Royale, Posdnuos",
           "title": "Show Me",
           "album": "Dancehall Places",
           "count": 18,
           "first": 1789030424,
           "last": 1792141959,
-          "playlists": {
-            "breakbeat": 18
-          }
-        },
-        {
-          "artist": "Herbal T",
-          "title": "That's It",
-          "album": "Lo-Fi Blow Dry",
-          "count": 18,
-          "first": 1788943119,
-          "last": 1792139304,
-          "playlists": {
-            "breakbeat": 18
-          }
-        },
-        {
-          "artist": "usedcvnt",
-          "title": "they called me Violet",
-          "album": "they called me Violet",
-          "count": 18,
-          "first": 1788940409,
-          "last": 1792138557,
           "playlists": {
             "breakbeat": 18
           }
