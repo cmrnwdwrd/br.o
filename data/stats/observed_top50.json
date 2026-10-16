@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-16T01:01:32.452144+00:00",
+  "updatedAt": "2026-10-16T01:06:11.897716+00:00",
   "summary": {
-    "totalPlays": 14128,
+    "totalPlays": 14130,
     "unknownPlays": 1141,
     "uniqueTracks": 2429,
     "uniqueArtists": 1579,
     "uniqueAlbums": 2019,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792112359
+    "lastObserved": 1792112730
   },
   "topSongs": [
     {
@@ -347,6 +347,17 @@
       }
     },
     {
+      "artist": "Vampire Weekend",
+      "title": "How Long?",
+      "album": "Father of the Bride",
+      "count": 19,
+      "first": 1788990464,
+      "last": 1792112730,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Pinegrove",
       "title": "Need 2",
       "album": "Everything So Far",
@@ -460,6 +471,17 @@
       }
     },
     {
+      "artist": "The Shivas",
+      "title": "You Make Me Wanna Die",
+      "album": "You Know What to Do",
+      "count": 18,
+      "first": 1788975450,
+      "last": 1792112560,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Bell X1",
       "title": "The Great Defector",
       "album": "Blue Lights on the Runway",
@@ -565,28 +587,6 @@
       "count": 18,
       "first": 1789059997,
       "last": 1792100425,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Medium Troy",
-      "title": "Space Tree",
-      "album": "Space Tree",
-      "count": 18,
-      "first": 1788990730,
-      "last": 1792099659,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Sunday Bloody Sunday - Remastered 2008",
-      "album": "War (Remastered)",
-      "count": 18,
-      "first": 1788921291,
-      "last": 1792099380,
       "playlists": {
         "1default": 18
       }
@@ -4072,6 +4072,47 @@
       ]
     },
     {
+      "artist": "Vampire Weekend",
+      "count": 38,
+      "first": 1788990464,
+      "last": 1792112730,
+      "songs": [
+        {
+          "artist": "Vampire Weekend",
+          "title": "How Long?",
+          "album": "Father of the Bride",
+          "count": 19,
+          "first": 1788990464,
+          "last": 1792112730,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Harmony Hall",
+          "album": "Father of the Bride",
+          "count": 16,
+          "first": 1789108965,
+          "last": 1792034559,
+          "playlists": {
+            "1default": 16
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Campus",
+          "album": "Vampire Weekend",
+          "count": 3,
+          "first": 1789762855,
+          "last": 1791581510,
+          "playlists": {
+            "escaping from cu boulder by giselle": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 37,
       "first": 1788921291,
@@ -4190,47 +4231,6 @@
           "last": 1791071173,
           "playlists": {
             "texting your situationship": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Vampire Weekend",
-      "count": 37,
-      "first": 1788990464,
-      "last": 1792034559,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 18,
-          "first": 1788990464,
-          "last": 1791866516,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 16,
-          "first": 1789108965,
-          "last": 1792034559,
-          "playlists": {
-            "1default": 16
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Campus",
-          "album": "Vampire Weekend",
-          "count": 3,
-          "first": 1789762855,
-          "last": 1791581510,
-          "playlists": {
-            "escaping from cu boulder by giselle": 3
           }
         }
       ]
@@ -6439,6 +6439,37 @@
       ]
     },
     {
+      "artist": "Vampire Weekend",
+      "album": "Father of the Bride",
+      "count": 35,
+      "first": 1788990464,
+      "last": 1792112730,
+      "songs": [
+        {
+          "artist": "Vampire Weekend",
+          "title": "How Long?",
+          "album": "Father of the Bride",
+          "count": 19,
+          "first": 1788990464,
+          "last": 1792112730,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Harmony Hall",
+          "album": "Father of the Bride",
+          "count": 16,
+          "first": 1789108965,
+          "last": 1792034559,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "album": "Old World Underground, Where Are You Now?",
       "count": 35,
@@ -6560,37 +6591,6 @@
           "last": 1791838366,
           "playlists": {
             "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Vampire Weekend",
-      "album": "Father of the Bride",
-      "count": 34,
-      "first": 1788990464,
-      "last": 1792034559,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 18,
-          "first": 1788990464,
-          "last": 1791866516,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 16,
-          "first": 1789108965,
-          "last": 1792034559,
-          "playlists": {
-            "1default": 16
           }
         }
       ]
@@ -7294,9 +7294,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6563,
+      "count": 6565,
       "first": 1788901564,
-      "last": 1792112359,
+      "last": 1792112730,
       "songs": [
         {
           "artist": "Tele Novella",
