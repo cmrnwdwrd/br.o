@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-16T14:46:50.544371+00:00",
+  "updatedAt": "2026-10-16T14:51:48.793856+00:00",
   "summary": {
-    "totalPlays": 14321,
+    "totalPlays": 14323,
     "unknownPlays": 1141,
     "uniqueTracks": 2431,
     "uniqueArtists": 1581,
     "uniqueAlbums": 2021,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792161929
+    "lastObserved": 1792162288
   },
   "topSongs": [
     {
@@ -7798,10 +7798,21 @@
     },
     {
       "playlist": "hyperpop friday morning",
-      "count": 250,
+      "count": 252,
       "first": 1789131775,
-      "last": 1792161929,
+      "last": 1792162288,
       "songs": [
+        {
+          "artist": "Aliyah's Interlude",
+          "title": "IT GIRL",
+          "album": "IT GIRL",
+          "count": 6,
+          "first": 1789135151,
+          "last": 1792162288,
+          "playlists": {
+            "hyperpop friday morning": 6
+          }
+        },
         {
           "artist": "tsubi club",
           "title": "burbank house",
@@ -7844,17 +7855,6 @@
           "last": 1792157949,
           "playlists": {
             "hyperpop friday morning": 6
-          }
-        },
-        {
-          "artist": "Chase Icon",
-          "title": "Bang (My Body)",
-          "album": "The Girlfriend Experience",
-          "count": 5,
-          "first": 1789131990,
-          "last": 1792161929,
-          "playlists": {
-            "hyperpop friday morning": 5
           }
         }
       ]
