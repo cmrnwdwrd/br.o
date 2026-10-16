@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-16T18:41:13.581314+00:00",
+  "updatedAt": "2026-10-16T18:46:52.455647+00:00",
   "summary": {
-    "totalPlays": 14386,
+    "totalPlays": 14387,
     "unknownPlays": 1141,
     "uniqueTracks": 2433,
     "uniqueArtists": 1582,
     "uniqueAlbums": 2023,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792176050
+    "lastObserved": 1792176253
   },
   "topSongs": [
     {
@@ -2312,10 +2312,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 80,
+      "count": 81,
       "first": 1789147116,
-      "last": 1792176050,
+      "last": 1792176253,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Sleep Through The Static",
+          "album": "Sleep Through The Static",
+          "count": 4,
+          "first": 1789147998,
+          "last": 1792176253,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 4
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Times Like These",
@@ -2433,17 +2444,6 @@
           "count": 3,
           "first": 1789751746,
           "last": 1791572147,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 3
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Sleep Through The Static",
-          "album": "Sleep Through The Static",
-          "count": 3,
-          "first": 1789147998,
-          "last": 1790961873,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 3
           }
