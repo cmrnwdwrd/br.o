@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-16T18:02:25.617460+00:00",
+  "updatedAt": "2026-10-16T18:06:45.174622+00:00",
   "summary": {
-    "totalPlays": 14375,
+    "totalPlays": 14376,
     "unknownPlays": 1141,
     "uniqueTracks": 2431,
     "uniqueArtists": 1581,
     "uniqueAlbums": 2021,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792173721
+    "lastObserved": 1792173843
   },
   "topSongs": [
     {
@@ -2312,10 +2312,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 74,
+      "count": 75,
       "first": 1789147116,
-      "last": 1792173721,
+      "last": 1792173843,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Never Know",
+          "album": "In Between Dreams",
+          "count": 4,
+          "first": 1789150701,
+          "last": 1792173843,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 4
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Angel",
@@ -2389,17 +2400,6 @@
           "count": 3,
           "first": 1789751746,
           "last": 1791572147,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 3
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Never Know",
-          "album": "In Between Dreams",
-          "count": 3,
-          "first": 1789150701,
-          "last": 1790966675,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 3
           }
