@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-17T13:06:08.656361+00:00",
+  "updatedAt": "2026-10-17T13:16:50.840866+00:00",
   "summary": {
-    "totalPlays": 14625,
+    "totalPlays": 14628,
     "unknownPlays": 1141,
     "uniqueTracks": 2433,
     "uniqueArtists": 1582,
     "uniqueAlbums": 2023,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792242300
+    "lastObserved": 1792242894
   },
   "topSongs": [
     {
@@ -393,6 +393,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 19,
+      "first": 1788985030,
+      "last": 1792242666,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Hotel Ugly",
       "title": "Shut up My Moms Calling",
       "album": "Shut up My Moms Calling",
@@ -577,17 +588,6 @@
       "last": 1792135242,
       "playlists": {
         "breakbeat": 19
-      }
-    },
-    {
-      "artist": "Vampire Weekend",
-      "title": "How Long?",
-      "album": "Father of the Bride",
-      "count": 19,
-      "first": 1788990464,
-      "last": 1792112730,
-      "playlists": {
-        "1default": 19
       }
     }
   ],
@@ -4305,6 +4305,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 38,
+      "first": 1788985030,
+      "last": 1792242666,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 19,
+          "first": 1788985030,
+          "last": 1792242666,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 19,
+          "first": 1788987870,
+          "last": 1792235263,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Chicks",
       "count": 38,
       "first": 1789045885,
@@ -4445,36 +4475,6 @@
           "last": 1791581510,
           "playlists": {
             "escaping from cu boulder by giselle": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 37,
-      "first": 1788985030,
-      "last": 1792235263,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 19,
-          "first": 1788987870,
-          "last": 1792235263,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 18,
-          "first": 1788985030,
-          "last": 1792091351,
-          "playlists": {
-            "1default": 18
           }
         }
       ]
@@ -7498,9 +7498,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6724,
+      "count": 6727,
       "first": 1788901564,
-      "last": 1792242300,
+      "last": 1792242894,
       "songs": [
         {
           "artist": "Tele Novella",
