@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-17T17:51:19.728445+00:00",
+  "updatedAt": "2026-10-17T17:56:31.181992+00:00",
   "summary": {
-    "totalPlays": 14704,
+    "totalPlays": 14706,
     "unknownPlays": 1141,
     "uniqueTracks": 2433,
     "uniqueArtists": 1582,
     "uniqueAlbums": 2023,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792259346
+    "lastObserved": 1792259660
   },
   "topSongs": [
     {
@@ -405,6 +405,17 @@
       }
     },
     {
+      "artist": "Enya",
+      "title": "Orinoco Flow",
+      "album": "Watermark",
+      "count": 19,
+      "first": 1789073755,
+      "last": 1792259660,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Your Smith",
       "title": "Debbie",
       "album": "Bad Habit",
@@ -576,17 +587,6 @@
       "count": 19,
       "first": 1788969130,
       "last": 1792242136,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Need Your Love",
-      "album": "Swimmer",
-      "count": 19,
-      "first": 1789058225,
-      "last": 1792241274,
       "playlists": {
         "1default": 19
       }
@@ -4306,6 +4306,58 @@
       ]
     },
     {
+      "artist": "Kendrick Lamar",
+      "count": 38,
+      "first": 1789061029,
+      "last": 1792259529,
+      "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Black Panther",
+          "album": "Black Panther The Album Music From And Inspired By",
+          "count": 18,
+          "first": 1789061029,
+          "last": 1792259529,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Alright",
+          "album": "To Pimp A Butterfly",
+          "count": 17,
+          "first": 1789221730,
+          "last": 1791995079,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "HUMBLE.",
+          "album": "DAMN.",
+          "count": 2,
+          "first": 1789319672,
+          "last": 1791685194,
+          "playlists": {
+            "throwbacks": 2
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "DNA.",
+          "album": "DAMN.",
+          "count": 1,
+          "first": 1791081977,
+          "last": 1791081977,
+          "playlists": {
+            "throwbacks": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 38,
       "first": 1788985030,
@@ -4506,58 +4558,6 @@
           "last": 1792099380,
           "playlists": {
             "1default": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kendrick Lamar",
-      "count": 37,
-      "first": 1789061029,
-      "last": 1792084216,
-      "songs": [
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Black Panther",
-          "album": "Black Panther The Album Music From And Inspired By",
-          "count": 17,
-          "first": 1789061029,
-          "last": 1792084216,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Alright",
-          "album": "To Pimp A Butterfly",
-          "count": 17,
-          "first": 1789221730,
-          "last": 1791995079,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "HUMBLE.",
-          "album": "DAMN.",
-          "count": 2,
-          "first": 1789319672,
-          "last": 1791685194,
-          "playlists": {
-            "throwbacks": 2
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "DNA.",
-          "album": "DAMN.",
-          "count": 1,
-          "first": 1791081977,
-          "last": 1791081977,
-          "playlists": {
-            "throwbacks": 1
           }
         }
       ]
@@ -7501,9 +7501,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6785,
+      "count": 6787,
       "first": 1788901564,
-      "last": 1792259346,
+      "last": 1792259660,
       "songs": [
         {
           "artist": "Tele Novella",
