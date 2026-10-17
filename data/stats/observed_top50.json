@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-17T10:46:51.572258+00:00",
+  "updatedAt": "2026-10-17T10:51:48.116777+00:00",
   "summary": {
-    "totalPlays": 14587,
+    "totalPlays": 14589,
     "unknownPlays": 1141,
     "uniqueTracks": 2433,
     "uniqueArtists": 1582,
     "uniqueAlbums": 2023,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792231984
+    "lastObserved": 1792234266
   },
   "topSongs": [
     {
@@ -526,6 +526,28 @@
       }
     },
     {
+      "artist": "Gorillaz",
+      "title": "DARE",
+      "album": "Demon Days",
+      "count": 18,
+      "first": 1789169140,
+      "last": 1792234266,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "LA LA UNDERBELLY",
+      "album": "SWAMP",
+      "count": 18,
+      "first": 1789058454,
+      "last": 1792234171,
+      "playlists": {
+        "1default": 18
+      }
+    },
+    {
       "artist": "Vista Kicks",
       "title": "Chasing Waves",
       "album": "Chasing Waves",
@@ -565,28 +587,6 @@
       "count": 18,
       "first": 1789065886,
       "last": 1792194622,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "The Growlers",
-      "title": "Dope on a Rope",
-      "album": "City Club",
-      "count": 18,
-      "first": 1788913218,
-      "last": 1792194223,
-      "playlists": {
-        "1default": 18
-      }
-    },
-    {
-      "artist": "Kate Bollinger",
-      "title": "A Couple Things",
-      "album": "A word becomes a sound",
-      "count": 18,
-      "first": 1788915657,
-      "last": 1792193855,
       "playlists": {
         "1default": 18
       }
@@ -1087,9 +1087,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 272,
+      "count": 273,
       "first": 1788910325,
-      "last": 1792193571,
+      "last": 1792234171,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1101,6 +1101,17 @@
           "playlists": {
             "1default": 22,
             "steal my bike": 1
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 18,
+          "first": 1789058454,
+          "last": 1792234171,
+          "playlists": {
+            "1default": 18
           }
         },
         {
@@ -1198,17 +1209,6 @@
           "count": 17,
           "first": 1788975770,
           "last": 1792118838,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 17,
-          "first": 1789058454,
-          "last": 1792107072,
           "playlists": {
             "1default": 17
           }
@@ -5408,10 +5408,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 70,
+      "count": 71,
       "first": 1788926373,
-      "last": 1792107072,
+      "last": 1792234171,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 18,
+          "first": 1789058454,
+          "last": 1792234171,
+          "playlists": {
+            "1default": 18
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "THE KIDS ARE ALL RETARDED",
@@ -5432,17 +5443,6 @@
           "last": 1791993993,
           "playlists": {
             "1default": 18
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 17,
-          "first": 1789058454,
-          "last": 1792107072,
-          "playlists": {
-            "1default": 17
           }
         },
         {
@@ -7501,9 +7501,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6686,
+      "count": 6688,
       "first": 1788901564,
-      "last": 1792195906,
+      "last": 1792234266,
       "songs": [
         {
           "artist": "Tele Novella",
