@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-17T15:06:47.386030+00:00",
+  "updatedAt": "2026-10-17T15:11:49.465172+00:00",
   "summary": {
-    "totalPlays": 14658,
+    "totalPlays": 14659,
     "unknownPlays": 1141,
     "uniqueTracks": 2433,
     "uniqueArtists": 1582,
     "uniqueAlbums": 2023,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792249423
+    "lastObserved": 1792249689
   },
   "topSongs": [
     {
@@ -405,6 +405,17 @@
       }
     },
     {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 19,
+      "first": 1788968380,
+      "last": 1792249689,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "DARKIE STILL CANNOT RAP",
       "album": "SWAMP DRAINED",
@@ -576,17 +587,6 @@
       "count": 19,
       "first": 1788987870,
       "last": 1792235263,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Brittany Howard",
-      "title": "Stay High",
-      "album": "Jaime",
-      "count": 19,
-      "first": 1789054258,
-      "last": 1792234786,
       "playlists": {
         "1default": 19
       }
@@ -4667,6 +4667,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 35,
+      "first": 1788947080,
+      "last": 1792249689,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 19,
+          "first": 1788968380,
+          "last": 1792249689,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 16,
+          "first": 1788947080,
+          "last": 1792164279,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 35,
       "first": 1788947810,
@@ -4761,36 +4791,6 @@
           "count": 17,
           "first": 1789167660,
           "last": 1792190356,
-          "playlists": {
-            "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jay Som",
-      "count": 35,
-      "first": 1789069956,
-      "last": 1792235732,
-      "songs": [
-        {
-          "artist": "Jay Som",
-          "title": "Tenderness",
-          "album": "Anak Ko",
-          "count": 18,
-          "first": 1789235365,
-          "last": 1792036805,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Jay Som",
-          "title": "O.K., Meet Me Underwater",
-          "album": "Pirouette",
-          "count": 17,
-          "first": 1789069956,
-          "last": 1792235732,
           "playlists": {
             "1default": 17
           }
@@ -6708,6 +6708,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 35,
+      "first": 1788947080,
+      "last": 1792249689,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 19,
+          "first": 1788968380,
+          "last": 1792249689,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 16,
+          "first": 1788947080,
+          "last": 1792164279,
+          "playlists": {
+            "1default": 16
+          }
+        }
+      ]
+    },
+    {
       "artist": "Juno Rossa",
       "album": "Chasing Animals",
       "count": 35,
@@ -6922,37 +6953,6 @@
           "last": 1792039299,
           "playlists": {
             "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 34,
-      "first": 1788947080,
-      "last": 1792164279,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 18,
-          "first": 1788968380,
-          "last": 1792091089,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 16,
-          "first": 1788947080,
-          "last": 1792164279,
-          "playlists": {
-            "1default": 16
           }
         }
       ]
@@ -7499,9 +7499,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6757,
+      "count": 6758,
       "first": 1788901564,
-      "last": 1792249423,
+      "last": 1792249689,
       "songs": [
         {
           "artist": "Tele Novella",
