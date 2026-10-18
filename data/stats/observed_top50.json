@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-18T22:41:25.418952+00:00",
+  "updatedAt": "2026-10-18T22:46:23.070656+00:00",
   "summary": {
-    "totalPlays": 15180,
+    "totalPlays": 15181,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792363235
+    "lastObserved": 1792363380
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 19,
+      "first": 1789064784,
+      "last": 1792363380,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Gorillaz, Beck",
       "title": "The Valley of The Pagans (feat. Beck)",
       "album": "Song Machine, Season One: Strange Timez (Deluxe)",
@@ -578,17 +589,6 @@
       "count": 19,
       "first": 1788974227,
       "last": 1792353564,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Gorillaz, Fatoumata Diawara",
-      "title": "Désolé (feat. Fatoumata Diawara)",
-      "album": "Song Machine Episode 2",
-      "count": 19,
-      "first": 1788967094,
-      "last": 1792353327,
       "playlists": {
         "1default": 19
       }
@@ -1580,10 +1580,21 @@
     },
     {
       "artist": "Opium",
-      "count": 142,
+      "count": 143,
       "first": 1788927400,
-      "last": 1792356127,
+      "last": 1792363380,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 19,
+          "first": 1789064784,
+          "last": 1792363380,
+          "playlists": {
+            "1default": 19
+          }
+        },
         {
           "artist": "Opium",
           "title": "S T A R V E",
@@ -1635,17 +1646,6 @@
           "count": 18,
           "first": 1789063255,
           "last": 1792073163,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 18,
-          "first": 1789064784,
-          "last": 1792034915,
           "playlists": {
             "1default": 18
           }
@@ -7408,9 +7408,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6917,
+      "count": 6918,
       "first": 1788901564,
-      "last": 1792363235,
+      "last": 1792363380,
       "songs": [
         {
           "artist": "Tele Novella",
