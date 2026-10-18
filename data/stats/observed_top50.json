@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-18T21:22:01.963833+00:00",
+  "updatedAt": "2026-10-18T21:27:02.773059+00:00",
   "summary": {
-    "totalPlays": 15157,
+    "totalPlays": 15158,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792358524
+    "lastObserved": 1792358767
   },
   "topSongs": [
     {
@@ -462,6 +462,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "THE FUTURE IS DARK",
+      "album": "THE FUTURE IS DARK",
+      "count": 19,
+      "first": 1788913884,
+      "last": 1792358767,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Black Sheep",
       "title": "The Choice Is Yours (Revisited)",
       "album": "A Wolf In Sheep's Clothing",
@@ -578,17 +589,6 @@
       "count": 19,
       "first": 1789063011,
       "last": 1792351349,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "HEALTH, Nine Inch Nails",
-      "title": "ISN'T EVERYONE",
-      "album": "ISN'T EVERYONE",
-      "count": 19,
-      "first": 1788967539,
-      "last": 1792351034,
       "playlists": {
         "1default": 19
       }
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 286,
+      "count": 287,
       "first": 1788910325,
-      "last": 1792351349,
+      "last": 1792358767,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1103,6 +1103,17 @@
           "playlists": {
             "1default": 23,
             "steal my bike": 2
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 19,
+          "first": 1788913884,
+          "last": 1792358767,
+          "playlists": {
+            "1default": 19
           }
         },
         {
@@ -1189,17 +1200,6 @@
           "count": 18,
           "first": 1789033665,
           "last": 1792193571,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 18,
-          "first": 1788913884,
-          "last": 1791971285,
           "playlists": {
             "1default": 18
           }
@@ -6662,6 +6662,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THE FUTURE IS DARK",
+      "count": 37,
+      "first": 1788913884,
+      "last": 1792358767,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 19,
+          "first": 1788913884,
+          "last": 1792358767,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 18,
+          "first": 1788975770,
+          "last": 1792261889,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "pear",
       "count": 37,
@@ -6845,37 +6876,6 @@
           "last": 1792034559,
           "playlists": {
             "1default": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THE FUTURE IS DARK",
-      "count": 36,
-      "first": 1788913884,
-      "last": 1792261889,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 18,
-          "first": 1788975770,
-          "last": 1792261889,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 18,
-          "first": 1788913884,
-          "last": 1791971285,
-          "playlists": {
-            "1default": 18
           }
         }
       ]
@@ -7430,9 +7430,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6894,
+      "count": 6895,
       "first": 1788901564,
-      "last": 1792358524,
+      "last": 1792358767,
       "songs": [
         {
           "artist": "Tele Novella",
