@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-18T08:52:00.991691+00:00",
+  "updatedAt": "2026-10-18T08:57:04.636473+00:00",
   "summary": {
-    "totalPlays": 14968,
+    "totalPlays": 14970,
     "unknownPlays": 1141,
     "uniqueTracks": 2473,
     "uniqueArtists": 1606,
     "uniqueAlbums": 2057,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792313424
+    "lastObserved": 1792313732
   },
   "topSongs": [
     {
@@ -429,6 +429,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "gettingyoutobelieve",
+      "album": "pear",
+      "count": 19,
+      "first": 1788920755,
+      "last": 1792313732,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Zolof the Rock & Roll Destroyer",
       "title": "Plays Pretty for Baby",
       "album": "Zolof the Rock & Roll Destroyer",
@@ -578,17 +589,6 @@
       "count": 19,
       "first": 1788947368,
       "last": 1792258750,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Donovan",
-      "title": "Sunshine Superman",
-      "album": "Sunshine Superman",
-      "count": 19,
-      "first": 1788920950,
-      "last": 1792257879,
       "playlists": {
         "1default": 19
       }
@@ -2718,10 +2718,21 @@
     },
     {
       "artist": "botch",
-      "count": 72,
+      "count": 73,
       "first": 1788920755,
-      "last": 1792245039,
+      "last": 1792313732,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 19,
+          "first": 1788920755,
+          "last": 1792313732,
+          "playlists": {
+            "1default": 19
+          }
+        },
         {
           "artist": "botch",
           "title": "a machine as big as a city with a concert at the center",
@@ -2740,17 +2751,6 @@
           "count": 18,
           "first": 1788997306,
           "last": 1792245039,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 18,
-          "first": 1788920755,
-          "last": 1792121372,
           "playlists": {
             "1default": 18
           }
@@ -6847,6 +6847,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 36,
+      "first": 1788920755,
+      "last": 1792313732,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 19,
+          "first": 1788920755,
+          "last": 1792313732,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 17,
+          "first": 1788963025,
+          "last": 1792058314,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "album": "Father of the Bride",
       "count": 36,
@@ -7068,37 +7099,6 @@
           "count": 17,
           "first": 1789167660,
           "last": 1792190356,
-          "playlists": {
-            "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 35,
-      "first": 1788920755,
-      "last": 1792121372,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 18,
-          "first": 1788920755,
-          "last": 1792121372,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 17,
-          "first": 1788963025,
-          "last": 1792058314,
           "playlists": {
             "1default": 17
           }
@@ -7560,9 +7560,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6820,
+      "count": 6822,
       "first": 1788901564,
-      "last": 1792313424,
+      "last": 1792313732,
       "songs": [
         {
           "artist": "Tele Novella",
