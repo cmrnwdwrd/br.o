@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-18T20:56:36.811822+00:00",
+  "updatedAt": "2026-10-18T21:01:59.567105+00:00",
   "summary": {
-    "totalPlays": 15150,
+    "totalPlays": 15152,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792356867
+    "lastObserved": 1792357269
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 20,
+      "first": 1788917230,
+      "last": 1792357269,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "title": "Pawn Shop Prada",
       "album": "Lick My Soul",
@@ -448,6 +459,17 @@
       "last": 1792239452,
       "playlists": {
         "1default": 20
+      }
+    },
+    {
+      "artist": "Franz Ferdinand",
+      "title": "Billy Goodbye",
+      "album": "Billy Goodbye",
+      "count": 19,
+      "first": 1789014639,
+      "last": 1792357048,
+      "playlists": {
+        "1default": 19
       }
     },
     {
@@ -567,28 +589,6 @@
       "count": 19,
       "first": 1788967329,
       "last": 1792350790,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "What's for Dinner????",
-      "album": "Dead",
-      "count": 19,
-      "first": 1788917492,
-      "last": 1792350159,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Rat Von Rat",
-      "title": "Staples",
-      "album": "Staples",
-      "count": 19,
-      "first": 1788927095,
-      "last": 1792349287,
       "playlists": {
         "1default": 19
       }
@@ -3158,6 +3158,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 57,
+      "first": 1788917230,
+      "last": 1792357269,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 20,
+          "first": 1788917230,
+          "last": 1792357269,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 19,
+          "first": 1788970790,
+          "last": 1792248109,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 18,
+          "first": 1789050580,
+          "last": 1792240783,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 57,
       "first": 1788919863,
@@ -3246,47 +3287,6 @@
           "last": 1792198215,
           "playlists": {
             "d i n n e r": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 56,
-      "first": 1788917230,
-      "last": 1792248109,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 19,
-          "first": 1788970790,
-          "last": 1792248109,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 19,
-          "first": 1788917230,
-          "last": 1792038318,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 18,
-          "first": 1789050580,
-          "last": 1792240783,
-          "playlists": {
-            "1default": 18
           }
         }
       ]
@@ -7430,9 +7430,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6887,
+      "count": 6889,
       "first": 1788901564,
-      "last": 1792356867,
+      "last": 1792357269,
       "songs": [
         {
           "artist": "Tele Novella",
