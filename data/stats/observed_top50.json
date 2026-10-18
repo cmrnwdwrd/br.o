@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-18T19:41:44.166982+00:00",
+  "updatedAt": "2026-10-18T19:47:02.303359+00:00",
   "summary": {
-    "totalPlays": 15130,
+    "totalPlays": 15131,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792352499
+    "lastObserved": 1792352796
   },
   "topSongs": [
     {
@@ -451,6 +451,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 19,
+      "first": 1788975084,
+      "last": 1792352796,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Tems, Brent Faiyaz",
       "title": "Found (feat. Brent Faiyaz)",
       "album": "Found (feat. Brent Faiyaz)",
@@ -578,17 +589,6 @@
       "count": 19,
       "first": 1789059997,
       "last": 1792317756,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Mat Kerekes",
-      "title": "Diamonds",
-      "album": "Ruby",
-      "count": 19,
-      "first": 1788969737,
-      "last": 1792317548,
       "playlists": {
         "1default": 19
       }
@@ -4106,6 +4106,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 40,
+      "first": 1788919285,
+      "last": 1792352796,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 19,
+          "first": 1788975084,
+          "last": 1792352796,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 19,
+          "first": 1788919285,
+          "last": 1792319350,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 2,
+          "first": 1789893243,
+          "last": 1791702861,
+          "playlists": {
+            "christmas rn": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 40,
       "first": 1788914421,
@@ -4315,47 +4356,6 @@
           "last": 1791983909,
           "playlists": {
             "carhartts": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 39,
-      "first": 1788919285,
-      "last": 1792319350,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 19,
-          "first": 1788919285,
-          "last": 1792319350,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 18,
-          "first": 1788975084,
-          "last": 1792191769,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 2,
-          "first": 1789893243,
-          "last": 1791702861,
-          "playlists": {
-            "christmas rn": 2
           }
         }
       ]
@@ -7430,9 +7430,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6867,
+      "count": 6868,
       "first": 1788901564,
-      "last": 1792352499,
+      "last": 1792352796,
       "songs": [
         {
           "artist": "Tele Novella",
