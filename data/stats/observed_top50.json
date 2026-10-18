@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-18T13:02:00.274344+00:00",
+  "updatedAt": "2026-10-18T13:06:44.993452+00:00",
   "summary": {
-    "totalPlays": 15035,
+    "totalPlays": 15036,
     "unknownPlays": 1141,
     "uniqueTracks": 2473,
     "uniqueArtists": 1606,
     "uniqueAlbums": 2057,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792328489
+    "lastObserved": 1792328664
   },
   "topSongs": [
     {
@@ -597,9 +597,9 @@
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 293,
+      "count": 294,
       "first": 1788929259,
-      "last": 1792328489,
+      "last": 1792328664,
       "songs": [
         {
           "artist": "home alone.",
@@ -977,6 +977,17 @@
         },
         {
           "artist": "home alone.",
+          "title": "tumbling down",
+          "album": "ａｒｒｉｖａｌ．",
+          "count": 5,
+          "first": 1789304440,
+          "last": 1792328664,
+          "playlists": {
+            "home alone.": 5
+          }
+        },
+        {
+          "artist": "home alone.",
           "title": "wave after wave",
           "album": "ａｒｒｉｖａｌ．",
           "count": 5,
@@ -1070,17 +1081,6 @@
           "count": 4,
           "first": 1789305099,
           "last": 1791723814,
-          "playlists": {
-            "home alone.": 4
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "tumbling down",
-          "album": "ａｒｒｉｖａｌ．",
-          "count": 4,
-          "first": 1789304440,
-          "last": 1791120549,
           "playlists": {
             "home alone.": 4
           }
@@ -5571,53 +5571,11 @@
       ]
     },
     {
-      "artist": "Jesus Christ Taxi Driver",
-      "album": "Lick My Soul",
-      "count": 57,
-      "first": 1788919863,
-      "last": 1792317294,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 20,
-          "first": 1788919863,
-          "last": 1792317294,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 19,
-          "first": 1788989164,
-          "last": 1792255239,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 18,
-          "first": 1789139069,
-          "last": 1792246763,
-          "playlists": {
-            "1default": 18
-          }
-        }
-      ]
-    },
-    {
       "artist": "home alone.",
       "album": "ａｒｒｉｖａｌ．",
-      "count": 56,
+      "count": 57,
       "first": 1789304440,
-      "last": 1792328489,
+      "last": 1792328664,
       "songs": [
         {
           "artist": "home alone.",
@@ -5639,6 +5597,17 @@
           "last": 1791724983,
           "playlists": {
             "home alone.": 6
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "tumbling down",
+          "album": "ａｒｒｉｖａｌ．",
+          "count": 5,
+          "first": 1789304440,
+          "last": 1792328664,
+          "playlists": {
+            "home alone.": 5
           }
         },
         {
@@ -5739,16 +5708,47 @@
           "playlists": {
             "home alone.": 4
           }
+        }
+      ]
+    },
+    {
+      "artist": "Jesus Christ Taxi Driver",
+      "album": "Lick My Soul",
+      "count": 57,
+      "first": 1788919863,
+      "last": 1792317294,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 20,
+          "first": 1788919863,
+          "last": 1792317294,
+          "playlists": {
+            "1default": 20
+          }
         },
         {
-          "artist": "home alone.",
-          "title": "tumbling down",
-          "album": "ａｒｒｉｖａｌ．",
-          "count": 4,
-          "first": 1789304440,
-          "last": 1791120549,
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 19,
+          "first": 1788989164,
+          "last": 1792255239,
           "playlists": {
-            "home alone.": 4
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 18,
+          "first": 1789139069,
+          "last": 1792246763,
+          "playlists": {
+            "1default": 18
           }
         }
       ]
