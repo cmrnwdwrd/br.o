@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-18T21:01:59.567105+00:00",
+  "updatedAt": "2026-10-18T21:12:06.054465+00:00",
   "summary": {
-    "totalPlays": 15152,
+    "totalPlays": 15154,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792357269
+    "lastObserved": 1792357779
   },
   "topSongs": [
     {
@@ -2718,9 +2718,9 @@
     },
     {
       "artist": "botch",
-      "count": 73,
+      "count": 74,
       "first": 1788920755,
-      "last": 1792313732,
+      "last": 1792357475,
       "songs": [
         {
           "artist": "botch",
@@ -2746,6 +2746,17 @@
         },
         {
           "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 18,
+          "first": 1788963025,
+          "last": 1792357475,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "botch",
           "title": "underthebasement",
           "album": "a machine as big as a city with a concert at the center",
           "count": 18,
@@ -2753,17 +2764,6 @@
           "last": 1792245039,
           "playlists": {
             "1default": 18
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 17,
-          "first": 1788963025,
-          "last": 1792058314,
-          "playlists": {
-            "1default": 17
           }
         }
       ]
@@ -6662,6 +6662,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 37,
+      "first": 1788920755,
+      "last": 1792357475,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 19,
+          "first": 1788920755,
+          "last": 1792313732,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 18,
+          "first": 1788963025,
+          "last": 1792357475,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "album": "Old World Underground, Where Are You Now?",
       "count": 37,
@@ -6783,37 +6814,6 @@
           "last": 1792241701,
           "playlists": {
             "1default": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 36,
-      "first": 1788920755,
-      "last": 1792313732,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 19,
-          "first": 1788920755,
-          "last": 1792313732,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 17,
-          "first": 1788963025,
-          "last": 1792058314,
-          "playlists": {
-            "1default": 17
           }
         }
       ]
@@ -7430,9 +7430,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6889,
+      "count": 6891,
       "first": 1788901564,
-      "last": 1792357269,
+      "last": 1792357779,
       "songs": [
         {
           "artist": "Tele Novella",
