@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T04:26:59.049270+00:00",
+  "updatedAt": "2026-10-18T04:31:27.329934+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 523,
+    "sessionCount": 524,
     "firstObserved": 1788901564,
-    "lastObserved": 1792296579
+    "lastObserved": 1792297846
   },
   "playlists": [
     {
@@ -15410,12 +15410,12 @@
     },
     {
       "playlist": "sad girl no friends saturday",
-      "sessionCount": 9,
-      "playCount": 110,
+      "sessionCount": 10,
+      "playCount": 111,
       "firstObserved": 1789257850,
-      "lastObserved": 1791693399,
-      "typicalStartMinute": 1207,
-      "typicalDurationMinutes": 14,
+      "lastObserved": 1792297846,
+      "typicalStartMinute": 1223,
+      "typicalDurationMinutes": 13,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -15571,7 +15571,7 @@
           0.0,
           0.0,
           0.0,
-          99.6,
+          103.8,
           239.5
         ],
         [
@@ -16183,7 +16183,7 @@
           0.0,
           0.0,
           0.0,
-          39.6,
+          43.8,
           60.0,
           60.0,
           60.0,
@@ -16443,7 +16443,7 @@
           0,
           0,
           0,
-          4,
+          5,
           0
         ],
         [
@@ -16476,13 +16476,19 @@
       "likelyWindows": [
         {
           "weekday": 5,
-          "sessions": 9,
-          "typicalStartMinute": 1207,
-          "typicalDurationMinutes": 14,
+          "sessions": 10,
+          "typicalStartMinute": 1223,
+          "typicalDurationMinutes": 13,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1792297846,
+          "end": 1792298099,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1791693399,
           "end": 1791698369,
