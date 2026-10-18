@@ -1,6 +1,6 @@
 {
   "schemaVersion": 26,
-  "updatedAt": "2026-10-18T05:56:21.252822+00:00",
+  "updatedAt": "2026-10-18T06:02:02.758259+00:00",
   "lastSampleSource": "primary",
   "recentSamples": [
     {
@@ -55064,6 +55064,11 @@
     },
     {
       "timestamp": "2026-10-18T05:56:21.252822+00:00",
+      "listeners": 1,
+      "source": "primary"
+    },
+    {
+      "timestamp": "2026-10-18T06:02:02.758259+00:00",
       "listeners": 1,
       "source": "primary"
     }
@@ -110132,14 +110137,19 @@
       "timestamp": "2026-10-18T05:56:21.252822+00:00",
       "listeners": 1,
       "source": "primary"
+    },
+    {
+      "timestamp": "2026-10-18T06:02:02.758259+00:00",
+      "listeners": 1,
+      "source": "primary"
     }
   ],
   "dailySummaries": [],
   "hourBins": [
     {
       "hour": 0,
-      "sum": 530,
-      "count": 445,
+      "sum": 531,
+      "count": 446,
       "min": 1,
       "max": 3
     },
@@ -110330,6 +110340,6 @@
       "count": 236,
       "avg": 1.5889830508474576
     },
-    "daysRecorded": 40
+    "daysRecorded": 41
   }
 }
