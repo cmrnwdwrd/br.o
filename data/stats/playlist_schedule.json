@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T06:11:45.280698+00:00",
+  "updatedAt": "2026-10-19T06:17:08.275576+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 538,
+    "sessionCount": 539,
     "firstObserved": 1788901564,
-    "lastObserved": 1792386850
+    "lastObserved": 1792390449
   },
   "playlists": [
     {
@@ -13129,16 +13129,16 @@
     },
     {
       "playlist": "UPBEAT HPOP",
-      "sessionCount": 11,
-      "playCount": 173,
+      "sessionCount": 12,
+      "playCount": 175,
       "firstObserved": 1788934494,
-      "lastObserved": 1791958390,
+      "lastObserved": 1792390449,
       "typicalStartMinute": 14,
       "typicalDurationMinutes": 61,
       "confidence": "High",
       "heatmapMinutes": [
         [
-          226.1,
+          233.7,
           82.4,
           0.0,
           0.0,
@@ -13322,8 +13322,8 @@
       ],
       "quarterHeatmapMinutes": [
         [
-          1.7,
-          74.4,
+          2.5,
+          81.2,
           75.0,
           75.0,
           74.8,
@@ -14010,7 +14010,7 @@
       ],
       "startHeatmap": [
         [
-          5,
+          6,
           0,
           0,
           0,
@@ -14195,10 +14195,10 @@
       "likelyWindows": [
         {
           "weekday": 0,
-          "sessions": 5,
+          "sessions": 6,
           "typicalStartMinute": 14,
           "typicalDurationMinutes": 61,
-          "confidence": "Medium"
+          "confidence": "High"
         },
         {
           "weekday": 2,
@@ -14209,6 +14209,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1792390449,
+          "end": 1792390906,
+          "durationMinutes": 8,
+          "playCount": 2
+        },
         {
           "start": 1791958390,
           "end": 1791962154,
