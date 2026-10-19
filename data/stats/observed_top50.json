@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T12:07:04.981007+00:00",
+  "updatedAt": "2026-10-19T12:11:59.274077+00:00",
   "summary": {
-    "totalPlays": 15406,
+    "totalPlays": 15408,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792411476
+    "lastObserved": 1792411876
   },
   "topSongs": [
     {
@@ -7670,10 +7670,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 682,
+      "count": 684,
       "first": 1788955289,
-      "last": 1792411476,
+      "last": 1792411876,
       "songs": [
+        {
+          "artist": "The Head And The Heart",
+          "title": "Down in the Valley",
+          "album": "The Head And The Heart",
+          "count": 3,
+          "first": 1788960696,
+          "last": 1792411876,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "flipturn",
           "title": "Playground",
@@ -7714,17 +7725,6 @@
           "count": 3,
           "first": 1790080980,
           "last": 1792066716,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "John Vincent III",
-          "title": "Topanga Canyon",
-          "album": "Songs from the Valley",
-          "count": 3,
-          "first": 1789650246,
-          "last": 1791986098,
           "playlists": {
             "carhartts": 3
           }
