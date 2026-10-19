@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T00:51:44.128030+00:00",
+  "updatedAt": "2026-10-19T00:57:03.365461+00:00",
   "summary": {
-    "totalPlays": 15216,
+    "totalPlays": 15218,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792371035
+    "lastObserved": 1792371425
   },
   "topSongs": [
     {
@@ -473,6 +473,28 @@
       }
     },
     {
+      "artist": "JOSEPH",
+      "title": "Green Eyes",
+      "album": "Good Luck, Kid",
+      "count": 19,
+      "first": 1789070850,
+      "last": 1792371425,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 19,
+      "first": 1788914032,
+      "last": 1792371199,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Your Neighbors",
       "title": "Chicken",
       "album": "Chicken",
@@ -567,28 +589,6 @@
       "count": 19,
       "first": 1788975450,
       "last": 1792364184,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Dirge",
-      "album": "Dirge",
-      "count": 19,
-      "first": 1789064784,
-      "last": 1792363380,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Gorillaz, Beck",
-      "title": "The Valley of The Pagans (feat. Beck)",
-      "album": "Song Machine, Season One: Strange Timez (Deluxe)",
-      "count": 19,
-      "first": 1789062154,
-      "last": 1792360627,
       "playlists": {
         "1default": 19
       }
@@ -4402,6 +4402,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 39,
+      "first": 1788914032,
+      "last": 1792371199,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 19,
+          "first": 1788914032,
+          "last": 1792371199,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 17,
+          "first": 1789222724,
+          "last": 1792057670,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 3,
+          "first": 1790465398,
+          "last": 1792279608,
+          "playlists": {
+            "texting your situationship": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 38,
       "first": 1788921291,
@@ -4427,47 +4468,6 @@
           "last": 1792099380,
           "playlists": {
             "1default": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 38,
-      "first": 1788914032,
-      "last": 1792279608,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 18,
-          "first": 1788914032,
-          "last": 1791995526,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 17,
-          "first": 1789222724,
-          "last": 1792057670,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 3,
-          "first": 1790465398,
-          "last": 1792279608,
-          "playlists": {
-            "texting your situationship": 3
           }
         }
       ]
@@ -7386,9 +7386,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6953,
+      "count": 6955,
       "first": 1788901564,
-      "last": 1792371035,
+      "last": 1792371425,
       "songs": [
         {
           "artist": "Tele Novella",
