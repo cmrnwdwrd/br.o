@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T02:32:04.243245+00:00",
+  "updatedAt": "2026-10-19T02:36:44.618139+00:00",
   "summary": {
-    "totalPlays": 15242,
+    "totalPlays": 15244,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792377009
+    "lastObserved": 1792377349
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 19,
+      "first": 1789235365,
+      "last": 1792377349,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Tōth",
       "title": "Song to Make You Fall in Love With Me",
       "album": "Practice Magic and Seek Professional Help When Necessary",
@@ -578,17 +589,6 @@
       "count": 19,
       "first": 1788973998,
       "last": 1792369614,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Crumb",
-      "title": "Locket",
-      "album": "Locket",
-      "count": 19,
-      "first": 1788983912,
-      "last": 1792368688,
       "playlists": {
         "1default": 19
       }
@@ -1580,9 +1580,9 @@
     },
     {
       "artist": "Opium",
-      "count": 143,
+      "count": 144,
       "first": 1788927400,
-      "last": 1792363380,
+      "last": 1792377133,
       "songs": [
         {
           "artist": "Opium",
@@ -1593,6 +1593,17 @@
           "last": 1792363380,
           "playlists": {
             "1default": 19
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 18,
+          "first": 1788946866,
+          "last": 1792377133,
+          "playlists": {
+            "1default": 18
           }
         },
         {
@@ -1657,17 +1668,6 @@
           "count": 17,
           "first": 1788973540,
           "last": 1792258529,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 17,
-          "first": 1788946866,
-          "last": 1792090145,
           "playlists": {
             "1default": 17
           }
@@ -4680,6 +4680,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 36,
+      "first": 1789069956,
+      "last": 1792377349,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 19,
+          "first": 1789235365,
+          "last": 1792377349,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 17,
+          "first": 1789069956,
+          "last": 1792235732,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 36,
       "first": 1789054681,
@@ -4738,46 +4768,27 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Courtney Barnett",
-      "count": 36,
-      "first": 1788913469,
-      "last": 1792366432,
-      "songs": [
-        {
-          "artist": "Courtney Barnett",
-          "title": "Write A List of Things To Look Forward To",
-          "album": "Things Take Time, Take Time",
-          "count": 18,
-          "first": 1788913469,
-          "last": 1792366432,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Courtney Barnett",
-          "title": "Pedestrian at Best",
-          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
-          "count": 18,
-          "first": 1789215507,
-          "last": 1792358939,
-          "playlists": {
-            "1default": 18
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 106,
+      "count": 107,
       "first": 1788927400,
-      "last": 1792356127,
+      "last": 1792377133,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 18,
+          "first": 1788946866,
+          "last": 1792377133,
+          "playlists": {
+            "1default": 18
+          }
+        },
         {
           "artist": "Opium",
           "title": "S T A R V E",
@@ -4829,17 +4840,6 @@
           "count": 17,
           "first": 1788973540,
           "last": 1792258529,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 17,
-          "first": 1788946866,
-          "last": 1792090145,
           "playlists": {
             "1default": 17
           }
@@ -7386,9 +7386,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 6979,
+      "count": 6981,
       "first": 1788901564,
-      "last": 1792377009,
+      "last": 1792377349,
       "songs": [
         {
           "artist": "Tele Novella",
