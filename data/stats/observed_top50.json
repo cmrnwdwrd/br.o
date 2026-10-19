@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T22:47:45.042085+00:00",
+  "updatedAt": "2026-10-19T22:52:17.003151+00:00",
   "summary": {
-    "totalPlays": 15580,
+    "totalPlays": 15581,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792449983
+    "lastObserved": 1792450205
   },
   "topSongs": [
     {
@@ -7827,10 +7827,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 449,
+      "count": 450,
       "first": 1788904845,
-      "last": 1792449983,
+      "last": 1792450205,
       "songs": [
+        {
+          "artist": "Mothers",
+          "title": "It Hurts Until It Doesn't",
+          "album": "When You Walk A Long Distance You Are Tired",
+          "count": 13,
+          "first": 1788904845,
+          "last": 1792450205,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 13
+          }
+        },
         {
           "artist": "Shakey Graves",
           "title": "Chinatown",
@@ -7873,17 +7884,6 @@
           "last": 1792103160,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 13
-          }
-        },
-        {
-          "artist": "Tucker Skaar, brian schnell",
-          "title": "train",
-          "album": "melodically numb",
-          "count": 12,
-          "first": 1789081552,
-          "last": 1792449801,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 12
           }
         }
       ]
