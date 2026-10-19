@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T09:47:05.065285+00:00",
+  "updatedAt": "2026-10-19T09:52:06.020650+00:00",
   "summary": {
-    "totalPlays": 15365,
+    "totalPlays": 15367,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792402890
+    "lastObserved": 1792403399
   },
   "topSongs": [
     {
@@ -495,6 +495,28 @@
       }
     },
     {
+      "artist": "My Chemical Romance",
+      "title": "Planetary (GO!)",
+      "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+      "count": 19,
+      "first": 1788965302,
+      "last": 1792403399,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
+      "artist": "Against Me!",
+      "title": "Baby, I'm an Anarchist!",
+      "album": "Reinventing Axl Rose",
+      "count": 19,
+      "first": 1788947810,
+      "last": 1792403238,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Breakup Shoes",
       "title": "Nicotine Dream",
       "album": "Nicotine Dream EP",
@@ -567,28 +589,6 @@
       "count": 19,
       "first": 1788971012,
       "last": 1792398275,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "title": "Visitor",
-      "album": "Visitor",
-      "count": 19,
-      "first": 1788963370,
-      "last": 1792396804,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Billie Eilish",
-      "title": "NDA",
-      "album": "Happier Than Ever",
-      "count": 19,
-      "first": 1788989714,
-      "last": 1792396608,
       "playlists": {
         "1default": 19
       }
@@ -1772,19 +1772,19 @@
     },
     {
       "artist": "My Chemical Romance",
-      "count": 142,
+      "count": 143,
       "first": 1788965302,
-      "last": 1792372476,
+      "last": 1792403399,
       "songs": [
         {
           "artist": "My Chemical Romance",
           "title": "Planetary (GO!)",
           "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 18,
+          "count": 19,
           "first": 1788965302,
-          "last": 1792372476,
+          "last": 1792403399,
           "playlists": {
-            "1default": 18
+            "1default": 19
           }
         },
         {
@@ -4733,6 +4733,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 37,
+      "first": 1788947810,
+      "last": 1792403238,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 19,
+          "first": 1788947810,
+          "last": 1792403238,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 18,
+          "first": 1789059805,
+          "last": 1792365710,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 37,
       "first": 1788989714,
@@ -4786,36 +4816,6 @@
           "count": 18,
           "first": 1789054681,
           "last": 1792375338,
-          "playlists": {
-            "1default": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 37,
-      "first": 1788986484,
-      "last": 1792373373,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 19,
-          "first": 1788986484,
-          "last": 1792373373,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 18,
-          "first": 1789231311,
-          "last": 1792365906,
           "playlists": {
             "1default": 18
           }
@@ -6490,19 +6490,19 @@
     {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-      "count": 40,
+      "count": 41,
       "first": 1788965302,
-      "last": 1792372476,
+      "last": 1792403399,
       "songs": [
         {
           "artist": "My Chemical Romance",
           "title": "Planetary (GO!)",
           "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 18,
+          "count": 19,
           "first": 1788965302,
-          "last": 1792372476,
+          "last": 1792403399,
           "playlists": {
-            "1default": 18
+            "1default": 19
           }
         },
         {
@@ -7481,9 +7481,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7065,
+      "count": 7067,
       "first": 1788901564,
-      "last": 1792402890,
+      "last": 1792403399,
       "songs": [
         {
           "artist": "Tele Novella",
