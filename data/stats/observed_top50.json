@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T04:47:03.935545+00:00",
+  "updatedAt": "2026-10-19T04:52:05.206218+00:00",
   "summary": {
-    "totalPlays": 15279,
+    "totalPlays": 15281,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792385048
+    "lastObserved": 1792385518
   },
   "topSongs": [
     {
@@ -473,6 +473,28 @@
       }
     },
     {
+      "artist": "Yumi Zouma",
+      "title": "Right Track / Wrong Man",
+      "album": "Truth or Consequences",
+      "count": 19,
+      "first": 1789057143,
+      "last": 1792385518,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
+      "artist": "Fastball",
+      "title": "The Way",
+      "album": "All The Pain Money Can Buy",
+      "count": 19,
+      "first": 1789058710,
+      "last": 1792385262,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Brainsick",
       "album": "Brainsick",
@@ -567,28 +589,6 @@
       "count": 19,
       "first": 1788928254,
       "last": 1792379782,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Tally Hall",
-      "title": "The Bidding",
-      "album": "Marvin's Marvelous Mechanical Museum",
-      "count": 19,
-      "first": 1788927573,
-      "last": 1792379312,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Bahamas",
-      "title": "Own Alone",
-      "album": "Sad Hunk",
-      "count": 19,
-      "first": 1788962598,
-      "last": 1792378748,
       "playlists": {
         "1default": 19
       }
@@ -4618,6 +4618,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 37,
+      "first": 1789054681,
+      "last": 1792385518,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 19,
+          "first": 1789057143,
+          "last": 1792385518,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 18,
+          "first": 1789054681,
+          "last": 1792375338,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 37,
       "first": 1788972865,
@@ -4755,36 +4785,6 @@
           "count": 17,
           "first": 1789129746,
           "last": 1792383242,
-          "playlists": {
-            "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jay Som",
-      "count": 36,
-      "first": 1789069956,
-      "last": 1792377349,
-      "songs": [
-        {
-          "artist": "Jay Som",
-          "title": "Tenderness",
-          "album": "Anak Ko",
-          "count": 19,
-          "first": 1789235365,
-          "last": 1792377349,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Jay Som",
-          "title": "O.K., Meet Me Underwater",
-          "album": "Pirouette",
-          "count": 17,
-          "first": 1789069956,
-          "last": 1792235732,
           "playlists": {
             "1default": 17
           }
@@ -7408,9 +7408,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7016,
+      "count": 7018,
       "first": 1788901564,
-      "last": 1792385048,
+      "last": 1792385518,
       "songs": [
         {
           "artist": "Tele Novella",
