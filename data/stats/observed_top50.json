@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T14:07:27.465993+00:00",
+  "updatedAt": "2026-10-19T14:12:01.482438+00:00",
   "summary": {
-    "totalPlays": 15437,
+    "totalPlays": 15438,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792418824
+    "lastObserved": 1792419122
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 20,
+      "first": 1789063255,
+      "last": 1792419122,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Fugees, Ms. Lauryn Hill",
       "title": "Killing Me Softly With His Song",
       "album": "The Score (Expanded Edition)",
@@ -578,17 +589,6 @@
       "count": 19,
       "first": 1789033065,
       "last": 1792401108,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "BENEE",
-      "title": "Sad Boiii",
-      "album": "Sad Boiii",
-      "count": 19,
-      "first": 1788911174,
-      "last": 1792400943,
       "playlists": {
         "1default": 19
       }
@@ -1580,19 +1580,19 @@
     },
     {
       "artist": "Opium",
-      "count": 145,
+      "count": 146,
       "first": 1788927400,
-      "last": 1792384426,
+      "last": 1792419122,
       "songs": [
         {
           "artist": "Opium",
           "title": "Brainsick",
           "album": "Brainsick",
-          "count": 19,
+          "count": 20,
           "first": 1789063255,
-          "last": 1792384426,
+          "last": 1792419122,
           "playlists": {
-            "1default": 19
+            "1default": 20
           }
         },
         {
@@ -7482,9 +7482,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7071,
+      "count": 7072,
       "first": 1788901564,
-      "last": 1792418824,
+      "last": 1792419122,
       "songs": [
         {
           "artist": "Tele Novella",
