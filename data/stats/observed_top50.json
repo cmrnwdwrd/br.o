@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T09:26:46.958453+00:00",
+  "updatedAt": "2026-10-19T09:31:55.131919+00:00",
   "summary": {
-    "totalPlays": 15360,
+    "totalPlays": 15362,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792401904
+    "lastObserved": 1792402229
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "St. Paul & The Broken Bones",
+      "title": "Apollo",
+      "album": "Young Sick Camellia",
+      "count": 20,
+      "first": 1788972025,
+      "last": 1792402229,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "hey, nothing",
       "title": "The Sink",
       "album": "The Sink",
@@ -484,6 +495,17 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "Mallard",
+      "album": "Mallard",
+      "count": 19,
+      "first": 1788973386,
+      "last": 1792402074,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "The Ephinjis",
       "title": "Hot to Go!",
       "album": "Hot to Go!",
@@ -567,28 +589,6 @@
       "count": 19,
       "first": 1788971208,
       "last": 1792396141,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Fine Young Cannibals",
-      "title": "Good Thing",
-      "album": "The Raw & The Cooked",
-      "count": 19,
-      "first": 1788974590,
-      "last": 1792395639,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Monsune",
-      "title": "Nothing in Return",
-      "album": "Nothing in Return",
-      "count": 19,
-      "first": 1789054450,
-      "last": 1792395363,
       "playlists": {
         "1default": 19
       }
@@ -3941,6 +3941,37 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 43,
+      "first": 1788973386,
+      "last": 1792402074,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 24,
+          "first": 1789063640,
+          "last": 1792385694,
+          "playlists": {
+            "1default": 22,
+            "landlockd surfrock": 2
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 19,
+          "first": 1788973386,
+          "last": 1792402074,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "count": 43,
       "first": 1788914259,
@@ -4070,37 +4101,6 @@
           "last": 1791579824,
           "playlists": {
             "escaping from cu boulder by giselle": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 42,
-      "first": 1788973386,
-      "last": 1792385694,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 24,
-          "first": 1789063640,
-          "last": 1792385694,
-          "playlists": {
-            "1default": 22,
-            "landlockd surfrock": 2
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 18,
-          "first": 1788973386,
-          "last": 1792246957,
-          "playlists": {
-            "1default": 18
           }
         }
       ]
@@ -7481,9 +7481,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7060,
+      "count": 7062,
       "first": 1788901564,
-      "last": 1792401904,
+      "last": 1792402229,
       "songs": [
         {
           "artist": "Tele Novella",
