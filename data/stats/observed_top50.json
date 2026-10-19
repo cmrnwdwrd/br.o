@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T19:07:45.168806+00:00",
+  "updatedAt": "2026-10-19T19:12:39.246783+00:00",
   "summary": {
-    "totalPlays": 15520,
+    "totalPlays": 15522,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792436738
+    "lastObserved": 1792437099
   },
   "topSongs": [
     {
@@ -395,6 +395,17 @@
       }
     },
     {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 20,
+      "first": 1788989714,
+      "last": 1792436904,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "BENEE",
       "title": "Sad Boiii",
       "album": "Sad Boiii",
@@ -577,17 +588,6 @@
       "count": 20,
       "first": 1788969737,
       "last": 1792420611,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Leon Bridges",
-      "title": "Steam",
-      "album": "Gold-Diggers Sound",
-      "count": 20,
-      "first": 1788919285,
-      "last": 1792419717,
       "playlists": {
         "1default": 20
       }
@@ -4651,6 +4651,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 38,
+      "first": 1788989714,
+      "last": 1792436904,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 20,
+          "first": 1788989714,
+          "last": 1792436904,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 18,
+          "first": 1789169386,
+          "last": 1792369007,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 38,
       "first": 1788986484,
@@ -4788,36 +4818,6 @@
           "last": 1792350285,
           "playlists": {
             "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 37,
-      "first": 1788912861,
-      "last": 1792428629,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 19,
-          "first": 1788912861,
-          "last": 1792428629,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 18,
-          "first": 1788966960,
-          "last": 1792398039,
-          "playlists": {
-            "1default": 18
           }
         }
       ]
@@ -7460,9 +7460,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7154,
+      "count": 7156,
       "first": 1788901564,
-      "last": 1792436738,
+      "last": 1792437099,
       "songs": [
         {
           "artist": "Tele Novella",
