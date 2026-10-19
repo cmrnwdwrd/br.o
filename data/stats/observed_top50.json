@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T17:02:24.766125+00:00",
+  "updatedAt": "2026-10-19T17:07:47.221995+00:00",
   "summary": {
-    "totalPlays": 15485,
+    "totalPlays": 15487,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792429292
+    "lastObserved": 1792429573
   },
   "topSongs": [
     {
@@ -384,6 +384,17 @@
       }
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 20,
+      "first": 1788986484,
+      "last": 1792429573,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Finger Eleven",
       "title": "Paralyzer",
       "album": "Them Vs. You Vs. Me (Deluxe Edition)",
@@ -577,17 +588,6 @@
       "count": 20,
       "first": 1788974410,
       "last": 1792398470,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Pride (In The Name Of Love) - Remastered 2009",
-      "album": "The Unforgettable Fire (Remastered)",
-      "count": 20,
-      "first": 1788964687,
-      "last": 1792360940,
       "playlists": {
         "1default": 20
       }
@@ -4651,6 +4651,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 38,
+      "first": 1788986484,
+      "last": 1792429573,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 20,
+          "first": 1788986484,
+          "last": 1792429573,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 18,
+          "first": 1789231311,
+          "last": 1792365906,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 38,
       "first": 1788972865,
@@ -4786,36 +4816,6 @@
           "count": 18,
           "first": 1789215507,
           "last": 1792358939,
-          "playlists": {
-            "1default": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kate Bollinger",
-      "count": 37,
-      "first": 1788915657,
-      "last": 1792422256,
-      "songs": [
-        {
-          "artist": "Kate Bollinger",
-          "title": "A Couple Things",
-          "album": "A word becomes a sound",
-          "count": 19,
-          "first": 1788915657,
-          "last": 1792422256,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Kate Bollinger",
-          "title": "Talk About It",
-          "album": "Talk About It (B-Side)",
-          "count": 18,
-          "first": 1788983449,
-          "last": 1792360809,
           "playlists": {
             "1default": 18
           }
@@ -7460,9 +7460,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7119,
+      "count": 7121,
       "first": 1788901564,
-      "last": 1792429292,
+      "last": 1792429573,
       "songs": [
         {
           "artist": "Tele Novella",
