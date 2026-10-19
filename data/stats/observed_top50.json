@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T20:47:37.279629+00:00",
+  "updatedAt": "2026-10-19T20:52:44.267941+00:00",
   "summary": {
-    "totalPlays": 15549,
+    "totalPlays": 15550,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792442769
+    "lastObserved": 1792443031
   },
   "topSongs": [
     {
@@ -395,6 +395,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "a machine as big as a city with a concert at the center",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 20,
+      "first": 1788972349,
+      "last": 1792443031,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Brittany Howard",
       "title": "Stay High",
       "album": "Jaime",
@@ -577,17 +588,6 @@
       "count": 20,
       "first": 1788965930,
       "last": 1792424811,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "What's for Dinner????",
-      "album": "Dead",
-      "count": 20,
-      "first": 1788917492,
-      "last": 1792424686,
       "playlists": {
         "1default": 20
       }
@@ -2717,10 +2717,21 @@
     },
     {
       "artist": "botch",
-      "count": 74,
+      "count": 75,
       "first": 1788920755,
-      "last": 1792357475,
+      "last": 1792443031,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 20,
+          "first": 1788972349,
+          "last": 1792443031,
+          "playlists": {
+            "1default": 20
+          }
+        },
         {
           "artist": "botch",
           "title": "gettingyoutobelieve",
@@ -2728,17 +2739,6 @@
           "count": 19,
           "first": 1788920755,
           "last": 1792313732,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 19,
-          "first": 1788972349,
-          "last": 1792237581,
           "playlists": {
             "1default": 19
           }
@@ -6658,6 +6658,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 38,
+      "first": 1788972349,
+      "last": 1792443031,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 20,
+          "first": 1788972349,
+          "last": 1792443031,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 18,
+          "first": 1788997306,
+          "last": 1792245039,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Laurel Hell",
       "count": 38,
@@ -6927,37 +6958,6 @@
           "playlists": {
             "sad girl no friends saturday": 6,
             "texting your situationship": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 37,
-      "first": 1788972349,
-      "last": 1792245039,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 19,
-          "first": 1788972349,
-          "last": 1792237581,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 18,
-          "first": 1788997306,
-          "last": 1792245039,
-          "playlists": {
-            "1default": 18
           }
         }
       ]
@@ -7460,9 +7460,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7183,
+      "count": 7184,
       "first": 1788901564,
-      "last": 1792442769,
+      "last": 1792443031,
       "songs": [
         {
           "artist": "Tele Novella",
