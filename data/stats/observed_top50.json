@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T13:47:50.290558+00:00",
+  "updatedAt": "2026-10-19T13:53:26.120247+00:00",
   "summary": {
-    "totalPlays": 15432,
+    "totalPlays": 15433,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792417500
+    "lastObserved": 1792417844
   },
   "topSongs": [
     {
@@ -7671,10 +7671,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 708,
+      "count": 709,
       "first": 1788955289,
-      "last": 1792417500,
+      "last": 1792417844,
       "songs": [
+        {
+          "artist": "Yael Naim",
+          "title": "A Part of Us",
+          "album": "Mon Bébé (Original Motion Picture Soundtrack)",
+          "count": 3,
+          "first": 1788962266,
+          "last": 1792417844,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Koffer",
           "title": "Calming Sophia",
@@ -7715,17 +7726,6 @@
           "count": 3,
           "first": 1788960543,
           "last": 1792413921,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Drumming Bird",
-          "title": "Blue Ribbon Baby",
-          "album": "American Spirits",
-          "count": 3,
-          "first": 1789566497,
-          "last": 1792413447,
           "playlists": {
             "carhartts": 3
           }
