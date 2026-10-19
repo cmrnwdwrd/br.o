@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T04:11:43.233879+00:00",
+  "updatedAt": "2026-10-19T04:17:02.556492+00:00",
   "summary": {
-    "totalPlays": 15272,
+    "totalPlays": 15273,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792383067
+    "lastObserved": 1792383242
   },
   "topSongs": [
     {
@@ -4732,6 +4732,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 36,
+      "first": 1788912385,
+      "last": 1792383242,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 19,
+          "first": 1788912385,
+          "last": 1792286602,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 17,
+          "first": 1789129746,
+          "last": 1792383242,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jay Som",
       "count": 36,
       "first": 1789069956,
@@ -4757,36 +4787,6 @@
           "last": 1792235732,
           "playlists": {
             "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 36,
-      "first": 1789054681,
-      "last": 1792375338,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 18,
-          "first": 1789054681,
-          "last": 1792375338,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 18,
-          "first": 1789057143,
-          "last": 1792095681,
-          "playlists": {
-            "1default": 18
           }
         }
       ]
@@ -7408,9 +7408,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7009,
+      "count": 7010,
       "first": 1788901564,
-      "last": 1792383067,
+      "last": 1792383242,
       "songs": [
         {
           "artist": "Tele Novella",
