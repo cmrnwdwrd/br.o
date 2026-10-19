@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T03:42:03.513064+00:00",
+  "updatedAt": "2026-10-19T03:47:04.201092+00:00",
   "summary": {
-    "totalPlays": 15264,
+    "totalPlays": 15265,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792381306
+    "lastObserved": 1792381524
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 19,
+      "first": 1788965930,
+      "last": 1792381524,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Hazel English",
       "title": "Five and Dime",
       "album": "Wake UP!",
@@ -578,17 +589,6 @@
       "count": 19,
       "first": 1788914421,
       "last": 1792372142,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Medium Troy",
-      "title": "Space Tree",
-      "album": "Space Tree",
-      "count": 19,
-      "first": 1788990730,
-      "last": 1792371887,
       "playlists": {
         "1default": 19
       }
@@ -3386,6 +3386,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 54,
+      "first": 1788965930,
+      "last": 1792381524,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 19,
+          "first": 1788965930,
+          "last": 1792381524,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 18,
+          "first": 1789068640,
+          "last": 1792356867,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 17,
+          "first": 1789215234,
+          "last": 1792234977,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 54,
       "first": 1788973998,
@@ -3461,47 +3502,6 @@
           "count": 17,
           "first": 1788973066,
           "last": 1792087833,
-          "playlists": {
-            "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 53,
-      "first": 1788965930,
-      "last": 1792356867,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 18,
-          "first": 1789068640,
-          "last": 1792356867,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 18,
-          "first": 1788965930,
-          "last": 1792193332,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 17,
-          "first": 1789215234,
-          "last": 1792234977,
           "playlists": {
             "1default": 17
           }
@@ -7408,9 +7408,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7001,
+      "count": 7002,
       "first": 1788901564,
-      "last": 1792381306,
+      "last": 1792381524,
       "songs": [
         {
           "artist": "Tele Novella",
