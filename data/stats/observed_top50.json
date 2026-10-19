@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T18:12:26.284585+00:00",
+  "updatedAt": "2026-10-19T18:17:49.176184+00:00",
   "summary": {
-    "totalPlays": 15504,
+    "totalPlays": 15506,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792433364
+    "lastObserved": 1792433718
   },
   "topSongs": [
     {
@@ -1675,10 +1675,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 144,
+      "count": 145,
       "first": 1788902047,
-      "last": 1792400701,
+      "last": 1792433554,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 19,
+          "first": 1789145316,
+          "last": 1792433554,
+          "playlists": {
+            "1default": 19
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -1699,17 +1710,6 @@
           "last": 1792254666,
           "playlists": {
             "1default": 19
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 18,
-          "first": 1789145316,
-          "last": 1792378256,
-          "playlists": {
-            "1default": 18
           }
         },
         {
@@ -4825,6 +4825,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 108,
+      "first": 1788902047,
+      "last": 1792433554,
+      "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 19,
+          "first": 1789145316,
+          "last": 1792433554,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 19,
+          "first": 1788902047,
+          "last": 1792262169,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 18,
+          "first": 1788903565,
+          "last": 1792371035,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 18,
+          "first": 1788903730,
+          "last": 1792316697,
+          "playlists": {
+            "1default": 18
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 17,
+          "first": 1788928852,
+          "last": 1792400701,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Vengeful Vulture",
+          "album": "1's a Man, 3's a Band",
+          "count": 17,
+          "first": 1789097184,
+          "last": 1792244499,
+          "playlists": {
+            "1default": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Opium",
       "album": "PHANTOMS",
       "count": 108,
@@ -4893,81 +4968,6 @@
           "count": 17,
           "first": 1788973540,
           "last": 1792258529,
-          "playlists": {
-            "1default": 17
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 107,
-      "first": 1788902047,
-      "last": 1792400701,
-      "songs": [
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 19,
-          "first": 1788902047,
-          "last": 1792262169,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 18,
-          "first": 1789145316,
-          "last": 1792378256,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 18,
-          "first": 1788903565,
-          "last": 1792371035,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 18,
-          "first": 1788903730,
-          "last": 1792316697,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 17,
-          "first": 1788928852,
-          "last": 1792400701,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Vengeful Vulture",
-          "album": "1's a Man, 3's a Band",
-          "count": 17,
-          "first": 1789097184,
-          "last": 1792244499,
           "playlists": {
             "1default": 17
           }
@@ -7460,9 +7460,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7138,
+      "count": 7140,
       "first": 1788901564,
-      "last": 1792433364,
+      "last": 1792433718,
       "songs": [
         {
           "artist": "Tele Novella",
