@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T15:02:04.414006+00:00",
+  "updatedAt": "2026-10-19T15:07:47.450634+00:00",
   "summary": {
-    "totalPlays": 15451,
+    "totalPlays": 15453,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792422043
+    "lastObserved": 1792422414
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
+      "title": "Not Strong Enough",
+      "album": "the record",
+      "count": 20,
+      "first": 1788986031,
+      "last": 1792422414,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Doechii",
       "title": "NISSAN ALTIMA",
       "album": "Alligator Bites Never Heal",
@@ -578,17 +589,6 @@
       "count": 20,
       "first": 1789056580,
       "last": 1792241926,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Better Oblivion Community Center, Conor Oberst, Phoebe Bridgers",
-      "title": "Dylan Thomas",
-      "album": "Better Oblivion Community Center",
-      "count": 20,
-      "first": 1789055208,
-      "last": 1792239452,
       "playlists": {
         "1default": 20
       }
@@ -4734,6 +4734,36 @@
       ]
     },
     {
+      "artist": "Kate Bollinger",
+      "count": 37,
+      "first": 1788915657,
+      "last": 1792422256,
+      "songs": [
+        {
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 19,
+          "first": 1788915657,
+          "last": 1792422256,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 18,
+          "first": 1788983449,
+          "last": 1792360809,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 37,
       "first": 1788947810,
@@ -4787,36 +4817,6 @@
           "count": 18,
           "first": 1789169386,
           "last": 1792369007,
-          "playlists": {
-            "1default": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 37,
-      "first": 1789054681,
-      "last": 1792385518,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 19,
-          "first": 1789057143,
-          "last": 1792385518,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 18,
-          "first": 1789054681,
-          "last": 1792375338,
           "playlists": {
             "1default": 18
           }
@@ -7482,9 +7482,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7085,
+      "count": 7087,
       "first": 1788901564,
-      "last": 1792422043,
+      "last": 1792422414,
       "songs": [
         {
           "artist": "Tele Novella",
