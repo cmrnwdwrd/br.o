@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T12:22:45.024526+00:00",
+  "updatedAt": "2026-10-19T12:27:01.044413+00:00",
   "summary": {
-    "totalPlays": 15410,
+    "totalPlays": 15411,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792412428
+    "lastObserved": 1792412604
   },
   "topSongs": [
     {
@@ -7670,10 +7670,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 686,
+      "count": 687,
       "first": 1788955289,
-      "last": 1792412428,
+      "last": 1792412604,
       "songs": [
+        {
+          "artist": "The New Basement Tapes",
+          "title": "Kansas City",
+          "album": "Lost On The River (Deluxe)",
+          "count": 3,
+          "first": 1789561928,
+          "last": 1792412604,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "The Head And The Heart",
           "title": "Down in the Valley",
@@ -7714,17 +7725,6 @@
           "count": 3,
           "first": 1790165374,
           "last": 1792067293,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Mt. Joy",
-          "title": "Jenny Jenkins",
-          "album": "Mt. Joy",
-          "count": 3,
-          "first": 1790080980,
-          "last": 1792066716,
           "playlists": {
             "carhartts": 3
           }
