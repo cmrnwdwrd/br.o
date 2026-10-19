@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T16:02:02.988133+00:00",
+  "updatedAt": "2026-10-19T16:07:50.816610+00:00",
   "summary": {
-    "totalPlays": 15468,
+    "totalPlays": 15470,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792425679
+    "lastObserved": 1792426059
   },
   "topSongs": [
     {
@@ -85,6 +85,18 @@
       }
     },
     {
+      "artist": "Destructo Disk",
+      "title": "I Wish I Was A Riot Grrrl",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 29,
+      "first": 1788996063,
+      "last": 1792425874,
+      "playlists": {
+        "1default": 25,
+        "anti-capitalist weekday afternoon #1": 4
+      }
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "title": "Happy Boy",
       "album": "WAR IN COLORADO!",
@@ -142,18 +154,6 @@
       "last": 1792194015,
       "playlists": {
         "1default": 25,
-        "anti-capitalist weekday afternoon #1": 4
-      }
-    },
-    {
-      "artist": "Destructo Disk",
-      "title": "I Wish I Was A Riot Grrrl",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 28,
-      "first": 1788996063,
-      "last": 1792363235,
-      "playlists": {
-        "1default": 24,
         "anti-capitalist weekday afternoon #1": 4
       }
     },
@@ -334,6 +334,17 @@
       "playlists": {
         "1default": 21,
         "jack johnson hackiesack friday afternoon": 1
+      }
+    },
+    {
+      "artist": "The Palmer Squares",
+      "title": "Dip",
+      "album": "Planet of the Shapes",
+      "count": 21,
+      "first": 1788904525,
+      "last": 1792426059,
+      "playlists": {
+        "1default": 21
       }
     },
     {
@@ -566,17 +577,6 @@
       "count": 20,
       "first": 1788919863,
       "last": 1792317294,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "The Palmer Squares",
-      "title": "Dip",
-      "album": "Planet of the Shapes",
-      "count": 20,
-      "first": 1788904525,
-      "last": 1792315283,
       "playlists": {
         "1default": 20
       }
@@ -7362,6 +7362,27 @@
       ]
     },
     {
+      "artist": "Destructo Disk",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 29,
+      "first": 1788996063,
+      "last": 1792425874,
+      "songs": [
+        {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 29,
+          "first": 1788996063,
+          "last": 1792425874,
+          "playlists": {
+            "1default": 25,
+            "anti-capitalist weekday afternoon #1": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Rosie Tucker",
       "album": "Sucker Supreme",
       "count": 29,
@@ -7434,56 +7455,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Chappell Roan",
-      "album": "The Rise and Fall of a Midwest Princess",
-      "count": 29,
-      "first": 1788973776,
-      "last": 1792262960,
-      "songs": [
-        {
-          "artist": "Chappell Roan",
-          "title": "My Kink Is Karma",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 17,
-          "first": 1788973776,
-          "last": 1792262960,
-          "playlists": {
-            "1default": 17
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Super Graphic Ultra Modern Girl",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 11,
-          "first": 1789428359,
-          "last": 1792102085,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 11
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Pink Pony Club",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 1,
-          "first": 1789883353,
-          "last": 1789883353,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7102,
+      "count": 7104,
       "first": 1788901564,
-      "last": 1792425679,
+      "last": 1792426059,
       "songs": [
         {
           "artist": "Tele Novella",
