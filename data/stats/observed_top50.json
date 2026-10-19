@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T14:17:45.349504+00:00",
+  "updatedAt": "2026-10-19T14:22:43.809912+00:00",
   "summary": {
-    "totalPlays": 15438,
+    "totalPlays": 15440,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792419122
+    "lastObserved": 1792419717
   },
   "topSongs": [
     {
@@ -373,6 +373,28 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 20,
+      "first": 1788919285,
+      "last": 1792419717,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
+      "artist": "Smash Mouth",
+      "title": "Walkin' On The Sun",
+      "album": "Fush Yu Mang (20th Anniversary Edition)",
+      "count": 20,
+      "first": 1788967329,
+      "last": 1792419509,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Brainsick",
       "album": "Brainsick",
@@ -567,28 +589,6 @@
       "count": 19,
       "first": 1788919486,
       "last": 1792402513,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "Mallard",
-      "album": "Mallard",
-      "count": 19,
-      "first": 1788973386,
-      "last": 1792402074,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "The Ephinjis",
-      "title": "Hot to Go!",
-      "album": "Hot to Go!",
-      "count": 19,
-      "first": 1789033065,
-      "last": 1792401108,
       "playlists": {
         "1default": 19
       }
@@ -4106,6 +4106,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 41,
+      "first": 1788919285,
+      "last": 1792419717,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 20,
+          "first": 1788919285,
+          "last": 1792419717,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 19,
+          "first": 1788975084,
+          "last": 1792352796,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 2,
+          "first": 1789893243,
+          "last": 1791702861,
+          "playlists": {
+            "christmas rn": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 41,
       "first": 1788914421,
@@ -4320,47 +4361,6 @@
           "last": 1791581510,
           "playlists": {
             "escaping from cu boulder by giselle": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 40,
-      "first": 1788919285,
-      "last": 1792352796,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 19,
-          "first": 1788975084,
-          "last": 1792352796,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 19,
-          "first": 1788919285,
-          "last": 1792319350,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 2,
-          "first": 1789893243,
-          "last": 1791702861,
-          "playlists": {
-            "christmas rn": 2
           }
         }
       ]
@@ -7482,9 +7482,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7072,
+      "count": 7074,
       "first": 1788901564,
-      "last": 1792419122,
+      "last": 1792419717,
       "songs": [
         {
           "artist": "Tele Novella",
