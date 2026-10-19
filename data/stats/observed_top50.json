@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T07:52:05.034357+00:00",
+  "updatedAt": "2026-10-19T07:56:48.635691+00:00",
   "summary": {
-    "totalPlays": 15334,
+    "totalPlays": 15336,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792396141
+    "lastObserved": 1792396608
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 19,
+      "first": 1788989714,
+      "last": 1792396608,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "Gorillaz, Peter Hook, Georgia",
       "title": "Aries (feat. Peter Hook and Georgia)",
       "album": "Song Machine Episode 3",
@@ -578,17 +589,6 @@
       "count": 19,
       "first": 1788988660,
       "last": 1792382470,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Finger Eleven",
-      "title": "Paralyzer",
-      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-      "count": 19,
-      "first": 1789049428,
-      "last": 1792381762,
       "playlists": {
         "1default": 19
       }
@@ -4681,6 +4681,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 37,
+      "first": 1788989714,
+      "last": 1792396608,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 19,
+          "first": 1788989714,
+          "last": 1792396608,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 18,
+          "first": 1789169386,
+          "last": 1792369007,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 37,
       "first": 1789054681,
@@ -4788,38 +4818,6 @@
           "last": 1792365906,
           "playlists": {
             "1default": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "count": 37,
-      "first": 1788986736,
-      "last": 1792301289,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 30,
-          "first": 1788986736,
-          "last": 1792259139,
-          "playlists": {
-            "1default": 26,
-            "anti-capitalist weekday afternoon #1": 4
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 7,
-          "first": 1789258725,
-          "last": 1792301289,
-          "playlists": {
-            "sad girl no friends saturday": 6,
-            "texting your situationship": 1
           }
         }
       ]
@@ -7364,6 +7362,37 @@
       ]
     },
     {
+      "artist": "Rosie Tucker",
+      "album": "Sucker Supreme",
+      "count": 29,
+      "first": 1788995157,
+      "last": 1792396394,
+      "songs": [
+        {
+          "artist": "Rosie Tucker",
+          "title": "Habanero",
+          "album": "Sucker Supreme",
+          "count": 17,
+          "first": 1789214020,
+          "last": 1792396394,
+          "playlists": {
+            "1default": 17
+          }
+        },
+        {
+          "artist": "Rosie Tucker",
+          "title": "For Sale: Ford Pinto",
+          "album": "Sucker Supreme",
+          "count": 12,
+          "first": 1788995157,
+          "last": 1792104722,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "album": "WAR IN COLORADO!",
       "count": 29,
@@ -7447,35 +7476,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "album": "Satisfaction Intended",
-      "count": 29,
-      "first": 1788926155,
-      "last": 1792259926,
-      "songs": [
-        {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
-          "count": 29,
-          "first": 1788926155,
-          "last": 1792259926,
-          "playlists": {
-            "1default": 26,
-            "anti-capitalist weekday afternoon #1": 3
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7034,
+      "count": 7036,
       "first": 1788901564,
-      "last": 1792396141,
+      "last": 1792396608,
       "songs": [
         {
           "artist": "Tele Novella",
