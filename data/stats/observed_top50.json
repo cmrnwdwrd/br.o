@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-19T04:32:06.258329+00:00",
+  "updatedAt": "2026-10-19T04:36:20.974579+00:00",
   "summary": {
-    "totalPlays": 15276,
+    "totalPlays": 15277,
     "unknownPlays": 1141,
     "uniqueTracks": 2488,
     "uniqueArtists": 1617,
     "uniqueAlbums": 2071,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792384112
+    "lastObserved": 1792384426
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 19,
+      "first": 1789063255,
+      "last": 1792384426,
+      "playlists": {
+        "1default": 19
+      }
+    },
+    {
       "artist": "The Smashing Pumpkins",
       "title": "Beautiful - Remastered 2012",
       "album": "Mellon Collie And The Infinite Sadness (Remastered)",
@@ -578,17 +589,6 @@
       "count": 19,
       "first": 1788962598,
       "last": 1792378748,
-      "playlists": {
-        "1default": 19
-      }
-    },
-    {
-      "artist": "Jay Som",
-      "title": "Tenderness",
-      "album": "Anak Ko",
-      "count": 19,
-      "first": 1789235365,
-      "last": 1792377349,
       "playlists": {
         "1default": 19
       }
@@ -1580,10 +1580,21 @@
     },
     {
       "artist": "Opium",
-      "count": 144,
+      "count": 145,
       "first": 1788927400,
-      "last": 1792377133,
+      "last": 1792384426,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 19,
+          "first": 1789063255,
+          "last": 1792384426,
+          "playlists": {
+            "1default": 19
+          }
+        },
         {
           "artist": "Opium",
           "title": "Dirge",
@@ -1646,17 +1657,6 @@
           "count": 18,
           "first": 1789109880,
           "last": 1792237005,
-          "playlists": {
-            "1default": 18
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 18,
-          "first": 1789063255,
-          "last": 1792073163,
           "playlists": {
             "1default": 18
           }
@@ -7408,9 +7408,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7013,
+      "count": 7014,
       "first": 1788901564,
-      "last": 1792384112,
+      "last": 1792384426,
       "songs": [
         {
           "artist": "Tele Novella",
