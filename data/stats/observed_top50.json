@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T18:02:51.342627+00:00",
+  "updatedAt": "2026-10-20T18:07:49.462539+00:00",
   "summary": {
-    "totalPlays": 15893,
+    "totalPlays": 15895,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792519193
+    "lastObserved": 1792519584
   },
   "topSongs": [
     {
@@ -451,6 +451,28 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "DISINTEGRATE",
+      "album": "SWAMP",
+      "count": 20,
+      "first": 1788983290,
+      "last": 1792519584,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
+      "artist": "Royel Otis",
+      "title": "Oysters In My Pocket",
+      "album": "Oysters In My Pocket",
+      "count": 20,
+      "first": 1788916765,
+      "last": 1792519423,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Your Smith",
       "title": "Debbie",
       "album": "Bad Habit",
@@ -567,28 +589,6 @@
       "count": 20,
       "first": 1788965724,
       "last": 1792515414,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "title": "Keep Pushing",
-      "album": "Change the Channel",
-      "count": 20,
-      "first": 1788925926,
-      "last": 1792514563,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Rilo Kiley",
-      "title": "Science Vs. Romance",
-      "album": "Take Offs And Landings",
-      "count": 20,
-      "first": 1788902251,
-      "last": 1792512990,
       "playlists": {
         "1default": 20
       }
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 299,
+      "count": 300,
       "first": 1788910325,
-      "last": 1792505011,
+      "last": 1792519584,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1103,6 +1103,17 @@
           "playlists": {
             "1default": 23,
             "steal my bike": 2
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 20,
+          "first": 1788983290,
+          "last": 1792519584,
+          "playlists": {
+            "1default": 20
           }
         },
         {
@@ -1189,17 +1200,6 @@
           "count": 19,
           "first": 1788926373,
           "last": 1792312850,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 19,
-          "first": 1788983290,
-          "last": 1792285229,
           "playlists": {
             "1default": 19
           }
@@ -5434,10 +5434,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 75,
+      "count": 76,
       "first": 1788926373,
-      "last": 1792488767,
+      "last": 1792519584,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 20,
+          "first": 1788983290,
+          "last": 1792519584,
+          "playlists": {
+            "1default": 20
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "HANGING MYSELF WITH MY PHONE CHARGER",
@@ -5456,17 +5467,6 @@
           "count": 19,
           "first": 1788926373,
           "last": 1792312850,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 19,
-          "first": 1788983290,
-          "last": 1792285229,
           "playlists": {
             "1default": 19
           }
@@ -7484,9 +7484,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7355,
+      "count": 7357,
       "first": 1788901564,
-      "last": 1792519193,
+      "last": 1792519584,
       "songs": [
         {
           "artist": "Tele Novella",
