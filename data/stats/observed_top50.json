@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T13:03:15.582533+00:00",
+  "updatedAt": "2026-10-20T13:07:29.247015+00:00",
   "summary": {
-    "totalPlays": 15814,
+    "totalPlays": 15815,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792501150
+    "lastObserved": 1792501457
   },
   "topSongs": [
     {
@@ -7671,10 +7671,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 724,
+      "count": 725,
       "first": 1788955289,
-      "last": 1792501150,
+      "last": 1792501457,
       "songs": [
+        {
+          "artist": "Mt. Joy",
+          "title": "Julia",
+          "album": "Mt. Joy",
+          "count": 3,
+          "first": 1790080167,
+          "last": 1792501457,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Matt Corby",
           "title": "Belly Side Up",
@@ -7715,17 +7726,6 @@
           "count": 3,
           "first": 1789996211,
           "last": 1792497898,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "PJ Harding, Noah Cyrus",
-          "title": "Dear August",
-          "album": "Dear August",
-          "count": 3,
-          "first": 1790166574,
-          "last": 1792418177,
           "playlists": {
             "carhartts": 3
           }
