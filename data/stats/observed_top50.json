@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T21:27:50.062882+00:00",
+  "updatedAt": "2026-10-20T21:33:01.463083+00:00",
   "summary": {
-    "totalPlays": 15948,
+    "totalPlays": 15950,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792531530
+    "lastObserved": 1792531958
   },
   "topSongs": [
     {
@@ -451,6 +451,28 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Antidote",
+      "album": "A Collection of Fleeting Moments and Daydreams",
+      "count": 20,
+      "first": 1788987870,
+      "last": 1792531958,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
+      "artist": "PUP",
+      "title": "Kids",
+      "album": "Morbid Stuff",
+      "count": 20,
+      "first": 1788913008,
+      "last": 1792531748,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "ruzlxn",
       "title": "BURN YOUR LOCAL POLITICIAN !",
       "album": "GRITTED TEETH *",
@@ -567,28 +589,6 @@
       "count": 20,
       "first": 1788988660,
       "last": 1792523251,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Fine Young Cannibals",
-      "title": "Good Thing",
-      "album": "The Raw & The Cooked",
-      "count": 20,
-      "first": 1788974590,
-      "last": 1792522317,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Cage The Elephant",
-      "title": "Social Cues",
-      "album": "Social Cues",
-      "count": 20,
-      "first": 1788990244,
-      "last": 1792521810,
       "playlists": {
         "1default": 20
       }
@@ -4355,6 +4355,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 40,
+      "first": 1788985030,
+      "last": 1792531958,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 20,
+          "first": 1788987870,
+          "last": 1792531958,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 20,
+          "first": 1788985030,
+          "last": 1792463004,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 40,
       "first": 1788921291,
@@ -4695,36 +4725,6 @@
           "last": 1790484376,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 39,
-      "first": 1788985030,
-      "last": 1792463004,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 20,
-          "first": 1788985030,
-          "last": 1792463004,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 19,
-          "first": 1788987870,
-          "last": 1792235263,
-          "playlists": {
-            "1default": 19
           }
         }
       ]
@@ -7459,9 +7459,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7410,
+      "count": 7412,
       "first": 1788901564,
-      "last": 1792531530,
+      "last": 1792531958,
       "songs": [
         {
           "artist": "Tele Novella",
