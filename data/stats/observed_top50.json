@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T01:12:50.723743+00:00",
+  "updatedAt": "2026-10-20T01:17:05.221208+00:00",
   "summary": {
-    "totalPlays": 15619,
+    "totalPlays": 15620,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792458584
+    "lastObserved": 1792458854
   },
   "topSongs": [
     {
@@ -428,6 +428,17 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "You Make Me Want to Kill Myself",
+      "album": "You Make Me Want to Kill Myself",
+      "count": 20,
+      "first": 1788984684,
+      "last": 1792458854,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Tally Hall",
       "title": "The Bidding",
       "album": "Marvin's Marvelous Mechanical Museum",
@@ -577,17 +588,6 @@
       "count": 20,
       "first": 1788913884,
       "last": 1792442083,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Hotel Ugly",
-      "title": "Shut up My Moms Calling",
-      "album": "Shut up My Moms Calling",
-      "count": 20,
-      "first": 1788969130,
-      "last": 1792440075,
       "playlists": {
         "1default": 20
       }
@@ -1675,10 +1675,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 145,
+      "count": 146,
       "first": 1788902047,
-      "last": 1792433554,
+      "last": 1792458854,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "You Make Me Want to Kill Myself",
+          "album": "You Make Me Want to Kill Myself",
+          "count": 20,
+          "first": 1788984684,
+          "last": 1792458854,
+          "playlists": {
+            "1default": 20
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Love Is Lightning",
@@ -1697,17 +1708,6 @@
           "count": 19,
           "first": 1788902047,
           "last": 1792262169,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "You Make Me Want to Kill Myself",
-          "album": "You Make Me Want to Kill Myself",
-          "count": 19,
-          "first": 1788984684,
-          "last": 1792254666,
           "playlists": {
             "1default": 19
           }
@@ -7472,9 +7472,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7230,
+      "count": 7231,
       "first": 1788901564,
-      "last": 1792458584,
+      "last": 1792458854,
       "songs": [
         {
           "artist": "Tele Novella",
