@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T13:57:29.189349+00:00",
+  "updatedAt": "2026-10-20T14:02:53.995617+00:00",
   "summary": {
-    "totalPlays": 15830,
+    "totalPlays": 15831,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792504599
+    "lastObserved": 1792504761
   },
   "topSongs": [
     {
@@ -7671,10 +7671,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 740,
+      "count": 741,
       "first": 1788955289,
-      "last": 1792504599,
+      "last": 1792504761,
       "songs": [
+        {
+          "artist": "Ben Howard",
+          "title": "Only Love",
+          "album": "Every Kingdom",
+          "count": 3,
+          "first": 1790255260,
+          "last": 1792504761,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Arts Fishing Club",
           "title": "Tupelo Honey",
@@ -7715,17 +7726,6 @@
           "count": 3,
           "first": 1790253884,
           "last": 1792502841,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Ziggy Alberts",
-          "title": "Simple Things",
-          "album": "Made of Water",
-          "count": 3,
-          "first": 1789393831,
-          "last": 1792502107,
           "playlists": {
             "carhartts": 3
           }
