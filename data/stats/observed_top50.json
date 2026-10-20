@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T16:52:06.594347+00:00",
+  "updatedAt": "2026-10-20T16:57:32.915158+00:00",
   "summary": {
-    "totalPlays": 15874,
+    "totalPlays": 15876,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792515039
+    "lastObserved": 1792515414
   },
   "topSongs": [
     {
@@ -451,6 +451,17 @@
       }
     },
     {
+      "artist": "Sjowgren",
+      "title": "Now & Then",
+      "album": "Now & Then",
+      "count": 20,
+      "first": 1788965724,
+      "last": 1792515414,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "title": "Keep Pushing",
       "album": "Change the Channel",
@@ -578,17 +589,6 @@
       "count": 20,
       "first": 1788970549,
       "last": 1792506489,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Franz Ferdinand",
-      "title": "Billy Goodbye",
-      "album": "Billy Goodbye",
-      "count": 20,
-      "first": 1789014639,
-      "last": 1792506249,
       "playlists": {
         "1default": 20
       }
@@ -3188,6 +3188,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 59,
+      "first": 1788965724,
+      "last": 1792515414,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 20,
+          "first": 1788965724,
+          "last": 1792515414,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 20,
+          "first": 1789059354,
+          "last": 1792508138,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 19,
+          "first": 1789225488,
+          "last": 1792419920,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 59,
       "first": 1788917230,
@@ -3287,47 +3328,6 @@
           "last": 1792221689,
           "playlists": {
             "for the girls driving 85": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 58,
-      "first": 1788965724,
-      "last": 1792508138,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 20,
-          "first": 1789059354,
-          "last": 1792508138,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 19,
-          "first": 1789225488,
-          "last": 1792419920,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 19,
-          "first": 1788965724,
-          "last": 1792250433,
-          "playlists": {
-            "1default": 19
           }
         }
       ]
@@ -7484,9 +7484,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7336,
+      "count": 7338,
       "first": 1788901564,
-      "last": 1792515039,
+      "last": 1792515414,
       "songs": [
         {
           "artist": "Tele Novella",
