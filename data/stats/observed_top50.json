@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T13:22:29.756927+00:00",
+  "updatedAt": "2026-10-20T13:27:57.814899+00:00",
   "summary": {
-    "totalPlays": 15820,
+    "totalPlays": 15821,
     "unknownPlays": 1141,
     "uniqueTracks": 2493,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792502518
+    "lastObserved": 1792502841
   },
   "topSongs": [
     {
@@ -7671,10 +7671,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 730,
+      "count": 731,
       "first": 1788955289,
-      "last": 1792502518,
+      "last": 1792502841,
       "songs": [
+        {
+          "artist": "Oliver Hazard",
+          "title": "Dandelion",
+          "album": "Dandelion",
+          "count": 3,
+          "first": 1790253884,
+          "last": 1792502841,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Ziggy Alberts",
           "title": "Simple Things",
@@ -7715,17 +7726,6 @@
           "count": 3,
           "first": 1789480536,
           "last": 1792499204,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Bethel Music, Cory Asbury, Gable Price",
-          "title": "Homecoming - Live",
-          "album": "Homecoming (Live)",
-          "count": 3,
-          "first": 1789042195,
-          "last": 1792498733,
           "playlists": {
             "carhartts": 3
           }
