@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T13:52:05.466603+00:00",
+  "updatedAt": "2026-10-20T13:57:29.189349+00:00",
   "summary": {
-    "totalPlays": 15829,
+    "totalPlays": 15830,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792504325
+    "lastObserved": 1792504599
   },
   "topSongs": [
     {
@@ -7671,10 +7671,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 739,
+      "count": 740,
       "first": 1788955289,
-      "last": 1792504325,
+      "last": 1792504599,
       "songs": [
+        {
+          "artist": "Arts Fishing Club",
+          "title": "Tupelo Honey",
+          "album": "Human - I",
+          "count": 3,
+          "first": 1788957422,
+          "last": 1792504599,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "The Walters",
           "title": "Fancy Shoes",
@@ -7715,17 +7726,6 @@
           "count": 3,
           "first": 1789393831,
           "last": 1792502107,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Mt. Joy",
-          "title": "Julia",
-          "album": "Mt. Joy",
-          "count": 3,
-          "first": 1790080167,
-          "last": 1792501457,
           "playlists": {
             "carhartts": 3
           }
