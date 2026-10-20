@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T00:12:46.536576+00:00",
+  "updatedAt": "2026-10-20T00:17:03.252705+00:00",
   "summary": {
-    "totalPlays": 15603,
+    "totalPlays": 15604,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792455123
+    "lastObserved": 1792455353
   },
   "topSongs": [
     {
@@ -406,6 +406,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 20,
+      "first": 1788975084,
+      "last": 1792455353,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Gorillaz, Fatoumata Diawara",
       "title": "Désolé (feat. Fatoumata Diawara)",
       "album": "Song Machine Episode 2",
@@ -577,17 +588,6 @@
       "count": 20,
       "first": 1788989714,
       "last": 1792436904,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "BENEE",
-      "title": "Sad Boiii",
-      "album": "Sad Boiii",
-      "count": 20,
-      "first": 1788911174,
-      "last": 1792436738,
       "playlists": {
         "1default": 20
       }
@@ -4105,6 +4105,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 42,
+      "first": 1788919285,
+      "last": 1792455353,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 20,
+          "first": 1788975084,
+          "last": 1792455353,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 20,
+          "first": 1788919285,
+          "last": 1792419717,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 2,
+          "first": 1789893243,
+          "last": 1791702861,
+          "playlists": {
+            "christmas rn": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 42,
       "first": 1788914421,
@@ -4215,47 +4256,6 @@
           "last": 1792279608,
           "playlists": {
             "texting your situationship": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 41,
-      "first": 1788919285,
-      "last": 1792419717,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 20,
-          "first": 1788919285,
-          "last": 1792419717,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 19,
-          "first": 1788975084,
-          "last": 1792352796,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 2,
-          "first": 1789893243,
-          "last": 1791702861,
-          "playlists": {
-            "christmas rn": 2
           }
         }
       ]
@@ -7472,9 +7472,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7214,
+      "count": 7215,
       "first": 1788901564,
-      "last": 1792455123,
+      "last": 1792455353,
       "songs": [
         {
           "artist": "Tele Novella",
