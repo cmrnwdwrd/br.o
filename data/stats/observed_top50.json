@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T00:32:45.639963+00:00",
+  "updatedAt": "2026-10-20T00:37:46.001150+00:00",
   "summary": {
-    "totalPlays": 15607,
+    "totalPlays": 15609,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792456038
+    "lastObserved": 1792456597
   },
   "topSongs": [
     {
@@ -182,6 +182,18 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 25,
+      "first": 1789063640,
+      "last": 1792456597,
+      "playlists": {
+        "1default": 23,
+        "landlockd surfrock": 2
+      }
+    },
+    {
       "artist": "The Cardigans",
       "title": "Step On Me",
       "album": "First Band On The Moon (Remastered)",
@@ -215,18 +227,6 @@
       "playlists": {
         "1default": 23,
         "steal my bike": 2
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 24,
-      "first": 1789063640,
-      "last": 1792385694,
-      "playlists": {
-        "1default": 22,
-        "landlockd surfrock": 2
       }
     },
     {
@@ -311,6 +311,18 @@
       "playlists": {
         "1default": 22,
         "landlockd surfrock": 1
+      }
+    },
+    {
+      "artist": "Pinegrove",
+      "title": "Need 2",
+      "album": "Everything So Far",
+      "count": 22,
+      "first": 1789074021,
+      "last": 1792456404,
+      "playlists": {
+        "1default": 20,
+        "escaping from cu boulder by giselle": 2
       }
     },
     {
@@ -402,18 +414,6 @@
       "playlists": {
         "1default": 20,
         "jack johnson hackiesack friday afternoon": 1
-      }
-    },
-    {
-      "artist": "Pinegrove",
-      "title": "Need 2",
-      "album": "Everything So Far",
-      "count": 21,
-      "first": 1789074021,
-      "last": 1792237390,
-      "playlists": {
-        "1default": 19,
-        "escaping from cu boulder by giselle": 2
       }
     },
     {
@@ -3940,6 +3940,37 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 44,
+      "first": 1788973386,
+      "last": 1792456597,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 25,
+          "first": 1789063640,
+          "last": 1792456597,
+          "playlists": {
+            "1default": 23,
+            "landlockd surfrock": 2
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 19,
+          "first": 1788973386,
+          "last": 1792402074,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "Of Monsters and Men",
       "count": 43,
       "first": 1788963370,
@@ -3976,37 +4007,6 @@
           "last": 1791579824,
           "playlists": {
             "escaping from cu boulder by giselle": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 43,
-      "first": 1788973386,
-      "last": 1792402074,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 24,
-          "first": 1789063640,
-          "last": 1792385694,
-          "playlists": {
-            "1default": 22,
-            "landlockd surfrock": 2
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 19,
-          "first": 1788973386,
-          "last": 1792402074,
-          "playlists": {
-            "1default": 19
           }
         }
       ]
@@ -7472,9 +7472,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7218,
+      "count": 7220,
       "first": 1788901564,
-      "last": 1792456038,
+      "last": 1792456597,
       "songs": [
         {
           "artist": "Tele Novella",
