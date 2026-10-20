@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T05:32:46.770589+00:00",
+  "updatedAt": "2026-10-20T05:37:47.065415+00:00",
   "summary": {
-    "totalPlays": 15692,
+    "totalPlays": 15693,
     "unknownPlays": 1141,
     "uniqueTracks": 2492,
     "uniqueArtists": 1618,
     "uniqueAlbums": 2075,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792474348
+    "lastObserved": 1792474603
   },
   "topSongs": [
     {
@@ -3900,10 +3900,21 @@
     },
     {
       "artist": "hkmori",
-      "count": 46,
+      "count": 47,
       "first": 1788938854,
-      "last": 1792136806,
+      "last": 1792474603,
       "songs": [
+        {
+          "artist": "hkmori",
+          "title": "lost",
+          "album": "unrequited love",
+          "count": 16,
+          "first": 1788938854,
+          "last": 1792474603,
+          "playlists": {
+            "breakbeat": 16
+          }
+        },
         {
           "artist": "hkmori",
           "title": "re:titled",
@@ -3922,17 +3933,6 @@
           "count": 15,
           "first": 1789025449,
           "last": 1792054908,
-          "playlists": {
-            "breakbeat": 15
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "lost",
-          "album": "unrequited love",
-          "count": 15,
-          "first": 1788938854,
-          "last": 1792050530,
           "playlists": {
             "breakbeat": 15
           }
@@ -6128,6 +6128,48 @@
       ]
     },
     {
+      "artist": "hkmori",
+      "album": "unrequited love",
+      "count": 47,
+      "first": 1788938854,
+      "last": 1792474603,
+      "songs": [
+        {
+          "artist": "hkmori",
+          "title": "lost",
+          "album": "unrequited love",
+          "count": 16,
+          "first": 1788938854,
+          "last": 1792474603,
+          "playlists": {
+            "breakbeat": 16
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "re:titled",
+          "album": "unrequited love",
+          "count": 16,
+          "first": 1789018775,
+          "last": 1792136806,
+          "playlists": {
+            "breakbeat": 16
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "anybody can find love (except you.)",
+          "album": "unrequited love",
+          "count": 15,
+          "first": 1789025449,
+          "last": 1792054908,
+          "playlists": {
+            "breakbeat": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ethel Cain",
       "album": "Preacher's Daughter",
       "count": 47,
@@ -6176,48 +6218,6 @@
           "last": 1792221689,
           "playlists": {
             "for the girls driving 85": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "hkmori",
-      "album": "unrequited love",
-      "count": 46,
-      "first": 1788938854,
-      "last": 1792136806,
-      "songs": [
-        {
-          "artist": "hkmori",
-          "title": "re:titled",
-          "album": "unrequited love",
-          "count": 16,
-          "first": 1789018775,
-          "last": 1792136806,
-          "playlists": {
-            "breakbeat": 16
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "anybody can find love (except you.)",
-          "album": "unrequited love",
-          "count": 15,
-          "first": 1789025449,
-          "last": 1792054908,
-          "playlists": {
-            "breakbeat": 15
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "lost",
-          "album": "unrequited love",
-          "count": 15,
-          "first": 1788938854,
-          "last": 1792050530,
-          "playlists": {
-            "breakbeat": 15
           }
         }
       ]
@@ -7535,9 +7535,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 1300,
+      "count": 1301,
       "first": 1788938278,
-      "last": 1792474348,
+      "last": 1792474603,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
