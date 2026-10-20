@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T21:47:06.905334+00:00",
+  "updatedAt": "2026-10-20T21:52:07.389692+00:00",
   "summary": {
-    "totalPlays": 15954,
+    "totalPlays": 15955,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792532744
+    "lastObserved": 1792533074
   },
   "topSongs": [
     {
@@ -462,6 +462,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 20,
+      "first": 1789064784,
+      "last": 1792533074,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Radiohead",
       "title": "If You Say the Word",
       "album": "If You Say the Word",
@@ -578,17 +589,6 @@
       "count": 20,
       "first": 1789062336,
       "last": 1792524737,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Royal Blood",
-      "title": "Trouble's Coming",
-      "album": "Trouble's Coming",
-      "count": 20,
-      "first": 1788928623,
-      "last": 1792524315,
       "playlists": {
         "1default": 20
       }
@@ -1580,10 +1580,21 @@
     },
     {
       "artist": "Opium",
-      "count": 152,
+      "count": 153,
       "first": 1788927400,
-      "last": 1792519193,
+      "last": 1792533074,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 20,
+          "first": 1789064784,
+          "last": 1792533074,
+          "playlists": {
+            "1default": 20
+          }
+        },
         {
           "artist": "Opium",
           "title": "Brainsick",
@@ -1646,17 +1657,6 @@
           "count": 19,
           "first": 1788946866,
           "last": 1792427796,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 19,
-          "first": 1789064784,
-          "last": 1792363380,
           "playlists": {
             "1default": 19
           }
@@ -7459,9 +7459,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7416,
+      "count": 7417,
       "first": 1788901564,
-      "last": 1792532744,
+      "last": 1792533074,
       "songs": [
         {
           "artist": "Tele Novella",
