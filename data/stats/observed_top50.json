@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-20T16:37:48.876559+00:00",
+  "updatedAt": "2026-10-20T16:42:59.324111+00:00",
   "summary": {
-    "totalPlays": 15870,
+    "totalPlays": 15872,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792513944
+    "lastObserved": 1792514563
   },
   "topSongs": [
     {
@@ -451,6 +451,17 @@
       }
     },
     {
+      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+      "title": "Keep Pushing",
+      "album": "Change the Channel",
+      "count": 20,
+      "first": 1788925926,
+      "last": 1792514563,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Rilo Kiley",
       "title": "Science Vs. Romance",
       "album": "Take Offs And Landings",
@@ -578,17 +589,6 @@
       "count": 20,
       "first": 1789014639,
       "last": 1792506249,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Lorde",
-      "title": "Mood Ring",
-      "album": "Solar Power",
-      "count": 20,
-      "first": 1788914032,
-      "last": 1792505199,
       "playlists": {
         "1default": 20
       }
@@ -2821,6 +2821,48 @@
       ]
     },
     {
+      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+      "count": 74,
+      "first": 1788917845,
+      "last": 1792514563,
+      "songs": [
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Run It",
+          "album": "Run It",
+          "count": 36,
+          "first": 1788943592,
+          "last": 1792477941,
+          "playlists": {
+            "breakbeat": 28,
+            "1default": 8
+          }
+        },
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Keep Pushing",
+          "album": "Change the Channel",
+          "count": 20,
+          "first": 1788925926,
+          "last": 1792514563,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Change the Channel",
+          "album": "Change the Channel",
+          "count": 18,
+          "first": 1788917845,
+          "last": 1792435713,
+          "playlists": {
+            "1default": 18
+          }
+        }
+      ]
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "count": 74,
       "first": 1788915065,
@@ -2866,48 +2908,6 @@
           "count": 18,
           "first": 1789085431,
           "last": 1792237884,
-          "playlists": {
-            "1default": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "count": 73,
-      "first": 1788917845,
-      "last": 1792477941,
-      "songs": [
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Run It",
-          "album": "Run It",
-          "count": 36,
-          "first": 1788943592,
-          "last": 1792477941,
-          "playlists": {
-            "breakbeat": 28,
-            "1default": 8
-          }
-        },
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Keep Pushing",
-          "album": "Change the Channel",
-          "count": 19,
-          "first": 1788925926,
-          "last": 1792359924,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Change the Channel",
-          "album": "Change the Channel",
-          "count": 18,
-          "first": 1788917845,
-          "last": 1792435713,
           "playlists": {
             "1default": 18
           }
@@ -6226,19 +6226,19 @@
     {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "album": "Change the Channel",
-      "count": 45,
+      "count": 46,
       "first": 1788917845,
-      "last": 1792435713,
+      "last": 1792514563,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
           "title": "Keep Pushing",
           "album": "Change the Channel",
-          "count": 19,
+          "count": 20,
           "first": 1788925926,
-          "last": 1792359924,
+          "last": 1792514563,
           "playlists": {
-            "1default": 19
+            "1default": 20
           }
         },
         {
@@ -7484,9 +7484,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7332,
+      "count": 7334,
       "first": 1788901564,
-      "last": 1792513944,
+      "last": 1792514563,
       "songs": [
         {
           "artist": "Tele Novella",
