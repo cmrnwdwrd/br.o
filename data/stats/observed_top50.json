@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T04:52:51.308230+00:00",
+  "updatedAt": "2026-10-21T04:57:10.188902+00:00",
   "summary": {
-    "totalPlays": 16074,
+    "totalPlays": 16076,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792558223
+    "lastObserved": 1792558580
   },
   "topSongs": [
     {
@@ -596,10 +596,32 @@
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 322,
+      "count": 324,
       "first": 1788929259,
-      "last": 1792558223,
+      "last": 1792558580,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "serendipity",
+          "album": "Casual Affair.",
+          "count": 9,
+          "first": 1788929259,
+          "last": 1792558580,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "prairie",
+          "album": "drive it like you stole it.",
+          "count": 9,
+          "first": 1788930130,
+          "last": 1792558381,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
         {
           "artist": "home alone.",
           "title": "open book",
@@ -855,33 +877,11 @@
         },
         {
           "artist": "home alone.",
-          "title": "serendipity",
-          "album": "Casual Affair.",
-          "count": 8,
-          "first": 1788929259,
-          "last": 1792040310,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "all night",
           "album": "drive it like you stole it.",
           "count": 8,
           "first": 1789448593,
           "last": 1792040120,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "prairie",
-          "album": "drive it like you stole it.",
-          "count": 8,
-          "first": 1788930130,
-          "last": 1791954077,
           "playlists": {
             "more home alone": 8
           }
@@ -5018,10 +5018,21 @@
     {
       "artist": "home alone.",
       "album": "drive it like you stole it.",
-      "count": 89,
+      "count": 90,
       "first": 1788929527,
-      "last": 1792557944,
+      "last": 1792558381,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "prairie",
+          "album": "drive it like you stole it.",
+          "count": 9,
+          "first": 1788930130,
+          "last": 1792558381,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
         {
           "artist": "home alone.",
           "title": "kill bill",
@@ -5112,17 +5123,6 @@
         },
         {
           "artist": "home alone.",
-          "title": "prairie",
-          "album": "drive it like you stole it.",
-          "count": 8,
-          "first": 1788930130,
-          "last": 1791954077,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "four o'clock",
           "album": "drive it like you stole it.",
           "count": 7,
@@ -5148,10 +5148,21 @@
     {
       "artist": "home alone.",
       "album": "Casual Affair.",
-      "count": 88,
+      "count": 89,
       "first": 1788929259,
-      "last": 1792558223,
+      "last": 1792558580,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "serendipity",
+          "album": "Casual Affair.",
+          "count": 9,
+          "first": 1788929259,
+          "last": 1792558580,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
         {
           "artist": "home alone.",
           "title": "open book",
@@ -5236,17 +5247,6 @@
           "count": 8,
           "first": 1789018186,
           "last": 1792040881,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "serendipity",
-          "album": "Casual Affair.",
-          "count": 8,
-          "first": 1788929259,
-          "last": 1792040310,
           "playlists": {
             "more home alone": 8
           }
@@ -7823,6 +7823,69 @@
       ]
     },
     {
+      "playlist": "more home alone",
+      "count": 258,
+      "first": 1788929259,
+      "last": 1792558580,
+      "songs": [
+        {
+          "artist": "home alone.",
+          "title": "serendipity",
+          "album": "Casual Affair.",
+          "count": 9,
+          "first": 1788929259,
+          "last": 1792558580,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "prairie",
+          "album": "drive it like you stole it.",
+          "count": 9,
+          "first": 1788930130,
+          "last": 1792558381,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "open book",
+          "album": "Casual Affair.",
+          "count": 9,
+          "first": 1789448120,
+          "last": 1792558223,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "reel it in",
+          "album": "all killer, no filler",
+          "count": 9,
+          "first": 1789017011,
+          "last": 1792558038,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "kill bill",
+          "album": "drive it like you stole it.",
+          "count": 9,
+          "first": 1789018094,
+          "last": 1792557944,
+          "playlists": {
+            "more home alone": 9
+          }
+        }
+      ]
+    },
+    {
       "playlist": "EPL4a",
       "count": 258,
       "first": 1788930925,
@@ -7944,69 +8007,6 @@
           "last": 1792186114,
           "playlists": {
             "escaping from cu boulder by giselle": 5
-          }
-        }
-      ]
-    },
-    {
-      "playlist": "more home alone",
-      "count": 256,
-      "first": 1788929259,
-      "last": 1792558223,
-      "songs": [
-        {
-          "artist": "home alone.",
-          "title": "open book",
-          "album": "Casual Affair.",
-          "count": 9,
-          "first": 1789448120,
-          "last": 1792558223,
-          "playlists": {
-            "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "reel it in",
-          "album": "all killer, no filler",
-          "count": 9,
-          "first": 1789017011,
-          "last": 1792558038,
-          "playlists": {
-            "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "kill bill",
-          "album": "drive it like you stole it.",
-          "count": 9,
-          "first": 1789018094,
-          "last": 1792557944,
-          "playlists": {
-            "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "light it up",
-          "album": "drive it like you stole it.",
-          "count": 9,
-          "first": 1789448241,
-          "last": 1792473984,
-          "playlists": {
-            "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "casino royal",
-          "album": "drive it like you stole it.",
-          "count": 9,
-          "first": 1789016383,
-          "last": 1792473573,
-          "playlists": {
-            "more home alone": 9
           }
         }
       ]
