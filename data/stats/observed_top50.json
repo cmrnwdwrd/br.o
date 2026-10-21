@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T02:22:55.403147+00:00",
+  "updatedAt": "2026-10-21T02:27:06.945152+00:00",
   "summary": {
-    "totalPlays": 16033,
+    "totalPlays": 16034,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792549206
+    "lastObserved": 1792549439
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "The Czars",
+      "title": "Drug",
+      "album": "Best Of",
+      "count": 21,
+      "first": 1789063847,
+      "last": 1792549439,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Monsune",
       "title": "Nothing in Return",
       "album": "Nothing in Return",
@@ -578,17 +589,6 @@
       "count": 21,
       "first": 1789056580,
       "last": 1792434257,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "The Palmer Squares",
-      "title": "Dip",
-      "album": "Planet of the Shapes",
-      "count": 21,
-      "first": 1788904525,
-      "last": 1792426059,
       "playlists": {
         "1default": 21
       }
@@ -2144,10 +2144,21 @@
     },
     {
       "artist": "The Czars",
-      "count": 110,
+      "count": 111,
       "first": 1788963949,
-      "last": 1792530452,
+      "last": 1792549439,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 21,
+          "first": 1789063847,
+          "last": 1792549439,
+          "playlists": {
+            "1default": 21
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Killjoy",
@@ -2155,17 +2166,6 @@
           "count": 20,
           "first": 1789096240,
           "last": 1792530452,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 20,
-          "first": 1789063847,
-          "last": 1792470654,
           "playlists": {
             "1default": 20
           }
@@ -4946,10 +4946,21 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 110,
+      "count": 111,
       "first": 1788963949,
-      "last": 1792530452,
+      "last": 1792549439,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 21,
+          "first": 1789063847,
+          "last": 1792549439,
+          "playlists": {
+            "1default": 21
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Killjoy",
@@ -4957,17 +4968,6 @@
           "count": 20,
           "first": 1789096240,
           "last": 1792530452,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 20,
-          "first": 1789063847,
-          "last": 1792470654,
           "playlists": {
             "1default": 20
           }
@@ -7386,9 +7386,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7469,
+      "count": 7470,
       "first": 1788901564,
-      "last": 1792549206,
+      "last": 1792549439,
       "songs": [
         {
           "artist": "Tele Novella",
