@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T09:26:53.492364+00:00",
+  "updatedAt": "2026-10-21T09:32:15.640852+00:00",
   "summary": {
-    "totalPlays": 16159,
+    "totalPlays": 16162,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792574717
+    "lastObserved": 1792575134
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "TRAP METAL",
+      "album": "TRAP METAL",
+      "count": 21,
+      "first": 1789063011,
+      "last": 1792575134,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "The Czars",
       "title": "Killjoy",
       "album": "Best Of",
@@ -577,17 +588,6 @@
       "count": 21,
       "first": 1788914032,
       "last": 1792548583,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Arcade Fire",
-      "title": "Wake Up",
-      "album": "Funeral",
-      "count": 21,
-      "first": 1788989909,
-      "last": 1792548153,
       "playlists": {
         "1default": 21
       }
@@ -1088,9 +1088,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 309,
+      "count": 310,
       "first": 1788910325,
-      "last": 1792566878,
+      "last": 1792575134,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1102,6 +1102,17 @@
           "playlists": {
             "1default": 24,
             "steal my bike": 2
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "TRAP METAL",
+          "album": "TRAP METAL",
+          "count": 21,
+          "first": 1789063011,
+          "last": 1792575134,
+          "playlists": {
+            "1default": 21
           }
         },
         {
@@ -1155,17 +1166,6 @@
           "count": 20,
           "first": 1788983290,
           "last": 1792519584,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "TRAP METAL",
-          "album": "TRAP METAL",
-          "count": 20,
-          "first": 1789063011,
-          "last": 1792460139,
           "playlists": {
             "1default": 20
           }
@@ -3774,6 +3774,47 @@
       ]
     },
     {
+      "artist": "hkmori",
+      "count": 51,
+      "first": 1788938854,
+      "last": 1792574861,
+      "songs": [
+        {
+          "artist": "hkmori",
+          "title": "anybody can find love (except you.)",
+          "album": "unrequited love",
+          "count": 17,
+          "first": 1789025449,
+          "last": 1792574861,
+          "playlists": {
+            "breakbeat": 17
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "lost",
+          "album": "unrequited love",
+          "count": 17,
+          "first": 1788938854,
+          "last": 1792567524,
+          "playlists": {
+            "breakbeat": 17
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "re:titled",
+          "album": "unrequited love",
+          "count": 17,
+          "first": 1789018775,
+          "last": 1792488367,
+          "playlists": {
+            "breakbeat": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ramones",
       "count": 51,
       "first": 1788968644,
@@ -3800,47 +3841,6 @@
           "last": 1792432425,
           "playlists": {
             "1default": 19
-          }
-        }
-      ]
-    },
-    {
-      "artist": "hkmori",
-      "count": 50,
-      "first": 1788938854,
-      "last": 1792567524,
-      "songs": [
-        {
-          "artist": "hkmori",
-          "title": "lost",
-          "album": "unrequited love",
-          "count": 17,
-          "first": 1788938854,
-          "last": 1792567524,
-          "playlists": {
-            "breakbeat": 17
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "re:titled",
-          "album": "unrequited love",
-          "count": 17,
-          "first": 1789018775,
-          "last": 1792488367,
-          "playlists": {
-            "breakbeat": 17
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "anybody can find love (except you.)",
-          "album": "unrequited love",
-          "count": 16,
-          "first": 1789025449,
-          "last": 1792481149,
-          "playlists": {
-            "breakbeat": 16
           }
         }
       ]
@@ -6007,6 +6007,48 @@
       ]
     },
     {
+      "artist": "hkmori",
+      "album": "unrequited love",
+      "count": 51,
+      "first": 1788938854,
+      "last": 1792574861,
+      "songs": [
+        {
+          "artist": "hkmori",
+          "title": "anybody can find love (except you.)",
+          "album": "unrequited love",
+          "count": 17,
+          "first": 1789025449,
+          "last": 1792574861,
+          "playlists": {
+            "breakbeat": 17
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "lost",
+          "album": "unrequited love",
+          "count": 17,
+          "first": 1788938854,
+          "last": 1792567524,
+          "playlists": {
+            "breakbeat": 17
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "re:titled",
+          "album": "unrequited love",
+          "count": 17,
+          "first": 1789018775,
+          "last": 1792488367,
+          "playlists": {
+            "breakbeat": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ramones",
       "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
       "count": 51,
@@ -6034,48 +6076,6 @@
           "last": 1792432425,
           "playlists": {
             "1default": 19
-          }
-        }
-      ]
-    },
-    {
-      "artist": "hkmori",
-      "album": "unrequited love",
-      "count": 50,
-      "first": 1788938854,
-      "last": 1792567524,
-      "songs": [
-        {
-          "artist": "hkmori",
-          "title": "lost",
-          "album": "unrequited love",
-          "count": 17,
-          "first": 1788938854,
-          "last": 1792567524,
-          "playlists": {
-            "breakbeat": 17
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "re:titled",
-          "album": "unrequited love",
-          "count": 17,
-          "first": 1789018775,
-          "last": 1792488367,
-          "playlists": {
-            "breakbeat": 17
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "anybody can find love (except you.)",
-          "album": "unrequited love",
-          "count": 16,
-          "first": 1789025449,
-          "last": 1792481149,
-          "playlists": {
-            "breakbeat": 16
           }
         }
       ]
@@ -7393,9 +7393,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7509,
+      "count": 7510,
       "first": 1788901564,
-      "last": 1792566878,
+      "last": 1792575134,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7456,9 +7456,9 @@
     },
     {
       "playlist": "breakbeat",
-      "count": 1409,
+      "count": 1411,
       "first": 1788938278,
-      "last": 1792574717,
+      "last": 1792574994,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
