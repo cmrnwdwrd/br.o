@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T13:42:17.235813+00:00",
+  "updatedAt": "2026-10-21T13:47:18.742022+00:00",
   "summary": {
-    "totalPlays": 16228,
+    "totalPlays": 16229,
     "unknownPlays": 1141,
     "uniqueTracks": 2499,
     "uniqueArtists": 1620,
     "uniqueAlbums": 2079,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792590080
+    "lastObserved": 1792590293
   },
   "topSongs": [
     {
@@ -7560,10 +7560,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 767,
+      "count": 768,
       "first": 1788955289,
-      "last": 1792590080,
+      "last": 1792590293,
       "songs": [
+        {
+          "artist": "Matt Corby",
+          "title": "Souls A'Fire",
+          "album": "Into The Flame",
+          "count": 3,
+          "first": 1789998037,
+          "last": 1792590293,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Ty Segall",
           "title": "My Lady's On Fire",
@@ -7604,17 +7615,6 @@
           "count": 3,
           "first": 1789479109,
           "last": 1792584801,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Ben Howard",
-          "title": "Only Love",
-          "album": "Every Kingdom",
-          "count": 3,
-          "first": 1790255260,
-          "last": 1792504761,
           "playlists": {
             "carhartts": 3
           }
