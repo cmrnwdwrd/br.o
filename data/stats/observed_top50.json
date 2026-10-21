@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T01:32:05.123780+00:00",
+  "updatedAt": "2026-10-21T01:37:01.589162+00:00",
   "summary": {
-    "totalPlays": 16018,
+    "totalPlays": 16020,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792546079
+    "lastObserved": 1792546546
   },
   "topSongs": [
     {
@@ -85,6 +85,18 @@
       }
     },
     {
+      "artist": "Destructo Disk",
+      "title": "I Wish I Was A Riot Grrrl",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 31,
+      "first": 1788996063,
+      "last": 1792546401,
+      "playlists": {
+        "1default": 26,
+        "anti-capitalist weekday afternoon #1": 5
+      }
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "title": "Happy Boy",
       "album": "WAR IN COLORADO!",
@@ -142,18 +154,6 @@
       "last": 1792512521,
       "playlists": {
         "1default": 26,
-        "anti-capitalist weekday afternoon #1": 5
-      }
-    },
-    {
-      "artist": "Destructo Disk",
-      "title": "I Wish I Was A Riot Grrrl",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 30,
-      "first": 1788996063,
-      "last": 1792536871,
-      "playlists": {
-        "1default": 25,
         "anti-capitalist weekday afternoon #1": 5
       }
     },
@@ -506,6 +506,17 @@
       }
     },
     {
+      "artist": "Aldous Harding",
+      "title": "The Barrel",
+      "album": "Designer",
+      "count": 20,
+      "first": 1788916930,
+      "last": 1792546546,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Pigeons Playing Ping Pong",
       "title": "Poseidon",
       "album": "Pizazz",
@@ -578,17 +589,6 @@
       "count": 20,
       "first": 1789170790,
       "last": 1792543899,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Alanis Morissette",
-      "title": "You Oughta Know - 2015 Remaster",
-      "album": "Jagged Little Pill (2015 Remaster)",
-      "count": 20,
-      "first": 1788947559,
-      "last": 1792543422,
       "playlists": {
         "1default": 20
       }
@@ -7267,6 +7267,27 @@
       ]
     },
     {
+      "artist": "Destructo Disk",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 31,
+      "first": 1788996063,
+      "last": 1792546401,
+      "songs": [
+        {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 31,
+          "first": 1788996063,
+          "last": 1792546401,
+          "playlists": {
+            "1default": 26,
+            "anti-capitalist weekday afternoon #1": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "album": "WAR IN COLORADO!",
       "count": 31,
@@ -7360,35 +7381,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "album": "Satisfaction Intended",
-      "count": 31,
-      "first": 1788926155,
-      "last": 1792533991,
-      "songs": [
-        {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
-          "count": 31,
-          "first": 1788926155,
-          "last": 1792533991,
-          "playlists": {
-            "1default": 27,
-            "anti-capitalist weekday afternoon #1": 4
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7454,
+      "count": 7456,
       "first": 1788901564,
-      "last": 1792546079,
+      "last": 1792546546,
       "songs": [
         {
           "artist": "Tele Novella",
