@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T23:26:28.700622+00:00",
+  "updatedAt": "2026-10-21T23:32:26.550568+00:00",
   "summary": {
-    "totalPlays": 16400,
+    "totalPlays": 16402,
     "unknownPlays": 1141,
     "uniqueTracks": 2499,
     "uniqueArtists": 1620,
     "uniqueAlbums": 2079,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792624892
+    "lastObserved": 1792625506
   },
   "topSongs": [
     {
@@ -395,6 +395,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 21,
+      "first": 1788965930,
+      "last": 1792625506,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Franz Ferdinand",
       "title": "Billy Goodbye",
       "album": "Billy Goodbye",
@@ -577,17 +588,6 @@
       "count": 21,
       "first": 1789057927,
       "last": 1792601235,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Cage The Elephant",
-      "title": "Skin and Bones - Mix 2020",
-      "album": "Skin and Bones",
-      "count": 21,
-      "first": 1788928254,
-      "last": 1792600564,
       "playlists": {
         "1default": 21
       }
@@ -3269,6 +3269,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 60,
+      "first": 1788965930,
+      "last": 1792625506,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 21,
+          "first": 1788965930,
+          "last": 1792625506,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 20,
+          "first": 1789068640,
+          "last": 1792601748,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 19,
+          "first": 1789215234,
+          "last": 1792614886,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 60,
       "first": 1788965724,
@@ -3303,47 +3344,6 @@
           "count": 19,
           "first": 1789225488,
           "last": 1792419920,
-          "playlists": {
-            "1default": 19
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 59,
-      "first": 1788965930,
-      "last": 1792614886,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 20,
-          "first": 1789068640,
-          "last": 1792601748,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 20,
-          "first": 1788965930,
-          "last": 1792424811,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 19,
-          "first": 1789215234,
-          "last": 1792614886,
           "playlists": {
             "1default": 19
           }
@@ -7307,9 +7307,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7598,
+      "count": 7599,
       "first": 1788901564,
-      "last": 1792619760,
+      "last": 1792625506,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7622,10 +7622,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 512,
+      "count": 513,
       "first": 1788904845,
-      "last": 1792624892,
+      "last": 1792625299,
       "songs": [
+        {
+          "artist": "Everlast",
+          "title": "Folsom Prison Blues",
+          "album": "Love, War and the Ghost of Whitey Ford",
+          "count": 15,
+          "first": 1789077802,
+          "last": 1792625299,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 15
+          }
+        },
         {
           "artist": "Neutral Milk Hotel",
           "title": "Communist Daughter",
@@ -7666,17 +7677,6 @@
           "count": 14,
           "first": 1788995868,
           "last": 1792621432,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 14
-          }
-        },
-        {
-          "artist": "Jesse Welles",
-          "title": "War Isn't Murder",
-          "album": "Hells Welles",
-          "count": 14,
-          "first": 1788994150,
-          "last": 1792620364,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 14
           }
