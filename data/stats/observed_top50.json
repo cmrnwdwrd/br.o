@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T02:07:30.944945+00:00",
+  "updatedAt": "2026-10-21T02:12:51.190451+00:00",
   "summary": {
-    "totalPlays": 16028,
+    "totalPlays": 16030,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792548153
+    "lastObserved": 1792548583
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 21,
+      "first": 1788914032,
+      "last": 1792548583,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Arcade Fire",
       "title": "Wake Up",
       "album": "Funeral",
@@ -561,34 +572,23 @@
       }
     },
     {
+      "artist": "Doechii",
+      "title": "BULLFROG",
+      "album": "Alligator Bites Never Heal",
+      "count": 20,
+      "first": 1788946771,
+      "last": 1792548489,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Opium",
       "title": "No Pulse",
       "album": "PHANTOMS",
       "count": 20,
       "first": 1788946866,
       "last": 1792547937,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Wolfmother",
-      "title": "Woman",
-      "album": "Wolfmother",
-      "count": 20,
-      "first": 1788916127,
-      "last": 1792547008,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Aldous Harding",
-      "title": "The Barrel",
-      "album": "Designer",
-      "count": 20,
-      "first": 1788916930,
-      "last": 1792546546,
       "playlists": {
         "1default": 20
       }
@@ -4023,42 +4023,22 @@
       ]
     },
     {
-      "artist": "Mallory Graham",
+      "artist": "Doechii",
       "count": 44,
-      "first": 1788973386,
-      "last": 1792456597,
+      "first": 1788914421,
+      "last": 1792548489,
       "songs": [
         {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 25,
-          "first": 1789063640,
-          "last": 1792456597,
+          "artist": "Doechii",
+          "title": "BULLFROG",
+          "album": "Alligator Bites Never Heal",
+          "count": 20,
+          "first": 1788946771,
+          "last": 1792548489,
           "playlists": {
-            "1default": 23,
-            "landlockd surfrock": 2
+            "1default": 20
           }
         },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 19,
-          "first": 1788973386,
-          "last": 1792402074,
-          "playlists": {
-            "1default": 19
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Doechii",
-      "count": 43,
-      "first": 1788914421,
-      "last": 1792468086,
-      "songs": [
         {
           "artist": "Doechii",
           "title": "NISSAN ALTIMA",
@@ -4068,17 +4048,6 @@
           "last": 1792421916,
           "playlists": {
             "1default": 20
-          }
-        },
-        {
-          "artist": "Doechii",
-          "title": "BULLFROG",
-          "album": "Alligator Bites Never Heal",
-          "count": 19,
-          "first": 1788946771,
-          "last": 1792468086,
-          "playlists": {
-            "1default": 19
           }
         },
         {
@@ -4123,6 +4092,78 @@
           "last": 1789053978,
           "playlists": {
             "rage commute": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Mallory Graham",
+      "count": 44,
+      "first": 1788973386,
+      "last": 1792456597,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 25,
+          "first": 1789063640,
+          "last": 1792456597,
+          "playlists": {
+            "1default": 23,
+            "landlockd surfrock": 2
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 19,
+          "first": 1788973386,
+          "last": 1792402074,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Lorde",
+      "count": 43,
+      "first": 1788914032,
+      "last": 1792548583,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 21,
+          "first": 1788914032,
+          "last": 1792548583,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 19,
+          "first": 1789222724,
+          "last": 1792444464,
+          "playlists": {
+            "1default": 19
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 3,
+          "first": 1790465398,
+          "last": 1792279608,
+          "playlists": {
+            "texting your situationship": 3
           }
         }
       ]
@@ -4216,47 +4257,6 @@
           "last": 1791581510,
           "playlists": {
             "escaping from cu boulder by giselle": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 42,
-      "first": 1788914032,
-      "last": 1792505199,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 20,
-          "first": 1788914032,
-          "last": 1792505199,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 19,
-          "first": 1789222724,
-          "last": 1792444464,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 3,
-          "first": 1790465398,
-          "last": 1792279608,
-          "playlists": {
-            "texting your situationship": 3
           }
         }
       ]
@@ -6459,10 +6459,21 @@
     {
       "artist": "Doechii",
       "album": "Alligator Bites Never Heal",
-      "count": 41,
+      "count": 42,
       "first": 1788914421,
-      "last": 1792468086,
+      "last": 1792548489,
       "songs": [
+        {
+          "artist": "Doechii",
+          "title": "BULLFROG",
+          "album": "Alligator Bites Never Heal",
+          "count": 20,
+          "first": 1788946771,
+          "last": 1792548489,
+          "playlists": {
+            "1default": 20
+          }
+        },
         {
           "artist": "Doechii",
           "title": "NISSAN ALTIMA",
@@ -6472,17 +6483,6 @@
           "last": 1792421916,
           "playlists": {
             "1default": 20
-          }
-        },
-        {
-          "artist": "Doechii",
-          "title": "BULLFROG",
-          "album": "Alligator Bites Never Heal",
-          "count": 19,
-          "first": 1788946771,
-          "last": 1792468086,
-          "playlists": {
-            "1default": 19
           }
         },
         {
@@ -7386,9 +7386,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7464,
+      "count": 7466,
       "first": 1788901564,
-      "last": 1792548153,
+      "last": 1792548583,
       "songs": [
         {
           "artist": "Tele Novella",
