@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T15:33:03.273806+00:00",
+  "updatedAt": "2026-10-21T15:37:17.252001+00:00",
   "summary": {
-    "totalPlays": 16267,
+    "totalPlays": 16268,
     "unknownPlays": 1141,
     "uniqueTracks": 2499,
     "uniqueArtists": 1620,
     "uniqueAlbums": 2079,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792596662
+    "lastObserved": 1792596822
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 21,
+      "first": 1789064784,
+      "last": 1792596822,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Tally Hall",
       "title": "The Bidding",
       "album": "Marvin's Marvelous Mechanical Museum",
@@ -577,17 +588,6 @@
       "count": 21,
       "first": 1788975620,
       "last": 1792549741,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "The Czars",
-      "title": "Drug",
-      "album": "Best Of",
-      "count": 21,
-      "first": 1789063847,
-      "last": 1792549439,
       "playlists": {
         "1default": 21
       }
@@ -1579,10 +1579,21 @@
     },
     {
       "artist": "Opium",
-      "count": 155,
+      "count": 156,
       "first": 1788927400,
-      "last": 1792576140,
+      "last": 1792596822,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 21,
+          "first": 1789064784,
+          "last": 1792596822,
+          "playlists": {
+            "1default": 21
+          }
+        },
         {
           "artist": "Opium",
           "title": "No Pulse",
@@ -1590,17 +1601,6 @@
           "count": 20,
           "first": 1788946866,
           "last": 1792547937,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 20,
-          "first": 1789064784,
-          "last": 1792533074,
           "playlists": {
             "1default": 20
           }
@@ -7371,9 +7371,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7524,
+      "count": 7525,
       "first": 1788901564,
-      "last": 1792596662,
+      "last": 1792596822,
       "songs": [
         {
           "artist": "Tele Novella",
