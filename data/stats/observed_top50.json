@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T04:02:32.924360+00:00",
+  "updatedAt": "2026-10-21T04:07:56.547244+00:00",
   "summary": {
-    "totalPlays": 16059,
+    "totalPlays": 16061,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792555131
+    "lastObserved": 1792555563
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Antidote",
+      "album": "A Collection of Fleeting Moments and Daydreams",
+      "count": 21,
+      "first": 1788987870,
+      "last": 1792555563,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Madness",
       "title": "Our House",
       "album": "Madness",
@@ -577,17 +588,6 @@
       "count": 21,
       "first": 1789054258,
       "last": 1792547385,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Royel Otis",
-      "title": "Oysters In My Pocket",
-      "album": "Oysters In My Pocket",
-      "count": 21,
-      "first": 1788916765,
-      "last": 1792547183,
       "playlists": {
         "1default": 21
       }
@@ -2769,10 +2769,21 @@
     },
     {
       "artist": "Psychedelic Porn Crumpets",
-      "count": 76,
+      "count": 77,
       "first": 1788915065,
-      "last": 1792545043,
+      "last": 1792555362,
       "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Tally-Ho",
+          "album": "Tally-Ho",
+          "count": 20,
+          "first": 1789085431,
+          "last": 1792555362,
+          "playlists": {
+            "1default": 20
+          }
+        },
         {
           "artist": "Psychedelic Porn Crumpets",
           "title": "Mr. Prism",
@@ -2782,17 +2793,6 @@
           "last": 1792545043,
           "playlists": {
             "1default": 20
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Tally-Ho",
-          "album": "Tally-Ho",
-          "count": 19,
-          "first": 1789085431,
-          "last": 1792522584,
-          "playlists": {
-            "1default": 19
           }
         },
         {
@@ -4302,6 +4302,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 41,
+      "first": 1788985030,
+      "last": 1792555563,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 21,
+          "first": 1788987870,
+          "last": 1792555563,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 20,
+          "first": 1788985030,
+          "last": 1792463004,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 41,
       "first": 1788921291,
@@ -4409,36 +4439,6 @@
           "last": 1792466659,
           "playlists": {
             "1default": 19
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 40,
-      "first": 1788985030,
-      "last": 1792531958,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 20,
-          "first": 1788987870,
-          "last": 1792531958,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 20,
-          "first": 1788985030,
-          "last": 1792463004,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -7383,9 +7383,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7495,
+      "count": 7497,
       "first": 1788901564,
-      "last": 1792555131,
+      "last": 1792555563,
       "songs": [
         {
           "artist": "Tele Novella",
