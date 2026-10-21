@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T02:52:50.826618+00:00",
+  "updatedAt": "2026-10-21T02:57:29.714921+00:00",
   "summary": {
-    "totalPlays": 16041,
+    "totalPlays": 16043,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792550978
+    "lastObserved": 1792551397
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "You Make Me Want to Kill Myself",
+      "album": "You Make Me Want to Kill Myself",
+      "count": 21,
+      "first": 1788984684,
+      "last": 1792551397,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "The Dandy Warhols",
       "title": "Bohemian Like You",
       "album": "Thirteen Tales From Urban Bohemia",
@@ -578,17 +589,6 @@
       "count": 21,
       "first": 1788990464,
       "last": 1792468510,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "title": "Pawn Shop Prada",
-      "album": "Lick My Soul",
-      "count": 21,
-      "first": 1788919863,
-      "last": 1792456965,
       "playlists": {
         "1default": 21
       }
@@ -1676,10 +1676,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 152,
+      "count": 153,
       "first": 1788902047,
-      "last": 1792542126,
+      "last": 1792551397,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "You Make Me Want to Kill Myself",
+          "album": "You Make Me Want to Kill Myself",
+          "count": 21,
+          "first": 1788984684,
+          "last": 1792551397,
+          "playlists": {
+            "1default": 21
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -1687,17 +1698,6 @@
           "count": 20,
           "first": 1788902047,
           "last": 1792528554,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "You Make Me Want to Kill Myself",
-          "album": "You Make Me Want to Kill Myself",
-          "count": 20,
-          "first": 1788984684,
-          "last": 1792458854,
           "playlists": {
             "1default": 20
           }
@@ -7386,9 +7386,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7477,
+      "count": 7479,
       "first": 1788901564,
-      "last": 1792550978,
+      "last": 1792551397,
       "songs": [
         {
           "artist": "Tele Novella",
