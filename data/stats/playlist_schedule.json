@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:57:18.703597+00:00",
+  "updatedAt": "2026-10-21T22:02:17.407729+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 567,
+    "sessionCount": 568,
     "firstObserved": 1788901564,
-    "lastObserved": 1792612103
+    "lastObserved": 1792620074
   },
   "playlists": [
     {
@@ -1251,12 +1251,12 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "sessionCount": 32,
-      "playCount": 514,
+      "sessionCount": 33,
+      "playCount": 515,
       "firstObserved": 1788991800,
-      "lastObserved": 1792533778,
+      "lastObserved": 1792620074,
       "typicalStartMinute": 978,
-      "typicalDurationMinutes": 65,
+      "typicalDurationMinutes": 62,
       "confidence": "High",
       "heatmapMinutes": [
         [
@@ -1328,7 +1328,7 @@
           0.0,
           0.0,
           0.0,
-          290.8,
+          293.2,
           182.6,
           0.0,
           0.0,
@@ -1704,7 +1704,7 @@
           0.0,
           0.0,
           0.0,
-          47.7,
+          50.1,
           79.7,
           83.2,
           80.2,
@@ -2200,7 +2200,7 @@
           0,
           0,
           0,
-          7,
+          8,
           1,
           0,
           0,
@@ -2331,9 +2331,9 @@
         },
         {
           "weekday": 2,
-          "sessions": 8,
-          "typicalStartMinute": 979,
-          "typicalDurationMinutes": 64,
+          "sessions": 9,
+          "typicalStartMinute": 977,
+          "typicalDurationMinutes": 56,
           "confidence": "High"
         },
         {
@@ -2345,6 +2345,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1792620074,
+          "end": 1792620221,
+          "durationMinutes": 2,
+          "playCount": 1
+        },
         {
           "start": 1792533778,
           "end": 1792539202,
@@ -2458,12 +2464,6 @@
           "end": 1790119740,
           "durationMinutes": 28,
           "playCount": 8
-        },
-        {
-          "start": 1790114627,
-          "end": 1790117506,
-          "durationMinutes": 48,
-          "playCount": 15
         }
       ]
     },
