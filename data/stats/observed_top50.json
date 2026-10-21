@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T01:47:52.047763+00:00",
+  "updatedAt": "2026-10-21T01:52:53.333620+00:00",
   "summary": {
-    "totalPlays": 16023,
+    "totalPlays": 16025,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792547183
+    "lastObserved": 1792547576
   },
   "topSongs": [
     {
@@ -373,6 +373,28 @@
       }
     },
     {
+      "artist": "Of Monsters and Men",
+      "title": "Wars",
+      "album": "FEVER DREAM",
+      "count": 21,
+      "first": 1788991170,
+      "last": 1792547576,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
+      "artist": "Brittany Howard",
+      "title": "Stay High",
+      "album": "Jaime",
+      "count": 21,
+      "first": 1789054258,
+      "last": 1792547385,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Royel Otis",
       "title": "Oysters In My Pocket",
       "album": "Oysters In My Pocket",
@@ -567,28 +589,6 @@
       "count": 20,
       "first": 1789169140,
       "last": 1792545714,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Midlake",
-      "title": "Acts of Man",
-      "album": "The Courage of Others",
-      "count": 20,
-      "first": 1789056160,
-      "last": 1792545278,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "Mr. Prism",
-      "album": "Mr. Prism",
-      "count": 20,
-      "first": 1789168906,
-      "last": 1792545043,
       "playlists": {
         "1default": 20
       }
@@ -3941,6 +3941,47 @@
       ]
     },
     {
+      "artist": "Of Monsters and Men",
+      "count": 45,
+      "first": 1788963370,
+      "last": 1792547576,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 21,
+          "first": 1788991170,
+          "last": 1792547576,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 20,
+          "first": 1788963370,
+          "last": 1792421239,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 4,
+          "first": 1789156918,
+          "last": 1791579824,
+          "playlists": {
+            "escaping from cu boulder by giselle": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "count": 45,
       "first": 1788914259,
@@ -3977,47 +4018,6 @@
           "last": 1792387817,
           "playlists": {
             "EPL4a": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 44,
-      "first": 1788963370,
-      "last": 1792526208,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 20,
-          "first": 1788991170,
-          "last": 1792526208,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 20,
-          "first": 1788963370,
-          "last": 1792421239,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 4,
-          "first": 1789156918,
-          "last": 1791579824,
-          "playlists": {
-            "escaping from cu boulder by giselle": 4
           }
         }
       ]
@@ -7386,9 +7386,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7459,
+      "count": 7461,
       "first": 1788901564,
-      "last": 1792547183,
+      "last": 1792547576,
       "songs": [
         {
           "artist": "Tele Novella",
