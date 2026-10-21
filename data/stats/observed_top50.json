@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T12:11:57.880929+00:00",
+  "updatedAt": "2026-10-21T12:17:15.178320+00:00",
   "summary": {
-    "totalPlays": 16206,
+    "totalPlays": 16207,
     "unknownPlays": 1141,
     "uniqueTracks": 2496,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2077,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792584605
+    "lastObserved": 1792584801
   },
   "topSongs": [
     {
@@ -7560,10 +7560,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 745,
+      "count": 746,
       "first": 1788955289,
-      "last": 1792584605,
+      "last": 1792584801,
       "songs": [
+        {
+          "artist": "Hippo Campus",
+          "title": "Simple Season",
+          "album": "Landmark",
+          "count": 3,
+          "first": 1789479109,
+          "last": 1792584801,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Ben Howard",
           "title": "Only Love",
@@ -7604,17 +7615,6 @@
           "count": 3,
           "first": 1789389621,
           "last": 1792503032,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Oliver Hazard",
-          "title": "Dandelion",
-          "album": "Dandelion",
-          "count": 3,
-          "first": 1790253884,
-          "last": 1792502841,
           "playlists": {
             "carhartts": 3
           }
