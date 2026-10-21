@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T20:27:16.945074+00:00",
+  "updatedAt": "2026-10-21T20:32:17.635429+00:00",
   "summary": {
-    "totalPlays": 16349,
+    "totalPlays": 16351,
     "unknownPlays": 1141,
     "uniqueTracks": 2499,
     "uniqueArtists": 1620,
     "uniqueAlbums": 2079,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792614260
+    "lastObserved": 1792614692
   },
   "topSongs": [
     {
@@ -34,6 +34,18 @@
       "playlists": {
         "1default": 29,
         "anti-capitalist weekday afternoon #1": 5
+      }
+    },
+    {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 32,
+      "first": 1789015368,
+      "last": 1792614692,
+      "playlists": {
+        "1default": 28,
+        "anti-capitalist weekday afternoon #1": 4
       }
     },
     {
@@ -146,18 +158,6 @@
       }
     },
     {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 31,
-      "first": 1789015368,
-      "last": 1792535506,
-      "playlists": {
-        "1default": 27,
-        "anti-capitalist weekday afternoon #1": 4
-      }
-    },
-    {
       "artist": "Mommy Long Legs",
       "title": "Weird Girl",
       "album": "Assholes",
@@ -182,6 +182,18 @@
       }
     },
     {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 27,
+      "first": 1788989320,
+      "last": 1792614511,
+      "playlists": {
+        "1default": 25,
+        "landlockd surfrock": 2
+      }
+    },
+    {
       "artist": "Daffo",
       "title": "Good God",
       "album": "Good God (Porches Remix)",
@@ -203,18 +215,6 @@
       "playlists": {
         "1default": 24,
         "steal my bike": 2
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Traveling",
-      "album": "Young & Old",
-      "count": 26,
-      "first": 1788989320,
-      "last": 1792526424,
-      "playlists": {
-        "1default": 24,
-        "landlockd surfrock": 2
       }
     },
     {
@@ -2967,19 +2967,19 @@
     },
     {
       "artist": "Tennis",
-      "count": 64,
+      "count": 65,
       "first": 1788989320,
-      "last": 1792539344,
+      "last": 1792614511,
       "songs": [
         {
           "artist": "Tennis",
           "title": "Traveling",
           "album": "Young & Old",
-          "count": 26,
+          "count": 27,
           "first": 1788989320,
-          "last": 1792526424,
+          "last": 1792614511,
           "playlists": {
-            "1default": 24,
+            "1default": 25,
             "landlockd surfrock": 2
           }
         },
@@ -7134,6 +7134,27 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 32,
+      "first": 1789015368,
+      "last": 1792614692,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 32,
+          "first": 1789015368,
+          "last": 1792614692,
+          "playlists": {
+            "1default": 28,
+            "anti-capitalist weekday afternoon #1": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Colfax Speed Queen",
       "album": "Satisfaction Intended",
       "count": 32,
@@ -7258,35 +7279,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "album": "WAR IN COLORADO!",
-      "count": 31,
-      "first": 1788993017,
-      "last": 1792536433,
-      "songs": [
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 31,
-          "first": 1788993017,
-          "last": 1792536433,
-          "playlists": {
-            "1default": 26,
-            "anti-capitalist weekday afternoon #1": 5
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7573,
+      "count": 7575,
       "first": 1788901564,
-      "last": 1792614260,
+      "last": 1792614692,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7297,6 +7297,17 @@
           "last": 1792436099,
           "playlists": {
             "1default": 29
+          }
+        },
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 28,
+          "first": 1789015368,
+          "last": 1792614692,
+          "playlists": {
+            "1default": 28
           }
         },
         {
@@ -7328,17 +7339,6 @@
           "count": 27,
           "first": 1788986736,
           "last": 1792459452,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 27,
-          "first": 1789015368,
-          "last": 1792443305,
           "playlists": {
             "1default": 27
           }
