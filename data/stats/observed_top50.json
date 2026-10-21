@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T12:26:45.248704+00:00",
+  "updatedAt": "2026-10-21T12:31:55.983952+00:00",
   "summary": {
-    "totalPlays": 16210,
+    "totalPlays": 16211,
     "unknownPlays": 1141,
     "uniqueTracks": 2496,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2077,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792585594
+    "lastObserved": 1792585794
   },
   "topSongs": [
     {
@@ -7560,10 +7560,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 749,
+      "count": 750,
       "first": 1788955289,
-      "last": 1792585594,
+      "last": 1792585794,
       "songs": [
+        {
+          "artist": "Rancid Eddie",
+          "title": "Dry",
+          "album": "Dry",
+          "count": 3,
+          "first": 1790085061,
+          "last": 1792585794,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Hippo Campus",
           "title": "Simple Season",
@@ -7604,17 +7615,6 @@
           "count": 3,
           "first": 1789648000,
           "last": 1792503398,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "The 502s",
-          "title": "Magdalene - Live",
-          "album": "Magdalene (Live)",
-          "count": 3,
-          "first": 1789389621,
-          "last": 1792503032,
           "playlists": {
             "carhartts": 3
           }
