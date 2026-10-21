@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T00:07:50.153823+00:00",
+  "updatedAt": "2026-10-21T00:12:50.855070+00:00",
   "summary": {
-    "totalPlays": 15994,
+    "totalPlays": 15995,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792541229
+    "lastObserved": 1792541409
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Cage The Elephant",
+      "title": "Skin and Bones - Mix 2020",
+      "album": "Skin and Bones",
+      "count": 20,
+      "first": 1788928254,
+      "last": 1792541409,
+      "playlists": {
+        "1default": 20
+      }
+    },
+    {
       "artist": "Kai Straw",
       "title": "Don't Tread on Me",
       "album": "Toothpick",
@@ -578,17 +589,6 @@
       "count": 20,
       "first": 1788902953,
       "last": 1792529571,
-      "playlists": {
-        "1default": 20
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Hold Me",
-      "album": "1's a Man, 3's a Band",
-      "count": 20,
-      "first": 1788902047,
-      "last": 1792528554,
       "playlists": {
         "1default": 20
       }
@@ -3807,10 +3807,21 @@
     },
     {
       "artist": "Cage The Elephant",
-      "count": 49,
+      "count": 50,
       "first": 1788928254,
-      "last": 1792521810,
+      "last": 1792541409,
       "songs": [
+        {
+          "artist": "Cage The Elephant",
+          "title": "Skin and Bones - Mix 2020",
+          "album": "Skin and Bones",
+          "count": 20,
+          "first": 1788928254,
+          "last": 1792541409,
+          "playlists": {
+            "1default": 20
+          }
+        },
         {
           "artist": "Cage The Elephant",
           "title": "Social Cues",
@@ -3820,17 +3831,6 @@
           "last": 1792521810,
           "playlists": {
             "1default": 20
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Skin and Bones - Mix 2020",
-          "album": "Skin and Bones",
-          "count": 19,
-          "first": 1788928254,
-          "last": 1792379782,
-          "playlists": {
-            "1default": 19
           }
         },
         {
@@ -7386,9 +7386,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7430,
+      "count": 7431,
       "first": 1788901564,
-      "last": 1792541229,
+      "last": 1792541409,
       "songs": [
         {
           "artist": "Tele Novella",
