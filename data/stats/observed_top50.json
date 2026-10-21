@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T13:31:32.282267+00:00",
+  "updatedAt": "2026-10-21T13:36:52.359875+00:00",
   "summary": {
-    "totalPlays": 16225,
+    "totalPlays": 16226,
     "unknownPlays": 1141,
     "uniqueTracks": 2499,
     "uniqueArtists": 1620,
     "uniqueAlbums": 2079,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792589439
+    "lastObserved": 1792589623
   },
   "topSongs": [
     {
@@ -7560,10 +7560,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 764,
+      "count": 765,
       "first": 1788955289,
-      "last": 1792589439,
+      "last": 1792589623,
       "songs": [
+        {
+          "artist": "Ty Segall",
+          "title": "My Lady's On Fire",
+          "album": "Freedom's Goblin",
+          "count": 3,
+          "first": 1790256801,
+          "last": 1792589623,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Mt. Joy",
           "title": "Bug Eyes",
@@ -7604,17 +7615,6 @@
           "count": 3,
           "first": 1790255260,
           "last": 1792504761,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Arts Fishing Club",
-          "title": "Tupelo Honey",
-          "album": "Human - I",
-          "count": 3,
-          "first": 1788957422,
-          "last": 1792504599,
           "playlists": {
             "carhartts": 3
           }
