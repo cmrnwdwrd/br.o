@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T09:37:14.679206+00:00",
+  "updatedAt": "2026-10-21T09:42:14.297089+00:00",
   "summary": {
-    "totalPlays": 16163,
+    "totalPlays": 16164,
     "unknownPlays": 1141,
     "uniqueTracks": 2495,
     "uniqueArtists": 1619,
     "uniqueAlbums": 2076,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792575421
+    "lastObserved": 1792575616
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "a machine as big as a city with a concert at the center",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 21,
+      "first": 1788972349,
+      "last": 1792575616,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "TRAP METAL",
       "album": "TRAP METAL",
@@ -577,17 +588,6 @@
       "count": 21,
       "first": 1789057751,
       "last": 1792549030,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Lorde",
-      "title": "Mood Ring",
-      "album": "Solar Power",
-      "count": 21,
-      "first": 1788914032,
-      "last": 1792548583,
       "playlists": {
         "1default": 21
       }
@@ -2717,10 +2717,21 @@
     },
     {
       "artist": "botch",
-      "count": 79,
+      "count": 80,
       "first": 1788920755,
-      "last": 1792554674,
+      "last": 1792575616,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 21,
+          "first": 1788972349,
+          "last": 1792575616,
+          "playlists": {
+            "1default": 21
+          }
+        },
         {
           "artist": "botch",
           "title": "underthebasement",
@@ -2739,17 +2750,6 @@
           "count": 20,
           "first": 1788920755,
           "last": 1792465771,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 20,
-          "first": 1788972349,
-          "last": 1792443031,
           "playlists": {
             "1default": 20
           }
@@ -6507,6 +6507,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 41,
+      "first": 1788972349,
+      "last": 1792575616,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 21,
+          "first": 1788972349,
+          "last": 1792575616,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 20,
+          "first": 1788997306,
+          "last": 1792554674,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
       "count": 41,
@@ -6588,37 +6619,6 @@
           "last": 1791426004,
           "playlists": {
             "MCR wednesday wind down": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 40,
-      "first": 1788972349,
-      "last": 1792554674,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 20,
-          "first": 1788997306,
-          "last": 1792554674,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 20,
-          "first": 1788972349,
-          "last": 1792443031,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -7393,9 +7393,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7511,
+      "count": 7512,
       "first": 1788901564,
-      "last": 1792575421,
+      "last": 1792575616,
       "songs": [
         {
           "artist": "Tele Novella",
