@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-21T14:17:19.317126+00:00",
+  "updatedAt": "2026-10-21T14:22:05.535345+00:00",
   "summary": {
-    "totalPlays": 16236,
+    "totalPlays": 16237,
     "unknownPlays": 1141,
     "uniqueTracks": 2499,
     "uniqueArtists": 1620,
     "uniqueAlbums": 2079,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792592015
+    "lastObserved": 1792592477
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 21,
+      "first": 1788968380,
+      "last": 1792592477,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "botch",
       "title": "a machine as big as a city with a concert at the center",
       "album": "a machine as big as a city with a concert at the center",
@@ -577,17 +588,6 @@
       "count": 21,
       "first": 1789054450,
       "last": 1792549206,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Dreamer Isioma",
-      "title": "Sensitive",
-      "album": "Sensitive",
-      "count": 21,
-      "first": 1789057751,
-      "last": 1792549030,
       "playlists": {
         "1default": 21
       }
@@ -4477,6 +4477,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 40,
+      "first": 1788947080,
+      "last": 1792592477,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 21,
+          "first": 1788968380,
+          "last": 1792592477,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 19,
+          "first": 1788947080,
+          "last": 1792575891,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 40,
       "first": 1788947810,
@@ -4702,36 +4732,6 @@
           "last": 1791983909,
           "playlists": {
             "carhartts": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "count": 39,
-      "first": 1788947080,
-      "last": 1792575891,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 20,
-          "first": 1788968380,
-          "last": 1792435194,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 19,
-          "first": 1788947080,
-          "last": 1792575891,
-          "playlists": {
-            "1default": 19
           }
         }
       ]
@@ -6604,19 +6604,19 @@
     {
       "artist": "Jethro Tull",
       "album": "Stand Up",
-      "count": 39,
+      "count": 40,
       "first": 1788947080,
-      "last": 1792575891,
+      "last": 1792592477,
       "songs": [
         {
           "artist": "Jethro Tull",
           "title": "Nothing Is Easy",
           "album": "Stand Up",
-          "count": 20,
+          "count": 21,
           "first": 1788968380,
-          "last": 1792435194,
+          "last": 1792592477,
           "playlists": {
-            "1default": 20
+            "1default": 21
           }
         },
         {
@@ -7371,9 +7371,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7520,
+      "count": 7521,
       "first": 1788901564,
-      "last": 1792592015,
+      "last": 1792592477,
       "songs": [
         {
           "artist": "Tele Novella",
