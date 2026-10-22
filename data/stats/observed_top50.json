@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T12:57:26.932003+00:00",
+  "updatedAt": "2026-10-22T13:02:20.769104+00:00",
   "summary": {
-    "totalPlays": 16612,
+    "totalPlays": 16614,
     "unknownPlays": 1141,
     "uniqueTracks": 2501,
     "uniqueArtists": 1621,
     "uniqueAlbums": 2081,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792673761
+    "lastObserved": 1792674125
   },
   "topSongs": [
     {
@@ -7584,10 +7584,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 787,
+      "count": 789,
       "first": 1788955289,
-      "last": 1792673761,
+      "last": 1792674125,
       "songs": [
+        {
+          "artist": "Mt. Joy",
+          "title": "Silver Lining",
+          "album": "Mt. Joy",
+          "count": 3,
+          "first": 1788956443,
+          "last": 1792673927,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Saint Motel",
           "title": "Happy Accidents",
@@ -7628,17 +7639,6 @@
           "count": 3,
           "first": 1790083447,
           "last": 1792671839,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Lord Huron",
-          "title": "Not Dead Yet",
-          "album": "Not Dead Yet",
-          "count": 3,
-          "first": 1789388508,
-          "last": 1792671414,
           "playlists": {
             "carhartts": 3
           }
