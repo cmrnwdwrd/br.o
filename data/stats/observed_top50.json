@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T13:41:28.854333+00:00",
+  "updatedAt": "2026-10-22T13:47:19.921600+00:00",
   "summary": {
-    "totalPlays": 16624,
+    "totalPlays": 16626,
     "unknownPlays": 1141,
     "uniqueTracks": 2504,
     "uniqueArtists": 1622,
     "uniqueAlbums": 2083,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792676454
+    "lastObserved": 1792676820
   },
   "topSongs": [
     {
@@ -7584,10 +7584,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 799,
+      "count": 801,
       "first": 1788955289,
-      "last": 1792676454,
+      "last": 1792676820,
       "songs": [
+        {
+          "artist": "Wild Rivers",
+          "title": "Wandering Child",
+          "album": "Wild Rivers",
+          "count": 3,
+          "first": 1788958582,
+          "last": 1792676820,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Caamp",
           "title": "Wolf Song",
@@ -7628,17 +7639,6 @@
           "count": 3,
           "first": 1789480709,
           "last": 1792673165,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Field Guide",
-          "title": "You Were",
-          "album": "You Were",
-          "count": 3,
-          "first": 1789475883,
-          "last": 1792672168,
           "playlists": {
             "carhartts": 3
           }
