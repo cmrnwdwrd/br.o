@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T18:52:17.718415+00:00",
+  "updatedAt": "2026-10-22T18:57:20.884248+00:00",
   "summary": {
-    "totalPlays": 16714,
+    "totalPlays": 16715,
     "unknownPlays": 1141,
     "uniqueTracks": 2518,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792695082
+    "lastObserved": 1792695321
   },
   "topSongs": [
     {
@@ -429,6 +429,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 21,
+      "first": 1788970790,
+      "last": 1792695321,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Kai Straw",
       "title": "Don't Tread on Me",
       "album": "Toothpick",
@@ -578,17 +589,6 @@
       "count": 21,
       "first": 1788975084,
       "last": 1792684150,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "St. Paul & The Broken Bones",
-      "title": "Apollo",
-      "album": "Young Sick Camellia",
-      "count": 21,
-      "first": 1788972025,
-      "last": 1792683358,
       "playlists": {
         "1default": 21
       }
@@ -3147,6 +3147,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 62,
+      "first": 1788917230,
+      "last": 1792695321,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 21,
+          "first": 1788970790,
+          "last": 1792695321,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 21,
+          "first": 1788917230,
+          "last": 1792444259,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 20,
+          "first": 1789050580,
+          "last": 1792554377,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 62,
       "first": 1788919863,
@@ -3224,47 +3265,6 @@
           "last": 1792550978,
           "playlists": {
             "1default": 19
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 61,
-      "first": 1788917230,
-      "last": 1792554377,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 21,
-          "first": 1788917230,
-          "last": 1792444259,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 20,
-          "first": 1789050580,
-          "last": 1792554377,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 20,
-          "first": 1788970790,
-          "last": 1792516535,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -7397,9 +7397,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7701,
+      "count": 7702,
       "first": 1788901564,
-      "last": 1792695082,
+      "last": 1792695321,
       "songs": [
         {
           "artist": "Tele Novella",
