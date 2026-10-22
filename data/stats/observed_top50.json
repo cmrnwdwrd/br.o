@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T16:17:22.421268+00:00",
+  "updatedAt": "2026-10-22T16:22:19.334956+00:00",
   "summary": {
-    "totalPlays": 16672,
+    "totalPlays": 16674,
     "unknownPlays": 1141,
     "uniqueTracks": 2518,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792685717
+    "lastObserved": 1792686130
   },
   "topSongs": [
     {
@@ -418,6 +418,17 @@
       }
     },
     {
+      "artist": "NO CHANCE!",
+      "title": "I Wanna Be Your Man",
+      "album": "I Wanna Be Your Man",
+      "count": 21,
+      "first": 1788986942,
+      "last": 1792685946,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Gorillaz, Fatoumata Diawara",
       "title": "Désolé (feat. Fatoumata Diawara)",
       "album": "Song Machine Episode 2",
@@ -578,17 +589,6 @@
       "count": 21,
       "first": 1789063255,
       "last": 1792643491,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "Dancing With Demons",
-      "album": "Dancing With Demons",
-      "count": 21,
-      "first": 1788946229,
-      "last": 1792642455,
       "playlists": {
         "1default": 21
       }
@@ -1580,10 +1580,21 @@
     },
     {
       "artist": "My Chemical Romance",
-      "count": 162,
+      "count": 163,
       "first": 1788965302,
-      "last": 1792638849,
+      "last": 1792686130,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Planetary (GO!)",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 20,
+          "first": 1788965302,
+          "last": 1792686130,
+          "playlists": {
+            "1default": 20
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "Thank You for the Venom",
@@ -1594,17 +1605,6 @@
           "playlists": {
             "MCR wednesday wind down": 13,
             "anti-capitalist weekday afternoon #1": 6
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Planetary (GO!)",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 19,
-          "first": 1788965302,
-          "last": 1792403399,
-          "playlists": {
-            "1default": 19
           }
         },
         {
@@ -6330,19 +6330,19 @@
     {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-      "count": 43,
+      "count": 44,
       "first": 1788965302,
-      "last": 1792637243,
+      "last": 1792686130,
       "songs": [
         {
           "artist": "My Chemical Romance",
           "title": "Planetary (GO!)",
           "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 19,
+          "count": 20,
           "first": 1788965302,
-          "last": 1792403399,
+          "last": 1792686130,
           "playlists": {
-            "1default": 19
+            "1default": 20
           }
         },
         {
@@ -7397,9 +7397,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7659,
+      "count": 7661,
       "first": 1788901564,
-      "last": 1792685717,
+      "last": 1792686130,
       "songs": [
         {
           "artist": "Tele Novella",
