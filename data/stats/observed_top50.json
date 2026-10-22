@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T19:52:22.596394+00:00",
+  "updatedAt": "2026-10-22T19:56:32.085453+00:00",
   "summary": {
-    "totalPlays": 16732,
+    "totalPlays": 16733,
     "unknownPlays": 1141,
     "uniqueTracks": 2519,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792698670
+    "lastObserved": 1792698928
   },
   "topSongs": [
     {
@@ -440,6 +440,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 21,
+      "first": 1788919285,
+      "last": 1792698928,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Mystee",
       "title": "hard candy",
       "album": "hard candy",
@@ -578,17 +589,6 @@
       "count": 21,
       "first": 1788986484,
       "last": 1792691471,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Bahamas",
-      "title": "Own Alone",
-      "album": "Sad Hunk",
-      "count": 21,
-      "first": 1788962598,
-      "last": 1792690934,
       "playlists": {
         "1default": 21
       }
@@ -4191,6 +4191,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 44,
+      "first": 1788919285,
+      "last": 1792698928,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 21,
+          "first": 1788919285,
+          "last": 1792698928,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 21,
+          "first": 1788975084,
+          "last": 1792684150,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 2,
+          "first": 1789893243,
+          "last": 1791702861,
+          "playlists": {
+            "christmas rn": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 44,
       "first": 1788914032,
@@ -4279,47 +4320,6 @@
           "last": 1791081977,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 43,
-      "first": 1788919285,
-      "last": 1792684150,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 21,
-          "first": 1788975084,
-          "last": 1792684150,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 20,
-          "first": 1788919285,
-          "last": 1792419717,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 2,
-          "first": 1789893243,
-          "last": 1791702861,
-          "playlists": {
-            "christmas rn": 2
           }
         }
       ]
@@ -7397,9 +7397,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7718,
+      "count": 7719,
       "first": 1788901564,
-      "last": 1792698670,
+      "last": 1792698928,
       "songs": [
         {
           "artist": "Tele Novella",
