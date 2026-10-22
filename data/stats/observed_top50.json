@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T22:52:21.095174+00:00",
+  "updatedAt": "2026-10-22T22:57:18.842910+00:00",
   "summary": {
-    "totalPlays": 16780,
+    "totalPlays": 16781,
     "unknownPlays": 1142,
     "uniqueTracks": 2520,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792709449
+    "lastObserved": 1792709782
   },
   "topSongs": [
     {
@@ -73,6 +73,18 @@
       }
     },
     {
+      "artist": "The Salesmen, Ike Spivak",
+      "title": "Happy Boy",
+      "album": "WAR IN COLORADO!",
+      "count": 33,
+      "first": 1788993017,
+      "last": 1792709782,
+      "playlists": {
+        "1default": 27,
+        "anti-capitalist weekday afternoon #1": 6
+      }
+    },
+    {
       "artist": "Lush",
       "title": "Ladykillers",
       "album": "Lovelife",
@@ -130,18 +142,6 @@
       "last": 1792620560,
       "playlists": {
         "1default": 28,
-        "anti-capitalist weekday afternoon #1": 5
-      }
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "title": "Happy Boy",
-      "album": "WAR IN COLORADO!",
-      "count": 32,
-      "first": 1788993017,
-      "last": 1792702534,
-      "playlists": {
-        "1default": 27,
         "anti-capitalist weekday afternoon #1": 5
       }
     },
@@ -7233,6 +7233,27 @@
       ]
     },
     {
+      "artist": "The Salesmen, Ike Spivak",
+      "album": "WAR IN COLORADO!",
+      "count": 33,
+      "first": 1788993017,
+      "last": 1792709782,
+      "songs": [
+        {
+          "artist": "The Salesmen, Ike Spivak",
+          "title": "Happy Boy",
+          "album": "WAR IN COLORADO!",
+          "count": 33,
+          "first": 1788993017,
+          "last": 1792709782,
+          "playlists": {
+            "1default": 27,
+            "anti-capitalist weekday afternoon #1": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lush",
       "album": "Lovelife",
       "count": 33,
@@ -7313,27 +7334,6 @@
           "playlists": {
             "1default": 27,
             "anti-capitalist weekday afternoon #1": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "album": "Satisfaction Intended",
-      "count": 33,
-      "first": 1788926155,
-      "last": 1792620560,
-      "songs": [
-        {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
-          "count": 33,
-          "first": 1788926155,
-          "last": 1792620560,
-          "playlists": {
-            "1default": 28,
-            "anti-capitalist weekday afternoon #1": 5
           }
         }
       ]
@@ -7594,9 +7594,9 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 526,
+      "count": 527,
       "first": 1788904845,
-      "last": 1792709449,
+      "last": 1792709782,
       "songs": [
         {
           "artist": "Everlast",
