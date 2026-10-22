@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T18:57:20.884248+00:00",
+  "updatedAt": "2026-10-22T19:02:22.508622+00:00",
   "summary": {
-    "totalPlays": 16715,
+    "totalPlays": 16717,
     "unknownPlays": 1141,
     "uniqueTracks": 2518,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792695321
+    "lastObserved": 1792695738
   },
   "topSongs": [
     {
@@ -429,6 +429,28 @@
       }
     },
     {
+      "artist": "The Presidents Of The United States Of America",
+      "title": "Lump",
+      "album": "The Presidents of The United States of America: Ten Year Super Bonus Special Anniversary Edition",
+      "count": 21,
+      "first": 1789059997,
+      "last": 1792695738,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 21,
+      "first": 1788989714,
+      "last": 1792695544,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "The Salesmen",
       "title": "Little Plans",
       "album": "WAR IN COLORADO!",
@@ -567,28 +589,6 @@
       "count": 21,
       "first": 1788986942,
       "last": 1792685946,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Gorillaz, Fatoumata Diawara",
-      "title": "Désolé (feat. Fatoumata Diawara)",
-      "album": "Song Machine Episode 2",
-      "count": 21,
-      "first": 1788967094,
-      "last": 1792685418,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Leon Bridges",
-      "title": "Motorbike",
-      "album": "Motorbike",
-      "count": 21,
-      "first": 1788975084,
-      "last": 1792684150,
       "playlists": {
         "1default": 21
       }
@@ -4478,6 +4478,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 41,
+      "first": 1788989714,
+      "last": 1792695544,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 21,
+          "first": 1788989714,
+          "last": 1792695544,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 20,
+          "first": 1789169386,
+          "last": 1792603505,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 41,
       "first": 1788986484,
@@ -4681,36 +4711,6 @@
           "last": 1792002290,
           "playlists": {
             "country music was never for republicans": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 40,
-      "first": 1788989714,
-      "last": 1792603505,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 20,
-          "first": 1789169386,
-          "last": 1792603505,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 20,
-          "first": 1788989714,
-          "last": 1792436904,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -7397,9 +7397,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7702,
+      "count": 7704,
       "first": 1788901564,
-      "last": 1792695321,
+      "last": 1792695738,
       "songs": [
         {
           "artist": "Tele Novella",
