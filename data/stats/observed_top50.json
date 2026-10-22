@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T14:22:21.380258+00:00",
+  "updatedAt": "2026-10-22T14:27:20.483676+00:00",
   "summary": {
-    "totalPlays": 16636,
+    "totalPlays": 16638,
     "unknownPlays": 1141,
     "uniqueTracks": 2504,
     "uniqueArtists": 1622,
     "uniqueAlbums": 2083,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792678794
+    "lastObserved": 1792679210
   },
   "topSongs": [
     {
@@ -418,6 +418,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 21,
+      "first": 1788985030,
+      "last": 1792679004,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Gorillaz, Peter Hook, Georgia",
       "title": "Aries (feat. Peter Hook and Georgia)",
       "album": "Song Machine Episode 3",
@@ -578,17 +589,6 @@
       "count": 21,
       "first": 1788965930,
       "last": 1792625506,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Franz Ferdinand",
-      "title": "Billy Goodbye",
-      "album": "Billy Goodbye",
-      "count": 21,
-      "first": 1789014639,
-      "last": 1792619540,
       "playlists": {
         "1default": 21
       }
@@ -4284,6 +4284,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 42,
+      "first": 1788985030,
+      "last": 1792679004,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 21,
+          "first": 1788985030,
+          "last": 1792679004,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 21,
+          "first": 1788987870,
+          "last": 1792555563,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 42,
       "first": 1789061029,
@@ -4471,36 +4501,6 @@
           "count": 20,
           "first": 1789054681,
           "last": 1792599795,
-          "playlists": {
-            "1default": 20
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 41,
-      "first": 1788985030,
-      "last": 1792555563,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 21,
-          "first": 1788987870,
-          "last": 1792555563,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 20,
-          "first": 1788985030,
-          "last": 1792463004,
           "playlists": {
             "1default": 20
           }
@@ -7395,9 +7395,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7643,
+      "count": 7645,
       "first": 1788901564,
-      "last": 1792678794,
+      "last": 1792679210,
       "songs": [
         {
           "artist": "Tele Novella",
