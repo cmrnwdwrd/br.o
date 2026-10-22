@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T12:26:57.926160+00:00",
+  "updatedAt": "2026-10-22T12:32:21.242173+00:00",
   "summary": {
-    "totalPlays": 16604,
+    "totalPlays": 16605,
     "unknownPlays": 1141,
     "uniqueTracks": 2501,
     "uniqueArtists": 1621,
     "uniqueAlbums": 2081,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792672008
+    "lastObserved": 1792672168
   },
   "topSongs": [
     {
@@ -7584,10 +7584,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 779,
+      "count": 780,
       "first": 1788955289,
-      "last": 1792672008,
+      "last": 1792672168,
       "songs": [
+        {
+          "artist": "Field Guide",
+          "title": "You Were",
+          "album": "You Were",
+          "count": 3,
+          "first": 1789475883,
+          "last": 1792672168,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Gigi Perez",
           "title": "Sometimes (Backwood)",
@@ -7628,17 +7639,6 @@
           "count": 3,
           "first": 1789390712,
           "last": 1792591134,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Matt Corby",
-          "title": "Souls A'Fire",
-          "album": "Into The Flame",
-          "count": 3,
-          "first": 1789998037,
-          "last": 1792590293,
           "playlists": {
             "carhartts": 3
           }
