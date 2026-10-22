@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T12:46:29.187096+00:00",
+  "updatedAt": "2026-10-22T12:51:32.892056+00:00",
   "summary": {
-    "totalPlays": 16609,
+    "totalPlays": 16610,
     "unknownPlays": 1141,
     "uniqueTracks": 2501,
     "uniqueArtists": 1621,
     "uniqueAlbums": 2081,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792673165
+    "lastObserved": 1792673385
   },
   "topSongs": [
     {
@@ -7584,10 +7584,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 784,
+      "count": 785,
       "first": 1788955289,
-      "last": 1792673165,
+      "last": 1792673385,
       "songs": [
+        {
+          "artist": "Saint Motel",
+          "title": "Happy Accidents",
+          "album": "saintmotelevision",
+          "count": 3,
+          "first": 1789476077,
+          "last": 1792673385,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Rainbow Kitten Surprise",
           "title": "Heart",
@@ -7628,17 +7639,6 @@
           "count": 3,
           "first": 1789388508,
           "last": 1792671414,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Oliver Hazard",
-          "title": "Caesar Knows",
-          "album": "34 N. River",
-          "count": 3,
-          "first": 1790598143,
-          "last": 1792671258,
           "playlists": {
             "carhartts": 3
           }
