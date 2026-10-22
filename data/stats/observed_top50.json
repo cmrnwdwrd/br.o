@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T23:52:22.002772+00:00",
+  "updatedAt": "2026-10-22T23:56:58.230959+00:00",
   "summary": {
-    "totalPlays": 16795,
+    "totalPlays": 16796,
     "unknownPlays": 1142,
     "uniqueTracks": 2520,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792713067
+    "lastObserved": 1792713234
   },
   "topSongs": [
     {
@@ -3311,6 +3311,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 60,
+      "first": 1788947368,
+      "last": 1792713234,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 21,
+          "first": 1788947368,
+          "last": 1792705918,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 20,
+          "first": 1788969485,
+          "last": 1792686749,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 19,
+          "first": 1789086174,
+          "last": 1792713234,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 60,
       "first": 1788973066,
@@ -3441,47 +3482,6 @@
           "last": 1792614886,
           "playlists": {
             "1default": 19
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 59,
-      "first": 1788947368,
-      "last": 1792705918,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 21,
-          "first": 1788947368,
-          "last": 1792705918,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 20,
-          "first": 1788969485,
-          "last": 1792686749,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 18,
-          "first": 1789086174,
-          "last": 1792421447,
-          "playlists": {
-            "1default": 18
           }
         }
       ]
@@ -5591,9 +5591,9 @@
     {
       "artist": "Your Smith",
       "album": "Bad Habit",
-      "count": 59,
+      "count": 60,
       "first": 1788947368,
-      "last": 1792705918,
+      "last": 1792713234,
       "songs": [
         {
           "artist": "Your Smith",
@@ -5621,11 +5621,11 @@
           "artist": "Your Smith",
           "title": "Bad Habit",
           "album": "Bad Habit",
-          "count": 18,
+          "count": 19,
           "first": 1789086174,
-          "last": 1792421447,
+          "last": 1792713234,
           "playlists": {
-            "1default": 18
+            "1default": 19
           }
         }
       ]
@@ -7342,9 +7342,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7758,
+      "count": 7759,
       "first": 1788901564,
-      "last": 1792713067,
+      "last": 1792713234,
       "songs": [
         {
           "artist": "Tele Novella",
