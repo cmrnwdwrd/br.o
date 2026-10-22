@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T17:47:20.154354+00:00",
+  "updatedAt": "2026-10-22T17:52:00.527526+00:00",
   "summary": {
-    "totalPlays": 16696,
+    "totalPlays": 16698,
     "unknownPlays": 1141,
     "uniqueTracks": 2518,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792691129
+    "lastObserved": 1792691471
   },
   "topSongs": [
     {
@@ -429,6 +429,17 @@
       }
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 21,
+      "first": 1788986484,
+      "last": 1792691471,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Bahamas",
       "title": "Own Alone",
       "album": "Sad Hunk",
@@ -578,17 +589,6 @@
       "count": 21,
       "first": 1788912385,
       "last": 1792677761,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Fine Young Cannibals",
-      "title": "Good Thing",
-      "album": "The Raw & The Cooked",
-      "count": 21,
-      "first": 1788974590,
-      "last": 1792677560,
       "playlists": {
         "1default": 21
       }
@@ -4478,6 +4478,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 41,
+      "first": 1788986484,
+      "last": 1792691471,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 21,
+          "first": 1788986484,
+          "last": 1792691471,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 20,
+          "first": 1789231311,
+          "last": 1792556101,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 41,
       "first": 1789054681,
@@ -4681,36 +4711,6 @@
           "last": 1792436904,
           "playlists": {
             "1default": 20
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "count": 40,
-      "first": 1788947080,
-      "last": 1792592477,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 21,
-          "first": 1788968380,
-          "last": 1792592477,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 19,
-          "first": 1788947080,
-          "last": 1792575891,
-          "playlists": {
-            "1default": 19
           }
         }
       ]
@@ -7397,9 +7397,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7683,
+      "count": 7685,
       "first": 1788901564,
-      "last": 1792691129,
+      "last": 1792691471,
       "songs": [
         {
           "artist": "Tele Novella",
