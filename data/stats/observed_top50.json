@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T03:07:16.542041+00:00",
+  "updatedAt": "2026-10-22T03:12:30.337154+00:00",
   "summary": {
-    "totalPlays": 16437,
+    "totalPlays": 16438,
     "unknownPlays": 1141,
     "uniqueTracks": 2499,
     "uniqueArtists": 1620,
     "uniqueAlbums": 2079,
     "uniquePlaylists": 35,
     "firstObserved": 1788901564,
-    "lastObserved": 1792638405
+    "lastObserved": 1792638689
   },
   "topSongs": [
     {
@@ -1579,9 +1579,9 @@
     },
     {
       "artist": "My Chemical Romance",
-      "count": 160,
+      "count": 161,
       "first": 1788965302,
-      "last": 1792638405,
+      "last": 1792638689,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -1615,6 +1615,17 @@
           "last": 1792631398,
           "playlists": {
             "MCR wednesday wind down": 6
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "Teenagers",
+          "album": "The Black Parade",
+          "count": 5,
+          "first": 1789003457,
+          "last": 1792638689,
+          "playlists": {
+            "MCR wednesday wind down": 5
           }
         },
         {
@@ -1833,17 +1844,6 @@
           "count": 4,
           "first": 1789612975,
           "last": 1791425877,
-          "playlists": {
-            "MCR wednesday wind down": 4
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "Teenagers",
-          "album": "The Black Parade",
-          "count": 4,
-          "first": 1789003457,
-          "last": 1791425186,
           "playlists": {
             "MCR wednesday wind down": 4
           }
@@ -7011,64 +7011,23 @@
       ]
     },
     {
-      "artist": "Kasper Marott",
-      "album": "Full Circle",
-      "count": 34,
-      "first": 1788941505,
-      "last": 1792567030,
-      "songs": [
-        {
-          "artist": "Kasper Marott",
-          "title": "Mere",
-          "album": "Full Circle",
-          "count": 18,
-          "first": 1788941505,
-          "last": 1792567030,
-          "playlists": {
-            "breakbeat": 18
-          }
-        },
-        {
-          "artist": "Kasper Marott",
-          "title": "Pling",
-          "album": "Full Circle",
-          "count": 16,
-          "first": 1789018934,
-          "last": 1792482061,
-          "playlists": {
-            "breakbeat": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Tele Novella",
-      "album": "Poet's Tooth",
-      "count": 34,
-      "first": 1788996940,
-      "last": 1792537711,
-      "songs": [
-        {
-          "artist": "Tele Novella",
-          "title": "Funeral",
-          "album": "Poet's Tooth",
-          "count": 34,
-          "first": 1788996940,
-          "last": 1792537711,
-          "playlists": {
-            "1default": 29,
-            "anti-capitalist weekday afternoon #1": 5
-          }
-        }
-      ]
-    },
-    {
       "artist": "My Chemical Romance",
       "album": "The Black Parade",
-      "count": 33,
+      "count": 34,
       "first": 1789001951,
-      "last": 1792638405,
+      "last": 1792638689,
       "songs": [
+        {
+          "artist": "My Chemical Romance",
+          "title": "Teenagers",
+          "album": "The Black Parade",
+          "count": 5,
+          "first": 1789003457,
+          "last": 1792638689,
+          "playlists": {
+            "MCR wednesday wind down": 5
+          }
+        },
         {
           "artist": "My Chemical Romance",
           "title": "Sleep",
@@ -7126,17 +7085,6 @@
         },
         {
           "artist": "My Chemical Romance",
-          "title": "Teenagers",
-          "album": "The Black Parade",
-          "count": 4,
-          "first": 1789003457,
-          "last": 1791425186,
-          "playlists": {
-            "MCR wednesday wind down": 4
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
           "title": "Cancer",
           "album": "The Black Parade",
           "count": 3,
@@ -7166,6 +7114,58 @@
           "last": 1791424225,
           "playlists": {
             "MCR wednesday wind down": 3
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Kasper Marott",
+      "album": "Full Circle",
+      "count": 34,
+      "first": 1788941505,
+      "last": 1792567030,
+      "songs": [
+        {
+          "artist": "Kasper Marott",
+          "title": "Mere",
+          "album": "Full Circle",
+          "count": 18,
+          "first": 1788941505,
+          "last": 1792567030,
+          "playlists": {
+            "breakbeat": 18
+          }
+        },
+        {
+          "artist": "Kasper Marott",
+          "title": "Pling",
+          "album": "Full Circle",
+          "count": 16,
+          "first": 1789018934,
+          "last": 1792482061,
+          "playlists": {
+            "breakbeat": 16
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Tele Novella",
+      "album": "Poet's Tooth",
+      "count": 34,
+      "first": 1788996940,
+      "last": 1792537711,
+      "songs": [
+        {
+          "artist": "Tele Novella",
+          "title": "Funeral",
+          "album": "Poet's Tooth",
+          "count": 34,
+          "first": 1788996940,
+          "last": 1792537711,
+          "playlists": {
+            "1default": 29,
+            "anti-capitalist weekday afternoon #1": 5
           }
         }
       ]
