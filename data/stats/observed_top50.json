@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T21:57:18.912700+00:00",
+  "updatedAt": "2026-10-22T22:02:13.504822+00:00",
   "summary": {
-    "totalPlays": 16766,
+    "totalPlays": 16768,
     "unknownPlays": 1142,
     "uniqueTracks": 2520,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792706158
+    "lastObserved": 1792706499
   },
   "topSongs": [
     {
@@ -37,6 +37,18 @@
       }
     },
     {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 34,
+      "first": 1788968149,
+      "last": 1792706499,
+      "playlists": {
+        "1default": 28,
+        "anti-capitalist weekday afternoon #1": 6
+      }
+    },
+    {
       "artist": "Ramones",
       "title": "Judy Is a Punk - 2016 Remaster",
       "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
@@ -55,18 +67,6 @@
       "count": 33,
       "first": 1788986736,
       "last": 1792684755,
-      "playlists": {
-        "1default": 28,
-        "anti-capitalist weekday afternoon #1": 5
-      }
-    },
-    {
-      "artist": "Modest Mouse",
-      "title": "Bury Me With It",
-      "album": "Good News For People Who Love Bad News",
-      "count": 33,
-      "first": 1788968149,
-      "last": 1792662639,
       "playlists": {
         "1default": 28,
         "anti-capitalist weekday afternoon #1": 5
@@ -451,6 +451,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "DISINTEGRATE",
+      "album": "SWAMP",
+      "count": 21,
+      "first": 1788983290,
+      "last": 1792706339,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "Your Smith",
       "title": "Debbie",
       "album": "Bad Habit",
@@ -578,17 +589,6 @@
       "count": 21,
       "first": 1789058710,
       "last": 1792697019,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "title": "Visitor",
-      "album": "Visitor",
-      "count": 21,
-      "first": 1788963370,
-      "last": 1792696816,
       "playlists": {
         "1default": 21
       }
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 316,
+      "count": 317,
       "first": 1788910325,
-      "last": 1792699131,
+      "last": 1792706339,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1103,6 +1103,17 @@
           "playlists": {
             "1default": 24,
             "steal my bike": 2
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 21,
+          "first": 1788983290,
+          "last": 1792706339,
+          "playlists": {
+            "1default": 21
           }
         },
         {
@@ -1189,17 +1200,6 @@
           "count": 20,
           "first": 1789225086,
           "last": 1792550559,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 20,
-          "first": 1788983290,
-          "last": 1792519584,
           "playlists": {
             "1default": 20
           }
@@ -5288,10 +5288,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 81,
+      "count": 82,
       "first": 1788926373,
-      "last": 1792616658,
+      "last": 1792706339,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 21,
+          "first": 1788983290,
+          "last": 1792706339,
+          "playlists": {
+            "1default": 21
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "THE KIDS ARE ALL RETARDED",
@@ -5321,17 +5332,6 @@
           "count": 20,
           "first": 1789058454,
           "last": 1792557849,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 20,
-          "first": 1788983290,
-          "last": 1792519584,
           "playlists": {
             "1default": 20
           }
@@ -6851,6 +6851,49 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "album": "Good News For People Who Love Bad News",
+      "count": 37,
+      "first": 1788968149,
+      "last": 1792706499,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 34,
+          "first": 1788968149,
+          "last": 1792706499,
+          "playlists": {
+            "1default": 28,
+            "anti-capitalist weekday afternoon #1": 6
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "The World At Large",
+          "album": "Good News For People Who Love Bad News",
+          "count": 2,
+          "first": 1789756286,
+          "last": 1791566864,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "The View",
+          "album": "Good News For People Who Love Bad News",
+          "count": 1,
+          "first": 1792302951,
+          "last": 1792302951,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khadija Al Hanafi",
       "album": "Slime Patrol 2",
       "count": 37,
@@ -6877,49 +6920,6 @@
           "last": 1792649434,
           "playlists": {
             "breakbeat": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Modest Mouse",
-      "album": "Good News For People Who Love Bad News",
-      "count": 36,
-      "first": 1788968149,
-      "last": 1792662639,
-      "songs": [
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 33,
-          "first": 1788968149,
-          "last": 1792662639,
-          "playlists": {
-            "1default": 28,
-            "anti-capitalist weekday afternoon #1": 5
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "The World At Large",
-          "album": "Good News For People Who Love Bad News",
-          "count": 2,
-          "first": 1789756286,
-          "last": 1791566864,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "The View",
-          "album": "Good News For People Who Love Bad News",
-          "count": 1,
-          "first": 1792302951,
-          "last": 1792302951,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -7360,9 +7360,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7751,
+      "count": 7752,
       "first": 1788901564,
-      "last": 1792706158,
+      "last": 1792706339,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7675,9 +7675,9 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 513,
+      "count": 514,
       "first": 1788904845,
-      "last": 1792625299,
+      "last": 1792706499,
       "songs": [
         {
           "artist": "Everlast",
