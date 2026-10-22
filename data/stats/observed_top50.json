@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T21:32:23.051493+00:00",
+  "updatedAt": "2026-10-22T21:37:20.789005+00:00",
   "summary": {
-    "totalPlays": 16759,
+    "totalPlays": 16761,
     "unknownPlays": 1141,
     "uniqueTracks": 2520,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792704575
+    "lastObserved": 1792705030
   },
   "topSongs": [
     {
@@ -451,6 +451,17 @@
       }
     },
     {
+      "artist": "Sjowgren",
+      "title": "Now & Then",
+      "album": "Now & Then",
+      "count": 21,
+      "first": 1788965724,
+      "last": 1792705030,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "U2",
       "title": "Sunday Bloody Sunday - Remastered 2008",
       "album": "War (Remastered)",
@@ -578,17 +589,6 @@
       "count": 21,
       "first": 1789059997,
       "last": 1792695738,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Billie Eilish",
-      "title": "NDA",
-      "album": "Happier Than Ever",
-      "count": 21,
-      "first": 1788989714,
-      "last": 1792695544,
       "playlists": {
         "1default": 21
       }
@@ -3229,6 +3229,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 61,
+      "first": 1788965724,
+      "last": 1792705030,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 21,
+          "first": 1788965724,
+          "last": 1792705030,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 21,
+          "first": 1789059354,
+          "last": 1792603019,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 19,
+          "first": 1789225488,
+          "last": 1792419920,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 61,
       "first": 1788973998,
@@ -3398,47 +3439,6 @@
           "count": 19,
           "first": 1789215234,
           "last": 1792614886,
-          "playlists": {
-            "1default": 19
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 60,
-      "first": 1788965724,
-      "last": 1792603019,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 21,
-          "first": 1789059354,
-          "last": 1792603019,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 20,
-          "first": 1788965724,
-          "last": 1792515414,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 19,
-          "first": 1789225488,
-          "last": 1792419920,
           "playlists": {
             "1default": 19
           }
@@ -7360,9 +7360,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7744,
+      "count": 7746,
       "first": 1788901564,
-      "last": 1792704575,
+      "last": 1792705030,
       "songs": [
         {
           "artist": "Tele Novella",
