@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T12:16:31.689019+00:00",
+  "updatedAt": "2026-10-22T12:21:31.404470+00:00",
   "summary": {
-    "totalPlays": 16600,
+    "totalPlays": 16602,
     "unknownPlays": 1141,
     "uniqueTracks": 2501,
     "uniqueArtists": 1621,
     "uniqueAlbums": 2081,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792671258
+    "lastObserved": 1792671590
   },
   "topSongs": [
     {
@@ -7584,10 +7584,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 775,
+      "count": 777,
       "first": 1788955289,
-      "last": 1792671258,
+      "last": 1792671590,
       "songs": [
+        {
+          "artist": "Lord Huron",
+          "title": "Not Dead Yet",
+          "album": "Not Dead Yet",
+          "count": 3,
+          "first": 1789388508,
+          "last": 1792671414,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Oliver Hazard",
           "title": "Caesar Knows",
@@ -7628,17 +7639,6 @@
           "count": 3,
           "first": 1790256801,
           "last": 1792589623,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Mt. Joy",
-          "title": "Bug Eyes",
-          "album": "Rearrange Us",
-          "count": 3,
-          "first": 1789561624,
-          "last": 1792586507,
           "playlists": {
             "carhartts": 3
           }
