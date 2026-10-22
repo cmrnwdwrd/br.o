@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-22T15:46:31.069011+00:00",
+  "updatedAt": "2026-10-22T15:52:19.250504+00:00",
   "summary": {
-    "totalPlays": 16663,
+    "totalPlays": 16665,
     "unknownPlays": 1141,
     "uniqueTracks": 2518,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792683939
+    "lastObserved": 1792684339
   },
   "topSongs": [
     {
@@ -418,6 +418,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 21,
+      "first": 1788975084,
+      "last": 1792684150,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "St. Paul & The Broken Bones",
       "title": "Apollo",
       "album": "Young Sick Camellia",
@@ -578,17 +589,6 @@
       "count": 21,
       "first": 1788968800,
       "last": 1792641954,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Hazel English",
-      "title": "Five and Dime",
-      "album": "Wake UP!",
-      "count": 21,
-      "first": 1789065292,
-      "last": 1792641546,
       "playlists": {
         "1default": 21
       }
@@ -4232,6 +4232,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 43,
+      "first": 1788919285,
+      "last": 1792684150,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 21,
+          "first": 1788975084,
+          "last": 1792684150,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 20,
+          "first": 1788919285,
+          "last": 1792419717,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 2,
+          "first": 1789893243,
+          "last": 1791702861,
+          "playlists": {
+            "christmas rn": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
       "count": 43,
       "first": 1789102138,
@@ -4432,47 +4473,6 @@
           "last": 1791581510,
           "playlists": {
             "escaping from cu boulder by giselle": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 42,
-      "first": 1788919285,
-      "last": 1792455353,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 20,
-          "first": 1788975084,
-          "last": 1792455353,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 20,
-          "first": 1788919285,
-          "last": 1792419717,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 2,
-          "first": 1789893243,
-          "last": 1791702861,
-          "playlists": {
-            "christmas rn": 2
           }
         }
       ]
@@ -7395,9 +7395,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7650,
+      "count": 7652,
       "first": 1788901564,
-      "last": 1792683939,
+      "last": 1792684339,
       "songs": [
         {
           "artist": "Tele Novella",
