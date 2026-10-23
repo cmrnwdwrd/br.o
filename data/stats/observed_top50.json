@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-23T00:02:23.914412+00:00",
+  "updatedAt": "2026-10-23T00:07:00.211405+00:00",
   "summary": {
-    "totalPlays": 16797,
+    "totalPlays": 16799,
     "unknownPlays": 1142,
     "uniqueTracks": 2520,
     "uniqueArtists": 1631,
     "uniqueAlbums": 2095,
     "uniquePlaylists": 36,
     "firstObserved": 1788901564,
-    "lastObserved": 1792713469
+    "lastObserved": 1792714003
   },
   "topSongs": [
     {
@@ -462,6 +462,28 @@
       }
     },
     {
+      "artist": "HEALTH, Nine Inch Nails",
+      "title": "ISN'T EVERYONE",
+      "album": "ISN'T EVERYONE",
+      "count": 21,
+      "first": 1788967539,
+      "last": 1792714003,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "THE FUTURE IS DARK",
+      "album": "THE FUTURE IS DARK",
+      "count": 21,
+      "first": 1788913884,
+      "last": 1792713853,
+      "playlists": {
+        "1default": 21
+      }
+    },
+    {
       "artist": "John Grant",
       "title": "It Doesn't Matter to Him",
       "album": "Pale Green Ghosts",
@@ -567,28 +589,6 @@
       "count": 21,
       "first": 1788914259,
       "last": 1792701364,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Zolof the Rock & Roll Destroyer",
-      "title": "Plays Pretty for Baby",
-      "album": "Zolof the Rock & Roll Destroyer",
-      "count": 21,
-      "first": 1788987745,
-      "last": 1792700971,
-      "playlists": {
-        "1default": 21
-      }
-    },
-    {
-      "artist": "Moby",
-      "title": "Porcelain",
-      "album": "Play & Play: B Sides",
-      "count": 21,
-      "first": 1788910695,
-      "last": 1792699434,
       "playlists": {
         "1default": 21
       }
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 317,
+      "count": 318,
       "first": 1788910325,
-      "last": 1792706339,
+      "last": 1792713853,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1103,6 +1103,17 @@
           "playlists": {
             "1default": 24,
             "steal my bike": 2
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 21,
+          "first": 1788913884,
+          "last": 1792713853,
+          "playlists": {
+            "1default": 21
           }
         },
         {
@@ -1200,17 +1211,6 @@
           "count": 20,
           "first": 1789225086,
           "last": 1792550559,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 20,
-          "first": 1788913884,
-          "last": 1792442083,
           "playlists": {
             "1default": 20
           }
@@ -6486,6 +6486,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THE FUTURE IS DARK",
+      "count": 41,
+      "first": 1788913884,
+      "last": 1792713853,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 21,
+          "first": 1788913884,
+          "last": 1792713853,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 20,
+          "first": 1788975770,
+          "last": 1792699131,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "album": "Old World Underground, Where Are You Now?",
       "count": 41,
@@ -6605,37 +6636,6 @@
           "count": 20,
           "first": 1789166634,
           "last": 1792602286,
-          "playlists": {
-            "1default": 20
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THE FUTURE IS DARK",
-      "count": 40,
-      "first": 1788913884,
-      "last": 1792699131,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 20,
-          "first": 1788975770,
-          "last": 1792699131,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 20,
-          "first": 1788913884,
-          "last": 1792442083,
           "playlists": {
             "1default": 20
           }
@@ -7342,9 +7342,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7760,
+      "count": 7762,
       "first": 1788901564,
-      "last": 1792713469,
+      "last": 1792714003,
       "songs": [
         {
           "artist": "Tele Novella",
