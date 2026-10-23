@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-23T23:42:01.733008+00:00",
+  "updatedAt": "2026-10-23T23:46:37.403856+00:00",
   "summary": {
-    "totalPlays": 17180,
+    "totalPlays": 17181,
     "unknownPlays": 1142,
     "uniqueTracks": 2534,
     "uniqueArtists": 1634,
     "uniqueAlbums": 2098,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792798896
+    "lastObserved": 1792799124
   },
   "topSongs": [
     {
@@ -384,6 +384,17 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Knives",
+      "album": "Knives",
+      "count": 22,
+      "first": 1788973998,
+      "last": 1792799124,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "BENEE",
       "title": "Sad Boiii",
       "album": "Sad Boiii",
@@ -577,17 +588,6 @@
       "count": 22,
       "first": 1788914259,
       "last": 1792768310,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Brainsick",
-      "album": "Brainsick",
-      "count": 22,
-      "first": 1789063255,
-      "last": 1792759971,
       "playlists": {
         "1default": 22
       }
@@ -3356,6 +3356,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 62,
+      "first": 1788973998,
+      "last": 1792799124,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 22,
+          "first": 1788973998,
+          "last": 1792799124,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 21,
+          "first": 1789033065,
+          "last": 1792617099,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 19,
+          "first": 1789226629,
+          "last": 1792550978,
+          "playlists": {
+            "1default": 19
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 62,
       "first": 1789021318,
@@ -3486,47 +3527,6 @@
           "last": 1792626161,
           "playlists": {
             "1default": 20
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 61,
-      "first": 1788973998,
-      "last": 1792617099,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 21,
-          "first": 1789033065,
-          "last": 1792617099,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 21,
-          "first": 1788973998,
-          "last": 1792543673,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 19,
-          "first": 1789226629,
-          "last": 1792550978,
-          "playlists": {
-            "1default": 19
           }
         }
       ]
@@ -7538,9 +7538,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7899,
+      "count": 7900,
       "first": 1788901564,
-      "last": 1792798896,
+      "last": 1792799124,
       "songs": [
         {
           "artist": "Tele Novella",
