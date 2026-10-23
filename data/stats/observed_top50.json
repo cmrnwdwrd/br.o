@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-23T15:46:36.912853+00:00",
+  "updatedAt": "2026-10-23T15:52:01.454898+00:00",
   "summary": {
-    "totalPlays": 17044,
+    "totalPlays": 17046,
     "unknownPlays": 1142,
     "uniqueTracks": 2527,
     "uniqueArtists": 1632,
     "uniqueAlbums": 2096,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792770174
+    "lastObserved": 1792770651
   },
   "topSongs": [
     {
@@ -4547,6 +4547,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 41,
+      "first": 1788947810,
+      "last": 1792770651,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 21,
+          "first": 1789059805,
+          "last": 1792770651,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 20,
+          "first": 1788947810,
+          "last": 1792554039,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Juno Rossa",
       "count": 41,
       "first": 1789166634,
@@ -4684,36 +4714,6 @@
           "count": 20,
           "first": 1789169386,
           "last": 1792603505,
-          "playlists": {
-            "1default": 20
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 41,
-      "first": 1788986484,
-      "last": 1792691471,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 21,
-          "first": 1788986484,
-          "last": 1792691471,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 20,
-          "first": 1789231311,
-          "last": 1792556101,
           "playlists": {
             "1default": 20
           }
@@ -7432,9 +7432,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7843,
+      "count": 7845,
       "first": 1788901564,
-      "last": 1792770174,
+      "last": 1792770651,
       "songs": [
         {
           "artist": "Tele Novella",
