@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-23T23:21:36.581776+00:00",
+  "updatedAt": "2026-10-23T23:36:59.902194+00:00",
   "summary": {
-    "totalPlays": 17174,
+    "totalPlays": 17178,
     "unknownPlays": 1142,
     "uniqueTracks": 2534,
     "uniqueArtists": 1634,
     "uniqueAlbums": 2098,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792797680
+    "lastObserved": 1792798488
   },
   "topSongs": [
     {
@@ -384,6 +384,28 @@
       }
     },
     {
+      "artist": "BENEE",
+      "title": "Sad Boiii",
+      "album": "Sad Boiii",
+      "count": 22,
+      "first": 1788911174,
+      "last": 1792798131,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 22,
+      "first": 1788970790,
+      "last": 1792797908,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "Finger Eleven",
       "title": "Paralyzer",
       "album": "Them Vs. You Vs. Me (Deluxe Edition)",
@@ -566,28 +588,6 @@
       "count": 22,
       "first": 1789063255,
       "last": 1792759971,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "PUP",
-      "title": "Kids",
-      "album": "Morbid Stuff",
-      "count": 22,
-      "first": 1788913008,
-      "last": 1792759762,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Enya",
-      "title": "Orinoco Flow",
-      "album": "Watermark",
-      "count": 22,
-      "first": 1789073755,
-      "last": 1792759497,
       "playlists": {
         "1default": 22
       }
@@ -3211,6 +3211,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 64,
+      "first": 1788917230,
+      "last": 1792797908,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 22,
+          "first": 1788970790,
+          "last": 1792797908,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 22,
+          "first": 1788917230,
+          "last": 1792717084,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 20,
+          "first": 1789050580,
+          "last": 1792554377,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 63,
       "first": 1788965724,
@@ -3310,47 +3351,6 @@
           "last": 1792223359,
           "playlists": {
             "for the girls driving 85": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 63,
-      "first": 1788917230,
-      "last": 1792717084,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 22,
-          "first": 1788917230,
-          "last": 1792717084,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 21,
-          "first": 1788970790,
-          "last": 1792695321,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 20,
-          "first": 1789050580,
-          "last": 1792554377,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -7538,9 +7538,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7893,
+      "count": 7897,
       "first": 1788901564,
-      "last": 1792797680,
+      "last": 1792798488,
       "songs": [
         {
           "artist": "Tele Novella",
