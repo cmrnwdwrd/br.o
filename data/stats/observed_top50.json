@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-24T00:02:03.207982+00:00",
+  "updatedAt": "2026-10-24T00:12:00.466634+00:00",
   "summary": {
-    "totalPlays": 17185,
+    "totalPlays": 17188,
     "unknownPlays": 1142,
     "uniqueTracks": 2534,
     "uniqueArtists": 1634,
     "uniqueAlbums": 2098,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792799945
+    "lastObserved": 1792800696
   },
   "topSongs": [
     {
@@ -384,6 +384,17 @@
       }
     },
     {
+      "artist": "Grace Ives",
+      "title": "Mirror",
+      "album": "2nd",
+      "count": 22,
+      "first": 1788972624,
+      "last": 1792800696,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "Fastball",
       "title": "The Way",
       "album": "All The Pain Money Can Buy",
@@ -577,17 +588,6 @@
       "count": 22,
       "first": 1788927095,
       "last": 1792769131,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Gorillaz, Fatoumata Diawara",
-      "title": "Désolé (feat. Fatoumata Diawara)",
-      "album": "Song Machine Episode 2",
-      "count": 22,
-      "first": 1788967094,
-      "last": 1792768896,
       "playlists": {
         "1default": 22
       }
@@ -6713,6 +6713,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 41,
+      "first": 1788947080,
+      "last": 1792800444,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 21,
+          "first": 1788968380,
+          "last": 1792592477,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 20,
+          "first": 1788947080,
+          "last": 1792800444,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "album": "Doolittle",
       "count": 41,
@@ -6982,37 +7013,6 @@
           "playlists": {
             "sad girl no friends saturday": 8,
             "for the girls driving 85": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 40,
-      "first": 1788947080,
-      "last": 1792592477,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 21,
-          "first": 1788968380,
-          "last": 1792592477,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 19,
-          "first": 1788947080,
-          "last": 1792575891,
-          "playlists": {
-            "1default": 19
           }
         }
       ]
@@ -7538,9 +7538,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7904,
+      "count": 7907,
       "first": 1788901564,
-      "last": 1792799945,
+      "last": 1792800696,
       "songs": [
         {
           "artist": "Tele Novella",
