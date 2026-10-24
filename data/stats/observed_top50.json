@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-24T17:01:54.815560+00:00",
+  "updatedAt": "2026-10-24T18:17:06.942385+00:00",
   "summary": {
-    "totalPlays": 17409,
+    "totalPlays": 17424,
     "unknownPlays": 1142,
     "uniqueTracks": 2539,
     "uniqueArtists": 1634,
     "uniqueAlbums": 2098,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792861314
+    "lastObserved": 1792865762
   },
   "topSongs": [
     {
@@ -361,6 +361,17 @@
       }
     },
     {
+      "artist": "hey, nothing",
+      "title": "The Sink",
+      "album": "The Sink",
+      "count": 23,
+      "first": 1788974410,
+      "last": 1792865152,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Squirrel Flower",
       "title": "So Hot You're Hurting My Feelings",
       "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
@@ -426,6 +437,61 @@
       "playlists": {
         "1default": 22,
         "jack johnson hackiesack friday afternoon": 1
+      }
+    },
+    {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 22,
+      "first": 1788989714,
+      "last": 1792865762,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 22,
+      "first": 1788985030,
+      "last": 1792865351,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
+      "artist": "Black Sheep",
+      "title": "The Choice Is Yours (Revisited)",
+      "album": "A Wolf In Sheep's Clothing",
+      "count": 22,
+      "first": 1789062768,
+      "last": 1792864755,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
+      "artist": "Bad Bad Hats",
+      "title": "Walkman",
+      "album": "Walkman",
+      "count": 22,
+      "first": 1788963606,
+      "last": 1792864120,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 22,
+      "first": 1788919285,
+      "last": 1792862791,
+      "playlists": {
+        "1default": 22
       }
     },
     {
@@ -523,72 +589,6 @@
       "count": 22,
       "first": 1788920950,
       "last": 1792852011,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Medium Troy",
-      "title": "Space Tree",
-      "album": "Space Tree",
-      "count": 22,
-      "first": 1788990730,
-      "last": 1792851616,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Letters To Cleo",
-      "title": "Big Star",
-      "album": "Aurora Gory Alice",
-      "count": 22,
-      "first": 1789165225,
-      "last": 1792850830,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Royal Blood",
-      "title": "Trouble's Coming",
-      "album": "Trouble's Coming",
-      "count": 22,
-      "first": 1788928623,
-      "last": 1792850255,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Sugarloaf",
-      "title": "West Of Tomorrow",
-      "album": "Sugarloaf",
-      "count": 22,
-      "first": 1788968800,
-      "last": 1792849585,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Gorillaz, Peter Hook, Georgia",
-      "title": "Aries (feat. Peter Hook and Georgia)",
-      "album": "Song Machine Episode 3",
-      "count": 22,
-      "first": 1788971208,
-      "last": 1792849116,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Franz Ferdinand",
-      "title": "Billy Goodbye",
-      "album": "Billy Goodbye",
-      "count": 22,
-      "first": 1789014639,
-      "last": 1792848895,
       "playlists": {
         "1default": 22
       }
@@ -2048,10 +2048,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 161,
+      "count": 162,
       "first": 1788902047,
-      "last": 1792839171,
+      "last": 1792863172,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 21,
+          "first": 1788903730,
+          "last": 1792863172,
+          "playlists": {
+            "1default": 21
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -2114,17 +2125,6 @@
           "count": 20,
           "first": 1789145316,
           "last": 1792693772,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 20,
-          "first": 1788903730,
-          "last": 1792619760,
           "playlists": {
             "1default": 20
           }
@@ -4350,6 +4350,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 45,
+      "first": 1788919285,
+      "last": 1792862791,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 22,
+          "first": 1788919285,
+          "last": 1792862791,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 21,
+          "first": 1788975084,
+          "last": 1792684150,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 2,
+          "first": 1789893243,
+          "last": 1791702861,
+          "playlists": {
+            "christmas rn": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 45,
       "first": 1789061029,
@@ -4635,42 +4676,61 @@
       ]
     },
     {
-      "artist": "Leon Bridges",
-      "count": 44,
-      "first": 1788919285,
-      "last": 1792698928,
+      "artist": "Orion Sun",
+      "count": 43,
+      "first": 1788985030,
+      "last": 1792865351,
       "songs": [
         {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 21,
-          "first": 1788919285,
-          "last": 1792698928,
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 22,
+          "first": 1788985030,
+          "last": 1792865351,
           "playlists": {
-            "1default": 21
+            "1default": 22
           }
         },
         {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
           "count": 21,
-          "first": 1788975084,
-          "last": 1792684150,
+          "first": 1788987870,
+          "last": 1792555563,
           "playlists": {
             "1default": 21
           }
+        }
+      ]
+    },
+    {
+      "artist": "Billie Eilish",
+      "count": 42,
+      "first": 1788989714,
+      "last": 1792865762,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 22,
+          "first": 1788989714,
+          "last": 1792865762,
+          "playlists": {
+            "1default": 22
+          }
         },
         {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 2,
-          "first": 1789893243,
-          "last": 1791702861,
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 20,
+          "first": 1789169386,
+          "last": 1792603505,
           "playlists": {
-            "christmas rn": 2
+            "1default": 20
           }
         }
       ]
@@ -4786,76 +4846,27 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 42,
-      "first": 1788947810,
-      "last": 1792793364,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 21,
-          "first": 1788947810,
-          "last": 1792793364,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 21,
-          "first": 1789059805,
-          "last": 1792770651,
-          "playlists": {
-            "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 42,
-      "first": 1788986484,
-      "last": 1792775691,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 22,
-          "first": 1788986484,
-          "last": 1792775691,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 20,
-          "first": 1789231311,
-          "last": 1792556101,
-          "playlists": {
-            "1default": 20
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 120,
+      "count": 121,
       "first": 1788902047,
-      "last": 1792839171,
+      "last": 1792863172,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 21,
+          "first": 1788903730,
+          "last": 1792863172,
+          "playlists": {
+            "1default": 21
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -4896,17 +4907,6 @@
           "count": 20,
           "first": 1789145316,
           "last": 1792693772,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 20,
-          "first": 1788903730,
-          "last": 1792619760,
           "playlists": {
             "1default": 20
           }
@@ -7495,9 +7495,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7997,
+      "count": 8012,
       "first": 1788901564,
-      "last": 1792861314,
+      "last": 1792865762,
       "songs": [
         {
           "artist": "Tele Novella",
