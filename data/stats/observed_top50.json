@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-24T14:37:01.961743+00:00",
+  "updatedAt": "2026-10-24T15:02:05.084157+00:00",
   "summary": {
-    "totalPlays": 17366,
+    "totalPlays": 17372,
     "unknownPlays": 1142,
     "uniqueTracks": 2537,
     "uniqueArtists": 1634,
     "uniqueAlbums": 2098,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792852410
+    "lastObserved": 1792854040
   },
   "topSongs": [
     {
@@ -418,6 +418,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "gettingyoutobelieve",
+      "album": "pear",
+      "count": 22,
+      "first": 1788920755,
+      "last": 1792852704,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "Donovan",
       "title": "Sunshine Superman",
       "album": "Sunshine Superman",
@@ -578,17 +589,6 @@
       "count": 22,
       "first": 1788901564,
       "last": 1792840972,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Isaiah Rashad",
-      "title": "Heavenly Father",
-      "album": "Cilvia Demo",
-      "count": 22,
-      "first": 1788930667,
-      "last": 1792840534,
       "playlists": {
         "1default": 22
       }
@@ -2740,10 +2740,21 @@
     },
     {
       "artist": "botch",
-      "count": 83,
+      "count": 84,
       "first": 1788920755,
-      "last": 1792770174,
+      "last": 1792852704,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 22,
+          "first": 1788920755,
+          "last": 1792852704,
+          "playlists": {
+            "1default": 22
+          }
+        },
         {
           "artist": "botch",
           "title": "underthebasement",
@@ -2751,17 +2762,6 @@
           "count": 21,
           "first": 1788997306,
           "last": 1792770174,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 21,
-          "first": 1788920755,
-          "last": 1792738926,
           "playlists": {
             "1default": 21
           }
@@ -3275,6 +3275,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 65,
+      "first": 1788917230,
+      "last": 1792853241,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 22,
+          "first": 1788970790,
+          "last": 1792797908,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 22,
+          "first": 1788917230,
+          "last": 1792717084,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 21,
+          "first": 1789050580,
+          "last": 1792853241,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 64,
       "first": 1788965724,
@@ -3311,47 +3352,6 @@
           "last": 1792705030,
           "playlists": {
             "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 64,
-      "first": 1788917230,
-      "last": 1792797908,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 22,
-          "first": 1788970790,
-          "last": 1792797908,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 22,
-          "first": 1788917230,
-          "last": 1792717084,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 20,
-          "first": 1789050580,
-          "last": 1792554377,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -6727,6 +6727,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 42,
+      "first": 1788920755,
+      "last": 1792852704,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 22,
+          "first": 1788920755,
+          "last": 1792852704,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 20,
+          "first": 1788963025,
+          "last": 1792599207,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "album": "Father of the Bride",
       "count": 42,
@@ -6886,37 +6917,6 @@
           "count": 20,
           "first": 1789166634,
           "last": 1792602286,
-          "playlists": {
-            "1default": 20
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 41,
-      "first": 1788920755,
-      "last": 1792738926,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 21,
-          "first": 1788920755,
-          "last": 1792738926,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 20,
-          "first": 1788963025,
-          "last": 1792599207,
           "playlists": {
             "1default": 20
           }
@@ -7495,9 +7495,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7974,
+      "count": 7980,
       "first": 1788901564,
-      "last": 1792852410,
+      "last": 1792854040,
       "songs": [
         {
           "artist": "Tele Novella",
