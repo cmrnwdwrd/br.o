@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-24T12:17:02.761151+00:00",
+  "updatedAt": "2026-10-24T12:31:32.314003+00:00",
   "summary": {
-    "totalPlays": 17326,
+    "totalPlays": 17330,
     "unknownPlays": 1142,
     "uniqueTracks": 2536,
     "uniqueArtists": 1634,
     "uniqueAlbums": 2098,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792844045
+    "lastObserved": 1792844930
   },
   "topSongs": [
     {
@@ -361,6 +361,17 @@
       }
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "title": "Pawn Shop Prada",
+      "album": "Lick My Soul",
+      "count": 23,
+      "first": 1788919863,
+      "last": 1792844252,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "N.W.A.",
       "title": "Fuck Tha Police",
       "album": "Straight Outta Compton",
@@ -393,6 +404,17 @@
       "playlists": {
         "1default": 22,
         "jack johnson hackiesack friday afternoon": 1
+      }
+    },
+    {
+      "artist": "Blue October",
+      "title": "Into The Ocean",
+      "album": "Foiled",
+      "count": 22,
+      "first": 1788970549,
+      "last": 1792844930,
+      "playlists": {
+        "1default": 22
       }
     },
     {
@@ -567,28 +589,6 @@
       "count": 22,
       "first": 1788946229,
       "last": 1792797187,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Tōth",
-      "title": "Song to Make You Fall in Love With Me",
-      "album": "Practice Magic and Seek Professional Help When Necessary",
-      "count": 22,
-      "first": 1788996775,
-      "last": 1792794528,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "The Dandy Warhols",
-      "title": "Bohemian Like You",
-      "album": "Thirteen Tales From Urban Bohemia",
-      "count": 22,
-      "first": 1788989503,
-      "last": 1792794148,
       "playlists": {
         "1default": 22
       }
@@ -3235,10 +3235,21 @@
     },
     {
       "artist": "Jesus Christ Taxi Driver",
-      "count": 65,
+      "count": 66,
       "first": 1788919863,
-      "last": 1792793524,
+      "last": 1792844252,
       "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 23,
+          "first": 1788919863,
+          "last": 1792844252,
+          "playlists": {
+            "1default": 23
+          }
+        },
         {
           "artist": "Jesus Christ Taxi Driver",
           "title": "STUPIDMOTHERFUCKER",
@@ -3246,17 +3257,6 @@
           "count": 22,
           "first": 1788989164,
           "last": 1792774223,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 22,
-          "first": 1788919863,
-          "last": 1792613912,
           "playlists": {
             "1default": 22
           }
@@ -5572,6 +5572,48 @@
       ]
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "album": "Lick My Soul",
+      "count": 66,
+      "first": 1788919863,
+      "last": 1792844252,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 23,
+          "first": 1788919863,
+          "last": 1792844252,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 22,
+          "first": 1788989164,
+          "last": 1792774223,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 21,
+          "first": 1789139069,
+          "last": 1792793524,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "home alone.",
       "album": "ａｒｒｉｖａｌ．",
       "count": 66,
@@ -5708,48 +5750,6 @@
           "last": 1792328489,
           "playlists": {
             "home alone.": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "album": "Lick My Soul",
-      "count": 65,
-      "first": 1788919863,
-      "last": 1792793524,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 22,
-          "first": 1788989164,
-          "last": 1792774223,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 22,
-          "first": 1788919863,
-          "last": 1792613912,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 21,
-          "first": 1789139069,
-          "last": 1792793524,
-          "playlists": {
-            "1default": 21
           }
         }
       ]
@@ -7495,9 +7495,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 7935,
+      "count": 7939,
       "first": 1788901564,
-      "last": 1792844045,
+      "last": 1792844930,
       "songs": [
         {
           "artist": "Tele Novella",
