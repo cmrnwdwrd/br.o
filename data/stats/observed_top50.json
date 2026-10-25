@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-25T09:37:03.608386+00:00",
+  "updatedAt": "2026-10-25T09:46:32.043154+00:00",
   "summary": {
-    "totalPlays": 17696,
+    "totalPlays": 17698,
     "unknownPlays": 1142,
     "uniqueTracks": 2580,
     "uniqueArtists": 1652,
     "uniqueAlbums": 2126,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792920894
+    "lastObserved": 1792921330
   },
   "topSongs": [
     {
@@ -440,6 +440,17 @@
       }
     },
     {
+      "artist": "The Smashing Pumpkins",
+      "title": "Beautiful - Remastered 2012",
+      "album": "Mellon Collie And The Infinite Sadness (Remastered)",
+      "count": 22,
+      "first": 1789095484,
+      "last": 1792921070,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "THE KIDS ARE ALL RETARDED",
       "album": "SWAMP",
@@ -578,17 +589,6 @@
       "count": 22,
       "first": 1789062768,
       "last": 1792864755,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Bad Bad Hats",
-      "title": "Walkman",
-      "album": "Walkman",
-      "count": 22,
-      "first": 1788963606,
-      "last": 1792864120,
       "playlists": {
         "1default": 22
       }
@@ -3099,6 +3099,58 @@
       ]
     },
     {
+      "artist": "The Cranberries",
+      "count": 69,
+      "first": 1788916461,
+      "last": 1792921330,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 21,
+          "first": 1788916461,
+          "last": 1792849950,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 20,
+          "first": 1789087662,
+          "last": 1792921330,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 20,
+          "first": 1789060180,
+          "last": 1792842637,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Dreams",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 8,
+          "first": 1789174476,
+          "last": 1792803590,
+          "playlists": {
+            "d i n n e r": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 68,
       "first": 1788946510,
@@ -3158,58 +3210,6 @@
           "last": 1792906025,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Cranberries",
-      "count": 68,
-      "first": 1788916461,
-      "last": 1792849950,
-      "songs": [
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 21,
-          "first": 1788916461,
-          "last": 1792849950,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 20,
-          "first": 1789060180,
-          "last": 1792842637,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 19,
-          "first": 1789087662,
-          "last": 1792603231,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Dreams",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 8,
-          "first": 1789174476,
-          "last": 1792803590,
-          "playlists": {
-            "d i n n e r": 8
           }
         }
       ]
@@ -7727,9 +7727,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8056,
+      "count": 8058,
       "first": 1788901564,
-      "last": 1792920894,
+      "last": 1792921330,
       "songs": [
         {
           "artist": "Tele Novella",
