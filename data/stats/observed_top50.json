@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-25T08:31:33.322112+00:00",
+  "updatedAt": "2026-10-25T08:41:37.846816+00:00",
   "summary": {
-    "totalPlays": 17678,
+    "totalPlays": 17680,
     "unknownPlays": 1142,
     "uniqueTracks": 2579,
     "uniqueArtists": 1652,
     "uniqueAlbums": 2126,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792917084
+    "lastObserved": 1792917470
   },
   "topSongs": [
     {
@@ -440,6 +440,17 @@
       }
     },
     {
+      "artist": "Arcade Fire",
+      "title": "Wake Up",
+      "album": "Funeral",
+      "count": 22,
+      "first": 1788989909,
+      "last": 1792917470,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "DARKIE STILL CANNOT RAP",
       "album": "SWAMP DRAINED",
@@ -578,17 +589,6 @@
       "count": 22,
       "first": 1789033065,
       "last": 1792861314,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "title": "Wars",
-      "album": "FEVER DREAM",
-      "count": 22,
-      "first": 1788991170,
-      "last": 1792860130,
       "playlists": {
         "1default": 22
       }
@@ -2824,6 +2824,58 @@
       ]
     },
     {
+      "artist": "Psychedelic Porn Crumpets",
+      "count": 81,
+      "first": 1788915065,
+      "last": 1792917268,
+      "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Tally-Ho",
+          "album": "Tally-Ho",
+          "count": 21,
+          "first": 1789085431,
+          "last": 1792917268,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Lava Lamp Pisco",
+          "album": "Lava Lamp Pisco",
+          "count": 20,
+          "first": 1788915065,
+          "last": 1792773780,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Bill's Mandolin",
+          "album": "And Now for the Whatchamacallit",
+          "count": 20,
+          "first": 1789234972,
+          "last": 1792678794,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Mr. Prism",
+          "album": "Mr. Prism",
+          "count": 20,
+          "first": 1789168906,
+          "last": 1792545043,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "count": 81,
       "first": 1788917492,
@@ -2925,58 +2977,6 @@
           "last": 1792740020,
           "playlists": {
             "breakbeat": 18
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Psychedelic Porn Crumpets",
-      "count": 80,
-      "first": 1788915065,
-      "last": 1792773780,
-      "songs": [
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Lava Lamp Pisco",
-          "album": "Lava Lamp Pisco",
-          "count": 20,
-          "first": 1788915065,
-          "last": 1792773780,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Bill's Mandolin",
-          "album": "And Now for the Whatchamacallit",
-          "count": 20,
-          "first": 1789234972,
-          "last": 1792678794,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Tally-Ho",
-          "album": "Tally-Ho",
-          "count": 20,
-          "first": 1789085431,
-          "last": 1792555362,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Mr. Prism",
-          "album": "Mr. Prism",
-          "count": 20,
-          "first": 1789168906,
-          "last": 1792545043,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -7727,9 +7727,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8039,
+      "count": 8041,
       "first": 1788901564,
-      "last": 1792911639,
+      "last": 1792917470,
       "songs": [
         {
           "artist": "Tele Novella",
