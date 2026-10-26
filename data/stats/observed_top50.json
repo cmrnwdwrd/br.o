@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T03:21:38.453479+00:00",
+  "updatedAt": "2026-10-26T03:26:40.472755+00:00",
   "summary": {
-    "totalPlays": 17973,
+    "totalPlays": 17975,
     "unknownPlays": 1142,
     "uniqueTracks": 2597,
     "uniqueArtists": 1663,
     "uniqueAlbums": 2142,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792984837
+    "lastObserved": 1792985195
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 23,
+      "first": 1788989714,
+      "last": 1792985195,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Jay Som",
       "title": "Tenderness",
       "album": "Anak Ko",
@@ -539,6 +550,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Delusional",
+      "album": "PHANTOMS",
+      "count": 22,
+      "first": 1789057319,
+      "last": 1792984966,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "Ichika Nito",
       "title": "Secret",
       "album": "Journey",
@@ -567,28 +589,6 @@
       "count": 22,
       "first": 1789061533,
       "last": 1792984285,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Mitski",
-      "title": "Love Me More",
-      "album": "Laurel Hell",
-      "count": 22,
-      "first": 1789055950,
-      "last": 1792983835,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Anjimile",
-      "title": "Baby No More",
-      "album": "Giver Taker",
-      "count": 22,
-      "first": 1788963785,
-      "last": 1792983671,
       "playlists": {
         "1default": 22
       }
@@ -1602,10 +1602,21 @@
     },
     {
       "artist": "Opium",
-      "count": 169,
+      "count": 170,
       "first": 1788927400,
-      "last": 1792977715,
+      "last": 1792984966,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 22,
+          "first": 1789057319,
+          "last": 1792984966,
+          "playlists": {
+            "1default": 22
+          }
+        },
         {
           "artist": "Opium",
           "title": "Dirge",
@@ -1626,17 +1637,6 @@
           "last": 1792759971,
           "playlists": {
             "1default": 22
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 21,
-          "first": 1789057319,
-          "last": 1792977715,
-          "playlists": {
-            "1default": 21
           }
         },
         {
@@ -4591,6 +4591,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 44,
+      "first": 1788989714,
+      "last": 1792985195,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 23,
+          "first": 1788989714,
+          "last": 1792985195,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 21,
+          "first": 1789169386,
+          "last": 1792924020,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 44,
       "first": 1788986484,
@@ -4871,41 +4901,84 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Metric",
-      "count": 43,
-      "first": 1788986736,
-      "last": 1792968279,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 35,
-          "first": 1788986736,
-          "last": 1792968279,
-          "playlists": {
-            "1default": 29,
-            "anti-capitalist weekday afternoon #1": 6
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 8,
-          "first": 1789258725,
-          "last": 1792883017,
-          "playlists": {
-            "sad girl no friends saturday": 6,
-            "texting your situationship": 2
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
+    {
+      "artist": "Opium",
+      "album": "PHANTOMS",
+      "count": 126,
+      "first": 1788927400,
+      "last": 1792984966,
+      "songs": [
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 22,
+          "first": 1789057319,
+          "last": 1792984966,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 21,
+          "first": 1788927400,
+          "last": 1792970490,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 21,
+          "first": 1788946866,
+          "last": 1792963006,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 21,
+          "first": 1789109880,
+          "last": 1792955402,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 21,
+          "first": 1789064095,
+          "last": 1792920128,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 20,
+          "first": 1788973540,
+          "last": 1792939026,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
@@ -4975,81 +5048,6 @@
           "count": 20,
           "first": 1788928852,
           "last": 1792839171,
-          "playlists": {
-            "1default": 20
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Opium",
-      "album": "PHANTOMS",
-      "count": 125,
-      "first": 1788927400,
-      "last": 1792977715,
-      "songs": [
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 21,
-          "first": 1789057319,
-          "last": 1792977715,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 21,
-          "first": 1788927400,
-          "last": 1792970490,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 21,
-          "first": 1788946866,
-          "last": 1792963006,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 21,
-          "first": 1789109880,
-          "last": 1792955402,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 21,
-          "first": 1789064095,
-          "last": 1792920128,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 20,
-          "first": 1788973540,
-          "last": 1792939026,
           "playlists": {
             "1default": 20
           }
@@ -7585,9 +7583,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8214,
+      "count": 8216,
       "first": 1788901564,
-      "last": 1792984837,
+      "last": 1792985195,
       "songs": [
         {
           "artist": "Tele Novella",
