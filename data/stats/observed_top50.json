@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T12:27:28.326957+00:00",
+  "updatedAt": "2026-10-26T12:37:05.686591+00:00",
   "summary": {
-    "totalPlays": 18124,
+    "totalPlays": 18126,
     "unknownPlays": 1142,
     "uniqueTracks": 2598,
     "uniqueArtists": 1664,
     "uniqueAlbums": 2143,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793017636
+    "lastObserved": 1793018129
   },
   "topSongs": [
     {
@@ -7771,10 +7771,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 810,
+      "count": 812,
       "first": 1788955289,
-      "last": 1793017636,
+      "last": 1793018129,
       "songs": [
+        {
+          "artist": "Shakey Graves",
+          "title": "Tomorrow",
+          "album": "Tomorrow",
+          "count": 3,
+          "first": 1789045645,
+          "last": 1793017888,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Vance Joy",
           "title": "Mess Is Mine",
@@ -7815,17 +7826,6 @@
           "count": 3,
           "first": 1788956443,
           "last": 1792673927,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Saint Motel",
-          "title": "Happy Accidents",
-          "album": "saintmotelevision",
-          "count": 3,
-          "first": 1789476077,
-          "last": 1792673385,
           "playlists": {
             "carhartts": 3
           }
