@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T02:51:34.526197+00:00",
+  "updatedAt": "2026-10-26T02:57:03.609747+00:00",
   "summary": {
-    "totalPlays": 17964,
+    "totalPlays": 17966,
     "unknownPlays": 1142,
     "uniqueTracks": 2597,
     "uniqueArtists": 1663,
     "uniqueAlbums": 2142,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792982990
+    "lastObserved": 1792983351
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 23,
+      "first": 1788986484,
+      "last": 1792983351,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Grace Ives",
       "title": "Mirror",
       "album": "2nd",
@@ -517,6 +528,17 @@
       }
     },
     {
+      "artist": "Gorillaz",
+      "title": "DARE",
+      "album": "Demon Days",
+      "count": 22,
+      "first": 1789169140,
+      "last": 1792983106,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "Jamie T",
       "title": "Zombie",
       "album": "Zombie",
@@ -567,28 +589,6 @@
       "count": 22,
       "first": 1789033884,
       "last": 1792980280,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "title": "Keep Pushing",
-      "album": "Change the Channel",
-      "count": 22,
-      "first": 1788925926,
-      "last": 1792979800,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Hotel Ugly",
-      "title": "Shut up My Moms Calling",
-      "album": "Shut up My Moms Calling",
-      "count": 22,
-      "first": 1788969130,
-      "last": 1792979476,
       "playlists": {
         "1default": 22
       }
@@ -4591,6 +4591,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 44,
+      "first": 1788986484,
+      "last": 1792983351,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 23,
+          "first": 1788986484,
+          "last": 1792983351,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 21,
+          "first": 1789231311,
+          "last": 1792890456,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 44,
       "first": 1788972865,
@@ -4868,36 +4898,6 @@
           "count": 21,
           "first": 1789054681,
           "last": 1792966224,
-          "playlists": {
-            "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 43,
-      "first": 1788989714,
-      "last": 1792924020,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 22,
-          "first": 1788989714,
-          "last": 1792865762,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 21,
-          "first": 1789169386,
-          "last": 1792924020,
           "playlists": {
             "1default": 21
           }
@@ -7585,9 +7585,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8205,
+      "count": 8207,
       "first": 1788901564,
-      "last": 1792982990,
+      "last": 1792983351,
       "songs": [
         {
           "artist": "Tele Novella",
