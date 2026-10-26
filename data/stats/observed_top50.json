@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T15:16:40.351342+00:00",
+  "updatedAt": "2026-10-26T15:22:33.053407+00:00",
   "summary": {
-    "totalPlays": 18169,
+    "totalPlays": 18171,
     "unknownPlays": 1142,
     "uniqueTracks": 2600,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793027771
+    "lastObserved": 1793027984
   },
   "topSongs": [
     {
@@ -384,6 +384,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 23,
+      "first": 1789063255,
+      "last": 1793027984,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "ruzlxn",
       "title": "BURN YOUR LOCAL POLITICIAN !",
       "album": "GRITTED TEETH *",
@@ -577,17 +588,6 @@
       "count": 23,
       "first": 1788927733,
       "last": 1793001114,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
-      "title": "Leave The Door Open",
-      "album": "Leave The Door Open",
-      "count": 23,
-      "first": 1789056336,
-      "last": 1793000242,
       "playlists": {
         "1default": 23
       }
@@ -1601,10 +1601,21 @@
     },
     {
       "artist": "Opium",
-      "count": 172,
+      "count": 173,
       "first": 1788927400,
-      "last": 1793007251,
+      "last": 1793027984,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 23,
+          "first": 1789063255,
+          "last": 1793027984,
+          "playlists": {
+            "1default": 23
+          }
+        },
         {
           "artist": "Opium",
           "title": "Dirge",
@@ -1623,17 +1634,6 @@
           "count": 22,
           "first": 1789057319,
           "last": 1792984966,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 22,
-          "first": 1789063255,
-          "last": 1792759971,
           "playlists": {
             "1default": 22
           }
@@ -1697,9 +1697,9 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 170,
+      "count": 171,
       "first": 1788902047,
-      "last": 1793002052,
+      "last": 1793027819,
       "songs": [
         {
           "artist": "Atom Son of Man",
@@ -1710,6 +1710,17 @@
           "last": 1793002052,
           "playlists": {
             "1default": 23
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 22,
+          "first": 1788903565,
+          "last": 1793027819,
+          "playlists": {
+            "1default": 22
           }
         },
         {
@@ -1752,17 +1763,6 @@
           "count": 21,
           "first": 1788964420,
           "last": 1792963367,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 21,
-          "first": 1788903565,
-          "last": 1792956130,
           "playlists": {
             "1default": 21
           }
@@ -4904,6 +4904,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 128,
+      "first": 1788902047,
+      "last": 1793027819,
+      "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 23,
+          "first": 1788902047,
+          "last": 1793002052,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 22,
+          "first": 1788903565,
+          "last": 1793027819,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 22,
+          "first": 1788903730,
+          "last": 1792988056,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 21,
+          "first": 1789145316,
+          "last": 1792977947,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Vengeful Vulture",
+          "album": "1's a Man, 3's a Band",
+          "count": 20,
+          "first": 1789097184,
+          "last": 1792920398,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 20,
+          "first": 1788928852,
+          "last": 1792839171,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Opium",
       "album": "PHANTOMS",
       "count": 127,
@@ -4974,81 +5049,6 @@
           "last": 1792920128,
           "playlists": {
             "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 127,
-      "first": 1788902047,
-      "last": 1793002052,
-      "songs": [
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 23,
-          "first": 1788902047,
-          "last": 1793002052,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 22,
-          "first": 1788903730,
-          "last": 1792988056,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 21,
-          "first": 1789145316,
-          "last": 1792977947,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 21,
-          "first": 1788903565,
-          "last": 1792956130,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Vengeful Vulture",
-          "album": "1's a Man, 3's a Band",
-          "count": 20,
-          "first": 1789097184,
-          "last": 1792920398,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 20,
-          "first": 1788928852,
-          "last": 1792839171,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -7582,9 +7582,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8307,
+      "count": 8309,
       "first": 1788901564,
-      "last": 1793027484,
+      "last": 1793027984,
       "songs": [
         {
           "artist": "Tele Novella",
