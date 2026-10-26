@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T01:56:31.538815+00:00",
+  "updatedAt": "2026-10-26T02:06:35.236445+00:00",
   "summary": {
-    "totalPlays": 17950,
+    "totalPlays": 17953,
     "unknownPlays": 1142,
     "uniqueTracks": 2597,
     "uniqueArtists": 1663,
     "uniqueAlbums": 2142,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792979641
+    "lastObserved": 1792980280
   },
   "topSongs": [
     {
@@ -484,6 +484,28 @@
       }
     },
     {
+      "artist": "Radiohead",
+      "title": "If You Say the Word",
+      "album": "If You Say the Word",
+      "count": 22,
+      "first": 1789033884,
+      "last": 1792980280,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
+      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+      "title": "Keep Pushing",
+      "album": "Change the Channel",
+      "count": 22,
+      "first": 1788925926,
+      "last": 1792979800,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "Hotel Ugly",
       "title": "Shut up My Moms Calling",
       "album": "Shut up My Moms Calling",
@@ -567,28 +589,6 @@
       "count": 22,
       "first": 1788921291,
       "last": 1792973019,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Fugees, Ms. Lauryn Hill",
-      "title": "Killing Me Softly With His Song",
-      "album": "The Score (Expanded Edition)",
-      "count": 22,
-      "first": 1789057927,
-      "last": 1792972383,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Blue Rain Boots",
-      "title": "Oh My God You Are Fine",
-      "album": "Oh My God You Are Fine",
-      "count": 22,
-      "first": 1788914549,
-      "last": 1792971299,
       "playlists": {
         "1default": 22
       }
@@ -2166,9 +2166,9 @@
     },
     {
       "artist": "The Czars",
-      "count": 120,
+      "count": 121,
       "first": 1788963949,
-      "last": 1792975254,
+      "last": 1792980030,
       "songs": [
         {
           "artist": "The Czars",
@@ -2190,6 +2190,17 @@
           "last": 1792967950,
           "playlists": {
             "1default": 22
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 20,
+          "first": 1789015116,
+          "last": 1792980030,
+          "playlists": {
+            "1default": 20
           }
         },
         {
@@ -2221,17 +2232,6 @@
           "count": 19,
           "first": 1788963949,
           "last": 1792718235,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 19,
-          "first": 1789015116,
-          "last": 1792619248,
           "playlists": {
             "1default": 19
           }
@@ -2929,9 +2929,9 @@
     },
     {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "count": 81,
+      "count": 82,
       "first": 1788917845,
-      "last": 1792956500,
+      "last": 1792979800,
       "songs": [
         {
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
@@ -2949,11 +2949,11 @@
           "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
           "title": "Keep Pushing",
           "album": "Change the Channel",
-          "count": 21,
+          "count": 22,
           "first": 1788925926,
-          "last": 1792599568,
+          "last": 1792979800,
           "playlists": {
-            "1default": 21
+            "1default": 22
           }
         },
         {
@@ -3360,6 +3360,58 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 65,
+      "first": 1788973066,
+      "last": 1792980280,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 22,
+          "first": 1789033884,
+          "last": 1792980280,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 21,
+          "first": 1788973066,
+          "last": 1792975505,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 21,
+          "first": 1788984450,
+          "last": 1792963653,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Karma Police",
+          "album": "OK Computer",
+          "count": 1,
+          "first": 1792902695,
+          "last": 1792902695,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 65,
       "first": 1788965724,
@@ -3396,58 +3448,6 @@
           "last": 1792768474,
           "playlists": {
             "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 64,
-      "first": 1788973066,
-      "last": 1792975505,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 21,
-          "first": 1788973066,
-          "last": 1792975505,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 21,
-          "first": 1788984450,
-          "last": 1792963653,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 21,
-          "first": 1789033884,
-          "last": 1792661655,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Karma Police",
-          "album": "OK Computer",
-          "count": 1,
-          "first": 1792902695,
-          "last": 1792902695,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -5059,9 +5059,9 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 120,
+      "count": 121,
       "first": 1788963949,
-      "last": 1792975254,
+      "last": 1792980030,
       "songs": [
         {
           "artist": "The Czars",
@@ -5083,6 +5083,17 @@
           "last": 1792967950,
           "playlists": {
             "1default": 22
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 20,
+          "first": 1789015116,
+          "last": 1792980030,
+          "playlists": {
+            "1default": 20
           }
         },
         {
@@ -5114,17 +5125,6 @@
           "count": 19,
           "first": 1788963949,
           "last": 1792718235,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 19,
-          "first": 1789015116,
-          "last": 1792619248,
           "playlists": {
             "1default": 19
           }
@@ -6303,6 +6303,48 @@
       ]
     },
     {
+      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+      "album": "Change the Channel",
+      "count": 52,
+      "first": 1788917845,
+      "last": 1792979800,
+      "songs": [
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Keep Pushing",
+          "album": "Change the Channel",
+          "count": 22,
+          "first": 1788925926,
+          "last": 1792979800,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Change the Channel",
+          "album": "Change the Channel",
+          "count": 20,
+          "first": 1788917845,
+          "last": 1792956500,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
+          "title": "Run It",
+          "album": "Change the Channel",
+          "count": 10,
+          "first": 1791193846,
+          "last": 1792758819,
+          "playlists": {
+            "1default": 10
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
       "album": "The Highwomen",
       "count": 52,
@@ -6351,48 +6393,6 @@
           "last": 1792821585,
           "playlists": {
             "for the girls driving 85": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-      "album": "Change the Channel",
-      "count": 51,
-      "first": 1788917845,
-      "last": 1792956500,
-      "songs": [
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Keep Pushing",
-          "album": "Change the Channel",
-          "count": 21,
-          "first": 1788925926,
-          "last": 1792599568,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Change the Channel",
-          "album": "Change the Channel",
-          "count": 20,
-          "first": 1788917845,
-          "last": 1792956500,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
-          "title": "Run It",
-          "album": "Change the Channel",
-          "count": 10,
-          "first": 1791193846,
-          "last": 1792758819,
-          "playlists": {
-            "1default": 10
           }
         }
       ]
@@ -7585,9 +7585,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8191,
+      "count": 8194,
       "first": 1788901564,
-      "last": 1792979641,
+      "last": 1792980280,
       "songs": [
         {
           "artist": "Tele Novella",
