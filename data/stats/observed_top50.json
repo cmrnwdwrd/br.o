@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T15:52:32.561439+00:00",
+  "updatedAt": "2026-10-26T15:57:36.641431+00:00",
   "summary": {
-    "totalPlays": 18179,
+    "totalPlays": 18181,
     "unknownPlays": 1142,
     "uniqueTracks": 2601,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793029800
+    "lastObserved": 1793030253
   },
   "topSongs": [
     {
@@ -407,6 +407,17 @@
       }
     },
     {
+      "artist": "Hazel English",
+      "title": "Five and Dime",
+      "album": "Wake UP!",
+      "count": 23,
+      "first": 1789065292,
+      "last": 1793030253,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Gorillaz, Beck",
       "title": "The Valley of The Pagans (feat. Beck)",
       "album": "Song Machine, Season One: Strange Timez (Deluxe)",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1788967094,
       "last": 1793003285,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Mystee",
-      "title": "hard candy",
-      "album": "hard candy",
-      "count": 23,
-      "first": 1788915475,
-      "last": 1793002495,
       "playlists": {
         "1default": 23
       }
@@ -3164,10 +3164,21 @@
     },
     {
       "artist": "The Cranberries",
-      "count": 69,
+      "count": 70,
       "first": 1788916461,
-      "last": 1792921330,
+      "last": 1793029981,
       "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 21,
+          "first": 1789060180,
+          "last": 1793029981,
+          "playlists": {
+            "1default": 21
+          }
+        },
         {
           "artist": "The Cranberries",
           "title": "Zombie",
@@ -3186,17 +3197,6 @@
           "count": 20,
           "first": 1789087662,
           "last": 1792921330,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 20,
-          "first": 1789060180,
-          "last": 1792842637,
           "playlists": {
             "1default": 20
           }
@@ -7583,9 +7583,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8316,
+      "count": 8318,
       "first": 1788901564,
-      "last": 1793029800,
+      "last": 1793030253,
       "songs": [
         {
           "artist": "Tele Novella",
