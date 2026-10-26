@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T03:07:06.055866+00:00",
+  "updatedAt": "2026-10-26T03:12:01.997709+00:00",
   "summary": {
-    "totalPlays": 17968,
+    "totalPlays": 17970,
     "unknownPlays": 1142,
     "uniqueTracks": 2597,
     "uniqueArtists": 1663,
     "uniqueAlbums": 2142,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792983835
+    "lastObserved": 1792984285
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 23,
+      "first": 1789235365,
+      "last": 1792984044,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "title": "Texas Sun",
       "album": "Texas Sun",
@@ -528,6 +539,17 @@
       }
     },
     {
+      "artist": "Jalen Santoy",
+      "title": "Foreplay",
+      "album": "II Shepherds",
+      "count": 22,
+      "first": 1789061533,
+      "last": 1792984285,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "Mitski",
       "title": "Love Me More",
       "album": "Laurel Hell",
@@ -567,28 +589,6 @@
       "count": 22,
       "first": 1789209729,
       "last": 1792982575,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE FUTURE IS DARK",
-      "album": "THE FUTURE IS DARK",
-      "count": 22,
-      "first": 1788913884,
-      "last": 1792982020,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "You Make Me Want to Kill Myself",
-      "album": "You Make Me Want to Kill Myself",
-      "count": 22,
-      "first": 1788984684,
-      "last": 1792980778,
       "playlists": {
         "1default": 22
       }
@@ -4843,6 +4843,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 43,
+      "first": 1789069956,
+      "last": 1792984044,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 23,
+          "first": 1789235365,
+          "last": 1792984044,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 20,
+          "first": 1789069956,
+          "last": 1792853537,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "count": 43,
       "first": 1788986736,
@@ -4870,36 +4900,6 @@
           "playlists": {
             "sad girl no friends saturday": 6,
             "texting your situationship": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 43,
-      "first": 1789054681,
-      "last": 1792966224,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 22,
-          "first": 1789057143,
-          "last": 1792771260,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 21,
-          "first": 1789054681,
-          "last": 1792966224,
-          "playlists": {
-            "1default": 21
           }
         }
       ]
@@ -7585,9 +7585,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8209,
+      "count": 8211,
       "first": 1788901564,
-      "last": 1792983835,
+      "last": 1792984285,
       "songs": [
         {
           "artist": "Tele Novella",
