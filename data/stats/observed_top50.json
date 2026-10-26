@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T20:12:29.303407+00:00",
+  "updatedAt": "2026-10-26T20:17:28.798130+00:00",
   "summary": {
-    "totalPlays": 18250,
+    "totalPlays": 18252,
     "unknownPlays": 1142,
     "uniqueTracks": 2602,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793045356
+    "lastObserved": 1793045760
   },
   "topSongs": [
     {
@@ -440,6 +440,17 @@
       }
     },
     {
+      "artist": "Sugarloaf",
+      "title": "West Of Tomorrow",
+      "album": "Sugarloaf",
+      "count": 23,
+      "first": 1788968800,
+      "last": 1793045760,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "The Dandy Warhols",
       "title": "Bohemian Like You",
       "album": "Thirteen Tales From Urban Bohemia",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1788965930,
       "last": 1793036552,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Rilo Kiley",
-      "title": "Science Vs. Romance",
-      "album": "Take Offs And Landings",
-      "count": 23,
-      "first": 1788902251,
-      "last": 1793035634,
       "playlists": {
         "1default": 23
       }
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 347,
+      "count": 348,
       "first": 1788910325,
-      "last": 1793038280,
+      "last": 1793045562,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1125,6 +1125,17 @@
           "last": 1792999546,
           "playlists": {
             "1default": 23
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 22,
+          "first": 1789217995,
+          "last": 1793045562,
+          "playlists": {
+            "1default": 22
           }
         },
         {
@@ -1200,17 +1211,6 @@
           "count": 21,
           "first": 1788975770,
           "last": 1792981737,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 21,
-          "first": 1789217995,
-          "last": 1792976555,
           "playlists": {
             "1default": 21
           }
@@ -6288,6 +6288,38 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THIS DOES NOT EXIST",
+      "count": 51,
+      "first": 1789053695,
+      "last": 1793045562,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "wrap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 29,
+          "first": 1789053695,
+          "last": 1792981596,
+          "playlists": {
+            "1default": 26,
+            "steal my bike": 3
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 22,
+          "first": 1789217995,
+          "last": 1793045562,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "album": "GRITTED TEETH *",
       "count": 50,
@@ -6325,38 +6357,6 @@
           "last": 1792562567,
           "playlists": {
             "EPL4a": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THIS DOES NOT EXIST",
-      "count": 50,
-      "first": 1789053695,
-      "last": 1792981596,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 29,
-          "first": 1789053695,
-          "last": 1792981596,
-          "playlists": {
-            "1default": 26,
-            "steal my bike": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 21,
-          "first": 1789217995,
-          "last": 1792976555,
-          "playlists": {
-            "1default": 21
           }
         }
       ]
@@ -7474,9 +7474,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8386,
+      "count": 8388,
       "first": 1788901564,
-      "last": 1793045356,
+      "last": 1793045760,
       "songs": [
         {
           "artist": "Tele Novella",
