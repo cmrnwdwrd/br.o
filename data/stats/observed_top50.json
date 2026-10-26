@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T04:02:13.144204+00:00",
+  "updatedAt": "2026-10-26T04:16:40.809914+00:00",
   "summary": {
-    "totalPlays": 17985,
+    "totalPlays": 17989,
     "unknownPlays": 1142,
     "uniqueTracks": 2597,
     "uniqueArtists": 1663,
     "uniqueAlbums": 2142,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792987145
+    "lastObserved": 1792988056
   },
   "topSongs": [
     {
@@ -373,6 +373,28 @@
       }
     },
     {
+      "artist": "isobel",
+      "title": "laundry",
+      "album": "laundry",
+      "count": 23,
+      "first": 1788902953,
+      "last": 1792987885,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
+      "artist": "Finger Eleven",
+      "title": "Paralyzer",
+      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
+      "count": 23,
+      "first": 1789049428,
+      "last": 1792987443,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Cage The Elephant",
       "title": "Skin and Bones - Mix 2020",
       "album": "Skin and Bones",
@@ -569,28 +591,6 @@
       "playlists": {
         "1default": 22,
         "throwbacks": 1
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Pride (In The Name Of Love) - Remastered 2009",
-      "album": "The Unforgettable Fire (Remastered)",
-      "count": 23,
-      "first": 1788964687,
-      "last": 1792797680,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "clipping.",
-      "title": "Nothing is Safe",
-      "album": "There Existed an Addiction to Blood",
-      "count": 22,
-      "first": 1789054884,
-      "last": 1792987145,
-      "playlists": {
-        "1default": 22
       }
     }
   ],
@@ -1698,10 +1698,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 168,
+      "count": 169,
       "first": 1788902047,
-      "last": 1792980778,
+      "last": 1792988056,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 22,
+          "first": 1788903730,
+          "last": 1792988056,
+          "playlists": {
+            "1default": 22
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "You Make Me Want to Kill Myself",
@@ -1753,17 +1764,6 @@
           "count": 21,
           "first": 1788903565,
           "last": 1792956130,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 21,
-          "first": 1788903730,
-          "last": 1792863172,
           "playlists": {
             "1default": 21
           }
@@ -3278,6 +3278,58 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 66,
+      "first": 1788973066,
+      "last": 1792987651,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 22,
+          "first": 1788984450,
+          "last": 1792987651,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 22,
+          "first": 1789033884,
+          "last": 1792980280,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 21,
+          "first": 1788973066,
+          "last": 1792975505,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Karma Police",
+          "album": "OK Computer",
+          "count": 1,
+          "first": 1792902695,
+          "last": 1792902695,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 66,
       "first": 1788917230,
@@ -3355,58 +3407,6 @@
           "last": 1792793524,
           "playlists": {
             "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 65,
-      "first": 1788973066,
-      "last": 1792980280,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 22,
-          "first": 1789033884,
-          "last": 1792980280,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 21,
-          "first": 1788973066,
-          "last": 1792975505,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 21,
-          "first": 1788984450,
-          "last": 1792963653,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Karma Police",
-          "album": "OK Computer",
-          "count": 1,
-          "first": 1792902695,
-          "last": 1792902695,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -4905,6 +4905,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 126,
+      "first": 1788902047,
+      "last": 1792988056,
+      "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 22,
+          "first": 1788903730,
+          "last": 1792988056,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 22,
+          "first": 1788902047,
+          "last": 1792970662,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 21,
+          "first": 1789145316,
+          "last": 1792977947,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 21,
+          "first": 1788903565,
+          "last": 1792956130,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Vengeful Vulture",
+          "album": "1's a Man, 3's a Band",
+          "count": 20,
+          "first": 1789097184,
+          "last": 1792920398,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 20,
+          "first": 1788928852,
+          "last": 1792839171,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "Opium",
       "album": "PHANTOMS",
       "count": 126,
@@ -4973,81 +5048,6 @@
           "count": 20,
           "first": 1788973540,
           "last": 1792939026,
-          "playlists": {
-            "1default": 20
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 125,
-      "first": 1788902047,
-      "last": 1792977947,
-      "songs": [
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 22,
-          "first": 1788902047,
-          "last": 1792970662,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 21,
-          "first": 1789145316,
-          "last": 1792977947,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 21,
-          "first": 1788903565,
-          "last": 1792956130,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 21,
-          "first": 1788903730,
-          "last": 1792863172,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Vengeful Vulture",
-          "album": "1's a Man, 3's a Band",
-          "count": 20,
-          "first": 1789097184,
-          "last": 1792920398,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 20,
-          "first": 1788928852,
-          "last": 1792839171,
           "playlists": {
             "1default": 20
           }
@@ -7583,9 +7583,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8226,
+      "count": 8230,
       "first": 1788901564,
-      "last": 1792987145,
+      "last": 1792988056,
       "songs": [
         {
           "artist": "Tele Novella",
