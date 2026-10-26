@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T02:12:04.482745+00:00",
+  "updatedAt": "2026-10-26T02:22:01.217018+00:00",
   "summary": {
-    "totalPlays": 17954,
+    "totalPlays": 17956,
     "unknownPlays": 1142,
     "uniqueTracks": 2597,
     "uniqueArtists": 1663,
     "uniqueAlbums": 2142,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792980542
+    "lastObserved": 1792981125
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "You Make Me Want to Kill Myself",
+      "album": "You Make Me Want to Kill Myself",
+      "count": 22,
+      "first": 1788984684,
+      "last": 1792980778,
+      "playlists": {
+        "1default": 22
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "THE WORLD IS ENDING",
       "album": "THE WORLD IS ENDING",
@@ -578,17 +589,6 @@
       "count": 22,
       "first": 1789062154,
       "last": 1792974370,
-      "playlists": {
-        "1default": 22
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "The End of the Game",
-      "album": "The End of the Game",
-      "count": 22,
-      "first": 1788974227,
-      "last": 1792973347,
       "playlists": {
         "1default": 22
       }
@@ -1698,10 +1698,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 167,
+      "count": 168,
       "first": 1788902047,
-      "last": 1792977947,
+      "last": 1792980778,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "You Make Me Want to Kill Myself",
+          "album": "You Make Me Want to Kill Myself",
+          "count": 22,
+          "first": 1788984684,
+          "last": 1792980778,
+          "playlists": {
+            "1default": 22
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -1753,17 +1764,6 @@
           "count": 21,
           "first": 1788903730,
           "last": 1792863172,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "You Make Me Want to Kill Myself",
-          "album": "You Make Me Want to Kill Myself",
-          "count": 21,
-          "first": 1788984684,
-          "last": 1792551397,
           "playlists": {
             "1default": 21
           }
@@ -2166,9 +2166,9 @@
     },
     {
       "artist": "The Czars",
-      "count": 121,
+      "count": 122,
       "first": 1788963949,
-      "last": 1792980030,
+      "last": 1792981125,
       "songs": [
         {
           "artist": "The Czars",
@@ -2190,6 +2190,17 @@
           "last": 1792967950,
           "playlists": {
             "1default": 22
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 20,
+          "first": 1788963949,
+          "last": 1792981125,
+          "playlists": {
+            "1default": 20
           }
         },
         {
@@ -2221,17 +2232,6 @@
           "count": 19,
           "first": 1789218669,
           "last": 1792848608,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 19,
-          "first": 1788963949,
-          "last": 1792718235,
           "playlists": {
             "1default": 19
           }
@@ -5059,9 +5059,9 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 121,
+      "count": 122,
       "first": 1788963949,
-      "last": 1792980030,
+      "last": 1792981125,
       "songs": [
         {
           "artist": "The Czars",
@@ -5083,6 +5083,17 @@
           "last": 1792967950,
           "playlists": {
             "1default": 22
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 20,
+          "first": 1788963949,
+          "last": 1792981125,
+          "playlists": {
+            "1default": 20
           }
         },
         {
@@ -5114,17 +5125,6 @@
           "count": 19,
           "first": 1789218669,
           "last": 1792848608,
-          "playlists": {
-            "1default": 19
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 19,
-          "first": 1788963949,
-          "last": 1792718235,
           "playlists": {
             "1default": 19
           }
@@ -7585,9 +7585,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8195,
+      "count": 8197,
       "first": 1788901564,
-      "last": 1792980542,
+      "last": 1792981125,
       "songs": [
         {
           "artist": "Tele Novella",
