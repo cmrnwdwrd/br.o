@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T21:37:29.134385+00:00",
+  "updatedAt": "2026-10-26T21:42:30.557846+00:00",
   "summary": {
-    "totalPlays": 18274,
+    "totalPlays": 18276,
     "unknownPlays": 1142,
     "uniqueTracks": 2602,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793050582
+    "lastObserved": 1793050944
   },
   "topSongs": [
     {
@@ -451,6 +451,28 @@
       }
     },
     {
+      "artist": "David Bowie",
+      "title": "I'm Afraid of Americans (V1)",
+      "album": "Legacy (Deluxe Edition)",
+      "count": 23,
+      "first": 1788912385,
+      "last": 1793050944,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 23,
+      "first": 1789033065,
+      "last": 1793050757,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "TOPS",
       "title": "Petals",
       "album": "Sugar at the Gate",
@@ -567,28 +589,6 @@
       "count": 23,
       "first": 1788914549,
       "last": 1793044053,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Doechii",
-      "title": "NISSAN ALTIMA",
-      "album": "Alligator Bites Never Heal",
-      "count": 23,
-      "first": 1788914421,
-      "last": 1793043924,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "John Grant",
-      "title": "It Doesn't Matter to Him",
-      "album": "Pale Green Ghosts",
-      "count": 23,
-      "first": 1788964915,
-      "last": 1793042474,
       "playlists": {
         "1default": 23
       }
@@ -3453,6 +3453,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 66,
+      "first": 1788973998,
+      "last": 1793050757,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 23,
+          "first": 1789033065,
+          "last": 1793050757,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 22,
+          "first": 1788973998,
+          "last": 1792799124,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 21,
+          "first": 1789226629,
+          "last": 1792991073,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 65,
       "first": 1788947368,
@@ -3487,47 +3528,6 @@
           "count": 21,
           "first": 1789086174,
           "last": 1793025317,
-          "playlists": {
-            "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 65,
-      "first": 1788973998,
-      "last": 1792991073,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 22,
-          "first": 1789033065,
-          "last": 1792861314,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 22,
-          "first": 1788973998,
-          "last": 1792799124,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 21,
-          "first": 1789226629,
-          "last": 1792991073,
           "playlists": {
             "1default": 21
           }
@@ -4673,6 +4673,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 44,
+      "first": 1788912385,
+      "last": 1793050944,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 23,
+          "first": 1788912385,
+          "last": 1793050944,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 21,
+          "first": 1789129746,
+          "last": 1793043655,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "count": 44,
       "first": 1788986736,
@@ -4760,36 +4790,6 @@
           "last": 1792771260,
           "playlists": {
             "1default": 22
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 44,
-      "first": 1788989714,
-      "last": 1792985195,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 23,
-          "first": 1788989714,
-          "last": 1792985195,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 21,
-          "first": 1789169386,
-          "last": 1792924020,
-          "playlists": {
-            "1default": 21
           }
         }
       ]
@@ -7484,9 +7484,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8410,
+      "count": 8412,
       "first": 1788901564,
-      "last": 1793050582,
+      "last": 1793050944,
       "songs": [
         {
           "artist": "Tele Novella",
