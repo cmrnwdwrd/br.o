@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T13:27:06.890393+00:00",
+  "updatedAt": "2026-10-26T13:32:28.066264+00:00",
   "summary": {
-    "totalPlays": 18139,
+    "totalPlays": 18140,
     "unknownPlays": 1142,
     "uniqueTracks": 2600,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793021092
+    "lastObserved": 1793021325
   },
   "topSongs": [
     {
@@ -7771,10 +7771,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 825,
+      "count": 826,
       "first": 1788955289,
-      "last": 1793021092,
+      "last": 1793021325,
       "songs": [
+        {
+          "artist": "flipturn",
+          "title": "Chicago",
+          "album": "Heavy Colors",
+          "count": 4,
+          "first": 1790166003,
+          "last": 1793021325,
+          "playlists": {
+            "carhartts": 4
+          }
+        },
         {
           "artist": "Benjamin Francis Leftwich",
           "title": "Atlas Hands",
@@ -7815,17 +7826,6 @@
           "count": 3,
           "first": 1789560632,
           "last": 1793019265,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Shakey Graves",
-          "title": "Tomorrow",
-          "album": "Tomorrow",
-          "count": 3,
-          "first": 1789045645,
-          "last": 1793017888,
           "playlists": {
             "carhartts": 3
           }
