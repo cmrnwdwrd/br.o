@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T12:57:28.252944+00:00",
+  "updatedAt": "2026-10-26T13:02:08.569711+00:00",
   "summary": {
-    "totalPlays": 18131,
+    "totalPlays": 18133,
     "unknownPlays": 1142,
-    "uniqueTracks": 2599,
+    "uniqueTracks": 2600,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793019265
+    "lastObserved": 1793019730
   },
   "topSongs": [
     {
@@ -7771,10 +7771,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 817,
+      "count": 819,
       "first": 1788955289,
-      "last": 1793019265,
+      "last": 1793019730,
       "songs": [
+        {
+          "artist": "Khalid",
+          "title": "Therapy",
+          "album": "American Teen",
+          "count": 3,
+          "first": 1790081676,
+          "last": 1793019730,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Annie DiRusso",
           "title": "Infinite Jest",
@@ -7815,17 +7826,6 @@
           "count": 3,
           "first": 1788958582,
           "last": 1792676820,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Caamp",
-          "title": "Wolf Song",
-          "album": "By and By",
-          "count": 3,
-          "first": 1789650828,
-          "last": 1792675056,
           "playlists": {
             "carhartts": 3
           }
