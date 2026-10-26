@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T12:51:37.386591+00:00",
+  "updatedAt": "2026-10-26T12:57:28.252944+00:00",
   "summary": {
-    "totalPlays": 18130,
+    "totalPlays": 18131,
     "unknownPlays": 1142,
     "uniqueTracks": 2599,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793019043
+    "lastObserved": 1793019265
   },
   "topSongs": [
     {
@@ -7771,10 +7771,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 816,
+      "count": 817,
       "first": 1788955289,
-      "last": 1793019043,
+      "last": 1793019265,
       "songs": [
+        {
+          "artist": "Annie DiRusso",
+          "title": "Infinite Jest",
+          "album": "Infinite Jest",
+          "count": 3,
+          "first": 1789560632,
+          "last": 1793019265,
+          "playlists": {
+            "carhartts": 3
+          }
+        },
         {
           "artist": "Shakey Graves",
           "title": "Tomorrow",
@@ -7815,17 +7826,6 @@
           "count": 3,
           "first": 1789650828,
           "last": 1792675056,
-          "playlists": {
-            "carhartts": 3
-          }
-        },
-        {
-          "artist": "Mt. Joy",
-          "title": "Silver Lining",
-          "album": "Mt. Joy",
-          "count": 3,
-          "first": 1788956443,
-          "last": 1792673927,
           "playlists": {
             "carhartts": 3
           }
