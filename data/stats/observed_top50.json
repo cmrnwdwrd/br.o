@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T19:07:28.963348+00:00",
+  "updatedAt": "2026-10-26T19:12:41.107014+00:00",
   "summary": {
-    "totalPlays": 18233,
+    "totalPlays": 18235,
     "unknownPlays": 1142,
     "uniqueTracks": 2602,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793041607
+    "lastObserved": 1793041964
   },
   "topSongs": [
     {
@@ -429,6 +429,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 23,
+      "first": 1788919285,
+      "last": 1793041964,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Jelani Aryeh",
       "title": "Stella Brown",
       "album": "I've Got Some Living To Do",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1788986031,
       "last": 1793032477,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Crumb",
-      "title": "Locket",
-      "album": "Locket",
-      "count": 23,
-      "first": 1788983912,
-      "last": 1793031580,
       "playlists": {
         "1default": 23
       }
@@ -4322,6 +4322,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 48,
+      "first": 1788919285,
+      "last": 1793041964,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 23,
+          "first": 1788919285,
+          "last": 1793041964,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 22,
+          "first": 1788975084,
+          "last": 1792965025,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 3,
+          "first": 1789893243,
+          "last": 1792916720,
+          "playlists": {
+            "christmas rn": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 48,
       "first": 1788990464,
@@ -4358,47 +4399,6 @@
           "last": 1792784604,
           "playlists": {
             "escaping from cu boulder by giselle": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 47,
-      "first": 1788919285,
-      "last": 1792965025,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 22,
-          "first": 1788975084,
-          "last": 1792965025,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 22,
-          "first": 1788919285,
-          "last": 1792862791,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 3,
-          "first": 1789893243,
-          "last": 1792916720,
-          "playlists": {
-            "christmas rn": 3
           }
         }
       ]
@@ -7472,9 +7472,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8369,
+      "count": 8371,
       "first": 1788901564,
-      "last": 1793041607,
+      "last": 1793041964,
       "songs": [
         {
           "artist": "Tele Novella",
