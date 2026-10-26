@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T21:12:29.961031+00:00",
+  "updatedAt": "2026-10-26T21:16:35.801886+00:00",
   "summary": {
-    "totalPlays": 18266,
+    "totalPlays": 18268,
     "unknownPlays": 1142,
     "uniqueTracks": 2602,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793048956
+    "lastObserved": 1793049370
   },
   "topSongs": [
     {
@@ -451,6 +451,28 @@
       }
     },
     {
+      "artist": "Cage The Elephant",
+      "title": "Social Cues",
+      "album": "Social Cues",
+      "count": 23,
+      "first": 1788990244,
+      "last": 1793049370,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 23,
+      "first": 1788975084,
+      "last": 1793049181,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Tems, Brent Faiyaz",
       "title": "Found (feat. Brent Faiyaz)",
       "album": "Found (feat. Brent Faiyaz)",
@@ -567,28 +589,6 @@
       "count": 23,
       "first": 1788918760,
       "last": 1793040870,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Smash Mouth",
-      "title": "Walkin' On The Sun",
-      "album": "Fush Yu Mang (20th Anniversary Edition)",
-      "count": 23,
-      "first": 1788967329,
-      "last": 1793040496,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Letters To Cleo",
-      "title": "Big Star",
-      "album": "Aurora Gory Alice",
-      "count": 23,
-      "first": 1789165225,
-      "last": 1793040249,
       "playlists": {
         "1default": 23
       }
@@ -3855,10 +3855,21 @@
     },
     {
       "artist": "Cage The Elephant",
-      "count": 56,
+      "count": 57,
       "first": 1788928254,
-      "last": 1792986339,
+      "last": 1793049370,
       "songs": [
+        {
+          "artist": "Cage The Elephant",
+          "title": "Social Cues",
+          "album": "Social Cues",
+          "count": 23,
+          "first": 1788990244,
+          "last": 1793049370,
+          "playlists": {
+            "1default": 23
+          }
+        },
         {
           "artist": "Cage The Elephant",
           "title": "Skin and Bones - Mix 2020",
@@ -3868,17 +3879,6 @@
           "last": 1792986339,
           "playlists": {
             "1default": 23
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Social Cues",
-          "album": "Social Cues",
-          "count": 22,
-          "first": 1788990244,
-          "last": 1792841358,
-          "playlists": {
-            "1default": 22
           }
         },
         {
@@ -4281,6 +4281,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 49,
+      "first": 1788919285,
+      "last": 1793049181,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 23,
+          "first": 1788975084,
+          "last": 1793049181,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 23,
+          "first": 1788919285,
+          "last": 1793041964,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 3,
+          "first": 1789893243,
+          "last": 1792916720,
+          "playlists": {
+            "christmas rn": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Of Monsters and Men",
       "count": 49,
       "first": 1788963370,
@@ -4317,47 +4358,6 @@
           "last": 1792786124,
           "playlists": {
             "escaping from cu boulder by giselle": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 48,
-      "first": 1788919285,
-      "last": 1793041964,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 23,
-          "first": 1788919285,
-          "last": 1793041964,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 22,
-          "first": 1788975084,
-          "last": 1792965025,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 3,
-          "first": 1789893243,
-          "last": 1792916720,
-          "playlists": {
-            "christmas rn": 3
           }
         }
       ]
@@ -7474,9 +7474,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8402,
+      "count": 8404,
       "first": 1788901564,
-      "last": 1793048956,
+      "last": 1793049370,
       "songs": [
         {
           "artist": "Tele Novella",
