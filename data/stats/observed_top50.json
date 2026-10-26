@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T03:12:01.997709+00:00",
+  "updatedAt": "2026-10-26T03:16:33.900142+00:00",
   "summary": {
-    "totalPlays": 17970,
+    "totalPlays": 17971,
     "unknownPlays": 1142,
     "uniqueTracks": 2597,
     "uniqueArtists": 1663,
     "uniqueAlbums": 2142,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1792984285
+    "lastObserved": 1792984459
   },
   "topSongs": [
     {
@@ -34,6 +34,18 @@
       "playlists": {
         "1default": 31,
         "anti-capitalist weekday afternoon #1": 6
+      }
+    },
+    {
+      "artist": "Colfax Speed Queen",
+      "title": "Jesus Loves Rock N' Roll",
+      "album": "Satisfaction Intended",
+      "count": 35,
+      "first": 1788926155,
+      "last": 1792984459,
+      "playlists": {
+        "1default": 30,
+        "anti-capitalist weekday afternoon #1": 5
       }
     },
     {
@@ -128,18 +140,6 @@
       "count": 34,
       "first": 1789015368,
       "last": 1792848169,
-      "playlists": {
-        "1default": 29,
-        "anti-capitalist weekday afternoon #1": 5
-      }
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "title": "Jesus Loves Rock N' Roll",
-      "album": "Satisfaction Intended",
-      "count": 34,
-      "first": 1788926155,
-      "last": 1792842268,
       "playlists": {
         "1default": 29,
         "anti-capitalist weekday afternoon #1": 5
@@ -7465,6 +7465,27 @@
       ]
     },
     {
+      "artist": "Colfax Speed Queen",
+      "album": "Satisfaction Intended",
+      "count": 35,
+      "first": 1788926155,
+      "last": 1792984459,
+      "songs": [
+        {
+          "artist": "Colfax Speed Queen",
+          "title": "Jesus Loves Rock N' Roll",
+          "album": "Satisfaction Intended",
+          "count": 35,
+          "first": 1788926155,
+          "last": 1792984459,
+          "playlists": {
+            "1default": 30,
+            "anti-capitalist weekday afternoon #1": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Chappell Roan",
       "album": "The Rise and Fall of a Midwest Princess",
       "count": 35,
@@ -7559,35 +7580,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "album": "WAR IN COLORADO!",
-      "count": 34,
-      "first": 1788993017,
-      "last": 1792967402,
-      "songs": [
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 34,
-          "first": 1788993017,
-          "last": 1792967402,
-          "playlists": {
-            "1default": 28,
-            "anti-capitalist weekday afternoon #1": 6
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8211,
+      "count": 8212,
       "first": 1788901564,
-      "last": 1792984285,
+      "last": 1792984459,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7598,6 +7598,17 @@
           "last": 1792920663,
           "playlists": {
             "1default": 31
+          }
+        },
+        {
+          "artist": "Colfax Speed Queen",
+          "title": "Jesus Loves Rock N' Roll",
+          "album": "Satisfaction Intended",
+          "count": 30,
+          "first": 1788926155,
+          "last": 1792984459,
+          "playlists": {
+            "1default": 30
           }
         },
         {
@@ -7629,17 +7640,6 @@
           "count": 29,
           "first": 1788968644,
           "last": 1792919650,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 29,
-          "first": 1789015368,
-          "last": 1792848169,
           "playlists": {
             "1default": 29
           }
