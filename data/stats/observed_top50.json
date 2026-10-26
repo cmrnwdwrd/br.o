@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T17:22:30.026230+00:00",
+  "updatedAt": "2026-10-26T17:27:30.355390+00:00",
   "summary": {
-    "totalPlays": 18203,
+    "totalPlays": 18205,
     "unknownPlays": 1142,
     "uniqueTracks": 2601,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793035090
+    "lastObserved": 1793035634
   },
   "topSongs": [
     {
@@ -34,6 +34,18 @@
       "playlists": {
         "1default": 32,
         "anti-capitalist weekday afternoon #1": 6
+      }
+    },
+    {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 35,
+      "first": 1789015368,
+      "last": 1793035440,
+      "playlists": {
+        "1default": 30,
+        "anti-capitalist weekday afternoon #1": 5
       }
     },
     {
@@ -131,18 +143,6 @@
       "playlists": {
         "1default": 28,
         "anti-capitalist weekday afternoon #1": 6
-      }
-    },
-    {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 34,
-      "first": 1789015368,
-      "last": 1792848169,
-      "playlists": {
-        "1default": 29,
-        "anti-capitalist weekday afternoon #1": 5
       }
     },
     {
@@ -418,6 +418,17 @@
       }
     },
     {
+      "artist": "Rilo Kiley",
+      "title": "Science Vs. Romance",
+      "album": "Take Offs And Landings",
+      "count": 23,
+      "first": 1788902251,
+      "last": 1793035634,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "You Make Me Want to Kill Myself",
       "album": "You Make Me Want to Kill Myself",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1789062768,
       "last": 1793024251,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Zolof the Rock & Roll Destroyer",
-      "title": "Plays Pretty for Baby",
-      "album": "Zolof the Rock & Roll Destroyer",
-      "count": 23,
-      "first": 1788987745,
-      "last": 1793023438,
       "playlists": {
         "1default": 23
       }
@@ -7463,6 +7463,27 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 35,
+      "first": 1789015368,
+      "last": 1793035440,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 35,
+          "first": 1789015368,
+          "last": 1793035440,
+          "playlists": {
+            "1default": 30,
+            "anti-capitalist weekday afternoon #1": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Viagra Boys",
       "album": "Street Worms",
       "count": 35,
@@ -7556,35 +7577,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "CAKE",
-      "album": "Motorcade of Generosity",
-      "count": 35,
-      "first": 1789014862,
-      "last": 1792953682,
-      "songs": [
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 35,
-          "first": 1789014862,
-          "last": 1792953682,
-          "playlists": {
-            "1default": 29,
-            "anti-capitalist weekday afternoon #1": 6
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8340,
+      "count": 8342,
       "first": 1788901564,
-      "last": 1793035090,
+      "last": 1793035634,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7595,6 +7595,17 @@
           "last": 1792990179,
           "playlists": {
             "1default": 32
+          }
+        },
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 30,
+          "first": 1789015368,
+          "last": 1793035440,
+          "playlists": {
+            "1default": 30
           }
         },
         {
@@ -7626,17 +7637,6 @@
           "count": 29,
           "first": 1788986736,
           "last": 1792968279,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 29,
-          "first": 1789014862,
-          "last": 1792953682,
           "playlists": {
             "1default": 29
           }
