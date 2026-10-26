@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-26T17:16:37.481365+00:00",
+  "updatedAt": "2026-10-26T17:22:30.026230+00:00",
   "summary": {
-    "totalPlays": 18202,
+    "totalPlays": 18203,
     "unknownPlays": 1142,
     "uniqueTracks": 2601,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793034903
+    "lastObserved": 1793035090
   },
   "topSongs": [
     {
@@ -418,6 +418,17 @@
       }
     },
     {
+      "artist": "Atom Son of Man",
+      "title": "You Make Me Want to Kill Myself",
+      "album": "You Make Me Want to Kill Myself",
+      "count": 23,
+      "first": 1788984684,
+      "last": 1793035090,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Led Zeppelin",
       "title": "Dazed and Confused - 1990 Remaster",
       "album": "Led Zeppelin",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1788987745,
       "last": 1793023438,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Sjowgren",
-      "title": "Now & Then",
-      "album": "Now & Then",
-      "count": 23,
-      "first": 1788965724,
-      "last": 1793023233,
       "playlists": {
         "1default": 23
       }
@@ -1698,10 +1698,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 171,
+      "count": 172,
       "first": 1788902047,
-      "last": 1793027819,
+      "last": 1793035090,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "You Make Me Want to Kill Myself",
+          "album": "You Make Me Want to Kill Myself",
+          "count": 23,
+          "first": 1788984684,
+          "last": 1793035090,
+          "playlists": {
+            "1default": 23
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -1731,17 +1742,6 @@
           "count": 22,
           "first": 1788903730,
           "last": 1792988056,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "You Make Me Want to Kill Myself",
-          "album": "You Make Me Want to Kill Myself",
-          "count": 22,
-          "first": 1788984684,
-          "last": 1792980778,
           "playlists": {
             "1default": 22
           }
@@ -7582,9 +7582,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8339,
+      "count": 8340,
       "first": 1788901564,
-      "last": 1793034903,
+      "last": 1793035090,
       "songs": [
         {
           "artist": "Tele Novella",
