@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T02:06:37.042062+00:00",
+  "updatedAt": "2026-10-27T02:12:06.483644+00:00",
   "summary": {
-    "totalPlays": 18347,
+    "totalPlays": 18349,
     "unknownPlays": 1142,
     "uniqueTracks": 2602,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793066725
+    "lastObserved": 1793067098
   },
   "topSongs": [
     {
@@ -218,6 +218,18 @@
       }
     },
     {
+      "artist": "The Cardigans",
+      "title": "Step On Me",
+      "album": "First Band On The Moon (Remastered)",
+      "count": 28,
+      "first": 1788985233,
+      "last": 1793066819,
+      "playlists": {
+        "1default": 26,
+        "texting your situationship": 2
+      }
+    },
+    {
       "artist": "Daffo",
       "title": "Good God",
       "album": "Good God (Porches Remix)",
@@ -251,18 +263,6 @@
       "playlists": {
         "1default": 24,
         "landlockd surfrock": 3
-      }
-    },
-    {
-      "artist": "The Cardigans",
-      "title": "Step On Me",
-      "album": "First Band On The Moon (Remastered)",
-      "count": 27,
-      "first": 1788985233,
-      "last": 1792922032,
-      "playlists": {
-        "1default": 25,
-        "texting your situationship": 2
       }
     },
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Jaguar Stevens",
+      "title": "Dying Dance",
+      "album": "Jaguar Stevens",
+      "count": 23,
+      "first": 1788975620,
+      "last": 1793067098,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Fastball",
       "title": "The Way",
       "album": "All The Pain Money Can Buy",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1788969130,
       "last": 1793060004,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE WORLD IS ENDING",
-      "album": "THE WORLD IS ENDING",
-      "count": 23,
-      "first": 1789033665,
-      "last": 1793057490,
       "playlists": {
         "1default": 23
       }
@@ -3576,6 +3576,47 @@
       ]
     },
     {
+      "artist": "Jaguar Stevens",
+      "count": 63,
+      "first": 1788975620,
+      "last": 1793067098,
+      "songs": [
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Dying Dance",
+          "album": "Jaguar Stevens",
+          "count": 23,
+          "first": 1788975620,
+          "last": 1793067098,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "All the Things He Said",
+          "album": "Jaguar Stevens",
+          "count": 20,
+          "first": 1789226001,
+          "last": 1793037406,
+          "playlists": {
+            "1default": 20
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Capital Lie",
+          "album": "Jaguar Stevens",
+          "count": 20,
+          "first": 1789209975,
+          "last": 1792847122,
+          "playlists": {
+            "1default": 20
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 63,
       "first": 1789021318,
@@ -3624,47 +3665,6 @@
           "last": 1792157949,
           "playlists": {
             "hyperpop friday morning": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "count": 62,
-      "first": 1788975620,
-      "last": 1793037406,
-      "songs": [
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Dying Dance",
-          "album": "Jaguar Stevens",
-          "count": 22,
-          "first": 1788975620,
-          "last": 1792772093,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "All the Things He Said",
-          "album": "Jaguar Stevens",
-          "count": 20,
-          "first": 1789226001,
-          "last": 1793037406,
-          "playlists": {
-            "1default": 20
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Capital Lie",
-          "album": "Jaguar Stevens",
-          "count": 20,
-          "first": 1789209975,
-          "last": 1792847122,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -5746,19 +5746,19 @@
     {
       "artist": "Jaguar Stevens",
       "album": "Jaguar Stevens",
-      "count": 62,
+      "count": 63,
       "first": 1788975620,
-      "last": 1793037406,
+      "last": 1793067098,
       "songs": [
         {
           "artist": "Jaguar Stevens",
           "title": "Dying Dance",
           "album": "Jaguar Stevens",
-          "count": 22,
+          "count": 23,
           "first": 1788975620,
-          "last": 1792772093,
+          "last": 1793067098,
           "playlists": {
-            "1default": 22
+            "1default": 23
           }
         },
         {
@@ -7475,9 +7475,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8459,
+      "count": 8461,
       "first": 1788901564,
-      "last": 1793066725,
+      "last": 1793067098,
       "songs": [
         {
           "artist": "Tele Novella",
