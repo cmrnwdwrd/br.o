@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T13:42:39.373362+00:00",
+  "updatedAt": "2026-10-27T13:46:39.729024+00:00",
   "summary": {
-    "totalPlays": 18546,
+    "totalPlays": 18547,
     "unknownPlays": 1142,
     "uniqueTracks": 2603,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793108465
+    "lastObserved": 1793108784
   },
   "topSongs": [
     {
@@ -7667,10 +7667,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 858,
+      "count": 859,
       "first": 1788955289,
-      "last": 1793108465,
+      "last": 1793108784,
       "songs": [
+        {
+          "artist": "Annie DiRusso",
+          "title": "Infinite Jest",
+          "album": "Infinite Jest",
+          "count": 4,
+          "first": 1789560632,
+          "last": 1793108784,
+          "playlists": {
+            "carhartts": 4
+          }
+        },
         {
           "artist": "flipturn",
           "title": "Playground",
@@ -7711,17 +7722,6 @@
           "count": 4,
           "first": 1790170030,
           "last": 1793103475,
-          "playlists": {
-            "carhartts": 4
-          }
-        },
-        {
-          "artist": "flipturn",
-          "title": "Chicago",
-          "album": "Heavy Colors",
-          "count": 4,
-          "first": 1790166003,
-          "last": 1793021325,
           "playlists": {
             "carhartts": 4
           }
