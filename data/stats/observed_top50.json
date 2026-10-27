@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T18:07:37.921456+00:00",
+  "updatedAt": "2026-10-27T18:12:16.727419+00:00",
   "summary": {
-    "totalPlays": 18617,
+    "totalPlays": 18619,
     "unknownPlays": 1142,
     "uniqueTracks": 2604,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793124291
+    "lastObserved": 1793124624
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "DISINTEGRATE",
+      "album": "SWAMP",
+      "count": 23,
+      "first": 1788983290,
+      "last": 1793124466,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Dreamer Isioma",
       "title": "Sensitive",
       "album": "Sensitive",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1789065520,
       "last": 1793115329,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Japanese Breakfast",
-      "title": "Everybody Wants to Love You",
-      "album": "Psychopomp",
-      "count": 23,
-      "first": 1789032729,
-      "last": 1793114425,
       "playlists": {
         "1default": 23
       }
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 354,
+      "count": 355,
       "first": 1788910325,
-      "last": 1793117090,
+      "last": 1793124466,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1103,6 +1103,17 @@
           "playlists": {
             "1default": 27,
             "steal my bike": 3
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 23,
+          "first": 1788983290,
+          "last": 1793124466,
+          "playlists": {
+            "1default": 23
           }
         },
         {
@@ -1189,17 +1200,6 @@
           "count": 22,
           "first": 1789217995,
           "last": 1793045562,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 22,
-          "first": 1788983290,
-          "last": 1792969133,
           "playlists": {
             "1default": 22
           }
@@ -1698,9 +1698,9 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 175,
+      "count": 176,
       "first": 1788902047,
-      "last": 1793093828,
+      "last": 1793124624,
       "songs": [
         {
           "artist": "Atom Son of Man",
@@ -1770,6 +1770,17 @@
         },
         {
           "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 21,
+          "first": 1788928852,
+          "last": 1793124624,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
           "title": "Vengeful Vulture",
           "album": "1's a Man, 3's a Band",
           "count": 21,
@@ -1777,17 +1788,6 @@
           "last": 1793063015,
           "playlists": {
             "1default": 21
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 20,
-          "first": 1788928852,
-          "last": 1792839171,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -4797,6 +4797,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 131,
+      "first": 1788902047,
+      "last": 1793124624,
+      "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 23,
+          "first": 1788902047,
+          "last": 1793002052,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 22,
+          "first": 1789145316,
+          "last": 1793070322,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 22,
+          "first": 1788903565,
+          "last": 1793027819,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 22,
+          "first": 1788903730,
+          "last": 1792988056,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 21,
+          "first": 1788928852,
+          "last": 1793124624,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Vengeful Vulture",
+          "album": "1's a Man, 3's a Band",
+          "count": 21,
+          "first": 1789097184,
+          "last": 1793063015,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "Opium",
       "album": "PHANTOMS",
       "count": 131,
@@ -4867,81 +4942,6 @@
           "last": 1793007251,
           "playlists": {
             "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 130,
-      "first": 1788902047,
-      "last": 1793070322,
-      "songs": [
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 23,
-          "first": 1788902047,
-          "last": 1793002052,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 22,
-          "first": 1789145316,
-          "last": 1793070322,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 22,
-          "first": 1788903565,
-          "last": 1793027819,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 22,
-          "first": 1788903730,
-          "last": 1792988056,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Vengeful Vulture",
-          "album": "1's a Man, 3's a Band",
-          "count": 21,
-          "first": 1789097184,
-          "last": 1793063015,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 20,
-          "first": 1788928852,
-          "last": 1792839171,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -5403,10 +5403,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 89,
+      "count": 90,
       "first": 1788926373,
-      "last": 1793117090,
+      "last": 1793124466,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 23,
+          "first": 1788983290,
+          "last": 1793124466,
+          "playlists": {
+            "1default": 23
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "THE KIDS ARE ALL RETARDED",
@@ -5436,17 +5447,6 @@
           "count": 22,
           "first": 1789058454,
           "last": 1793064851,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 22,
-          "first": 1788983290,
-          "last": 1792969133,
           "playlists": {
             "1default": 22
           }
@@ -7475,9 +7475,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8577,
+      "count": 8579,
       "first": 1788901564,
-      "last": 1793124291,
+      "last": 1793124624,
       "songs": [
         {
           "artist": "Tele Novella",
