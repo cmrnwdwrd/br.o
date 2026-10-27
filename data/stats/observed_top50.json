@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T03:47:30.470457+00:00",
+  "updatedAt": "2026-10-27T03:52:29.670562+00:00",
   "summary": {
-    "totalPlays": 18376,
+    "totalPlays": 18377,
     "unknownPlays": 1142,
     "uniqueTracks": 2602,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793072763
+    "lastObserved": 1793072983
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 23,
+      "first": 1788914032,
+      "last": 1793072983,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Of Monsters and Men",
       "title": "Wars",
       "album": "FEVER DREAM",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1788974227,
       "last": 1793065891,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Bahamas",
-      "title": "Own Alone",
-      "album": "Sad Hunk",
-      "count": 23,
-      "first": 1788962598,
-      "last": 1793065695,
       "playlists": {
         "1default": 23
       }
@@ -4322,6 +4322,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 49,
+      "first": 1788914032,
+      "last": 1793072983,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 23,
+          "first": 1788914032,
+          "last": 1793072983,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 22,
+          "first": 1789222724,
+          "last": 1793065434,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 4,
+          "first": 1790465398,
+          "last": 1792886147,
+          "playlists": {
+            "texting your situationship": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 49,
       "first": 1788990464,
@@ -4399,47 +4440,6 @@
           "last": 1792916720,
           "playlists": {
             "christmas rn": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 48,
-      "first": 1788914032,
-      "last": 1793065434,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 22,
-          "first": 1789222724,
-          "last": 1793065434,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 22,
-          "first": 1788914032,
-          "last": 1792838945,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 4,
-          "first": 1790465398,
-          "last": 1792886147,
-          "playlists": {
-            "texting your situationship": 4
           }
         }
       ]
@@ -7475,9 +7475,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8488,
+      "count": 8489,
       "first": 1788901564,
-      "last": 1793072763,
+      "last": 1793072983,
       "songs": [
         {
           "artist": "Tele Novella",
