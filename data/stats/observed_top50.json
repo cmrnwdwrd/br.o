@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T20:12:10.978368+00:00",
+  "updatedAt": "2026-10-27T20:17:34.164083+00:00",
   "summary": {
-    "totalPlays": 18652,
+    "totalPlays": 18654,
     "unknownPlays": 1142,
     "uniqueTracks": 2605,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793131855
+    "lastObserved": 1793132245
   },
   "topSongs": [
     {
@@ -561,6 +561,17 @@
       }
     },
     {
+      "artist": "Mother Mother",
+      "title": "Verbatim",
+      "album": "Touch Up",
+      "count": 23,
+      "first": 1789232155,
+      "last": 1793132076,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Juno Rossa",
       "title": "Like A Lover",
       "album": "Chasing Animals",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1789220485,
       "last": 1793131445,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Alvvays",
-      "title": "Adult Diversion",
-      "album": "Alvvays",
-      "count": 23,
-      "first": 1789050335,
-      "last": 1793129891,
       "playlists": {
         "1default": 23
       }
@@ -3164,10 +3164,21 @@
     },
     {
       "artist": "The Cranberries",
-      "count": 72,
+      "count": 73,
       "first": 1788916461,
-      "last": 1793059133,
+      "last": 1793132245,
       "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 22,
+          "first": 1789087662,
+          "last": 1793132245,
+          "playlists": {
+            "1default": 22
+          }
+        },
         {
           "artist": "The Cranberries",
           "title": "Zombie",
@@ -3177,17 +3188,6 @@
           "last": 1793059133,
           "playlists": {
             "1default": 22
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 21,
-          "first": 1789087662,
-          "last": 1793038005,
-          "playlists": {
-            "1default": 21
           }
         },
         {
@@ -7430,9 +7430,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8611,
+      "count": 8613,
       "first": 1788901564,
-      "last": 1793131855,
+      "last": 1793132245,
       "songs": [
         {
           "artist": "Tele Novella",
