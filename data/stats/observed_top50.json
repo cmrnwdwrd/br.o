@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T22:12:33.889281+00:00",
+  "updatedAt": "2026-10-27T22:17:33.491120+00:00",
   "summary": {
-    "totalPlays": 18685,
+    "totalPlays": 18686,
     "unknownPlays": 1142,
     "uniqueTracks": 2606,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793139150
+    "lastObserved": 1793139385
   },
   "topSongs": [
     {
@@ -86,6 +86,18 @@
       }
     },
     {
+      "artist": "Colfax Speed Queen",
+      "title": "Jesus Loves Rock N' Roll",
+      "album": "Satisfaction Intended",
+      "count": 36,
+      "first": 1788926155,
+      "last": 1793139385,
+      "playlists": {
+        "1default": 30,
+        "anti-capitalist weekday afternoon #1": 6
+      }
+    },
+    {
       "artist": "Destructo Disk",
       "title": "I Wish I Was A Riot Grrrl",
       "album": "Punk Rocks For Kids Who Can't Skate",
@@ -143,18 +155,6 @@
       "playlists": {
         "1default": 29,
         "anti-capitalist weekday afternoon #1": 6
-      }
-    },
-    {
-      "artist": "Colfax Speed Queen",
-      "title": "Jesus Loves Rock N' Roll",
-      "album": "Satisfaction Intended",
-      "count": 35,
-      "first": 1788926155,
-      "last": 1792984459,
-      "playlists": {
-        "1default": 30,
-        "anti-capitalist weekday afternoon #1": 5
       }
     },
     {
@@ -7384,6 +7384,27 @@
       ]
     },
     {
+      "artist": "Colfax Speed Queen",
+      "album": "Satisfaction Intended",
+      "count": 36,
+      "first": 1788926155,
+      "last": 1793139385,
+      "songs": [
+        {
+          "artist": "Colfax Speed Queen",
+          "title": "Jesus Loves Rock N' Roll",
+          "album": "Satisfaction Intended",
+          "count": 36,
+          "first": 1788926155,
+          "last": 1793139385,
+          "playlists": {
+            "1default": 30,
+            "anti-capitalist weekday afternoon #1": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Destructo Disk",
       "album": "Punk Rocks For Kids Who Can't Skate",
       "count": 36,
@@ -7397,27 +7418,6 @@
           "count": 36,
           "first": 1788996063,
           "last": 1793126595,
-          "playlists": {
-            "1default": 29,
-            "anti-capitalist weekday afternoon #1": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "album": "WAR IN COLORADO!",
-      "count": 36,
-      "first": 1788993017,
-      "last": 1793112709,
-      "songs": [
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 36,
-          "first": 1788993017,
-          "last": 1793112709,
           "playlists": {
             "1default": 29,
             "anti-capitalist weekday afternoon #1": 7
@@ -7744,9 +7744,9 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 562,
+      "count": 563,
       "first": 1788904845,
-      "last": 1793139150,
+      "last": 1793139385,
       "songs": [
         {
           "artist": "Everlast",
