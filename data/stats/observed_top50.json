@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T17:46:57.400732+00:00",
+  "updatedAt": "2026-10-27T17:52:39.816111+00:00",
   "summary": {
-    "totalPlays": 18611,
+    "totalPlays": 18613,
     "unknownPlays": 1142,
     "uniqueTracks": 2603,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793123100
+    "lastObserved": 1793123511
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Of Monsters and Men",
+      "title": "Visitor",
+      "album": "Visitor",
+      "count": 23,
+      "first": 1788963370,
+      "last": 1793123302,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Fine Young Cannibals",
       "title": "Good Thing",
       "album": "The Raw & The Cooked",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1789070850,
       "last": 1793112479,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Kai Straw",
-      "title": "Don't Tread on Me",
-      "album": "Toothpick",
-      "count": 23,
-      "first": 1788985765,
-      "last": 1793112015,
       "playlists": {
         "1default": 23
       }
@@ -4072,6 +4072,47 @@
       ]
     },
     {
+      "artist": "Of Monsters and Men",
+      "count": 51,
+      "first": 1788963370,
+      "last": 1793123302,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 23,
+          "first": 1788963370,
+          "last": 1793123302,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 23,
+          "first": 1788991170,
+          "last": 1793072375,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 5,
+          "first": 1789156918,
+          "last": 1792786124,
+          "playlists": {
+            "escaping from cu boulder by giselle": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "count": 51,
       "first": 1788914259,
@@ -4139,47 +4180,6 @@
           "last": 1793004469,
           "playlists": {
             "1default": 22
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 50,
-      "first": 1788963370,
-      "last": 1793072375,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 23,
-          "first": 1788991170,
-          "last": 1793072375,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 22,
-          "first": 1788963370,
-          "last": 1792964820,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 5,
-          "first": 1789156918,
-          "last": 1792786124,
-          "playlists": {
-            "escaping from cu boulder by giselle": 5
           }
         }
       ]
@@ -7475,9 +7475,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8572,
+      "count": 8574,
       "first": 1788901564,
-      "last": 1793123100,
+      "last": 1793123511,
       "songs": [
         {
           "artist": "Tele Novella",
