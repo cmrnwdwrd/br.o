@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T00:02:41.019767+00:00",
+  "updatedAt": "2026-10-27T00:06:38.989227+00:00",
   "summary": {
-    "totalPlays": 18311,
+    "totalPlays": 18313,
     "unknownPlays": 1142,
     "uniqueTracks": 2602,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793059133
+    "lastObserved": 1793059538
   },
   "topSongs": [
     {
@@ -2825,10 +2825,21 @@
     },
     {
       "artist": "Psychedelic Porn Crumpets",
-      "count": 84,
+      "count": 85,
       "first": 1788915065,
-      "last": 1793002254,
+      "last": 1793059538,
       "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Mr. Prism",
+          "album": "Mr. Prism",
+          "count": 22,
+          "first": 1789168906,
+          "last": 1793059538,
+          "playlists": {
+            "1default": 22
+          }
+        },
         {
           "artist": "Psychedelic Porn Crumpets",
           "title": "Lava Lamp Pisco",
@@ -2836,17 +2847,6 @@
           "count": 21,
           "first": 1788915065,
           "last": 1793002254,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Mr. Prism",
-          "album": "Mr. Prism",
-          "count": 21,
-          "first": 1789168906,
-          "last": 1792979241,
           "playlists": {
             "1default": 21
           }
@@ -7475,9 +7475,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8423,
+      "count": 8425,
       "first": 1788901564,
-      "last": 1793059133,
+      "last": 1793059538,
       "songs": [
         {
           "artist": "Tele Novella",
