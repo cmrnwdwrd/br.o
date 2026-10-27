@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T20:27:04.742966+00:00",
+  "updatedAt": "2026-10-27T20:32:42.460330+00:00",
   "summary": {
-    "totalPlays": 18655,
+    "totalPlays": 18657,
     "unknownPlays": 1142,
     "uniqueTracks": 2605,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793132515
+    "lastObserved": 1793133158
   },
   "topSongs": [
     {
@@ -561,6 +561,17 @@
       }
     },
     {
+      "artist": "Savage Ga$p, Lil Darkie, KAMAARA",
+      "title": "paranoia agent",
+      "album": "in my restless dreams, i see you",
+      "count": 23,
+      "first": 1789033255,
+      "last": 1793132980,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "LCD Soundsystem",
       "title": "All My Friends",
       "album": "Sound of Silver",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1789232155,
       "last": 1793132076,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Juno Rossa",
-      "title": "Like A Lover",
-      "album": "Chasing Animals",
-      "count": 23,
-      "first": 1789167660,
-      "last": 1793131654,
       "playlists": {
         "1default": 23
       }
@@ -4673,6 +4673,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 45,
+      "first": 1788912385,
+      "last": 1793133158,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 23,
+          "first": 1788912385,
+          "last": 1793050944,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 22,
+          "first": 1789129746,
+          "last": 1793133158,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Juno Rossa",
       "count": 45,
       "first": 1789166634,
@@ -4756,36 +4786,6 @@
           "count": 22,
           "first": 1789054681,
           "last": 1793036348,
-          "playlists": {
-            "1default": 22
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 45,
-      "first": 1788986484,
-      "last": 1793067246,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 23,
-          "first": 1788986484,
-          "last": 1792983351,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 22,
-          "first": 1789231311,
-          "last": 1793067246,
           "playlists": {
             "1default": 22
           }
@@ -7430,9 +7430,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8614,
+      "count": 8616,
       "first": 1788901564,
-      "last": 1793132515,
+      "last": 1793133158,
       "songs": [
         {
           "artist": "Tele Novella",
