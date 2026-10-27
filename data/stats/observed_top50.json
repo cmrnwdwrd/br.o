@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T17:36:43.135647+00:00",
+  "updatedAt": "2026-10-27T17:42:34.495043+00:00",
   "summary": {
-    "totalPlays": 18608,
+    "totalPlays": 18610,
     "unknownPlays": 1142,
     "uniqueTracks": 2603,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793122495
+    "lastObserved": 1793122899
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Fine Young Cannibals",
+      "title": "Good Thing",
+      "album": "The Raw & The Cooked",
+      "count": 23,
+      "first": 1788974590,
+      "last": 1793122899,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "title": "STUPIDMOTHERFUCKER",
       "album": "Lick My Soul",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1788985765,
       "last": 1793112015,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Gorillaz, Peter Hook, Georgia",
-      "title": "Aries (feat. Peter Hook and Georgia)",
-      "album": "Song Machine Episode 3",
-      "count": 23,
-      "first": 1788971208,
-      "last": 1793110303,
       "playlists": {
         "1default": 23
       }
@@ -4673,6 +4673,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 45,
+      "first": 1788989714,
+      "last": 1793122652,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 23,
+          "first": 1788989714,
+          "last": 1792985195,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 22,
+          "first": 1789169386,
+          "last": 1793122652,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 45,
       "first": 1789054681,
@@ -4760,36 +4790,6 @@
           "playlists": {
             "sad girl no friends saturday": 6,
             "texting your situationship": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 44,
-      "first": 1788912861,
-      "last": 1793119450,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 22,
-          "first": 1788966960,
-          "last": 1793119450,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 22,
-          "first": 1788912861,
-          "last": 1793069814,
-          "playlists": {
-            "1default": 22
           }
         }
       ]
@@ -7475,9 +7475,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8569,
+      "count": 8571,
       "first": 1788901564,
-      "last": 1793122495,
+      "last": 1793122899,
       "songs": [
         {
           "artist": "Tele Novella",
