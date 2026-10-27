@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T03:27:30.210775+00:00",
+  "updatedAt": "2026-10-27T03:31:39.793513+00:00",
   "summary": {
-    "totalPlays": 18370,
+    "totalPlays": 18371,
     "unknownPlays": 1142,
     "uniqueTracks": 2602,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793071465
+    "lastObserved": 1793071780
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Yumi Zouma",
+      "title": "Right Track / Wrong Man",
+      "album": "Truth or Consequences",
+      "count": 23,
+      "first": 1789057143,
+      "last": 1793071780,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "The Ephinjis",
       "title": "Knives",
       "album": "Knives",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1788990730,
       "last": 1793065180,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Your Smith",
-      "title": "Debbie",
-      "album": "Bad Habit",
-      "count": 23,
-      "first": 1788947368,
-      "last": 1793064947,
       "playlists": {
         "1default": 23
       }
@@ -4673,6 +4673,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 45,
+      "first": 1789054681,
+      "last": 1793071780,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 23,
+          "first": 1789057143,
+          "last": 1793071780,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 22,
+          "first": 1789054681,
+          "last": 1793036348,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 45,
       "first": 1788986484,
@@ -4760,36 +4790,6 @@
           "last": 1793043655,
           "playlists": {
             "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Courtney Barnett",
-      "count": 44,
-      "first": 1788913469,
-      "last": 1793039791,
-      "songs": [
-        {
-          "artist": "Courtney Barnett",
-          "title": "Pedestrian at Best",
-          "album": "Sometimes I Sit and Think, and Sometimes I Just Sit",
-          "count": 22,
-          "first": 1789215507,
-          "last": 1793039791,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Courtney Barnett",
-          "title": "Write A List of Things To Look Forward To",
-          "album": "Things Take Time, Take Time",
-          "count": 22,
-          "first": 1788913469,
-          "last": 1793003718,
-          "playlists": {
-            "1default": 22
           }
         }
       ]
@@ -7475,9 +7475,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8482,
+      "count": 8483,
       "first": 1788901564,
-      "last": 1793071465,
+      "last": 1793071780,
       "songs": [
         {
           "artist": "Tele Novella",
