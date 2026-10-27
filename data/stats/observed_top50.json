@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T04:02:06.271220+00:00",
+  "updatedAt": "2026-10-27T04:07:06.185504+00:00",
   "summary": {
-    "totalPlays": 18380,
+    "totalPlays": 18382,
     "unknownPlays": 1142,
     "uniqueTracks": 2602,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793073594
+    "lastObserved": 1793074030
   },
   "topSongs": [
     {
@@ -350,6 +350,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 24,
+      "first": 1788917230,
+      "last": 1793074030,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "Better Oblivion Community Center, Conor Oberst, Phoebe Bridgers",
       "title": "Dylan Thomas",
       "album": "Better Oblivion Community Center",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1789058710,
       "last": 1793066470,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "The End of the Game",
-      "album": "The End of the Game",
-      "count": 23,
-      "first": 1788974227,
-      "last": 1793065891,
       "playlists": {
         "1default": 23
       }
@@ -3215,6 +3215,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 68,
+      "first": 1788917230,
+      "last": 1793074030,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 24,
+          "first": 1788917230,
+          "last": 1793074030,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 22,
+          "first": 1789050580,
+          "last": 1792989171,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 22,
+          "first": 1788970790,
+          "last": 1792797908,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 68,
       "first": 1788919863,
@@ -3448,47 +3489,6 @@
           "last": 1792902695,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 67,
-      "first": 1788917230,
-      "last": 1792989171,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 23,
-          "first": 1788917230,
-          "last": 1792960154,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 22,
-          "first": 1789050580,
-          "last": 1792989171,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 22,
-          "first": 1788970790,
-          "last": 1792797908,
-          "playlists": {
-            "1default": 22
           }
         }
       ]
@@ -4765,29 +4765,29 @@
       ]
     },
     {
-      "artist": "David Bowie",
+      "artist": "Jay Som",
       "count": 44,
-      "first": 1788912385,
-      "last": 1793050944,
+      "first": 1789069956,
+      "last": 1793073850,
       "songs": [
         {
-          "artist": "David Bowie",
-          "title": "I'm Afraid of Americans (V1)",
-          "album": "Legacy (Deluxe Edition)",
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
           "count": 23,
-          "first": 1788912385,
-          "last": 1793050944,
+          "first": 1789235365,
+          "last": 1792984044,
           "playlists": {
             "1default": 23
           }
         },
         {
-          "artist": "David Bowie",
-          "title": "Rebel Rebel - 2016 Remaster",
-          "album": "Diamond Dogs (2016 Remaster)",
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
           "count": 21,
-          "first": 1789129746,
-          "last": 1793043655,
+          "first": 1789069956,
+          "last": 1793073850,
           "playlists": {
             "1default": 21
           }
@@ -7475,9 +7475,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8492,
+      "count": 8494,
       "first": 1788901564,
-      "last": 1793073594,
+      "last": 1793074030,
       "songs": [
         {
           "artist": "Tele Novella",
