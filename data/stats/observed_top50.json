@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T04:52:07.690923+00:00",
+  "updatedAt": "2026-10-27T04:57:29.599769+00:00",
   "summary": {
-    "totalPlays": 18394,
+    "totalPlays": 18396,
     "unknownPlays": 1142,
     "uniqueTracks": 2602,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793076610
+    "lastObserved": 1793076946
   },
   "topSongs": [
     {
@@ -597,10 +597,21 @@
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 356,
+      "count": 358,
       "first": 1788929259,
-      "last": 1793076610,
+      "last": 1793076946,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "blow your mind",
+          "album": "all killer, no filler",
+          "count": 10,
+          "first": 1789017777,
+          "last": 1793076946,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
         {
           "artist": "home alone.",
           "title": "yessa",
@@ -610,6 +621,17 @@
           "last": 1793076422,
           "playlists": {
             "more home alone": 10
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "oklahoma",
+          "album": "all killer, no filler",
+          "count": 9,
+          "first": 1789016560,
+          "last": 1793076766,
+          "playlists": {
+            "more home alone": 9
           }
         },
         {
@@ -630,17 +652,6 @@
           "count": 9,
           "first": 1788930024,
           "last": 1792646778,
-          "playlists": {
-            "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "blow your mind",
-          "album": "all killer, no filler",
-          "count": 9,
-          "first": 1789017777,
-          "last": 1792646569,
           "playlists": {
             "more home alone": 9
           }
@@ -960,17 +971,6 @@
           "count": 8,
           "first": 1789015607,
           "last": 1792473805,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "oklahoma",
-          "album": "all killer, no filler",
-          "count": 8,
-          "first": 1789016560,
-          "last": 1792473272,
           "playlists": {
             "more home alone": 8
           }
@@ -5282,72 +5282,30 @@
       ]
     },
     {
-      "artist": "Lil Darkie",
-      "album": "SWAMP",
-      "count": 88,
-      "first": 1788926373,
-      "last": 1793064851,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 23,
-          "first": 1788926373,
-          "last": 1793006834,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 22,
-          "first": 1789058454,
-          "last": 1793064851,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 22,
-          "first": 1788983290,
-          "last": 1792969133,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 21,
-          "first": 1789057548,
-          "last": 1792890731,
-          "playlists": {
-            "1default": 21
-          }
-        }
-      ]
-    },
-    {
       "artist": "home alone.",
       "album": "all killer, no filler",
-      "count": 86,
+      "count": 88,
       "first": 1788929845,
-      "last": 1792646569,
+      "last": 1793076946,
       "songs": [
         {
           "artist": "home alone.",
           "title": "blow your mind",
           "album": "all killer, no filler",
-          "count": 9,
+          "count": 10,
           "first": 1789017777,
-          "last": 1792646569,
+          "last": 1793076946,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "oklahoma",
+          "album": "all killer, no filler",
+          "count": 9,
+          "first": 1789016560,
+          "last": 1793076766,
           "playlists": {
             "more home alone": 9
           }
@@ -5439,16 +5397,58 @@
           "playlists": {
             "more home alone": 8
           }
+        }
+      ]
+    },
+    {
+      "artist": "Lil Darkie",
+      "album": "SWAMP",
+      "count": 88,
+      "first": 1788926373,
+      "last": 1793064851,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 23,
+          "first": 1788926373,
+          "last": 1793006834,
+          "playlists": {
+            "1default": 23
+          }
         },
         {
-          "artist": "home alone.",
-          "title": "oklahoma",
-          "album": "all killer, no filler",
-          "count": 8,
-          "first": 1789016560,
-          "last": 1792473272,
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 22,
+          "first": 1789058454,
+          "last": 1793064851,
           "playlists": {
-            "more home alone": 8
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 22,
+          "first": 1788983290,
+          "last": 1792969133,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 21,
+          "first": 1789057548,
+          "last": 1792890731,
+          "playlists": {
+            "1default": 21
           }
         }
       ]
