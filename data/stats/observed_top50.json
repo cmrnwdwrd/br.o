@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T19:57:34.273119+00:00",
+  "updatedAt": "2026-10-27T20:02:37.751825+00:00",
   "summary": {
-    "totalPlays": 18647,
+    "totalPlays": 18649,
     "unknownPlays": 1142,
     "uniqueTracks": 2605,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793131000
+    "lastObserved": 1793131345
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 24,
+      "first": 1788914032,
+      "last": 1793131119,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "Isaiah Rashad",
       "title": "Heavenly Father",
       "album": "Cilvia Demo",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1788920439,
       "last": 1793129134,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "My Chemical Romance",
-      "title": "Planetary (GO!)",
-      "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-      "count": 23,
-      "first": 1788965302,
-      "last": 1793127970,
       "playlists": {
         "1default": 23
       }
@@ -4185,6 +4185,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 50,
+      "first": 1788914032,
+      "last": 1793131119,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 24,
+          "first": 1788914032,
+          "last": 1793131119,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 22,
+          "first": 1789222724,
+          "last": 1793065434,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 4,
+          "first": 1790465398,
+          "last": 1792886147,
+          "playlists": {
+            "texting your situationship": 4
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 50,
       "first": 1788914421,
@@ -4317,47 +4358,6 @@
           "last": 1792992624,
           "playlists": {
             "EPL4a": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 49,
-      "first": 1788914032,
-      "last": 1793072983,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 23,
-          "first": 1788914032,
-          "last": 1793072983,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 22,
-          "first": 1789222724,
-          "last": 1793065434,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 4,
-          "first": 1790465398,
-          "last": 1792886147,
-          "playlists": {
-            "texting your situationship": 4
           }
         }
       ]
@@ -7432,9 +7432,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8606,
+      "count": 8608,
       "first": 1788901564,
-      "last": 1793131000,
+      "last": 1793131345,
       "songs": [
         {
           "artist": "Tele Novella",
