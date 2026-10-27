@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-27T18:42:34.571682+00:00",
+  "updatedAt": "2026-10-27T18:47:41.136011+00:00",
   "summary": {
-    "totalPlays": 18627,
+    "totalPlays": 18629,
     "unknownPlays": 1142,
     "uniqueTracks": 2604,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793126334
+    "lastObserved": 1793126784
   },
   "topSongs": [
     {
@@ -61,6 +61,18 @@
       }
     },
     {
+      "artist": "Destructo Disk",
+      "title": "I Wish I Was A Riot Grrrl",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 36,
+      "first": 1788996063,
+      "last": 1793126595,
+      "playlists": {
+        "1default": 29,
+        "anti-capitalist weekday afternoon #1": 7
+      }
+    },
+    {
       "artist": "Modest Mouse",
       "title": "Bury Me With It",
       "album": "Good News For People Who Love Bad News",
@@ -107,18 +119,6 @@
         "1default": 28,
         "anti-capitalist weekday afternoon #1": 6,
         "jack johnson hackiesack friday afternoon": 2
-      }
-    },
-    {
-      "artist": "Destructo Disk",
-      "title": "I Wish I Was A Riot Grrrl",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 35,
-      "first": 1788996063,
-      "last": 1793116057,
-      "playlists": {
-        "1default": 28,
-        "anti-capitalist weekday afternoon #1": 7
       }
     },
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Jamie T",
+      "title": "Zombie",
+      "album": "Zombie",
+      "count": 23,
+      "first": 1789209729,
+      "last": 1793126784,
+      "playlists": {
+        "1default": 23
+      }
+    },
+    {
       "artist": "Spendtime Palace",
       "title": "Romance",
       "album": "Sonora",
@@ -578,17 +589,6 @@
       "count": 23,
       "first": 1789096240,
       "last": 1793122171,
-      "playlists": {
-        "1default": 23
-      }
-    },
-    {
-      "artist": "Mat Kerekes",
-      "title": "Diamonds",
-      "album": "Ruby",
-      "count": 23,
-      "first": 1788969737,
-      "last": 1793118348,
       "playlists": {
         "1default": 23
       }
@@ -7365,6 +7365,27 @@
       ]
     },
     {
+      "artist": "Destructo Disk",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 36,
+      "first": 1788996063,
+      "last": 1793126595,
+      "songs": [
+        {
+          "artist": "Destructo Disk",
+          "title": "I Wish I Was A Riot Grrrl",
+          "album": "Punk Rocks For Kids Who Can't Skate",
+          "count": 36,
+          "first": 1788996063,
+          "last": 1793126595,
+          "playlists": {
+            "1default": 29,
+            "anti-capitalist weekday afternoon #1": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "album": "WAR IN COLORADO!",
       "count": 36,
@@ -7406,78 +7427,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "鈴木 弘",
-      "album": "キャット",
-      "count": 36,
-      "first": 1789181724,
-      "last": 1792817226,
-      "songs": [
-        {
-          "artist": "鈴木 弘",
-          "title": "クロとシロ",
-          "album": "キャット",
-          "count": 8,
-          "first": 1789186833,
-          "last": 1792815759,
-          "playlists": {
-            "jazz": 8
-          }
-        },
-        {
-          "artist": "鈴木 弘",
-          "title": "キャット",
-          "album": "キャット",
-          "count": 7,
-          "first": 1789181724,
-          "last": 1792817226,
-          "playlists": {
-            "jazz": 7
-          }
-        },
-        {
-          "artist": "鈴木 弘",
-          "title": "ロマンス",
-          "album": "キャット",
-          "count": 7,
-          "first": 1789182472,
-          "last": 1792816874,
-          "playlists": {
-            "jazz": 7
-          }
-        },
-        {
-          "artist": "鈴木 弘",
-          "title": "ウォーク・トール",
-          "album": "キャット",
-          "count": 7,
-          "first": 1789185021,
-          "last": 1792813859,
-          "playlists": {
-            "jazz": 7
-          }
-        },
-        {
-          "artist": "鈴木 弘",
-          "title": "シュリンプ・ダンス",
-          "album": "キャット",
-          "count": 7,
-          "first": 1789182050,
-          "last": 1792810484,
-          "playlists": {
-            "jazz": 7
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8587,
+      "count": 8589,
       "first": 1788901564,
-      "last": 1793126334,
+      "last": 1793126784,
       "songs": [
         {
           "artist": "Tele Novella",
