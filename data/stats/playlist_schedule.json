@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T14:27:57.338400+00:00",
+  "updatedAt": "2026-10-28T14:33:04.811868+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 649,
+    "sessionCount": 650,
     "firstObserved": 1788901564,
-    "lastObserved": 1793196107
+    "lastObserved": 1793197843
   },
   "playlists": [
     {
@@ -39121,12 +39121,12 @@
     },
     {
       "playlist": "EGG v CHAIN by ione",
-      "sessionCount": 3,
-      "playCount": 71,
+      "sessionCount": 4,
+      "playCount": 73,
       "firstObserved": 1791383435,
-      "lastObserved": 1792593089,
+      "lastObserved": 1793197843,
       "typicalStartMinute": 510,
-      "typicalDurationMinutes": 60,
+      "typicalDurationMinutes": 48,
       "confidence": "Medium",
       "heatmapMinutes": [
         [
@@ -39190,7 +39190,7 @@
           0.0,
           0.0,
           0.0,
-          87.1,
+          90.2,
           72.2,
           0.0,
           0.0,
@@ -39544,7 +39544,7 @@
           0.0,
           0.0,
           0.0,
-          42.1,
+          45.2,
           45.0,
           38.1,
           30.0,
@@ -40062,7 +40062,7 @@
           0,
           0,
           0,
-          3,
+          4,
           0,
           0,
           0,
@@ -40187,13 +40187,19 @@
       "likelyWindows": [
         {
           "weekday": 2,
-          "sessions": 3,
+          "sessions": 4,
           "typicalStartMinute": 510,
-          "typicalDurationMinutes": 60,
+          "typicalDurationMinutes": 48,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1793197843,
+          "end": 1793198031,
+          "durationMinutes": 3,
+          "playCount": 2
+        },
         {
           "start": 1792593089,
           "end": 1792596662,
