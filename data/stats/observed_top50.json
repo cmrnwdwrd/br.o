@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T03:47:43.049929+00:00",
+  "updatedAt": "2026-10-28T03:52:39.043414+00:00",
   "summary": {
-    "totalPlays": 18776,
+    "totalPlays": 18778,
     "unknownPlays": 1142,
     "uniqueTracks": 2607,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793159139
+    "lastObserved": 1793159515
   },
   "topSongs": [
     {
@@ -428,6 +428,28 @@
       }
     },
     {
+      "artist": "David Bowie",
+      "title": "I'm Afraid of Americans (V1)",
+      "album": "Legacy (Deluxe Edition)",
+      "count": 24,
+      "first": 1788912385,
+      "last": 1793159515,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
+      "artist": "Zolof the Rock & Roll Destroyer",
+      "title": "Plays Pretty for Baby",
+      "album": "Zolof the Rock & Roll Destroyer",
+      "count": 24,
+      "first": 1788987745,
+      "last": 1793159387,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "The Czars",
       "title": "Drug",
       "album": "Best Of",
@@ -566,28 +588,6 @@
       "count": 24,
       "first": 1788987870,
       "last": 1793149748,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Sweet Pill",
-      "title": "Blood",
-      "album": "Where the Heart Is",
-      "count": 24,
-      "first": 1789064643,
-      "last": 1793148224,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Finger Eleven",
-      "title": "Paralyzer",
-      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-      "count": 24,
-      "first": 1789049428,
-      "last": 1793147548,
       "playlists": {
         "1default": 24
       }
@@ -4608,6 +4608,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 46,
+      "first": 1788912385,
+      "last": 1793159515,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 24,
+          "first": 1788912385,
+          "last": 1793159515,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 22,
+          "first": 1789129746,
+          "last": 1793133158,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 46,
       "first": 1788989714,
@@ -4725,70 +4755,6 @@
           "last": 1793131654,
           "playlists": {
             "1default": 23
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Chicks",
-      "count": 46,
-      "first": 1789045885,
-      "last": 1792826979,
-      "songs": [
-        {
-          "artist": "The Chicks",
-          "title": "Cowboy Take Me Away",
-          "album": "Fly",
-          "count": 13,
-          "first": 1789106714,
-          "last": 1792826979,
-          "playlists": {
-            "for the girls driving 85": 13
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Wide Open Spaces",
-          "album": "Wide Open Spaces",
-          "count": 13,
-          "first": 1789107001,
-          "last": 1792824525,
-          "playlists": {
-            "for the girls driving 85": 13
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "The Long Way Around",
-          "album": "Taking The Long Way",
-          "count": 13,
-          "first": 1789190065,
-          "last": 1792821880,
-          "playlists": {
-            "for the girls driving 85": 13
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Travelin' Soldier",
-          "album": "The Essential The Chicks",
-          "count": 4,
-          "first": 1789045885,
-          "last": 1792606389,
-          "playlists": {
-            "country music was never for republicans": 3,
-            "carhartts": 1
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Goodbye Earl",
-          "album": "Fly",
-          "count": 3,
-          "first": 1789583434,
-          "last": 1792002290,
-          "playlists": {
-            "country music was never for republicans": 3
           }
         }
       ]
@@ -7431,9 +7397,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8709,
+      "count": 8711,
       "first": 1788901564,
-      "last": 1793159139,
+      "last": 1793159515,
       "songs": [
         {
           "artist": "Tele Novella",
