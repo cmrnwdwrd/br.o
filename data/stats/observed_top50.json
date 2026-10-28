@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T09:43:15.975205+00:00",
+  "updatedAt": "2026-10-28T09:53:14.903045+00:00",
   "summary": {
-    "totalPlays": 18888,
+    "totalPlays": 18890,
     "unknownPlays": 1142,
     "uniqueTracks": 2610,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793180579
+    "lastObserved": 1793181077
   },
   "topSongs": [
     {
@@ -1603,10 +1603,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 179,
+      "count": 180,
       "first": 1788902047,
-      "last": 1793161959,
+      "last": 1793181077,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 23,
+          "first": 1788903730,
+          "last": 1793181077,
+          "playlists": {
+            "1default": 23
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Think Too Much",
@@ -1680,17 +1691,6 @@
           "count": 22,
           "first": 1788903565,
           "last": 1793027819,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 22,
-          "first": 1788903730,
-          "last": 1792988056,
           "playlists": {
             "1default": 22
           }
@@ -2167,9 +2167,9 @@
     },
     {
       "artist": "The Czars",
-      "count": 131,
+      "count": 132,
       "first": 1788963949,
-      "last": 1793159139,
+      "last": 1793180825,
       "songs": [
         {
           "artist": "The Czars",
@@ -2195,6 +2195,17 @@
         },
         {
           "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 22,
+          "first": 1789015116,
+          "last": 1793180825,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "The Czars",
           "title": "Song to the Siren",
           "album": "Best Of",
           "count": 22,
@@ -2211,17 +2222,6 @@
           "count": 21,
           "first": 1789218669,
           "last": 1793151843,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 21,
-          "first": 1789015116,
-          "last": 1793061204,
           "playlists": {
             "1default": 21
           }
@@ -4766,10 +4766,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 133,
+      "count": 134,
       "first": 1788902047,
-      "last": 1793161959,
+      "last": 1793181077,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 23,
+          "first": 1788903730,
+          "last": 1793181077,
+          "playlists": {
+            "1default": 23
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -4824,16 +4835,80 @@
           "playlists": {
             "1default": 22
           }
+        }
+      ]
+    },
+    {
+      "artist": "The Czars",
+      "album": "Best Of",
+      "count": 132,
+      "first": 1788963949,
+      "last": 1793180825,
+      "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 24,
+          "first": 1789063847,
+          "last": 1793159139,
+          "playlists": {
+            "1default": 24
+          }
         },
         {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 23,
+          "first": 1789096240,
+          "last": 1793122171,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
           "count": 22,
-          "first": 1788903730,
-          "last": 1792988056,
+          "first": 1789015116,
+          "last": 1793180825,
           "playlists": {
             "1default": 22
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 22,
+          "first": 1788963949,
+          "last": 1793144590,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 21,
+          "first": 1789218669,
+          "last": 1793151843,
+          "playlists": {
+            "1default": 21
+          }
+        },
+        {
+          "artist": "The Czars",
+          "title": "Anger",
+          "album": "Best Of",
+          "count": 20,
+          "first": 1789324379,
+          "last": 1793046708,
+          "playlists": {
+            "1default": 20
           }
         }
       ]
@@ -4909,81 +4984,6 @@
           "last": 1793007251,
           "playlists": {
             "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Czars",
-      "album": "Best Of",
-      "count": 131,
-      "first": 1788963949,
-      "last": 1793159139,
-      "songs": [
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 24,
-          "first": 1789063847,
-          "last": 1793159139,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 23,
-          "first": 1789096240,
-          "last": 1793122171,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 22,
-          "first": 1788963949,
-          "last": 1793144590,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 21,
-          "first": 1789218669,
-          "last": 1793151843,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 21,
-          "first": 1789015116,
-          "last": 1793061204,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Anger",
-          "album": "Best Of",
-          "count": 20,
-          "first": 1789324379,
-          "last": 1793046708,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -7399,9 +7399,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8729,
+      "count": 8731,
       "first": 1788901564,
-      "last": 1793180579,
+      "last": 1793181077,
       "songs": [
         {
           "artist": "Tele Novella",
