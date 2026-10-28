@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T03:01:43.593136+00:00",
+  "updatedAt": "2026-10-28T03:07:36.206666+00:00",
   "summary": {
-    "totalPlays": 18763,
+    "totalPlays": 18765,
     "unknownPlays": 1142,
     "uniqueTracks": 2607,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793156411
+    "lastObserved": 1793156821
   },
   "topSongs": [
     {
@@ -4608,6 +4608,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 46,
+      "first": 1788947810,
+      "last": 1793156821,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 23,
+          "first": 1788947810,
+          "last": 1793156821,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 23,
+          "first": 1789059805,
+          "last": 1793146485,
+          "playlists": {
+            "1default": 23
+          }
+        }
+      ]
+    },
+    {
       "artist": "Metric",
       "count": 46,
       "first": 1788986736,
@@ -4757,36 +4787,6 @@
           "count": 22,
           "first": 1788913469,
           "last": 1793003718,
-          "playlists": {
-            "1default": 22
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 45,
-      "first": 1788912861,
-      "last": 1793152131,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 23,
-          "first": 1788912861,
-          "last": 1793152131,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 22,
-          "first": 1788966960,
-          "last": 1793119450,
           "playlists": {
             "1default": 22
           }
@@ -7431,9 +7431,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8696,
+      "count": 8698,
       "first": 1788901564,
-      "last": 1793156411,
+      "last": 1793156821,
       "songs": [
         {
           "artist": "Tele Novella",
