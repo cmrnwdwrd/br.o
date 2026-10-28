@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T16:13:00.919801+00:00",
+  "updatedAt": "2026-10-28T16:18:08.690792+00:00",
   "summary": {
-    "totalPlays": 19003,
+    "totalPlays": 19004,
     "unknownPlays": 1142,
     "uniqueTracks": 2612,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793203930
+    "lastObserved": 1793204088
   },
   "topSongs": [
     {
@@ -450,6 +450,17 @@
       }
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 24,
+      "first": 1788986484,
+      "last": 1793204088,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "Tally Hall",
       "title": "The Bidding",
       "album": "Marvin's Marvelous Mechanical Museum",
@@ -579,17 +590,6 @@
       "count": 24,
       "first": 1788975450,
       "last": 1793160715,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Donovan",
-      "title": "Sunshine Superman",
-      "album": "Sunshine Superman",
-      "count": 24,
-      "first": 1788920950,
-      "last": 1793159938,
       "playlists": {
         "1default": 24
       }
@@ -4640,6 +4640,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 46,
+      "first": 1788986484,
+      "last": 1793204088,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 24,
+          "first": 1788986484,
+          "last": 1793204088,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 22,
+          "first": 1789231311,
+          "last": 1793067246,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "David Bowie",
       "count": 46,
       "first": 1788912385,
@@ -4727,36 +4757,6 @@
           "playlists": {
             "sad girl no friends saturday": 6,
             "texting your situationship": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "count": 46,
-      "first": 1789166634,
-      "last": 1793143979,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 23,
-          "first": 1789166634,
-          "last": 1793143979,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 23,
-          "first": 1789167660,
-          "last": 1793131654,
-          "playlists": {
-            "1default": 23
           }
         }
       ]
@@ -7399,9 +7399,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8753,
+      "count": 8754,
       "first": 1788901564,
-      "last": 1793203930,
+      "last": 1793204088,
       "songs": [
         {
           "artist": "Tele Novella",
