@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T17:07:31.442444+00:00",
+  "updatedAt": "2026-10-28T17:18:02.992628+00:00",
   "summary": {
-    "totalPlays": 19020,
+    "totalPlays": 19023,
     "unknownPlays": 1142,
     "uniqueTracks": 2612,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793207238
+    "lastObserved": 1793207851
   },
   "topSongs": [
     {
@@ -37,6 +37,18 @@
       }
     },
     {
+      "artist": "Ramones",
+      "title": "Judy Is a Punk - 2016 Remaster",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "count": 38,
+      "first": 1788968644,
+      "last": 1793207411,
+      "playlists": {
+        "1default": 31,
+        "anti-capitalist weekday afternoon #1": 7
+      }
+    },
+    {
       "artist": "Metric",
       "title": "Dead Disco",
       "album": "Old World Underground, Where Are You Now?",
@@ -57,18 +69,6 @@
       "last": 1793140022,
       "playlists": {
         "1default": 31,
-        "anti-capitalist weekday afternoon #1": 7
-      }
-    },
-    {
-      "artist": "Ramones",
-      "title": "Judy Is a Punk - 2016 Remaster",
-      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-      "count": 37,
-      "first": 1788968644,
-      "last": 1793140251,
-      "playlists": {
-        "1default": 30,
         "anti-capitalist weekday afternoon #1": 7
       }
     },
@@ -350,6 +350,18 @@
       }
     },
     {
+      "artist": "N.W.A.",
+      "title": "Fuck Tha Police",
+      "album": "Straight Outta Compton",
+      "count": 25,
+      "first": 1788971461,
+      "last": 1793207505,
+      "playlists": {
+        "1default": 24,
+        "throwbacks": 1
+      }
+    },
+    {
       "artist": "The Salesmen",
       "title": "Commodify",
       "album": "Commodify",
@@ -461,6 +473,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 24,
+      "first": 1788985030,
+      "last": 1793207851,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "Doechii",
       "title": "NISSAN ALTIMA",
       "album": "Alligator Bites Never Heal",
@@ -568,29 +591,6 @@
       "last": 1793180342,
       "playlists": {
         "1default": 24
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "TRAP METAL",
-      "album": "TRAP METAL",
-      "count": 24,
-      "first": 1789063011,
-      "last": 1793179848,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Joey Valence & Brae",
-      "title": "THE BADDEST",
-      "album": "NO HANDS",
-      "count": 24,
-      "first": 1788942030,
-      "last": 1793179352,
-      "playlists": {
-        "breakbeat": 23,
-        "grwm blindspotting": 1
       }
     }
   ],
@@ -3671,19 +3671,19 @@
     },
     {
       "artist": "Ramones",
-      "count": 60,
+      "count": 61,
       "first": 1788968644,
-      "last": 1793155905,
+      "last": 1793207411,
       "songs": [
         {
           "artist": "Ramones",
           "title": "Judy Is a Punk - 2016 Remaster",
           "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 37,
+          "count": 38,
           "first": 1788968644,
-          "last": 1793140251,
+          "last": 1793207411,
           "playlists": {
-            "1default": 30,
+            "1default": 31,
             "anti-capitalist weekday afternoon #1": 7
           }
         },
@@ -4445,6 +4445,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 48,
+      "first": 1788985030,
+      "last": 1793207851,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 24,
+          "first": 1788985030,
+          "last": 1793207851,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 24,
+          "first": 1788987870,
+          "last": 1793149748,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 48,
       "first": 1788921291,
@@ -4552,36 +4582,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 47,
-      "first": 1788985030,
-      "last": 1793149748,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 24,
-          "first": 1788987870,
-          "last": 1793149748,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 23,
-          "first": 1788985030,
-          "last": 1793004108,
-          "playlists": {
-            "1default": 23
           }
         }
       ]
@@ -5796,19 +5796,19 @@
     {
       "artist": "Ramones",
       "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-      "count": 60,
+      "count": 61,
       "first": 1788968644,
-      "last": 1793155905,
+      "last": 1793207411,
       "songs": [
         {
           "artist": "Ramones",
           "title": "Judy Is a Punk - 2016 Remaster",
           "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 37,
+          "count": 38,
           "first": 1788968644,
-          "last": 1793140251,
+          "last": 1793207411,
           "playlists": {
-            "1default": 30,
+            "1default": 31,
             "anti-capitalist weekday afternoon #1": 7
           }
         },
@@ -7408,9 +7408,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8770,
+      "count": 8773,
       "first": 1788901564,
-      "last": 1793207238,
+      "last": 1793207851,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7421,6 +7421,17 @@
           "last": 1792990179,
           "playlists": {
             "1default": 32
+          }
+        },
+        {
+          "artist": "Ramones",
+          "title": "Judy Is a Punk - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 31,
+          "first": 1788968644,
+          "last": 1793207411,
+          "playlists": {
+            "1default": 31
           }
         },
         {
@@ -7452,17 +7463,6 @@
           "count": 30,
           "first": 1789014862,
           "last": 1793113420,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 30,
-          "first": 1788968644,
-          "last": 1793066725,
           "playlists": {
             "1default": 30
           }
