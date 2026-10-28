@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T12:47:02.788604+00:00",
+  "updatedAt": "2026-10-28T12:52:05.822517+00:00",
   "summary": {
-    "totalPlays": 18936,
+    "totalPlays": 18938,
     "unknownPlays": 1142,
     "uniqueTracks": 2611,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793191480
+    "lastObserved": 1793191897
   },
   "topSongs": [
     {
@@ -7588,10 +7588,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 874,
+      "count": 876,
       "first": 1788955289,
-      "last": 1793191480,
+      "last": 1793191897,
       "songs": [
+        {
+          "artist": "Orleans",
+          "title": "Dance with Me",
+          "album": "Dance With Me: The Best Of Orleans",
+          "count": 4,
+          "first": 1790084130,
+          "last": 1793191717,
+          "playlists": {
+            "carhartts": 4
+          }
+        },
         {
           "artist": "Garrett Kato",
           "title": "Drugstore Houses",
@@ -7632,17 +7643,6 @@
           "count": 4,
           "first": 1789561624,
           "last": 1793189245,
-          "playlists": {
-            "carhartts": 4
-          }
-        },
-        {
-          "artist": "Annie DiRusso",
-          "title": "Infinite Jest",
-          "album": "Infinite Jest",
-          "count": 4,
-          "first": 1789560632,
-          "last": 1793108784,
           "playlists": {
             "carhartts": 4
           }
