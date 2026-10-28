@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T17:37:38.571996+00:00",
+  "updatedAt": "2026-10-28T17:47:33.411227+00:00",
   "summary": {
-    "totalPlays": 19029,
+    "totalPlays": 19031,
     "unknownPlays": 1142,
     "uniqueTracks": 2612,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793208934
+    "lastObserved": 1793209491
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Gorillaz, Beck",
+      "title": "The Valley of The Pagans (feat. Beck)",
+      "album": "Song Machine, Season One: Strange Timez (Deluxe)",
+      "count": 24,
+      "first": 1789062154,
+      "last": 1793209491,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "U2",
       "title": "Sunday Bloody Sunday - Remastered 2008",
       "album": "War (Remastered)",
@@ -578,17 +589,6 @@
       "count": 24,
       "first": 1788927573,
       "last": 1793203930,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "JOSEPH",
-      "title": "Green Eyes",
-      "album": "Good Luck, Kid",
-      "count": 24,
-      "first": 1789070850,
-      "last": 1793202984,
       "playlists": {
         "1default": 24
       }
@@ -4475,6 +4475,58 @@
       ]
     },
     {
+      "artist": "Kendrick Lamar",
+      "count": 48,
+      "first": 1789061029,
+      "last": 1793209211,
+      "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Alright",
+          "album": "To Pimp A Butterfly",
+          "count": 23,
+          "first": 1789221730,
+          "last": 1793209211,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Black Panther",
+          "album": "Black Panther The Album Music From And Inspired By",
+          "count": 22,
+          "first": 1789061029,
+          "last": 1793031449,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "HUMBLE.",
+          "album": "DAMN.",
+          "count": 2,
+          "first": 1789319672,
+          "last": 1791685194,
+          "playlists": {
+            "throwbacks": 2
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "DNA.",
+          "album": "DAMN.",
+          "count": 1,
+          "first": 1791081977,
+          "last": 1791081977,
+          "playlists": {
+            "throwbacks": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 48,
       "first": 1788985030,
@@ -4582,58 +4634,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kendrick Lamar",
-      "count": 47,
-      "first": 1789061029,
-      "last": 1793120211,
-      "songs": [
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Alright",
-          "album": "To Pimp A Butterfly",
-          "count": 22,
-          "first": 1789221730,
-          "last": 1793120211,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Black Panther",
-          "album": "Black Panther The Album Music From And Inspired By",
-          "count": 22,
-          "first": 1789061029,
-          "last": 1793031449,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "HUMBLE.",
-          "album": "DAMN.",
-          "count": 2,
-          "first": 1789319672,
-          "last": 1791685194,
-          "playlists": {
-            "throwbacks": 2
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "DNA.",
-          "album": "DAMN.",
-          "count": 1,
-          "first": 1791081977,
-          "last": 1791081977,
-          "playlists": {
-            "throwbacks": 1
           }
         }
       ]
@@ -7408,9 +7408,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8779,
+      "count": 8781,
       "first": 1788901564,
-      "last": 1793208934,
+      "last": 1793209491,
       "songs": [
         {
           "artist": "Tele Novella",
