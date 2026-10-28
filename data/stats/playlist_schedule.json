@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T15:27:08.673279+00:00",
+  "updatedAt": "2026-10-28T15:33:01.093703+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 650,
+    "sessionCount": 651,
     "firstObserved": 1788901564,
-    "lastObserved": 1793197843
+    "lastObserved": 1793201388
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 241,
-      "playCount": 8726,
+      "sessionCount": 242,
+      "playCount": 8727,
       "firstObserved": 1788901564,
-      "lastObserved": 1793196107,
-      "typicalStartMinute": 371,
+      "lastObserved": 1793201388,
+      "typicalStartMinute": 377,
       "typicalDurationMinutes": 47,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -82,7 +82,7 @@
           0.0,
           0.0,
           339.9,
-          347.8,
+          351.4,
           420.0,
           330.4,
           0.0,
@@ -438,8 +438,8 @@
           63.6,
           60.0,
           66.8,
-          75.0,
-          101.0,
+          75.2,
+          104.3,
           105.0,
           105.0,
           105.0,
@@ -954,7 +954,7 @@
           0,
           0,
           8,
-          3,
+          4,
           0,
           0,
           0,
@@ -1092,9 +1092,9 @@
         },
         {
           "weekday": 2,
-          "sessions": 49,
-          "typicalStartMinute": 22,
-          "typicalDurationMinutes": 32,
+          "sessions": 50,
+          "typicalStartMinute": 92,
+          "typicalDurationMinutes": 31,
           "confidence": "Low"
         },
         {
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1793201388,
+          "end": 1793201601,
+          "durationMinutes": 4,
+          "playCount": 1
+        },
         {
           "start": 1793196107,
           "end": 1793197842,
@@ -1240,12 +1246,6 @@
           "end": 1792801173,
           "durationMinutes": 137,
           "playCount": 38
-        },
-        {
-          "start": 1792767646,
-          "end": 1792775943,
-          "durationMinutes": 138,
-          "playCount": 43
         }
       ]
     },
@@ -39122,11 +39122,11 @@
     {
       "playlist": "EGG v CHAIN by ione",
       "sessionCount": 4,
-      "playCount": 96,
+      "playCount": 97,
       "firstObserved": 1791383435,
       "lastObserved": 1793197843,
       "typicalStartMinute": 510,
-      "typicalDurationMinutes": 58,
+      "typicalDurationMinutes": 59,
       "confidence": "Medium",
       "heatmapMinutes": [
         [
@@ -39191,7 +39191,7 @@
           0.0,
           0.0,
           116.4,
-          99.5,
+          101.9,
           0.0,
           0.0,
           0.0,
@@ -39547,7 +39547,7 @@
           56.4,
           60.0,
           53.1,
-          42.3,
+          44.8,
           4.0,
           0.0,
           0.0,
@@ -40189,16 +40189,16 @@
           "weekday": 2,
           "sessions": 4,
           "typicalStartMinute": 510,
-          "typicalDurationMinutes": 58,
+          "typicalDurationMinutes": 59,
           "confidence": "Medium"
         }
       ],
       "recentSessions": [
         {
           "start": 1793197843,
-          "end": 1793201238,
-          "durationMinutes": 57,
-          "playCount": 25
+          "end": 1793201387,
+          "durationMinutes": 59,
+          "playCount": 26
         },
         {
           "start": 1792593089,
