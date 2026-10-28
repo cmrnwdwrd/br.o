@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T03:37:33.943925+00:00",
+  "updatedAt": "2026-10-28T03:42:16.407313+00:00",
   "summary": {
-    "totalPlays": 18773,
+    "totalPlays": 18775,
     "unknownPlays": 1142,
     "uniqueTracks": 2607,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793158489
+    "lastObserved": 1793158919
   },
   "topSongs": [
     {
@@ -428,6 +428,28 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "THE WORLD IS ENDING",
+      "album": "THE WORLD IS ENDING",
+      "count": 24,
+      "first": 1789033665,
+      "last": 1793158919,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
+      "artist": "Billie Eilish",
+      "title": "NDA",
+      "album": "Happier Than Ever",
+      "count": 24,
+      "first": 1788989714,
+      "last": 1793158724,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
       "title": "Not Strong Enough",
       "album": "the record",
@@ -566,28 +588,6 @@
       "count": 24,
       "first": 1788913884,
       "last": 1793144203,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Sugs",
-      "title": "PICTURESQUE",
-      "album": "PICTURESQUE",
-      "count": 24,
-      "first": 1789060859,
-      "last": 1793137950,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Enya",
-      "title": "Orinoco Flow",
-      "album": "Watermark",
-      "count": 24,
-      "first": 1789073755,
-      "last": 1793137201,
       "playlists": {
         "1default": 24
       }
@@ -1088,9 +1088,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 359,
+      "count": 360,
       "first": 1788910325,
-      "last": 1793151565,
+      "last": 1793158919,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1102,6 +1102,17 @@
           "playlists": {
             "1default": 27,
             "steal my bike": 3
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE WORLD IS ENDING",
+          "album": "THE WORLD IS ENDING",
+          "count": 24,
+          "first": 1789033665,
+          "last": 1793158919,
+          "playlists": {
+            "1default": 24
           }
         },
         {
@@ -1144,17 +1155,6 @@
           "count": 23,
           "first": 1788910325,
           "last": 1793093458,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE WORLD IS ENDING",
-          "album": "THE WORLD IS ENDING",
-          "count": 23,
-          "first": 1789033665,
-          "last": 1793057490,
           "playlists": {
             "1default": 23
           }
@@ -4608,6 +4608,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 46,
+      "first": 1788989714,
+      "last": 1793158724,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 24,
+          "first": 1788989714,
+          "last": 1793158724,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 22,
+          "first": 1789169386,
+          "last": 1793122652,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 46,
       "first": 1788947810,
@@ -4759,36 +4789,6 @@
           "last": 1792002290,
           "playlists": {
             "country music was never for republicans": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kate Bollinger",
-      "count": 45,
-      "first": 1788915657,
-      "last": 1793157802,
-      "songs": [
-        {
-          "artist": "Kate Bollinger",
-          "title": "A Couple Things",
-          "album": "A word becomes a sound",
-          "count": 23,
-          "first": 1788915657,
-          "last": 1793157802,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Kate Bollinger",
-          "title": "Talk About It",
-          "album": "Talk About It (B-Side)",
-          "count": 22,
-          "first": 1788983449,
-          "last": 1792990885,
-          "playlists": {
-            "1default": 22
           }
         }
       ]
@@ -7431,9 +7431,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8706,
+      "count": 8708,
       "first": 1788901564,
-      "last": 1793158489,
+      "last": 1793158919,
       "songs": [
         {
           "artist": "Tele Novella",
