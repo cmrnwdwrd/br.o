@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T10:02:56.329746+00:00",
+  "updatedAt": "2026-10-28T10:08:18.599996+00:00",
   "summary": {
-    "totalPlays": 18892,
+    "totalPlays": 18894,
     "unknownPlays": 1142,
     "uniqueTracks": 2610,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793181640
+    "lastObserved": 1793182087
   },
   "topSongs": [
     {
@@ -3548,6 +3548,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 67,
+      "first": 1788947368,
+      "last": 1793181834,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 23,
+          "first": 1788969485,
+          "last": 1793181834,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 23,
+          "first": 1788947368,
+          "last": 1793064947,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 21,
+          "first": 1789086174,
+          "last": 1793025317,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "Brandywine",
       "count": 67,
       "first": 1788965930,
@@ -3582,47 +3623,6 @@
           "count": 21,
           "first": 1789215234,
           "last": 1793116568,
-          "playlists": {
-            "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 66,
-      "first": 1788947368,
-      "last": 1793064947,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 23,
-          "first": 1788947368,
-          "last": 1793064947,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 22,
-          "first": 1788969485,
-          "last": 1793032751,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 21,
-          "first": 1789086174,
-          "last": 1793025317,
           "playlists": {
             "1default": 21
           }
@@ -5671,10 +5671,21 @@
     {
       "artist": "Your Smith",
       "album": "Bad Habit",
-      "count": 66,
+      "count": 67,
       "first": 1788947368,
-      "last": 1793064947,
+      "last": 1793181834,
       "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 23,
+          "first": 1788969485,
+          "last": 1793181834,
+          "playlists": {
+            "1default": 23
+          }
+        },
         {
           "artist": "Your Smith",
           "title": "Debbie",
@@ -5684,17 +5695,6 @@
           "last": 1793064947,
           "playlists": {
             "1default": 23
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 22,
-          "first": 1788969485,
-          "last": 1793032751,
-          "playlists": {
-            "1default": 22
           }
         },
         {
@@ -7399,9 +7399,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8732,
+      "count": 8733,
       "first": 1788901564,
-      "last": 1793181389,
+      "last": 1793181834,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7525,9 +7525,9 @@
     },
     {
       "playlist": "freestyle beats to crash your car to",
-      "count": 942,
+      "count": 943,
       "first": 1788948264,
-      "last": 1793181640,
+      "last": 1793182087,
       "songs": [
         {
           "artist": "Sarcastic Sounds",
@@ -7538,6 +7538,17 @@
           "last": 1793101613,
           "playlists": {
             "freestyle beats to crash your car to": 19
+          }
+        },
+        {
+          "artist": "Name Change",
+          "title": "Monsoon Heart",
+          "album": "Monsoon Heart",
+          "count": 18,
+          "first": 1789035593,
+          "last": 1793182087,
+          "playlists": {
+            "freestyle beats to crash your car to": 18
           }
         },
         {
@@ -7569,17 +7580,6 @@
           "count": 18,
           "first": 1788953799,
           "last": 1793101719,
-          "playlists": {
-            "freestyle beats to crash your car to": 18
-          }
-        },
-        {
-          "artist": "Pheeno",
-          "title": "It's Never Personal",
-          "album": "Self Titled",
-          "count": 18,
-          "first": 1788951925,
-          "last": 1793101399,
           "playlists": {
             "freestyle beats to crash your car to": 18
           }
