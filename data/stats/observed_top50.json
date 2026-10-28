@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T01:07:36.656538+00:00",
+  "updatedAt": "2026-10-28T01:12:11.848892+00:00",
   "summary": {
-    "totalPlays": 18731,
+    "totalPlays": 18733,
     "unknownPlays": 1142,
     "uniqueTracks": 2606,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793149585
+    "lastObserved": 1793149914
   },
   "topSongs": [
     {
@@ -395,6 +395,28 @@
       }
     },
     {
+      "artist": "The Smashing Pumpkins",
+      "title": "Beautiful - Remastered 2012",
+      "album": "Mellon Collie And The Infinite Sadness (Remastered)",
+      "count": 24,
+      "first": 1789095484,
+      "last": 1793149914,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
+      "artist": "Orion Sun",
+      "title": "Antidote",
+      "album": "A Collection of Fleeting Moments and Daydreams",
+      "count": 24,
+      "first": 1788987870,
+      "last": 1793149748,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "Sweet Pill",
       "title": "Blood",
       "album": "Where the Heart Is",
@@ -566,28 +588,6 @@
       "count": 24,
       "first": 1789063255,
       "last": 1793130100,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "The Dandy Warhols",
-      "title": "Bohemian Like You",
-      "album": "Thirteen Tales From Urban Bohemia",
-      "count": 24,
-      "first": 1788989503,
-      "last": 1793128922,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Letters To Cleo",
-      "title": "Big Star",
-      "album": "Aurora Gory Alice",
-      "count": 24,
-      "first": 1789165225,
-      "last": 1793127511,
       "playlists": {
         "1default": 24
       }
@@ -4444,6 +4444,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 47,
+      "first": 1788985030,
+      "last": 1793149748,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 24,
+          "first": 1788987870,
+          "last": 1793149748,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 23,
+          "first": 1788985030,
+          "last": 1793004108,
+          "playlists": {
+            "1default": 23
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 47,
       "first": 1789061029,
@@ -4635,36 +4665,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 46,
-      "first": 1788985030,
-      "last": 1793004108,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 23,
-          "first": 1788985030,
-          "last": 1793004108,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 23,
-          "first": 1788987870,
-          "last": 1792985685,
-          "playlists": {
-            "1default": 23
           }
         }
       ]
@@ -7431,9 +7431,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8665,
+      "count": 8667,
       "first": 1788901564,
-      "last": 1793149585,
+      "last": 1793149914,
       "songs": [
         {
           "artist": "Tele Novella",
