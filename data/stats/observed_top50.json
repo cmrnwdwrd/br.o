@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-28T13:08:03.675592+00:00",
+  "updatedAt": "2026-10-28T13:12:03.806479+00:00",
   "summary": {
-    "totalPlays": 18941,
+    "totalPlays": 18943,
     "unknownPlays": 1142,
     "uniqueTracks": 2611,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793192670
+    "lastObserved": 1793193112
   },
   "topSongs": [
     {
@@ -7588,10 +7588,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 879,
+      "count": 881,
       "first": 1788955289,
-      "last": 1793192670,
+      "last": 1793193112,
       "songs": [
+        {
+          "artist": "Field Guide",
+          "title": "You Were",
+          "album": "You Were",
+          "count": 4,
+          "first": 1789475883,
+          "last": 1793193112,
+          "playlists": {
+            "carhartts": 4
+          }
+        },
         {
           "artist": "Orleans",
           "title": "Dance with Me",
@@ -7632,17 +7643,6 @@
           "count": 4,
           "first": 1789996211,
           "last": 1793189986,
-          "playlists": {
-            "carhartts": 4
-          }
-        },
-        {
-          "artist": "Mt. Joy",
-          "title": "Bug Eyes",
-          "album": "Rearrange Us",
-          "count": 4,
-          "first": 1789561624,
-          "last": 1793189245,
           "playlists": {
             "carhartts": 4
           }
