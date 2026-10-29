@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-29T19:07:36.105771+00:00",
+  "updatedAt": "2026-10-29T19:23:06.236739+00:00",
   "summary": {
-    "totalPlays": 19420,
+    "totalPlays": 19424,
     "unknownPlays": 1142,
     "uniqueTracks": 2623,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793300739
+    "lastObserved": 1793301619
   },
   "topSongs": [
     {
@@ -3165,10 +3165,21 @@
     },
     {
       "artist": "The Cranberries",
-      "count": 74,
+      "count": 75,
       "first": 1788916461,
-      "last": 1793150411,
+      "last": 1793301313,
       "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 23,
+          "first": 1788916461,
+          "last": 1793301313,
+          "playlists": {
+            "1default": 23
+          }
+        },
         {
           "artist": "The Cranberries",
           "title": "Ode To My Family",
@@ -3187,17 +3198,6 @@
           "count": 22,
           "first": 1789087662,
           "last": 1793132245,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 22,
-          "first": 1788916461,
-          "last": 1793059133,
           "playlists": {
             "1default": 22
           }
@@ -3631,9 +3631,9 @@
     },
     {
       "artist": "Jaguar Stevens",
-      "count": 66,
+      "count": 67,
       "first": 1788975620,
-      "last": 1793246620,
+      "last": 1793300994,
       "songs": [
         {
           "artist": "Jaguar Stevens",
@@ -3661,11 +3661,11 @@
           "artist": "Jaguar Stevens",
           "title": "All the Things He Said",
           "album": "Jaguar Stevens",
-          "count": 20,
+          "count": 21,
           "first": 1789226001,
-          "last": 1793037406,
+          "last": 1793300994,
           "playlists": {
-            "1default": 20
+            "1default": 21
           }
         }
       ]
@@ -5754,6 +5754,48 @@
       ]
     },
     {
+      "artist": "Jaguar Stevens",
+      "album": "Jaguar Stevens",
+      "count": 67,
+      "first": 1788975620,
+      "last": 1793300994,
+      "songs": [
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Dying Dance",
+          "album": "Jaguar Stevens",
+          "count": 24,
+          "first": 1788975620,
+          "last": 1793208270,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Capital Lie",
+          "album": "Jaguar Stevens",
+          "count": 22,
+          "first": 1789209975,
+          "last": 1793246620,
+          "playlists": {
+            "1default": 22
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "All the Things He Said",
+          "album": "Jaguar Stevens",
+          "count": 21,
+          "first": 1789226001,
+          "last": 1793300994,
+          "playlists": {
+            "1default": 21
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "album": "Dead",
       "count": 67,
@@ -5791,48 +5833,6 @@
           "last": 1793224640,
           "playlists": {
             "1default": 21
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "album": "Jaguar Stevens",
-      "count": 66,
-      "first": 1788975620,
-      "last": 1793246620,
-      "songs": [
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Dying Dance",
-          "album": "Jaguar Stevens",
-          "count": 24,
-          "first": 1788975620,
-          "last": 1793208270,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Capital Lie",
-          "album": "Jaguar Stevens",
-          "count": 22,
-          "first": 1789209975,
-          "last": 1793246620,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "All the Things He Said",
-          "album": "Jaguar Stevens",
-          "count": 20,
-          "first": 1789226001,
-          "last": 1793037406,
-          "playlists": {
-            "1default": 20
           }
         }
       ]
@@ -7518,9 +7518,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8906,
+      "count": 8910,
       "first": 1788901564,
-      "last": 1793300739,
+      "last": 1793301619,
       "songs": [
         {
           "artist": "Tele Novella",
