@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-29T19:23:06.236739+00:00",
+  "updatedAt": "2026-10-29T19:27:05.933812+00:00",
   "summary": {
-    "totalPlays": 19424,
+    "totalPlays": 19426,
     "unknownPlays": 1142,
     "uniqueTracks": 2623,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793301619
+    "lastObserved": 1793301980
   },
   "topSongs": [
     {
@@ -485,6 +485,17 @@
       }
     },
     {
+      "artist": "N.E.R.D",
+      "title": "Run To The Sun",
+      "album": "In Search Of...",
+      "count": 24,
+      "first": 1788901564,
+      "last": 1793301980,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "Fastball",
       "title": "The Way",
       "album": "All The Pain Money Can Buy",
@@ -579,17 +590,6 @@
       "count": 24,
       "first": 1788986942,
       "last": 1793294679,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Japanese Breakfast",
-      "title": "Everybody Wants to Love You",
-      "album": "Psychopomp",
-      "count": 24,
-      "first": 1789032729,
-      "last": 1793294478,
       "playlists": {
         "1default": 24
       }
@@ -4745,6 +4745,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 46,
+      "first": 1789069956,
+      "last": 1793301800,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 24,
+          "first": 1789235365,
+          "last": 1793284314,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 22,
+          "first": 1789069956,
+          "last": 1793301800,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kate Bollinger",
       "count": 46,
       "first": 1788915657,
@@ -4768,36 +4798,6 @@
           "count": 23,
           "first": 1788915657,
           "last": 1793157802,
-          "playlists": {
-            "1default": 23
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 46,
-      "first": 1788912861,
-      "last": 1793266774,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 23,
-          "first": 1788966960,
-          "last": 1793266774,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 23,
-          "first": 1788912861,
-          "last": 1793152131,
           "playlists": {
             "1default": 23
           }
@@ -7518,9 +7518,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8910,
+      "count": 8912,
       "first": 1788901564,
-      "last": 1793301619,
+      "last": 1793301980,
       "songs": [
         {
           "artist": "Tele Novella",
