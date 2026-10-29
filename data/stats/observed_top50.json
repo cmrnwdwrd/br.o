@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-29T16:47:39.947903+00:00",
+  "updatedAt": "2026-10-29T16:57:10.311614+00:00",
   "summary": {
-    "totalPlays": 19383,
+    "totalPlays": 19386,
     "unknownPlays": 1142,
     "uniqueTracks": 2622,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793292399
+    "lastObserved": 1793292924
   },
   "topSongs": [
     {
@@ -485,6 +485,28 @@
       }
     },
     {
+      "artist": "Arcade Fire",
+      "title": "Wake Up",
+      "album": "Funeral",
+      "count": 24,
+      "first": 1788989909,
+      "last": 1793292924,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
+      "artist": "Brittany Howard",
+      "title": "Stay High",
+      "album": "Jaime",
+      "count": 24,
+      "first": 1789054258,
+      "last": 1793292733,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "Fine Young Cannibals",
       "title": "Good Thing",
       "album": "The Raw & The Cooked",
@@ -568,28 +590,6 @@
       "count": 24,
       "first": 1789062768,
       "last": 1793289348,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Jelani Aryeh",
-      "title": "Stella Brown",
-      "album": "I've Got Some Living To Do",
-      "count": 24,
-      "first": 1788918760,
-      "last": 1793289114,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "isobel",
-      "title": "laundry",
-      "album": "laundry",
-      "count": 24,
-      "first": 1788902953,
-      "last": 1793288945,
       "playlists": {
         "1default": 24
       }
@@ -4457,6 +4457,58 @@
       ]
     },
     {
+      "artist": "Kendrick Lamar",
+      "count": 49,
+      "first": 1789061029,
+      "last": 1793292603,
+      "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Black Panther",
+          "album": "Black Panther The Album Music From And Inspired By",
+          "count": 23,
+          "first": 1789061029,
+          "last": 1793292603,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Alright",
+          "album": "To Pimp A Butterfly",
+          "count": 23,
+          "first": 1789221730,
+          "last": 1793209211,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "HUMBLE.",
+          "album": "DAMN.",
+          "count": 2,
+          "first": 1789319672,
+          "last": 1791685194,
+          "playlists": {
+            "throwbacks": 2
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "DNA.",
+          "album": "DAMN.",
+          "count": 1,
+          "first": 1791081977,
+          "last": 1791081977,
+          "playlists": {
+            "throwbacks": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 49,
       "first": 1788921291,
@@ -4534,58 +4586,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kendrick Lamar",
-      "count": 48,
-      "first": 1789061029,
-      "last": 1793209211,
-      "songs": [
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Alright",
-          "album": "To Pimp A Butterfly",
-          "count": 23,
-          "first": 1789221730,
-          "last": 1793209211,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Black Panther",
-          "album": "Black Panther The Album Music From And Inspired By",
-          "count": 22,
-          "first": 1789061029,
-          "last": 1793031449,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "HUMBLE.",
-          "album": "DAMN.",
-          "count": 2,
-          "first": 1789319672,
-          "last": 1791685194,
-          "playlists": {
-            "throwbacks": 2
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "DNA.",
-          "album": "DAMN.",
-          "count": 1,
-          "first": 1791081977,
-          "last": 1791081977,
-          "playlists": {
-            "throwbacks": 1
           }
         }
       ]
@@ -7518,9 +7518,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8870,
+      "count": 8873,
       "first": 1788901564,
-      "last": 1793292399,
+      "last": 1793292924,
       "songs": [
         {
           "artist": "Tele Novella",
