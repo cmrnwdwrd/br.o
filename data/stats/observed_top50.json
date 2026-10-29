@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-29T16:17:42.848399+00:00",
+  "updatedAt": "2026-10-29T16:27:15.957996+00:00",
   "summary": {
-    "totalPlays": 19376,
+    "totalPlays": 19379,
     "unknownPlays": 1142,
     "uniqueTracks": 2622,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793290570
+    "lastObserved": 1793291207
   },
   "topSongs": [
     {
@@ -485,6 +485,28 @@
       }
     },
     {
+      "artist": "Radiohead",
+      "title": "If You Say the Word",
+      "album": "If You Say the Word",
+      "count": 24,
+      "first": 1789033884,
+      "last": 1793291207,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "THE KIDS ARE ALL RETARDED",
+      "album": "SWAMP",
+      "count": 24,
+      "first": 1788926373,
+      "last": 1793290881,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "Sugarloaf",
       "title": "West Of Tomorrow",
       "album": "Sugarloaf",
@@ -568,28 +590,6 @@
       "count": 24,
       "first": 1788965930,
       "last": 1793288530,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "The End of the Game",
-      "album": "The End of the Game",
-      "count": 24,
-      "first": 1788974227,
-      "last": 1793287923,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "Jay Som",
-      "title": "Tenderness",
-      "album": "Anak Ko",
-      "count": 24,
-      "first": 1789235365,
-      "last": 1793284314,
       "playlists": {
         "1default": 24
       }
@@ -1090,9 +1090,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 368,
+      "count": 369,
       "first": 1788910325,
-      "last": 1793283489,
+      "last": 1793290881,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1104,6 +1104,17 @@
           "playlists": {
             "1default": 28,
             "steal my bike": 3
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 24,
+          "first": 1788926373,
+          "last": 1793290881,
+          "playlists": {
+            "1default": 24
           }
         },
         {
@@ -1201,17 +1212,6 @@
           "count": 23,
           "first": 1788910325,
           "last": 1793093458,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 23,
-          "first": 1788926373,
-          "last": 1793006834,
           "playlists": {
             "1default": 23
           }
@@ -3216,6 +3216,58 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 71,
+      "first": 1788973066,
+      "last": 1793291207,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 24,
+          "first": 1789033884,
+          "last": 1793291207,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 23,
+          "first": 1788973066,
+          "last": 1793146025,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 23,
+          "first": 1788984450,
+          "last": 1793136031,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Karma Police",
+          "album": "OK Computer",
+          "count": 1,
+          "first": 1792902695,
+          "last": 1792902695,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 71,
       "first": 1788965724,
@@ -3428,58 +3480,6 @@
           "last": 1793161273,
           "playlists": {
             "1default": 22
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 70,
-      "first": 1788973066,
-      "last": 1793146025,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 23,
-          "first": 1788973066,
-          "last": 1793146025,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 23,
-          "first": 1788984450,
-          "last": 1793136031,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 23,
-          "first": 1789033884,
-          "last": 1792999060,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Karma Police",
-          "album": "OK Computer",
-          "count": 1,
-          "first": 1792902695,
-          "last": 1792902695,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -5413,10 +5413,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 93,
+      "count": 94,
       "first": 1788926373,
-      "last": 1793283489,
+      "last": 1793290881,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 24,
+          "first": 1788926373,
+          "last": 1793290881,
+          "playlists": {
+            "1default": 24
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "DISINTEGRATE",
@@ -5446,17 +5457,6 @@
           "count": 23,
           "first": 1789058454,
           "last": 1793203519,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 23,
-          "first": 1788926373,
-          "last": 1793006834,
           "playlists": {
             "1default": 23
           }
@@ -7518,9 +7518,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8863,
+      "count": 8866,
       "first": 1788901564,
-      "last": 1793290570,
+      "last": 1793291207,
       "songs": [
         {
           "artist": "Tele Novella",
