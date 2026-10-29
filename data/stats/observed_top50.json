@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-29T03:23:07.444207+00:00",
+  "updatedAt": "2026-10-29T03:32:06.811091+00:00",
   "summary": {
-    "totalPlays": 19164,
+    "totalPlays": 19166,
     "unknownPlays": 1142,
     "uniqueTracks": 2613,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793244165
+    "lastObserved": 1793244556
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 24,
+      "first": 1788919285,
+      "last": 1793244354,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "Blue October",
       "title": "Into The Ocean",
       "album": "Foiled",
@@ -578,17 +589,6 @@
       "count": 24,
       "first": 1789014639,
       "last": 1793220826,
-      "playlists": {
-        "1default": 24
-      }
-    },
-    {
-      "artist": "St. Paul & The Broken Bones",
-      "title": "Apollo",
-      "album": "Young Sick Camellia",
-      "count": 24,
-      "first": 1788972025,
-      "last": 1793217920,
       "playlists": {
         "1default": 24
       }
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 366,
+      "count": 367,
       "first": 1788910325,
-      "last": 1793230278,
+      "last": 1793244556,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1151,6 +1151,17 @@
         },
         {
           "artist": "Lil Darkie",
+          "title": "negative and hating",
+          "album": "THE FUTURE IS DARK (DELUXE)",
+          "count": 23,
+          "first": 1789225086,
+          "last": 1793244556,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Lil Darkie",
           "title": "LA LA UNDERBELLY",
           "album": "SWAMP",
           "count": 23,
@@ -1200,17 +1211,6 @@
           "count": 22,
           "first": 1789212337,
           "last": 1793230278,
-          "playlists": {
-            "1default": 22
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "negative and hating",
-          "album": "THE FUTURE IS DARK (DELUXE)",
-          "count": 22,
-          "first": 1789225086,
-          "last": 1793124864,
           "playlists": {
             "1default": 22
           }
@@ -4259,6 +4259,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 51,
+      "first": 1788919285,
+      "last": 1793244354,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 24,
+          "first": 1788919285,
+          "last": 1793244354,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 24,
+          "first": 1788975084,
+          "last": 1793154240,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 3,
+          "first": 1789893243,
+          "last": 1792916720,
+          "playlists": {
+            "christmas rn": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sophie Truax",
       "count": 51,
       "first": 1788931104,
@@ -4317,47 +4358,6 @@
           "last": 1792992624,
           "playlists": {
             "EPL4a": 10
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 50,
-      "first": 1788919285,
-      "last": 1793154240,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 24,
-          "first": 1788975084,
-          "last": 1793154240,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 23,
-          "first": 1788919285,
-          "last": 1793041964,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 3,
-          "first": 1789893243,
-          "last": 1792916720,
-          "playlists": {
-            "christmas rn": 3
           }
         }
       ]
@@ -7495,9 +7495,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8814,
+      "count": 8816,
       "first": 1788901564,
-      "last": 1793244165,
+      "last": 1793244556,
       "songs": [
         {
           "artist": "Tele Novella",
