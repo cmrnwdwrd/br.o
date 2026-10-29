@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-29T04:41:57.880134+00:00",
+  "updatedAt": "2026-10-29T04:57:16.841346+00:00",
   "summary": {
-    "totalPlays": 19185,
+    "totalPlays": 19191,
     "unknownPlays": 1142,
     "uniqueTracks": 2614,
     "uniqueArtists": 1665,
     "uniqueAlbums": 2144,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793248778
+    "lastObserved": 1793249755
   },
   "topSongs": [
     {
@@ -473,6 +473,17 @@
       }
     },
     {
+      "artist": "Olivia Rodrigo",
+      "title": "brutal",
+      "album": "SOUR",
+      "count": 24,
+      "first": 1789057000,
+      "last": 1793249077,
+      "playlists": {
+        "1default": 24
+      }
+    },
+    {
       "artist": "Fugees, Ms. Lauryn Hill",
       "title": "Killing Me Softly With His Song",
       "album": "The Score (Expanded Edition)",
@@ -581,26 +592,48 @@
       "playlists": {
         "1default": 24
       }
-    },
-    {
-      "artist": "Spoon",
-      "title": "No Bullets Spent",
-      "album": "No Bullets Spent",
-      "count": 24,
-      "first": 1789065520,
-      "last": 1793221564,
-      "playlists": {
-        "1default": 24
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 378,
+      "count": 383,
       "first": 1788929259,
-      "last": 1793164175,
+      "last": 1793249755,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "blind",
+          "album": "Casual Affair.",
+          "count": 10,
+          "first": 1789016116,
+          "last": 1793249642,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "casino royal",
+          "album": "drive it like you stole it.",
+          "count": 10,
+          "first": 1789016383,
+          "last": 1793249335,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "gesture",
+          "album": "Casual Affair.",
+          "count": 10,
+          "first": 1789016737,
+          "last": 1793249221,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
         {
           "artist": "home alone.",
           "title": "jeezus",
@@ -790,6 +823,28 @@
         },
         {
           "artist": "home alone.",
+          "title": "obvious",
+          "album": "Casual Affair.",
+          "count": 9,
+          "first": 1789447894,
+          "last": 1793249755,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "screenplay",
+          "album": "Casual Affair.",
+          "count": 9,
+          "first": 1788929395,
+          "last": 1793249511,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
+        {
+          "artist": "home alone.",
           "title": "what goes around comes around",
           "album": "drive it like you stole it.",
           "count": 9,
@@ -845,33 +900,11 @@
         },
         {
           "artist": "home alone.",
-          "title": "gesture",
-          "album": "Casual Affair.",
-          "count": 9,
-          "first": 1789016737,
-          "last": 1792645734,
-          "playlists": {
-            "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "5o5",
           "album": "all killer, no filler",
           "count": 9,
           "first": 1789448431,
           "last": 1792644784,
-          "playlists": {
-            "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "blind",
-          "album": "Casual Affair.",
-          "count": 9,
-          "first": 1789016116,
-          "last": 1792559033,
           "playlists": {
             "more home alone": 9
           }
@@ -911,17 +944,6 @@
         },
         {
           "artist": "home alone.",
-          "title": "casino royal",
-          "album": "drive it like you stole it.",
-          "count": 9,
-          "first": 1789016383,
-          "last": 1792473573,
-          "playlists": {
-            "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "soft spot",
           "album": "ａｒｒｉｖａｌ．",
           "count": 8,
@@ -944,33 +966,11 @@
         },
         {
           "artist": "home alone.",
-          "title": "obvious",
-          "album": "Casual Affair.",
-          "count": 8,
-          "first": 1789447894,
-          "last": 1792646026,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "all that jazz",
           "album": "all killer, no filler",
           "count": 8,
           "first": 1789447986,
           "last": 1792645049,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "screenplay",
-          "album": "Casual Affair.",
-          "count": 8,
-          "first": 1788929395,
-          "last": 1792559286,
           "playlists": {
             "more home alone": 8
           }
@@ -5022,10 +5022,21 @@
     {
       "artist": "home alone.",
       "album": "drive it like you stole it.",
-      "count": 106,
+      "count": 107,
       "first": 1788929527,
-      "last": 1793164175,
+      "last": 1793249335,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "casino royal",
+          "album": "drive it like you stole it.",
+          "count": 10,
+          "first": 1789016383,
+          "last": 1793249335,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
         {
           "artist": "home alone.",
           "title": "jeezus",
@@ -5135,27 +5146,38 @@
           "playlists": {
             "more home alone": 9
           }
-        },
-        {
-          "artist": "home alone.",
-          "title": "casino royal",
-          "album": "drive it like you stole it.",
-          "count": 9,
-          "first": 1789016383,
-          "last": 1792473573,
-          "playlists": {
-            "more home alone": 9
-          }
         }
       ]
     },
     {
       "artist": "home alone.",
       "album": "Casual Affair.",
-      "count": 102,
+      "count": 106,
       "first": 1788929259,
-      "last": 1793163527,
+      "last": 1793249755,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "blind",
+          "album": "Casual Affair.",
+          "count": 10,
+          "first": 1789016116,
+          "last": 1793249642,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "gesture",
+          "album": "Casual Affair.",
+          "count": 10,
+          "first": 1789016737,
+          "last": 1793249221,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
         {
           "artist": "home alone.",
           "title": "ccc",
@@ -5213,33 +5235,33 @@
         },
         {
           "artist": "home alone.",
+          "title": "obvious",
+          "album": "Casual Affair.",
+          "count": 9,
+          "first": 1789447894,
+          "last": 1793249755,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "screenplay",
+          "album": "Casual Affair.",
+          "count": 9,
+          "first": 1788929395,
+          "last": 1793249511,
+          "playlists": {
+            "more home alone": 9
+          }
+        },
+        {
+          "artist": "home alone.",
           "title": "worthy",
           "album": "Casual Affair.",
           "count": 9,
           "first": 1789015787,
           "last": 1793078643,
-          "playlists": {
-            "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "gesture",
-          "album": "Casual Affair.",
-          "count": 9,
-          "first": 1789016737,
-          "last": 1792645734,
-          "playlists": {
-            "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "blind",
-          "album": "Casual Affair.",
-          "count": 9,
-          "first": 1789016116,
-          "last": 1792559033,
           "playlists": {
             "more home alone": 9
           }
@@ -5253,28 +5275,6 @@
           "last": 1792558223,
           "playlists": {
             "more home alone": 9
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "obvious",
-          "album": "Casual Affair.",
-          "count": 8,
-          "first": 1789447894,
-          "last": 1792646026,
-          "playlists": {
-            "more home alone": 8
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "screenplay",
-          "album": "Casual Affair.",
-          "count": 8,
-          "first": 1788929395,
-          "last": 1792559286,
-          "playlists": {
-            "more home alone": 8
           }
         }
       ]
@@ -7495,9 +7495,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8834,
+      "count": 8835,
       "first": 1788901564,
-      "last": 1793248778,
+      "last": 1793249077,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7999,10 +7999,43 @@
     },
     {
       "playlist": "more home alone",
-      "count": 302,
+      "count": 307,
       "first": 1788929259,
-      "last": 1793164175,
+      "last": 1793249755,
       "songs": [
+        {
+          "artist": "home alone.",
+          "title": "blind",
+          "album": "Casual Affair.",
+          "count": 10,
+          "first": 1789016116,
+          "last": 1793249642,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "casino royal",
+          "album": "drive it like you stole it.",
+          "count": 10,
+          "first": 1789016383,
+          "last": 1793249335,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "gesture",
+          "album": "Casual Affair.",
+          "count": 10,
+          "first": 1789016737,
+          "last": 1793249221,
+          "playlists": {
+            "more home alone": 10
+          }
+        },
         {
           "artist": "home alone.",
           "title": "jeezus",
@@ -8021,39 +8054,6 @@
           "count": 10,
           "first": 1788930130,
           "last": 1793163976,
-          "playlists": {
-            "more home alone": 10
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "pretty please",
-          "album": "all killer, no filler",
-          "count": 10,
-          "first": 1789017391,
-          "last": 1793163843,
-          "playlists": {
-            "more home alone": 10
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "reel it in",
-          "album": "all killer, no filler",
-          "count": 10,
-          "first": 1789017011,
-          "last": 1793163654,
-          "playlists": {
-            "more home alone": 10
-          }
-        },
-        {
-          "artist": "home alone.",
-          "title": "ccc",
-          "album": "Casual Affair.",
-          "count": 10,
-          "first": 1789018186,
-          "last": 1793163527,
           "playlists": {
             "more home alone": 10
           }
