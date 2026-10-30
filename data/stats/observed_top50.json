@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-30T09:38:06.330046+00:00",
+  "updatedAt": "2026-10-30T10:18:14.350907+00:00",
   "summary": {
-    "totalPlays": 19656,
+    "totalPlays": 19662,
     "unknownPlays": 1142,
     "uniqueTracks": 2624,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793352856
+    "lastObserved": 1793354563
   },
   "topSongs": [
     {
@@ -407,6 +407,28 @@
       }
     },
     {
+      "artist": "Kai Straw",
+      "title": "Don't Tread on Me",
+      "album": "Toothpick",
+      "count": 25,
+      "first": 1788985765,
+      "last": 1793353940,
+      "playlists": {
+        "1default": 25
+      }
+    },
+    {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 25,
+      "first": 1788965930,
+      "last": 1793353701,
+      "playlists": {
+        "1default": 25
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "DARKIE STILL CANNOT RAP",
       "album": "SWAMP DRAINED",
@@ -569,28 +591,6 @@
       "count": 25,
       "first": 1789056787,
       "last": 1793319894,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "Donovan",
-      "title": "Sunshine Superman",
-      "album": "Sunshine Superman",
-      "count": 25,
-      "first": 1788920950,
-      "last": 1793319425,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "Yumi Zouma",
-      "title": "Right Track / Wrong Man",
-      "album": "Truth or Consequences",
-      "count": 25,
-      "first": 1789057143,
-      "last": 1793318102,
       "playlists": {
         "1default": 25
       }
@@ -3508,6 +3508,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 70,
+      "first": 1788965930,
+      "last": 1793353701,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 25,
+          "first": 1788965930,
+          "last": 1793353701,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 23,
+          "first": 1789068640,
+          "last": 1793150230,
+          "playlists": {
+            "1default": 23
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 22,
+          "first": 1789215234,
+          "last": 1793342269,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 70,
       "first": 1788973998,
@@ -3542,47 +3583,6 @@
           "count": 22,
           "first": 1789226629,
           "last": 1793161273,
-          "playlists": {
-            "1default": 22
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 69,
-      "first": 1788965930,
-      "last": 1793342269,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 24,
-          "first": 1788965930,
-          "last": 1793288530,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 23,
-          "first": 1789068640,
-          "last": 1793150230,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 22,
-          "first": 1789215234,
-          "last": 1793342269,
           "playlists": {
             "1default": 22
           }
@@ -7456,9 +7456,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9011,
+      "count": 9016,
       "first": 1788901564,
-      "last": 1793352856,
+      "last": 1793354267,
       "songs": [
         {
           "artist": "Tele Novella",
