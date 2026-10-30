@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-30T03:08:08.629354+00:00",
+  "updatedAt": "2026-10-30T03:27:10.912579+00:00",
   "summary": {
-    "totalPlays": 19550,
+    "totalPlays": 19555,
     "unknownPlays": 1142,
     "uniqueTracks": 2624,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793329546
+    "lastObserved": 1793330691
   },
   "topSongs": [
     {
@@ -34,6 +34,18 @@
       "playlists": {
         "1default": 34,
         "anti-capitalist weekday afternoon #1": 8
+      }
+    },
+    {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 39,
+      "first": 1789015368,
+      "last": 1793330497,
+      "playlists": {
+        "1default": 32,
+        "anti-capitalist weekday afternoon #1": 7
       }
     },
     {
@@ -107,18 +119,6 @@
       "playlists": {
         "1default": 30,
         "anti-capitalist weekday afternoon #1": 8
-      }
-    },
-    {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 38,
-      "first": 1789015368,
-      "last": 1793313639,
-      "playlists": {
-        "1default": 31,
-        "anti-capitalist weekday afternoon #1": 7
       }
     },
     {
@@ -396,6 +396,28 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Sunday Bloody Sunday - Remastered 2008",
+      "album": "War (Remastered)",
+      "count": 25,
+      "first": 1788921291,
+      "last": 1793330691,
+      "playlists": {
+        "1default": 25
+      }
+    },
+    {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 25,
+      "first": 1789235365,
+      "last": 1793330256,
+      "playlists": {
+        "1default": 25
+      }
+    },
+    {
       "artist": "Cage The Elephant",
       "title": "Social Cues",
       "album": "Social Cues",
@@ -568,28 +590,6 @@
       "count": 25,
       "first": 1788974410,
       "last": 1793152899,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "The Palmer Squares",
-      "title": "Dip",
-      "album": "Planet of the Shapes",
-      "count": 25,
-      "first": 1788904525,
-      "last": 1793148364,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "Teyana Taylor",
-      "title": "Gonna Love Me",
-      "album": "K.T.S.E.",
-      "count": 25,
-      "first": 1788929095,
-      "last": 1793136828,
       "playlists": {
         "1default": 25
       }
@@ -4457,6 +4457,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 50,
+      "first": 1788921291,
+      "last": 1793330691,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 25,
+          "first": 1788921291,
+          "last": 1793330691,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 25,
+          "first": 1788964687,
+          "last": 1793153420,
+          "playlists": {
+            "1default": 25
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kendrick Lamar",
       "count": 49,
       "first": 1789061029,
@@ -4504,36 +4534,6 @@
           "last": 1791081977,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 49,
-      "first": 1788921291,
-      "last": 1793208934,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 25,
-          "first": 1788964687,
-          "last": 1793153420,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 24,
-          "first": 1788921291,
-          "last": 1793208934,
-          "playlists": {
-            "1default": 24
           }
         }
       ]
@@ -4616,6 +4616,36 @@
           "last": 1793149748,
           "playlists": {
             "1default": 24
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Jay Som",
+      "count": 47,
+      "first": 1789069956,
+      "last": 1793330256,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 25,
+          "first": 1789235365,
+          "last": 1793330256,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 22,
+          "first": 1789069956,
+          "last": 1793301800,
+          "playlists": {
+            "1default": 22
           }
         }
       ]
@@ -4772,36 +4802,6 @@
           "last": 1792002290,
           "playlists": {
             "country music was never for republicans": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Billie Eilish",
-      "count": 47,
-      "first": 1788989714,
-      "last": 1793180579,
-      "songs": [
-        {
-          "artist": "Billie Eilish",
-          "title": "NDA",
-          "album": "Happier Than Ever",
-          "count": 24,
-          "first": 1788989714,
-          "last": 1793158724,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Billie Eilish",
-          "title": "everything i wanted",
-          "album": "everything i wanted",
-          "count": 23,
-          "first": 1789169386,
-          "last": 1793180579,
-          "playlists": {
-            "1default": 23
           }
         }
       ]
@@ -7272,6 +7272,27 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 39,
+      "first": 1789015368,
+      "last": 1793330497,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 39,
+          "first": 1789015368,
+          "last": 1793330497,
+          "playlists": {
+            "1default": 32,
+            "anti-capitalist weekday afternoon #1": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Chappell Roan",
       "album": "The Rise and Fall of a Midwest Princess",
       "count": 39,
@@ -7389,27 +7410,6 @@
       ]
     },
     {
-      "artist": "Lush",
-      "album": "Lovelife",
-      "count": 38,
-      "first": 1789015368,
-      "last": 1793313639,
-      "songs": [
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 38,
-          "first": 1789015368,
-          "last": 1793313639,
-          "playlists": {
-            "1default": 31,
-            "anti-capitalist weekday afternoon #1": 7
-          }
-        }
-      ]
-    },
-    {
       "artist": "Viagra Boys",
       "album": "Street Worms",
       "count": 38,
@@ -7434,9 +7434,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 8991,
+      "count": 8996,
       "first": 1788901564,
-      "last": 1793329546,
+      "last": 1793330691,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7450,6 +7450,17 @@
           }
         },
         {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 32,
+          "first": 1789015368,
+          "last": 1793330497,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
           "artist": "Metric",
           "title": "Dead Disco",
           "album": "Old World Underground, Where Are You Now?",
@@ -7458,17 +7469,6 @@
           "last": 1793311187,
           "playlists": {
             "1default": 32
-          }
-        },
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 31,
-          "first": 1789015368,
-          "last": 1793284124,
-          "playlists": {
-            "1default": 31
           }
         },
         {
