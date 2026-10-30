@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-30T05:52:38.976547+00:00",
+  "updatedAt": "2026-10-30T05:57:40.697888+00:00",
   "summary": {
-    "totalPlays": 19591,
+    "totalPlays": 19592,
     "unknownPlays": 1142,
     "uniqueTracks": 2624,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793339422
+    "lastObserved": 1793339663
   },
   "topSongs": [
     {
@@ -4063,10 +4063,21 @@
     },
     {
       "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
-      "count": 53,
+      "count": 54,
       "first": 1789102138,
-      "last": 1793337409,
+      "last": 1793339663,
       "songs": [
+        {
+          "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
+          "title": "Crowded Table",
+          "album": "The Highwomen",
+          "count": 14,
+          "first": 1789193635,
+          "last": 1793339663,
+          "playlists": {
+            "for the girls driving 85": 14
+          }
+        },
         {
           "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
           "title": "Redesigning Women",
@@ -4096,17 +4107,6 @@
           "count": 13,
           "first": 1789102138,
           "last": 1792826839,
-          "playlists": {
-            "for the girls driving 85": 13
-          }
-        },
-        {
-          "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
-          "title": "Crowded Table",
-          "album": "The Highwomen",
-          "count": 13,
-          "first": 1789193635,
-          "last": 1792824314,
           "playlists": {
             "for the girls driving 85": 13
           }
@@ -6387,44 +6387,23 @@
       ]
     },
     {
-      "artist": "Lil Darkie",
-      "album": "THIS DOES NOT EXIST",
-      "count": 54,
-      "first": 1789053695,
-      "last": 1793310560,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "wrap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 31,
-          "first": 1789053695,
-          "last": 1793196107,
-          "playlists": {
-            "1default": 28,
-            "steal my bike": 3
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "rap music",
-          "album": "THIS DOES NOT EXIST",
-          "count": 23,
-          "first": 1789217995,
-          "last": 1793310560,
-          "playlists": {
-            "1default": 23
-          }
-        }
-      ]
-    },
-    {
       "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
       "album": "The Highwomen",
-      "count": 53,
+      "count": 54,
       "first": 1789102138,
-      "last": 1793337409,
+      "last": 1793339663,
       "songs": [
+        {
+          "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
+          "title": "Crowded Table",
+          "album": "The Highwomen",
+          "count": 14,
+          "first": 1789193635,
+          "last": 1793339663,
+          "playlists": {
+            "for the girls driving 85": 14
+          }
+        },
         {
           "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
           "title": "Redesigning Women",
@@ -6457,16 +6436,37 @@
           "playlists": {
             "for the girls driving 85": 13
           }
+        }
+      ]
+    },
+    {
+      "artist": "Lil Darkie",
+      "album": "THIS DOES NOT EXIST",
+      "count": 54,
+      "first": 1789053695,
+      "last": 1793310560,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "wrap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 31,
+          "first": 1789053695,
+          "last": 1793196107,
+          "playlists": {
+            "1default": 28,
+            "steal my bike": 3
+          }
         },
         {
-          "artist": "The Highwomen, Brandi Carlile, Natalie Hemby, Maren Morris, Amanda Shires",
-          "title": "Crowded Table",
-          "album": "The Highwomen",
-          "count": 13,
-          "first": 1789193635,
-          "last": 1792824314,
+          "artist": "Lil Darkie",
+          "title": "rap music",
+          "album": "THIS DOES NOT EXIST",
+          "count": 23,
+          "first": 1789217995,
+          "last": 1793310560,
           "playlists": {
-            "for the girls driving 85": 13
+            "1default": 23
           }
         }
       ]
@@ -7707,9 +7707,9 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 643,
+      "count": 644,
       "first": 1789097452,
-      "last": 1793339422,
+      "last": 1793339663,
       "songs": [
         {
           "artist": "Mary Gauthier",
