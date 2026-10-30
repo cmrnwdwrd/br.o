@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-30T18:23:12.863785+00:00",
+  "updatedAt": "2026-10-30T18:28:08.571100+00:00",
   "summary": {
-    "totalPlays": 19774,
+    "totalPlays": 19776,
     "unknownPlays": 1142,
     "uniqueTracks": 2625,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793384324
+    "lastObserved": 1793384854
   },
   "topSongs": [
     {
@@ -2358,10 +2358,21 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 103,
+      "count": 104,
       "first": 1789147116,
-      "last": 1793383669,
+      "last": 1793384632,
       "songs": [
+        {
+          "artist": "Jack Johnson",
+          "title": "Sleep Through The Static",
+          "album": "Sleep Through The Static",
+          "count": 5,
+          "first": 1789147998,
+          "last": 1793384632,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 5
+          }
+        },
         {
           "artist": "Jack Johnson",
           "title": "Sunsets For Somebody Else",
@@ -2380,17 +2391,6 @@
           "count": 4,
           "first": 1789757837,
           "last": 1793380708,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 4
-          }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Sleep Through The Static",
-          "album": "Sleep Through The Static",
-          "count": 4,
-          "first": 1789147998,
-          "last": 1792176253,
           "playlists": {
             "jack johnson hackiesack friday afternoon": 4
           }
