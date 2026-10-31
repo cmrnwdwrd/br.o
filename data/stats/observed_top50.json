@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-31T13:57:46.204701+00:00",
+  "updatedAt": "2026-10-31T14:07:54.246853+00:00",
   "summary": {
-    "totalPlays": 20034,
+    "totalPlays": 20037,
     "unknownPlays": 1142,
     "uniqueTracks": 2625,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793455025
+    "lastObserved": 1793455651
   },
   "topSongs": [
     {
@@ -2773,10 +2773,21 @@
     },
     {
       "artist": "Psychedelic Porn Crumpets",
-      "count": 94,
+      "count": 95,
       "first": 1788915065,
-      "last": 1793442376,
+      "last": 1793455651,
       "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Mr. Prism",
+          "album": "Mr. Prism",
+          "count": 24,
+          "first": 1789168906,
+          "last": 1793455651,
+          "playlists": {
+            "1default": 24
+          }
+        },
         {
           "artist": "Psychedelic Porn Crumpets",
           "title": "Bill's Mandolin",
@@ -2806,17 +2817,6 @@
           "count": 23,
           "first": 1788915065,
           "last": 1793404422,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Mr. Prism",
-          "album": "Mr. Prism",
-          "count": 23,
-          "first": 1789168906,
-          "last": 1793154006,
           "playlists": {
             "1default": 23
           }
@@ -3547,6 +3547,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 70,
+      "first": 1788947368,
+      "last": 1793455217,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 24,
+          "first": 1788969485,
+          "last": 1793455217,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 24,
+          "first": 1788947368,
+          "last": 1793303702,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 22,
+          "first": 1789086174,
+          "last": 1793220592,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 70,
       "first": 1788975620,
@@ -3622,47 +3663,6 @@
           "count": 22,
           "first": 1789226629,
           "last": 1793161273,
-          "playlists": {
-            "1default": 22
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 69,
-      "first": 1788947368,
-      "last": 1793303702,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 24,
-          "first": 1788947368,
-          "last": 1793303702,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 23,
-          "first": 1788969485,
-          "last": 1793181834,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 22,
-          "first": 1789086174,
-          "last": 1793220592,
           "playlists": {
             "1default": 22
           }
@@ -5821,6 +5821,48 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "album": "Bad Habit",
+      "count": 70,
+      "first": 1788947368,
+      "last": 1793455217,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 24,
+          "first": 1788969485,
+          "last": 1793455217,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 24,
+          "first": 1788947368,
+          "last": 1793303702,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 22,
+          "first": 1789086174,
+          "last": 1793220592,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "album": "Jaguar Stevens",
       "count": 70,
@@ -5856,48 +5898,6 @@
           "count": 22,
           "first": 1789226001,
           "last": 1793451151,
-          "playlists": {
-            "1default": 22
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "album": "Bad Habit",
-      "count": 69,
-      "first": 1788947368,
-      "last": 1793303702,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 24,
-          "first": 1788947368,
-          "last": 1793303702,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 23,
-          "first": 1788969485,
-          "last": 1793181834,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 22,
-          "first": 1789086174,
-          "last": 1793220592,
           "playlists": {
             "1default": 22
           }
@@ -7573,9 +7573,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9155,
+      "count": 9158,
       "first": 1788901564,
-      "last": 1793455025,
+      "last": 1793455651,
       "songs": [
         {
           "artist": "Tele Novella",
