@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-31T13:37:42.895289+00:00",
+  "updatedAt": "2026-10-31T13:57:46.204701+00:00",
   "summary": {
-    "totalPlays": 20028,
+    "totalPlays": 20034,
     "unknownPlays": 1142,
     "uniqueTracks": 2625,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793453857
+    "lastObserved": 1793455025
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "The Palmer Squares",
+      "title": "Dip",
+      "album": "Planet of the Shapes",
+      "count": 26,
+      "first": 1788904525,
+      "last": 1793454425,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "U2",
       "title": "Pride (In The Name Of Love) - Remastered 2009",
       "album": "The Unforgettable Fire (Remastered)",
@@ -426,6 +437,28 @@
       "last": 1793321992,
       "playlists": {
         "1default": 26
+      }
+    },
+    {
+      "artist": "Gorillaz, ScHoolboy Q",
+      "title": "Pac-Man (feat. ScHoolboy Q)",
+      "album": "Song Machine Episode 5",
+      "count": 25,
+      "first": 1788901855,
+      "last": 1793455025,
+      "playlists": {
+        "1default": 25
+      }
+    },
+    {
+      "artist": "The Shivas",
+      "title": "You Make Me Wanna Die",
+      "album": "You Know What to Do",
+      "count": 25,
+      "first": 1788975450,
+      "last": 1793454092,
+      "playlists": {
+        "1default": 25
       }
     },
     {
@@ -556,39 +589,6 @@
       "count": 25,
       "first": 1788914421,
       "last": 1793446674,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "Sugarloaf",
-      "title": "West Of Tomorrow",
-      "album": "Sugarloaf",
-      "count": 25,
-      "first": 1788968800,
-      "last": 1793446190,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "KXLLSWXTCH, Powers Pleasant",
-      "title": "COSMO",
-      "album": "THE WALLS HAVE EYES",
-      "count": 25,
-      "first": 1789049117,
-      "last": 1793445625,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "JOSEPH",
-      "title": "Green Eyes",
-      "album": "Good Luck, Kid",
-      "count": 25,
-      "first": 1789070850,
-      "last": 1793445396,
       "playlists": {
         "1default": 25
       }
@@ -6804,6 +6804,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 47,
+      "first": 1789166634,
+      "last": 1793453891,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 24,
+          "first": 1789167660,
+          "last": 1793453891,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 23,
+          "first": 1789166634,
+          "last": 1793143979,
+          "playlists": {
+            "1default": 23
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "album": "Doolittle",
       "count": 47,
@@ -7058,37 +7089,6 @@
           "count": 23,
           "first": 1788920128,
           "last": 1793246154,
-          "playlists": {
-            "1default": 23
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 46,
-      "first": 1789166634,
-      "last": 1793143979,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 23,
-          "first": 1789166634,
-          "last": 1793143979,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 23,
-          "first": 1789167660,
-          "last": 1793131654,
           "playlists": {
             "1default": 23
           }
@@ -7573,9 +7573,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9149,
+      "count": 9155,
       "first": 1788901564,
-      "last": 1793453620,
+      "last": 1793455025,
       "songs": [
         {
           "artist": "Tele Novella",
