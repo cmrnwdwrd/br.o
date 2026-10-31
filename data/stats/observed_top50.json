@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-31T12:22:10.241286+00:00",
+  "updatedAt": "2026-10-31T12:32:11.457282+00:00",
   "summary": {
-    "totalPlays": 20011,
+    "totalPlays": 20014,
     "unknownPlays": 1142,
     "uniqueTracks": 2625,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793449279
+    "lastObserved": 1793449925
   },
   "topSongs": [
     {
@@ -429,6 +429,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "DISINTEGRATE",
+      "album": "SWAMP",
+      "count": 25,
+      "first": 1788983290,
+      "last": 1793449480,
+      "playlists": {
+        "1default": 25
+      }
+    },
+    {
       "artist": "Fine Young Cannibals",
       "title": "Good Thing",
       "album": "The Raw & The Cooked",
@@ -578,17 +589,6 @@
       "count": 25,
       "first": 1789062336,
       "last": 1793443910,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "Rilo Kiley",
-      "title": "Science Vs. Romance",
-      "album": "Take Offs And Landings",
-      "count": 25,
-      "first": 1788902251,
-      "last": 1793443360,
       "playlists": {
         "1default": 25
       }
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 377,
+      "count": 378,
       "first": 1788910325,
-      "last": 1793442156,
+      "last": 1793449480,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1103,6 +1103,17 @@
           "playlists": {
             "1default": 29,
             "steal my bike": 3
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 25,
+          "first": 1788983290,
+          "last": 1793449480,
+          "playlists": {
+            "1default": 25
           }
         },
         {
@@ -1145,17 +1156,6 @@
           "count": 24,
           "first": 1788926373,
           "last": 1793290881,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 24,
-          "first": 1788983290,
-          "last": 1793222939,
           "playlists": {
             "1default": 24
           }
@@ -5522,10 +5522,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 95,
+      "count": 96,
       "first": 1788926373,
-      "last": 1793328735,
+      "last": 1793449480,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 25,
+          "first": 1788983290,
+          "last": 1793449480,
+          "playlists": {
+            "1default": 25
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "LA LA UNDERBELLY",
@@ -5544,17 +5555,6 @@
           "count": 24,
           "first": 1788926373,
           "last": 1793290881,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 24,
-          "first": 1788983290,
-          "last": 1793222939,
           "playlists": {
             "1default": 24
           }
@@ -7573,9 +7573,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9133,
+      "count": 9136,
       "first": 1788901564,
-      "last": 1793449279,
+      "last": 1793449925,
       "songs": [
         {
           "artist": "Tele Novella",
