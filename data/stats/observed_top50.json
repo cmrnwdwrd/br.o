@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-31T07:22:12.401517+00:00",
+  "updatedAt": "2026-10-31T07:42:44.537652+00:00",
   "summary": {
-    "totalPlays": 19962,
+    "totalPlays": 19967,
     "unknownPlays": 1142,
     "uniqueTracks": 2625,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793431336
+    "lastObserved": 1793432511
   },
   "topSongs": [
     {
@@ -1426,9 +1426,9 @@
     },
     {
       "artist": "Mitski",
-      "count": 216,
+      "count": 217,
       "first": 1788920128,
-      "last": 1793429676,
+      "last": 1793431597,
       "songs": [
         {
           "artist": "Mitski",
@@ -1478,6 +1478,17 @@
         },
         {
           "artist": "Mitski",
+          "title": "A Horse Named Cold Air",
+          "album": "Be the Cowboy",
+          "count": 16,
+          "first": 1789097710,
+          "last": 1793431597,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
+        {
+          "artist": "Mitski",
           "title": "Star",
           "album": "The Land Is Inhospitable and So Are We",
           "count": 16,
@@ -1517,17 +1528,6 @@
           "count": 15,
           "first": 1789105519,
           "last": 1793424137,
-          "playlists": {
-            "for the girls driving 85": 15
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "A Horse Named Cold Air",
-          "album": "Be the Cowboy",
-          "count": 15,
-          "first": 1789097710,
-          "last": 1793339298,
           "playlists": {
             "for the girls driving 85": 15
           }
@@ -2240,10 +2240,21 @@
     },
     {
       "artist": "Florence + The Machine",
-      "count": 122,
+      "count": 123,
       "first": 1789098538,
-      "last": 1793429856,
+      "last": 1793431719,
       "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "Cassandra",
+          "album": "Dance Fever",
+          "count": 16,
+          "first": 1789101648,
+          "last": 1793431719,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
         {
           "artist": "Florence + The Machine",
           "title": "Falling",
@@ -2275,17 +2286,6 @@
           "last": 1793423911,
           "playlists": {
             "for the girls driving 85": 16
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Cassandra",
-          "album": "Dance Fever",
-          "count": 15,
-          "first": 1789101648,
-          "last": 1793422990,
-          "playlists": {
-            "for the girls driving 85": 15
           }
         },
         {
@@ -3670,51 +3670,10 @@
       ]
     },
     {
-      "artist": "hkmori",
-      "count": 63,
-      "first": 1788938854,
-      "last": 1793349730,
-      "songs": [
-        {
-          "artist": "hkmori",
-          "title": "anybody can find love (except you.)",
-          "album": "unrequited love",
-          "count": 21,
-          "first": 1789025449,
-          "last": 1793349730,
-          "playlists": {
-            "breakbeat": 21
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "lost",
-          "album": "unrequited love",
-          "count": 21,
-          "first": 1788938854,
-          "last": 1793348439,
-          "playlists": {
-            "breakbeat": 21
-          }
-        },
-        {
-          "artist": "hkmori",
-          "title": "re:titled",
-          "album": "unrequited love",
-          "count": 21,
-          "first": 1789018775,
-          "last": 1793259321,
-          "playlists": {
-            "breakbeat": 21
-          }
-        }
-      ]
-    },
-    {
       "artist": "Mary Gauthier",
-      "count": 62,
+      "count": 63,
       "first": 1789100539,
-      "last": 1793430070,
+      "last": 1793431975,
       "songs": [
         {
           "artist": "Mary Gauthier",
@@ -3753,11 +3712,52 @@
           "artist": "Mary Gauthier",
           "title": "I Drink",
           "album": "Drag Queens In Limousines",
-          "count": 14,
+          "count": 15,
           "first": 1789106484,
-          "last": 1793339872,
+          "last": 1793431975,
           "playlists": {
-            "for the girls driving 85": 14
+            "for the girls driving 85": 15
+          }
+        }
+      ]
+    },
+    {
+      "artist": "hkmori",
+      "count": 63,
+      "first": 1788938854,
+      "last": 1793349730,
+      "songs": [
+        {
+          "artist": "hkmori",
+          "title": "anybody can find love (except you.)",
+          "album": "unrequited love",
+          "count": 21,
+          "first": 1789025449,
+          "last": 1793349730,
+          "playlists": {
+            "breakbeat": 21
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "lost",
+          "album": "unrequited love",
+          "count": 21,
+          "first": 1788938854,
+          "last": 1793348439,
+          "playlists": {
+            "breakbeat": 21
+          }
+        },
+        {
+          "artist": "hkmori",
+          "title": "re:titled",
+          "album": "unrequited love",
+          "count": 21,
+          "first": 1789018775,
+          "last": 1793259321,
+          "playlists": {
+            "breakbeat": 21
           }
         }
       ]
@@ -4312,10 +4312,21 @@
     },
     {
       "artist": "The Chicks",
-      "count": 52,
+      "count": 53,
       "first": 1789045885,
-      "last": 1793430760,
+      "last": 1793432511,
       "songs": [
+        {
+          "artist": "The Chicks",
+          "title": "Cowboy Take Me Away",
+          "album": "Fly",
+          "count": 15,
+          "first": 1789106714,
+          "last": 1793432511,
+          "playlists": {
+            "for the girls driving 85": 15
+          }
+        },
         {
           "artist": "The Chicks",
           "title": "Wide Open Spaces",
@@ -4336,17 +4347,6 @@
           "last": 1793428060,
           "playlists": {
             "for the girls driving 85": 15
-          }
-        },
-        {
-          "artist": "The Chicks",
-          "title": "Cowboy Take Me Away",
-          "album": "Fly",
-          "count": 14,
-          "first": 1789106714,
-          "last": 1793340331,
-          "playlists": {
-            "for the girls driving 85": 14
           }
         },
         {
@@ -4884,31 +4884,42 @@
       ]
     },
     {
-      "artist": "Barrie",
+      "artist": "Kacey Musgraves",
       "count": 47,
-      "first": 1788912861,
-      "last": 1793402439,
+      "first": 1789098752,
+      "last": 1793432282,
       "songs": [
         {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 24,
-          "first": 1788912861,
-          "last": 1793402439,
+          "artist": "Kacey Musgraves",
+          "title": "I Miss You",
+          "album": "Same Trailer Different Park",
+          "count": 16,
+          "first": 1789098752,
+          "last": 1793432282,
           "playlists": {
-            "1default": 24
+            "for the girls driving 85": 16
           }
         },
         {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 23,
-          "first": 1788966960,
-          "last": 1793266774,
+          "artist": "Kacey Musgraves",
+          "title": "Deeper Well",
+          "album": "Deeper Well: Deeper into the Well",
+          "count": 16,
+          "first": 1789101906,
+          "last": 1793427826,
           "playlists": {
-            "1default": 23
+            "for the girls driving 85": 16
+          }
+        },
+        {
+          "artist": "Kacey Musgraves",
+          "title": "Silver Lining",
+          "album": "Same Trailer Different Park",
+          "count": 15,
+          "first": 1789106255,
+          "last": 1793430527,
+          "playlists": {
+            "for the girls driving 85": 15
           }
         }
       ]
@@ -5989,6 +6000,59 @@
       ]
     },
     {
+      "artist": "Florence + The Machine",
+      "album": "Dance Fever",
+      "count": 62,
+      "first": 1789099438,
+      "last": 1793431719,
+      "songs": [
+        {
+          "artist": "Florence + The Machine",
+          "title": "Cassandra",
+          "album": "Dance Fever",
+          "count": 16,
+          "first": 1789101648,
+          "last": 1793431719,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "My Love",
+          "album": "Dance Fever",
+          "count": 16,
+          "first": 1789099438,
+          "last": 1793426536,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Dream Girl Evil",
+          "album": "Dance Fever",
+          "count": 16,
+          "first": 1789101142,
+          "last": 1793423911,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Free",
+          "album": "Dance Fever",
+          "count": 14,
+          "first": 1789104727,
+          "last": 1793424650,
+          "playlists": {
+            "for the girls driving 85": 14
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ramones",
       "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
       "count": 62,
@@ -6016,59 +6080,6 @@
           "last": 1793155905,
           "playlists": {
             "1default": 23
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Florence + The Machine",
-      "album": "Dance Fever",
-      "count": 61,
-      "first": 1789099438,
-      "last": 1793426536,
-      "songs": [
-        {
-          "artist": "Florence + The Machine",
-          "title": "My Love",
-          "album": "Dance Fever",
-          "count": 16,
-          "first": 1789099438,
-          "last": 1793426536,
-          "playlists": {
-            "for the girls driving 85": 16
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Dream Girl Evil",
-          "album": "Dance Fever",
-          "count": 16,
-          "first": 1789101142,
-          "last": 1793423911,
-          "playlists": {
-            "for the girls driving 85": 16
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Cassandra",
-          "album": "Dance Fever",
-          "count": 15,
-          "first": 1789101648,
-          "last": 1793422990,
-          "playlists": {
-            "for the girls driving 85": 15
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Free",
-          "album": "Dance Fever",
-          "count": 14,
-          "first": 1789104727,
-          "last": 1793424650,
-          "playlists": {
-            "for the girls driving 85": 14
           }
         }
       ]
@@ -7825,10 +7836,43 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 688,
+      "count": 693,
       "first": 1789097452,
-      "last": 1793431336,
+      "last": 1793432511,
       "songs": [
+        {
+          "artist": "Kacey Musgraves",
+          "title": "I Miss You",
+          "album": "Same Trailer Different Park",
+          "count": 16,
+          "first": 1789098752,
+          "last": 1793432282,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
+        {
+          "artist": "Florence + The Machine",
+          "title": "Cassandra",
+          "album": "Dance Fever",
+          "count": 16,
+          "first": 1789101648,
+          "last": 1793431719,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "A Horse Named Cold Air",
+          "album": "Be the Cowboy",
+          "count": 16,
+          "first": 1789097710,
+          "last": 1793431597,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
         {
           "artist": "Ethel Cain",
           "title": "Crush",
@@ -7847,39 +7891,6 @@
           "count": 16,
           "first": 1789098011,
           "last": 1793430985,
-          "playlists": {
-            "for the girls driving 85": 16
-          }
-        },
-        {
-          "artist": "Carole King",
-          "title": "Time Gone By",
-          "album": "Touch the Sky",
-          "count": 16,
-          "first": 1789191307,
-          "last": 1793430272,
-          "playlists": {
-            "for the girls driving 85": 16
-          }
-        },
-        {
-          "artist": "Mary Gauthier",
-          "title": "The Sun Fades The Color Of Everything",
-          "album": "Filth & Fire",
-          "count": 16,
-          "first": 1789105172,
-          "last": 1793430070,
-          "playlists": {
-            "for the girls driving 85": 16
-          }
-        },
-        {
-          "artist": "Florence + The Machine",
-          "title": "Falling",
-          "album": "Lungs (Deluxe Edition)",
-          "count": 16,
-          "first": 1789098538,
-          "last": 1793429856,
           "playlists": {
             "for the girls driving 85": 16
           }
