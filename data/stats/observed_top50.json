@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-31T06:12:13.837254+00:00",
+  "updatedAt": "2026-10-31T06:22:43.212152+00:00",
   "summary": {
-    "totalPlays": 19944,
+    "totalPlays": 19946,
     "unknownPlays": 1142,
     "uniqueTracks": 2625,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793427033
+    "lastObserved": 1793427607
   },
   "topSongs": [
     {
@@ -3785,10 +3785,21 @@
     },
     {
       "artist": "Mary Gauthier",
-      "count": 60,
+      "count": 61,
       "first": 1789100539,
-      "last": 1793341779,
+      "last": 1793427311,
       "songs": [
+        {
+          "artist": "Mary Gauthier",
+          "title": "After You're Gone",
+          "album": "Filth & Fire",
+          "count": 16,
+          "first": 1789108098,
+          "last": 1793427311,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
         {
           "artist": "Mary Gauthier",
           "title": "Drag Queens In Limousines",
@@ -3807,17 +3818,6 @@
           "count": 15,
           "first": 1789105172,
           "last": 1793341779,
-          "playlists": {
-            "for the girls driving 85": 15
-          }
-        },
-        {
-          "artist": "Mary Gauthier",
-          "title": "After You're Gone",
-          "album": "Filth & Fire",
-          "count": 15,
-          "first": 1789108098,
-          "last": 1793334744,
           "playlists": {
             "for the girls driving 85": 15
           }
@@ -7825,10 +7825,32 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 670,
+      "count": 672,
       "first": 1789097452,
-      "last": 1793427033,
+      "last": 1793427607,
       "songs": [
+        {
+          "artist": "Carole King",
+          "title": "Good Mountain People",
+          "album": "Touch the Sky",
+          "count": 16,
+          "first": 1789194681,
+          "last": 1793427607,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
+        {
+          "artist": "Mary Gauthier",
+          "title": "After You're Gone",
+          "album": "Filth & Fire",
+          "count": 16,
+          "first": 1789108098,
+          "last": 1793427311,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
         {
           "artist": "Florence + The Machine",
           "title": "My Love",
@@ -7860,28 +7882,6 @@
           "last": 1793341186,
           "playlists": {
             "for the girls driving 85": 16
-          }
-        },
-        {
-          "artist": "Mary Gauthier",
-          "title": "Drag Queens In Limousines",
-          "album": "Drag Queens In Limousines",
-          "count": 16,
-          "first": 1789100539,
-          "last": 1793337620,
-          "playlists": {
-            "for the girls driving 85": 16
-          }
-        },
-        {
-          "artist": "Florence + The Machine, Jules Buckley",
-          "title": "Howl - BBC Proms at the Royal Albert Hall",
-          "album": "Symphony of Lungs - BBC Proms at the Royal Albert Hall",
-          "count": 15,
-          "first": 1789097452,
-          "last": 1793426160,
-          "playlists": {
-            "for the girls driving 85": 15
           }
         }
       ]
