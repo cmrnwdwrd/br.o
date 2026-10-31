@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-10-31T18:12:09.311305+00:00",
+  "updatedAt": "2026-10-31T18:17:15.143627+00:00",
   "summary": {
-    "totalPlays": 20104,
+    "totalPlays": 20106,
     "unknownPlays": 1142,
     "uniqueTracks": 2625,
     "uniqueArtists": 1670,
     "uniqueAlbums": 2152,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793470216
+    "lastObserved": 1793470631
   },
   "topSongs": [
     {
@@ -462,6 +462,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Little Plans",
+      "album": "WAR IN COLORADO!",
+      "count": 25,
+      "first": 1788970790,
+      "last": 1793470408,
+      "playlists": {
+        "1default": 25
+      }
+    },
+    {
       "artist": "Sexy Coyote",
       "title": "Dancing With Demons",
       "album": "Dancing With Demons",
@@ -578,17 +589,6 @@
       "count": 25,
       "first": 1789073755,
       "last": 1793457624,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "TRAP METAL",
-      "album": "TRAP METAL",
-      "count": 25,
-      "first": 1789063011,
-      "last": 1793456777,
       "playlists": {
         "1default": 25
       }
@@ -3278,6 +3278,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 74,
+      "first": 1788917230,
+      "last": 1793470408,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 26,
+          "first": 1788917230,
+          "last": 1793321992,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 25,
+          "first": 1788970790,
+          "last": 1793470408,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 23,
+          "first": 1789050580,
+          "last": 1793153125,
+          "playlists": {
+            "1default": 23
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 74,
       "first": 1788919863,
@@ -3460,47 +3501,6 @@
           "last": 1793366691,
           "playlists": {
             "hyperpop friday morning": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 73,
-      "first": 1788917230,
-      "last": 1793321992,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 26,
-          "first": 1788917230,
-          "last": 1793321992,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 24,
-          "first": 1788970790,
-          "last": 1793299363,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 23,
-          "first": 1789050580,
-          "last": 1793153125,
-          "playlists": {
-            "1default": 23
           }
         }
       ]
@@ -7605,9 +7605,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9207,
+      "count": 9209,
       "first": 1788901564,
-      "last": 1793470216,
+      "last": 1793470631,
       "songs": [
         {
           "artist": "Tele Novella",
