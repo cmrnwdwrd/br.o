@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T08:47:12.587712+00:00",
+  "updatedAt": "2026-10-31T09:27:11.170941+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 686,
+    "sessionCount": 687,
     "firstObserved": 1788901564,
-    "lastObserved": 1793434945
+    "lastObserved": 1793438035
   },
   "playlists": [
     {
@@ -15560,12 +15560,12 @@
     },
     {
       "playlist": "gg lofi",
-      "sessionCount": 12,
-      "playCount": 24,
+      "sessionCount": 13,
+      "playCount": 25,
       "firstObserved": 1789200947,
-      "lastObserved": 1793434945,
-      "typicalStartMinute": 157,
-      "typicalDurationMinutes": 76,
+      "lastObserved": 1793438035,
+      "typicalStartMinute": 160,
+      "typicalDurationMinutes": 69,
       "confidence": "High",
       "heatmapMinutes": [
         [
@@ -15702,7 +15702,7 @@
           0.0,
           0.0,
           333.8,
-          412.5,
+          444.7,
           219.7,
           0.0,
           0.0,
@@ -16255,10 +16255,10 @@
           93.8,
           120.0,
           120.0,
-          118.8,
-          105.0,
-          98.7,
-          90.0,
+          119.9,
+          120.0,
+          113.7,
+          91.1,
           90.0,
           72.6,
           49.0,
@@ -16574,7 +16574,7 @@
           0,
           0,
           8,
-          4,
+          5,
           0,
           0,
           0,
@@ -16626,13 +16626,19 @@
       "likelyWindows": [
         {
           "weekday": 5,
-          "sessions": 12,
-          "typicalStartMinute": 157,
-          "typicalDurationMinutes": 76,
+          "sessions": 13,
+          "typicalStartMinute": 160,
+          "typicalDurationMinutes": 69,
           "confidence": "High"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1793438035,
+          "end": 1793439967,
+          "durationMinutes": 32,
+          "playCount": 1
+        },
         {
           "start": 1793434945,
           "end": 1793438034,
