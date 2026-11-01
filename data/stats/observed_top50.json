@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-01T22:22:44.423655+00:00",
+  "updatedAt": "2026-11-01T22:52:47.301106+00:00",
   "summary": {
-    "totalPlays": 20590,
+    "totalPlays": 20597,
     "unknownPlays": 1142,
     "uniqueTracks": 2680,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793571768
+    "lastObserved": 1793573304
   },
   "topSongs": [
     {
@@ -1603,9 +1603,9 @@
     },
     {
       "artist": "Opium",
-      "count": 192,
+      "count": 193,
       "first": 1788927400,
-      "last": 1793547659,
+      "last": 1793572409,
       "songs": [
         {
           "artist": "Opium",
@@ -1627,6 +1627,17 @@
           "last": 1793320104,
           "playlists": {
             "1default": 25
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 24,
+          "first": 1789064095,
+          "last": 1793572409,
+          "playlists": {
+            "1default": 24
           }
         },
         {
@@ -1680,17 +1691,6 @@
           "count": 23,
           "first": 1788973540,
           "last": 1793397636,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 23,
-          "first": 1789064095,
-          "last": 1793306520,
           "playlists": {
             "1default": 23
           }
@@ -3279,6 +3279,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 75,
+      "first": 1788917230,
+      "last": 1793573304,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 26,
+          "first": 1788917230,
+          "last": 1793321992,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 25,
+          "first": 1788970790,
+          "last": 1793470408,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 24,
+          "first": 1789050580,
+          "last": 1793573304,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 75,
       "first": 1788973066,
@@ -3419,47 +3460,6 @@
           "last": 1793460594,
           "playlists": {
             "1default": 24
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 74,
-      "first": 1788917230,
-      "last": 1793470408,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 26,
-          "first": 1788917230,
-          "last": 1793321992,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 25,
-          "first": 1788970790,
-          "last": 1793470408,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 23,
-          "first": 1789050580,
-          "last": 1793153125,
-          "playlists": {
-            "1default": 23
           }
         }
       ]
@@ -4866,6 +4866,36 @@
       ]
     },
     {
+      "artist": "Barrie",
+      "count": 48,
+      "first": 1788912861,
+      "last": 1793572117,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 24,
+          "first": 1788966960,
+          "last": 1793572117,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 24,
+          "first": 1788912861,
+          "last": 1793402439,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "Olivia Rodrigo",
       "count": 48,
       "first": 1789057000,
@@ -4916,39 +4946,84 @@
           }
         }
       ]
-    },
+    }
+  ],
+  "topAlbums": [
     {
-      "artist": "David Bowie",
-      "count": 48,
-      "first": 1788912385,
-      "last": 1793568731,
+      "artist": "Opium",
+      "album": "PHANTOMS",
+      "count": 143,
+      "first": 1788927400,
+      "last": 1793572409,
       "songs": [
         {
-          "artist": "David Bowie",
-          "title": "I'm Afraid of Americans (V1)",
-          "album": "Legacy (Deluxe Edition)",
-          "count": 25,
-          "first": 1788912385,
-          "last": 1793568731,
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 24,
+          "first": 1789064095,
+          "last": 1793572409,
           "playlists": {
-            "1default": 25
+            "1default": 24
           }
         },
         {
-          "artist": "David Bowie",
-          "title": "Rebel Rebel - 2016 Remaster",
-          "album": "Diamond Dogs (2016 Remaster)",
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 24,
+          "first": 1789109880,
+          "last": 1793527744,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 24,
+          "first": 1788946866,
+          "last": 1793404923,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 24,
+          "first": 1788927400,
+          "last": 1793373848,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 24,
+          "first": 1789057319,
+          "last": 1793328459,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
           "count": 23,
-          "first": 1789129746,
-          "last": 1793451940,
+          "first": 1788973540,
+          "last": 1793397636,
           "playlists": {
             "1default": 23
           }
         }
       ]
-    }
-  ],
-  "topAlbums": [
+    },
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
@@ -5018,81 +5093,6 @@
           "count": 23,
           "first": 1789097184,
           "last": 1793398581,
-          "playlists": {
-            "1default": 23
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Opium",
-      "album": "PHANTOMS",
-      "count": 142,
-      "first": 1788927400,
-      "last": 1793527744,
-      "songs": [
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 24,
-          "first": 1789109880,
-          "last": 1793527744,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 24,
-          "first": 1788946866,
-          "last": 1793404923,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 24,
-          "first": 1788927400,
-          "last": 1793373848,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 24,
-          "first": 1789057319,
-          "last": 1793328459,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 23,
-          "first": 1788973540,
-          "last": 1793397636,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 23,
-          "first": 1789064095,
-          "last": 1793306520,
           "playlists": {
             "1default": 23
           }
@@ -7101,10 +7101,21 @@
     {
       "artist": "Jethro Tull",
       "album": "Stand Up",
-      "count": 46,
+      "count": 47,
       "first": 1788947080,
-      "last": 1793401519,
+      "last": 1793572680,
       "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 24,
+          "first": 1788968380,
+          "last": 1793572680,
+          "playlists": {
+            "1default": 24
+          }
+        },
         {
           "artist": "Jethro Tull",
           "title": "A New Day Yesterday",
@@ -7112,17 +7123,6 @@
           "count": 23,
           "first": 1788947080,
           "last": 1793401519,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 23,
-          "first": 1788968380,
-          "last": 1793283642,
           "playlists": {
             "1default": 23
           }
@@ -7649,9 +7649,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9315,
+      "count": 9322,
       "first": 1788901564,
-      "last": 1793571768,
+      "last": 1793573304,
       "songs": [
         {
           "artist": "Tele Novella",
