@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-01T20:57:40.907243+00:00",
+  "updatedAt": "2026-11-01T21:07:10.873594+00:00",
   "summary": {
-    "totalPlays": 20566,
+    "totalPlays": 20569,
     "unknownPlays": 1142,
     "uniqueTracks": 2680,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793566504
+    "lastObserved": 1793567134
   },
   "topSongs": [
     {
@@ -496,6 +496,17 @@
       }
     },
     {
+      "artist": "Your Neighbors",
+      "title": "Chicken",
+      "album": "Chicken",
+      "count": 25,
+      "first": 1789049221,
+      "last": 1793566735,
+      "playlists": {
+        "1default": 25
+      }
+    },
+    {
       "artist": "Dead Or Alive",
       "title": "You Spin Me Round (Like a Record)",
       "album": "Evolution: The Hits",
@@ -579,17 +590,6 @@
       "count": 25,
       "first": 1788928623,
       "last": 1793562052,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Brainsick",
-      "album": "Brainsick",
-      "count": 25,
-      "first": 1789063255,
-      "last": 1793547659,
       "playlists": {
         "1default": 25
       }
@@ -3518,6 +3518,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 72,
+      "first": 1788973998,
+      "last": 1793567134,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 25,
+          "first": 1788973998,
+          "last": 1793530623,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 24,
+          "first": 1789033065,
+          "last": 1793127032,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 23,
+          "first": 1789226629,
+          "last": 1793567134,
+          "playlists": {
+            "1default": 23
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 72,
       "first": 1788947368,
@@ -3554,47 +3595,6 @@
           "last": 1793526337,
           "playlists": {
             "1default": 23
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 71,
-      "first": 1788973998,
-      "last": 1793530623,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 25,
-          "first": 1788973998,
-          "last": 1793530623,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 24,
-          "first": 1789033065,
-          "last": 1793127032,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 22,
-          "first": 1789226629,
-          "last": 1793161273,
-          "playlists": {
-            "1default": 22
           }
         }
       ]
@@ -7628,9 +7628,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9291,
+      "count": 9294,
       "first": 1788901564,
-      "last": 1793566504,
+      "last": 1793567134,
       "songs": [
         {
           "artist": "Tele Novella",
