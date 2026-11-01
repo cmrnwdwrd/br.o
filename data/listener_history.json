@@ -1,7 +1,7 @@
 {
   "schemaVersion": 26,
-  "updatedAt": "2026-11-01T05:49:57.370073+00:00",
-  "lastSampleSource": "github-fallback",
+  "updatedAt": "2026-11-01T06:07:45.257146+00:00",
+  "lastSampleSource": "primary",
   "recentSamples": [
     {
       "timestamp": "2026-09-08T22:05:39.627769+00:00",
@@ -69596,6 +69596,11 @@
       "timestamp": "2026-11-01T05:49:57.370073+00:00",
       "listeners": 1,
       "source": "github-fallback"
+    },
+    {
+      "timestamp": "2026-11-01T06:07:45.257146+00:00",
+      "listeners": 1,
+      "source": "primary"
     }
   ],
   "samples": [
@@ -139192,14 +139197,19 @@
       "timestamp": "2026-11-01T05:49:57.370073+00:00",
       "listeners": 1,
       "source": "github-fallback"
+    },
+    {
+      "timestamp": "2026-11-01T06:07:45.257146+00:00",
+      "listeners": 1,
+      "source": "primary"
     }
   ],
   "dailySummaries": [],
   "hourBins": [
     {
       "hour": 0,
-      "sum": 659,
-      "count": 555,
+      "sum": 660,
+      "count": 556,
       "min": 1,
       "max": 4
     },
@@ -139390,6 +139400,6 @@
       "count": 236,
       "avg": 1.5889830508474576
     },
-    "daysRecorded": 54
+    "daysRecorded": 55
   }
 }
