@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-01T14:27:14.038132+00:00",
+  "updatedAt": "2026-11-01T14:47:16.577380+00:00",
   "summary": {
-    "totalPlays": 20471,
+    "totalPlays": 20476,
     "unknownPlays": 1142,
     "uniqueTracks": 2665,
     "uniqueArtists": 1691,
     "uniqueAlbums": 2182,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793543171
+    "lastObserved": 1793544279
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "THE KIDS ARE ALL RETARDED",
+      "album": "SWAMP",
+      "count": 25,
+      "first": 1788926373,
+      "last": 1793543504,
+      "playlists": {
+        "1default": 25
+      }
+    },
+    {
       "artist": "Sugs",
       "title": "PICTURESQUE",
       "album": "PICTURESQUE",
@@ -581,25 +592,14 @@
       "playlists": {
         "1default": 25
       }
-    },
-    {
-      "artist": "Orion Sun",
-      "title": "Ne Me Quitte Pas (Don't Leave Me)",
-      "album": "Hold Space For Me",
-      "count": 25,
-      "first": 1788985030,
-      "last": 1793496478,
-      "playlists": {
-        "1default": 25
-      }
     }
   ],
   "topArtists": [
     {
       "artist": "home alone.",
-      "count": 405,
+      "count": 406,
       "first": 1788929259,
-      "last": 1793543171,
+      "last": 1793543388,
       "songs": [
         {
           "artist": "home alone.",
@@ -966,6 +966,17 @@
         },
         {
           "artist": "home alone.",
+          "title": "simple",
+          "album": "ａｒｒｉｖａｌ．",
+          "count": 8,
+          "first": 1789305253,
+          "last": 1793543388,
+          "playlists": {
+            "home alone.": 8
+          }
+        },
+        {
+          "artist": "home alone.",
           "title": "wave after wave",
           "album": "ａｒｒｉｖａｌ．",
           "count": 8,
@@ -1054,17 +1065,6 @@
         },
         {
           "artist": "home alone.",
-          "title": "simple",
-          "album": "ａｒｒｉｖａｌ．",
-          "count": 7,
-          "first": 1789305253,
-          "last": 1792934002,
-          "playlists": {
-            "home alone.": 7
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "show off",
           "album": "ａｒｒｉｖａｌ．",
           "count": 6,
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 385,
+      "count": 386,
       "first": 1788910325,
-      "last": 1793525685,
+      "last": 1793543504,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1103,6 +1103,17 @@
           "playlists": {
             "1default": 29,
             "steal my bike": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 25,
+          "first": 1788926373,
+          "last": 1793543504,
+          "playlists": {
+            "1default": 25
           }
         },
         {
@@ -1189,17 +1200,6 @@
           "count": 24,
           "first": 1789058454,
           "last": 1793328735,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 24,
-          "first": 1788926373,
-          "last": 1793290881,
           "playlists": {
             "1default": 24
           }
@@ -5535,10 +5535,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 97,
+      "count": 98,
       "first": 1788926373,
-      "last": 1793512798,
+      "last": 1793543504,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 25,
+          "first": 1788926373,
+          "last": 1793543504,
+          "playlists": {
+            "1default": 25
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "DISINTEGRATE",
@@ -5571,91 +5582,15 @@
           "playlists": {
             "1default": 24
           }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 24,
-          "first": 1788926373,
-          "last": 1793290881,
-          "playlists": {
-            "1default": 24
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "The Land Is Inhospitable and So Are We",
-      "count": 87,
-      "first": 1789102597,
-      "last": 1793530270,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "My Love Mine All Mine",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 28,
-          "first": 1789130394,
-          "last": 1793530270,
-          "playlists": {
-            "1default": 26,
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Star",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 16,
-          "first": 1789192334,
-          "last": 1793429676,
-          "playlists": {
-            "for the girls driving 85": 16
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "The Frost",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 15,
-          "first": 1789105519,
-          "last": 1793424137,
-          "playlists": {
-            "for the girls driving 85": 15
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Bug Like an Angel",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 14,
-          "first": 1789102597,
-          "last": 1793425380,
-          "playlists": {
-            "for the girls driving 85": 14
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Buffalo Replaced",
-          "album": "The Land Is Inhospitable and So Are We",
-          "count": 14,
-          "first": 1789107530,
-          "last": 1793423290,
-          "playlists": {
-            "for the girls driving 85": 14
-          }
         }
       ]
     },
     {
       "artist": "home alone.",
       "album": "ａｒｒｉｖａｌ．",
-      "count": 86,
+      "count": 87,
       "first": 1789304440,
-      "last": 1793543171,
+      "last": 1793543388,
       "songs": [
         {
           "artist": "home alone.",
@@ -5666,6 +5601,17 @@
           "last": 1793543171,
           "playlists": {
             "home alone.": 9
+          }
+        },
+        {
+          "artist": "home alone.",
+          "title": "simple",
+          "album": "ａｒｒｉｖａｌ．",
+          "count": 8,
+          "first": 1789305253,
+          "last": 1793543388,
+          "playlists": {
+            "home alone.": 8
           }
         },
         {
@@ -5758,17 +5704,6 @@
         },
         {
           "artist": "home alone.",
-          "title": "simple",
-          "album": "ａｒｒｉｖａｌ．",
-          "count": 7,
-          "first": 1789305253,
-          "last": 1792934002,
-          "playlists": {
-            "home alone.": 7
-          }
-        },
-        {
-          "artist": "home alone.",
           "title": "show off",
           "album": "ａｒｒｉｖａｌ．",
           "count": 6,
@@ -5787,6 +5722,71 @@
           "last": 1793541760,
           "playlists": {
             "home alone.": 6
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Mitski",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 87,
+      "first": 1789102597,
+      "last": 1793530270,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "My Love Mine All Mine",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 28,
+          "first": 1789130394,
+          "last": 1793530270,
+          "playlists": {
+            "1default": 26,
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Star",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 16,
+          "first": 1789192334,
+          "last": 1793429676,
+          "playlists": {
+            "for the girls driving 85": 16
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "The Frost",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 15,
+          "first": 1789105519,
+          "last": 1793424137,
+          "playlists": {
+            "for the girls driving 85": 15
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Bug Like an Angel",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 14,
+          "first": 1789102597,
+          "last": 1793425380,
+          "playlists": {
+            "for the girls driving 85": 14
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Buffalo Replaced",
+          "album": "The Land Is Inhospitable and So Are We",
+          "count": 14,
+          "first": 1789107530,
+          "last": 1793423290,
+          "playlists": {
+            "for the girls driving 85": 14
           }
         }
       ]
@@ -7618,9 +7618,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9265,
+      "count": 9266,
       "first": 1788901564,
-      "last": 1793532469,
+      "last": 1793543504,
       "songs": [
         {
           "artist": "Tele Novella",
