@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-01T15:32:16.427842+00:00",
+  "updatedAt": "2026-11-01T15:52:28.866956+00:00",
   "summary": {
-    "totalPlays": 20486,
+    "totalPlays": 20490,
     "unknownPlays": 1142,
     "uniqueTracks": 2665,
     "uniqueArtists": 1691,
     "uniqueAlbums": 2182,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793546951
+    "lastObserved": 1793548134
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 25,
+      "first": 1789063255,
+      "last": 1793547659,
+      "playlists": {
+        "1default": 25
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "THE KIDS ARE ALL RETARDED",
       "album": "SWAMP",
@@ -578,17 +589,6 @@
       "count": 25,
       "first": 1788911174,
       "last": 1793528424,
-      "playlists": {
-        "1default": 25
-      }
-    },
-    {
-      "artist": "HEALTH, Nine Inch Nails",
-      "title": "ISN'T EVERYONE",
-      "album": "ISN'T EVERYONE",
-      "count": 25,
-      "first": 1788967539,
-      "last": 1793496988,
       "playlists": {
         "1default": 25
       }
@@ -1602,10 +1602,21 @@
     },
     {
       "artist": "Opium",
-      "count": 191,
+      "count": 192,
       "first": 1788927400,
-      "last": 1793527744,
+      "last": 1793547659,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 25,
+          "first": 1789063255,
+          "last": 1793547659,
+          "playlists": {
+            "1default": 25
+          }
+        },
         {
           "artist": "Opium",
           "title": "Dirge",
@@ -1657,17 +1668,6 @@
           "count": 24,
           "first": 1789057319,
           "last": 1793328459,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 24,
-          "first": 1789063255,
-          "last": 1793130100,
           "playlists": {
             "1default": 24
           }
@@ -7618,9 +7618,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9266,
+      "count": 9267,
       "first": 1788901564,
-      "last": 1793543504,
+      "last": 1793547659,
       "songs": [
         {
           "artist": "Tele Novella",
