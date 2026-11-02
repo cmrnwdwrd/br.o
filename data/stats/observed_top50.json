@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-02T18:42:17.693233+00:00",
+  "updatedAt": "2026-11-02T18:48:15.407251+00:00",
   "summary": {
-    "totalPlays": 20930,
+    "totalPlays": 20932,
     "unknownPlays": 1142,
     "uniqueTracks": 2683,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793644818
+    "lastObserved": 1793645200
   },
   "topSongs": [
     {
@@ -450,6 +450,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 26,
+      "first": 1788919285,
+      "last": 1793645200,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Sweet Pill",
       "title": "Blood",
       "album": "Where the Heart Is",
@@ -577,17 +588,6 @@
       "count": 26,
       "first": 1789033065,
       "last": 1793638899,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "The Dandy Warhols",
-      "title": "Bohemian Like You",
-      "album": "Thirteen Tales From Urban Bohemia",
-      "count": 26,
-      "first": 1788989503,
-      "last": 1793638686,
       "playlists": {
         "1default": 26
       }
@@ -4425,6 +4425,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 54,
+      "first": 1788919285,
+      "last": 1793645200,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 26,
+          "first": 1788919285,
+          "last": 1793645200,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 25,
+          "first": 1788975084,
+          "last": 1793495266,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 3,
+          "first": 1789893243,
+          "last": 1792916720,
+          "playlists": {
+            "christmas rn": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Chicks",
       "count": 54,
       "first": 1789045885,
@@ -4536,47 +4577,6 @@
           "last": 1791081977,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 53,
-      "first": 1788919285,
-      "last": 1793495266,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 25,
-          "first": 1788975084,
-          "last": 1793495266,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 25,
-          "first": 1788919285,
-          "last": 1793320944,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 3,
-          "first": 1789893243,
-          "last": 1792916720,
-          "playlists": {
-            "christmas rn": 3
           }
         }
       ]
@@ -7636,9 +7636,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9548,
+      "count": 9550,
       "first": 1788901564,
-      "last": 1793644818,
+      "last": 1793645200,
       "songs": [
         {
           "artist": "Tele Novella",
