@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-02T18:23:14.534092+00:00",
+  "updatedAt": "2026-11-02T18:28:14.210259+00:00",
   "summary": {
-    "totalPlays": 20924,
+    "totalPlays": 20926,
     "unknownPlays": 1142,
     "uniqueTracks": 2683,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793643712
+    "lastObserved": 1793644074
   },
   "topSongs": [
     {
@@ -450,6 +450,28 @@
       }
     },
     {
+      "artist": "Bad Bad Hats",
+      "title": "Walkman",
+      "album": "Walkman",
+      "count": 26,
+      "first": 1788963606,
+      "last": 1793644074,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "THE KIDS ARE ALL RETARDED",
+      "album": "SWAMP",
+      "count": 26,
+      "first": 1788926373,
+      "last": 1793643959,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Kai Straw",
       "title": "Don't Tread on Me",
       "album": "Toothpick",
@@ -566,28 +588,6 @@
       "count": 26,
       "first": 1788927733,
       "last": 1793636020,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "gettingyoutobelieve",
-      "album": "pear",
-      "count": 26,
-      "first": 1788920755,
-      "last": 1793634630,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Radiohead",
-      "title": "If You Say the Word",
-      "album": "If You Say the Word",
-      "count": 26,
-      "first": 1789033884,
-      "last": 1793634139,
       "playlists": {
         "1default": 26
       }
@@ -1088,9 +1088,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 393,
+      "count": 394,
       "first": 1788910325,
-      "last": 1793616380,
+      "last": 1793643959,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1102,6 +1102,17 @@
           "playlists": {
             "1default": 29,
             "steal my bike": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 26,
+          "first": 1788926373,
+          "last": 1793643959,
+          "playlists": {
+            "1default": 26
           }
         },
         {
@@ -1133,17 +1144,6 @@
           "count": 25,
           "first": 1789217995,
           "last": 1793589621,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 25,
-          "first": 1788926373,
-          "last": 1793543504,
           "playlists": {
             "1default": 25
           }
@@ -5422,6 +5422,59 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "SWAMP",
+      "count": 99,
+      "first": 1788926373,
+      "last": 1793643959,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE KIDS ARE ALL RETARDED",
+          "album": "SWAMP",
+          "count": 26,
+          "first": 1788926373,
+          "last": 1793643959,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "DISINTEGRATE",
+          "album": "SWAMP",
+          "count": 25,
+          "first": 1788983290,
+          "last": 1793449480,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 24,
+          "first": 1789057548,
+          "last": 1793512798,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "LA LA UNDERBELLY",
+          "album": "SWAMP",
+          "count": 24,
+          "first": 1789058454,
+          "last": 1793328735,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "home alone.",
       "album": "all killer, no filler",
       "count": 99,
@@ -5536,59 +5589,6 @@
           "last": 1793077209,
           "playlists": {
             "more home alone": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "SWAMP",
-      "count": 98,
-      "first": 1788926373,
-      "last": 1793543504,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "THE KIDS ARE ALL RETARDED",
-          "album": "SWAMP",
-          "count": 25,
-          "first": 1788926373,
-          "last": 1793543504,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "DISINTEGRATE",
-          "album": "SWAMP",
-          "count": 25,
-          "first": 1788983290,
-          "last": 1793449480,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 24,
-          "first": 1789057548,
-          "last": 1793512798,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "LA LA UNDERBELLY",
-          "album": "SWAMP",
-          "count": 24,
-          "first": 1789058454,
-          "last": 1793328735,
-          "playlists": {
-            "1default": 24
           }
         }
       ]
@@ -7626,9 +7626,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9542,
+      "count": 9544,
       "first": 1788901564,
-      "last": 1793643712,
+      "last": 1793644074,
       "songs": [
         {
           "artist": "Tele Novella",
