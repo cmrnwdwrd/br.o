@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-02T21:57:14.270006+00:00",
+  "updatedAt": "2026-11-02T22:03:14.840340+00:00",
   "summary": {
-    "totalPlays": 20980,
+    "totalPlays": 20982,
     "unknownPlays": 1142,
     "uniqueTracks": 2683,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793656451
+    "lastObserved": 1793656842
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Sexy Coyote",
+      "title": "Run, Rabbit, Run",
+      "album": "Dead",
+      "count": 26,
+      "first": 1788921570,
+      "last": 1793656840,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Atom Son of Man",
       "title": "Hold Me",
       "album": "1's a Man, 3's a Band",
@@ -578,17 +589,6 @@
       "count": 26,
       "first": 1788927095,
       "last": 1793649331,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Black Sheep",
-      "title": "The Choice Is Yours (Revisited)",
-      "album": "A Wolf In Sheep's Clothing",
-      "count": 26,
-      "first": 1789062768,
-      "last": 1793647931,
       "playlists": {
         "1default": 26
       }
@@ -2825,10 +2825,21 @@
     },
     {
       "artist": "Sexy Coyote",
-      "count": 99,
+      "count": 100,
       "first": 1788917492,
-      "last": 1793656240,
+      "last": 1793656840,
       "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 26,
+          "first": 1788921570,
+          "last": 1793656840,
+          "playlists": {
+            "1default": 26
+          }
+        },
         {
           "artist": "Sexy Coyote",
           "title": "Dancing With Demons",
@@ -2838,17 +2849,6 @@
           "last": 1793577382,
           "playlists": {
             "1default": 26
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 25,
-          "first": 1788921570,
-          "last": 1793656240,
-          "playlists": {
-            "1default": 25
           }
         },
         {
@@ -5887,19 +5887,19 @@
     {
       "artist": "Sexy Coyote",
       "album": "Dead",
-      "count": 73,
+      "count": 74,
       "first": 1788917492,
-      "last": 1793656240,
+      "last": 1793656840,
       "songs": [
         {
           "artist": "Sexy Coyote",
           "title": "Run, Rabbit, Run",
           "album": "Dead",
-          "count": 25,
+          "count": 26,
           "first": 1788921570,
-          "last": 1793656240,
+          "last": 1793656840,
           "playlists": {
-            "1default": 25
+            "1default": 26
           }
         },
         {
@@ -7637,9 +7637,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9598,
+      "count": 9600,
       "first": 1788901564,
-      "last": 1793656451,
+      "last": 1793656842,
       "songs": [
         {
           "artist": "Tele Novella",
