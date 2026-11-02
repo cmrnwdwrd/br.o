@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T06:52:43.056128+00:00",
+  "updatedAt": "2026-11-02T07:22:45.661101+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 711,
+    "sessionCount": 713,
     "firstObserved": 1788901564,
-    "lastObserved": 1793599980
+    "lastObserved": 1793603740
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 264,
-      "playCount": 9433,
+      "sessionCount": 265,
+      "playCount": 9434,
       "firstObserved": 1788901564,
-      "lastObserved": 1793561450,
-      "typicalStartMinute": 385,
-      "typicalDurationMinutes": 47,
+      "lastObserved": 1793603550,
+      "typicalStartMinute": 378,
+      "typicalDurationMinutes": 46,
       "confidence": "Low",
       "heatmapMinutes": [
         [
-          3.0,
+          6.1,
           303.5,
           420.0,
           420.0,
@@ -205,8 +205,8 @@
       ],
       "quarterHeatmapMinutes": [
         [
-          2.5,
-          0.5,
+          5.0,
+          1.1,
           0.0,
           0.0,
           0.2,
@@ -893,7 +893,7 @@
       ],
       "startHeatmap": [
         [
-          1,
+          2,
           7,
           0,
           0,
@@ -1078,8 +1078,8 @@
       "likelyWindows": [
         {
           "weekday": 0,
-          "sessions": 22,
-          "typicalStartMinute": 97,
+          "sessions": 23,
+          "typicalStartMinute": 79,
           "typicalDurationMinutes": 316,
           "confidence": "Low"
         },
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1793603550,
+          "end": 1793603740,
+          "durationMinutes": 3,
+          "playCount": 1
+        },
         {
           "start": 1793561450,
           "end": 1793599979,
@@ -1240,12 +1246,6 @@
           "end": 1793268050,
           "durationMinutes": 30,
           "playCount": 8
-        },
-        {
-          "start": 1793243925,
-          "end": 1793249220,
-          "durationMinutes": 88,
-          "playCount": 24
         }
       ]
     },
@@ -9695,7 +9695,7 @@
     {
       "playlist": "EPL4a",
       "sessionCount": 16,
-      "playCount": 339,
+      "playCount": 345,
       "firstObserved": 1788930925,
       "lastObserved": 1793599980,
       "typicalStartMinute": 1393,
@@ -9703,7 +9703,7 @@
       "confidence": "High",
       "heatmapMinutes": [
         [
-          98.7,
+          111.2,
           0.0,
           0.0,
           0.0,
@@ -9882,12 +9882,12 @@
           0.0,
           0.0,
           0.0,
-          371.0
+          375.8
         ]
       ],
       "quarterHeatmapMinutes": [
         [
-          98.6,
+          111.1,
           0.1,
           0.0,
           0.0,
@@ -10570,7 +10570,7 @@
           15.8,
           120.0,
           120.0,
-          115.2
+          120.0
         ]
       ],
       "startHeatmap": [
@@ -10776,9 +10776,9 @@
       "recentSessions": [
         {
           "start": 1793599980,
-          "end": 1793602511,
-          "durationMinutes": 42,
-          "playCount": 16
+          "end": 1793603550,
+          "durationMinutes": 60,
+          "playCount": 22
         },
         {
           "start": 1793164282,
@@ -12082,16 +12082,16 @@
     },
     {
       "playlist": "UPBEAT HPOP",
-      "sessionCount": 15,
-      "playCount": 237,
+      "sessionCount": 16,
+      "playCount": 240,
       "firstObserved": 1788934494,
-      "lastObserved": 1793168032,
+      "lastObserved": 1793603740,
       "typicalStartMinute": 14,
       "typicalDurationMinutes": 62,
       "confidence": "High",
       "heatmapMinutes": [
         [
-          317.1,
+          326.3,
           116.5,
           0.0,
           0.0,
@@ -12276,7 +12276,7 @@
       "quarterHeatmapMinutes": [
         [
           2.7,
-          104.4,
+          113.6,
           105.0,
           105.0,
           104.8,
@@ -12963,7 +12963,7 @@
       ],
       "startHeatmap": [
         [
-          7,
+          8,
           0,
           0,
           0,
@@ -13148,7 +13148,7 @@
       "likelyWindows": [
         {
           "weekday": 0,
-          "sessions": 7,
+          "sessions": 8,
           "typicalStartMinute": 14,
           "typicalDurationMinutes": 62,
           "confidence": "High"
@@ -13162,6 +13162,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1793603740,
+          "end": 1793604293,
+          "durationMinutes": 9,
+          "playCount": 3
+        },
         {
           "start": 1793168032,
           "end": 1793171759,
