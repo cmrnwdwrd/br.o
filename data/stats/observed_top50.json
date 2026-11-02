@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-02T19:27:16.621092+00:00",
+  "updatedAt": "2026-11-02T19:32:19.852430+00:00",
   "summary": {
-    "totalPlays": 20942,
+    "totalPlays": 20944,
     "unknownPlays": 1142,
     "uniqueTracks": 2683,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793647535
+    "lastObserved": 1793647931
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Black Sheep",
+      "title": "The Choice Is Yours (Revisited)",
+      "album": "A Wolf In Sheep's Clothing",
+      "count": 26,
+      "first": 1789062768,
+      "last": 1793647931,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "clipping., Daveed Diggs, Jonathan Snipes, William Hutson",
       "title": "Keep Pushing",
       "album": "Change the Channel",
@@ -578,17 +589,6 @@
       "count": 26,
       "first": 1788926373,
       "last": 1793643959,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Kai Straw",
-      "title": "Don't Tread on Me",
-      "album": "Toothpick",
-      "count": 26,
-      "first": 1788985765,
-      "last": 1793643445,
       "playlists": {
         "1default": 26
       }
@@ -3641,9 +3641,9 @@
     },
     {
       "artist": "Jaguar Stevens",
-      "count": 71,
+      "count": 72,
       "first": 1788975620,
-      "last": 1793637400,
+      "last": 1793647795,
       "songs": [
         {
           "artist": "Jaguar Stevens",
@@ -3660,11 +3660,11 @@
           "artist": "Jaguar Stevens",
           "title": "Capital Lie",
           "album": "Jaguar Stevens",
-          "count": 23,
+          "count": 24,
           "first": 1789209975,
-          "last": 1793397910,
+          "last": 1793647795,
           "playlists": {
-            "1default": 23
+            "1default": 24
           }
         },
         {
@@ -5885,6 +5885,48 @@
       ]
     },
     {
+      "artist": "Jaguar Stevens",
+      "album": "Jaguar Stevens",
+      "count": 72,
+      "first": 1788975620,
+      "last": 1793647795,
+      "songs": [
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Dying Dance",
+          "album": "Jaguar Stevens",
+          "count": 26,
+          "first": 1788975620,
+          "last": 1793637400,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Capital Lie",
+          "album": "Jaguar Stevens",
+          "count": 24,
+          "first": 1789209975,
+          "last": 1793647795,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "All the Things He Said",
+          "album": "Jaguar Stevens",
+          "count": 22,
+          "first": 1789226001,
+          "last": 1793451151,
+          "playlists": {
+            "1default": 22
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "album": "Dead",
       "count": 72,
@@ -5922,48 +5964,6 @@
           "last": 1793591836,
           "playlists": {
             "1default": 23
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "album": "Jaguar Stevens",
-      "count": 71,
-      "first": 1788975620,
-      "last": 1793637400,
-      "songs": [
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Dying Dance",
-          "album": "Jaguar Stevens",
-          "count": 26,
-          "first": 1788975620,
-          "last": 1793637400,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Capital Lie",
-          "album": "Jaguar Stevens",
-          "count": 23,
-          "first": 1789209975,
-          "last": 1793397910,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "All the Things He Said",
-          "album": "Jaguar Stevens",
-          "count": 22,
-          "first": 1789226001,
-          "last": 1793451151,
-          "playlists": {
-            "1default": 22
           }
         }
       ]
@@ -7637,9 +7637,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9560,
+      "count": 9562,
       "first": 1788901564,
-      "last": 1793647535,
+      "last": 1793647931,
       "songs": [
         {
           "artist": "Tele Novella",
