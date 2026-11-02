@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-02T16:57:16.194049+00:00",
+  "updatedAt": "2026-11-02T17:07:45.011420+00:00",
   "summary": {
-    "totalPlays": 20902,
+    "totalPlays": 20905,
     "unknownPlays": 1142,
     "uniqueTracks": 2682,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793638540
+    "lastObserved": 1793639087
   },
   "topSongs": [
     {
@@ -450,6 +450,28 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 26,
+      "first": 1789033065,
+      "last": 1793638899,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
+      "artist": "The Dandy Warhols",
+      "title": "Bohemian Like You",
+      "album": "Thirteen Tales From Urban Bohemia",
+      "count": 26,
+      "first": 1788989503,
+      "last": 1793638686,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Jaguar Stevens",
       "title": "Dying Dance",
       "album": "Jaguar Stevens",
@@ -566,28 +588,6 @@
       "count": 26,
       "first": 1788914421,
       "last": 1793614420,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "NO CHANCE!",
-      "title": "I Wanna Be Your Man",
-      "album": "I Wanna Be Your Man",
-      "count": 26,
-      "first": 1788986942,
-      "last": 1793614237,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Yumi Zouma",
-      "title": "Right Track / Wrong Man",
-      "album": "Truth or Consequences",
-      "count": 26,
-      "first": 1789057143,
-      "last": 1793613871,
       "playlists": {
         "1default": 26
       }
@@ -3463,6 +3463,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 74,
+      "first": 1788973998,
+      "last": 1793638899,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 26,
+          "first": 1789033065,
+          "last": 1793638899,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 25,
+          "first": 1788973998,
+          "last": 1793530623,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 23,
+          "first": 1789226629,
+          "last": 1793567134,
+          "playlists": {
+            "1default": 23
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 74,
       "first": 1788965724,
@@ -3540,47 +3581,6 @@
           "last": 1793342269,
           "playlists": {
             "1default": 22
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 73,
-      "first": 1788973998,
-      "last": 1793574115,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 25,
-          "first": 1789033065,
-          "last": 1793574115,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 25,
-          "first": 1788973998,
-          "last": 1793530623,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 23,
-          "first": 1789226629,
-          "last": 1793567134,
-          "playlists": {
-            "1default": 23
           }
         }
       ]
@@ -7626,9 +7626,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9521,
+      "count": 9524,
       "first": 1788901564,
-      "last": 1793638540,
+      "last": 1793639087,
       "songs": [
         {
           "artist": "Tele Novella",
