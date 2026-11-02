@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-02T21:18:12.025654+00:00",
+  "updatedAt": "2026-11-02T21:22:15.122614+00:00",
   "summary": {
-    "totalPlays": 20969,
+    "totalPlays": 20971,
     "unknownPlays": 1142,
     "uniqueTracks": 2683,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793654100
+    "lastObserved": 1793654512
   },
   "topSongs": [
     {
@@ -218,6 +218,18 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 32,
+      "first": 1789063640,
+      "last": 1793654305,
+      "playlists": {
+        "1default": 29,
+        "landlockd surfrock": 3
+      }
+    },
+    {
       "artist": "Nat & Alex Wolff",
       "title": "Rollin' Around",
       "album": "Public Places",
@@ -251,18 +263,6 @@
       "playlists": {
         "1default": 28,
         "texting your situationship": 3
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 31,
-      "first": 1789063640,
-      "last": 1793362609,
-      "playlists": {
-        "1default": 28,
-        "landlockd surfrock": 3
       }
     },
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Franz Ferdinand",
+      "title": "Billy Goodbye",
+      "album": "Billy Goodbye",
+      "count": 26,
+      "first": 1789014639,
+      "last": 1793654512,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Tems, Brent Faiyaz",
       "title": "Found (feat. Brent Faiyaz)",
       "album": "Found (feat. Brent Faiyaz)",
@@ -578,17 +589,6 @@
       "count": 26,
       "first": 1788925926,
       "last": 1793646653,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Mystee",
-      "title": "hard candy",
-      "album": "hard candy",
-      "count": 26,
-      "first": 1788915475,
-      "last": 1793646469,
       "playlists": {
         "1default": 26
       }
@@ -4124,6 +4124,37 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 57,
+      "first": 1788973386,
+      "last": 1793654305,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 32,
+          "first": 1789063640,
+          "last": 1793654305,
+          "playlists": {
+            "1default": 29,
+            "landlockd surfrock": 3
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 25,
+          "first": 1788973386,
+          "last": 1793633001,
+          "playlists": {
+            "1default": 25
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 57,
       "first": 1788914421,
@@ -4245,37 +4276,6 @@
           "last": 1793390604,
           "playlists": {
             "escaping from cu boulder by giselle": 6
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 56,
-      "first": 1788973386,
-      "last": 1793633001,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 31,
-          "first": 1789063640,
-          "last": 1793362609,
-          "playlists": {
-            "1default": 28,
-            "landlockd surfrock": 3
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 25,
-          "first": 1788973386,
-          "last": 1793633001,
-          "playlists": {
-            "1default": 25
           }
         }
       ]
@@ -7637,9 +7637,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9587,
+      "count": 9589,
       "first": 1788901564,
-      "last": 1793654100,
+      "last": 1793654512,
       "songs": [
         {
           "artist": "Tele Novella",
