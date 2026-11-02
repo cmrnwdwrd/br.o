@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-02T08:07:44.126560+00:00",
+  "updatedAt": "2026-11-02T08:17:47.052406+00:00",
   "summary": {
-    "totalPlays": 20754,
+    "totalPlays": 20757,
     "unknownPlays": 1142,
     "uniqueTracks": 2680,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793606784
+    "lastObserved": 1793607465
   },
   "topSongs": [
     {
@@ -362,6 +362,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 27,
+      "first": 1788917230,
+      "last": 1793607259,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "Vampire Weekend",
       "title": "How Long?",
       "album": "Father of the Bride",
@@ -414,6 +425,17 @@
       "last": 1793444510,
       "playlists": {
         "1default": 27
+      }
+    },
+    {
+      "artist": "Jelani Aryeh",
+      "title": "Stella Brown",
+      "album": "I've Got Some Living To Do",
+      "count": 26,
+      "first": 1788918760,
+      "last": 1793607465,
+      "playlists": {
+        "1default": 26
       }
     },
     {
@@ -566,28 +588,6 @@
       "count": 26,
       "first": 1788986031,
       "last": 1793588029,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "John Grant",
-      "title": "It Doesn't Matter to Him",
-      "album": "Pale Green Ghosts",
-      "count": 26,
-      "first": 1788964915,
-      "last": 1793585671,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "The Smashing Pumpkins",
-      "title": "Beautiful - Remastered 2012",
-      "album": "Mellon Collie And The Infinite Sadness (Remastered)",
-      "count": 26,
-      "first": 1789095484,
-      "last": 1793585364,
       "playlists": {
         "1default": 26
       }
@@ -3277,6 +3277,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 76,
+      "first": 1788917230,
+      "last": 1793607259,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 27,
+          "first": 1788917230,
+          "last": 1793607259,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 25,
+          "first": 1788970790,
+          "last": 1793470408,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 24,
+          "first": 1789050580,
+          "last": 1793573304,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 76,
       "first": 1788919863,
@@ -3311,47 +3352,6 @@
           "count": 24,
           "first": 1789139069,
           "last": 1793496646,
-          "playlists": {
-            "1default": 24
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 75,
-      "first": 1788917230,
-      "last": 1793573304,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 26,
-          "first": 1788917230,
-          "last": 1793321992,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 25,
-          "first": 1788970790,
-          "last": 1793470408,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 24,
-          "first": 1789050580,
-          "last": 1793573304,
           "playlists": {
             "1default": 24
           }
@@ -7615,9 +7615,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9442,
+      "count": 9444,
       "first": 1788901564,
-      "last": 1793603550,
+      "last": 1793607465,
       "songs": [
         {
           "artist": "Tele Novella",
