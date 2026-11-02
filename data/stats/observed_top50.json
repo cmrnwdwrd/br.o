@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-02T15:27:14.627852+00:00",
+  "updatedAt": "2026-11-02T15:33:13.555228+00:00",
   "summary": {
-    "totalPlays": 20877,
+    "totalPlays": 20879,
     "unknownPlays": 1142,
     "uniqueTracks": 2681,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793633155
+    "lastObserved": 1793633579
   },
   "topSongs": [
     {
@@ -362,6 +362,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Pride (In The Name Of Love) - Remastered 2009",
+      "album": "The Unforgettable Fire (Remastered)",
+      "count": 27,
+      "first": 1788964687,
+      "last": 1793633350,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "The Salesmen",
       "title": "Commodify",
       "album": "Commodify",
@@ -425,6 +436,17 @@
       "last": 1793444510,
       "playlists": {
         "1default": 27
+      }
+    },
+    {
+      "artist": "Crumb",
+      "title": "Locket",
+      "album": "Locket",
+      "count": 26,
+      "first": 1788983912,
+      "last": 1793633579,
+      "playlists": {
+        "1default": 26
       }
     },
     {
@@ -566,28 +588,6 @@
       "count": 26,
       "first": 1788963370,
       "last": 1793608876,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "a machine as big as a city with a concert at the center",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 26,
-      "first": 1788972349,
-      "last": 1793608063,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Jelani Aryeh",
-      "title": "Stella Brown",
-      "album": "I've Got Some Living To Do",
-      "count": 26,
-      "first": 1788918760,
-      "last": 1793607465,
       "playlists": {
         "1default": 26
       }
@@ -4582,6 +4582,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 52,
+      "first": 1788921291,
+      "last": 1793633350,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 27,
+          "first": 1788964687,
+          "last": 1793633350,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 25,
+          "first": 1788921291,
+          "last": 1793330691,
+          "playlists": {
+            "1default": 25
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 51,
       "first": 1788972865,
@@ -4629,36 +4659,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 51,
-      "first": 1788921291,
-      "last": 1793447370,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 26,
-          "first": 1788964687,
-          "last": 1793447370,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 25,
-          "first": 1788921291,
-          "last": 1793330691,
-          "playlists": {
-            "1default": 25
           }
         }
       ]
@@ -7615,9 +7615,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9497,
+      "count": 9499,
       "first": 1788901564,
-      "last": 1793633155,
+      "last": 1793633579,
       "songs": [
         {
           "artist": "Tele Novella",
