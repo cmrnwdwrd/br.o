@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-02T20:38:15.462994+00:00",
+  "updatedAt": "2026-11-02T20:48:15.938662+00:00",
   "summary": {
-    "totalPlays": 20959,
+    "totalPlays": 20961,
     "unknownPlays": 1142,
     "uniqueTracks": 2683,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793651785
+    "lastObserved": 1793652275
   },
   "topSongs": [
     {
@@ -33,6 +33,18 @@
       "last": 1793614768,
       "playlists": {
         "1default": 35,
+        "anti-capitalist weekday afternoon #1": 8
+      }
+    },
+    {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 41,
+      "first": 1788968149,
+      "last": 1793652044,
+      "playlists": {
+        "1default": 33,
         "anti-capitalist weekday afternoon #1": 8
       }
     },
@@ -104,18 +116,6 @@
       "count": 40,
       "first": 1789014862,
       "last": 1793582764,
-      "playlists": {
-        "1default": 32,
-        "anti-capitalist weekday afternoon #1": 8
-      }
-    },
-    {
-      "artist": "Modest Mouse",
-      "title": "Bury Me With It",
-      "album": "Good News For People Who Love Bad News",
-      "count": 40,
-      "first": 1788968149,
-      "last": 1793569896,
       "playlists": {
         "1default": 32,
         "anti-capitalist weekday afternoon #1": 8
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Gorillaz, Peter Hook, Georgia",
+      "title": "Aries (feat. Peter Hook and Georgia)",
+      "album": "Song Machine Episode 3",
+      "count": 26,
+      "first": 1788971208,
+      "last": 1793652275,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Isaiah Rashad",
       "title": "Heavenly Father",
       "album": "Cilvia Demo",
@@ -578,17 +589,6 @@
       "count": 26,
       "first": 1788919285,
       "last": 1793645200,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Sweet Pill",
-      "title": "Blood",
-      "album": "Where the Heart Is",
-      "count": 26,
-      "first": 1789064643,
-      "last": 1793644818,
       "playlists": {
         "1default": 26
       }
@@ -7120,19 +7120,19 @@
     {
       "artist": "Modest Mouse",
       "album": "Good News For People Who Love Bad News",
-      "count": 45,
+      "count": 46,
       "first": 1788968149,
-      "last": 1793569896,
+      "last": 1793652044,
       "songs": [
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
           "album": "Good News For People Who Love Bad News",
-          "count": 40,
+          "count": 41,
           "first": 1788968149,
-          "last": 1793569896,
+          "last": 1793652044,
           "playlists": {
-            "1default": 32,
+            "1default": 33,
             "anti-capitalist weekday afternoon #1": 8
           }
         },
@@ -7637,9 +7637,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9577,
+      "count": 9579,
       "first": 1788901564,
-      "last": 1793651785,
+      "last": 1793652275,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7650,6 +7650,17 @@
           "last": 1793614768,
           "playlists": {
             "1default": 35
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 33,
+          "first": 1788968149,
+          "last": 1793652044,
+          "playlists": {
+            "1default": 33
           }
         },
         {
@@ -7683,17 +7694,6 @@
           "last": 1793581602,
           "playlists": {
             "1default": 33
-          }
-        },
-        {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
-          "count": 32,
-          "first": 1788926155,
-          "last": 1793614547,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
