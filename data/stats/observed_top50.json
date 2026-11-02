@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-02T09:07:44.307149+00:00",
+  "updatedAt": "2026-11-02T09:23:14.100717+00:00",
   "summary": {
-    "totalPlays": 20770,
+    "totalPlays": 20775,
     "unknownPlays": 1142,
     "uniqueTracks": 2680,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793610295
+    "lastObserved": 1793611240
   },
   "topSongs": [
     {
@@ -428,6 +428,28 @@
       }
     },
     {
+      "artist": "Blue October",
+      "title": "Into The Ocean",
+      "album": "Foiled",
+      "count": 26,
+      "first": 1788970549,
+      "last": 1793611240,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
+      "artist": "isobel",
+      "title": "laundry",
+      "album": "laundry",
+      "count": 26,
+      "first": 1788902953,
+      "last": 1793611069,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Gorillaz, ScHoolboy Q",
       "title": "Pac-Man (feat. ScHoolboy Q)",
       "album": "Song Machine Episode 5",
@@ -566,28 +588,6 @@
       "count": 26,
       "first": 1788965930,
       "last": 1793592385,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "TOPS",
-      "title": "Petals",
-      "album": "Sugar at the Gate",
-      "count": 26,
-      "first": 1788988660,
-      "last": 1793592210,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
-      "title": "Leave The Door Open",
-      "album": "Leave The Door Open",
-      "count": 26,
-      "first": 1789056336,
-      "last": 1793590581,
       "playlists": {
         "1default": 26
       }
@@ -1697,9 +1697,9 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 192,
+      "count": 193,
       "first": 1788902047,
-      "last": 1793585050,
+      "last": 1793610596,
       "songs": [
         {
           "artist": "Atom Son of Man",
@@ -1736,6 +1736,17 @@
         },
         {
           "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 24,
+          "first": 1788928852,
+          "last": 1793610596,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
           "title": "Love Is Lightning",
           "album": "1's a Man, 3's a Band",
           "count": 24,
@@ -1754,17 +1765,6 @@
           "last": 1793329180,
           "playlists": {
             "1default": 24
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 23,
-          "first": 1788928852,
-          "last": 1793561450,
-          "playlists": {
-            "1default": 23
           }
         },
         {
@@ -3359,6 +3359,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 75,
+      "first": 1788947368,
+      "last": 1793610835,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 26,
+          "first": 1788947368,
+          "last": 1793603550,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 25,
+          "first": 1788969485,
+          "last": 1793592625,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 24,
+          "first": 1789086174,
+          "last": 1793610835,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 75,
       "first": 1788973066,
@@ -3417,47 +3458,6 @@
           "last": 1792902695,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 74,
-      "first": 1788947368,
-      "last": 1793603550,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 26,
-          "first": 1788947368,
-          "last": 1793603550,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 25,
-          "first": 1788969485,
-          "last": 1793592625,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 23,
-          "first": 1789086174,
-          "last": 1793526337,
-          "playlists": {
-            "1default": 23
           }
         }
       ]
@@ -4937,6 +4937,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 145,
+      "first": 1788902047,
+      "last": 1793610596,
+      "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 25,
+          "first": 1788903730,
+          "last": 1793585050,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 25,
+          "first": 1788902047,
+          "last": 1793365095,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 24,
+          "first": 1788928852,
+          "last": 1793610596,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 24,
+          "first": 1789145316,
+          "last": 1793376039,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 24,
+          "first": 1788903565,
+          "last": 1793329180,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Vengeful Vulture",
+          "album": "1's a Man, 3's a Band",
+          "count": 23,
+          "first": 1789097184,
+          "last": 1793398581,
+          "playlists": {
+            "1default": 23
+          }
+        }
+      ]
+    },
+    {
       "artist": "Opium",
       "album": "PHANTOMS",
       "count": 144,
@@ -5005,81 +5080,6 @@
           "count": 23,
           "first": 1788973540,
           "last": 1793397636,
-          "playlists": {
-            "1default": 23
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 144,
-      "first": 1788902047,
-      "last": 1793585050,
-      "songs": [
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 25,
-          "first": 1788903730,
-          "last": 1793585050,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 25,
-          "first": 1788902047,
-          "last": 1793365095,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 24,
-          "first": 1789145316,
-          "last": 1793376039,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 24,
-          "first": 1788903565,
-          "last": 1793329180,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 23,
-          "first": 1788928852,
-          "last": 1793561450,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Vengeful Vulture",
-          "album": "1's a Man, 3's a Band",
-          "count": 23,
-          "first": 1789097184,
-          "last": 1793398581,
           "playlists": {
             "1default": 23
           }
@@ -5844,9 +5844,9 @@
     {
       "artist": "Your Smith",
       "album": "Bad Habit",
-      "count": 74,
+      "count": 75,
       "first": 1788947368,
-      "last": 1793603550,
+      "last": 1793610835,
       "songs": [
         {
           "artist": "Your Smith",
@@ -5874,11 +5874,11 @@
           "artist": "Your Smith",
           "title": "Bad Habit",
           "album": "Bad Habit",
-          "count": 23,
+          "count": 24,
           "first": 1789086174,
-          "last": 1793526337,
+          "last": 1793610835,
           "playlists": {
-            "1default": 23
+            "1default": 24
           }
         }
       ]
@@ -7626,9 +7626,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9457,
+      "count": 9462,
       "first": 1788901564,
-      "last": 1793610295,
+      "last": 1793611240,
       "songs": [
         {
           "artist": "Tele Novella",
