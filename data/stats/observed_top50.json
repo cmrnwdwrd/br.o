@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T13:02:53.362692+00:00",
+  "updatedAt": "2026-11-03T13:07:52.997123+00:00",
   "summary": {
-    "totalPlays": 21245,
+    "totalPlays": 21246,
     "unknownPlays": 1143,
     "uniqueTracks": 2685,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793710854
+    "lastObserved": 1793711200
   },
   "topSongs": [
     {
@@ -7818,10 +7818,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 955,
+      "count": 956,
       "first": 1788955289,
-      "last": 1793710854,
+      "last": 1793711200,
       "songs": [
+        {
+          "artist": "Andrew Montana",
+          "title": "Strawberry",
+          "album": "Strawberry",
+          "count": 4,
+          "first": 1790251692,
+          "last": 1793711200,
+          "playlists": {
+            "carhartts": 4
+          }
+        },
         {
           "artist": "Michael Simon Armstrong",
           "title": "Frames",
@@ -7862,17 +7873,6 @@
           "count": 4,
           "first": 1790083447,
           "last": 1793629880,
-          "playlists": {
-            "carhartts": 4
-          }
-        },
-        {
-          "artist": "The 502s",
-          "title": "Magdalene - Live",
-          "album": "Magdalene (Live)",
-          "count": 4,
-          "first": 1789389621,
-          "last": 1793628970,
           "playlists": {
             "carhartts": 4
           }
