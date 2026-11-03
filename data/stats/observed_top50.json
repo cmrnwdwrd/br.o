@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T02:28:20.310237+00:00",
+  "updatedAt": "2026-11-03T02:33:20.032509+00:00",
   "summary": {
-    "totalPlays": 21054,
+    "totalPlays": 21055,
     "unknownPlays": 1142,
     "uniqueTracks": 2685,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793672781
+    "lastObserved": 1793672989
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 26,
+      "first": 1789064784,
+      "last": 1793672989,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Zolof the Rock & Roll Destroyer",
       "title": "Plays Pretty for Baby",
       "album": "Zolof the Rock & Roll Destroyer",
@@ -578,17 +589,6 @@
       "count": 26,
       "first": 1788991170,
       "last": 1793668855,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Weezer",
-      "title": "The End of the Game",
-      "album": "The End of the Game",
-      "count": 26,
-      "first": 1788974227,
-      "last": 1793667681,
       "playlists": {
         "1default": 26
       }
@@ -1602,10 +1602,21 @@
     },
     {
       "artist": "Opium",
-      "count": 198,
+      "count": 199,
       "first": 1788927400,
-      "last": 1793657725,
+      "last": 1793672989,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 26,
+          "first": 1789064784,
+          "last": 1793672989,
+          "playlists": {
+            "1default": 26
+          }
+        },
         {
           "artist": "Opium",
           "title": "Brainsick",
@@ -1646,17 +1657,6 @@
           "count": 25,
           "first": 1788927400,
           "last": 1793592041,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 25,
-          "first": 1789064784,
-          "last": 1793320104,
           "playlists": {
             "1default": 25
           }
@@ -7639,9 +7639,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9645,
+      "count": 9646,
       "first": 1788901564,
-      "last": 1793672781,
+      "last": 1793672989,
       "songs": [
         {
           "artist": "Tele Novella",
