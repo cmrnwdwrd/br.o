@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T15:58:26.267444+00:00",
+  "updatedAt": "2026-11-03T16:03:18.456295+00:00",
   "summary": {
-    "totalPlays": 21286,
+    "totalPlays": 21287,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793721265
+    "lastObserved": 1793721553
   },
   "topSongs": [
     {
@@ -540,6 +540,17 @@
       }
     },
     {
+      "artist": "Jethro Tull",
+      "title": "Nothing Is Easy",
+      "album": "Stand Up",
+      "count": 26,
+      "first": 1788968380,
+      "last": 1793721553,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Collective Soul",
       "title": "December",
       "album": "Collective Soul",
@@ -579,17 +590,6 @@
       "count": 26,
       "first": 1789050335,
       "last": 1793719465,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE FUTURE IS DARK",
-      "album": "THE FUTURE IS DARK",
-      "count": 26,
-      "first": 1788913884,
-      "last": 1793718407,
       "playlists": {
         "1default": 26
       }
@@ -4866,6 +4866,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 50,
+      "first": 1788947080,
+      "last": 1793721553,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 26,
+          "first": 1788968380,
+          "last": 1793721553,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 24,
+          "first": 1788947080,
+          "last": 1793579941,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 50,
       "first": 1789054681,
@@ -4891,36 +4921,6 @@
           "last": 1793679709,
           "playlists": {
             "1default": 24
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kate Bollinger",
-      "count": 50,
-      "first": 1788915657,
-      "last": 1793679085,
-      "songs": [
-        {
-          "artist": "Kate Bollinger",
-          "title": "Talk About It",
-          "album": "Talk About It (B-Side)",
-          "count": 25,
-          "first": 1788983449,
-          "last": 1793679085,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Kate Bollinger",
-          "title": "A Couple Things",
-          "album": "A word becomes a sound",
-          "count": 25,
-          "first": 1788915657,
-          "last": 1793576757,
-          "playlists": {
-            "1default": 25
           }
         }
       ]
@@ -6896,6 +6896,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 50,
+      "first": 1788947080,
+      "last": 1793721553,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 26,
+          "first": 1788968380,
+          "last": 1793721553,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 24,
+          "first": 1788947080,
+          "last": 1793579941,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Laurel Hell",
       "count": 50,
@@ -7072,37 +7103,6 @@
           "playlists": {
             "sad girl no friends saturday": 9,
             "for the girls driving 85": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 49,
-      "first": 1788947080,
-      "last": 1793612279,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 25,
-          "first": 1788968380,
-          "last": 1793612279,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 24,
-          "first": 1788947080,
-          "last": 1793579941,
-          "playlists": {
-            "1default": 24
           }
         }
       ]
@@ -7627,9 +7627,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9722,
+      "count": 9723,
       "first": 1788901564,
-      "last": 1793721265,
+      "last": 1793721553,
       "songs": [
         {
           "artist": "Tele Novella",
