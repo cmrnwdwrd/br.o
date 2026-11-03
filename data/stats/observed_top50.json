@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T21:13:23.419838+00:00",
+  "updatedAt": "2026-11-03T21:22:59.707257+00:00",
   "summary": {
-    "totalPlays": 21367,
+    "totalPlays": 21370,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793740359
+    "lastObserved": 1793740928
   },
   "topSongs": [
     {
@@ -417,6 +417,17 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "gettingyoutobelieve",
+      "album": "pear",
+      "count": 27,
+      "first": 1788920755,
+      "last": 1793740457,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "Lorde",
       "title": "Mood Ring",
       "album": "Solar Power",
@@ -577,17 +588,6 @@
       "count": 27,
       "first": 1789057000,
       "last": 1793725506,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "Donovan",
-      "title": "Sunshine Superman",
-      "album": "Sunshine Superman",
-      "count": 27,
-      "first": 1788920950,
-      "last": 1793725014,
       "playlists": {
         "1default": 27
       }
@@ -2772,10 +2772,21 @@
     },
     {
       "artist": "botch",
-      "count": 103,
+      "count": 104,
       "first": 1788920755,
-      "last": 1793719997,
+      "last": 1793740457,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 27,
+          "first": 1788920755,
+          "last": 1793740457,
+          "playlists": {
+            "1default": 27
+          }
+        },
         {
           "artist": "botch",
           "title": "takeadrag",
@@ -2783,17 +2794,6 @@
           "count": 26,
           "first": 1788963025,
           "last": 1793719997,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 26,
-          "first": 1788920755,
-          "last": 1793634630,
           "playlists": {
             "1default": 26
           }
@@ -6664,6 +6664,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 53,
+      "first": 1788920755,
+      "last": 1793740457,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 27,
+          "first": 1788920755,
+          "last": 1793740457,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 26,
+          "first": 1788963025,
+          "last": 1793719997,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
       "count": 53,
@@ -6807,37 +6838,6 @@
           "last": 1793727672,
           "playlists": {
             "1default": 25
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 52,
-      "first": 1788920755,
-      "last": 1793719997,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 26,
-          "first": 1788963025,
-          "last": 1793719997,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 26,
-          "first": 1788920755,
-          "last": 1793634630,
-          "playlists": {
-            "1default": 26
           }
         }
       ]
@@ -7495,6 +7495,37 @@
       ]
     },
     {
+      "artist": "Rosie Tucker",
+      "album": "Sucker Supreme",
+      "count": 42,
+      "first": 1788995157,
+      "last": 1793740714,
+      "songs": [
+        {
+          "artist": "Rosie Tucker",
+          "title": "Habanero",
+          "album": "Sucker Supreme",
+          "count": 25,
+          "first": 1789214020,
+          "last": 1793740714,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Rosie Tucker",
+          "title": "For Sale: Ford Pinto",
+          "album": "Sucker Supreme",
+          "count": 17,
+          "first": 1788995157,
+          "last": 1793661469,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 17
+          }
+        }
+      ]
+    },
+    {
       "artist": "CAKE",
       "album": "Motorcade of Generosity",
       "count": 41,
@@ -7511,37 +7542,6 @@
           "playlists": {
             "1default": 33,
             "anti-capitalist weekday afternoon #1": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Rosie Tucker",
-      "album": "Sucker Supreme",
-      "count": 41,
-      "first": 1788995157,
-      "last": 1793661469,
-      "songs": [
-        {
-          "artist": "Rosie Tucker",
-          "title": "Habanero",
-          "album": "Sucker Supreme",
-          "count": 24,
-          "first": 1789214020,
-          "last": 1793644605,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Rosie Tucker",
-          "title": "For Sale: Ford Pinto",
-          "album": "Sucker Supreme",
-          "count": 17,
-          "first": 1788995157,
-          "last": 1793661469,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 17
           }
         }
       ]
@@ -7636,9 +7636,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9803,
+      "count": 9806,
       "first": 1788901564,
-      "last": 1793740359,
+      "last": 1793740928,
       "songs": [
         {
           "artist": "Tele Novella",
