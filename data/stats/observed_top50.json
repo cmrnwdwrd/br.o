@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T01:17:51.216135+00:00",
+  "updatedAt": "2026-11-03T01:23:18.035031+00:00",
   "summary": {
-    "totalPlays": 21034,
+    "totalPlays": 21036,
     "unknownPlays": 1142,
     "uniqueTracks": 2684,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793668440
+    "lastObserved": 1793668855
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Of Monsters and Men",
+      "title": "Wars",
+      "album": "FEVER DREAM",
+      "count": 26,
+      "first": 1788991170,
+      "last": 1793668855,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Weezer",
       "title": "The End of the Game",
       "album": "The End of the Game",
@@ -578,17 +589,6 @@
       "count": 26,
       "first": 1788921570,
       "last": 1793656840,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Atom Son of Man",
-      "title": "Hold Me",
-      "album": "1's a Man, 3's a Band",
-      "count": 26,
-      "first": 1788902047,
-      "last": 1793655582,
       "playlists": {
         "1default": 26
       }
@@ -4083,6 +4083,47 @@
       ]
     },
     {
+      "artist": "Of Monsters and Men",
+      "count": 58,
+      "first": 1788963370,
+      "last": 1793668855,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 26,
+          "first": 1788991170,
+          "last": 1793668855,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 26,
+          "first": 1788963370,
+          "last": 1793608876,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 6,
+          "first": 1789156918,
+          "last": 1793390604,
+          "playlists": {
+            "escaping from cu boulder by giselle": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "ruzlxn",
       "count": 58,
       "first": 1788914259,
@@ -4235,47 +4276,6 @@
           "last": 1790261252,
           "playlists": {
             "rage commute": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 57,
-      "first": 1788963370,
-      "last": 1793608876,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 26,
-          "first": 1788963370,
-          "last": 1793608876,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 25,
-          "first": 1788991170,
-          "last": 1793379932,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 6,
-          "first": 1789156918,
-          "last": 1793390604,
-          "playlists": {
-            "escaping from cu boulder by giselle": 6
           }
         }
       ]
@@ -7639,9 +7639,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9626,
+      "count": 9628,
       "first": 1788901564,
-      "last": 1793668440,
+      "last": 1793668855,
       "songs": [
         {
           "artist": "Tele Novella",
