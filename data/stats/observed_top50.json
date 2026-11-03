@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T15:48:32.128356+00:00",
+  "updatedAt": "2026-11-03T15:52:18.682604+00:00",
   "summary": {
-    "totalPlays": 21284,
+    "totalPlays": 21285,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793720591
+    "lastObserved": 1793720980
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Knives",
+      "album": "Knives",
+      "count": 27,
+      "first": 1788973998,
+      "last": 1793720980,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "John Grant",
       "title": "It Doesn't Matter to Him",
       "album": "Pale Green Ghosts",
@@ -579,17 +590,6 @@
       "count": 26,
       "first": 1789033665,
       "last": 1793718150,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "TRAP METAL",
-      "album": "TRAP METAL",
-      "count": 26,
-      "first": 1789063011,
-      "last": 1793703535,
       "playlists": {
         "1default": 26
       }
@@ -3424,6 +3424,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 77,
+      "first": 1788973998,
+      "last": 1793720980,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 27,
+          "first": 1788973998,
+          "last": 1793720980,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 26,
+          "first": 1789033065,
+          "last": 1793638899,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 24,
+          "first": 1789226629,
+          "last": 1793657461,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 77,
       "first": 1788965724,
@@ -3513,47 +3554,6 @@
           "last": 1793366691,
           "playlists": {
             "hyperpop friday morning": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 76,
-      "first": 1788973998,
-      "last": 1793673205,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 26,
-          "first": 1788973998,
-          "last": 1793673205,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 26,
-          "first": 1789033065,
-          "last": 1793638899,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 24,
-          "first": 1789226629,
-          "last": 1793657461,
-          "playlists": {
-            "1default": 24
           }
         }
       ]
@@ -7627,9 +7627,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9720,
+      "count": 9721,
       "first": 1788901564,
-      "last": 1793720591,
+      "last": 1793720980,
       "songs": [
         {
           "artist": "Tele Novella",
