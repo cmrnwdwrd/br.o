@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T02:08:20.423925+00:00",
+  "updatedAt": "2026-11-03T02:13:19.263498+00:00",
   "summary": {
-    "totalPlays": 21048,
+    "totalPlays": 21049,
     "unknownPlays": 1142,
     "uniqueTracks": 2684,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793671667
+    "lastObserved": 1793671966
   },
   "topSongs": [
     {
@@ -484,6 +484,17 @@
       }
     },
     {
+      "artist": "Sjowgren",
+      "title": "Now & Then",
+      "album": "Now & Then",
+      "count": 26,
+      "first": 1788965724,
+      "last": 1793671966,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "Brittany Howard",
       "title": "Stay High",
       "album": "Jaime",
@@ -578,17 +589,6 @@
       "count": 26,
       "first": 1788928623,
       "last": 1793667453,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "DISINTEGRATE",
-      "album": "SWAMP",
-      "count": 26,
-      "first": 1788983290,
-      "last": 1793666035,
       "playlists": {
         "1default": 26
       }
@@ -3423,6 +3423,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 76,
+      "first": 1788965724,
+      "last": 1793671966,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 26,
+          "first": 1788965724,
+          "last": 1793671966,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 26,
+          "first": 1789059354,
+          "last": 1793644390,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 24,
+          "first": 1789225488,
+          "last": 1793460594,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 75,
       "first": 1788973998,
@@ -3457,47 +3498,6 @@
           "count": 24,
           "first": 1789226629,
           "last": 1793657461,
-          "playlists": {
-            "1default": 24
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 75,
-      "first": 1788965724,
-      "last": 1793644390,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 26,
-          "first": 1789059354,
-          "last": 1793644390,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 25,
-          "first": 1788965724,
-          "last": 1793320738,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 24,
-          "first": 1789225488,
-          "last": 1793460594,
           "playlists": {
             "1default": 24
           }
@@ -7639,9 +7639,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9640,
+      "count": 9641,
       "first": 1788901564,
-      "last": 1793671667,
+      "last": 1793671966,
       "songs": [
         {
           "artist": "Tele Novella",
