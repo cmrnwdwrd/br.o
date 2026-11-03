@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T20:32:35.233324+00:00",
+  "updatedAt": "2026-11-03T20:58:08.137966+00:00",
   "summary": {
-    "totalPlays": 21354,
+    "totalPlays": 21362,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793737784
+    "lastObserved": 1793739323
   },
   "topSongs": [
     {
@@ -362,6 +362,17 @@
       }
     },
     {
+      "artist": "Better Oblivion Community Center, Conor Oberst, Phoebe Bridgers",
+      "title": "Dylan Thomas",
+      "album": "Better Oblivion Community Center",
+      "count": 28,
+      "first": 1789055208,
+      "last": 1793738026,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
       "artist": "The Palmer Squares",
       "title": "Dip",
       "album": "Planet of the Shapes",
@@ -392,6 +403,28 @@
       "last": 1793683565,
       "playlists": {
         "1default": 28
+      }
+    },
+    {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 27,
+      "first": 1788914032,
+      "last": 1793739323,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
+      "artist": "Fine Young Cannibals",
+      "title": "Good Thing",
+      "album": "The Raw & The Cooked",
+      "count": 27,
+      "first": 1788974590,
+      "last": 1793739121,
+      "playlists": {
+        "1default": 27
       }
     },
     {
@@ -555,39 +588,6 @@
       "count": 27,
       "first": 1788928623,
       "last": 1793724784,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "Medium Troy",
-      "title": "Space Tree",
-      "album": "Space Tree",
-      "count": 27,
-      "first": 1788990730,
-      "last": 1793724530,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "PUP",
-      "title": "Kids",
-      "album": "Morbid Stuff",
-      "count": 27,
-      "first": 1788913008,
-      "last": 1793724320,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "U2",
-      "title": "Sunday Bloody Sunday - Remastered 2008",
-      "album": "War (Remastered)",
-      "count": 27,
-      "first": 1788921291,
-      "last": 1793724040,
       "playlists": {
         "1default": 27
       }
@@ -1697,9 +1697,9 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 200,
+      "count": 201,
       "first": 1788902047,
-      "last": 1793730982,
+      "last": 1793738242,
       "songs": [
         {
           "artist": "Atom Son of Man",
@@ -1721,6 +1721,17 @@
           "last": 1793655582,
           "playlists": {
             "1default": 26
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 25,
+          "first": 1788928852,
+          "last": 1793738242,
+          "playlists": {
+            "1default": 25
           }
         },
         {
@@ -1774,17 +1785,6 @@
           "count": 24,
           "first": 1789097184,
           "last": 1793702654,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 24,
-          "first": 1788928852,
-          "last": 1793610596,
           "playlists": {
             "1default": 24
           }
@@ -4164,6 +4164,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 57,
+      "first": 1788914032,
+      "last": 1793739323,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 27,
+          "first": 1788914032,
+          "last": 1793739323,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 25,
+          "first": 1789222724,
+          "last": 1793679450,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 5,
+          "first": 1790465398,
+          "last": 1793492831,
+          "playlists": {
+            "texting your situationship": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 57,
       "first": 1788990464,
@@ -4357,47 +4398,6 @@
           "last": 1792916720,
           "playlists": {
             "christmas rn": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 56,
-      "first": 1788914032,
-      "last": 1793679450,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 26,
-          "first": 1788914032,
-          "last": 1793613229,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 25,
-          "first": 1789222724,
-          "last": 1793679450,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 5,
-          "first": 1790465398,
-          "last": 1793492831,
-          "playlists": {
-            "texting your situationship": 5
           }
         }
       ]
@@ -4937,6 +4937,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 151,
+      "first": 1788902047,
+      "last": 1793738242,
+      "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 26,
+          "first": 1788903565,
+          "last": 1793723603,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 26,
+          "first": 1788902047,
+          "last": 1793655582,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 25,
+          "first": 1788928852,
+          "last": 1793738242,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 25,
+          "first": 1789145316,
+          "last": 1793678333,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 25,
+          "first": 1788903730,
+          "last": 1793585050,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Vengeful Vulture",
+          "album": "1's a Man, 3's a Band",
+          "count": 24,
+          "first": 1789097184,
+          "last": 1793702654,
+          "playlists": {
+            "1default": 24
+          }
+        }
+      ]
+    },
+    {
       "artist": "Opium",
       "album": "PHANTOMS",
       "count": 151,
@@ -5005,81 +5080,6 @@
           "count": 24,
           "first": 1788973540,
           "last": 1793635097,
-          "playlists": {
-            "1default": 24
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 150,
-      "first": 1788902047,
-      "last": 1793723603,
-      "songs": [
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 26,
-          "first": 1788903565,
-          "last": 1793723603,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 26,
-          "first": 1788902047,
-          "last": 1793655582,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 25,
-          "first": 1789145316,
-          "last": 1793678333,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 25,
-          "first": 1788903730,
-          "last": 1793585050,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Vengeful Vulture",
-          "album": "1's a Man, 3's a Band",
-          "count": 24,
-          "first": 1789097184,
-          "last": 1793702654,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 24,
-          "first": 1788928852,
-          "last": 1793610596,
           "playlists": {
             "1default": 24
           }
@@ -7636,9 +7636,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9790,
+      "count": 9798,
       "first": 1788901564,
-      "last": 1793737784,
+      "last": 1793739323,
       "songs": [
         {
           "artist": "Tele Novella",
