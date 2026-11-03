@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T17:18:24.072462+00:00",
+  "updatedAt": "2026-11-03T17:23:29.642348+00:00",
   "summary": {
-    "totalPlays": 21308,
+    "totalPlays": 21309,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793726284
+    "lastObserved": 1793726565
   },
   "topSongs": [
     {
@@ -46,6 +46,18 @@
       "playlists": {
         "1default": 33,
         "anti-capitalist weekday afternoon #1": 9
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 41,
+      "first": 1789014862,
+      "last": 1793726565,
+      "playlists": {
+        "1default": 33,
+        "anti-capitalist weekday afternoon #1": 8
       }
     },
     {
@@ -128,18 +140,6 @@
       "count": 40,
       "first": 1788993017,
       "last": 1793597497,
-      "playlists": {
-        "1default": 32,
-        "anti-capitalist weekday afternoon #1": 8
-      }
-    },
-    {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 40,
-      "first": 1789014862,
-      "last": 1793582764,
       "playlists": {
         "1default": 32,
         "anti-capitalist weekday afternoon #1": 8
@@ -7508,6 +7508,27 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 41,
+      "first": 1789014862,
+      "last": 1793726565,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 41,
+          "first": 1789014862,
+          "last": 1793726565,
+          "playlists": {
+            "1default": 33,
+            "anti-capitalist weekday afternoon #1": 8
+          }
+        }
+      ]
+    },
+    {
       "artist": "Rosie Tucker",
       "album": "Sucker Supreme",
       "count": 41,
@@ -7623,35 +7644,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Viagra Boys",
-      "album": "Street Worms",
-      "count": 40,
-      "first": 1788991593,
-      "last": 1793673631,
-      "songs": [
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 40,
-          "first": 1788991593,
-          "last": 1793673631,
-          "playlists": {
-            "1default": 32,
-            "anti-capitalist weekday afternoon #1": 8
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9744,
+      "count": 9745,
       "first": 1788901564,
-      "last": 1793726284,
+      "last": 1793726565,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7662,6 +7662,17 @@
           "last": 1793614768,
           "playlists": {
             "1default": 35
+          }
+        },
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 33,
+          "first": 1789014862,
+          "last": 1793726565,
+          "playlists": {
+            "1default": 33
           }
         },
         {
@@ -7693,17 +7704,6 @@
           "count": 33,
           "first": 1788986736,
           "last": 1793593512,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 33,
-          "first": 1788968644,
-          "last": 1793581602,
           "playlists": {
             "1default": 33
           }
