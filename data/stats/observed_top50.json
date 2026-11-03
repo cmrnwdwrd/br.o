@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T16:32:46.573097+00:00",
+  "updatedAt": "2026-11-03T16:38:13.223757+00:00",
   "summary": {
-    "totalPlays": 21295,
+    "totalPlays": 21297,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793723425
+    "lastObserved": 1793723769
   },
   "topSongs": [
     {
@@ -551,6 +551,28 @@
       }
     },
     {
+      "artist": "Jack White",
+      "title": "Taking Me Back",
+      "album": "Taking Me Back",
+      "count": 26,
+      "first": 1789212475,
+      "last": 1793723769,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
+      "artist": "Atom Son of Man",
+      "title": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 26,
+      "first": 1788903565,
+      "last": 1793723603,
+      "playlists": {
+        "1default": 26
+      }
+    },
+    {
       "artist": "The Growlers",
       "title": "Dope on a Rope",
       "album": "City Club",
@@ -568,28 +590,6 @@
       "count": 26,
       "first": 1789232155,
       "last": 1793722376,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Caroline Rose",
-      "title": "Jeannie Becomes A Mom",
-      "album": "LONER",
-      "count": 26,
-      "first": 1788966700,
-      "last": 1793721814,
-      "playlists": {
-        "1default": 26
-      }
-    },
-    {
-      "artist": "Jethro Tull",
-      "title": "Nothing Is Easy",
-      "album": "Stand Up",
-      "count": 26,
-      "first": 1788968380,
-      "last": 1793721553,
       "playlists": {
         "1default": 26
       }
@@ -1699,10 +1699,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 198,
+      "count": 199,
       "first": 1788902047,
-      "last": 1793702654,
+      "last": 1793723603,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 26,
+          "first": 1788903565,
+          "last": 1793723603,
+          "playlists": {
+            "1default": 26
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -1721,17 +1732,6 @@
           "count": 25,
           "first": 1789145316,
           "last": 1793678333,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 25,
-          "first": 1788903565,
-          "last": 1793631799,
           "playlists": {
             "1default": 25
           }
@@ -4930,10 +4930,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 149,
+      "count": 150,
       "first": 1788902047,
-      "last": 1793702654,
+      "last": 1793723603,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 26,
+          "first": 1788903565,
+          "last": 1793723603,
+          "playlists": {
+            "1default": 26
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -4952,17 +4963,6 @@
           "count": 25,
           "first": 1789145316,
           "last": 1793678333,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 25,
-          "first": 1788903565,
-          "last": 1793631799,
           "playlists": {
             "1default": 25
           }
@@ -7627,9 +7627,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9731,
+      "count": 9733,
       "first": 1788901564,
-      "last": 1793723425,
+      "last": 1793723769,
       "songs": [
         {
           "artist": "Tele Novella",
