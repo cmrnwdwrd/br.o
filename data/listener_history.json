@@ -1,7 +1,7 @@
 {
   "schemaVersion": 26,
-  "updatedAt": "2026-11-03T23:22:54.852995+00:00",
-  "lastSampleSource": "primary",
+  "updatedAt": "2026-11-03T23:43:02.994581+00:00",
+  "lastSampleSource": "github-fallback",
   "recentSamples": [
     {
       "timestamp": "2026-09-08T22:05:39.627769+00:00",
@@ -72091,6 +72091,11 @@
       "timestamp": "2026-11-03T23:22:54.852995+00:00",
       "listeners": 1,
       "source": "primary"
+    },
+    {
+      "timestamp": "2026-11-03T23:43:02.994581+00:00",
+      "listeners": 2,
+      "source": "github-fallback"
     }
   ],
   "samples": [
@@ -144182,6 +144187,11 @@
       "timestamp": "2026-11-03T23:22:54.852995+00:00",
       "listeners": 1,
       "source": "primary"
+    },
+    {
+      "timestamp": "2026-11-03T23:43:02.994581+00:00",
+      "listeners": 2,
+      "source": "github-fallback"
     }
   ],
   "dailySummaries": [],
@@ -144300,8 +144310,8 @@
     },
     {
       "hour": 16,
-      "sum": 775,
-      "count": 598,
+      "sum": 777,
+      "count": 599,
       "min": 0,
       "max": 4
     },
