@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-03T14:32:17.384001+00:00",
+  "updatedAt": "2026-11-03T14:43:33.233940+00:00",
   "summary": {
-    "totalPlays": 21266,
+    "totalPlays": 21268,
     "unknownPlays": 1143,
     "uniqueTracks": 2685,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793716144
+    "lastObserved": 1793716771
   },
   "topSongs": [
     {
@@ -7818,10 +7818,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 976,
+      "count": 978,
       "first": 1788955289,
-      "last": 1793716144,
+      "last": 1793716771,
       "songs": [
+        {
+          "artist": "Gregory Alan Isakov",
+          "title": "Big Black Car",
+          "album": "This Empty Northern Hemisphere",
+          "count": 4,
+          "first": 1790078915,
+          "last": 1793716555,
+          "playlists": {
+            "carhartts": 4
+          }
+        },
         {
           "artist": "Rainbow Kitten Surprise",
           "title": "Heart",
@@ -7862,17 +7873,6 @@
           "count": 4,
           "first": 1789994136,
           "last": 1793711929,
-          "playlists": {
-            "carhartts": 4
-          }
-        },
-        {
-          "artist": "Andrew Montana",
-          "title": "Strawberry",
-          "album": "Strawberry",
-          "count": 4,
-          "first": 1790251692,
-          "last": 1793711200,
           "playlists": {
             "carhartts": 4
           }
