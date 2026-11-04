@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T00:47:52.162837+00:00",
+  "updatedAt": "2026-11-04T00:53:24.627540+00:00",
   "summary": {
-    "totalPlays": 21427,
+    "totalPlays": 21429,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793753162
+    "lastObserved": 1793753552
   },
   "topSongs": [
     {
@@ -428,6 +428,17 @@
       }
     },
     {
+      "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
+      "title": "Not Strong Enough",
+      "album": "the record",
+      "count": 27,
+      "first": 1788986031,
+      "last": 1793753552,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Dirge",
       "album": "Dirge",
@@ -577,17 +588,6 @@
       "count": 27,
       "first": 1788975084,
       "last": 1793735670,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "Monsune",
-      "title": "Nothing in Return",
-      "album": "Nothing in Return",
-      "count": 27,
-      "first": 1789054450,
-      "last": 1793735167,
       "playlists": {
         "1default": 27
       }
@@ -3557,6 +3557,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 75,
+      "first": 1788965930,
+      "last": 1793753370,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 26,
+          "first": 1789068640,
+          "last": 1793753370,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 26,
+          "first": 1788965930,
+          "last": 1793592385,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 23,
+          "first": 1789215234,
+          "last": 1793657236,
+          "playlists": {
+            "1default": 23
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 75,
       "first": 1788947368,
@@ -3634,47 +3675,6 @@
           "last": 1793647795,
           "playlists": {
             "1default": 24
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 74,
-      "first": 1788965930,
-      "last": 1793657236,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 26,
-          "first": 1788965930,
-          "last": 1793592385,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 25,
-          "first": 1789068640,
-          "last": 1793579590,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 23,
-          "first": 1789215234,
-          "last": 1793657236,
-          "playlists": {
-            "1default": 23
           }
         }
       ]
@@ -7606,9 +7606,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9838,
+      "count": 9840,
       "first": 1788901564,
-      "last": 1793753162,
+      "last": 1793753552,
       "songs": [
         {
           "artist": "Tele Novella",
