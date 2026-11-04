@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T02:42:23.374733+00:00",
+  "updatedAt": "2026-11-04T02:52:54.661016+00:00",
   "summary": {
-    "totalPlays": 21460,
+    "totalPlays": 21462,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793760100
+    "lastObserved": 1793760539
   },
   "topSongs": [
     {
@@ -428,6 +428,17 @@
       }
     },
     {
+      "artist": "Radiohead",
+      "title": "If You Say the Word",
+      "album": "If You Say the Word",
+      "count": 27,
+      "first": 1789033884,
+      "last": 1793760539,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "THE FUTURE IS DARK",
       "album": "THE FUTURE IS DARK",
@@ -577,17 +588,6 @@
       "count": 27,
       "first": 1789062154,
       "last": 1793746423,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "Tems, Brent Faiyaz",
-      "title": "Found (feat. Brent Faiyaz)",
-      "album": "Found (feat. Brent Faiyaz)",
-      "count": 27,
-      "first": 1788969945,
-      "last": 1793745789,
       "playlists": {
         "1default": 27
       }
@@ -1601,9 +1601,9 @@
     },
     {
       "artist": "Opium",
-      "count": 205,
+      "count": 206,
       "first": 1788927400,
-      "last": 1793752945,
+      "last": 1793760370,
       "songs": [
         {
           "artist": "Opium",
@@ -1614,6 +1614,17 @@
           "last": 1793752945,
           "playlists": {
             "1default": 27
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 26,
+          "first": 1788927400,
+          "last": 1793760370,
+          "playlists": {
+            "1default": 26
           }
         },
         {
@@ -1667,17 +1678,6 @@
           "count": 25,
           "first": 1789057319,
           "last": 1793680366,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 25,
-          "first": 1788927400,
-          "last": 1793592041,
           "playlists": {
             "1default": 25
           }
@@ -3214,6 +3214,69 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 80,
+      "first": 1788973066,
+      "last": 1793760539,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 27,
+          "first": 1789033884,
+          "last": 1793760539,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 26,
+          "first": 1788973066,
+          "last": 1793741740,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 25,
+          "first": 1788984450,
+          "last": 1793615460,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Creep",
+          "album": "Pablo Honey",
+          "count": 1,
+          "first": 1793507793,
+          "last": 1793507793,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Karma Police",
+          "album": "OK Computer",
+          "count": 1,
+          "first": 1792902695,
+          "last": 1792902695,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 79,
       "first": 1788919863,
@@ -3291,69 +3354,6 @@
           "last": 1793671966,
           "playlists": {
             "1default": 26
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 79,
-      "first": 1788973066,
-      "last": 1793741740,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 26,
-          "first": 1788973066,
-          "last": 1793741740,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 26,
-          "first": 1789033884,
-          "last": 1793634139,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 25,
-          "first": 1788984450,
-          "last": 1793615460,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Creep",
-          "album": "Pablo Honey",
-          "count": 1,
-          "first": 1793507793,
-          "last": 1793507793,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Karma Police",
-          "album": "OK Computer",
-          "count": 1,
-          "first": 1792902695,
-          "last": 1792902695,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -5003,10 +5003,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 152,
+      "count": 153,
       "first": 1788927400,
-      "last": 1793742611,
+      "last": 1793760370,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 26,
+          "first": 1788927400,
+          "last": 1793760370,
+          "playlists": {
+            "1default": 26
+          }
+        },
         {
           "artist": "Opium",
           "title": "No Pulse",
@@ -5047,17 +5058,6 @@
           "count": 25,
           "first": 1789057319,
           "last": 1793680366,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 25,
-          "first": 1788927400,
-          "last": 1793592041,
           "playlists": {
             "1default": 25
           }
@@ -7582,9 +7582,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9870,
+      "count": 9872,
       "first": 1788901564,
-      "last": 1793760100,
+      "last": 1793760539,
       "songs": [
         {
           "artist": "Tele Novella",
