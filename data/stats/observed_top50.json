@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T15:08:00.473497+00:00",
+  "updatedAt": "2026-11-04T15:12:25.094785+00:00",
   "summary": {
-    "totalPlays": 21682,
+    "totalPlays": 21683,
     "unknownPlays": 1143,
     "uniqueTracks": 2689,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793804854
+    "lastObserved": 1793805125
   },
   "topSongs": [
     {
@@ -3164,10 +3164,21 @@
     },
     {
       "artist": "The Cranberries",
-      "count": 83,
+      "count": 84,
       "first": 1788916461,
-      "last": 1793734637,
+      "last": 1793805125,
       "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 26,
+          "first": 1788916461,
+          "last": 1793805125,
+          "playlists": {
+            "1default": 26
+          }
+        },
         {
           "artist": "The Cranberries",
           "title": "Ode To My Family",
@@ -3175,17 +3186,6 @@
           "count": 25,
           "first": 1789060180,
           "last": 1793734637,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 25,
-          "first": 1788916461,
-          "last": 1793594428,
           "playlists": {
             "1default": 25
           }
@@ -7917,9 +7917,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9933,
+      "count": 9934,
       "first": 1788901564,
-      "last": 1793804854,
+      "last": 1793805125,
       "songs": [
         {
           "artist": "Tele Novella",
