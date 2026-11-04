@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T04:13:41.237610+00:00",
+  "updatedAt": "2026-11-04T04:17:18.311473+00:00",
   "summary": {
-    "totalPlays": 21486,
+    "totalPlays": 21487,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793765590
+    "lastObserved": 1793765818
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "U2",
+      "title": "Pride (In The Name Of Love) - Remastered 2009",
+      "album": "The Unforgettable Fire (Remastered)",
+      "count": 28,
+      "first": 1788964687,
+      "last": 1793765818,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
       "artist": "Teyana Taylor",
       "title": "Gonna Love Me",
       "album": "K.T.S.E.",
@@ -577,17 +588,6 @@
       "count": 27,
       "first": 1788928254,
       "last": 1793758315,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "Black Sheep",
-      "title": "The Choice Is Yours (Revisited)",
-      "album": "A Wolf In Sheep's Clothing",
-      "count": 27,
-      "first": 1789062768,
-      "last": 1793756680,
       "playlists": {
         "1default": 27
       }
@@ -4403,6 +4403,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 55,
+      "first": 1788921291,
+      "last": 1793765818,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 28,
+          "first": 1788964687,
+          "last": 1793765818,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 27,
+          "first": 1788921291,
+          "last": 1793724040,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sophie Truax",
       "count": 55,
       "first": 1788931104,
@@ -4595,36 +4625,6 @@
           "last": 1791081977,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 54,
-      "first": 1788921291,
-      "last": 1793724040,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 27,
-          "first": 1788921291,
-          "last": 1793724040,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 27,
-          "first": 1788964687,
-          "last": 1793633350,
-          "playlists": {
-            "1default": 27
           }
         }
       ]
@@ -7582,9 +7582,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9896,
+      "count": 9897,
       "first": 1788901564,
-      "last": 1793765590,
+      "last": 1793765818,
       "songs": [
         {
           "artist": "Tele Novella",
