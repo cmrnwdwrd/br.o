@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T16:37:35.885730+00:00",
+  "updatedAt": "2026-11-04T16:42:56.287521+00:00",
   "summary": {
-    "totalPlays": 21717,
+    "totalPlays": 21718,
     "unknownPlays": 1143,
     "uniqueTracks": 2689,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793810246
+    "lastObserved": 1793810388
   },
   "topSongs": [
     {
@@ -451,6 +451,17 @@
       }
     },
     {
+      "artist": "Brandywine",
+      "title": "Friend of Mine",
+      "album": "Friend of Mine",
+      "count": 27,
+      "first": 1788965930,
+      "last": 1793810388,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "Your Smith",
       "title": "Debbie",
       "album": "Bad Habit",
@@ -578,17 +589,6 @@
       "count": 27,
       "first": 1788925926,
       "last": 1793765590,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "Sweet Pill",
-      "title": "Blood",
-      "album": "Where the Heart Is",
-      "count": 27,
-      "first": 1789064643,
-      "last": 1793765080,
       "playlists": {
         "1default": 27
       }
@@ -3558,6 +3558,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 76,
+      "first": 1788965930,
+      "last": 1793810388,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 27,
+          "first": 1788965930,
+          "last": 1793810388,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 26,
+          "first": 1789068640,
+          "last": 1793753370,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 23,
+          "first": 1789215234,
+          "last": 1793657236,
+          "playlists": {
+            "1default": 23
+          }
+        }
+      ]
+    },
+    {
       "artist": "Your Smith",
       "count": 76,
       "first": 1788947368,
@@ -3635,47 +3676,6 @@
           "last": 1793719292,
           "playlists": {
             "1default": 24
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 75,
-      "first": 1788965930,
-      "last": 1793753370,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 26,
-          "first": 1789068640,
-          "last": 1793753370,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 26,
-          "first": 1788965930,
-          "last": 1793592385,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 23,
-          "first": 1789215234,
-          "last": 1793657236,
-          "playlists": {
-            "1default": 23
           }
         }
       ]
@@ -7917,9 +7917,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9941,
+      "count": 9942,
       "first": 1788901564,
-      "last": 1793810246,
+      "last": 1793810388,
       "songs": [
         {
           "artist": "Tele Novella",
