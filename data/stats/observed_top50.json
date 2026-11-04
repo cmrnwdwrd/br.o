@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T22:13:06.485937+00:00",
+  "updatedAt": "2026-11-04T22:22:56.310096+00:00",
   "summary": {
-    "totalPlays": 21807,
+    "totalPlays": 21810,
     "unknownPlays": 1143,
     "uniqueTracks": 2689,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793830315
+    "lastObserved": 1793830848
   },
   "topSongs": [
     {
@@ -462,6 +462,17 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Steam",
+      "album": "Gold-Diggers Sound",
+      "count": 27,
+      "first": 1788919285,
+      "last": 1793830645,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "title": "STUPIDMOTHERFUCKER",
       "album": "Lick My Soul",
@@ -578,17 +589,6 @@
       "count": 27,
       "first": 1788969130,
       "last": 1793816320,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "JOSEPH",
-      "title": "Green Eyes",
-      "album": "Good Luck, Kid",
-      "count": 27,
-      "first": 1789070850,
-      "last": 1793815867,
       "playlists": {
         "1default": 27
       }
@@ -4427,10 +4427,21 @@
     },
     {
       "artist": "Leon Bridges",
-      "count": 56,
+      "count": 57,
       "first": 1788919285,
-      "last": 1793735670,
+      "last": 1793830645,
       "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 27,
+          "first": 1788919285,
+          "last": 1793830645,
+          "playlists": {
+            "1default": 27
+          }
+        },
         {
           "artist": "Leon Bridges",
           "title": "Motorbike",
@@ -4440,17 +4451,6 @@
           "last": 1793735670,
           "playlists": {
             "1default": 27
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 26,
-          "first": 1788919285,
-          "last": 1793645200,
-          "playlists": {
-            "1default": 26
           }
         },
         {
@@ -7917,9 +7917,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9998,
+      "count": 10001,
       "first": 1788901564,
-      "last": 1793830315,
+      "last": 1793830848,
       "songs": [
         {
           "artist": "Tele Novella",
