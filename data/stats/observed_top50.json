@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T21:12:25.596005+00:00",
+  "updatedAt": "2026-11-04T21:22:29.741203+00:00",
   "summary": {
-    "totalPlays": 21792,
+    "totalPlays": 21795,
     "unknownPlays": 1143,
     "uniqueTracks": 2689,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793826615
+    "lastObserved": 1793827327
   },
   "topSongs": [
     {
@@ -2825,10 +2825,21 @@
     },
     {
       "artist": "Psychedelic Porn Crumpets",
-      "count": 102,
+      "count": 103,
       "first": 1788915065,
-      "last": 1793805836,
+      "last": 1793827118,
       "songs": [
+        {
+          "artist": "Psychedelic Porn Crumpets",
+          "title": "Bill's Mandolin",
+          "album": "And Now for the Whatchamacallit",
+          "count": 26,
+          "first": 1789234972,
+          "last": 1793827118,
+          "playlists": {
+            "1default": 26
+          }
+        },
         {
           "artist": "Psychedelic Porn Crumpets",
           "title": "Tally-Ho",
@@ -2858,17 +2869,6 @@
           "count": 25,
           "first": 1788915065,
           "last": 1793737784,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Bill's Mandolin",
-          "album": "And Now for the Whatchamacallit",
-          "count": 25,
-          "first": 1789234972,
-          "last": 1793640191,
           "playlists": {
             "1default": 25
           }
@@ -5199,6 +5199,47 @@
       ]
     },
     {
+      "artist": "Beach Bunny",
+      "count": 52,
+      "first": 1788966457,
+      "last": 1793826931,
+      "songs": [
+        {
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 26,
+          "first": 1788966457,
+          "last": 1793826931,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Entropy",
+          "album": "Emotional Creature",
+          "count": 25,
+          "first": 1789230720,
+          "last": 1793733510,
+          "playlists": {
+            "1default": 25
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Prom Queen",
+          "album": "Prom Queen",
+          "count": 1,
+          "first": 1793511391,
+          "last": 1793511391,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Billie Eilish",
       "count": 52,
       "first": 1788989714,
@@ -5222,36 +5263,6 @@
           "count": 26,
           "first": 1789169386,
           "last": 1793804433,
-          "playlists": {
-            "1default": 26
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 52,
-      "first": 1788947810,
-      "last": 1793766047,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 26,
-          "first": 1789059805,
-          "last": 1793766047,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 26,
-          "first": 1788947810,
-          "last": 1793756224,
           "playlists": {
             "1default": 26
           }
@@ -7907,9 +7918,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9983,
+      "count": 9986,
       "first": 1788901564,
-      "last": 1793826615,
+      "last": 1793827327,
       "songs": [
         {
           "artist": "Tele Novella",
