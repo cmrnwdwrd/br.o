@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T02:52:54.661016+00:00",
+  "updatedAt": "2026-11-04T03:02:25.169867+00:00",
   "summary": {
-    "totalPlays": 21462,
+    "totalPlays": 21465,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793760539
+    "lastObserved": 1793761142
   },
   "topSongs": [
     {
@@ -194,6 +194,18 @@
       }
     },
     {
+      "artist": "Tennis",
+      "title": "Traveling",
+      "album": "Young & Old",
+      "count": 34,
+      "first": 1788989320,
+      "last": 1793760960,
+      "playlists": {
+        "1default": 31,
+        "landlockd surfrock": 3
+      }
+    },
+    {
       "artist": "Daffo",
       "title": "Good God",
       "album": "Good God (Porches Remix)",
@@ -203,18 +215,6 @@
       "playlists": {
         "1default": 29,
         "texting your situationship": 4
-      }
-    },
-    {
-      "artist": "Tennis",
-      "title": "Traveling",
-      "album": "Young & Old",
-      "count": 33,
-      "first": 1788989320,
-      "last": 1793612095,
-      "playlists": {
-        "1default": 30,
-        "landlockd surfrock": 3
       }
     },
     {
@@ -428,6 +428,17 @@
       }
     },
     {
+      "artist": "St. Paul & The Broken Bones",
+      "title": "Apollo",
+      "album": "Young Sick Camellia",
+      "count": 27,
+      "first": 1788972025,
+      "last": 1793761142,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "Radiohead",
       "title": "If You Say the Word",
       "album": "If You Say the Word",
@@ -577,17 +588,6 @@
       "count": 27,
       "first": 1788902047,
       "last": 1793752744,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "Gorillaz, Beck",
-      "title": "The Valley of The Pagans (feat. Beck)",
-      "album": "Song Machine, Season One: Strange Timez (Deluxe)",
-      "count": 27,
-      "first": 1789062154,
-      "last": 1793746423,
       "playlists": {
         "1default": 27
       }
@@ -3024,19 +3024,19 @@
     },
     {
       "artist": "Tennis",
-      "count": 86,
+      "count": 87,
       "first": 1788989320,
-      "last": 1793732188,
+      "last": 1793760960,
       "songs": [
         {
           "artist": "Tennis",
           "title": "Traveling",
           "album": "Young & Old",
-          "count": 33,
+          "count": 34,
           "first": 1788989320,
-          "last": 1793612095,
+          "last": 1793760960,
           "playlists": {
-            "1default": 30,
+            "1default": 31,
             "landlockd surfrock": 3
           }
         },
@@ -4864,6 +4864,36 @@
       ]
     },
     {
+      "artist": "Kate Bollinger",
+      "count": 51,
+      "first": 1788915657,
+      "last": 1793760801,
+      "songs": [
+        {
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 26,
+          "first": 1788915657,
+          "last": 1793760801,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 25,
+          "first": 1788983449,
+          "last": 1793679085,
+          "playlists": {
+            "1default": 25
+          }
+        }
+      ]
+    },
+    {
       "artist": "Juno Rossa",
       "count": 51,
       "first": 1789166634,
@@ -4887,36 +4917,6 @@
           "count": 25,
           "first": 1789167660,
           "last": 1793580944,
-          "playlists": {
-            "1default": 25
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 51,
-      "first": 1788947810,
-      "last": 1793756224,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 26,
-          "first": 1788947810,
-          "last": 1793756224,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 25,
-          "first": 1789059805,
-          "last": 1793633155,
           "playlists": {
             "1default": 25
           }
@@ -7582,9 +7582,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9872,
+      "count": 9875,
       "first": 1788901564,
-      "last": 1793760539,
+      "last": 1793761142,
       "songs": [
         {
           "artist": "Tele Novella",
