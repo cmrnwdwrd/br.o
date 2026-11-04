@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T00:32:24.710868+00:00",
+  "updatedAt": "2026-11-04T00:42:53.371845+00:00",
   "summary": {
-    "totalPlays": 21423,
+    "totalPlays": 21426,
     "unknownPlays": 1143,
     "uniqueTracks": 2686,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793752069
+    "lastObserved": 1793752945
   },
   "topSongs": [
     {
@@ -428,6 +428,28 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 27,
+      "first": 1789064784,
+      "last": 1793752945,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
+      "artist": "Atom Son of Man",
+      "title": "Hold Me",
+      "album": "1's a Man, 3's a Band",
+      "count": 27,
+      "first": 1788902047,
+      "last": 1793752744,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "Gorillaz, Beck",
       "title": "The Valley of The Pagans (feat. Beck)",
       "album": "Song Machine, Season One: Strange Timez (Deluxe)",
@@ -566,28 +588,6 @@
       "count": 27,
       "first": 1789054450,
       "last": 1793735167,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "title": "Visitor",
-      "album": "Visitor",
-      "count": 27,
-      "first": 1788963370,
-      "last": 1793734959,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "Enya",
-      "title": "Orinoco Flow",
-      "album": "Watermark",
-      "count": 27,
-      "first": 1789073755,
-      "last": 1793732594,
       "playlists": {
         "1default": 27
       }
@@ -1088,9 +1088,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 405,
+      "count": 406,
       "first": 1788910325,
-      "last": 1793740359,
+      "last": 1793752590,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1102,6 +1102,17 @@
           "playlists": {
             "1default": 31,
             "steal my bike": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 26,
+          "first": 1789057548,
+          "last": 1793752590,
+          "playlists": {
+            "1default": 26
           }
         },
         {
@@ -1179,17 +1190,6 @@
           "last": 1793582395,
           "playlists": {
             "1default": 26
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 25,
-          "first": 1789057548,
-          "last": 1793680765,
-          "playlists": {
-            "1default": 25
           }
         },
         {
@@ -1601,10 +1601,21 @@
     },
     {
       "artist": "Opium",
-      "count": 204,
+      "count": 205,
       "first": 1788927400,
-      "last": 1793742611,
+      "last": 1793752945,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 27,
+          "first": 1789064784,
+          "last": 1793752945,
+          "playlists": {
+            "1default": 27
+          }
+        },
         {
           "artist": "Opium",
           "title": "No Pulse",
@@ -1634,17 +1645,6 @@
           "count": 26,
           "first": 1789109880,
           "last": 1793727980,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 26,
-          "first": 1789064784,
-          "last": 1793672989,
           "playlists": {
             "1default": 26
           }
@@ -1697,10 +1697,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 202,
+      "count": 203,
       "first": 1788902047,
-      "last": 1793745474,
+      "last": 1793752744,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 27,
+          "first": 1788902047,
+          "last": 1793752744,
+          "playlists": {
+            "1default": 27
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Rock n' roll (Bonus Track)",
@@ -1719,17 +1730,6 @@
           "count": 26,
           "first": 1788903565,
           "last": 1793723603,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 26,
-          "first": 1788902047,
-          "last": 1793655582,
           "playlists": {
             "1default": 26
           }
@@ -4952,10 +4952,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 152,
+      "count": 153,
       "first": 1788902047,
-      "last": 1793745474,
+      "last": 1793752744,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 27,
+          "first": 1788902047,
+          "last": 1793752744,
+          "playlists": {
+            "1default": 27
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Rock n' roll (Bonus Track)",
@@ -4974,17 +4985,6 @@
           "count": 26,
           "first": 1788903565,
           "last": 1793723603,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 26,
-          "first": 1788902047,
-          "last": 1793655582,
           "playlists": {
             "1default": 26
           }
@@ -5556,10 +5556,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 103,
+      "count": 104,
       "first": 1788926373,
-      "last": 1793740359,
+      "last": 1793752590,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 26,
+          "first": 1789057548,
+          "last": 1793752590,
+          "playlists": {
+            "1default": 26
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "LA LA UNDERBELLY",
@@ -5591,17 +5602,6 @@
           "last": 1793643959,
           "playlists": {
             "1default": 26
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 25,
-          "first": 1789057548,
-          "last": 1793680765,
-          "playlists": {
-            "1default": 25
           }
         }
       ]
@@ -7606,9 +7606,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9834,
+      "count": 9837,
       "first": 1788901564,
-      "last": 1793746752,
+      "last": 1793752945,
       "songs": [
         {
           "artist": "Tele Novella",
