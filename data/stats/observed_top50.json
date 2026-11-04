@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T20:32:21.972484+00:00",
+  "updatedAt": "2026-11-04T20:57:57.586159+00:00",
   "summary": {
-    "totalPlays": 21781,
+    "totalPlays": 21789,
     "unknownPlays": 1143,
     "uniqueTracks": 2689,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793824217
+    "lastObserved": 1793825800
   },
   "topSongs": [
     {
@@ -462,6 +462,28 @@
       }
     },
     {
+      "artist": "Twen",
+      "title": "One Stop Shop (For A Fading Revolution)",
+      "album": "One Stop Shop",
+      "count": 27,
+      "first": 1789056787,
+      "last": 1793825592,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
+      "artist": "Gorillaz, ScHoolboy Q",
+      "title": "Pac-Man (feat. ScHoolboy Q)",
+      "album": "Song Machine Episode 5",
+      "count": 27,
+      "first": 1788901855,
+      "last": 1793825395,
+      "playlists": {
+        "1default": 27
+      }
+    },
+    {
       "artist": "N.E.R.D",
       "title": "Run To The Sun",
       "album": "In Search Of...",
@@ -567,28 +589,6 @@
       "count": 27,
       "first": 1789054258,
       "last": 1793811198,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "The Ephinjis",
-      "title": "Hot to Go!",
-      "album": "Hot to Go!",
-      "count": 27,
-      "first": 1789033065,
-      "last": 1793811007,
-      "playlists": {
-        "1default": 27
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "DISINTEGRATE",
-      "album": "SWAMP",
-      "count": 27,
-      "first": 1788983290,
-      "last": 1793810831,
       "playlists": {
         "1default": 27
       }
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 409,
+      "count": 410,
       "first": 1788910325,
-      "last": 1793810831,
+      "last": 1793825208,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1125,6 +1125,17 @@
           "last": 1793759951,
           "playlists": {
             "1default": 27
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "negative and hating",
+          "album": "THE FUTURE IS DARK (DELUXE)",
+          "count": 26,
+          "first": 1789225086,
+          "last": 1793825208,
+          "playlists": {
+            "1default": 26
           }
         },
         {
@@ -1211,17 +1222,6 @@
           "count": 25,
           "first": 1788975770,
           "last": 1793651211,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "negative and hating",
-          "album": "THE FUTURE IS DARK (DELUXE)",
-          "count": 25,
-          "first": 1789225086,
-          "last": 1793616380,
           "playlists": {
             "1default": 25
           }
@@ -1602,9 +1602,9 @@
     },
     {
       "artist": "Opium",
-      "count": 208,
+      "count": 209,
       "first": 1788927400,
-      "last": 1793788403,
+      "last": 1793825800,
       "songs": [
         {
           "artist": "Opium",
@@ -1687,11 +1687,11 @@
           "artist": "Opium",
           "title": "Broken Glass",
           "album": "PHANTOMS",
-          "count": 24,
+          "count": 25,
           "first": 1788973540,
-          "last": 1793635097,
+          "last": 1793825800,
           "playlists": {
-            "1default": 24
+            "1default": 25
           }
         }
       ]
@@ -5261,6 +5261,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Opium",
+      "album": "PHANTOMS",
+      "count": 155,
+      "first": 1788927400,
+      "last": 1793825800,
+      "songs": [
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 26,
+          "first": 1789057319,
+          "last": 1793788403,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 26,
+          "first": 1788927400,
+          "last": 1793760370,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 26,
+          "first": 1788946866,
+          "last": 1793742611,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 26,
+          "first": 1789064095,
+          "last": 1793735400,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 26,
+          "first": 1789109880,
+          "last": 1793727980,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 25,
+          "first": 1788973540,
+          "last": 1793825800,
+          "playlists": {
+            "1default": 25
+          }
+        }
+      ]
+    },
+    {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
       "count": 155,
@@ -5331,81 +5406,6 @@
           "last": 1793738242,
           "playlists": {
             "1default": 25
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Opium",
-      "album": "PHANTOMS",
-      "count": 154,
-      "first": 1788927400,
-      "last": 1793788403,
-      "songs": [
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 26,
-          "first": 1789057319,
-          "last": 1793788403,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 26,
-          "first": 1788927400,
-          "last": 1793760370,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 26,
-          "first": 1788946866,
-          "last": 1793742611,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 26,
-          "first": 1789064095,
-          "last": 1793735400,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 26,
-          "first": 1789109880,
-          "last": 1793727980,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 24,
-          "first": 1788973540,
-          "last": 1793635097,
-          "playlists": {
-            "1default": 24
           }
         }
       ]
@@ -7907,9 +7907,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9976,
+      "count": 9980,
       "first": 1788901564,
-      "last": 1793817820,
+      "last": 1793825800,
       "songs": [
         {
           "artist": "Tele Novella",
