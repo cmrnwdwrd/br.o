@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T14:08:27.874921+00:00",
+  "updatedAt": "2026-11-04T14:12:56.488487+00:00",
   "summary": {
-    "totalPlays": 21665,
+    "totalPlays": 21666,
     "unknownPlays": 1143,
     "uniqueTracks": 2689,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793801078
+    "lastObserved": 1793801380
   },
   "topSongs": [
     {
@@ -8106,10 +8106,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 999,
+      "count": 1000,
       "first": 1788955289,
-      "last": 1793801078,
+      "last": 1793801380,
       "songs": [
+        {
+          "artist": "Ben Howard",
+          "title": "Only Love",
+          "album": "Every Kingdom",
+          "count": 4,
+          "first": 1790255260,
+          "last": 1793801380,
+          "playlists": {
+            "carhartts": 4
+          }
+        },
         {
           "artist": "flipturn",
           "title": "August (Acoustic)",
@@ -8150,17 +8161,6 @@
           "count": 4,
           "first": 1789476077,
           "last": 1793717171,
-          "playlists": {
-            "carhartts": 4
-          }
-        },
-        {
-          "artist": "Gregory Alan Isakov",
-          "title": "Big Black Car",
-          "album": "This Empty Northern Hemisphere",
-          "count": 4,
-          "first": 1790078915,
-          "last": 1793716555,
           "playlists": {
             "carhartts": 4
           }
