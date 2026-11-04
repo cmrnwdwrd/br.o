@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-04T17:03:15.502209+00:00",
+  "updatedAt": "2026-11-04T17:08:11.413098+00:00",
   "summary": {
-    "totalPlays": 21724,
+    "totalPlays": 21725,
     "unknownPlays": 1143,
     "uniqueTracks": 2689,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793811661
+    "lastObserved": 1793811856
   },
   "topSongs": [
     {
@@ -45,6 +45,18 @@
       "last": 1793770100,
       "playlists": {
         "1default": 34,
+        "anti-capitalist weekday afternoon #1": 9
+      }
+    },
+    {
+      "artist": "The Salesmen, Ike Spivak",
+      "title": "Happy Boy",
+      "album": "WAR IN COLORADO!",
+      "count": 42,
+      "first": 1788993017,
+      "last": 1793811856,
+      "playlists": {
+        "1default": 33,
         "anti-capitalist weekday afternoon #1": 9
       }
     },
@@ -140,18 +152,6 @@
       "count": 41,
       "first": 1788996063,
       "last": 1793750441,
-      "playlists": {
-        "1default": 32,
-        "anti-capitalist weekday afternoon #1": 9
-      }
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "title": "Happy Boy",
-      "album": "WAR IN COLORADO!",
-      "count": 41,
-      "first": 1788993017,
-      "last": 1793747139,
       "playlists": {
         "1default": 32,
         "anti-capitalist weekday afternoon #1": 9
@@ -7819,6 +7819,27 @@
       ]
     },
     {
+      "artist": "The Salesmen, Ike Spivak",
+      "album": "WAR IN COLORADO!",
+      "count": 42,
+      "first": 1788993017,
+      "last": 1793811856,
+      "songs": [
+        {
+          "artist": "The Salesmen, Ike Spivak",
+          "title": "Happy Boy",
+          "album": "WAR IN COLORADO!",
+          "count": 42,
+          "first": 1788993017,
+          "last": 1793811856,
+          "playlists": {
+            "1default": 33,
+            "anti-capitalist weekday afternoon #1": 9
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lush",
       "album": "Lovelife",
       "count": 42,
@@ -7881,45 +7902,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Rosie Tucker",
-      "album": "Sucker Supreme",
-      "count": 42,
-      "first": 1788995157,
-      "last": 1793740714,
-      "songs": [
-        {
-          "artist": "Rosie Tucker",
-          "title": "Habanero",
-          "album": "Sucker Supreme",
-          "count": 25,
-          "first": 1789214020,
-          "last": 1793740714,
-          "playlists": {
-            "1default": 25
-          }
-        },
-        {
-          "artist": "Rosie Tucker",
-          "title": "For Sale: Ford Pinto",
-          "album": "Sucker Supreme",
-          "count": 17,
-          "first": 1788995157,
-          "last": 1793661469,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 17
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 9948,
+      "count": 9949,
       "first": 1788901564,
-      "last": 1793811661,
+      "last": 1793811856,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -7955,23 +7945,23 @@
           }
         },
         {
+          "artist": "The Salesmen, Ike Spivak",
+          "title": "Happy Boy",
+          "album": "WAR IN COLORADO!",
+          "count": 33,
+          "first": 1788993017,
+          "last": 1793811856,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
           "artist": "Colfax Speed Queen",
           "title": "Jesus Loves Rock N' Roll",
           "album": "Satisfaction Intended",
           "count": 33,
           "first": 1788926155,
           "last": 1793769467,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 33,
-          "first": 1789014862,
-          "last": 1793726565,
           "playlists": {
             "1default": 33
           }
