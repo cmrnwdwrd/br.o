@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-05T04:08:33.213628+00:00",
+  "updatedAt": "2026-11-05T04:12:24.702179+00:00",
   "summary": {
-    "totalPlays": 21881,
+    "totalPlays": 21882,
     "unknownPlays": 1143,
     "uniqueTracks": 2689,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793851697
+    "lastObserved": 1793851867
   },
   "topSongs": [
     {
@@ -1602,9 +1602,9 @@
     },
     {
       "artist": "My Chemical Romance",
-      "count": 216,
+      "count": 217,
       "first": 1788965302,
-      "last": 1793851697,
+      "last": 1793851867,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -1638,6 +1638,17 @@
           "last": 1793844326,
           "playlists": {
             "MCR wednesday wind down": 7
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "The Kids from Yesterday",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 6,
+          "first": 1789613349,
+          "last": 1793851867,
+          "playlists": {
+            "MCR wednesday wind down": 6
           }
         },
         {
@@ -1933,17 +1944,6 @@
           "count": 5,
           "first": 1789611580,
           "last": 1793243394,
-          "playlists": {
-            "MCR wednesday wind down": 5
-          }
-        },
-        {
-          "artist": "My Chemical Romance",
-          "title": "The Kids from Yesterday",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 5,
-          "first": 1789613349,
-          "last": 1793237392,
           "playlists": {
             "MCR wednesday wind down": 5
           }
@@ -6851,53 +6851,11 @@
       ]
     },
     {
-      "artist": "ruzlxn",
-      "album": "GRITTED TEETH *",
-      "count": 60,
-      "first": 1788914259,
-      "last": 1793773765,
-      "songs": [
-        {
-          "artist": "ruzlxn",
-          "title": "BURN YOUR LOCAL POLITICIAN !",
-          "album": "GRITTED TEETH *",
-          "count": 27,
-          "first": 1788914259,
-          "last": 1793763744,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "GRITTED TEETH",
-          "album": "GRITTED TEETH *",
-          "count": 21,
-          "first": 1789408164,
-          "last": 1793608512,
-          "playlists": {
-            "1default": 21
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "BONES",
-          "album": "GRITTED TEETH *",
-          "count": 12,
-          "first": 1788933961,
-          "last": 1793773765,
-          "playlists": {
-            "EPL4a": 12
-          }
-        }
-      ]
-    },
-    {
       "artist": "My Chemical Romance",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-      "count": 59,
+      "count": 60,
       "first": 1788965302,
-      "last": 1793850515,
+      "last": 1793851867,
       "songs": [
         {
           "artist": "My Chemical Romance",
@@ -6908,6 +6866,17 @@
           "last": 1793831376,
           "playlists": {
             "1default": 26
+          }
+        },
+        {
+          "artist": "My Chemical Romance",
+          "title": "The Kids from Yesterday",
+          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
+          "count": 6,
+          "first": 1789613349,
+          "last": 1793851867,
+          "playlists": {
+            "MCR wednesday wind down": 6
           }
         },
         {
@@ -6964,16 +6933,47 @@
           "playlists": {
             "MCR wednesday wind down": 5
           }
+        }
+      ]
+    },
+    {
+      "artist": "ruzlxn",
+      "album": "GRITTED TEETH *",
+      "count": 60,
+      "first": 1788914259,
+      "last": 1793773765,
+      "songs": [
+        {
+          "artist": "ruzlxn",
+          "title": "BURN YOUR LOCAL POLITICIAN !",
+          "album": "GRITTED TEETH *",
+          "count": 27,
+          "first": 1788914259,
+          "last": 1793763744,
+          "playlists": {
+            "1default": 27
+          }
         },
         {
-          "artist": "My Chemical Romance",
-          "title": "The Kids from Yesterday",
-          "album": "Danger Days: The True Lives of the Fabulous Killjoys",
-          "count": 5,
-          "first": 1789613349,
-          "last": 1793237392,
+          "artist": "ruzlxn",
+          "title": "GRITTED TEETH",
+          "album": "GRITTED TEETH *",
+          "count": 21,
+          "first": 1789408164,
+          "last": 1793608512,
           "playlists": {
-            "MCR wednesday wind down": 5
+            "1default": 21
+          }
+        },
+        {
+          "artist": "ruzlxn",
+          "title": "BONES",
+          "album": "GRITTED TEETH *",
+          "count": 12,
+          "first": 1788933961,
+          "last": 1793773765,
+          "playlists": {
+            "EPL4a": 12
           }
         }
       ]
