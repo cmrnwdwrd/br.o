@@ -1,10 +1,10 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-05T16:23:34.135140+00:00",
-  "totalPlays": 22094,
+  "updatedAt": "2026-11-05T16:32:59.780534+00:00",
+  "totalPlays": 22097,
   "unknownPlays": 1143,
   "firstObserved": 1788901564,
-  "lastObserved": 1793895805,
+  "lastObserved": 1793896346,
   "songs": {
     "n.e.r.d|run to the sun": {
       "artist": "N.E.R.D",
@@ -6280,11 +6280,11 @@
       "artist": "clipping.",
       "title": "Nothing is Safe",
       "album": "There Existed an Addiction to Blood",
-      "count": 25,
+      "count": 26,
       "first": 1789054884,
-      "last": 1793589153,
+      "last": 1793896346,
       "playlists": {
-        "1default": 25
+        "1default": 26
       }
     },
     "zakaraka & imaginomics|998 good bricks": {
@@ -16121,11 +16121,13 @@
     "solsa|si si": {
       "artist": "SOLSA",
       "title": "SI SI",
-      "album": "",
-      "count": 1,
+      "album": "SI SI",
+      "count": 2,
       "first": 1789657539,
-      "last": 1789657539,
-      "playlists": {}
+      "last": 1793895960,
+      "playlists": {
+        "rage commute": 1
+      }
     },
     "aaron may|yung hustla (2k)": {
       "artist": "Aaron May",
@@ -29777,6 +29779,17 @@
       "playlists": {
         "rage commute": 1
       }
+    },
+    "xzarkhan|sunken city": {
+      "artist": "XZARKHAN",
+      "title": "Sunken City",
+      "album": "Sunken City",
+      "count": 1,
+      "first": 1793896136,
+      "last": 1793896136,
+      "playlists": {
+        "rage commute": 1
+      }
     }
   },
   "artists": {
@@ -43192,19 +43205,19 @@
     },
     "clipping.": {
       "artist": "clipping.",
-      "count": 25,
+      "count": 26,
       "first": 1789054884,
-      "last": 1793589153,
+      "last": 1793896346,
       "songs": {
         "clipping.|nothing is safe": {
           "artist": "clipping.",
           "title": "Nothing is Safe",
           "album": "There Existed an Addiction to Blood",
-          "count": 25,
+          "count": 26,
           "first": 1789054884,
-          "last": 1793589153,
+          "last": 1793896346,
           "playlists": {
-            "1default": 25
+            "1default": 26
           }
         }
       }
@@ -57717,18 +57730,20 @@
     },
     "solsa": {
       "artist": "SOLSA",
-      "count": 2,
+      "count": 3,
       "first": 1789657539,
-      "last": 1792680351,
+      "last": 1793895960,
       "songs": {
         "solsa|si si": {
           "artist": "SOLSA",
           "title": "SI SI",
-          "album": "",
-          "count": 1,
+          "album": "SI SI",
+          "count": 2,
           "first": 1789657539,
-          "last": 1789657539,
-          "playlists": {}
+          "last": 1793895960,
+          "playlists": {
+            "rage commute": 1
+          }
         },
         "solsa|happy relax": {
           "artist": "SOLSA",
@@ -73183,6 +73198,25 @@
           }
         }
       }
+    },
+    "xzarkhan": {
+      "artist": "XZARKHAN",
+      "count": 1,
+      "first": 1793896136,
+      "last": 1793896136,
+      "songs": {
+        "xzarkhan|sunken city": {
+          "artist": "XZARKHAN",
+          "title": "Sunken City",
+          "album": "Sunken City",
+          "count": 1,
+          "first": 1793896136,
+          "last": 1793896136,
+          "playlists": {
+            "rage commute": 1
+          }
+        }
+      }
     }
   },
   "albums": {
@@ -85065,19 +85099,19 @@
     "clipping.|there existed an addiction to blood": {
       "artist": "clipping.",
       "album": "There Existed an Addiction to Blood",
-      "count": 25,
+      "count": 26,
       "first": 1789054884,
-      "last": 1793589153,
+      "last": 1793896346,
       "songs": {
         "clipping.|nothing is safe": {
           "artist": "clipping.",
           "title": "Nothing is Safe",
           "album": "There Existed an Addiction to Blood",
-          "count": 25,
+          "count": 26,
           "first": 1789054884,
-          "last": 1793589153,
+          "last": 1793896346,
           "playlists": {
-            "1default": 25
+            "1default": 26
           }
         }
       }
@@ -122886,14 +122920,54 @@
           }
         }
       }
+    },
+    "xzarkhan|sunken city": {
+      "artist": "XZARKHAN",
+      "album": "Sunken City",
+      "count": 1,
+      "first": 1793896136,
+      "last": 1793896136,
+      "songs": {
+        "xzarkhan|sunken city": {
+          "artist": "XZARKHAN",
+          "title": "Sunken City",
+          "album": "Sunken City",
+          "count": 1,
+          "first": 1793896136,
+          "last": 1793896136,
+          "playlists": {
+            "rage commute": 1
+          }
+        }
+      }
+    },
+    "solsa|si si": {
+      "artist": "SOLSA",
+      "album": "SI SI",
+      "count": 1,
+      "first": 1793895960,
+      "last": 1793895960,
+      "songs": {
+        "solsa|si si": {
+          "artist": "SOLSA",
+          "title": "SI SI",
+          "album": "SI SI",
+          "count": 1,
+          "first": 1793895960,
+          "last": 1793895960,
+          "playlists": {
+            "rage commute": 1
+          }
+        }
+      }
     }
   },
   "playlists": {
     "1default": {
       "playlist": "1default",
-      "count": 10055,
+      "count": 10056,
       "first": 1788901564,
-      "last": 1793892569,
+      "last": 1793896346,
       "songs": {
         "n.e.r.d|run to the sun": {
           "artist": "N.E.R.D",
@@ -125297,11 +125371,11 @@
           "artist": "clipping.",
           "title": "Nothing is Safe",
           "album": "There Existed an Addiction to Blood",
-          "count": 25,
+          "count": 26,
           "first": 1789054884,
-          "last": 1793589153,
+          "last": 1793896346,
           "playlists": {
-            "1default": 25
+            "1default": 26
           }
         },
         "zakaraka & imaginomics|998 good bricks": {
@@ -136451,9 +136525,9 @@
     },
     "rage commute": {
       "playlist": "rage commute",
-      "count": 165,
+      "count": 167,
       "first": 1789050879,
-      "last": 1793895805,
+      "last": 1793896136,
       "songs": {
         "rico nasty|phuckin lady": {
           "artist": "Rico Nasty",
@@ -137804,6 +137878,28 @@
           "count": 1,
           "first": 1793894695,
           "last": 1793894695,
+          "playlists": {
+            "rage commute": 1
+          }
+        },
+        "xzarkhan|sunken city": {
+          "artist": "XZARKHAN",
+          "title": "Sunken City",
+          "album": "Sunken City",
+          "count": 1,
+          "first": 1793896136,
+          "last": 1793896136,
+          "playlists": {
+            "rage commute": 1
+          }
+        },
+        "solsa|si si": {
+          "artist": "SOLSA",
+          "title": "SI SI",
+          "album": "SI SI",
+          "count": 1,
+          "first": 1793895960,
+          "last": 1793895960,
           "playlists": {
             "rage commute": 1
           }
