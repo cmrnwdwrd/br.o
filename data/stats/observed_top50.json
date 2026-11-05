@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-05T23:27:54.623869+00:00",
+  "updatedAt": "2026-11-05T23:33:21.712055+00:00",
   "summary": {
-    "totalPlays": 22209,
+    "totalPlays": 22210,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793921053
+    "lastObserved": 1793921456
   },
   "topSongs": [
     {
@@ -8315,10 +8315,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 713,
+      "count": 714,
       "first": 1788904845,
-      "last": 1793921053,
+      "last": 1793921456,
       "songs": [
+        {
+          "artist": "Shakey Graves",
+          "title": "Chinatown",
+          "album": "Roll The Bones X",
+          "count": 18,
+          "first": 1788993925,
+          "last": 1793921456,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 18
+          }
+        },
         {
           "artist": "They Might Be Giants",
           "title": "Birdhouse in Your Soul",
@@ -8361,17 +8372,6 @@
           "last": 1793662600,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 18
-          }
-        },
-        {
-          "artist": "The Mountain Goats",
-          "title": "This Year",
-          "album": "The Sunset Tree",
-          "count": 17,
-          "first": 1789425007,
-          "last": 1793920251,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 17
           }
         }
       ]
