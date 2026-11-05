@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-05T20:17:54.119055+00:00",
+  "updatedAt": "2026-11-05T20:23:06.479260+00:00",
   "summary": {
-    "totalPlays": 22157,
+    "totalPlays": 22158,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793909750
+    "lastObserved": 1793909986
   },
   "topSongs": [
     {
@@ -194,6 +194,18 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 34,
+      "first": 1789063640,
+      "last": 1793909986,
+      "playlists": {
+        "1default": 31,
+        "landlockd surfrock": 3
+      }
+    },
+    {
       "artist": "Nat & Alex Wolff",
       "title": "Rollin' Around",
       "album": "Public Places",
@@ -236,18 +248,6 @@
       "count": 33,
       "first": 1789226222,
       "last": 1793900488,
-      "playlists": {
-        "1default": 30,
-        "landlockd surfrock": 3
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 33,
-      "first": 1789063640,
-      "last": 1793828856,
       "playlists": {
         "1default": 30,
         "landlockd surfrock": 3
@@ -4073,6 +4073,37 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 60,
+      "first": 1788973386,
+      "last": 1793909986,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 34,
+          "first": 1789063640,
+          "last": 1793909986,
+          "playlists": {
+            "1default": 31,
+            "landlockd surfrock": 3
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 26,
+          "first": 1788973386,
+          "last": 1793789979,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 60,
       "first": 1788914421,
@@ -4268,37 +4299,6 @@
           "last": 1793772741,
           "playlists": {
             "EPL4a": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 59,
-      "first": 1788973386,
-      "last": 1793828856,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 33,
-          "first": 1789063640,
-          "last": 1793828856,
-          "playlists": {
-            "1default": 30,
-            "landlockd surfrock": 3
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 26,
-          "first": 1788973386,
-          "last": 1793789979,
-          "playlists": {
-            "1default": 26
           }
         }
       ]
@@ -8053,9 +8053,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10115,
+      "count": 10116,
       "first": 1788901564,
-      "last": 1793909750,
+      "last": 1793909986,
       "songs": [
         {
           "artist": "Tele Novella",
