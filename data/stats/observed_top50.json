@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-05T21:47:18.543187+00:00",
+  "updatedAt": "2026-11-05T21:52:18.973594+00:00",
   "summary": {
-    "totalPlays": 22182,
+    "totalPlays": 22184,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793915063
+    "lastObserved": 1793915531
   },
   "topSongs": [
     {
@@ -362,6 +362,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 29,
+      "first": 1788917230,
+      "last": 1793915531,
+      "playlists": {
+        "1default": 29
+      }
+    },
+    {
       "artist": "Squirrel Flower",
       "title": "So Hot You're Hurting My Feelings",
       "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
@@ -580,17 +591,6 @@
       "playlists": {
         "1default": 27,
         "throwbacks": 1
-      }
-    },
-    {
-      "artist": "Vampire Weekend",
-      "title": "How Long?",
-      "album": "Father of the Bride",
-      "count": 28,
-      "first": 1788990464,
-      "last": 1793817820,
-      "playlists": {
-        "1default": 28
       }
     }
   ],
@@ -3215,6 +3215,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 82,
+      "first": 1788917230,
+      "last": 1793915531,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 29,
+          "first": 1788917230,
+          "last": 1793915531,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 27,
+          "first": 1788970790,
+          "last": 1793902546,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 26,
+          "first": 1789050580,
+          "last": 1793761652,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 82,
       "first": 1788973066,
@@ -3273,47 +3314,6 @@
           "last": 1792902695,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 81,
-      "first": 1788917230,
-      "last": 1793902546,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 28,
-          "first": 1788917230,
-          "last": 1793725650,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 27,
-          "first": 1788970790,
-          "last": 1793902546,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 26,
-          "first": 1789050580,
-          "last": 1793761652,
-          "playlists": {
-            "1default": 26
           }
         }
       ]
@@ -8064,9 +8064,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10139,
+      "count": 10141,
       "first": 1788901564,
-      "last": 1793915063,
+      "last": 1793915531,
       "songs": [
         {
           "artist": "Tele Novella",
