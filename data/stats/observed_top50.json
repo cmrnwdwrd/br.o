@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-05T22:22:23.523864+00:00",
+  "updatedAt": "2026-11-05T22:32:21.482198+00:00",
   "summary": {
-    "totalPlays": 22191,
+    "totalPlays": 22194,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793917207
+    "lastObserved": 1793917864
   },
   "topSongs": [
     {
@@ -3535,6 +3535,47 @@
       ]
     },
     {
+      "artist": "Brandywine",
+      "count": 78,
+      "first": 1788965930,
+      "last": 1793917864,
+      "songs": [
+        {
+          "artist": "Brandywine",
+          "title": "Friend of Mine",
+          "album": "Friend of Mine",
+          "count": 27,
+          "first": 1788965930,
+          "last": 1793810388,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "No Signs",
+          "album": "No Signs",
+          "count": 26,
+          "first": 1789068640,
+          "last": 1793753370,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Brandywine",
+          "title": "Hey You",
+          "album": "Hey You",
+          "count": 25,
+          "first": 1789215234,
+          "last": 1793917864,
+          "playlists": {
+            "1default": 25
+          }
+        }
+      ]
+    },
+    {
       "artist": "Ethel Cain",
       "count": 78,
       "first": 1789098981,
@@ -3593,47 +3634,6 @@
           "last": 1793336363,
           "playlists": {
             "for the girls driving 85": 14
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Brandywine",
-      "count": 77,
-      "first": 1788965930,
-      "last": 1793817595,
-      "songs": [
-        {
-          "artist": "Brandywine",
-          "title": "Friend of Mine",
-          "album": "Friend of Mine",
-          "count": 27,
-          "first": 1788965930,
-          "last": 1793810388,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "No Signs",
-          "album": "No Signs",
-          "count": 26,
-          "first": 1789068640,
-          "last": 1793753370,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Brandywine",
-          "title": "Hey You",
-          "album": "Hey You",
-          "count": 24,
-          "first": 1789215234,
-          "last": 1793817595,
-          "playlists": {
-            "1default": 24
           }
         }
       ]
@@ -5246,6 +5246,36 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "count": 53,
+      "first": 1788947080,
+      "last": 1793917616,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 27,
+          "first": 1788968380,
+          "last": 1793910192,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 26,
+          "first": 1788947080,
+          "last": 1793917616,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "Beach Bunny",
       "count": 53,
       "first": 1788966457,
@@ -5282,36 +5312,6 @@
           "last": 1793511391,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "David Bowie",
-      "count": 53,
-      "first": 1788912385,
-      "last": 1793908031,
-      "songs": [
-        {
-          "artist": "David Bowie",
-          "title": "I'm Afraid of Americans (V1)",
-          "album": "Legacy (Deluxe Edition)",
-          "count": 27,
-          "first": 1788912385,
-          "last": 1793729112,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "David Bowie",
-          "title": "Rebel Rebel - 2016 Remaster",
-          "album": "Diamond Dogs (2016 Remaster)",
-          "count": 26,
-          "first": 1789129746,
-          "last": 1793908031,
-          "playlists": {
-            "1default": 26
           }
         }
       ]
@@ -7176,6 +7176,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 53,
+      "first": 1788947080,
+      "last": 1793917616,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 27,
+          "first": 1788968380,
+          "last": 1793910192,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 26,
+          "first": 1788947080,
+          "last": 1793917616,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "Juno Rossa",
       "album": "Chasing Animals",
       "count": 53,
@@ -7326,37 +7357,6 @@
           "last": 1793719997,
           "playlists": {
             "1default": 26
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 52,
-      "first": 1788947080,
-      "last": 1793910192,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 27,
-          "first": 1788968380,
-          "last": 1793910192,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 25,
-          "first": 1788947080,
-          "last": 1793812398,
-          "playlists": {
-            "1default": 25
           }
         }
       ]
@@ -8063,9 +8063,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10148,
+      "count": 10151,
       "first": 1788901564,
-      "last": 1793917207,
+      "last": 1793917864,
       "songs": [
         {
           "artist": "Tele Novella",
