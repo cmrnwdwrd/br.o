@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-05T14:02:49.880996+00:00",
+  "updatedAt": "2026-11-05T14:17:54.510950+00:00",
   "summary": {
-    "totalPlays": 22052,
+    "totalPlays": 22057,
     "unknownPlays": 1143,
     "uniqueTracks": 2690,
     "uniqueArtists": 1698,
     "uniqueAlbums": 2192,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793887075
+    "lastObserved": 1793888238
   },
   "topSongs": [
     {
@@ -8198,10 +8198,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 1028,
+      "count": 1033,
       "first": 1788955289,
-      "last": 1793887075,
+      "last": 1793888238,
       "songs": [
+        {
+          "artist": "Luz",
+          "title": "the author",
+          "album": "the author",
+          "count": 4,
+          "first": 1790081459,
+          "last": 1793887733,
+          "playlists": {
+            "carhartts": 4
+          }
+        },
         {
           "artist": "Yael Naim",
           "title": "A Part of Us",
@@ -8242,17 +8253,6 @@
           "count": 4,
           "first": 1789653204,
           "last": 1793884600,
-          "playlists": {
-            "carhartts": 4
-          }
-        },
-        {
-          "artist": "Arts Fishing Club",
-          "title": "Tupelo Honey",
-          "album": "Human - I",
-          "count": 4,
-          "first": 1788957422,
-          "last": 1793804272,
           "playlists": {
             "carhartts": 4
           }
