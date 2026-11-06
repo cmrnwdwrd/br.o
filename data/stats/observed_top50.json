@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-06T06:27:21.799604+00:00",
+  "updatedAt": "2026-11-06T06:33:00.523995+00:00",
   "summary": {
-    "totalPlays": 22324,
+    "totalPlays": 22325,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793946409
+    "lastObserved": 1793946620
   },
   "topSongs": [
     {
@@ -8400,10 +8400,21 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "count": 729,
+      "count": 730,
       "first": 1789097452,
-      "last": 1793946409,
+      "last": 1793946620,
       "songs": [
+        {
+          "artist": "Carole King",
+          "title": "Good Mountain People",
+          "album": "Touch the Sky",
+          "count": 17,
+          "first": 1789194681,
+          "last": 1793946620,
+          "playlists": {
+            "for the girls driving 85": 17
+          }
+        },
         {
           "artist": "Mitski",
           "title": "A Horse Named Cold Air",
@@ -8444,17 +8455,6 @@
           "count": 17,
           "first": 1789101906,
           "last": 1793944485,
-          "playlists": {
-            "for the girls driving 85": 17
-          }
-        },
-        {
-          "artist": "Mary Gauthier",
-          "title": "The Sun Fades The Color Of Everything",
-          "album": "Filth & Fire",
-          "count": 17,
-          "first": 1789105172,
-          "last": 1793944282,
           "playlists": {
             "for the girls driving 85": 17
           }
