@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T03:42:52.496767+00:00",
+  "updatedAt": "2026-11-06T03:57:21.570352+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 756,
+    "sessionCount": 757,
     "firstObserved": 1788901564,
-    "lastObserved": 1793931888
+    "lastObserved": 1793936881
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 281,
-      "playCount": 10194,
+      "sessionCount": 282,
+      "playCount": 10197,
       "firstObserved": 1788901564,
-      "lastObserved": 1793925057,
-      "typicalStartMinute": 386,
+      "lastObserved": 1793936881,
+      "typicalStartMinute": 382,
       "typicalDurationMinutes": 47,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -119,7 +119,7 @@
           279.8,
           540.0,
           224.2,
-          104.7,
+          115.9,
           257.6,
           0.0,
           0.0
@@ -582,7 +582,7 @@
           0.0,
           0.0,
           0.0,
-          104.7,
+          115.9,
           120.0,
           120.0,
           17.6,
@@ -991,7 +991,7 @@
           9,
           0,
           0,
-          8,
+          9,
           0,
           0,
           0
@@ -1099,9 +1099,9 @@
         },
         {
           "weekday": 3,
-          "sessions": 46,
-          "typicalStartMinute": 520,
-          "typicalDurationMinutes": 46,
+          "sessions": 47,
+          "typicalStartMinute": 517,
+          "typicalDurationMinutes": 45,
           "confidence": "Low"
         },
         {
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1793936881,
+          "end": 1793937550,
+          "durationMinutes": 11,
+          "playCount": 3
+        },
         {
           "start": 1793925057,
           "end": 1793931884,
@@ -1239,12 +1245,6 @@
           "start": 1793551022,
           "end": 1793551234,
           "durationMinutes": 4,
-          "playCount": 1
-        },
-        {
-          "start": 1793547659,
-          "end": 1793548044,
-          "durationMinutes": 6,
           "playCount": 1
         }
       ]
@@ -21350,7 +21350,7 @@
     {
       "playlist": "grwm blindspotting",
       "sessionCount": 10,
-      "playCount": 196,
+      "playCount": 197,
       "firstObserved": 1789089933,
       "lastObserved": 1793931888,
       "typicalStartMinute": 1172,
@@ -21456,7 +21456,7 @@
           0.0,
           0.0,
           315.7,
-          407.3,
+          411.8,
           0.0,
           0.0,
           0.0
@@ -21918,8 +21918,8 @@
           135.0,
           135.0,
           134.9,
-          122.3,
-          15.1,
+          123.7,
+          18.2,
           0.0,
           0.0,
           0.0,
@@ -22424,9 +22424,9 @@
       "recentSessions": [
         {
           "start": 1793931888,
-          "end": 1793936615,
-          "durationMinutes": 79,
-          "playCount": 24
+          "end": 1793936881,
+          "durationMinutes": 83,
+          "playCount": 25
         },
         {
           "start": 1793323464,
