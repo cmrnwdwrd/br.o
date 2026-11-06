@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-06T12:57:17.119434+00:00",
+  "updatedAt": "2026-11-06T13:13:17.614282+00:00",
   "summary": {
-    "totalPlays": 22405,
+    "totalPlays": 22407,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793968157
+    "lastObserved": 1793970716
   },
   "topSongs": [
     {
@@ -430,6 +430,17 @@
     },
     {
       "artist": "Lil Darkie",
+      "title": "THE WORLD IS ENDING",
+      "album": "THE WORLD IS ENDING",
+      "count": 28,
+      "first": 1789033665,
+      "last": 1793970500,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
+      "artist": "Lil Darkie",
       "title": "DARKIE STILL CANNOT RAP",
       "album": "SWAMP DRAINED",
       "count": 28,
@@ -579,17 +590,6 @@
       "count": 28,
       "first": 1788946229,
       "last": 1793930093,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Blue October",
-      "title": "Into The Ocean",
-      "album": "Foiled",
-      "count": 28,
-      "first": 1788970549,
-      "last": 1793928366,
       "playlists": {
         "1default": 28
       }
@@ -1090,9 +1090,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 421,
+      "count": 422,
       "first": 1788910325,
-      "last": 1793961072,
+      "last": 1793970500,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1104,6 +1104,17 @@
           "playlists": {
             "1default": 31,
             "steal my bike": 4
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "THE WORLD IS ENDING",
+          "album": "THE WORLD IS ENDING",
+          "count": 28,
+          "first": 1789033665,
+          "last": 1793970500,
+          "playlists": {
+            "1default": 28
           }
         },
         {
@@ -1157,17 +1168,6 @@
           "count": 27,
           "first": 1788926373,
           "last": 1793904505,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE WORLD IS ENDING",
-          "album": "THE WORLD IS ENDING",
-          "count": 27,
-          "first": 1789033665,
-          "last": 1793904145,
           "playlists": {
             "1default": 27
           }
@@ -1975,9 +1975,9 @@
     },
     {
       "artist": "Opium",
-      "count": 212,
+      "count": 213,
       "first": 1788927400,
-      "last": 1793937556,
+      "last": 1793970716,
       "songs": [
         {
           "artist": "Opium",
@@ -1988,6 +1988,17 @@
           "last": 1793918456,
           "playlists": {
             "1default": 28
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 27,
+          "first": 1788946866,
+          "last": 1793970716,
+          "playlists": {
+            "1default": 27
           }
         },
         {
@@ -2021,17 +2032,6 @@
           "last": 1793767825,
           "playlists": {
             "1default": 27
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 26,
-          "first": 1788946866,
-          "last": 1793742611,
-          "playlists": {
-            "1default": 26
           }
         },
         {
@@ -5332,6 +5332,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Opium",
+      "album": "PHANTOMS",
+      "count": 158,
+      "first": 1788927400,
+      "last": 1793970716,
+      "songs": [
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 27,
+          "first": 1788946866,
+          "last": 1793970716,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 27,
+          "first": 1789057319,
+          "last": 1793937556,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 27,
+          "first": 1788927400,
+          "last": 1793907861,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 26,
+          "first": 1789064095,
+          "last": 1793735400,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 26,
+          "first": 1789109880,
+          "last": 1793727980,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 25,
+          "first": 1788973540,
+          "last": 1793825800,
+          "playlists": {
+            "1default": 25
+          }
+        }
+      ]
+    },
+    {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
       "count": 158,
@@ -5402,81 +5477,6 @@
           "last": 1793723603,
           "playlists": {
             "1default": 26
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Opium",
-      "album": "PHANTOMS",
-      "count": 157,
-      "first": 1788927400,
-      "last": 1793937556,
-      "songs": [
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 27,
-          "first": 1789057319,
-          "last": 1793937556,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 27,
-          "first": 1788927400,
-          "last": 1793907861,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 26,
-          "first": 1788946866,
-          "last": 1793742611,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 26,
-          "first": 1789064095,
-          "last": 1793735400,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 26,
-          "first": 1789109880,
-          "last": 1793727980,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 25,
-          "first": 1788973540,
-          "last": 1793825800,
-          "playlists": {
-            "1default": 25
           }
         }
       ]
@@ -8086,9 +8086,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10219,
+      "count": 10221,
       "first": 1788901564,
-      "last": 1793962680,
+      "last": 1793970716,
       "songs": [
         {
           "artist": "Tele Novella",
