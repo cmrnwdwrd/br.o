@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-06T04:22:20.913991+00:00",
+  "updatedAt": "2026-11-06T04:27:21.699424+00:00",
   "summary": {
-    "totalPlays": 22293,
+    "totalPlays": 22294,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1793938902
+    "lastObserved": 1793939132
   },
   "topSongs": [
     {
@@ -417,6 +417,17 @@
       }
     },
     {
+      "artist": "Weezer",
+      "title": "The End of the Game",
+      "album": "The End of the Game",
+      "count": 28,
+      "first": 1788974227,
+      "last": 1793939132,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
       "artist": "Tennis",
       "title": "Need Your Love",
       "album": "Swimmer",
@@ -578,17 +589,6 @@
       "count": 28,
       "first": 1788963606,
       "last": 1793925927,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Moby",
-      "title": "Porcelain",
-      "album": "Play & Play: B Sides",
-      "count": 28,
-      "first": 1788910695,
-      "last": 1793925531,
       "playlists": {
         "1default": 28
       }
@@ -3099,6 +3099,70 @@
       ]
     },
     {
+      "artist": "Weezer",
+      "count": 87,
+      "first": 1788946510,
+      "last": 1793939132,
+      "songs": [
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So",
+          "album": "Weezer",
+          "count": 30,
+          "first": 1788946510,
+          "last": 1793718791,
+          "playlists": {
+            "1default": 28,
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "The End of the Game",
+          "album": "The End of the Game",
+          "count": 28,
+          "first": 1788974227,
+          "last": 1793939132,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Hero",
+          "album": "Hero",
+          "count": 24,
+          "first": 1789142694,
+          "last": 1793726284,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Island In The Sun",
+          "album": "Weezer",
+          "count": 4,
+          "first": 1789150460,
+          "last": 1792780371,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 4
+          }
+        },
+        {
+          "artist": "Weezer",
+          "title": "Say It Ain't So - Original Mix",
+          "album": "Weezer",
+          "count": 1,
+          "first": 1792906025,
+          "last": 1792906025,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Cranberries",
       "count": 87,
       "first": 1788916461,
@@ -3146,70 +3210,6 @@
           "last": 1793408631,
           "playlists": {
             "d i n n e r": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Weezer",
-      "count": 86,
-      "first": 1788946510,
-      "last": 1793814766,
-      "songs": [
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So",
-          "album": "Weezer",
-          "count": 30,
-          "first": 1788946510,
-          "last": 1793718791,
-          "playlists": {
-            "1default": 28,
-            "jack johnson hackiesack friday afternoon": 2
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "The End of the Game",
-          "album": "The End of the Game",
-          "count": 27,
-          "first": 1788974227,
-          "last": 1793814766,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Hero",
-          "album": "Hero",
-          "count": 24,
-          "first": 1789142694,
-          "last": 1793726284,
-          "playlists": {
-            "1default": 24
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Island In The Sun",
-          "album": "Weezer",
-          "count": 4,
-          "first": 1789150460,
-          "last": 1792780371,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 4
-          }
-        },
-        {
-          "artist": "Weezer",
-          "title": "Say It Ain't So - Original Mix",
-          "album": "Weezer",
-          "count": 1,
-          "first": 1792906025,
-          "last": 1792906025,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -8085,9 +8085,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10198,
+      "count": 10199,
       "first": 1788901564,
-      "last": 1793938902,
+      "last": 1793939132,
       "songs": [
         {
           "artist": "Tele Novella",
