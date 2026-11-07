@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-07T15:46:50.718318+00:00",
+  "updatedAt": "2026-11-07T16:22:14.240605+00:00",
   "summary": {
-    "totalPlays": 22778,
+    "totalPlays": 22787,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794066352
+    "lastObserved": 1794068432
   },
   "topSongs": [
     {
@@ -362,6 +362,17 @@
       }
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "title": "Pawn Shop Prada",
+      "album": "Lick My Soul",
+      "count": 29,
+      "first": 1788919863,
+      "last": 1794066543,
+      "playlists": {
+        "1default": 29
+      }
+    },
+    {
       "artist": "hey, nothing",
       "title": "The Sink",
       "album": "The Sink",
@@ -460,6 +471,17 @@
       "last": 1793758510,
       "playlists": {
         "1default": 29
+      }
+    },
+    {
+      "artist": "Tems, Brent Faiyaz",
+      "title": "Found (feat. Brent Faiyaz)",
+      "album": "Found (feat. Brent Faiyaz)",
+      "count": 28,
+      "first": 1788969945,
+      "last": 1794068432,
+      "playlists": {
+        "1default": 28
       }
     },
     {
@@ -568,28 +590,6 @@
       "count": 28,
       "first": 1788973998,
       "last": 1794059905,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Brandywine",
-      "title": "Friend of Mine",
-      "album": "Friend of Mine",
-      "count": 28,
-      "first": 1788965930,
-      "last": 1794059670,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "TRAP METAL",
-      "album": "TRAP METAL",
-      "count": 28,
-      "first": 1789063011,
-      "last": 1794057905,
       "playlists": {
         "1default": 28
       }
@@ -3026,10 +3026,21 @@
     },
     {
       "artist": "The Cranberries",
-      "count": 89,
+      "count": 90,
       "first": 1788916461,
-      "last": 1794022563,
+      "last": 1794066746,
       "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 27,
+          "first": 1788916461,
+          "last": 1794066746,
+          "playlists": {
+            "1default": 27
+          }
+        },
         {
           "artist": "The Cranberries",
           "title": "Linger",
@@ -3048,17 +3059,6 @@
           "count": 26,
           "first": 1789060180,
           "last": 1793904620,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 26,
-          "first": 1788916461,
-          "last": 1793805125,
           "playlists": {
             "1default": 26
           }
@@ -3320,6 +3320,47 @@
       ]
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "count": 83,
+      "first": 1788919863,
+      "last": 1794066543,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 29,
+          "first": 1788919863,
+          "last": 1794066543,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 28,
+          "first": 1788989164,
+          "last": 1794055251,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 26,
+          "first": 1789139069,
+          "last": 1793755637,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 83,
       "first": 1788973066,
@@ -3383,6 +3424,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 82,
+      "first": 1788973998,
+      "last": 1794067212,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 28,
+          "first": 1788973998,
+          "last": 1794059905,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 28,
+          "first": 1789033065,
+          "last": 1793910688,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 26,
+          "first": 1789226629,
+          "last": 1794067212,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 82,
       "first": 1788965724,
@@ -3417,47 +3499,6 @@
           "count": 26,
           "first": 1789225488,
           "last": 1793743018,
-          "playlists": {
-            "1default": 26
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "count": 82,
-      "first": 1788919863,
-      "last": 1794055251,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 28,
-          "first": 1788989164,
-          "last": 1794055251,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 28,
-          "first": 1788919863,
-          "last": 1793901220,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 26,
-          "first": 1789139069,
-          "last": 1793755637,
           "playlists": {
             "1default": 26
           }
@@ -3501,47 +3542,6 @@
           "last": 1793925057,
           "playlists": {
             "1default": 26
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 81,
-      "first": 1788973998,
-      "last": 1794059905,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 28,
-          "first": 1788973998,
-          "last": 1794059905,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 28,
-          "first": 1789033065,
-          "last": 1793910688,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 25,
-          "first": 1789226629,
-          "last": 1793853355,
-          "playlists": {
-            "1default": 25
           }
         }
       ]
@@ -5327,6 +5327,36 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "count": 54,
+      "first": 1789166634,
+      "last": 1794067476,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 27,
+          "first": 1789166634,
+          "last": 1794067476,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 27,
+          "first": 1789167660,
+          "last": 1793907655,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 54,
       "first": 1788986484,
@@ -5380,36 +5410,6 @@
           "count": 27,
           "first": 1788915657,
           "last": 1793926736,
-          "playlists": {
-            "1default": 27
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 54,
-      "first": 1788912861,
-      "last": 1794052796,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 27,
-          "first": 1788966960,
-          "last": 1794052796,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 27,
-          "first": 1788912861,
-          "last": 1794012006,
           "playlists": {
             "1default": 27
           }
@@ -6284,10 +6284,21 @@
     {
       "artist": "Jesus Christ Taxi Driver",
       "album": "Lick My Soul",
-      "count": 82,
+      "count": 83,
       "first": 1788919863,
-      "last": 1794055251,
+      "last": 1794066543,
       "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 29,
+          "first": 1788919863,
+          "last": 1794066543,
+          "playlists": {
+            "1default": 29
+          }
+        },
         {
           "artist": "Jesus Christ Taxi Driver",
           "title": "STUPIDMOTHERFUCKER",
@@ -6295,17 +6306,6 @@
           "count": 28,
           "first": 1788989164,
           "last": 1794055251,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 28,
-          "first": 1788919863,
-          "last": 1793901220,
           "playlists": {
             "1default": 28
           }
@@ -7318,6 +7318,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 54,
+      "first": 1789166634,
+      "last": 1794067476,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 27,
+          "first": 1789166634,
+          "last": 1794067476,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 27,
+          "first": 1789167660,
+          "last": 1793907655,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 54,
@@ -7572,37 +7603,6 @@
           "count": 26,
           "first": 1788947080,
           "last": 1793917616,
-          "playlists": {
-            "1default": 26
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 53,
-      "first": 1789166634,
-      "last": 1793907655,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 27,
-          "first": 1789167660,
-          "last": 1793907655,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 26,
-          "first": 1789166634,
-          "last": 1793758091,
           "playlists": {
             "1default": 26
           }
@@ -8206,9 +8206,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10365,
+      "count": 10374,
       "first": 1788901564,
-      "last": 1794066352,
+      "last": 1794068432,
       "songs": [
         {
           "artist": "Tele Novella",
