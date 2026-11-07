@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-07T18:01:53.206530+00:00",
+  "updatedAt": "2026-11-07T18:16:52.984018+00:00",
   "summary": {
-    "totalPlays": 22820,
+    "totalPlays": 22823,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794074500
+    "lastObserved": 1794075232
   },
   "topSongs": [
     {
@@ -474,6 +474,17 @@
       }
     },
     {
+      "artist": "Rat Von Rat",
+      "title": "Staples",
+      "album": "Staples",
+      "count": 28,
+      "first": 1788927095,
+      "last": 1794074926,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
       "artist": "Dreamer Isioma",
       "title": "Sensitive",
       "album": "Sensitive",
@@ -579,17 +590,6 @@
       "count": 28,
       "first": 1789064643,
       "last": 1794061354,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Cage The Elephant",
-      "title": "Skin and Bones - Mix 2020",
-      "album": "Skin and Bones",
-      "count": 28,
-      "first": 1788928254,
-      "last": 1794061160,
       "playlists": {
         "1default": 28
       }
@@ -5357,6 +5357,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 54,
+      "first": 1788989714,
+      "last": 1794074731,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 27,
+          "first": 1788989714,
+          "last": 1794074731,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 27,
+          "first": 1789169386,
+          "last": 1794013201,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 54,
       "first": 1788947810,
@@ -5380,36 +5410,6 @@
           "count": 27,
           "first": 1788947810,
           "last": 1794067054,
-          "playlists": {
-            "1default": 27
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "count": 54,
-      "first": 1789166634,
-      "last": 1794067476,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 27,
-          "first": 1789166634,
-          "last": 1794067476,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 27,
-          "first": 1789167660,
-          "last": 1793907655,
           "playlists": {
             "1default": 27
           }
@@ -8206,9 +8206,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10388,
+      "count": 10391,
       "first": 1788901564,
-      "last": 1794074500,
+      "last": 1794075232,
       "songs": [
         {
           "artist": "Tele Novella",
