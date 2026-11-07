@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-07T17:41:56.284420+00:00",
+  "updatedAt": "2026-11-07T18:01:53.206530+00:00",
   "summary": {
-    "totalPlays": 22813,
+    "totalPlays": 22820,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794073283
+    "lastObserved": 1794074500
   },
   "topSongs": [
     {
@@ -33,6 +33,18 @@
       "last": 1793836954,
       "playlists": {
         "1default": 36,
+        "anti-capitalist weekday afternoon #1": 10
+      }
+    },
+    {
+      "artist": "Ramones",
+      "title": "Judy Is a Punk - 2016 Remaster",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "count": 45,
+      "first": 1788968644,
+      "last": 1794073592,
+      "playlists": {
+        "1default": 35,
         "anti-capitalist weekday afternoon #1": 10
       }
     },
@@ -116,18 +128,6 @@
       "count": 44,
       "first": 1788993017,
       "last": 1793971795,
-      "playlists": {
-        "1default": 34,
-        "anti-capitalist weekday afternoon #1": 10
-      }
-    },
-    {
-      "artist": "Ramones",
-      "title": "Judy Is a Punk - 2016 Remaster",
-      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-      "count": 44,
-      "first": 1788968644,
-      "last": 1793833954,
       "playlists": {
         "1default": 34,
         "anti-capitalist weekday afternoon #1": 10
@@ -290,6 +290,18 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "My Love Mine All Mine",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 31,
+      "first": 1789130394,
+      "last": 1794074095,
+      "playlists": {
+        "1default": 29,
+        "jack johnson hackiesack friday afternoon": 2
+      }
+    },
+    {
       "artist": "Weezer",
       "title": "Say It Ain't So",
       "album": "Weezer",
@@ -346,18 +358,6 @@
       "last": 1793856913,
       "playlists": {
         "1default": 29,
-        "jack johnson hackiesack friday afternoon": 2
-      }
-    },
-    {
-      "artist": "Mitski",
-      "title": "My Love Mine All Mine",
-      "album": "The Land Is Inhospitable and So Are We",
-      "count": 30,
-      "first": 1789130394,
-      "last": 1793854361,
-      "playlists": {
-        "1default": 28,
         "jack johnson hackiesack friday afternoon": 2
       }
     },
@@ -474,6 +474,17 @@
       }
     },
     {
+      "artist": "Dreamer Isioma",
+      "title": "Sensitive",
+      "album": "Sensitive",
+      "count": 28,
+      "first": 1789057751,
+      "last": 1794073871,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
       "artist": "Blue Rain Boots",
       "title": "Oh My God You Are Fine",
       "album": "Oh My God You Are Fine",
@@ -579,17 +590,6 @@
       "count": 28,
       "first": 1788928254,
       "last": 1794061160,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Gorillaz, Peter Hook, Georgia",
-      "title": "Aries (feat. Peter Hook and Georgia)",
-      "album": "Song Machine Episode 3",
-      "count": 28,
-      "first": 1788971208,
-      "last": 1794060908,
       "playlists": {
         "1default": 28
       }
@@ -1427,19 +1427,19 @@
     },
     {
       "artist": "Mitski",
-      "count": 247,
+      "count": 248,
       "first": 1788920128,
-      "last": 1794063686,
+      "last": 1794074095,
       "songs": [
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
           "album": "The Land Is Inhospitable and So Are We",
-          "count": 30,
+          "count": 31,
           "first": 1789130394,
-          "last": 1793854361,
+          "last": 1794074095,
           "playlists": {
-            "1default": 28,
+            "1default": 29,
             "jack johnson hackiesack friday afternoon": 2
           }
         },
@@ -3682,6 +3682,37 @@
       ]
     },
     {
+      "artist": "Ramones",
+      "count": 72,
+      "first": 1788968644,
+      "last": 1794073592,
+      "songs": [
+        {
+          "artist": "Ramones",
+          "title": "Judy Is a Punk - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 45,
+          "first": 1788968644,
+          "last": 1794073592,
+          "playlists": {
+            "1default": 35,
+            "anti-capitalist weekday afternoon #1": 10
+          }
+        },
+        {
+          "artist": "Ramones",
+          "title": "Blitzkrieg Bop - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 27,
+          "first": 1788997171,
+          "last": 1793988034,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
+    {
       "artist": "hkmori",
       "count": 72,
       "first": 1788938854,
@@ -3718,37 +3749,6 @@
           "last": 1793874352,
           "playlists": {
             "breakbeat": 24
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Ramones",
-      "count": 71,
-      "first": 1788968644,
-      "last": 1793988034,
-      "songs": [
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 44,
-          "first": 1788968644,
-          "last": 1793833954,
-          "playlists": {
-            "1default": 34,
-            "anti-capitalist weekday afternoon #1": 10
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Blitzkrieg Bop - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 27,
-          "first": 1788997171,
-          "last": 1793988034,
-          "playlists": {
-            "1default": 27
           }
         }
       ]
@@ -5357,6 +5357,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 54,
+      "first": 1788947810,
+      "last": 1794074500,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 27,
+          "first": 1789059805,
+          "last": 1794074500,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 27,
+          "first": 1788947810,
+          "last": 1794067054,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
+    {
       "artist": "Juno Rossa",
       "count": 54,
       "first": 1789166634,
@@ -5380,36 +5410,6 @@
           "count": 27,
           "first": 1789167660,
           "last": 1793907655,
-          "playlists": {
-            "1default": 27
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 54,
-      "first": 1788986484,
-      "last": 1794062560,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 27,
-          "first": 1789231311,
-          "last": 1794062560,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 27,
-          "first": 1788986484,
-          "last": 1793744392,
           "playlists": {
             "1default": 27
           }
@@ -6078,19 +6078,19 @@
     {
       "artist": "Mitski",
       "album": "The Land Is Inhospitable and So Are We",
-      "count": 96,
+      "count": 97,
       "first": 1789102597,
-      "last": 1794035341,
+      "last": 1794074095,
       "songs": [
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
           "album": "The Land Is Inhospitable and So Are We",
-          "count": 30,
+          "count": 31,
           "first": 1789130394,
-          "last": 1793854361,
+          "last": 1794074095,
           "playlists": {
-            "1default": 28,
+            "1default": 29,
             "jack johnson hackiesack friday afternoon": 2
           }
         },
@@ -6450,6 +6450,38 @@
       ]
     },
     {
+      "artist": "Ramones",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "count": 72,
+      "first": 1788968644,
+      "last": 1794073592,
+      "songs": [
+        {
+          "artist": "Ramones",
+          "title": "Judy Is a Punk - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 45,
+          "first": 1788968644,
+          "last": 1794073592,
+          "playlists": {
+            "1default": 35,
+            "anti-capitalist weekday afternoon #1": 10
+          }
+        },
+        {
+          "artist": "Ramones",
+          "title": "Blitzkrieg Bop - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 27,
+          "first": 1788997171,
+          "last": 1793988034,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
+    {
       "artist": "hkmori",
       "album": "unrequited love",
       "count": 72,
@@ -6487,38 +6519,6 @@
           "last": 1793874352,
           "playlists": {
             "breakbeat": 24
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Ramones",
-      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-      "count": 71,
-      "first": 1788968644,
-      "last": 1793988034,
-      "songs": [
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 44,
-          "first": 1788968644,
-          "last": 1793833954,
-          "playlists": {
-            "1default": 34,
-            "anti-capitalist weekday afternoon #1": 10
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Blitzkrieg Bop - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 27,
-          "first": 1788997171,
-          "last": 1793988034,
-          "playlists": {
-            "1default": 27
           }
         }
       ]
@@ -8206,9 +8206,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10381,
+      "count": 10388,
       "first": 1788901564,
-      "last": 1794073283,
+      "last": 1794074500,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -8219,6 +8219,17 @@
           "last": 1793829600,
           "playlists": {
             "1default": 36
+          }
+        },
+        {
+          "artist": "Ramones",
+          "title": "Judy Is a Punk - 2016 Remaster",
+          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+          "count": 35,
+          "first": 1788968644,
+          "last": 1794073592,
+          "playlists": {
+            "1default": 35
           }
         },
         {
@@ -8252,17 +8263,6 @@
           "last": 1793911166,
           "playlists": {
             "1default": 35
-          }
-        },
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 34,
-          "first": 1788991593,
-          "last": 1794064606,
-          "playlists": {
-            "1default": 34
           }
         }
       ]
