@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-07T15:06:48.344376+00:00",
+  "updatedAt": "2026-11-07T15:46:50.718318+00:00",
   "summary": {
-    "totalPlays": 22768,
+    "totalPlays": 22778,
     "unknownPlays": 1143,
     "uniqueTracks": 2705,
     "uniqueArtists": 1705,
     "uniqueAlbums": 2205,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794063881
+    "lastObserved": 1794066352
   },
   "topSongs": [
     {
@@ -70,6 +70,18 @@
       "last": 1793911166,
       "playlists": {
         "1default": 35,
+        "anti-capitalist weekday afternoon #1": 10
+      }
+    },
+    {
+      "artist": "Viagra Boys",
+      "title": "Worms",
+      "album": "Street Worms",
+      "count": 44,
+      "first": 1788991593,
+      "last": 1794064606,
+      "playlists": {
+        "1default": 34,
         "anti-capitalist weekday afternoon #1": 10
       }
     },
@@ -143,18 +155,6 @@
       "playlists": {
         "1default": 34,
         "anti-capitalist weekday afternoon #1": 9
-      }
-    },
-    {
-      "artist": "Viagra Boys",
-      "title": "Worms",
-      "album": "Street Worms",
-      "count": 43,
-      "first": 1788991593,
-      "last": 1793835820,
-      "playlists": {
-        "1default": 33,
-        "anti-capitalist weekday afternoon #1": 10
       }
     },
     {
@@ -463,6 +463,28 @@
       }
     },
     {
+      "artist": "Your Smith",
+      "title": "Debbie",
+      "album": "Bad Habit",
+      "count": 28,
+      "first": 1788947368,
+      "last": 1794066352,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
+      "artist": "U2",
+      "title": "Sunday Bloody Sunday - Remastered 2008",
+      "album": "War (Remastered)",
+      "count": 28,
+      "first": 1788921291,
+      "last": 1794065039,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
       "artist": "Black Sheep",
       "title": "The Choice Is Yours (Revisited)",
       "album": "A Wolf In Sheep's Clothing",
@@ -568,28 +590,6 @@
       "count": 28,
       "first": 1789063011,
       "last": 1794057905,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "ruzlxn",
-      "title": "BURN YOUR LOCAL POLITICIAN !",
-      "album": "GRITTED TEETH *",
-      "count": 28,
-      "first": 1788914259,
-      "last": 1794057091,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "The Shivas",
-      "title": "You Make Me Wanna Die",
-      "album": "You Know What to Do",
-      "count": 28,
-      "first": 1788975450,
-      "last": 1794056920,
       "playlists": {
         "1default": 28
       }
@@ -2071,10 +2071,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 209,
+      "count": 210,
       "first": 1788902047,
-      "last": 1793931438,
+      "last": 1794064293,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 27,
+          "first": 1788903730,
+          "last": 1794064293,
+          "playlists": {
+            "1default": 27
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Love Is Lightning",
@@ -2126,17 +2137,6 @@
           "count": 26,
           "first": 1788984684,
           "last": 1793875946,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 26,
-          "first": 1788903730,
-          "last": 1793745474,
           "playlists": {
             "1default": 26
           }
@@ -3465,6 +3465,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 81,
+      "first": 1788947368,
+      "last": 1794066352,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 28,
+          "first": 1788947368,
+          "last": 1794066352,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 27,
+          "first": 1788969485,
+          "last": 1793916729,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 26,
+          "first": 1789086174,
+          "last": 1793925057,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 81,
       "first": 1788973998,
@@ -3595,47 +3636,6 @@
           "last": 1793917864,
           "playlists": {
             "1default": 25
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 80,
-      "first": 1788947368,
-      "last": 1793925057,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 27,
-          "first": 1788969485,
-          "last": 1793916729,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 27,
-          "first": 1788947368,
-          "last": 1793805433,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 26,
-          "first": 1789086174,
-          "last": 1793925057,
-          "playlists": {
-            "1default": 26
           }
         }
       ]
@@ -5245,6 +5245,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 56,
+      "first": 1788921291,
+      "last": 1794065039,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 28,
+          "first": 1788921291,
+          "last": 1794065039,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 28,
+          "first": 1788964687,
+          "last": 1793765818,
+          "playlists": {
+            "1default": 28
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 55,
       "first": 1788972865,
@@ -5292,36 +5322,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 55,
-      "first": 1788921291,
-      "last": 1793765818,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 28,
-          "first": 1788964687,
-          "last": 1793765818,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 27,
-          "first": 1788921291,
-          "last": 1793724040,
-          "playlists": {
-            "1default": 27
           }
         }
       ]
@@ -5419,6 +5419,81 @@
   ],
   "topAlbums": [
     {
+      "artist": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 159,
+      "first": 1788902047,
+      "last": 1794064293,
+      "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 27,
+          "first": 1788903730,
+          "last": 1794064293,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 27,
+          "first": 1789145316,
+          "last": 1793916567,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 27,
+          "first": 1788902047,
+          "last": 1793752744,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Vengeful Vulture",
+          "album": "1's a Man, 3's a Band",
+          "count": 26,
+          "first": 1789097184,
+          "last": 1793931438,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 26,
+          "first": 1788928852,
+          "last": 1793905132,
+          "playlists": {
+            "1default": 26
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 26,
+          "first": 1788903565,
+          "last": 1793723603,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "Opium",
       "album": "PHANTOMS",
       "count": 159,
@@ -5489,81 +5564,6 @@
           "last": 1793825800,
           "playlists": {
             "1default": 25
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 158,
-      "first": 1788902047,
-      "last": 1793931438,
-      "songs": [
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 27,
-          "first": 1789145316,
-          "last": 1793916567,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 27,
-          "first": 1788902047,
-          "last": 1793752744,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Vengeful Vulture",
-          "album": "1's a Man, 3's a Band",
-          "count": 26,
-          "first": 1789097184,
-          "last": 1793931438,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 26,
-          "first": 1788928852,
-          "last": 1793905132,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 26,
-          "first": 1788903730,
-          "last": 1793745474,
-          "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 26,
-          "first": 1788903565,
-          "last": 1793723603,
-          "playlists": {
-            "1default": 26
           }
         }
       ]
@@ -6324,6 +6324,48 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "album": "Bad Habit",
+      "count": 81,
+      "first": 1788947368,
+      "last": 1794066352,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 28,
+          "first": 1788947368,
+          "last": 1794066352,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 27,
+          "first": 1788969485,
+          "last": 1793916729,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 26,
+          "first": 1789086174,
+          "last": 1793925057,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "album": "Dead",
       "count": 80,
@@ -6361,48 +6403,6 @@
           "last": 1793918718,
           "playlists": {
             "1default": 25
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "album": "Bad Habit",
-      "count": 80,
-      "first": 1788947368,
-      "last": 1793925057,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 27,
-          "first": 1788969485,
-          "last": 1793916729,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 27,
-          "first": 1788947368,
-          "last": 1793805433,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 26,
-          "first": 1789086174,
-          "last": 1793925057,
-          "playlists": {
-            "1default": 26
           }
         }
       ]
@@ -8182,32 +8182,22 @@
       ]
     },
     {
-      "artist": "Rosie Tucker",
-      "album": "Sucker Supreme",
+      "artist": "Viagra Boys",
+      "album": "Street Worms",
       "count": 44,
-      "first": 1788995157,
-      "last": 1794057692,
+      "first": 1788991593,
+      "last": 1794064606,
       "songs": [
         {
-          "artist": "Rosie Tucker",
-          "title": "Habanero",
-          "album": "Sucker Supreme",
-          "count": 26,
-          "first": 1789214020,
-          "last": 1794057692,
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 44,
+          "first": 1788991593,
+          "last": 1794064606,
           "playlists": {
-            "1default": 26
-          }
-        },
-        {
-          "artist": "Rosie Tucker",
-          "title": "For Sale: Ford Pinto",
-          "album": "Sucker Supreme",
-          "count": 18,
-          "first": 1788995157,
-          "last": 1793924798,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 18
+            "1default": 34,
+            "anti-capitalist weekday afternoon #1": 10
           }
         }
       ]
@@ -8216,9 +8206,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10355,
+      "count": 10365,
       "first": 1788901564,
-      "last": 1794063881,
+      "last": 1794066352,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -8265,12 +8255,12 @@
           }
         },
         {
-          "artist": "Colfax Speed Queen",
-          "title": "Jesus Loves Rock N' Roll",
-          "album": "Satisfaction Intended",
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
           "count": 34,
-          "first": 1788926155,
-          "last": 1794007840,
+          "first": 1788991593,
+          "last": 1794064606,
           "playlists": {
             "1default": 34
           }
