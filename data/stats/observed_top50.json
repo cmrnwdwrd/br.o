@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-08T09:36:51.033961+00:00",
+  "updatedAt": "2026-11-08T10:01:59.754450+00:00",
   "summary": {
-    "totalPlays": 23051,
+    "totalPlays": 23059,
     "unknownPlays": 1143,
     "uniqueTracks": 2720,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794130492
+    "lastObserved": 1794132040
   },
   "topSongs": [
     {
@@ -485,6 +485,50 @@
       }
     },
     {
+      "artist": "boygenius, Julien Baker, Phoebe Bridgers, Lucy Dacus",
+      "title": "Not Strong Enough",
+      "album": "the record",
+      "count": 28,
+      "first": 1788986031,
+      "last": 1794131647,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
+      "artist": "Atom Son of Man",
+      "title": "Hold Me",
+      "album": "1's a Man, 3's a Band",
+      "count": 28,
+      "first": 1788902047,
+      "last": 1794131440,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
+      "artist": "Grace Ives",
+      "title": "Mirror",
+      "album": "2nd",
+      "count": 28,
+      "first": 1788972624,
+      "last": 1794131151,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 28,
+      "first": 1788914032,
+      "last": 1794130706,
+      "playlists": {
+        "1default": 28
+      }
+    },
+    {
       "artist": "Jaguar Stevens",
       "title": "Dying Dance",
       "album": "Jaguar Stevens",
@@ -546,50 +590,6 @@
       "count": 28,
       "first": 1788920755,
       "last": 1794079007,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Orion Sun",
-      "title": "Antidote",
-      "album": "A Collection of Fleeting Moments and Daydreams",
-      "count": 28,
-      "first": 1788987870,
-      "last": 1794078280,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Fine Young Cannibals",
-      "title": "Good Thing",
-      "album": "The Raw & The Cooked",
-      "count": 28,
-      "first": 1788974590,
-      "last": 1794077401,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "title": "Texas Sun",
-      "album": "Texas Sun",
-      "count": 28,
-      "first": 1788986484,
-      "last": 1794076987,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Medium Troy",
-      "title": "Space Tree",
-      "album": "Space Tree",
-      "count": 28,
-      "first": 1788990730,
-      "last": 1794076406,
       "playlists": {
         "1default": 28
       }
@@ -2082,10 +2082,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 211,
+      "count": 212,
       "first": 1788902047,
-      "last": 1794080429,
+      "last": 1794131440,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 28,
+          "first": 1788902047,
+          "last": 1794131440,
+          "playlists": {
+            "1default": 28
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Rock n' roll (Bonus Track)",
@@ -2104,17 +2115,6 @@
           "count": 27,
           "first": 1789145316,
           "last": 1793916567,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 27,
-          "first": 1788902047,
-          "last": 1793752744,
           "playlists": {
             "1default": 27
           }
@@ -4263,6 +4263,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 61,
+      "first": 1788914032,
+      "last": 1794130706,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 28,
+          "first": 1788914032,
+          "last": 1794130706,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 27,
+          "first": 1789222724,
+          "last": 1793916023,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 6,
+          "first": 1790465398,
+          "last": 1794102257,
+          "playlists": {
+            "texting your situationship": 6
+          }
+        }
+      ]
+    },
+    {
       "artist": "Various",
       "count": 61,
       "first": 1792641719,
@@ -5060,47 +5101,6 @@
       ]
     },
     {
-      "artist": "Lorde",
-      "count": 60,
-      "first": 1788914032,
-      "last": 1794102257,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 27,
-          "first": 1789222724,
-          "last": 1793916023,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 27,
-          "first": 1788914032,
-          "last": 1793739323,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 6,
-          "first": 1790465398,
-          "last": 1794102257,
-          "playlists": {
-            "texting your situationship": 6
-          }
-        }
-      ]
-    },
-    {
       "artist": "Vampire Weekend",
       "count": 60,
       "first": 1788990464,
@@ -5399,74 +5399,40 @@
       ]
     },
     {
-      "artist": "Chappell Roan",
+      "artist": "Beach Bunny",
       "count": 54,
-      "first": 1788973776,
-      "last": 1794116356,
+      "first": 1788966457,
+      "last": 1794130931,
       "songs": [
         {
-          "artist": "Chappell Roan",
-          "title": "My Kink Is Karma",
-          "album": "The Rise and Fall of a Midwest Princess",
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 27,
+          "first": 1788966457,
+          "last": 1793912584,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Entropy",
+          "album": "Emotional Creature",
           "count": 26,
-          "first": 1788973776,
-          "last": 1794051665,
+          "first": 1789230720,
+          "last": 1794130931,
           "playlists": {
             "1default": 26
           }
         },
         {
-          "artist": "Chappell Roan",
-          "title": "Super Graphic Ultra Modern Girl",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 17,
-          "first": 1789428359,
-          "last": 1793833463,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 17
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Naked in Manhattan",
-          "album": "Naked in Manhattan",
-          "count": 7,
-          "first": 1789864931,
-          "last": 1794116356,
-          "playlists": {
-            "texting your situationship": 6,
-            "sad girl no friends saturday": 1
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Pink Pony Club",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 2,
-          "first": 1789883353,
-          "last": 1793509800,
-          "playlists": {
-            "sad girl no friends saturday": 2
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Red Wine Supernova",
-          "album": "The Rise and Fall of a Midwest Princess",
+          "artist": "Beach Bunny",
+          "title": "Prom Queen",
+          "album": "Prom Queen",
           "count": 1,
-          "first": 1792902960,
-          "last": 1792902960,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Casual",
-          "album": "Casual",
-          "count": 1,
-          "first": 1791696336,
-          "last": 1791696336,
+          "first": 1793511391,
+          "last": 1793511391,
           "playlists": {
             "sad girl no friends saturday": 1
           }
@@ -5478,10 +5444,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 159,
+      "count": 160,
       "first": 1788902047,
-      "last": 1794064293,
+      "last": 1794131440,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 28,
+          "first": 1788902047,
+          "last": 1794131440,
+          "playlists": {
+            "1default": 28
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Rock n' roll (Bonus Track)",
@@ -5500,17 +5477,6 @@
           "count": 27,
           "first": 1789145316,
           "last": 1793916567,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 27,
-          "first": 1788902047,
-          "last": 1793752744,
           "playlists": {
             "1default": 27
           }
@@ -8274,9 +8240,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10425,
+      "count": 10433,
       "first": 1788901564,
-      "last": 1794130492,
+      "last": 1794132040,
       "songs": [
         {
           "artist": "Tele Novella",
