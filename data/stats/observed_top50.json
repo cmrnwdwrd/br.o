@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-08T20:01:51.547939+00:00",
+  "updatedAt": "2026-11-08T20:12:18.717172+00:00",
   "summary": {
-    "totalPlays": 23199,
+    "totalPlays": 23202,
     "unknownPlays": 1143,
     "uniqueTracks": 2720,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794168014
+    "lastObserved": 1794168731
   },
   "topSongs": [
     {
@@ -373,6 +373,28 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Antidote",
+      "album": "A Collection of Fleeting Moments and Daydreams",
+      "count": 29,
+      "first": 1788987870,
+      "last": 1794168731,
+      "playlists": {
+        "1default": 29
+      }
+    },
+    {
+      "artist": "N.E.R.D",
+      "title": "Run To The Sun",
+      "album": "In Search Of...",
+      "count": 29,
+      "first": 1788901564,
+      "last": 1794168191,
+      "playlists": {
+        "1default": 29
+      }
+    },
+    {
       "artist": "Rat Von Rat",
       "title": "Staples",
       "album": "Staples",
@@ -568,28 +590,6 @@
       "count": 28,
       "first": 1788916304,
       "last": 1794166692,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Against Me!",
-      "title": "Baby, I'm an Anarchist!",
-      "album": "Reinventing Axl Rose",
-      "count": 28,
-      "first": 1788947810,
-      "last": 1794156209,
-      "playlists": {
-        "1default": 28
-      }
-    },
-    {
-      "artist": "Radiohead",
-      "title": "Follow Me Around",
-      "album": "Follow Me Around",
-      "count": 28,
-      "first": 1788973066,
-      "last": 1794155891,
       "playlists": {
         "1default": 28
       }
@@ -5257,6 +5257,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 57,
+      "first": 1788985030,
+      "last": 1794168731,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 29,
+          "first": 1788987870,
+          "last": 1794168731,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 28,
+          "first": 1788985030,
+          "last": 1794068642,
+          "playlists": {
+            "1default": 28
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 57,
       "first": 1788921291,
@@ -5280,36 +5310,6 @@
           "count": 28,
           "first": 1788921291,
           "last": 1794065039,
-          "playlists": {
-            "1default": 28
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 56,
-      "first": 1788985030,
-      "last": 1794078280,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 28,
-          "first": 1788987870,
-          "last": 1794078280,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 28,
-          "first": 1788985030,
-          "last": 1794068642,
           "playlists": {
             "1default": 28
           }
@@ -8229,9 +8229,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10474,
+      "count": 10477,
       "first": 1788901564,
-      "last": 1794168014,
+      "last": 1794168731,
       "songs": [
         {
           "artist": "Tele Novella",
