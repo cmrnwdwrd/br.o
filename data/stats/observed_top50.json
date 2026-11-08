@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-08T21:12:00.557106+00:00",
+  "updatedAt": "2026-11-08T21:26:55.294648+00:00",
   "summary": {
-    "totalPlays": 23218,
+    "totalPlays": 23221,
     "unknownPlays": 1143,
     "uniqueTracks": 2720,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794172268
+    "lastObserved": 1794173070
   },
   "topSongs": [
     {
@@ -395,6 +395,17 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Knives",
+      "album": "Knives",
+      "count": 29,
+      "first": 1788973998,
+      "last": 1794172656,
+      "playlists": {
+        "1default": 29
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Brainsick",
       "album": "Brainsick",
@@ -579,17 +590,6 @@
       "count": 29,
       "first": 1788929095,
       "last": 1793929190,
-      "playlists": {
-        "1default": 29
-      }
-    },
-    {
-      "artist": "The Salesmen",
-      "title": "Commodify",
-      "album": "Commodify",
-      "count": 29,
-      "first": 1788917230,
-      "last": 1793915531,
       "playlists": {
         "1default": 29
       }
@@ -3435,6 +3435,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 83,
+      "first": 1788973998,
+      "last": 1794172656,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 29,
+          "first": 1788973998,
+          "last": 1794172656,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 28,
+          "first": 1789033065,
+          "last": 1793910688,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 26,
+          "first": 1789226629,
+          "last": 1794067212,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 83,
       "first": 1788965724,
@@ -3565,47 +3606,6 @@
           "last": 1793976903,
           "playlists": {
             "hyperpop friday morning": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 82,
-      "first": 1788973998,
-      "last": 1794067212,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 28,
-          "first": 1788973998,
-          "last": 1794059905,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 28,
-          "first": 1789033065,
-          "last": 1793910688,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 26,
-          "first": 1789226629,
-          "last": 1794067212,
-          "playlists": {
-            "1default": 26
           }
         }
       ]
@@ -5369,6 +5369,36 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "count": 55,
+      "first": 1789166634,
+      "last": 1794173070,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 28,
+          "first": 1789167660,
+          "last": 1794173070,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 27,
+          "first": 1789166634,
+          "last": 1794067476,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
+    {
       "artist": "David Bowie",
       "count": 55,
       "first": 1788912385,
@@ -5394,36 +5424,6 @@
           "last": 1793908031,
           "playlists": {
             "1default": 26
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Against Me!",
-      "count": 55,
-      "first": 1788947810,
-      "last": 1794156209,
-      "songs": [
-        {
-          "artist": "Against Me!",
-          "title": "Baby, I'm an Anarchist!",
-          "album": "Reinventing Axl Rose",
-          "count": 28,
-          "first": 1788947810,
-          "last": 1794156209,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Against Me!",
-          "title": "I Was a Teenage Anarchist",
-          "album": "White Crosses",
-          "count": 27,
-          "first": 1789059805,
-          "last": 1794074500,
-          "playlists": {
-            "1default": 27
           }
         }
       ]
@@ -7330,6 +7330,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 55,
+      "first": 1789166634,
+      "last": 1794173070,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 28,
+          "first": 1789167660,
+          "last": 1794173070,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 27,
+          "first": 1789166634,
+          "last": 1794067476,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 55,
@@ -7522,37 +7553,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 54,
-      "first": 1789166634,
-      "last": 1794067476,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 27,
-          "first": 1789166634,
-          "last": 1794067476,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 27,
-          "first": 1789167660,
-          "last": 1793907655,
-          "playlists": {
-            "1default": 27
           }
         }
       ]
@@ -8229,9 +8229,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10493,
+      "count": 10496,
       "first": 1788901564,
-      "last": 1794172268,
+      "last": 1794173070,
       "songs": [
         {
           "artist": "Tele Novella",
