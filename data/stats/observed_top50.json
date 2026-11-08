@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-08T23:36:52.440387+00:00",
+  "updatedAt": "2026-11-08T23:46:49.086983+00:00",
   "summary": {
-    "totalPlays": 23254,
+    "totalPlays": 23257,
     "unknownPlays": 1143,
     "uniqueTracks": 2721,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794180971
+    "lastObserved": 1794181452
   },
   "topSongs": [
     {
@@ -406,6 +406,17 @@
       }
     },
     {
+      "artist": "Gorillaz, Fatoumata Diawara",
+      "title": "Désolé (feat. Fatoumata Diawara)",
+      "album": "Song Machine Episode 2",
+      "count": 29,
+      "first": 1788967094,
+      "last": 1794181215,
+      "playlists": {
+        "1default": 29
+      }
+    },
+    {
       "artist": "Blue October",
       "title": "Into The Ocean",
       "album": "Foiled",
@@ -577,17 +588,6 @@
       "count": 29,
       "first": 1788901564,
       "last": 1794168191,
-      "playlists": {
-        "1default": 29
-      }
-    },
-    {
-      "artist": "Rat Von Rat",
-      "title": "Staples",
-      "album": "Staples",
-      "count": 29,
-      "first": 1788927095,
-      "last": 1794166264,
       "playlists": {
         "1default": 29
       }
@@ -5326,6 +5326,36 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "count": 56,
+      "first": 1789166634,
+      "last": 1794181452,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 28,
+          "first": 1789166634,
+          "last": 1794181452,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 28,
+          "first": 1789167660,
+          "last": 1794173070,
+          "playlists": {
+            "1default": 28
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 56,
       "first": 1788986484,
@@ -5403,36 +5433,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 55,
-      "first": 1788912861,
-      "last": 1794180555,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 28,
-          "first": 1788966960,
-          "last": 1794180555,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 27,
-          "first": 1788912861,
-          "last": 1794012006,
-          "playlists": {
-            "1default": 27
           }
         }
       ]
@@ -7264,6 +7264,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 56,
+      "first": 1789166634,
+      "last": 1794181452,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 28,
+          "first": 1789166634,
+          "last": 1794181452,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 28,
+          "first": 1789167660,
+          "last": 1794173070,
+          "playlists": {
+            "1default": 28
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 56,
@@ -7425,37 +7456,6 @@
           "count": 27,
           "first": 1788997306,
           "last": 1794175075,
-          "playlists": {
-            "1default": 27
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 55,
-      "first": 1789166634,
-      "last": 1794173070,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 28,
-          "first": 1789167660,
-          "last": 1794173070,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 27,
-          "first": 1789166634,
-          "last": 1794067476,
           "playlists": {
             "1default": 27
           }
@@ -8195,9 +8195,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10528,
+      "count": 10531,
       "first": 1788901564,
-      "last": 1794180689,
+      "last": 1794181452,
       "songs": [
         {
           "artist": "Tele Novella",
