@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T12:51:54.743566+00:00",
+  "updatedAt": "2026-11-09T13:41:57.790729+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 799,
+    "sessionCount": 800,
     "firstObserved": 1788901564,
-    "lastObserved": 1794222108
+    "lastObserved": 1794229346
   },
   "playlists": [
     {
@@ -3688,7 +3688,7 @@
     {
       "playlist": "freestyle beats to crash your car to",
       "sessionCount": 35,
-      "playCount": 1173,
+      "playCount": 1174,
       "firstObserved": 1788948264,
       "lastObserved": 1794222108,
       "typicalStartMinute": 242,
@@ -3701,8 +3701,8 @@
           0.0,
           0.0,
           524.7,
-          532.9,
-          17.6,
+          540.0,
+          19.0,
           0.0,
           0.0,
           0.0,
@@ -3903,8 +3903,8 @@
           135.0,
           135.0,
           135.0,
-          127.9,
-          17.6,
+          135.0,
+          19.0,
           0.0,
           0.0,
           0.0,
@@ -4755,7 +4755,7 @@
           "weekday": 0,
           "sessions": 9,
           "typicalStartMinute": 241,
-          "typicalDurationMinutes": 119,
+          "typicalDurationMinutes": 120,
           "confidence": "High"
         },
         {
@@ -4783,9 +4783,9 @@
       "recentSessions": [
         {
           "start": 1794222108,
-          "end": 1794228773,
-          "durationMinutes": 111,
-          "playCount": 30
+          "end": 1794229286,
+          "durationMinutes": 120,
+          "playCount": 31
         },
         {
           "start": 1793876475,
@@ -4905,10 +4905,10 @@
     },
     {
       "playlist": "carhartts",
-      "sessionCount": 34,
-      "playCount": 1048,
+      "sessionCount": 35,
+      "playCount": 1060,
       "firstObserved": 1788955289,
-      "lastObserved": 1793883701,
+      "lastObserved": 1794229346,
       "typicalStartMinute": 362,
       "typicalDurationMinutes": 120,
       "confidence": "High",
@@ -4920,7 +4920,7 @@
           0.0,
           0.0,
           0.0,
-          462.0,
+          505.7,
           479.6,
           12.0,
           0.0,
@@ -5122,10 +5122,10 @@
           0.0,
           0.0,
           0.0,
-          102.0,
-          120.0,
-          120.0,
-          120.0,
+          114.5,
+          135.0,
+          135.0,
+          121.2,
           120.0,
           120.0,
           120.0,
@@ -5792,7 +5792,7 @@
           0,
           0,
           0,
-          8,
+          9,
           0,
           0,
           0,
@@ -5971,7 +5971,7 @@
       "likelyWindows": [
         {
           "weekday": 0,
-          "sessions": 8,
+          "sessions": 9,
           "typicalStartMinute": 362,
           "typicalDurationMinutes": 120,
           "confidence": "High"
@@ -5999,6 +5999,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1794229346,
+          "end": 1794231973,
+          "durationMinutes": 44,
+          "playCount": 12
+        },
         {
           "start": 1793883701,
           "end": 1793890906,
@@ -6112,12 +6118,6 @@
           "end": 1791295359,
           "durationMinutes": 119,
           "playCount": 29
-        },
-        {
-          "start": 1791201660,
-          "end": 1791208854,
-          "durationMinutes": 120,
-          "playCount": 30
         }
       ]
     },
