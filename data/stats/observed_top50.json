@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-09T09:42:16.165670+00:00",
+  "updatedAt": "2026-11-09T09:56:53.549890+00:00",
   "summary": {
-    "totalPlays": 23404,
+    "totalPlays": 23408,
     "unknownPlays": 1143,
     "uniqueTracks": 2721,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794217212
+    "lastObserved": 1794218155
   },
   "topSongs": [
     {
@@ -362,6 +362,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 30,
+      "first": 1788917230,
+      "last": 1794217475,
+      "playlists": {
+        "1default": 30
+      }
+    },
+    {
       "artist": "U2",
       "title": "Pride (In The Name Of Love) - Remastered 2009",
       "album": "The Unforgettable Fire (Remastered)",
@@ -577,17 +588,6 @@
       "count": 29,
       "first": 1788962794,
       "last": 1794195880,
-      "playlists": {
-        "1default": 29
-      }
-    },
-    {
-      "artist": "The Shivas",
-      "title": "You Make Me Wanna Die",
-      "album": "You Know What to Do",
-      "count": 29,
-      "first": 1788975450,
-      "last": 1794195712,
       "playlists": {
         "1default": 29
       }
@@ -2783,9 +2783,9 @@
     },
     {
       "artist": "botch",
-      "count": 111,
+      "count": 112,
       "first": 1788920755,
-      "last": 1794183761,
+      "last": 1794217680,
       "songs": [
         {
           "artist": "botch",
@@ -2796,6 +2796,17 @@
           "last": 1794183761,
           "playlists": {
             "1default": 29
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 28,
+          "first": 1788963025,
+          "last": 1794217680,
+          "playlists": {
+            "1default": 28
           }
         },
         {
@@ -2816,17 +2827,6 @@
           "count": 27,
           "first": 1788997306,
           "last": 1794175075,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 27,
-          "first": 1788963025,
-          "last": 1793927386,
           "playlists": {
             "1default": 27
           }
@@ -3225,6 +3225,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 87,
+      "first": 1788917230,
+      "last": 1794217475,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 30,
+          "first": 1788917230,
+          "last": 1794217475,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 29,
+          "first": 1788970790,
+          "last": 1794176421,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 28,
+          "first": 1789050580,
+          "last": 1794197993,
+          "playlists": {
+            "1default": 28
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 87,
       "first": 1788973066,
@@ -3346,47 +3387,6 @@
           "last": 1794032797,
           "playlists": {
             "for the girls driving 85": 16
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 86,
-      "first": 1788917230,
-      "last": 1794197993,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 29,
-          "first": 1788970790,
-          "last": 1794176421,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 29,
-          "first": 1788917230,
-          "last": 1793915531,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 28,
-          "first": 1789050580,
-          "last": 1794197993,
-          "playlists": {
-            "1default": 28
           }
         }
       ]
@@ -7284,6 +7284,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 56,
+      "first": 1788920755,
+      "last": 1794217680,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 28,
+          "first": 1788963025,
+          "last": 1794217680,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 28,
+          "first": 1788920755,
+          "last": 1794079007,
+          "playlists": {
+            "1default": 28
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Laurel Hell",
       "count": 56,
@@ -7511,37 +7542,6 @@
           "playlists": {
             "sad girl no friends saturday": 6,
             "texting your situationship": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 55,
-      "first": 1788920755,
-      "last": 1794079007,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 28,
-          "first": 1788920755,
-          "last": 1794079007,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 27,
-          "first": 1788963025,
-          "last": 1793927386,
-          "playlists": {
-            "1default": 27
           }
         }
       ]
@@ -8184,9 +8184,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10643,
+      "count": 10647,
       "first": 1788901564,
-      "last": 1794217212,
+      "last": 1794218155,
       "songs": [
         {
           "artist": "Tele Novella",
