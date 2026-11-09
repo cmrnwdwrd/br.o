@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-09T08:36:56.241523+00:00",
+  "updatedAt": "2026-11-09T08:51:50.751415+00:00",
   "summary": {
-    "totalPlays": 23387,
+    "totalPlays": 23391,
     "unknownPlays": 1143,
     "uniqueTracks": 2721,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794213258
+    "lastObserved": 1794214300
   },
   "topSongs": [
     {
@@ -254,6 +254,18 @@
       }
     },
     {
+      "artist": "wilt",
+      "title": "the riff",
+      "album": "the riff",
+      "count": 34,
+      "first": 1788911339,
+      "last": 1794214300,
+      "playlists": {
+        "1default": 30,
+        "texting your situationship": 4
+      }
+    },
+    {
       "artist": "The Cardigans",
       "title": "Step On Me",
       "album": "First Band On The Moon (Remastered)",
@@ -275,18 +287,6 @@
       "playlists": {
         "1default": 31,
         "jack johnson hackiesack friday afternoon": 2
-      }
-    },
-    {
-      "artist": "wilt",
-      "title": "the riff",
-      "album": "the riff",
-      "count": 33,
-      "first": 1788911339,
-      "last": 1794096318,
-      "playlists": {
-        "1default": 29,
-        "texting your situationship": 4
       }
     },
     {
@@ -5356,6 +5356,36 @@
       ]
     },
     {
+      "artist": "David Bowie",
+      "count": 56,
+      "first": 1788912385,
+      "last": 1794213795,
+      "songs": [
+        {
+          "artist": "David Bowie",
+          "title": "I'm Afraid of Americans (V1)",
+          "album": "Legacy (Deluxe Edition)",
+          "count": 29,
+          "first": 1788912385,
+          "last": 1794169157,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Rebel Rebel - 2016 Remaster",
+          "album": "Diamond Dogs (2016 Remaster)",
+          "count": 27,
+          "first": 1789129746,
+          "last": 1794213795,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
+    {
       "artist": "Against Me!",
       "count": 56,
       "first": 1788947810,
@@ -5379,36 +5409,6 @@
           "count": 28,
           "first": 1788947810,
           "last": 1794156209,
-          "playlists": {
-            "1default": 28
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "count": 56,
-      "first": 1789166634,
-      "last": 1794181452,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 28,
-          "first": 1789166634,
-          "last": 1794181452,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 28,
-          "first": 1789167660,
-          "last": 1794173070,
           "playlists": {
             "1default": 28
           }
@@ -8173,9 +8173,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10626,
+      "count": 10630,
       "first": 1788901564,
-      "last": 1794213258,
+      "last": 1794214300,
       "songs": [
         {
           "artist": "Tele Novella",
