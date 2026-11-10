@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-10T21:17:03.243355+00:00",
+  "updatedAt": "2026-11-10T21:37:00.750784+00:00",
   "summary": {
-    "totalPlays": 23960,
+    "totalPlays": 23966,
     "unknownPlays": 1143,
     "uniqueTracks": 2722,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794345296
+    "lastObserved": 1794346615
   },
   "topSongs": [
     {
@@ -417,6 +417,17 @@
       }
     },
     {
+      "artist": "Sweet Pill",
+      "title": "Blood",
+      "album": "Where the Heart Is",
+      "count": 30,
+      "first": 1789064643,
+      "last": 1794346475,
+      "playlists": {
+        "1default": 30
+      }
+    },
+    {
       "artist": "The Czars",
       "title": "Killjoy",
       "album": "Best Of",
@@ -577,17 +588,6 @@
       "count": 30,
       "first": 1789065292,
       "last": 1794335795,
-      "playlists": {
-        "1default": 30
-      }
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "title": "brutal",
-      "album": "SOUR",
-      "count": 30,
-      "first": 1789057000,
-      "last": 1794335651,
       "playlists": {
         "1default": 30
       }
@@ -1612,9 +1612,9 @@
     },
     {
       "artist": "Opium",
-      "count": 225,
+      "count": 226,
       "first": 1788927400,
-      "last": 1794338995,
+      "last": 1794346300,
       "songs": [
         {
           "artist": "Opium",
@@ -1629,6 +1629,17 @@
         },
         {
           "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 29,
+          "first": 1788927400,
+          "last": 1794346300,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "Opium",
           "title": "At Your Funeral",
           "album": "PHANTOMS",
           "count": 29,
@@ -1636,17 +1647,6 @@
           "last": 1794338995,
           "playlists": {
             "1default": 29
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 28,
-          "first": 1788927400,
-          "last": 1794244781,
-          "playlists": {
-            "1default": 28
           }
         },
         {
@@ -5120,6 +5120,58 @@
       ]
     },
     {
+      "artist": "Kendrick Lamar",
+      "count": 61,
+      "first": 1789061029,
+      "last": 1794346615,
+      "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Alright",
+          "album": "To Pimp A Butterfly",
+          "count": 29,
+          "first": 1789221730,
+          "last": 1794346615,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Black Panther",
+          "album": "Black Panther The Album Music From And Inspired By",
+          "count": 28,
+          "first": 1789061029,
+          "last": 1794240595,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "HUMBLE.",
+          "album": "DAMN.",
+          "count": 3,
+          "first": 1789319672,
+          "last": 1794112625,
+          "playlists": {
+            "throwbacks": 3
+          }
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "DNA.",
+          "album": "DAMN.",
+          "count": 1,
+          "first": 1791081977,
+          "last": 1791081977,
+          "playlists": {
+            "throwbacks": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Leon Bridges",
       "count": 61,
       "first": 1788919285,
@@ -5220,58 +5272,6 @@
           "last": 1793821910,
           "playlists": {
             "country music was never for republicans": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Kendrick Lamar",
-      "count": 60,
-      "first": 1789061029,
-      "last": 1794273547,
-      "songs": [
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Alright",
-          "album": "To Pimp A Butterfly",
-          "count": 28,
-          "first": 1789221730,
-          "last": 1794273547,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Black Panther",
-          "album": "Black Panther The Album Music From And Inspired By",
-          "count": 28,
-          "first": 1789061029,
-          "last": 1794240595,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "HUMBLE.",
-          "album": "DAMN.",
-          "count": 3,
-          "first": 1789319672,
-          "last": 1794112625,
-          "playlists": {
-            "throwbacks": 3
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "DNA.",
-          "album": "DAMN.",
-          "count": 1,
-          "first": 1791081977,
-          "last": 1791081977,
-          "playlists": {
-            "throwbacks": 1
           }
         }
       ]
@@ -5453,10 +5453,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 167,
+      "count": 168,
       "first": 1788927400,
-      "last": 1794338995,
+      "last": 1794346300,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 29,
+          "first": 1788927400,
+          "last": 1794346300,
+          "playlists": {
+            "1default": 29
+          }
+        },
         {
           "artist": "Opium",
           "title": "At Your Funeral",
@@ -5466,17 +5477,6 @@
           "last": 1794338995,
           "playlists": {
             "1default": 29
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 28,
-          "first": 1788927400,
-          "last": 1794244781,
-          "playlists": {
-            "1default": 28
           }
         },
         {
@@ -8119,9 +8119,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10960,
+      "count": 10966,
       "first": 1788901564,
-      "last": 1794345296,
+      "last": 1794346615,
       "songs": [
         {
           "artist": "Tele Novella",
