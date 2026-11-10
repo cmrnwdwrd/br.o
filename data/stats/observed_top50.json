@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-10T19:06:55.199902+00:00",
+  "updatedAt": "2026-11-10T19:11:58.727820+00:00",
   "summary": {
-    "totalPlays": 23924,
+    "totalPlays": 23926,
     "unknownPlays": 1143,
     "uniqueTracks": 2722,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794337391
+    "lastObserved": 1794337855
   },
   "topSongs": [
     {
@@ -406,6 +406,17 @@
       }
     },
     {
+      "artist": "Sexy Coyote",
+      "title": "Run, Rabbit, Run",
+      "album": "Dead",
+      "count": 30,
+      "first": 1788921570,
+      "last": 1794337855,
+      "playlists": {
+        "1default": 30
+      }
+    },
+    {
       "artist": "Bruno Mars, Anderson .Paak, Silk Sonic",
       "title": "Leave The Door Open",
       "album": "Leave The Door Open",
@@ -577,17 +588,6 @@
       "count": 30,
       "first": 1788912385,
       "last": 1794326143,
-      "playlists": {
-        "1default": 30
-      }
-    },
-    {
-      "artist": "Spoon",
-      "title": "No Bullets Spent",
-      "album": "No Bullets Spent",
-      "count": 30,
-      "first": 1789065520,
-      "last": 1794325923,
       "playlists": {
         "1default": 30
       }
@@ -2782,6 +2782,58 @@
       ]
     },
     {
+      "artist": "Sexy Coyote",
+      "count": 114,
+      "first": 1788917492,
+      "last": 1794337855,
+      "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 30,
+          "first": 1788921570,
+          "last": 1794337855,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "Dancing With Demons",
+          "album": "Dancing With Demons",
+          "count": 30,
+          "first": 1788946229,
+          "last": 1794327194,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 28,
+          "first": 1788917492,
+          "last": 1794244656,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "DEAD (Yeah!)",
+          "album": "Dead",
+          "count": 26,
+          "first": 1789224883,
+          "last": 1794253414,
+          "playlists": {
+            "1default": 26
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "count": 114,
       "first": 1788920755,
@@ -2829,58 +2881,6 @@
           "last": 1794175075,
           "playlists": {
             "1default": 27
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sexy Coyote",
-      "count": 113,
-      "first": 1788917492,
-      "last": 1794327194,
-      "songs": [
-        {
-          "artist": "Sexy Coyote",
-          "title": "Dancing With Demons",
-          "album": "Dancing With Demons",
-          "count": 30,
-          "first": 1788946229,
-          "last": 1794327194,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 29,
-          "first": 1788921570,
-          "last": 1794237415,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 28,
-          "first": 1788917492,
-          "last": 1794244656,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "DEAD (Yeah!)",
-          "album": "Dead",
-          "count": 26,
-          "first": 1789224883,
-          "last": 1794253414,
-          "playlists": {
-            "1default": 26
           }
         }
       ]
@@ -6422,19 +6422,19 @@
     {
       "artist": "Sexy Coyote",
       "album": "Dead",
-      "count": 83,
+      "count": 84,
       "first": 1788917492,
-      "last": 1794253414,
+      "last": 1794337855,
       "songs": [
         {
           "artist": "Sexy Coyote",
           "title": "Run, Rabbit, Run",
           "album": "Dead",
-          "count": 29,
+          "count": 30,
           "first": 1788921570,
-          "last": 1794237415,
+          "last": 1794337855,
           "playlists": {
-            "1default": 29
+            "1default": 30
           }
         },
         {
@@ -8151,9 +8151,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10924,
+      "count": 10926,
       "first": 1788901564,
-      "last": 1794337391,
+      "last": 1794337855,
       "songs": [
         {
           "artist": "Tele Novella",
