@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-10T04:46:51.504827+00:00",
+  "updatedAt": "2026-11-10T04:56:55.311199+00:00",
   "summary": {
-    "totalPlays": 23682,
+    "totalPlays": 23684,
     "unknownPlays": 1143,
     "uniqueTracks": 2721,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794286015
+    "lastObserved": 1794286460
   },
   "topSongs": [
     {
@@ -384,6 +384,28 @@
       }
     },
     {
+      "artist": "Bad Bad Hats",
+      "title": "Walkman",
+      "album": "Walkman",
+      "count": 30,
+      "first": 1788963606,
+      "last": 1794286460,
+      "playlists": {
+        "1default": 30
+      }
+    },
+    {
+      "artist": "Orion Sun",
+      "title": "Ne Me Quitte Pas (Don't Leave Me)",
+      "album": "Hold Space For Me",
+      "count": 30,
+      "first": 1788985030,
+      "last": 1794286290,
+      "playlists": {
+        "1default": 30
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Brainsick",
       "album": "Brainsick",
@@ -569,28 +591,6 @@
       "last": 1794171557,
       "playlists": {
         "1default": 30
-      }
-    },
-    {
-      "artist": "Squirrel Flower",
-      "title": "So Hot You're Hurting My Feelings",
-      "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
-      "count": 30,
-      "first": 1789056580,
-      "last": 1794170113,
-      "playlists": {
-        "1default": 30
-      }
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "title": "B-Side",
-      "album": "B-Side",
-      "count": 29,
-      "first": 1789231311,
-      "last": 1794286015,
-      "playlists": {
-        "1default": 29
       }
     }
   ],
@@ -5267,6 +5267,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 59,
+      "first": 1788985030,
+      "last": 1794286290,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 30,
+          "first": 1788985030,
+          "last": 1794286290,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 29,
+          "first": 1788987870,
+          "last": 1794168731,
+          "playlists": {
+            "1default": 29
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 59,
       "first": 1788972865,
@@ -5372,36 +5402,6 @@
           "count": 29,
           "first": 1788986484,
           "last": 1794194081,
-          "playlists": {
-            "1default": 29
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 58,
-      "first": 1788985030,
-      "last": 1794215238,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 29,
-          "first": 1788985030,
-          "last": 1794215238,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 29,
-          "first": 1788987870,
-          "last": 1794168731,
           "playlists": {
             "1default": 29
           }
@@ -8206,9 +8206,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10839,
+      "count": 10841,
       "first": 1788901564,
-      "last": 1794286015,
+      "last": 1794286460,
       "songs": [
         {
           "artist": "Tele Novella",
