@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-10T16:37:00.071266+00:00",
+  "updatedAt": "2026-11-10T16:51:53.017804+00:00",
   "summary": {
-    "totalPlays": 23893,
+    "totalPlays": 23895,
     "unknownPlays": 1143,
     "uniqueTracks": 2722,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794328612
+    "lastObserved": 1794329306
   },
   "topSongs": [
     {
@@ -384,6 +384,17 @@
       }
     },
     {
+      "artist": "Franz Ferdinand",
+      "title": "Billy Goodbye",
+      "album": "Billy Goodbye",
+      "count": 30,
+      "first": 1789014639,
+      "last": 1794329081,
+      "playlists": {
+        "1default": 30
+      }
+    },
+    {
       "artist": "Sexy Coyote",
       "title": "Dancing With Demons",
       "album": "Dancing With Demons",
@@ -578,17 +589,6 @@
       "count": 30,
       "first": 1788967329,
       "last": 1794284395,
-      "playlists": {
-        "1default": 30
-      }
-    },
-    {
-      "artist": "isobel",
-      "title": "laundry",
-      "album": "laundry",
-      "count": 30,
-      "first": 1788902953,
-      "last": 1794283946,
       "playlists": {
         "1default": 30
       }
@@ -3226,6 +3226,69 @@
       ]
     },
     {
+      "artist": "Radiohead",
+      "count": 88,
+      "first": 1788973066,
+      "last": 1794329306,
+      "songs": [
+        {
+          "artist": "Radiohead",
+          "title": "Just",
+          "album": "The Bends",
+          "count": 29,
+          "first": 1788984450,
+          "last": 1794329306,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "If You Say the Word",
+          "album": "If You Say the Word",
+          "count": 29,
+          "first": 1789033884,
+          "last": 1794174815,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Follow Me Around",
+          "album": "Follow Me Around",
+          "count": 28,
+          "first": 1788973066,
+          "last": 1794155891,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Creep",
+          "album": "Pablo Honey",
+          "count": 1,
+          "first": 1793507793,
+          "last": 1793507793,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        },
+        {
+          "artist": "Radiohead",
+          "title": "Karma Police",
+          "album": "OK Computer",
+          "count": 1,
+          "first": 1792902695,
+          "last": 1792902695,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 88,
       "first": 1788917230,
@@ -3344,69 +3407,6 @@
           "last": 1794256513,
           "playlists": {
             "1default": 28
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Radiohead",
-      "count": 87,
-      "first": 1788973066,
-      "last": 1794183192,
-      "songs": [
-        {
-          "artist": "Radiohead",
-          "title": "If You Say the Word",
-          "album": "If You Say the Word",
-          "count": 29,
-          "first": 1789033884,
-          "last": 1794174815,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Just",
-          "album": "The Bends",
-          "count": 28,
-          "first": 1788984450,
-          "last": 1794183192,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Follow Me Around",
-          "album": "Follow Me Around",
-          "count": 28,
-          "first": 1788973066,
-          "last": 1794155891,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Creep",
-          "album": "Pablo Honey",
-          "count": 1,
-          "first": 1793507793,
-          "last": 1793507793,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        },
-        {
-          "artist": "Radiohead",
-          "title": "Karma Police",
-          "album": "OK Computer",
-          "count": 1,
-          "first": 1792902695,
-          "last": 1792902695,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -8129,9 +8129,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10893,
+      "count": 10895,
       "first": 1788901564,
-      "last": 1794328612,
+      "last": 1794329306,
       "songs": [
         {
           "artist": "Tele Novella",
