@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:26:54.329684+00:00",
+  "updatedAt": "2026-11-10T06:56:59.544533+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 35,
-    "sessionCount": 804,
+    "sessionCount": 805,
     "firstObserved": 1788901564,
-    "lastObserved": 1794289632
+    "lastObserved": 1794292358
   },
   "playlists": [
     {
@@ -2469,11 +2469,11 @@
     },
     {
       "playlist": "breakbeat",
-      "sessionCount": 36,
-      "playCount": 1960,
+      "sessionCount": 37,
+      "playCount": 1970,
       "firstObserved": 1788938278,
-      "lastObserved": 1793953054,
-      "typicalStartMinute": 20,
+      "lastObserved": 1794292358,
+      "typicalStartMinute": 19,
       "typicalDurationMinutes": 139,
       "confidence": "Medium",
       "heatmapMinutes": [
@@ -2501,7 +2501,7 @@
           0.0,
           0.0,
           0.0,
-          224.2
+          250.1
         ],
         [
           480.0,
@@ -2756,8 +2756,8 @@
           0.0,
           0.0,
           0.0,
-          104.2,
-          120.0
+          116.5,
+          133.6
         ],
         [
           120.0,
@@ -3373,7 +3373,7 @@
           0,
           0,
           0,
-          8
+          9
         ],
         [
           0,
@@ -3535,7 +3535,7 @@
       "likelyWindows": [
         {
           "weekday": 0,
-          "sessions": 8,
+          "sessions": 9,
           "typicalStartMinute": 1412,
           "typicalDurationMinutes": 240,
           "confidence": "High"
@@ -3563,6 +3563,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1794292358,
+          "end": 1794293916,
+          "durationMinutes": 26,
+          "playCount": 10
+        },
         {
           "start": 1793953054,
           "end": 1793961072,
@@ -3676,12 +3682,6 @@
           "end": 1791365458,
           "durationMinutes": 135,
           "playCount": 42
-        },
-        {
-          "start": 1791264722,
-          "end": 1791279054,
-          "durationMinutes": 239,
-          "playCount": 72
         }
       ]
     },
@@ -6124,11 +6124,11 @@
     {
       "playlist": "more home alone",
       "sessionCount": 27,
-      "playCount": 381,
+      "playCount": 382,
       "firstObserved": 1788929259,
       "lastObserved": 1794289632,
       "typicalStartMinute": 1367,
-      "typicalDurationMinutes": 43,
+      "typicalDurationMinutes": 44,
       "confidence": "High",
       "heatmapMinutes": [
         [
@@ -6155,7 +6155,7 @@
           0.0,
           0.0,
           111.2,
-          284.6
+          287.8
         ],
         [
           0.0,
@@ -6409,8 +6409,8 @@
           0.0,
           111.2,
           135.0,
-          134.4,
-          15.2,
+          135.0,
+          17.8,
           0.0
         ],
         [
@@ -7212,9 +7212,9 @@
       "recentSessions": [
         {
           "start": 1794289632,
-          "end": 1794292166,
-          "durationMinutes": 42,
-          "playCount": 17
+          "end": 1794292357,
+          "durationMinutes": 45,
+          "playCount": 18
         },
         {
           "start": 1793857531,
