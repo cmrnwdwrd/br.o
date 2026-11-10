@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-10T05:21:52.932817+00:00",
+  "updatedAt": "2026-11-10T05:26:54.502635+00:00",
   "summary": {
-    "totalPlays": 23690,
+    "totalPlays": 23691,
     "unknownPlays": 1143,
     "uniqueTracks": 2721,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794287927
+    "lastObserved": 1794288168
   },
   "topSongs": [
     {
@@ -2784,10 +2784,21 @@
     },
     {
       "artist": "botch",
-      "count": 113,
+      "count": 114,
       "first": 1788920755,
-      "last": 1794259833,
+      "last": 1794288168,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 29,
+          "first": 1788963025,
+          "last": 1794288168,
+          "playlists": {
+            "1default": 29
+          }
+        },
         {
           "artist": "botch",
           "title": "gettingyoutobelieve",
@@ -2808,17 +2819,6 @@
           "last": 1794183761,
           "playlists": {
             "1default": 29
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 28,
-          "first": 1788963025,
-          "last": 1794217680,
-          "playlists": {
-            "1default": 28
           }
         },
         {
@@ -7265,6 +7265,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 58,
+      "first": 1788920755,
+      "last": 1794288168,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 29,
+          "first": 1788963025,
+          "last": 1794288168,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 29,
+          "first": 1788920755,
+          "last": 1794259833,
+          "playlists": {
+            "1default": 29
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "album": "win'20",
       "count": 58,
@@ -7364,37 +7395,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 57,
-      "first": 1788920755,
-      "last": 1794259833,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 29,
-          "first": 1788920755,
-          "last": 1794259833,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 28,
-          "first": 1788963025,
-          "last": 1794217680,
-          "playlists": {
-            "1default": 28
           }
         }
       ]
@@ -8119,9 +8119,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10847,
+      "count": 10848,
       "first": 1788901564,
-      "last": 1794287927,
+      "last": 1794288168,
       "songs": [
         {
           "artist": "Tele Novella",
