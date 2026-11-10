@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-10T22:41:56.499762+00:00",
+  "updatedAt": "2026-11-10T23:56:51.149443+00:00",
   "summary": {
-    "totalPlays": 23983,
+    "totalPlays": 23997,
     "unknownPlays": 1143,
     "uniqueTracks": 2722,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794350282
+    "lastObserved": 1794354827
   },
   "topSongs": [
     {
@@ -37,6 +37,31 @@
       }
     },
     {
+      "artist": "George Harrison",
+      "title": "I Dig Love (2020 Mix)",
+      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "count": 48,
+      "first": 1789034170,
+      "last": 1794353705,
+      "playlists": {
+        "1default": 35,
+        "anti-capitalist weekday afternoon #1": 11,
+        "jack johnson hackiesack friday afternoon": 2
+      }
+    },
+    {
+      "artist": "Metric",
+      "title": "Dead Disco",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 48,
+      "first": 1788986736,
+      "last": 1794353253,
+      "playlists": {
+        "1default": 37,
+        "anti-capitalist weekday afternoon #1": 11
+      }
+    },
+    {
       "artist": "Ramones",
       "title": "Judy Is a Punk - 2016 Remaster",
       "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
@@ -49,28 +74,15 @@
       }
     },
     {
-      "artist": "George Harrison",
-      "title": "I Dig Love (2020 Mix)",
-      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "artist": "The Salesmen, Ike Spivak",
+      "title": "Happy Boy",
+      "album": "WAR IN COLORADO!",
       "count": 47,
-      "first": 1789034170,
-      "last": 1794331121,
+      "first": 1788993017,
+      "last": 1794354184,
       "playlists": {
-        "1default": 35,
-        "anti-capitalist weekday afternoon #1": 10,
-        "jack johnson hackiesack friday afternoon": 2
-      }
-    },
-    {
-      "artist": "Metric",
-      "title": "Dead Disco",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 47,
-      "first": 1788986736,
-      "last": 1794278871,
-      "playlists": {
-        "1default": 37,
-        "anti-capitalist weekday afternoon #1": 10
+        "1default": 36,
+        "anti-capitalist weekday afternoon #1": 11
       }
     },
     {
@@ -104,18 +116,6 @@
       "count": 46,
       "first": 1788926155,
       "last": 1794328391,
-      "playlists": {
-        "1default": 36,
-        "anti-capitalist weekday afternoon #1": 10
-      }
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "title": "Happy Boy",
-      "album": "WAR IN COLORADO!",
-      "count": 46,
-      "first": 1788993017,
-      "last": 1794287080,
       "playlists": {
         "1default": 36,
         "anti-capitalist weekday afternoon #1": 10
@@ -173,12 +173,12 @@
       "artist": "The Chats",
       "title": "Smoko",
       "album": "Get This In Ya",
-      "count": 42,
+      "count": 43,
       "first": 1789078009,
-      "last": 1794251946,
+      "last": 1794351896,
       "playlists": {
         "1default": 32,
-        "anti-capitalist weekday afternoon #1": 10
+        "anti-capitalist weekday afternoon #1": 11
       }
     },
     {
@@ -7399,6 +7399,39 @@
       ]
     },
     {
+      "artist": "Metric",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 57,
+      "first": 1788986736,
+      "last": 1794353253,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 48,
+          "first": 1788986736,
+          "last": 1794353253,
+          "playlists": {
+            "1default": 37,
+            "anti-capitalist weekday afternoon #1": 11
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 9,
+          "first": 1789258725,
+          "last": 1793487900,
+          "playlists": {
+            "sad girl no friends saturday": 6,
+            "texting your situationship": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "album": "Doolittle",
       "count": 57,
@@ -7498,39 +7531,6 @@
           "last": 1794242625,
           "playlists": {
             "1default": 28
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Metric",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 56,
-      "first": 1788986736,
-      "last": 1794278871,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 47,
-          "first": 1788986736,
-          "last": 1794278871,
-          "playlists": {
-            "1default": 37,
-            "anti-capitalist weekday afternoon #1": 10
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 9,
-          "first": 1789258725,
-          "last": 1793487900,
-          "playlists": {
-            "sad girl no friends saturday": 6,
-            "texting your situationship": 3
           }
         }
       ]
@@ -7978,6 +7978,28 @@
       ]
     },
     {
+      "artist": "George Harrison",
+      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "count": 48,
+      "first": 1789034170,
+      "last": 1794353705,
+      "songs": [
+        {
+          "artist": "George Harrison",
+          "title": "I Dig Love (2020 Mix)",
+          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "count": 48,
+          "first": 1789034170,
+          "last": 1794353705,
+          "playlists": {
+            "1default": 35,
+            "anti-capitalist weekday afternoon #1": 11,
+            "jack johnson hackiesack friday afternoon": 2
+          }
+        }
+      ]
+    },
+    {
       "artist": "Chappell Roan",
       "album": "The Rise and Fall of a Midwest Princess",
       "count": 48,
@@ -8031,23 +8053,22 @@
       ]
     },
     {
-      "artist": "George Harrison",
-      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "artist": "The Salesmen, Ike Spivak",
+      "album": "WAR IN COLORADO!",
       "count": 47,
-      "first": 1789034170,
-      "last": 1794331121,
+      "first": 1788993017,
+      "last": 1794354184,
       "songs": [
         {
-          "artist": "George Harrison",
-          "title": "I Dig Love (2020 Mix)",
-          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "artist": "The Salesmen, Ike Spivak",
+          "title": "Happy Boy",
+          "album": "WAR IN COLORADO!",
           "count": 47,
-          "first": 1789034170,
-          "last": 1794331121,
+          "first": 1788993017,
+          "last": 1794354184,
           "playlists": {
-            "1default": 35,
-            "anti-capitalist weekday afternoon #1": 10,
-            "jack johnson hackiesack friday afternoon": 2
+            "1default": 36,
+            "anti-capitalist weekday afternoon #1": 11
           }
         }
       ]
@@ -8093,35 +8114,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "The Salesmen, Ike Spivak",
-      "album": "WAR IN COLORADO!",
-      "count": 46,
-      "first": 1788993017,
-      "last": 1794287080,
-      "songs": [
-        {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
-          "count": 46,
-          "first": 1788993017,
-          "last": 1794287080,
-          "playlists": {
-            "1default": 36,
-            "anti-capitalist weekday afternoon #1": 10
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10983,
+      "count": 10984,
       "first": 1788901564,
-      "last": 1794350282,
+      "last": 1794351586,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -8434,9 +8434,9 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 757,
+      "count": 770,
       "first": 1788904845,
-      "last": 1794270460,
+      "last": 1794354827,
       "songs": [
         {
           "artist": "Everlast",
@@ -8447,6 +8447,28 @@
           "last": 1794268368,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 20
+          }
+        },
+        {
+          "artist": "Paramore",
+          "title": "The News",
+          "album": "This Is Why",
+          "count": 19,
+          "first": 1788996589,
+          "last": 1794352740,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 19
+          }
+        },
+        {
+          "artist": "They Might Be Giants",
+          "title": "The Communists Have the Music",
+          "album": "The Communists Have the Music",
+          "count": 19,
+          "first": 1788995009,
+          "last": 1794351752,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 19
           }
         },
         {
@@ -8467,28 +8489,6 @@
           "count": 19,
           "first": 1788994893,
           "last": 1794268985,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 19
-          }
-        },
-        {
-          "artist": "Jesse Welles",
-          "title": "War Isn't Murder",
-          "album": "Hells Welles",
-          "count": 19,
-          "first": 1788994150,
-          "last": 1794268788,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 19
-          }
-        },
-        {
-          "artist": "Crywank",
-          "title": "I Am Shit",
-          "album": "Tomorrow Is Nearly Yesterday and Everyday Is Stupid",
-          "count": 19,
-          "first": 1788996460,
-          "last": 1794268241,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 19
           }
