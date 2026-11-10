@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-10T00:36:53.922578+00:00",
+  "updatedAt": "2026-11-10T01:36:52.429705+00:00",
   "summary": {
-    "totalPlays": 23618,
+    "totalPlays": 23632,
     "unknownPlays": 1143,
     "uniqueTracks": 2721,
     "uniqueArtists": 1708,
     "uniqueAlbums": 2214,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794271001
+    "lastObserved": 1794274526
   },
   "topSongs": [
     {
@@ -98,6 +98,18 @@
       }
     },
     {
+      "artist": "Viagra Boys",
+      "title": "Worms",
+      "album": "Street Worms",
+      "count": 45,
+      "first": 1788991593,
+      "last": 1794273094,
+      "playlists": {
+        "1default": 35,
+        "anti-capitalist weekday afternoon #1": 10
+      }
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "title": "Happy Boy",
       "album": "WAR IN COLORADO!",
@@ -140,18 +152,6 @@
       "count": 44,
       "first": 1788996063,
       "last": 1794166847,
-      "playlists": {
-        "1default": 34,
-        "anti-capitalist weekday afternoon #1": 10
-      }
-    },
-    {
-      "artist": "Viagra Boys",
-      "title": "Worms",
-      "album": "Street Worms",
-      "count": 44,
-      "first": 1788991593,
-      "last": 1794064606,
       "playlists": {
         "1default": 34,
         "anti-capitalist weekday afternoon #1": 10
@@ -373,6 +373,28 @@
       }
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "title": "Pawn Shop Prada",
+      "album": "Lick My Soul",
+      "count": 30,
+      "first": 1788919863,
+      "last": 1794274526,
+      "playlists": {
+        "1default": 30
+      }
+    },
+    {
+      "artist": "Teyana Taylor",
+      "title": "Gonna Love Me",
+      "album": "K.T.S.E.",
+      "count": 30,
+      "first": 1788929095,
+      "last": 1794273767,
+      "playlists": {
+        "1default": 30
+      }
+    },
+    {
       "artist": "hey, nothing",
       "title": "The Sink",
       "album": "The Sink",
@@ -436,6 +458,39 @@
       "last": 1794170113,
       "playlists": {
         "1default": 30
+      }
+    },
+    {
+      "artist": "Atom Son of Man",
+      "title": "Hold Me",
+      "album": "1's a Man, 3's a Band",
+      "count": 29,
+      "first": 1788902047,
+      "last": 1794273935,
+      "playlists": {
+        "1default": 29
+      }
+    },
+    {
+      "artist": "The Czars",
+      "title": "Drug",
+      "album": "Best Of",
+      "count": 29,
+      "first": 1789063847,
+      "last": 1794272845,
+      "playlists": {
+        "1default": 29
+      }
+    },
+    {
+      "artist": "Moby",
+      "title": "Porcelain",
+      "album": "Play & Play: B Sides",
+      "count": 29,
+      "first": 1788910695,
+      "last": 1794272144,
+      "playlists": {
+        "1default": 29
       }
     },
     {
@@ -533,61 +588,6 @@
       "count": 29,
       "first": 1788987745,
       "last": 1794256891,
-      "playlists": {
-        "1default": 29
-      }
-    },
-    {
-      "artist": "Finger Eleven",
-      "title": "Paralyzer",
-      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
-      "count": 29,
-      "first": 1789049428,
-      "last": 1794256060,
-      "playlists": {
-        "1default": 29
-      }
-    },
-    {
-      "artist": "Bahamas",
-      "title": "Own Alone",
-      "album": "Sad Hunk",
-      "count": 29,
-      "first": 1788962598,
-      "last": 1794255693,
-      "playlists": {
-        "1default": 29
-      }
-    },
-    {
-      "artist": "JOSEPH",
-      "title": "Green Eyes",
-      "album": "Good Luck, Kid",
-      "count": 29,
-      "first": 1789070850,
-      "last": 1794255280,
-      "playlists": {
-        "1default": 29
-      }
-    },
-    {
-      "artist": "Isaiah Rashad",
-      "title": "Heavenly Father",
-      "album": "Cilvia Demo",
-      "count": 29,
-      "first": 1788930667,
-      "last": 1794254884,
-      "playlists": {
-        "1default": 29
-      }
-    },
-    {
-      "artist": "Kai Straw",
-      "title": "Don't Tread on Me",
-      "album": "Toothpick",
-      "count": 29,
-      "first": 1788985765,
-      "last": 1794253146,
       "playlists": {
         "1default": 29
       }
@@ -2080,10 +2080,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 219,
+      "count": 220,
       "first": 1788902047,
-      "last": 1794263126,
+      "last": 1794273935,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 29,
+          "first": 1788902047,
+          "last": 1794273935,
+          "playlists": {
+            "1default": 29
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Love Is Lightning",
@@ -2102,17 +2113,6 @@
           "count": 28,
           "first": 1788903730,
           "last": 1794178690,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 28,
-          "first": 1788902047,
-          "last": 1794131440,
           "playlists": {
             "1default": 28
           }
@@ -2176,10 +2176,21 @@
     },
     {
       "artist": "The Czars",
-      "count": 162,
+      "count": 163,
       "first": 1788963949,
-      "last": 1794250990,
+      "last": 1794272845,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 29,
+          "first": 1789063847,
+          "last": 1794272845,
+          "playlists": {
+            "1default": 29
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Killjoy",
@@ -2189,17 +2200,6 @@
           "last": 1794192091,
           "playlists": {
             "1default": 29
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 28,
-          "first": 1789063847,
-          "last": 1794006197,
-          "playlists": {
-            "1default": 28
           }
         },
         {
@@ -3225,6 +3225,47 @@
       ]
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "count": 87,
+      "first": 1788919863,
+      "last": 1794274526,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 30,
+          "first": 1788919863,
+          "last": 1794274526,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 29,
+          "first": 1788989164,
+          "last": 1794241026,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 28,
+          "first": 1789139069,
+          "last": 1794256513,
+          "playlists": {
+            "1default": 28
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 87,
       "first": 1788917230,
@@ -3426,47 +3467,6 @@
           "count": 28,
           "first": 1789225488,
           "last": 1794177155,
-          "playlists": {
-            "1default": 28
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "count": 86,
-      "first": 1788919863,
-      "last": 1794256513,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 29,
-          "first": 1788989164,
-          "last": 1794241026,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 29,
-          "first": 1788919863,
-          "last": 1794066543,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 28,
-          "first": 1789139069,
-          "last": 1794256513,
           "playlists": {
             "1default": 28
           }
@@ -4094,9 +4094,9 @@
     },
     {
       "artist": "ruzlxn",
-      "count": 65,
+      "count": 66,
       "first": 1788914259,
-      "last": 1794252125,
+      "last": 1794272772,
       "songs": [
         {
           "artist": "ruzlxn",
@@ -4113,11 +4113,11 @@
           "artist": "ruzlxn",
           "title": "GRITTED TEETH",
           "album": "GRITTED TEETH *",
-          "count": 23,
+          "count": 24,
           "first": 1789408164,
-          "last": 1793982761,
+          "last": 1794272772,
           "playlists": {
-            "1default": 23
+            "1default": 24
           }
         },
         {
@@ -5215,10 +5215,21 @@
     },
     {
       "artist": "Kendrick Lamar",
-      "count": 59,
+      "count": 60,
       "first": 1789061029,
-      "last": 1794240595,
+      "last": 1794273547,
       "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "Alright",
+          "album": "To Pimp A Butterfly",
+          "count": 28,
+          "first": 1789221730,
+          "last": 1794273547,
+          "playlists": {
+            "1default": 28
+          }
+        },
         {
           "artist": "Kendrick Lamar",
           "title": "Black Panther",
@@ -5228,17 +5239,6 @@
           "last": 1794240595,
           "playlists": {
             "1default": 28
-          }
-        },
-        {
-          "artist": "Kendrick Lamar",
-          "title": "Alright",
-          "album": "To Pimp A Butterfly",
-          "count": 27,
-          "first": 1789221730,
-          "last": 1793951292,
-          "playlists": {
-            "1default": 27
           }
         },
         {
@@ -5296,6 +5296,58 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "count": 58,
+      "first": 1788972865,
+      "last": 1794271973,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 28,
+          "first": 1789214521,
+          "last": 1794271973,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 27,
+          "first": 1788972865,
+          "last": 1794251531,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Where Is My Mind? - 2007 Remaster",
+          "album": "Surfer Rosa (2007 Remaster)",
+          "count": 2,
+          "first": 1790484376,
+          "last": 1792904061,
+          "playlists": {
+            "sad girl no friends saturday": 2
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Wave Of Mutilation",
+          "album": "Doolittle",
+          "count": 1,
+          "first": 1792298434,
+          "last": 1792298434,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Orion Sun",
       "count": 58,
       "first": 1788985030,
@@ -5321,58 +5373,6 @@
           "last": 1794168731,
           "playlists": {
             "1default": 29
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Pixies",
-      "count": 57,
-      "first": 1788972865,
-      "last": 1794251531,
-      "songs": [
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 27,
-          "first": 1788972865,
-          "last": 1794251531,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 27,
-          "first": 1789214521,
-          "last": 1794062385,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Where Is My Mind? - 2007 Remaster",
-          "album": "Surfer Rosa (2007 Remaster)",
-          "count": 2,
-          "first": 1790484376,
-          "last": 1792904061,
-          "playlists": {
-            "sad girl no friends saturday": 2
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Wave Of Mutilation",
-          "album": "Doolittle",
-          "count": 1,
-          "first": 1792298434,
-          "last": 1792298434,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -5408,82 +5408,112 @@
       ]
     },
     {
-      "artist": "Chappell Roan",
+      "artist": "Kate Bollinger",
       "count": 56,
-      "first": 1788973776,
-      "last": 1794270460,
+      "first": 1788915657,
+      "last": 1794274186,
       "songs": [
         {
-          "artist": "Chappell Roan",
-          "title": "My Kink Is Karma",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 27,
-          "first": 1788973776,
-          "last": 1794188945,
+          "artist": "Kate Bollinger",
+          "title": "Talk About It",
+          "album": "Talk About It (B-Side)",
+          "count": 28,
+          "first": 1788983449,
+          "last": 1794274186,
           "playlists": {
-            "1default": 27
+            "1default": 28
           }
         },
         {
-          "artist": "Chappell Roan",
-          "title": "Super Graphic Ultra Modern Girl",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 18,
-          "first": 1789428359,
-          "last": 1794270460,
+          "artist": "Kate Bollinger",
+          "title": "A Couple Things",
+          "album": "A word becomes a sound",
+          "count": 28,
+          "first": 1788915657,
+          "last": 1794239906,
           "playlists": {
-            "anti-capitalist weekday afternoon #1": 18
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Naked in Manhattan",
-          "album": "Naked in Manhattan",
-          "count": 7,
-          "first": 1789864931,
-          "last": 1794116356,
-          "playlists": {
-            "texting your situationship": 6,
-            "sad girl no friends saturday": 1
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Pink Pony Club",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 2,
-          "first": 1789883353,
-          "last": 1793509800,
-          "playlists": {
-            "sad girl no friends saturday": 2
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Red Wine Supernova",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 1,
-          "first": 1792902960,
-          "last": 1792902960,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Casual",
-          "album": "Casual",
-          "count": 1,
-          "first": 1791696336,
-          "last": 1791696336,
-          "playlists": {
-            "sad girl no friends saturday": 1
+            "1default": 28
           }
         }
       ]
     }
   ],
   "topAlbums": [
+    {
+      "artist": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 166,
+      "first": 1788902047,
+      "last": 1794273935,
+      "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 29,
+          "first": 1788902047,
+          "last": 1794273935,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 28,
+          "first": 1789145316,
+          "last": 1794186013,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 28,
+          "first": 1788903730,
+          "last": 1794178690,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 27,
+          "first": 1788903565,
+          "last": 1794252944,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Vengeful Vulture",
+          "album": "1's a Man, 3's a Band",
+          "count": 27,
+          "first": 1789097184,
+          "last": 1794243539,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 27,
+          "first": 1788928852,
+          "last": 1794193328,
+          "playlists": {
+            "1default": 27
+          }
+        }
+      ]
+    },
     {
       "artist": "Opium",
       "album": "PHANTOMS",
@@ -5560,87 +5590,23 @@
       ]
     },
     {
-      "artist": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 165,
-      "first": 1788902047,
-      "last": 1794252944,
-      "songs": [
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 28,
-          "first": 1789145316,
-          "last": 1794186013,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 28,
-          "first": 1788903730,
-          "last": 1794178690,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 28,
-          "first": 1788902047,
-          "last": 1794131440,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 27,
-          "first": 1788903565,
-          "last": 1794252944,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Vengeful Vulture",
-          "album": "1's a Man, 3's a Band",
-          "count": 27,
-          "first": 1789097184,
-          "last": 1794243539,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 27,
-          "first": 1788928852,
-          "last": 1794193328,
-          "playlists": {
-            "1default": 27
-          }
-        }
-      ]
-    },
-    {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 162,
+      "count": 163,
       "first": 1788963949,
-      "last": 1794250990,
+      "last": 1794272845,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Drug",
+          "album": "Best Of",
+          "count": 29,
+          "first": 1789063847,
+          "last": 1794272845,
+          "playlists": {
+            "1default": 29
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Killjoy",
@@ -5650,17 +5616,6 @@
           "last": 1794192091,
           "playlists": {
             "1default": 29
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Drug",
-          "album": "Best Of",
-          "count": 28,
-          "first": 1789063847,
-          "last": 1794006197,
-          "playlists": {
-            "1default": 28
           }
         },
         {
@@ -6350,10 +6305,21 @@
     {
       "artist": "Jesus Christ Taxi Driver",
       "album": "Lick My Soul",
-      "count": 86,
+      "count": 87,
       "first": 1788919863,
-      "last": 1794256513,
+      "last": 1794274526,
       "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 30,
+          "first": 1788919863,
+          "last": 1794274526,
+          "playlists": {
+            "1default": 30
+          }
+        },
         {
           "artist": "Jesus Christ Taxi Driver",
           "title": "STUPIDMOTHERFUCKER",
@@ -6361,17 +6327,6 @@
           "count": 29,
           "first": 1788989164,
           "last": 1794241026,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 29,
-          "first": 1788919863,
-          "last": 1794066543,
           "playlists": {
             "1default": 29
           }
@@ -6976,6 +6931,48 @@
       ]
     },
     {
+      "artist": "ruzlxn",
+      "album": "GRITTED TEETH *",
+      "count": 66,
+      "first": 1788914259,
+      "last": 1794272772,
+      "songs": [
+        {
+          "artist": "ruzlxn",
+          "title": "BURN YOUR LOCAL POLITICIAN !",
+          "album": "GRITTED TEETH *",
+          "count": 29,
+          "first": 1788914259,
+          "last": 1794252125,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "ruzlxn",
+          "title": "GRITTED TEETH",
+          "album": "GRITTED TEETH *",
+          "count": 24,
+          "first": 1789408164,
+          "last": 1794272772,
+          "playlists": {
+            "1default": 24
+          }
+        },
+        {
+          "artist": "ruzlxn",
+          "title": "BONES",
+          "album": "GRITTED TEETH *",
+          "count": 13,
+          "first": 1788933961,
+          "last": 1794207505,
+          "playlists": {
+            "EPL4a": 13
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THIS DOES NOT EXIST",
       "count": 66,
@@ -7101,48 +7098,6 @@
           "last": 1793847332,
           "playlists": {
             "MCR wednesday wind down": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "ruzlxn",
-      "album": "GRITTED TEETH *",
-      "count": 65,
-      "first": 1788914259,
-      "last": 1794252125,
-      "songs": [
-        {
-          "artist": "ruzlxn",
-          "title": "BURN YOUR LOCAL POLITICIAN !",
-          "album": "GRITTED TEETH *",
-          "count": 29,
-          "first": 1788914259,
-          "last": 1794252125,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "GRITTED TEETH",
-          "album": "GRITTED TEETH *",
-          "count": 23,
-          "first": 1789408164,
-          "last": 1793982761,
-          "playlists": {
-            "1default": 23
-          }
-        },
-        {
-          "artist": "ruzlxn",
-          "title": "BONES",
-          "album": "GRITTED TEETH *",
-          "count": 13,
-          "first": 1788933961,
-          "last": 1794207505,
-          "playlists": {
-            "EPL4a": 13
           }
         }
       ]
@@ -7433,6 +7388,48 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "album": "Doolittle",
+      "count": 56,
+      "first": 1788972865,
+      "last": 1794271973,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 28,
+          "first": 1789214521,
+          "last": 1794271973,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 27,
+          "first": 1788972865,
+          "last": 1794251531,
+          "playlists": {
+            "1default": 27
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Wave Of Mutilation",
+          "album": "Doolittle",
+          "count": 1,
+          "first": 1792298434,
+          "last": 1792298434,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Laurel Hell",
       "count": 56,
@@ -7565,48 +7562,6 @@
           "playlists": {
             "sad girl no friends saturday": 9,
             "for the girls driving 85": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Pixies",
-      "album": "Doolittle",
-      "count": 55,
-      "first": 1788972865,
-      "last": 1794251531,
-      "songs": [
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 27,
-          "first": 1788972865,
-          "last": 1794251531,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 27,
-          "first": 1789214521,
-          "last": 1794062385,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Wave Of Mutilation",
-          "album": "Doolittle",
-          "count": 1,
-          "first": 1792298434,
-          "last": 1792298434,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -8216,32 +8171,22 @@
       ]
     },
     {
-      "artist": "Rosie Tucker",
-      "album": "Sucker Supreme",
+      "artist": "Viagra Boys",
+      "album": "Street Worms",
       "count": 45,
-      "first": 1788995157,
-      "last": 1794236992,
+      "first": 1788991593,
+      "last": 1794273094,
       "songs": [
         {
-          "artist": "Rosie Tucker",
-          "title": "Habanero",
-          "album": "Sucker Supreme",
-          "count": 27,
-          "first": 1789214020,
-          "last": 1794236992,
+          "artist": "Viagra Boys",
+          "title": "Worms",
+          "album": "Street Worms",
+          "count": 45,
+          "first": 1788991593,
+          "last": 1794273094,
           "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "Rosie Tucker",
-          "title": "For Sale: Ford Pinto",
-          "album": "Sucker Supreme",
-          "count": 18,
-          "first": 1788995157,
-          "last": 1793924798,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 18
+            "1default": 35,
+            "anti-capitalist weekday afternoon #1": 10
           }
         }
       ]
@@ -8250,9 +8195,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 10775,
+      "count": 10789,
       "first": 1788901564,
-      "last": 1794271001,
+      "last": 1794274526,
       "songs": [
         {
           "artist": "Tele Novella",
