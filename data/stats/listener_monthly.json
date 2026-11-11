@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T14:41:58.912565+00:00",
-  "lastProcessedTimestamp": "2026-11-11T14:41:58.912565+00:00",
+  "updatedAt": "2026-11-11T15:05:54.415579+00:00",
+  "lastProcessedTimestamp": "2026-11-11T15:05:54.415579+00:00",
   "months": [
     {
       "month": "2026-09",
@@ -115,14 +115,14 @@
     },
     {
       "month": "2026-11",
-      "sampleCount": 1183,
-      "sum": 1661,
+      "sampleCount": 1184,
+      "sum": 1662,
       "min": 1,
       "max": 6,
       "firstSampleAt": "2026-11-01T06:07:45.257146+00:00",
-      "lastSampleAt": "2026-11-11T14:41:58.912565+00:00",
+      "lastSampleAt": "2026-11-11T15:05:54.415579+00:00",
       "listenerDistribution": {
-        "1": 763,
+        "1": 764,
         "2": 371,
         "3": 42,
         "4": 6,
@@ -131,7 +131,8 @@
       "sourceCounts": {
         "primary": 1175,
         "github-fallback": 6,
-        "page-fallback": 2
+        "page-fallback": 2,
+        "cron-fallback": 1
       },
       "daysObserved": [
         "2026-11-01",
@@ -146,8 +147,8 @@
         "2026-11-10",
         "2026-11-11"
       ],
-      "average": 1.404057480980558,
-      "median": 1,
+      "average": 1.4037162162162162,
+      "median": 1.0,
       "daysRepresented": 11
     }
   ]
