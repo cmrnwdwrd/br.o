@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-12T20:17:13.034787+00:00",
+  "updatedAt": "2026-11-12T20:27:21.494825+00:00",
   "summary": {
-    "totalPlays": 24646,
+    "totalPlays": 24648,
     "unknownPlays": 1144,
     "uniqueTracks": 2734,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794514535
+    "lastObserved": 1794515076
   },
   "topSongs": [
     {
@@ -37,6 +37,18 @@
       }
     },
     {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 50,
+      "first": 1788968149,
+      "last": 1794515076,
+      "playlists": {
+        "1default": 38,
+        "anti-capitalist weekday afternoon #1": 12
+      }
+    },
+    {
       "artist": "Lush",
       "title": "Ladykillers",
       "album": "Lovelife",
@@ -46,18 +58,6 @@
       "playlists": {
         "1default": 38,
         "anti-capitalist weekday afternoon #1": 11
-      }
-    },
-    {
-      "artist": "Modest Mouse",
-      "title": "Bury Me With It",
-      "album": "Good News For People Who Love Bad News",
-      "count": 49,
-      "first": 1788968149,
-      "last": 1794440165,
-      "playlists": {
-        "1default": 37,
-        "anti-capitalist weekday afternoon #1": 12
       }
     },
     {
@@ -350,6 +350,17 @@
       }
     },
     {
+      "artist": "Vampire Weekend",
+      "title": "How Long?",
+      "album": "Father of the Bride",
+      "count": 32,
+      "first": 1788990464,
+      "last": 1794514865,
+      "playlists": {
+        "1default": 32
+      }
+    },
+    {
       "artist": "Lil Darkie, EDDISON",
       "title": "USA",
       "album": "USA",
@@ -579,17 +590,6 @@
       "count": 31,
       "first": 1789057927,
       "last": 1794461605,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "Orion Sun",
-      "title": "Antidote",
-      "album": "A Collection of Fleeting Moments and Daydreams",
-      "count": 31,
-      "first": 1788987870,
-      "last": 1794461141,
       "playlists": {
         "1default": 31
       }
@@ -4841,6 +4841,47 @@
       ]
     },
     {
+      "artist": "Vampire Weekend",
+      "count": 65,
+      "first": 1788990464,
+      "last": 1794514865,
+      "songs": [
+        {
+          "artist": "Vampire Weekend",
+          "title": "How Long?",
+          "album": "Father of the Bride",
+          "count": 32,
+          "first": 1788990464,
+          "last": 1794514865,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Harmony Hall",
+          "album": "Father of the Bride",
+          "count": 28,
+          "first": 1789108965,
+          "last": 1794436626,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Campus",
+          "album": "Vampire Weekend",
+          "count": 5,
+          "first": 1789762855,
+          "last": 1793391129,
+          "playlists": {
+            "escaping from cu boulder by giselle": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Of Monsters and Men",
       "count": 65,
       "first": 1788963370,
@@ -5023,47 +5064,6 @@
           "last": 1791081977,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Vampire Weekend",
-      "count": 64,
-      "first": 1788990464,
-      "last": 1794436626,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 31,
-          "first": 1788990464,
-          "last": 1794359386,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 28,
-          "first": 1789108965,
-          "last": 1794436626,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Campus",
-          "album": "Vampire Weekend",
-          "count": 5,
-          "first": 1789762855,
-          "last": 1793391129,
-          "playlists": {
-            "escaping from cu boulder by giselle": 5
           }
         }
       ]
@@ -7323,6 +7323,37 @@
       ]
     },
     {
+      "artist": "Vampire Weekend",
+      "album": "Father of the Bride",
+      "count": 60,
+      "first": 1788990464,
+      "last": 1794514865,
+      "songs": [
+        {
+          "artist": "Vampire Weekend",
+          "title": "How Long?",
+          "album": "Father of the Bride",
+          "count": 32,
+          "first": 1788990464,
+          "last": 1794514865,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Vampire Weekend",
+          "title": "Harmony Hall",
+          "album": "Father of the Bride",
+          "count": 28,
+          "first": 1789108965,
+          "last": 1794436626,
+          "playlists": {
+            "1default": 28
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "pear",
       "count": 60,
@@ -7411,37 +7442,6 @@
           "last": 1794433420,
           "playlists": {
             "1default": 29
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Vampire Weekend",
-      "album": "Father of the Bride",
-      "count": 59,
-      "first": 1788990464,
-      "last": 1794436626,
-      "songs": [
-        {
-          "artist": "Vampire Weekend",
-          "title": "How Long?",
-          "album": "Father of the Bride",
-          "count": 31,
-          "first": 1788990464,
-          "last": 1794359386,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Vampire Weekend",
-          "title": "Harmony Hall",
-          "album": "Father of the Bride",
-          "count": 28,
-          "first": 1789108965,
-          "last": 1794436626,
-          "playlists": {
-            "1default": 28
           }
         }
       ]
@@ -7646,65 +7646,21 @@
       ]
     },
     {
-      "artist": "Mitski",
-      "album": "Bury Me At Makeout Creek",
-      "count": 56,
-      "first": 1789097836,
-      "last": 1794041095,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "First Love/Late Spring",
-          "album": "Bury Me At Makeout Creek",
-          "count": 20,
-          "first": 1789101370,
-          "last": 1794041095,
-          "playlists": {
-            "sad girl no friends saturday": 10,
-            "for the girls driving 85": 10
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "I Will",
-          "album": "Bury Me At Makeout Creek",
-          "count": 18,
-          "first": 1789097836,
-          "last": 1794034861,
-          "playlists": {
-            "for the girls driving 85": 18
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Francis Forever",
-          "album": "Bury Me At Makeout Creek",
-          "count": 18,
-          "first": 1789193845,
-          "last": 1793947903,
-          "playlists": {
-            "sad girl no friends saturday": 9,
-            "for the girls driving 85": 9
-          }
-        }
-      ]
-    },
-    {
       "artist": "Modest Mouse",
       "album": "Good News For People Who Love Bad News",
-      "count": 55,
+      "count": 56,
       "first": 1788968149,
-      "last": 1794440165,
+      "last": 1794515076,
       "songs": [
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
           "album": "Good News For People Who Love Bad News",
-          "count": 49,
+          "count": 50,
           "first": 1788968149,
-          "last": 1794440165,
+          "last": 1794515076,
           "playlists": {
-            "1default": 37,
+            "1default": 38,
             "anti-capitalist weekday afternoon #1": 12
           }
         },
@@ -7750,6 +7706,50 @@
           "last": 1792302951,
           "playlists": {
             "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Mitski",
+      "album": "Bury Me At Makeout Creek",
+      "count": 56,
+      "first": 1789097836,
+      "last": 1794041095,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "First Love/Late Spring",
+          "album": "Bury Me At Makeout Creek",
+          "count": 20,
+          "first": 1789101370,
+          "last": 1794041095,
+          "playlists": {
+            "sad girl no friends saturday": 10,
+            "for the girls driving 85": 10
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "I Will",
+          "album": "Bury Me At Makeout Creek",
+          "count": 18,
+          "first": 1789097836,
+          "last": 1794034861,
+          "playlists": {
+            "for the girls driving 85": 18
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Francis Forever",
+          "album": "Bury Me At Makeout Creek",
+          "count": 18,
+          "first": 1789193845,
+          "last": 1793947903,
+          "playlists": {
+            "sad girl no friends saturday": 9,
+            "for the girls driving 85": 9
           }
         }
       ]
@@ -8254,9 +8254,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11228,
+      "count": 11230,
       "first": 1788901564,
-      "last": 1794514535,
+      "last": 1794515076,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -8270,6 +8270,17 @@
           }
         },
         {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 38,
+          "first": 1788968149,
+          "last": 1794515076,
+          "playlists": {
+            "1default": 38
+          }
+        },
+        {
           "artist": "Lush",
           "title": "Ladykillers",
           "album": "Lovelife",
@@ -8278,17 +8289,6 @@
           "last": 1794505525,
           "playlists": {
             "1default": 38
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 37,
-          "first": 1788968149,
-          "last": 1794432940,
-          "playlists": {
-            "1default": 37
           }
         },
         {
