@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T03:26:49.808931+00:00",
+  "updatedAt": "2026-11-12T03:46:53.130163+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 36,
-    "sessionCount": 828,
+    "sessionCount": 829,
     "firstObserved": 1788901564,
-    "lastObserved": 1794449270
+    "lastObserved": 1794455216
   },
   "playlists": [
     {
@@ -19146,7 +19146,7 @@
     {
       "playlist": "MCR wednesday wind down",
       "sessionCount": 12,
-      "playCount": 346,
+      "playCount": 351,
       "firstObserved": 1789001125,
       "lastObserved": 1794449270,
       "typicalStartMinute": 1117,
@@ -19226,7 +19226,7 @@
           0.0,
           55.7,
           551.8,
-          568.3,
+          586.9,
           153.6,
           0.0,
           0.0
@@ -19615,9 +19615,9 @@
           150.0,
           150.0,
           150.0,
-          148.3,
-          135.0,
-          135.0,
+          150.0,
+          150.0,
+          136.9,
           135.0,
           18.6,
           0.0,
@@ -20227,9 +20227,9 @@
       "recentSessions": [
         {
           "start": 1794449270,
-          "end": 1794454096,
-          "durationMinutes": 80,
-          "playCount": 21
+          "end": 1794455215,
+          "durationMinutes": 99,
+          "playCount": 26
         },
         {
           "start": 1793844326,
@@ -40660,11 +40660,11 @@
     },
     {
       "playlist": "interjections",
-      "sessionCount": 1,
-      "playCount": 1,
+      "sessionCount": 2,
+      "playCount": 2,
       "firstObserved": 1794402115,
-      "lastObserved": 1794402115,
-      "typicalStartMinute": 361,
+      "lastObserved": 1794455216,
+      "typicalStartMinute": 84,
       "typicalDurationMinutes": 1,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -40741,7 +40741,7 @@
           0.0,
           0.0,
           0.0,
-          0.0,
+          1.0,
           0.0,
           0.0,
           0.0
@@ -41132,7 +41132,7 @@
           0.0,
           0.0,
           0.0,
-          0.0,
+          1.0,
           0.0,
           0.0,
           0.0,
@@ -41613,7 +41613,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0
@@ -41726,13 +41726,19 @@
       "likelyWindows": [
         {
           "weekday": 2,
-          "sessions": 1,
-          "typicalStartMinute": 361,
+          "sessions": 2,
+          "typicalStartMinute": 84,
           "typicalDurationMinutes": 1,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1794455216,
+          "end": 1794455278,
+          "durationMinutes": 1,
+          "playCount": 1
+        },
         {
           "start": 1794402115,
           "end": 1794402175,
