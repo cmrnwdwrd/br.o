@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T10:01:57.628625+00:00",
+  "updatedAt": "2026-11-12T11:47:00.162022+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 36,
-    "sessionCount": 831,
+    "sessionCount": 832,
     "firstObserved": 1788901564,
-    "lastObserved": 1794465035
+    "lastObserved": 1794481765
   },
   "playlists": [
     {
@@ -3687,11 +3687,11 @@
     },
     {
       "playlist": "freestyle beats to crash your car to",
-      "sessionCount": 37,
-      "playCount": 1233,
+      "sessionCount": 38,
+      "playCount": 1247,
       "firstObserved": 1788948264,
-      "lastObserved": 1794396514,
-      "typicalStartMinute": 242,
+      "lastObserved": 1794481765,
+      "typicalStartMinute": 243,
       "typicalDurationMinutes": 120,
       "confidence": "High",
       "heatmapMinutes": [
@@ -3778,7 +3778,7 @@
           0.0,
           0.0,
           0.0,
-          522.4,
+          562.8,
           540.0,
           25.3,
           0.0,
@@ -4190,10 +4190,10 @@
           0.0,
           0.0,
           0.0,
-          117.4,
-          135.0,
-          135.0,
-          135.0,
+          123.0,
+          150.0,
+          150.0,
+          139.8,
           135.0,
           135.0,
           135.0,
@@ -4650,7 +4650,7 @@
           0,
           0,
           0,
-          9,
+          10,
           0,
           0,
           0,
@@ -4774,13 +4774,19 @@
         },
         {
           "weekday": 3,
-          "sessions": 9,
-          "typicalStartMinute": 241,
+          "sessions": 10,
+          "typicalStartMinute": 242,
           "typicalDurationMinutes": 120,
           "confidence": "High"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1794481765,
+          "end": 1794484189,
+          "durationMinutes": 40,
+          "playCount": 14
+        },
         {
           "start": 1794396514,
           "end": 1794402113,
@@ -4894,12 +4900,6 @@
           "end": 1791806432,
           "durationMinutes": 119,
           "playCount": 31
-        },
-        {
-          "start": 1791453705,
-          "end": 1791461004,
-          "durationMinutes": 122,
-          "playCount": 34
         }
       ]
     },
