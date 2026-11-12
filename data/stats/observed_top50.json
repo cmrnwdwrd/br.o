@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-12T16:52:18.538741+00:00",
+  "updatedAt": "2026-11-12T17:07:12.394273+00:00",
   "summary": {
-    "totalPlays": 24596,
+    "totalPlays": 24600,
     "unknownPlays": 1144,
     "uniqueTracks": 2734,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794502202
+    "lastObserved": 1794503185
   },
   "topSongs": [
     {
@@ -373,6 +373,28 @@
       }
     },
     {
+      "artist": "Black Sheep",
+      "title": "The Choice Is Yours (Revisited)",
+      "album": "A Wolf In Sheep's Clothing",
+      "count": 31,
+      "first": 1789062768,
+      "last": 1794502675,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
+      "artist": "Lorde",
+      "title": "Mood Ring",
+      "album": "Solar Power",
+      "count": 31,
+      "first": 1788914032,
+      "last": 1794502451,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
       "artist": "The Ephinjis",
       "title": "Knives",
       "album": "Knives",
@@ -551,45 +573,23 @@
       }
     },
     {
+      "artist": "Of Monsters and Men",
+      "title": "Wars",
+      "album": "FEVER DREAM",
+      "count": 30,
+      "first": 1788991170,
+      "last": 1794503185,
+      "playlists": {
+        "1default": 30
+      }
+    },
+    {
       "artist": "My Chemical Romance",
       "title": "Planetary (GO!)",
       "album": "Danger Days: The True Lives of the Fabulous Killjoys",
       "count": 30,
       "first": 1788965302,
       "last": 1794502202,
-      "playlists": {
-        "1default": 30
-      }
-    },
-    {
-      "artist": "flipturn",
-      "title": "Hippies",
-      "album": "Citrona",
-      "count": 30,
-      "first": 1789165660,
-      "last": 1794501543,
-      "playlists": {
-        "1default": 30
-      }
-    },
-    {
-      "artist": "Kendrick Lamar",
-      "title": "Alright",
-      "album": "To Pimp A Butterfly",
-      "count": 30,
-      "first": 1789221730,
-      "last": 1794501251,
-      "playlists": {
-        "1default": 30
-      }
-    },
-    {
-      "artist": "Monsune",
-      "title": "Nothing in Return",
-      "album": "Nothing in Return",
-      "count": 30,
-      "first": 1789054450,
-      "last": 1794496540,
       "playlists": {
         "1default": 30
       }
@@ -1732,9 +1732,9 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 229,
+      "count": 230,
       "first": 1788902047,
-      "last": 1794495682,
+      "last": 1794502916,
       "songs": [
         {
           "artist": "Atom Son of Man",
@@ -1745,6 +1745,17 @@
           "last": 1794357892,
           "playlists": {
             "1default": 30
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Think Too Much",
+          "album": "Think Too Much",
+          "count": 29,
+          "first": 1788964420,
+          "last": 1794502916,
+          "playlists": {
+            "1default": 29
           }
         },
         {
@@ -1798,17 +1809,6 @@
           "count": 28,
           "first": 1788928852,
           "last": 1794432700,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Think Too Much",
-          "album": "Think Too Much",
-          "count": 28,
-          "first": 1788964420,
-          "last": 1794365531,
           "playlists": {
             "1default": 28
           }
@@ -4801,19 +4801,19 @@
     },
     {
       "artist": "Lorde",
-      "count": 65,
+      "count": 66,
       "first": 1788914032,
-      "last": 1794421812,
+      "last": 1794502451,
       "songs": [
         {
           "artist": "Lorde",
           "title": "Mood Ring",
           "album": "Solar Power",
-          "count": 30,
+          "count": 31,
           "first": 1788914032,
-          "last": 1794409541,
+          "last": 1794502451,
           "playlists": {
-            "1default": 30
+            "1default": 31
           }
         },
         {
@@ -4836,6 +4836,47 @@
           "last": 1794102257,
           "playlists": {
             "texting your situationship": 6
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Of Monsters and Men",
+      "count": 65,
+      "first": 1788963370,
+      "last": 1794503185,
+      "songs": [
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Wars",
+          "album": "FEVER DREAM",
+          "count": 30,
+          "first": 1788991170,
+          "last": 1794503185,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Visitor",
+          "album": "Visitor",
+          "count": 29,
+          "first": 1788963370,
+          "last": 1794459485,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "Of Monsters and Men",
+          "title": "Little Talks",
+          "album": "My Head Is An Animal",
+          "count": 6,
+          "first": 1789156918,
+          "last": 1793390604,
+          "playlists": {
+            "escaping from cu boulder by giselle": 6
           }
         }
       ]
@@ -4982,47 +5023,6 @@
           "last": 1791081977,
           "playlists": {
             "throwbacks": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Of Monsters and Men",
-      "count": 64,
-      "first": 1788963370,
-      "last": 1794459485,
-      "songs": [
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Visitor",
-          "album": "Visitor",
-          "count": 29,
-          "first": 1788963370,
-          "last": 1794459485,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Wars",
-          "album": "FEVER DREAM",
-          "count": 29,
-          "first": 1788991170,
-          "last": 1794198588,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Of Monsters and Men",
-          "title": "Little Talks",
-          "album": "My Head Is An Animal",
-          "count": 6,
-          "first": 1789156918,
-          "last": 1793390604,
-          "playlists": {
-            "escaping from cu boulder by giselle": 6
           }
         }
       ]
@@ -8254,9 +8254,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11178,
+      "count": 11182,
       "first": 1788901564,
-      "last": 1794502202,
+      "last": 1794503185,
       "songs": [
         {
           "artist": "Tele Novella",
