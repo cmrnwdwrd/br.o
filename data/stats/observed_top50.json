@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-12T19:52:21.547541+00:00",
+  "updatedAt": "2026-11-12T19:57:16.989370+00:00",
   "summary": {
-    "totalPlays": 24639,
+    "totalPlays": 24641,
     "unknownPlays": 1144,
     "uniqueTracks": 2734,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794513094
+    "lastObserved": 1794513424
   },
   "topSongs": [
     {
@@ -314,6 +314,18 @@
       }
     },
     {
+      "artist": "Mitski",
+      "title": "My Love Mine All Mine",
+      "album": "The Land Is Inhospitable and So Are We",
+      "count": 34,
+      "first": 1789130394,
+      "last": 1794513287,
+      "playlists": {
+        "1default": 32,
+        "jack johnson hackiesack friday afternoon": 2
+      }
+    },
+    {
       "artist": "Pinegrove",
       "title": "Need 2",
       "album": "Everything So Far",
@@ -332,18 +344,6 @@
       "count": 33,
       "first": 1788946510,
       "last": 1794437080,
-      "playlists": {
-        "1default": 31,
-        "jack johnson hackiesack friday afternoon": 2
-      }
-    },
-    {
-      "artist": "Mitski",
-      "title": "My Love Mine All Mine",
-      "album": "The Land Is Inhospitable and So Are We",
-      "count": 33,
-      "first": 1789130394,
-      "last": 1794349098,
       "playlists": {
         "1default": 31,
         "jack johnson hackiesack friday afternoon": 2
@@ -370,6 +370,17 @@
       "last": 1794368585,
       "playlists": {
         "1default": 32
+      }
+    },
+    {
+      "artist": "Cage The Elephant",
+      "title": "Social Cues",
+      "album": "Social Cues",
+      "count": 31,
+      "first": 1788990244,
+      "last": 1794513424,
+      "playlists": {
+        "1default": 31
       }
     },
     {
@@ -579,17 +590,6 @@
       "count": 31,
       "first": 1788962794,
       "last": 1794457960,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "Squirrel Flower",
-      "title": "So Hot You're Hurting My Feelings",
-      "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
-      "count": 31,
-      "first": 1789056580,
-      "last": 1794457750,
       "playlists": {
         "1default": 31
       }
@@ -1449,19 +1449,19 @@
     },
     {
       "artist": "Mitski",
-      "count": 258,
+      "count": 259,
       "first": 1788920128,
-      "last": 1794505931,
+      "last": 1794513287,
       "songs": [
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
           "album": "The Land Is Inhospitable and So Are We",
-          "count": 33,
+          "count": 34,
           "first": 1789130394,
-          "last": 1794349098,
+          "last": 1794513287,
           "playlists": {
-            "1default": 31,
+            "1default": 32,
             "jack johnson hackiesack friday afternoon": 2
           }
         },
@@ -3788,10 +3788,21 @@
     },
     {
       "artist": "Cage The Elephant",
-      "count": 76,
+      "count": 77,
       "first": 1788928254,
-      "last": 1794506147,
+      "last": 1794513424,
       "songs": [
+        {
+          "artist": "Cage The Elephant",
+          "title": "Social Cues",
+          "album": "Social Cues",
+          "count": 31,
+          "first": 1788990244,
+          "last": 1794513424,
+          "playlists": {
+            "1default": 31
+          }
+        },
         {
           "artist": "Cage The Elephant",
           "title": "Skin and Bones - Mix 2020",
@@ -3801,17 +3812,6 @@
           "last": 1794506147,
           "playlists": {
             "1default": 31
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Social Cues",
-          "album": "Social Cues",
-          "count": 30,
-          "first": 1788990244,
-          "last": 1794323561,
-          "playlists": {
-            "1default": 30
           }
         },
         {
@@ -6147,19 +6147,19 @@
     {
       "artist": "Mitski",
       "album": "The Land Is Inhospitable and So Are We",
-      "count": 99,
+      "count": 100,
       "first": 1789102597,
-      "last": 1794349098,
+      "last": 1794513287,
       "songs": [
         {
           "artist": "Mitski",
           "title": "My Love Mine All Mine",
           "album": "The Land Is Inhospitable and So Are We",
-          "count": 33,
+          "count": 34,
           "first": 1789130394,
-          "last": 1794349098,
+          "last": 1794513287,
           "playlists": {
-            "1default": 31,
+            "1default": 32,
             "jack johnson hackiesack friday afternoon": 2
           }
         },
@@ -8254,9 +8254,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11221,
+      "count": 11223,
       "first": 1788901564,
-      "last": 1794513094,
+      "last": 1794513424,
       "songs": [
         {
           "artist": "Tele Novella",
