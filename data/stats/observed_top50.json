@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-12T18:42:34.744060+00:00",
+  "updatedAt": "2026-11-12T18:57:11.882759+00:00",
   "summary": {
-    "totalPlays": 24621,
+    "totalPlays": 24624,
     "unknownPlays": 1144,
     "uniqueTracks": 2734,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794508811
+    "lastObserved": 1794509605
   },
   "topSongs": [
     {
@@ -2807,10 +2807,21 @@
     },
     {
       "artist": "botch",
-      "count": 117,
+      "count": 118,
       "first": 1788920755,
-      "last": 1794415345,
+      "last": 1794509144,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 30,
+          "first": 1788963025,
+          "last": 1794509144,
+          "playlists": {
+            "1default": 30
+          }
+        },
         {
           "artist": "botch",
           "title": "a machine as big as a city with a concert at the center",
@@ -2831,17 +2842,6 @@
           "last": 1794367092,
           "playlists": {
             "1default": 30
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 29,
-          "first": 1788963025,
-          "last": 1794288168,
-          "playlists": {
-            "1default": 29
           }
         },
         {
@@ -7323,6 +7323,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 60,
+      "first": 1788920755,
+      "last": 1794509144,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 30,
+          "first": 1788963025,
+          "last": 1794509144,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 30,
+          "first": 1788920755,
+          "last": 1794367092,
+          "playlists": {
+            "1default": 30
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Laurel Hell",
       "count": 59,
@@ -7409,37 +7440,6 @@
           "count": 29,
           "first": 1788975770,
           "last": 1794409260,
-          "playlists": {
-            "1default": 29
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 59,
-      "first": 1788920755,
-      "last": 1794367092,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 30,
-          "first": 1788920755,
-          "last": 1794367092,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 29,
-          "first": 1788963025,
-          "last": 1794288168,
           "playlists": {
             "1default": 29
           }
@@ -8254,9 +8254,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11203,
+      "count": 11206,
       "first": 1788901564,
-      "last": 1794508811,
+      "last": 1794509605,
       "songs": [
         {
           "artist": "Tele Novella",
