@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-13T16:02:17.007312+00:00",
+  "updatedAt": "2026-11-13T16:37:36.347347+00:00",
   "summary": {
-    "totalPlays": 24900,
+    "totalPlays": 24910,
     "unknownPlays": 1144,
     "uniqueTracks": 2734,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794585616
+    "lastObserved": 1794587845
   },
   "topSongs": [
     {
@@ -418,6 +418,17 @@
       }
     },
     {
+      "artist": "Japanese Breakfast",
+      "title": "Everybody Wants to Love You",
+      "album": "Psychopomp",
+      "count": 31,
+      "first": 1789032729,
+      "last": 1794587310,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
       "artist": "David Bowie",
       "title": "I'm Afraid of Americans (V1)",
       "album": "Legacy (Deluxe Edition)",
@@ -579,17 +590,6 @@
       "count": 31,
       "first": 1788972025,
       "last": 1794523146,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "Moby",
-      "title": "Porcelain",
-      "album": "Play & Play: B Sides",
-      "count": 31,
-      "first": 1788910695,
-      "last": 1794522488,
       "playlists": {
         "1default": 31
       }
@@ -2200,9 +2200,9 @@
     },
     {
       "artist": "The Czars",
-      "count": 170,
+      "count": 171,
       "first": 1788963949,
-      "last": 1794531143,
+      "last": 1794586840,
       "songs": [
         {
           "artist": "The Czars",
@@ -2239,22 +2239,22 @@
         },
         {
           "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 28,
+          "first": 1788963949,
+          "last": 1794586840,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "The Czars",
           "title": "Angel Eyes",
           "album": "Best Of",
           "count": 27,
           "first": 1789218669,
           "last": 1794506774,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 27,
-          "first": 1788963949,
-          "last": 1794328612,
           "playlists": {
             "1default": 27
           }
@@ -2965,19 +2965,19 @@
     },
     {
       "artist": "Psychedelic Porn Crumpets",
-      "count": 114,
+      "count": 115,
       "first": 1788915065,
-      "last": 1794368081,
+      "last": 1794586432,
       "songs": [
         {
           "artist": "Psychedelic Porn Crumpets",
           "title": "Tally-Ho",
           "album": "Tally-Ho",
-          "count": 29,
+          "count": 30,
           "first": 1789085431,
-          "last": 1794368081,
+          "last": 1794586432,
           "playlists": {
-            "1default": 29
+            "1default": 30
           }
         },
         {
@@ -3757,9 +3757,9 @@
     },
     {
       "artist": "Ramones",
-      "count": 78,
+      "count": 79,
       "first": 1788968644,
-      "last": 1794438715,
+      "last": 1794585757,
       "songs": [
         {
           "artist": "Ramones",
@@ -3777,11 +3777,11 @@
           "artist": "Ramones",
           "title": "Blitzkrieg Bop - 2016 Remaster",
           "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 29,
+          "count": 30,
           "first": 1788997171,
-          "last": 1794348836,
+          "last": 1794585757,
           "playlists": {
-            "1default": 29
+            "1default": 30
           }
         }
       ]
@@ -5396,6 +5396,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 60,
+      "first": 1789054681,
+      "last": 1794586632,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 31,
+          "first": 1789057143,
+          "last": 1794508637,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 29,
+          "first": 1789054681,
+          "last": 1794586632,
+          "playlists": {
+            "1default": 29
+          }
+        }
+      ]
+    },
+    {
       "artist": "Kate Bollinger",
       "count": 60,
       "first": 1788915657,
@@ -5449,36 +5479,6 @@
           "count": 30,
           "first": 1788986484,
           "last": 1794557168,
-          "playlists": {
-            "1default": 30
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Barrie",
-      "count": 60,
-      "first": 1788912861,
-      "last": 1794577135,
-      "songs": [
-        {
-          "artist": "Barrie",
-          "title": "Hutch",
-          "album": "Happy To Be Here",
-          "count": 30,
-          "first": 1788912861,
-          "last": 1794577135,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Barrie",
-          "title": "Human Nature",
-          "album": "Happy To Be Here (Ext)",
-          "count": 30,
-          "first": 1788966960,
-          "last": 1794459221,
           "playlists": {
             "1default": 30
           }
@@ -5640,9 +5640,9 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 170,
+      "count": 171,
       "first": 1788963949,
-      "last": 1794531143,
+      "last": 1794586840,
       "songs": [
         {
           "artist": "The Czars",
@@ -5679,22 +5679,22 @@
         },
         {
           "artist": "The Czars",
+          "title": "Song to the Siren",
+          "album": "Best Of",
+          "count": 28,
+          "first": 1788963949,
+          "last": 1794586840,
+          "playlists": {
+            "1default": 28
+          }
+        },
+        {
+          "artist": "The Czars",
           "title": "Angel Eyes",
           "album": "Best Of",
           "count": 27,
           "first": 1789218669,
           "last": 1794506774,
-          "playlists": {
-            "1default": 27
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Song to the Siren",
-          "album": "Best Of",
-          "count": 27,
-          "first": 1788963949,
-          "last": 1794328612,
           "playlists": {
             "1default": 27
           }
@@ -6563,9 +6563,9 @@
     {
       "artist": "Ramones",
       "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-      "count": 78,
+      "count": 79,
       "first": 1788968644,
-      "last": 1794438715,
+      "last": 1794585757,
       "songs": [
         {
           "artist": "Ramones",
@@ -6583,11 +6583,11 @@
           "artist": "Ramones",
           "title": "Blitzkrieg Bop - 2016 Remaster",
           "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 29,
+          "count": 30,
           "first": 1788997171,
-          "last": 1794348836,
+          "last": 1794585757,
           "playlists": {
-            "1default": 29
+            "1default": 30
           }
         }
       ]
@@ -8167,9 +8167,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11335,
+      "count": 11345,
       "first": 1788901564,
-      "last": 1794578075,
+      "last": 1794587845,
       "songs": [
         {
           "artist": "Tele Novella",
