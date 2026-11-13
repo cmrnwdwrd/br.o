@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T17:32:20.470372+00:00",
+  "updatedAt": "2026-11-13T19:02:23.353665+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 36,
-    "sessionCount": 851,
+    "sessionCount": 852,
     "firstObserved": 1788901564,
-    "lastObserved": 1794585757
+    "lastObserved": 1794593936
   },
   "playlists": [
     {
       "playlist": "1default",
       "sessionCount": 315,
-      "playCount": 11368,
+      "playCount": 11369,
       "firstObserved": 1788901564,
       "lastObserved": 1794585757,
       "typicalStartMinute": 390,
@@ -135,8 +135,8 @@
           16.3,
           0.0,
           579.7,
-          575.3,
-          161.1,
+          600.0,
+          180.1,
           2.3,
           4.3,
           0.0,
@@ -639,10 +639,10 @@
           150.0,
           150.0,
           150.0,
-          140.3,
-          135.0,
-          135.0,
-          26.1,
+          150.0,
+          150.0,
+          150.0,
+          30.1,
           0.0,
           0.0,
           0.0,
@@ -1129,9 +1129,9 @@
       "recentSessions": [
         {
           "start": 1794585757,
-          "end": 1794591316,
-          "durationMinutes": 93,
-          "playCount": 25
+          "end": 1794593936,
+          "durationMinutes": 136,
+          "playCount": 26
         },
         {
           "start": 1794575352,
@@ -20319,12 +20319,12 @@
     },
     {
       "playlist": "jack johnson hackiesack friday afternoon",
-      "sessionCount": 11,
-      "playCount": 296,
+      "sessionCount": 12,
+      "playCount": 308,
       "firstObserved": 1789147116,
-      "lastObserved": 1793989177,
-      "typicalStartMinute": 707,
-      "typicalDurationMinutes": 119,
+      "lastObserved": 1794593936,
+      "typicalStartMinute": 705,
+      "typicalDurationMinutes": 118,
       "confidence": "Medium",
       "heatmapMinutes": [
         [
@@ -20443,8 +20443,8 @@
           0.0,
           0.0,
           0.0,
-          376.1,
-          533.7,
+          417.2,
+          537.7,
           152.5,
           0.0,
           0.0,
@@ -20949,10 +20949,10 @@
           0.0,
           0.0,
           0.0,
-          106.1,
-          135.0,
-          135.0,
-          135.0,
+          117.2,
+          150.0,
+          150.0,
+          139.0,
           128.7,
           135.0,
           135.0,
@@ -21315,7 +21315,7 @@
           0,
           0,
           0,
-          9,
+          10,
           1,
           0,
           0,
@@ -21385,7 +21385,7 @@
       "likelyWindows": [
         {
           "weekday": 4,
-          "sessions": 10,
+          "sessions": 11,
           "typicalStartMinute": 684,
           "typicalDurationMinutes": 119,
           "confidence": "High"
@@ -21399,6 +21399,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1794593936,
+          "end": 1794596640,
+          "durationMinutes": 45,
+          "playCount": 12
+        },
         {
           "start": 1793989177,
           "end": 1793996465,
