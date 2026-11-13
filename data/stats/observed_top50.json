@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-13T16:37:36.347347+00:00",
+  "updatedAt": "2026-11-13T17:22:20.783915+00:00",
   "summary": {
-    "totalPlays": 24910,
+    "totalPlays": 24922,
     "unknownPlays": 1144,
     "uniqueTracks": 2734,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794587845
+    "lastObserved": 1794590395
   },
   "topSongs": [
     {
@@ -45,6 +45,18 @@
       "last": 1794515076,
       "playlists": {
         "1default": 38,
+        "anti-capitalist weekday afternoon #1": 12
+      }
+    },
+    {
+      "artist": "CAKE",
+      "title": "Rock 'n' Roll Lifestyle",
+      "album": "Motorcade of Generosity",
+      "count": 49,
+      "first": 1789014862,
+      "last": 1794589517,
+      "playlists": {
+        "1default": 37,
         "anti-capitalist weekday afternoon #1": 12
       }
     },
@@ -94,18 +106,6 @@
       "last": 1794438715,
       "playlists": {
         "1default": 37,
-        "anti-capitalist weekday afternoon #1": 12
-      }
-    },
-    {
-      "artist": "CAKE",
-      "title": "Rock 'n' Roll Lifestyle",
-      "album": "Motorcade of Generosity",
-      "count": 48,
-      "first": 1789014862,
-      "last": 1794526331,
-      "playlists": {
-        "1default": 36,
         "anti-capitalist weekday afternoon #1": 12
       }
     },
@@ -418,6 +418,17 @@
       }
     },
     {
+      "artist": "isobel",
+      "title": "laundry",
+      "album": "laundry",
+      "count": 31,
+      "first": 1788902953,
+      "last": 1794589770,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
       "artist": "Japanese Breakfast",
       "title": "Everybody Wants to Love You",
       "album": "Psychopomp",
@@ -579,17 +590,6 @@
       "count": 31,
       "first": 1788996775,
       "last": 1794523792,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "St. Paul & The Broken Bones",
-      "title": "Apollo",
-      "album": "Young Sick Camellia",
-      "count": 31,
-      "first": 1788972025,
-      "last": 1794523146,
       "playlists": {
         "1default": 31
       }
@@ -1732,10 +1732,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 231,
+      "count": 232,
       "first": 1788902047,
-      "last": 1794532647,
+      "last": 1794588536,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 30,
+          "first": 1788903730,
+          "last": 1794588536,
+          "playlists": {
+            "1default": 30
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -1776,17 +1787,6 @@
           "count": 29,
           "first": 1789097184,
           "last": 1794495682,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 29,
-          "first": 1788903730,
-          "last": 1794443949,
           "playlists": {
             "1default": 29
           }
@@ -4841,6 +4841,37 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 66,
+      "first": 1788973386,
+      "last": 1794589360,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 36,
+          "first": 1789063640,
+          "last": 1794285421,
+          "playlists": {
+            "1default": 32,
+            "landlockd surfrock": 4
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 30,
+          "first": 1788973386,
+          "last": 1794589360,
+          "playlists": {
+            "1default": 30
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 66,
       "first": 1788990464,
@@ -4981,37 +5012,6 @@
           "last": 1794205012,
           "playlists": {
             "EPL4a": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 65,
-      "first": 1788973386,
-      "last": 1794323192,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 36,
-          "first": 1789063640,
-          "last": 1794285421,
-          "playlists": {
-            "1default": 32,
-            "landlockd surfrock": 4
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 29,
-          "first": 1788973386,
-          "last": 1794323192,
-          "playlists": {
-            "1default": 29
           }
         }
       ]
@@ -5565,10 +5565,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 173,
+      "count": 174,
       "first": 1788902047,
-      "last": 1794495682,
+      "last": 1794588536,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 30,
+          "first": 1788903730,
+          "last": 1794588536,
+          "playlists": {
+            "1default": 30
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Hold Me",
@@ -5587,17 +5598,6 @@
           "count": 29,
           "first": 1789097184,
           "last": 1794495682,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 29,
-          "first": 1788903730,
-          "last": 1794443949,
           "playlists": {
             "1default": 29
           }
@@ -7416,6 +7416,37 @@
       ]
     },
     {
+      "artist": "Juno Rossa",
+      "album": "Chasing Animals",
+      "count": 59,
+      "first": 1789166634,
+      "last": 1794588115,
+      "songs": [
+        {
+          "artist": "Juno Rossa",
+          "title": "Paris For The Summer",
+          "album": "Chasing Animals",
+          "count": 30,
+          "first": 1789166634,
+          "last": 1794588115,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Juno Rossa",
+          "title": "Like A Lover",
+          "album": "Chasing Animals",
+          "count": 29,
+          "first": 1789167660,
+          "last": 1794282616,
+          "playlists": {
+            "1default": 29
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Bury Me At Makeout Creek",
       "count": 59,
@@ -7619,37 +7650,6 @@
           "count": 29,
           "first": 1788968380,
           "last": 1794461343,
-          "playlists": {
-            "1default": 29
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "album": "Chasing Animals",
-      "count": 58,
-      "first": 1789166634,
-      "last": 1794348281,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 29,
-          "first": 1789166634,
-          "last": 1794348281,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 29,
-          "first": 1789167660,
-          "last": 1794282616,
           "playlists": {
             "1default": 29
           }
@@ -8026,6 +8026,27 @@
       ]
     },
     {
+      "artist": "CAKE",
+      "album": "Motorcade of Generosity",
+      "count": 49,
+      "first": 1789014862,
+      "last": 1794589517,
+      "songs": [
+        {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 49,
+          "first": 1789014862,
+          "last": 1794589517,
+          "playlists": {
+            "1default": 37,
+            "anti-capitalist weekday afternoon #1": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Viagra Boys",
       "album": "Street Worms",
       "count": 49,
@@ -8141,35 +8162,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "CAKE",
-      "album": "Motorcade of Generosity",
-      "count": 48,
-      "first": 1789014862,
-      "last": 1794526331,
-      "songs": [
-        {
-          "artist": "CAKE",
-          "title": "Rock 'n' Roll Lifestyle",
-          "album": "Motorcade of Generosity",
-          "count": 48,
-          "first": 1789014862,
-          "last": 1794526331,
-          "playlists": {
-            "1default": 36,
-            "anti-capitalist weekday afternoon #1": 12
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11345,
+      "count": 11357,
       "first": 1788901564,
-      "last": 1794587845,
+      "last": 1794590395,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -8205,23 +8205,23 @@
           }
         },
         {
+          "artist": "CAKE",
+          "title": "Rock 'n' Roll Lifestyle",
+          "album": "Motorcade of Generosity",
+          "count": 37,
+          "first": 1789014862,
+          "last": 1794589517,
+          "playlists": {
+            "1default": 37
+          }
+        },
+        {
           "artist": "Viagra Boys",
           "title": "Worms",
           "album": "Street Worms",
           "count": 37,
           "first": 1788991593,
           "last": 1794557420,
-          "playlists": {
-            "1default": 37
-          }
-        },
-        {
-          "artist": "Ramones",
-          "title": "Judy Is a Punk - 2016 Remaster",
-          "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
-          "count": 37,
-          "first": 1788968644,
-          "last": 1794289212,
           "playlists": {
             "1default": 37
           }
