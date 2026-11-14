@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-14T16:22:17.214661+00:00",
+  "updatedAt": "2026-11-14T16:27:20.867142+00:00",
   "summary": {
-    "totalPlays": 25208,
+    "totalPlays": 25209,
     "unknownPlays": 1144,
     "uniqueTracks": 2735,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794673177
+    "lastObserved": 1794673496
   },
   "topSongs": [
     {
@@ -462,6 +462,17 @@
       }
     },
     {
+      "artist": "Sexy Coyote",
+      "title": "Dancing With Demons",
+      "album": "Dancing With Demons",
+      "count": 31,
+      "first": 1788946229,
+      "last": 1794673496,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
       "artist": "NO CHANCE!",
       "title": "I Wanna Be Your Man",
       "album": "I Wanna Be Your Man",
@@ -578,17 +589,6 @@
       "count": 31,
       "first": 1788925926,
       "last": 1794664556,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "Letters To Cleo",
-      "title": "Big Star",
-      "album": "Aurora Gory Alice",
-      "count": 31,
-      "first": 1789165225,
-      "last": 1794663437,
       "playlists": {
         "1default": 31
       }
@@ -2858,10 +2858,21 @@
     },
     {
       "artist": "Sexy Coyote",
-      "count": 118,
+      "count": 119,
       "first": 1788917492,
-      "last": 1794533507,
+      "last": 1794673496,
       "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "Dancing With Demons",
+          "album": "Dancing With Demons",
+          "count": 31,
+          "first": 1788946229,
+          "last": 1794673496,
+          "playlists": {
+            "1default": 31
+          }
+        },
         {
           "artist": "Sexy Coyote",
           "title": "Run, Rabbit, Run",
@@ -2871,17 +2882,6 @@
           "last": 1794514060,
           "playlists": {
             "1default": 31
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Dancing With Demons",
-          "album": "Dancing With Demons",
-          "count": 30,
-          "first": 1788946229,
-          "last": 1794327194,
-          "playlists": {
-            "1default": 30
           }
         },
         {
@@ -8209,9 +8209,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11466,
+      "count": 11467,
       "first": 1788901564,
-      "last": 1794673177,
+      "last": 1794673496,
       "songs": [
         {
           "artist": "Tele Novella",
