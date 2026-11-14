@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-14T00:57:21.255704+00:00",
+  "updatedAt": "2026-11-14T01:32:20.252916+00:00",
   "summary": {
-    "totalPlays": 25015,
+    "totalPlays": 25024,
     "unknownPlays": 1144,
     "uniqueTracks": 2734,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794617776
+    "lastObserved": 1794619867
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 32,
+      "first": 1788917230,
+      "last": 1794618676,
+      "playlists": {
+        "1default": 32
+      }
+    },
+    {
       "artist": "Joey Valence & Brae, Brae",
       "title": "Double Jump",
       "album": "Double Jump",
@@ -415,6 +426,28 @@
       "last": 1794514865,
       "playlists": {
         "1default": 32
+      }
+    },
+    {
+      "artist": "Zolof the Rock & Roll Destroyer",
+      "title": "Plays Pretty for Baby",
+      "album": "Zolof the Rock & Roll Destroyer",
+      "count": 31,
+      "first": 1788987745,
+      "last": 1794618880,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
+      "artist": "IDNTY THFT",
+      "title": "Kleptomania",
+      "album": "Some",
+      "count": 31,
+      "first": 1788912073,
+      "last": 1794618235,
+      "playlists": {
+        "1default": 31
       }
     },
     {
@@ -559,39 +592,6 @@
       "playlists": {
         "breakbeat": 28,
         "christmas rn": 3
-      }
-    },
-    {
-      "artist": "Blue October",
-      "title": "Into The Ocean",
-      "album": "Foiled",
-      "count": 31,
-      "first": 1788970549,
-      "last": 1794543805,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "Your Smith",
-      "title": "Debbie",
-      "album": "Bad Habit",
-      "count": 31,
-      "first": 1788947368,
-      "last": 1794542691,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "Better Oblivion Community Center, Conor Oberst, Phoebe Bridgers",
-      "title": "Dylan Thomas",
-      "album": "Better Oblivion Community Center",
-      "count": 31,
-      "first": 1789055208,
-      "last": 1794535600,
-      "playlists": {
-        "1default": 31
       }
     }
   ],
@@ -3469,6 +3469,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 90,
+      "first": 1788917230,
+      "last": 1794618676,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 32,
+          "first": 1788917230,
+          "last": 1794618676,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 30,
+          "first": 1788970790,
+          "last": 1794420319,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 28,
+          "first": 1789050580,
+          "last": 1794197993,
+          "playlists": {
+            "1default": 28
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 90,
       "first": 1788965724,
@@ -3587,47 +3628,6 @@
           "last": 1794338065,
           "playlists": {
             "1default": 27
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 89,
-      "first": 1788917230,
-      "last": 1794420319,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 31,
-          "first": 1788917230,
-          "last": 1794279711,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 30,
-          "first": 1788970790,
-          "last": 1794420319,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 28,
-          "first": 1789050580,
-          "last": 1794197993,
-          "playlists": {
-            "1default": 28
           }
         }
       ]
@@ -8167,9 +8167,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11388,
+      "count": 11392,
       "first": 1788901564,
-      "last": 1794617776,
+      "last": 1794618880,
       "songs": [
         {
           "artist": "Tele Novella",
