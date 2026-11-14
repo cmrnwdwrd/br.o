@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-14T14:17:17.545256+00:00",
+  "updatedAt": "2026-11-14T14:37:47.447072+00:00",
   "summary": {
-    "totalPlays": 25175,
+    "totalPlays": 25179,
     "unknownPlays": 1144,
     "uniqueTracks": 2735,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794665683
+    "lastObserved": 1794666805
   },
   "topSongs": [
     {
@@ -451,6 +451,28 @@
       }
     },
     {
+      "artist": "botch",
+      "title": "a machine as big as a city with a concert at the center",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 31,
+      "first": 1788972349,
+      "last": 1794666805,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
+      "artist": "John Grant",
+      "title": "It Doesn't Matter to Him",
+      "album": "Pale Green Ghosts",
+      "count": 31,
+      "first": 1788964915,
+      "last": 1794666131,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
       "artist": "Crumb",
       "title": "Locket",
       "album": "Locket",
@@ -567,28 +589,6 @@
       "count": 31,
       "first": 1789059997,
       "last": 1794659174,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "Zolof the Rock & Roll Destroyer",
-      "title": "Plays Pretty for Baby",
-      "album": "Zolof the Rock & Roll Destroyer",
-      "count": 31,
-      "first": 1788987745,
-      "last": 1794618880,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "IDNTY THFT",
-      "title": "Kleptomania",
-      "album": "Some",
-      "count": 31,
-      "first": 1788912073,
-      "last": 1794618235,
       "playlists": {
         "1default": 31
       }
@@ -2806,10 +2806,21 @@
     },
     {
       "artist": "botch",
-      "count": 119,
+      "count": 120,
       "first": 1788920755,
-      "last": 1794531596,
+      "last": 1794666805,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 31,
+          "first": 1788972349,
+          "last": 1794666805,
+          "playlists": {
+            "1default": 31
+          }
+        },
         {
           "artist": "botch",
           "title": "takeadrag",
@@ -2817,17 +2828,6 @@
           "count": 30,
           "first": 1788963025,
           "last": 1794509144,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 30,
-          "first": 1788972349,
-          "last": 1794374494,
           "playlists": {
             "1default": 30
           }
@@ -7397,6 +7397,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 60,
+      "first": 1788972349,
+      "last": 1794666805,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 31,
+          "first": 1788972349,
+          "last": 1794666805,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 29,
+          "first": 1788997306,
+          "last": 1794531596,
+          "playlists": {
+            "1default": 29
+          }
+        }
+      ]
+    },
+    {
       "artist": "Juno Rossa",
       "album": "Chasing Animals",
       "count": 60,
@@ -7527,37 +7558,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 59,
-      "first": 1788972349,
-      "last": 1794531596,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 30,
-          "first": 1788972349,
-          "last": 1794374494,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 29,
-          "first": 1788997306,
-          "last": 1794531596,
-          "playlists": {
-            "1default": 29
           }
         }
       ]
@@ -8209,9 +8209,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11433,
+      "count": 11437,
       "first": 1788901564,
-      "last": 1794665683,
+      "last": 1794666805,
       "songs": [
         {
           "artist": "Tele Novella",
