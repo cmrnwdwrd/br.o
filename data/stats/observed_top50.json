@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-14T15:27:37.211318+00:00",
+  "updatedAt": "2026-11-14T15:47:21.671216+00:00",
   "summary": {
-    "totalPlays": 25193,
+    "totalPlays": 25199,
     "unknownPlays": 1144,
     "uniqueTracks": 2735,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794669919
+    "lastObserved": 1794671241
   },
   "topSongs": [
     {
@@ -462,6 +462,28 @@
       }
     },
     {
+      "artist": "Bad Bad Hats",
+      "title": "Walkman",
+      "album": "Walkman",
+      "count": 31,
+      "first": 1788963606,
+      "last": 1794671241,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
+      "artist": "Sjowgren",
+      "title": "Now & Then",
+      "album": "Now & Then",
+      "count": 31,
+      "first": 1788965724,
+      "last": 1794670291,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
       "artist": "Opium",
       "title": "Brainsick",
       "album": "Brainsick",
@@ -567,28 +589,6 @@
       "count": 31,
       "first": 1788989909,
       "last": 1794662771,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "KXLLSWXTCH, Powers Pleasant",
-      "title": "COSMO",
-      "album": "THE WALLS HAVE EYES",
-      "count": 31,
-      "first": 1789049117,
-      "last": 1794662441,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "N.E.R.D",
-      "title": "Run To The Sun",
-      "album": "In Search Of...",
-      "count": 31,
-      "first": 1788901564,
-      "last": 1794661345,
       "playlists": {
         "1default": 31
       }
@@ -1448,9 +1448,9 @@
     },
     {
       "artist": "Mitski",
-      "count": 278,
+      "count": 279,
       "first": 1788920128,
-      "last": 1794647215,
+      "last": 1794671051,
       "songs": [
         {
           "artist": "Mitski",
@@ -1466,6 +1466,17 @@
         },
         {
           "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 30,
+          "first": 1788920128,
+          "last": 1794671051,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Mitski",
           "title": "Love Me More",
           "album": "Laurel Hell",
           "count": 30,
@@ -1473,17 +1484,6 @@
           "last": 1794505931,
           "playlists": {
             "1default": 30
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 29,
-          "first": 1788920128,
-          "last": 1794433420,
-          "playlists": {
-            "1default": 29
           }
         },
         {
@@ -3468,6 +3468,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 91,
+      "first": 1788965724,
+      "last": 1794670291,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 31,
+          "first": 1788965724,
+          "last": 1794670291,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 30,
+          "first": 1789059354,
+          "last": 1794556040,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 30,
+          "first": 1789225488,
+          "last": 1794510581,
+          "playlists": {
+            "1default": 30
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 91,
       "first": 1788917230,
@@ -3504,47 +3545,6 @@
           "last": 1794667399,
           "playlists": {
             "1default": 29
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 90,
-      "first": 1788965724,
-      "last": 1794556040,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 30,
-          "first": 1789059354,
-          "last": 1794556040,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 30,
-          "first": 1789225488,
-          "last": 1794510581,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 30,
-          "first": 1788965724,
-          "last": 1794342243,
-          "playlists": {
-            "1default": 30
           }
         }
       ]
@@ -7397,6 +7397,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 60,
+      "first": 1788920128,
+      "last": 1794671051,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 30,
+          "first": 1788920128,
+          "last": 1794671051,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 30,
+          "first": 1789055950,
+          "last": 1794505931,
+          "playlists": {
+            "1default": 30
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "a machine as big as a city with a concert at the center",
       "count": 60,
@@ -7558,37 +7589,6 @@
           "last": 1792298434,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 59,
-      "first": 1788920128,
-      "last": 1794505931,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 30,
-          "first": 1789055950,
-          "last": 1794505931,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 29,
-          "first": 1788920128,
-          "last": 1794433420,
-          "playlists": {
-            "1default": 29
           }
         }
       ]
@@ -8209,9 +8209,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11451,
+      "count": 11457,
       "first": 1788901564,
-      "last": 1794669919,
+      "last": 1794671241,
       "songs": [
         {
           "artist": "Tele Novella",
