@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-14T13:12:21.426096+00:00",
+  "updatedAt": "2026-11-14T13:22:13.629690+00:00",
   "summary": {
-    "totalPlays": 25158,
+    "totalPlays": 25161,
     "unknownPlays": 1144,
     "uniqueTracks": 2735,
     "uniqueArtists": 1712,
     "uniqueAlbums": 2225,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794661872
+    "lastObserved": 1794662441
   },
   "topSongs": [
     {
@@ -440,6 +440,17 @@
       }
     },
     {
+      "artist": "KXLLSWXTCH, Powers Pleasant",
+      "title": "COSMO",
+      "album": "THE WALLS HAVE EYES",
+      "count": 31,
+      "first": 1789049117,
+      "last": 1794662441,
+      "playlists": {
+        "1default": 31
+      }
+    },
+    {
       "artist": "N.E.R.D",
       "title": "Run To The Sun",
       "album": "In Search Of...",
@@ -578,17 +589,6 @@
       "count": 31,
       "first": 1788965930,
       "last": 1794611560,
-      "playlists": {
-        "1default": 31
-      }
-    },
-    {
-      "artist": "Gorillaz, ScHoolboy Q",
-      "title": "Pac-Man (feat. ScHoolboy Q)",
-      "album": "Song Machine Episode 5",
-      "count": 31,
-      "first": 1788901855,
-      "last": 1794611119,
       "playlists": {
         "1default": 31
       }
@@ -1635,10 +1635,21 @@
     },
     {
       "artist": "Opium",
-      "count": 236,
+      "count": 237,
       "first": 1788927400,
-      "last": 1794577281,
+      "last": 1794662224,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 30,
+          "first": 1789064784,
+          "last": 1794662224,
+          "playlists": {
+            "1default": 30
+          }
+        },
         {
           "artist": "Opium",
           "title": "S T A R V E",
@@ -1692,17 +1703,6 @@
           "last": 1794285628,
           "playlists": {
             "1default": 30
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 29,
-          "first": 1789064784,
-          "last": 1794443734,
-          "playlists": {
-            "1default": 29
           }
         },
         {
@@ -8209,9 +8209,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11416,
+      "count": 11419,
       "first": 1788901564,
-      "last": 1794661872,
+      "last": 1794662441,
       "songs": [
         {
           "artist": "Tele Novella",
