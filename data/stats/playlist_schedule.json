@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T05:21:55.140033+00:00",
+  "updatedAt": "2026-11-15T05:32:21.305270+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 37,
-    "sessionCount": 869,
+    "sessionCount": 870,
     "firstObserved": 1788901564,
-    "lastObserved": 1794719116
+    "lastObserved": 1794720742
   },
   "playlists": [
     {
@@ -16889,11 +16889,11 @@
     },
     {
       "playlist": "sad girl no friends saturday",
-      "sessionCount": 13,
-      "playCount": 203,
+      "sessionCount": 14,
+      "playCount": 204,
       "firstObserved": 1789257850,
-      "lastObserved": 1794115886,
-      "typicalStartMinute": 1256,
+      "lastObserved": 1794720742,
+      "typicalStartMinute": 1264,
       "typicalDurationMinutes": 83,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -17050,7 +17050,7 @@
           0.0,
           0.0,
           0.0,
-          212.9,
+          219.9,
           479.3
         ],
         [
@@ -17662,7 +17662,7 @@
           0.0,
           0.0,
           0.0,
-          92.9,
+          99.9,
           120.0,
           120.0,
           120.0,
@@ -17922,7 +17922,7 @@
           0,
           0,
           0,
-          8,
+          9,
           0
         ],
         [
@@ -17955,13 +17955,19 @@
       "likelyWindows": [
         {
           "weekday": 5,
-          "sessions": 13,
-          "typicalStartMinute": 1256,
+          "sessions": 14,
+          "typicalStartMinute": 1264,
           "typicalDurationMinutes": 83,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1794720742,
+          "end": 1794721159,
+          "durationMinutes": 7,
+          "playCount": 1
+        },
         {
           "start": 1794115886,
           "end": 1794121412,
@@ -31751,11 +31757,11 @@
     {
       "playlist": "saturday night fever",
       "sessionCount": 10,
-      "playCount": 42,
+      "playCount": 44,
       "firstObserved": 1789272343,
       "lastObserved": 1794719116,
       "typicalStartMinute": 1329,
-      "typicalDurationMinutes": 22,
+      "typicalDurationMinutes": 23,
       "confidence": "High",
       "heatmapMinutes": [
         [
@@ -31911,7 +31917,7 @@
           0.0,
           0.0,
           0.0,
-          199.3,
+          208.3,
           0.0
         ],
         [
@@ -32522,8 +32528,8 @@
           0.0,
           0.0,
           61.0,
-          114.5,
-          23.7,
+          121.2,
+          26.1,
           0.0,
           0.0,
           0.0,
@@ -32818,16 +32824,16 @@
           "weekday": 5,
           "sessions": 10,
           "typicalStartMinute": 1329,
-          "typicalDurationMinutes": 22,
+          "typicalDurationMinutes": 23,
           "confidence": "High"
         }
       ],
       "recentSessions": [
         {
           "start": 1794719116,
-          "end": 1794720199,
-          "durationMinutes": 18,
-          "playCount": 4
+          "end": 1794720742,
+          "durationMinutes": 27,
+          "playCount": 6
         },
         {
           "start": 1794115640,
