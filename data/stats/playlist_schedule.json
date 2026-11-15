@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T02:02:42.351390+00:00",
+  "updatedAt": "2026-11-15T02:12:14.799614+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 37,
-    "sessionCount": 866,
+    "sessionCount": 867,
     "firstObserved": 1788901564,
-    "lastObserved": 1794700931
+    "lastObserved": 1794708238
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 318,
-      "playCount": 11521,
+      "sessionCount": 319,
+      "playCount": 11523,
       "firstObserved": 1788901564,
-      "lastObserved": 1794677418,
+      "lastObserved": 1794708238,
       "typicalStartMinute": 395,
       "typicalDurationMinutes": 48,
       "confidence": "Low",
@@ -170,7 +170,7 @@
           2.9,
           8.4,
           5.2,
-          332.6,
+          341.5,
           0.0,
           0.0,
           0.0,
@@ -771,7 +771,7 @@
           0.4,
           0.0,
           0.0,
-          101.6,
+          110.5,
           123.9,
           107.0,
           0.0,
@@ -1042,7 +1042,7 @@
           2,
           1,
           2,
-          9,
+          10,
           0,
           0,
           0,
@@ -1113,8 +1113,8 @@
         },
         {
           "weekday": 5,
-          "sessions": 37,
-          "typicalStartMinute": 817,
+          "sessions": 38,
+          "typicalStartMinute": 980,
           "typicalDurationMinutes": 149,
           "confidence": "Low"
         },
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1794708238,
+          "end": 1794708772,
+          "durationMinutes": 9,
+          "playCount": 2
+        },
         {
           "start": 1794677418,
           "end": 1794686613,
@@ -1240,12 +1246,6 @@
           "end": 1794351750,
           "durationMinutes": 480,
           "playCount": 122
-        },
-        {
-          "start": 1794306691,
-          "end": 1794308460,
-          "durationMinutes": 29,
-          "playCount": 8
         }
       ]
     },
