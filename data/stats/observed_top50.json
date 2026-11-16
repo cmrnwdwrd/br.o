@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-16T01:22:01.196566+00:00",
+  "updatedAt": "2026-11-16T01:42:01.225890+00:00",
   "summary": {
-    "totalPlays": 25736,
+    "totalPlays": 25741,
     "unknownPlays": 1145,
     "uniqueTracks": 2741,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794792072
+    "lastObserved": 1794793303
   },
   "topSongs": [
     {
@@ -428,6 +428,17 @@
       }
     },
     {
+      "artist": "Squirrel Flower",
+      "title": "So Hot You're Hurting My Feelings",
+      "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
+      "count": 32,
+      "first": 1789056580,
+      "last": 1794793303,
+      "playlists": {
+        "1default": 32
+      }
+    },
+    {
       "artist": "Yumi Zouma",
       "title": "Right Track / Wrong Man",
       "album": "Truth or Consequences",
@@ -578,17 +589,6 @@
       "count": 32,
       "first": 1788983912,
       "last": 1794778600,
-      "playlists": {
-        "1default": 32
-      }
-    },
-    {
-      "artist": "Fugees, Ms. Lauryn Hill",
-      "title": "Killing Me Softly With His Song",
-      "album": "The Score (Expanded Edition)",
-      "count": 32,
-      "first": 1789057927,
-      "last": 1794777329,
       "playlists": {
         "1default": 32
       }
@@ -3057,6 +3057,58 @@
       ]
     },
     {
+      "artist": "The Cranberries",
+      "count": 100,
+      "first": 1788916461,
+      "last": 1794792606,
+      "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 30,
+          "first": 1789087662,
+          "last": 1794792606,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 29,
+          "first": 1789060180,
+          "last": 1794673177,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 29,
+          "first": 1788916461,
+          "last": 1794541945,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "The Cranberries",
+          "title": "Dreams",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 12,
+          "first": 1789174476,
+          "last": 1794622234,
+          "playlists": {
+            "d i n n e r": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "Weezer",
       "count": 99,
       "first": 1788946510,
@@ -3116,58 +3168,6 @@
           "last": 1792906025,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Cranberries",
-      "count": 99,
-      "first": 1788916461,
-      "last": 1794678625,
-      "songs": [
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 29,
-          "first": 1789087662,
-          "last": 1794678625,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 29,
-          "first": 1789060180,
-          "last": 1794673177,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 29,
-          "first": 1788916461,
-          "last": 1794541945,
-          "playlists": {
-            "1default": 29
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Dreams",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 12,
-          "first": 1789174476,
-          "last": 1794622234,
-          "playlists": {
-            "d i n n e r": 12
           }
         }
       ]
@@ -8209,9 +8209,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11644,
+      "count": 11649,
       "first": 1788901564,
-      "last": 1794792072,
+      "last": 1794793303,
       "songs": [
         {
           "artist": "Tele Novella",
