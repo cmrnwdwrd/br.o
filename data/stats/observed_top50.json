@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-16T21:42:06.115796+00:00",
+  "updatedAt": "2026-11-16T22:02:08.987466+00:00",
   "summary": {
-    "totalPlays": 26043,
+    "totalPlays": 26048,
     "unknownPlays": 1145,
     "uniqueTracks": 2741,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794865232
+    "lastObserved": 1794866461
   },
   "topSongs": [
     {
@@ -505,6 +505,17 @@
       }
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "title": "Texas Sun",
+      "album": "Texas Sun",
+      "count": 32,
+      "first": 1788986484,
+      "last": 1794865757,
+      "playlists": {
+        "1default": 32
+      }
+    },
+    {
       "artist": "Radiohead",
       "title": "Follow Me Around",
       "album": "Follow Me Around",
@@ -577,17 +588,6 @@
       "count": 32,
       "first": 1788925926,
       "last": 1794860957,
-      "playlists": {
-        "1default": 32
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE WORLD IS ENDING",
-      "album": "THE WORLD IS ENDING",
-      "count": 32,
-      "first": 1789033665,
-      "last": 1794860740,
       "playlists": {
         "1default": 32
       }
@@ -5224,6 +5224,36 @@
       ]
     },
     {
+      "artist": "Khruangbin, Leon Bridges",
+      "count": 63,
+      "first": 1788986484,
+      "last": 1794865757,
+      "songs": [
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "Texas Sun",
+          "album": "Texas Sun",
+          "count": 32,
+          "first": 1788986484,
+          "last": 1794865757,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Khruangbin, Leon Bridges",
+          "title": "B-Side",
+          "album": "B-Side",
+          "count": 31,
+          "first": 1789231311,
+          "last": 1794858452,
+          "playlists": {
+            "1default": 31
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 63,
       "first": 1789054681,
@@ -5337,36 +5367,6 @@
           "count": 31,
           "first": 1788921291,
           "last": 1794796000,
-          "playlists": {
-            "1default": 31
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Khruangbin, Leon Bridges",
-      "count": 62,
-      "first": 1788986484,
-      "last": 1794858452,
-      "songs": [
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "B-Side",
-          "album": "B-Side",
-          "count": 31,
-          "first": 1789231311,
-          "last": 1794858452,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Khruangbin, Leon Bridges",
-          "title": "Texas Sun",
-          "album": "Texas Sun",
-          "count": 31,
-          "first": 1788986484,
-          "last": 1794786326,
           "playlists": {
             "1default": 31
           }
@@ -8055,9 +8055,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11851,
+      "count": 11856,
       "first": 1788901564,
-      "last": 1794865232,
+      "last": 1794866461,
       "songs": [
         {
           "artist": "Tele Novella",
