@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-16T01:42:01.225890+00:00",
+  "updatedAt": "2026-11-16T01:52:21.737365+00:00",
   "summary": {
-    "totalPlays": 25741,
+    "totalPlays": 25744,
     "unknownPlays": 1145,
     "uniqueTracks": 2741,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794793303
+    "lastObserved": 1794793935
   },
   "topSongs": [
     {
@@ -428,6 +428,17 @@
       }
     },
     {
+      "artist": "Orion Sun",
+      "title": "Antidote",
+      "album": "A Collection of Fleeting Moments and Daydreams",
+      "count": 32,
+      "first": 1788987870,
+      "last": 1794793766,
+      "playlists": {
+        "1default": 32
+      }
+    },
+    {
       "artist": "Squirrel Flower",
       "title": "So Hot You're Hurting My Feelings",
       "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
@@ -578,17 +589,6 @@
       "count": 32,
       "first": 1788970549,
       "last": 1794779891,
-      "playlists": {
-        "1default": 32
-      }
-    },
-    {
-      "artist": "Crumb",
-      "title": "Locket",
-      "album": "Locket",
-      "count": 32,
-      "first": 1788983912,
-      "last": 1794778600,
       "playlists": {
         "1default": 32
       }
@@ -2199,9 +2199,9 @@
     },
     {
       "artist": "The Czars",
-      "count": 173,
+      "count": 174,
       "first": 1788963949,
-      "last": 1794709578,
+      "last": 1794793512,
       "songs": [
         {
           "artist": "The Czars",
@@ -2216,6 +2216,17 @@
         },
         {
           "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 30,
+          "first": 1789015116,
+          "last": 1794793512,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "The Czars",
           "title": "Killjoy",
           "album": "Best Of",
           "count": 30,
@@ -2223,17 +2234,6 @@
           "last": 1794343961,
           "playlists": {
             "1default": 30
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 29,
-          "first": 1789015116,
-          "last": 1794496772,
-          "playlists": {
-            "1default": 29
           }
         },
         {
@@ -4116,6 +4116,47 @@
       ]
     },
     {
+      "artist": "Lorde",
+      "count": 70,
+      "first": 1788914032,
+      "last": 1794793935,
+      "songs": [
+        {
+          "artist": "Lorde",
+          "title": "Mood Ring",
+          "album": "Solar Power",
+          "count": 32,
+          "first": 1788914032,
+          "last": 1794782070,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Ribs",
+          "album": "Pure Heroine",
+          "count": 31,
+          "first": 1789222724,
+          "last": 1794793935,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Lorde",
+          "title": "Green Light",
+          "album": "Melodrama",
+          "count": 7,
+          "first": 1790465398,
+          "last": 1794704892,
+          "playlists": {
+            "texting your situationship": 7
+          }
+        }
+      ]
+    },
+    {
       "artist": "Doechii",
       "count": 70,
       "first": 1788914421,
@@ -4259,47 +4300,6 @@
           "last": 1794207505,
           "playlists": {
             "EPL4a": 13
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lorde",
-      "count": 69,
-      "first": 1788914032,
-      "last": 1794782070,
-      "songs": [
-        {
-          "artist": "Lorde",
-          "title": "Mood Ring",
-          "album": "Solar Power",
-          "count": 32,
-          "first": 1788914032,
-          "last": 1794782070,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Ribs",
-          "album": "Pure Heroine",
-          "count": 30,
-          "first": 1789222724,
-          "last": 1794509838,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Lorde",
-          "title": "Green Light",
-          "album": "Melodrama",
-          "count": 7,
-          "first": 1790465398,
-          "last": 1794704892,
-          "playlists": {
-            "texting your situationship": 7
           }
         }
       ]
@@ -5225,6 +5225,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 62,
+      "first": 1788985030,
+      "last": 1794793766,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 32,
+          "first": 1788987870,
+          "last": 1794793766,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 30,
+          "first": 1788985030,
+          "last": 1794286290,
+          "playlists": {
+            "1default": 30
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 62,
       "first": 1789054681,
@@ -5340,146 +5370,6 @@
           "last": 1794658144,
           "playlists": {
             "1default": 30
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Noah Kahan",
-      "count": 62,
-      "first": 1789154561,
-      "last": 1794317879,
-      "songs": [
-        {
-          "artist": "Noah Kahan",
-          "title": "Stick Season",
-          "album": "Stick Season",
-          "count": 7,
-          "first": 1789156734,
-          "last": 1794003244,
-          "playlists": {
-            "escaping from cu boulder by giselle": 7
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "Call Your Mom",
-          "album": "Stick Season (We'll All Be Here Forever)",
-          "count": 7,
-          "first": 1789160889,
-          "last": 1794002178,
-          "playlists": {
-            "escaping from cu boulder by giselle": 7
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "Maine",
-          "album": "Cape Elizabeth",
-          "count": 6,
-          "first": 1789154561,
-          "last": 1794003013,
-          "playlists": {
-            "escaping from cu boulder by giselle": 6
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "Homesick",
-          "album": "Stick Season",
-          "count": 6,
-          "first": 1789158078,
-          "last": 1794001984,
-          "playlists": {
-            "escaping from cu boulder by giselle": 6
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "New Perspective",
-          "album": "Stick Season",
-          "count": 6,
-          "first": 1789155790,
-          "last": 1793996512,
-          "playlists": {
-            "escaping from cu boulder by giselle": 6
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "Orange Juice",
-          "album": "Stick Season",
-          "count": 5,
-          "first": 1790364436,
-          "last": 1794003722,
-          "playlists": {
-            "escaping from cu boulder by giselle": 5
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "Forever",
-          "album": "Stick Season (Forever)",
-          "count": 5,
-          "first": 1789162090,
-          "last": 1794002456,
-          "playlists": {
-            "escaping from cu boulder by giselle": 5
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "False Confidence",
-          "album": "Busyhead",
-          "count": 5,
-          "first": 1789163633,
-          "last": 1793396793,
-          "playlists": {
-            "escaping from cu boulder by giselle": 5
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "Mess",
-          "album": "Busyhead",
-          "count": 4,
-          "first": 1789392600,
-          "last": 1794317879,
-          "playlists": {
-            "carhartts": 4
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "The View Between Villages - Extended",
-          "album": "Stick Season (We'll All Be Here Forever)",
-          "count": 4,
-          "first": 1789766402,
-          "last": 1794004306,
-          "playlists": {
-            "escaping from cu boulder by giselle": 4
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "You're Gonna Go Far",
-          "album": "Stick Season (We'll All Be Here Forever)",
-          "count": 4,
-          "first": 1789764460,
-          "last": 1794002726,
-          "playlists": {
-            "escaping from cu boulder by giselle": 4
-          }
-        },
-        {
-          "artist": "Noah Kahan",
-          "title": "Please",
-          "album": "Hurt Somebody",
-          "count": 3,
-          "first": 1790079289,
-          "last": 1793715406,
-          "playlists": {
-            "carhartts": 3
           }
         }
       ]
@@ -5639,9 +5529,9 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 173,
+      "count": 174,
       "first": 1788963949,
-      "last": 1794709578,
+      "last": 1794793512,
       "songs": [
         {
           "artist": "The Czars",
@@ -5656,6 +5546,17 @@
         },
         {
           "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 30,
+          "first": 1789015116,
+          "last": 1794793512,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "The Czars",
           "title": "Killjoy",
           "album": "Best Of",
           "count": 30,
@@ -5663,17 +5564,6 @@
           "last": 1794343961,
           "playlists": {
             "1default": 30
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 29,
-          "first": 1789015116,
-          "last": 1794496772,
-          "playlists": {
-            "1default": 29
           }
         },
         {
@@ -8209,9 +8099,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11649,
+      "count": 11652,
       "first": 1788901564,
-      "last": 1794793303,
+      "last": 1794793935,
       "songs": [
         {
           "artist": "Tele Novella",
