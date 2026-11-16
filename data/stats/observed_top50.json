@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-16T04:31:53.810136+00:00",
+  "updatedAt": "2026-11-16T04:36:56.514383+00:00",
   "summary": {
-    "totalPlays": 25788,
+    "totalPlays": 25789,
     "unknownPlays": 1145,
     "uniqueTracks": 2741,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794803456
+    "lastObserved": 1794803712
   },
   "topSongs": [
     {
@@ -428,6 +428,17 @@
       }
     },
     {
+      "artist": "Opium",
+      "title": "Brainsick",
+      "album": "Brainsick",
+      "count": 32,
+      "first": 1789063255,
+      "last": 1794803712,
+      "playlists": {
+        "1default": 32
+      }
+    },
+    {
       "artist": "Arcade Fire",
       "title": "Wake Up",
       "album": "Funeral",
@@ -577,17 +588,6 @@
       "count": 32,
       "first": 1789095484,
       "last": 1794787802,
-      "playlists": {
-        "1default": 32
-      }
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "title": "Dying Dance",
-      "album": "Jaguar Stevens",
-      "count": 32,
-      "first": 1788975620,
-      "last": 1794787031,
       "playlists": {
         "1default": 32
       }
@@ -1634,10 +1634,21 @@
     },
     {
       "artist": "Opium",
-      "count": 241,
+      "count": 242,
       "first": 1788927400,
-      "last": 1794796481,
+      "last": 1794803712,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 32,
+          "first": 1789063255,
+          "last": 1794803712,
+          "playlists": {
+            "1default": 32
+          }
+        },
         {
           "artist": "Opium",
           "title": "At Your Funeral",
@@ -1656,17 +1667,6 @@
           "count": 31,
           "first": 1789064784,
           "last": 1794684667,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 31,
-          "first": 1789063255,
-          "last": 1794669535,
           "playlists": {
             "1default": 31
           }
@@ -8055,9 +8055,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11696,
+      "count": 11697,
       "first": 1788901564,
-      "last": 1794803456,
+      "last": 1794803712,
       "songs": [
         {
           "artist": "Tele Novella",
