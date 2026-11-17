@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-16T23:52:08.943222+00:00",
+  "updatedAt": "2026-11-17T00:42:26.732356+00:00",
   "summary": {
-    "totalPlays": 26076,
+    "totalPlays": 26090,
     "unknownPlays": 1145,
     "uniqueTracks": 2741,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794872962
+    "lastObserved": 1794876125
   },
   "topSongs": [
     {
@@ -37,6 +37,31 @@
       }
     },
     {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 52,
+      "first": 1788968149,
+      "last": 1794874850,
+      "playlists": {
+        "1default": 39,
+        "anti-capitalist weekday afternoon #1": 13
+      }
+    },
+    {
+      "artist": "George Harrison",
+      "title": "I Dig Love (2020 Mix)",
+      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "count": 52,
+      "first": 1789034170,
+      "last": 1794873661,
+      "playlists": {
+        "1default": 37,
+        "anti-capitalist weekday afternoon #1": 12,
+        "jack johnson hackiesack friday afternoon": 3
+      }
+    },
+    {
       "artist": "Viagra Boys",
       "title": "Worms",
       "album": "Street Worms",
@@ -58,31 +83,6 @@
       "playlists": {
         "1default": 38,
         "anti-capitalist weekday afternoon #1": 13
-      }
-    },
-    {
-      "artist": "Modest Mouse",
-      "title": "Bury Me With It",
-      "album": "Good News For People Who Love Bad News",
-      "count": 51,
-      "first": 1788968149,
-      "last": 1794805731,
-      "playlists": {
-        "1default": 39,
-        "anti-capitalist weekday afternoon #1": 12
-      }
-    },
-    {
-      "artist": "George Harrison",
-      "title": "I Dig Love (2020 Mix)",
-      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-      "count": 51,
-      "first": 1789034170,
-      "last": 1794783096,
-      "playlists": {
-        "1default": 37,
-        "anti-capitalist weekday afternoon #1": 11,
-        "jack johnson hackiesack friday afternoon": 3
       }
     },
     {
@@ -173,12 +173,12 @@
       "artist": "The Chats",
       "title": "Smoko",
       "album": "Get This In Ya",
-      "count": 46,
+      "count": 47,
       "first": 1789078009,
-      "last": 1794555678,
+      "last": 1794873266,
       "playlists": {
         "1default": 34,
-        "anti-capitalist weekday afternoon #1": 12
+        "anti-capitalist weekday afternoon #1": 13
       }
     },
     {
@@ -538,6 +538,28 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+      "album": "SWAMP",
+      "count": 32,
+      "first": 1789057548,
+      "last": 1794875789,
+      "playlists": {
+        "1default": 32
+      }
+    },
+    {
+      "artist": "Jay Som",
+      "title": "Tenderness",
+      "album": "Anak Ko",
+      "count": 32,
+      "first": 1789235365,
+      "last": 1794875508,
+      "playlists": {
+        "1default": 32
+      }
+    },
+    {
       "artist": "Mitski",
       "title": "Love Me More",
       "album": "Laurel Hell",
@@ -566,28 +588,6 @@
       "count": 32,
       "first": 1788963025,
       "last": 1794868795,
-      "playlists": {
-        "1default": 32
-      }
-    },
-    {
-      "artist": "The Czars",
-      "title": "Killjoy",
-      "album": "Best Of",
-      "count": 32,
-      "first": 1789096240,
-      "last": 1794868466,
-      "playlists": {
-        "1default": 32
-      }
-    },
-    {
-      "artist": "The Donnas",
-      "title": "Take It Off",
-      "album": "Spend The Night (U.S. Version)",
-      "count": 32,
-      "first": 1789310688,
-      "last": 1794867731,
       "playlists": {
         "1default": 32
       }
@@ -1088,9 +1088,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 498,
+      "count": 499,
       "first": 1788910325,
-      "last": 1794868091,
+      "last": 1794875789,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1102,6 +1102,17 @@
           "playlists": {
             "1default": 36,
             "steal my bike": 6
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 32,
+          "first": 1789057548,
+          "last": 1794875789,
+          "playlists": {
+            "1default": 32
           }
         },
         {
@@ -1199,17 +1210,6 @@
           "count": 31,
           "first": 1789058454,
           "last": 1794738941,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 31,
-          "first": 1789057548,
-          "last": 1794725965,
           "playlists": {
             "1default": 31
           }
@@ -5224,6 +5224,36 @@
       ]
     },
     {
+      "artist": "Jay Som",
+      "count": 63,
+      "first": 1789069956,
+      "last": 1794875508,
+      "songs": [
+        {
+          "artist": "Jay Som",
+          "title": "Tenderness",
+          "album": "Anak Ko",
+          "count": 32,
+          "first": 1789235365,
+          "last": 1794875508,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Jay Som",
+          "title": "O.K., Meet Me Underwater",
+          "album": "Pirouette",
+          "count": 31,
+          "first": 1789069956,
+          "last": 1794866461,
+          "playlists": {
+            "1default": 31
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 63,
       "first": 1788986484,
@@ -5337,36 +5367,6 @@
           "count": 31,
           "first": 1788985030,
           "last": 1794819491,
-          "playlists": {
-            "1default": 31
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 63,
-      "first": 1788921291,
-      "last": 1794796000,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 32,
-          "first": 1788964687,
-          "last": 1794665683,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 31,
-          "first": 1788921291,
-          "last": 1794796000,
           "playlists": {
             "1default": 31
           }
@@ -5863,10 +5863,21 @@
     {
       "artist": "Lil Darkie",
       "album": "SWAMP",
-      "count": 125,
+      "count": 126,
       "first": 1788926373,
-      "last": 1794868091,
+      "last": 1794875789,
       "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
+          "album": "SWAMP",
+          "count": 32,
+          "first": 1789057548,
+          "last": 1794875789,
+          "playlists": {
+            "1default": 32
+          }
+        },
         {
           "artist": "Lil Darkie",
           "title": "DISINTEGRATE",
@@ -5896,17 +5907,6 @@
           "count": 31,
           "first": 1789058454,
           "last": 1794738941,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-          "album": "SWAMP",
-          "count": 31,
-          "first": 1789057548,
-          "last": 1794725965,
           "playlists": {
             "1default": 31
           }
@@ -7514,6 +7514,71 @@
       ]
     },
     {
+      "artist": "Modest Mouse",
+      "album": "Good News For People Who Love Bad News",
+      "count": 60,
+      "first": 1788968149,
+      "last": 1794874850,
+      "songs": [
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 52,
+          "first": 1788968149,
+          "last": 1794874850,
+          "playlists": {
+            "1default": 39,
+            "anti-capitalist weekday afternoon #1": 13
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "The World At Large",
+          "album": "Good News For People Who Love Bad News",
+          "count": 4,
+          "first": 1789756286,
+          "last": 1794597925,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 4
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "The View",
+          "album": "Good News For People Who Love Bad News",
+          "count": 2,
+          "first": 1792302951,
+          "last": 1794724451,
+          "playlists": {
+            "sad girl no friends saturday": 2
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "The Good Times Are Killing Me",
+          "album": "Good News For People Who Love Bad News",
+          "count": 1,
+          "first": 1794120689,
+          "last": 1794120689,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "Float On",
+          "album": "Good News For People Who Love Bad News",
+          "count": 1,
+          "first": 1792907111,
+          "last": 1792907111,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jethro Tull",
       "album": "Stand Up",
       "count": 60,
@@ -7573,71 +7638,6 @@
           "playlists": {
             "sad girl no friends saturday": 6,
             "texting your situationship": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Modest Mouse",
-      "album": "Good News For People Who Love Bad News",
-      "count": 59,
-      "first": 1788968149,
-      "last": 1794805731,
-      "songs": [
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 51,
-          "first": 1788968149,
-          "last": 1794805731,
-          "playlists": {
-            "1default": 39,
-            "anti-capitalist weekday afternoon #1": 12
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "The World At Large",
-          "album": "Good News For People Who Love Bad News",
-          "count": 4,
-          "first": 1789756286,
-          "last": 1794597925,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 4
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "The View",
-          "album": "Good News For People Who Love Bad News",
-          "count": 2,
-          "first": 1792302951,
-          "last": 1794724451,
-          "playlists": {
-            "sad girl no friends saturday": 2
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "The Good Times Are Killing Me",
-          "album": "Good News For People Who Love Bad News",
-          "count": 1,
-          "first": 1794120689,
-          "last": 1794120689,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "Float On",
-          "album": "Good News For People Who Love Bad News",
-          "count": 1,
-          "first": 1792907111,
-          "last": 1792907111,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -7821,6 +7821,28 @@
       ]
     },
     {
+      "artist": "George Harrison",
+      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+      "count": 52,
+      "first": 1789034170,
+      "last": 1794873661,
+      "songs": [
+        {
+          "artist": "George Harrison",
+          "title": "I Dig Love (2020 Mix)",
+          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
+          "count": 52,
+          "first": 1789034170,
+          "last": 1794873661,
+          "playlists": {
+            "1default": 37,
+            "anti-capitalist weekday afternoon #1": 12,
+            "jack johnson hackiesack friday afternoon": 3
+          }
+        }
+      ]
+    },
+    {
       "artist": "Clap! Clap!, Domenico Candellori, TOROZEBU",
       "album": "TOROZEBU",
       "count": 52,
@@ -7956,28 +7978,6 @@
       ]
     },
     {
-      "artist": "George Harrison",
-      "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-      "count": 51,
-      "first": 1789034170,
-      "last": 1794783096,
-      "songs": [
-        {
-          "artist": "George Harrison",
-          "title": "I Dig Love (2020 Mix)",
-          "album": "All Things Must Pass (50th Anniversary;Super Deluxe)",
-          "count": 51,
-          "first": 1789034170,
-          "last": 1794783096,
-          "playlists": {
-            "1default": 37,
-            "anti-capitalist weekday afternoon #1": 11,
-            "jack johnson hackiesack friday afternoon": 3
-          }
-        }
-      ]
-    },
-    {
       "artist": "Chappell Roan",
       "album": "The Rise and Fall of a Midwest Princess",
       "count": 51,
@@ -8055,9 +8055,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11873,
+      "count": 11877,
       "first": 1788901564,
-      "last": 1794869901,
+      "last": 1794876125,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -8370,10 +8370,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 823,
+      "count": 833,
       "first": 1788904845,
-      "last": 1794872962,
+      "last": 1794875300,
       "songs": [
+        {
+          "artist": "Everlast",
+          "title": "Folsom Prison Blues",
+          "album": "Love, War and the Ghost of Whitey Ford",
+          "count": 22,
+          "first": 1789077802,
+          "last": 1794875300,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 22
+          }
+        },
         {
           "artist": "Jesse Welles",
           "title": "War Isn't Murder",
@@ -8397,34 +8408,23 @@
           }
         },
         {
-          "artist": "Everlast",
-          "title": "Folsom Prison Blues",
-          "album": "Love, War and the Ghost of Whitey Ford",
-          "count": 21,
-          "first": 1789077802,
-          "last": 1794524810,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 21
-          }
-        },
-        {
-          "artist": "The All-American Rejects",
-          "title": "Move Along",
-          "album": "Move Along",
+          "artist": "Tucker Skaar, brian schnell",
+          "title": "train",
+          "album": "melodically numb",
           "count": 20,
-          "first": 1789510265,
-          "last": 1794872962,
+          "first": 1789081552,
+          "last": 1794874669,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 20
           }
         },
         {
-          "artist": "Bright Eyes",
-          "title": "Bells and Whistles",
-          "album": "Bells and Whistles",
+          "artist": "Crywank",
+          "title": "I Am Shit",
+          "album": "Tomorrow Is Nearly Yesterday and Everyday Is Stupid",
           "count": 20,
-          "first": 1788992320,
-          "last": 1794872112,
+          "first": 1788996460,
+          "last": 1794873956,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 20
           }
