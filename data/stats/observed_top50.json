@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-17T20:46:54.514679+00:00",
+  "updatedAt": "2026-11-17T21:01:49.500457+00:00",
   "summary": {
-    "totalPlays": 26394,
+    "totalPlays": 26399,
     "unknownPlays": 1145,
     "uniqueTracks": 2743,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794948320
+    "lastObserved": 1794949226
   },
   "topSongs": [
     {
@@ -395,6 +395,17 @@
       }
     },
     {
+      "artist": "Squirrel Flower",
+      "title": "So Hot You're Hurting My Feelings",
+      "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
+      "count": 33,
+      "first": 1789056580,
+      "last": 1794949226,
+      "playlists": {
+        "1default": 33
+      }
+    },
+    {
       "artist": "Arcade Fire",
       "title": "Wake Up",
       "album": "Funeral",
@@ -578,17 +589,6 @@
       "count": 33,
       "first": 1788927733,
       "last": 1794931512,
-      "playlists": {
-        "1default": 33
-      }
-    },
-    {
-      "artist": "Tōth",
-      "title": "Song to Make You Fall in Love With Me",
-      "album": "Practice Magic and Seek Professional Help When Necessary",
-      "count": 33,
-      "first": 1788996775,
-      "last": 1794928501,
       "playlists": {
         "1default": 33
       }
@@ -5131,6 +5131,58 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "count": 66,
+      "first": 1788972865,
+      "last": 1794948860,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 31,
+          "first": 1789214521,
+          "last": 1794948860,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 31,
+          "first": 1788972865,
+          "last": 1794893426,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Where Is My Mind? - 2007 Remaster",
+          "album": "Surfer Rosa (2007 Remaster)",
+          "count": 3,
+          "first": 1790484376,
+          "last": 1794725497,
+          "playlists": {
+            "sad girl no friends saturday": 3
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Wave Of Mutilation",
+          "album": "Doolittle",
+          "count": 1,
+          "first": 1792298434,
+          "last": 1792298434,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Chicks",
       "count": 66,
       "first": 1789045885,
@@ -5190,58 +5242,6 @@
           "last": 1793821910,
           "playlists": {
             "country music was never for republicans": 4
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Pixies",
-      "count": 65,
-      "first": 1788972865,
-      "last": 1794893426,
-      "songs": [
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 31,
-          "first": 1788972865,
-          "last": 1794893426,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 30,
-          "first": 1789214521,
-          "last": 1794858280,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Where Is My Mind? - 2007 Remaster",
-          "album": "Surfer Rosa (2007 Remaster)",
-          "count": 3,
-          "first": 1790484376,
-          "last": 1794725497,
-          "playlists": {
-            "sad girl no friends saturday": 3
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Wave Of Mutilation",
-          "album": "Doolittle",
-          "count": 1,
-          "first": 1792298434,
-          "last": 1792298434,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -7307,6 +7307,48 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "album": "Doolittle",
+      "count": 63,
+      "first": 1788972865,
+      "last": 1794948860,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 31,
+          "first": 1789214521,
+          "last": 1794948860,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 31,
+          "first": 1788972865,
+          "last": 1794893426,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Wave Of Mutilation",
+          "album": "Doolittle",
+          "count": 1,
+          "first": 1792298434,
+          "last": 1792298434,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "a machine as big as a city with a concert at the center",
       "count": 63,
@@ -7426,48 +7468,6 @@
           "last": 1794776335,
           "playlists": {
             "1default": 31
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Pixies",
-      "album": "Doolittle",
-      "count": 62,
-      "first": 1788972865,
-      "last": 1794893426,
-      "songs": [
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 31,
-          "first": 1788972865,
-          "last": 1794893426,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 30,
-          "first": 1789214521,
-          "last": 1794858280,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Wave Of Mutilation",
-          "album": "Doolittle",
-          "count": 1,
-          "first": 1792298434,
-          "last": 1792298434,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -8089,9 +8089,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12039,
+      "count": 12044,
       "first": 1788901564,
-      "last": 1794948320,
+      "last": 1794949226,
       "songs": [
         {
           "artist": "Tele Novella",
