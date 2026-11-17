@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-17T18:56:53.627644+00:00",
+  "updatedAt": "2026-11-17T19:07:18.621865+00:00",
   "summary": {
-    "totalPlays": 26364,
+    "totalPlays": 26367,
     "unknownPlays": 1145,
     "uniqueTracks": 2743,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794941739
+    "lastObserved": 1794942295
   },
   "topSongs": [
     {
@@ -110,6 +110,18 @@
       }
     },
     {
+      "artist": "Destructo Disk",
+      "title": "I Wish I Was A Riot Grrrl",
+      "album": "Punk Rocks For Kids Who Can't Skate",
+      "count": 50,
+      "first": 1788996063,
+      "last": 1794942146,
+      "playlists": {
+        "1default": 38,
+        "anti-capitalist weekday afternoon #1": 12
+      }
+    },
+    {
       "artist": "Colfax Speed Queen",
       "title": "Jesus Loves Rock N' Roll",
       "album": "Satisfaction Intended",
@@ -140,18 +152,6 @@
       "count": 49,
       "first": 1789072780,
       "last": 1794934391,
-      "playlists": {
-        "1default": 37,
-        "anti-capitalist weekday afternoon #1": 12
-      }
-    },
-    {
-      "artist": "Destructo Disk",
-      "title": "I Wish I Was A Riot Grrrl",
-      "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 49,
-      "first": 1788996063,
-      "last": 1794870570,
       "playlists": {
         "1default": 37,
         "anti-capitalist weekday afternoon #1": 12
@@ -5246,6 +5246,36 @@
       ]
     },
     {
+      "artist": "Yumi Zouma",
+      "count": 64,
+      "first": 1789054681,
+      "last": 1794941915,
+      "songs": [
+        {
+          "artist": "Yumi Zouma",
+          "title": "Right Track / Wrong Man",
+          "album": "Truth or Consequences",
+          "count": 33,
+          "first": 1789057143,
+          "last": 1794863222,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Yumi Zouma",
+          "title": "In Camera",
+          "album": "EP III",
+          "count": 31,
+          "first": 1789054681,
+          "last": 1794941915,
+          "playlists": {
+            "1default": 31
+          }
+        }
+      ]
+    },
+    {
       "artist": "Khruangbin, Leon Bridges",
       "count": 64,
       "first": 1788986484,
@@ -5331,36 +5361,6 @@
           "last": 1794866461,
           "playlists": {
             "1default": 31
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Yumi Zouma",
-      "count": 63,
-      "first": 1789054681,
-      "last": 1794863222,
-      "songs": [
-        {
-          "artist": "Yumi Zouma",
-          "title": "Right Track / Wrong Man",
-          "album": "Truth or Consequences",
-          "count": 33,
-          "first": 1789057143,
-          "last": 1794863222,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Yumi Zouma",
-          "title": "In Camera",
-          "album": "EP III",
-          "count": 30,
-          "first": 1789054681,
-          "last": 1794772608,
-          "playlists": {
-            "1default": 30
           }
         }
       ]
@@ -8077,9 +8077,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12009,
+      "count": 12012,
       "first": 1788901564,
-      "last": 1794941739,
+      "last": 1794942295,
       "songs": [
         {
           "artist": "Tele Novella",
