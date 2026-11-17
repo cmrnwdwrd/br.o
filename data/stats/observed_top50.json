@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-17T16:07:05.876326+00:00",
+  "updatedAt": "2026-11-17T17:02:08.720346+00:00",
   "summary": {
-    "totalPlays": 26321,
+    "totalPlays": 26335,
     "unknownPlays": 1145,
     "uniqueTracks": 2743,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794931512
+    "lastObserved": 1794934863
   },
   "topSongs": [
     {
@@ -134,6 +134,18 @@
       }
     },
     {
+      "artist": "Mommy Long Legs",
+      "title": "Weird Girl",
+      "album": "Assholes",
+      "count": 49,
+      "first": 1789072780,
+      "last": 1794934391,
+      "playlists": {
+        "1default": 37,
+        "anti-capitalist weekday afternoon #1": 12
+      }
+    },
+    {
       "artist": "Destructo Disk",
       "title": "I Wish I Was A Riot Grrrl",
       "album": "Punk Rocks For Kids Who Can't Skate",
@@ -155,18 +167,6 @@
       "playlists": {
         "1default": 38,
         "anti-capitalist weekday afternoon #1": 11
-      }
-    },
-    {
-      "artist": "Mommy Long Legs",
-      "title": "Weird Girl",
-      "album": "Assholes",
-      "count": 48,
-      "first": 1789072780,
-      "last": 1794685593,
-      "playlists": {
-        "1default": 36,
-        "anti-capitalist weekday afternoon #1": 12
       }
     },
     {
@@ -384,6 +384,28 @@
       }
     },
     {
+      "artist": "Sugarloaf",
+      "title": "West Of Tomorrow",
+      "album": "Sugarloaf",
+      "count": 33,
+      "first": 1788968800,
+      "last": 1794934533,
+      "playlists": {
+        "1default": 33
+      }
+    },
+    {
+      "artist": "Jaguar Stevens",
+      "title": "Dying Dance",
+      "album": "Jaguar Stevens",
+      "count": 33,
+      "first": 1788975620,
+      "last": 1794933513,
+      "playlists": {
+        "1default": 33
+      }
+    },
+    {
       "artist": "Bell X1",
       "title": "The Great Defector",
       "album": "Blue Lights on the Runway",
@@ -566,28 +588,6 @@
       "count": 33,
       "first": 1788914032,
       "last": 1794869901,
-      "playlists": {
-        "1default": 33
-      }
-    },
-    {
-      "artist": "Zolof the Rock & Roll Destroyer",
-      "title": "Plays Pretty for Baby",
-      "album": "Zolof the Rock & Roll Destroyer",
-      "count": 33,
-      "first": 1788987745,
-      "last": 1794867298,
-      "playlists": {
-        "1default": 33
-      }
-    },
-    {
-      "artist": "The Smashing Pumpkins",
-      "title": "Beautiful - Remastered 2012",
-      "album": "Mellon Collie And The Infinite Sadness (Remastered)",
-      "count": 33,
-      "first": 1789095484,
-      "last": 1794866875,
       "playlists": {
         "1default": 33
       }
@@ -1634,10 +1634,21 @@
     },
     {
       "artist": "Opium",
-      "count": 247,
+      "count": 248,
       "first": 1788927400,
-      "last": 1794911853,
+      "last": 1794933661,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 32,
+          "first": 1788927400,
+          "last": 1794933661,
+          "playlists": {
+            "1default": 32
+          }
+        },
         {
           "artist": "Opium",
           "title": "Brainsick",
@@ -1684,17 +1695,6 @@
         },
         {
           "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 31,
-          "first": 1788927400,
-          "last": 1794824722,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Opium",
           "title": "At Your Funeral",
           "album": "PHANTOMS",
           "count": 31,
@@ -1730,10 +1730,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 243,
+      "count": 244,
       "first": 1788902047,
-      "last": 1794891655,
+      "last": 1794933348,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 32,
+          "first": 1789145316,
+          "last": 1794933348,
+          "playlists": {
+            "1default": 32
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "You Make Me Want to Kill Myself",
@@ -1741,17 +1752,6 @@
           "count": 31,
           "first": 1788984684,
           "last": 1794891655,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 31,
-          "first": 1789145316,
-          "last": 1794729678,
           "playlists": {
             "1default": 31
           }
@@ -2198,9 +2198,9 @@
     },
     {
       "artist": "The Czars",
-      "count": 180,
+      "count": 181,
       "first": 1788963949,
-      "last": 1794886900,
+      "last": 1794932130,
       "songs": [
         {
           "artist": "The Czars",
@@ -2248,22 +2248,22 @@
         },
         {
           "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 29,
+          "first": 1789218669,
+          "last": 1794932130,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "The Czars",
           "title": "Anger",
           "album": "Best Of",
           "count": 28,
           "first": 1789324379,
           "last": 1794844480,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 28,
-          "first": 1789218669,
-          "last": 1794709578,
           "playlists": {
             "1default": 28
           }
@@ -3591,9 +3591,9 @@
     },
     {
       "artist": "The Ephinjis",
-      "count": 92,
+      "count": 93,
       "first": 1788973998,
-      "last": 1794885251,
+      "last": 1794932643,
       "songs": [
         {
           "artist": "The Ephinjis",
@@ -3621,30 +3621,30 @@
           "artist": "The Ephinjis",
           "title": "Humungus Fungus",
           "album": "Part V",
-          "count": 27,
+          "count": 28,
           "first": 1789226629,
-          "last": 1794338065,
+          "last": 1794932643,
           "playlists": {
-            "1default": 27
+            "1default": 28
           }
         }
       ]
     },
     {
       "artist": "Jaguar Stevens",
-      "count": 91,
+      "count": 92,
       "first": 1788975620,
-      "last": 1794863395,
+      "last": 1794933513,
       "songs": [
         {
           "artist": "Jaguar Stevens",
           "title": "Dying Dance",
           "album": "Jaguar Stevens",
-          "count": 32,
+          "count": 33,
           "first": 1788975620,
-          "last": 1794787031,
+          "last": 1794933513,
           "playlists": {
-            "1default": 32
+            "1default": 33
           }
         },
         {
@@ -5400,10 +5400,21 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 184,
+      "count": 185,
       "first": 1788927400,
-      "last": 1794911853,
+      "last": 1794933661,
       "songs": [
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 32,
+          "first": 1788927400,
+          "last": 1794933661,
+          "playlists": {
+            "1default": 32
+          }
+        },
         {
           "artist": "Opium",
           "title": "Rainfall",
@@ -5439,17 +5450,6 @@
         },
         {
           "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 31,
-          "first": 1788927400,
-          "last": 1794824722,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Opium",
           "title": "At Your Funeral",
           "album": "PHANTOMS",
           "count": 31,
@@ -5475,19 +5475,19 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 182,
+      "count": 183,
       "first": 1788902047,
-      "last": 1794849051,
+      "last": 1794933348,
       "songs": [
         {
           "artist": "Atom Son of Man",
           "title": "Love Is Lightning",
           "album": "1's a Man, 3's a Band",
-          "count": 31,
+          "count": 32,
           "first": 1789145316,
-          "last": 1794729678,
+          "last": 1794933348,
           "playlists": {
-            "1default": 31
+            "1default": 32
           }
         },
         {
@@ -5550,9 +5550,9 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 180,
+      "count": 181,
       "first": 1788963949,
-      "last": 1794886900,
+      "last": 1794932130,
       "songs": [
         {
           "artist": "The Czars",
@@ -5600,22 +5600,22 @@
         },
         {
           "artist": "The Czars",
+          "title": "Angel Eyes",
+          "album": "Best Of",
+          "count": 29,
+          "first": 1789218669,
+          "last": 1794932130,
+          "playlists": {
+            "1default": 29
+          }
+        },
+        {
+          "artist": "The Czars",
           "title": "Anger",
           "album": "Best Of",
           "count": 28,
           "first": 1789324379,
           "last": 1794844480,
-          "playlists": {
-            "1default": 28
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Angel Eyes",
-          "album": "Best Of",
-          "count": 28,
-          "first": 1789218669,
-          "last": 1794709578,
           "playlists": {
             "1default": 28
           }
@@ -6345,6 +6345,48 @@
       ]
     },
     {
+      "artist": "Jaguar Stevens",
+      "album": "Jaguar Stevens",
+      "count": 92,
+      "first": 1788975620,
+      "last": 1794933513,
+      "songs": [
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Dying Dance",
+          "album": "Jaguar Stevens",
+          "count": 33,
+          "first": 1788975620,
+          "last": 1794933513,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "All the Things He Said",
+          "album": "Jaguar Stevens",
+          "count": 30,
+          "first": 1789226001,
+          "last": 1794863395,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Jaguar Stevens",
+          "title": "Capital Lie",
+          "album": "Jaguar Stevens",
+          "count": 29,
+          "first": 1789209975,
+          "last": 1794794616,
+          "playlists": {
+            "1default": 29
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sexy Coyote",
       "album": "Dead",
       "count": 92,
@@ -6380,48 +6422,6 @@
           "count": 29,
           "first": 1788917492,
           "last": 1794433297,
-          "playlists": {
-            "1default": 29
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jaguar Stevens",
-      "album": "Jaguar Stevens",
-      "count": 91,
-      "first": 1788975620,
-      "last": 1794863395,
-      "songs": [
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Dying Dance",
-          "album": "Jaguar Stevens",
-          "count": 32,
-          "first": 1788975620,
-          "last": 1794787031,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "All the Things He Said",
-          "album": "Jaguar Stevens",
-          "count": 30,
-          "first": 1789226001,
-          "last": 1794863395,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Jaguar Stevens",
-          "title": "Capital Lie",
-          "album": "Jaguar Stevens",
-          "count": 29,
-          "first": 1789209975,
-          "last": 1794794616,
           "playlists": {
             "1default": 29
           }
@@ -8077,9 +8077,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11966,
+      "count": 11980,
       "first": 1788901564,
-      "last": 1794931512,
+      "last": 1794934863,
       "songs": [
         {
           "artist": "Tele Novella",
