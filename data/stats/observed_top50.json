@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-17T05:27:25.159798+00:00",
+  "updatedAt": "2026-11-17T05:32:00.403685+00:00",
   "summary": {
-    "totalPlays": 26148,
+    "totalPlays": 26149,
     "unknownPlays": 1145,
     "uniqueTracks": 2741,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794893132
+    "lastObserved": 1794893426
   },
   "topSongs": [
     {
@@ -5173,10 +5173,21 @@
     },
     {
       "artist": "Pixies",
-      "count": 64,
+      "count": 65,
       "first": 1788972865,
-      "last": 1794858280,
+      "last": 1794893426,
       "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 31,
+          "first": 1788972865,
+          "last": 1794893426,
+          "playlists": {
+            "1default": 31
+          }
+        },
         {
           "artist": "Pixies",
           "title": "Debaser",
@@ -5184,17 +5195,6 @@
           "count": 30,
           "first": 1789214521,
           "last": 1794858280,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 30,
-          "first": 1788972865,
-          "last": 1794791612,
           "playlists": {
             "1default": 30
           }
@@ -7366,6 +7366,48 @@
       ]
     },
     {
+      "artist": "Pixies",
+      "album": "Doolittle",
+      "count": 62,
+      "first": 1788972865,
+      "last": 1794893426,
+      "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Here Comes Your Man",
+          "album": "Doolittle",
+          "count": 31,
+          "first": 1788972865,
+          "last": 1794893426,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 30,
+          "first": 1789214521,
+          "last": 1794858280,
+          "playlists": {
+            "1default": 30
+          }
+        },
+        {
+          "artist": "Pixies",
+          "title": "Wave Of Mutilation",
+          "album": "Doolittle",
+          "count": 1,
+          "first": 1792298434,
+          "last": 1792298434,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "a machine as big as a city with a concert at the center",
       "count": 62,
@@ -7467,48 +7509,6 @@
           "playlists": {
             "sad girl no friends saturday": 9,
             "for the girls driving 85": 11
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Pixies",
-      "album": "Doolittle",
-      "count": 61,
-      "first": 1788972865,
-      "last": 1794858280,
-      "songs": [
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 30,
-          "first": 1789214521,
-          "last": 1794858280,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Here Comes Your Man",
-          "album": "Doolittle",
-          "count": 30,
-          "first": 1788972865,
-          "last": 1794791612,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Wave Of Mutilation",
-          "album": "Doolittle",
-          "count": 1,
-          "first": 1792298434,
-          "last": 1792298434,
-          "playlists": {
-            "sad girl no friends saturday": 1
           }
         }
       ]
@@ -8055,9 +8055,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11935,
+      "count": 11936,
       "first": 1788901564,
-      "last": 1794893132,
+      "last": 1794893426,
       "songs": [
         {
           "artist": "Tele Novella",
