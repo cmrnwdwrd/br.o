@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-17T01:02:02.812444+00:00",
+  "updatedAt": "2026-11-17T01:12:08.974489+00:00",
   "summary": {
-    "totalPlays": 26094,
+    "totalPlays": 26097,
     "unknownPlays": 1145,
     "uniqueTracks": 2741,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794877193
+    "lastObserved": 1794877806
   },
   "topSongs": [
     {
@@ -194,6 +194,18 @@
       }
     },
     {
+      "artist": "The Cardigans",
+      "title": "Step On Me",
+      "album": "First Band On The Moon (Remastered)",
+      "count": 40,
+      "first": 1788985233,
+      "last": 1794877366,
+      "playlists": {
+        "1default": 36,
+        "texting your situationship": 4
+      }
+    },
+    {
       "artist": "Nat & Alex Wolff",
       "title": "Rollin' Around",
       "album": "Public Places",
@@ -203,18 +215,6 @@
       "playlists": {
         "1default": 35,
         "texting your situationship": 5
-      }
-    },
-    {
-      "artist": "The Cardigans",
-      "title": "Step On Me",
-      "album": "First Band On The Moon (Remastered)",
-      "count": 39,
-      "first": 1788985233,
-      "last": 1794802319,
-      "playlists": {
-        "1default": 35,
-        "texting your situationship": 4
       }
     },
     {
@@ -560,34 +560,34 @@
       }
     },
     {
+      "artist": "Leon Bridges",
+      "title": "Motorbike",
+      "album": "Motorbike",
+      "count": 32,
+      "first": 1788975084,
+      "last": 1794877806,
+      "playlists": {
+        "1default": 32
+      }
+    },
+    {
+      "artist": "PUP",
+      "title": "Kids",
+      "album": "Morbid Stuff",
+      "count": 32,
+      "first": 1788913008,
+      "last": 1794877596,
+      "playlists": {
+        "1default": 32
+      }
+    },
+    {
       "artist": "Fatboy Slim",
       "title": "Weapon of Choice",
       "album": "The Greatest Hits: Why Try Harder",
       "count": 32,
       "first": 1788984231,
       "last": 1794876421,
-      "playlists": {
-        "1default": 32
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "HANGING MYSELF WITH MY PHONE CHARGER",
-      "album": "SWAMP",
-      "count": 32,
-      "first": 1789057548,
-      "last": 1794875789,
-      "playlists": {
-        "1default": 32
-      }
-    },
-    {
-      "artist": "Jay Som",
-      "title": "Tenderness",
-      "album": "Anak Ko",
-      "count": 32,
-      "first": 1789235365,
-      "last": 1794875508,
       "playlists": {
         "1default": 32
       }
@@ -4367,6 +4367,47 @@
       ]
     },
     {
+      "artist": "Leon Bridges",
+      "count": 69,
+      "first": 1788919285,
+      "last": 1794877806,
+      "songs": [
+        {
+          "artist": "Leon Bridges",
+          "title": "Motorbike",
+          "album": "Motorbike",
+          "count": 32,
+          "first": 1788975084,
+          "last": 1794877806,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Steam",
+          "album": "Gold-Diggers Sound",
+          "count": 32,
+          "first": 1788919285,
+          "last": 1794708775,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Leon Bridges",
+          "title": "Coming Home",
+          "album": "Coming Home (Deluxe)",
+          "count": 5,
+          "first": 1789893243,
+          "last": 1794732539,
+          "playlists": {
+            "christmas rn": 5
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "count": 69,
       "first": 1788990464,
@@ -4434,47 +4475,6 @@
           "last": 1794589360,
           "playlists": {
             "1default": 30
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Leon Bridges",
-      "count": 68,
-      "first": 1788919285,
-      "last": 1794775331,
-      "songs": [
-        {
-          "artist": "Leon Bridges",
-          "title": "Steam",
-          "album": "Gold-Diggers Sound",
-          "count": 32,
-          "first": 1788919285,
-          "last": 1794708775,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Motorbike",
-          "album": "Motorbike",
-          "count": 31,
-          "first": 1788975084,
-          "last": 1794775331,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Leon Bridges",
-          "title": "Coming Home",
-          "album": "Coming Home (Deluxe)",
-          "count": 5,
-          "first": 1789893243,
-          "last": 1794732539,
-          "playlists": {
-            "christmas rn": 5
           }
         }
       ]
@@ -8055,9 +8055,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 11881,
+      "count": 11884,
       "first": 1788901564,
-      "last": 1794877193,
+      "last": 1794877806,
       "songs": [
         {
           "artist": "Tele Novella",
