@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-18T01:02:09.648796+00:00",
+  "updatedAt": "2026-11-18T01:06:50.698020+00:00",
   "summary": {
-    "totalPlays": 26467,
+    "totalPlays": 26468,
     "unknownPlays": 1145,
     "uniqueTracks": 2743,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794963592
+    "lastObserved": 1794963852
   },
   "topSongs": [
     {
@@ -361,6 +361,17 @@
       }
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "title": "Pawn Shop Prada",
+      "album": "Lick My Soul",
+      "count": 34,
+      "first": 1788919863,
+      "last": 1794963852,
+      "playlists": {
+        "1default": 34
+      }
+    },
+    {
       "artist": "hey, nothing",
       "title": "The Sink",
       "album": "The Sink",
@@ -578,17 +589,6 @@
       "count": 33,
       "first": 1788910695,
       "last": 1794936986,
-      "playlists": {
-        "1default": 33
-      }
-    },
-    {
-      "artist": "Mystee",
-      "title": "hard candy",
-      "album": "hard candy",
-      "count": 33,
-      "first": 1788915475,
-      "last": 1794936806,
       "playlists": {
         "1default": 33
       }
@@ -3311,6 +3311,47 @@
       ]
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "count": 96,
+      "first": 1788919863,
+      "last": 1794963852,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 34,
+          "first": 1788919863,
+          "last": 1794963852,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 32,
+          "first": 1788989164,
+          "last": 1794844729,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 30,
+          "first": 1789139069,
+          "last": 1794709142,
+          "playlists": {
+            "1default": 30
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen",
       "count": 96,
       "first": 1788917230,
@@ -3504,47 +3545,6 @@
           "last": 1794824891,
           "playlists": {
             "1default": 31
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "count": 95,
-      "first": 1788919863,
-      "last": 1794844729,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 33,
-          "first": 1788919863,
-          "last": 1794822753,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 32,
-          "first": 1788989164,
-          "last": 1794844729,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 30,
-          "first": 1789139069,
-          "last": 1794709142,
-          "playlists": {
-            "1default": 30
           }
         }
       ]
@@ -6286,19 +6286,19 @@
     {
       "artist": "Jesus Christ Taxi Driver",
       "album": "Lick My Soul",
-      "count": 95,
+      "count": 96,
       "first": 1788919863,
-      "last": 1794844729,
+      "last": 1794963852,
       "songs": [
         {
           "artist": "Jesus Christ Taxi Driver",
           "title": "Pawn Shop Prada",
           "album": "Lick My Soul",
-          "count": 33,
+          "count": 34,
           "first": 1788919863,
-          "last": 1794822753,
+          "last": 1794963852,
           "playlists": {
-            "1default": 33
+            "1default": 34
           }
         },
         {
@@ -8100,9 +8100,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12085,
+      "count": 12086,
       "first": 1788901564,
-      "last": 1794963592,
+      "last": 1794963852,
       "songs": [
         {
           "artist": "Tele Novella",
