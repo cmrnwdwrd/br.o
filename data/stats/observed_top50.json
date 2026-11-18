@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-18T05:06:52.265799+00:00",
+  "updatedAt": "2026-11-18T05:41:53.507370+00:00",
   "summary": {
-    "totalPlays": 26526,
+    "totalPlays": 26536,
     "unknownPlays": 1145,
     "uniqueTracks": 2743,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794978379
+    "lastObserved": 1794980444
   },
   "topSongs": [
     {
@@ -74,6 +74,18 @@
       }
     },
     {
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
+      "count": 52,
+      "first": 1789015368,
+      "last": 1794978852,
+      "playlists": {
+        "1default": 40,
+        "anti-capitalist weekday afternoon #1": 12
+      }
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "title": "Happy Boy",
       "album": "WAR IN COLORADO!",
@@ -122,18 +134,6 @@
       }
     },
     {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 51,
-      "first": 1789015368,
-      "last": 1794960292,
-      "playlists": {
-        "1default": 39,
-        "anti-capitalist weekday afternoon #1": 12
-      }
-    },
-    {
       "artist": "Colfax Speed Queen",
       "title": "Jesus Loves Rock N' Roll",
       "album": "Satisfaction Intended",
@@ -173,11 +173,11 @@
       "artist": "The Chats",
       "title": "Smoko",
       "album": "Get This In Ya",
-      "count": 47,
+      "count": 48,
       "first": 1789078009,
-      "last": 1794873266,
+      "last": 1794980071,
       "playlists": {
-        "1default": 34,
+        "1default": 35,
         "anti-capitalist weekday afternoon #1": 13
       }
     },
@@ -439,6 +439,17 @@
       }
     },
     {
+      "artist": "The Dandy Warhols",
+      "title": "Bohemian Like You",
+      "album": "Thirteen Tales From Urban Bohemia",
+      "count": 33,
+      "first": 1788989503,
+      "last": 1794979046,
+      "playlists": {
+        "1default": 33
+      }
+    },
+    {
       "artist": "The Ephinjis",
       "title": "Hot to Go!",
       "album": "Hot to Go!",
@@ -577,17 +588,6 @@
       "count": 33,
       "first": 1788972025,
       "last": 1794955847,
-      "playlists": {
-        "1default": 33
-      }
-    },
-    {
-      "artist": "Cage The Elephant",
-      "title": "Social Cues",
-      "album": "Social Cues",
-      "count": 33,
-      "first": 1788990244,
-      "last": 1794953185,
       "playlists": {
         "1default": 33
       }
@@ -2198,9 +2198,9 @@
     },
     {
       "artist": "The Czars",
-      "count": 181,
+      "count": 182,
       "first": 1788963949,
-      "last": 1794932130,
+      "last": 1794979752,
       "songs": [
         {
           "artist": "The Czars",
@@ -2226,22 +2226,22 @@
         },
         {
           "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 31,
+          "first": 1789015116,
+          "last": 1794979752,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "The Czars",
           "title": "Song to the Siren",
           "album": "Best Of",
           "count": 30,
           "first": 1788963949,
           "last": 1794886900,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 30,
-          "first": 1789015116,
-          "last": 1794793512,
           "playlists": {
             "1default": 30
           }
@@ -3184,9 +3184,9 @@
     },
     {
       "artist": "Weezer",
-      "count": 100,
+      "count": 101,
       "first": 1788946510,
-      "last": 1794971353,
+      "last": 1794978617,
       "songs": [
         {
           "artist": "Weezer",
@@ -3215,11 +3215,11 @@
           "artist": "Weezer",
           "title": "Hero",
           "album": "Hero",
-          "count": 28,
+          "count": 29,
           "first": 1789142694,
-          "last": 1794773320,
+          "last": 1794978617,
           "playlists": {
-            "1default": 28
+            "1default": 29
           }
         },
         {
@@ -3242,6 +3242,47 @@
           "last": 1792906025,
           "playlists": {
             "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Jesus Christ Taxi Driver",
+      "count": 98,
+      "first": 1788919863,
+      "last": 1794980251,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 34,
+          "first": 1788919863,
+          "last": 1794963852,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 33,
+          "first": 1788989164,
+          "last": 1794972895,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 31,
+          "first": 1789139069,
+          "last": 1794980251,
+          "playlists": {
+            "1default": 31
           }
         }
       ]
@@ -3305,47 +3346,6 @@
           "last": 1792902695,
           "playlists": {
             "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "count": 97,
-      "first": 1788919863,
-      "last": 1794972895,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 34,
-          "first": 1788919863,
-          "last": 1794963852,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 33,
-          "first": 1788989164,
-          "last": 1794972895,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 30,
-          "first": 1789139069,
-          "last": 1794709142,
-          "playlists": {
-            "1default": 30
           }
         }
       ]
@@ -5550,9 +5550,9 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 181,
+      "count": 182,
       "first": 1788963949,
-      "last": 1794932130,
+      "last": 1794979752,
       "songs": [
         {
           "artist": "The Czars",
@@ -5578,22 +5578,22 @@
         },
         {
           "artist": "The Czars",
+          "title": "Paint the Moon",
+          "album": "Best Of",
+          "count": 31,
+          "first": 1789015116,
+          "last": 1794979752,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "The Czars",
           "title": "Song to the Siren",
           "album": "Best Of",
           "count": 30,
           "first": 1788963949,
           "last": 1794886900,
-          "playlists": {
-            "1default": 30
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Paint the Moon",
-          "album": "Best Of",
-          "count": 30,
-          "first": 1789015116,
-          "last": 1794793512,
           "playlists": {
             "1default": 30
           }
@@ -6263,9 +6263,9 @@
     {
       "artist": "Jesus Christ Taxi Driver",
       "album": "Lick My Soul",
-      "count": 97,
+      "count": 98,
       "first": 1788919863,
-      "last": 1794972895,
+      "last": 1794980251,
       "songs": [
         {
           "artist": "Jesus Christ Taxi Driver",
@@ -6293,11 +6293,11 @@
           "artist": "Jesus Christ Taxi Driver",
           "title": "Diabolical Catholic",
           "album": "Lick My Soul",
-          "count": 30,
+          "count": 31,
           "first": 1789139069,
-          "last": 1794709142,
+          "last": 1794980251,
           "playlists": {
-            "1default": 30
+            "1default": 31
           }
         }
       ]
@@ -8011,6 +8011,27 @@
       ]
     },
     {
+      "artist": "Lush",
+      "album": "Lovelife",
+      "count": 52,
+      "first": 1789015368,
+      "last": 1794978852,
+      "songs": [
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 52,
+          "first": 1789015368,
+          "last": 1794978852,
+          "playlists": {
+            "1default": 40,
+            "anti-capitalist weekday afternoon #1": 12
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Salesmen, Ike Spivak",
       "album": "WAR IN COLORADO!",
       "count": 52,
@@ -8051,35 +8072,14 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Viagra Boys",
-      "album": "Street Worms",
-      "count": 52,
-      "first": 1788991593,
-      "last": 1794945445,
-      "songs": [
-        {
-          "artist": "Viagra Boys",
-          "title": "Worms",
-          "album": "Street Worms",
-          "count": 52,
-          "first": 1788991593,
-          "last": 1794945445,
-          "playlists": {
-            "1default": 39,
-            "anti-capitalist weekday afternoon #1": 13
-          }
-        }
-      ]
     }
   ],
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12144,
+      "count": 12154,
       "first": 1788901564,
-      "last": 1794978379,
+      "last": 1794980444,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -8090,6 +8090,17 @@
           "last": 1794862015,
           "playlists": {
             "1default": 42
+          }
+        },
+        {
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
+          "count": 40,
+          "first": 1789015368,
+          "last": 1794978852,
+          "playlists": {
+            "1default": 40
           }
         },
         {
@@ -8123,17 +8134,6 @@
           "last": 1794912558,
           "playlists": {
             "1default": 40
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 39,
-          "first": 1788986736,
-          "last": 1794972692,
-          "playlists": {
-            "1default": 39
           }
         }
       ]
