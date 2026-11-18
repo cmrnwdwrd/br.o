@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-18T01:06:50.698020+00:00",
+  "updatedAt": "2026-11-18T01:16:49.474596+00:00",
   "summary": {
-    "totalPlays": 26468,
+    "totalPlays": 26471,
     "unknownPlays": 1145,
     "uniqueTracks": 2743,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1794963852
+    "lastObserved": 1794964412
   },
   "topSongs": [
     {
@@ -406,6 +406,28 @@
       }
     },
     {
+      "artist": "Hotel Ugly",
+      "title": "Shut up My Moms Calling",
+      "album": "Shut up My Moms Calling",
+      "count": 33,
+      "first": 1788969130,
+      "last": 1794964249,
+      "playlists": {
+        "1default": 33
+      }
+    },
+    {
+      "artist": "Your Smith",
+      "title": "Debbie",
+      "album": "Bad Habit",
+      "count": 33,
+      "first": 1788947368,
+      "last": 1794964055,
+      "playlists": {
+        "1default": 33
+      }
+    },
+    {
       "artist": "Gorillaz, Beck",
       "title": "The Valley of The Pagans (feat. Beck)",
       "album": "Song Machine, Season One: Strange Timez (Deluxe)",
@@ -567,28 +589,6 @@
       "count": 33,
       "first": 1788927095,
       "last": 1794938246,
-      "playlists": {
-        "1default": 33
-      }
-    },
-    {
-      "artist": "Gorillaz, ScHoolboy Q",
-      "title": "Pac-Man (feat. ScHoolboy Q)",
-      "album": "Song Machine Episode 5",
-      "count": 33,
-      "first": 1788901855,
-      "last": 1794937240,
-      "playlists": {
-        "1default": 33
-      }
-    },
-    {
-      "artist": "Moby",
-      "title": "Porcelain",
-      "album": "Play & Play: B Sides",
-      "count": 33,
-      "first": 1788910695,
-      "last": 1794936986,
       "playlists": {
         "1default": 33
       }
@@ -3456,6 +3456,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 95,
+      "first": 1788947368,
+      "last": 1794964055,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 33,
+          "first": 1788947368,
+          "last": 1794964055,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 32,
+          "first": 1788969485,
+          "last": 1794867426,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 30,
+          "first": 1789086174,
+          "last": 1794892656,
+          "playlists": {
+            "1default": 30
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 95,
       "first": 1789021318,
@@ -3545,47 +3586,6 @@
           "last": 1794824891,
           "playlists": {
             "1default": 31
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 94,
-      "first": 1788947368,
-      "last": 1794892656,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 32,
-          "first": 1788969485,
-          "last": 1794867426,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 32,
-          "first": 1788947368,
-          "last": 1794738360,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 30,
-          "first": 1789086174,
-          "last": 1794892656,
-          "playlists": {
-            "1default": 30
           }
         }
       ]
@@ -6328,10 +6328,21 @@
     {
       "artist": "Your Smith",
       "album": "Bad Habit",
-      "count": 94,
+      "count": 95,
       "first": 1788947368,
-      "last": 1794892656,
+      "last": 1794964055,
       "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 33,
+          "first": 1788947368,
+          "last": 1794964055,
+          "playlists": {
+            "1default": 33
+          }
+        },
         {
           "artist": "Your Smith",
           "title": "Ooh Wee",
@@ -6339,17 +6350,6 @@
           "count": 32,
           "first": 1788969485,
           "last": 1794867426,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 32,
-          "first": 1788947368,
-          "last": 1794738360,
           "playlists": {
             "1default": 32
           }
@@ -8100,9 +8100,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12086,
+      "count": 12089,
       "first": 1788901564,
-      "last": 1794963852,
+      "last": 1794964412,
       "songs": [
         {
           "artist": "Tele Novella",
