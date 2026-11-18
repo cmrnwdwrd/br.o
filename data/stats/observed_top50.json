@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-18T18:21:53.001726+00:00",
+  "updatedAt": "2026-11-18T18:26:51.325795+00:00",
   "summary": {
-    "totalPlays": 26704,
+    "totalPlays": 26706,
     "unknownPlays": 1145,
     "uniqueTracks": 2745,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2229,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795025966
+    "lastObserved": 1795026407
   },
   "topSongs": [
     {
@@ -516,6 +516,17 @@
       }
     },
     {
+      "artist": "Sjowgren",
+      "title": "Flip Phones",
+      "album": "win'20",
+      "count": 33,
+      "first": 1789059354,
+      "last": 1795026196,
+      "playlists": {
+        "1default": 33
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "negative and hating",
       "album": "THE FUTURE IS DARK (DELUXE)",
@@ -577,17 +588,6 @@
       "count": 33,
       "first": 1788903373,
       "last": 1795020799,
-      "playlists": {
-        "1default": 33
-      }
-    },
-    {
-      "artist": "The Wild Reeds",
-      "title": "Lose My Mind",
-      "album": "Cheers",
-      "count": 33,
-      "first": 1789171566,
-      "last": 1795020571,
       "playlists": {
         "1default": 33
       }
@@ -3310,6 +3310,47 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "count": 98,
+      "first": 1788965724,
+      "last": 1795026196,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 33,
+          "first": 1789059354,
+          "last": 1795026196,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 33,
+          "first": 1789225488,
+          "last": 1795018880,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 32,
+          "first": 1788965724,
+          "last": 1794786825,
+          "playlists": {
+            "1default": 32
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jesus Christ Taxi Driver",
       "count": 98,
       "first": 1788919863,
@@ -3346,47 +3387,6 @@
           "last": 1794980251,
           "playlists": {
             "1default": 31
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 97,
-      "first": 1788965724,
-      "last": 1795018880,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 33,
-          "first": 1789225488,
-          "last": 1795018880,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 32,
-          "first": 1789059354,
-          "last": 1794886186,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 32,
-          "first": 1788965724,
-          "last": 1794786825,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
@@ -5318,6 +5318,36 @@
       ]
     },
     {
+      "artist": "Billie Eilish",
+      "count": 64,
+      "first": 1788989714,
+      "last": 1795026407,
+      "songs": [
+        {
+          "artist": "Billie Eilish",
+          "title": "NDA",
+          "album": "Happier Than Ever",
+          "count": 32,
+          "first": 1788989714,
+          "last": 1795026407,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "everything i wanted",
+          "album": "everything i wanted",
+          "count": 32,
+          "first": 1789169386,
+          "last": 1795017801,
+          "playlists": {
+            "1default": 32
+          }
+        }
+      ]
+    },
+    {
       "artist": "Olivia Rodrigo",
       "count": 64,
       "first": 1789057000,
@@ -5393,36 +5423,6 @@
           "count": 32,
           "first": 1788915657,
           "last": 1794950871,
-          "playlists": {
-            "1default": 32
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Juno Rossa",
-      "count": 64,
-      "first": 1789166634,
-      "last": 1794976180,
-      "songs": [
-        {
-          "artist": "Juno Rossa",
-          "title": "Paris For The Summer",
-          "album": "Chasing Animals",
-          "count": 32,
-          "first": 1789166634,
-          "last": 1794976180,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Juno Rossa",
-          "title": "Like A Lover",
-          "album": "Chasing Animals",
-          "count": 32,
-          "first": 1789167660,
-          "last": 1794968835,
           "playlists": {
             "1default": 32
           }
@@ -7269,10 +7269,21 @@
     {
       "artist": "Sjowgren",
       "album": "win'20",
-      "count": 65,
+      "count": 66,
       "first": 1789059354,
-      "last": 1795018880,
+      "last": 1795026196,
       "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 33,
+          "first": 1789059354,
+          "last": 1795026196,
+          "playlists": {
+            "1default": 33
+          }
+        },
         {
           "artist": "Sjowgren",
           "title": "Dreams",
@@ -7282,17 +7293,6 @@
           "last": 1795018880,
           "playlists": {
             "1default": 33
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 32,
-          "first": 1789059354,
-          "last": 1794886186,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
@@ -8111,9 +8111,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12213,
+      "count": 12215,
       "first": 1788901564,
-      "last": 1795025966,
+      "last": 1795026407,
       "songs": [
         {
           "artist": "Tele Novella",
