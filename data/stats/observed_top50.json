@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-19T18:42:14.957992+00:00",
+  "updatedAt": "2026-11-19T20:27:14.049066+00:00",
   "summary": {
-    "totalPlays": 27034,
+    "totalPlays": 27048,
     "unknownPlays": 1145,
     "uniqueTracks": 2747,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2230,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795113509
+    "lastObserved": 1795119874
   },
   "topSongs": [
     {
@@ -254,6 +254,18 @@
       }
     },
     {
+      "artist": "Arlie",
+      "title": "didya think",
+      "album": "Wait",
+      "count": 39,
+      "first": 1788970349,
+      "last": 1795119874,
+      "playlists": {
+        "1default": 35,
+        "landlockd surfrock": 4
+      }
+    },
+    {
       "artist": "wilt",
       "title": "the riff",
       "album": "the riff",
@@ -287,18 +299,6 @@
       "playlists": {
         "1default": 35,
         "jack johnson hackiesack friday afternoon": 3
-      }
-    },
-    {
-      "artist": "Arlie",
-      "title": "didya think",
-      "album": "Wait",
-      "count": 38,
-      "first": 1788970349,
-      "last": 1794885480,
-      "playlists": {
-        "1default": 34,
-        "landlockd surfrock": 4
       }
     },
     {
@@ -370,6 +370,39 @@
       "last": 1794862540,
       "playlists": {
         "1default": 35
+      }
+    },
+    {
+      "artist": "Jaguar Stevens",
+      "title": "Dying Dance",
+      "album": "Jaguar Stevens",
+      "count": 34,
+      "first": 1788975620,
+      "last": 1795119580,
+      "playlists": {
+        "1default": 34
+      }
+    },
+    {
+      "artist": "Sexy Coyote",
+      "title": "Run, Rabbit, Run",
+      "album": "Dead",
+      "count": 34,
+      "first": 1788921570,
+      "last": 1795117918,
+      "playlists": {
+        "1default": 34
+      }
+    },
+    {
+      "artist": "John Grant",
+      "title": "It Doesn't Matter to Him",
+      "album": "Pale Green Ghosts",
+      "count": 34,
+      "first": 1788964915,
+      "last": 1795117534,
+      "playlists": {
+        "1default": 34
       }
     },
     {
@@ -557,39 +590,6 @@
       "count": 34,
       "first": 1788973998,
       "last": 1795025966,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "Donovan",
-      "title": "Sunshine Superman",
-      "album": "Sunshine Superman",
-      "count": 34,
-      "first": 1788920950,
-      "last": 1795025585,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "title": "brutal",
-      "album": "SOUR",
-      "count": 34,
-      "first": 1789057000,
-      "last": 1795024688,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "Arcade Fire",
-      "title": "Wake Up",
-      "album": "Funeral",
-      "count": 34,
-      "first": 1788989909,
-      "last": 1795023544,
       "playlists": {
         "1default": 34
       }
@@ -2807,10 +2807,21 @@
     },
     {
       "artist": "botch",
-      "count": 128,
+      "count": 129,
       "first": 1788920755,
-      "last": 1795014799,
+      "last": 1795118975,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 33,
+          "first": 1788963025,
+          "last": 1795118975,
+          "playlists": {
+            "1default": 33
+          }
+        },
         {
           "artist": "botch",
           "title": "a machine as big as a city with a concert at the center",
@@ -2835,17 +2846,6 @@
         },
         {
           "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 32,
-          "first": 1788963025,
-          "last": 1794868795,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "botch",
           "title": "underthebasement",
           "album": "a machine as big as a city with a concert at the center",
           "count": 31,
@@ -2859,10 +2859,21 @@
     },
     {
       "artist": "Sexy Coyote",
-      "count": 127,
+      "count": 128,
       "first": 1788917492,
-      "last": 1795110447,
+      "last": 1795117918,
       "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 34,
+          "first": 1788921570,
+          "last": 1795117918,
+          "playlists": {
+            "1default": 34
+          }
+        },
         {
           "artist": "Sexy Coyote",
           "title": "Dancing With Demons",
@@ -2870,17 +2881,6 @@
           "count": 33,
           "first": 1788946229,
           "last": 1794972408,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 33,
-          "first": 1788921570,
-          "last": 1794886689,
           "playlists": {
             "1default": 33
           }
@@ -2911,9 +2911,9 @@
     },
     {
       "artist": "Psychedelic Porn Crumpets",
-      "count": 126,
+      "count": 127,
       "first": 1788915065,
-      "last": 1795042555,
+      "last": 1795118516,
       "songs": [
         {
           "artist": "Psychedelic Porn Crumpets",
@@ -2928,6 +2928,17 @@
         },
         {
           "artist": "Psychedelic Porn Crumpets",
+          "title": "Lava Lamp Pisco",
+          "album": "Lava Lamp Pisco",
+          "count": 32,
+          "first": 1788915065,
+          "last": 1795118516,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Psychedelic Porn Crumpets",
           "title": "Mr. Prism",
           "album": "Mr. Prism",
           "count": 32,
@@ -2935,17 +2946,6 @@
           "last": 1794866642,
           "playlists": {
             "1default": 32
-          }
-        },
-        {
-          "artist": "Psychedelic Porn Crumpets",
-          "title": "Lava Lamp Pisco",
-          "album": "Lava Lamp Pisco",
-          "count": 31,
-          "first": 1788915065,
-          "last": 1794942764,
-          "playlists": {
-            "1default": 31
           }
         },
         {
@@ -3634,19 +3634,19 @@
     },
     {
       "artist": "Jaguar Stevens",
-      "count": 94,
+      "count": 95,
       "first": 1788975620,
-      "last": 1795039908,
+      "last": 1795119580,
       "songs": [
         {
           "artist": "Jaguar Stevens",
           "title": "Dying Dance",
           "album": "Jaguar Stevens",
-          "count": 33,
+          "count": 34,
           "first": 1788975620,
-          "last": 1794933513,
+          "last": 1795119580,
           "playlists": {
-            "1default": 33
+            "1default": 34
           }
         },
         {
@@ -3972,10 +3972,21 @@
     },
     {
       "artist": "Cage The Elephant",
-      "count": 81,
+      "count": 82,
       "first": 1788928254,
-      "last": 1794953185,
+      "last": 1795118320,
       "songs": [
+        {
+          "artist": "Cage The Elephant",
+          "title": "Skin and Bones - Mix 2020",
+          "album": "Skin and Bones",
+          "count": 33,
+          "first": 1788928254,
+          "last": 1795118320,
+          "playlists": {
+            "1default": 33
+          }
+        },
         {
           "artist": "Cage The Elephant",
           "title": "Social Cues",
@@ -3985,17 +3996,6 @@
           "last": 1794953185,
           "playlists": {
             "1default": 33
-          }
-        },
-        {
-          "artist": "Cage The Elephant",
-          "title": "Skin and Bones - Mix 2020",
-          "album": "Skin and Bones",
-          "count": 32,
-          "first": 1788928254,
-          "last": 1794944996,
-          "playlists": {
-            "1default": 32
           }
         },
         {
@@ -6395,63 +6395,21 @@
       ]
     },
     {
-      "artist": "Sexy Coyote",
-      "album": "Dead",
-      "count": 94,
-      "first": 1788917492,
-      "last": 1795110447,
-      "songs": [
-        {
-          "artist": "Sexy Coyote",
-          "title": "Run, Rabbit, Run",
-          "album": "Dead",
-          "count": 33,
-          "first": 1788921570,
-          "last": 1794886689,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "DEAD (Yeah!)",
-          "album": "Dead",
-          "count": 31,
-          "first": 1789224883,
-          "last": 1795110447,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Sexy Coyote",
-          "title": "What's for Dinner????",
-          "album": "Dead",
-          "count": 30,
-          "first": 1788917492,
-          "last": 1794943505,
-          "playlists": {
-            "1default": 30
-          }
-        }
-      ]
-    },
-    {
       "artist": "Jaguar Stevens",
       "album": "Jaguar Stevens",
-      "count": 94,
+      "count": 95,
       "first": 1788975620,
-      "last": 1795039908,
+      "last": 1795119580,
       "songs": [
         {
           "artist": "Jaguar Stevens",
           "title": "Dying Dance",
           "album": "Jaguar Stevens",
-          "count": 33,
+          "count": 34,
           "first": 1788975620,
-          "last": 1794933513,
+          "last": 1795119580,
           "playlists": {
-            "1default": 33
+            "1default": 34
           }
         },
         {
@@ -6472,6 +6430,48 @@
           "count": 30,
           "first": 1789226001,
           "last": 1794863395,
+          "playlists": {
+            "1default": 30
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Sexy Coyote",
+      "album": "Dead",
+      "count": 95,
+      "first": 1788917492,
+      "last": 1795117918,
+      "songs": [
+        {
+          "artist": "Sexy Coyote",
+          "title": "Run, Rabbit, Run",
+          "album": "Dead",
+          "count": 34,
+          "first": 1788921570,
+          "last": 1795117918,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "DEAD (Yeah!)",
+          "album": "Dead",
+          "count": 31,
+          "first": 1789224883,
+          "last": 1795110447,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Sexy Coyote",
+          "title": "What's for Dinner????",
+          "album": "Dead",
+          "count": 30,
+          "first": 1788917492,
+          "last": 1794943505,
           "playlists": {
             "1default": 30
           }
@@ -7325,6 +7325,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "pear",
+      "count": 65,
+      "first": 1788920755,
+      "last": 1795118975,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 33,
+          "first": 1788963025,
+          "last": 1795118975,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 32,
+          "first": 1788920755,
+          "last": 1794940272,
+          "playlists": {
+            "1default": 32
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 65,
@@ -7486,37 +7517,6 @@
           "last": 1795014799,
           "playlists": {
             "1default": 31
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 64,
-      "first": 1788920755,
-      "last": 1794940272,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 32,
-          "first": 1788920755,
-          "last": 1794940272,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 32,
-          "first": 1788963025,
-          "last": 1794868795,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
@@ -8224,9 +8224,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12309,
+      "count": 12323,
       "first": 1788901564,
-      "last": 1795113509,
+      "last": 1795119874,
       "songs": [
         {
           "artist": "Tele Novella",
