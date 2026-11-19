@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-19T18:17:21.052936+00:00",
+  "updatedAt": "2026-11-19T18:42:14.957992+00:00",
   "summary": {
-    "totalPlays": 27028,
+    "totalPlays": 27034,
     "unknownPlays": 1145,
     "uniqueTracks": 2747,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2230,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795112123
+    "lastObserved": 1795113509
   },
   "topSongs": [
     {
@@ -373,6 +373,17 @@
       }
     },
     {
+      "artist": "Lil Darkie",
+      "title": "TRAP METAL",
+      "album": "TRAP METAL",
+      "count": 34,
+      "first": 1789063011,
+      "last": 1795112725,
+      "playlists": {
+        "1default": 34
+      }
+    },
+    {
       "artist": "Doja Cat",
       "title": "Say So (MTV EMA 2020)",
       "album": "",
@@ -579,17 +590,6 @@
       "count": 34,
       "first": 1788989909,
       "last": 1795023544,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "Moby",
-      "title": "Porcelain",
-      "album": "Play & Play: B Sides",
-      "count": 34,
-      "first": 1788910695,
-      "last": 1795022956,
       "playlists": {
         "1default": 34
       }
@@ -1090,9 +1090,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 516,
+      "count": 517,
       "first": 1788910325,
-      "last": 1795100436,
+      "last": 1795112725,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1104,6 +1104,17 @@
           "playlists": {
             "1default": 37,
             "steal my bike": 6
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "TRAP METAL",
+          "album": "TRAP METAL",
+          "count": 34,
+          "first": 1789063011,
+          "last": 1795112725,
+          "playlists": {
+            "1default": 34
           }
         },
         {
@@ -1157,17 +1168,6 @@
           "count": 33,
           "first": 1789225086,
           "last": 1795025781,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "TRAP METAL",
-          "album": "TRAP METAL",
-          "count": 33,
-          "first": 1789063011,
-          "last": 1794935695,
           "playlists": {
             "1default": 33
           }
@@ -5274,6 +5274,36 @@
       ]
     },
     {
+      "artist": "Orion Sun",
+      "count": 66,
+      "first": 1788985030,
+      "last": 1795112561,
+      "songs": [
+        {
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
+          "count": 33,
+          "first": 1788987870,
+          "last": 1795112561,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
+          "count": 33,
+          "first": 1788985030,
+          "last": 1795022464,
+          "playlists": {
+            "1default": 33
+          }
+        }
+      ]
+    },
+    {
       "artist": "U2",
       "count": 66,
       "first": 1788921291,
@@ -5409,36 +5439,6 @@
           "count": 32,
           "first": 1788989714,
           "last": 1795026407,
-          "playlists": {
-            "1default": 32
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Orion Sun",
-      "count": 65,
-      "first": 1788985030,
-      "last": 1795022464,
-      "songs": [
-        {
-          "artist": "Orion Sun",
-          "title": "Ne Me Quitte Pas (Don't Leave Me)",
-          "album": "Hold Space For Me",
-          "count": 33,
-          "first": 1788985030,
-          "last": 1795022464,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Orion Sun",
-          "title": "Antidote",
-          "album": "A Collection of Fleeting Moments and Daydreams",
-          "count": 32,
-          "first": 1788987870,
-          "last": 1794793766,
           "playlists": {
             "1default": 32
           }
@@ -8224,9 +8224,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12303,
+      "count": 12309,
       "first": 1788901564,
-      "last": 1795112123,
+      "last": 1795113509,
       "songs": [
         {
           "artist": "Tele Novella",
