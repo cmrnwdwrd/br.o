@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-20T01:12:14.066503+00:00",
+  "updatedAt": "2026-11-20T01:37:15.443718+00:00",
   "summary": {
-    "totalPlays": 27104,
+    "totalPlays": 27110,
     "unknownPlays": 1145,
-    "uniqueTracks": 2748,
+    "uniqueTracks": 2749,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2230,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795137118
+    "lastObserved": 1795138591
   },
   "topSongs": [
     {
@@ -384,6 +384,28 @@
       }
     },
     {
+      "artist": "Rat Von Rat",
+      "title": "Staples",
+      "album": "Staples",
+      "count": 34,
+      "first": 1788927095,
+      "last": 1795138286,
+      "playlists": {
+        "1default": 34
+      }
+    },
+    {
+      "artist": "Jesus Christ Taxi Driver",
+      "title": "STUPIDMOTHERFUCKER",
+      "album": "Lick My Soul",
+      "count": 34,
+      "first": 1788989164,
+      "last": 1795137356,
+      "playlists": {
+        "1default": 34
+      }
+    },
+    {
       "artist": "St. Paul & The Broken Bones",
       "title": "Apollo",
       "album": "Young Sick Camellia",
@@ -568,28 +590,6 @@
       "count": 34,
       "first": 1789062336,
       "last": 1795064772,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "Gorillaz, ScHoolboy Q",
-      "title": "Pac-Man (feat. ScHoolboy Q)",
-      "album": "Song Machine Episode 5",
-      "count": 34,
-      "first": 1788901855,
-      "last": 1795061944,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE FUTURE IS DARK",
-      "album": "THE FUTURE IS DARK",
-      "count": 34,
-      "first": 1788913884,
-      "last": 1795048267,
       "playlists": {
         "1default": 34
       }
@@ -2200,10 +2200,21 @@
     },
     {
       "artist": "The Czars",
-      "count": 185,
+      "count": 186,
       "first": 1788963949,
-      "last": 1795120440,
+      "last": 1795137785,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 33,
+          "first": 1789096240,
+          "last": 1795137785,
+          "playlists": {
+            "1default": 33
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Paint the Moon",
@@ -2211,17 +2222,6 @@
           "count": 32,
           "first": 1789015116,
           "last": 1795019242,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 32,
-          "first": 1789096240,
-          "last": 1794868466,
           "playlists": {
             "1default": 32
           }
@@ -3249,6 +3249,47 @@
       ]
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "count": 100,
+      "first": 1788919863,
+      "last": 1795137356,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 35,
+          "first": 1788919863,
+          "last": 1795121418,
+          "playlists": {
+            "1default": 35
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 34,
+          "first": 1788989164,
+          "last": 1795137356,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 31,
+          "first": 1789139069,
+          "last": 1794980251,
+          "playlists": {
+            "1default": 31
+          }
+        }
+      ]
+    },
+    {
       "artist": "Radiohead",
       "count": 100,
       "first": 1788973066,
@@ -3360,47 +3401,6 @@
           "last": 1794583655,
           "playlists": {
             "hyperpop friday morning": 9
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "count": 99,
-      "first": 1788919863,
-      "last": 1795121418,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 35,
-          "first": 1788919863,
-          "last": 1795121418,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 33,
-          "first": 1788989164,
-          "last": 1794972895,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 31,
-          "first": 1789139069,
-          "last": 1794980251,
-          "playlists": {
-            "1default": 31
           }
         }
       ]
@@ -4014,9 +4014,9 @@
     },
     {
       "artist": "Various",
-      "count": 78,
+      "count": 79,
       "first": 1792641719,
-      "last": 1795136192,
+      "last": 1795138591,
       "songs": [
         {
           "artist": "Various",
@@ -4283,6 +4283,17 @@
           "last": 1792962704,
           "playlists": {
             "interjections": 2
+          }
+        },
+        {
+          "artist": "Various",
+          "title": "digi mobile games",
+          "album": "Grand Theft Auto V",
+          "count": 1,
+          "first": 1795138591,
+          "last": 1795138591,
+          "playlists": {
+            "interjections": 1
           }
         },
         {
@@ -4567,17 +4578,6 @@
           "count": 1,
           "first": 1792735036,
           "last": 1792735036,
-          "playlists": {
-            "interjections": 1
-          }
-        },
-        {
-          "artist": "Various",
-          "title": "555-0100 zit",
-          "album": "Grand Theft Auto IV",
-          "count": 1,
-          "first": 1792729330,
-          "last": 1792729330,
           "playlists": {
             "interjections": 1
           }
@@ -5600,10 +5600,21 @@
     {
       "artist": "The Czars",
       "album": "Best Of",
-      "count": 185,
+      "count": 186,
       "first": 1788963949,
-      "last": 1795120440,
+      "last": 1795137785,
       "songs": [
+        {
+          "artist": "The Czars",
+          "title": "Killjoy",
+          "album": "Best Of",
+          "count": 33,
+          "first": 1789096240,
+          "last": 1795137785,
+          "playlists": {
+            "1default": 33
+          }
+        },
         {
           "artist": "The Czars",
           "title": "Paint the Moon",
@@ -5611,17 +5622,6 @@
           "count": 32,
           "first": 1789015116,
           "last": 1795019242,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "The Czars",
-          "title": "Killjoy",
-          "album": "Best Of",
-          "count": 32,
-          "first": 1789096240,
-          "last": 1794868466,
           "playlists": {
             "1default": 32
           }
@@ -6313,9 +6313,9 @@
     {
       "artist": "Jesus Christ Taxi Driver",
       "album": "Lick My Soul",
-      "count": 99,
+      "count": 100,
       "first": 1788919863,
-      "last": 1795121418,
+      "last": 1795137356,
       "songs": [
         {
           "artist": "Jesus Christ Taxi Driver",
@@ -6332,11 +6332,11 @@
           "artist": "Jesus Christ Taxi Driver",
           "title": "STUPIDMOTHERFUCKER",
           "album": "Lick My Soul",
-          "count": 33,
+          "count": 34,
           "first": 1788989164,
-          "last": 1794972895,
+          "last": 1795137356,
           "playlists": {
-            "1default": 33
+            "1default": 34
           }
         },
         {
@@ -8225,9 +8225,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12369,
+      "count": 12374,
       "first": 1788901564,
-      "last": 1795137118,
+      "last": 1795138286,
       "songs": [
         {
           "artist": "Tele Novella",
