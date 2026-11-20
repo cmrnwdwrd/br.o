@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-20T01:42:19.774037+00:00",
+  "updatedAt": "2026-11-20T02:07:16.814904+00:00",
   "summary": {
-    "totalPlays": 27112,
+    "totalPlays": 27119,
     "unknownPlays": 1145,
     "uniqueTracks": 2749,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2230,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795138826
+    "lastObserved": 1795140326
   },
   "topSongs": [
     {
@@ -2104,9 +2104,9 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 252,
+      "count": 253,
       "first": 1788902047,
-      "last": 1795066578,
+      "last": 1795140326,
       "songs": [
         {
           "artist": "Atom Son of Man",
@@ -2117,6 +2117,17 @@
           "last": 1795021871,
           "playlists": {
             "1default": 33
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 32,
+          "first": 1788928852,
+          "last": 1795140326,
+          "playlists": {
+            "1default": 32
           }
         },
         {
@@ -2159,17 +2170,6 @@
           "count": 31,
           "first": 1788903565,
           "last": 1794970523,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 31,
-          "first": 1788928852,
-          "last": 1794950575,
           "playlists": {
             "1default": 31
           }
@@ -5364,6 +5364,36 @@
       ]
     },
     {
+      "artist": "Barrie",
+      "count": 65,
+      "first": 1788912861,
+      "last": 1795139860,
+      "songs": [
+        {
+          "artist": "Barrie",
+          "title": "Human Nature",
+          "album": "Happy To Be Here (Ext)",
+          "count": 33,
+          "first": 1788966960,
+          "last": 1795139860,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Barrie",
+          "title": "Hutch",
+          "album": "Happy To Be Here",
+          "count": 32,
+          "first": 1788912861,
+          "last": 1794887373,
+          "playlists": {
+            "1default": 32
+          }
+        }
+      ]
+    },
+    {
       "artist": "Yumi Zouma",
       "count": 65,
       "first": 1789054681,
@@ -5392,61 +5422,84 @@
           }
         }
       ]
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "count": 65,
-      "first": 1789057000,
-      "last": 1795044895,
-      "songs": [
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "brutal",
-          "album": "SOUR",
-          "count": 34,
-          "first": 1789057000,
-          "last": 1795024688,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "all-american bitch",
-          "album": "GUTS",
-          "count": 21,
-          "first": 1789081344,
-          "last": 1795044895,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 21
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "bad idea right?",
-          "album": "GUTS",
-          "count": 9,
-          "first": 1789259545,
-          "last": 1794701335,
-          "playlists": {
-            "texting your situationship": 9
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "the grudge",
-          "album": "GUTS",
-          "count": 1,
-          "first": 1791696144,
-          "last": 1791696144,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        }
-      ]
     }
   ],
   "topAlbums": [
+    {
+      "artist": "Atom Son of Man",
+      "album": "1's a Man, 3's a Band",
+      "count": 190,
+      "first": 1788902047,
+      "last": 1795140326,
+      "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 33,
+          "first": 1788902047,
+          "last": 1795021871,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Junkyard Dog",
+          "album": "1's a Man, 3's a Band",
+          "count": 32,
+          "first": 1788928852,
+          "last": 1795140326,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Love Is Lightning",
+          "album": "1's a Man, 3's a Band",
+          "count": 32,
+          "first": 1789145316,
+          "last": 1794933348,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Rock n' roll (Bonus Track)",
+          "album": "1's a Man, 3's a Band",
+          "count": 31,
+          "first": 1788903730,
+          "last": 1794998489,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Atom Son of Man",
+          "album": "1's a Man, 3's a Band",
+          "count": 31,
+          "first": 1788903565,
+          "last": 1794970523,
+          "playlists": {
+            "1default": 31
+          }
+        },
+        {
+          "artist": "Atom Son of Man",
+          "title": "Vengeful Vulture",
+          "album": "1's a Man, 3's a Band",
+          "count": 31,
+          "first": 1789097184,
+          "last": 1794940611,
+          "playlists": {
+            "1default": 31
+          }
+        }
+      ]
+    },
     {
       "artist": "Opium",
       "album": "PHANTOMS",
@@ -5518,81 +5571,6 @@
           "last": 1794817308,
           "playlists": {
             "1default": 29
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Atom Son of Man",
-      "album": "1's a Man, 3's a Band",
-      "count": 189,
-      "first": 1788902047,
-      "last": 1795021871,
-      "songs": [
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 33,
-          "first": 1788902047,
-          "last": 1795021871,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Love Is Lightning",
-          "album": "1's a Man, 3's a Band",
-          "count": 32,
-          "first": 1789145316,
-          "last": 1794933348,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Rock n' roll (Bonus Track)",
-          "album": "1's a Man, 3's a Band",
-          "count": 31,
-          "first": 1788903730,
-          "last": 1794998489,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Atom Son of Man",
-          "album": "1's a Man, 3's a Band",
-          "count": 31,
-          "first": 1788903565,
-          "last": 1794970523,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Junkyard Dog",
-          "album": "1's a Man, 3's a Band",
-          "count": 31,
-          "first": 1788928852,
-          "last": 1794950575,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Vengeful Vulture",
-          "album": "1's a Man, 3's a Band",
-          "count": 31,
-          "first": 1789097184,
-          "last": 1794940611,
-          "playlists": {
-            "1default": 31
           }
         }
       ]
@@ -8225,9 +8203,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12376,
+      "count": 12383,
       "first": 1788901564,
-      "last": 1795138826,
+      "last": 1795140326,
       "songs": [
         {
           "artist": "Tele Novella",
