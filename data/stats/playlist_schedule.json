@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T22:37:29.077784+00:00",
+  "updatedAt": "2026-11-20T23:02:27.804194+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 37,
-    "sessionCount": 942,
+    "sessionCount": 943,
     "firstObserved": 1788901564,
-    "lastObserved": 1795205852
+    "lastObserved": 1795215678
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 349,
-      "playCount": 12480,
+      "sessionCount": 350,
+      "playCount": 12481,
       "firstObserved": 1788901564,
-      "lastObserved": 1795190800,
-      "typicalStartMinute": 373,
+      "lastObserved": 1795215678,
+      "typicalStartMinute": 376,
       "typicalDurationMinutes": 48,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -141,7 +141,7 @@
           4.3,
           0.0,
           0.0,
-          574.8,
+          579.9,
           600.0,
           171.5,
           0.0,
@@ -661,7 +661,7 @@
           0.0,
           0.0,
           0.0,
-          124.8,
+          129.9,
           150.0,
           150.0,
           150.0,
@@ -1013,7 +1013,7 @@
           1,
           0,
           0,
-          10,
+          11,
           0,
           0,
           0,
@@ -1106,8 +1106,8 @@
         },
         {
           "weekday": 4,
-          "sessions": 56,
-          "typicalStartMinute": 335,
+          "sessions": 57,
+          "typicalStartMinute": 340,
           "typicalDurationMinutes": 47,
           "confidence": "Low"
         },
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1795215678,
+          "end": 1795215984,
+          "durationMinutes": 5,
+          "playCount": 1
+        },
         {
           "start": 1795190800,
           "end": 1795198623,
@@ -1240,12 +1246,6 @@
           "end": 1794956573,
           "durationMinutes": 479,
           "playCount": 129
-        },
-        {
-          "start": 1794911645,
-          "end": 1794913505,
-          "durationMinutes": 31,
-          "playCount": 8
         }
       ]
     },
@@ -22709,7 +22709,7 @@
     {
       "playlist": "escaping from cu boulder by giselle",
       "sessionCount": 11,
-      "playCount": 465,
+      "playCount": 470,
       "firstObserved": 1789154151,
       "lastObserved": 1795205852,
       "typicalStartMinute": 798,
@@ -22836,8 +22836,8 @@
           0.0,
           451.2,
           660.0,
-          640.4,
-          25.0,
+          660.0,
+          26.3,
           0.0,
           0.0,
           0.0,
@@ -23355,9 +23355,9 @@
           165.0,
           165.0,
           165.0,
-          160.3,
-          150.0,
-          25.0,
+          165.0,
+          165.0,
+          26.3,
           0.0,
           0.0,
           0.0,
@@ -23783,9 +23783,9 @@
       "recentSessions": [
         {
           "start": 1795205852,
-          "end": 1795214421,
-          "durationMinutes": 143,
-          "playCount": 36
+          "end": 1795215678,
+          "durationMinutes": 164,
+          "playCount": 41
         },
         {
           "start": 1794601780,
