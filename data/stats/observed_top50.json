@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-20T16:22:21.607432+00:00",
+  "updatedAt": "2026-11-20T16:42:28.201609+00:00",
   "summary": {
-    "totalPlays": 27273,
+    "totalPlays": 27279,
     "unknownPlays": 1145,
     "uniqueTracks": 2750,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2230,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795191621
+    "lastObserved": 1795192905
   },
   "topSongs": [
     {
@@ -406,6 +406,17 @@
       }
     },
     {
+      "artist": "Black Sheep",
+      "title": "The Choice Is Yours (Revisited)",
+      "album": "A Wolf In Sheep's Clothing",
+      "count": 34,
+      "first": 1789062768,
+      "last": 1795192134,
+      "playlists": {
+        "1default": 34
+      }
+    },
+    {
       "artist": "David Bowie",
       "title": "I'm Afraid of Americans (V1)",
       "album": "Legacy (Deluxe Edition)",
@@ -577,17 +588,6 @@
       "count": 34,
       "first": 1788975620,
       "last": 1795119580,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "Sexy Coyote",
-      "title": "Run, Rabbit, Run",
-      "album": "Dead",
-      "count": 34,
-      "first": 1788921570,
-      "last": 1795117918,
       "playlists": {
         "1default": 34
       }
@@ -3057,10 +3057,21 @@
     },
     {
       "artist": "The Cranberries",
-      "count": 106,
+      "count": 107,
       "first": 1788916461,
-      "last": 1795109004,
+      "last": 1795191859,
       "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Linger",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "count": 32,
+          "first": 1789087662,
+          "last": 1795191859,
+          "playlists": {
+            "1default": 32
+          }
+        },
         {
           "artist": "The Cranberries",
           "title": "Ode To My Family",
@@ -3079,17 +3090,6 @@
           "count": 31,
           "first": 1788916461,
           "last": 1795015961,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Linger",
-          "album": "Everybody Else Is Doing It, So Why Can't We?",
-          "count": 31,
-          "first": 1789087662,
-          "last": 1794961961,
           "playlists": {
             "1default": 31
           }
@@ -8201,9 +8201,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12434,
+      "count": 12440,
       "first": 1788901564,
-      "last": 1795191621,
+      "last": 1795192905,
       "songs": [
         {
           "artist": "Tele Novella",
