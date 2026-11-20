@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-20T13:32:31.801709+00:00",
+  "updatedAt": "2026-11-20T13:52:26.961393+00:00",
   "summary": {
-    "totalPlays": 27228,
+    "totalPlays": 27235,
     "unknownPlays": 1145,
     "uniqueTracks": 2750,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2230,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795181532
+    "lastObserved": 1795182731
   },
   "topSongs": [
     {
@@ -266,6 +266,18 @@
       }
     },
     {
+      "artist": "Los Narwhals",
+      "title": "Surfer Babe",
+      "album": "Lagrimas de Agave",
+      "count": 39,
+      "first": 1788972740,
+      "last": 1795181696,
+      "playlists": {
+        "1default": 34,
+        "landlockd surfrock": 5
+      }
+    },
+    {
       "artist": "Arlie",
       "title": "didya think",
       "album": "Wait",
@@ -311,18 +323,6 @@
       "playlists": {
         "1default": 35,
         "jack johnson hackiesack friday afternoon": 3
-      }
-    },
-    {
-      "artist": "Los Narwhals",
-      "title": "Surfer Babe",
-      "album": "Lagrimas de Agave",
-      "count": 38,
-      "first": 1788972740,
-      "last": 1794868342,
-      "playlists": {
-        "1default": 33,
-        "landlockd surfrock": 5
       }
     },
     {
@@ -403,6 +403,17 @@
       "last": 1794862540,
       "playlists": {
         "1default": 35
+      }
+    },
+    {
+      "artist": "botch",
+      "title": "a machine as big as a city with a concert at the center",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 34,
+      "first": 1788972349,
+      "last": 1795182064,
+      "playlists": {
+        "1default": 34
       }
     },
     {
@@ -577,17 +588,6 @@
       "count": 34,
       "first": 1788964915,
       "last": 1795117534,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "TRAP METAL",
-      "album": "TRAP METAL",
-      "count": 34,
-      "first": 1789063011,
-      "last": 1795112725,
       "playlists": {
         "1default": 34
       }
@@ -2805,10 +2805,21 @@
     },
     {
       "artist": "botch",
-      "count": 130,
+      "count": 131,
       "first": 1788920755,
-      "last": 1795137118,
+      "last": 1795182064,
       "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 34,
+          "first": 1788972349,
+          "last": 1795182064,
+          "playlists": {
+            "1default": 34
+          }
+        },
         {
           "artist": "botch",
           "title": "takeadrag",
@@ -2816,17 +2827,6 @@
           "count": 33,
           "first": 1788963025,
           "last": 1795118975,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 33,
-          "first": 1788972349,
-          "last": 1794947520,
           "playlists": {
             "1default": 33
           }
@@ -3673,19 +3673,19 @@
     },
     {
       "artist": "Brandywine",
-      "count": 92,
+      "count": 93,
       "first": 1788965930,
-      "last": 1795041212,
+      "last": 1795181825,
       "songs": [
         {
           "artist": "Brandywine",
           "title": "Friend of Mine",
           "album": "Friend of Mine",
-          "count": 32,
+          "count": 33,
           "first": 1788965930,
-          "last": 1794844885,
+          "last": 1795181825,
           "playlists": {
-            "1default": 32
+            "1default": 33
           }
         },
         {
@@ -7270,6 +7270,37 @@
       ]
     },
     {
+      "artist": "botch",
+      "album": "a machine as big as a city with a concert at the center",
+      "count": 66,
+      "first": 1788972349,
+      "last": 1795182064,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "a machine as big as a city with a concert at the center",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 34,
+          "first": 1788972349,
+          "last": 1795182064,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "underthebasement",
+          "album": "a machine as big as a city with a concert at the center",
+          "count": 32,
+          "first": 1788997306,
+          "last": 1795137118,
+          "playlists": {
+            "1default": 32
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lil Darkie",
       "album": "THE FUTURE IS DARK",
       "count": 66,
@@ -7327,37 +7358,6 @@
           "last": 1795018880,
           "playlists": {
             "1default": 33
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 65,
-      "first": 1788972349,
-      "last": 1795137118,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "a machine as big as a city with a concert at the center",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 33,
-          "first": 1788972349,
-          "last": 1794947520,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "underthebasement",
-          "album": "a machine as big as a city with a concert at the center",
-          "count": 32,
-          "first": 1788997306,
-          "last": 1795137118,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
@@ -8201,9 +8201,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12422,
+      "count": 12429,
       "first": 1788901564,
-      "last": 1795181245,
+      "last": 1795182731,
       "songs": [
         {
           "artist": "Tele Novella",
