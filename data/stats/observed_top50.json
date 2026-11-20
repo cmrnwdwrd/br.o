@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-20T17:52:28.122528+00:00",
+  "updatedAt": "2026-11-20T18:17:23.607236+00:00",
   "summary": {
-    "totalPlays": 27298,
+    "totalPlays": 27305,
     "unknownPlays": 1145,
     "uniqueTracks": 2750,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2230,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795197094
+    "lastObserved": 1795198623
   },
   "topSongs": [
     {
@@ -2390,9 +2390,9 @@
     },
     {
       "artist": "Jack Johnson",
-      "count": 139,
+      "count": 140,
       "first": 1789147116,
-      "last": 1794593936,
+      "last": 1795198623,
       "songs": [
         {
           "artist": "Jack Johnson",
@@ -2649,6 +2649,17 @@
         },
         {
           "artist": "Jack Johnson",
+          "title": "Go On",
+          "album": "Sleep Through The Static",
+          "count": 3,
+          "first": 1792776893,
+          "last": 1795198623,
+          "playlists": {
+            "jack johnson hackiesack friday afternoon": 3
+          }
+        },
+        {
+          "artist": "Jack Johnson",
           "title": "Escape (The Pina Colada Song)",
           "album": "The Secret Life Of Walter Mitty (Music From And Inspired By The Motion Picture)",
           "count": 3,
@@ -2789,25 +2800,14 @@
           "playlists": {
             "jack johnson hackiesack friday afternoon": 2
           }
-        },
-        {
-          "artist": "Jack Johnson",
-          "title": "Go On",
-          "album": "Sleep Through The Static",
-          "count": 2,
-          "first": 1792776893,
-          "last": 1793387439,
-          "playlists": {
-            "jack johnson hackiesack friday afternoon": 2
-          }
         }
       ]
     },
     {
       "artist": "botch",
-      "count": 131,
+      "count": 132,
       "first": 1788920755,
-      "last": 1795182064,
+      "last": 1795198213,
       "songs": [
         {
           "artist": "botch",
@@ -2818,6 +2818,17 @@
           "last": 1795182064,
           "playlists": {
             "1default": 34
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 33,
+          "first": 1788920755,
+          "last": 1795198213,
+          "playlists": {
+            "1default": 33
           }
         },
         {
@@ -2838,17 +2849,6 @@
           "count": 32,
           "first": 1788997306,
           "last": 1795137118,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 32,
-          "first": 1788920755,
-          "last": 1794940272,
           "playlists": {
             "1default": 32
           }
@@ -5220,6 +5220,36 @@
       ]
     },
     {
+      "artist": "U2",
+      "count": 67,
+      "first": 1788921291,
+      "last": 1795197700,
+      "songs": [
+        {
+          "artist": "U2",
+          "title": "Pride (In The Name Of Love) - Remastered 2009",
+          "album": "The Unforgettable Fire (Remastered)",
+          "count": 34,
+          "first": 1788964687,
+          "last": 1795066346,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "U2",
+          "title": "Sunday Bloody Sunday - Remastered 2008",
+          "album": "War (Remastered)",
+          "count": 33,
+          "first": 1788921291,
+          "last": 1795197700,
+          "playlists": {
+            "1default": 33
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "count": 67,
       "first": 1788972865,
@@ -5387,36 +5417,6 @@
           "last": 1795022464,
           "playlists": {
             "1default": 33
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 66,
-      "first": 1788921291,
-      "last": 1795066346,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 34,
-          "first": 1788964687,
-          "last": 1795066346,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 32,
-          "first": 1788921291,
-          "last": 1795015031,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
@@ -7271,6 +7271,37 @@
     },
     {
       "artist": "botch",
+      "album": "pear",
+      "count": 66,
+      "first": 1788920755,
+      "last": 1795198213,
+      "songs": [
+        {
+          "artist": "botch",
+          "title": "gettingyoutobelieve",
+          "album": "pear",
+          "count": 33,
+          "first": 1788920755,
+          "last": 1795198213,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "botch",
+          "title": "takeadrag",
+          "album": "pear",
+          "count": 33,
+          "first": 1788963025,
+          "last": 1795118975,
+          "playlists": {
+            "1default": 33
+          }
+        }
+      ]
+    },
+    {
+      "artist": "botch",
       "album": "a machine as big as a city with a concert at the center",
       "count": 66,
       "first": 1788972349,
@@ -7358,37 +7389,6 @@
           "last": 1795018880,
           "playlists": {
             "1default": 33
-          }
-        }
-      ]
-    },
-    {
-      "artist": "botch",
-      "album": "pear",
-      "count": 65,
-      "first": 1788920755,
-      "last": 1795118975,
-      "songs": [
-        {
-          "artist": "botch",
-          "title": "takeadrag",
-          "album": "pear",
-          "count": 33,
-          "first": 1788963025,
-          "last": 1795118975,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "botch",
-          "title": "gettingyoutobelieve",
-          "album": "pear",
-          "count": 32,
-          "first": 1788920755,
-          "last": 1794940272,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
@@ -8201,9 +8201,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12459,
+      "count": 12465,
       "first": 1788901564,
-      "last": 1795197094,
+      "last": 1795198410,
       "songs": [
         {
           "artist": "Tele Novella",
