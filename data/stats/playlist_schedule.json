@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T11:02:23.669610+00:00",
+  "updatedAt": "2026-11-21T12:17:34.889307+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 37,
-    "sessionCount": 949,
+    "sessionCount": 950,
     "firstObserved": 1788901564,
-    "lastObserved": 1795258099
+    "lastObserved": 1795262092
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 351,
-      "playCount": 12499,
+      "sessionCount": 352,
+      "playCount": 12505,
       "firstObserved": 1788901564,
-      "lastObserved": 1795219462,
-      "typicalStartMinute": 377,
+      "lastObserved": 1795262092,
+      "typicalStartMinute": 376,
       "typicalDurationMinutes": 48,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -155,8 +155,8 @@
           0.0,
           0.0,
           0.0,
-          219.5,
-          596.1,
+          224.7,
+          615.0,
           600.0,
           600.0,
           600.0,
@@ -714,9 +714,9 @@
           0.0,
           26.9,
           68.4,
-          124.2,
-          146.1,
-          150.0,
+          129.4,
+          161.1,
+          153.9,
           150.0,
           150.0,
           150.0,
@@ -1027,7 +1027,7 @@
           0,
           0,
           0,
-          9,
+          10,
           1,
           0,
           0,
@@ -1113,9 +1113,9 @@
         },
         {
           "weekday": 5,
-          "sessions": 39,
-          "typicalStartMinute": 1138,
-          "typicalDurationMinutes": 148,
+          "sessions": 40,
+          "typicalStartMinute": 1307,
+          "typicalDurationMinutes": 95,
           "confidence": "Low"
         },
         {
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1795262092,
+          "end": 1795263536,
+          "durationMinutes": 24,
+          "playCount": 6
+        },
         {
           "start": 1795219462,
           "end": 1795222376,
@@ -1240,12 +1246,6 @@
           "end": 1794982428,
           "durationMinutes": 3,
           "playCount": 1
-        },
-        {
-          "start": 1794961867,
-          "end": 1794980954,
-          "durationMinutes": 318,
-          "playCount": 79
         }
       ]
     },
@@ -14574,7 +14574,7 @@
     {
       "playlist": "gg lofi",
       "sessionCount": 18,
-      "playCount": 37,
+      "playCount": 39,
       "firstObserved": 1789200947,
       "lastObserved": 1795258099,
       "typicalStartMinute": 163,
@@ -14716,7 +14716,7 @@
           0.0,
           464.8,
           638.5,
-          330.3,
+          364.6,
           0.0,
           0.0,
           0.0,
@@ -15273,9 +15273,9 @@
           158.6,
           150.0,
           150.0,
-          106.2,
-          64.0,
-          10.0,
+          115.7,
+          79.0,
+          19.9,
           0.0,
           0.0,
           0.0,
@@ -15648,9 +15648,9 @@
       "recentSessions": [
         {
           "start": 1795258099,
-          "end": 1795260031,
-          "durationMinutes": 32,
-          "playCount": 1
+          "end": 1795262089,
+          "durationMinutes": 66,
+          "playCount": 3
         },
         {
           "start": 1795252586,
