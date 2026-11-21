@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-21T13:47:26.904645+00:00",
+  "updatedAt": "2026-11-21T14:12:18.166218+00:00",
   "summary": {
-    "totalPlays": 27504,
+    "totalPlays": 27512,
     "unknownPlays": 1145,
     "uniqueTracks": 2750,
     "uniqueArtists": 1714,
     "uniqueAlbums": 2230,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795268672
+    "lastObserved": 1795270323
   },
   "topSongs": [
     {
@@ -33,6 +33,18 @@
       "last": 1795121620,
       "playlists": {
         "1default": 43,
+        "anti-capitalist weekday afternoon #1": 13
+      }
+    },
+    {
+      "artist": "Modest Mouse",
+      "title": "Bury Me With It",
+      "album": "Good News For People Who Love Bad News",
+      "count": 55,
+      "first": 1788968149,
+      "last": 1795269671,
+      "playlists": {
+        "1default": 42,
         "anti-capitalist weekday afternoon #1": 13
       }
     },
@@ -71,18 +83,6 @@
       "playlists": {
         "1default": 40,
         "anti-capitalist weekday afternoon #1": 14
-      }
-    },
-    {
-      "artist": "Modest Mouse",
-      "title": "Bury Me With It",
-      "album": "Good News For People Who Love Bad News",
-      "count": 54,
-      "first": 1788968149,
-      "last": 1795110036,
-      "playlists": {
-        "1default": 41,
-        "anti-capitalist weekday afternoon #1": 13
       }
     },
     {
@@ -472,6 +472,39 @@
       }
     },
     {
+      "artist": "Fatboy Slim",
+      "title": "Weapon of Choice",
+      "album": "The Greatest Hits: Why Try Harder",
+      "count": 34,
+      "first": 1788984231,
+      "last": 1795270323,
+      "playlists": {
+        "1default": 34
+      }
+    },
+    {
+      "artist": "PUP",
+      "title": "Kids",
+      "album": "Morbid Stuff",
+      "count": 34,
+      "first": 1788913008,
+      "last": 1795270112,
+      "playlists": {
+        "1default": 34
+      }
+    },
+    {
+      "artist": "Opium",
+      "title": "Dirge",
+      "album": "Dirge",
+      "count": 34,
+      "first": 1789064784,
+      "last": 1795269895,
+      "playlists": {
+        "1default": 34
+      }
+    },
+    {
       "artist": "Psychedelic Porn Crumpets",
       "title": "Mr. Prism",
       "album": "Mr. Prism",
@@ -555,39 +588,6 @@
       "count": 34,
       "first": 1789063255,
       "last": 1795262642,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "The Ephinjis",
-      "title": "Hot to Go!",
-      "album": "Hot to Go!",
-      "count": 34,
-      "first": 1789033065,
-      "last": 1795262452,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "Cage The Elephant",
-      "title": "Social Cues",
-      "album": "Social Cues",
-      "count": 34,
-      "first": 1788990244,
-      "last": 1795220591,
-      "playlists": {
-        "1default": 34
-      }
-    },
-    {
-      "artist": "Hotel Ugly",
-      "title": "Shut up My Moms Calling",
-      "album": "Shut up My Moms Calling",
-      "count": 34,
-      "first": 1788969130,
-      "last": 1795219462,
       "playlists": {
         "1default": 34
       }
@@ -1633,6 +1633,102 @@
       ]
     },
     {
+      "artist": "Opium",
+      "count": 259,
+      "first": 1788927400,
+      "last": 1795269895,
+      "songs": [
+        {
+          "artist": "Opium",
+          "title": "Dirge",
+          "album": "Dirge",
+          "count": 34,
+          "first": 1789064784,
+          "last": 1795269895,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Brainsick",
+          "album": "Brainsick",
+          "count": 34,
+          "first": 1789063255,
+          "last": 1795262642,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "At Your Funeral",
+          "album": "PHANTOMS",
+          "count": 33,
+          "first": 1789109880,
+          "last": 1795100615,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "No Pulse",
+          "album": "PHANTOMS",
+          "count": 32,
+          "first": 1788946866,
+          "last": 1795262237,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Rainfall",
+          "album": "PHANTOMS",
+          "count": 32,
+          "first": 1789064095,
+          "last": 1795085005,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Delusional",
+          "album": "PHANTOMS",
+          "count": 32,
+          "first": 1789057319,
+          "last": 1794941036,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "S T A R V E",
+          "album": "PHANTOMS",
+          "count": 32,
+          "first": 1788927400,
+          "last": 1794933661,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Opium",
+          "title": "Broken Glass",
+          "album": "PHANTOMS",
+          "count": 30,
+          "first": 1788973540,
+          "last": 1795219801,
+          "playlists": {
+            "1default": 30
+          }
+        }
+      ]
+    },
+    {
       "artist": "My Chemical Romance",
       "count": 259,
       "first": 1788965302,
@@ -2000,102 +2096,6 @@
           "last": 1793850154,
           "playlists": {
             "MCR wednesday wind down": 5
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Opium",
-      "count": 258,
-      "first": 1788927400,
-      "last": 1795262642,
-      "songs": [
-        {
-          "artist": "Opium",
-          "title": "Brainsick",
-          "album": "Brainsick",
-          "count": 34,
-          "first": 1789063255,
-          "last": 1795262642,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Dirge",
-          "album": "Dirge",
-          "count": 33,
-          "first": 1789064784,
-          "last": 1795190995,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "At Your Funeral",
-          "album": "PHANTOMS",
-          "count": 33,
-          "first": 1789109880,
-          "last": 1795100615,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "No Pulse",
-          "album": "PHANTOMS",
-          "count": 32,
-          "first": 1788946866,
-          "last": 1795262237,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Rainfall",
-          "album": "PHANTOMS",
-          "count": 32,
-          "first": 1789064095,
-          "last": 1795085005,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Delusional",
-          "album": "PHANTOMS",
-          "count": 32,
-          "first": 1789057319,
-          "last": 1794941036,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "S T A R V E",
-          "album": "PHANTOMS",
-          "count": 32,
-          "first": 1788927400,
-          "last": 1794933661,
-          "playlists": {
-            "1default": 32
-          }
-        },
-        {
-          "artist": "Opium",
-          "title": "Broken Glass",
-          "album": "PHANTOMS",
-          "count": 30,
-          "first": 1788973540,
-          "last": 1795219801,
-          "playlists": {
-            "1default": 30
           }
         }
       ]
@@ -7714,54 +7714,21 @@
       ]
     },
     {
-      "artist": "Metric",
-      "album": "Old World Underground, Where Are You Now?",
-      "count": 62,
-      "first": 1788986736,
-      "last": 1795220113,
-      "songs": [
-        {
-          "artist": "Metric",
-          "title": "Dead Disco",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 52,
-          "first": 1788986736,
-          "last": 1795220113,
-          "playlists": {
-            "1default": 40,
-            "anti-capitalist weekday afternoon #1": 12
-          }
-        },
-        {
-          "artist": "Metric",
-          "title": "Combat Baby",
-          "album": "Old World Underground, Where Are You Now?",
-          "count": 10,
-          "first": 1789258725,
-          "last": 1794706632,
-          "playlists": {
-            "sad girl no friends saturday": 6,
-            "texting your situationship": 4
-          }
-        }
-      ]
-    },
-    {
       "artist": "Modest Mouse",
       "album": "Good News For People Who Love Bad News",
-      "count": 62,
+      "count": 63,
       "first": 1788968149,
-      "last": 1795110036,
+      "last": 1795269671,
       "songs": [
         {
           "artist": "Modest Mouse",
           "title": "Bury Me With It",
           "album": "Good News For People Who Love Bad News",
-          "count": 54,
+          "count": 55,
           "first": 1788968149,
-          "last": 1795110036,
+          "last": 1795269671,
           "playlists": {
-            "1default": 41,
+            "1default": 42,
             "anti-capitalist weekday afternoon #1": 13
           }
         },
@@ -7807,6 +7774,39 @@
           "last": 1792907111,
           "playlists": {
             "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Metric",
+      "album": "Old World Underground, Where Are You Now?",
+      "count": 62,
+      "first": 1788986736,
+      "last": 1795220113,
+      "songs": [
+        {
+          "artist": "Metric",
+          "title": "Dead Disco",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 52,
+          "first": 1788986736,
+          "last": 1795220113,
+          "playlists": {
+            "1default": 40,
+            "anti-capitalist weekday afternoon #1": 12
+          }
+        },
+        {
+          "artist": "Metric",
+          "title": "Combat Baby",
+          "album": "Old World Underground, Where Are You Now?",
+          "count": 10,
+          "first": 1789258725,
+          "last": 1794706632,
+          "playlists": {
+            "sad girl no friends saturday": 6,
+            "texting your situationship": 4
           }
         }
       ]
@@ -8267,9 +8267,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12515,
+      "count": 12523,
       "first": 1788901564,
-      "last": 1795268672,
+      "last": 1795270323,
       "songs": [
         {
           "artist": "Tele Novella",
@@ -8280,6 +8280,17 @@
           "last": 1795121620,
           "playlists": {
             "1default": 43
+          }
+        },
+        {
+          "artist": "Modest Mouse",
+          "title": "Bury Me With It",
+          "album": "Good News For People Who Love Bad News",
+          "count": 42,
+          "first": 1788968149,
+          "last": 1795269671,
+          "playlists": {
+            "1default": 42
           }
         },
         {
@@ -8300,17 +8311,6 @@
           "count": 41,
           "first": 1789015368,
           "last": 1795265360,
-          "playlists": {
-            "1default": 41
-          }
-        },
-        {
-          "artist": "Modest Mouse",
-          "title": "Bury Me With It",
-          "album": "Good News For People Who Love Bad News",
-          "count": 41,
-          "first": 1788968149,
-          "last": 1795110036,
           "playlists": {
             "1default": 41
           }
