@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T05:52:26.401234+00:00",
+  "updatedAt": "2026-11-21T07:02:28.027614+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 37,
-    "sessionCount": 946,
+    "sessionCount": 947,
     "firstObserved": 1788901564,
-    "lastObserved": 1795232880
+    "lastObserved": 1795241216
   },
   "playlists": [
     {
@@ -7334,12 +7334,12 @@
     },
     {
       "playlist": "for the girls driving 85",
-      "sessionCount": 21,
-      "playCount": 928,
+      "sessionCount": 22,
+      "playCount": 942,
       "firstObserved": 1789097452,
-      "lastObserved": 1795149950,
-      "typicalStartMinute": 1336,
-      "typicalDurationMinutes": 185,
+      "lastObserved": 1795241216,
+      "typicalStartMinute": 1338,
+      "typicalDurationMinutes": 184,
       "confidence": "Medium",
       "heatmapMinutes": [
         [
@@ -7470,10 +7470,10 @@
           0.0,
           0.0,
           0.0,
-          564.8
+          617.9
         ],
         [
-          600.0,
+          604.8,
           600.0,
           178.1,
           0.0,
@@ -8011,13 +8011,13 @@
           0.0,
           0.0,
           0.0,
-          114.8,
-          150.0,
-          150.0,
-          150.0
+          122.9,
+          165.0,
+          165.0,
+          165.0
         ],
         [
-          150.0,
+          154.8,
           150.0,
           150.0,
           150.0,
@@ -8342,7 +8342,7 @@
           0,
           0,
           0,
-          10
+          11
         ],
         [
           0,
@@ -8407,13 +8407,19 @@
         },
         {
           "weekday": 4,
-          "sessions": 10,
+          "sessions": 11,
           "typicalStartMinute": 1383,
           "typicalDurationMinutes": 194,
           "confidence": "High"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1795241216,
+          "end": 1795244689,
+          "durationMinutes": 58,
+          "playCount": 14
+        },
         {
           "start": 1795149950,
           "end": 1795158926,
@@ -8527,12 +8533,6 @@
           "end": 1789713127,
           "durationMinutes": 181,
           "playCount": 41
-        },
-        {
-          "start": 1789189432,
-          "end": 1789200946,
-          "durationMinutes": 192,
-          "playCount": 51
         }
       ]
     },
