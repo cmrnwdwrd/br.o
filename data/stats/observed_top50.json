@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-22T19:37:08.156864+00:00",
+  "updatedAt": "2026-11-22T20:27:06.557916+00:00",
   "summary": {
-    "totalPlays": 27951,
+    "totalPlays": 27966,
     "unknownPlays": 1145,
     "uniqueTracks": 2752,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795376215
+    "lastObserved": 1795379050
   },
   "topSongs": [
     {
@@ -350,6 +350,17 @@
       }
     },
     {
+      "artist": "The Salesmen",
+      "title": "Commodify",
+      "album": "Commodify",
+      "count": 36,
+      "first": 1788917230,
+      "last": 1795378675,
+      "playlists": {
+        "1default": 36
+      }
+    },
+    {
       "artist": "Lucius",
       "title": "Old Tape (feat. Adam Granduciel) - Single Edit",
       "album": "Old Tape (feat. Adam Granduciel)",
@@ -381,6 +392,17 @@
       "playlists": {
         "1default": 33,
         "country music was never for republicans": 3
+      }
+    },
+    {
+      "artist": "Donovan",
+      "title": "Sunshine Superman",
+      "album": "Sunshine Superman",
+      "count": 35,
+      "first": 1788920950,
+      "last": 1795376828,
+      "playlists": {
+        "1default": 35
       }
     },
     {
@@ -566,28 +588,6 @@
       "count": 35,
       "first": 1788915475,
       "last": 1795268488,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "botch",
-      "title": "a machine as big as a city with a concert at the center",
-      "album": "a machine as big as a city with a concert at the center",
-      "count": 35,
-      "first": 1788972349,
-      "last": 1795268074,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Blue October",
-      "title": "Into The Ocean",
-      "album": "Foiled",
-      "count": 35,
-      "first": 1788970549,
-      "last": 1795265752,
       "playlists": {
         "1default": 35
       }
@@ -1634,9 +1634,9 @@
     },
     {
       "artist": "Opium",
-      "count": 260,
+      "count": 261,
       "first": 1788927400,
-      "last": 1795346727,
+      "last": 1795376263,
       "songs": [
         {
           "artist": "Opium",
@@ -1675,11 +1675,11 @@
           "artist": "Opium",
           "title": "No Pulse",
           "album": "PHANTOMS",
-          "count": 32,
+          "count": 33,
           "first": 1788946866,
-          "last": 1795262237,
+          "last": 1795376263,
           "playlists": {
-            "1default": 32
+            "1default": 33
           }
         },
         {
@@ -3414,6 +3414,47 @@
       ]
     },
     {
+      "artist": "The Salesmen",
+      "count": 101,
+      "first": 1788917230,
+      "last": 1795378675,
+      "songs": [
+        {
+          "artist": "The Salesmen",
+          "title": "Commodify",
+          "album": "Commodify",
+          "count": 36,
+          "first": 1788917230,
+          "last": 1795378675,
+          "playlists": {
+            "1default": 36
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 33,
+          "first": 1788970790,
+          "last": 1795040280,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "The Salesmen",
+          "title": "Tell Me That You Like It",
+          "album": "Tell Me That You Like It",
+          "count": 32,
+          "first": 1789050580,
+          "last": 1795221888,
+          "playlists": {
+            "1default": 32
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 101,
       "first": 1789021318,
@@ -3503,47 +3544,6 @@
           "last": 1795018880,
           "playlists": {
             "1default": 33
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Salesmen",
-      "count": 100,
-      "first": 1788917230,
-      "last": 1795221888,
-      "songs": [
-        {
-          "artist": "The Salesmen",
-          "title": "Commodify",
-          "album": "Commodify",
-          "count": 35,
-          "first": 1788917230,
-          "last": 1795195867,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 33,
-          "first": 1788970790,
-          "last": 1795040280,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "The Salesmen",
-          "title": "Tell Me That You Like It",
-          "album": "Tell Me That You Like It",
-          "count": 32,
-          "first": 1789050580,
-          "last": 1795221888,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
@@ -5361,10 +5361,21 @@
     },
     {
       "artist": "Pixies",
-      "count": 69,
+      "count": 70,
       "first": 1788972865,
-      "last": 1795278304,
+      "last": 1795378222,
       "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 33,
+          "first": 1789214521,
+          "last": 1795378222,
+          "playlists": {
+            "1default": 33
+          }
+        },
         {
           "artist": "Pixies",
           "title": "Here Comes Your Man",
@@ -5374,17 +5385,6 @@
           "last": 1795278304,
           "playlists": {
             "1default": 33
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 32,
-          "first": 1789214521,
-          "last": 1795221715,
-          "playlists": {
-            "1default": 32
           }
         },
         {
@@ -5472,83 +5472,72 @@
       ]
     },
     {
-      "artist": "Olivia Rodrigo",
+      "artist": "Orion Sun",
       "count": 67,
-      "first": 1789057000,
-      "last": 1795327864,
+      "first": 1788985030,
+      "last": 1795378883,
       "songs": [
         {
-          "artist": "Olivia Rodrigo",
-          "title": "brutal",
-          "album": "SOUR",
-          "count": 35,
-          "first": 1789057000,
-          "last": 1795277490,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "all-american bitch",
-          "album": "GUTS",
-          "count": 21,
-          "first": 1789081344,
-          "last": 1795044895,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 21
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "bad idea right?",
-          "album": "GUTS",
-          "count": 9,
-          "first": 1789259545,
-          "last": 1794701335,
-          "playlists": {
-            "texting your situationship": 9
-          }
-        },
-        {
-          "artist": "Olivia Rodrigo",
-          "title": "the grudge",
-          "album": "GUTS",
-          "count": 2,
-          "first": 1791696144,
-          "last": 1795327864,
-          "playlists": {
-            "sad girl no friends saturday": 2
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 67,
-      "first": 1788921291,
-      "last": 1795197700,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
+          "artist": "Orion Sun",
+          "title": "Antidote",
+          "album": "A Collection of Fleeting Moments and Daydreams",
           "count": 34,
-          "first": 1788964687,
-          "last": 1795066346,
+          "first": 1788987870,
+          "last": 1795378883,
           "playlists": {
             "1default": 34
           }
         },
         {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
+          "artist": "Orion Sun",
+          "title": "Ne Me Quitte Pas (Don't Leave Me)",
+          "album": "Hold Space For Me",
           "count": 33,
-          "first": 1788921291,
-          "last": 1795197700,
+          "first": 1788985030,
+          "last": 1795022464,
           "playlists": {
             "1default": 33
+          }
+        }
+      ]
+    },
+    {
+      "artist": "Beach Bunny",
+      "count": 67,
+      "first": 1788966457,
+      "last": 1795377686,
+      "songs": [
+        {
+          "artist": "Beach Bunny",
+          "title": "Entropy",
+          "album": "Emotional Creature",
+          "count": 33,
+          "first": 1789230720,
+          "last": 1795377686,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Oxygen",
+          "album": "Oxygen",
+          "count": 32,
+          "first": 1788966457,
+          "last": 1795197515,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Beach Bunny",
+          "title": "Prom Queen",
+          "album": "Prom Queen",
+          "count": 2,
+          "first": 1793511391,
+          "last": 1794721741,
+          "playlists": {
+            "sad girl no friends saturday": 2
           }
         }
       ]
@@ -5633,9 +5622,9 @@
     {
       "artist": "Opium",
       "album": "PHANTOMS",
-      "count": 192,
+      "count": 193,
       "first": 1788927400,
-      "last": 1795346727,
+      "last": 1795376263,
       "songs": [
         {
           "artist": "Opium",
@@ -5652,11 +5641,11 @@
           "artist": "Opium",
           "title": "No Pulse",
           "album": "PHANTOMS",
-          "count": 32,
+          "count": 33,
           "first": 1788946866,
-          "last": 1795262237,
+          "last": 1795376263,
           "playlists": {
-            "1default": 32
+            "1default": 33
           }
         },
         {
@@ -7541,10 +7530,21 @@
     {
       "artist": "Pixies",
       "album": "Doolittle",
-      "count": 66,
+      "count": 67,
       "first": 1788972865,
-      "last": 1795278304,
+      "last": 1795378222,
       "songs": [
+        {
+          "artist": "Pixies",
+          "title": "Debaser",
+          "album": "Doolittle",
+          "count": 33,
+          "first": 1789214521,
+          "last": 1795378222,
+          "playlists": {
+            "1default": 33
+          }
+        },
         {
           "artist": "Pixies",
           "title": "Here Comes Your Man",
@@ -7554,17 +7554,6 @@
           "last": 1795278304,
           "playlists": {
             "1default": 33
-          }
-        },
-        {
-          "artist": "Pixies",
-          "title": "Debaser",
-          "album": "Doolittle",
-          "count": 32,
-          "first": 1789214521,
-          "last": 1795221715,
-          "playlists": {
-            "1default": 32
           }
         },
         {
@@ -8022,6 +8011,59 @@
       ]
     },
     {
+      "artist": "Chappell Roan",
+      "album": "The Rise and Fall of a Midwest Princess",
+      "count": 56,
+      "first": 1788973776,
+      "last": 1795376605,
+      "songs": [
+        {
+          "artist": "Chappell Roan",
+          "title": "My Kink Is Karma",
+          "album": "The Rise and Fall of a Midwest Princess",
+          "count": 32,
+          "first": 1788973776,
+          "last": 1795376605,
+          "playlists": {
+            "1default": 32
+          }
+        },
+        {
+          "artist": "Chappell Roan",
+          "title": "Super Graphic Ultra Modern Girl",
+          "album": "The Rise and Fall of a Midwest Princess",
+          "count": 21,
+          "first": 1789428359,
+          "last": 1795045578,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 21
+          }
+        },
+        {
+          "artist": "Chappell Roan",
+          "title": "Pink Pony Club",
+          "album": "The Rise and Fall of a Midwest Princess",
+          "count": 2,
+          "first": 1789883353,
+          "last": 1793509800,
+          "playlists": {
+            "sad girl no friends saturday": 2
+          }
+        },
+        {
+          "artist": "Chappell Roan",
+          "title": "Red Wine Supernova",
+          "album": "The Rise and Fall of a Midwest Princess",
+          "count": 1,
+          "first": 1792902960,
+          "last": 1792902960,
+          "playlists": {
+            "sad girl no friends saturday": 1
+          }
+        }
+      ]
+    },
+    {
       "artist": "Tele Novella",
       "album": "Poet's Tooth",
       "count": 56,
@@ -8180,59 +8222,6 @@
       ]
     },
     {
-      "artist": "Chappell Roan",
-      "album": "The Rise and Fall of a Midwest Princess",
-      "count": 55,
-      "first": 1788973776,
-      "last": 1795085275,
-      "songs": [
-        {
-          "artist": "Chappell Roan",
-          "title": "My Kink Is Karma",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 31,
-          "first": 1788973776,
-          "last": 1795085275,
-          "playlists": {
-            "1default": 31
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Super Graphic Ultra Modern Girl",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 21,
-          "first": 1789428359,
-          "last": 1795045578,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 21
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Pink Pony Club",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 2,
-          "first": 1789883353,
-          "last": 1793509800,
-          "playlists": {
-            "sad girl no friends saturday": 2
-          }
-        },
-        {
-          "artist": "Chappell Roan",
-          "title": "Red Wine Supernova",
-          "album": "The Rise and Fall of a Midwest Princess",
-          "count": 1,
-          "first": 1792902960,
-          "last": 1792902960,
-          "playlists": {
-            "sad girl no friends saturday": 1
-          }
-        }
-      ]
-    },
-    {
       "artist": "Siete Catorce",
       "album": "Cruda",
       "count": 55,
@@ -8288,9 +8277,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12639,
+      "count": 12654,
       "first": 1788901564,
-      "last": 1795375997,
+      "last": 1795379050,
       "songs": [
         {
           "artist": "Tele Novella",
