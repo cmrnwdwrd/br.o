@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T16:07:15.472787+00:00",
+  "updatedAt": "2026-11-22T16:47:08.824533+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 37,
-    "sessionCount": 968,
+    "sessionCount": 969,
     "firstObserved": 1788901564,
-    "lastObserved": 1795362580
+    "lastObserved": 1795365445
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 356,
-      "playCount": 12649,
+      "sessionCount": 357,
+      "playCount": 12652,
       "firstObserved": 1788901564,
-      "lastObserved": 1795361891,
-      "typicalStartMinute": 378,
+      "lastObserved": 1795365445,
+      "typicalStartMinute": 382,
       "typicalDurationMinutes": 48,
       "confidence": "Low",
       "heatmapMinutes": [
@@ -186,7 +186,7 @@
           0.0,
           26.6,
           98.9,
-          31.7,
+          42.8,
           0.0,
           0.0,
           272.1,
@@ -831,8 +831,8 @@
           24.1,
           0.0,
           0.0,
-          30.5,
-          1.1,
+          38.1,
+          4.7,
           0.0,
           0.0,
           0.0,
@@ -1058,7 +1058,7 @@
           0,
           8,
           11,
-          7,
+          8,
           0,
           0,
           10,
@@ -1120,13 +1120,19 @@
         },
         {
           "weekday": 6,
-          "sessions": 52,
-          "typicalStartMinute": 460,
-          "typicalDurationMinutes": 10,
+          "sessions": 53,
+          "typicalStartMinute": 464,
+          "typicalDurationMinutes": 11,
           "confidence": "Low"
         }
       ],
       "recentSessions": [
+        {
+          "start": 1795365445,
+          "end": 1795366115,
+          "durationMinutes": 11,
+          "playCount": 3
+        },
         {
           "start": 1795361891,
           "end": 1795362580,
@@ -1240,12 +1246,6 @@
           "end": 1795043018,
           "durationMinutes": 103,
           "playCount": 26
-        },
-        {
-          "start": 1795014192,
-          "end": 1795027136,
-          "durationMinutes": 216,
-          "playCount": 55
         }
       ]
     },
@@ -33032,7 +33032,7 @@
     {
       "playlist": "disco flow state by billie lyle",
       "sessionCount": 11,
-      "playCount": 118,
+      "playCount": 124,
       "firstObserved": 1789310850,
       "lastObserved": 1795362580,
       "typicalStartMinute": 527,
@@ -33205,7 +33205,7 @@
           0.0,
           0.0,
           140.7,
-          397.5,
+          424.0,
           0.0,
           0.0,
           0.0,
@@ -33848,9 +33848,9 @@
           0.0,
           0.0,
           140.7,
-          160.9,
-          150.0,
-          86.6,
+          165.0,
+          165.0,
+          94.0,
           0.0,
           0.0,
           0.0,
@@ -34106,9 +34106,9 @@
       "recentSessions": [
         {
           "start": 1795362580,
-          "end": 1795363855,
-          "durationMinutes": 21,
-          "playCount": 5
+          "end": 1795365445,
+          "durationMinutes": 48,
+          "playCount": 11
         },
         {
           "start": 1794757607,
