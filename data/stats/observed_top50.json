@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-22T15:42:08.895704+00:00",
+  "updatedAt": "2026-11-22T16:02:14.450620+00:00",
   "summary": {
-    "totalPlays": 27896,
+    "totalPlays": 27901,
     "unknownPlays": 1145,
     "uniqueTracks": 2751,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795362040
+    "lastObserved": 1795363240
   },
   "topSongs": [
     {
@@ -3057,10 +3057,21 @@
     },
     {
       "artist": "The Cranberries",
-      "count": 109,
+      "count": 110,
       "first": 1788916461,
-      "last": 1795345072,
+      "last": 1795362274,
       "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Zombie",
+          "album": "No Need To Argue",
+          "count": 33,
+          "first": 1788916461,
+          "last": 1795362274,
+          "playlists": {
+            "1default": 33
+          }
+        },
         {
           "artist": "The Cranberries",
           "title": "Linger",
@@ -3070,17 +3081,6 @@
           "last": 1795345072,
           "playlists": {
             "1default": 33
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Zombie",
-          "album": "No Need To Argue",
-          "count": 32,
-          "first": 1788916461,
-          "last": 1795215678,
-          "playlists": {
-            "1default": 32
           }
         },
         {
@@ -8288,9 +8288,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12634,
+      "count": 12635,
       "first": 1788901564,
-      "last": 1795362040,
+      "last": 1795362274,
       "songs": [
         {
           "artist": "Tele Novella",
