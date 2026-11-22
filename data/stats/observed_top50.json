@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-22T23:07:17.241173+00:00",
+  "updatedAt": "2026-11-22T23:17:10.552800+00:00",
   "summary": {
-    "totalPlays": 28004,
+    "totalPlays": 28006,
     "unknownPlays": 1145,
     "uniqueTracks": 2752,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795388819
+    "lastObserved": 1795389332
   },
   "topSongs": [
     {
@@ -395,6 +395,17 @@
       }
     },
     {
+      "artist": "The Ephinjis",
+      "title": "Knives",
+      "album": "Knives",
+      "count": 35,
+      "first": 1788973998,
+      "last": 1795389079,
+      "playlists": {
+        "1default": 35
+      }
+    },
+    {
       "artist": "Vampire Weekend",
       "title": "How Long?",
       "album": "Father of the Bride",
@@ -577,17 +588,6 @@
       "count": 35,
       "first": 1788914259,
       "last": 1795285538,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "title": "brutal",
-      "album": "SOUR",
-      "count": 35,
-      "first": 1789057000,
-      "last": 1795277490,
       "playlists": {
         "1default": 35
       }
@@ -3590,6 +3590,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 98,
+      "first": 1788973998,
+      "last": 1795389079,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 35,
+          "first": 1788973998,
+          "last": 1795389079,
+          "playlists": {
+            "1default": 35
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 34,
+          "first": 1789033065,
+          "last": 1795262452,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 29,
+          "first": 1789226629,
+          "last": 1795040017,
+          "playlists": {
+            "1default": 29
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "count": 97,
       "first": 1788975620,
@@ -3626,47 +3667,6 @@
           "last": 1795219627,
           "playlists": {
             "1default": 31
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 97,
-      "first": 1788973998,
-      "last": 1795262452,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 34,
-          "first": 1789033065,
-          "last": 1795262452,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 34,
-          "first": 1788973998,
-          "last": 1795025966,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 29,
-          "first": 1789226629,
-          "last": 1795040017,
-          "playlists": {
-            "1default": 29
           }
         }
       ]
@@ -8277,9 +8277,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12692,
+      "count": 12694,
       "first": 1788901564,
-      "last": 1795388819,
+      "last": 1795389332,
       "songs": [
         {
           "artist": "Tele Novella",
