@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-23T13:31:49.429124+00:00",
+  "updatedAt": "2026-11-23T13:52:09.303058+00:00",
   "summary": {
-    "totalPlays": 28181,
+    "totalPlays": 28188,
     "unknownPlays": 1146,
     "uniqueTracks": 2752,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795440545
+    "lastObserved": 1795441881
   },
   "topSongs": [
     {
@@ -8467,10 +8467,21 @@
     },
     {
       "playlist": "carhartts",
-      "count": 1267,
+      "count": 1274,
       "first": 1788955289,
-      "last": 1795440545,
+      "last": 1795441881,
       "songs": [
+        {
+          "artist": "The 502s",
+          "title": "Just A Little While",
+          "album": "Could It Get Better Than This",
+          "count": 5,
+          "first": 1789043335,
+          "last": 1795440735,
+          "playlists": {
+            "carhartts": 5
+          }
+        },
         {
           "artist": "Yoke Lore",
           "title": "Dead Ringer",
@@ -8511,17 +8522,6 @@
           "count": 5,
           "first": 1789474294,
           "last": 1795099875,
-          "playlists": {
-            "carhartts": 5
-          }
-        },
-        {
-          "artist": "flipturn",
-          "title": "Playground",
-          "album": "Playground",
-          "count": 5,
-          "first": 1789565530,
-          "last": 1795099386,
           "playlists": {
             "carhartts": 5
           }
