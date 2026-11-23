@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-23T17:12:10.139573+00:00",
+  "updatedAt": "2026-11-23T17:32:04.333039+00:00",
   "summary": {
-    "totalPlays": 28232,
+    "totalPlays": 28237,
     "unknownPlays": 1146,
     "uniqueTracks": 2752,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795453886
+    "lastObserved": 1795455029
   },
   "topSongs": [
     {
@@ -194,6 +194,18 @@
       }
     },
     {
+      "artist": "The Cardigans",
+      "title": "Step On Me",
+      "album": "First Band On The Moon (Remastered)",
+      "count": 44,
+      "first": 1788985233,
+      "last": 1795454484,
+      "playlists": {
+        "1default": 39,
+        "texting your situationship": 5
+      }
+    },
+    {
       "artist": "Nat & Alex Wolff",
       "title": "Rollin' Around",
       "album": "Public Places",
@@ -215,18 +227,6 @@
       "playlists": {
         "1default": 37,
         "landlockd surfrock": 6
-      }
-    },
-    {
-      "artist": "The Cardigans",
-      "title": "Step On Me",
-      "album": "First Band On The Moon (Remastered)",
-      "count": 43,
-      "first": 1788985233,
-      "last": 1795340501,
-      "playlists": {
-        "1default": 38,
-        "texting your situationship": 5
       }
     },
     {
@@ -359,6 +359,39 @@
       "playlists": {
         "1default": 34,
         "jack johnson hackiesack friday afternoon": 3
+      }
+    },
+    {
+      "artist": "The Ephinjis",
+      "title": "Hot to Go!",
+      "album": "Hot to Go!",
+      "count": 36,
+      "first": 1789033065,
+      "last": 1795455029,
+      "playlists": {
+        "1default": 36
+      }
+    },
+    {
+      "artist": "Tōth",
+      "title": "Song to Make You Fall in Love With Me",
+      "album": "Practice Magic and Seek Professional Help When Necessary",
+      "count": 36,
+      "first": 1788996775,
+      "last": 1795454717,
+      "playlists": {
+        "1default": 36
+      }
+    },
+    {
+      "artist": "Lil Darkie",
+      "title": "THE FUTURE IS DARK",
+      "album": "THE FUTURE IS DARK",
+      "count": 36,
+      "first": 1788913884,
+      "last": 1795454336,
+      "playlists": {
+        "1default": 36
       }
     },
     {
@@ -556,39 +589,6 @@
       "count": 35,
       "first": 1788911837,
       "last": 1795448875,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Lil Darkie",
-      "title": "THE WORLD IS ENDING",
-      "album": "THE WORLD IS ENDING",
-      "count": 35,
-      "first": 1789033665,
-      "last": 1795446662,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Twen",
-      "title": "One Stop Shop (For A Fading Revolution)",
-      "album": "One Stop Shop",
-      "count": 35,
-      "first": 1789056787,
-      "last": 1795430305,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Gorillaz, Beck",
-      "title": "The Valley of The Pagans (feat. Beck)",
-      "album": "Song Machine, Season One: Strange Timez (Deluxe)",
-      "count": 35,
-      "first": 1789062154,
-      "last": 1795426812,
       "playlists": {
         "1default": 35
       }
@@ -1089,9 +1089,9 @@
     },
     {
       "artist": "Lil Darkie",
-      "count": 539,
+      "count": 540,
       "first": 1788910325,
-      "last": 1795447075,
+      "last": 1795454336,
       "songs": [
         {
           "artist": "Lil Darkie",
@@ -1107,22 +1107,22 @@
         },
         {
           "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 36,
+          "first": 1788913884,
+          "last": 1795454336,
+          "playlists": {
+            "1default": 36
+          }
+        },
+        {
+          "artist": "Lil Darkie",
           "title": "THE WORLD IS ENDING",
           "album": "THE WORLD IS ENDING",
           "count": 35,
           "first": 1789033665,
           "last": 1795446662,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 35,
-          "first": 1788913884,
-          "last": 1795361891,
           "playlists": {
             "1default": 35
           }
@@ -3497,6 +3497,47 @@
       ]
     },
     {
+      "artist": "The Ephinjis",
+      "count": 101,
+      "first": 1788973998,
+      "last": 1795455029,
+      "songs": [
+        {
+          "artist": "The Ephinjis",
+          "title": "Hot to Go!",
+          "album": "Hot to Go!",
+          "count": 36,
+          "first": 1789033065,
+          "last": 1795455029,
+          "playlists": {
+            "1default": 36
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Knives",
+          "album": "Knives",
+          "count": 35,
+          "first": 1788973998,
+          "last": 1795389079,
+          "playlists": {
+            "1default": 35
+          }
+        },
+        {
+          "artist": "The Ephinjis",
+          "title": "Humungus Fungus",
+          "album": "Part V",
+          "count": 30,
+          "first": 1789226629,
+          "last": 1795413069,
+          "playlists": {
+            "1default": 30
+          }
+        }
+      ]
+    },
+    {
       "artist": "MIMIDEATH",
       "count": 101,
       "first": 1789021318,
@@ -3586,47 +3627,6 @@
           "last": 1795344963,
           "playlists": {
             "1default": 32
-          }
-        }
-      ]
-    },
-    {
-      "artist": "The Ephinjis",
-      "count": 100,
-      "first": 1788973998,
-      "last": 1795413069,
-      "songs": [
-        {
-          "artist": "The Ephinjis",
-          "title": "Hot to Go!",
-          "album": "Hot to Go!",
-          "count": 35,
-          "first": 1789033065,
-          "last": 1795396440,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Knives",
-          "album": "Knives",
-          "count": 35,
-          "first": 1788973998,
-          "last": 1795389079,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "The Ephinjis",
-          "title": "Humungus Fungus",
-          "album": "Part V",
-          "count": 30,
-          "first": 1789226629,
-          "last": 1795413069,
-          "playlists": {
-            "1default": 30
           }
         }
       ]
@@ -7392,6 +7392,37 @@
       ]
     },
     {
+      "artist": "Lil Darkie",
+      "album": "THE FUTURE IS DARK",
+      "count": 69,
+      "first": 1788913884,
+      "last": 1795454336,
+      "songs": [
+        {
+          "artist": "Lil Darkie",
+          "title": "THE FUTURE IS DARK",
+          "album": "THE FUTURE IS DARK",
+          "count": 36,
+          "first": 1788913884,
+          "last": 1795454336,
+          "playlists": {
+            "1default": 36
+          }
+        },
+        {
+          "artist": "Lil Darkie",
+          "title": "show me a sign",
+          "album": "THE FUTURE IS DARK",
+          "count": 33,
+          "first": 1788975770,
+          "last": 1795340224,
+          "playlists": {
+            "1default": 33
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "pear",
       "count": 69,
@@ -7509,37 +7540,6 @@
           "count": 33,
           "first": 1788997306,
           "last": 1795362040,
-          "playlists": {
-            "1default": 33
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lil Darkie",
-      "album": "THE FUTURE IS DARK",
-      "count": 68,
-      "first": 1788913884,
-      "last": 1795361891,
-      "songs": [
-        {
-          "artist": "Lil Darkie",
-          "title": "THE FUTURE IS DARK",
-          "album": "THE FUTURE IS DARK",
-          "count": 35,
-          "first": 1788913884,
-          "last": 1795361891,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "Lil Darkie",
-          "title": "show me a sign",
-          "album": "THE FUTURE IS DARK",
-          "count": 33,
-          "first": 1788975770,
-          "last": 1795340224,
           "playlists": {
             "1default": 33
           }
@@ -8279,9 +8279,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12854,
+      "count": 12859,
       "first": 1788901564,
-      "last": 1795453886,
+      "last": 1795455029,
       "songs": [
         {
           "artist": "Tele Novella",
