@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-23T20:21:50.969097+00:00",
+  "updatedAt": "2026-11-23T20:41:51.338917+00:00",
   "summary": {
-    "totalPlays": 28282,
+    "totalPlays": 28287,
     "unknownPlays": 1146,
     "uniqueTracks": 2753,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795465262
+    "lastObserved": 1795466360
   },
   "topSongs": [
     {
@@ -362,6 +362,17 @@
       }
     },
     {
+      "artist": "Donovan",
+      "title": "Sunshine Superman",
+      "album": "Sunshine Superman",
+      "count": 36,
+      "first": 1788920950,
+      "last": 1795465471,
+      "playlists": {
+        "1default": 36
+      }
+    },
+    {
       "artist": "Moby",
       "title": "Porcelain",
       "album": "Play & Play: B Sides",
@@ -516,6 +527,28 @@
       }
     },
     {
+      "artist": "Bell X1",
+      "title": "The Great Defector",
+      "album": "Blue Lights on the Runway",
+      "count": 35,
+      "first": 1788927733,
+      "last": 1795466080,
+      "playlists": {
+        "1default": 35
+      }
+    },
+    {
+      "artist": "Richy Mitch & The Coal Miners",
+      "title": "WET SOCKS",
+      "album": "Subliming",
+      "count": 35,
+      "first": 1788926758,
+      "last": 1795465930,
+      "playlists": {
+        "1default": 35
+      }
+    },
+    {
       "artist": "Cage The Elephant",
       "title": "Skin and Bones - Mix 2020",
       "album": "Skin and Bones",
@@ -555,39 +588,6 @@
       "count": 35,
       "first": 1788962598,
       "last": 1795462453,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Lorde",
-      "title": "Ribs",
-      "album": "Pure Heroine",
-      "count": 35,
-      "first": 1789222724,
-      "last": 1795460811,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Crumb",
-      "title": "Locket",
-      "album": "Locket",
-      "count": 35,
-      "first": 1788983912,
-      "last": 1795460350,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Jamie T",
-      "title": "Zombie",
-      "album": "Zombie",
-      "count": 35,
-      "first": 1789209729,
-      "last": 1795456938,
       "playlists": {
         "1default": 35
       }
@@ -1730,10 +1730,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 264,
+      "count": 265,
       "first": 1788902047,
-      "last": 1795458363,
+      "last": 1795465665,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Think Too Much",
+          "album": "Think Too Much",
+          "count": 34,
+          "first": 1788964420,
+          "last": 1795465665,
+          "playlists": {
+            "1default": 34
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Junkyard Dog",
@@ -1754,17 +1765,6 @@
           "last": 1795384578,
           "playlists": {
             "1default": 34
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Think Too Much",
-          "album": "Think Too Much",
-          "count": 33,
-          "first": 1788964420,
-          "last": 1795423461,
-          "playlists": {
-            "1default": 33
           }
         },
         {
@@ -3496,6 +3496,47 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "count": 101,
+      "first": 1788947368,
+      "last": 1795466360,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 35,
+          "first": 1788947368,
+          "last": 1795264283,
+          "playlists": {
+            "1default": 35
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 34,
+          "first": 1788969485,
+          "last": 1795411912,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 32,
+          "first": 1789086174,
+          "last": 1795466360,
+          "playlists": {
+            "1default": 32
+          }
+        }
+      ]
+    },
+    {
       "artist": "The Ephinjis",
       "count": 101,
       "first": 1788973998,
@@ -3626,47 +3667,6 @@
           "last": 1795344963,
           "playlists": {
             "1default": 32
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "count": 100,
-      "first": 1788947368,
-      "last": 1795411912,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 35,
-          "first": 1788947368,
-          "last": 1795264283,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 34,
-          "first": 1788969485,
-          "last": 1795411912,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 31,
-          "first": 1789086174,
-          "last": 1795289695,
-          "playlists": {
-            "1default": 31
           }
         }
       ]
@@ -6450,6 +6450,48 @@
       ]
     },
     {
+      "artist": "Your Smith",
+      "album": "Bad Habit",
+      "count": 101,
+      "first": 1788947368,
+      "last": 1795466360,
+      "songs": [
+        {
+          "artist": "Your Smith",
+          "title": "Debbie",
+          "album": "Bad Habit",
+          "count": 35,
+          "first": 1788947368,
+          "last": 1795264283,
+          "playlists": {
+            "1default": 35
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Ooh Wee",
+          "album": "Bad Habit",
+          "count": 34,
+          "first": 1788969485,
+          "last": 1795411912,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "Your Smith",
+          "title": "Bad Habit",
+          "album": "Bad Habit",
+          "count": 32,
+          "first": 1789086174,
+          "last": 1795466360,
+          "playlists": {
+            "1default": 32
+          }
+        }
+      ]
+    },
+    {
       "artist": "Jaguar Stevens",
       "album": "Jaguar Stevens",
       "count": 100,
@@ -6487,48 +6529,6 @@
           "last": 1795344963,
           "playlists": {
             "1default": 32
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Your Smith",
-      "album": "Bad Habit",
-      "count": 100,
-      "first": 1788947368,
-      "last": 1795411912,
-      "songs": [
-        {
-          "artist": "Your Smith",
-          "title": "Debbie",
-          "album": "Bad Habit",
-          "count": 35,
-          "first": 1788947368,
-          "last": 1795264283,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Ooh Wee",
-          "album": "Bad Habit",
-          "count": 34,
-          "first": 1788969485,
-          "last": 1795411912,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "Your Smith",
-          "title": "Bad Habit",
-          "album": "Bad Habit",
-          "count": 31,
-          "first": 1789086174,
-          "last": 1795289695,
-          "playlists": {
-            "1default": 31
           }
         }
       ]
@@ -8278,9 +8278,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12903,
+      "count": 12908,
       "first": 1788901564,
-      "last": 1795465262,
+      "last": 1795466360,
       "songs": [
         {
           "artist": "Tele Novella",
