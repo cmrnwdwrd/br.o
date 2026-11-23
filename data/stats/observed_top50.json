@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-22T23:52:11.832355+00:00",
+  "updatedAt": "2026-11-23T00:02:06.552029+00:00",
   "summary": {
-    "totalPlays": 28017,
+    "totalPlays": 28020,
     "unknownPlays": 1145,
     "uniqueTracks": 2752,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795391494
+    "lastObserved": 1795392110
   },
   "topSongs": [
     {
@@ -206,6 +206,18 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 43,
+      "first": 1789063640,
+      "last": 1795392110,
+      "playlists": {
+        "1default": 37,
+        "landlockd surfrock": 6
+      }
+    },
+    {
       "artist": "The Cardigans",
       "title": "Step On Me",
       "album": "First Band On The Moon (Remastered)",
@@ -215,18 +227,6 @@
       "playlists": {
         "1default": 38,
         "texting your situationship": 5
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 42,
-      "first": 1789063640,
-      "last": 1795303871,
-      "playlists": {
-        "1default": 36,
-        "landlockd surfrock": 6
       }
     },
     {
@@ -1447,9 +1447,9 @@
     },
     {
       "artist": "Mitski",
-      "count": 304,
+      "count": 305,
       "first": 1788920128,
-      "last": 1795384387,
+      "last": 1795391720,
       "songs": [
         {
           "artist": "Mitski",
@@ -1465,6 +1465,17 @@
         },
         {
           "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 33,
+          "first": 1789055950,
+          "last": 1795391720,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Mitski",
           "title": "Should've Been Me",
           "album": "Laurel Hell",
           "count": 33,
@@ -1472,17 +1483,6 @@
           "last": 1795384387,
           "playlists": {
             "1default": 33
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 32,
-          "first": 1789055950,
-          "last": 1794869284,
-          "playlists": {
-            "1default": 32
           }
         },
         {
@@ -4846,6 +4846,37 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 75,
+      "first": 1788973386,
+      "last": 1795392110,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 43,
+          "first": 1789063640,
+          "last": 1795392110,
+          "playlists": {
+            "1default": 37,
+            "landlockd surfrock": 6
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 32,
+          "first": 1788973386,
+          "last": 1795041393,
+          "playlists": {
+            "1default": 32
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 75,
       "first": 1788914032,
@@ -4882,37 +4913,6 @@
           "last": 1795309494,
           "playlists": {
             "texting your situationship": 8
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 74,
-      "first": 1788973386,
-      "last": 1795303871,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 42,
-          "first": 1789063640,
-          "last": 1795303871,
-          "playlists": {
-            "1default": 36,
-            "landlockd surfrock": 6
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 32,
-          "first": 1788973386,
-          "last": 1795041393,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
@@ -7570,6 +7570,37 @@
       ]
     },
     {
+      "artist": "Mitski",
+      "album": "Laurel Hell",
+      "count": 66,
+      "first": 1788920128,
+      "last": 1795391720,
+      "songs": [
+        {
+          "artist": "Mitski",
+          "title": "Love Me More",
+          "album": "Laurel Hell",
+          "count": 33,
+          "first": 1789055950,
+          "last": 1795391720,
+          "playlists": {
+            "1default": 33
+          }
+        },
+        {
+          "artist": "Mitski",
+          "title": "Should've Been Me",
+          "album": "Laurel Hell",
+          "count": 33,
+          "first": 1788920128,
+          "last": 1795384387,
+          "playlists": {
+            "1default": 33
+          }
+        }
+      ]
+    },
+    {
       "artist": "Vampire Weekend",
       "album": "Father of the Bride",
       "count": 66,
@@ -7658,37 +7689,6 @@
           "last": 1795018880,
           "playlists": {
             "1default": 33
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mitski",
-      "album": "Laurel Hell",
-      "count": 65,
-      "first": 1788920128,
-      "last": 1795384387,
-      "songs": [
-        {
-          "artist": "Mitski",
-          "title": "Should've Been Me",
-          "album": "Laurel Hell",
-          "count": 33,
-          "first": 1788920128,
-          "last": 1795384387,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Mitski",
-          "title": "Love Me More",
-          "album": "Laurel Hell",
-          "count": 32,
-          "first": 1789055950,
-          "last": 1794869284,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
@@ -8277,9 +8277,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12705,
+      "count": 12708,
       "first": 1788901564,
-      "last": 1795391494,
+      "last": 1795392110,
       "songs": [
         {
           "artist": "Tele Novella",
