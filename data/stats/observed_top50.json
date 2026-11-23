@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-23T09:06:48.599021+00:00",
+  "updatedAt": "2026-11-23T09:21:54.934092+00:00",
   "summary": {
-    "totalPlays": 28136,
+    "totalPlays": 28141,
     "unknownPlays": 1146,
     "uniqueTracks": 2752,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795424692
+    "lastObserved": 1795425700
   },
   "topSongs": [
     {
@@ -417,6 +417,17 @@
       }
     },
     {
+      "artist": "Jaguar Stevens",
+      "title": "Dying Dance",
+      "album": "Jaguar Stevens",
+      "count": 35,
+      "first": 1788975620,
+      "last": 1795425136,
+      "playlists": {
+        "1default": 35
+      }
+    },
+    {
       "artist": "David Bowie",
       "title": "I'm Afraid of Americans (V1)",
       "album": "Legacy (Deluxe Edition)",
@@ -577,17 +588,6 @@
       "count": 35,
       "first": 1788990464,
       "last": 1795386903,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Opium",
-      "title": "Brainsick",
-      "album": "Brainsick",
-      "count": 35,
-      "first": 1789063255,
-      "last": 1795383520,
       "playlists": {
         "1default": 35
       }
@@ -3456,10 +3456,21 @@
     },
     {
       "artist": "Sjowgren",
-      "count": 101,
+      "count": 102,
       "first": 1788965724,
-      "last": 1795400560,
+      "last": 1795425700,
       "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 34,
+          "first": 1789225488,
+          "last": 1795425700,
+          "playlists": {
+            "1default": 34
+          }
+        },
         {
           "artist": "Sjowgren",
           "title": "Flip Phones",
@@ -3480,17 +3491,6 @@
           "last": 1795264631,
           "playlists": {
             "1default": 34
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 33,
-          "first": 1789225488,
-          "last": 1795018880,
-          "playlists": {
-            "1default": 33
           }
         }
       ]
@@ -3632,19 +3632,19 @@
     },
     {
       "artist": "Jaguar Stevens",
-      "count": 98,
+      "count": 99,
       "first": 1788975620,
-      "last": 1795390240,
+      "last": 1795425136,
       "songs": [
         {
           "artist": "Jaguar Stevens",
           "title": "Dying Dance",
           "album": "Jaguar Stevens",
-          "count": 34,
+          "count": 35,
           "first": 1788975620,
-          "last": 1795119580,
+          "last": 1795425136,
           "playlists": {
-            "1default": 34
+            "1default": 35
           }
         },
         {
@@ -3970,9 +3970,9 @@
     },
     {
       "artist": "Cage The Elephant",
-      "count": 84,
+      "count": 85,
       "first": 1788928254,
-      "last": 1795276088,
+      "last": 1795425285,
       "songs": [
         {
           "artist": "Cage The Elephant",
@@ -3989,11 +3989,11 @@
           "artist": "Cage The Elephant",
           "title": "Skin and Bones - Mix 2020",
           "album": "Skin and Bones",
-          "count": 33,
+          "count": 34,
           "first": 1788928254,
-          "last": 1795118320,
+          "last": 1795425285,
           "playlists": {
-            "1default": 33
+            "1default": 34
           }
         },
         {
@@ -6483,19 +6483,19 @@
     {
       "artist": "Jaguar Stevens",
       "album": "Jaguar Stevens",
-      "count": 98,
+      "count": 99,
       "first": 1788975620,
-      "last": 1795390240,
+      "last": 1795425136,
       "songs": [
         {
           "artist": "Jaguar Stevens",
           "title": "Dying Dance",
           "album": "Jaguar Stevens",
-          "count": 34,
+          "count": 35,
           "first": 1788975620,
-          "last": 1795119580,
+          "last": 1795425136,
           "playlists": {
-            "1default": 34
+            "1default": 35
           }
         },
         {
@@ -7380,6 +7380,37 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "album": "win'20",
+      "count": 68,
+      "first": 1789059354,
+      "last": 1795425700,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 34,
+          "first": 1789225488,
+          "last": 1795425700,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 34,
+          "first": 1789059354,
+          "last": 1795400560,
+          "playlists": {
+            "1default": 34
+          }
+        }
+      ]
+    },
+    {
       "artist": "botch",
       "album": "a machine as big as a city with a concert at the center",
       "count": 68,
@@ -7512,37 +7543,6 @@
           "playlists": {
             "sad girl no friends saturday": 10,
             "for the girls driving 85": 12
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "album": "win'20",
-      "count": 67,
-      "first": 1789059354,
-      "last": 1795400560,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 34,
-          "first": 1789059354,
-          "last": 1795400560,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 33,
-          "first": 1789225488,
-          "last": 1795018880,
-          "playlists": {
-            "1default": 33
           }
         }
       ]
@@ -8267,9 +8267,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12789,
+      "count": 12794,
       "first": 1788901564,
-      "last": 1795424692,
+      "last": 1795425700,
       "songs": [
         {
           "artist": "Tele Novella",
