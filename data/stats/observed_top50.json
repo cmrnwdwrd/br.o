@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-23T21:36:50.792092+00:00",
+  "updatedAt": "2026-11-23T21:41:55.050634+00:00",
   "summary": {
-    "totalPlays": 28303,
+    "totalPlays": 28305,
     "unknownPlays": 1146,
     "uniqueTracks": 2753,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795469811
+    "lastObserved": 1795470040
   },
   "topSongs": [
     {
@@ -527,6 +527,17 @@
       }
     },
     {
+      "artist": "Dreamer Isioma",
+      "title": "Sensitive",
+      "album": "Sensitive",
+      "count": 35,
+      "first": 1789057751,
+      "last": 1795470040,
+      "playlists": {
+        "1default": 35
+      }
+    },
+    {
       "artist": "Lil Darkie",
       "title": "DISINTEGRATE",
       "album": "SWAMP",
@@ -577,17 +588,6 @@
       "count": 35,
       "first": 1789060859,
       "last": 1795467397,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Bell X1",
-      "title": "The Great Defector",
-      "album": "Blue Lights on the Runway",
-      "count": 35,
-      "first": 1788927733,
-      "last": 1795466080,
       "playlists": {
         "1default": 35
       }
@@ -3310,6 +3310,47 @@
       ]
     },
     {
+      "artist": "Jesus Christ Taxi Driver",
+      "count": 104,
+      "first": 1788919863,
+      "last": 1795469845,
+      "songs": [
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Pawn Shop Prada",
+          "album": "Lick My Soul",
+          "count": 36,
+          "first": 1788919863,
+          "last": 1795271706,
+          "playlists": {
+            "1default": 36
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "STUPIDMOTHERFUCKER",
+          "album": "Lick My Soul",
+          "count": 35,
+          "first": 1788989164,
+          "last": 1795264476,
+          "playlists": {
+            "1default": 35
+          }
+        },
+        {
+          "artist": "Jesus Christ Taxi Driver",
+          "title": "Diabolical Catholic",
+          "album": "Lick My Soul",
+          "count": 33,
+          "first": 1789139069,
+          "last": 1795469845,
+          "playlists": {
+            "1default": 33
+          }
+        }
+      ]
+    },
+    {
       "artist": "Sjowgren",
       "count": 104,
       "first": 1788965724,
@@ -3450,47 +3491,6 @@
           "last": 1795405628,
           "playlists": {
             "1default": 33
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jesus Christ Taxi Driver",
-      "count": 103,
-      "first": 1788919863,
-      "last": 1795283171,
-      "songs": [
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Pawn Shop Prada",
-          "album": "Lick My Soul",
-          "count": 36,
-          "first": 1788919863,
-          "last": 1795271706,
-          "playlists": {
-            "1default": 36
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "STUPIDMOTHERFUCKER",
-          "album": "Lick My Soul",
-          "count": 35,
-          "first": 1788989164,
-          "last": 1795264476,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "Jesus Christ Taxi Driver",
-          "title": "Diabolical Catholic",
-          "album": "Lick My Soul",
-          "count": 32,
-          "first": 1789139069,
-          "last": 1795283171,
-          "playlists": {
-            "1default": 32
           }
         }
       ]
@@ -6399,9 +6399,9 @@
     {
       "artist": "Jesus Christ Taxi Driver",
       "album": "Lick My Soul",
-      "count": 103,
+      "count": 104,
       "first": 1788919863,
-      "last": 1795283171,
+      "last": 1795469845,
       "songs": [
         {
           "artist": "Jesus Christ Taxi Driver",
@@ -6429,11 +6429,11 @@
           "artist": "Jesus Christ Taxi Driver",
           "title": "Diabolical Catholic",
           "album": "Lick My Soul",
-          "count": 32,
+          "count": 33,
           "first": 1789139069,
-          "last": 1795283171,
+          "last": 1795469845,
           "playlists": {
-            "1default": 32
+            "1default": 33
           }
         }
       ]
@@ -8267,9 +8267,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12923,
+      "count": 12925,
       "first": 1788901564,
-      "last": 1795469587,
+      "last": 1795470040,
       "songs": [
         {
           "artist": "Tele Novella",
