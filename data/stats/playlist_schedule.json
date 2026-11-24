@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T11:01:53.717441+00:00",
+  "updatedAt": "2026-11-24T13:17:11.337304+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 37,
-    "sessionCount": 983,
+    "sessionCount": 985,
     "firstObserved": 1788901564,
-    "lastObserved": 1795516434
+    "lastObserved": 1795525375
   },
   "playlists": [
     {
@@ -3694,10 +3694,10 @@
     },
     {
       "playlist": "carhartts",
-      "sessionCount": 44,
-      "playCount": 1290,
+      "sessionCount": 45,
+      "playCount": 1294,
       "firstObserved": 1788955289,
-      "lastObserved": 1795438816,
+      "lastObserved": 1795525375,
       "typicalStartMinute": 364,
       "typicalDurationMinutes": 120,
       "confidence": "High",
@@ -3735,7 +3735,7 @@
           0.0,
           0.0,
           0.0,
-          581.1,
+          596.5,
           600.0,
           21.9,
           0.0,
@@ -4009,8 +4009,8 @@
           0.0,
           0.0,
           0.0,
-          131.1,
-          150.0,
+          143.2,
+          153.3,
           150.0,
           150.0,
           150.0,
@@ -4607,7 +4607,7 @@
           0,
           0,
           0,
-          10,
+          11,
           0,
           0,
           0,
@@ -4767,7 +4767,7 @@
         },
         {
           "weekday": 1,
-          "sessions": 10,
+          "sessions": 11,
           "typicalStartMinute": 361,
           "typicalDurationMinutes": 120,
           "confidence": "High"
@@ -4788,6 +4788,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1795525375,
+          "end": 1795526299,
+          "durationMinutes": 15,
+          "playCount": 4
+        },
         {
           "start": 1795438816,
           "end": 1795446191,
@@ -4901,22 +4907,16 @@
           "end": 1792677350,
           "durationMinutes": 112,
           "playCount": 32
-        },
-        {
-          "start": 1792584128,
-          "end": 1792591373,
-          "durationMinutes": 121,
-          "playCount": 30
         }
       ]
     },
     {
       "playlist": "freestyle beats to crash your car to",
-      "sessionCount": 43,
-      "playCount": 1390,
+      "sessionCount": 44,
+      "playCount": 1401,
       "firstObserved": 1788948264,
-      "lastObserved": 1795437595,
-      "typicalStartMinute": 245,
+      "lastObserved": 1795522378,
+      "typicalStartMinute": 246,
       "typicalDurationMinutes": 120,
       "confidence": "High",
       "heatmapMinutes": [
@@ -4952,8 +4952,8 @@
           0.0,
           0.0,
           577.4,
-          600.0,
-          17.7,
+          647.0,
+          20.6,
           0.0,
           0.0,
           0.0,
@@ -5223,11 +5223,11 @@
           150.0,
           150.0,
           150.0,
-          150.0,
-          150.0,
-          150.0,
-          150.0,
-          17.7,
+          152.0,
+          165.0,
+          165.0,
+          165.0,
+          20.6,
           0.0,
           0.0,
           0.0,
@@ -5824,7 +5824,7 @@
           0,
           0,
           10,
-          0,
+          1,
           0,
           0,
           0,
@@ -5985,9 +5985,9 @@
         },
         {
           "weekday": 1,
-          "sessions": 10,
-          "typicalStartMinute": 242,
-          "typicalDurationMinutes": 120,
+          "sessions": 11,
+          "typicalStartMinute": 248,
+          "typicalDurationMinutes": 119,
           "confidence": "High"
         },
         {
@@ -6006,6 +6006,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1795522378,
+          "end": 1795525372,
+          "durationMinutes": 50,
+          "playCount": 11
+        },
         {
           "start": 1795437595,
           "end": 1795438816,
@@ -6119,12 +6125,6 @@
           "end": 1792584126,
           "durationMinutes": 121,
           "playCount": 34
-        },
-        {
-          "start": 1792490449,
-          "end": 1792497898,
-          "durationMinutes": 124,
-          "playCount": 31
         }
       ]
     },
