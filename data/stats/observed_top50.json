@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-24T04:36:47.861554+00:00",
+  "updatedAt": "2026-11-24T05:46:55.984623+00:00",
   "summary": {
-    "totalPlays": 28401,
+    "totalPlays": 28416,
     "unknownPlays": 1146,
     "uniqueTracks": 2753,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795494990
+    "lastObserved": 1795499015
   },
   "topSongs": [
     {
@@ -134,6 +134,18 @@
       }
     },
     {
+      "artist": "Mommy Long Legs",
+      "title": "Weird Girl",
+      "album": "Assholes",
+      "count": 53,
+      "first": 1789072780,
+      "last": 1795498572,
+      "playlists": {
+        "1default": 40,
+        "anti-capitalist weekday afternoon #1": 13
+      }
+    },
+    {
       "artist": "Viagra Boys",
       "title": "Worms",
       "album": "Street Worms",
@@ -143,18 +155,6 @@
       "playlists": {
         "1default": 39,
         "anti-capitalist weekday afternoon #1": 14
-      }
-    },
-    {
-      "artist": "Mommy Long Legs",
-      "title": "Weird Girl",
-      "album": "Assholes",
-      "count": 52,
-      "first": 1789072780,
-      "last": 1795430518,
-      "playlists": {
-        "1default": 39,
-        "anti-capitalist weekday afternoon #1": 13
       }
     },
     {
@@ -335,6 +335,17 @@
       "playlists": {
         "1default": 37,
         "jack johnson hackiesack friday afternoon": 2
+      }
+    },
+    {
+      "artist": "Lucius",
+      "title": "Old Tape (feat. Adam Granduciel) - Single Edit",
+      "album": "Old Tape (feat. Adam Granduciel)",
+      "count": 37,
+      "first": 1788912648,
+      "last": 1795498360,
+      "playlists": {
+        "1default": 37
       }
     },
     {
@@ -577,17 +588,6 @@
       "count": 36,
       "first": 1788975620,
       "last": 1795451640,
-      "playlists": {
-        "1default": 36
-      }
-    },
-    {
-      "artist": "Vampire Weekend",
-      "title": "How Long?",
-      "album": "Father of the Bride",
-      "count": 36,
-      "first": 1788990464,
-      "last": 1795451181,
       "playlists": {
         "1default": 36
       }
@@ -1730,10 +1730,21 @@
     },
     {
       "artist": "Atom Son of Man",
-      "count": 266,
+      "count": 267,
       "first": 1788902047,
-      "last": 1795489576,
+      "last": 1795496891,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 35,
+          "first": 1788902047,
+          "last": 1795496891,
+          "playlists": {
+            "1default": 35
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Think Too Much",
@@ -1752,17 +1763,6 @@
           "count": 34,
           "first": 1788928852,
           "last": 1795458363,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 34,
-          "first": 1788902047,
-          "last": 1795384578,
           "playlists": {
             "1default": 34
           }
@@ -3311,9 +3311,9 @@
     },
     {
       "artist": "The Salesmen",
-      "count": 105,
+      "count": 106,
       "first": 1788917230,
-      "last": 1795486174,
+      "last": 1795496671,
       "songs": [
         {
           "artist": "The Salesmen",
@@ -3328,6 +3328,17 @@
         },
         {
           "artist": "The Salesmen",
+          "title": "Little Plans",
+          "album": "WAR IN COLORADO!",
+          "count": 35,
+          "first": 1788970790,
+          "last": 1795496671,
+          "playlists": {
+            "1default": 35
+          }
+        },
+        {
+          "artist": "The Salesmen",
           "title": "Tell Me That You Like It",
           "album": "Tell Me That You Like It",
           "count": 34,
@@ -3336,16 +3347,46 @@
           "playlists": {
             "1default": 34
           }
+        }
+      ]
+    },
+    {
+      "artist": "Sjowgren",
+      "count": 105,
+      "first": 1788965724,
+      "last": 1795497666,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 35,
+          "first": 1789225488,
+          "last": 1795497666,
+          "playlists": {
+            "1default": 35
+          }
         },
         {
-          "artist": "The Salesmen",
-          "title": "Little Plans",
-          "album": "WAR IN COLORADO!",
-          "count": 34,
-          "first": 1788970790,
-          "last": 1795385950,
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 35,
+          "first": 1789059354,
+          "last": 1795468762,
           "playlists": {
-            "1default": 34
+            "1default": 35
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Now & Then",
+          "album": "Now & Then",
+          "count": 35,
+          "first": 1788965724,
+          "last": 1795449948,
+          "playlists": {
+            "1default": 35
           }
         }
       ]
@@ -3387,47 +3428,6 @@
           "last": 1795469845,
           "playlists": {
             "1default": 33
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "count": 104,
-      "first": 1788965724,
-      "last": 1795468762,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 35,
-          "first": 1789059354,
-          "last": 1795468762,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Now & Then",
-          "album": "Now & Then",
-          "count": 35,
-          "first": 1788965724,
-          "last": 1795449948,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 34,
-          "first": 1789225488,
-          "last": 1795425700,
-          "playlists": {
-            "1default": 34
           }
         }
       ]
@@ -5536,10 +5536,21 @@
     {
       "artist": "Atom Son of Man",
       "album": "1's a Man, 3's a Band",
-      "count": 199,
+      "count": 200,
       "first": 1788902047,
-      "last": 1795489576,
+      "last": 1795496891,
       "songs": [
+        {
+          "artist": "Atom Son of Man",
+          "title": "Hold Me",
+          "album": "1's a Man, 3's a Band",
+          "count": 35,
+          "first": 1788902047,
+          "last": 1795496891,
+          "playlists": {
+            "1default": 35
+          }
+        },
         {
           "artist": "Atom Son of Man",
           "title": "Junkyard Dog",
@@ -5547,17 +5558,6 @@
           "count": 34,
           "first": 1788928852,
           "last": 1795458363,
-          "playlists": {
-            "1default": 34
-          }
-        },
-        {
-          "artist": "Atom Son of Man",
-          "title": "Hold Me",
-          "album": "1's a Man, 3's a Band",
-          "count": 34,
-          "first": 1788902047,
-          "last": 1795384578,
           "playlists": {
             "1default": 34
           }
@@ -7380,6 +7380,37 @@
       ]
     },
     {
+      "artist": "Sjowgren",
+      "album": "win'20",
+      "count": 70,
+      "first": 1789059354,
+      "last": 1795497666,
+      "songs": [
+        {
+          "artist": "Sjowgren",
+          "title": "Dreams",
+          "album": "win'20",
+          "count": 35,
+          "first": 1789225488,
+          "last": 1795497666,
+          "playlists": {
+            "1default": 35
+          }
+        },
+        {
+          "artist": "Sjowgren",
+          "title": "Flip Phones",
+          "album": "win'20",
+          "count": 35,
+          "first": 1789059354,
+          "last": 1795468762,
+          "playlists": {
+            "1default": 35
+          }
+        }
+      ]
+    },
+    {
       "artist": "Pixies",
       "album": "Doolittle",
       "count": 69,
@@ -7479,37 +7510,6 @@
           "last": 1795481605,
           "playlists": {
             "1default": 33
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Sjowgren",
-      "album": "win'20",
-      "count": 69,
-      "first": 1789059354,
-      "last": 1795468762,
-      "songs": [
-        {
-          "artist": "Sjowgren",
-          "title": "Flip Phones",
-          "album": "win'20",
-          "count": 35,
-          "first": 1789059354,
-          "last": 1795468762,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "Sjowgren",
-          "title": "Dreams",
-          "album": "win'20",
-          "count": 34,
-          "first": 1789225488,
-          "last": 1795425700,
-          "playlists": {
-            "1default": 34
           }
         }
       ]
@@ -8267,9 +8267,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 13003,
+      "count": 13018,
       "first": 1788901564,
-      "last": 1795494990,
+      "last": 1795499015,
       "songs": [
         {
           "artist": "Tele Novella",
