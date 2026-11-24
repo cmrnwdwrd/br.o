@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-24T03:06:48.128039+00:00",
+  "updatedAt": "2026-11-24T03:31:48.950723+00:00",
   "summary": {
-    "totalPlays": 28381,
+    "totalPlays": 28387,
     "unknownPlays": 1146,
     "uniqueTracks": 2753,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795489576
+    "lastObserved": 1795491077
   },
   "topSongs": [
     {
@@ -194,6 +194,18 @@
       }
     },
     {
+      "artist": "Mallory Graham",
+      "title": "MOP",
+      "album": "MOP",
+      "count": 44,
+      "first": 1789063640,
+      "last": 1795490698,
+      "playlists": {
+        "1default": 38,
+        "landlockd surfrock": 6
+      }
+    },
+    {
       "artist": "The Cardigans",
       "title": "Step On Me",
       "album": "First Band On The Moon (Remastered)",
@@ -227,18 +239,6 @@
       "playlists": {
         "1default": 37,
         "texting your situationship": 6
-      }
-    },
-    {
-      "artist": "Mallory Graham",
-      "title": "MOP",
-      "album": "MOP",
-      "count": 43,
-      "first": 1789063640,
-      "last": 1795392110,
-      "playlists": {
-        "1default": 37,
-        "landlockd surfrock": 6
       }
     },
     {
@@ -381,6 +381,28 @@
       "playlists": {
         "1default": 34,
         "jack johnson hackiesack friday afternoon": 3
+      }
+    },
+    {
+      "artist": "The Shivas",
+      "title": "You Make Me Wanna Die",
+      "album": "You Know What to Do",
+      "count": 36,
+      "first": 1788975450,
+      "last": 1795490906,
+      "playlists": {
+        "1default": 36
+      }
+    },
+    {
+      "artist": "Mystee",
+      "title": "hard candy",
+      "album": "hard candy",
+      "count": 36,
+      "first": 1788915475,
+      "last": 1795490515,
+      "playlists": {
+        "1default": 36
       }
     },
     {
@@ -568,28 +590,6 @@
       "last": 1795271706,
       "playlists": {
         "1default": 36
-      }
-    },
-    {
-      "artist": "Squirrel Flower",
-      "title": "So Hot You're Hurting My Feelings",
-      "album": "Take It or Leave It / So Hot You're Hurting My Feelings",
-      "count": 35,
-      "first": 1789056580,
-      "last": 1795489192,
-      "playlists": {
-        "1default": 35
-      }
-    },
-    {
-      "artist": "Hazel English",
-      "title": "Five and Dime",
-      "album": "Wake UP!",
-      "count": 35,
-      "first": 1789065292,
-      "last": 1795488487,
-      "playlists": {
-        "1default": 35
       }
     }
   ],
@@ -4846,6 +4846,37 @@
       ]
     },
     {
+      "artist": "Mallory Graham",
+      "count": 77,
+      "first": 1788973386,
+      "last": 1795490698,
+      "songs": [
+        {
+          "artist": "Mallory Graham",
+          "title": "MOP",
+          "album": "MOP",
+          "count": 44,
+          "first": 1789063640,
+          "last": 1795490698,
+          "playlists": {
+            "1default": 38,
+            "landlockd surfrock": 6
+          }
+        },
+        {
+          "artist": "Mallory Graham",
+          "title": "Mallard",
+          "album": "Mallard",
+          "count": 33,
+          "first": 1788973386,
+          "last": 1795399587,
+          "playlists": {
+            "1default": 33
+          }
+        }
+      ]
+    },
+    {
       "artist": "Lorde",
       "count": 77,
       "first": 1788914032,
@@ -4923,37 +4954,6 @@
           "last": 1795213995,
           "playlists": {
             "escaping from cu boulder by giselle": 7
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Mallory Graham",
-      "count": 76,
-      "first": 1788973386,
-      "last": 1795399587,
-      "songs": [
-        {
-          "artist": "Mallory Graham",
-          "title": "MOP",
-          "album": "MOP",
-          "count": 43,
-          "first": 1789063640,
-          "last": 1795392110,
-          "playlists": {
-            "1default": 37,
-            "landlockd surfrock": 6
-          }
-        },
-        {
-          "artist": "Mallory Graham",
-          "title": "Mallard",
-          "album": "Mallard",
-          "count": 33,
-          "first": 1788973386,
-          "last": 1795399587,
-          "playlists": {
-            "1default": 33
           }
         }
       ]
@@ -8267,9 +8267,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 12983,
+      "count": 12989,
       "first": 1788901564,
-      "last": 1795489576,
+      "last": 1795491077,
       "songs": [
         {
           "artist": "Tele Novella",
