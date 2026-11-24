@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T21:17:36.550554+00:00",
+  "updatedAt": "2026-11-24T23:27:34.768502+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 37,
-    "sessionCount": 986,
+    "sessionCount": 988,
     "firstObserved": 1788901564,
-    "lastObserved": 1795532542
+    "lastObserved": 1795561440
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 363,
-      "playCount": 13146,
+      "sessionCount": 364,
+      "playCount": 13152,
       "firstObserved": 1788901564,
-      "lastObserved": 1795532542,
-      "typicalStartMinute": 384,
-      "typicalDurationMinutes": 49,
+      "lastObserved": 1795560004,
+      "typicalStartMinute": 387,
+      "typicalDurationMinutes": 48,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -62,8 +62,8 @@
           660.0,
           660.0,
           619.5,
-          653.9,
-          113.2,
+          673.9,
+          117.2,
           346.6,
           660.0,
           660.0,
@@ -365,9 +365,9 @@
           150.0,
           158.9,
           165.0,
-          165.0,
-          165.0,
-          42.1,
+          169.9,
+          180.0,
+          46.1,
           15.0,
           18.0,
           38.1,
@@ -934,7 +934,7 @@
           0,
           0,
           0,
-          1,
+          2,
           4,
           10,
           0,
@@ -1085,9 +1085,9 @@
         },
         {
           "weekday": 1,
-          "sessions": 44,
-          "typicalStartMinute": 94,
-          "typicalDurationMinutes": 182,
+          "sessions": 45,
+          "typicalStartMinute": 65,
+          "typicalDurationMinutes": 56,
           "confidence": "Low"
         },
         {
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1795560004,
+          "end": 1795561440,
+          "durationMinutes": 24,
+          "playCount": 6
+        },
         {
           "start": 1795532542,
           "end": 1795555167,
@@ -1240,21 +1246,15 @@
           "end": 1795148923,
           "durationMinutes": 43,
           "playCount": 12
-        },
-        {
-          "start": 1795134656,
-          "end": 1795140955,
-          "durationMinutes": 105,
-          "playCount": 30
         }
       ]
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "sessionCount": 51,
-      "playCount": 935,
+      "sessionCount": 52,
+      "playCount": 943,
       "firstObserved": 1788991800,
-      "lastObserved": 1795475024,
+      "lastObserved": 1795561440,
       "typicalStartMinute": 973,
       "typicalDurationMinutes": 87,
       "confidence": "High",
@@ -1302,7 +1302,7 @@
           0.0,
           0.0,
           0.0,
-          532.5,
+          556.8,
           305.5,
           0.0,
           0.0,
@@ -1606,8 +1606,8 @@
           0.0,
           0.0,
           0.0,
-          116.5,
-          150.0,
+          127.5,
+          163.3,
           143.3,
           122.7,
           140.8,
@@ -2174,7 +2174,7 @@
           0,
           0,
           0,
-          11,
+          12,
           3,
           0,
           0,
@@ -2324,9 +2324,9 @@
         },
         {
           "weekday": 1,
-          "sessions": 14,
-          "typicalStartMinute": 978,
-          "typicalDurationMinutes": 69,
+          "sessions": 15,
+          "typicalStartMinute": 977,
+          "typicalDurationMinutes": 52,
           "confidence": "High"
         },
         {
@@ -2345,6 +2345,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1795561440,
+          "end": 1795562898,
+          "durationMinutes": 24,
+          "playCount": 8
+        },
         {
           "start": 1795475024,
           "end": 1795480287,
@@ -2458,12 +2464,6 @@
           "end": 1792625506,
           "durationMinutes": 91,
           "playCount": 27
-        },
-        {
-          "start": 1792533778,
-          "end": 1792539202,
-          "durationMinutes": 90,
-          "playCount": 26
         }
       ]
     },
