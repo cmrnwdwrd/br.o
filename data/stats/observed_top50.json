@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-24T17:17:44.440047+00:00",
+  "updatedAt": "2026-11-24T17:22:38.299168+00:00",
   "summary": {
-    "totalPlays": 28557,
+    "totalPlays": 28559,
     "unknownPlays": 1146,
     "uniqueTracks": 2753,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795540516
+    "lastObserved": 1795540914
   },
   "topSongs": [
     {
@@ -5443,6 +5443,36 @@
       ]
     },
     {
+      "artist": "Against Me!",
+      "count": 69,
+      "first": 1788947810,
+      "last": 1795540720,
+      "songs": [
+        {
+          "artist": "Against Me!",
+          "title": "Baby, I'm an Anarchist!",
+          "album": "Reinventing Axl Rose",
+          "count": 35,
+          "first": 1788947810,
+          "last": 1795453526,
+          "playlists": {
+            "1default": 35
+          }
+        },
+        {
+          "artist": "Against Me!",
+          "title": "I Was a Teenage Anarchist",
+          "album": "White Crosses",
+          "count": 34,
+          "first": 1789059805,
+          "last": 1795540720,
+          "playlists": {
+            "1default": 34
+          }
+        }
+      ]
+    },
+    {
       "artist": "Juno Rossa",
       "count": 69,
       "first": 1789166634,
@@ -5496,36 +5526,6 @@
           "count": 34,
           "first": 1788987870,
           "last": 1795378883,
-          "playlists": {
-            "1default": 34
-          }
-        }
-      ]
-    },
-    {
-      "artist": "U2",
-      "count": 69,
-      "first": 1788921291,
-      "last": 1795451788,
-      "songs": [
-        {
-          "artist": "U2",
-          "title": "Sunday Bloody Sunday - Remastered 2008",
-          "album": "War (Remastered)",
-          "count": 35,
-          "first": 1788921291,
-          "last": 1795451788,
-          "playlists": {
-            "1default": 35
-          }
-        },
-        {
-          "artist": "U2",
-          "title": "Pride (In The Name Of Love) - Remastered 2009",
-          "album": "The Unforgettable Fire (Remastered)",
-          "count": 34,
-          "first": 1788964687,
-          "last": 1795066346,
           "playlists": {
             "1default": 34
           }
@@ -8225,9 +8225,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 13058,
+      "count": 13060,
       "first": 1788901564,
-      "last": 1795540516,
+      "last": 1795540914,
       "songs": [
         {
           "artist": "Tele Novella",
