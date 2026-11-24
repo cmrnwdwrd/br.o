@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-24T16:18:00.848199+00:00",
+  "updatedAt": "2026-11-24T16:32:44.342608+00:00",
   "summary": {
-    "totalPlays": 28542,
+    "totalPlays": 28546,
     "unknownPlays": 1146,
     "uniqueTracks": 2753,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795537045
+    "lastObserved": 1795537802
   },
   "topSongs": [
     {
@@ -395,6 +395,17 @@
       }
     },
     {
+      "artist": "The Presidents Of The United States Of America",
+      "title": "Lump",
+      "album": "The Presidents of The United States of America: Ten Year Super Bonus Special Anniversary Edition",
+      "count": 36,
+      "first": 1789059997,
+      "last": 1795537101,
+      "playlists": {
+        "1default": 36
+      }
+    },
+    {
       "artist": "isobel",
       "title": "laundry",
       "album": "laundry",
@@ -577,17 +588,6 @@
       "count": 36,
       "first": 1789065520,
       "last": 1795456279,
-      "playlists": {
-        "1default": 36
-      }
-    },
-    {
-      "artist": "The Ephinjis",
-      "title": "Hot to Go!",
-      "album": "Hot to Go!",
-      "count": 36,
-      "first": 1789033065,
-      "last": 1795455029,
       "playlists": {
         "1default": 36
       }
@@ -7653,6 +7653,37 @@
       ]
     },
     {
+      "artist": "Jethro Tull",
+      "album": "Stand Up",
+      "count": 67,
+      "first": 1788947080,
+      "last": 1795537236,
+      "songs": [
+        {
+          "artist": "Jethro Tull",
+          "title": "Nothing Is Easy",
+          "album": "Stand Up",
+          "count": 34,
+          "first": 1788968380,
+          "last": 1795537236,
+          "playlists": {
+            "1default": 34
+          }
+        },
+        {
+          "artist": "Jethro Tull",
+          "title": "A New Day Yesterday",
+          "album": "Stand Up",
+          "count": 33,
+          "first": 1788947080,
+          "last": 1795462075,
+          "playlists": {
+            "1default": 33
+          }
+        }
+      ]
+    },
+    {
       "artist": "Mitski",
       "album": "Laurel Hell",
       "count": 67,
@@ -7677,37 +7708,6 @@
           "count": 33,
           "first": 1789055950,
           "last": 1795391720,
-          "playlists": {
-            "1default": 33
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Jethro Tull",
-      "album": "Stand Up",
-      "count": 66,
-      "first": 1788947080,
-      "last": 1795462075,
-      "songs": [
-        {
-          "artist": "Jethro Tull",
-          "title": "A New Day Yesterday",
-          "album": "Stand Up",
-          "count": 33,
-          "first": 1788947080,
-          "last": 1795462075,
-          "playlists": {
-            "1default": 33
-          }
-        },
-        {
-          "artist": "Jethro Tull",
-          "title": "Nothing Is Easy",
-          "album": "Stand Up",
-          "count": 33,
-          "first": 1788968380,
-          "last": 1795263978,
           "playlists": {
             "1default": 33
           }
@@ -8225,9 +8225,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 13044,
+      "count": 13048,
       "first": 1788901564,
-      "last": 1795536781,
+      "last": 1795537802,
       "songs": [
         {
           "artist": "Tele Novella",
