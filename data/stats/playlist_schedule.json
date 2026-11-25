@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T05:47:36.431613+00:00",
+  "updatedAt": "2026-11-25T05:57:35.397663+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 37,
-    "sessionCount": 989,
+    "sessionCount": 990,
     "firstObserved": 1788901564,
-    "lastObserved": 1795566804
+    "lastObserved": 1795585721
   },
   "playlists": [
     {
@@ -6130,10 +6130,10 @@
     },
     {
       "playlist": "more home alone",
-      "sessionCount": 33,
-      "playCount": 440,
+      "sessionCount": 34,
+      "playCount": 445,
       "firstObserved": 1788929259,
-      "lastObserved": 1795501165,
+      "lastObserved": 1795585721,
       "typicalStartMinute": 1368,
       "typicalDurationMinutes": 43,
       "confidence": "High",
@@ -6187,8 +6187,8 @@
           0.0,
           0.0,
           0.0,
-          134.7,
-          111.4
+          146.0,
+          111.6
         ],
         [
           0.0,
@@ -6512,8 +6512,8 @@
           0.0,
           0.0,
           0.0,
-          134.7,
-          111.4,
+          146.0,
+          111.6,
           0.0,
           0.0,
           0.0
@@ -7059,7 +7059,7 @@
           0,
           0,
           0,
-          11,
+          12,
           0
         ],
         [
@@ -7203,7 +7203,7 @@
         },
         {
           "weekday": 1,
-          "sessions": 11,
+          "sessions": 12,
           "typicalStartMinute": 1367,
           "typicalDurationMinutes": 23,
           "confidence": "High"
@@ -7217,6 +7217,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1795585721,
+          "end": 1795586410,
+          "durationMinutes": 11,
+          "playCount": 5
+        },
         {
           "start": 1795501165,
           "end": 1795502039,
@@ -7330,12 +7336,6 @@
           "end": 1791869484,
           "durationMinutes": 46,
           "playCount": 18
-        },
-        {
-          "start": 1791434811,
-          "end": 1791437555,
-          "durationMinutes": 46,
-          "playCount": 16
         }
       ]
     },
