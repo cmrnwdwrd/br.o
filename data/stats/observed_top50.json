@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-24T23:37:41.493039+00:00",
+  "updatedAt": "2026-11-25T00:07:37.284292+00:00",
   "summary": {
-    "totalPlays": 28642,
+    "totalPlays": 28652,
     "unknownPlays": 1146,
     "uniqueTracks": 2753,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795563461
+    "lastObserved": 1795565126
   },
   "topSongs": [
     {
@@ -37,6 +37,18 @@
       }
     },
     {
+      "artist": "The Salesmen, Ike Spivak",
+      "title": "Happy Boy",
+      "album": "WAR IN COLORADO!",
+      "count": 57,
+      "first": 1788993017,
+      "last": 1795564628,
+      "playlists": {
+        "1default": 42,
+        "anti-capitalist weekday afternoon #1": 15
+      }
+    },
+    {
       "artist": "Modest Mouse",
       "title": "Bury Me With It",
       "album": "Good News For People Who Love Bad News",
@@ -61,24 +73,24 @@
       }
     },
     {
-      "artist": "Ramones",
-      "title": "Judy Is a Punk - 2016 Remaster",
-      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "artist": "Lush",
+      "title": "Ladykillers",
+      "album": "Lovelife",
       "count": 56,
-      "first": 1788968644,
-      "last": 1795562689,
+      "first": 1789015368,
+      "last": 1795563868,
       "playlists": {
         "1default": 42,
         "anti-capitalist weekday afternoon #1": 14
       }
     },
     {
-      "artist": "The Salesmen, Ike Spivak",
-      "title": "Happy Boy",
-      "album": "WAR IN COLORADO!",
+      "artist": "Ramones",
+      "title": "Judy Is a Punk - 2016 Remaster",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
       "count": 56,
-      "first": 1788993017,
-      "last": 1795552585,
+      "first": 1788968644,
+      "last": 1795562689,
       "playlists": {
         "1default": 42,
         "anti-capitalist weekday afternoon #1": 14
@@ -95,18 +107,6 @@
         "1default": 39,
         "anti-capitalist weekday afternoon #1": 14,
         "jack johnson hackiesack friday afternoon": 3
-      }
-    },
-    {
-      "artist": "Lush",
-      "title": "Ladykillers",
-      "album": "Lovelife",
-      "count": 55,
-      "first": 1789015368,
-      "last": 1795543705,
-      "playlists": {
-        "1default": 42,
-        "anti-capitalist weekday afternoon #1": 13
       }
     },
     {
@@ -173,12 +173,12 @@
       "artist": "Destructo Disk",
       "title": "I Wish I Was A Riot Grrrl",
       "album": "Punk Rocks For Kids Who Can't Skate",
-      "count": 50,
+      "count": 51,
       "first": 1788996063,
-      "last": 1794942146,
+      "last": 1795563316,
       "playlists": {
         "1default": 38,
-        "anti-capitalist weekday afternoon #1": 12
+        "anti-capitalist weekday afternoon #1": 13
       }
     },
     {
@@ -8084,6 +8084,27 @@
       ]
     },
     {
+      "artist": "The Salesmen, Ike Spivak",
+      "album": "WAR IN COLORADO!",
+      "count": 57,
+      "first": 1788993017,
+      "last": 1795564628,
+      "songs": [
+        {
+          "artist": "The Salesmen, Ike Spivak",
+          "title": "Happy Boy",
+          "album": "WAR IN COLORADO!",
+          "count": 57,
+          "first": 1788993017,
+          "last": 1795564628,
+          "playlists": {
+            "1default": 42,
+            "anti-capitalist weekday afternoon #1": 15
+          }
+        }
+      ]
+    },
+    {
       "artist": "CAKE",
       "album": "Motorcade of Generosity",
       "count": 57,
@@ -8158,19 +8179,19 @@
       ]
     },
     {
-      "artist": "The Salesmen, Ike Spivak",
-      "album": "WAR IN COLORADO!",
+      "artist": "Lush",
+      "album": "Lovelife",
       "count": 56,
-      "first": 1788993017,
-      "last": 1795552585,
+      "first": 1789015368,
+      "last": 1795563868,
       "songs": [
         {
-          "artist": "The Salesmen, Ike Spivak",
-          "title": "Happy Boy",
-          "album": "WAR IN COLORADO!",
+          "artist": "Lush",
+          "title": "Ladykillers",
+          "album": "Lovelife",
           "count": 56,
-          "first": 1788993017,
-          "last": 1795552585,
+          "first": 1789015368,
+          "last": 1795563868,
           "playlists": {
             "1default": 42,
             "anti-capitalist weekday afternoon #1": 14
@@ -8196,27 +8217,6 @@
             "1default": 39,
             "anti-capitalist weekday afternoon #1": 14,
             "jack johnson hackiesack friday afternoon": 3
-          }
-        }
-      ]
-    },
-    {
-      "artist": "Lush",
-      "album": "Lovelife",
-      "count": 55,
-      "first": 1789015368,
-      "last": 1795543705,
-      "songs": [
-        {
-          "artist": "Lush",
-          "title": "Ladykillers",
-          "album": "Lovelife",
-          "count": 55,
-          "first": 1789015368,
-          "last": 1795543705,
-          "playlists": {
-            "1default": 42,
-            "anti-capitalist weekday afternoon #1": 13
           }
         }
       ]
@@ -8540,10 +8540,21 @@
     },
     {
       "playlist": "anti-capitalist weekday afternoon #1",
-      "count": 918,
+      "count": 928,
       "first": 1788904845,
-      "last": 1795563461,
+      "last": 1795565126,
       "songs": [
+        {
+          "artist": "Mothers",
+          "title": "It Hurts Until It Doesn't",
+          "album": "When You Walk A Long Distance You Are Tired",
+          "count": 23,
+          "first": 1788904845,
+          "last": 1795565126,
+          "playlists": {
+            "anti-capitalist weekday afternoon #1": 23
+          }
+        },
         {
           "artist": "Paramore",
           "title": "The News",
@@ -8567,34 +8578,23 @@
           }
         },
         {
-          "artist": "They Might Be Giants",
-          "title": "The Communists Have the Music",
-          "album": "The Communists Have the Music",
+          "artist": "Sidney Gish",
+          "title": "Filming School",
+          "album": "Filming School",
           "count": 22,
-          "first": 1788995009,
-          "last": 1795563461,
+          "first": 1789080556,
+          "last": 1795564936,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 22
           }
         },
         {
-          "artist": "The Mountain Goats",
-          "title": "This Year",
-          "album": "The Sunset Tree",
+          "artist": "Crywank",
+          "title": "I Am Shit",
+          "album": "Tomorrow Is Nearly Yesterday and Everyday Is Stupid",
           "count": 22,
-          "first": 1789425007,
-          "last": 1795563084,
-          "playlists": {
-            "anti-capitalist weekday afternoon #1": 22
-          }
-        },
-        {
-          "artist": "Neutral Milk Hotel",
-          "title": "Communist Daughter",
-          "album": "In the Aeroplane Over the Sea",
-          "count": 22,
-          "first": 1788994893,
-          "last": 1795562781,
+          "first": 1788996460,
+          "last": 1795564500,
           "playlists": {
             "anti-capitalist weekday afternoon #1": 22
           }
