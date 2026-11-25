@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T10:17:39.010861+00:00",
+  "updatedAt": "2026-11-25T10:37:43.929498+00:00",
   "timezone": "America/Denver",
   "windowDays": 90,
   "summary": {
     "playlistCount": 37,
-    "sessionCount": 993,
+    "sessionCount": 994,
     "firstObserved": 1788901564,
-    "lastObserved": 1795594789
+    "lastObserved": 1795602904
   },
   "playlists": [
     {
       "playlist": "1default",
-      "sessionCount": 365,
-      "playCount": 13228,
+      "sessionCount": 366,
+      "playCount": 13230,
       "firstObserved": 1788901564,
-      "lastObserved": 1795566804,
-      "typicalStartMinute": 388,
-      "typicalDurationMinutes": 49,
+      "lastObserved": 1795602904,
+      "typicalStartMinute": 385,
+      "typicalDurationMinutes": 48,
       "confidence": "Low",
       "heatmapMinutes": [
         [
@@ -76,7 +76,7 @@
           10.3,
           21.1,
           0.0,
-          297.3,
+          301.2,
           31.0,
           0.0,
           0.0,
@@ -415,7 +415,7 @@
           0.0,
           0.0,
           0.0,
-          142.3,
+          146.3,
           155.0,
           31.0,
           0.0,
@@ -948,7 +948,7 @@
           4,
           5,
           0,
-          11,
+          12,
           0,
           0,
           0,
@@ -1092,9 +1092,9 @@
         },
         {
           "weekday": 2,
-          "sessions": 72,
-          "typicalStartMinute": 1329,
-          "typicalDurationMinutes": 33,
+          "sessions": 73,
+          "typicalStartMinute": 1426,
+          "typicalDurationMinutes": 32,
           "confidence": "Low"
         },
         {
@@ -1127,6 +1127,12 @@
         }
       ],
       "recentSessions": [
+        {
+          "start": 1795602904,
+          "end": 1795603141,
+          "durationMinutes": 4,
+          "playCount": 2
+        },
         {
           "start": 1795566804,
           "end": 1795585720,
@@ -1240,12 +1246,6 @@
           "end": 1795172620,
           "durationMinutes": 30,
           "playCount": 10
-        },
-        {
-          "start": 1795159901,
-          "end": 1795162728,
-          "durationMinutes": 47,
-          "playCount": 11
         }
       ]
     },
@@ -2470,7 +2470,7 @@
     {
       "playlist": "breakbeat",
       "sessionCount": 48,
-      "playCount": 2453,
+      "playCount": 2457,
       "firstObserved": 1788938278,
       "lastObserved": 1795594789,
       "typicalStartMinute": 27,
@@ -2533,7 +2533,7 @@
           0.0,
           505.1,
           718.4,
-          330.3,
+          345.0,
           0.0,
           0.0,
           0.0,
@@ -2871,8 +2871,8 @@
           180.0,
           178.4,
           165.0,
-          155.3,
-          10.0,
+          165.0,
+          15.0,
           0.0,
           0.0,
           0.0,
@@ -3572,9 +3572,9 @@
       "recentSessions": [
         {
           "start": 1795594789,
-          "end": 1795602021,
-          "durationMinutes": 121,
-          "playCount": 35
+          "end": 1795602903,
+          "durationMinutes": 135,
+          "playCount": 39
         },
         {
           "start": 1795515432,
