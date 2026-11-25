@@ -1,15 +1,15 @@
 {
   "schemaVersion": 31,
-  "updatedAt": "2026-11-25T00:37:38.584314+00:00",
+  "updatedAt": "2026-11-25T01:02:40.698937+00:00",
   "summary": {
-    "totalPlays": 28658,
+    "totalPlays": 28665,
     "unknownPlays": 1146,
     "uniqueTracks": 2753,
     "uniqueArtists": 1715,
     "uniqueAlbums": 2231,
     "uniquePlaylists": 37,
     "firstObserved": 1788901564,
-    "lastObserved": 1795566804
+    "lastObserved": 1795568349
   },
   "topSongs": [
     {
@@ -395,6 +395,17 @@
       }
     },
     {
+      "artist": "Gorillaz, ScHoolboy Q",
+      "title": "Pac-Man (feat. ScHoolboy Q)",
+      "album": "Song Machine Episode 5",
+      "count": 36,
+      "first": 1788901855,
+      "last": 1795567361,
+      "playlists": {
+        "1default": 36
+      }
+    },
+    {
       "artist": "St. Paul & The Broken Bones",
       "title": "Apollo",
       "album": "Young Sick Camellia",
@@ -577,17 +588,6 @@
       "count": 36,
       "first": 1788914549,
       "last": 1795493275,
-      "playlists": {
-        "1default": 36
-      }
-    },
-    {
-      "artist": "Arcade Fire",
-      "title": "Wake Up",
-      "album": "Funeral",
-      "count": 36,
-      "first": 1788989909,
-      "last": 1795492939,
       "playlists": {
         "1default": 36
       }
@@ -3057,10 +3057,21 @@
     },
     {
       "artist": "The Cranberries",
-      "count": 113,
+      "count": 114,
       "first": 1788916461,
-      "last": 1795488212,
+      "last": 1795567795,
       "songs": [
+        {
+          "artist": "The Cranberries",
+          "title": "Ode To My Family",
+          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+          "count": 34,
+          "first": 1789060180,
+          "last": 1795567795,
+          "playlists": {
+            "1default": 34
+          }
+        },
         {
           "artist": "The Cranberries",
           "title": "Linger",
@@ -3081,17 +3092,6 @@
           "last": 1795468064,
           "playlists": {
             "1default": 34
-          }
-        },
-        {
-          "artist": "The Cranberries",
-          "title": "Ode To My Family",
-          "album": "No Need To Argue (The Complete Sessions 1994-1995)",
-          "count": 33,
-          "first": 1789060180,
-          "last": 1795388353,
-          "playlists": {
-            "1default": 33
           }
         },
         {
@@ -8225,9 +8225,9 @@
   "topPlaylists": [
     {
       "playlist": "1default",
-      "count": 13132,
+      "count": 13139,
       "first": 1788901564,
-      "last": 1795566804,
+      "last": 1795568349,
       "songs": [
         {
           "artist": "Tele Novella",
